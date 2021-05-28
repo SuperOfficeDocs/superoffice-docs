@@ -1,14 +1,24 @@
 ---
-uid: crmscript_ref_StatLib_execute_Parser_p
-title: StatLib.execute(Parser p)
+uid: crmscript_class_statlib_execute
+title: StatLib.execute()
+description: CRMScript method in the Attachment class that runs the query and aggregations and stores the results in either a Parser or StatResult
 intellisense: StatLib.execute
-keywords: execute(Parser)
+keywords: execute(Parser), execute(StatResult)
 so.topic: reference
 ---
 
-Execute the query and aggregation, and store the results in the Parser.
+# execute()
 
+Runs the query and aggregation and stores the results. You can choose between storing in a Parser or a StatResult by passing the appropriate object.
 
-* **p:** The parser to store the results in.
+## Methods
 
+* StatLib.execute(Parser p)
+* StatLib.execute(StatResult sr)
 
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| p | Parser | The instance to store the results in |
+| sr | StatResult | The instance to store the results in |

@@ -49,8 +49,8 @@ Pass a `String` containing date and time on format one of the listed formats. Th
 * YYYY-MM-DD HH:MM - automatically sets sec = 0
 * YYYYMMDDHHMMSS - mysql.timestamp
 * YYYY-MM-DD - automatically sets the time to 23:59:59 or 0:0:0 depending on endOfDay setting
-* an empty string or "0" - sets stamp to Jan 1. 1970 00:00:00
-* YYYY-MM-DD HH:MM:SS:XXX - isNull()
+* an empty string or "0" - sets stamp to Jan 1. 1970 00:00:00 and isNull()
+* YYYY-MM-DD HH:MM:SS:XXX
 
 ```crmscript!
 DateTime graduation = DateTime("2020-06-22 11:00");

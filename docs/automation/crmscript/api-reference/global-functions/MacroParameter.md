@@ -1,25 +1,32 @@
 ---
-description: MacroParameter MacroParameter(String p0, String p1, Map p2, String p3, String p4, Bool p5)
+uid: crmscript_global_macroparameter
+title: MacroParameter
+description: CRMScript MacroParameter constructor
 intellisense: Void.MacroParameter
 langref: 1
-keywords: MacroParameter(String,String,Map,String,String,Bool)
+keywords: MacroParameter(String,String,Map,String,String,Bool), MacroParameter(String,String,Map,String,String,Bool,String,Bool)
 so.topic: reference
 ---
 
+# MacroParameter MacroParameter()
 
-This function constructs and returns a macroparameter set with the six parameters passed in.
+MacroParameter constructor. You can optionally pass a default value and specify whether or not it is fixed.
+The Map control-configuration values the type of the parameter allow is also optional.
 
+## Functions
 
-
+* MacroParameter MacroParameter(String name, String type, Map controlConfig, String label, String description, Bool isOptional)
+* MacroParameter MacroParameter(String name, String type, Map controlConfig, String label, String description, Bool isOptional, String defaultValue, Bool defaultValueIsFixed)
 
 ## Parameters
 
-
- - p0: Name, the name of the parameter
- - p1: Type, the type of the parameter
- - p2: controlConfig: the control configuration values the type of the parameter allows. Optional
- - p3: Label. the label of the parameter.
- - p4: Description, a longer description of the parameter
- - p5: IsOptional, whether or not the parameter is optional. A boolean
-
-
+| Parameter | Type | Description |
+|---|---|---|
+| name | String | The name of the parameter. |
+| type | String | The type of the parameter. |
+| controlConfig | Map | Optional. The control-configuration values the type of the parameter allow. |
+| label | String | The label of the parameter. |
+| description | String | A longer description of the parameter. |
+| isOptional | Bool | Whether the parameter is optional. |
+| defaultValue | String | |
+| defaultValueIsFixed | Bool | Whether the default value of the parameter is fixed. |

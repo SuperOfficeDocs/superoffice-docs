@@ -1,39 +1,53 @@
 ﻿---
-uid: crmscript_ref_NSListAgent_GetLocalizedTextsByType
-title: LocalizedTextArray GetLocalizedTextsByType(LocalizedTextTypeArray textTypes)
+uid: crmscript_class_nslistagent_getlocalizedtextsbytype
+title: LocalizedText[] GetLocalizedTextsByType()
+description: CRMScript method in the NSListAgent class that gets localized text by their type
 intellisense: NSListAgent.GetLocalizedTextsByType
-keywords: NSListAgent, GetLocalizedTextsByType
+keywords: NSListAgent, GetLocalizedTextsByType, GetLocalizedTextsByType(Integer[])
 so.topic: reference
 ---
 
-Gets localized text by their type
+# GetLocalizedTextsByType()
 
-**Parameters:**
- - **textTypes** Array of LocalizedTextTypes. If null all texts are returned.
-     - Enum: 0 = Unknown 
-     - Enum: 1 = Label 
-     - Enum: 2 = Table 
-     - Enum: 3 = Column 
-     - Enum: 4 = ImportField 
-     - Enum: 5 = ImportObject 
-     - Enum: 6 = ImportGUICategory 
-     - Enum: 7 = StartupHints 
-     - Enum: 11 = FunctionRightLabel 
-     - Enum: 12 = FunctionRightDesc 
-     - Enum: 16 = StatusMonitorName 
-     - Enum: 19 = UdefContactLabel 
-     - Enum: 20 = UdefPersonLabel 
-     - Enum: 21 = UdefProjectLabel 
-     - Enum: 22 = UdefSaleLabel 
-     - Enum: 23 = UdefAppointmentLabel 
-     - Enum: 24 = UdefDocumentLabel 
-     - Enum: 41 = PushNotificationText 
+Gets localized text by their type.
 
-**Returns:** Array of LocalizedText objects
+Returns an array of LocalizedText objects.
+
+`LocalizedText[] GetLocalizedTextsByType(Integer[] textTypes)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| textTypes | Integer[] | Array of localized text types. If null, all texts are returned. |
+
+### Types
+
+| Enum | Type |
+|---|---|
+| 0 | Unknown |
+| 1 | Label |
+| 2 | Table |
+| 3 | Column |
+| 4 | ImportField |
+| 5 | ImportObject |
+| 6 | ImportGUICategory |
+| 7 | StartupHints |
+| 11 | FunctionRightLabel |
+| 12 | FunctionRightDesc |
+| 16 | StatusMonitorName |
+| 19 | UdefContactLabel |
+| 20 | UdefPersonLabel |
+| 21 | UdefProjectLabel |
+| 22 | UdefSaleLabel |
+| 23 | UdefAppointmentLabel |
+| 24 | UdefDocumentLabel |
+| 41 | PushNotificationText |
+
+## Examples
 
 ```crmscript
 NSListAgent agent;
 LocalizedTextTypeArray textTypes;
 LocalizedTextArray res = agent.GetLocalizedTextsByType(textTypes);
 ```
-

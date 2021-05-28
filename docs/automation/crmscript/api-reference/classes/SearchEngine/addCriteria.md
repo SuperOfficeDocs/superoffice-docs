@@ -1,27 +1,44 @@
 ---
-uid: crmscript_ref_SearchEngine_addCriteria_String_field_String_compOperator_String_value_String_rowOperator_Integer_priority
-title: SearchEngine.addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
+uid: crmscript_class_searchengine_addcriteria
+title: SearchEngine.addCriteria()
+description: CRMScript method in class SearchEngine that adds a criterion on a database field to the database query
 intellisense: SearchEngine.addCriteria
-keywords: addCriteria(String,String,String,String,Integer)
+keywords: addCriteria(String,String,String), addCriteria(String,String,String,String,Integer), addCriteria(String,String,String,String,String,Integer)
 so.topic: reference
 ---
 
+# addCriteria()
 
-Adds a criteria on a database-field to the database query
+Adds a criterion on a database field to the database query.
 
+You can optionally add a row operator, priority, and function to be applied to the field.
 
+## Methods
 
-* **field:** The field to make a restiction on
-* **compOperator:**  Comparison operator. Possible values:
-  OperatorEquals, OperatorNotEquals, OperatorLt, OperatorLte, OperatorGt,
-  OperatorGte, OperatorLike, OperatorNotLike, OperatorContains,
-  OperatorBeginsWith,  OperatorEndsWith,  OperatorIn, OperatorNotIn,
-  OperatorIs,  OperatorOracleLeftJoin, OperatorIsNot
-* **value:** The value to be compared with the field
-* **rowOperator:** Operator for composing this criteria with a following criteria
-  Possible values
-  OperatorAnd, OperatorOr, OperatorNotAnd, OperatorNotOr
-* **priority:** A number. All criterias with the same number will be placed inside
-   the same brackets
+* SearchEngine.addCriteria(String field, String compOperator, String value)
+* SearchEngine.addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
+* SearchEngine.addCriteria(String field, String function, String compOperator, String value, String rowOperator, Integer priority)
 
+## Parameters
 
+| Parameter | Type | Description |
+|---|---|---|
+| field | String | The field to restrict |
+| function | String | Optional. The function to use on `field` |
+| compOperator | String | Comparison operator |
+| value | String  The value to compare with `field` |
+| rowOperator | String | Optional. Operator for combining this and the next criterion |
+| priority | Integer | Optional. A number. All criteria with the same number will be placed
+inside the same brackets |
+
+### Functions
+
+[!include[ALT](../../../searchengine/includes/functions.md)]
+
+### Row operators
+
+[!include[ALT](../../../searchengine/includes/row-operators.md)]
+
+### Comparison operators
+
+[!include[ALT](../../../searchengine/includes/comp-operators.md)]

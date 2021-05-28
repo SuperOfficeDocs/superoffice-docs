@@ -1,27 +1,53 @@
 ---
-uid: crmscript_ref_SearchEngine_addDataField_String_field1_String_field2
-title: SearchEngine.addDataField(String field1, String field2)
+uid: crmscript_class_searchengine_adddatafield
+title: SearchEngine.addDataField()
+description: CRMScript method in class SearchEngine that adds a data field (a reference to a field instead of a value)
 intellisense: SearchEngine.addDataField
-keywords: addDataField(String,String)
+keywords: addDataField(String,String), addDataField(String,String,String)
 so.topic: reference
 ---
 
+# addDataField()
 
-Add a data field the SearchEngine. A data field is a field assigned to another field instead of a value.
+Adds a data field to the SearchEngine. A **data field** is a field assigned to another field instead of a value.
 
+You can optionally add a function to be applied to the second field.
 
-For example.
+> [!NOTE]
+> Can only be used in `update()` queries.
 
+## Methods
 
-    se.addDataField("customer.phone", "customer.cellphone");
-    
+* SearchEngine.addDataField(String field1, String field2)
+* SearchEngine.addDataField(String field1, String field2, String function)
 
-Means that we are going to assign the cellphone to the phone field.
+## Parameters
 
-Can only be used in `update()` queries.
+| Parameter | Type | Description |
+|---|---|---|
+| field1 | String | Field to assign to. |
+| field2 | String | Field where the value is found. |
+| function | String | Optional. Aggregate function to use for `field2`. |
 
+### Available functions
 
-* **field1:** Field to assign to.
-* **field2:** Field where the value is found.
+* count
+* avg
+* sum
+* max
+* min
+* hour
+* wday
+* upper
+* lower
+* castToVarchar
+* date
+* time
 
+## Example
 
+```crmscript
+se.addDataField("customer.phone", "customer.cellphone");
+```
+
+This means that we are going to assign the cellphone to the phone field.

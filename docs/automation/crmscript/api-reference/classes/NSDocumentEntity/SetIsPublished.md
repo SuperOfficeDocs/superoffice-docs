@@ -1,13 +1,20 @@
 ﻿---
-uid: crmscript_ref_NSDocumentEntity_SetIsPublished
-title: SetIsPublished(Boolean isPublished)
-intellisense: NSDocumentEntity.IsPublished
-keywords: NSDocumentEntity, IsPublished
+uid: crmscript_class_nsdocumententity_setispublished
+title: SetIsPublished()
+description: CRMScript method in the NSDocumentEntity class that sets the IsPublished property 
+intellisense: NSDocumentEntity.SetIsPublished
+keywords: NSDocumentEntity, IsPublished, SetIsPublished(Bool)
 so.topic: reference
 ---
 
+# SetIsPublished()
+
 Should this DocumentEntity be published and visible to strangers?
 
-**Parameter:** 
- - **isPublished** Boolean.
+`SetIsPublished(Bool isPublished)`
 
+## Parameter
+
+| Parameter | Type | Description |
+|---|---|---|
+| isPublished | Bool | The visibility of DocumentEntity to set |

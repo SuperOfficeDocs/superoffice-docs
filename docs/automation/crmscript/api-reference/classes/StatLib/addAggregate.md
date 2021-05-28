@@ -1,28 +1,39 @@
 ---
-uid: crmscript_ref_StatLib_addAggregate_Integer_groupColumn_Integer_column_String_name_String_type_Integer_decimals
-title: StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
+uid: crmscript_class_statlib_addaggregate
+title: StatLib.addAggregate()
+description: CRMScript method in the StatLib class that add an aggregate function to the specified group
 intellisense: StatLib.addAggregate
-keywords: addAggregate(Integer,Integer,String,String,Integer)
+keywords: addAggregate(Integer,Integer,String,String,Integer), addAggregate(Integer,Integer,String,String,Integer,Integer)
 so.topic: reference
 ---
 
+# addAggregate()
 
-   
-**Add an aggregate function to the specified group. An aggregate function is a function which is calculated for all values for a given column in a group. This could for instance be the average response time for each category. The functions can be:**   
+Adds an aggregate function to the specified group. An **aggregate function** is a function that is calculated for all values for a given column in a group. For example, the average response time for each category.
 
+You can optionally signal to calculate only for the rows that have a unique value in this column.
 
-Count Count the number of entries.
-Sum Summarize the value.
-Avg Calculate the average value.
-Max Calculate the maximum value.
-Min Calculate the minimum value.
-CountNotEmpty Count the number of entries which are not empty (NULL).
+## Functions
 
+* StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
+* StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals, Integer uniqueColumn)
 
-* **groupColumn:** The column used for grouping.
-* **column:** The column used for the calculation.
-* **name:** The name of the calculated variable in the Parser or StatResult
-* **type:** The type of function.
-* **decimals:** The number of decimals to use in the calculated value
+## Parameters
 
+| Parameter | Type | Description |
+|---|---|---|
+| groupColumn | Integer | The column used for grouping. |
+| column | Integer | The column used for the calculation. |
+| name | String | The name of the calculated variable in the Parser or StatResult |
+| type | String | The type of function. |
+| decimals | Integer | The number of decimals to use in the calculated value |
+| uniqueColumn | Integer | Optional. The value is only calculated for the rows which have a unique value in this column. |
 
+### Available functions
+
+* Count
+* Sum
+* Avg
+* Max
+* Min
+* CountNotEmpty

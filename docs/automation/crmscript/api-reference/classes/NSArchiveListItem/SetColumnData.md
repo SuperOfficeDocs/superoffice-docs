@@ -1,19 +1,32 @@
 ﻿---
-uid: crmscript_ref_NSArchiveListItem_SetColumnData
-title: SetColumnData(ColumnDataDictionary columnData)
+uid: crmscript_class_nsarchivelistitem_setcolumndata
+title: SetColumnData()
+description: CRMScript method in the NSArchiveListItem class that sets columnData
 intellisense: NSArchiveListItem.SetColumnData
-keywords: NSArchiveListItem, GetColumnData
+keywords: NSArchiveListItem, SetColumnData
 so.topic: reference
 ---
 
-Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. <para/>The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. <para/>Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip.
+# SetColumnData()
 
-**Parameter:** 
- - **columnData** ColumnDataDictionary
+Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an ORDERBY value.
+
+The display value is encoded by the **CultureDataFormatter** and can be decoded or localized by that class. All other values are optional.
+
+Tooltip hints can be passed to the **TooltipProvider** (Tooltip service) to be translated into an actual too tip.
+
+`SetColumnData(ColumnDataDictionary columnData)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+|columnData | ColumnDataDictionary | |
+
+## Example
 
 ```crmscript
 NSArchiveListItem thing;
 ColumnDataDictionary columnData;
 thing.SetColumnData(columnData);
 ```
-

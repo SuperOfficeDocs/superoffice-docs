@@ -1,18 +1,28 @@
 ﻿---
-uid: crmscript_ref_NSPersonAgent_GetAddressByCountry
-title: Address GetAddressByCountry(Integer personId, Integer countryId)
+uid: crmscript_class_nspersonagent_getaddressbycountry
+title: GetAddressByCountry()
+description: CRMScript method in the NSPersonAgent class that gets the person's localized address
 intellisense: NSPersonAgent.GetAddressByCountry
-keywords: NSPersonAgent, GetAddressByCountry
+keywords: NSPersonAgent, GetAddressByCountry, GetAddressByCountry(Integer,Integer)
 so.topic: reference
 ---
 
+# GetAddressByCountry()
+
 Gets the person's localized address.
 
-**Parameters:**
- - **personId** The person id
- - **countryId** 
+Returns the address as LocalizedField[][].
 
-**Returns:** The address as LocalizedField[][].
+`GetAddressByCountry(Integer personId, Integer countryId)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| personId | Integer | The person ID |
+| countryId | Integer | The country ID |
+
+## Examples
 
 ```crmscript
 NSPersonAgent agent;
@@ -20,4 +30,3 @@ Integer personId;
 Integer countryId;
 Address res = agent.GetAddressByCountry(personId, countryId);
 ```
-

@@ -244,28 +244,13 @@ You now know how to build a SearchEngine query, look at the generated SQL, gauge
 
 A function specifies what to do with the value of a field.
 
-| Function | Other name | Applies to     | bypassNetServer | Description |
-|----------|------------|----------------|:---------------:|-------------|
-| avg      | FuncAvg    | Integer, Float |     yes         | aggregate, the average value of a column          |
-| count    | FuncCount  | Integer, Float |     yes         | aggregate, the number of rows matching cond.            |
-| sum      | FuncSum    | Integer, Float |     yes         |aggregate, the total sum of a column            |
-| max      | FuncMax    | Integer, Float |     yes         | aggregate, the largest value of a column            |
-| min      | FuncMin    | Time, DateTime |                 |            |
-| hour     | FuncHour   | Time, DateTime |                 |            |
-| wday     | FuncWDay   | Date, DateTime |                 |            |
-| upper    | FuncUpper  | String         |                 |            |
-| lower    | FuncLower  | String         |                 |            |
+[!include[ALT](includes/functions.md)]
 
 ### Row operators
 
 A row operator is a logical operator used to combine 2 criteria in a search condition.
 
-| Value          | Logical operator | Expression  | Result                                     |
-|----------------|:----------------:|:-----------:|--------------------------------------------|
-| OperatorAnd    | AND              | A && B      | Only rows matching both conditions         |
-| OperatorNotAnd | NAND             | !(A && B)   | Rows matching 0 or 1 condition but not both |
-| OperatorOr     | OR               | A \|\| B    | Rows matching either condition (or both)   |
-| OperatorNotOr  | NOR              | !(A \|\| B) | Only rows matching no conditions           |
+[!include[ALT](includes/row-operators.md)]
 
 ### Comparison operators
 
@@ -273,23 +258,7 @@ A comparison operator evaluates the value of a field as part of a search conditi
 
 Notice that all operators are specified as strings in the argument list.
 
-| Value              | Same as | Result                         |
-|--------------------|:-------:|--------------------------------|
-| OperatorEquals     | ==      | values match                   |
-| OperatorNotEquals  | !=      | values don't match             |
-| OperatorLt         | <       | value less than                |
-| OperatorLte        | <=      | value less than or equal       |
-| OperatorGt         | >       | value greater than             |
-| OperatorGte        | >=      | value greater than or equal    |
-| OperatorIs         |         | values of same type            |
-| OperatorIsNot      |         | values of different types      |
-| OperatorLike       |         | pattern found in string        |
-| OperatorNotLike    |         | pattern not found in string    |
-| OperatorContains   |         | string is present              |
-| OperatorBeginsWith |         | string starts with             |
-| OperatorEndsWith   |         | string ends with               |
-| OperatorIn         |         | column has entries in table    |
-| OperatorNotIn      |         | column has no entries in table |
+[!include[ALT](includes/comp-operators.md)]
 
 <!-- Referenced links -->
 [1]: se-run.md

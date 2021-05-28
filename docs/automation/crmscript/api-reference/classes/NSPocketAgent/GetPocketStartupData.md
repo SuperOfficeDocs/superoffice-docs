@@ -1,18 +1,23 @@
 ﻿---
-uid: crmscript_ref_NSPocketAgent_GetPocketStartupData
-title: PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)
+uid: crmscript_class_nspocketagent_getpocketstartupdata
+title: PocketStartupData GetPocketStartupData()
 intellisense: NSPocketAgent.GetPocketStartupData
-keywords: NSPocketAgent, GetPocketStartupData
+keywords: NSPocketAgent, GetPocketStartupData, GetPocketStartupData(String[],DateTime)
 so.topic: reference
 ---
 
+# GetPocketStartupData()
 
+Returns start-up data for SuperOffice Pocket CRM
 
-**Parameters:**
- - **tables** Tables to check for license
- - **currentClientTime** Current time on the client, used for overdue sale lookup having correct timezone relative to client
+`PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)`
 
-**Returns:** Startup data for pocket
+## Parameters
+
+| tables | String[] | Tables to check for license |
+| currentClientTime | Datetime | The current time on the client, used for overdue sale lookup having correct timezone relative to the client |
+
+## Examples
 
 ```crmscript
 NSPocketAgent agent;
@@ -20,4 +25,3 @@ StringArray tables;
 DateTime currentClientTime;
 PocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);
 ```
-

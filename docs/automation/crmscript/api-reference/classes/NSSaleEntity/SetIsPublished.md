@@ -1,13 +1,20 @@
 ﻿---
-uid: crmscript_ref_NSSaleEntity_SetIsPublished
-title: SetIsPublished(Boolean isPublished)
-intellisense: NSSaleEntity.IsPublished
-keywords: NSSaleEntity, IsPublished
+uid: crmscript_class_nssaleentity_setispublished
+title: SetIsPublished()
+description: CRMScript method in the NSSaleEntity class that sets the visibility of the entity
+intellisense: NSSaleEntity.SIsPublished
+keywords: NSSaleEntity, IsPublished, SetIsPublished(Bool)
 so.topic: reference
 ---
 
+# SetIsPublished()
+
 Should this SaleEntity be published and visible to strangers?
 
-**Parameter:** 
- - **isPublished** Boolean.
+`SetIsPublished(Boolean isPublished)`
 
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| isPublished | Bool | Publication is published |

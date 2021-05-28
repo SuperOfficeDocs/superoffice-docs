@@ -1,13 +1,20 @@
 ﻿---
-uid: crmscript_ref_NSAppointmentEntity_SetIsPublished
-title: SetIsPublished(Boolean isPublished)
-intellisense: NSAppointmentEntity.IsPublished
-keywords: NSAppointmentEntity, IsPublished
+uid: crmscript_class_nsappointmententity_setispublished
+title: SetIsPublished(Bool isPublished)
+description: CRMScript method in the NSAppointmentEntity class that sets the isPublished property of the appointment
+intellisense: NSAppointmentEntity.SetIsPublished
+keywords: NSAppointmentEntity, IsPublished, SetIsPublished(Bool)
 so.topic: reference
 ---
 
+# SetIsPublished()
+
 Should this AppointmentEntity be published and visible to strangers?
 
-**Parameter:** 
- - **isPublished** Boolean.
+`SetIsPublished(Bool isPublished)`
 
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+|isPublished | Bool | Value to set `isPublished` property to |

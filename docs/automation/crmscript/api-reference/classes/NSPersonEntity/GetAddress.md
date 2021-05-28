@@ -1,19 +1,21 @@
 ﻿---
-uid: crmscript_ref_NSPersonEntity_GetAddress
+uid: crmscript_class_nspersonentity_getaddress
 title: Address GetAddress()
+description: CRMScript method in the NSPersonEntity class that retrieves a formatted address
 intellisense: NSPersonEntity.GetAddress
-keywords: NSPersonEntity, GetAddress
+keywords: NSPersonEntity, GetAddress, GetAddress()
 so.topic: reference
 ---
 
-Structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
+# GetAddress()
 
-**Returns:** Address
+Retrieves the structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
 
+`Address GetAddress()`
+
+## Example
 
 ```crmscript
 NSPersonEntity thing;
 Address address  = thing.GetAddress();
 ```
-
-

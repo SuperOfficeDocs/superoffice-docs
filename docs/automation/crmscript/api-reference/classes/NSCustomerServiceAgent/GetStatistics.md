@@ -1,39 +1,53 @@
 ﻿---
-uid: crmscript_ref_NSCustomerServiceAgent_GetStatistics
-title: StatisticsDataSetArray GetStatistics(StatusScreenPanelTypeArray functions)
+uid: crmscript_class_nscustomerserviceagent_getstatistics
+title: StatisticsDataSetArray GetStatistics()
+description: CRMScript method in the NSCustomerServiceAgent class that returns the calculated results for the required statistics for the Service Status page
 intellisense: NSCustomerServiceAgent.GetStatistics
-keywords: NSCustomerServiceAgent, GetStatistics
+keywords: NSCustomerServiceAgent, GetStatistics, GetStatistics(NSStatusScreenPanelType[])
 so.topic: reference
 ---
 
-Returns the calculated results for the required statistics for the Customer Service Status Page
+# GetStatistics()
 
-**Parameters:**
- - **functions** List of functions to calculate and return
-     - Enum: 0 = None 
-     - Enum: 1 = OpenRequestsPerCategory 
-     - Enum: 2 = OpenRequestsPerTopCategory 
-     - Enum: 3 = OpenRequestsPerUser 
-     - Enum: 4 = OpenRequestsPerUserGroup 
-     - Enum: 5 = OpenRequestsPerPriority 
-     - Enum: 6 = OpenRequestsPerStatus 
-     - Enum: 7 = OpenRequestsPerOrigin 
-     - Enum: 11 = NumberOfCreatedRequestsPerDay 
-     - Enum: 12 = NumberOfCreatedRequestsPerWeek 
-     - Enum: 13 = NumberOfCreatedRequestsPerMonth 
-     - Enum: 21 = UserResponseTimePerDay 
-     - Enum: 22 = UserReponseTimePerWeek 
-     - Enum: 23 = UserResponseTimePerMonth 
-     - Enum: 101 = OwnOpenRequests 
-     - Enum: 102 = UnassignedRequests 
-     - Enum: 103 = Hotlist 
-     - Enum: 111 = StatusScreen 
+Returns the calculated results for the required statistics for the Customer Service **Status** page.
 
-**Returns:** Array of StatisticsDataSet
+Returns an array of `StatisticsDataSet`.
+
+`NSCustomerServiceAgent.GetStatistics(NSStatusScreenPanelType[] functions)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| functions | NSStatusScreenPanelType[] | List of functions to calculate and return |
+
+### Functions
+
+| Enum | Function |
+|---|---|
+| 0 | None |
+| 1 | OpenRequestsPerCategory |
+| 2 | OpenRequestsPerTopCategory |
+| 3 | OpenRequestsPerUser |
+| 4 | OpenRequestsPerUserGroup |
+| 5 | OpenRequestsPerPriority |
+| 6 | OpenRequestsPerStatus |
+| 7 | OpenRequestsPerOrigin |
+| 11 | NumberOfCreatedRequestsPerDay |
+| 12 | NumberOfCreatedRequestsPerWeek |
+| 13 | NumberOfCreatedRequestsPerMonth |
+| 21 | UserResponseTimePerDay |
+| 22 | UserReponseTimePerWeek |
+| 23 | UserResponseTimePerMonth |
+| 101 | OwnOpenRequests |
+| 102 | UnassignedRequests |
+| 103 | Hotlist |
+| 111 | StatusScreen |
+
+## Examples
 
 ```crmscript
 NSCustomerServiceAgent agent;
 StatusScreenPanelTypeArray functions;
 StatisticsDataSetArray res = agent.GetStatistics(functions);
 ```
-

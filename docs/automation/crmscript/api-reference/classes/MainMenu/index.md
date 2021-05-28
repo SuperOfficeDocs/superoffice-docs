@@ -48,8 +48,8 @@ Groups are the level-1 entries of the menu.
 * Integer [getGroupIndex(String)][2]
 * String [getGroupId(Integer group)][3]
 * Void [addGroup(String label, String image)][4]
-* Void [addGroup(String label, String image, Integer position)][5]
-* Void [addGroup(String label, String image, Integer position, String onClick)][6]
+* Void [addGroup(String label, String image, Integer position)][4]
+* Void [addGroup(String label, String image, Integer position, String onClick)][4]
 * Void [deleteGroup(Integer position)][7]
 
 ### Group parameters
@@ -69,9 +69,9 @@ Items are the level-2 entries of the menu.
 * Integer [getItemIndex(Integer group, String label)][9]
 * String [getItemId(Integer group, Integer pos)][10]
 * Void [addItem(String label, String url)][11]
-* Void [addItem(String label, String url, Integer group, Integer position)][12]
-* Void [addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target)][13]
-* Void [addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)][14]
+* Void [addItem(String label, String url, Integer group, Integer position)][11]
+* Void [addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target)][11]
+* Void [addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)][11]
 * Void [deleteItem(Integer group, Integer index)][15]
 
 ### Item parameters
@@ -96,14 +96,9 @@ Empties the main menu. Useful if you want to build your menu from scratch.
 [2]: getgroupindex.md
 [3]: getgroupid.md
 [4]: addgroup.md
-[5]: addgroup-5477.md
-[6]: addgroup-4176.md
 [7]: deletegroup.md
 [8]: getnumitems.md
 [9]: getitemindex.md
 [10]: getitemid.md
 [11]: additem.md
-[12]: additem-6558.md
-[13]: additem-10733.md
-[14]: additem-12204.md
 [15]: deleteitem.md

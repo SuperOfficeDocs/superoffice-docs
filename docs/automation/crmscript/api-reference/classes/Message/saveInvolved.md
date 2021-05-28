@@ -1,21 +1,27 @@
 ---
-uid: crmscript_ref_Message_saveInvolved_String_emailAddress
-title: Message.saveInvolved(String emailAddress)
+uid: crmscript_class_message_saveinvolved
+title: Message.saveInvolved()
+description: CRMScript method in class Message that saves the email address of the recipients of a message
 intellisense: Message.saveInvolved
 sortOrder: 554
-keywords: saveInvolved(String)
+keywords: saveInvolved(String), saveInvolved(Vector)
 so.topic: reference
 ---
 
+# saveInvolved()
 
-This function saves the email address a recipient of the message.
+Saves the email address of the recipients of the message even if they are not customers on the request. These recipients are listed as possible recipients in the **Add message** screen.
 
+You can provide either a single email address or a collection of addresses in a `Vector`.
 
+## Methods
 
+* Message.saveInvolved(String emailAddress)
+* Message.saveInvolved(Vector emailAddresses)
 
 ## Parameters
 
-
- - email address
-
-
+| Parameter | Type | Description |
+|---|---|---|
+| emailAddress | String | A single email address for 1 recipient |
+| emailAddresses | Vector | A collection of email addresses for multiple recipients |

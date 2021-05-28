@@ -1,21 +1,28 @@
 ﻿---
-uid: crmscript_ref_NSReplicationAgent_GetAreaList
-title: NSArea[] GetAreaList(Integer[]  areaIds);
+uid: crmscript_class_nsreplicationagent_getarealist
+title: NSArea[] GetAreaList()
+description: CRMScript method in the NSReplicationAgent class that gets an array of Area objects
 intellisense: NSReplicationAgent.GetAreaList
-keywords: NSReplicationAgent, GetAreaList
+keywords: NSReplicationAgent, GetAreaList, GetAreaList(Integer[])
 so.topic: reference
 ---
 
-Gets a vector of Area objects.
+# GetAreaList()
 
-**Parameters:**
- - **areaIds** The identifiers of the NSArea objects
+Gets an array of Area objects.
 
-**Returns:** Vector of NSArea objects
+`NSArea[] GetAreaList(Integer[] areaIds)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| areaIds | Integer[] | The identifiers of the NSArea objects |
+
+## Examples
 
 ```crmscript
 Integer[] ids;
 NSReplicationAgent agent;
 agent.GetAreaList(ids);
 ```
-

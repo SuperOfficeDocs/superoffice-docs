@@ -1,18 +1,28 @@
 ﻿---
-uid: crmscript_ref_NSListAgent_GetDocumentTemplateProperties
-title: StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)
+uid: crmscript_class_nslistagent_getdocumenttemplateproperties
+title: StringDictionary GetDocumentTemplateProperties()
+description: CRMScript method in the NSListAgent class that retrieves a list of key-value pairs of document template properties
 intellisense: NSListAgent.GetDocumentTemplateProperties
-keywords: NSListAgent, GetDocumentTemplateProperties
+keywords: NSListAgent, GetDocumentTemplateProperties, GetDocumentTemplateProperties(Integer,String[])
 so.topic: reference
 ---
 
-Get document template properties
+# GetDocumentTemplateProperties()
 
-**Parameters:**
- - **documentTemplateId** The primary key id of the document template
- - **requestedProperties** An array of properties to get the values for
+Gets document template properties.
 
-**Returns:** Dictionary of key=value pairs of requested properties
+Returns key-value pairs with the requested properties.
+
+`StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| documentTemplateId | Integer | The primary key id of the document template |
+| requestedProperties | String[] | An array of properties to get the values for |
+
+## Examples
 
 ```crmscript
 NSListAgent agent;
@@ -20,4 +30,3 @@ Integer documentTemplateId;
 StringArray requestedProperties;
 StringDictionary res = agent.GetDocumentTemplateProperties(documentTemplateId, requestedProperties);
 ```
-

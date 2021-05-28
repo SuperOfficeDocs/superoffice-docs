@@ -1,19 +1,29 @@
 ---
-description: String getLanguageVariable(String langVar)
+uid: crmscript_global_getlanguagevariable
+title: getLanguageVariable
+description: CRMScript function that returns the language variable in the language given by language code or of the current user
 intellisense: Void.getLanguageVariable
 langref: 1
-keywords: getLanguageVariable(String)
+keywords: getLanguageVariable(String), getLanguageVariable(String,String)
 so.topic: reference
 ---
 
+# String getLanguageVariable()
 
-This function returns the string of the given language variable in the language of the current user
+Converts a language variable to a string in the language of the current user or, if provided, corresponding to a specific language code. Passing the language code is optional.
 
+It will search in the language variables for the current screen in addition to the common language variables.
 
-It will search in the language variables for the current screen in addition to the common language variables
+Returns the language variable in the language given.
 
+## Functions
 
-* **langVar:** The language variable, ie lang\_global_global\_okSave
-* **Returns:** The string of the language variable in the language of the current user
+* String getLanguageVariable(String langVar)
+* String getLanguageVariable(String langVar, String langCode)
 
+## Parameters
 
+| Parameter | Type | Description |
+|---|---|---|
+| langVar | String | The language variable, for example, lang_global_global_okSave |
+| langCode | String | Optional. The language code. Can be "no", "en", "de", "se", "dk", or "nl" |

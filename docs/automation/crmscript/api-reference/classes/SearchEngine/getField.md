@@ -1,16 +1,32 @@
 ---
-uid: crmscript_ref_SearchEngine_getField_Integer_num
-title: SearchEngine.getField(Integer num)
+uid: crmscript_class_searchengine_getfield
+title: SearchEngine.getField()
+description: CRMScript method in the SearchEngine class that returns the value of a field
 intellisense: SearchEngine.getField
-keywords: getField(Integer)
+keywords: getField(Integer), getField(String), getField(String,String)
 so.topic: reference
 ---
 
-Returns the value as a String of the field number num.
+# getField()
 
+Returns the value of a field. You can provide the field as either an Integer or a String.
 
+You can optionally add a function to be applied to the field when using the name as the identifier.
 
-* **num:** The number of the field. Starting at 0
-* **Returns:** The value of the field.
+## Methods
 
+* SearchEngine.getField(Integer num)
+* SearchEngine.getField(String name)
+* SearchEngine.getField(String name, String function)
 
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| num | Integer | The number of the field. Starting at 0. Alternative to using `name` |
+| name | String | The name of the field. On the form **table.fieldname**. Alternative to using `num` |
+| function | String | Optional. The function to use on the field. Used in combination with `name` |
+
+### Functions
+
+[!include[ALT](../../../searchengine/includes/functions.md)]

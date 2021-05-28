@@ -1,21 +1,40 @@
 ---
-uid: crmscript_ref_Generic_getGenericValue_Generic_struct_String_name
+uid: crmscript_class_generic_getgenericvalue
 title: Generic.getGenericValue(Generic struct, String name)
+description: CRMScript method in the Generic class that retrieves a variable
 intellisense: Generic.getGenericValue
 langref: 1
 sortOrder: 70
-keywords: getGenericValue(Generic,String)
+keywords: getGenericValue(String), getGenericValue(Generic,String)
 so.topic: reference
 ---
 
+# getGenericValue()
 
-Get a variable from the run-time environment given its name, inside a given struct. The variable is returned as a Generic, independent of its type.
+Retrieves a variable from the run-time environment given its name. You can optionally provide a struct to scope the variable.
 
-If the name is unknown, an exception is thrown.
+An exception is thrown if the name is unknown, or the struct is not a struct.
 
-If struct is not a struct, an exception is thrown.
+The variable is returned as a `Generic`, independent of its type.
 
-For example:
+## Methods
+
+* Generic.getGenericValue(String name)
+* Generic.getGenericValue(Generic struct, String name)
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| struct | String | Generic Struct to get variable in |
+| name | String | Name of variable to get |
+
+## Examples
+
+```crmscript
+Integer age = 42;
+Generic g = getGenericValue("age");
+```
 
 ```crmscript
 struct Person {
@@ -35,7 +54,3 @@ for(Integer i = 0; i < fields.length(); i++) {
   printLine(fields[i] + ": " + convertGenericToString(g));
 }
 ```
-
-* **struct:** Generic Struct to get variable in
-* **name:** String Name of variable to get
-* **Returns:** Generic The generic variable

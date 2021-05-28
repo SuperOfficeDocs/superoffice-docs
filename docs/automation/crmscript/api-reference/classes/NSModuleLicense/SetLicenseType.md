@@ -1,23 +1,35 @@
 ﻿---
-uid: crmscript_ref_NSModuleLicense_SetLicenseType
+uid: crmscript_class_nsmodulelicense_setlicensetype
 title: SetLicenseType(LicenseType licenseType)
+description: CRMScript method in the NSModuleLicense class that sets the licence type
 intellisense: NSModuleLicense.SetLicenseType
-keywords: NSModuleLicense, GetLicenseType
+keywords: NSModuleLicense, GetLicenseType, SetLicenseType(NSLicenseType)
 so.topic: reference
 ---
 
-Entire system, per database, or per associate
+# SetLicenseType()
 
-**Parameter:** 
- - **licenseType** LicenseType
-     - Enum: 0 = Unknown 
-     - Enum: 1 = SiteLicense 
-     - Enum: 2 = SatelliteLicense 
-     - Enum: 3 = UserLicense 
+The entire system, per database, or per associate.
+
+## Parameter
+
+| Parameter | Type | Description |
+|---|---|---|
+| licenseType | LicenseType | The module license type |
+
+### Types
+
+| Enum | Type |
+|---|---|
+| 0 | Unknown |
+| 1 | SiteLicense |
+| 2 | SatelliteLicense |
+| 3 | UserLicense |
+
+## Examples
 
 ```crmscript
 NSModuleLicense thing;
 LicenseType licenseType;
 thing.SetLicenseType(licenseType);
 ```
-

@@ -1,26 +1,32 @@
 ---
-uid: crmscript_ref_Customer_addEmail_String_email_Integer_externalRank_Integer_extTable_Integer_dbiAgentId
+uid: crmscript_class_customer_addemail
 title: Customer.addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
+description: CRMScript method in the Customer class that adds an email to a customer
 intellisense: Customer.addEmail
 sortOrder: 186
-keywords: addEmail(String,Integer,Integer,Integer)
+keywords: addEmail(String,Integer,Integer), addEmail(String,Integer,Integer,Integer)
 so.topic: reference
 ---
 
+# Void addEmail()
 
-    Void addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
-    
+Adds an email to a customer. Commonly used in database integrations.
 
-This functions is used to add an email to a customer usually in database integrations.
+You can optionally provide the external sorting rank.
 
+## Functions
 
+* Void addEmail(String email, Integer extTable, Integer dbiAgentId)
+* Void addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
 
 ## Parameters
 
+| Parameter | Type | Description |
+|---|---|---|
+| email | String | Email address |
+| externalRank | Integer | Optional. External sorting rank. (Can't be changed in the Service GUI). |
+| extTable | Integer | External owner of this email address as an extTable ID. |
+| dbiAgentId | Integer | External owner of this email address as a dbiAgent ID. |
 
- - email: Email address
- - externalRank: External sorting rank. (Can not be changed in the ejournal GUI).
- - extTable: External owner of this email address as an extTable id. (Deprecated database integration called data sources).
- - dbiAgentId: External owner of this email address an dbiAgent id.
-
-
+> [!NOTE]
+> `extTable` is a deprecated database integration called data sources.

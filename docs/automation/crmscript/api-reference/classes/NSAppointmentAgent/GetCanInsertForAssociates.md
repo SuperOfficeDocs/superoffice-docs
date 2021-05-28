@@ -1,21 +1,29 @@
 ﻿---
-uid: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates
-title: BooleanArray GetCanInsertForAssociates(IntegerArray associateIds)
+uid: crmscript_class_nsappointmentagent_getcaninsertforassociates
+title: Bool[] GetCanInsertForAssociates()
 intellisense: NSAppointmentAgent.GetCanInsertForAssociates
-keywords: NSAppointmentAgent, GetCanInsertForAssociates
+keywords: NSAppointmentAgent, GetCanInsertForAssociates, GetCanInsertForAssociates(Integer[])
 so.topic: reference
 ---
 
-Check if current associate can create appointments in the diary of other associates.
+# GetCanInsertForAssociates()
 
-**Parameters:**
- - **associateIds** Array of associate ids to check for.
+Checks if the current associate can create appointments in the diary of other associates.
 
-**Returns:** Returns an array of bool corresponding to the associate array input parameter.
+Returns an array of Bool corresponding to the associate array input parameter.
+
+`Bool[] GetCanInsertForAssociates(Integer[] associateIds)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| associateIds | Integer[] | Array of associate IDs to check for |
+
+## Example
 
 ```crmscript
 NSAppointmentAgent agent;
 IntegerArray associateIds;
 BooleanArray res = agent.GetCanInsertForAssociates(associateIds);
 ```
-

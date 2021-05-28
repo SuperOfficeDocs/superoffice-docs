@@ -1,19 +1,24 @@
 ﻿---
-uid: crmscript_ref_NSPersonEntity_SetAddress
-title: SetAddress(Address address)
+uid: crmscript_class_nspersonentity_setaddress
+title: SetAddress()
+description: CRMScript method in the NSPersonEntity class that sets a formatted address
 intellisense: NSPersonEntity.SetAddress
-keywords: NSPersonEntity, GetAddress
+keywords: NSPersonEntity, GetAddress, SetAddress(NSLocalizedField[][])
 so.topic: reference
 ---
 
-Structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
+# SetAddress()
 
-**Parameter:** 
- - **address** Address
+Sets the structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| address | Address | |
 
 ```crmscript
 NSPersonEntity thing;
 Address address;
 thing.SetAddress(address);
 ```
-

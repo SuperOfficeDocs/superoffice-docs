@@ -1,15 +1,39 @@
 ---
-uid: crmscript_ref_SearchEngine_addOrder_String_field_Bool_ascending
-title: SearchEngine.addOrder(String field, Bool ascending)
+uid: crmscript_class_searchengine_addorder
+title: SearchEngine.addOrder()
+description: CRMScript method in the CRMScript class that adds a restriction to the order on the listing of the database result
 intellisense: SearchEngine.addOrder
-keywords: addOrder(String,Bool)
+keywords: addOrder(String,Bool), addOrder(String,String,Bool)
 so.topic: reference
 ---
 
-Adds a restriction to the order on the listing of the database-result
+# addOrder()
 
+Adds a restriction to the order on the listing of the database result.
 
-* **field:** The field that will be sorted
-* **ascending:** The direction for the sort, true if ascending, false if descending
+You can optionally add a function to be applied to the field.
 
+## Methods
 
+* SearchEngine.addOrder(String field, Bool ascending)
+* SearchEngine.addOrder(String field, String function, Bool ascending)
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| field | String | The field to restrict |
+| function | String | Optional. The function to use on `field` |
+| ascending | Bool | The sort order. True = ascending, false = descending |
+
+### Available functions
+
+* Count
+* Avg
+* Sum
+* Max
+* Min
+* Hour
+* WDay
+* Upper
+* Lower

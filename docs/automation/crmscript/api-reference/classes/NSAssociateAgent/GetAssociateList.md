@@ -1,21 +1,28 @@
 ﻿---
-uid: crmscript_ref_NSAssociateAgent_GetAssociateList
-title: NSAssociate[] GetAssociateList(Integer[]  associateIds);
+uid: crmscript_class_nsassociateagent_getassociatelist
+title: NSAssociate[] GetAssociateList()
+description: CRMScript method in the NSAssociateAgent class that retrieves a list of associates
 intellisense: NSAssociateAgent.GetAssociateList
-keywords: NSAssociateAgent, GetAssociateList
+keywords: NSAssociateAgent, GetAssociateList, GetAssociateList(Integer[])
 so.topic: reference
 ---
 
-Gets a vector of Associate objects.
+# GetAssociateList()
 
-**Parameters:**
- - **associateIds** The identifiers of the NSAssociate objects
+Gets an array of Associate objects.
 
-**Returns:** Vector of NSAssociate objects
+`NSAssociate[] GetAssociateList(Integer[] associateIds)`
+
+## Parameters
+
+| Parameter | Type | Description |
+|---|---|---|
+| associateIds | NSAssociate[] | The identifiers of the NSAssociate objects |
+
+## Examples
 
 ```crmscript
 Integer[] ids;
 NSAssociateAgent agent;
 agent.GetAssociateList(ids);
 ```
-

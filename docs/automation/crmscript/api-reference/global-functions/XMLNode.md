@@ -1,17 +1,23 @@
 ---
-description: XMLNode XMLNode(String p0)
+uid: crmscript_global_xmlnode
+title: XMLNode
+description: CRMScript XMLNode constructor
 intellisense: Void.XMLNode
 langref: 1
-keywords: XMLNode(String)
+keywords: XMLNode(XMLNode), XMLNode(String)
 so.topic: reference
 ---
 
+# XMLNode XMLNode()
 
-XMLNode constructor. Will parse a String value and create an XMLNode object.
+XMLNode constructor. You can pass either an `XMLNode` object to copy or a `String` to be parsed.
 
+Returns an `XMLNode` object.
 
+## XMLNode XMLNode(XMLNode node)
 
-* **value:** String value containing an XMLNode value
-* **Returns:** XMLNode object
+`XMLNode` object to copy.
 
+## XMLNode XMLNode(String node)
 
+Parse `String` and create `XMLNode` object.

@@ -47,9 +47,7 @@ You can convert the value of an `HtmlElement` object to a string, number, or boo
 * Void [setNotEditable(Bool canEdit)][11]
 * Integer [getNextTabIndex()][12]
 * String [getTabIndexString()][13]
-* String [getTabIndexString(Bool noId)][14]
-
-1. autolist
+* String [getTabIndexString(Bool noId)][13]
 
 <!-- Referenced links -->
 [1]: gettypename.md
@@ -65,4 +63,3 @@ You can convert the value of an `HtmlElement` object to a string, number, or boo
 [11]: setnoteditable.md
 [12]: getnexttabindex.md
 [13]: gettabindexstring.md
-[14]:gettabindexstring-3300.md
