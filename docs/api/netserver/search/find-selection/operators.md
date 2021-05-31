@@ -3,7 +3,7 @@ title: Criteria operators
 description: Defines what operators are used with which data types and describes how they are used.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-so.topic: article
+so.topic: reference
 so.envir: cloud, onsite
 so.client: web
 ---
@@ -26,9 +26,11 @@ Different data types can have different operators.
 
 ## Date and DateTime
 
-**Relative operators** refer to the current date. For the `Date` and `DateTime` restriction types, these operators have changed and some are now considered legacy.
+**Relative operators** refer to the current date. For the `Date` and `DateTime` restriction types, these operators have changed and some are now considered legacy. Overall, 11 of the old date operators will be removed and 6 new will be added to cover for the ones removed.
 
-**Common Date and DateTime operators:**
+Why? The current dynamic date ranges for selections in SuperOffice CRM do not cover all the ranges that are necessary for keeping selections up to date and providing good data quality. The date ranges already in SuperOffice have been few and not very conclusive of the function they served. We have therefore decided to remove some of them and to add a few that will cover a bigger range of dates, for the past, the current and the future.
+
+### Common Date and DateTime operators
 
 | Data type | Operator |
 |-----------|----------|
@@ -54,13 +56,13 @@ Different data types can have different operators.
 Instead of having period-specific operators, they are now more generic. Each relative operator takes 2 arguments; the number of periods and the period type.
 
 * thisPeriod
-* thisAndNext
-* thisAndPrevious
-* nextPeriod
-* previousPeriod
-* thisPreviousAndNext
+* thisAndNext (n) (interval)
+* thisAndPrevious (n) (interval)
+* nextPeriod (list)
+* previousPeriod (n) (interval)
+* thisPreviousAndNext (list)
 
-| Period Types | |
+| Period types | |
 |-- |:---------|
 | 1 | days     |
 | 2 | weeks    |
@@ -68,11 +70,11 @@ Instead of having period-specific operators, they are now more generic. Each rel
 | 4 | quarters |
 | 5 | years    |
 
-In this way, we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
+In this way, we can express `thisAndNext` 2 weeks or `thisAndPrevious` 2 years.
 
 ### Changed types
 
-The type of some archive columns have changed from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
+The type of some archive columns has changed from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
 
 ## New restriction types
 

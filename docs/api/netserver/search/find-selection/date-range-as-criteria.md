@@ -1,5 +1,6 @@
 ---
 title: Date range as criteria
+uid: selection_dynamic_date_range_options
 description: Details date criterion in find selections.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find, Date
@@ -8,275 +9,283 @@ so.topic: article
 so.client: web
 ---
 
-# Date range as criteria
+# Dynamic date range as criteria
 
-The current dynamic date ranges for selections in SuperOffice CRM does not cover all the ranges that are necessary for keeping selections up to date and providing good data quality. The date ranges already in SuperOffice has been few and not very conclusive of the function they served. We have therefore decided to remove some of them and to add a few that will cover a bigger range of dates, for the past, the current and the future.
+This section introduces and explains the **new** date range operators. You might also be interested in [referencing all criteria operators][1] and [how to convert from legacy operators to new ones][2].
 
-## Dynamic data ranges
+## Overview
 
-The old set of date operators in selections was as follows:
+* **This and next (n) (interval):** When a user select **This and next**, the selection returns all records with dates in the current period and the next periods the user has specified.
 
-1. Before
-2. Equals
-3. After
-4. Between
-5. To
-6. From
-7. Beforetoday
-8. Today
-9. Aftertoday
-10. Lastweek
-11. Thisweek
-12. Nextweek
-13. Lastmonth
-14. Thismonth
-15. Nextmonth
-16. LastQuarter
-17. ThisQuarter
-18. NextQuarter
-19. Thishalf
-20. Nextyear
+* **This and previous (n) (interval):** When a user select **This and previous**, the selection returns all records with dates in the current period as well as date in the previous periods the user has specified.
 
-The operators that has a line through is the ones that will be removed. Overall 11 of the old date operators will be removed and 6 new will be added to cover for the ones removed.
+* **Previous period (n) (interval):** When a user selects **Previous period**, the selection returns all records from the previous periods the user has specified.
 
-New dynamic date ranges
+* **This period (list):** When a user selects **This period**, the selection returns all records with the current period specified.
 
-The new list of operators:
+* **Next period (n) (interval):** When a user selects **Next period**, the selection returns all records with the next periods the user has specified.
 
-1. Before
-2. Equals
-3. After
-4. Between
-5. To
-6. From
-7. Before today
-8. Today
-9. After today
-10. This and Next (n) (interval)
-11. This and previous (n) (interval)
-12. Previous period (n) (interval)
-13. This Period (list)
-14. Next period (n) (interval)
-15. This, previous and next (list)
+* **This, previous, and next (list):** When a user selects **This, previous and next**, the selection returns all records from the current period, the previous period and the next period, the user has specified.
 
-The operators with an underline are new.
+## User input
 
-The new date range operators are as follows:
+The input is slightly different depending on whether the period is an interval or a list.
 
-This and Next (n) (interval): When a user select this and next, the selection should return all records with dates in the current period and the next periods the user has specified with a number field and interval dropdown.
+* For **lists**, the UI has a drop-down list where the user can select the type of period (also known as interval or unit): days, weeks, months, quarter, or years.
 
-This and previous (n) (interval): When a user select this and previous, the selection should return all records with dates in the current period as well as date in the previous periods the user has specified with a number field and interval dropdown.
+* For **intervals**, the UI has a number field in addition to the type drop-down list.
 
-Previous period (n) (interval): When a user selects previous period, the selection should return all records from the previous periods the user has specified with a number field and interval dropdown.
+In the number field, the user is able to enter the number of days, weeks, months, and so on that they want the interval to run for. In the drop-down list, the user is able to select the interval.
 
-This Period (list): When a user selects this period, the selection should return all records with the current period specified from the list dropdown.
+The number field is unlimited, which means that the user is able to put any number in this field. The number represents the length of the interval.
 
-Next period (n) (interval): When a user selects next period, the selection should return all records with the next periods the user has specified with a number field and an interval dropdown.
+When the user has selected the range they are looking for, a read-only text is shown next to the list with the dates the selected interval covers.
 
-This, previous and next (list): When a user selects this, previous and next, the selection should return all records from the current period, the previous period and the next period, the user has specified in the list dropdown.
+## This and next
 
-This and next
+The `thisAndNext` operator returns all records belonging to the current date's period and the next set of days, weeks, months, quarters, or years specified by the user.
 
-The "This and next" operator should return all records that are of the current dates period and the next set of days, weeks, months, quarters or years specified by the user.
+When a user selects **This and next**, the right side of the line displays 2 fields: a number field and a drop-down list with the following options:
 
-When a user selects "This and next", the right side of the line should display two fields. The two fields are a number field and a list dropdown. In the number field the user should be able to enter the number of days, weeks, months, etc. they want the interval to run for. In the list dropdown the user should be able to select the interval.
+### Days
 
-The number field should be unlimited, which means that the user should be able to put any number in this field. The number should represent the length of the interval.
+* The start date will be today (current day).
+* The end date will be the last day of however many days the user has specified in the number field.
 
-The unit/interval dropdown for the "This and next" operator should only contain the following intervals:
+For example, if a user selects **This and next** 10 days and today is 15/10/2019, the date range will be 15/10/2019 – 25/10/2019. The selection includes all records that contains today's date or any date within the next 10 days.
 
-Days: The start date will be today (current day), the end date will be the last day of however many days the user has specified in the number field. If a user selects "This and next" 10 days and today is 15/10/2019, the date range will be 15/10/2019 – 25/10/2019. The selection should then include all records that contains today's date or any date within the next 10 days.
+### Weeks
 
-Weeks: The start date will be the first day of current week, the end date will be the last day of the last upcoming week specified by the user. If a user selects "This and next" 2 weeks and today is 15/10/2019, the date range will be 14/10/2019 – 03/11/2019. The selection should then include all records that contains dates from the current week or any date within the next 2 weeks.
+* The start date will be the first day of current week
+* The end date will be the last day of the last upcoming week specified by the user.
 
-Month: The start date will be the first date of the current month; the end date will be the last day of the last upcoming month the user has specified. If a user selects "This and next" 2 months and today is 15/10/2019, the date range will be 01/10/2019 – 31/12/2019. The selection should then include all records that contain dates from the current month or any date within the next 2 months.
+For example, if a user selects **This and next** 2 weeks and today is 15/10/2019, the date range will be 14/10/2019 – 03/11/2019. The selection includes all records that contains dates from the current week or any date within the next 2 weeks.
 
-Quarter: The start date will be first day of the current quarter; the end date will be the last day of the last upcoming quarter the user specified. If a user selects "This and next" 1 quarter and today is 15/10/2019, the date range will be 01/10/2019 – 31/03/2020. The selection should then include records with dates from the current quarter or any date within the next quarter.
+### Month
 
-Year: The start date will be the first day of the current year, the end date will be the last day of the last year the user has specified. If the user selects "This and next" 2 years and today is 15/10/2019, the date range will be 01/01/2019 – 31/12/2021. The selection should then include all records with dates the current year or any date within the next 2 years.
+* The start date will be the first date of the current month
+* The end date will be the last day of the last upcoming month the user has specified.
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+For example, Iif a user selects **This and next** 2 months and today is 15/10/2019, the date range will be 01/10/2019 – 31/12/2019. The selection includes all records that contain dates from the current month or any date within the next 2 months.
 
-This and previous
+### Quarter
 
-The "This and previous" operator should return all items that are the previous set of days, weeks, months, quarter or years specified in the number and list dropdown, until and including the current period.
+* The start date will be first day of the current quarter
+* The end date will be the last day of the last upcoming quarter the user specified.
 
-When the user has selected "This and previous" as an operator the right side of the line should display 2 fields, a number field and a list dropdown. In the number field the user should enter the number of days, weeks, months, etc. they want the interval to run for. In the list dropdown the user should be able to select the interval.  
+For example, if a user selects **This and next** 1 quarter and today is 15/10/2019, the date range will be 01/10/2019 – 31/03/2020. The selection includes records with dates from the current quarter or any date within the next quarter.
 
-The number field should be unlimited, meaning that the user should be able to put any number in this field. This number should represent the length of the interval.
+### Year
 
-The unit dropdown should only contain the following units/intervals:
+* The start date will be the first day of the current year
+* The end date will be the last day of the last year the user has specified.
 
-Days: The start date will be the first date when counting back the number of days from today the user has set as the number value. The end date should be today (current day). If the user selects this and previous 5 days, and today is 15/10/2019, the date range should be 10/10/2019 – 15/10/2019. The selection should then include all records with dates from the previous 5 days until and including today (15/10/2019).
+For example, if the user selects **This and next** 2 years and today is 15/10/2019, the date range will be 01/01/2019 – 31/12/2021. The selection includes all records with dates the current year or any date within the next 2 years.
 
-Weeks: The start date will be the first date when counting back from the current week the number of weeks the user has set as the number field. The end date should be the last day of the current week. If a user selects "This and previous" 3 weeks and today is 15/10/2019, the date range should be 23/09/2019 – 20/10/2019. The selection should then include all records with dates from the previous 3 weeks + the current week.
+## This and previous
 
-Months: The start date will be the first date of the month when counting back from current month the number of months specified in the number field. End date should be today (current day). If a user selects "This and previous" 4 months and today is 15/10/2019, the date range should be 01/06/2019 – 31/10/2019. The selection should include all records with dates from the previous 4 months + the current month.
+The `thisAndPrevious` operator returns all items that are the previous set of days, weeks, months, quarter, or years specified by the user, **until and including the current period**.
 
-Quarter: The start date should be the first date of the quarter when counting back from the first day of the current quarter the number of quarters set in the number field. The end date should be end date of the current quarter. If a user selects "This and previous" 2 quarters and today is 15/10/2019, the date range should be 01/04/2019 – 31/12/2019. The selection should include all record with dates from the previous 2 quarters + the current quarter.
+When the user has selected **This and previous** as an operator, the right side of the line displays 2 fields: a number field and a drop-down list with the following options:
 
-Years: The start date should be the first day of the previous year/years. The end date should be the last day of the current year. If the user selects "This and Previous" 2 years and today is 15/10/2019, the date range should be 01/01/2017 – 31/12/2019. The selection should include all records with dates from the 2 previous years, which is 2017 and 2018, it should also include all days of 2019.
+### Days
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+* The start date will be the first date when counting back the number of days from today the user has set as the number value
+* The end date is today (current day).
 
-Previous period
+For example, if the user selects **This and previous** 5 days, and today is 15/10/2019, the date range is 10/10/2019 – 15/10/2019. The selection includes all records with dates from the previous 5 days until and including today (15/10/2019).
 
-The "Previous period" operator should return all items that are in the previous period set of days, weeks, months, quarter or years specified in the number field and the list dropdown.
+### Weeks
 
-When the user has selected Previous period, the right side of the line should display 2 fields, a number field and a list dropdown. In the number field the user should enter the number of days, weeks, months, etc. they want the interval to run for. In the list dropdown the user should be able to select the interval.  
+* The start date will be the first date when counting back from the current week the number of weeks the user has set as the number field.
+* The end date is the last day of the current week.
 
-The number field should be unlimited, meaning that the user should be able to put any number in this field. This number should represent the length of the interval.
+For example, if a user selects **This and previous** 3 weeks and today is 15/10/2019, the date range is 23/09/2019 – 20/10/2019. The selection includes all records with dates from the previous 3 weeks + the current week.
 
-The unit dropdown should only contain the following units/intervals:
+### Months
 
-Days: Start date will be the first date of the previous period specified by the user. The end date will be the last date of the set period. If a user selects "Previous period" 14 days and todays date is 15/10/2019, the date range will be 01/10/2019 – 14/10/2019. Meaning, the selection should include all records from the last 14 days, but not include the records from today
+* The start date will be the first date of the month when counting back from current month the number of months specified in the number field.
+* The end date is today (current day).
 
-Weeks: Start date will be the first date of the previous week. The end date will be the last date of the previous week. If a user selects "Previous period" 2 weeks and todays date is 15/10/2019, the date range will be 30/09/2019 – 13/10/2019. Meaning, the selection should include all records from the last 2 weeks, but not include records from the current week.
+For example, if a user selects **This and previous** 4 months and today is 15/10/2019, the date range is 01/06/2019 – 31/10/2019. The selection includes all records with dates from the previous 4 months + the current month.
 
-Months: Start date will be the first date of the previous month. The end date will be the last date of the previous month. If a user selects "Previous period" 6 months and todays date is 15/10/2019, the date range should be: 01/04/2019 – 30/09/2019. Meaning, the selection should include all records from the last six months, but not include records from the current month.
+### Quarter
 
-Quarter: The start date will be the first date of the previous quarter. The end date will be the last date of the previous quarter. If a user selects "Previous period" 1 quarter and todays date is 15/10/2019, the date range should be 01/06/2019 – 30/09/2019. Meaning, the selection should include all records from the last quarter.
+* The start date is the first date of the quarter when counting back from the first day of the current quarter the number of quarters set in the number field.
+* The end date is end date of the current quarter.
 
-Years: Start date will be the first date of the previous year. The end date will be the last date of the previous year. If a user selects "Previous period" 2 years and todays date is 15/10/2019, the date range will be 01/01/2017 – 31/12/2018. Meaning, the selection should include all records from the previous 2 years, which is 2017 and 2018, it should not include the current year.
+For example, Iif a user selects **This and previous** 2 quarters and today is 15/10/2019, the date range is 01/04/2019 – 31/12/2019. The selection includes all record with dates from the previous 2 quarters + the current quarter.
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+### Years
 
-This Period
+* The start date is the first day of the previous year/years.
+* The end date is the last day of the current year.
 
-The "This Period" operator should return all items that are of this period, of the selected set of days, weeks, months, quarter or years specified in the list dropdown.
+For example, if the user selects **This and Previous** 2 years and today is 15/10/2019, the date range is 01/01/2017 – 31/12/2019. The selection includes all records with dates from the 2 previous years, which is 2017 and 2018, it also includes all days of 2019.
 
-When the user has selected "This period" operator, the right side of the line should display a list dropdown. In the list dropdown the user should be able to select among the following:
+## Previous period
 
-This week: The start date will be the first day of the week in the current week. End date will be the last day of the week, which is normally a Sunday. If a user selects "This week" and todays date is 15/10/2019, the date range will be 14/10/2019 – 20/10/2019 (which is week 42). Meaning, the selection should include all records from the current week.
+The `previousPeriod` operator returns all items that are in the previous period set of days, weeks, months, quarter, or years specified by the user.
 
-This Month: The start date will be the first date of the month, in the current month. The end date will be the last day of the month. If a user selects "This month" and todays date is 15/10/2019, the date range will be 01/10/2019 – 31/10/2019 (which is October). Meaning, the selection is only to include records from the current month.
+When the user has selected **Previous period**, the right side of the line displays 2 fields: a number field and a drop-down list with the following options:
 
-This quarter: The start date will be the first day of the first month in the current quarter. The end date will be the last day of the last month, in the current quarter. If a user selects "This quarter" and todays date is 15/10/2019, the date range will be 01/10/2019 – 31/12/2019. Meaning, the selection is only to include records from the current quarter.
+### Days
 
-This year: The start date will be the first day of the current year. The end date will be the last date of the current year. If a user selects this year and todays date is 15/10/2019, the date range will be 01/01/2019 – 31/12/2019. Meaning, the selection is only to include records from the current year, which in this case is 2019.
+* The start date will be the first date of the previous period specified by the user.
+* The end date will be the last date of the set period.
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+For example, if a user selects **Previous period** 14 days and todays date is 15/10/2019, the date range will be 01/10/2019 – 14/10/2019. Meaning, the selection includes all records from the last 14 days, but not include the records from today
 
-Next period
+### Weeks
 
-The "Next period" operator should return all items that are of the next period, specified by the user in the number and list dropdown.
+* The start date will be the first date of the previous week.
+* The end date will be the last date of the previous week.
 
-When the user has selected the next period operator, the right side of the line should display 2 fields, a number field and a list dropdown. In the number field the user should enter the number of days, weeks, months, etc. they want the interval to run for. In the list dropdown the user should be able to select the interval.
+For example, if a user selects **Previous period** 2 weeks and todays date is 15/10/2019, the date range will be 30/09/2019 – 13/10/2019. Meaning, the selection includes all records from the last 2 weeks, but not include records from the current week.
 
-The number field should be unlimited, meaning that the user should be able to put any number in this field. This number should represent the length of the interval.
+### Months
 
-The unit dropdown should only contain the following units/intervals:
+* The start date will be the first date of the previous month.
+* The end date will be the last date of the previous month.
 
-Days: The start date will be the first day of the next period, which will be the day after the current day. The end date will be the last date in the next period specified by the user. Days will always start running from tomorrow and run the number of days set in the number field, until and including the last day of the set range. If the user selects "Next period" 3 days and the current date is 15/10/2019, the date range will be the 16/10/2019 – 18/10/2019. Meaning, the selection is only to include records with dates in the next 3 days, and not include the current date.
+For example, if a user selects **Previous period** 6 months and todays date is 15/10/2019, the date range is: 01/04/2019 – 30/09/2019. Meaning, the selection includes all records from the last six months, but not include records from the current month.
 
-Weeks: The start date will be the first day of the next week. The end date will be the last date of the last week of the specified range. If the user selects "Next period" 4 weeks and the current date is 15/10/2019 (week 42), the date range should be 21/10/2019 – 17/11/2019. Meaning, the selection is only to include records with dates in the next 4 weeks (week 43, 44, 45 and 46), and not the current week. If the user would have selected next period 7 days this would have a given the user a different result than next 1 week.
+### Quarter
 
-Months: The start date will be the first day of the following month. Then end date will be the last day of the last month in the specified range. If the user selects "Next period" 1 month and the current date is 15/10/2019, the date range should be 01/11/2019 – 30/11/2019. Meaning, the selection will only include the next month and not the current month.
+* The start date will be the first date of the previous quarter.
+* The end date will be the last date of the previous quarter.
 
-Quarter: The start date will be the first day of the following quarter. The end date will be the last day of the last quarter in the specified range. If the user selects the "Next period" 2 quarters and the current date is 15/10/2019, the date range should be 01/01/2019 – 30/06/2019. Meaning, the selection should include the next 2 quarters (Q1 and Q2) and not the current quarter.
+For example, if a user selects **Previous period** 1 quarter and todays date is 15/10/2019, the date range is 01/06/2019 – 30/09/2019. Meaning, the selection includes all records from the last quarter.
 
-Year: The start date will be the first date of the next year. The end date will be the last date of the last year in the specified range. If a user selects "Next period" 3 years and the current date is 15/10/2019, the date range should be 01/01/2020 – 31/12/2022. Meaning, the selection will include the next 3 years and not any dates of the current year.
+### Years
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+* The start date will be the first date of the previous year.
+* The end date will be the last date of the previous year.
 
-This, Previous and Next
+For example, if a user selects **Previous period** 2 years and todays date is 15/10/2019, the date range will be 01/01/2017 – 31/12/2018. Meaning, the selection includes all records from the previous 2 years, which is 2017 and 2018, it does not include the current year.
 
-The "This, Previous and Next" operator should return all items that are of the selected unit in the list dropdown. The "This, Previous and Next" will give the user the records that are of dates in the previous period, this period and the next period.
+## This Period
 
-When the user has selected the "This, Previous and Next" operator, the right side of the line should display a list dropdown. In the list dropdown the user should be able to select among the following:
+The `thisPeriod` operator returns all items that are of this period, of the selected set of days, weeks, months, quarter, or years specified by the user.
 
-Day: The start date will be the previous day (yesterday), the end date will be tomorrow. If a user selects "This, Previous and Next" days and todays date is 15/10/2019, the date range should be 14/10/2019 – 16/10/2019. Meaning, the selection will include records from yesterday, today and tomorrow.
+When the user has selected **This period**, the right side of the line displays a drop-down list with the following options:
 
-Week: The start date will be the first day of the previous week, the end date will be the last day of next week. If a user selects "This, Previous and Next" week and todays date is 15/10/2019, the date range should be 07/10/2019 – 27/10/2019. Meaning, the result will include all records from the last week, the current week and the next week.
+### This week
 
-Month: The start date will be the first day of the previous month, the end date will be the last day of the next month. If a user selects "This, Previous and Next" and todays date is 15/10/2019, the date range should be 01/09/2019 – 30/11/2019. Meaning, the selection will include all records from the last month, the current month and the following month.
+* The start date will be the first day of the week in the current week.
+* The end date will be the last day of the week, which is normally a Sunday.
 
-Quarter: The start date will be the first day of the previous quarter, the end date will be the last day of the next quarter. If a user selects "This, Previous and Next" and todays date is 15/10/2019, the date range should be 01/06/2019 – 30/09/2019. Meaning, the selection will include records from the last quarter, the current quarter and the next quarter.
+For example, if a user selects **This week** and todays date is 15/10/2019, the date range will be 14/10/2019 – 20/10/2019 (which is week 42). Meaning, the selection includes all records from the current week.
 
-Year: The start date will be the first day of the previous year, the end date will be the last date of the next year. If a user selects "This, Previous and Next" and todays date is 15/10/2019, the date range should be 01/01/2018 – 31/12/2020. Meaning, the selection will include records from last year, the current year and the next year.
+### This Month
 
-When the user has selected the range they are looking for, a read-only text should be shown next to the list dropdown displaying the dates the selected interval covers.
+* The start date will be the first date of the month, in the current month.
+* The end date will be the last day of the month.
 
-Converting to new dynamic date ranges
+For example, if a user selects **This month** and todays date is 15/10/2019, the date range will be 01/10/2019 – 31/10/2019 (which is October). Meaning, the selection is only to include records from the current month.
 
-When removing old date operators and replacing them with new, users are already having existing selections based on old operators. These selections should continue to give users the same result, which means existing criteria needs to be replaced by the equivalent new criteria.
+### This quarter
 
-Old criteria
+* The start date will be the first day of the first month in the current quarter.
+* The end date will be the last day of the last month, in the current quarter.
 
-Date examples if today is 18.03.2020
+For example, if a user selects **This quarter** and todays date is 15/10/2019, the date range will be 01/10/2019 – 31/12/2019. Meaning, the selection is only to include records from the current quarter.
 
-New criteria
+### This year
 
-10. Last week
+* The start date will be the first day of the current year.
+* The end date will be the last date of the current year.
 
-Monday 09.03.2020 - Sunday 15.03.2020
+For example, if a user selects **This year** and todays date is 15/10/2019, the date range will be 01/01/2019 – 31/12/2019. Meaning, the selection is only to include records from the current year, which in this case is 2019.
 
-Previous period 1 week
+## Next period
 
-11. This week
+The `nextPeriod` operator returns all items that are of the next period, specified by the user.
 
-Monday 16.03.2020 - Sunday 22.03.2020
+When the user has selected **Next period**, the right side of the line displays 2 fields: a number field and a drop-down list with the following options:
 
-This period week
+### Days
 
-12. Next week
+* The start date will be the first day of the next period, which will be the day after the current day.
+* The end date will be the last date in the next period specified by the user.
 
-Monday 23.03.2020 - Sunday 29.03.202
+> [!NOTE]
+> Days will always start running from tomorrow and run the number of days set in the number field, until and including the last day of the set range.
 
-Next period 1 week
+For example, if the user selects **Next period** 3 days and the current date is 15/10/2019, the date range will be the 16/10/2019 – 18/10/2019. Meaning, the selection is only to include records with dates in the next 3 days, and not include the current date.
 
-13. Last month
+### Weeks
 
-01.02.2020 - 29.02.2020
+* The start date will be the first day of the next week.
+* The end date will be the last date of the last week of the specified range.
 
-Previous period 1 month
+For example, if the user selects **Next period** 4 weeks and the current date is 15/10/2019 (week 42), the date range is 21/10/2019 – 17/11/2019. Meaning, the selection is only to include records with dates in the next 4 weeks (week 43, 44, 45 and 46), and not the current week.
 
-14. This month
+> [!NOTE]
+> If the user would have selected **Next period** 7 days this would have a given the user a different result than next 1 week.
 
-01.03.2020 - 31.03.2020
+### Months
 
-This period month
+* The start date will be the first day of the following month.
+* The end date will be the last day of the last month in the specified range.
 
-15. Next month
+For example, if the user selects **Next period** 1 month and the current date is 15/10/2019, the date range is 01/11/2019 – 30/11/2019. Meaning, the selection will only include the next month and not the current month.
 
-01.04.2020 - 30.04.2020
+### Quarter
 
-Next period 1 month
+* The start date will be the first day of the following quarter.
+* The end date will be the last day of the last quarter in the specified range.
 
-16. Last Quarter
+For example, if the user selects the **Next period** 2 quarters and the current date is 15/10/2019, the date range is 01/01/2019 – 30/06/2019. Meaning, the selection includes the next 2 quarters (Q1 and Q2) and not the current quarter.
 
-01.10.2019 - 31.12.2019
+### Year
 
-Previous period 1 quarter
+* The start date will be the first date of the next year.
+* The end date will be the last date of the last year in the specified range.
 
-17. This Quarter
+For example, if a user selects **Next period** 3 years and the current date is 15/10/2019, the date range is 01/01/2020 – 31/12/2022. Meaning, the selection will include the next 3 years and not any dates of the current year.
 
-01.01.2020 - 31.03.2020
+## This, Previous, and Next
 
-This period quarter
+The `thisPreviousAndNext` operator returns all items that are of the selected unit in the list dropdown. It will give the user the records that are of dates in the previous period, this period and the next period.
 
-18. Next Quarter
+When the user has selected **This, Previous, and Next**, the right side of the line displays a drop-down list with the following options:
 
-01.04.2020 - 30.06.2020
+### Day
 
-Next period 1 quarter
+* The start date will be the previous day (yesterday).
+* The end date will be tomorrow.
 
-19. This half
+For example, if a user selects **This, Previous and Next** days and todays date is 15/10/2019, the date range is 14/10/2019 – 16/10/2019. Meaning, the selection will include records from yesterday, today and tomorrow.
 
-01.01.2020 - 30.06.2020
+### Week
 
-This period 6 months
+* The start date will be the first day of the previous week.
+* The end date will be the last day of next week.
 
-20. This year
+For example, if a user selects **This, Previous and Next** week and todays date is 15/10/2019, the date range is 07/10/2019 – 27/10/2019. Meaning, the result will include all records from the last week, the current week and the next week.
 
-01.01.2020 - 31.12.2020
+### Month
 
-This period year
+* The start date will be the first day of the previous month.
+* The end date will be the last day of the next month.
 
-Additional requirements:
+For example, if a user selects **This, Previous and Next** and todays date is 15/10/2019, the date range is 01/09/2019 – 30/11/2019. Meaning, the selection will include all records from the last month, the current month and the following month.
 
-The new dynamic date criteria are going to be released as a part of New Selection. As this functionality is going to be deployed to customers by enabling a feature toggle, a convert during db upgrade is not a possible solution.
+### Quarter
 
-Users reading old selections requires convert of dynamic date range on the fly when NewSelection = true.
+* The start date will be the first day of the previous quarter.
+* The end date will be the last day of the next quarter.
 
-When feature toggle for New Selection is removed, a db step can convert remaining selections automatically.
+For example, if a user selects **This, Previous and Next** and todays date is 15/10/2019, the date range is 01/06/2019 – 30/09/2019. Meaning, the selection will include records from the last quarter, the current quarter and the next quarter.
+
+### Year
+
+* The start date will be the first day of the previous year.
+* The end date will be the last date of the next year.
+
+For example, if a user selects **This, Previous and Next** and todays date is 15/10/2019, the date range is 01/01/2018 – 31/12/2020. Meaning, the selection will include records from last year, the current year and the next year.
+
+<!-- Referenced links -->
+[1]: operators.md
+[2]: convert-to-new-date-range-operators.md
