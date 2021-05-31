@@ -11,19 +11,19 @@ so.client: online
 
 # Configure - Cloud Office document handling
 
-The Office365 and G Suite Integration apps integrate the Office365 SharePoint’s and Google Drive's document management features with CRM Online so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 or G Suite services all in one place.
+The Office365 and Google Workspace Integration apps integrate the Office365 SharePoint’s and Google Drive's document management features with CRM Online so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 or Google Workspace services all in one place.
 
-Simply sign in to SuperOffice using your Office365 or Google login details and then open, edit and store documents in Office365 SharePoint or G Suite directly from SuperOffice.
+Simply sign in to SuperOffice using your Office365 or Google login details and then open, edit and store documents in Office365 SharePoint or Google Workspace directly from SuperOffice.
 
 To start using the Integration, setup consists of 2 steps:
 
-1) How to setup [Office365][3] or [G Suite][2] to integrate to CRM Online
+1) How to setup [Office365][3] or [Google Workspace][2] to integrate to CRM Online
 
 2) How to configure the document templates for use, is documented in this article.
 
 In standard CRM Online, all templates are stored in CRM Online storage ("SO Archive") and are set to save the files users create also in CRM Online storage ("SO Archive").
 
-Even with the integration set up - you may still use "SO Archive" for your templates and documents - but then without the benefits of Office365 or G Suite services.
+Even with the integration set up - you may still use "SO Archive" for your templates and documents - but then without the benefits of Office365 or Google Workspace services.
 
 > [!NOTE]
 > There is one selection for where to store the template: **Store template in:** and one selection for where to store the file created based on this template: **Document stored in:**.
@@ -82,21 +82,21 @@ Use a descriptive title for the template, and use "Header" to group templates. T
 
 * All documents written in SuperOffice will be stored in the SharePoint / Google cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online
 
-* If you want to use your O365 / G Suite account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your SharePoint  / G Suite account
+* If you want to use your O365 / Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your SharePoint  / Google Workspace account
 
-* Old documents will not automatically be moved from SuperOffice to your SharePoint  / G Suite
+* Old documents will not automatically be moved from SuperOffice to your SharePoint  / Google Workspace
 
-* Moving existing documents or templates to or from SuperOffice and your SharePoint  / G Suite is offered as a paid service
+* Moving existing documents or templates to or from SuperOffice and your SharePoint  / Google Workspace is offered as a paid service
 
 ### Moving existing SuperOffice documents and templates between SuperOffice Online and cloud document provider
 
 All documents written in SuperOffice will be stored in the provider's cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online.
 
-**G suite:**
+**Google Workspace:**
 
-* If you want to use your G Suite account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your G Suite account
+* If you want to use your Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your Google Workspace account
 
-* Old documents will not automatically be moved from SuperOffice to G Suite
+* Old documents will not automatically be moved from SuperOffice to Google Workspace
 
 * Moving existing documents or templates to or from SuperOffice and the is not offered as a service. A SuperOffice consultant might be able to assist you in a manual transition.
 

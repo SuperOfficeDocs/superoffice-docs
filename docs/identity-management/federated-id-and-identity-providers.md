@@ -31,7 +31,7 @@ When the user signs in to a service, instead of providing credentials to the ser
 Today we support 2 different 3rd-party identity providers:
 
 * Google Domains
-  * Basic, Business, and Enterprise of G Suite subscriptions include this
+  * Basic, Business, and Enterprise of Google Workspace subscriptions include this
 * Microsoft Azure AD (AAD)
   * Many Office365 / Microsoft 365 subscriptions include this
   * Azure AD Premium P1 or higher.
