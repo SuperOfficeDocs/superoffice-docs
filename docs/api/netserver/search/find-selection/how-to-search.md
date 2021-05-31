@@ -177,7 +177,7 @@ The `ProviderName` property is the name of the archive provider used to search. 
 
 The `SelectionId` indicates the selection's primary key for this associate/entity pair. The selection has a default list of criteria used to pre-populate a new selection of this entity type.
 
-#### SelectionForFind Result
+#### SelectionForFind result
 
 ```json
 {
@@ -534,7 +534,7 @@ ArchiveListItem[] results = await archiveAgent.GetArchiveListByColumnsAsync(
     new[]
     {
         new ArchiveOrderByInfo() 
-        { 
+        {
             Name = columns[0], 
             Direction = OrderBySortType.ASC 
         }

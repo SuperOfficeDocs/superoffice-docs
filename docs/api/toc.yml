@@ -305,7 +305,19 @@ items:
   - name: Find Selection API
     href: netserver/search/find-selection/index.md
     items:
-    - name: Typical Search
+    - name: Terminology
+      href: netserver/search/find-selection/terminology.md
+    - name: How to search
+      href: netserver/search/find-selection/how-to-search.md
+    - name: How to populate selectable columns
+      href: netserver/search/find-selection/populate-selectable-columns.md
+    - name: Operators
+      href: netserver/search/find-selection/operators.md
+    - name: Date range as criteria
+      href: netserver/search/find-selection/date-range-as-criteria.md
+    - name: Convert legacy operators
+      href: netserver/search/find-selection/convert-to-new-date-range-operators.md
+    - name: Typical search
       href: netserver/search/find-selection/typical-search.md
   - name: Archive provider fundamentals
     href: netserver/archive-providers/index.md

@@ -11,7 +11,7 @@ so.client: web
 
 # Archive columns - column names
 
-While it's possible to lookup archive provider columns using the NetServer [documentation reference][1], it's recommended to get **and cache** the columns using the API.
+While it's possible to look up archive provider columns using the NetServer [documentation reference][1], it's recommended to get **and cache** the columns using the API.
 
 There are 3 types of interesting archive information:
 
@@ -28,6 +28,14 @@ They are obtained using the following format:
 | RestrictionColumns | Archive restriction columns, used like WHERE clause fields | When defining what provider columns to use as restrictions in `CriteriaGroups` |
 | Columns | Archive columns, used like SELECT fields | When defining what provider columns to select from the Archive endpoint |
 | Entities | Archive entities | When defining what provider entities to select from the Archive endpoint |
+
+## CriteriaGroups
+
+New Selection introduces the concept of **criteria groups**, where the criteria within each group are connected by AND, and groups are connected by OR. The database layout to support this has been in place for a long time and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new **Filter** screen groups are stacked vertically instead.
+
+APIs that only work with a simple `ArchiveRestrictionInfo[]` do not support the concept of multiple groups. Such methods will only return the first group, and on writing will delete any other groups. Examples are `GetDynamicSelectionCriteria` and `SetDynamicSelectionCriteria`; and similar methods in the Find agent. All these methods should be considered obsolete when applied to Selection and Find.
+
+Selection criteria should be fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods. Contrast the differences in the two calls (the ts.Key is a selection ID).
 
 ## Get archive columns
 
