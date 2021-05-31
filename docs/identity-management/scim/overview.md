@@ -6,8 +6,8 @@ author:
 so.date:
 keywords: SCIM
 so.topic: concept
-so.envir:  cloud                   # cloud or onsite
-so.client:  online                  # online, web, win, pocket, or mobile
+so.envir:  cloud
+so.client:  online
 ---
 
 # System for Cross-domain Identity Management (SCIM)

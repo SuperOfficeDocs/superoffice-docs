@@ -6,8 +6,8 @@ author: {github-id}
 keywords:
 so.topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Activate a custom application

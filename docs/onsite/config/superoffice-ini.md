@@ -5,7 +5,7 @@ description: SuperOffice.ini
 author: {github-id}
 keywords:
 so.topic: reference
-# so.envir: # cloud or onsite
+# so.envir:
 # so.client:# online, web, win, pocket, or mobile
 ---
 

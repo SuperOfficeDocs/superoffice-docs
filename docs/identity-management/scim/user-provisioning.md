@@ -6,8 +6,8 @@ author: {github-id}
 keywords: IDP
 so.topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # User provisioning

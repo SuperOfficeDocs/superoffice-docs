@@ -6,7 +6,7 @@ author: {github-id}
 keywords:
 so.topic: reference
 so.envir: onsite
-# so.client: # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # Service config

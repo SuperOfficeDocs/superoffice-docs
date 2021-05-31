@@ -5,8 +5,8 @@ description: How do I use Cloud Office with document handling?
 author: {github-id}
 keywords:
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How do I use Cloud Office with document handling?

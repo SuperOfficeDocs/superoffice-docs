@@ -7,7 +7,7 @@ so.date: 03.30.2012
 keywords:
 so.topic: howto
 so.envir: onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # Mapping SuperOffice users to Active Directory in 7.0 SR3 and 7.1

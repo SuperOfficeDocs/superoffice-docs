@@ -5,8 +5,8 @@ author: {github-id}
 keywords: security
 so.topic: reference
 so.date:
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Cookies overview
