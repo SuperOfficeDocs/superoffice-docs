@@ -41,6 +41,8 @@ so.date: 04.28.2021
 * [Customer language with multiple checks (9.2 R07)][7]
 * [Archives with column clean-up (9.2 R07)][7]
 * [Diary – Join meeting with right-click (9.2 R08)][8]
+* [Export to Excel from archives][9]
+* [Sales criteria on Sale Stakeholder][9]
 
 <!-- Referenced links-->
 [1]: 9.2-R01-update.md
@@ -51,3 +53,4 @@ so.date: 04.28.2021
 [6]: 9.2-R06-update.md
 [7]: 9.2-R07-update.md
 [8]: 9.2-R08-update.md
+[9]: 9.2-R09-update.md
