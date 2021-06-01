@@ -23,6 +23,7 @@ so.date: 04.28
 * [Forms – Two column form (9.2 R08)][8]
 * [Forms – The request view of form (9.2 R08)][8]
 * [Forms – Create requests with forms (9.2 R08)][8]
+* [Mailing - Tracked links with new hostname][9]
 
 <!-- Referenced links-->
 [1]: 9.2-R01-update.md
@@ -32,3 +33,4 @@ so.date: 04.28
 [5]: 9.2-R05-update.md
 [6]: 9.2-R06-update.md
 [8]: 9.2-R08-update.md
+[9]: 9.2-R09-update.md

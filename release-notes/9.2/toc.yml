@@ -20,6 +20,8 @@ items:
     href: standard-crm/9.2-R07-update.md
   - name: 9.2 R08 update
     href: standard-crm/9.2-R08-update.md
+  - name: 9.2 R09 update
+    href: standard-crm/9.2-R09-update.md
 - name: Customer Engagement Portal
   href: cep/index.md
   items:
@@ -42,6 +44,8 @@ items:
     href: marketing/9.2-R06-update.md
   - name: 9.2 R08 update
     href: marketing/9.2-R08-update.md
+  - name: 9.2 R09 update
+    href: marketing/9.2-R09-update.md
 - name: Service
   href: service/index.md
   items:
@@ -66,6 +70,8 @@ items:
     href: mobile/10.0.6-update.md
   - name: 10.0.7 update
     href: mobile/10.0.7-update.md
+  - name: 10.0.8 update
+    href: mobile/10.0.8-update.md
 - name: Office integrations
   href: office-integrations/index.md
   items:
@@ -84,3 +90,5 @@ items:
     href: api/9.2-R06-update.md
   - name: 9.2 R08 update
     href: api/9.2-R08-update.md
+  - name: 9.2 R09 update
+    href: api/9.2-R09-update.md

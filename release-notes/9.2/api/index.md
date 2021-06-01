@@ -10,8 +10,10 @@ so.date: 04.28
 * [Prefix changes on date/time (9.2 R03)][3]
 * [Mass Operations][6]
 * [Chatbot – CRMScript Chatbots (9.2 R08)][8]
+* [NetServer Logger requirements][9]
 
 <!-- Referenced links-->
 [3]: 9.2-R03-update.md
 [6]: 9.2-R06-update.md
 [8]: 9.2-R08-update.md
+[9]: 9.2-R09-update.md
