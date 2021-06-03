@@ -534,7 +534,7 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [2]: https://www.getpostman.com/
 [3]: http://www.w3schools.com/jsref/met_win_btoa.asp
 [4]: index.md
-[6]: agents/index.md
+[6]: ../agents/index.md
 [7]: https://en.wikipedia.org/wiki/Open_Data_Protocol
 [8]: ../../netserver/search/odata/index.md
 
