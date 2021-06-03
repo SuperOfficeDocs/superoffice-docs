@@ -10,7 +10,7 @@ so.topic: concept
 
 # HTTP request headers
 
-These headers only apply to the REST API.
+These headers apply only to the REST API.
 
 ## Modified / Unmodified
 
@@ -27,7 +27,7 @@ GET /api/v1/Contact/123
 If-Modified-Since: Wed, 21 Oct 2015 07:28:00 GMT
 ```
 
-will return a **304 Not Modified** response if the contact has not been modified since Oct 2015. This basically tells you that your cached copy of the data is still good.
+The above will return a **304 Not Modified** response if the contact has not been modified since October, 2015. This tells you that your cached copy of the data is still good.
 
 ### If-Unmodified-Since
 
@@ -38,7 +38,7 @@ PUT /api/v1/Contact/123
 { Name: "Some updates" }
 ```
 
-always updates the contact object.
+The above always updates the contact object.
 
 ```http
 PUT /api/v1/Contact/123
@@ -46,6 +46,6 @@ If-Unmodified-Since: Wed, 21 Oct 2015 07:28:00 GMT
 { Name: "Some updates" }
 ```
 
-will return a **412 Precondition failed** response if the contact has been modified after Oct 2015.
+This will return a **412 Precondition failed** response if the contact has been modified after October, 2015.
 
 This is telling you that your cached copy of the data is no good anymore. It has been modified on the server since you fetched it.

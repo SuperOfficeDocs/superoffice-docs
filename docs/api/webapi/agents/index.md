@@ -10,7 +10,7 @@ so.topic: concept
 
 # Agents WebAPI
 
-The Agents API contains everything in the normal web service API but does not attempt to model entities. All operations are accessed using HTTP POST.
+The Agents API contains everything in the normal web service API but does not attempt to model entities. It exposes the latest Services agents and functions. All operations are accessed using HTTP POST.
 
 > [!NOTE]
 > The agents do not return HTTP errors - a failed call will return NULL instead.
@@ -43,12 +43,12 @@ POST /api/v1/Agents/Appointment/CalculateDays
 }
 ```
 
-This method takes an appointment entity as parameter so this needs to be in the POST body. The result of the service call is returned as JSON.
+This method takes an appointment entity as its parameter so this needs to be in the POST body. The result of the service call is returned as JSON.
 
 ## How to
 
 > [!NOTE]
-> The examples below are given using Javascripty pseudo-code.
+> The examples below are given using JavaScripty pseudo-code.
 
 * [Create a new company][2]
 * [Add a category list item][3]

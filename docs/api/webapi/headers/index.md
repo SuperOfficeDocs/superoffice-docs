@@ -1,6 +1,6 @@
 ---
 title: Headers
-uid: web_api_headers
+uid: webapi_headers
 description: Web API headers
 author: {github-id}
 so.date: 

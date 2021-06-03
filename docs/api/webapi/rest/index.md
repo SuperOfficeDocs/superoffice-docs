@@ -10,7 +10,7 @@ so.topic: concept
 
 # REST WebAPI
 
-Exposes objects as entities that can be retrieved using HTTP GET, modified using HTTP PUT, created using HTTP POST, and deleted using HTTP DELETE.
+The REST API exposes objects as entities that can be retrieved using HTTP GET, modified using HTTP PUT, created using HTTP POST, and deleted using HTTP DELETE.
 
 **Examples:**
 
@@ -28,7 +28,7 @@ Adds a new list item to the Category list.
 
 ## Entities
 
-The REST API has the major entities (Company, Person, Project, Sale, etc) exposed.
+The REST API has the major entities (Company, Person, Project, Sale, and so on) exposed.
 
 * `/api/v1/Contact`
 * `/api/v1/Person`
@@ -36,23 +36,37 @@ The REST API has the major entities (Company, Person, Project, Sale, etc) expose
 * `/api/v1/Sale`
 * ...
 
-The entities all have similar structures
+The entities all have similar structures.
 
-`/api/v1/Contact` Returns an ODATA feed of contact records. You can select fields, order, filter the result using ODATA operations.
+`/api/v1/Contact` returns an ODATA feed of contact records. You can select fields and order and filter the result using ODATA operations.
+
+### Filter
 
 `/api/v1/Contact?$select=name,category&$filter=registeredDate before '2009-1-1'`
 
 This returns the contact ID, name, and category for contacts created before 2009.
 
+### Default
+
 `/api/v1/Contact/default` returns a new blank entity.
 
-`/api/v1/Contact/123` returns the Contact with ID 123. This object can be PUT or DELETE - subject to the usual sentry restrictions. If your role does not allow you to update, then the web API won't give you more access.
+### Retrieve object
+
+`/api/v1/Contact/123` returns the Contact with ID 123. This object can be PUT or DELETE - subject to the usual sentry restrictions. If your role does not allow you to update, then the WebAPI won't give you more access.
+
+### Simple
 
 `/api/v1/Contact/123/Simple` returns a simplified version of the entity. This cannot be updated or deleted, but it can be easier to work with - it does not have deeply nested structures, and does not support things like user-defined fields.
 
+### User-defined fields
+
 Most of the entities have user-defined fields, and expose information about the layout at `/api/v1/Contact/UdefLayout`.
 
-The actual user-defined field values are returned in the entity's `UserDefinedFields` property. Many have related lists of other entities as well:
+The actual user-defined field values are returned in the entity's `UserDefinedFields` property.
+
+### Lists of entities
+
+Many have related lists of other entities as well:
 
 * `/api/v1/Contact/123/Projects`|
 * `/api/v1/Contact/123/Sales`|
@@ -61,7 +75,7 @@ These lists are archives that you can filter and sort using OData operations.
 
 ## Lists
 
-SuperOffice has built-in lists (Category, Business, Position, etc). You can add your own custom lists.
+SuperOffice has built-in lists (Category, Business, Position, and so on). You can add your own custom lists.
 
 `/api/v1/List` returns a list of lists.
 
@@ -79,29 +93,27 @@ To return the list items in the given list:
 
 `/api/v1/MDOList` gives you read access to hierarchical lists and other list providers in the system.
 
-## Archives etc
-
-**Archives:**
+## Archives
 
 The archive provider system is exposed as an OData endpoint.
 
 * `/api/v1/Archive/OwnerContacts?$select=contactId,name,orgnr`
 * `/api/v1/Archive/EmailAddress?$select=fullName,emailAddress&$filter=contactId=12`
 
-**User preferences:**
+## User preferences
 
 User preferences and `pref.descriptions` can be read and updated.
 
 * `/api/v1/Preference/section/keyname`
 * `/api/v1/PreferenceDescription/section/keyname`
 
-**Foreign keys:**
+## Foreign keys
 
 `/api/v1/ForeignApp/Glops/Foobar/Key/Lookup/Contact/123`
 
 Returns the key called 'Lookup' from the foreign app 'Glops' for the Contact record 123.
 
-**Strings:**
+## Strings
 
 Built-in string resources can be read in supported languages.
 
@@ -109,7 +121,7 @@ Built-in string resources can be read in supported languages.
 
 ## System
 
-Users, Roles, License stuff is exposed via simple endpoints. If you have admin rights in your role, you can POST or PUT to update system information.
+Users, Roles, License stuff are exposed via simple endpoints. If you have admin rights in your role, you can POST or PUT to update system information.
 
 * `/api/v1/User/Tony`
 * `/api/v1/Role/12`

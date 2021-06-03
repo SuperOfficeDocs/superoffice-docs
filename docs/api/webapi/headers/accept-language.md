@@ -1,6 +1,6 @@
 ---
 title: Multiple languages
-uid: web_api_headers_accept_language
+uid: webapi_headers_accept_language
 description: Web API headers
 author: {github-id}
 so.date: 
@@ -23,8 +23,8 @@ This returns a multi-language string `NO:"Leverandør";US:"Supplier"` - which is
 If we add the `Accept-Language: en` header, then we get back a parsed result:
 
 ```http
-GET /api/v1/List/Category/Items/2
 Accept-Language: en
+GET /api/v1/List/Category/Items/2
 ```
 
 This returns just `Supplier`.
@@ -39,7 +39,7 @@ Field properties contain reasons why fields are required. Without an Accept-Lang
   "Reason": "[SR_MANDATORY_FIELD_1281]" },
 ```
 
-With an `Accept-Language: fr` header, we get back
+With an `Accept-Language: fr` header, we get back:
 
 ```json
 "FieldRight": {
