@@ -1,7 +1,7 @@
 ---
 title: REST WebAPI
 uid: rest_api
-description: REST Web API
+description: SuperOffice REST Web API exposes objects as entities that can be manipulated using the HTTP verbs GET, PUT, POST, and DELETE.
 author: {github-id}
 keywords:
 so.date:
@@ -14,11 +14,15 @@ Exposes objects as entities that can be retrieved using HTTP GET, modified using
 
 **Examples:**
 
-`GET /api/v1/Contact/123`
+```http
+GET /api/v1/Contact/123
+```
 
 Returns a JSON object representing Contact 123. This object can be PUT to update it or DELETEd - subject to the usual [sentry restrictions][10]. Attempting to GET an object that doesn't exist will return an HTTP 404 error.
 ​
-`POST api/v1/List/Category/Items`
+```http
+POST api/v1/List/Category/Items
+```
 
 Adds a new list item to the Category list.
 
@@ -129,7 +133,7 @@ Errors are returned using HTTP error codes, and as a JSON object:
 ## How to
 
 > [!NOTE]
-> The examples below are given using Javascripty pseudo-code.
+> The examples below are given using JavaScripty pseudo-code.
 
 * [Create a new company][2]
 * [Add a category list item][3]
@@ -140,13 +144,13 @@ Errors are returned using HTTP error codes, and as a JSON object:
 
 ## Webhooks
 
-Registering a webhook is covered in the [Webhook overview][8].
+Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback events][11] are described separately.
 
 ---
 
 See also: WebAPI [Agents API][1]
 
-[Download Web API Swagger file][9]
+[Download WebAPI Swagger file][9]
 
 <!-- Referenced links -->
 [1]: ../agents/index.md
@@ -157,5 +161,6 @@ See also: WebAPI [Agents API][1]
 [6]: ../../person/services/get-person-image-rest.md
 [7]: ../../person/services/update-person-image-rest.md
 [8]: ../../webhooks/register.md
-[9]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/swagger/Swagger-v1-REST.json
+[9]: ../../assets/downloads/Swagger-v1-REST.json
 [10]: ../../security/sentry/services/index.md
+[11]: ../../netserver/webhooks/reference/index.md

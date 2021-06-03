@@ -1,5 +1,5 @@
 ---
-title: Agents Web API
+title: Agents WebAPI
 uid: agents_api
 description: Agents Web API
 author: {github-id}
@@ -8,22 +8,24 @@ so.date:
 so.topic: concept
 ---
 
-# Agents Web API
+# Agents WebAPI
 
-The Agents API contains everything in the normal service API but does not attempt to model entities. All operations are accessed using HTTP POST.
-
-The agents expose the latest Services agents and functions. It contains everything in the normal service API, but does not attempt to model entities. All the web service operations are accessed using HTTP POST.
+The Agents API contains everything in the normal web service API but does not attempt to model entities. All operations are accessed using HTTP POST.
 
 > [!NOTE]
 > The agents do not return HTTP errors - a failed call will return NULL instead.
 
 **Examples:**
 
-`POST /api/v1/Agents/Contact/GetContact?contactId=123`
+```http
+POST /api/v1/Agents/Contact/GetContact?contactId=123
+```
 
 Returns a JSON object representing Contact 123.
 
-`POST /api/v1/Agents/List/SaveListItemEntity`
+```http
+POST /api/v1/Agents/List/SaveListItemEntity
+```
 
 Adds a new list item to the Category list (assuming the list item entity parameter has been properly initialized).
 
@@ -65,4 +67,4 @@ See also: WebAPI [REST API][1]
 [3]: ../../lists/services/listagent/add-catlist-item-webapi-agents.md
 [4]: ../../documents/agents-web-api/add-document-template.md
 [5]: ../../documents/agents-web-api/generate-document.md
-[6]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/swagger/Swagger-v1-Agents.json
+[6]: ../../assets/downloads/Swagger-v1-Agents.json

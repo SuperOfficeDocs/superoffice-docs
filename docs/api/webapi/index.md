@@ -4,7 +4,7 @@ uid: web_api
 description: Web API overview
 author: {github-id}
 so.date: 
-keywords: 
+keywords: webapi
 so.topic: concept
 ---
 
@@ -12,8 +12,8 @@ so.topic: concept
 
 The HTTP WebAPI comes in 2 parts:
 
-* [REST Web API][1] - URLs describe entities like person or sale
-* [Agents Web API][2] - the services API accessible via HTTP
+* [REST WebAPI][1] - URLs describe entities like person or sale
+* [Agents WebAPI][2] - the services API accessible via HTTP
 
 The **REST** API is not as complete as the **Agents** API, but it should cover the most common use cases, and be easier to use and navigate.
 
