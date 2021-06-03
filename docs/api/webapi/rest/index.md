@@ -54,6 +54,12 @@ This returns the contact ID, name, and category for contacts created before 2009
 
 `/api/v1/Contact/123` returns the Contact with ID 123. This object can be PUT or DELETE - subject to the usual sentry restrictions. If your role does not allow you to update, then the WebAPI won't give you more access.
 
+```http
+GET /api/v1/Contact/123
+PUT /api/v1/Contact/123
+DELETE /api/v1/Contact/123
+```
+
 ### Simple
 
 `/api/v1/Contact/123/Simple` returns a simplified version of the entity. This cannot be updated or deleted, but it can be easier to work with - it does not have deeply nested structures, and does not support things like user-defined fields.

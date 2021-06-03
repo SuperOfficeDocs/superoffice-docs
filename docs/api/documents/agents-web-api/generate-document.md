@@ -3,7 +3,7 @@ title: Generate document
 uid: generate_document_webapi
 description: Generate a document
 author: {github-id}
-keywords: document,webapi,agents
+keywords: document, webapi, agents
 so.topic: howto
 # so.envir:
 # so.client:

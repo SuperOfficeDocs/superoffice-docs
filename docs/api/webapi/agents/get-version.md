@@ -19,18 +19,12 @@ This returns a block with the supported versions and the NetServer version numbe
 * If you ask for Javascript, you get the following:
 
 ```javascript
-{ "v1": "http://www.example.com/crm/api/v1",
-  "Version": "v1",
-  "NetServerVersion": "8.1.6431.038",
-  "NetServerAssembly": "8.1.0.0",
-  "NetServerDate": "2017-08-10",
-  "NetServer": "SuperOffice NetServer 8.1 Release (Build: 6431)",
-  "NetServerLabel": "9729",
-  "Services": "Services83",
-  "Services80": "http://www.superoffice.net/ws/crm/NetServer/Services80",
-  "Services81": "http://www.superoffice.net/ws/crm/NetServer/Services81",
-  "Services82": "http://www.superoffice.net/ws/crm/NetServer/Services82",
-  "Services83": "http://www.superoffice.net/ws/crm/NetServer/Services83",
+{
+  "v1": "http://www.example.com/crm/api/v1",
+  "NetServerVersion": "8.8.6352.1249",
+  "NetServerAssembly": "8.8.0.9729",
+  "NetServerDate": "2017-05-23",
+  "NetServer": "SuperOffice NetServer 8.1 Stable (Build: 6352), expires in 76 days."
 }
 ```
 
@@ -38,36 +32,25 @@ This returns a block with the supported versions and the NetServer version numbe
 
 If you fetch the version URL, you get back a list of supported URLs: `/api/v1`
 
-This returns an array of URLs mapped to the HTTP methods they support, along with some documentation:
-
 ```javascript
-{
-  "http://www.example.com/WebApi/api/v1/Agents/Relation/CreateDefaultContactRelationEntity": {
-    "POST": "Set default values into a new ContactRelationEntity."
-  },
-  "http://www.example.com/WebApi/api/v1/Agents/Relation/GetContactRelationEntity": {
-    "POST": "?contactRelationEntityId={contactRelationEntityId}   Gets a ContactRelationEntity object."
-  },
-  "http://www.example.com/WebApi/api/v1/Agents/Relation/SaveContactRelation": {
-    "POST": "Creates a new or updates an existing contact relation."
-  },
-  "http://www.example.com/WebApi/api/v1/Agents/Relation/DeleteContactRelation": {
-    "POST": "Deletes the specified contact relation."
-  },
-  "http://www.example.com/WebApi/api/v1/List/WebPanel": {
-    "GET": "Gets description of WebPanelEntity list",
-    "PUT": "Save the description of WebPanelEntity list"
-  },
-  "http://www.example.com/WebApi/api/v1/List/WebPanel/Items": {
-    "GET": "Gets a list of all WebPanelEntity list items.",
-    "POST": "Create a new WebPanelEntity list item"
-  },
-  "http://www.example.com/WebApi/api/v1/List/WebPanel/Items/{id}": {
-    "GET": "Gets a WebPanelEntity list item.",
-    "PUT": "Updates the existing WebPanelEntity",
-    "DELETE": "Marks the existing WebPanelEntity as deleted."
-  },
- ...
+[
+  "/api/v1/Agents/Appointment/Accept",
+  "/api/v1/Agents/Appointment/AcceptRejected",
+  "/api/v1/Agents/Appointment/AssignTo",
+  "/api/v1/Agents/Appointment/CalculateDays",
+  "/api/v1/Agents/Appointment/CanAssignToProjectMember",
+  "/api/v1/Agents/Appointment/CleanUpBookingDeleted",
+  "/api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted",
+  "/api/v1/Agents/Appointment/CreateDefaultAppointmentEntity",
+  ...
+  "/api/v1/Appointment",
+  "/api/v1/Appointment/{id}",
+  "/api/v1/Appointment/{id}/Links?$select={$select}&$filter={$filter}&$orderBy={$orderBy}&$top={$top}&$skip={$skip}&$mode={$mode}&$options={$options}&$context={$context}&$format={$format}",
+  "/api/v1/Appointment/{id}/Participants?$select={$select}&$filter={$filter}&$orderBy={$orderBy}&$top={$top}&$skip={$skip}&$mode={$mode}&$options={$options}&$context={$context}&$format={$format}",
+  "/api/v1/Appointment/{id}/Simple",
+  "/api/v1/Appointment/default",
+  "/api/v1/Appointment/UdefLayout",
+  ....
 ```
 
 You can use this information to determine if the server supports the features you need.

@@ -1,6 +1,6 @@
 ---
 title: Agents WebAPI
-uid: agents_api
+uid: webapi_agents
 description: Agents Web API
 author: {github-id}
 keywords:
@@ -29,7 +29,9 @@ POST /api/v1/Agents/List/SaveListItemEntity
 
 Adds a new list item to the Category list (assuming the list item entity parameter has been properly initialized).
 
-`/api/v1/Agents/Appointment/CalculateDays`
+## GET vs. POST
+
+`GET /api/v1/Agents/Appointment/CalculateDays`
 
 GET this to get a description of the call. The method is not invoked using GET, even if the method is called **GetAppointment**. To actually invoke the method, you need to POST to the endpoint:
 
@@ -43,7 +45,32 @@ POST /api/v1/Agents/Appointment/CalculateDays
 }
 ```
 
-This method takes an appointment entity as its parameter so this needs to be in the POST body. The result of the service call is returned as JSON.
+This method takes an appointment entity as its parameter so this needs to be in the POST body. The result of the service call is returned as JSON or XML, depending on the Accept header.
+
+## Errors
+
+Errors are returned as a NULLs:
+
+**HTTP 200 OK - with a NULL result:**
+
+```http
+POST api/v1/Agents/Contact/GetContactEntity?contactEntityId=9999
+```
+
+**HTTP 400 Bad Request - with an error result:**
+
+```http
+POST api/v1/Agents/Contact/GetContactEntity?contactEntityId=glops
+```
+
+**200 OK with an internal error object:**
+
+```javascript
+{
+  "Message": "The request is invalid.",
+  "MessageDetail": "The parameters dictionary contains a null entry for parameter 'contactEntityId'."
+}
+```
 
 ## How to
 
@@ -64,7 +91,7 @@ See also: WebAPI [REST API][1]
 <!-- Referenced links -->
 [1]: ../rest/index.md
 [2]: ../../contact/services/create-contact-webapi-agents.md
-[3]: ../../lists/services/listagent/add-catlist-item-webapi-agents.md
+[3]: ../../netserver/lists/services/listagent/add-catlist-item-webapi-agents.md
 [4]: ../../documents/agents-web-api/add-document-template.md
 [5]: ../../documents/agents-web-api/generate-document.md
 [6]: ../../assets/downloads/Swagger-v1-Agents.json

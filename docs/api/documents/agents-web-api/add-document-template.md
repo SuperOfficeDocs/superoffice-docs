@@ -3,7 +3,7 @@ title: Add template
 uid:  add_document_template_webapi_agents
 description: Add a document template
 author: {github-id}
-keywords: document,webapi,agents
+keywords: document, webapi, agents
 so.topic: howto
 # so.envir:
 # so.client:
