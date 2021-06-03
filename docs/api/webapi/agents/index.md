@@ -3,7 +3,7 @@ title: Agents WebAPI
 uid: webapi_agents
 description: Agents Web API
 author: {github-id}
-keywords:
+keywords: webapi, agents
 so.date:
 so.topic: concept
 ---
@@ -11,6 +11,7 @@ so.topic: concept
 # Agents WebAPI
 
 The Agents API contains everything in the normal web service API but does not attempt to model entities. It exposes the latest Services agents and functions. All operations are accessed using HTTP POST.
+To get the version and more info, [access the API endpoint][7]: `/api`
 
 > [!NOTE]
 > The agents do not return HTTP errors - a failed call will return NULL instead.
@@ -84,9 +85,11 @@ POST api/v1/Agents/Contact/GetContactEntity?contactEntityId=glops
 
 ---
 
-See also: WebAPI [REST API][1]
+## You might also be interested in
 
-[Download Agent Swagger file][6]
+* [Learn the REST WebAPI][1]
+* [Look up endpoints in the Agents reference][8]
+* [Download REST WebAPI Swagger file][6]
 
 <!-- Referenced links -->
 [1]: ../rest/index.md
@@ -95,3 +98,5 @@ See also: WebAPI [REST API][1]
 [4]: ../../documents/agents-web-api/add-document-template.md
 [5]: ../../documents/agents-web-api/generate-document.md
 [6]: ../../assets/downloads/Swagger-v1-Agents.json
+[7]: get-version.md
+[8]: ../../api-reference/restful/agent/index.md

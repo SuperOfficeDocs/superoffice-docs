@@ -3,14 +3,14 @@ title: REST WebAPI
 uid: rest_api
 description: SuperOffice REST Web API exposes objects as entities that can be manipulated using the HTTP verbs GET, PUT, POST, and DELETE.
 author: {github-id}
-keywords:
+keywords: webapi, rest
 so.date:
 so.topic: concept
 ---
 
 # REST WebAPI
 
-The REST API exposes objects as entities that can be retrieved using HTTP GET, modified using HTTP PUT, created using HTTP POST, and deleted using HTTP DELETE.
+The REST API exposes objects as entities that can be retrieved using HTTP GET, modified using HTTP PUT, created using HTTP POST, and deleted using HTTP DELETE. To get the version and more info, [access the API endpoint][12]: `/api`
 
 **Examples:**
 
@@ -153,6 +153,7 @@ Errors are returned using HTTP error codes, and as a JSON object:
 > [!NOTE]
 > The examples below are given using JavaScripty pseudo-code.
 
+* [Submit a non-interactive REST request][13]
 * [Create a new company][2]
 * [Add a category list item][3]
 * [Add a document template][4]
@@ -166,9 +167,12 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 
 ---
 
-See also: WebAPI [Agents API][1]
+## You might also be interested in
 
-[Download WebAPI Swagger file][9]
+* [Learn the Agents WebAPI][1]
+* [Look up endpoints in the REST reference][14]
+* [Download REST WebAPI Swagger file][9]
+* [Read Tony's article][15] on how to consume SuperOffice REST resources, set required authentication headers, and how a request URL, body, and response body should appear and behave.
 
 <!-- Referenced links -->
 [1]: ../agents/index.md
@@ -182,3 +186,7 @@ See also: WebAPI [Agents API][1]
 [9]: ../../assets/downloads/Swagger-v1-REST.json
 [10]: ../../security/sentry/services/index.md
 [11]: ../../netserver/webhooks/reference/index.md
+[12]: get-version.md
+[13]: submit-rest.md
+[14]: ../../api-reference/restful/rest/index.md
+[15]: rest.md

@@ -1,3 +1,3 @@
 # SuperOffice WebApi Client Library
 
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+<!--TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!-->

@@ -1,6 +1,6 @@
 ---
 title: WebAPI
-uid: web_api
+uid: webapi_about
 description: Web API overview
 author: {github-id}
 so.date: 
@@ -17,22 +17,27 @@ The HTTP WebAPI comes in 2 parts:
 
 The **REST** API is not as complete as the **Agents** API, but it should cover the most common use cases, and be easier to use and navigate.
 
+## Getting started
+
+* Get the version number and build-date from the **API endpoint**: `/api`
+* Get a list of supported URLs using the version URL: `/api/v1`
+
 ## Authorization
 
-You will need to provide some login information in order to use the SuperOffice web API.
+* [Authorization types and how to configure them][3]
+* [How to reuse sessions with XSRF-TOKEN][4]
 
-* BASIC authentication: Base64 Encode SuperOffice username:password
-* SOTICKET authentication. Pass the SuperOffice ticket (7T:abc123==) without any encoding.
-* BEARER authentication. Online only. Pass along an access token (7A:abc123==) from SuperId.
+## HTTP request headers
 
-### X-XSRF-TOKEN
-
-If you call the API without specifying an **Authorization** header, then the API will try to log in using the current user's session. To avoid 3rd party pages calling the API and piggy-backing off the current session, the API requires that a special HTTP header is added to these requests.
-
-The SM.web pages contain an INPUT field XSRF_TOKEN. This field contains a random value identifying the current session. You must add an X-XSRF-TOKEN header with the random value from the input field.
-
-The XSRF-TOKEN is also stored in a cookie, just in case the input field is not available.
+* [Accept-Language][1]
+* [Content-Type][2]
+* [If-Modified-Since and If-Unmodified-Since][3]
 
 <!-- Referenced links -->
 [1]: rest/index.md
 [2]: agents/index.md
+[3]: ../authentication/onsite-web-api/index.md
+[4]: ../authentication/onsite-web-api/reuse-session.md
+[5]: headers/accept-language.md
+[6]: headers/content-type.md
+[7]: headers/modified-unmodified.md
