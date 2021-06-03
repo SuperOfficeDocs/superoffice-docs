@@ -183,7 +183,7 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 [6]: ../../person/services/get-person-image-rest.md
 [7]: ../../person/services/update-person-image-rest.md
 [8]: ../../netserver/webhooks/register.md
-[9]: ../../assets/downloads/Swagger-v1-REST.json
+[9]: ../../assets/downloads/Swagger-v1-REST.zip
 [10]: ../../security/sentry/services/index.md
 [11]: ../../netserver/webhooks/reference/index.md
 [12]: get-version.md
