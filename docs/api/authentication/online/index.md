@@ -161,7 +161,7 @@ request(`https://sod.superoffice.com/login/common/oauth/tokens`, {
     const options = { };
     const cert = "-----BEGIN CERTIFICATE-----\n"+
       "MIIDqzCCApMCAQgwDQYJKoZIhvcNAQEFBQAwgZMxCzAJBgNVBAYTAk5PMQ0wCwYD\n"++++...;
-    const jwt_token = jwt.verify(result.id_token, cert, options);    
+    const jwt_token = jwt.verify(result.id_token, cert, options);
 })
 ```
 

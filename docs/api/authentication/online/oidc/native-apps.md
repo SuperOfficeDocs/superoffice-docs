@@ -31,15 +31,15 @@ From this point on it’s completely up to the application to decide what to do 
 | Option | Value | Description |
 |--------|-------|-------------|
 | Authority | `https://sod.superoffice.com/login` | SuperOffice SuperID login URL |
-| LoadProfile (Call UserInfo Endpoint) | false | because SuperOffice populates all user profile data in the id\_token claims |
-| ClientId | YOUR\_APPLICATION\_ID | your unique identifier received when registering the application idea |
+| LoadProfile (Call UserInfo Endpoint) | false | because SuperOffice populates all user profile data in the id_token claims |
+| ClientId | YOUR_APPLICATION_ID | your unique identifier received when registering the application idea |
 | scope | openid | other scopes will be ignored |
 | RedirectUri | `http://127.0.0.1:7890/desktop-callback/` (example) | must match the redirect URL where the listener is listening for the authentication response |
-| ResponseMode | form\_post | places response in request body. |
+| ResponseMode | form_post | places response in request body. |
 | Flow | code | authentication code |
-| code\_verifier | dBjftJeZ4CVP-mB92K27uhbUJU1p1r\_wW1gFWFOEjXk | high-entropy cryptographic random STRING using the unreserved characters \[A-Z\] / \[a-z\] / \[0-9\] / "-" / "." / "\_" / "~" from Section 2.3 of RFC3986, with a minimum length of 43 characters and a maximum length of 128 characters. |
-| code\_challenge | E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM | A challenge derived from the code verifier that is sent in the authorization request, to be verified against later. [code\_challenge = BASE64URL-ENCODE(SHA256(ASCII(code\_verifier)))][7] |
-| code\_challenge\_method | (optional) S256 or plain | A method that was used to derive code challenge. |
+| code_verifier | dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk | high-entropy cryptographic random STRING using the unreserved characters \[A-Z\] / \[a-z\] / \[0-9\] / "-" / "." / "\_" / "~" from Section 2.3 of RFC3986, with a minimum length of 43 characters and a maximum length of 128 characters. |
+| code_challenge | E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM | A challenge derived from the code verifier that is sent in the authorization request, to be verified against later. [code_challenge = BASE64URL-ENCODE(SHA256(ASCII(code_verifier)))][7] |
+| code_challenge_method | (optional) S256 or plain | A method that was used to derive code challenge. |
 
 SuperOffice CRM Online doesn't implement the optional userInfo endpoint which clients can call to obtain and populate a user's claims.
 

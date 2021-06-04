@@ -32,7 +32,7 @@ foreach (ISoIdentityResolver resolver in resolvers)
 {
   ISoIdentity identity = resolver.ResolveIdentity(tokenList, dbConnection);
 
-   if (identity != null)
+  if (identity != null)
   {
     bool isValid = false;
     bool isRejected = false;
@@ -56,6 +56,7 @@ foreach (ISoIdentityResolver resolver in resolvers)
     if (isValid)
       return identity;
     }
+  }
 }
 ```
 

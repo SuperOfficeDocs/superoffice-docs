@@ -42,7 +42,7 @@ The end session endpoint can be used to trigger single sign-out (see [spec][6].
 
 ### Jwks endpoint
 
-The JSON Web Key Set (JWKS) is a set of keys which contains the public keys used to verify any JSON Web Token (JWT) issued by the SuperID.
+The JSON Web Key Set (JWKS) is a set of keys that contains the public keys used to verify any JSON Web Token (JWT) issued by the SuperID.
 
 <!-- Referenced links -->
 [1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md

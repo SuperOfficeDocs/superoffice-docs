@@ -26,7 +26,7 @@ The response type specified in the redirect URI determines where the tokens are 
 2. The end-user signs in and is asked for consent.
 
 3. After consent is given, an authorization message is sent, which redirects the user agent back to the client application.
-    * The redirection URI includes the authorization code, and ID token.
+    * The redirection URI includes the authorization code and ID token.
 
 4. The ID token is validated the same way as described in the [implicit flow][1].
 

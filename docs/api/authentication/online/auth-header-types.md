@@ -3,7 +3,7 @@ title: Authorization header types
 uid: auth_headers_types
 description: Authorization header types
 author: {github-id}
-keywords: authentication,soticket,bearer
+keywords: authentication, soticket, bearer
 so.topic: concept
 so.envir: cloud
 so.client: online
