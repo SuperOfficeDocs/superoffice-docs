@@ -5,7 +5,7 @@ items:
   href: ../authentication/overview.md
   items: 
   - name: Online Authentication
-    href: ../authentication/online/online.md
+    href: ../authentication/online/index.md
     items:
     - name: OpenID Connect / OAuth 2.0
       href: ../authentication/online/oidc/index.md
