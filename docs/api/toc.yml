@@ -21,9 +21,9 @@ items:
       - name: Authentication scenarios
         href: authentication/online/authentication-scenarios.md
       - name: OpenID Connect metadata document
-        href: authentication/online/oidc/auth-code-flow.md
-      - name: Authorization Code Flow
         href: authentication/online/oidc/metadata-document.md
+      - name: Authorization Code Flow
+        href: authentication/online/oidc/auth-code-flow.md
       - name: Hybrid Flow
         href: authentication/online/oidc/hybrid-flow.md
       - name: Implicit Flow
@@ -44,7 +44,7 @@ items:
       - name: Override certificate resolver
         href: authentication/online/certificates/override-resolver.md
   - name: Onsite Authentication
-    href: authentication/overview.md
+    href: authentication/onsite-web-api/index.md
   - name: Session Handling
     href: authentication/session-handling/index.md
     items:
