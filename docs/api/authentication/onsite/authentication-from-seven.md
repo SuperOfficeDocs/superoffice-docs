@@ -1,5 +1,6 @@
 ---
-title: authentication      
+title: Authentication
+uid: authentication
 description: Authentication overview
 author: {github-id}
 keywords:
@@ -11,7 +12,7 @@ so.topic: concept
 
 Authentication, totally redesigned and rewritten in version 7, impacts all SuperOffice applications – Win, Web, Modules, Web Services, partner applications ... Everything!
 
-Read more about using the API to perform authentication on our [Developer Community][1] web site.
+Read more about using the API to perform authentication on our [Developer Community][1] website.
 
 ## Chain of trust
 
@@ -56,7 +57,7 @@ The credentials are [processed by plugins][2] in a particular order:
 6. UsernameAsDomain
 7. WindowsNonPerson.
 
-The order is decided by the priority attribute value on the plugin, and the loop breaks on the first one to say "I know who this is!". Read more about the [processing pipeline][3].
+The order is decided by the priority attribute value on the plugin, and the loop breaks on the first one to say "I know who this is!". Read more about the [processing pipeline][2].
 
 ### Order of things
 
@@ -73,6 +74,5 @@ SuperOffice can authenticate without ever seeing a password in a SuperOffice dia
 All SuperOffice applications will follow the same pattern. Both Win and Web will first try, then ask for credentials (username/password), then try again. However, if you specify a username and password on the command line to the *Windows client*, then that is an override of the ordinary logic.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/content/content/netserver-sdk/archived-articles/superoffice-authentication/
-[2]: plugins.md
-[3]: pipeline.md
+[1]: ../overview.md
+[2]: pipeline.md

@@ -38,4 +38,4 @@ Like anonymous users, external users are also restricted in what they can edit a
 
 <!-- Referenced links -->
 [1]: config-anonymous-user.md
-[1]: config-external-user.md
+[2]: config-external-user.md

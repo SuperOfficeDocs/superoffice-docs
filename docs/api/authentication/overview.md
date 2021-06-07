@@ -28,11 +28,11 @@ While SuperOffice Customer Service (CS) capabilities are vast, most of the funct
 
 SuperOffice **NetServer SOAP web services** are a complete set of service endpoints that support 100% of the SuperOffice web-client functionality - which is more than the Windows client and COM could ever claim. CS depends on NetServer web services, as well as all the quote functionality in the Window client!
 
-NetServer code, comprised of business entity classes, as well as row & row collections, supports the entire web services stack. All of this functionality gets pushed through NetServer's [Objectified SQL (OSQL)][2] classes for database-vendor-specific SQL generation.
+NetServer code, comprised of business entity classes as well as row & row collections, supports the entire web services stack. All of this functionality gets pushed through NetServer's [Objectified SQL (OSQL)][2] classes for database-vendor-specific SQL generation.
 
-The objective of this article is to introduce you to how to get past the first hurdle, authentication. All of the following sections assume you have access to a correctly configured SuperOffice database.
+### Reading advice
 
-Each section will define all of the dependencies required to be in place for you to be able to successfully authenticate with the corresponding API.
+The objective of this article is to introduce you to how to get past the first hurdle, authentication. All of the following sections assume you have access to a correctly configured SuperOffice database. Each section will define all of the dependencies required to be in place for you to be able to successfully authenticate with the corresponding API.
 
 > [!NOTE]
 > The development environment used in these examples is Visual Studio and the language used C#.
@@ -227,11 +227,11 @@ using (var newSession = SoSession.Continue(sessionString))
 
 ## NetServer web service custom proxies
 
-For those who are not developing solutions using Microsoft .NET, and can't reference the SuperOffice assemblies, they must rely on their own technology stacks to either generate SOAP proxies or roll their own.
+If you are not developing solutions using Microsoft .NET and can't reference the SuperOffice assemblies, you must rely on your technology stack to either generate SOAP proxies or roll your own.
 
 In many cases, such as PHP and Python, applications depend on loading the WSDL file for interacting with SuperOffice web services. We make those files available for downloads along in the [SOAP web services API reference][1].
 
-With the WSDL files and using a tool like SOAPUI raw SOAP requests are sent to SuperOffice endpoints for testing. You can, for example, use SOAPUI or compose the SOAP request manually with Fiddler2:
+With the WSDL files and using a tool like SOAPUI, raw SOAP requests are sent to SuperOffice endpoints for testing. You can, for example, use SOAPUI or compose the SOAP request manually with Fiddler2:
 
 ### [SOAPUI](#tab/wsdl-1)
 
@@ -245,7 +245,7 @@ With the WSDL files and using a tool like SOAPUI raw SOAP requests are sent to S
 
 ## SuperOffice REST / WebAPI web services
 
-To successfully use the REST APIs (introduced in SuperOffice version 8) you must pass along credentials in each request header.
+To successfully use the REST APIs (introduced in SuperOffice version 8), you must pass along credentials in each request header.
 
 Below is an HTML page that contains a few text boxes for determining where, or what version of, the services reside, user name, and password. With this required information, the user can specify a project ID and click the **Get** button to execute an XMLHttpRequest.
 

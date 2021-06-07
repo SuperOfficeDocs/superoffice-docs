@@ -30,9 +30,9 @@ items:
         href: authentication/online/oidc/implicit-flow.md
       - name: Native Apps
         href: authentication/online/oidc/native-apps.md
-    - name: System User (back-channel)
+    - name: System user (back-channel)
       href: authentication/online/system-user/system-user-flow.md
-    - name: Token Validation
+    - name: Token validation
       href: authentication/tokens/validate-security-tokens.md
     - name: Certificates
       href: authentication/online/certificates/index.md
@@ -43,8 +43,11 @@ items:
         href: authentication/online/certificates/configure.md
       - name: Override certificate resolver
         href: authentication/online/certificates/override-resolver.md
-  - name: Onsite Authentication
-    href: authentication/onsite-web-api/index.md
+  - name: Onsite authentication
+    href: authentication/onsite/index.md
+    items:
+    - name: WebAPI
+      href: authentication/onsite/webapi/index.md 
   - name: Session Handling
     href: authentication/session-handling/index.md
     items:

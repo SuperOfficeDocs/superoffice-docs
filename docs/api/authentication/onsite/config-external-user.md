@@ -57,4 +57,4 @@ When retrieving a contact, we have passed the contact ID of this particular user
 <!-- Referenced links -->
 [1]: config-anonymous-user.md
 [2]: anonymous-vs-external-user.md
-[3]: ../netserver/services/agents/index.md
+[3]: ../../netserver/services/agents/index.md

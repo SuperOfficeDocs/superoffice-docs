@@ -1,11 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 uid: users_and_associates
-title: Users and Associates       
+title: Users and associates
 description: Users and associates 
 author: {github-id}
 keywords: database
-so.topic: concept              
+so.topic: concept
 # so.envir:
 # so.client:
 ---
