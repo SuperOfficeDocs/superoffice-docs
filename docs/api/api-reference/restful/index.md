@@ -1,36 +1,24 @@
-he HTTP WebAPI comes in two parts:
-# RESTful WebApi 
+---
+title: WebAPI
+uid: webapi_reference_intro
+description: WebAPI reference
+author: {github-id}
+so.date: 
+keywords: webapi
+so.topic: reference
+---
 
-## REST Web API
+# WebAPI
 
-Exposes entities that can be manipulated using the HTTP verbs GET/PUT/POST/DELETE.​
+The HTTP WebAPI comes in 2 parts:
 
-`GET /api/v1/Contact/123`
+* **REST WebAPI** - URLs describe entities like person or sale: [Learn][1] | [Reference][3]
+* **Agents WebAPI** - the services API accessible via HTTP: [Learn][2] | [Reference][4]
 
-returns a JSON object representing Contact 123.
+The **REST** API is not as complete as the **Agents** API, but it should cover the most common use cases, and be easier to use and navigate.
 
-`​POST api/v1/List/Category/Items`
-
-adds a new list item to the Category list.
-
-### [Download Web API Swagger File](Swagger-v1-REST.zip)
-
-## Agents Web API
-
-Contains everything in the normal service API, but does not attempt to model entities. All the web service operations are accessed using HTTP POST.
-
-`POST /api/v1/Agents/Contact/GetContact?contactId=123`
-
-returns a JSON object representing Contact 123.
-
-`POST /api/v1/Agents/List/SaveListItemEntity`
-
-adds a new list item to the Category list (assuming the list item entity parameter has been properly initialized).
-
-### [Download Agent Swagger file](Swagger-v1-Agents.zip)
-
-The REST API is not as complete as the Agents API, but it should cover the most common use cases, and be easier to use and navigate.
-
-Registering a webhook is covered in the Webhook REST API, and is described in detail in the SuperOffice Webhooks Overview.
-
-Webhook callback events are described in a separate section: Webhooks
+<!-- Referenced links -->
+[1]: ../../webapi/rest/index.md
+[2]: ../../webapi/agents/index.md
+[3]: rest/index.md
+[4]: agent/index.md
