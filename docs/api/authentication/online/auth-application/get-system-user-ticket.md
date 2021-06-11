@@ -74,7 +74,7 @@ The following example code has an extensive amount of logging to the console. Th
 
 <!-- Referenced links -->
 [1]: system-user-token.md
-[3]: ../../online/validate-security-tokens
+[3]: ../validate-security-tokens.md
 [5]: ../../../../../superoffice-docs/docs/apps/terminology.md
 [6]: ../../../../../superoffice-docs/docs/apps/provisioning/get-consent.md
 [8]: sign-system-user-token.md

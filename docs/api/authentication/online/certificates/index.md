@@ -64,7 +64,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
 
 <!-- Referenced links -->
 [1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
-[2]: ../../online/validate-security-tokens
+[2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md
 

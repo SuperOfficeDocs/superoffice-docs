@@ -68,6 +68,6 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 ***
 
 <!-- Referenced links -->
-[1]: index.md#--system-user-tokens.md
-[2]: ../../online/validate-security-tokens
+[1]: index.md#system-user-tokens
+[2]: ../validate-security-tokens.md
 [4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem

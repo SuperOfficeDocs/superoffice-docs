@@ -60,7 +60,7 @@ This sequence represents a common scenario where a service exists that communica
 
 <!-- Referenced links -->
 [1]: overview.md
-[2]: ../../authentication/online/auth-application/index.md#--system-user-tokens
+[2]: ../../authentication/online/auth-application/index.md#system-user-tokens
 
 <!-- Referenced images -->
 [img1]: media/image005.png

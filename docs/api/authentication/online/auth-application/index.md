@@ -95,7 +95,7 @@ You will receive a short-lived system user ticket from SuperID in exchange for t
 <!-- Referenced links -->
 [1]: ../../../../../superoffice-docs/docs/apps/provisioning/consent.md
 [2]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
-[3]: ../validate-security-tokens
+[3]: ../validate-security-tokens.md
 [4]: ../api.md
 [5]: ../index.md
 [6]: ../../../../../superoffice-docs/docs/apps/tenant-status/index.md

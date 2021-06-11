@@ -38,7 +38,7 @@ The full path to the  *App_Data* folder containing *SuperOfficeFederatedLogin.c
 
 [!code-csharp[ValidateToken()](includes/validate-token.cs)]
 
-The `ValidateToken` method will return a [SuperIdToken][3] populated with all the claims returned by SuperOffice CRM Online.
+The `ValidateToken` method will return a [SuperIdToken][1] populated with all the claims returned by SuperOffice CRM Online.
 
 This operation will fail if the token is not JWT or if the certificate is missing.
 
@@ -46,7 +46,7 @@ This operation will fail if the token is not JWT or if the certificate is missin
 
 This code allows the certificate routines to bypass certificate validation, and directly validate the **SAML** security token with the provided certificate. This is no longer the preferred method.
 
-We recommend that you use [JWT security tokens][4].
+We recommend that you use [JWT security tokens][1].
 
 This override short-circuits the PeerTrust validation, or certificate dependencies, by setting the `CertificateValidator` property to **None**.
 
@@ -74,6 +74,5 @@ The `ValidateToken` method will return a [SuperIdToken][1] populated with all th
 This operation will fail if the token is not SAML or if the certificate is missing.
 
 <!-- Referenced links -->
-[1]: ../../online/validate-security-tokens
+[1]: ../validate-security-tokens.md
 [2]: index.md
-[4]: ../../tokens/jwt-intro.md

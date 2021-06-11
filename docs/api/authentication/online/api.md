@@ -1,9 +1,9 @@
 ---
 title: Authentication API
-uid: oidc_endpoints
-description: OICD endpoints and metadata document, authorization header types, SuperOffice-specific claims
+uid: oidc_auth_api
+description: OIDC endpoints and metadata document, authorization header types, SuperOffice-specific claims
 author: {github-id}
-keywords: OIDC, endpoint, metadata, authentication, soticket, bearer, claims
+keywords: OIDC, endpoint, metadata, authentication, soticket, bearer, claims, access token, refresh token
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -45,7 +45,81 @@ Here, the user interacts indirectly with the identity provider through a user ag
 
 ### Token endpoint
 
-This endpoint authenticates the client application. It also exchanges the authorization code from the authorization endpoint for an [ID token][3], an [access token][4], and a [refresh token][5].
+This endpoint authenticates the client application. It also exchanges the authorization code from the authorization endpoint for an [ID token][3], an access token, and a refresh token.
+
+#### Access tokens
+
+**Access tokens** are used in token-based authentication to allow an application to access an API.
+
+The SuperOffice access token is **proprietary** and not a standard JWT. It can't be inspected with tools such as [jwt.io][8].
+
+The access token is primarily a means to call a target API. It is:
+
+* used as a **credential** when calling the API
+* time-limited and needs to be refreshed periodically
+
+You will receive the access token in the authorization response. It is up to the application to securely store the access token.
+
+You need to get a new access token when:
+
+* the application user signs in for the 1st time
+* the previous token expires
+
+#### Refresh tokens
+
+**Refresh tokens** are used in token-based authentication to get new ID tokens and access tokens when those expire.
+
+A refresh token is essentially a user credential giving infinite authentication. It improves the user experience, especially in native applications.
+
+The refresh token is sent in the request to get a new ID token and/or access token:
+
+* when the access (or ID) token has expired
+* when you want to update the claims in an ID token
+
+You should see the refresh token only in the **authentication code flow**, with or without PKCE. Never for single-page applications using the implicit flow.
+
+You will receive the refresh token in the authorization response when the application user asks for access for the 1st time. It is up to the application to securely store the refresh token. This is usually done in a session. **Refresh tokens must never be stored client-side in the browser!**
+
+> [!CAUTION]
+> We might **revoke** a refresh token if we suspect its security has been compromised.
+
+This is a long-lived token that is coupled to a user's consent and that can be re-used:
+
+* for the lifetime of the application, or
+* as long as the application authorization record (consent) exists, or
+* until it has been revoked - tenants can revoke authorizations
+
+##### Request
+
+A `refresh_token` is used in a POST request as follows:
+
+```http
+POST Request (can be tested in a client such as Postman or Fiddler)
+
+https://{env}.superoffice.com/login/common/oauth/tokens?
+grant_type=refresh_token&
+client_id=4ref5376616343b38d14ddcd804f2654&
+client_secret=18f45229e442772a78df5f554e24a456&
+refresh_token=nKHwerkjh34Yd6QShsnGKk4cFhTwCv3XtJu9PW2X63MtUMygLdI57BJjwCU0&
+redirect_url=http://localhost/callback
+```
+
+**Refresh token parameters:**
+
+| Parameter | Required | Description |
+|-----------|:--------:|-------------|
+| `grant_type` | yes | Must be set to `refresh_token` |
+| `client_id` | yes | The client ID (application ID) assigned to your app when you registered it with SuperOffice. |
+| `client_secret` | yes | The client secret (application token) assigned to your app when you registered it with SuperOffice. |
+| `refresh_token` | yes | The refresh token issued as one of the response items in the authorization code flow. |
+| `redirect_uri` | no | The redirect URL of your app, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect URLs registered with SuperOffice. |
+| `scope` | no | SuperOffice only supports the scope `openid` and is implicit for each flow. |
+
+##### Response
+
+The response contains the token type, access token, expiration in seconds, and identity token.
+
+[!include[refresh token](includes/refresh-token-response.md)]
 
 ### UserInfo endpoint
 
@@ -84,7 +158,7 @@ SO-AppToken: f2398a3a7wer3759d4b220e9a9c94321
 
 ### Bearer authentication
 
-**Content:** Authorization header containing Bearer and [access token][4] from SuperID
+**Content:** Authorization header containing Bearer and access token from SuperID
 
 **Example:**
 
@@ -130,7 +204,6 @@ SuperOffice offers a set of claims in addition to the [OpenID Connect claims][3]
 [1]: ../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
 [2]: ../../../../superoffice-docs/docs/apps/provisioning/get-consent.md
 [3]: index.md
-[4]: ../tokens/access-token.md
-[5]: ../tokens/refresh-token.md
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout
 [7]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
+[8]: https://jwt.io/

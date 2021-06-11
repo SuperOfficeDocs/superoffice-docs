@@ -72,9 +72,9 @@ There are two types of Authorization Code Flow. The standard as described below,
 
 6. The identity provider authenticates the client using the client ID and secret and validates the redirect URI. When the grant type is set to `authorization_code`, the identity provider will validate the code parameter. Alternatively, the grant type is set to `refresh_token` and the provider will validate the `refresh_token` parameter.
 
-7. If valid, the identity provider responds back with the ID token from the token endpoint. The response also includes an [access token][3] and an optional [refresh token][4]. The client validates the ID token, and if successful, the identity is proven and the authorization code flow is complete.
+7. If valid, the identity provider responds back with the ID token from the token endpoint. The response also includes an [access token][6] and an optional [refresh token][6]. The client validates the ID token, and if successful, the identity is proven and the authorization code flow is complete.
 
-    [!include[auth-code-response.md](./includes/auth-code-response.md)]
+    [!include[auth-code-response.md](includes/auth-code-response.md)]
   
     Authorization code token response parameters are listed below.
 
@@ -117,13 +117,11 @@ There are two types of Authorization Code Flow. The standard as described below,
 | `access_token` | The access token issued by the authorization server. |
 | `token_type` | Provides the client with the information required to successfully utilize the access token to make a protected resource request. |
 | `expires_in` | The lifetime in seconds of the access token. |
-| `refresh_token` | The refresh token, which can be used to [obtain new access tokens][4].<br>The refresh token is a long-lived JWT token that can be re-used.<br>It is coupled to an end-users consent and is valid as long as the application authorization record (consent) exists. Tenants can revoke authorizations. |
+| `refresh_token` | The refresh token, which can be used to [obtain new access tokens][6].<br>The refresh token is a long-lived JWT token that can be re-used.<br>It is coupled to an end-users consent and is valid as long as the application authorization record (consent) exists. Tenants can revoke authorizations. |
 | `id_token` | JSON Web Token or JWT, which consists of a Header, Payload, and Signature. The claims in the token form part of the payload. |
 
 <!-- Referenced links -->
 [1]: ../index.md
-[3]: ../../tokens/access-token.md
-[4]: ../../tokens/refresh-token.md
 [5]: https://tools.ietf.org/html/rfc7636
 [6]: ../api.md
 

@@ -40,7 +40,7 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 3. [Validate the authentication token][4]. This is required *each time* a token is received to ensure that no attacks happened between sending the authentication request and receiving the authentication response.
 
 <!-- Referenced links -->
-[1]: auth-user.md
+[1]: index.md
 [2]: ../../../../../superoffice-docs/docs/apps/terminology.md
 [3]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
-[4]: ../../online/validate-security-tokens
+[4]: ../validate-security-tokens.md
