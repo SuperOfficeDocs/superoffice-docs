@@ -40,16 +40,16 @@ landingContent:
       - linkListType: concept
         links:
           - text: OpenID Connect
-            url: online/oidc/index.md
+            url: online/index.md
           - text: Authorization code flow
-            url: online/oidc/auth-code-flow.md
+            url: online/sign-in-user/auth-code-flow.md
           - text: Hybrid Flow
-            url: online/oidc/hybrid-flow.md
+            url: online/sign-in-user/hybrid-flow.md
           - text: Implicit Flow
-            url: online/oidc/implicit-flow.md
+            url: online/sign-in-user/implicit-flow.md
           - text: Native Apps
-            url: online/oidc/native-apps.md
+            url: online/sign-in-user/native-apps.md
       - linkListType: learn
         links:
           - text: System User (Backchannel)
-            url: online/system-user/system-user-flow.md
+            url: online/auth-application/index.md

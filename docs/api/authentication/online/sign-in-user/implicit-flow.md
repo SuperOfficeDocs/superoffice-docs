@@ -18,7 +18,7 @@ In the implicit flow, the client application requests an ID token and possibly a
 1. The user clicks **Sign in**.
 
 2. The client application redirects the user agent to the [authorization endpoint][1] of the identity provider.
-    * **Response type** is set to `id_token`, indicating the implicit flow and that we’re requesting an [ID token][2] only.
+    * **Response type** is set to `id_token`, indicating the implicit flow and that we’re requesting an [ID token][3] only.
     * A nonce value is set to mitigate replay attacks.
 
     ```http
@@ -88,8 +88,7 @@ After user authentication and consent is given, instead of just an ID token, the
 The client application can validate the ID token, and use the access token and token type to access the tenant's web services.
 
 <!-- Referenced links -->
-[1]: endpoints.md
-[2]: ../../tokens/id-token.md
-[3]: claims-scope.md
+[1]: ../api.md
+[3]: ../index.md
 [4]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
 [5]: ../../tokens/access-token.md

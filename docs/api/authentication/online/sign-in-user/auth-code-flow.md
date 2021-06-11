@@ -72,7 +72,7 @@ There are two types of Authorization Code Flow. The standard as described below,
 
 6. The identity provider authenticates the client using the client ID and secret and validates the redirect URI. When the grant type is set to `authorization_code`, the identity provider will validate the code parameter. Alternatively, the grant type is set to `refresh_token` and the provider will validate the `refresh_token` parameter.
 
-7. If valid, the identity provider responds back with the [ID token][1] from the token endpoint. The response also includes an [access token][3] and an optional [refresh token][4]. The client validates the ID token, and if successful, the identity is proven and the authorization code flow is complete.
+7. If valid, the identity provider responds back with the ID token from the token endpoint. The response also includes an [access token][3] and an optional [refresh token][4]. The client validates the ID token, and if successful, the identity is proven and the authorization code flow is complete.
 
     [!include[auth-code-response.md](./includes/auth-code-response.md)]
   
@@ -104,7 +104,7 @@ There are two types of Authorization Code Flow. The standard as described below,
 | Parameter | Required | Description |
 |-----------|:--------:|-------------|
 | `client_id` | yes | The ID assigned to your application when you registered it with SuperOffice. |
-| `client_secret`| yes\ | The **application secret** (token) assigned to your application when you registered it with SuperOffice. |
+| `client_secret`| yes | The **application secret** (token) assigned to your application when you registered it with SuperOffice. |
 | `code` | yes | The authorization code that the application requested.<br>The application can use the authorization code to request an access token for the target resource. |
 | `redirect_uri` | yes | The redirect endpoint of your application, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect URIs registered with SuperOffice. |
 | `grant_type` | yes | Must be `authorization_code` for the authorization code flow. |
@@ -121,11 +121,11 @@ There are two types of Authorization Code Flow. The standard as described below,
 | `id_token` | JSON Web Token or JWT, which consists of a Header, Payload, and Signature. The claims in the token form part of the payload. |
 
 <!-- Referenced links -->
-[1]: ../../tokens/id-token.md
+[1]: ../index.md
 [3]: ../../tokens/access-token.md
 [4]: ../../tokens/refresh-token.md
 [5]: https://tools.ietf.org/html/rfc7636
-[6]: endpoints.md
+[6]: ../api.md
 
 <!-- Referenced images -->
 [img1]: media/authorizationcodeflow-800.png

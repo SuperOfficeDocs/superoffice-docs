@@ -19,7 +19,7 @@ The response type specified in the redirect URI determines where the tokens are 
 * `code id_token`
 * `code id_token token`
 
-## Scenario: client application uses code id\_token
+## Scenario: client application uses code id_token
 
 1. The user agent redirects to the identity provider passing the **Response Type** equals  `code id_token` along with the `openid` scope it requires.
 

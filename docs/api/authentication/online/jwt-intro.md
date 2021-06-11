@@ -3,7 +3,7 @@ title: Introduction to JWT
 uid: jwt_intro
 description: Introduction to JWT
 author: {github-id}
-keywords:
+keywords: authentication, JWT
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -38,7 +38,7 @@ The header will show that the token type is JWT and which algorithm that has bee
 
 The payload is the actual data of the JWT. It consists of a list of claims - each claim is a **name-value pair**.
 
-A [claim can be either standard OpenID Connect or custom][2] (with its own namespace).
+A claim can be either [standard OpenID Connect][2] or [custom][7] (with its own namespace).
 
 ```javascript
 {
@@ -89,18 +89,17 @@ Token validation establishes **trust** for the authentication mechanism:
 
 ## Are all tokens used in SuperOffice CRM Online JWTs?
 
-No. Only the [ID token][3] follows the JWT pattern.
+No. Only the [ID token][2] follows the JWT pattern.
 
 Read more: [access tokens][4], [refresh tokens][5], [system user tokens][6], [bearer tokens and SOTickets][7]
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc7519
-[2]: ../online/oidc/claims-reference.md
-[3]: id-token.md
-[4]: access-token.md
-[5]: refresh-token.md
-[6]: ../online/system-user/system-user-token.md
-[7]:../online/auth-header-types.md
+[2]: index.md
+[4]: ../tokens/access-token.md
+[5]: ../tokens/refresh-token.md
+[6]: auth-application/index.md#--system-user-tokens
+[7]: api.md
 
 <!-- Referenced images -->
-[img1]: ../media/id-token.png
+[img1]: media/id-token.png

@@ -1,6 +1,6 @@
 ---
 title: Error code
-uid: error_codes
+uid: auth_error_codes
 description: Problems with application authorization, tokens, and certificate
 author: {github-id}
 keywords:
@@ -9,7 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Error codes
+# Troubleshooting
 
 Description of error codes related to authorizing an application and working with tokens.
 
@@ -21,7 +21,7 @@ Description of error codes related to authorizing an application and working wit
 |:----:|-------|-------------|
 | 0 | NoError | |
 | 1 | Revoked | Application's access to the tenant has been revoked |
-| 2 | InvalidRedirectUrl | The redirect URL you used is not registered in the SuperOffice operation center on the app -  you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
+| 2 | InvalidRedirectUrl | The redirect URL you used is not registered in the SuperOffice operation center on the app - you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
 | 3 | Expired | The application authorization on this tenant has expired |
 | 4 | Denied | The applications access to this tenant has been denied |
 | 5 | NeedsReapproval | Authorization needs to be re-approved |
@@ -124,7 +124,7 @@ Problem:
 //Disable looking up the certificate PeerTrust when using CertificateFileCertificateStoreTokenResolver or JWT tokens.
 tokenHandler.CertificateValidator = System.IdentityModel.Selectors.X509CertificateValidator.None;
 
-//determine what class will lookup the certificates for validation
+//Determine what class will lookup the certificates for validation
 tokenHandler.IssuerTokenResolver = new SuperOffice.SuperID.Client.Tokens.CertificateFileCertificateStoreTokenResolver(
 HttpContext.Current.Server.MapPath("~/App*Data"));
 
@@ -147,10 +147,18 @@ tokenHandler.ValidateToken(token, SuperOffice.SuperID.Contracts.SystemUser.V1.To
 
 **Possible problem 2:**
 
-Certificates have not been installed on the partner's server. When setting up a database mirroring service an email with the following error will be sent the technical contact:  
+Certificates have not been installed on the partner's server. When setting up a database mirroring service an email with the following error will be sent to the technical contact:
 
 > [!NOTE]
-> Exception:<br>Failed validating token at at SuperOffice.SuperID.Client.Tokens.SuperIdTokenHandler.ValidateJwtToken(String token, ClaimsPrincipal& claimsPrincipal) in ...<br>at SuperOffice.Online.Mirroring.MirroringClientService.ValidateSuperOfficeSignedToken(String token) in ...<br>at SuperOffice.Online.Mirroring.MirroringClientService.Authenticate(AuthenticateRequest request) in ...<br>Value cannot be null. Parameter name: certificate at at Microsoft.IdentityModel.Tokens.X509SecurityKey..ctor(X509Certificate2 certificate) in ...
+> Exception:
+>
+> Failed validating token at at SuperOffice.SuperID.Client.Tokens.SuperIdTokenHandler.ValidateJwtToken(String token, ClaimsPrincipal& claimsPrincipal) in ...
+>
+> at SuperOffice.Online.Mirroring.MirroringClientService.ValidateSuperOfficeSignedToken(String token) in ...
+>
+> at SuperOffice.Online.Mirroring.MirroringClientService.Authenticate(AuthenticateRequest request) in ...
+>
+> Value cannot be null. Parameter name: certificate at at Microsoft.IdentityModel.Tokens.X509SecurityKey..ctor(X509Certificate2 certificate) in ...
 
 **Resolution:**
 
@@ -160,7 +168,7 @@ Certificates have not been installed on the partner's server. When setting up a 
 
 **Problem:**
 
-The web application *web.config* file declared a session mode equal to `PartnerHttpContext`, but that class is not included in the project or in an assembly located in the website's *bin* folder.
+The web application *web.config* file declared a session mode equal to `PartnerHttpContext`, but that class is not included in the project or an assembly located in the website's *bin* folder.
 
 **Resolution:**
 
@@ -172,4 +180,4 @@ Ensure your web project contains the following files from the sample project `Su
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/change-application
-[2]: certificates/configure.md
+[2]: ../certificates/configure.md

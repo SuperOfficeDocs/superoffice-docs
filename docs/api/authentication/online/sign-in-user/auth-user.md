@@ -23,7 +23,7 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 * The application user has a valid username and password
 
 > [!TIP]
-> Remember that the sub-domain is different for [development, stage, and production][4]. It is very likely that the client ID differs too.
+> Remember that the sub-domain is different for [development, stage, and production][4]. Very likely the client ID differs too.
 
 ## To authenticate users
 
@@ -40,13 +40,13 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 3. [Validate the authentication token][5].
 
 > [!WARNING]
-> **No application is allowed to ask users for their credentials, ever!
+> No application is allowed to ask users for their credentials, ever!
 
 **Next step:** implement your application-specific logic.
 
 <!-- Referenced links -->
-[1]: oidc/implicit-flow.md
-[2]: ../../../../superoffice-docs/docs/apps/terminology.md
-[3]: ../../../../superoffice-docs/docs/apps/redirects/index.md
-[4]: ../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
-[5]: ../tokens/validate-security-tokens.md
+[1]: implicit-flow.md
+[2]: ../../../../../superoffice-docs/docs/apps/terminology.md
+[3]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
+[4]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
+[5]: ../../online/validate-security-tokens

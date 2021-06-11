@@ -21,7 +21,7 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 * You have received a unique [client ID and secret][2]
 * You have whitelisted your [redirect URL][3] (GET or POST) with SuperOffice
 * You have set up a web page at your redirect URL
-* the application user has a valid username and password
+* The application user has a valid username and password
 
 1. Forward users to the SuperOffice online **sign-in page** to authenticate.
 
@@ -31,7 +31,7 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 
     ```csharp
     <form action="redirecturl" method="post">
-       <input type="hidden" name="key" value="<value>" />
+      <input type="hidden" name="key" value="<value>" />
     </form>
     ```
 
@@ -41,6 +41,6 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 
 <!-- Referenced links -->
 [1]: auth-user.md
-[2]: ../../../../superoffice-docs/docs/apps/terminology.md
-[3]: ../../../../superoffice-docs/docs/apps/redirects/index.md
-[4]: ../tokens/validate-security-tokens.md
+[2]: ../../../../../superoffice-docs/docs/apps/terminology.md
+[3]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
+[4]: ../../online/validate-security-tokens

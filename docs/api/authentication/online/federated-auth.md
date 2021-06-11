@@ -29,7 +29,7 @@ This is fine so long as SuperOffice is the most important thing in the universe.
 
 When Google or Office365 are the most important things in the universe, we can’t use the password stored in the database anymore. The password is not accessible to us anymore. We can’t check it directly – we can just delegate the whole username/password problem to Google/Office365.
 
-SuperOffice wants to access user information and store documents in the Google or Office365 cloud. In order for SuperOffice to access your part of the Google or Office365 cloud, there needs to be a link between your SuperOffice identity (stored in the SO database) and your Google/Office365 identity.
+SuperOffice wants to access user information and store documents in the Google or Office365 cloud. For SuperOffice to access your part of the Google or Office365 cloud, there needs to be a link between your SuperOffice identity (stored in the SO database) and your Google/Office365 identity.
 
 ![x][img3]
 

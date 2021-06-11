@@ -19,7 +19,7 @@ items:
       - name: Native Apps
         href: ../authentication/online/oidc/native-apps.md
     - name: System User (back-channel)
-      href: ../authentication/online/system-user/system-user-flow.md
+      href: ../authentication/online/auth-application/index.md
   - name: Onsite Authentication
     href: ../authentication/overview.md
     items:
