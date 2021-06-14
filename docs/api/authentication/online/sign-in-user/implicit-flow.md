@@ -1,24 +1,24 @@
 ---
-title: OICD implicit flow
+title: OICD Implicit flow
 uid: oidc_implicit_flow
-description: OICD implicit flow
+description: OICD Implicit flow
 author: {github-id}
-keywords: authentication
+keywords: authentication, OAuth 2.0, OIDC, Implicit flow
 so.topic: concept
 so.envir: cloud
 so.client: online
 ---
 
-# OICD implicit flow
+# OICD Implicit flow
 
-In the implicit flow, the client application requests an ID token and possibly also an access token.  
+In the Implicit flow, the client application requests an ID token and possibly also an access token.  
 
 ## Scenario: client application requests ID token only
 
 1. The user clicks **Sign in**.
 
 2. The client application redirects the user agent to the [authorization endpoint][1] of the identity provider.
-    * **Response type** is set to `id_token`, indicating the implicit flow and that we’re requesting an [ID token][3] only.
+    * **Response type** is set to `id_token`, indicating the Implicit flow and that we’re requesting an [ID token][3] only.
     * A nonce value is set to mitigate replay attacks.
 
     ```http
@@ -35,9 +35,9 @@ In the implicit flow, the client application requests an ID token and possibly a
 
 3. The user enters their credentials.
 
-4. An identity provider authenticates the user and asks for consent to access their resources on behalf of the relying party.
+4. An identity provider authenticates the user and asks for consent to access their resources on behalf of the Relying Party.
 
-5. With consent given, the authentication server sends an authorization response message from its authorization endpoint. This redirects the user-agent back to the relying party using the redirection URI provided earlier. This URI includes an ID token in a URI fragment (host address and `id_token` separated by hash (#)). This ID token contains the standard claims, including some claims normally found in the profile and email scopes.
+5. With consent given, the authentication server sends an authorization response message from its authorization endpoint. This redirects the user-agent back to the Relying Party using the redirection URI provided earlier. This URI includes an ID token in a URI fragment (host address and `id_token` separated by hash (#)). This ID token contains the standard claims, including some claims normally found in the profile and email scopes.
 
     [!include[implicit-flow-id-only-response](includes/implicit-flow-id-only-response.md)]
 
@@ -50,12 +50,12 @@ In the implicit flow, the client application requests an ID token and possibly a
 
 | Parameter | Required | Description |
 |-----------|:--------:|-------------|
-| `response\type` | yes | Value is `id_token token` or `id_token`.
+| `response_type` | yes | Value is `id_token token` or `id_token`.
 | `client_id` | yes | The client ID (application ID) assigned to your app when you registered with SuperOffice. |
 | `redirect_uri` | yes| The [redirection endpoint][4] of your app, where authentication responses are sent and received.<br>It must exactly match one of the URLs registered with SuperOffice.
 | `nonce` | yes | String value used to associate a client session with an ID token, and to mitigate replay attacks.<br>Client must verify value. |
 | [`scope`][3] | yes | Must be `openid`. |
-| `state` | recommended | A value set by the relying party to maintain state between the request and the callback itself.<br>Included in the request and also returned in the token response. |
+| `state` | recommended | A value set by the Relying Party to maintain state between the request and the callback itself.<br>Included in the request and also returned in the token response. |
 
 ## Scenario: client application requests both ID token and access token
 
@@ -79,7 +79,7 @@ After user authentication and consent is given, instead of just an ID token, the
 
 | Parameter | Description |
 |-----------|-------------|
-| `access_token` | The access token issued by the authorization server. |
+| `access_token` | The access token issued by the Authorization Server. |
 | `token_type` | Provides the client with the information required to successfully utilize the access token to make a protected resource request. |
 | `state` | String value used to associate a client session with an ID token, and to mitigate replay attacks. |
 | `expires_in` | The lifetime in seconds of the access token. |

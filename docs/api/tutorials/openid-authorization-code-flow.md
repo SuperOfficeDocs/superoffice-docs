@@ -1,7 +1,7 @@
 ---
-title: OpenID Authorization Code Flow
+title: OpenID Authorization Code flow
 uid: oidc_auth_code_flow
-description: OpenId Authorization Code Flow
+description: OpenId Authorization Code flow
 author: {github-id}
 keywords:
 so.topic: guide
@@ -9,7 +9,7 @@ so.envir: cloud
 # so.client:
 ---
 
-# OpenID Authorization Code Flow
+# OpenID Authorization Code flow
 
 We will make a simple app that displays some information about recently added contacts in a web panel.
 
@@ -146,7 +146,7 @@ The Callback controller is called from SuperID with two values: **state** and **
 
 [!code-csharp[CS](includes/actionresult.cs)]
 
-To handle the authorization code, we check the State value we stored earlier.
+To handle the Authorization Code, we check the State value we stored earlier.
 
 If they match, we can call the `OAuthHelper*` class to handle making a POST request to SuperID to get the OAuth refresh and access tokens. The SuperID response will also include a JWT which contains the URL for the REST API.
 

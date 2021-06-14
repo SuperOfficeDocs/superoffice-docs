@@ -16,9 +16,9 @@ Security token validation is an important step to ensure the token has not been 
 
 There are a few cases when validation is required:
 
-1. Validate the `id_token` issued during OpenID Connect authentication.
-2. Validate the token returned from System-User flow.
-3. Validate the token returned from the legacy application login (pre-OpenID Connect support).
+* Validate the `id_token` issued during OpenID Connect authentication.
+* Validate the token returned from System-User flow.
+* Validate the token returned from the legacy application login (pre-OpenID Connect support).
 
 Performing validation is a straight-forward process that, validating a response that was signed by SuperOffice with a private certificate, only requires the public SuperOffice certificate.
 
@@ -63,13 +63,11 @@ There are 2 different token handlers because they do have slightly different imp
 ```csharp
 var tokenHandler = new JwtTokenHandler(clientId, httpClient, onlineEnvironment);
 TokenValidationResult result = await tokenHandler.ValidateAsync("{id_token}");
-
 ```
 
 ```csharp
 var tokenHandler = new SystemUserTokenHandler(httpClient, onlineEnvironment);
 TokenValidationResult result = await tokenHandler.ValidateAsync("{system_user_result}");
-
 ```
 
 ## Using SuperOffice.Online.Core
@@ -113,7 +111,7 @@ If you for some reason need to use SAML tokens, simply substitute token type in 
 
 ## SuperIdToken
 
-The `SuperIdToken` is a container for security claims. It is returned after validation of a JWT (or SAML) token and can be used for future authentication.
+The `SuperIdToken` is a container for security claims. It is returned after the validation of a JWT (or SAML) token and can be used for future authentication.
 
 > [!CAUTION]
 > This legacy class pertains to our [old form][11] of authentication. [Use OpenID Connect][12].
@@ -164,7 +162,7 @@ We also provide [.NET helper libraries][7], which you can download.
 
 Completely new to token-based access control? We've got you covered!
 
-JWT is short for JSON Web Token:
+JWT is short for JSON web token:
 
 > A string representing a set of claims as a JSON object that is encoded in a JWS or JWE, enabling the claims to be digitally signed or MACed and/or encrypted. ([RFC7519][2]
 

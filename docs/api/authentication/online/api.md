@@ -39,13 +39,13 @@ The **environment** subdomain is unique for each [application environment][1]
 
 ### Authorization endpoint
 
-This is where the user is asked to authenticate and [grant the partner application consent to access][2] their identity. When consent is given, this endpoint passes back an authorization code.
+This is where the user is asked to authenticate and [grant the partner application consent to access][2] their identity. When consent is given, this endpoint passes back an Authorization Code.
 
 Here, the user interacts indirectly with the identity provider through a user agent, such as a browser.
 
 ### Token endpoint
 
-This endpoint authenticates the client application. It also exchanges the authorization code from the authorization endpoint for an [ID token][3], an access token, and a refresh token.
+This endpoint authenticates the client application. It also exchanges the Authorization Code from the authorization endpoint for an [ID token][3], an access token, and a refresh token.
 
 #### Access tokens
 
@@ -76,7 +76,7 @@ The refresh token is sent in the request to get a new ID token and/or access tok
 * when the access (or ID) token has expired
 * when you want to update the claims in an ID token
 
-You should see the refresh token only in the **authentication code flow**, with or without PKCE. Never for single-page applications using the implicit flow.
+You should see the refresh token only in the **authentication code flow**, with or without PKCE. Never for single-page applications using the Implicit flow.
 
 You will receive the refresh token in the authorization response when the application user asks for access for the 1st time. It is up to the application to securely store the refresh token. This is usually done in a session. **Refresh tokens must never be stored client-side in the browser!**
 
@@ -111,7 +111,7 @@ redirect_url=http://localhost/callback
 | `grant_type` | yes | Must be set to `refresh_token` |
 | `client_id` | yes | The client ID (application ID) assigned to your app when you registered it with SuperOffice. |
 | `client_secret` | yes | The client secret (application token) assigned to your app when you registered it with SuperOffice. |
-| `refresh_token` | yes | The refresh token issued as one of the response items in the authorization code flow. |
+| `refresh_token` | yes | The refresh token issued as one of the response items in the Authorization Code flow. |
 | `redirect_uri` | no | The redirect URL of your app, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect URLs registered with SuperOffice. |
 | `scope` | no | SuperOffice only supports the scope `openid` and is implicit for each flow. |
 
@@ -129,13 +129,13 @@ The response contains the token type, access token, expiration in seconds, and i
 
 The end session endpoint can be used to trigger single sign-out (see [spec][6]).
 
-### Jwks endpoint
+### JWKS endpoint
 
-The JSON Web Key Set (JWKS) is a set of keys that contains the public keys used to verify any JSON Web Token (JWT) issued by SuperID.
+The JSON Web Key Set (JWKS) is a set of keys that contains the public keys used to verify any JSON web token (JWT) issued by SuperID.
 
 ## Authorization header types
 
-Your application needs to provide one of the following authorization header types when accessing our APIs. Choose either SOTicket or Bearer.
+Your application needs to provide one of the following authorization header types when accessing our APIs. Choose either **SOTicket** or **Bearer**.
 
 ### SOTicket authentication
 

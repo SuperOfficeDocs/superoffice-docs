@@ -3,7 +3,7 @@ title: System user flow
 uid: system_user_flow
 description: SuperOffice system user flow for non-interactive server-to-server communications
 author: {github-id}
-keywords: authentication, system user, back-channel
+keywords: authentication, system user, back-channel, non-interactive
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -11,7 +11,7 @@ so.client: online
 
 # System user flow
 
-The system user flow is used to authenticate applications in non-interactive server-to-server communications.
+The system user flow is used to authenticate applications in **non-interactive server-to-server** communications.
 
 ![System user flow][img1]
 
@@ -40,7 +40,7 @@ The system user flow is used to authenticate applications in non-interactive ser
 
 A **system user token** is a  contract between an application and a [tenant][6]
 
-This component is coupled with the application in the Operation Centre and is only included in the JWT or `id_token` when an administrator signs in to SuperID.
+This component is coupled with the application in the Operation Centre and is included in the JWT or `id_token` only when an administrator signs in to SuperID.
 
 Technically, the system user token is a String formatted as `NAME_OF_APP-<some_random_characters>` that:
 
