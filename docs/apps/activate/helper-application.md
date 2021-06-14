@@ -40,7 +40,7 @@ As stated in the previous section, an interactive installation sequence is perfo
 
 Contained in the `id_token` is the `system user token`. This claim is necessary to carry out non-interactive server-to-server communications.
 
-The `id_token` is a base64 encoded JSON Web Token (JWT), signed by SuperOffice when generated. While it is easy to decode it and extract the claims within, it’s recommended you validate the token to certify it has not been tampered with during transit.
+The `id_token` is a base64 encoded JSON web token (JWT), signed by SuperOffice when generated. While it is easy to decode it and extract the claims within, it’s recommended you validate the token to certify it has not been tampered with during transit.
 
 Both the token validation and claim extraction adds additional layers of complexity *just* to build a private application. To help you get started faster, we have created a sample application that circumvents the above requirements.
 
