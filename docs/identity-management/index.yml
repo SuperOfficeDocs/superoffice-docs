@@ -31,6 +31,10 @@ highlightedContent:
     - title: "Authentication"
       itemType: overview
       url: ../../../data-access/docs/authentication/overview.md
+    # Card
+    - title: "Federated authentication"
+      itemType: overview
+      url: federated-auth.md
 
 # conceptualContent section (optional)
 conceptualContent:

@@ -44,7 +44,7 @@ The system user has unlimited access to the [tenant][6] and is not restricted by
 See also [application models terminology][6] and the [system user MVC example][7].
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/authentication/online/federated-auth.md
+[1]: ../../identity-management/federated-auth.md
 [2]: ../../../../data-access/docs/authentication/online/auth-application/index.md#system-user-tokens
 [3]: ../../../../data-access/docs/authentication/online/auth-application/index.md
 [4]: ../../../../data-access/docs/authentication/online/index.md
