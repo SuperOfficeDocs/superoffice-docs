@@ -219,7 +219,7 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 [3]: ../../../../data-access/docs/api-reference/soap/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.Login/SoPlugins
-[6]: ../../../../data-access/docs/authentication/online/oidc/index.md
+[6]: ../../../../data-access/docs/authentication/online/index.md
 [7]: https://online.superoffice.com/login/
 [8]: http://openid.net/connect/
 [9]: http://openid.net/developers/certified/

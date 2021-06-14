@@ -24,5 +24,5 @@ To override the default redirect URL, specify the `redirect_url` query string pa
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc6749#section-3.1.2
-[2]: ../../../../data-access/docs/authentication/tokens/validate-security-tokens.md
-[3]: ../../../../data-access/docs/authentication/online/oidc/claims-scope.md
+[2]: ../../../../data-access/docs/authentication/online/validate-security-tokens.md
+[3]: ../../../../data-access/docs/authentication/online/index.md

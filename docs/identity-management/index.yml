@@ -118,7 +118,7 @@ additionalContent:
       # Card
       - title: OAuth 2.0
         links:
-        - url: ../../../data-access/docs/authentication/online/oauth-2-intro.md
+        - url: ../../../data-access/docs/authentication/online/index.md
           text: Intro
       # Card
       - title: Credentials

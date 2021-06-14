@@ -45,8 +45,8 @@ See also [application models terminology][6] and the [system user MVC example][7
 
 <!-- Referenced links -->
 [1]: ../../../../data-access/docs/authentication/online/federated-auth.md
-[2]: ../../../../data-access/docs/authentication/online/system-user/system-user-token.md
-[3]: ../../../../data-access/docs/authentication/online/system-user/system-user-flow.md
-[4]: ../../../../data-access/docs/authentication/online/oidc/index.md
+[2]: ../../../../data-access/docs/authentication/online/auth-application/index.md#system-user-tokens
+[3]: ../../../../data-access/docs/authentication/online/auth-application/index.md
+[4]: ../../../../data-access/docs/authentication/online/index.md
 [6]: ../terminology.md
 [7]: ../../../../data-access/docs/tutorials/minimal-csharp-app/overview.md
