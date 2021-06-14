@@ -73,7 +73,7 @@ The following example code has an extensive amount of logging to the console. Th
 [!code-javascript[index.js](includes/index.js)]
 
 <!-- Referenced links -->
-[1]: system-user-token.md
+[1]: index.md#system-user-tokens
 [3]: ../validate-security-tokens.md
 [5]: ../../../../../superoffice-docs/docs/apps/terminology.md
 [6]: ../../../../../superoffice-docs/docs/apps/provisioning/get-consent.md

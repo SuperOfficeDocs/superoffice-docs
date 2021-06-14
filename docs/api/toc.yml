@@ -35,10 +35,10 @@ items:
     - name: System user (back-channel)
       href: authentication/online/auth-application/index.md
       items:
-      - name: Get system user ticket
-        href: authentication/online/auth-application/get-system-user-ticket.md
       - name: Sign system user token
         href: authentication/online/auth-application/sign-system-user-token.md
+      - name: Get system user ticket
+        href: authentication/online/auth-application/get-system-user-ticket.md
     - name: Validate tokens
       href: authentication/online/validate-security-tokens.md
     - name: Troubleshooting
@@ -46,8 +46,6 @@ items:
       items:
       - name: IFrames and IdP
         href: authentication/online/troubleshooting/iframe-idp-auth.md
-    - name: Federated authentication
-      href: authentication/online/federated-auth.md
     - name: Certificates
       href: authentication/online/certificates/index.md
       items:

@@ -272,7 +272,7 @@ SuperOffice supports several different access points to SuperOffice APIs. Withou
 
 [1]: ../api-reference/soap/index.md
 [2]: ../netserver/osql/index.md
-[3]: online/federated-auth.md
+[3]: ../../../superoffice-docs/docs/identity-management/federated-auth.md
 [4]: #skip-to-netserver
 [5]: ../netserver/config/data.md
 
