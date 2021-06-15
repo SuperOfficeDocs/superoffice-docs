@@ -32,7 +32,7 @@ UPDATE [crm8].[ATTACHMENT_LOCATION]
 WHERE attachment_location_id = (select max(attachment_location_id) from crm8.ATTACHMENT_LOCATION)
 ```
 
-See also [how to split locations][1].
+See also [how to split location][1].
 
 <!-- Referenced links-->
 [1]: split-location.md

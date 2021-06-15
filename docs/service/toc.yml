@@ -19,7 +19,7 @@ items:
     items:
     - name: Update location
       href: attachments/update-location.md
-    - name: Split locations
+    - name: Split location
       href: attachments/split-location.md
   - name: Mailboxes
     items:
