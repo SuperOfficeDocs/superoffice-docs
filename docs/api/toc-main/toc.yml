@@ -11,21 +11,21 @@ items:
   href: ../authentication/overview.md
   items: 
   - name: Online Authentication
-    href: ../authentication/online/online.md
+    href: ../authentication/online/index.md
     items:
     - name: OpenID Connect / OAuth 2.0
-      href: ../authentication/online/oidc/index.md
+      href: ../authentication/online/index.md
       items:
       - name: Authorization Code Flow
-        href: ../authentication/online/oidc/auth-code-flow.md
+        href: ../authentication/online/sign-in-user/auth-code-flow.md
       - name: Hybrid Flow
-        href: ../authentication/online/oidc/hybrid-flow.md
+        href: ../authentication/online/sign-in-user/hybrid-flow.md
       - name: Implicit Flow
-        href: ../authentication/online/oidc/implicit-flow.md
+        href: ../authentication/online/sign-in-user/implicit-flow.md
       - name: Native Apps
-        href: ../authentication/online/oidc/native-apps.md
+        href: ../authentication/online/sign-in-user/native-apps.md
     - name: System User (back-channel)
-      href: ../authentication/online/system-user/system-user-flow.md
+      href: ../authentication/online/auth-application/index.md
   - name: Onsite Authentication
     href: ../authentication/overview.md
 - name: Configuration

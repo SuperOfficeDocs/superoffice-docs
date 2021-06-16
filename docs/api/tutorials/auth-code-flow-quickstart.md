@@ -114,7 +114,7 @@ If you have any issues with the sample, please post an issue on the [repo issues
 [2]: ../../../superoffice-docs/docs/apps/getting-started/get-app-keys.md
 [3]: ../../../superoffice-docs/docs/apps/terminology.md
 [4]: index.md
-[5]: ../authentication/online/oidc/auth-code-flow.md
+[5]: ../authentication/online/sign-in-user/auth-code-flow.md
 [6]: ../../../superoffice-docs/docs/apps/manage/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
 [8]: ../../../superoffice-docs/docs/apps/getting-started/app-envir.md

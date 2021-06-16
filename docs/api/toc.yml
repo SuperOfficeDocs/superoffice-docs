@@ -9,42 +9,57 @@ items:
   href: netserver/what-is-netserver.md
 - name: Authentication
   href: authentication/index.yml
-  items: 
+  items:
   - name: Overview
     href: authentication/overview.md
-  - name: Online Authentication
-    href: authentication/online/online.md
+  - name: Online authentication (OIDC/OAuth 2.0)
+    href: authentication/online/index.md
     items:
-    - name: OpenID Connect / OAuth 2.0
-      href: authentication/online/oidc/index.md
+    - name: Which flow should I use?
+      href: authentication/online/which-flow-to-use.md
+    - name: SuperOffice API
+      href: authentication/online/api.md
+    - name: Sign in user (interactive)
+      href: authentication/online/sign-in-user/index.md
       items:
-      - name: Authentication scenarios
-        href: authentication/online/authentication-scenarios.md
-      - name: OpenID Connect metadata document
-        href: authentication/online/oidc/auth-code-flow.md
       - name: Authorization Code Flow
-        href: authentication/online/oidc/metadata-document.md
+        href: authentication/online/sign-in-user/auth-code-flow.md
       - name: Hybrid Flow
-        href: authentication/online/oidc/hybrid-flow.md
+        href: authentication/online/sign-in-user/hybrid-flow.md
       - name: Implicit Flow
-        href: authentication/online/oidc/implicit-flow.md
+        href: authentication/online/sign-in-user/implicit-flow.md
       - name: Native Apps
-        href: authentication/online/oidc/native-apps.md
-    - name: System User (back-channel)
-      href: authentication/online/system-user/system-user-flow.md
-    - name: Token Validation
-      href: authentication/tokens/validate-security-tokens.md
+        href: authentication/online/sign-in-user/native-apps.md
+      - name: Legacy
+        href: authentication/online/sign-in-user/legacy.md
+    - name: System user (back-channel)
+      href: authentication/online/auth-application/index.md
+      items:
+      - name: Sign system user token
+        href: authentication/online/auth-application/sign-system-user-token.md
+      - name: Get system user ticket
+        href: authentication/online/auth-application/get-system-user-ticket.md
+    - name: Validate tokens
+      href: authentication/online/validate-security-tokens.md
+    - name: Troubleshooting
+      href: authentication/online/troubleshooting/index.md
+      items:
+      - name: IFrames and IdP
+        href: authentication/online/troubleshooting/iframe-idp-auth.md
     - name: Certificates
       href: authentication/online/certificates/index.md
       items:
-      - name: Add SuperOffice Certificates
+      - name: Add SuperOffice certificates
         href: authentication/online/certificates/add-certificate-snap-in.md
       - name: Configure certificates
         href: authentication/online/certificates/configure.md
       - name: Override certificate resolver
         href: authentication/online/certificates/override-resolver.md
-  - name: Onsite Authentication
-    href: authentication/overview.md
+  - name: Onsite authentication
+    href: authentication/onsite/index.md
+    items:
+    - name: WebAPI
+      href: authentication/onsite/webapi/index.md 
   - name: Session Handling
     href: authentication/session-handling/index.md
     items:

@@ -243,7 +243,7 @@ Read more about each platform API in the SDK documentation.
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
 [5]: https://community.superoffice.com/documentation/SDK/SO.Application/html/top_home.htm
 [6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
-[8]: ../authentication/online/federated-auth.md
+[8]: ../../../superoffice-docs/docs/identity-management/federated-auth.md
 [11]: ../netserver/services/reference/index.md
 [12]: ../netserver/what-is-netserver.md
 [15]: ../netserver/webhooks/index.md

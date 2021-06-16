@@ -12,7 +12,7 @@ so.client: online
 # How to override the certificate resolver
 
 > [!NOTE]
-> This information only applies if validating the security token using the SuperOffice.Online.Core NuGet package. See the [Validate Security Tokens][4] page to see all options.
+> This information applies only if validating the security token using the **SuperOffice.Online.Core NuGet package**. See the [Validate security tokens][4] page to see all options.
 
 To override the default behavior of JWT security token validation is required when you deploy your application in a restricted environment where you have no access to the certificate store. This is the case **when you deploy to a cloud application server**.
 
@@ -26,7 +26,7 @@ This allows the certificate routines to bypass certificate validation, and direc
 
 **Pre-requisites:**
 
-* Your application has an *App\_Data* folder containing the *SuperOfficeFederatedLogin.crt* certificate.
+* Your application has an *App_Data* folder containing the *SuperOfficeFederatedLogin.crt* certificate.
 * `CertificateValidator` property is set to **None**.
 * The certificate type must be **X509Certificate2**.
 
@@ -34,19 +34,19 @@ For JWT security tokens, the application must override the `JwtIssuerSigningCer
 
 The  X509Certificate2 constructor accepts a file name argument and is the file name of the certificate that will be used to validate the security token.
 
-The full path to the  *App\_Data* folder containing *SuperOfficeFederatedLogin.crt* is passed to the constructor.
+The full path to the  *App_Data* folder containing *SuperOfficeFederatedLogin.crt* is passed to the constructor.
 
 [!code-csharp[ValidateToken()](includes/validate-token.cs)]
 
-The `ValidateToken` method will return a [SuperIdToken][3] populated with all the claims returned by SuperOffice CRM Online.
+The `ValidateToken` method will return a [SuperIdToken][1] populated with all the claims returned by SuperOffice CRM Online.
 
 This operation will fail if the token is not JWT or if the certificate is missing.
 
-# How to override the certificate resolver for legacy SAML tokens
+## How to override the certificate resolver for legacy SAML tokens
 
 This code allows the certificate routines to bypass certificate validation, and directly validate the **SAML** security token with the provided certificate. This is no longer the preferred method.
 
-We recommend that you use [JWT security tokens][4].
+We recommend that you use [JWT security tokens][1].
 
 This override short-circuits the PeerTrust validation, or certificate dependencies, by setting the `CertificateValidator` property to **None**.
 
@@ -56,7 +56,7 @@ tokenHandler.CertificateValidator = X509CertificateValidator.None;
 
 **Pre-requisites:**
 
-* Your application has an *App\*Data* folder containing the *SuperOfficeFederatedLogin.crt* certificate.
+* Your application has an *App_Data* folder containing the *SuperOfficeFederatedLogin.crt* certificate.
 * `CertificateValidator` property is set to *None*.
 
 For SAML tokens, the application must override the `IssueTokenResolver` property with a class that knows how to resolve certificates.
@@ -69,13 +69,10 @@ public SuperIdToken ValidateToken(string token)
   var tokenHandler = new SuperIdTokenHandler();
 ```
 
-The `ValidateToken` method will return a [SuperIdToken][3] populated with all the claims returned by SuperOffice CRM Online.
+The `ValidateToken` method will return a [SuperIdToken][1] populated with all the claims returned by SuperOffice CRM Online.
 
 This operation will fail if the token is not SAML or if the certificate is missing.
 
-
 <!-- Referenced links -->
-[1]: ../../tokens/validate-security-tokens.md
+[1]: ../validate-security-tokens.md
 [2]: index.md
-[3]: ../../tokens/superid-token.md
-[4]: ../../tokens/jwt-intro.md

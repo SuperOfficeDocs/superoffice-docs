@@ -3,7 +3,7 @@ title: How to build your OAuth native app flow
 uid: native_app_flow_tutorial
 description: How to build your OAuth native app flow
 author: {github-id}
-keywords: oidc
+keywords: oidc, authentication
 so.topic: tutorial
 so.envir: cloud
 so.client: online
@@ -11,7 +11,7 @@ so.client: online
 
 # How to build your OAuth native app flow
 
-A native application is either a mobile application or application that runs on an operating system in a windowed frame, windowless service or console application. This type of application is **not** the same as a browser-based web application.
+A native application is either a mobile application or application that runs on an operating system in a windowed frame, windowless service, or console application. This type of application is **not** the same as a browser-based web application.
 
 Let's look at how to use IdentityModel’s OpenID Connect (OIDC) client library to authenticate towards SuperOffice SuperID using the native app workflow. It demonstrates how to set the required OpenID Connect options.
 
@@ -54,14 +54,14 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
     ```csharp
     var options = new OidcClientOptions
     {
-        Authority = "https://sod.superoffice.com/login",
-        LoadProfile = false,
-        ClientId = "YOUR\_APPLICATION\_ID",
-        ClientSecret = "YOUR\_APPLICATION\_TOKEN",
-        Scope = "openid profile api",
-        RedirectUri = "http://127.0.0.1:7890/desktop-callback",
-        ResponseMode = OidcClientOptions.AuthorizeResponseMode.FormPost,
-        Flow = OidcClientOptions.AuthenticationFlow.Hybrid,
+      Authority = "https://sod.superoffice.com/login",
+      LoadProfile = false,
+      ClientId = "YOUR\_APPLICATION\_ID",
+      ClientSecret = "YOUR\_APPLICATION\_TOKEN",
+      Scope = "openid profile api",
+      RedirectUri = "http://127.0.0.1:7890/desktop-callback",
+      ResponseMode = OidcClientOptions.AuthorizeResponseMode.FormPost,
+      Flow = OidcClientOptions.AuthenticationFlow.Hybrid,
     };
     ```
 
@@ -141,7 +141,7 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
 
 ## What do I get back from the server?
 
-The result from ProcessResponseAsync is a **LoginResult**, which contains all of the details you might expect, such as the [access token][5] and [refresh token][6].
+The result from ProcessResponseAsync is a **LoginResult**, which contains all of the details you might expect, such as the [access token][5] and [refresh token][5].
 
 Other libraries may name their login result container something differently, but they should all contain the key elements.
 
@@ -182,10 +182,10 @@ if (!result.IsError)
     }
 
     // get the base NetServer SOAP Endpoint
-    string soapUrl = result.User.Claims.Where(c => c.Type.Contains("netserver\_url")).Select(n => n.Value).FirstOrDefault();
+    string soapUrl = result.User.Claims.Where(c => c.Type.Contains("netserver_url")).Select(n => n.Value).FirstOrDefault();
 
     // get the base NetServer REST Endpoint
-    string restUrl = result.User.Claims.Where(c => c.Type.Contains("webapi\_url")).Select(n => n.Value).FirstOrDefault();
+    string restUrl = result.User.Claims.Where(c => c.Type.Contains("webapi_url")).Select(n => n.Value).FirstOrDefault();
 }
 else // write out the authentication error
 {
@@ -207,37 +207,37 @@ I had to update the dependent versions from 4.1.2.0 to 4.0.3.
 
 ```xml
 <runtime\>
-    <assemblyBinding xmlns\="urn:schemas-microsoft-com:asm.v1"\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="Newtonsoft.Json" publicKeyToken\="30ad4fe6b2a6aeed" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-11.0.0.0" newVersion\="11.0.0.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Runtime" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Diagnostics.Tracing" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.2.0.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Reflection" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Linq.Expressions" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Linq" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-      <dependentAssembly\>
-        <assemblyIdentity name\="System.Runtime.Extensions" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
-        <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
-      </dependentAssembly\>
-    </assemblyBinding\>
-  </runtime\>
+  <assemblyBinding xmlns\="urn:schemas-microsoft-com:asm.v1"\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="Newtonsoft.Json" publicKeyToken\="30ad4fe6b2a6aeed" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-11.0.0.0" newVersion\="11.0.0.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Runtime" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Diagnostics.Tracing" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.2.0.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Reflection" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Linq.Expressions" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Linq" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+    <dependentAssembly\>
+      <assemblyIdentity name\="System.Runtime.Extensions" publicKeyToken\="b03f5f7f11d50a3a" culture\="neutral" />
+      <bindingRedirect oldVersion\="0.0.0.0-4.1.2.0" newVersion\="4.3.0" />
+    </dependentAssembly\>
+  </assemblyBinding\>
+</runtime\>
 ```
 
 <!-- Referenced links -->
@@ -245,8 +245,7 @@ I had to update the dependent versions from 4.1.2.0 to 4.0.3.
 [2]: native-app-quickstart.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
 [4]: ../../../superoffice-docs/docs/apps/terminology.md
-[5]: ../authentication/tokens/access-token.md
-[6]: ../authentication/tokens/refresh-token.md
+[5]: ../authentication/online/api.md
 
 <!-- Referenced images -->
 [img1]: media/exception.png

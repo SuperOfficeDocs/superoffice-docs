@@ -5,7 +5,7 @@ items:
   href: ../authentication/overview.md
   items: 
   - name: Online Authentication
-    href: ../authentication/online/online.md
+    href: ../authentication/online/index.md
     items:
     - name: OpenID Connect / OAuth 2.0
       href: ../authentication/online/oidc/index.md
@@ -19,7 +19,7 @@ items:
       - name: Native Apps
         href: ../authentication/online/oidc/native-apps.md
     - name: System User (back-channel)
-      href: ../authentication/online/system-user/system-user-flow.md
+      href: ../authentication/online/auth-application/index.md
   - name: Onsite Authentication
     href: ../authentication/overview.md
     items:

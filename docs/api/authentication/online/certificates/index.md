@@ -55,17 +55,17 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
 
     If no certificate with a matching thumbprint is found, the [ID4037][3] exception is thrown:
 
-    `"ID4037: The key needed to verify the signature could not be resolved from the following security key identifier     'SecurityKeyIdentifier."`
+    `"ID4037: The key needed to verify the signature could not be resolved from the following security key identifier 'SecurityKeyIdentifier."`
 
     This means that no certificate with a matching thumbprint was found. The only known reasons this might happen are:
 
-    * the certificates are not [configured correctly][4]
-    * there are hidden characters in the value field - such as an "&shy;" character
+    * The certificates are not [configured correctly][4].
+    * There are hidden characters in the value field - such as an "&shy;" character.
 
 <!-- Referenced links -->
 [1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
-[2]: ../../tokens/validate-security-tokens.md
-[3]: ../error-codes.md
+[2]: ../validate-security-tokens.md
+[3]: ../troubleshooting/index.md
 [4]: configure.md
 
 <!-- Referenced images -->
