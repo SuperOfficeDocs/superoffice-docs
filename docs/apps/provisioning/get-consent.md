@@ -25,7 +25,7 @@ Each customer is responsible for their data and must explicitly approve each and
 3. Provision the application.
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/authentication/online/auth-user.md
+[1]: ../../../../data-access/docs/authentication/online/sign-in-user/index.md
 [2]: consent.md
 
 <!-- Referenced images -->
