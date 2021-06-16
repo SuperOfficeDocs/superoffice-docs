@@ -29,11 +29,9 @@ System User Token.YYYYMMDDHHMM.mwhpYcNBfFqEaL0uLkCwXB99sM/Wo7DOnhjRwsmwNAd2EmBM1
 
 ## Pre-requisites
 
-* Your application is approved and authenticated.
-* You have [validated the claim][2] and extracted the system user token from the `SuperIdToken`.
-* You have your private key file ([converted from RSA to PEM][4]).
-
-<a href="../../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice public key</a>.
+* Your application is approved and authorized.
+* You have [validated the claim][2] and extracted the system user token from the `id_token`.
+* You have your private key file (obtained after application registration).
 
 ## To sign the token
 
@@ -71,3 +69,8 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 [1]: index.md#system-user-tokens
 [2]: ../validate-security-tokens.md
 [4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
+[5]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
+[6]: ../../../assets/downloads/superofficeonlinecertificates.zip
+[7]: https://sod.superoffice.com/login/.well-known/openid-configuration
+[8]: https://qaonline.superoffice.com/login/.well-known/openid-configuration
+[9]: https://online.superoffice.com/login/.well-known/openid-configuration

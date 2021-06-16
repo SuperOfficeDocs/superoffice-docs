@@ -12,23 +12,62 @@ so.client: online
 
 # How to exchange system user token for system user ticket
 
-You need a system user ticket to perform non-interactive REST API calls. To get the ticket, you periodically invoke the web service endpoint and present your system user token.
+To get the ticket, you periodically send a request containing a signed version of your system user token to the `partner system user service` endpoint.
 
-The [system user token][1] is embedded in the [SuperIdToken][3] that you received when you [validated][3] the JWT security token from the initial authentication.
+The [system user token][1] is on of the claims in the `id_token` received the initial administrative authentication.
 
 ## Pre-requisites
 
-* [Client secret][5] (application is registered)
-* ContextIdentifier (application is [approved by customer's admin][6])
+* [Client secret][5] (obtained when application is registered)
+* ContextIdentifier (tenant identity)
 * [System user token][1] (application is authenticated)
 
-## Get system user ticket with SOAP (NodeJS)
+There are several ways to obtain a system user ticket:
+
+1. Use one of our nuget packages, or
+2. Use our REST API, or
+3. Use our SOAP API
+
+We provide the following .NET nuget packages to help perform the task.
+
+### SuperOffice.WebApi (preferred)
+
+* [SuperOffice.WebApi][9] (nuget)
+* [Sample Code on GitHub][10]
+
+### SuperOffice.Crm.Online.Core
+
+* [SuperOffice.Crm.Online.Core][11]
+* [Sample Code on GitHub][12]
+
+All means to obtain a system user ticket require a signed version of the system user token. Please read the [How to sign a system user token][8] documentation to learn that part of this equation.
+
+## Use the REST API
+
+```json
+@signed_Token=YOUR_SIGNED_TOKEN
+@client_Secret=YOUR_CLIENT_SECRET
+@context_Identifier=YOUR_CUSTOMER_ID
+
+POST https://{environment}.superoffice.com/Login/api/PartnerSystemUser/Authenticate
+Content-Type: application/json
+Accept: application/json
+
+{
+    "SignedSystemToken": "{{signed_Token}}",
+    "ApplicationToken": "{{client_secret}}",
+    "ContextIdentifier": "{{context_Identifier}}",
+    "ReturnTokenType": "JWT"
+}
+```
+
+## Use the SOAP API (NodeJS)
 
 SuperOffice CRM Online exposes one WCF SOAP endpoint for conducting the exchange:
 
 `https://onlineenv.superoffice.com/login/services/PartnerSystemUserService.svc`
 
-The **SOAP envelope** should contain 2 headers plus an `AuthenticationRequest` element in the SOAP body.
+The **SOAP envelope** should contain 2 header elements and the `AuthenticationRequest` element in the SOAP body.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -78,3 +117,7 @@ The following example code has an extensive amount of logging to the console. Th
 [5]: ../../../../../superoffice-docs/docs/apps/terminology.md
 [6]: ../../../../../superoffice-docs/docs/apps/provisioning/get-consent.md
 [8]: sign-system-user-token.md
+[9]: https://www.nuget.org/packages/SuperOffice.WebApi
+[10]: https://github.com/SuperOffice/SuperOffice.WebApi-Samples
+[11]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
+[12]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.SystemUser.ServiceConsole
