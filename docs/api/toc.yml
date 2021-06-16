@@ -501,3 +501,31 @@ items:
       href: security/sentry/plugins/create-sentry-plugin.md
     - name: Use sentry plug-in
       href: security/sentry/plugins/use-sentry-plugin.md
+- name: WebApi
+  href: webapi/index.md
+  items:
+  - name: Agents
+    href: webapi/agents/index.md
+    items:
+    - name: Get version
+      href: webapi/agents/get-version.md
+  - name: REST
+    href: webapi/rest/index.md
+    items:
+    - name: Get version
+      href: webapi/rest/get-version.md
+    - name: How to submit a request
+      href: webapi/rest/submit-rest.md
+    - name: In-depth article
+      href: webapi/rest/rest.md
+  - name: HTTP request headers
+    href: webapi/headers/index.md
+    items:
+    - name: Language
+      href: webapi/headers/accept-language.md
+    - name: Content types
+      href: webapi/headers/content-type.md
+    - name: Modified and unmodified
+      href: webapi/headers/modified-unmodified.md
+  - name: Timezones
+    href: webapi/so-timezone.md

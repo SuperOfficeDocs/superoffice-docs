@@ -1,10 +1,10 @@
 ---
 title: SOTimezone
-uid: web_api_headers_content_type
-description: Web API headers
+uid: webapi_sotimezone
+description: SuperOffice can support multiple time zones
 author: {github-id}
 so.date: 
-keywords: 
+keywords: timezone, date, timeanddate
 so.topic: concept 
 ---
 

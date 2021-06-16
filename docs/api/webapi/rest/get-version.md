@@ -1,7 +1,7 @@
 ---
 title: How to get the API version
-uid: get_version
-description: How to get the API version
+uid: webapi_rest_get_version
+description: How to get the REST WebAPI version
 author: {github-id}
 keywords:
 so.topic: howto
@@ -11,7 +11,7 @@ so.topic: howto
 
 # How to get the API version
 
-You can get the version number and build-date from the API endpoint: `/api`
+You can get the version number and build-date from the **API endpoint**: `/api`
 
 This returns a block with the supported versions and the NetServer version number.
 

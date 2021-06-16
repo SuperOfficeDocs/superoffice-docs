@@ -3,7 +3,7 @@ title: How to submit a REST request - non-interactive
 uid: submit_rest
 description: How to submit a REST request - non-interactive
 author: {github-id}
-keywords: web services
+keywords: web services, rest, webapi
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -36,4 +36,4 @@ SO-AppToken: f2398a3a7wer3759d4b220e9a9c94321
 ```
 
 <!-- Referenced links -->
-[1]: ../../../superoffice-docs/docs/authentication/auth-application/get-system-user-ticket.md
+[1]: ../../authentication/online/system-user/get-system-user-ticket.md

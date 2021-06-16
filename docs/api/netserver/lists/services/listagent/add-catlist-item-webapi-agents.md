@@ -3,7 +3,7 @@ title: Add a category list item
 uid: add_catlist_item_listagent
 description: Add a category list item using WebAPI agents
 author: {github-id}
-keywords: category, contact, webapi,agents
+keywords: category, contact, webapi, agents
 so.topic: howto
 # so.envir:
 # so.client:

@@ -1,10 +1,10 @@
 ---
 title: Content types
-uid: web_api_headers_content_type
+uid: webapi_headers_content_type
 description: Web API headers content types
 author: {github-id}
 so.date: 
-keywords: 
+keywords: webapi
 so.topic: concept 
 ---
 
@@ -15,8 +15,8 @@ The API supports both JSON and XML responses. Use the `Accept` header to specify
 ## XML
 
 ```http
-GET /api/v1/Contact/123
 Accept: application/xml
+GET /api/v1/Contact/123
 ```
 
 Returns an XML representation of the contact:
@@ -34,8 +34,8 @@ Returns an XML representation of the contact:
 ## JSON
 
 ```http
-GET /api/v1/Contact/123
 Accept: application/json
+GET /api/v1/Contact/123
 ```
 
 Returns a JSON representation of the same (contact 123):
