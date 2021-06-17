@@ -192,7 +192,7 @@ additionalContent:
       # Card
       - title: Documents
         links:
-        - text: G-suite documents
+        - text: Google Workspace documents
           url: ../document/cloud/g-suite/security.md
         - text: Office-365 documents
           url: ../document/cloud/office-365/security.md
