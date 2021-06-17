@@ -93,7 +93,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [5]: index.md
 [7]: ../app-store.md
 [8]: ../overview.md
-[9]: ../../../../data-access/docs/authentication/online/federated-auth.md
+[9]: ../../identity-management/federated-auth.md
 [10]: ../terminology.md
 [11]: ../../../../data-access/docs/authentication/online/certificates/index.md
 [12]: ../../online/test-environment/index.md

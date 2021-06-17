@@ -69,7 +69,7 @@ The difference of use between OLD FORM and OAuth2 URLs is the HTTP Response sent
 
 The OLD URL request receives a JWT or SAML token in the body of the response with claims, including a Ticket credential.
 
-The OAuth2 URL request, which is an Implicit Flow request, returns a URL fragment containing a JWT `id_token`, with tenant and user claims, plus an `access_token` credential. See the [SuperOffice OpenID Connect][6] article for more details.
+The OAuth2 URL request, which is an Implicit flow request, returns a URL fragment containing a JWT `id_token`, with tenant and user claims, plus an `access_token` credential. See the [SuperOffice OpenID Connect][6] article for more details.
 
 For an app listed in the app store, this URL is usually what lies behind the Install button. For developers creating an app locally on their dev-machine, they must manually invoke this URL in a browser to initiate **mock** an installation.
 
@@ -77,7 +77,7 @@ Both scenarios navigate to the SuperOffice SuperID login page, where either a te
 
 When an application is registered, they also provide a redirect URL, which is where SuperID redirects the user once authentication **and consent** is given.
 
-The redirect is a POST request that contains a JSON Web Token (JWT) in the request body.
+The redirect is a POST request that contains a JSON web token (JWT) in the request body.
 
 While the old form and the new OAuth 2.0 form have a different sequence of events that lead to the response that contains the JWT security token, the JWT contains the claims necessary to interact with the tenant. For provisioning an application's dependencies, such as navigator buttons, web panels, and list items. The claims include URLs for both REST and SOAP web service endpoints, and the almighty SystemUserToken - for non-interactive (server-to-server) communications.
 
@@ -163,7 +163,7 @@ System users have unlimited access to the database and are not subject to any se
 
 ## Semi-Interactive Scenario
 
-Applications that use OAuth2/OpenID Connect to authenticate users via the [Authorization Code Flow][6], or Native App Flow, do receive a refresh token. The refresh token is (as of this writing) good for as long as the user is authorized to access the application, and can be securely stored on behalf of that user for subsequent API interaction.
+Applications that use OAuth2/OpenID Connect to authenticate users via the [Authorization Code flow][6], or Native App Flow, do receive a refresh token. The refresh token is (as of this writing) good for as long as the user is authorized to access the application, and can be securely stored on behalf of that user for subsequent API interaction.
 
 To use a refresh token, the application must issue a POST request to the **tokens** endpoint with the following details:
 
@@ -219,7 +219,7 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 [3]: ../../../../data-access/docs/api-reference/soap/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.Login/SoPlugins
-[6]: ../../../../data-access/docs/authentication/online/oidc/index.md
+[6]: ../../../../data-access/docs/authentication/online/index.md
 [7]: https://online.superoffice.com/login/
 [8]: http://openid.net/connect/
 [9]: http://openid.net/developers/certified/

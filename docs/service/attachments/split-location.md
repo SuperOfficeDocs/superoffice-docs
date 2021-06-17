@@ -1,6 +1,6 @@
 ---
-title: Split locations
-uid: split_attachment_locations
+title: Split location
+uid: split_attachment_location
 description: Splitting SuperOffice Service attachments to multiple locations
 author: {github-id}
 keywords:
@@ -9,9 +9,9 @@ so.envir: onsite
 # so.client:
 ---
 
-# Splitting attachment locations
+# Splitting attachment location
 
-This is a more complex procedure and we do not offer any GUI for this but must be performed in SQL by adding a new row into `attachment_location`.
+This is a more complex procedure and we do not offer any GUI for this but must be performed in SQL by adding a new row into `attachment_location`. Since this row is added, all new attachments will be stored in the new location. 
 
 > [!NOTE]
 > If you need to move attachments from one location to another this is even more complex as it would also require you to update the attachment table and so on. Do not recommend doing this without a consultant.
