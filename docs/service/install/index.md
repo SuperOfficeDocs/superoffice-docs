@@ -141,7 +141,7 @@ For installations where you run upgrade.exe (or ejTermsetup.exe for new installa
 
 When running upgrade.exe interactively, upgrade.exe must update its config file with these values. If you do not run upgrade.exe, then the values ​​must be manually added to the config file.
 
-### Form 8.5
+### From 8.5
 
 In version **8.5 R06**, we have rewritten the CRMScript triggers in Sales to use the same communication system as the Service entities, so that we standardize on one way of doing API calls from Sales to Service. Previously, the connections originate from the Web client, now they originate from NetServer.
 

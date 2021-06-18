@@ -51,11 +51,12 @@ items:
     - name: upgrade
       href: automated-tasks/upgrade.md
   - name: Config
+    href: index.md
     items:
     - name: FAQ
       href: ../customer-center/faq/configure.md
     - name: Set up Facebook integration
-    href: set-up-facebook-integration.md
+      href: config/set-up-facebook-integration.md
   - name: SMS
     href: sms/index.md
     items:
