@@ -33,6 +33,11 @@ items:
     href: ms-teams/auth.md
   - name: Jitsi
     href: jitsi/auth.md
+- name: Troubleshooting
+  href: troubleshooting.md
+  items:
+  - name: Remove access for Video Meeting App in Google
+    href: google-meet/remove-access-for-app.md
 - name: Uninstall
   expanded: true
   items:
