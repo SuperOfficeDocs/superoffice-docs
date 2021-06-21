@@ -15,7 +15,7 @@ This procedure fixes problems with video meetings and Google accounts.
 
 This might happen when you create a meeting in your CRM diary:
 
-    ![image9u3i.png][img1]
+![image9u3i.png][img1]
 
 1. In your (the user's) Google account, go to [the list of authorized third-party applications][1].
 2. Find SuperOffice Video Meetings in the list.
