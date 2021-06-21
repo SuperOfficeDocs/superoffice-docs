@@ -3,7 +3,8 @@ title: Disconetct provider
 uid: disconnect_video_provider
 description: How to disconnect video provider
 author: {github-id}
-keywords:
+so.date: 06.21.2021
+keywords: video meetings
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -27,7 +28,7 @@ Some providers that you uninstall too. These are:
 
 * [Zoom][1]
 * [Webex][2]
-* [Google][3]
+* [Google Meet][3]
 * [Microsoft Teams][4]
 
 Now you are able to start the configuration over.
