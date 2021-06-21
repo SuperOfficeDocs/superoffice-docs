@@ -14,7 +14,7 @@ so.client: online
 
 ## Before you begin
 
-* The administrator must first [configure][1] the Zoom video meeting service in SuperOffice Settings and Maintenance.
+* The administrator must first [configure][1] the video meeting service in SuperOffice Settings and Maintenance.
 
 ## How to
 

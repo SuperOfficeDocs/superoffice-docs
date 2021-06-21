@@ -2,6 +2,19 @@ items:
 - name: Pre-requisites
   href: index.md
   expanded: true
+- name: Vendors
+  expanded: true
+  items:
+  - name: Zoom
+    href: zoom/index.md
+  - name: Webex
+    href: webex/index.md
+  - name: Google
+    href: google-meet/index.md
+  - name: Microsoft Teams
+    href: ms-teams/index.md
+  - name: Jitsi
+    href: jitsi/index.md
 - name: Use
   expanded: true
   items:
