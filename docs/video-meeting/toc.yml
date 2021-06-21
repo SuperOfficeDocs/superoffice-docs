@@ -18,6 +18,8 @@ items:
     href: connect-provider.md
   - name: Disconnect provider
     href: disconnect-provider.md
+  - name: Remove configuration for users
+    href: remove-config-for-user.md
 - name: Authenticate
   expanded: true
   items:
