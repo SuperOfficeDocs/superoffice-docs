@@ -2,6 +2,19 @@ items:
 - name: Pre-requisites
   href: index.md
   expanded: true
+- name: Vendors
+  expanded: true
+  items:
+  - name: Zoom
+    href: zoom/index.md
+  - name: Webex
+    href: webex/index.md
+  - name: Google
+    href: google-meet/index.md
+  - name: Microsoft Teams
+    href: ms-teams/index.md
+  - name: Jitsi
+    href: jitsi/index.md
 - name: Use
   expanded: true
   items:
@@ -18,6 +31,8 @@ items:
     href: connect-provider.md
   - name: Disconnect provider
     href: disconnect-provider.md
+  - name: Remove configuration for users
+    href: remove-config-for-user.md
 - name: Authenticate
   expanded: true
   items:
@@ -31,6 +46,11 @@ items:
     href: ms-teams/auth.md
   - name: Jitsi
     href: jitsi/auth.md
+- name: Troubleshooting
+  href: troubleshooting.md
+  items:
+  - name: Remove access for Video Meeting App in Google
+    href: google-meet/remove-access-for-app.md
 - name: Uninstall
   expanded: true
   items:
