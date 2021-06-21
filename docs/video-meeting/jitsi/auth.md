@@ -3,7 +3,7 @@ title: Authenticate
 uid: auth_jitsi
 description: How to authenticate and authorize Zoom
 author: {github-id}
-keywords:
+keywords: video meeting
 so.topic: howto
 so.envir: cloud
 so.client: online

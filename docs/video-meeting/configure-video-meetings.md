@@ -3,7 +3,7 @@ title: Configure
 uid: configure_video_meetings
 description: How to configure video meetings in SuperOffice
 author: {github-id}
-keywords:
+keywords: video meetings
 so.topic: howto
 so.envir: cloud
 so.client: online
