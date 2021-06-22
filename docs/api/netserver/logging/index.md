@@ -20,6 +20,14 @@ For web applications, ASP.NET will load all the DLLs in the *bin* folder automat
 For console applications, you will need to add the plugins to the `<DynamicLoad>` section or add explicit references to
 make sure the DLLs are loaded and found by the class factory.
 
+```xml
+<Factory>
+  <DynamicLoad>
+    <add key="Logging" value="SuperOffice.Logging.dll" />
+  </DynamicLoad>
+</Factory>
+```
+
 ## Configuration
 
 NetServer uses its own [Diagnostics config section][2] to determine what information to send to the ILoggers.
