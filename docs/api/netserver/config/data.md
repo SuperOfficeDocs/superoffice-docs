@@ -62,4 +62,4 @@ When in Mode **Thread**, every session requires the [suspend][1] and continue me
 When in Mode **Context**, your session only requires authentication and a closure. Here, once you authenticate a session it will be for the lifetime of the session. It is not necessary to call continue and suspend methods. The session values for this configuration will be stored in a context static manner.
 
 <!-- Referenced links -->
-[1]: ../../authentication/session-handling/suspend-session.md
+[1]: ../../authentication/onsite/sosession/suspend.md

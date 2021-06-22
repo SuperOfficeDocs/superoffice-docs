@@ -1,11 +1,12 @@
 ---
 title: How to create a new session
 uid: ns_create_session
-description: How to create a new session
+description: How to create a new session for NetServer Core & Service proxy
 author: {github-id}
 so.date: 11.05.2016
-keywords:
+keywords: authentication, SoSession
 so.topic: howto
+so.envir: onsite
 ---
 
 # How to create a new session

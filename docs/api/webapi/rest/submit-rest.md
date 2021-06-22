@@ -36,4 +36,4 @@ SO-AppToken: f2398a3a7wer3759d4b220e9a9c94321
 ```
 
 <!-- Referenced links -->
-[1]: ../../authentication/online/system-user/get-system-user-ticket.md
+[1]: ../../authentication/online/auth-application/get-system-user-ticket.md

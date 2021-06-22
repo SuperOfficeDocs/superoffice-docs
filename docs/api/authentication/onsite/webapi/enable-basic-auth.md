@@ -1,10 +1,10 @@
 ---
 title: SuperOffice username and password
-uid: web_api_auth_anon
+uid: webapi_auth_basic
 description: Web API authentication anon
 author: {github-id}
 so.date: 
-keywords: 
+keywords: authentication, basic
 so.topic: concept
 ---
 
@@ -22,7 +22,7 @@ Disable all except **Anonymous** authentication.
 
 ![iis-authentication-anonymous][img2]
 
-This sets up the site so that anyone can access the application and the WebApi, but they will still need a valid SuperOffice username and password to access the site.
+This sets up the site so that anyone can access the application and the WebAPI, but they will still need a valid SuperOffice username and password to access the site.
 
 If you enable **Basic authentication** on the IIS site, then IIS will try to use any username+password passed in, and fail the call if the username and password are not valid Active Directory accounts (because that's where IIS checks its usernames and passwords).
 
@@ -42,7 +42,7 @@ You must explicitly enable the authentication methods you want to use in the *we
 
 ## Testing Login
 
-Accessing the SuperOffice webpage, you should see the login page, asking for a username and password.
+Accessing the SuperOffice web page, you should see the login page, asking for a username and password.
 
 ![login-page][img3]
 
@@ -82,20 +82,20 @@ This returns the contact info
 
 ```json
 {
-    "TableRight": {
-        "Mask": "RI, RestrictedUpdate",
-        "Reason": "[SR_ACCESS_ASSOCCONT_DELETE]"
-    },
-    "FieldProperties": { ... },
-    "ContactId": 2,
-    "Name": "statezerodatabase",
-    "Department": "",
-    "OrgNr": "",
-    "Number1": "",
-    "Number2": "",
-    "UpdatedDate": "2016-01-04T13:27:28",
-    "CreatedDate": "2002-07-23T15:14:29",
-    "Emails": [],
+  "TableRight": {
+    "Mask": "RI, RestrictedUpdate",
+    "Reason": "[SR_ACCESS_ASSOCCONT_DELETE]"
+  },
+  "FieldProperties": { ... },
+  "ContactId": 2,
+  "Name": "statezerodatabase",
+  "Department": "",
+  "OrgNr": "",
+  "Number1": "",
+  "Number2": "",
+  "UpdatedDate": "2016-01-04T13:27:28",
+  "CreatedDate": "2002-07-23T15:14:29",
+  "Emails": [],
 ```
 
 <!-- Referenced links -->

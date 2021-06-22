@@ -4,7 +4,7 @@ uid: ns_config_webapi
 description: NetServer WebApi element
 so.date: 06.06.2018
 author: {github-id}
-keywords: config
+keywords: config, NetServer, authentication, WebAPI
 so.topic: reference
 so.envir: onsite
 ---
@@ -23,10 +23,10 @@ Configuration values related to the WebApi web services.
 </WebApi>
 ```
 
-| Name | Description |
+| Name | Default | Description |
 |---|---|
-| AuthorizeWithUsername | Allow WebAPI to authorize with username + password.<br>Default: true |
-| AuthorizeWithTicket | Allow WebAPI to authorize with session tickets.<br>Default: true |
-| AuthorizeWithImplicit | Allow WebAPI to authorize with implicit identity from IIS.<br>Default: true |
-| CORSEnable | Allow 3rd party web pages to call WebAPI from the browser.<br>Default: false |
-| CORSOrigin | If CORS is enabled, define space-delimited Origins that are allowed to call the WebAPI from the browser. No default is set. Example value: `"http://foo.bar http://localhost/ http://localhost *"`. |
+| AuthorizeWithUsername | true | Allow WebAPI to authorize with username + password. |
+| AuthorizeWithTicket | true | Allow WebAPI to authorize with session tickets. |
+| AuthorizeWithImplicit | true | Allow WebAPI to authorize with implicit identity from IIS.|
+| CORSEnable | false | Allow 3rd party web pages to call WebAPI from the browser.|
+| CORSOrigin | | If CORS is enabled, define space-delimited Origins that are allowed to call the WebAPI from the browser. Example value: `"http://foo.bar http://localhost/ http://localhost *"`. |

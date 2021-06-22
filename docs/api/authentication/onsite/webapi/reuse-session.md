@@ -4,7 +4,7 @@ uid: webapi_auth_x-xsrf
 description: Web API authentication X-XSRF-token
 author: {github-id}
 so.date: 
-keywords: 
+keywords: authentication, session, X-XSRF-TOKEN
 so.topic: concept 
 ---
 

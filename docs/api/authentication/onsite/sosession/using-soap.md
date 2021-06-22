@@ -4,10 +4,10 @@ uid: auth_and_soap_calls
 description: Authentication and SOAP calls
 author: {github-id}
 so.date:
-keywords:
-so.topic:
-# so.envir:
-# so.client:
+keywords: authentication, SOAP, SoSession
+so.topic: concept
+so.envir: onsite
+# so.client: 
 ---
 
 # Authentication and SOAP calls
@@ -48,10 +48,10 @@ using (SoSession mySession = SoSession.Authenticate("SAL0", "SAL0"))
 {
   using(ContactAgent contactAgent = new ContactAgent())
   {
-   Contact aContact = contactAgent.GetContact(12);
+    Contact aContact = contactAgent.GetContact(12);
   }
 }
-
+```
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -87,6 +87,6 @@ An [agent][1] contains a set of methods corresponding to SOAP calls. These metho
 * How to make SOAP calls [with CRM 7][3]
 
 <!-- Referenced links -->
-[1]: ../netserver/services/agents/index.md
-[2]: ../netserver/services/make-soap-call-crm6.md
-[3]: ../netserver/services/make-soap-call-crm7.md
+[1]: ../../../netserver/services/agents/index.md
+[2]: ../../../netserver/services/make-soap-call-crm6.md
+[3]: ../../../netserver/services/make-soap-call-crm7.md

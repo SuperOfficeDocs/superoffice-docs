@@ -1,11 +1,12 @@
 ---
 title: Suspending a Session
 uid: ns_suspend_session
-description: How to suspend a session
+description: How to suspend a session for NetServer Core & Service proxy
 author: {github-id}
 so.date: 11.05.2016
-keywords:
+keywords: authentication, SoSession
 so.topic: howto
+so.envir: onsite
 ---
 
 # Suspending a Session

@@ -36,4 +36,4 @@ The `ContactSoap` class is responsible for loading default values into the retri
 
 <!-- Referenced links -->
 [1]: auth-java.md
-[2]: ../../../authentication/auth-and-soap-calls.md
+[2]: ../../../authentication/onsite/sosession/using-soap.md

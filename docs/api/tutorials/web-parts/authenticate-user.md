@@ -94,7 +94,7 @@ Using the `Authenticate` method of the `SoSession` class, we try to authenticate
 **Next step:**  [Display open sales for the user][3] (build the **Sales** page)
 
 <!-- Referenced links -->
-[1]: ../../authentication/auth-and-soap-calls.md
+[1]: ../../authentication/onsite/sosession/using-soap.md
 [2]: ../../netserver/services/make-soap-call-crm7.md
 [3]: display-open-sales-for-user.md
 

@@ -1,11 +1,11 @@
 ---
 title: Integrated with Active Directory
-uid: web_api_auth_ad
-description: Web API authentication Active Directory
+uid: webapi_auth_ad
+description: WebAPI authentication Active Directory
 author: {github-id}
 so.date: 
-keywords: 
-so.topic: concept 
+keywords: authentication, AD, Active Directory, AuthorizeWithImplicit
+so.topic: howto 
 ---
 
 # Integrated with Active Directory
@@ -47,7 +47,7 @@ You must explicitly enable the authentication methods you want to use in the *we
 
     ![iis-auth-providers][img3]
 
-Your SuperOffice and WebAPI should now be accessable without logging in.
+Your SuperOffice and WebAPI should now be accessable able without logging in.
 
 The HTTP.sys kernel driver will stop unauthenticated requests before they reach ASP.net and send back an ActiveDirectory response that the browser can use to log in using its windows identity.
 

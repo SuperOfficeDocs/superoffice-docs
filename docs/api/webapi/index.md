@@ -36,8 +36,8 @@ The **REST** API is not as complete as the **Agents** API, but it should cover t
 <!-- Referenced links -->
 [1]: rest/index.md
 [2]: agents/index.md
-[3]: ../authentication/onsite-web-api/index.md
-[4]: ../authentication/onsite-web-api/reuse-session.md
+[3]: ../authentication/onsite/webapi/index.md
+[4]: ../authentication/onsite/webapi/reuse-session.md
 [5]: headers/accept-language.md
 [6]: headers/content-type.md
 [7]: headers/modified-unmodified.md

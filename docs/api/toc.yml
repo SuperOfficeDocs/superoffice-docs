@@ -12,6 +12,10 @@ items:
   items:
   - name: Overview
     href: authentication/overview.md
+  - name: Terminology
+    href: authentication/terminology.md
+  - name: Users and associates
+    href: authentication/users-and-associates.md
   - name: Online authentication (OIDC/OAuth 2.0)
     href: authentication/online/index.md
     items:
@@ -58,17 +62,44 @@ items:
   - name: Onsite authentication
     href: authentication/onsite/index.md
     items:
+    - name: Pipeline and plug-ins
+      href: authentication/onsite/pipeline.md
     - name: WebAPI
       href: authentication/onsite/webapi/index.md 
-  - name: Session Handling
-    href: authentication/session-handling/index.md
-    items:
-    - name: Create a SoSession
-      href: authentication/session-handling/create-session.md
-    - name: Suspend a SoSession
-      href: authentication/session-handling/suspend-session.md
-    - name: Switch a SoSession
-      href: authentication/session-handling/switch-sessions.md
+      items:
+      - name: Enable Basic authentication (username + password)
+        href: authentication/onsite/webapi/enable-basic-auth.md
+      - name: Enable IIS Identity (AD)
+        href: authentication/onsite/webapi/enable-iis-identity.md
+      - name: Reuse session with X-XSRF-TOKEN
+        href: authentication/onsite/webapi/reuse-session.md
+    - name: SoSession
+      href: authentication/onsite/sosession/index.md
+      items:
+      - name: Create an SoSession
+        href: authentication/onsite/sosession/create.md
+      - name: Suspend an SoSession
+        href: authentication/onsite/sosession/suspend.md
+      - name: Switch SoSessions
+        href: authentication/onsite/sosession/switch.md
+      - name: How to access web services using SOAP
+        href: authentication/onsite/sosession/using-soap.md
+    - name: NetServer web service custom proxies
+      href: authentication/onsite/custom-proxies/index.md
+    - name: Configuration
+      items:
+      - name: NetServer
+        href: authentication/onsite/netserver-config.md
+      - name: Enable anonymous user
+        href: authentication/onsite/config-anonymous-user.md
+      - name: Enable external user
+        href: authentication/onsite/config-external-user.md
+    - name: Legacy
+      items:
+      - name: COM API
+        href: authentication/onsite/com/index.md
+      - name: From secret to ticket
+        href: authentication/onsite/from-secret-to-ticket.md
 - name: Configuration
   href: netserver/config/index.md
   items:
@@ -527,5 +558,7 @@ items:
       href: webapi/headers/content-type.md
     - name: Modified and unmodified
       href: webapi/headers/modified-unmodified.md
+  - name: Reverse proxy
+    href: webapi/reverse-proxy.md
   - name: Timezones
     href: webapi/so-timezone.md
