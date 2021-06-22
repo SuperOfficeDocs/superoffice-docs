@@ -94,6 +94,9 @@ On the computer in each hosting environment:
 
 ![x][img6]
 
+> [!NOTE]
+> Following image shows Stage certificate
+
 ![x][img7]
 
 <!-- Referenced links -->
