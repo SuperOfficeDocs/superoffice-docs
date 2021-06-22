@@ -15,7 +15,7 @@ so.client: online
 
 **Problem:** If SuperOffice Online is not able to provide video meetings with a valid context-identifier (used for getting correct API-credentials) when a user logs in to CRM Online, the user will get an error in the client when creating the video meeting:
 
-![imagen1s5.png][img1]
+![imagen1s5.png -screenshot][img1]
 
 **Solution:** The user should try to log out of CRM Online and then log in to CRM Online again to get a valid context-identifier.
 
