@@ -24,9 +24,9 @@ highlightedContent:
       itemType: reference
       url: requirements/index.md
     # Card
-    - title: "Identity Management"
+    - title: "Customer Service"
       itemType: overview
-      url: ../identity-management/index.yml
+      url: ../service/index.yml
     # Card
     - title: "Installation guide (Web)"
       itemType: overview

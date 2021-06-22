@@ -28,7 +28,7 @@ landingContent:
             url: configure.md
 
   # Card
-  - title: G-suite document integration
+  - title: Google Workspace document integration
     linkLists:
       - linkListType: concept
         links:
