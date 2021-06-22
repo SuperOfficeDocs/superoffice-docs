@@ -24,9 +24,24 @@ Each customer is responsible for their data and must explicitly approve each and
 
 3. Provision the application.
 
+## Potential Errors
+
+You are unable to complete providing consent (Approve) to the application.
+
+![img2][img2]
+
+This means that SuperOffice Operations Center does not recognize your user as an administrator.
+
+### How to resolve 'account does not have access' error
+
+You can resolve this issue by signing in to SuperOffice, navigate to settings and maintenance (admin), then make any change to the user and then save. Next, change back and save again.
+
+Your user is now able to successfully approve the application.
+
 <!-- Referenced links -->
 [1]: ../../../../data-access/docs/authentication/online/sign-in-user/index.md
 [2]: consent.md
 
 <!-- Referenced images -->
 [img1]: media/superid-approve.png
+[img2]: media/no-access-error-page.png
