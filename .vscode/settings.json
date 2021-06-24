@@ -4,6 +4,22 @@
         "~/templates/superoffice/blueprint"
     ],
     "cSpell.words": [
-        "mailgun"
+        "core",
+        "index",
+        "mailgun",
+        "md",
+        "netserver",
+        "osql",
+        "SCIM",
+        "soap",
+        "SoSession",
+        "superoffice",
+        "Watchcom",
+        "webapi",
+        "webshop",
+        "website",
+        "webpage",
+        "web form",
+        "web services"
     ]
 }
