@@ -1,12 +1,12 @@
 ---
-title: globalization       
+title: globalization
 description: Globalization 
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: concept          # article, howto, reference, concept, guide
-so.envir: onsite               # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: onsite
+so.client: web
 ---
 
 # Globalization
