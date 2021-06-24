@@ -3,7 +3,8 @@ title: Create a video meeting
 uid: create_video_meeting
 description: How to create a video meeting
 author: {github-id}
-keywords:
+so.date: 06.21.2021
+keywords: video meeting
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -17,9 +18,10 @@ You can easily set up a video meeting when [creating a follow-up][1].
 
 2. Click ![inactive -screenshot][img1] next to the meeting type (for instance Business meeting). The icon changes to ![active -screenshot][img2] and a video meeting link is added.
 
-    Note: The first time you select the video icon (![inactive -screenshot][img1]), a new window will open. Here you need to sign in to authenticate your user in the video meeting service defined by your administrator.
+    > [!NOTE]
+    > The first time you select the video icon (![inactive -screenshot][img1]), a new window will open. Here you need to sign in to authenticate your user in the video meeting service defined by your administrator.
 
-3. Complete the information in the dialog as described in the [Dialog for follow-ups][2].
+3. Complete the information in the dialog as described in the [Dialog for follow-ups -screenshot][2].
 
 If you have turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting will be sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![in diary -screenshot][img3].
 
@@ -28,7 +30,7 @@ If you have turned on email invitations for the participants of the follow-up, a
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Add_activities.htm
-[4]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Dialog_for_followups.htm
+[2]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Dialog_for_followups.htm
 
 <!-- Referenced images -->
 [img1]: ../media/icons/videomeeting_inactive.png
