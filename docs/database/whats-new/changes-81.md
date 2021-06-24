@@ -6,7 +6,7 @@ author: {github-id}
 keywords: database
 so.topic: reference
 so.envir: onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # Database

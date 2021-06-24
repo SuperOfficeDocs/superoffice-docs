@@ -5,8 +5,8 @@ author: {github-id}
 keywords:
 so.topic: generic
 so.date: 05.11.2016
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Expander SDK: database documentation

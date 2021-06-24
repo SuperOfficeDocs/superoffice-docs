@@ -3,11 +3,9 @@ title:  changes_6_to_7
 description:  Table changes from SuperOffice 6 to 7
 author:  {github-id}
 keywords:  database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir:  onsite           # cloud or onsite
-# so.client :                     # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir:  onsite
+# so.client :
 ---
 
 # Table changes from SuperOffice 6 to 7

@@ -5,8 +5,8 @@ description: An overview of the database
 author: {github-id}
 keywords: database
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # An overview of the database

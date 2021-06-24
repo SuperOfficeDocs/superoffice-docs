@@ -6,8 +6,8 @@ author: Tony Yates
 so.date: 06.23.2017, 11.02.2017
 keywords:
 so.topic: guide
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to create tables in the SuperOffice database (CDD)

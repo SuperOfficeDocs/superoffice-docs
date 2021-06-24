@@ -6,8 +6,8 @@ author: Tony Yates
 so.date: 06.23.2017
 keywords: database
 so.topic: concept
-# so.envir:           # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Structure method
