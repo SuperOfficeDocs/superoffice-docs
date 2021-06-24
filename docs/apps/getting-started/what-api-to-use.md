@@ -38,7 +38,7 @@ Self-generated proxies must create and manage user sessions themselves, as well 
 
 SuperOffice proxies are easier in that they manage the details for you. The power, however, does require API consumers to know more about SuperOffice NetServer internals - specifically 3 plugin classes that help manage session state.
 
-![OnlineAuthentication.png -screenshot][img5]
+![OnlineAuthentication.png -screenshot][img1]
 
 Thankfully [these are shared on github][5], as with example applications that demonstrate how they are used.
 

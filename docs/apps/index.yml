@@ -173,6 +173,9 @@ conceptualContent:
         - text: Activate your custom application
           itemType: how-to-guide
           url: activate/activate-custom-app.md
+        - text: Helper for custom applications
+          itemType: how-to-guide
+          url: activate/helper-application.md
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
