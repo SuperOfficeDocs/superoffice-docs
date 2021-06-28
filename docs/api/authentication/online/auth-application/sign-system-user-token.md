@@ -47,8 +47,9 @@ System User Token.YYYYMMDDHHMM.mwhpYcNBfFqEaL0uLkCwXB99sM/Wo7DOnhjRwsmwNAd2EmBM1
 /// <summary>
 /// Sign the token according to the system user specification.                  
 /// </summary>
+/// <param name="systemUserToken">An applications unique system user key for a tenant.</param>
 /// <param name="privateKey">XML Formatted RSA public key.</param>
-/// <returns></returns>
+/// <returns>Signed system user string.</returns>
 public string Sign(string systemUserToken, string privateKey)
 {
     var utcNow = DateTime.UtcNow.ToString("yyyyMMddHHmm");
