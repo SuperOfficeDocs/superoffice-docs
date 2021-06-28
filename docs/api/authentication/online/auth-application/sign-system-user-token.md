@@ -41,6 +41,27 @@ System User Token.YYYYMMDDHHMM.mwhpYcNBfFqEaL0uLkCwXB99sM/Wo7DOnhjRwsmwNAd2EmBM1
 
 3. Base64 encode the signed result.
 
+### [Signing with CSharp](#tab/sign-cs)
+
+```csharp
+/// <summary>
+/// Sign the token according to the system user specification.                  
+/// </summary>
+/// <param name="privateKey">XML Formatted RSA public key.</param>
+/// <returns></returns>
+public string Sign(string systemUserToken, string privateKey)
+{
+    var utcNow = DateTime.UtcNow.ToString("yyyyMMddHHmm");
+    var signThis = systemUserToken + "." + utcNow;
+    using (var rsaCryptoProvider = new RSACryptoServiceProvider())
+    {
+        rsaCryptoProvider.FromXmlString(privateKey);
+        var signature = rsaCryptoProvider.SignData(Encoding.UTF8.GetBytes(signThis), "SHA256");
+        return signThis + "." + Convert.ToBase64String(signature);
+    }
+}
+```
+
 ### [Signing with JavaScript](#tab/sign-js)
 
 ```javascript
