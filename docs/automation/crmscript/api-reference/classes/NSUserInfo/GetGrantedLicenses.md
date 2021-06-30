@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserInfo_GetGrantedLicenses
-title: StringArray GetGrantedLicenses()
+title: String[] GetGrantedLicenses()
 intellisense: NSUserInfo.GetGrantedLicenses
 keywords: NSUserInfo, GetGrantedLicenses
 so.topic: reference
@@ -13,7 +13,7 @@ so.topic: reference
 
 ```crmscript
 NSUserInfo thing;
-StringArray grantedLicenses  = thing.GetGrantedLicenses();
+String[] grantedLicenses  = thing.GetGrantedLicenses();
 ```
 
 

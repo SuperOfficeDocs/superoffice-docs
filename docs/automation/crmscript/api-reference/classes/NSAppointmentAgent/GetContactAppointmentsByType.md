@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetContactAppointmentsByType
-title: AppointmentArray GetContactAppointmentsByType(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+title: Appointment[] GetContactAppointmentsByType(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
 intellisense: NSAppointmentAgent.GetContactAppointmentsByType
 keywords: NSAppointmentAgent, GetContactAppointmentsByType
 so.topic: reference
@@ -34,6 +34,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer appointmentType;
-AppointmentArray res = agent.GetContactAppointmentsByType(contactId, startTime, endTime, count, appointmentType);
+Appointment[] res = agent.GetContactAppointmentsByType(contactId, startTime, endTime, count, appointmentType);
 ```
 

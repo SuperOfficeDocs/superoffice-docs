@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetRecentSales
-title: SaleArray GetRecentSales(Integer amountLimit, Integer count)
+title: Sale[] GetRecentSales(Integer amountLimit, Integer count)
 intellisense: NSSaleAgent.GetRecentSales
 keywords: NSSaleAgent, GetRecentSales
 so.topic: reference
@@ -18,6 +18,6 @@ Returns the latest sales (that are sold) limited by their amount. The result is 
 NSSaleAgent agent;
 Integer amountLimit;
 Integer count;
-SaleArray res = agent.GetRecentSales(amountLimit, count);
+Sale[] res = agent.GetRecentSales(amountLimit, count);
 ```
 

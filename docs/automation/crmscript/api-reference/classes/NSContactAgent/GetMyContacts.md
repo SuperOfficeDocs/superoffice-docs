@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetMyContacts
-title: ContactArray GetMyContacts()
+title: Contact[] GetMyContacts()
 intellisense: NSContactAgent.GetMyContacts
 keywords: NSContactAgent, GetMyContacts
 so.topic: reference
@@ -13,6 +13,6 @@ Getting the contacts where the user currently logged in is set as contact owner.
 
 ```crmscript
 NSContactAgent agent;
-ContactArray res = agent.GetMyContacts();
+Contact[] res = agent.GetMyContacts();
 ```
 

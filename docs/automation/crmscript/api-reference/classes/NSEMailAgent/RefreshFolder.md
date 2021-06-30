@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_RefreshFolder
-title: Integer RefreshFolder(EMailConnectionInfo connectionInfo, StringArray folders)
+title: Integer RefreshFolder(EMailConnectionInfo connectionInfo, String[] folders)
 intellisense: NSEMailAgent.RefreshFolder
 keywords: NSEMailAgent, RefreshFolder
 so.topic: reference
@@ -17,7 +17,7 @@ Refresh the given folders - i.e., fetch data from the mail server and update the
 ```crmscript
 NSEMailAgent agent;
 EMailConnectionInfo connectionInfo;
-StringArray folders;
+String[] folders;
 Integer res = agent.RefreshFolder(connectionInfo, folders);
 ```
 

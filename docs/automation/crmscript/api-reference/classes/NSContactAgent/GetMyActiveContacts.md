@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetMyActiveContacts
-title: ContactActivityArray GetMyActiveContacts(DateTime activityStartTime, IntegerArray contactCategories, Integer actionType)
+title: ContactActivity[] GetMyActiveContacts(DateTime activityStartTime, Integer[] contactCategories, Integer actionType)
 intellisense: NSContactAgent.GetMyActiveContacts
 keywords: NSContactAgent, GetMyActiveContacts
 so.topic: reference
@@ -27,8 +27,8 @@ Returns the contacts where there has been activity since activityStartTime. If a
 ```crmscript
 NSContactAgent agent;
 DateTime activityStartTime;
-IntegerArray contactCategories;
+Integer[] contactCategories;
 Integer actionType;
-ContactActivityArray res = agent.GetMyActiveContacts(activityStartTime, contactCategories, actionType);
+ContactActivity[] res = agent.GetMyActiveContacts(activityStartTime, contactCategories, actionType);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_SavePreferenceEntities
-title: Void SavePreferenceEntities(PreferenceArray preferences, Bool removeLowerLevels)
+title: Void SavePreferenceEntities(Preference[] preferences, Bool removeLowerLevels)
 intellisense: NSPreferenceAgent.SavePreferenceEntities
 keywords: NSPreferenceAgent, SavePreferenceEntities
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredentialsGroupUsers_GetHeadings
-title: StringArray GetHeadings()
+title: String[] GetHeadings()
 intellisense: NSCredentialsGroupUsers.GetHeadings
 keywords: NSCredentialsGroupUsers, GetHeadings
 so.topic: reference
@@ -13,7 +13,7 @@ Headings in which to list the different users.
 
 ```crmscript
 NSCredentialsGroupUsers thing;
-StringArray headings  = thing.GetHeadings();
+String[] headings  = thing.GetHeadings();
 ```
 
 

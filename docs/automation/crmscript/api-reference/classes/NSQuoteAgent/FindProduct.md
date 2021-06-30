@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_FindProduct
-title: ProductArray FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
+title: Product[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
 intellisense: NSQuoteAgent.FindProduct
 keywords: NSQuoteAgent, FindProduct
 so.topic: reference
@@ -20,6 +20,6 @@ NSQuoteAgent agent;
 Integer quoteAlternativeId;
 String userInput;
 String priceListKey;
-ProductArray res = agent.FindProduct(quoteAlternativeId, userInput, priceListKey);
+Product[] res = agent.FindProduct(quoteAlternativeId, userInput, priceListKey);
 ```
 

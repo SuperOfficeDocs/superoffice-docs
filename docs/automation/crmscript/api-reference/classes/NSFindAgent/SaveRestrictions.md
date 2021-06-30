@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictions
-title: Void SaveRestrictions(String storageType, String providerName, String storageKey, ArchiveRestrictionInfoArray restrictions)
+title: Void SaveRestrictions(String storageType, String providerName, String storageKey, ArchiveRestrictionInfo[] restrictions)
 intellisense: NSFindAgent.SaveRestrictions
 keywords: NSFindAgent, SaveRestrictions
 so.topic: reference
@@ -21,7 +21,7 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionInfoArray restrictions;
+ArchiveRestrictionInfo[] restrictions;
 Void res = agent.SaveRestrictions(storageType, providerName, storageKey, restrictions);
 ```
 

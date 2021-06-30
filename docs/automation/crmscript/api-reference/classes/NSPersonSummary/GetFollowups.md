@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_GetFollowups
-title: ActivitySummaryItemArray GetFollowups()
+title: ActivitySummaryItem[] GetFollowups()
 intellisense: NSPersonSummary.GetFollowups
 keywords: NSPersonSummary, GetFollowups
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent follow-ups on person
 
-**Returns:** ActivitySummaryItemArray
+**Returns:** ActivitySummaryItem[]
 
 
 ```crmscript
 NSPersonSummary thing;
-ActivitySummaryItemArray followups  = thing.GetFollowups();
+ActivitySummaryItem[] followups  = thing.GetFollowups();
 ```
 
 

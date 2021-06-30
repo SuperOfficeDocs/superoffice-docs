@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetLocalizedTextsByLanguageId
-title: LocalizedTextArray GetLocalizedTextsByLanguageId(Integer languageId)
+title: LocalizedText[] GetLocalizedTextsByLanguageId(Integer languageId)
 intellisense: NSListAgent.GetLocalizedTextsByLanguageId
 keywords: NSListAgent, GetLocalizedTextsByLanguageId
 so.topic: reference
@@ -16,6 +16,6 @@ Gets all localized text belonging to a specific language.
 ```crmscript
 NSListAgent agent;
 Integer languageId;
-LocalizedTextArray res = agent.GetLocalizedTextsByLanguageId(languageId);
+LocalizedText[] res = agent.GetLocalizedTextsByLanguageId(languageId);
 ```
 

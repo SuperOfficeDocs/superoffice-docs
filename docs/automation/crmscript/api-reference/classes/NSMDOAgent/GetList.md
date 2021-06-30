@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetList
-title: MDOListItemArray GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
+title: MDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
 intellisense: NSMDOAgent.GetList
 keywords: NSMDOAgent, GetList
 so.topic: reference
@@ -22,6 +22,6 @@ String name;
 Bool forceFlatList;
 String additionalInfo;
 Bool onlyHistory;
-MDOListItemArray res = agent.GetList(name, forceFlatList, additionalInfo, onlyHistory);
+MDOListItem[] res = agent.GetList(name, forceFlatList, additionalInfo, onlyHistory);
 ```
 

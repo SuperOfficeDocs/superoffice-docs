@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactSummary_GetSales
-title: SaleSummaryItemArray GetSales()
+title: SaleSummaryItem[] GetSales()
 intellisense: NSContactSummary.GetSales
 keywords: NSContactSummary, GetSales
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent sales on contact
 
-**Returns:** SaleSummaryItemArray
+**Returns:** SaleSummaryItem[]
 
 
 ```crmscript
 NSContactSummary thing;
-SaleSummaryItemArray sales  = thing.GetSales();
+SaleSummaryItem[] sales  = thing.GetSales();
 ```
 
 

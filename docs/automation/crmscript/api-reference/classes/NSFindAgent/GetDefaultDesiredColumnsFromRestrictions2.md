@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetDefaultDesiredColumnsFromRestrictions2
-title: ArchiveColumnInfoArray GetDefaultDesiredColumnsFromRestrictions2(String providerName, String restrictions)
+title: ArchiveColumnInfo[] GetDefaultDesiredColumnsFromRestrictions2(String providerName, String restrictions)
 intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions2
 keywords: NSFindAgent, GetDefaultDesiredColumnsFromRestrictions2
 so.topic: reference
@@ -18,6 +18,6 @@ Calculate the default desired columns, i.e., the result columns for a given sear
 NSFindAgent agent;
 String providerName;
 String restrictions;
-ArchiveColumnInfoArray res = agent.GetDefaultDesiredColumnsFromRestrictions2(providerName, restrictions);
+ArchiveColumnInfo[] res = agent.GetDefaultDesiredColumnsFromRestrictions2(providerName, restrictions);
 ```
 

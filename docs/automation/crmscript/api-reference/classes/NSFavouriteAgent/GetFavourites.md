@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFavouriteAgent_GetFavourites
-title: FavouriteArray GetFavourites(String tableName, Integer associateId)
+title: Favourite[] GetFavourites(String tableName, Integer associateId)
 intellisense: NSFavouriteAgent.GetFavourites
 keywords: NSFavouriteAgent, GetFavourites
 so.topic: reference

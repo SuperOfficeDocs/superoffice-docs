@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetDefaultDesiredColumns
-title: ArchiveColumnInfoArray GetDefaultDesiredColumns(String storageType, String providerName, String storageKey)
+title: ArchiveColumnInfo[] GetDefaultDesiredColumns(String storageType, String providerName, String storageKey)
 intellisense: NSFindAgent.GetDefaultDesiredColumns
 keywords: NSFindAgent, GetDefaultDesiredColumns
 so.topic: reference
@@ -20,6 +20,6 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveColumnInfoArray res = agent.GetDefaultDesiredColumns(storageType, providerName, storageKey);
+ArchiveColumnInfo[] res = agent.GetDefaultDesiredColumns(storageType, providerName, storageKey);
 ```
 

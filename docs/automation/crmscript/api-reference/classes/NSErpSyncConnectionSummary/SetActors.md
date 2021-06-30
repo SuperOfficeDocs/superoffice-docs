@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncConnectionSummary_SetActors
-title: SetActors(ErpSyncActorSummaryArray actors)
+title: SetActors(ErpSyncActorSummary[] actors)
 intellisense: NSErpSyncConnectionSummary.SetActors
 keywords: NSErpSyncConnectionSummary, GetActors
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Summaries of the configuration of the actors configured for this connection
 
 **Parameter:** 
- - **actors** ErpSyncActorSummaryArray
+ - **actors** ErpSyncActorSummary[]
 
 ```crmscript
 NSErpSyncConnectionSummary thing;
-ErpSyncActorSummaryArray actors;
+ErpSyncActorSummary[] actors;
 thing.SetActors(actors);
 ```
 

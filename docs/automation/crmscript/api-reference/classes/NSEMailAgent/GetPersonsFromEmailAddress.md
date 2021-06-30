@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetPersonsFromEmailAddress
-title: PersonArray GetPersonsFromEmailAddress(String emailAddress)
+title: Person[] GetPersonsFromEmailAddress(String emailAddress)
 intellisense: NSEMailAgent.GetPersonsFromEmailAddress
 keywords: NSEMailAgent, GetPersonsFromEmailAddress
 so.topic: reference

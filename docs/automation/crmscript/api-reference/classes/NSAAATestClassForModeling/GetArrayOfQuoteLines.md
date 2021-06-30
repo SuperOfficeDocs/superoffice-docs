@@ -12,6 +12,6 @@ The QuoteLines this alternative consists of.
 
 
 
-* **Returns:** QuoteLineArray
+* **Returns:** QuoteLine[]
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetAllUserGroups
-title: UserGroupArray GetAllUserGroups(Bool includeDeleted)
+title: UserGroup[] GetAllUserGroups(Bool includeDeleted)
 intellisense: NSUserAgent.GetAllUserGroups
 keywords: NSUserAgent, GetAllUserGroups
 so.topic: reference
@@ -16,6 +16,6 @@ Get all user groups
 ```crmscript
 NSUserAgent agent;
 Bool includeDeleted;
-UserGroupArray res = agent.GetAllUserGroups(includeDeleted);
+UserGroup[] res = agent.GetAllUserGroups(includeDeleted);
 ```
 

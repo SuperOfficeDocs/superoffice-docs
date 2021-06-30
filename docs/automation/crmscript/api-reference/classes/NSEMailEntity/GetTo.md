@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetTo
-title: EMailAddressArray GetTo()
+title: EMailAddress[] GetTo()
 intellisense: NSEMailEntity.GetTo
 keywords: NSEMailEntity, GetTo
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 To recipients of e-mail
 
-**Returns:** EMailAddressArray
+**Returns:** EMailAddress[]
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailAddressArray to  = thing.GetTo();
+EMailAddress[] to  = thing.GetTo();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTileData_GetColumns
-title: ArchiveColumnInfoArray GetColumns()
+title: ArchiveColumnInfo[] GetColumns()
 intellisense: NSTileData.GetColumns
 keywords: NSTileData, GetColumns
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Column information
 
-**Returns:** ArchiveColumnInfoArray
+**Returns:** ArchiveColumnInfo[]
 
 
 ```crmscript
 NSTileData thing;
-ArchiveColumnInfoArray columns  = thing.GetColumns();
+ArchiveColumnInfo[] columns  = thing.GetColumns();
 ```
 
 

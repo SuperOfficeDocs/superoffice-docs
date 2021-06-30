@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFreeTextAgent_GetSuggestedStopWords
-title: MDOListItemArray GetSuggestedStopWords(Integer countWords)
+title: MDOListItem[] GetSuggestedStopWords(Integer countWords)
 intellisense: NSFreeTextAgent.GetSuggestedStopWords
 keywords: NSFreeTextAgent, GetSuggestedStopWords
 so.topic: reference
@@ -16,6 +16,6 @@ Returns the top used words in the freetext index table, sorted as most used firs
 ```crmscript
 NSFreeTextAgent agent;
 Integer countWords;
-MDOListItemArray res = agent.GetSuggestedStopWords(countWords);
+MDOListItem[] res = agent.GetSuggestedStopWords(countWords);
 ```
 

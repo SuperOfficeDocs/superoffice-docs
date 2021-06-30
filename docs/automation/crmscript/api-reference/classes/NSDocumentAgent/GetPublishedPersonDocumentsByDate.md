@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPublishedPersonDocumentsByDate
-title: DocumentArray GetPublishedPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
+title: Document[] GetPublishedPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetPublishedPersonDocumentsByDate
 keywords: NSDocumentAgent, GetPublishedPersonDocumentsByDate
 so.topic: reference
@@ -24,6 +24,6 @@ Bool includeProjectDocuments;
 DateTime startTime;
 DateTime endTime;
 Integer count;
-DocumentArray res = agent.GetPublishedPersonDocumentsByDate(personId, includeProjectDocuments, startTime, endTime, count);
+Document[] res = agent.GetPublishedPersonDocumentsByDate(personId, includeProjectDocuments, startTime, endTime, count);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetGroupAssociateIds
-title: IntegerArray GetGroupAssociateIds(IntegerArray groupIds)
+title: Integer[] GetGroupAssociateIds(Integer[] groupIds)
 intellisense: NSArchiveAgent.GetGroupAssociateIds
 keywords: NSArchiveAgent, GetGroupAssociateIds
 so.topic: reference
@@ -15,7 +15,7 @@ Returns the  associate ids that belongs to the given groups
 
 ```crmscript
 NSArchiveAgent agent;
-IntegerArray groupIds;
-IntegerArray res = agent.GetGroupAssociateIds(groupIds);
+Integer[] groupIds;
+Integer[] res = agent.GetGroupAssociateIds(groupIds);
 ```
 

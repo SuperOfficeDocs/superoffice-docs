@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CheckinDocument
-title: ReturnInfo CheckinDocument(Integer documentId, StringArray allowedReturnTypes, String versionDescription, StringArray versionExtraFields)
+title: ReturnInfo CheckinDocument(Integer documentId, String[] allowedReturnTypes, String versionDescription, String[] versionExtraFields)
 intellisense: NSDocumentAgent.CheckinDocument
 keywords: NSDocumentAgent, CheckinDocument
 so.topic: reference
@@ -19,9 +19,9 @@ Check in a currently checked-out document
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-StringArray allowedReturnTypes;
+String[] allowedReturnTypes;
 String versionDescription;
-StringArray versionExtraFields;
+String[] versionExtraFields;
 ReturnInfo res = agent.CheckinDocument(documentId, allowedReturnTypes, versionDescription, versionExtraFields);
 ```
 

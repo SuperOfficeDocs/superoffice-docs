@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAllSaleType
-title: SaleTypeArray GetAllSaleType()
+title: SaleType[] GetAllSaleType()
 intellisense: NSListAgent.GetAllSaleType
 keywords: NSListAgent, GetAllSaleType
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all sale types as simple list items
 
 ```crmscript
 NSListAgent agent;
-SaleTypeArray res = agent.GetAllSaleType();
+SaleType[] res = agent.GetAllSaleType();
 ```
 

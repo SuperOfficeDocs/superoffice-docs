@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEventEntity_GetVisibleForPersonInterests
-title: MDOListItemArray GetVisibleForPersonInterests()
+title: MDOListItem[] GetVisibleForPersonInterests()
 intellisense: NSProjectEventEntity.GetVisibleForPersonInterests
 keywords: NSProjectEventEntity, GetVisibleForPersonInterests
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Array of person interests (MDO table "persint") that this event is visible for.
 
-**Returns:** MDOListItemArray
+**Returns:** MDOListItem[]
 
 
 ```crmscript
 NSProjectEventEntity thing;
-MDOListItemArray visibleForPersonInterests  = thing.GetVisibleForPersonInterests();
+MDOListItem[] visibleForPersonInterests  = thing.GetVisibleForPersonInterests();
 ```
 
 

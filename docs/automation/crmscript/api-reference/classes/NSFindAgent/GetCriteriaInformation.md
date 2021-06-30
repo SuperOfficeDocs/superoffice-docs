@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetCriteriaInformation
-title: CriteriaInformation GetCriteriaInformation(String storageType, String providerName, String storageKey, StringArray staticColumns)
+title: CriteriaInformation GetCriteriaInformation(String storageType, String providerName, String storageKey, String[] staticColumns)
 intellisense: NSFindAgent.GetCriteriaInformation
 keywords: NSFindAgent, GetCriteriaInformation
 so.topic: reference
@@ -21,7 +21,7 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-StringArray staticColumns;
+String[] staticColumns;
 CriteriaInformation res = agent.GetCriteriaInformation(storageType, providerName, storageKey, staticColumns);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetPaymentTypes
-title: PaymentTypeArray GetPaymentTypes()
+title: PaymentType[] GetPaymentTypes()
 intellisense: NSListAgent.GetPaymentTypes
 keywords: NSListAgent, GetPaymentTypes
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all PaymentTypes in SuperOffice db.
 
 ```crmscript
 NSListAgent agent;
-PaymentTypeArray res = agent.GetPaymentTypes();
+PaymentType[] res = agent.GetPaymentTypes();
 ```
 

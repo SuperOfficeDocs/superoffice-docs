@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetSalesByDate
-title: SaleArray GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
+title: Sale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 intellisense: NSSaleAgent.GetSalesByDate
 keywords: NSSaleAgent, GetSalesByDate
 so.topic: reference
@@ -28,6 +28,6 @@ DateTime fromDate;
 DateTime toDate;
 Integer amountLimit;
 Integer status;
-SaleArray res = agent.GetSalesByDate(fromDate, toDate, amountLimit, status);
+Sale[] res = agent.GetSalesByDate(fromDate, toDate, amountLimit, status);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetDayInformationListByDatesAndAssociate
-title: DayInformationListItemArray GetDayInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+title: DayInformationListItem[] GetDayInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
 intellisense: NSAppointmentAgent.GetDayInformationListByDatesAndAssociate
 keywords: NSAppointmentAgent, GetDayInformationListByDatesAndAssociate
 so.topic: reference
@@ -20,6 +20,6 @@ NSAppointmentAgent agent;
 DateTime startDate;
 DateTime endDate;
 Integer associateId;
-DayInformationListItemArray res = agent.GetDayInformationListByDatesAndAssociate(startDate, endDate, associateId);
+DayInformationListItem[] res = agent.GetDayInformationListByDatesAndAssociate(startDate, endDate, associateId);
 ```
 

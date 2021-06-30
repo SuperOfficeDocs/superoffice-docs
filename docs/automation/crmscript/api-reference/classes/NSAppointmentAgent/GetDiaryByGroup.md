@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetDiaryByGroup
-title: AppointmentArray GetDiaryByGroup(Integer groupId, Integer groupType, DateTime startTime, DateTime endTime, Integer count)
+title: Appointment[] GetDiaryByGroup(Integer groupId, Integer groupType, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSAppointmentAgent.GetDiaryByGroup
 keywords: NSAppointmentAgent, GetDiaryByGroup
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_GetApplicationDevices
-title: ForeignDeviceArray GetApplicationDevices(String applicationName)
+title: ForeignDevice[] GetApplicationDevices(String applicationName)
 intellisense: NSForeignSystemAgent.GetApplicationDevices
 keywords: NSForeignSystemAgent, GetApplicationDevices
 so.topic: reference
@@ -16,6 +16,6 @@ Gets all devices that belong to a foreign application.
 ```crmscript
 NSForeignSystemAgent agent;
 String applicationName;
-ForeignDeviceArray res = agent.GetApplicationDevices(applicationName);
+ForeignDevice[] res = agent.GetApplicationDevices(applicationName);
 ```
 

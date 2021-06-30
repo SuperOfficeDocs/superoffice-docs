@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetListDefinitions
-title: ListEntityArray GetListDefinitions(Bool includeDeleted)
+title: ListEntity[] GetListDefinitions(Bool includeDeleted)
 intellisense: NSListAgent.GetListDefinitions
 keywords: NSListAgent, GetListDefinitions
 so.topic: reference
@@ -16,6 +16,6 @@ Get a list of the lists - built-in and user-defined.
 ```crmscript
 NSListAgent agent;
 Bool includeDeleted;
-ListEntityArray res = agent.GetListDefinitions(includeDeleted);
+ListEntity[] res = agent.GetListDefinitions(includeDeleted);
 ```
 

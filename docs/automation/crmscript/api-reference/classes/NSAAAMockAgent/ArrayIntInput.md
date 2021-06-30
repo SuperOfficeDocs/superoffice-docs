@@ -8,11 +8,11 @@ so.topic: reference
 ---
 
 
-Test int Array input
+Test integer array input
 
 
 
-* **intArrayArgument:** Some int Array argument
+* **intArrayArgument:** Some integer array argument
 * **Returns:** A void return
 
 

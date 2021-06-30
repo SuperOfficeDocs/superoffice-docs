@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAssociateDiaries
-title: Bool CanCreateAppointmentInAssociateDiaries(IntegerArray associateIds)
+title: Bool CanCreateAppointmentInAssociateDiaries(Integer[] associateIds)
 intellisense: NSSentryAgent.CanCreateAppointmentInAssociateDiaries
 keywords: NSSentryAgent, CanCreateAppointmentInAssociateDiaries
 so.topic: reference
@@ -15,7 +15,7 @@ CanCreateAppointmentInAssociateDiaries will check if the current associate can c
 
 ```crmscript
 NSSentryAgent agent;
-IntegerArray associateIds;
+Integer[] associateIds;
 Bool res = agent.CanCreateAppointmentInAssociateDiaries(associateIds);
 ```
 

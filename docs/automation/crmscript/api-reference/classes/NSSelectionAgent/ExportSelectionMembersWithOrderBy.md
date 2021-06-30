@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_ExportSelectionMembersWithOrderBy
-title: ByteArray ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
+title: Byte[] ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
 intellisense: NSSelectionAgent.ExportSelectionMembersWithOrderBy
 keywords: NSSelectionAgent, ExportSelectionMembersWithOrderBy
 so.topic: reference
@@ -22,6 +22,6 @@ Integer selectionId;
 String templateName;
 Bool useContacts;
 String orderBy;
-ByteArray res = agent.ExportSelectionMembersWithOrderBy(selectionId, templateName, useContacts, orderBy);
+Byte[] res = agent.ExportSelectionMembersWithOrderBy(selectionId, templateName, useContacts, orderBy);
 ```
 

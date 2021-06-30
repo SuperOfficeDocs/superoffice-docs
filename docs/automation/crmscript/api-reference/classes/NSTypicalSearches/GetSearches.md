@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTypicalSearches_GetSearches
-title: TypicalSearchArray GetSearches()
+title: TypicalSearch[] GetSearches()
 intellisense: NSTypicalSearches.GetSearches
 keywords: NSTypicalSearches, GetSearches
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The TypicalSearch structures (including criteria) to import
 
-**Returns:** TypicalSearchArray
+**Returns:** TypicalSearch[]
 
 
 ```crmscript
 NSTypicalSearches thing;
-TypicalSearchArray searches  = thing.GetSearches();
+TypicalSearch[] searches  = thing.GetSearches();
 ```
 
 

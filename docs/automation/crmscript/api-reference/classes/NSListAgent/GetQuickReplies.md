@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetQuickReplies
-title: QuickReplyArray GetQuickReplies()
+title: QuickReply[] GetQuickReplies()
 intellisense: NSListAgent.GetQuickReplies
 keywords: NSListAgent, GetQuickReplies
 so.topic: reference
@@ -13,6 +13,6 @@ Method to return all quick replies for a given associate
 
 ```crmscript
 NSListAgent agent;
-QuickReplyArray res = agent.GetQuickReplies();
+QuickReply[] res = agent.GetQuickReplies();
 ```
 

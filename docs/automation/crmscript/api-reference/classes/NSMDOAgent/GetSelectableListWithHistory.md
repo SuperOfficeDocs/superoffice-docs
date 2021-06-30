@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetSelectableListWithHistory
-title: SelectableMDOListItemArray GetSelectableListWithHistory(String name, Bool forceFlatList, String additionalInfo, IntegerArray historyItems, Bool onlyHistory)
+title: SelectableMDOListItem[] GetSelectableListWithHistory(String name, Bool forceFlatList, String additionalInfo, Integer[] historyItems, Bool onlyHistory)
 intellisense: NSMDOAgent.GetSelectableListWithHistory
 keywords: NSMDOAgent, GetSelectableListWithHistory
 so.topic: reference
@@ -22,8 +22,8 @@ NSMDOAgent agent;
 String name;
 Bool forceFlatList;
 String additionalInfo;
-IntegerArray historyItems;
+Integer[] historyItems;
 Bool onlyHistory;
-SelectableMDOListItemArray res = agent.GetSelectableListWithHistory(name, forceFlatList, additionalInfo, historyItems, onlyHistory);
+SelectableMDOListItem[] res = agent.GetSelectableListWithHistory(name, forceFlatList, additionalInfo, historyItems, onlyHistory);
 ```
 

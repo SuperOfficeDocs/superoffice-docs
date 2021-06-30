@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetListWithHistory
-title: MDOListItemArray GetListWithHistory(String name, Bool forceFlatList, String additionalInfo, IntegerArray historyItems, Bool onlyHistory)
+title: MDOListItem[] GetListWithHistory(String name, Bool forceFlatList, String additionalInfo, Integer[] historyItems, Bool onlyHistory)
 intellisense: NSMDOAgent.GetListWithHistory
 keywords: NSMDOAgent, GetListWithHistory
 so.topic: reference
@@ -22,8 +22,8 @@ NSMDOAgent agent;
 String name;
 Bool forceFlatList;
 String additionalInfo;
-IntegerArray historyItems;
+Integer[] historyItems;
 Bool onlyHistory;
-MDOListItemArray res = agent.GetListWithHistory(name, forceFlatList, additionalInfo, historyItems, onlyHistory);
+MDOListItem[] res = agent.GetListWithHistory(name, forceFlatList, additionalInfo, historyItems, onlyHistory);
 ```
 

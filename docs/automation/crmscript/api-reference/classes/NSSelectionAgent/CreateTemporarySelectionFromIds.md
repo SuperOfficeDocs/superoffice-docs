@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_CreateTemporarySelectionFromIds
-title: SelectionEntity CreateTemporarySelectionFromIds(IntegerArray ids, Integer targetTableNumber)
+title: SelectionEntity CreateTemporarySelectionFromIds(Integer[] ids, Integer targetTableNumber)
 intellisense: NSSelectionAgent.CreateTemporarySelectionFromIds
 keywords: NSSelectionAgent, CreateTemporarySelectionFromIds
 so.topic: reference
@@ -16,7 +16,7 @@ Creates a temporary selection with members from a collection of entity id's.
 
 ```crmscript
 NSSelectionAgent agent;
-IntegerArray ids;
+Integer[] ids;
 Integer targetTableNumber;
 SelectionEntity res = agent.CreateTemporarySelectionFromIds(ids, targetTableNumber);
 ```

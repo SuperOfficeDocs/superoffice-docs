@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetRankOnProjectActivity
-title: Void SetRankOnProjectActivity(Integer projectTypeStatusLinkId, IntegerArray itemsIds)
+title: Void SetRankOnProjectActivity(Integer projectTypeStatusLinkId, Integer[] itemsIds)
 intellisense: NSListAgent.SetRankOnProjectActivity
 keywords: NSListAgent, SetRankOnProjectActivity
 so.topic: reference

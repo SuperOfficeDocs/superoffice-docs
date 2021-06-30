@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSRedLetterDetails_GetOwnCountryDayTexts
-title: StringArray GetOwnCountryDayTexts()
+title: String[] GetOwnCountryDayTexts()
 intellisense: NSRedLetterDetails.GetOwnCountryDayTexts
 keywords: NSRedLetterDetails, GetOwnCountryDayTexts
 so.topic: reference
@@ -13,7 +13,7 @@ Array - possibly empty - of the texts related to one day in the redletter system
 
 ```crmscript
 NSRedLetterDetails thing;
-StringArray ownCountryDayTexts  = thing.GetOwnCountryDayTexts();
+String[] ownCountryDayTexts  = thing.GetOwnCountryDayTexts();
 ```
 
 

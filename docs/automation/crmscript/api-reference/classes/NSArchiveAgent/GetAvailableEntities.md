@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetAvailableEntities
-title: MDOListItemArray GetAvailableEntities(String providerName, String context)
+title: MDOListItem[] GetAvailableEntities(String providerName, String context)
 intellisense: NSArchiveAgent.GetAvailableEntities
 keywords: NSArchiveAgent, GetAvailableEntities
 so.topic: reference
@@ -18,6 +18,6 @@ Return list of all entities supported by an archive provider. See also GetArchiv
 NSArchiveAgent agent;
 String providerName;
 String context;
-MDOListItemArray res = agent.GetAvailableEntities(providerName, context);
+MDOListItem[] res = agent.GetAvailableEntities(providerName, context);
 ```
 

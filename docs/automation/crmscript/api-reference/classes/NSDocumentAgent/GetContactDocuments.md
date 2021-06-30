@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetContactDocuments
-title: DocumentArray GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
+title: Document[] GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetContactDocuments
 keywords: NSDocumentAgent, GetContactDocuments
 so.topic: reference
@@ -22,6 +22,6 @@ Integer contactId;
 DateTime startTime;
 DateTime endTime;
 Integer count;
-DocumentArray res = agent.GetContactDocuments(contactId, startTime, endTime, count);
+Document[] res = agent.GetContactDocuments(contactId, startTime, endTime, count);
 ```
 

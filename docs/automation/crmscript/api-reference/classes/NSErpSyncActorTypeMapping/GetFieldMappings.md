@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_GetFieldMappings
-title: ErpSyncFieldMappingArray GetFieldMappings()
+title: ErpSyncFieldMapping[] GetFieldMappings()
 intellisense: NSErpSyncActorTypeMapping.GetFieldMappings
 keywords: NSErpSyncActorTypeMapping, GetFieldMappings
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync
 
-**Returns:** ErpSyncFieldMappingArray
+**Returns:** ErpSyncFieldMapping[]
 
 
 ```crmscript
 NSErpSyncActorTypeMapping thing;
-ErpSyncFieldMappingArray fieldMappings  = thing.GetFieldMappings();
+ErpSyncFieldMapping[] fieldMappings  = thing.GetFieldMappings();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
-title: UserDefinedFieldInfoArray GetUserDefinedFieldFromProgIds(StringArray progIds, Integer ownerType)
+title: UserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] progIds, Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
 keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldFromProgIds
 so.topic: reference
@@ -25,8 +25,8 @@ Return an given array user defined field identified by the owner and the prog-id
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;
-StringArray progIds;
+String[] progIds;
 Integer ownerType;
-UserDefinedFieldInfoArray res = agent.GetUserDefinedFieldFromProgIds(progIds, ownerType);
+UserDefinedFieldInfo[] res = agent.GetUserDefinedFieldFromProgIds(progIds, ownerType);
 ```
 

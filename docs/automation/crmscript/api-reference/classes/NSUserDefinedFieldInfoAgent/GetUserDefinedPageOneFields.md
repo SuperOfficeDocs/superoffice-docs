@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
-title: UserDefinedFieldInfoArray GetUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
+title: UserDefinedFieldInfo[] GetUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
 keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedPageOneFields
 so.topic: reference
@@ -27,6 +27,6 @@ Get a list of page one fields for given Udef type and current user group
 NSUserDefinedFieldInfoAgent agent;
 Integer ownerType;
 Integer userGroupId;
-UserDefinedFieldInfoArray res = agent.GetUserDefinedPageOneFields(ownerType, userGroupId);
+UserDefinedFieldInfo[] res = agent.GetUserDefinedPageOneFields(ownerType, userGroupId);
 ```
 

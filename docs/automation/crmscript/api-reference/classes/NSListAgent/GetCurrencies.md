@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetCurrencies
-title: CurrencyArray GetCurrencies()
+title: Currency[] GetCurrencies()
 intellisense: NSListAgent.GetCurrencies
 keywords: NSListAgent, GetCurrencies
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all currencies
 
 ```crmscript
 NSListAgent agent;
-CurrencyArray res = agent.GetCurrencies();
+Currency[] res = agent.GetCurrencies();
 ```
 

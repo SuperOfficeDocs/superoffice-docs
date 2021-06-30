@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_ResolveUserFromInfo
-title: ResolvedUser ResolveUserFromInfo(Integer contactId, String personName, StringArray phoneNumbers, StringArray emails, Integer userType, Credential credential)
+title: ResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, Credential credential)
 intellisense: NSUserAgent.ResolveUserFromInfo
 keywords: NSUserAgent, ResolveUserFromInfo
 so.topic: reference
@@ -28,8 +28,8 @@ Get a user from the provided information. If the user or associated person does 
 NSUserAgent agent;
 Integer contactId;
 String personName;
-StringArray phoneNumbers;
-StringArray emails;
+String[] phoneNumbers;
+String[] emails;
 Integer userType;
 Credential credential;
 ResolvedUser res = agent.ResolveUserFromInfo(contactId, personName, phoneNumbers, emails, userType, credential);

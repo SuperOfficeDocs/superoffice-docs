@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetPersons
-title: SetPersons(PersonArray persons)
+title: SetPersons(Person[] persons)
 intellisense: NSContactEntity.SetPersons
 keywords: NSContactEntity, GetPersons
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The persons belonging to the contact.
 
 **Parameter:** 
- - **persons** PersonArray
+ - **persons** Person[]
 
 ```crmscript
 NSContactEntity thing;
-PersonArray persons;
+Person[] persons;
 thing.SetPersons(persons);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetLocalizedTexts
-title: LocalizedTextArray GetLocalizedTexts()
+title: LocalizedText[] GetLocalizedTexts()
 intellisense: NSListAgent.GetLocalizedTexts
 keywords: NSListAgent, GetLocalizedTexts
 so.topic: reference
@@ -13,6 +13,6 @@ Gets all localized texts in the CRM database.
 
 ```crmscript
 NSListAgent agent;
-LocalizedTextArray res = agent.GetLocalizedTexts();
+LocalizedText[] res = agent.GetLocalizedTexts();
 ```
 

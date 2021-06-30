@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_SetCredentials
-title: SetCredentials(CredentialArray credentials)
+title: SetCredentials(Credential[] credentials)
 intellisense: NSUser.SetCredentials
 keywords: NSUser, GetCredentials
 so.topic: reference
@@ -13,7 +13,7 @@ List of credentials registered for this user. i.e. valid authentication methods.
 
 ```crmscript
 NSUser thing;
-CredentialArray credentials;
+Credential[] credentials;
 thing.SetCredentials(credentials);
 ```
 

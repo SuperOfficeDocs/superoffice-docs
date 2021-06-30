@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetPaymentTerms
-title: PaymentTermArray GetPaymentTerms()
+title: PaymentTerm[] GetPaymentTerms()
 intellisense: NSListAgent.GetPaymentTerms
 keywords: NSListAgent, GetPaymentTerms
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all PaymentTerms in SuperOffice db.
 
 ```crmscript
 NSListAgent agent;
-PaymentTermArray res = agent.GetPaymentTerms();
+PaymentTerm[] res = agent.GetPaymentTerms();
 ```
 

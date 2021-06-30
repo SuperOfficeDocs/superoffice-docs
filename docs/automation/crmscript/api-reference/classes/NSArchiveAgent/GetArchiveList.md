@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveList
-title: ArchiveListItemArray GetArchiveList(String guiName, String providerName, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restriction, StringArray entities, Integer page, Integer pageSize)
+title: ArchiveListItem[] GetArchiveList(String guiName, String providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize)
 intellisense: NSArchiveAgent.GetArchiveList
 keywords: NSArchiveAgent, GetArchiveList
 so.topic: reference
@@ -23,11 +23,11 @@ Get a page of data for an archive. The columns returned will be those set as cho
 NSArchiveAgent agent;
 String guiName;
 String providerName;
-ArchiveOrderByInfoArray sortOrder;
-ArchiveRestrictionInfoArray restriction;
-StringArray entities;
+ArchiveOrderByInfo[] sortOrder;
+ArchiveRestrictionInfo[] restriction;
+String[] entities;
 Integer page;
 Integer pageSize;
-ArchiveListItemArray res = agent.GetArchiveList(guiName, providerName, sortOrder, restriction, entities, page, pageSize);
+ArchiveListItem[] res = agent.GetArchiveList(guiName, providerName, sortOrder, restriction, entities, page, pageSize);
 ```
 

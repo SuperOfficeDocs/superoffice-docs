@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_SetPhoneContact
-title: SetPhoneContact(StringArray phoneContact)
+title: SetPhoneContact(String[] phoneContact)
 intellisense: NSParticipantSyncData.SetPhoneContact
 keywords: NSParticipantSyncData, GetPhoneContact
 so.topic: reference
@@ -13,7 +13,7 @@ Returns a collection of office phone numbers that belong to the contact person.
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray phoneContact;
+String[] phoneContact;
 thing.SetPhoneContact(phoneContact);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetMyProjects
-title: ProjectArray GetMyProjects(Bool includeMemberProjects)
+title: Project[] GetMyProjects(Bool includeMemberProjects)
 intellisense: NSProjectAgent.GetMyProjects
 keywords: NSProjectAgent, GetMyProjects
 so.topic: reference
@@ -16,6 +16,6 @@ Returning the projects belonging to an associate. If memberProjects is false onl
 ```crmscript
 NSProjectAgent agent;
 Bool includeMemberProjects;
-ProjectArray res = agent.GetMyProjects(includeMemberProjects);
+Project[] res = agent.GetMyProjects(includeMemberProjects);
 ```
 

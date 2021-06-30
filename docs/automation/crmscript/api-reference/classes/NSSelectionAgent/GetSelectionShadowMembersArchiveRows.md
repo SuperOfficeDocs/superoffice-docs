@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_GetSelectionShadowMembersArchiveRows
-title: ArchiveListItemArray GetSelectionShadowMembersArchiveRows(Integer selectionId, String select)
+title: ArchiveListItem[] GetSelectionShadowMembersArchiveRows(Integer selectionId, String select)
 intellisense: NSSelectionAgent.GetSelectionShadowMembersArchiveRows
 keywords: NSSelectionAgent, GetSelectionShadowMembersArchiveRows
 so.topic: reference
@@ -18,6 +18,6 @@ Get the list of members in this selection's shadow (i.e. the list of contacts + 
 NSSelectionAgent agent;
 Integer selectionId;
 String select;
-ArchiveListItemArray res = agent.GetSelectionShadowMembersArchiveRows(selectionId, select);
+ArchiveListItem[] res = agent.GetSelectionShadowMembersArchiveRows(selectionId, select);
 ```
 

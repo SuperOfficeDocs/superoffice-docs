@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportAgent_SaveImport
-title: IntegerArray SaveImport(ImportLineArray importLines, StringArray columnDefinition, Bool createSelection, String culture, String context)
+title: Integer[] SaveImport(ImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
 intellisense: NSImportAgent.SaveImport
 keywords: NSImportAgent, SaveImport
 so.topic: reference
@@ -19,11 +19,11 @@ Do the actual import
 
 ```crmscript
 NSImportAgent agent;
-ImportLineArray importLines;
-StringArray columnDefinition;
+ImportLine[] importLines;
+String[] columnDefinition;
 Bool createSelection;
 String culture;
 String context;
-IntegerArray res = agent.SaveImport(importLines, columnDefinition, createSelection, culture, context);
+Integer[] res = agent.SaveImport(importLines, columnDefinition, createSelection, culture, context);
 ```
 

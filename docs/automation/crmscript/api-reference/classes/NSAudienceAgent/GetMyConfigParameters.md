@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetMyConfigParameters
-title: AudienceConfigParameterArray GetMyConfigParameters()
+title: AudienceConfigParameter[] GetMyConfigParameters()
 intellisense: NSAudienceAgent.GetMyConfigParameters
 keywords: NSAudienceAgent, GetMyConfigParameters
 so.topic: reference
@@ -13,6 +13,6 @@ Gets the Audience configuration parameters belonging to the currently logged on 
 
 ```crmscript
 NSAudienceAgent agent;
-AudienceConfigParameterArray res = agent.GetMyConfigParameters();
+AudienceConfigParameter[] res = agent.GetMyConfigParameters();
 ```
 

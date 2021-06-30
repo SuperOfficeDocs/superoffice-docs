@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFieldInfoListText_SetChoices
-title: SetChoices(StringArray choices)
+title: SetChoices(String[] choices)
 intellisense: NSFieldInfoListText.SetChoices
 keywords: NSFieldInfoListText, GetChoices
 so.topic: reference
@@ -13,7 +13,7 @@ List of items to choose from.
 
 ```crmscript
 NSFieldInfoListText thing;
-StringArray choices;
+String[] choices;
 thing.SetChoices(choices);
 ```
 

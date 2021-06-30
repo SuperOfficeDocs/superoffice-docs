@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_GetVoip
-title: StringArray GetVoip()
+title: String[] GetVoip()
 intellisense: NSParticipantSyncData.GetVoip
 keywords: NSParticipantSyncData, GetVoip
 so.topic: reference
@@ -13,7 +13,7 @@ so.topic: reference
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray voip  = thing.GetVoip();
+String[] voip  = thing.GetVoip();
 ```
 
 

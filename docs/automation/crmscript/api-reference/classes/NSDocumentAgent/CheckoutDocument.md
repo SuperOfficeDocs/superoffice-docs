@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CheckoutDocument
-title: ReturnInfo CheckoutDocument(Integer documentId, StringArray allowedReturnTypes)
+title: ReturnInfo CheckoutDocument(Integer documentId, String[] allowedReturnTypes)
 intellisense: NSDocumentAgent.CheckoutDocument
 keywords: NSDocumentAgent, CheckoutDocument
 so.topic: reference
@@ -17,7 +17,7 @@ Check out a document for editing by the current user.
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-StringArray allowedReturnTypes;
+String[] allowedReturnTypes;
 ReturnInfo res = agent.CheckoutDocument(documentId, allowedReturnTypes);
 ```
 

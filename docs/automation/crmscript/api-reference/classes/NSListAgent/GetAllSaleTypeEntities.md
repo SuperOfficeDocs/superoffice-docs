@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAllSaleTypeEntities
-title: SaleTypeEntityArray GetAllSaleTypeEntities(Bool includeDeleted)
+title: SaleTypeEntity[] GetAllSaleTypeEntities(Bool includeDeleted)
 intellisense: NSListAgent.GetAllSaleTypeEntities
 keywords: NSListAgent, GetAllSaleTypeEntities
 so.topic: reference
@@ -16,6 +16,6 @@ Returns all sale types as entities with stakeholders, guide and quote properties
 ```crmscript
 NSListAgent agent;
 Bool includeDeleted;
-SaleTypeEntityArray res = agent.GetAllSaleTypeEntities(includeDeleted);
+SaleTypeEntity[] res = agent.GetAllSaleTypeEntities(includeDeleted);
 ```
 

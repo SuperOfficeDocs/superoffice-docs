@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSWebhookAgent_GetAllWebhooks
-title: WebhookArray GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
+title: Webhook[] GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
 intellisense: NSWebhookAgent.GetAllWebhooks
 keywords: NSWebhookAgent, GetAllWebhooks
 so.topic: reference
@@ -24,6 +24,6 @@ NSWebhookAgent agent;
 String nameFilter;
 String eventFilter;
 Integer statusFilter;
-WebhookArray res = agent.GetAllWebhooks(nameFilter, eventFilter, statusFilter);
+Webhook[] res = agent.GetAllWebhooks(nameFilter, eventFilter, statusFilter);
 ```
 

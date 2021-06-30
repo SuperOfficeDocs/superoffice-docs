@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetDuplicateRules
-title: DuplicateRuleArray GetDuplicateRules()
+title: DuplicateRule[] GetDuplicateRules()
 intellisense: NSProjectAgent.GetDuplicateRules
 keywords: NSProjectAgent, GetDuplicateRules
 so.topic: reference
@@ -13,6 +13,6 @@ Retrieve all available duplicate rules for project
 
 ```crmscript
 NSProjectAgent agent;
-DuplicateRuleArray res = agent.GetDuplicateRules();
+DuplicateRule[] res = agent.GetDuplicateRules();
 ```
 

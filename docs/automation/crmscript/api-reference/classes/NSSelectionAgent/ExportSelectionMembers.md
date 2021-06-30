@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_ExportSelectionMembers
-title: ByteArray ExportSelectionMembers(Integer selectionId, String templateName, Bool useContacts)
+title: Byte[] ExportSelectionMembers(Integer selectionId, String templateName, Bool useContacts)
 intellisense: NSSelectionAgent.ExportSelectionMembers
 keywords: NSSelectionAgent, ExportSelectionMembers
 so.topic: reference
@@ -20,6 +20,6 @@ NSSelectionAgent agent;
 Integer selectionId;
 String templateName;
 Bool useContacts;
-ByteArray res = agent.ExportSelectionMembers(selectionId, templateName, useContacts);
+Byte[] res = agent.ExportSelectionMembers(selectionId, templateName, useContacts);
 ```
 

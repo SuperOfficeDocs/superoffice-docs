@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_MoveEmailsToTrash
-title: Void MoveEmailsToTrash(IntegerArray ids)
+title: Void MoveEmailsToTrash(Integer[] ids)
 intellisense: NSEMailAgent.MoveEmailsToTrash
 keywords: NSEMailAgent, MoveEmailsToTrash
 so.topic: reference

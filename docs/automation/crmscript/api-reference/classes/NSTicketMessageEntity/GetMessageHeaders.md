@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketMessageEntity_GetMessageHeaders
-title: TicketMessageHeaderArray GetMessageHeaders()
+title: TicketMessageHeader[] GetMessageHeaders()
 intellisense: NSTicketMessageEntity.GetMessageHeaders
 keywords: NSTicketMessageEntity, GetMessageHeaders
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Contains the message headers, like To, Cc, Bcc information, or custom headers
 
-**Returns:** TicketMessageHeaderArray
+**Returns:** TicketMessageHeader[]
 
 
 ```crmscript
 NSTicketMessageEntity thing;
-TicketMessageHeaderArray messageHeaders  = thing.GetMessageHeaders();
+TicketMessageHeader[] messageHeaders  = thing.GetMessageHeaders();
 ```
 
 

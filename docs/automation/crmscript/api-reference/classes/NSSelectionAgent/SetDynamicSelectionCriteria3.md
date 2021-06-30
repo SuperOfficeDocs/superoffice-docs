@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria3
-title: ArchiveRestrictionInfoArray SetDynamicSelectionCriteria3(Integer selectionId, ArchiveRestrictionInfoArray criteria, String filter)
+title: ArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer selectionId, ArchiveRestrictionInfo[] criteria, String filter)
 intellisense: NSSelectionAgent.SetDynamicSelectionCriteria3
 keywords: NSSelectionAgent, SetDynamicSelectionCriteria3
 so.topic: reference
@@ -18,8 +18,8 @@ Update the criteria for this dynamic selection. Use criteria as either restricti
 ```crmscript
 NSSelectionAgent agent;
 Integer selectionId;
-ArchiveRestrictionInfoArray criteria;
+ArchiveRestrictionInfo[] criteria;
 String filter;
-ArchiveRestrictionInfoArray res = agent.SetDynamicSelectionCriteria3(selectionId, criteria, filter);
+ArchiveRestrictionInfo[] res = agent.SetDynamicSelectionCriteria3(selectionId, criteria, filter);
 ```
 

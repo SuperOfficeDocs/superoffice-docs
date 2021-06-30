@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetVersionList
-title: VersionInfoArray GetVersionList(Integer documentId)
+title: VersionInfo[] GetVersionList(Integer documentId)
 intellisense: NSDocumentAgent.GetVersionList
 keywords: NSDocumentAgent, GetVersionList
 so.topic: reference
@@ -16,6 +16,6 @@ Get a list of existing, committed  versions for a given document
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-VersionInfoArray res = agent.GetVersionList(documentId);
+VersionInfo[] res = agent.GetVersionList(documentId);
 ```
 

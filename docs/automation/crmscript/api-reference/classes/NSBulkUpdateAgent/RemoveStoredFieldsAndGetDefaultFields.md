@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
-title: FieldValueInfoArray RemoveStoredFieldsAndGetDefaultFields(String tableName, String context)
+title: FieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(String tableName, String context)
 intellisense: NSBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
 keywords: NSBulkUpdateAgent, RemoveStoredFieldsAndGetDefaultFields
 so.topic: reference
@@ -18,6 +18,6 @@ Remove the stored settings of the bulk update for this table from this context, 
 NSBulkUpdateAgent agent;
 String tableName;
 String context;
-FieldValueInfoArray res = agent.RemoveStoredFieldsAndGetDefaultFields(tableName, context);
+FieldValueInfo[] res = agent.RemoveStoredFieldsAndGetDefaultFields(tableName, context);
 ```
 

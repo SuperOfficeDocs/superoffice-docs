@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_SetLicenseOwners
-title: SetLicenseOwners(LicenseOwnerArray licenseOwners)
+title: SetLicenseOwners(LicenseOwner[] licenseOwners)
 intellisense: NSUser.SetLicenseOwners
 keywords: NSUser, GetLicenseOwners
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user
 
 **Parameter:** 
- - **licenseOwners** LicenseOwnerArray
+ - **licenseOwners** LicenseOwner[]
 
 ```crmscript
 NSUser thing;
-LicenseOwnerArray licenseOwners;
+LicenseOwner[] licenseOwners;
 thing.SetLicenseOwners(licenseOwners);
 ```
 

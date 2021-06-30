@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetVisibleForUserGroup
-title: Void SetVisibleForUserGroup(Integer udListDefinitionId, Integer listItemId, IntegerArray userGroupId, Bool enable)
+title: Void SetVisibleForUserGroup(Integer udListDefinitionId, Integer listItemId, Integer[] userGroupId, Bool enable)
 intellisense: NSListAgent.SetVisibleForUserGroup
 keywords: NSListAgent, SetVisibleForUserGroup
 so.topic: reference

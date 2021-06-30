@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDatabaseTableAgent_Upsert
-title: MassOperationResult Upsert(String tableName, StringArray columns, StringArray keys, StringArrayArray data, Integer nomatchAction, Bool returnRowStatus)
+title: MassOperationResult Upsert(String tableName, String[] columns, String[] keys, StringArray[] data, Integer nomatchAction, Bool returnRowStatus)
 intellisense: NSDatabaseTableAgent.Upsert
 keywords: NSDatabaseTableAgent, Upsert
 so.topic: reference
@@ -24,9 +24,9 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special supp
 ```crmscript
 NSDatabaseTableAgent agent;
 String tableName;
-StringArray columns;
-StringArray keys;
-StringArrayArray data;
+String[] columns;
+String[] keys;
+StringArray[] data;
 Integer nomatchAction;
 Bool returnRowStatus;
 MassOperationResult res = agent.Upsert(tableName, columns, keys, data, nomatchAction, returnRowStatus);

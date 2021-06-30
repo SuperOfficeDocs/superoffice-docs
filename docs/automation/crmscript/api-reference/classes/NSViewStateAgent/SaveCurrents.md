@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_SaveCurrents
-title: HistoryArray SaveCurrents(HistoryArray currents)
+title: History[] SaveCurrents(History[] currents)
 intellisense: NSViewStateAgent.SaveCurrents
 keywords: NSViewStateAgent, SaveCurrents
 so.topic: reference
@@ -15,7 +15,7 @@ Saves the history elements as the current value for their respective lists. If m
 
 ```crmscript
 NSViewStateAgent agent;
-HistoryArray currents;
-HistoryArray res = agent.SaveCurrents(currents);
+History[] currents;
+History[] res = agent.SaveCurrents(currents);
 ```
 

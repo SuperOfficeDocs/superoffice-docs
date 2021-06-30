@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDatabaseTableAgent_Insert
-title: MassOperationResult Insert(String tableName, StringArray columns, StringArrayArray data)
+title: MassOperationResult Insert(String tableName, String[] columns, StringArray[] data)
 intellisense: NSDatabaseTableAgent.Insert
 keywords: NSDatabaseTableAgent, Insert
 so.topic: reference
@@ -18,8 +18,8 @@ Mass-insert rows, with or without primary keys specified. Works on physical tabl
 ```crmscript
 NSDatabaseTableAgent agent;
 String tableName;
-StringArray columns;
-StringArrayArray data;
+String[] columns;
+StringArray[] data;
 MassOperationResult res = agent.Insert(tableName, columns, data);
 ```
 

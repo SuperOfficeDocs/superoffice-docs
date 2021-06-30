@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetWebPanelList
-title: WebPanelEntityArray GetWebPanelList()
+title: WebPanelEntity[] GetWebPanelList()
 intellisense: NSListAgent.GetWebPanelList
 keywords: NSListAgent, GetWebPanelList
 so.topic: reference
@@ -13,6 +13,6 @@ Return a list of all web panels.
 
 ```crmscript
 NSListAgent agent;
-WebPanelEntityArray res = agent.GetWebPanelList();
+WebPanelEntity[] res = agent.GetWebPanelList();
 ```
 

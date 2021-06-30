@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_SetUrls
-title: SetUrls(EntityElementArray urls)
+title: SetUrls(EntityElement[] urls)
 intellisense: NSProjectEntity.SetUrls
 keywords: NSProjectEntity, GetUrls
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The project's internet adresses
 
 **Parameter:** 
- - **urls** EntityElementArray
+ - **urls** EntityElement[]
 
 ```crmscript
 NSProjectEntity thing;
-EntityElementArray urls;
+EntityElement[] urls;
 thing.SetUrls(urls);
 ```
 

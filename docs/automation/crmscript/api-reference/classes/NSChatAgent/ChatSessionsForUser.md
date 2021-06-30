@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_ChatSessionsForUser
-title: ChatSessionEntityArray ChatSessionsForUser()
+title: ChatSessionEntity[] ChatSessionsForUser()
 intellisense: NSChatAgent.ChatSessionsForUser
 keywords: NSChatAgent, ChatSessionsForUser
 so.topic: reference
@@ -13,6 +13,6 @@ Get all chat sessions which this user is a member of. Members means that you hav
 
 ```crmscript
 NSChatAgent agent;
-ChatSessionEntityArray res = agent.ChatSessionsForUser();
+ChatSessionEntity[] res = agent.ChatSessionsForUser();
 ```
 

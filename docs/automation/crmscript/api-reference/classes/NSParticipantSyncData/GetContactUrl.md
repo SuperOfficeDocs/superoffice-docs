@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_GetContactUrl
-title: StringArray GetContactUrl()
+title: String[] GetContactUrl()
 intellisense: NSParticipantSyncData.GetContactUrl
 keywords: NSParticipantSyncData, GetContactUrl
 so.topic: reference
@@ -13,7 +13,7 @@ The contact's internet adresses
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray contactUrl  = thing.GetContactUrl();
+String[] contactUrl  = thing.GetContactUrl();
 ```
 
 

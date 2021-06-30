@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetTicketCategoriesForUserGroup
-title: Void SetTicketCategoriesForUserGroup(Integer userGroupId, IntegerArray categoryIds)
+title: Void SetTicketCategoriesForUserGroup(Integer userGroupId, Integer[] categoryIds)
 intellisense: NSListAgent.SetTicketCategoriesForUserGroup
 keywords: NSListAgent, SetTicketCategoriesForUserGroup
 so.topic: reference
@@ -17,7 +17,7 @@ Set ticket categories for one user group
 ```crmscript
 NSListAgent agent;
 Integer userGroupId;
-IntegerArray categoryIds;
+Integer[] categoryIds;
 Void res = agent.SetTicketCategoriesForUserGroup(userGroupId, categoryIds);
 ```
 

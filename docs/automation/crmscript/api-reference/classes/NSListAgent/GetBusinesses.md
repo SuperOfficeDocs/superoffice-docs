@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetBusinesses
-title: BusinessArray GetBusinesses()
+title: Business[] GetBusinesses()
 intellisense: NSListAgent.GetBusinesses
 keywords: NSListAgent, GetBusinesses
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all available businesses that a contact could have.
 
 ```crmscript
 NSListAgent agent;
-BusinessArray res = agent.GetBusinesses();
+Business[] res = agent.GetBusinesses();
 ```
 

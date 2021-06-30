@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetDocumentTemplateLanguages
-title: StringArray GetDocumentTemplateLanguages(Integer documentTemplateId)
+title: String[] GetDocumentTemplateLanguages(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateLanguages
 keywords: NSListAgent, GetDocumentTemplateLanguages
 so.topic: reference
@@ -16,6 +16,6 @@ Get the supported language variations for a document template
 ```crmscript
 NSListAgent agent;
 Integer documentTemplateId;
-StringArray res = agent.GetDocumentTemplateLanguages(documentTemplateId);
+String[] res = agent.GetDocumentTemplateLanguages(documentTemplateId);
 ```
 

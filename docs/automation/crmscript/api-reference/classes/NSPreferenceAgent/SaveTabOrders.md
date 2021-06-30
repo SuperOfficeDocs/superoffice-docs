@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_SaveTabOrders
-title: Void SaveTabOrders(TabOrderArray tabOrders)
+title: Void SaveTabOrders(TabOrder[] tabOrders)
 intellisense: NSPreferenceAgent.SaveTabOrders
 keywords: NSPreferenceAgent, SaveTabOrders
 so.topic: reference

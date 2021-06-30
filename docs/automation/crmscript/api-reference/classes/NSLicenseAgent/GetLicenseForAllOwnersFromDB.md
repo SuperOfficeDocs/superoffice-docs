@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_GetLicenseForAllOwnersFromDB
-title: ExtendedLicenseInfoArray GetLicenseForAllOwnersFromDB()
+title: ExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
 intellisense: NSLicenseAgent.GetLicenseForAllOwnersFromDB
 keywords: NSLicenseAgent, GetLicenseForAllOwnersFromDB
 so.topic: reference

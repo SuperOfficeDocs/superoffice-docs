@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteVersionWorkflowState_SetActionButtons
-title: SetActionButtons(QuoteVersionButtonStateArray actionButtons)
+title: SetActionButtons(QuoteVersionButtonState[] actionButtons)
 intellisense: NSQuoteVersionWorkflowState.SetActionButtons
 keywords: NSQuoteVersionWorkflowState, GetActionButtons
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Array of visible buttons with defined actions in the quote verson dialog.
 
 **Parameter:** 
- - **actionButtons** QuoteVersionButtonStateArray
+ - **actionButtons** QuoteVersionButtonState[]
 
 ```crmscript
 NSQuoteVersionWorkflowState thing;
-QuoteVersionButtonStateArray actionButtons;
+QuoteVersionButtonState[] actionButtons;
 thing.SetActionButtons(actionButtons);
 ```
 

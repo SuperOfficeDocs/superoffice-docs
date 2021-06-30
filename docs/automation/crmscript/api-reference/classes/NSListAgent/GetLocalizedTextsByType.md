@@ -48,6 +48,6 @@ Returns an array of LocalizedText objects.
 
 ```crmscript
 NSListAgent agent;
-LocalizedTextTypeArray textTypes;
-LocalizedTextArray res = agent.GetLocalizedTextsByType(textTypes);
+LocalizedTextType[] textTypes;
+LocalizedText[] res = agent.GetLocalizedTextsByType(textTypes);
 ```

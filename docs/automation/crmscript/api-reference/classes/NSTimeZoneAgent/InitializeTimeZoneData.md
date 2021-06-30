@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTimeZoneAgent_InitializeTimeZoneData
-title: TimeZoneDataArray InitializeTimeZoneData()
+title: TimeZoneData[] InitializeTimeZoneData()
 intellisense: NSTimeZoneAgent.InitializeTimeZoneData
 keywords: NSTimeZoneAgent, InitializeTimeZoneData
 so.topic: reference

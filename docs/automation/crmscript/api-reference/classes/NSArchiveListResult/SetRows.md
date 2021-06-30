@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveListResult_SetRows
-title: SetRows(ArchiveListItemArray rows)
+title: SetRows(ArchiveListItem[] rows)
 intellisense: NSArchiveListResult.SetRows
 keywords: NSArchiveListResult, GetRows
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate
 
 **Parameter:** 
- - **rows** ArchiveListItemArray
+ - **rows** ArchiveListItem[]
 
 ```crmscript
 NSArchiveListResult thing;
-ArchiveListItemArray rows;
+ArchiveListItem[] rows;
 thing.SetRows(rows);
 ```
 

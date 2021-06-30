@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSActivityFilter_SetAssociateList
-title: SetAssociateList(SelectableMDOListItemArray associateList)
+title: SetAssociateList(SelectableMDOListItem[] associateList)
 intellisense: NSActivityFilter.SetAssociateList
 keywords: NSActivityFilter, GetAssociateList
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The list of associates to filter on
 
 **Parameter:** 
- - **associateList** SelectableMDOListItemArray
+ - **associateList** SelectableMDOListItem[]
 
 ```crmscript
 NSActivityFilter thing;
-SelectableMDOListItemArray associateList;
+SelectableMDOListItem[] associateList;
 thing.SetAssociateList(associateList);
 ```
 

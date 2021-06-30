@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
-title: UserDefinedFieldInfoArray GetPublishedUserDefinedFieldList(Integer ownerType)
+title: UserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
 keywords: NSUserDefinedFieldInfoAgent, GetPublishedUserDefinedFieldList
 so.topic: reference
@@ -25,6 +25,6 @@ Return information about all the user defined fields on a particular owner type 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;
 Integer ownerType;
-UserDefinedFieldInfoArray res = agent.GetPublishedUserDefinedFieldList(ownerType);
+UserDefinedFieldInfo[] res = agent.GetPublishedUserDefinedFieldList(ownerType);
 ```
 

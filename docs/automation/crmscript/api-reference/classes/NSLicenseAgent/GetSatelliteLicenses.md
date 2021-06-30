@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses
-title: LicenseOwnerArray GetSatelliteLicenses(Integer satelliteId)
+title: LicenseOwner[] GetSatelliteLicenses(Integer satelliteId)
 intellisense: NSLicenseAgent.GetSatelliteLicenses
 keywords: NSLicenseAgent, GetSatelliteLicenses
 so.topic: reference
@@ -16,6 +16,6 @@ Obtain information about satellite module licenses
 ```crmscript
 NSLicenseAgent agent;
 Integer satelliteId;
-LicenseOwnerArray res = agent.GetSatelliteLicenses(satelliteId);
+LicenseOwner[] res = agent.GetSatelliteLicenses(satelliteId);
 ```
 

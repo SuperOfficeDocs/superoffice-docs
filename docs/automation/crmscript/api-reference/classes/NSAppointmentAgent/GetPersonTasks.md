@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetPersonTasks
-title: AppointmentArray GetPersonTasks(Integer personId, Integer count)
+title: Appointment[] GetPersonTasks(Integer personId, Integer count)
 intellisense: NSAppointmentAgent.GetPersonTasks
 keywords: NSAppointmentAgent, GetPersonTasks
 so.topic: reference
@@ -18,6 +18,6 @@ Method that returns a specified number of appointments within a time range. It o
 NSAppointmentAgent agent;
 Integer personId;
 Integer count;
-AppointmentArray res = agent.GetPersonTasks(personId, count);
+Appointment[] res = agent.GetPersonTasks(personId, count);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_FindWithColumns
-title: FindResults FindWithColumns(String storageType, String providerName, String storageKey, StringArray desiredColumns, Integer pageSize, Integer pageNumber, ArchiveOrderByInfoArray orderBy)
+title: FindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, ArchiveOrderByInfo[] orderBy)
 intellisense: NSFindAgent.FindWithColumns
 keywords: NSFindAgent, FindWithColumns
 so.topic: reference
@@ -24,10 +24,10 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-StringArray desiredColumns;
+String[] desiredColumns;
 Integer pageSize;
 Integer pageNumber;
-ArchiveOrderByInfoArray orderBy;
+ArchiveOrderByInfo[] orderBy;
 FindResults res = agent.FindWithColumns(storageType, providerName, storageKey, desiredColumns, pageSize, pageNumber, orderBy);
 ```
 

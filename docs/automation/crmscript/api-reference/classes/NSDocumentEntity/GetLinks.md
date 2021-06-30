@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_GetLinks
-title: LinkArray GetLinks()
+title: Link[] GetLinks()
 intellisense: NSDocumentEntity.GetLinks
 keywords: NSDocumentEntity, GetLinks
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of all elements linked to the document.
 
-**Returns:** LinkArray
+**Returns:** Link[]
 
 
 ```crmscript
 NSDocumentEntity thing;
-LinkArray links  = thing.GetLinks();
+Link[] links  = thing.GetLinks();
 ```
 
 

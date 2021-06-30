@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetMessages
-title: SetMessages(TicketMessageArray messages)
+title: SetMessages(TicketMessage[] messages)
 intellisense: NSTicketEntity.SetMessages
 keywords: NSTicketEntity, GetMessages
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to this ticket. For message body see the TicketMessageEntity or the TicketMessage archive.
 
 **Parameter:** 
- - **messages** TicketMessageArray
+ - **messages** TicketMessage[]
 
 ```crmscript
 NSTicketEntity thing;
-TicketMessageArray messages;
+TicketMessage[] messages;
 thing.SetMessages(messages);
 ```
 

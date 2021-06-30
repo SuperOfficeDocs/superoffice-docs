@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_UpdateSaleStakeholders
-title: SaleStakeholderArray UpdateSaleStakeholders(SaleStakeholderArray stakeholders)
+title: SaleStakeholder[] UpdateSaleStakeholders(SaleStakeholder[] stakeholders)
 intellisense: NSSaleAgent.UpdateSaleStakeholders
 keywords: NSSaleAgent, UpdateSaleStakeholders
 so.topic: reference

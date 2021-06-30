@@ -7,6 +7,6 @@ keywords: getAttachments()
 so.topic: reference
 ---
 
-This function returns an Integer Array of all the attachement ids on the message.
+This function returns an Integer array of all the attachment IDs on the message.
 
 

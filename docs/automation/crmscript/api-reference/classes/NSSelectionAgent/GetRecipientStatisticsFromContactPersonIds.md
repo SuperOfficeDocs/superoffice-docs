@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromContactPersonIds
-title: RecipientStatistics GetRecipientStatisticsFromContactPersonIds(ContactPersonIdArray contactPersonIds)
+title: RecipientStatistics GetRecipientStatisticsFromContactPersonIds(ContactPersonId[] contactPersonIds)
 intellisense: NSSelectionAgent.GetRecipientStatisticsFromContactPersonIds
 keywords: NSSelectionAgent, GetRecipientStatisticsFromContactPersonIds
 so.topic: reference
@@ -15,7 +15,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 
 ```crmscript
 NSSelectionAgent agent;
-ContactPersonIdArray contactPersonIds;
+ContactPersonId[] contactPersonIds;
 RecipientStatistics res = agent.GetRecipientStatisticsFromContactPersonIds(contactPersonIds);
 ```
 

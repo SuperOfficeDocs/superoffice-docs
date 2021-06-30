@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAssociateAgent_LogOffWindowsUsers
-title: Void LogOffWindowsUsers(IntegerArray associateIds)
+title: Void LogOffWindowsUsers(Integer[] associateIds)
 intellisense: NSAssociateAgent.LogOffWindowsUsers
 keywords: NSAssociateAgent, LogOffWindowsUsers
 so.topic: reference
@@ -15,7 +15,7 @@ Method that logs off associates that are logged on to the win client
 
 ```crmscript
 NSAssociateAgent agent;
-IntegerArray associateIds;
+Integer[] associateIds;
 Void res = agent.LogOffWindowsUsers(associateIds);
 ```
 

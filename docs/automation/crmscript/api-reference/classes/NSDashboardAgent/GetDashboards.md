@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardAgent_GetDashboards
-title: DashboardArray GetDashboards(Integer associateId)
+title: Dashboard[] GetDashboards(Integer associateId)
 intellisense: NSDashboardAgent.GetDashboards
 keywords: NSDashboardAgent, GetDashboards
 so.topic: reference
@@ -16,6 +16,6 @@ Gets all dashboards for an associate
 ```crmscript
 NSDashboardAgent agent;
 Integer associateId;
-DashboardArray res = agent.GetDashboards(associateId);
+Dashboard[] res = agent.GetDashboards(associateId);
 ```
 

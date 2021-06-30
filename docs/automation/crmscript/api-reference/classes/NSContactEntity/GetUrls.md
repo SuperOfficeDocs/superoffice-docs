@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_GetUrls
-title: EntityElementArray GetUrls()
+title: EntityElement[] GetUrls()
 intellisense: NSContactEntity.GetUrls
 keywords: NSContactEntity, GetUrls
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The contact's internet adresses
 
-**Returns:** EntityElementArray
+**Returns:** EntityElement[]
 
 
 ```crmscript
 NSContactEntity thing;
-EntityElementArray urls  = thing.GetUrls();
+EntityElement[] urls  = thing.GetUrls();
 ```
 
 

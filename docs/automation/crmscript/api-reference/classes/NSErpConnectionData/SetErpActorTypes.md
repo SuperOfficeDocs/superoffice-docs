@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpConnectionData_SetErpActorTypes
-title: SetErpActorTypes(ErpActorTypeArray erpActorTypes)
+title: SetErpActorTypes(ErpActorType[] erpActorTypes)
 intellisense: NSErpConnectionData.SetErpActorTypes
 keywords: NSErpConnectionData, GetErpActorTypes
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Contains all mapped ErpActorType for this CrmActorType
 
 **Parameter:** 
- - **erpActorTypes** ErpActorTypeArray
+ - **erpActorTypes** ErpActorType[]
      - Enum: 0 = Unknown 
      - Enum: 1 = Customer 
      - Enum: 2 = Supplier 
@@ -19,11 +19,11 @@ Contains all mapped ErpActorType for this CrmActorType
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
-* **Returns:** ErpActorTypeArray
+* **Returns:** ErpActorType[]
 
 ```crmscript
 NSErpConnectionData thing;
-ErpActorTypeArray erpActorTypes;
+ErpActorType[] erpActorTypes;
 thing.SetErpActorTypes(erpActorTypes);
 ```
 

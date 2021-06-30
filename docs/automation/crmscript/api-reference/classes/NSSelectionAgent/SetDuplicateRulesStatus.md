@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_SetDuplicateRulesStatus
-title: Void SetDuplicateRulesStatus(DuplicateRuleArray rules)
+title: Void SetDuplicateRulesStatus(DuplicateRule[] rules)
 intellisense: NSSelectionAgent.SetDuplicateRulesStatus
 keywords: NSSelectionAgent, SetDuplicateRulesStatus
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetListWithRestriction
-title: MDOListItemArray GetListWithRestriction(String name, String additionalInfo, String searchValue)
+title: MDOListItem[] GetListWithRestriction(String name, String additionalInfo, String searchValue)
 intellisense: NSMDOAgent.GetListWithRestriction
 keywords: NSMDOAgent, GetListWithRestriction
 so.topic: reference
@@ -20,6 +20,6 @@ NSMDOAgent agent;
 String name;
 String additionalInfo;
 String searchValue;
-MDOListItemArray res = agent.GetListWithRestriction(name, additionalInfo, searchValue);
+MDOListItem[] res = agent.GetListWithRestriction(name, additionalInfo, searchValue);
 ```
 

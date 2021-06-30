@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_ExecuteDocumentCommand
-title: ReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, StringArray allowedReturnTypes, String command, StringArray additionalData)
+title: ReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, String[] allowedReturnTypes, String command, String[] additionalData)
 intellisense: NSDocumentAgent.ExecuteDocumentCommand
 keywords: NSDocumentAgent, ExecuteDocumentCommand
 so.topic: reference
@@ -21,9 +21,9 @@ Execute a custom command on a particular document, optionally a particular versi
 NSDocumentAgent agent;
 Integer documentId;
 String versionId;
-StringArray allowedReturnTypes;
+String[] allowedReturnTypes;
 String command;
-StringArray additionalData;
+String[] additionalData;
 ReturnInfo res = agent.ExecuteDocumentCommand(documentId, versionId, allowedReturnTypes, command, additionalData);
 ```
 

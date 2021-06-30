@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncBatchTask
-title: Void ForceResyncBatchTask(Integer erpConnectionId, IntegerArray internalKeyIds)
+title: Void ForceResyncBatchTask(Integer erpConnectionId, Integer[] internalKeyIds)
 intellisense: NSErpSyncAgent.ForceResyncBatchTask
 keywords: NSErpSyncAgent, ForceResyncBatchTask
 so.topic: reference

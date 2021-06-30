@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_SetPhoneDirect
-title: SetPhoneDirect(StringArray phoneDirect)
+title: SetPhoneDirect(String[] phoneDirect)
 intellisense: NSParticipantSyncData.SetPhoneDirect
 keywords: NSParticipantSyncData, GetPhoneDirect
 so.topic: reference
@@ -13,7 +13,7 @@ so.topic: reference
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray phoneDirect;
+String[] phoneDirect;
 thing.SetPhoneDirect(phoneDirect);
 ```
 

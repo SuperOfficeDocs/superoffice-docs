@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedLicenseInfo_GetExtendedModuleLicenses
-title: ExtendedModuleLicenseArray GetExtendedModuleLicenses()
+title: ExtendedModuleLicense[] GetExtendedModuleLicenses()
 intellisense: NSExtendedLicenseInfo.GetExtendedModuleLicenses
 keywords: NSExtendedLicenseInfo, GetExtendedModuleLicenses
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** ExtendedModuleLicenseArray
+**Returns:** ExtendedModuleLicense[]
 
 
 ```crmscript
 NSExtendedLicenseInfo thing;
-ExtendedModuleLicenseArray extendedModuleLicenses  = thing.GetExtendedModuleLicenses();
+ExtendedModuleLicense[] extendedModuleLicenses  = thing.GetExtendedModuleLicenses();
 ```
 
 

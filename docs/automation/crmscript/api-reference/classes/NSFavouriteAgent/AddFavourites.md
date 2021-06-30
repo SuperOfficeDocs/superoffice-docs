@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFavouriteAgent_AddFavourites
-title: Void AddFavourites(String tableName, IntegerArray recordIds, Integer associateId, String extraInfo)
+title: Void AddFavourites(String tableName, Integer[] recordIds, Integer associateId, String extraInfo)
 intellisense: NSFavouriteAgent.AddFavourites
 keywords: NSFavouriteAgent, AddFavourites
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetUntrustedCredentials
-title: UntrustedCredentialsArray GetUntrustedCredentials(String type)
+title: UntrustedCredentials[] GetUntrustedCredentials(String type)
 intellisense: NSUserAgent.GetUntrustedCredentials
 keywords: NSUserAgent, GetUntrustedCredentials
 so.topic: reference
@@ -16,6 +16,6 @@ Get a set of credentials of a specified type for authenticated user.
 ```crmscript
 NSUserAgent agent;
 String type;
-UntrustedCredentialsArray res = agent.GetUntrustedCredentials(type);
+UntrustedCredentials[] res = agent.GetUntrustedCredentials(type);
 ```
 

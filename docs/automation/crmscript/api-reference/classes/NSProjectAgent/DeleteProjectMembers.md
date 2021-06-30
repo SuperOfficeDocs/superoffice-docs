@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_DeleteProjectMembers
-title: Void DeleteProjectMembers(Integer projectEntityId, IntegerArray memberIds)
+title: Void DeleteProjectMembers(Integer projectEntityId, Integer[] memberIds)
 intellisense: NSProjectAgent.DeleteProjectMembers
 keywords: NSProjectAgent, DeleteProjectMembers
 so.topic: reference

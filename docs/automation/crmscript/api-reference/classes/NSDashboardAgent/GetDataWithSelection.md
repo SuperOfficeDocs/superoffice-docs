@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardAgent_GetDataWithSelection
-title: TileDataArray GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
+title: TileData[] GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
 intellisense: NSDashboardAgent.GetDataWithSelection
 keywords: NSDashboardAgent, GetDataWithSelection
 so.topic: reference
@@ -20,6 +20,6 @@ NSDashboardAgent agent;
 Integer dashboardTileId;
 Integer selectionId;
 String restrictions;
-TileDataArray res = agent.GetDataWithSelection(dashboardTileId, selectionId, restrictions);
+TileData[] res = agent.GetDataWithSelection(dashboardTileId, selectionId, restrictions);
 ```
 

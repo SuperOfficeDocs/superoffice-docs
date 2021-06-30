@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_ToggleAndSetActivities
-title: StringArray ToggleAndSetActivities(StringArray activityIdentifiers)
+title: String[] ToggleAndSetActivities(String[] activityIdentifiers)
 intellisense: NSAppointmentAgent.ToggleAndSetActivities
 keywords: NSAppointmentAgent, ToggleAndSetActivities
 so.topic: reference
@@ -15,7 +15,7 @@ Toggles the first activity and sets the rest of the activities to the result of 
 
 ```crmscript
 NSAppointmentAgent agent;
-StringArray activityIdentifiers;
-StringArray res = agent.ToggleAndSetActivities(activityIdentifiers);
+String[] activityIdentifiers;
+String[] res = agent.ToggleAndSetActivities(activityIdentifiers);
 ```
 

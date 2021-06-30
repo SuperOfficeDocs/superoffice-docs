@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpConnectionListMappingContainer_GetErpListItemMappings
-title: ErpConnectionListMappingArray GetErpListItemMappings()
+title: ErpConnectionListMapping[] GetErpListItemMappings()
 intellisense: NSErpConnectionListMappingContainer.GetErpListItemMappings
 keywords: NSErpConnectionListMappingContainer, GetErpListItemMappings
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Array of ErpConnectionListMapping
 
-**Returns:** ErpConnectionListMappingArray
+**Returns:** ErpConnectionListMapping[]
 
 
 ```crmscript
 NSErpConnectionListMappingContainer thing;
-ErpConnectionListMappingArray erpListItemMappings  = thing.GetErpListItemMappings();
+ErpConnectionListMapping[] erpListItemMappings  = thing.GetErpListItemMappings();
 ```
 
 

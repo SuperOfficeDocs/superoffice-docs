@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDiagnosticsAgent_GetCacheNames
-title: StringArray GetCacheNames()
+title: String[] GetCacheNames()
 intellisense: NSDiagnosticsAgent.GetCacheNames
 keywords: NSDiagnosticsAgent, GetCacheNames
 so.topic: reference
@@ -13,6 +13,6 @@ Get the name of the caches that can be flushed
 
 ```crmscript
 NSDiagnosticsAgent agent;
-StringArray res = agent.GetCacheNames();
+String[] res = agent.GetCacheNames();
 ```
 

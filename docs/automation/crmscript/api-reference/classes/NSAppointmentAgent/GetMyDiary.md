@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetMyDiary
-title: AppointmentArray GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
+title: Appointment[] GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSAppointmentAgent.GetMyDiary
 keywords: NSAppointmentAgent, GetMyDiary
 so.topic: reference
@@ -20,6 +20,6 @@ NSAppointmentAgent agent;
 DateTime startTime;
 DateTime endTime;
 Integer count;
-AppointmentArray res = agent.GetMyDiary(startTime, endTime, count);
+Appointment[] res = agent.GetMyDiary(startTime, endTime, count);
 ```
 

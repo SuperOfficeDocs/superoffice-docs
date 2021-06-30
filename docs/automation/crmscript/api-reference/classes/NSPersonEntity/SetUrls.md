@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetUrls
-title: SetUrls(EntityElementArray urls)
+title: SetUrls(EntityElement[] urls)
 intellisense: NSPersonEntity.SetUrls
 keywords: NSPersonEntity, GetUrls
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The urls related to this person.
 
 **Parameter:** 
- - **urls** EntityElementArray
+ - **urls** EntityElement[]
 
 ```crmscript
 NSPersonEntity thing;
-EntityElementArray urls;
+EntityElement[] urls;
 thing.SetUrls(urls);
 ```
 

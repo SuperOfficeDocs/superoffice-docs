@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_SavePreferenceDescriptionLines
-title: PreferenceDescriptionLineArray SavePreferenceDescriptionLines(PreferenceDescriptionLineArray preferenceDescriptionLines)
+title: PreferenceDescriptionLine[] SavePreferenceDescriptionLines(PreferenceDescriptionLine[] preferenceDescriptionLines)
 intellisense: NSPreferenceAgent.SavePreferenceDescriptionLines
 keywords: NSPreferenceAgent, SavePreferenceDescriptionLines
 so.topic: reference
@@ -15,7 +15,7 @@ Saves the PreferenceDescriptionLine array in the SuperOffice database
 
 ```crmscript
 NSPreferenceAgent agent;
-PreferenceDescriptionLineArray preferenceDescriptionLines;
-PreferenceDescriptionLineArray res = agent.SavePreferenceDescriptionLines(preferenceDescriptionLines);
+PreferenceDescriptionLine[] preferenceDescriptionLines;
+PreferenceDescriptionLine[] res = agent.SavePreferenceDescriptionLines(preferenceDescriptionLines);
 ```
 

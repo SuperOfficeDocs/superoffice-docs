@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_SaveQuoteLines
-title: QuoteLineArray SaveQuoteLines(QuoteLineArray quoteLines)
+title: QuoteLine[] SaveQuoteLines(QuoteLine[] quoteLines)
 intellisense: NSQuoteAgent.SaveQuoteLines
 keywords: NSQuoteAgent, SaveQuoteLines
 so.topic: reference
@@ -15,7 +15,7 @@ Saves the QuoteLines in the SuperOffice database
 
 ```crmscript
 NSQuoteAgent agent;
-QuoteLineArray quoteLines;
-QuoteLineArray res = agent.SaveQuoteLines(quoteLines);
+QuoteLine[] quoteLines;
+QuoteLine[] res = agent.SaveQuoteLines(quoteLines);
 ```
 

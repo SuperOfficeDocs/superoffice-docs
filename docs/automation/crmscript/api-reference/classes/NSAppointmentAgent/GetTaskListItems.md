@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetTaskListItems
-title: TaskListItemArray GetTaskListItems(Bool includeDeleted)
+title: TaskListItem[] GetTaskListItems(Bool includeDeleted)
 intellisense: NSAppointmentAgent.GetTaskListItems
 keywords: NSAppointmentAgent, GetTaskListItems
 so.topic: reference
@@ -16,6 +16,6 @@ Gets all takslist items
 ```crmscript
 NSAppointmentAgent agent;
 Bool includeDeleted;
-TaskListItemArray res = agent.GetTaskListItems(includeDeleted);
+TaskListItem[] res = agent.GetTaskListItems(includeDeleted);
 ```
 

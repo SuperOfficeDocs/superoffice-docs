@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetFunctionalRights
-title: SelectableMDOListItemArray GetFunctionalRights(Integer roleId)
+title: SelectableMDOListItem[] GetFunctionalRights(Integer roleId)
 intellisense: NSUserAgent.GetFunctionalRights
 keywords: NSUserAgent, GetFunctionalRights
 so.topic: reference
@@ -16,6 +16,6 @@ Get all functional rights for the given role. Functional rights not set on the r
 ```crmscript
 NSUserAgent agent;
 Integer roleId;
-SelectableMDOListItemArray res = agent.GetFunctionalRights(roleId);
+SelectableMDOListItem[] res = agent.GetFunctionalRights(roleId);
 ```
 

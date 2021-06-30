@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDiaryViewEntity_GetAssociateList
-title: SelectableMDOListItemArray GetAssociateList()
+title: SelectableMDOListItem[] GetAssociateList()
 intellisense: NSDiaryViewEntity.GetAssociateList
 keywords: NSDiaryViewEntity, GetAssociateList
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** SelectableMDOListItemArray
+**Returns:** SelectableMDOListItem[]
 
 
 ```crmscript
 NSDiaryViewEntity thing;
-SelectableMDOListItemArray associateList  = thing.GetAssociateList();
+SelectableMDOListItem[] associateList  = thing.GetAssociateList();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportErpData_SetImportLines
-title: SetImportLines(ImportLineArray importLines)
+title: SetImportLines(ImportLine[] importLines)
 intellisense: NSImportErpData.SetImportLines
 keywords: NSImportErpData, GetImportLines
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 An array of Import lines
 
 **Parameter:** 
- - **importLines** ImportLineArray
+ - **importLines** ImportLine[]
 
 ```crmscript
 NSImportErpData thing;
-ImportLineArray importLines;
+ImportLine[] importLines;
 thing.SetImportLines(importLines);
 ```
 

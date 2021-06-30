@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBatchAgent_DeleteBatchTasks
-title: Void DeleteBatchTasks(IntegerArray batchTaskIds)
+title: Void DeleteBatchTasks(Integer[] batchTaskIds)
 intellisense: NSBatchAgent.DeleteBatchTasks
 keywords: NSBatchAgent, DeleteBatchTasks
 so.topic: reference

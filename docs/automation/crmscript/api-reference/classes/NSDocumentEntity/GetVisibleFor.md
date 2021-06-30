@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_GetVisibleFor
-title: VisibleForArray GetVisibleFor()
+title: VisibleFor[] GetVisibleFor()
 intellisense: NSDocumentEntity.GetVisibleFor
 keywords: NSDocumentEntity, GetVisibleFor
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentSyncData_GetParticipants
-title: ParticipantSyncDataArray GetParticipants()
+title: ParticipantSyncData[] GetParticipants()
 intellisense: NSAppointmentSyncData.GetParticipants
 keywords: NSAppointmentSyncData, GetParticipants
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** ParticipantSyncDataArray
+**Returns:** ParticipantSyncData[]
 
 
 ```crmscript
 NSAppointmentSyncData thing;
-ParticipantSyncDataArray participants  = thing.GetParticipants();
+ParticipantSyncData[] participants  = thing.GetParticipants();
 ```
 
 

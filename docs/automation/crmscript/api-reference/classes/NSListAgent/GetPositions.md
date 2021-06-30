@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetPositions
-title: PositionArray GetPositions()
+title: Position[] GetPositions()
 intellisense: NSListAgent.GetPositions
 keywords: NSListAgent, GetPositions
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all the positions a person could have.
 
 ```crmscript
 NSListAgent agent;
-PositionArray res = agent.GetPositions();
+Position[] res = agent.GetPositions();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_SendEMails
-title: EMailEntityArray SendEMails(EMailConnectionInfo outgoingConnectionInfo, EMailEntityArray emails, EMailConnectionInfo sentItemsConnectionInfo)
+title: EMailEntity[] SendEMails(EMailConnectionInfo outgoingConnectionInfo, EMailEntity[] emails, EMailConnectionInfo sentItemsConnectionInfo)
 intellisense: NSEMailAgent.SendEMails
 keywords: NSEMailAgent, SendEMails
 so.topic: reference
@@ -18,8 +18,8 @@ Send the provided e-mails
 ```crmscript
 NSEMailAgent agent;
 EMailConnectionInfo outgoingConnectionInfo;
-EMailEntityArray emails;
+EMailEntity[] emails;
 EMailConnectionInfo sentItemsConnectionInfo;
-EMailEntityArray res = agent.SendEMails(outgoingConnectionInfo, emails, sentItemsConnectionInfo);
+EMailEntity[] res = agent.SendEMails(outgoingConnectionInfo, emails, sentItemsConnectionInfo);
 ```
 

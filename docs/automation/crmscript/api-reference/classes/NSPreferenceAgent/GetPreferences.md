@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferences
-title: PreferenceArray GetPreferences(PreferenceSpecArray specifications)
+title: Preference[] GetPreferences(PreferenceSpec[] specifications)
 intellisense: NSPreferenceAgent.GetPreferences
 keywords: NSPreferenceAgent, GetPreferences
 so.topic: reference
@@ -15,7 +15,7 @@ Get one or more preferences based on a set of specifications.<br/>The prefDispla
 
 ```crmscript
 NSPreferenceAgent agent;
-PreferenceSpecArray specifications;
-PreferenceArray res = agent.GetPreferences(specifications);
+PreferenceSpec[] specifications;
+Preference[] res = agent.GetPreferences(specifications);
 ```
 

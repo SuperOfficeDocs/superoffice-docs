@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_GetUserLicenses
-title: LicenseOwnerArray GetUserLicenses(Integer associateId)
+title: LicenseOwner[] GetUserLicenses(Integer associateId)
 intellisense: NSLicenseAgent.GetUserLicenses
 keywords: NSLicenseAgent, GetUserLicenses
 so.topic: reference
@@ -16,6 +16,6 @@ Obtain information about associate module licenses
 ```crmscript
 NSLicenseAgent agent;
 Integer associateId;
-LicenseOwnerArray res = agent.GetUserLicenses(associateId);
+LicenseOwner[] res = agent.GetUserLicenses(associateId);
 ```
 

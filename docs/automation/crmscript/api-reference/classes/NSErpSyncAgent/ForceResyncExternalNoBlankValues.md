@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternalNoBlankValues
-title: PluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, StringArray externalKeys)
+title: PluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternalNoBlankValues
 keywords: NSErpSyncAgent, ForceResyncExternalNoBlankValues
 so.topic: reference
@@ -27,7 +27,7 @@ Force resync from CRM or given Erp connection to all other connections, using ex
 NSErpSyncAgent agent;
 Integer erpConnectionId;
 Integer erpActorType;
-StringArray externalKeys;
+String[] externalKeys;
 PluginResponse res = agent.ForceResyncExternalNoBlankValues(erpConnectionId, erpActorType, externalKeys);
 ```
 

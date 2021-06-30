@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetProjectDocumentsByTemplateHeading
-title: DocumentArray GetProjectDocumentsByTemplateHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+title: Document[] GetProjectDocumentsByTemplateHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateHeading
 keywords: NSDocumentAgent, GetProjectDocumentsByTemplateHeading
 so.topic: reference
@@ -24,6 +24,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer templateHeadingId;
-DocumentArray res = agent.GetProjectDocumentsByTemplateHeading(projectId, startTime, endTime, count, templateHeadingId);
+Document[] res = agent.GetProjectDocumentsByTemplateHeading(projectId, startTime, endTime, count, templateHeadingId);
 ```
 

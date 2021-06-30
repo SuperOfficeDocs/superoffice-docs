@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaintAgent_GetSaintConfigurations
-title: SaintConfigurationArray GetSaintConfigurations()
+title: SaintConfiguration[] GetSaintConfigurations()
 intellisense: NSSaintAgent.GetSaintConfigurations
 keywords: NSSaintAgent, GetSaintConfigurations
 so.topic: reference
@@ -13,6 +13,6 @@ Returns the StatusMonitorPeriods entity.
 
 ```crmscript
 NSSaintAgent agent;
-SaintConfigurationArray res = agent.GetSaintConfigurations();
+SaintConfiguration[] res = agent.GetSaintConfigurations();
 ```
 

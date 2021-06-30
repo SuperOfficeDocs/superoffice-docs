@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetChangedPageOneFields
-title: BooleanArray GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
+title: Bool[] GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields
 keywords: NSUserDefinedFieldInfoAgent, GetChangedPageOneFields
 so.topic: reference
@@ -19,4 +19,4 @@ Gets which page one fields have changed from the current version
      - Enum: 12 = Appointment 
      - Enum: 13 = Document 
      - Enum: 14 = None 
- - **userGroupId** Id of UserGroup
+ - **userGroupId** ID of UserGroup

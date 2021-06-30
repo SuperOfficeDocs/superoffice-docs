@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPocketAgent_GetRegisteredDevices
-title: PocketDeviceInfoArray GetRegisteredDevices(Integer associateId)
+title: PocketDeviceInfo[] GetRegisteredDevices(Integer associateId)
 intellisense: NSPocketAgent.GetRegisteredDevices
 keywords: NSPocketAgent, GetRegisteredDevices
 so.topic: reference

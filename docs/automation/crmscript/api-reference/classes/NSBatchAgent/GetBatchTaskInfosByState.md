@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByState
-title: BatchTaskInfoArray GetBatchTaskInfosByState(Integer state)
+title: BatchTaskInfo[] GetBatchTaskInfosByState(Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByState
 keywords: NSBatchAgent, GetBatchTaskInfosByState
 so.topic: reference
@@ -24,6 +24,6 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 ```crmscript
 NSBatchAgent agent;
 Integer state;
-BatchTaskInfoArray res = agent.GetBatchTaskInfosByState(state);
+BatchTaskInfo[] res = agent.GetBatchTaskInfosByState(state);
 ```
 

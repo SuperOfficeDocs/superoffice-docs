@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_CacheFolderList
-title: EMailFolderArray CacheFolderList()
+title: EMailFolder[] CacheFolderList()
 intellisense: NSEMailAgent.CacheFolderList
 keywords: NSEMailAgent, CacheFolderList
 so.topic: reference
@@ -13,6 +13,6 @@ Fetch list of folders from email server for the current account, and cache in DB
 
 ```crmscript
 NSEMailAgent agent;
-EMailFolderArray res = agent.CacheFolderList();
+EMailFolder[] res = agent.CacheFolderList();
 ```
 

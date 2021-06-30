@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_ToggleActivities
-title: Integer ToggleActivities(StringArray activityIdentifier)
+title: Integer ToggleActivities(String[] activityIdentifier)
 intellisense: NSAppointmentAgent.ToggleActivities
 keywords: NSAppointmentAgent, ToggleActivities
 so.topic: reference
@@ -15,7 +15,7 @@ Toggle the completed status for an array of activities.
 
 ```crmscript
 NSAppointmentAgent agent;
-StringArray activityIdentifier;
+String[] activityIdentifier;
 Integer res = agent.ToggleActivities(activityIdentifier);
 ```
 

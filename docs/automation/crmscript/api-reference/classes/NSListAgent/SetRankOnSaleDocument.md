@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetRankOnSaleDocument
-title: Void SetRankOnSaleDocument(Integer saleTypeStageLinkId, IntegerArray itemsIds)
+title: Void SetRankOnSaleDocument(Integer saleTypeStageLinkId, Integer[] itemsIds)
 intellisense: NSListAgent.SetRankOnSaleDocument
 keywords: NSListAgent, SetRankOnSaleDocument
 so.topic: reference

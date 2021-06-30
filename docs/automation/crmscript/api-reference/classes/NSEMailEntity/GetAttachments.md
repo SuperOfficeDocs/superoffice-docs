@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetAttachments
-title: EMailAttachmentArray GetAttachments()
+title: EMailAttachment[] GetAttachments()
 intellisense: NSEMailEntity.GetAttachments
 keywords: NSEMailEntity, GetAttachments
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** EMailAttachmentArray
+**Returns:** EMailAttachment[]
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailAttachmentArray attachments  = thing.GetAttachments();
+EMailAttachment[] attachments  = thing.GetAttachments();
 ```
 
 

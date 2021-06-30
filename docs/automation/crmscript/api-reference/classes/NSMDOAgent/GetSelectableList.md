@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetSelectableList
-title: SelectableMDOListItemArray GetSelectableList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
+title: SelectableMDOListItem[] GetSelectableList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
 intellisense: NSMDOAgent.GetSelectableList
 keywords: NSMDOAgent, GetSelectableList
 so.topic: reference
@@ -22,6 +22,6 @@ String name;
 Bool forceFlatList;
 String additionalInfo;
 Bool onlyHistory;
-SelectableMDOListItemArray res = agent.GetSelectableList(name, forceFlatList, additionalInfo, onlyHistory);
+SelectableMDOListItem[] res = agent.GetSelectableList(name, forceFlatList, additionalInfo, onlyHistory);
 ```
 

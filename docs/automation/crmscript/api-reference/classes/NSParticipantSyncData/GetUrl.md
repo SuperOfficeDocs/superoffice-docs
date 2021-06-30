@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_GetUrl
-title: StringArray GetUrl()
+title: String[] GetUrl()
 intellisense: NSParticipantSyncData.GetUrl
 keywords: NSParticipantSyncData, GetUrl
 so.topic: reference
@@ -13,7 +13,7 @@ The urls related to this person.
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray url  = thing.GetUrl();
+String[] url  = thing.GetUrl();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetAvailableRestrictionColumns
-title: StringArray GetAvailableRestrictionColumns(String storageType, String providerName)
+title: String[] GetAvailableRestrictionColumns(String storageType, String providerName)
 intellisense: NSFindAgent.GetAvailableRestrictionColumns
 keywords: NSFindAgent, GetAvailableRestrictionColumns
 so.topic: reference
@@ -18,6 +18,6 @@ Get a list of the column names corresponding to available restrictions for a cer
 NSFindAgent agent;
 String storageType;
 String providerName;
-StringArray res = agent.GetAvailableRestrictionColumns(storageType, providerName);
+String[] res = agent.GetAvailableRestrictionColumns(storageType, providerName);
 ```
 

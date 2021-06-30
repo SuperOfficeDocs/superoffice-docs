@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveHeadingsFromName
-title: HeadingEntityArray SaveHeadingsFromName(String name, HeadingEntityArray entities)
+title: HeadingEntity[] SaveHeadingsFromName(String name, HeadingEntity[] entities)
 intellisense: NSListAgent.SaveHeadingsFromName
 keywords: NSListAgent, SaveHeadingsFromName
 so.topic: reference
@@ -17,7 +17,7 @@ Save headings for list resolved by the provided name.
 ```crmscript
 NSListAgent agent;
 String name;
-HeadingEntityArray entities;
-HeadingEntityArray res = agent.SaveHeadingsFromName(name, entities);
+HeadingEntity[] entities;
+HeadingEntity[] res = agent.SaveHeadingsFromName(name, entities);
 ```
 

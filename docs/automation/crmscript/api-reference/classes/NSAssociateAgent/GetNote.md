@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAssociateAgent_GetNote
-title: StringArray GetNote(Integer associateId)
+title: String[] GetNote(Integer associateId)
 intellisense: NSAssociateAgent.GetNote
 keywords: NSAssociateAgent, GetNote
 so.topic: reference
@@ -16,6 +16,6 @@ Returns an array of strings(notepad pages).
 ```crmscript
 NSAssociateAgent agent;
 Integer associateId;
-StringArray res = agent.GetNote(associateId);
+String[] res = agent.GetNote(associateId);
 ```
 

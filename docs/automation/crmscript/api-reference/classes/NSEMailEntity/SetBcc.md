@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_SetBcc
-title: SetBcc(EMailAddressArray bcc)
+title: SetBcc(EMailAddress[] bcc)
 intellisense: NSEMailEntity.SetBcc
 keywords: NSEMailEntity, GetBcc
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Bcc recipient of e-mail
 
 **Parameter:** 
- - **bcc** EMailAddressArray
+ - **bcc** EMailAddress[]
 
 ```crmscript
 NSEMailEntity thing;
-EMailAddressArray bcc;
+EMailAddress[] bcc;
 thing.SetBcc(bcc);
 ```
 

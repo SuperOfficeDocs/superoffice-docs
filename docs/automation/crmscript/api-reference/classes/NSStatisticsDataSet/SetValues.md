@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSStatisticsDataSet_SetValues
-title: SetValues(StatisticsDataValueArray values)
+title: SetValues(StatisticsDataValue[] values)
 intellisense: NSStatisticsDataSet.SetValues
 keywords: NSStatisticsDataSet, GetValues
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Values in this set
 
 **Parameter:** 
- - **values** StatisticsDataValueArray
+ - **values** StatisticsDataValue[]
 
 ```crmscript
 NSStatisticsDataSet thing;
-StatisticsDataValueArray values;
+StatisticsDataValue[] values;
 thing.SetValues(values);
 ```
 

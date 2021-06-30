@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetVisibleFor
-title: VisibleForArray GetVisibleFor()
+title: VisibleFor[] GetVisibleFor()
 intellisense: NSAppointmentEntity.GetVisibleFor
 keywords: NSAppointmentEntity, GetVisibleFor
 so.topic: reference

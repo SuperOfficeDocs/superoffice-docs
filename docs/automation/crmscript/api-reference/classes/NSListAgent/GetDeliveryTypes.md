@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetDeliveryTypes
-title: DeliveryTypeArray GetDeliveryTypes()
+title: DeliveryType[] GetDeliveryTypes()
 intellisense: NSListAgent.GetDeliveryTypes
 keywords: NSListAgent, GetDeliveryTypes
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all DeliveryTypes in SuperOffice db.
 
 ```crmscript
 NSListAgent agent;
-DeliveryTypeArray res = agent.GetDeliveryTypes();
+DeliveryType[] res = agent.GetDeliveryTypes();
 ```
 

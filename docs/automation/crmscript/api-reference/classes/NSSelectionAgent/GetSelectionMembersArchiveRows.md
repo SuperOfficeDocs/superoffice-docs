@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_GetSelectionMembersArchiveRows
-title: ArchiveListItemArray GetSelectionMembersArchiveRows(Integer selectionId, String select)
+title: ArchiveListItem[] GetSelectionMembersArchiveRows(Integer selectionId, String select)
 intellisense: NSSelectionAgent.GetSelectionMembersArchiveRows
 keywords: NSSelectionAgent, GetSelectionMembersArchiveRows
 so.topic: reference
@@ -18,6 +18,6 @@ Get the list of members in this selection. The type of members depends on the ta
 NSSelectionAgent agent;
 Integer selectionId;
 String select;
-ArchiveListItemArray res = agent.GetSelectionMembersArchiveRows(selectionId, select);
+ArchiveListItem[] res = agent.GetSelectionMembersArchiveRows(selectionId, select);
 ```
 

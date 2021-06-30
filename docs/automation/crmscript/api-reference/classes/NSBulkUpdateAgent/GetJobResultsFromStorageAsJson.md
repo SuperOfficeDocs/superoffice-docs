@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBulkUpdateAgent_GetJobResultsFromStorageAsJson
-title: StringArray GetJobResultsFromStorageAsJson()
+title: String[] GetJobResultsFromStorageAsJson()
 intellisense: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson
 keywords: NSBulkUpdateAgent, GetJobResultsFromStorageAsJson
 so.topic: reference
@@ -13,6 +13,6 @@ Get result of the batchupdate job
 
 ```crmscript
 NSBulkUpdateAgent agent;
-StringArray res = agent.GetJobResultsFromStorageAsJson();
+String[] res = agent.GetJobResultsFromStorageAsJson();
 ```
 

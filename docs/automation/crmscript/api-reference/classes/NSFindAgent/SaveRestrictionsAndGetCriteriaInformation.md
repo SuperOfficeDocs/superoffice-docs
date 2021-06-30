@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionsAndGetCriteriaInformation
-title: CriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, ArchiveRestrictionInfoArray restrictions, StringArray staticColumns)
+title: CriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, ArchiveRestrictionInfo[] restrictions, String[] staticColumns)
 intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation
 keywords: NSFindAgent, SaveRestrictionsAndGetCriteriaInformation
 so.topic: reference
@@ -22,8 +22,8 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionInfoArray restrictions;
-StringArray staticColumns;
+ArchiveRestrictionInfo[] restrictions;
+String[] staticColumns;
 CriteriaInformation res = agent.SaveRestrictionsAndGetCriteriaInformation(storageType, providerName, storageKey, restrictions, staticColumns);
 ```
 

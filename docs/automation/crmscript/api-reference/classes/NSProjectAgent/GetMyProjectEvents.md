@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetMyProjectEvents
-title: ProjectEventArray GetMyProjectEvents()
+title: ProjectEvent[] GetMyProjectEvents()
 intellisense: NSProjectAgent.GetMyProjectEvents
 keywords: NSProjectAgent, GetMyProjectEvents
 so.topic: reference
@@ -13,6 +13,6 @@ Gets all project events that belongs to the currently logged on user. The list o
 
 ```crmscript
 NSProjectAgent agent;
-ProjectEventArray res = agent.GetMyProjectEvents();
+ProjectEvent[] res = agent.GetMyProjectEvents();
 ```
 

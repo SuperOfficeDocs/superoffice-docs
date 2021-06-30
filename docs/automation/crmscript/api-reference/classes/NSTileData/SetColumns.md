@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTileData_SetColumns
-title: SetColumns(ArchiveColumnInfoArray columns)
+title: SetColumns(ArchiveColumnInfo[] columns)
 intellisense: NSTileData.SetColumns
 keywords: NSTileData, GetColumns
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Column information
 
 **Parameter:** 
- - **columns** ArchiveColumnInfoArray
+ - **columns** ArchiveColumnInfo[]
 
 ```crmscript
 NSTileData thing;
-ArchiveColumnInfoArray columns;
+ArchiveColumnInfo[] columns;
 thing.SetColumns(columns);
 ```
 

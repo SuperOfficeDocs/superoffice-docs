@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_FindCredentialsGroups
-title: CredentialsGroupArray FindCredentialsGroups(String type, String searchString)
+title: CredentialsGroup[] FindCredentialsGroups(String type, String searchString)
 intellisense: NSUserAgent.FindCredentialsGroups
 keywords: NSUserAgent, FindCredentialsGroups
 so.topic: reference

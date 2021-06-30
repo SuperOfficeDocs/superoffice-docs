@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAssociateAgent_SaveNote
-title: Void SaveNote(Integer associateId, StringArray note)
+title: Void SaveNote(Integer associateId, String[] note)
 intellisense: NSAssociateAgent.SaveNote
 keywords: NSAssociateAgent, SaveNote
 so.topic: reference

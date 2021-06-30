@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetHeadingsFromName
-title: HeadingEntityArray GetHeadingsFromName(String name)
+title: HeadingEntity[] GetHeadingsFromName(String name)
 intellisense: NSListAgent.GetHeadingsFromName
 keywords: NSListAgent, GetHeadingsFromName
 so.topic: reference
@@ -16,6 +16,6 @@ Gets headings for list resolved by the provided name.
 ```crmscript
 NSListAgent agent;
 String name;
-HeadingEntityArray res = agent.GetHeadingsFromName(name);
+HeadingEntity[] res = agent.GetHeadingsFromName(name);
 ```
 

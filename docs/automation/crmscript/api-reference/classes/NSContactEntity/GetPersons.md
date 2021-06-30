@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_GetPersons
-title: PersonArray GetPersons()
+title: Person[] GetPersons()
 intellisense: NSContactEntity.GetPersons
 keywords: NSContactEntity, GetPersons
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The persons belonging to the contact.
 
-**Returns:** PersonArray
+**Returns:** Person[]
 
 
 ```crmscript
 NSContactEntity thing;
-PersonArray persons  = thing.GetPersons();
+Person[] persons  = thing.GetPersons();
 ```
 
 

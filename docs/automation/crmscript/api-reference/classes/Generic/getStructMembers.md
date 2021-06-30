@@ -26,4 +26,4 @@ Building BuildingGeneric(String json){
 }
 
 * **value:** String Name of struct, for example "Person"
-* **Returns:** String[] Array of member names, for example ["name", "age", "dob"]
+* **Returns:** String[] array of member names, for example ["name", "age", "dob"]

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMessagingAgent_SendMessagesWithConfig
-title: MessageDeliveryStatusArray SendMessagesWithConfig(String plugin, OutgoingMessageArray outgoingMessages, StringDictionary config)
+title: MessageDeliveryStatus[] SendMessagesWithConfig(String plugin, OutgoingMessage[] outgoingMessages, StringDictionary config)
 intellisense: NSMessagingAgent.SendMessagesWithConfig
 keywords: NSMessagingAgent, SendMessagesWithConfig
 so.topic: reference
@@ -18,8 +18,8 @@ Send an array of messages using given config
 ```crmscript
 NSMessagingAgent agent;
 String plugin;
-OutgoingMessageArray outgoingMessages;
+OutgoingMessage[] outgoingMessages;
 StringDictionary config;
-MessageDeliveryStatusArray res = agent.SendMessagesWithConfig(plugin, outgoingMessages, config);
+MessageDeliveryStatus[] res = agent.SendMessagesWithConfig(plugin, outgoingMessages, config);
 ```
 

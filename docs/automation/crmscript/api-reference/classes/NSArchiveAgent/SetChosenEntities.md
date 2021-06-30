@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_SetChosenEntities
-title: Void SetChosenEntities(String guiName, String providerName, StringArray entities)
+title: Void SetChosenEntities(String guiName, String providerName, String[] entities)
 intellisense: NSArchiveAgent.SetChosenEntities
 keywords: NSArchiveAgent, SetChosenEntities
 so.topic: reference

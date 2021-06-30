@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAllTicketPriorities
-title: TicketPriorityEntityArray GetAllTicketPriorities(Bool includeDeleted)
+title: TicketPriorityEntity[] GetAllTicketPriorities(Bool includeDeleted)
 intellisense: NSListAgent.GetAllTicketPriorities
 keywords: NSListAgent, GetAllTicketPriorities
 so.topic: reference
@@ -16,6 +16,6 @@ Returns all available ticket priorities.
 ```crmscript
 NSListAgent agent;
 Bool includeDeleted;
-TicketPriorityEntityArray res = agent.GetAllTicketPriorities(includeDeleted);
+TicketPriorityEntity[] res = agent.GetAllTicketPriorities(includeDeleted);
 ```
 

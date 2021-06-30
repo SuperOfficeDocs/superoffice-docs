@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_CreateOrUpdateQuoteVersionAttachments
-title: QuoteVersionAttachmentArray CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
+title: QuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
 intellisense: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments
 keywords: NSQuoteAgent, CreateOrUpdateQuoteVersionAttachments
 so.topic: reference
@@ -16,6 +16,6 @@ Look at the Quote version, related sale and sale type, and ensure that the corre
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteVersionId;
-QuoteVersionAttachmentArray res = agent.CreateOrUpdateQuoteVersionAttachments(quoteVersionId);
+QuoteVersionAttachment[] res = agent.CreateOrUpdateQuoteVersionAttachments(quoteVersionId);
 ```
 

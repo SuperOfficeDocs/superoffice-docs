@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteConnection_SetPriceLists
-title: SetPriceLists(PriceListArray priceLists)
+title: SetPriceLists(PriceList[] priceLists)
 intellisense: NSQuoteConnection.SetPriceLists
 keywords: NSQuoteConnection, GetPriceLists
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The PriceLists that this connection offers.
 
 **Parameter:** 
- - **priceLists** PriceListArray
+ - **priceLists** PriceList[]
 
 ```crmscript
 NSQuoteConnection thing;
-PriceListArray priceLists;
+PriceList[] priceLists;
 thing.SetPriceLists(priceLists);
 ```
 

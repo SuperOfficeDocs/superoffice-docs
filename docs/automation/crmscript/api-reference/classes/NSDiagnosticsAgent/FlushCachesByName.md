@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDiagnosticsAgent_FlushCachesByName
-title: Void FlushCachesByName(StringArray cacheNames)
+title: Void FlushCachesByName(String[] cacheNames)
 intellisense: NSDiagnosticsAgent.FlushCachesByName
 keywords: NSDiagnosticsAgent, FlushCachesByName
 so.topic: reference
@@ -15,7 +15,7 @@ Flushes all NetServer caches named
 
 ```crmscript
 NSDiagnosticsAgent agent;
-StringArray cacheNames;
+String[] cacheNames;
 Void res = agent.FlushCachesByName(cacheNames);
 ```
 

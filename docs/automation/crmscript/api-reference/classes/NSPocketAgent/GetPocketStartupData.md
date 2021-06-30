@@ -10,7 +10,7 @@ so.topic: reference
 
 Returns start-up data for SuperOffice Pocket CRM
 
-`PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)`
+`PocketStartupData GetPocketStartupData(String[] tables, DateTime currentClientTime)`
 
 ## Parameters
 
@@ -21,7 +21,7 @@ Returns start-up data for SuperOffice Pocket CRM
 
 ```crmscript
 NSPocketAgent agent;
-StringArray tables;
+String[] tables;
 DateTime currentClientTime;
 PocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);
 ```

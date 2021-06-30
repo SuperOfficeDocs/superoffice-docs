@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_GetProjectMembers
-title: ProjectMemberArray GetProjectMembers()
+title: ProjectMember[] GetProjectMembers()
 intellisense: NSProjectEntity.GetProjectMembers
 keywords: NSProjectEntity, GetProjectMembers
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The persons which are members of the project
 
-**Returns:** ProjectMemberArray
+**Returns:** ProjectMember[]
 
 
 ```crmscript
 NSProjectEntity thing;
-ProjectMemberArray projectMembers  = thing.GetProjectMembers();
+ProjectMember[] projectMembers  = thing.GetProjectMembers();
 ```
 
 

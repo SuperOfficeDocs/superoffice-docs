@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetFolderInfo
-title: EMailFolderArray GetFolderInfo(EMailConnectionInfo connectionInfo, StringArray folders)
+title: EMailFolder[] GetFolderInfo(EMailConnectionInfo connectionInfo, String[] folders)
 intellisense: NSEMailAgent.GetFolderInfo
 keywords: NSEMailAgent, GetFolderInfo
 so.topic: reference
@@ -17,7 +17,7 @@ Retrieve information about folders.  If folders parameter is not specified(null)
 ```crmscript
 NSEMailAgent agent;
 EMailConnectionInfo connectionInfo;
-StringArray folders;
-EMailFolderArray res = agent.GetFolderInfo(connectionInfo, folders);
+String[] folders;
+EMailFolder[] res = agent.GetFolderInfo(connectionInfo, folders);
 ```
 

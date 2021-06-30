@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveHeadingsForListItemFromListName
-title: SelectableMDOListItemArray SaveHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, SelectableMDOListItemArray headings)
+title: SelectableMDOListItem[] SaveHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, SelectableMDOListItem[] headings)
 intellisense: NSListAgent.SaveHeadingsForListItemFromListName
 keywords: NSListAgent, SaveHeadingsForListItemFromListName
 so.topic: reference
@@ -19,7 +19,7 @@ Saves the headings for the list item.
 NSListAgent agent;
 String udListDefinitionName;
 Integer listItemId;
-SelectableMDOListItemArray headings;
-SelectableMDOListItemArray res = agent.SaveHeadingsForListItemFromListName(udListDefinitionName, listItemId, headings);
+SelectableMDOListItem[] headings;
+SelectableMDOListItem[] res = agent.SaveHeadingsForListItemFromListName(udListDefinitionName, listItemId, headings);
 ```
 

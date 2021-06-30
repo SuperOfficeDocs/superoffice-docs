@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetVisibleFor
-title: VisibleForArray GetVisibleFor()
+title: VisibleFor[] GetVisibleFor()
 intellisense: NSSaleEntity.GetVisibleFor
 keywords: NSSaleEntity, GetVisibleFor
 so.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: IntegerArray saveAllCgiAttachments (String name)
+description: Integer[] saveAllCgiAttachments (String name)
 intellisense: Void.saveAllCgiAttachments 
 langref: 1
 keywords: saveAllCgiAttachments (String)

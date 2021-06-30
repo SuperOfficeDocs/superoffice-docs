@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_GetHistoriesByNamesAndIds
-title: HistoryArray GetHistoriesByNamesAndIds(HistoryRequestArray requests)
+title: History[] GetHistoriesByNamesAndIds(HistoryRequest[] requests)
 intellisense: NSViewStateAgent.GetHistoriesByNamesAndIds
 keywords: NSViewStateAgent, GetHistoriesByNamesAndIds
 so.topic: reference
@@ -15,7 +15,7 @@ Returns history data for the named entities and the given ids - which may not di
 
 ```crmscript
 NSViewStateAgent agent;
-HistoryRequestArray requests;
-HistoryArray res = agent.GetHistoriesByNamesAndIds(requests);
+HistoryRequest[] requests;
+History[] res = agent.GetHistoriesByNamesAndIds(requests);
 ```
 

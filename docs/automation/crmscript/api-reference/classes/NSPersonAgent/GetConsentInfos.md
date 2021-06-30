@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_GetConsentInfos
-title: ConsentInfoArray GetConsentInfos(Integer personId)
+title: ConsentInfo[] GetConsentInfos(Integer personId)
 intellisense: NSPersonAgent.GetConsentInfos
 keywords: NSPersonAgent, GetConsentInfos
 so.topic: reference
@@ -16,6 +16,6 @@ Get all consent information for a given person. May include withdrawn consents (
 ```crmscript
 NSPersonAgent agent;
 Integer personId;
-ConsentInfoArray res = agent.GetConsentInfos(personId);
+ConsentInfo[] res = agent.GetConsentInfos(personId);
 ```
 

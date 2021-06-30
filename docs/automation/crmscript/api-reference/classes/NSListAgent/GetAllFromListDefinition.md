@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAllFromListDefinition
-title: ListItemEntityArray GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
+title: ListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
 intellisense: NSListAgent.GetAllFromListDefinition
 keywords: NSListAgent, GetAllFromListDefinition
 so.topic: reference
@@ -18,6 +18,6 @@ Get all list items for the specified list defintion
 NSListAgent agent;
 Integer udListDefinitionId;
 Bool includeDeleted;
-ListItemEntityArray res = agent.GetAllFromListDefinition(udListDefinitionId, includeDeleted);
+ListItemEntity[] res = agent.GetAllFromListDefinition(udListDefinitionId, includeDeleted);
 ```
 

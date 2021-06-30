@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPocketStartupData_SetSystemWebPanels
-title: SetSystemWebPanels(WebPanelEntityArray systemWebPanels)
+title: SetSystemWebPanels(WebPanelEntity[] systemWebPanels)
 intellisense: NSPocketStartupData.SetSystemWebPanels
 keywords: NSPocketStartupData, GetSystemWebPanels
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Web panels defined in Admin client, set to be shown in Pocket client
 
 **Parameter:** 
- - **systemWebPanels** WebPanelEntityArray
+ - **systemWebPanels** WebPanelEntity[]
 
 ```crmscript
 NSPocketStartupData thing;
-WebPanelEntityArray systemWebPanels;
+WebPanelEntity[] systemWebPanels;
 thing.SetSystemWebPanels(systemWebPanels);
 ```
 

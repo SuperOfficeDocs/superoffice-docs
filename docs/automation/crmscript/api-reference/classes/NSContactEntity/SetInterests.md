@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetInterests
-title: SetInterests(SelectableMDOListItemArray interests)
+title: SetInterests(SelectableMDOListItem[] interests)
 intellisense: NSContactEntity.SetInterests
 keywords: NSContactEntity, GetInterests
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The contact's available and selected interests.
 
 **Parameter:** 
- - **interests** SelectableMDOListItemArray
+ - **interests** SelectableMDOListItem[]
 
 ```crmscript
 NSContactEntity thing;
-SelectableMDOListItemArray interests;
+SelectableMDOListItem[] interests;
 thing.SetInterests(interests);
 ```
 

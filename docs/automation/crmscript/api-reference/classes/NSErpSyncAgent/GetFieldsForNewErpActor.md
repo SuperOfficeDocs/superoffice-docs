@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetFieldsForNewErpActor
-title: FieldMetadataArray GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
+title: FieldMetadata[] GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetFieldsForNewErpActor
 keywords: NSErpSyncAgent, GetFieldsForNewErpActor
 so.topic: reference
@@ -26,6 +26,6 @@ Get the fields that must be filled out when creating a new ERP actor
 NSErpSyncAgent agent;
 Integer erpConnectionId;
 Integer erpActorType;
-FieldMetadataArray res = agent.GetFieldsForNewErpActor(erpConnectionId, erpActorType);
+FieldMetadata[] res = agent.GetFieldsForNewErpActor(erpConnectionId, erpActorType);
 ```
 

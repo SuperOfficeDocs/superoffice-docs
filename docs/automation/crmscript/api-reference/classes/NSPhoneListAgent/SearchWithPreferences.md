@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_SearchWithPreferences
-title: PhoneListItemArray SearchWithPreferences(String searchString, PhoneListPreferences preferences)
+title: PhoneListItem[] SearchWithPreferences(String searchString, PhoneListPreferences preferences)
 intellisense: NSPhoneListAgent.SearchWithPreferences
 keywords: NSPhoneListAgent, SearchWithPreferences
 so.topic: reference
@@ -18,6 +18,6 @@ Searching the phone list. Search is based on the supplied preferences.
 NSPhoneListAgent agent;
 String searchString;
 PhoneListPreferences preferences;
-PhoneListItemArray res = agent.SearchWithPreferences(searchString, preferences);
+PhoneListItem[] res = agent.SearchWithPreferences(searchString, preferences);
 ```
 

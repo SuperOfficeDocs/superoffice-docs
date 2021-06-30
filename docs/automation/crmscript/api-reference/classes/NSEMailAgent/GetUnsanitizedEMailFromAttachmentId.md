@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedEMailFromAttachmentId
-title: EMailEntity GetUnsanitizedEMailFromAttachmentId(Integer emailId, StringArray attachmentIds, Bool includeAttachments)
+title: EMailEntity GetUnsanitizedEMailFromAttachmentId(Integer emailId, String[] attachmentIds, Bool includeAttachments)
 intellisense: NSEMailAgent.GetUnsanitizedEMailFromAttachmentId
 keywords: NSEMailAgent, GetUnsanitizedEMailFromAttachmentId
 so.topic: reference
@@ -18,7 +18,7 @@ Get an e-mail based on an email and attachment id. The returned value is not san
 ```crmscript
 NSEMailAgent agent;
 Integer emailId;
-StringArray attachmentIds;
+String[] attachmentIds;
 Bool includeAttachments;
 EMailEntity res = agent.GetUnsanitizedEMailFromAttachmentId(emailId, attachmentIds, includeAttachments);
 ```

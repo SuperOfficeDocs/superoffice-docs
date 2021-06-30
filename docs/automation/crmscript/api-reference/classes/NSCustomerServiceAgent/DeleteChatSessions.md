@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCustomerServiceAgent_DeleteChatSessions
-title: Void DeleteChatSessions(IntegerArray ids)
+title: Void DeleteChatSessions(Integer[] ids)
 intellisense: NSCustomerServiceAgent.DeleteChatSessions
 keywords: NSCustomerServiceAgent, DeleteChatSessions
 so.topic: reference
@@ -15,7 +15,7 @@ Deletes the specified chat sessions.
 
 ```crmscript
 NSCustomerServiceAgent agent;
-IntegerArray ids;
+Integer[] ids;
 Void res = agent.DeleteChatSessions(ids);
 ```
 

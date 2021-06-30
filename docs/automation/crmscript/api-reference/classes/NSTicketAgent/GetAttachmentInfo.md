@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketAgent_GetAttachmentInfo
-title: AttachmentEntityArray GetAttachmentInfo(Integer ticketMessageEntityId)
+title: AttachmentEntity[] GetAttachmentInfo(Integer ticketMessageEntityId)
 intellisense: NSTicketAgent.GetAttachmentInfo
 keywords: NSTicketAgent, GetAttachmentInfo
 so.topic: reference
@@ -16,6 +16,6 @@ Get a list with meta data for all attached attachments
 ```crmscript
 NSTicketAgent agent;
 Integer ticketMessageEntityId;
-AttachmentEntityArray res = agent.GetAttachmentInfo(ticketMessageEntityId);
+AttachmentEntity[] res = agent.GetAttachmentInfo(ticketMessageEntityId);
 ```
 

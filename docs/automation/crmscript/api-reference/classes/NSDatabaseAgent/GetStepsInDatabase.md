@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDatabaseAgent_GetStepsInDatabase
-title: DictionaryStepInformationArray GetStepsInDatabase()
+title: DictionaryStepInformation[] GetStepsInDatabase()
 intellisense: NSDatabaseAgent.GetStepsInDatabase
 keywords: NSDatabaseAgent, GetStepsInDatabase
 so.topic: reference
@@ -13,6 +13,6 @@ Get information about the dictionary steps that are in the currently-loggedon da
 
 ```crmscript
 NSDatabaseAgent agent;
-DictionaryStepInformationArray res = agent.GetStepsInDatabase();
+DictionaryStepInformation[] res = agent.GetStepsInDatabase();
 ```
 

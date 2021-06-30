@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetAllRoles
-title: SelectableMDOListItemArray GetAllRoles(Integer roleType)
+title: SelectableMDOListItem[] GetAllRoles(Integer roleType)
 intellisense: NSUserAgent.GetAllRoles
 keywords: NSUserAgent, GetAllRoles
 so.topic: reference
@@ -20,6 +20,6 @@ Get a list of all roles for the given type of role. MDO List name = 'Roles', ext
 ```crmscript
 NSUserAgent agent;
 Integer roleType;
-SelectableMDOListItemArray res = agent.GetAllRoles(roleType);
+SelectableMDOListItem[] res = agent.GetAllRoles(roleType);
 ```
 

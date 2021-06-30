@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAssociateAgent_GetAssociatesByGroup
-title: AssociateArray GetAssociatesByGroup(Integer groupId, Integer type)
+title: Associate[] GetAssociatesByGroup(Integer groupId, Integer type)
 intellisense: NSAssociateAgent.GetAssociatesByGroup
 keywords: NSAssociateAgent, GetAssociatesByGroup
 so.topic: reference
@@ -18,6 +18,6 @@ Method that returns a array of associate , based on DiaryGroupType and groupId. 
 NSAssociateAgent agent;
 Integer groupId;
 Integer type;
-AssociateArray res = agent.GetAssociatesByGroup(groupId, type);
+Associate[] res = agent.GetAssociatesByGroup(groupId, type);
 ```
 

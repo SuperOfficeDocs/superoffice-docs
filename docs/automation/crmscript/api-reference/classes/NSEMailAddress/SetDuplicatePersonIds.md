@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAddress_SetDuplicatePersonIds
-title: SetDuplicatePersonIds(IntegerArray duplicatePersonIds)
+title: SetDuplicatePersonIds(Integer[] duplicatePersonIds)
 intellisense: NSEMailAddress.SetDuplicatePersonIds
 keywords: NSEMailAddress, GetDuplicatePersonIds
 so.topic: reference
@@ -13,7 +13,7 @@ All persons with this EmailAddress stored in db is listed here
 
 ```crmscript
 NSEMailAddress thing;
-IntegerArray duplicatePersonIds;
+Integer[] duplicatePersonIds;
 thing.SetDuplicatePersonIds(duplicatePersonIds);
 ```
 

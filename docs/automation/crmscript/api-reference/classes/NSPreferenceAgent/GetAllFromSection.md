@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetAllFromSection
-title: PreferenceDescriptionArray GetAllFromSection(String section)
+title: PreferenceDescription[] GetAllFromSection(String section)
 intellisense: NSPreferenceAgent.GetAllFromSection
 keywords: NSPreferenceAgent, GetAllFromSection
 so.topic: reference
@@ -16,6 +16,6 @@ Gets all PreferenceDescription-items in the specified section
 ```crmscript
 NSPreferenceAgent agent;
 String section;
-PreferenceDescriptionArray res = agent.GetAllFromSection(section);
+PreferenceDescription[] res = agent.GetAllFromSection(section);
 ```
 

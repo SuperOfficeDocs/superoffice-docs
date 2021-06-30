@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetLegalBases
-title: LegalBaseArray GetLegalBases()
+title: LegalBase[] GetLegalBases()
 intellisense: NSListAgent.GetLegalBases
 keywords: NSListAgent, GetLegalBases
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all defined bases.
 
 ```crmscript
 NSListAgent agent;
-LegalBaseArray res = agent.GetLegalBases();
+LegalBase[] res = agent.GetLegalBases();
 ```
 

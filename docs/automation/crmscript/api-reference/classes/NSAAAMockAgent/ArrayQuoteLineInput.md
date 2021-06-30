@@ -8,11 +8,11 @@ so.topic: reference
 ---
 
 
-Test QuoteLine Array input
+Test QuoteLine array input
 
 
 
-* **quoteLineArrayArgument:** Some QuoteLine Array argument
+* **quoteLineArrayArgument:** Some QuoteLine array argument
 * **Returns:** A void return
 
 

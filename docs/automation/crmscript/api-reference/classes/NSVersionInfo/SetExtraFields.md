@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSVersionInfo_SetExtraFields
-title: SetExtraFields(StringArray extraFields)
+title: SetExtraFields(String[] extraFields)
 intellisense: NSVersionInfo.SetExtraFields
 keywords: NSVersionInfo, GetExtraFields
 so.topic: reference
@@ -13,7 +13,7 @@ Private metadata, owned by the document plugin. This set of metadata is related 
 
 ```crmscript
 NSVersionInfo thing;
-StringArray extraFields;
+String[] extraFields;
 thing.SetExtraFields(extraFields);
 ```
 

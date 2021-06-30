@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetPublishedProjectsOnPersonId
-title: ProjectArray GetPublishedProjectsOnPersonId(Integer personId)
+title: Project[] GetPublishedProjectsOnPersonId(Integer personId)
 intellisense: NSProjectAgent.GetPublishedProjectsOnPersonId
 keywords: NSProjectAgent, GetPublishedProjectsOnPersonId
 so.topic: reference
@@ -16,6 +16,6 @@ Get published projects where person  is a member
 ```crmscript
 NSProjectAgent agent;
 Integer personId;
-ProjectArray res = agent.GetPublishedProjectsOnPersonId(personId);
+Project[] res = agent.GetPublishedProjectsOnPersonId(personId);
 ```
 

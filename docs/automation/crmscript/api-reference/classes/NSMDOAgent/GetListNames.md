@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetListNames
-title: StringArray GetListNames()
+title: String[] GetListNames()
 intellisense: NSMDOAgent.GetListNames
 keywords: NSMDOAgent, GetListNames
 so.topic: reference
@@ -13,6 +13,6 @@ Returns a list of all MDO List names. These names can also be used with the Arch
 
 ```crmscript
 NSMDOAgent agent;
-StringArray res = agent.GetListNames();
+String[] res = agent.GetListNames();
 ```
 

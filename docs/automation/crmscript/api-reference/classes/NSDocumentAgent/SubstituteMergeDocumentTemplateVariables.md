@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables
-title: Stream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, StringArray customTags, StringArray customValues)
+title: Stream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, String[] customTags, String[] customValues)
 intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables
 keywords: NSDocumentAgent, SubstituteMergeDocumentTemplateVariables
 so.topic: reference
@@ -20,8 +20,8 @@ Parse the source document, and replace any template variable tags with their val
 NSDocumentAgent agent;
 Integer documentId;
 Integer associateId;
-StringArray customTags;
-StringArray customValues;
+String[] customTags;
+String[] customValues;
 Stream res = agent.SubstituteMergeDocumentTemplateVariables(documentId, associateId, customTags, customValues);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetReasons
-title: ReasonArray GetReasons()
+title: Reason[] GetReasons()
 intellisense: NSListAgent.GetReasons
 keywords: NSListAgent, GetReasons
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all reasons
 
 ```crmscript
 NSListAgent agent;
-ReasonArray res = agent.GetReasons();
+Reason[] res = agent.GetReasons();
 ```
 

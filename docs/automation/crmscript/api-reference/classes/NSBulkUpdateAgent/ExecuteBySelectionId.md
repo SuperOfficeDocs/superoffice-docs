@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBulkUpdateAgent_ExecuteBySelectionId
-title: Integer ExecuteBySelectionId(FieldValueInfoArray fieldValueInfos, String tableName, String context, Integer selectionId, Bool isShadow)
+title: Integer ExecuteBySelectionId(FieldValueInfo[] fieldValueInfos, String tableName, String context, Integer selectionId, Bool isShadow)
 intellisense: NSBulkUpdateAgent.ExecuteBySelectionId
 keywords: NSBulkUpdateAgent, ExecuteBySelectionId
 so.topic: reference
@@ -19,7 +19,7 @@ Do the batchupdate on this selection
 
 ```crmscript
 NSBulkUpdateAgent agent;
-FieldValueInfoArray fieldValueInfos;
+FieldValueInfo[] fieldValueInfos;
 String tableName;
 String context;
 Integer selectionId;

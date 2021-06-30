@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetCompetitors
-title: CompetitorArray GetCompetitors()
+title: Competitor[] GetCompetitors()
 intellisense: NSListAgent.GetCompetitors
 keywords: NSListAgent, GetCompetitors
 so.topic: reference

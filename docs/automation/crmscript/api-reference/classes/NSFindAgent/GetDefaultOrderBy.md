@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetDefaultOrderBy
-title: ArchiveOrderByInfoArray GetDefaultOrderBy(String storageType, String providerName, String storageKey)
+title: ArchiveOrderByInfo[] GetDefaultOrderBy(String storageType, String providerName, String storageKey)
 intellisense: NSFindAgent.GetDefaultOrderBy
 keywords: NSFindAgent, GetDefaultOrderBy
 so.topic: reference
@@ -20,6 +20,6 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveOrderByInfoArray res = agent.GetDefaultOrderBy(storageType, providerName, storageKey);
+ArchiveOrderByInfo[] res = agent.GetDefaultOrderBy(storageType, providerName, storageKey);
 ```
 

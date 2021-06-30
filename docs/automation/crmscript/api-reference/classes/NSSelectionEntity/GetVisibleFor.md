@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionEntity_GetVisibleFor
-title: VisibleForArray GetVisibleFor()
+title: VisibleFor[] GetVisibleFor()
 intellisense: NSSelectionEntity.GetVisibleFor
 keywords: NSSelectionEntity, GetVisibleFor
 so.topic: reference

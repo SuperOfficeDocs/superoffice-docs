@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveRestrictionInfo_SetSubRestrictions
-title: SetSubRestrictions(ArchiveRestrictionInfoArray subRestrictions)
+title: SetSubRestrictions(ArchiveRestrictionInfo[] subRestrictions)
 intellisense: NSArchiveRestrictionInfo.SetSubRestrictions
 keywords: NSArchiveRestrictionInfo, GetSubRestrictions
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Optional collection of sub criteria, usually null but set for Saint counter fields
 
 **Parameter:** 
- - **subRestrictions** ArchiveRestrictionInfoArray
+ - **subRestrictions** ArchiveRestrictionInfo[]
 
 ```crmscript
 NSArchiveRestrictionInfo thing;
-ArchiveRestrictionInfoArray subRestrictions;
+ArchiveRestrictionInfo[] subRestrictions;
 thing.SetSubRestrictions(subRestrictions);
 ```
 

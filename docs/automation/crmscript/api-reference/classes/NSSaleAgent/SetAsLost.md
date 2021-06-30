@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_SetAsLost
-title: Void SetAsLost(IntegerArray saleIds)
+title: Void SetAsLost(Integer[] saleIds)
 intellisense: NSSaleAgent.SetAsLost
 keywords: NSSaleAgent, SetAsLost
 so.topic: reference

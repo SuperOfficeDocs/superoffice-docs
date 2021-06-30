@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_MoveToFolder
-title: Void MoveToFolder(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds, String targetFolder)
+title: Void MoveToFolder(EMailConnectionInfo connectionInfo, Integer[] messageServerIds, String targetFolder)
 intellisense: NSEMailAgent.MoveToFolder
 keywords: NSEMailAgent, MoveToFolder
 so.topic: reference

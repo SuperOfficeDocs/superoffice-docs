@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveRestrictionInfo_SetValues
-title: SetValues(StringArray values)
+title: SetValues(String[] values)
 intellisense: NSArchiveRestrictionInfo.SetValues
 keywords: NSArchiveRestrictionInfo, GetValues
 so.topic: reference
@@ -13,7 +13,7 @@ Value(s) to test against
 
 ```crmscript
 NSArchiveRestrictionInfo thing;
-StringArray values;
+String[] values;
 thing.SetValues(values);
 ```
 

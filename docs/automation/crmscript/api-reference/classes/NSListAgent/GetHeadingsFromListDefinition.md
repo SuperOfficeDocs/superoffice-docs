@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetHeadingsFromListDefinition
-title: HeadingEntityArray GetHeadingsFromListDefinition(Integer id)
+title: HeadingEntity[] GetHeadingsFromListDefinition(Integer id)
 intellisense: NSListAgent.GetHeadingsFromListDefinition
 keywords: NSListAgent, GetHeadingsFromListDefinition
 so.topic: reference
@@ -16,6 +16,6 @@ Gets headings for list resolved by the provided id.
 ```crmscript
 NSListAgent agent;
 Integer id;
-HeadingEntityArray res = agent.GetHeadingsFromListDefinition(id);
+HeadingEntity[] res = agent.GetHeadingsFromListDefinition(id);
 ```
 

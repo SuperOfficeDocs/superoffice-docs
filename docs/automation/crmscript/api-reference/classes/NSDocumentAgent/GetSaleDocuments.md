@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetSaleDocuments
-title: DocumentArray GetSaleDocuments(Integer saleId)
+title: Document[] GetSaleDocuments(Integer saleId)
 intellisense: NSDocumentAgent.GetSaleDocuments
 keywords: NSDocumentAgent, GetSaleDocuments
 so.topic: reference
@@ -16,6 +16,6 @@ Get all documents that are linked to the sale. I.e. the documents that are liste
 ```crmscript
 NSDocumentAgent agent;
 Integer saleId;
-DocumentArray res = agent.GetSaleDocuments(saleId);
+Document[] res = agent.GetSaleDocuments(saleId);
 ```
 

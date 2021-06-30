@@ -13,7 +13,7 @@ Gets document template properties.
 
 Returns key-value pairs with the requested properties.
 
-`StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)`
+`StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, String[] requestedProperties)`
 
 ## Parameters
 
@@ -27,6 +27,6 @@ Returns key-value pairs with the requested properties.
 ```crmscript
 NSListAgent agent;
 Integer documentTemplateId;
-StringArray requestedProperties;
+String[] requestedProperties;
 StringDictionary res = agent.GetDocumentTemplateProperties(documentTemplateId, requestedProperties);
 ```

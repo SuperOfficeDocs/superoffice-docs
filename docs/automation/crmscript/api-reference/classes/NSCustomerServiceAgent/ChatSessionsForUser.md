@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCustomerServiceAgent_ChatSessionsForUser
-title: ChatSessionArray ChatSessionsForUser()
+title: ChatSession[] ChatSessionsForUser()
 intellisense: NSCustomerServiceAgent.ChatSessionsForUser
 keywords: NSCustomerServiceAgent, ChatSessionsForUser
 so.topic: reference
@@ -13,6 +13,6 @@ Get all chat TOPICS which this user is a member of. Members means that you have 
 
 ```crmscript
 NSCustomerServiceAgent agent;
-ChatSessionArray res = agent.ChatSessionsForUser();
+ChatSession[] res = agent.ChatSessionsForUser();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetUpcomingSales
-title: SaleArray GetUpcomingSales(Integer weightedAmountLimit, Integer count)
+title: Sale[] GetUpcomingSales(Integer weightedAmountLimit, Integer count)
 intellisense: NSSaleAgent.GetUpcomingSales
 keywords: NSSaleAgent, GetUpcomingSales
 so.topic: reference
@@ -18,6 +18,6 @@ Returns all open sales, sorted descending with the latest first.  If the weigthe
 NSSaleAgent agent;
 Integer weightedAmountLimit;
 Integer count;
-SaleArray res = agent.GetUpcomingSales(weightedAmountLimit, count);
+Sale[] res = agent.GetUpcomingSales(weightedAmountLimit, count);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportLine_SetValues
-title: SetValues(StringArray values)
+title: SetValues(String[] values)
 intellisense: NSImportLine.SetValues
 keywords: NSImportLine, GetValues
 so.topic: reference
@@ -13,7 +13,7 @@ An array of the values that will be imported on the entity
 
 ```crmscript
 NSImportLine thing;
-StringArray values;
+String[] values;
 thing.SetValues(values);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetPersonAppointmentsByTaskHeading
-title: AppointmentArray GetPersonAppointmentsByTaskHeading(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+title: Appointment[] GetPersonAppointmentsByTaskHeading(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetPersonAppointmentsByTaskHeading
 keywords: NSAppointmentAgent, GetPersonAppointmentsByTaskHeading
 so.topic: reference
@@ -26,6 +26,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer taskHeadingId;
-AppointmentArray res = agent.GetPersonAppointmentsByTaskHeading(personId, includeProjectAppointments, startTime, endTime, count, taskHeadingId);
+Appointment[] res = agent.GetPersonAppointmentsByTaskHeading(personId, includeProjectAppointments, startTime, endTime, count, taskHeadingId);
 ```
 

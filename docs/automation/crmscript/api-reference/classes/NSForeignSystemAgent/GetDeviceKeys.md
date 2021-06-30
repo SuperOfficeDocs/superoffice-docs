@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys
-title: ForeignKeyArray GetDeviceKeys(String applicationName, String deviceName)
+title: ForeignKey[] GetDeviceKeys(String applicationName, String deviceName)
 intellisense: NSForeignSystemAgent.GetDeviceKeys
 keywords: NSForeignSystemAgent, GetDeviceKeys
 so.topic: reference
@@ -18,6 +18,6 @@ Returns all ForeignKeys that belong to a device.
 NSForeignSystemAgent agent;
 String applicationName;
 String deviceName;
-ForeignKeyArray res = agent.GetDeviceKeys(applicationName, deviceName);
+ForeignKey[] res = agent.GetDeviceKeys(applicationName, deviceName);
 ```
 

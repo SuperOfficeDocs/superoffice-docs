@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetListItemsForHeading
-title: Void SetListItemsForHeading(Integer udListDefinitionId, Integer headingId, IntegerArray listItemIds, Bool enable)
+title: Void SetListItemsForHeading(Integer udListDefinitionId, Integer headingId, Integer[] listItemIds, Bool enable)
 intellisense: NSListAgent.SetListItemsForHeading
 keywords: NSListAgent, SetListItemsForHeading
 so.topic: reference

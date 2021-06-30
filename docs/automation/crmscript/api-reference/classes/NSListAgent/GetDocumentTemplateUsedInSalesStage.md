@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInSalesStage
-title: StringArray GetDocumentTemplateUsedInSalesStage(Integer documentTemplateId)
+title: String[] GetDocumentTemplateUsedInSalesStage(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateUsedInSalesStage
 keywords: NSListAgent, GetDocumentTemplateUsedInSalesStage
 so.topic: reference
@@ -16,6 +16,6 @@ Get a String array of names in sales guide that this template is used in
 ```crmscript
 NSListAgent agent;
 Integer documentTemplateId;
-StringArray res = agent.GetDocumentTemplateUsedInSalesStage(documentTemplateId);
+String[] res = agent.GetDocumentTemplateUsedInSalesStage(documentTemplateId);
 ```
 

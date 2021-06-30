@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_GetLicenseOwners
-title: LicenseOwnerArray GetLicenseOwners()
+title: LicenseOwner[] GetLicenseOwners()
 intellisense: NSSatellite.GetLicenseOwners
 keywords: NSSatellite, GetLicenseOwners
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user
 
-**Returns:** LicenseOwnerArray
+**Returns:** LicenseOwner[]
 
 
 ```crmscript
 NSSatellite thing;
-LicenseOwnerArray licenseOwners  = thing.GetLicenseOwners();
+LicenseOwner[] licenseOwners  = thing.GetLicenseOwners();
 ```
 
 

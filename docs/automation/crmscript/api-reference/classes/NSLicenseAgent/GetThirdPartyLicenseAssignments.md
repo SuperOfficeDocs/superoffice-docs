@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_GetThirdPartyLicenseAssignments
-title: ModuleLicenseLinkArray GetThirdPartyLicenseAssignments(Integer associateId, String moduleOwner)
+title: ModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer associateId, String moduleOwner)
 intellisense: NSLicenseAgent.GetThirdPartyLicenseAssignments
 keywords: NSLicenseAgent, GetThirdPartyLicenseAssignments
 so.topic: reference
@@ -18,6 +18,6 @@ Get license assignments for an associate for licenses belonging to an other modu
 NSLicenseAgent agent;
 Integer associateId;
 String moduleOwner;
-ModuleLicenseLinkArray res = agent.GetThirdPartyLicenseAssignments(associateId, moduleOwner);
+ModuleLicenseLink[] res = agent.GetThirdPartyLicenseAssignments(associateId, moduleOwner);
 ```
 

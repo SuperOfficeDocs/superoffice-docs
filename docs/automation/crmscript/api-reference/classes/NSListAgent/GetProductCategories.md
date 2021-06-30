@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetProductCategories
-title: ProductCategoryArray GetProductCategories()
+title: ProductCategory[] GetProductCategories()
 intellisense: NSListAgent.GetProductCategories
 keywords: NSListAgent, GetProductCategories
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all ProductCategories in SuperOffice list.
 
 ```crmscript
 NSListAgent agent;
-ProductCategoryArray res = agent.GetProductCategories();
+ProductCategory[] res = agent.GetProductCategories();
 ```
 

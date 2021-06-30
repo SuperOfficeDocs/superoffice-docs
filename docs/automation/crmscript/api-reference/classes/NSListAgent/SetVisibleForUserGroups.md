@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetVisibleForUserGroups
-title: SelectableMDOListItemArray SetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItemArray userGroups)
+title: SelectableMDOListItem[] SetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItem[] userGroups)
 intellisense: NSListAgent.SetVisibleForUserGroups
 keywords: NSListAgent, SetVisibleForUserGroups
 so.topic: reference
@@ -19,7 +19,7 @@ Update User groups that this list item is visible for
 NSListAgent agent;
 Integer udListDefinitionId;
 Integer listItemId;
-SelectableMDOListItemArray userGroups;
-SelectableMDOListItemArray res = agent.SetVisibleForUserGroups(udListDefinitionId, listItemId, userGroups);
+SelectableMDOListItem[] userGroups;
+SelectableMDOListItem[] res = agent.SetVisibleForUserGroups(udListDefinitionId, listItemId, userGroups);
 ```
 

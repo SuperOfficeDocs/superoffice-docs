@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_SetChosenColumnsV2
-title: Void SetChosenColumnsV2(String guiName, String providerName, String context, String ownerKeys, StringArray chosenColumns)
+title: Void SetChosenColumnsV2(String guiName, String providerName, String context, String ownerKeys, String[] chosenColumns)
 intellisense: NSArchiveAgent.SetChosenColumnsV2
 keywords: NSArchiveAgent, SetChosenColumnsV2
 so.topic: reference

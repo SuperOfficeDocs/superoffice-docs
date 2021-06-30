@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_AddProjectMembers
-title: Void AddProjectMembers(Integer projectEntityId, ProjectMemberArray projectMembers)
+title: Void AddProjectMembers(Integer projectEntityId, ProjectMember[] projectMembers)
 intellisense: NSProjectAgent.AddProjectMembers
 keywords: NSProjectAgent, AddProjectMembers
 so.topic: reference

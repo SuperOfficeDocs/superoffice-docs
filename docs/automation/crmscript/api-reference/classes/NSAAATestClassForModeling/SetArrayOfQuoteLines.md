@@ -12,7 +12,7 @@ The QuoteLines this alternative consists of.
 
 
 
-* **ArrayOfQuoteLines:** QuoteLineArray
-* **Returns:** QuoteLineArray
+* **ArrayOfQuoteLines:** QuoteLine[]
+* **Returns:** QuoteLine[]
 
 

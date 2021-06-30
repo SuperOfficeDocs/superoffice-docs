@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveListByColumnsWithHeader
-title: ArchiveListResult GetArchiveListByColumnsWithHeader(String providerName, StringArray columns, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restriction, StringArray entities, Integer page, Integer pageSize, String options)
+title: ArchiveListResult GetArchiveListByColumnsWithHeader(String providerName, String[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize, String options)
 intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeader
 keywords: NSArchiveAgent, GetArchiveListByColumnsWithHeader
 so.topic: reference
@@ -23,10 +23,10 @@ Get a page of results for an archive list, explicitly specifying the restriction
 ```crmscript
 NSArchiveAgent agent;
 String providerName;
-StringArray columns;
-ArchiveOrderByInfoArray sortOrder;
-ArchiveRestrictionInfoArray restriction;
-StringArray entities;
+String[] columns;
+ArchiveOrderByInfo[] sortOrder;
+ArchiveRestrictionInfo[] restriction;
+String[] entities;
 Integer page;
 Integer pageSize;
 String options;

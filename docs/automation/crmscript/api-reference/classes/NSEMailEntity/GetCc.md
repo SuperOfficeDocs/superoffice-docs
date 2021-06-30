@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetCc
-title: EMailAddressArray GetCc()
+title: EMailAddress[] GetCc()
 intellisense: NSEMailEntity.GetCc
 keywords: NSEMailEntity, GetCc
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Cc recipients of e-mail
 
-**Returns:** EMailAddressArray
+**Returns:** EMailAddress[]
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailAddressArray cc  = thing.GetCc();
+EMailAddress[] cc  = thing.GetCc();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_GetChatMessages
-title: ChatMessageArray GetChatMessages(Integer chatSessionId, Integer after)
+title: ChatMessage[] GetChatMessages(Integer chatSessionId, Integer after)
 intellisense: NSChatAgent.GetChatMessages
 keywords: NSChatAgent, GetChatMessages
 so.topic: reference
@@ -18,6 +18,6 @@ Get all or some of the messages in a chat session
 NSChatAgent agent;
 Integer chatSessionId;
 Integer after;
-ChatMessageArray res = agent.GetChatMessages(chatSessionId, after);
+ChatMessage[] res = agent.GetChatMessages(chatSessionId, after);
 ```
 

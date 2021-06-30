@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetAppointmentsByTaskHeading
-title: AppointmentArray GetAppointmentsByTaskHeading(Integer taskHeadingId)
+title: Appointment[] GetAppointmentsByTaskHeading(Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetAppointmentsByTaskHeading
 keywords: NSAppointmentAgent, GetAppointmentsByTaskHeading
 so.topic: reference
@@ -16,6 +16,6 @@ Method that returns appointments of a specific appointment task heading. Task re
 ```crmscript
 NSAppointmentAgent agent;
 Integer taskHeadingId;
-AppointmentArray res = agent.GetAppointmentsByTaskHeading(taskHeadingId);
+Appointment[] res = agent.GetAppointmentsByTaskHeading(taskHeadingId);
 ```
 

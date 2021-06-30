@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetFolderList
-title: StringArray GetFolderList(EMailConnectionInfo connectionInfo, Bool includeItemCount)
+title: String[] GetFolderList(EMailConnectionInfo connectionInfo, Bool includeItemCount)
 intellisense: NSEMailAgent.GetFolderList
 keywords: NSEMailAgent, GetFolderList
 so.topic: reference
@@ -18,6 +18,6 @@ Retrieve all folders for the mail account. String is separated in sections by th
 NSEMailAgent agent;
 EMailConnectionInfo connectionInfo;
 Bool includeItemCount;
-StringArray res = agent.GetFolderList(connectionInfo, includeItemCount);
+String[] res = agent.GetFolderList(connectionInfo, includeItemCount);
 ```
 

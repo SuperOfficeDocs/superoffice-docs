@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetTasks
-title: TaskArray GetTasks()
+title: Task[] GetTasks()
 intellisense: NSListAgent.GetTasks
 keywords: NSListAgent, GetTasks
 so.topic: reference
@@ -13,6 +13,6 @@ Returns all appointment tasks
 
 ```crmscript
 NSListAgent agent;
-TaskArray res = agent.GetTasks();
+Task[] res = agent.GetTasks();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFieldValueInfo_SetControlInfos
-title: SetControlInfos(ControlInfoArray controlInfos)
+title: SetControlInfos(ControlInfo[] controlInfos)
 intellisense: NSFieldValueInfo.SetControlInfos
 keywords: NSFieldValueInfo, GetControlInfos
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Array of the controlinfos
 
 **Parameter:** 
- - **controlInfos** ControlInfoArray
+ - **controlInfos** ControlInfo[]
 
 ```crmscript
 NSFieldValueInfo thing;
-ControlInfoArray controlInfos;
+ControlInfo[] controlInfos;
 thing.SetControlInfos(controlInfos);
 ```
 

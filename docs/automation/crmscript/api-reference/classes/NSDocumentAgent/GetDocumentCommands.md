@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetDocumentCommands
-title: CommandInfoArray GetDocumentCommands(Integer documentId, StringArray allowedReturnTypes)
+title: CommandInfo[] GetDocumentCommands(Integer documentId, String[] allowedReturnTypes)
 intellisense: NSDocumentAgent.GetDocumentCommands
 keywords: NSDocumentAgent, GetDocumentCommands
 so.topic: reference
@@ -17,7 +17,7 @@ Get a list of custom commands valid for the specific document at this time. This
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-StringArray allowedReturnTypes;
-CommandInfoArray res = agent.GetDocumentCommands(documentId, allowedReturnTypes);
+String[] allowedReturnTypes;
+CommandInfo[] res = agent.GetDocumentCommands(documentId, allowedReturnTypes);
 ```
 

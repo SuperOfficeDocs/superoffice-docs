@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSalesActivity_SetRequestedContacts
-title: SetRequestedContacts(ContactArray requestedContacts)
+title: SetRequestedContacts(Contact[] requestedContacts)
 intellisense: NSSalesActivity.SetRequestedContacts
 keywords: NSSalesActivity, GetRequestedContacts
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The companies that match the request
 
 **Parameter:** 
- - **requestedContacts** ContactArray
+ - **requestedContacts** Contact[]
 
 ```crmscript
 NSSalesActivity thing;
-ContactArray requestedContacts;
+Contact[] requestedContacts;
 thing.SetRequestedContacts(requestedContacts);
 ```
 

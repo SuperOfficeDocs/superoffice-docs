@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetMyRecentContacts
-title: ContactArray GetMyRecentContacts(Integer sourceType)
+title: Contact[] GetMyRecentContacts(Integer sourceType)
 intellisense: NSContactAgent.GetMyRecentContacts
 keywords: NSContactAgent, GetMyRecentContacts
 so.topic: reference
@@ -21,6 +21,6 @@ Method that returns a set of initial contacts. This could be the contacts in a f
 ```crmscript
 NSContactAgent agent;
 Integer sourceType;
-ContactArray res = agent.GetMyRecentContacts(sourceType);
+Contact[] res = agent.GetMyRecentContacts(sourceType);
 ```
 

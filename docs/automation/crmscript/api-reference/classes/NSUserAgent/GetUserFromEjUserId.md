@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetUserFromEjUserId
-title: UserArray GetUserFromEjUserId(Integer ejUserId)
+title: User[] GetUserFromEjUserId(Integer ejUserId)
 intellisense: NSUserAgent.GetUserFromEjUserId
 keywords: NSUserAgent, GetUserFromEjUserId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses
-title: AddressArray GetQuoteVersionAddresses(Integer quoteVersionId)
+title: Address[] GetQuoteVersionAddresses(Integer quoteVersionId)
 intellisense: NSContactAgent.GetQuoteVersionAddresses
 keywords: NSContactAgent, GetQuoteVersionAddresses
 so.topic: reference
@@ -16,6 +16,6 @@ Get the associated billing and invoice quote version addresses. These addresses 
 ```crmscript
 NSContactAgent agent;
 Integer quoteVersionId;
-AddressArray res = agent.GetQuoteVersionAddresses(quoteVersionId);
+Address[] res = agent.GetQuoteVersionAddresses(quoteVersionId);
 ```
 

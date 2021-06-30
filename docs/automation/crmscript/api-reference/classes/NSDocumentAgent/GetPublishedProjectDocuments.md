@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPublishedProjectDocuments
-title: DocumentArray GetPublishedProjectDocuments(Integer projectId)
+title: Document[] GetPublishedProjectDocuments(Integer projectId)
 intellisense: NSDocumentAgent.GetPublishedProjectDocuments
 keywords: NSDocumentAgent, GetPublishedProjectDocuments
 so.topic: reference
@@ -16,6 +16,6 @@ Get published appointment documents by project id.
 ```crmscript
 NSDocumentAgent agent;
 Integer projectId;
-DocumentArray res = agent.GetPublishedProjectDocuments(projectId);
+Document[] res = agent.GetPublishedProjectDocuments(projectId);
 ```
 

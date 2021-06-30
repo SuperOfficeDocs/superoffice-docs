@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveAllFromListName
-title: ListItemEntityArray SaveAllFromListName(String udListDefinitionName, ListItemEntityArray items)
+title: ListItemEntity[] SaveAllFromListName(String udListDefinitionName, ListItemEntity[] items)
 intellisense: NSListAgent.SaveAllFromListName
 keywords: NSListAgent, SaveAllFromListName
 so.topic: reference
@@ -17,7 +17,7 @@ Save all list items for the specified list defintion
 ```crmscript
 NSListAgent agent;
 String udListDefinitionName;
-ListItemEntityArray items;
-ListItemEntityArray res = agent.SaveAllFromListName(udListDefinitionName, items);
+ListItemEntity[] items;
+ListItemEntity[] res = agent.SaveAllFromListName(udListDefinitionName, items);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_PopulateRestrictions
-title: ArchiveRestrictionInfoArray PopulateRestrictions(String providerName, ArchiveRestrictionInfoArray restrictions)
+title: ArchiveRestrictionInfo[] PopulateRestrictions(String providerName, ArchiveRestrictionInfo[] restrictions)
 intellisense: NSFindAgent.PopulateRestrictions
 keywords: NSFindAgent, PopulateRestrictions
 so.topic: reference
@@ -17,7 +17,7 @@ Take an incoming set of minimally populated restrictions (name + operator is req
 ```crmscript
 NSFindAgent agent;
 String providerName;
-ArchiveRestrictionInfoArray restrictions;
-ArchiveRestrictionInfoArray res = agent.PopulateRestrictions(providerName, restrictions);
+ArchiveRestrictionInfo[] restrictions;
+ArchiveRestrictionInfo[] res = agent.PopulateRestrictions(providerName, restrictions);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteAlternatives
-title: QuoteAlternativeArray GetQuoteAlternatives(Integer quoteVersionId)
+title: QuoteAlternative[] GetQuoteAlternatives(Integer quoteVersionId)
 intellisense: NSQuoteAgent.GetQuoteAlternatives
 keywords: NSQuoteAgent, GetQuoteAlternatives
 so.topic: reference
@@ -16,6 +16,6 @@ Get all quote alternatives for a quote version
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteVersionId;
-QuoteAlternativeArray res = agent.GetQuoteAlternatives(quoteVersionId);
+QuoteAlternative[] res = agent.GetQuoteAlternatives(quoteVersionId);
 ```
 

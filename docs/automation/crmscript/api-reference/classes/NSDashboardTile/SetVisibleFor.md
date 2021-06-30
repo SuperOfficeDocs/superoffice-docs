@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardTile_SetVisibleFor
-title: SetVisibleFor(VisibleForArray visibleFor)
+title: SetVisibleFor(VisibleFor[] visibleFor)
 intellisense: NSDashboardTile.SetVisibleFor
 keywords: NSDashboardTile, SetVisibleFor
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Set the usergroups and/or users the DashboardTile item is visible for.
 
 **Parameter:** 
- - **visibleFor** VisibleForArray of one or more users + usergroups.
+ - **visibleFor** VisibleFor[] of one or more users + usergroups.
 
 ```crmscript
 NSDashboardTile thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportAgent_CreateErpImportData
-title: ImportErpData CreateErpImportData(ArchiveRestrictionInfoArray restriction, StringArray columns, Integer connectionId, Integer erpActorType)
+title: ImportErpData CreateErpImportData(ArchiveRestrictionInfo[] restriction, String[] columns, Integer connectionId, Integer erpActorType)
 intellisense: NSImportAgent.CreateErpImportData
 keywords: NSImportAgent, CreateErpImportData
 so.topic: reference
@@ -26,8 +26,8 @@ Populates the ImportLines and columnDefs basedfrom erp system
 
 ```crmscript
 NSImportAgent agent;
-ArchiveRestrictionInfoArray restriction;
-StringArray columns;
+ArchiveRestrictionInfo[] restriction;
+String[] columns;
 Integer connectionId;
 Integer erpActorType;
 ImportErpData res = agent.CreateErpImportData(restriction, columns, connectionId, erpActorType);

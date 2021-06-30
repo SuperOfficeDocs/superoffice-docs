@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_SaveHistories
-title: HistoryArray SaveHistories(String historyName, HistoryArray history)
+title: History[] SaveHistories(String historyName, History[] history)
 intellisense: NSViewStateAgent.SaveHistories
 keywords: NSViewStateAgent, SaveHistories
 so.topic: reference
@@ -17,7 +17,7 @@ Replaces the existing history-list for the currently logged in user. All element
 ```crmscript
 NSViewStateAgent agent;
 String historyName;
-HistoryArray history;
-HistoryArray res = agent.SaveHistories(historyName, history);
+History[] history;
+History[] res = agent.SaveHistories(historyName, history);
 ```
 

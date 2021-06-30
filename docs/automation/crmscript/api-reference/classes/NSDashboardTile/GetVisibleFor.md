@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardTile_GetVisibleFor
-title: VisibleForArray GetVisibleFor()
+title: VisibleFor[] GetVisibleFor()
 intellisense: NSDashboardTile.GetVisibleFor
 keywords: NSDashboardTile, GetVisibleFor
 so.topic: reference

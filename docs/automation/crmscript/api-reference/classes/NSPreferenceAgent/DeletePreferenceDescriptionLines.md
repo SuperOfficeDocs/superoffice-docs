@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescriptionLines
-title: Void DeletePreferenceDescriptionLines(IntegerArray prefDescLineIds)
+title: Void DeletePreferenceDescriptionLines(Integer[] prefDescLineIds)
 intellisense: NSPreferenceAgent.DeletePreferenceDescriptionLines
 keywords: NSPreferenceAgent, DeletePreferenceDescriptionLines
 so.topic: reference
@@ -15,7 +15,7 @@ Delete the PrefDescLines in the SuperOffice database
 
 ```crmscript
 NSPreferenceAgent agent;
-IntegerArray prefDescLineIds;
+Integer[] prefDescLineIds;
 Void res = agent.DeletePreferenceDescriptionLines(prefDescLineIds);
 ```
 

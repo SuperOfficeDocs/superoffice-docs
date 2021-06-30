@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetProjectsFromContact
-title: ProjectArray GetProjectsFromContact(Integer contactId)
+title: Project[] GetProjectsFromContact(Integer contactId)
 intellisense: NSProjectAgent.GetProjectsFromContact
 keywords: NSProjectAgent, GetProjectsFromContact
 so.topic: reference
@@ -16,6 +16,6 @@ Returns all projects where the given contact has projectmembers.
 ```crmscript
 NSProjectAgent agent;
 Integer contactId;
-ProjectArray res = agent.GetProjectsFromContact(contactId);
+Project[] res = agent.GetProjectsFromContact(contactId);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPocketStartupData_GetPocketPreferences
-title: PreferenceArray GetPocketPreferences()
+title: Preference[] GetPocketPreferences()
 intellisense: NSPocketStartupData.GetPocketPreferences
 keywords: NSPocketStartupData, GetPocketPreferences
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 All Pocket specific preferences, including WebPanels defined by the user in Pocket
 
-**Returns:** PreferenceArray
+**Returns:** Preference[]
 
 
 ```crmscript
 NSPocketStartupData thing;
-PreferenceArray pocketPreferences  = thing.GetPocketPreferences();
+Preference[] pocketPreferences  = thing.GetPocketPreferences();
 ```
 
 

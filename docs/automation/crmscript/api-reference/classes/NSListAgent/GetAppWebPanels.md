@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAppWebPanels
-title: WebPanelEntityArray GetAppWebPanels()
+title: WebPanelEntity[] GetAppWebPanels()
 intellisense: NSListAgent.GetAppWebPanels
 keywords: NSListAgent, GetAppWebPanels
 so.topic: reference
@@ -13,6 +13,6 @@ Get all web panels owned by your app; works in Online only, for registered Apps 
 
 ```crmscript
 NSListAgent agent;
-WebPanelEntityArray res = agent.GetAppWebPanels();
+WebPanelEntity[] res = agent.GetAppWebPanels();
 ```
 

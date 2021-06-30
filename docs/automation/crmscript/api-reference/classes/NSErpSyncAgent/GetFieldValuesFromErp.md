@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetFieldValuesFromErp
-title: ErpSyncFieldValueArray GetFieldValuesFromErp(Integer erpConnectionId, Integer actorTypeErp, String erpKey)
+title: ErpSyncFieldValue[] GetFieldValuesFromErp(Integer erpConnectionId, Integer actorTypeErp, String erpKey)
 intellisense: NSErpSyncAgent.GetFieldValuesFromErp
 keywords: NSErpSyncAgent, GetFieldValuesFromErp
 so.topic: reference
@@ -28,6 +28,6 @@ NSErpSyncAgent agent;
 Integer erpConnectionId;
 Integer actorTypeErp;
 String erpKey;
-ErpSyncFieldValueArray res = agent.GetFieldValuesFromErp(erpConnectionId, actorTypeErp, erpKey);
+ErpSyncFieldValue[] res = agent.GetFieldValuesFromErp(erpConnectionId, actorTypeErp, erpKey);
 ```
 

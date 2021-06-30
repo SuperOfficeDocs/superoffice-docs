@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetEMailFromDocumentAttachmentId
-title: EMailEntity GetEMailFromDocumentAttachmentId(Integer docId, StringArray attachmentIds, Bool includeAttachments)
+title: EMailEntity GetEMailFromDocumentAttachmentId(Integer docId, String[] attachmentIds, Bool includeAttachments)
 intellisense: NSEMailAgent.GetEMailFromDocumentAttachmentId
 keywords: NSEMailAgent, GetEMailFromDocumentAttachmentId
 so.topic: reference
@@ -18,7 +18,7 @@ Get an e-mail based on an email in the archive system and attachment id
 ```crmscript
 NSEMailAgent agent;
 Integer docId;
-StringArray attachmentIds;
+String[] attachmentIds;
 Bool includeAttachments;
 EMailEntity res = agent.GetEMailFromDocumentAttachmentId(docId, attachmentIds, includeAttachments);
 ```

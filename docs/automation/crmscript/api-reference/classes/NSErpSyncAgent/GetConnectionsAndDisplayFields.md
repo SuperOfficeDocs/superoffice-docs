@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields
-title: ErpConnectionDataArray GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
+title: ErpConnectionData[] GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
 intellisense: NSErpSyncAgent.GetConnectionsAndDisplayFields
 keywords: NSErpSyncAgent, GetConnectionsAndDisplayFields
 so.topic: reference
@@ -23,6 +23,6 @@ Get all connection statuses and fields for a given entity
 NSErpSyncAgent agent;
 Integer crmActorType;
 Integer entityId;
-ErpConnectionDataArray res = agent.GetConnectionsAndDisplayFields(crmActorType, entityId);
+ErpConnectionData[] res = agent.GetConnectionsAndDisplayFields(crmActorType, entityId);
 ```
 

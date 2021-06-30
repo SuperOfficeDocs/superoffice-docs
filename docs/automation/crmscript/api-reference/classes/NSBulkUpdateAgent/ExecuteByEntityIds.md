@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBulkUpdateAgent_ExecuteByEntityIds
-title: Integer ExecuteByEntityIds(FieldValueInfoArray fieldValueInfos, String tableName, String context, String ids)
+title: Integer ExecuteByEntityIds(FieldValueInfo[] fieldValueInfos, String tableName, String context, String ids)
 intellisense: NSBulkUpdateAgent.ExecuteByEntityIds
 keywords: NSBulkUpdateAgent, ExecuteByEntityIds
 so.topic: reference
@@ -18,7 +18,7 @@ Do the batchupdate on selected
 
 ```crmscript
 NSBulkUpdateAgent agent;
-FieldValueInfoArray fieldValueInfos;
+FieldValueInfo[] fieldValueInfos;
 String tableName;
 String context;
 String ids;

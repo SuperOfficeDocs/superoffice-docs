@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_GetPhoneMobile
-title: StringArray GetPhoneMobile()
+title: String[] GetPhoneMobile()
 intellisense: NSParticipantSyncData.GetPhoneMobile
 keywords: NSParticipantSyncData, GetPhoneMobile
 so.topic: reference
@@ -13,7 +13,7 @@ Returns a collection of mobile phone numbers that belong to the contact person.
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray phoneMobile  = thing.GetPhoneMobile();
+String[] phoneMobile  = thing.GetPhoneMobile();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetOfficePhones
-title: SetOfficePhones(EntityElementArray officePhones)
+title: SetOfficePhones(EntityElement[] officePhones)
 intellisense: NSPersonEntity.SetOfficePhones
 keywords: NSPersonEntity, GetOfficePhones
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Returns a collection of office phone numbers that belong to the contact person.
 
 **Parameter:** 
- - **officePhones** EntityElementArray
+ - **officePhones** EntityElement[]
 
 ```crmscript
 NSPersonEntity thing;
-EntityElementArray officePhones;
+EntityElement[] officePhones;
 thing.SetOfficePhones(officePhones);
 ```
 

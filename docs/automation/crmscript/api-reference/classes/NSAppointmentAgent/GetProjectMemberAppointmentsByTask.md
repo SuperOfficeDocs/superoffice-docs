@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetProjectMemberAppointmentsByTask
-title: AppointmentArray GetProjectMemberAppointmentsByTask(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+title: Appointment[] GetProjectMemberAppointmentsByTask(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
 intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTask
 keywords: NSAppointmentAgent, GetProjectMemberAppointmentsByTask
 so.topic: reference
@@ -24,6 +24,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer taskId;
-AppointmentArray res = agent.GetProjectMemberAppointmentsByTask(personId, startTime, endTime, count, taskId);
+Appointment[] res = agent.GetProjectMemberAppointmentsByTask(personId, startTime, endTime, count, taskId);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_SetNonDates
-title: SetNonDates(DateTimeArray nonDates)
+title: SetNonDates(DateTime[] nonDates)
 intellisense: NSTicketPriorityEntity.SetNonDates
 keywords: NSTicketPriorityEntity, GetNonDates
 so.topic: reference
@@ -13,7 +13,7 @@ Dates which the escalation time should not be running. Note that only the day of
 
 ```crmscript
 NSTicketPriorityEntity thing;
-DateTimeArray nonDates;
+DateTime[] nonDates;
 thing.SetNonDates(nonDates);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_FindFromRestrictionsColumnsOrderBy
-title: FindResults FindFromRestrictionsColumnsOrderBy(ArchiveRestrictionInfoArray restrictions, String providerName, StringArray desiredColumns, ArchiveOrderByInfoArray orderBy, Integer pageSize, Integer pageNumber)
+title: FindResults FindFromRestrictionsColumnsOrderBy(ArchiveRestrictionInfo[] restrictions, String providerName, String[] desiredColumns, ArchiveOrderByInfo[] orderBy, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.FindFromRestrictionsColumnsOrderBy
 keywords: NSFindAgent, FindFromRestrictionsColumnsOrderBy
 so.topic: reference
@@ -20,10 +20,10 @@ Execute a Find operation and return a page of results. <para/>The criteria for t
 
 ```crmscript
 NSFindAgent agent;
-ArchiveRestrictionInfoArray restrictions;
+ArchiveRestrictionInfo[] restrictions;
 String providerName;
-StringArray desiredColumns;
-ArchiveOrderByInfoArray orderBy;
+String[] desiredColumns;
+ArchiveOrderByInfo[] orderBy;
 Integer pageSize;
 Integer pageNumber;
 FindResults res = agent.FindFromRestrictionsColumnsOrderBy(restrictions, providerName, desiredColumns, orderBy, pageSize, pageNumber);

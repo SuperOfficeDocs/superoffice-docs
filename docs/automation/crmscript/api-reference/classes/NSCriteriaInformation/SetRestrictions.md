@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCriteriaInformation_SetRestrictions
-title: SetRestrictions(ArchiveRestrictionInfoArray restrictions)
+title: SetRestrictions(ArchiveRestrictionInfo[] restrictions)
 intellisense: NSCriteriaInformation.SetRestrictions
 keywords: NSCriteriaInformation, GetRestrictions
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Array of ArchiveRestrictionInfo restriction specifications (for the first restrictiongroup if there are more than one group
 
 **Parameter:** 
- - **restrictions** ArchiveRestrictionInfoArray
+ - **restrictions** ArchiveRestrictionInfo[]
 
 ```crmscript
 NSCriteriaInformation thing;
-ArchiveRestrictionInfoArray restrictions;
+ArchiveRestrictionInfo[] restrictions;
 thing.SetRestrictions(restrictions);
 ```
 

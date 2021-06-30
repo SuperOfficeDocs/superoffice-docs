@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPublishedDocuments
-title: DocumentArray GetPublishedDocuments(IntegerArray documentIds)
+title: Document[] GetPublishedDocuments(Integer[] documentIds)
 intellisense: NSDocumentAgent.GetPublishedDocuments
 keywords: NSDocumentAgent, GetPublishedDocuments
 so.topic: reference
@@ -15,7 +15,7 @@ Get the published documents from an array of doucment ids.
 
 ```crmscript
 NSDocumentAgent agent;
-IntegerArray documentIds;
-DocumentArray res = agent.GetPublishedDocuments(documentIds);
+Integer[] documentIds;
+Document[] res = agent.GetPublishedDocuments(documentIds);
 ```
 

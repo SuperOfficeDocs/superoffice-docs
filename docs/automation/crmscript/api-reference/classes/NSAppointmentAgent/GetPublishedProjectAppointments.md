@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments
-title: AppointmentArray GetPublishedProjectAppointments(Integer projectId)
+title: Appointment[] GetPublishedProjectAppointments(Integer projectId)
 intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
 keywords: NSAppointmentAgent, GetPublishedProjectAppointments
 so.topic: reference
@@ -16,6 +16,6 @@ Get published appointments by project id.
 ```crmscript
 NSAppointmentAgent agent;
 Integer projectId;
-AppointmentArray res = agent.GetPublishedProjectAppointments(projectId);
+Appointment[] res = agent.GetPublishedProjectAppointments(projectId);
 ```
 

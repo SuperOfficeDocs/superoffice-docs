@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetSimpleList
-title: MDOListItemArray GetSimpleList(String name)
+title: MDOListItem[] GetSimpleList(String name)
 intellisense: NSMDOAgent.GetSimpleList
 keywords: NSMDOAgent, GetSimpleList
 so.topic: reference
@@ -16,6 +16,6 @@ Method returns a simple flat MDO List.
 ```crmscript
 NSMDOAgent agent;
 String name;
-MDOListItemArray res = agent.GetSimpleList(name);
+MDOListItem[] res = agent.GetSimpleList(name);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_GetUserAgentList
-title: MDOListItemArray GetUserAgentList(Bool flat, Bool onlyPresent)
+title: MDOListItem[] GetUserAgentList(Bool flat, Bool onlyPresent)
 intellisense: NSChatAgent.GetUserAgentList
 keywords: NSChatAgent, GetUserAgentList
 so.topic: reference
@@ -18,6 +18,6 @@ Get list of users that can be assigned to chat topics. Users with Chat-CALs from
 NSChatAgent agent;
 Bool flat;
 Bool onlyPresent;
-MDOListItemArray res = agent.GetUserAgentList(flat, onlyPresent);
+MDOListItem[] res = agent.GetUserAgentList(flat, onlyPresent);
 ```
 

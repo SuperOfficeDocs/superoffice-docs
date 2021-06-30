@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetEMailAddresses
-title: EMailAddressArray GetEMailAddresses(IntegerArray emailIds)
+title: EMailAddress[] GetEMailAddresses(Integer[] emailIds)
 intellisense: NSEMailAgent.GetEMailAddresses
 keywords: NSEMailAgent, GetEMailAddresses
 so.topic: reference
@@ -15,7 +15,7 @@ Get information about one or more email addresses, identified by IDs
 
 ```crmscript
 NSEMailAgent agent;
-IntegerArray emailIds;
-EMailAddressArray res = agent.GetEMailAddresses(emailIds);
+Integer[] emailIds;
+EMailAddress[] res = agent.GetEMailAddresses(emailIds);
 ```
 

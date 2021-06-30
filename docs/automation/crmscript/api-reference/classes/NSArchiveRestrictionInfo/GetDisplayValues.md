@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveRestrictionInfo_GetDisplayValues
-title: StringArray GetDisplayValues()
+title: String[] GetDisplayValues()
 intellisense: NSArchiveRestrictionInfo.GetDisplayValues
 keywords: NSArchiveRestrictionInfo, GetDisplayValues
 so.topic: reference
@@ -13,7 +13,7 @@ Display representation of value(s) - list ID's are decoded to display texts, oth
 
 ```crmscript
 NSArchiveRestrictionInfo thing;
-StringArray displayValues  = thing.GetDisplayValues();
+String[] displayValues  = thing.GetDisplayValues();
 ```
 
 

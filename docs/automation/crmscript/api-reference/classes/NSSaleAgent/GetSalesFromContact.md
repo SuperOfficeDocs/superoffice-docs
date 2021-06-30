@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetSalesFromContact
-title: SaleArray GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
+title: Sale[] GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
 intellisense: NSSaleAgent.GetSalesFromContact
 keywords: NSSaleAgent, GetSalesFromContact
 so.topic: reference
@@ -18,6 +18,6 @@ Returns all sales for the contact provided.
 NSSaleAgent agent;
 Integer contactId;
 Bool onlyOpenSales;
-SaleArray res = agent.GetSalesFromContact(contactId, onlyOpenSales);
+Sale[] res = agent.GetSalesFromContact(contactId, onlyOpenSales);
 ```
 

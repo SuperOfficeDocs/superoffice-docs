@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSResourceAgent_IsResourceSubstitutionActive
-title: ResourceOverrideArray IsResourceSubstitutionActive(StringArray resourceNames, String culture)
+title: ResourceOverride[] IsResourceSubstitutionActive(String[] resourceNames, String culture)
 intellisense: NSResourceAgent.IsResourceSubstitutionActive
 keywords: NSResourceAgent, IsResourceSubstitutionActive
 so.topic: reference
@@ -16,8 +16,8 @@ Determine if resource substitution/override is active, globally or for a subset 
 
 ```crmscript
 NSResourceAgent agent;
-StringArray resourceNames;
+String[] resourceNames;
 String culture;
-ResourceOverrideArray res = agent.IsResourceSubstitutionActive(resourceNames, culture);
+ResourceOverride[] res = agent.IsResourceSubstitutionActive(resourceNames, culture);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetProjectMemberDocuments
-title: DocumentArray GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
+title: Document[] GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetProjectMemberDocuments
 keywords: NSDocumentAgent, GetProjectMemberDocuments
 so.topic: reference
@@ -22,6 +22,6 @@ Integer personId;
 DateTime startTime;
 DateTime endTime;
 Integer count;
-DocumentArray res = agent.GetProjectMemberDocuments(personId, startTime, endTime, count);
+Document[] res = agent.GetProjectMemberDocuments(personId, startTime, endTime, count);
 ```
 

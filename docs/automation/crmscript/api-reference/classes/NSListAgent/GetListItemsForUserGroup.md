@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetListItemsForUserGroup
-title: SelectableMDOListItemArray GetListItemsForUserGroup(Integer udListDefinitionId, Integer groupId)
+title: SelectableMDOListItem[] GetListItemsForUserGroup(Integer udListDefinitionId, Integer groupId)
 intellisense: NSListAgent.GetListItemsForUserGroup
 keywords: NSListAgent, GetListItemsForUserGroup
 so.topic: reference
@@ -18,6 +18,6 @@ List of list items that is visible in the usergroup
 NSListAgent agent;
 Integer udListDefinitionId;
 Integer groupId;
-SelectableMDOListItemArray res = agent.GetListItemsForUserGroup(udListDefinitionId, groupId);
+SelectableMDOListItem[] res = agent.GetListItemsForUserGroup(udListDefinitionId, groupId);
 ```
 

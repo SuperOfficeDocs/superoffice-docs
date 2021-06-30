@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPersonDocuments
-title: DocumentArray GetPersonDocuments(Integer personId)
+title: Document[] GetPersonDocuments(Integer personId)
 intellisense: NSDocumentAgent.GetPersonDocuments
 keywords: NSDocumentAgent, GetPersonDocuments
 so.topic: reference
@@ -16,6 +16,6 @@ Get all documents that are linked to the person. I.e. the documents that are lis
 ```crmscript
 NSDocumentAgent agent;
 Integer personId;
-DocumentArray res = agent.GetPersonDocuments(personId);
+Document[] res = agent.GetPersonDocuments(personId);
 ```
 

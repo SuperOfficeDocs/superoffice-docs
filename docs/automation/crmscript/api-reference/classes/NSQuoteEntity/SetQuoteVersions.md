@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteEntity_SetQuoteVersions
-title: SetQuoteVersions(QuoteVersionArray quoteVersions)
+title: SetQuoteVersions(QuoteVersion[] quoteVersions)
 intellisense: NSQuoteEntity.SetQuoteVersions
 keywords: NSQuoteEntity, GetQuoteVersions
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Array og QuoteVersions connected to the quote.
 
 **Parameter:** 
- - **quoteVersions** QuoteVersionArray
+ - **quoteVersions** QuoteVersion[]
 
 ```crmscript
 NSQuoteEntity thing;
-QuoteVersionArray quoteVersions;
+QuoteVersion[] quoteVersions;
 thing.SetQuoteVersions(quoteVersions);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_ConnectActor
-title: Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType, ErpSyncFieldValueArray fieldValues)
+title: Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType, ErpSyncFieldValue[] fieldValues)
 intellisense: NSErpSyncAgent.ConnectActor
 keywords: NSErpSyncAgent, ConnectActor
 so.topic: reference

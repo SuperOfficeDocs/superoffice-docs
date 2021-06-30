@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_SetUrl
-title: SetUrl(StringArray url)
+title: SetUrl(String[] url)
 intellisense: NSParticipantSyncData.SetUrl
 keywords: NSParticipantSyncData, GetUrl
 so.topic: reference
@@ -13,7 +13,7 @@ The urls related to this person.
 
 ```crmscript
 NSParticipantSyncData thing;
-StringArray url;
+String[] url;
 thing.SetUrl(url);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_GetTicketCategories
-title: MDOListItemArray GetTicketCategories()
+title: MDOListItem[] GetTicketCategories()
 intellisense: NSUser.GetTicketCategories
 keywords: NSUser, GetTicketCategories
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Request Ticket Categories assigned to the user. 
 
-**Returns:** MDOListItemArray
+**Returns:** MDOListItem[]
 
 
 ```crmscript
 NSUser thing;
-MDOListItemArray ticketCategories  = thing.GetTicketCategories();
+MDOListItem[] ticketCategories  = thing.GetTicketCategories();
 ```
 
 

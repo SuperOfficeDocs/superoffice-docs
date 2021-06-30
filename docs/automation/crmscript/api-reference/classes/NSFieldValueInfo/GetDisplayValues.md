@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFieldValueInfo_GetDisplayValues
-title: StringArray GetDisplayValues()
+title: String[] GetDisplayValues()
 intellisense: NSFieldValueInfo.GetDisplayValues
 keywords: NSFieldValueInfo, GetDisplayValues
 so.topic: reference
@@ -13,7 +13,7 @@ The displayvalues to be set on this field on this bulkupdate, used to resolve wh
 
 ```crmscript
 NSFieldValueInfo thing;
-StringArray displayValues  = thing.GetDisplayValues();
+String[] displayValues  = thing.GetDisplayValues();
 ```
 
 

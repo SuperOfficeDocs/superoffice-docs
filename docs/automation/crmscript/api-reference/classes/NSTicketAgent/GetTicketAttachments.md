@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketAgent_GetTicketAttachments
-title: AttachmentEntityArray GetTicketAttachments(Integer ticketEntityId)
+title: AttachmentEntity[] GetTicketAttachments(Integer ticketEntityId)
 intellisense: NSTicketAgent.GetTicketAttachments
 keywords: NSTicketAgent, GetTicketAttachments
 so.topic: reference
@@ -16,6 +16,6 @@ Get attachment infos for all attachments connected to messages in specified tick
 ```crmscript
 NSTicketAgent agent;
 Integer ticketEntityId;
-AttachmentEntityArray res = agent.GetTicketAttachments(ticketEntityId);
+AttachmentEntity[] res = agent.GetTicketAttachments(ticketEntityId);
 ```
 

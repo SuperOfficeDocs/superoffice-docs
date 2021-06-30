@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionGroups
-title: ArchiveRestrictionGroupArray SaveRestrictionGroups(String storageType, String providerName, String storageKey, ArchiveRestrictionGroupArray restrictionGroups, String context)
+title: ArchiveRestrictionGroup[] SaveRestrictionGroups(String storageType, String providerName, String storageKey, ArchiveRestrictionGroup[] restrictionGroups, String context)
 intellisense: NSFindAgent.SaveRestrictionGroups
 keywords: NSFindAgent, SaveRestrictionGroups
 so.topic: reference
@@ -22,8 +22,8 @@ NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionGroupArray restrictionGroups;
+ArchiveRestrictionGroup[] restrictionGroups;
 String context;
-ArchiveRestrictionGroupArray res = agent.SaveRestrictionGroups(storageType, providerName, storageKey, restrictionGroups, context);
+ArchiveRestrictionGroup[] res = agent.SaveRestrictionGroups(storageType, providerName, storageKey, restrictionGroups, context);
 ```
 

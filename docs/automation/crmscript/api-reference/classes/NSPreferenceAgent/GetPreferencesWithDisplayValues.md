@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferencesWithDisplayValues
-title: PreferenceArray GetPreferencesWithDisplayValues(PreferenceSpecArray specifications)
+title: Preference[] GetPreferencesWithDisplayValues(PreferenceSpec[] specifications)
 intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
 keywords: NSPreferenceAgent, GetPreferencesWithDisplayValues
 so.topic: reference
@@ -15,7 +15,7 @@ Get one or more preferences based on a set of specifications<br/>The PrefDisplay
 
 ```crmscript
 NSPreferenceAgent agent;
-PreferenceSpecArray specifications;
-PreferenceArray res = agent.GetPreferencesWithDisplayValues(specifications);
+PreferenceSpec[] specifications;
+Preference[] res = agent.GetPreferencesWithDisplayValues(specifications);
 ```
 

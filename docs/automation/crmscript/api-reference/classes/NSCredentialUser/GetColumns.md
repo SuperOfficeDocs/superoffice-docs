@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredentialUser_GetColumns
-title: StringArray GetColumns()
+title: String[] GetColumns()
 intellisense: NSCredentialUser.GetColumns
 keywords: NSCredentialUser, GetColumns
 so.topic: reference
@@ -13,7 +13,7 @@ Columns, matching CredentialUsers.Headings
 
 ```crmscript
 NSCredentialUser thing;
-StringArray columns  = thing.GetColumns();
+String[] columns  = thing.GetColumns();
 ```
 
 
