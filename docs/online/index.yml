@@ -114,7 +114,7 @@ conceptualContent:
           url: ../apps/best-practices.md
         - text: Integration points
           itemType: concept
-          url: ../apps/getting-started/integration-points.md
+          url: ../../../data-access/docs/getting-started/index.md
         - text: What API to use?
           itemType: reference
           url: ../apps/getting-started/what-api-to-use.md

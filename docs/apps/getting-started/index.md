@@ -19,6 +19,22 @@ Partners building applications for SuperOffice CRM Online must be comfortable wi
 
 To develop applications in our SOD environment is free. Required licenses apply only in production (live).
 
+## SuperOffice Online integration points
+
+The extensibility points are platform-independent.
+
+Anything a consultant can do inside the SuperOffice Admin application, any application can programmatically do during or after [provisioning][12]:
+
+* custom lists and list items
+* user-defined fields
+* web panels
+* custom buttons
+* sales guide, project guide
+* preferences
+* re-skinned to customer's brand
+
+[Read more about the SuperOffice APIs.][13]
+
 ## Workflow from a developer's perspective
 
 1. Register as a developer to get access to our [environment][1].
@@ -108,6 +124,8 @@ Creating an application for the SuperOffice App Store is not something to take l
 [9]: ../activate/activate-custom-app.md
 [10]: ../../../../data-access/docs/tutorials/native-app-quickstart.md
 [11]: ../../../../data-access/docs/tutorials/auth-code-flow-quickstart.md
+[12]: ../provisioning/index.md
+[13]: ../../../../data-access/docs/getting-started/index.md
 
 <!-- Referenced images -->
 [img1]: media/soap-onboarding.jpg
