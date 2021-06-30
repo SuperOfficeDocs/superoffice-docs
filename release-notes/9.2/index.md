@@ -25,4 +25,5 @@ The main change in this version is the new and improved way of searching for cus
 * 9.2 R06: Preview additions for Mailings and contact, Form changes, Mobile additions
 * 9.2 R07: Customer language, **Join meeting** button on Mobile
 * 9.2 R08: Forms, Chatbot API
-* 9.2 R09: Export to Excel update, Join video meeting from Alerts on Mobile
+* 9.2 R09: Export to Excel update
+* 9.2 R10: Forms, Join video meeting from Alerts on Mobile
