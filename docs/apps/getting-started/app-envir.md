@@ -67,6 +67,8 @@ For each application and within each environment, you must define the following 
 
 ![x -screenshot][img2]
 
+<a href="../../../../data-access/docs/assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
+
 ## Base URL
 
 The base URL for any tenant is different in each environment. Given a tenant context identifier of Cust12345, the base URL is as follows:
