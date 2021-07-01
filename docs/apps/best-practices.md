@@ -11,17 +11,17 @@ so.client: online
 
 # Best practices for SuperOffice CRM Online apps
 
-Building integrations in the cloud requires a different mindset than onsite integrations. This guide presents concepts to consider when building online applications, and provides suggestions how to best work in this stateless environment.
+Building integrations in the cloud requires a different mindset than onsite integrations. This guide presents concepts to consider when building online applications and provides suggestions for how to best work in this stateless environment.
 
-First and foremost, every application must have a solid testing foundation where every measurable metric is measured. This requirement is not limited to just your integration with SuperOffice but also frequently used 3rd-party applications. How will your application affect the performance of a tenant, or one of the other applications used by that tenant? These are the type of questions you must ask yourself and have answers to when or if a tenant starts to complain about performance.
+First and foremost, every application must have a solid testing foundation where every measurable metric is measured. This requirement is not limited to just your integration with SuperOffice but also frequently used 3rd-party applications. How will your application affect the performance of a tenant or one of the other applications used by that tenant? These are the type of questions you must ask yourself and have answers to when or if a tenant starts to complain about performance.
 
-There are a wide variety of things to consider, from authentication and basic connectively issues to api usage, complex query analysis and notifications.
+There are a wide variety of things to consider, from authentication and basic connectivity issues to API usage, complex query analysis, and notifications.
 
 The following content outlines these concerns and presents guidelines for you to think about while building or updating your applications.
 
 ## Credential management
 
-Access to our APIs requires a valid credential and unique application secret. 
+Access to our APIs requires a valid credential and unique application secret.
 
 Valid credentials are:
 
@@ -30,22 +30,22 @@ Valid credentials are:
 
 In order to obtain either one of these credentials requires authentication. SuperOffice supports two types of authentication: front-channel and back-channel. Both exist outside any tenant API space and availability is independent of the tenant.
 
-**Front-channel** authentication is a user-interactive experience facilitated by OAuth 2.0 or **OpenID Connect** (OIDC), and is documented in our [interactive authentication][8] section. In short, the result of an OIDC flow includes an access token, id token and a refresh token. An access token is good for 20 minutes, and a new one is easily obtained using the refresh token. As a **best practice**, several frameworks including ASP.NET, continue to use access tokens until an HTTP 403 error occurs, at which time it uses the refresh token to obtain a new access token, and then tries the request again. We have [one example](https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi) (ASP.NET Core 3.1) that demonstrates another routine using [middleware](https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/blob/master/source/SuperOffice.DevNet.RazorPages/Middleware/RefreshTokenMiddleware.cs) that checks the expiration of the token prior to each request, and updates it if necessary. We do not claim this to be _the way_ to do it, but share this as one option among several possible solutions.
+**Front-channel** authentication is a user-interactive experience facilitated by OAuth 2.0 or **OpenID Connect** (OIDC), and is documented in our [interactive authentication][8] section. In short, the result of an OIDC flow includes an access token, an ID token, and a refresh token. An access token is good for 20 minutes, and a new one is easily obtained using the refresh token. As a **best practice**, several frameworks including ASP.NET, continue to use access tokens until an HTTP 403 error occurs, at which time it uses the refresh token to obtain a new access token and then tries the request again. We have [one example][18] (ASP.NET Core 3.1) that demonstrates another routine using [middleware][19] that checks the expiration of the token before each request and updates it if necessary. We do not claim this to be _the way_ to do it but share this as one option among several possible solutions.
 
-**Back-channel** authentication is a non-interactive, server-to-server, experience facilitated by the [System User flow][9]. This flow returns a JWT token that contain several claims **including a ticket**. The ticket claim is _the_ credential, **not** the JWT itself, and is a valid for up to 6 hours. Our recommended **best practice** for back-channel communications is to actively manage the system user ticket credential. Because the ticket is good for 6 hours, we recommend the application cache it and keep track of the timeout period from when it was issued. Then, only obtain a new one when the ticket has expired, or is about to expire. Do not invoke the system user flow prior to each and every call a tenants API.
+**Back-channel** authentication is a non-interactive, server-to-server, experience facilitated by the [System User flow][9]. This flow returns a JWT token that contains several claims **including a ticket**. The ticket claim is _the_ credential, **not** the JWT itself, and is valid for up to 6 hours. Our recommended **best practice** for back-channel communications is to actively manage the system user ticket credential. Because the ticket is good for 6 hours, we recommend the application cache it and keep track of the timeout period from when it was issued. Then, only obtain a new one when the ticket has expired or is about to expire. Do not invoke the system user flow before each and every call to a tenant's API.
 
 You must for security reasons [Validate every security tokens][5] sent from SuperOffice CRM Online.
 
 ## Tenant availability
 
-Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant prior to sending any requests to the API. There are two options to check a tenants current state, or be notified of a tenants state change.
+Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change.
 
 1. Tenant status API
 2. Tenant status webhook
 
 ### Tenant status API
 
-This is a proactive means to determine the current state of a tenant. Your application precedes each API request with a call to the state endpoint to ensure the tenant is in a `Running` state. This signals the tenant is available for handing API requests. The following example demonstrates how the request by an application should work.
+This is a proactive means to determine the current state of a tenant. Your application precedes each API request with a call to the state endpoint to ensure the tenant is in a `Running` state. This signals the tenant is available for handling API requests. The following example demonstrates how the request by an application should work.
 
 **Tenant status API request example:**
 
@@ -68,7 +68,7 @@ https://online.superoffice.com/api/state/Cust12345
 
 ### Tenant status webhook
 
-This option is a more reactive flow that sends notifications each and every time a tenant state changes. SuperOffice sends out a [notifications][10] payload, and gives you a chance to manage tenant customer states better.
+This option is a more reactive flow that sends notifications each and every time a tenant state changes. SuperOffice sends out a [notifications][10] payload and gives you a chance to manage tenant customer states better.
 
 The five possible state changes are:
 
@@ -78,20 +78,20 @@ The five possible state changes are:
 * Resume
 * Delete
 
-Not only does that provide an advance notice when tenants are upgraded to new versions of SuperOffice, it can signal whenever a customer has canceled a subscription (Delete).
+Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
 
 > [!NOTE]
-> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as _Stage Change URL: https://your_domain.com/your_endpoint_name_.
+> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: https://your_domain.com/your_endpoint_name*.
 
 ## API Usage
 
-Applications must be resilient! Every integration must anticipate downtime and incorporate strategies that facilitate redundancy when failures occur or services are unavailable. You integrations must be able to recover from occasions when errors occur in the middle of important transactions. You must protect customers from losing data if and when the tenant should become unavailable, or posted data contains missing information.
+Applications must be resilient! Every integration must anticipate downtime and incorporate strategies that facilitate redundancy when failures occur or services are unavailable. Your integrations must be able to recover from occasions when errors occur in the middle of important transactions. You must protect customers from losing data if and when the tenant should become unavailable, or posted data contains missing information.
 
 Expect problems when interacting with web services and handle unexpected responses at every junction.
 
 ### Mixings APIs
 
-We recommend that each application either use REST or SOAP. **Don't mix multiple APIs** in the same application. Read more about which API is right for you in the [What Api to use][13] section.
+We recommend that each application either use REST or SOAP. **Don't mix multiple APIs** in the same application. Read more about which API is right for you in the [What API to use][13] section.
 
 ### Caching
 
@@ -122,15 +122,15 @@ Other common types of requested data that should be cached:
 
 Another big problem integrations make is not taking advantage of caching for authentication tokens. See the credentials management section above.
 
-Think about the APIs you are using and ask yourself "How often does this data change? Is is something I should cache? "Can I subscribe to a webhook and be notified when something changes?" How often does your company change? Then why call GetMyContact 50,000 times a day? Don't do it!
+Think about the APIs you are using and ask yourself "How often does this data change? Is it something I should cache? "Can I subscribe to a webhook and be notified when something changes?" How often does your company change? Then why call GetMyContact 50,000 times a day? Don't do it!
 
 ### Entity creation
 
-The entity lifecycle encapsulates the creation, modification and deletion of all business objects. Each entity contains dependencies derived from preferences, and therefore it is important API consumers create entities using APIs that now about and leverage the preference system.
+The entity lifecycle encapsulates the creation, modification, and deletion of all business objects. Each entity contains dependencies derived from preferences, and therefore it is important API consumers create entities using APIs that now about and leverage the preference system.
 
 Using `Default` will calculate some of the needed values for you, similar to clicking NEW inside the SuperOffice client. ​
 
-For the REST APIs, that means sending a GET request to the appropriate entity create default endpoint. The following example demonstrates what you should do.
+For the REST APIs, that means sending a GET request to the appropriate entity to create a default endpoint. The following example demonstrates what you should do.
 
 ### [RESTful REST API](#tab/create-rest)
 
@@ -188,7 +188,7 @@ PostRequest(person, "/api/v1/Agent/Person/SavePersonEntity​");
 Adding lists, list items, and web panels are just some of the common provisioning tasks when your application elements are provisioned in a tenant. Here are a few things to remember when adding elements into SUperOffice:
 
 1. **Set the visibility** of new web panels. [Set the appropriate user group and heading options][3].
-2. Use the **description fields** so administrators are able to easily distinguish which items belong to which application.
+2. Use the **description fields** so administrators can easily distinguish which items belong to which application.
 3. Check out the full list of guidelines on the [certification list][14].
 
 ### Security
@@ -197,7 +197,7 @@ The integrity of SuperOffice must be paramount at all times. While we could list
 
 ### Searching
 
-Web requests are stateless, and therefore every request must stand on its own feet and should not be dependent on in-memory state left behind by an earlier request. Therefore, whenever you request a page from an archive provider, NetServer has to start from the bottom. An additional constraint comes from the Sentry system, whose rules are too complex to be expressed in something the database can filter for us. We therefore have to fetch, evaluate, possibly discard, and go on fetching rows until we arrive at the start of the page you requested. The end result is that the repeated paging required to fetch data scales as [O(N^2)](https://en.wikipedia.org/wiki/Big_O_notation).
+Web requests are stateless, and therefore every request must stand on its own feet and should not be dependent on in-memory state left behind by an earlier request. Therefore, whenever you request a page from an archive provider, NetServer has to start from the bottom. An additional constraint comes from the Sentry system, whose rules are too complex to be expressed in something the database can filter for us. We, therefore, have to fetch, evaluate, possibly discard, and go on fetching rows until we arrive at the start of the page you requested. The end result is that the repeated paging required to fetch data scales like [O(N^2)](https://en.wikipedia.org/wiki/Big_O_notation).
 
 “It’s a feature” – you can call for any page at any time. But like much in the cloud, it leads to implementations that can scale-out wonderfully, but still perform badly in some situations.
 
@@ -207,19 +207,19 @@ A cloud service with lots of business logic is not the same as a nearby database
 
 Adapting to the cloud doesn’t mean switching from an IDataReader to an ArchiveProvider and keeping everything else the same. While the latter mimics the former, they are fundamentally different in their performance behavior.
 
-The difference cannot be hidden or optimized away; and that means your logic has to change in a significant way.
+The difference cannot be hidden or optimized away, and that means your logic has to change in a significant way.
 
 A larger page size reduces the number of calls, so it pushes the curve down about. Note that you’re still in O(N^2), it’s just that the y-scale has been stretched a bit so that the number of rows you can have before things become unacceptable is higher.
 
-Internally, NetServer takes the query generated by the provider and splits it into two passes. In pass 1 we eliminate as many joins and fields as possible, to narrow down the search to retrieve only the primary keys. Once we get our pageful of ID’s, in Pass 2 we fetch from all tables and fields, but this time with a simplified restriction consisting only of the primary keys, thereby fetching only those specific rows.
+Internally, NetServer takes the query generated by the provider and splits it into two passes. In pass 1 we eliminate as many joins and fields as possible, to narrow down the search to retrieve only the primary keys. Once we get our pageful of IDs, in Pass 2 we fetch from all tables and fields, but this time with a simplified restriction consisting only of the primary keys, thereby fetching only those specific rows.
 
-This usually works well. NetServer caches the Pass 1 query in background, so that if someone later asks for another page, and everything except the page number is identical, then it goes straight to Pass 2. This cache dies 60 seconds after the last call.
+This usually works well. NetServer caches the Pass 1 query in the background, so that if someone later asks for another page, and everything except the page number is identical, then it goes straight to Pass 2. This cache dies 60 seconds after the last call.
 
-However, there are cases where such splitting doesn’t work. The caching only works if you give it time to run – and then there are lock concerns. If it works then you go from O(N^2) to O(N), but it can’t be guaranteed.
+However, there are cases where such splitting doesn’t work. The caching works only if you give it time to run – and then there are lock concerns. If it works then you go from O(N^2) to O(N), but it can’t be guaranteed.
 
 #### Count
 
-Don’t ask for counts. Fetching an accurate count means we have to process every row and database has to process a SELECT COUNT query. Don’t do it unless absolutely necessary.
+Don’t ask for counts. Fetching an accurate count means we have to process every row and the database has to process a SELECT COUNT query. Don’t do it unless absolutely necessary.
 
 Looking at the following images, notice how using count(id) causes tremendous load on the server and performs badly.
 
@@ -227,7 +227,7 @@ Looking at the following images, notice how using count(id) causes tremendous lo
 
 Instead, consider using the sequence table to get an estimate of how many records a particular table has, and use that value to iterate over all desired records.
 
-The Sequence table has the next primary key id for all tables. Asking for next_id will give the next primary key for any given table. The following example queries the sequence table to obtain the next primary key for the contact table:
+The Sequence table has the next primary key id for all tables. Asking for `next_id` will give the next primary key for any given table. The following example queries the sequence table to obtain the next primary key for the contact table:
 
 ```http
 .../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'contact'
@@ -239,9 +239,9 @@ And here again for the person table.
 .../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'person'
 ```
 
-Then, when you have the estimated number of records, use the Dynamic archive provider again to perform even an more granular search for just the contact id and orgNr, instead of using the default provider, `SimpleContact`, when querying the api/v1/contact endpoint.
+Then, when you have the estimated number of records, use the Dynamic archive provider again to perform even a more granular search for just the contact ID and orgNr, instead of using the default provider, `SimpleContact`, when querying the `api/v1/contact` endpoint.
 
-Adjust the query to pick up contact_id, OrgNr and order it by the primary key field. That way you will be able to ask for a pagesize of 1000, the ordering on the tables primary key is for free and NetServer will not have to perform a lot of expensive data fetching.
+Adjust the query to pick up `contact_id`, `OrgNr`, and order it by the primary key field. That way you will be able to ask for a pagesize of 1000, the ordering on the table's primary key is for free and NetServer will not have to perform a lot of expensive data fetching.
 
 #### Use filters
 
@@ -249,9 +249,9 @@ Archive searches accept a wide variety of [search operators](../../../data-acces
 
 ### Polling
 
-While there may be scenarios where polling the traveltransactionlog (TTL) table is necessary, it is rarely a good idea and should be considered a last resort.
+While there may be scenarios where polling the `traveltransactionlog` (TTL) table is necessary, it is rarely a good idea and should be considered a last resort.
 
-There are cases where polling the TTL tables are useless. For example, MergeMoveLog records are not persisted in the traveltransactionlog​. Neither are SoftDeletes – where the API just sets the deletedDate timestamp on entity. After 14 days, when they are HardDeleted, this operation is also not written to the traveltransactionlog​.
+There are cases where polling the TTL tables are useless. For example, MergeMoveLog records are not persisted in the `traveltransactionlog​`. Neither are SoftDeletes – where the API just sets the deletedDate timestamp on the entity. After 14 days, when they are HardDeleted, this operation is also not written to the `traveltransactionlog​`.
 
 Here is an example search query to fetch which companies have been merged into another company, and actually deleted. The source record is the contact_id​ (company identity).
 
@@ -259,11 +259,11 @@ Here is an example search query to fetch which companies have been merged into a
 ../api/v1/archive/dynamic?$select=mergemovelog.operation, mergemovelog.tableNumber, mergemovelog.sourceRecord&$filter=movemergelog.registered afterTime <LastSyncTime>​
 ```
 
-We recommend that you, instead of polling to TTL table, use webhooks.
+We recommend that you, instead of polling to the TTL table, use webhooks.
 
 ### ​Webhooks
 
-[Webhooks][16] are notifications sent to your application whenever events happen in SuperOffice - regardless of SuperOffice product used. They provide you an opportunity to react to many different types of changes, such as new companies created, sales marked as sold and more.
+[Webhooks][16] are notifications sent to your application whenever events happen in SuperOffice - regardless of the SuperOffice product used. They provide you an opportunity to react to many different types of changes, such as new companies created, sales marked as sold, and more.
 
 The webhook workflow begins with applications subscribing to interesting events. The way an application does this is by adding one or more webhook definitions in SuperOffice.
 
@@ -271,14 +271,14 @@ When a webhook payload is sent, which is a JSON formatted string, it includes in
 
 ### Bulk Operations
 
-Bulk insert, update and delete operations are supported in all SuperOffice APIs. These capabilities exists as:
+Bulk insert, update and delete operations are supported in all SuperOffice APIs. These capabilities exist as:
 
-* Bulk-Updates
+* Bulk-updates
 * Mass Operations
 
-Bulk update is great for targeted changes; when data already exists in SuperOffice and a need arises to change one or more fields, on one or more entities, based on a specified criteria. A hypothetical bulk-update example is an organization that changes a data policy where a person title must conform to a certain format. For example, all contacts with the title "sales man" or "sales woman" must be redefined as "Sales Person". A Bulk-Update operation is useful to perform such changes. Users must be assigned the bulk-update functional right.
+Bulk-update is great for targeted changes; when data already exists in SuperOffice and a need arises to change one or more fields, on one or more entities, based on a specified criterion. A hypothetical bulk-update example is an organization that changes a data policy where a person's title must conform to a certain format. For example, all contacts with the title "sales man" or "sales woman" must be redefined as "Sales Person". A Bulk-Update operation is useful to perform such changes. Users must be assigned the bulk-update functional right.
 
-Mass operations are different in that they involve inserting, updating or deleting large datasets. All actions work towards one particular table at a time. This is an extremely fast and powerful API that is only accessible to system user accounts.
+Mass operations are different in that they involve inserting, updating, or deleting large datasets. All actions work towards one particular table at a time. This is an extremely fast and powerful API that is only accessible to system user accounts.
 
 > [!NOTE]
 > The Mass Operations API requires a system user to function.
@@ -352,3 +352,5 @@ Read about [effective visual design][6].
 [15]: requirements/security.md
 [16]: ../../../data-access/docs/netserver/webhooks/index.md
 [17]: ../../../data-access/docs/netserver/bulk-operations/index.md
+[18]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
+[19]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/blob/master/source/SuperOffice.DevNet.RazorPages/Middleware/RefreshTokenMiddleware.cs
