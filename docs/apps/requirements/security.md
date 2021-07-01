@@ -64,9 +64,9 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 
 ## Guidance
 
-We recommend you also have a [staging environment][12].
-
-Always keep in mind the [OWASP top ten list][13].
+* We recommend you also have a [staging environment][12].
+* Always keep in mind the [OWASP top ten list][13].
+* Center for Internet Security Controls [CIS controls list][14]
 
 <!-- Referenced links -->
 [1]: ../standard.md
@@ -81,3 +81,4 @@ Always keep in mind the [OWASP top ten list][13].
 [11]: ../redirects/index.md
 [12]: ../getting-started/app-envir.md
 [13]: https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
+[14]: https://www.cisecurity.org/controls/cis-controls-list/
