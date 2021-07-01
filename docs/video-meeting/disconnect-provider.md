@@ -12,9 +12,8 @@ so.client: online
 
 # How to disconnect video provider
 
-In the **Video meetings** tab you can disconnect the Zoom video meeting service.
 
-**To disconnect the video meeting service:**
+**To disconnect the video meeting service from SuperOffice:**
 
 1. Click the preferences button ![preferences -screenshot][img1] in the Navigator.
 2. Select the **Video meetings** tab.
