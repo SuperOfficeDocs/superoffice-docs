@@ -16,7 +16,7 @@ so.date: 04.28.2021
 * [Dark mode follow phone settings (10.0.4)][4]
 * [Save phone number to a device from company screen (10.0.6)][6]
 * [Join video meeting from appointment (10.0.7)][7]
-* [Notifications on video meetings][8]
+* [Notifications on video meetings (10.0.9)][8]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
@@ -25,4 +25,4 @@ so.date: 04.28.2021
 [4]: 10.0.4-update.md
 [6]: 10.0.6-update.md
 [7]: 10.0.7-update.md
-[8]: 10.0.8-update.md
+[8]: 10.0.9-update.md
