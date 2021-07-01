@@ -16,7 +16,7 @@ so.client: online
 
 ## Process
 
-1. Fill in the form and receive your DKIM key back.
+1. [Fill in the form](https://community.superoffice.com/order-dkim/) and receive your DKIM key back.
 2. Add the DKIM key as a text record to your DNS.
 3. Validate your new DKIM record, to make sure it has propagated.
 4. Please reply back to us, confirming the DKIM is valid.
