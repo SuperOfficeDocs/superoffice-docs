@@ -15,69 +15,85 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	//
 	// Mother of all code snippets
 	"Snippet block": {
 		"prefix": "snippet",
 		"body": [
-			","
-			"\"Title\": {"
-				"\"scope\": \"json, markdown\","
-				"\"prefix\": \"\","
-				"\"body\": [],"
-				"\"description\": \"\""
+			",",
+			"\"Title\": {",
+				"\"scope\": \"json, markdown\",",
+				"\"prefix\": \"\",",
+				"\"body\": [],",
+				"\"description\": \"\"",
 			"}"
 		],
 		"description": "Adds an empty snippet block"
 	},
+	// code
+	"Add csharp snippet": {
+		"scope": "json, markdown",
+		"prefix": "csharp, code, include, reuse",
+		"body": [
+			"[!code-csharp[CS](includes/FILE.cs)]"
+		],
+		"description": "Include (superoffice-docs)"
+	},
+	"Add HTML snippet": {
+		"scope": "json, markdown",
+		"prefix": "html, code, include, reuse",
+		"body": [
+			"[!code-html[HTML](includes/FILE.html)]"
+		],
+		"description": "Include (superoffice-docs)"
+	},
+	"Add XML snippet": {
+		"scope": "json, markdown",
+		"prefix": "xml, code, include, reuse",
+		"body": [
+			"[!code-xml[XML](includes/FILE.xml)]"
+		],
+		"description": "Include (superoffice-docs)"
+	},
+	// images (preferably use ![ALT][imgXX])
 	"SO insert image": {
 		"scope": "markdown",
 		"prefix": "image, media",
 		"body": [
-			"![ALT](./media/FILE.png)"
+			"![ALT](media/FILE.png)"
 		],
 		"description": "Image (superoffice-docs)"
 	},
+	// includes
 	"SO include": {
 		"scope": "markdown",
 		"prefix": "include, reuse",
 		"body": [
-			"[!include[ALT](./includes/FILE.md)]"
+			"[!include[ALT](includes/FILE.md)]"
 		],
 		"description": "Include (superoffice-docs)"
 	},
-	"SO grid card": {
-		"scope": "markdown",
-		"prefix": "card, grid, block",
-		"body": [
-			"<div class=\"col mb-4\">"
-			"  <div class=\"card border-secondary h-100\">"
-			"    <div class=\"card-header\">HEADER</div>"
-			"    <div class=\"card-body text-secondary\">"
-			"      <p class=\"card-text\">"
-			"        <a href=\"FILE.md\">LABEL</a><br>"
-			"      </p>"
-			"   </div>"
-			"  </div>"
-			"</div>"
-		],
-		"description": ""
-	},
+	// links
 	"SO link section": {
-	"scope": "markdown",
-	"prefix": "reference, link",
-	"body": [
-		"<!-- Referenced links -->"
-		"[1]:"
-	],
-	"description": "Bottom link section"
+		"scope": "markdown",
+		"prefix": "reference, link",
+		"body": [
+			"<!-- Referenced links -->",
+			"[1]:",
+			"",
+			"<!-- Referenced images -->",
+			"[img1]: media/"
+		],
+		"description": "Bottom link section"
 	},
+	// tables
 	"Table header for params": {
-	"scope": "markdown",
-	"prefix": "tab, param",
-	"body": [
-		"| Parameter | Description |"
-		"|-----------|-------------|"
-	],
-	"description": "Table header for params"
+		"scope": "markdown",
+		"prefix": "tab, param",
+		"body": [
+			"| Parameter | Description |",
+			"|--|---|"
+		],
+		"description": "Table header for params"
 	}
 }

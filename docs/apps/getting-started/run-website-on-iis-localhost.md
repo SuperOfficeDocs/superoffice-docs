@@ -3,7 +3,7 @@ title: Run website on IIS localhost
 uid: run_website_on_iis_localhost
 description: Run a website on your machine, IIS localhost
 author: {github-id}
-keywords: IIS
+keywords: IIS, localhost, Visual Studio
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -20,7 +20,7 @@ To make it easier on yourself:
 
 ![x -screenshot][img1]
 
-If you open a solution and notice that the project has failed to load, this is probably because your Visual Studio is not run as administrator. Restart the application and select **Run as administrator**.
+If you open a solution and notice that the project has failed to load, this is probably because your Visual Studio is not run as an administrator. Restart the application and select **Run as administrator**.
 
 <!-- Referenced images -->
-[1]: media/image014.png
+[img1]: media/image014.png
