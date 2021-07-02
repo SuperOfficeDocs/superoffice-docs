@@ -13,16 +13,17 @@ so.client: online
 
 ## Something went wrong reserving your video meeting. Please try again later
 
-**Problem:** If SuperOffice Online is not able to provide video meetings with a valid customer ID when a user logs in to CRM Online, the user will get an error in the client when creating the video meeting:
+**Problem:** If SuperOffice Online is not able to provide video meetings with a valid Customer ID when a user logs in to SuperOffice Online, the user will get an error in the client when creating the video meeting:
 
 ![imagen1s5.png -screenshot][img1]
 
-**Solution:** The user should try to log out of CRM Online and then log in to CRM Online again to get a valid Customer ID.
+**Solution:** The user should try to log out of SuperOffice Online and then log in again to get a valid Customer ID.
 
 
 ## 404 OOPS. Something went wrong!
 
 **Problem:** Authentication towards the video provider.
+![image761z.png -screenshot][img2]
 
 **Solution:** To resolve this, the [user has to remove the video-meetings configuration][1] in SuperOffice.
 
@@ -32,3 +33,4 @@ so.client: online
 
 <!-- Referenced images -->
 [img1]: media/imagen1s5.png
+[img2]: media/image761z.png
