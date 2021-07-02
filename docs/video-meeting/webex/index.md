@@ -26,60 +26,12 @@ This article describes how to connect, configure, use and disconnect Webex.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to [start the configuration process][7].
 4. Select Cisco Webex as the provider.
-5. Authenticate and authorize Webex
-
-
-> [!NOTE]
-> We are currently in the process of approving this app, Before the app get final approval by Cisco, you will be able to authorize the app by adding the SuperOffice app from the Cisco app store
-    
- * Add the SuperOffice app from the Cisco app store, by supplying our Integration ID when asked:
-
-     ```text
-     Y2lzY29zcGFyazovL3VzL0FQUExJQ0FUSU9OL0MwZThkNmFkYmUzYzZkOTE5Y2MyYzMzNjExYTMzMGQ2NzAzNWQwODYxMTliY2I4ZjhkMGQzZWNkODQ4NDQ2OGVh
-      ```
-
-    The SuperOffice app for Cisco Webex integration ID will be added to your Cisco Webex admin page at [https://admin.webex.com][2]:
-
-    ![imageb11q.png -screenshot][img1]
-
-* You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
-
-    ![imaget1zxp.png -screenshot][img2]
-
-    ![imageqstfq.png -screenshot][img3]
-
-    ![imageb9iy.png -screenshot][img4]
-
-    ![image1jawz.png -screenshot][img5]
-
-* Webex Meetings has some additional configurations, only a password is required: set your random password and click **Save**.
-
-    ![imageezby.png -screenshot][img6]
-
-    If it says "Connected to Webex. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
-
-<!-- Referenced links -->
-[1]: ../connect-provider.md
-[2]: https://admin.webex.com/
-
-<!-- Referenced images -->
-[img1]: media/imageb11q.png
-[img2]: media/imaget1zxp.png
-[img3]: media/imageqstfq.png
-[img4]: media/imageb9iy.png
-[img5]: media/image1jawz.png
-[img6]: media/imageezby.png
-
-
+5. [Authenticate and authorize Webex][6]
 6. Return to the SuperOffice **Video meetings** tab and verify that the configuration is active.
 
-     You'll now see the status of configuration towards your video meeting provider. Verify configurations is active in SuperOffice.
+    
 
-    "Your SuperOffice installation is configured with the following meeting service Webex"
-
-    You may now start using Video Meetings in SuperOffice​!
-
-## How to configure SuperOffice
+## How to configure email invitations for video meetings
 To be able to send and receive e-mail invitations to video meetings, you must have [configured your e-mail setup][8] in SuperOffice CRM  or use SuperOffice Mail Link.
 
 ## How to use Video Meetings
@@ -87,9 +39,9 @@ To be able to send and receive e-mail invitations to video meetings, you must ha
 * [Create a video meeting][2]
 * [Join a video meeting][3]
 
-## Troubleshooting
+## How to remove video meetings configuration for users
 
-* [How to remove video-meetings configuration for users][1]
+* [How to remove video meetings configuration for users][10]
 
 ## How to disconnect video provider from SuperOffice
 
@@ -99,12 +51,10 @@ To be able to send and receive e-mail invitations to video meetings, you must ha
 
 Uninstalling the Webex video meeting service:
 
-1. Log in to your Webex account and navigate to the Cisco Webex admin page at [admin.webex.com][1]
+1. Log in to your Webex account and navigate to the Cisco Webex admin page at [admin.webex.com][9]
 2. Open Apps, and go to the **Integrations** tab.
 3. Remove the **SuperOffice CRM** app from the Cisco app store.
 
-<!-- Referenced links -->
-[1]: https://admin.webex.com
 
 <!-- Referenced images -->
 [img1]: media/imageb11q.png
@@ -115,7 +65,8 @@ Uninstalling the Webex video meeting service:
 [4]: ../disconnect-provider.md
 [5]: uninstall.md
 [6]: auth.md
-[7]: connect-provider.md
-[8]: configure-video-meetings.md
-
+[7]: ../connect-provider.md
+[8]: ../configure-video-meetings.md
+[9]: https://admin.webex.com
+[10]: ../remove-config-for-user.md
 <!-- Referenced images -->
