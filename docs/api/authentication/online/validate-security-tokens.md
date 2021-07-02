@@ -3,7 +3,7 @@ uid: validate_security_tokens
 title: Validate security tokens
 description: How to validate security tokens
 author: {github-id}
-keywords: certificates, jwt, authentication, token
+keywords: certificates, jwt, authentication, token, security
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -11,13 +11,13 @@ so.client: online
 
 # Validating security tokens
 
-There are a couple scenarios when applications must perform token validation.
+There are a couple of scenarios when applications must perform token validation.
 
-1) When an application is first approved by a tenant administrator. The validation is performed after the administrator interactively signs into SuperOffice and approves the application, and a redirect sends the administrator via a POST request to the applications redirect URI, along with an id_token, access_token and refresh_token.
+1. When an application is first approved by a tenant administrator. The validation is performed after the administrator interactively signs into SuperOffice and approves the application, and a redirect sends the administrator via a POST request to the applications redirect URI, along with an ID token, access token, and refresh token.
 
-2) When a normal user signs into the application and again is redirected via a POST request to the applications redirect URI, along with an id_token, access_token and refresh_token.
+2. When a normal user signs into the application and again is redirected via a POST request to the applications redirect URI, along with an ID token, access token, and refresh token.
 
-3) When an application obtains a system user ticket from the partner system user service endpoint
+3. When an application obtains a system user ticket from the partner system user service endpoint.
 
 Token validation establishes **trust** by the authentication mechanism. It ensures that:
 
@@ -25,19 +25,19 @@ Token validation establishes **trust** by the authentication mechanism. It ensur
 * The token was issued to this user
 * That user has granted the application access to the listed operation
 
-# How to validate security tokens
+## How to validate security tokens
 
 Security token validation is an important step to ensure the token has not been compromised between SuperOffice sending it and you receiving it.
 
-Performing validation is a straight-forward process that must occur for each response that was signed by SuperOffice.
+Performing validation is a straightforward process that must occur for each response that was signed by SuperOffice.
 
 There are a couple of options to perform the actual validation:
 
 1. Orchestrate the validation code yourself.
-    * May or may not require physical [SuperOffice certificates][7]. Alternatively you can use the [OpenID Connect metadata endpoint][8] to get the public certificate information from the jwks_uri property.
+    * May or may not require physical [SuperOffice certificates][4]. Alternatively, you can use the [OpenID Connect metadata endpoint][8] to get the public certificate information from the `jwks_uri` property.
 
 2. Use [SuperOffice.Online.Core][6] NuGet package for .NET Framework.
-    * This required [SuperOffice certificates][7].
+    * This requires [SuperOffice certificates][4].
 
 3. Use [SuperOffice.WebApi][9] NuGet package written for .NET Standard 2.0.
     * This uses the [OpenID Connect metadata endpoint][8].
@@ -59,7 +59,7 @@ This NuGet package contains 2 validation classes, one for each of the 2 main val
 * OpenID Connect validation: `JwtTokenHandler`
 * SystemUser Flow validation: `SystemUserTokenHandler`
 
-There are 2 different token handlers because they slightly different implementations. The difference is that the `JwtTokenHandler` uses the client_id for a ValidAudience, where as the SystemUserTokenHandler uses the database serial number as the ValidAudience. The latter requires additional processing to extract the database serial number from the token.
+There are 2 different token handlers because they slightly different implementations. The difference is that the `JwtTokenHandler` uses the client_id for a ValidAudience, whereas the `SystemUserTokenHandler` uses the database serial number as the ValidAudience. The latter requires additional processing to extract the database serial number from the token.
 
 ```csharp
 var tokenHandler = new JwtTokenHandler(clientId, httpClient, onlineEnvironment);
@@ -76,6 +76,8 @@ TokenValidationResult result = await tokenHandler.ValidateAsync("{system_user_re
 All security token responses are Base64 encoded strings of either a [JWT][2] or legacy [SAML][1] token. We **strongly recommend that you use JWT** tokens! SAML token support is deprecated.
 
 The main class for processing tokens is `SuperIdTokenHandler` in the *SuperOffice.SuperID.Client* DLL.
+
+<a href="../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
 
 > [!NOTE]
 > If you don't have access to the certificate store, you must substitute this procedure with a [validation override][3].
