@@ -63,7 +63,7 @@ The **Find** providers are some of the most common:
 
 The reference section has a [complete list of archive providers][1].
 
-Namespace is `uperOffice.CRM.ArchiveLists`.
+Namespace is `SuperOffice.CRM.ArchiveLists`.
 
 ## Getting started
 
