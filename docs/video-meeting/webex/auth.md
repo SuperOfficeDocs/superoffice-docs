@@ -13,9 +13,6 @@ so.client: online
 
 This is step 5 in [connecting your provider][1]. It is provider-specific.
 
-> [!NOTE]
-> We are currently in the process of approving this app, Before the app get final approval by Cisco, you will be able to authorize the app by adding the SuperOffice app from the Cisco app store
-
 1. Add the SuperOffice app from the Cisco app store, by supplying our Integration ID when asked:
 
     ```text
