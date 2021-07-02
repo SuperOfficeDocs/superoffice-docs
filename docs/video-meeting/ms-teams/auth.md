@@ -9,7 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Authenticate and authorize Zoom
+# Authenticate and authorize Microsoft Teams
 
 This is step 5 in [connecting your provider][1]. It is provider-specific.
 

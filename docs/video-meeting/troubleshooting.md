@@ -14,7 +14,6 @@ so.client: online
 ## Something went wrong reserving your video meeting. Please try again later
 
 **Problem:** If SuperOffice Online is not able to provide video meetings with a valid Customer ID when a user logs in to SuperOffice Online, the user will get an error in the client when creating the video meeting:
-
 ![imagen1s5.png -screenshot][img1]
 
 **Solution:** The user should try to log out of SuperOffice Online and then log in again to get a valid Customer ID.
