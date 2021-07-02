@@ -35,6 +35,10 @@ highlightedContent:
     - title: "Release notes"
       itemType: whats-new
       url: ../../release-notes/index.md
+    # Card
+    - title: "Software downloads"
+      itemType: download
+      url: https://community.superoffice.com/en/product-releases/release-notes/
 
 # conceptualContent section (optional)
 conceptualContent:
