@@ -36,7 +36,7 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 * [Create a video meeting][2]
 * [Join a video meeting][3]
 
-## Troubleshooting
+## How to remove video meetings configuration for users
 
 * [How to remove video-meetings configuration for users][1]
 

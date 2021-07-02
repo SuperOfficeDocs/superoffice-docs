@@ -17,6 +17,11 @@ There are several ways in which you can join a video meeting in Sup
 * Click **Join meeting** in the **Follow-up** dialog (appointment).
 * Click **Join meeting** in the side panel.
 * Click a browser notification (only available if the Alarm option has been activated, see the [Details tab][1]).
+* Right click in you diary and click **Join meeting**.
+
+    ![JoinMeetingDiary.png -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Details_tab_follow-ups.htm
+
+[img1]: media/JoinMeetingDiary.png
