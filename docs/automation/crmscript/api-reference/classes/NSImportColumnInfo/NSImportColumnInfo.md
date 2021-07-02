@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Column info for importlines.
-
-1. autolist 
-

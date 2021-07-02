@@ -5,8 +5,3 @@ intellisense: Void.NSEntityDataRightsArray
 keywords: NSEntityDataRightsArray
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

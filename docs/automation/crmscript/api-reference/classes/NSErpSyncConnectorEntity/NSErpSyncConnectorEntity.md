@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Erp connector information
-
-1. autolist 
-

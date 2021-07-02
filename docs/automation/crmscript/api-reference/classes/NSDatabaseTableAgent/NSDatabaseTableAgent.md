@@ -12,6 +12,3 @@ Agent used for CRUD operations on database tables. Read, add, update, delete row
 NSDatabaseTableAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

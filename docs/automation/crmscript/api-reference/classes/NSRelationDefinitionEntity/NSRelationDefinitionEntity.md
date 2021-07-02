@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A relation definition entity with source and destination tables
-
-1. autolist 
-

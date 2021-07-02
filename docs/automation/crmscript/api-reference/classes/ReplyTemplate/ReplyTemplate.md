@@ -19,9 +19,3 @@ This class represents a reply template.
     Parser p;
     
     String parsedString = p.parseString(rt.getBody(0)); // Parses the body of the template through a parser object
-
-
-
-
-1. autolist
-

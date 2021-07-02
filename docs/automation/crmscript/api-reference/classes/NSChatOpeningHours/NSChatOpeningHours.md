@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Chat Topic Opening Hours
-
-1. autolist 
-

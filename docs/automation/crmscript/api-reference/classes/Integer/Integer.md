@@ -9,9 +9,3 @@ so.topic: reference
 
 A class for representing integers as objects.
 Constructor can take an integer, and returns integer.
-
-
-
-
-1. autolist
-

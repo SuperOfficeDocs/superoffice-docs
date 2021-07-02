@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The ERP syncengine.
-
-1. autolist 
-

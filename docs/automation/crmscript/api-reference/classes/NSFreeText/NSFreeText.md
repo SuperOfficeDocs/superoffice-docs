@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Used to manage freetext search.
-
-1. autolist 
-

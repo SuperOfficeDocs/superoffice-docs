@@ -5,8 +5,3 @@ intellisense: Void.NSMultiAlarmData
 keywords: NSMultiAlarmData
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

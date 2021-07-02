@@ -4,11 +4,3 @@ title: NSTimeSpan
 intellisense: Void.NSTimeSpan
 so.topic: reference
 ---
-
-
-
-
-
-
-1. autolist
-

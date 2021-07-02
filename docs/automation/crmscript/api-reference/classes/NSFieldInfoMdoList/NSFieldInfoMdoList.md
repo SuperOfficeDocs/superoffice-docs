@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 MDO List custom database field.
-
-1. autolist 
-

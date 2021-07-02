@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Activity information summary - number of free and busy activities.
-
-1. autolist 
-

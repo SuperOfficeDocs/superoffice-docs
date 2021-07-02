@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about a dictionary step
-
-1. autolist 
-

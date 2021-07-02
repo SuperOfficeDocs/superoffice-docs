@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Mapping information for one field pair (ERP <-> SuperOffice)
-
-1. autolist 
-

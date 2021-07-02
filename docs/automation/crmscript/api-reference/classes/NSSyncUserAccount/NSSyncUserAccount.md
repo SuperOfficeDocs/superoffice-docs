@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Details for syncing email user accounts
-
-1. autolist 
-

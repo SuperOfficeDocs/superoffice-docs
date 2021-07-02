@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Integer custom database field.
-
-1. autolist 
-

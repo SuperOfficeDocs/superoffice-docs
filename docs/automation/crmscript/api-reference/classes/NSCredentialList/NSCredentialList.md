@@ -5,8 +5,3 @@ intellisense: Void.NSCredentialList
 keywords: NSCredentialList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

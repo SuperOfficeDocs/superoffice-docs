@@ -12,6 +12,3 @@ Agent with Pocket specific functionality
 NSPocketAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

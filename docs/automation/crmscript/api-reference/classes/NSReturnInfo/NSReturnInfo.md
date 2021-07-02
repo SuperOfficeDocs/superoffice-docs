@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Return value object for Document Plugin API calls
-
-1. autolist 
-

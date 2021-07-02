@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The web panel entity contains information on a web panel
-
-1. autolist 
-

@@ -32,9 +32,3 @@ The JSONBuilder class simplifies building JSON hierarchies. The result will be a
     jb.popLevel();
     jb.popLevel(); // jb.finalize() could be used to pop all levels
     print(jb.getString());
-
-
-
-
-1. autolist
-

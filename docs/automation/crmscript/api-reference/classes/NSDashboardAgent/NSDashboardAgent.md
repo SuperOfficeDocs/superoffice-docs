@@ -12,6 +12,3 @@ Agent lets you configure dashboard tiles and retrieve dashboard data
 NSDashboardAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

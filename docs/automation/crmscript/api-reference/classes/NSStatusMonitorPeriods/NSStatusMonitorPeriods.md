@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 This service provides sentry information such as TableRights.
-
-1. autolist 
-

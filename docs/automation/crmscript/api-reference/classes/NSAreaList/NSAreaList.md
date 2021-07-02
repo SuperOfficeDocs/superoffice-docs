@@ -5,8 +5,3 @@ intellisense: Void.NSAreaList
 keywords: NSAreaList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

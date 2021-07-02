@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Summary of person, with recent activities, chats, and requests included.
-
-1. autolist 
-

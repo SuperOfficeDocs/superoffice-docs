@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about a provider plugin
-
-1. autolist 
-

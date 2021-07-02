@@ -20,9 +20,3 @@ Constructor can take a string, and returns a string.
     if (s.isDigit() && s.getLength() == 8){
        print(s + " is a valid phone number");
     }
-
-
-
-
-1. autolist
-

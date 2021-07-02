@@ -5,8 +5,3 @@ intellisense: Void.NSProductCategoryList
 keywords: NSProductCategoryList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

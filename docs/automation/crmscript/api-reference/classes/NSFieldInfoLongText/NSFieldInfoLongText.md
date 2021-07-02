@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Long Text custom database field.
-
-1. autolist 
-

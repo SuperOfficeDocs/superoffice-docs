@@ -5,8 +5,3 @@ intellisense: Void.NSCompetitor
 keywords: NSCompetitor
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Sentiment information: Score (-100 to 100) and Confidence (0 to 100)
-
-1. autolist 
-

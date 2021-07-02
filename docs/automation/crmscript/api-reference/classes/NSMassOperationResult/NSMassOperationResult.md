@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about the results of a mass-update operation
-
-1. autolist 
-

@@ -24,9 +24,3 @@ Class used to retrieve the result of an url
       print(h.getErrorMessage());
     else
       print(String(b));
-
-
-
-
-1. autolist
-

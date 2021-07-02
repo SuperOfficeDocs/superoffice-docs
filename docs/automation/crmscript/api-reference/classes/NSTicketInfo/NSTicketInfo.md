@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A small carrier that contains information about a ticket
-
-1. autolist 
-

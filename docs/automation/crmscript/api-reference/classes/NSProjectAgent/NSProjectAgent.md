@@ -12,6 +12,3 @@ Collection of all services that works with Project data.
 NSProjectAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

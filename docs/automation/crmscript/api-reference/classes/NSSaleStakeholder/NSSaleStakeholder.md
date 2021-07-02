@@ -5,8 +5,3 @@ intellisense: Void.NSSaleStakeholder
 keywords: NSSaleStakeholder
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

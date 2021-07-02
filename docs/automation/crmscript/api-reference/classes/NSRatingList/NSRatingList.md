@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Sale Stage with Probability percent rating.
-
-1. autolist 
-

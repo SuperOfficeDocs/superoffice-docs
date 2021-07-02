@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about possible button actions for the quote version dialog.
-
-1. autolist 
-

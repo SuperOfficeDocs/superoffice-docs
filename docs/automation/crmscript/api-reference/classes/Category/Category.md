@@ -21,9 +21,3 @@ Class used for accessing and changing a ticket category.
     print(c.getValue("notificationEmail"));
     c.setValue("name", "Bob");
     c.save();
-
-
-
-
-1. autolist
-

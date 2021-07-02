@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 BatchTasks run in the background.
-
-1. autolist 
-

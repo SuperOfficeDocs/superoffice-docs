@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Parameters specifying source and properties for template variable substitution.
-
-1. autolist 
-

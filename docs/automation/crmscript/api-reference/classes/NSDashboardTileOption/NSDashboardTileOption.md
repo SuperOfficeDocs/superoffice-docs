@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Dashboard Tile option
-
-1. autolist 
-

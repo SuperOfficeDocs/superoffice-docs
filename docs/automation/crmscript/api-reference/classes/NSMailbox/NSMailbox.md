@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Carrier containing information about a Service mailbox
-
-1. autolist 
-

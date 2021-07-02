@@ -8,9 +8,3 @@ so.topic: reference
 
 
 Just a test class to check if the carrier and agent generation works correctly.
-
-
-
-
-1. autolist
-

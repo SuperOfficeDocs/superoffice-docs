@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Reply template item
-
-1. autolist 
-

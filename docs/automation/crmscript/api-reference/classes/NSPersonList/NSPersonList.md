@@ -5,8 +5,3 @@ intellisense: Void.NSPersonList
 keywords: NSPersonList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

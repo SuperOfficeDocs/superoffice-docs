@@ -12,6 +12,3 @@ Associate utilities, notes, not user admininstration
 NSAssociateAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

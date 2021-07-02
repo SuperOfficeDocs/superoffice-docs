@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 This is the users within a user group.
-
-1. autolist 
-

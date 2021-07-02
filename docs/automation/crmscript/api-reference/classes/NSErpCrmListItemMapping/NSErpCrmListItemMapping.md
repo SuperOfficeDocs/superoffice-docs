@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 One list item mapping between erp and crm.
-
-1. autolist 
-

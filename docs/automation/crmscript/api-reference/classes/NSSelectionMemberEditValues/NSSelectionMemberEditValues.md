@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Carrier object for SelectionMemberEditValues.
-
-
-
-
-1. autolist
-

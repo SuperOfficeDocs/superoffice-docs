@@ -12,6 +12,3 @@ Email connection, reading, sending
 NSEMailAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

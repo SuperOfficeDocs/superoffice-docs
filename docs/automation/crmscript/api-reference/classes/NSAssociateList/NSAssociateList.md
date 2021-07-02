@@ -5,8 +5,3 @@ intellisense: Void.NSAssociateList
 keywords: NSAssociateList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

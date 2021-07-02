@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 This class carries information about an ordering criterion for an archive.
-
-1. autolist 
-

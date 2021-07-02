@@ -21,9 +21,3 @@ Class for representing a company
     Bool b = c.checkFieldRights("contact", "read");
     print(b.toString());
     c.save();
-
-
-
-
-1. autolist
-

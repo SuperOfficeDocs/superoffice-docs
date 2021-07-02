@@ -12,6 +12,3 @@ Webhook definitions - webhooks signal other systems about events inside NetServe
 NSWebhookAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

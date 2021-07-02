@@ -5,8 +5,3 @@ intellisense: Void.NSPhoneListItem
 keywords: NSPhoneListItem
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

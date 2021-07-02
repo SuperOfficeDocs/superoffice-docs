@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Change NetServer logging settings
-
-1. autolist 
-

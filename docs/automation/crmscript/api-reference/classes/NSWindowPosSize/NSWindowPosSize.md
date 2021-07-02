@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Window and dialog position and size settings
-
-1. autolist 
-

@@ -12,6 +12,3 @@ This agent can be used to manage number allocation
 NSNumberAllocationAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

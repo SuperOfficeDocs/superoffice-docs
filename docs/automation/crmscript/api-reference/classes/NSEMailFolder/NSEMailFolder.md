@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Properties for a mail folder
-
-1. autolist 
-

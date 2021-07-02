@@ -5,8 +5,3 @@ intellisense: Void.NSCountry
 keywords: NSCountry
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

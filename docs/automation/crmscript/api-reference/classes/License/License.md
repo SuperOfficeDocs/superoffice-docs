@@ -8,9 +8,3 @@ so.topic: reference
 
 
 Deprecated in 7.1.
-
-
-
-
-1. autolist
-

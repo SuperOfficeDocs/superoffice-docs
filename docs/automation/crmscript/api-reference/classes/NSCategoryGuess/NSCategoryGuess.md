@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Category guess information
-
-1. autolist 
-

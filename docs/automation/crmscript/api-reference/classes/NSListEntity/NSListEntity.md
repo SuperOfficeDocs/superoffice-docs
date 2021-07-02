@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The list entity contains information about a specific list
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Properties for an email account
-
-1. autolist 
-

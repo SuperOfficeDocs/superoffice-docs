@@ -5,8 +5,3 @@ intellisense: Void.NSPositionList
 keywords: NSPositionList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

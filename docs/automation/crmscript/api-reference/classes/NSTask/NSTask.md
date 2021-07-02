@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Type of an appointment
-
-1. autolist 
-

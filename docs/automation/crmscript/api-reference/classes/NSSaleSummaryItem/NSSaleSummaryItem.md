@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Sale Summary item 
-
-1. autolist 
-

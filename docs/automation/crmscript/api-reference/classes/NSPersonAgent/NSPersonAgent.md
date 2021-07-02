@@ -12,6 +12,3 @@ Person data services.
 NSPersonAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

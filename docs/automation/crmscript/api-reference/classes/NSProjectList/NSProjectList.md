@@ -5,8 +5,3 @@ intellisense: Void.NSProjectList
 keywords: NSProjectList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

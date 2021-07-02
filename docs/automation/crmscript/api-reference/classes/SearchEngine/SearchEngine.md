@@ -42,9 +42,3 @@ table1.(table2->field2a).field2b Where field2a is field in table2 that has a for
 
 From CS version 7, the aggregate functions are no longer supported, since the query is sent to NetServer instead of directly to the database.
 It is possible to circumvent this by setting the reg\_id 235 to 1 and explicitly use `bypassNetserver(true)` in the searchengine. Be aware of any security implications this might cause.
-
-
-
-
-1. autolist
-

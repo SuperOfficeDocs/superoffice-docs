@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Dashboard configuration
-
-1. autolist 
-

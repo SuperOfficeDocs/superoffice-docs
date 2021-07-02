@@ -48,9 +48,3 @@ foreign key to table1.
 
 GenericSearch extends theSearchEngine class with options for how to list fields. Displayfields, datafields, idfields.
 GenericSearch has less functionality for adding criterias than SearcjEngine
-
-
-
-
-1. autolist
-

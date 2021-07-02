@@ -21,9 +21,3 @@ Class for representing and sending emails.
     e.setValue("subject", "test");
     e.setValue("body", "This is a test.");
     e.send();
-
-
-
-
-1. autolist
-

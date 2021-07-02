@@ -5,8 +5,3 @@ intellisense: Void.NSConsentPurpose
 keywords: NSConsentPurpose
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

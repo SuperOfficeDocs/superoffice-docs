@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The heading entity contains generic list item information
-
-1. autolist 
-

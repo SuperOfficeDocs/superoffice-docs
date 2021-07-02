@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The other groups this user is a member of, apart from the main user group
-
-1. autolist 
-

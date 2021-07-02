@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Search preferences for a phone list search
-
-1. autolist 
-

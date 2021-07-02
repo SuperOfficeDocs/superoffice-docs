@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The ext app entity contains information on an external application
-
-1. autolist 
-

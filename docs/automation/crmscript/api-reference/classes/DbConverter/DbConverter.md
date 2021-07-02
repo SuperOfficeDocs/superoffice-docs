@@ -8,9 +8,3 @@ so.topic: reference
 
 
 This class is only allowed in a ConverterApp context. Any attempts of using this in any other contexts will yield an exception.
-
-
-
-
-1. autolist
-

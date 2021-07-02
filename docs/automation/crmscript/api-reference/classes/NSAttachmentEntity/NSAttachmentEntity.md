@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The Attachment carrier represent meta data for a Service attachment
-
-1. autolist 
-

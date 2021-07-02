@@ -5,8 +5,3 @@ intellisense: Void.NSActivityInformationListItem
 keywords: NSActivityInformationListItem
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

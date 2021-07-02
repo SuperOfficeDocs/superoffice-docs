@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Definition of all properties for a status monitor
-
-1. autolist 
-

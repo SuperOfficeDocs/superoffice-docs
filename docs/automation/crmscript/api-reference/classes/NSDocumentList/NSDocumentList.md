@@ -5,8 +5,3 @@ intellisense: Void.NSDocumentList
 keywords: NSDocumentList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

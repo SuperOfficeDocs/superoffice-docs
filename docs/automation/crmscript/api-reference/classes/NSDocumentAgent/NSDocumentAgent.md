@@ -12,6 +12,3 @@ Collection of all services that works with Document data. This is services for t
 NSDocumentAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

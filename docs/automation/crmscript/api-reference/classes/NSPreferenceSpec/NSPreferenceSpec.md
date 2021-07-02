@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Preference specification, consisting of the section name and key name
-
-1. autolist 
-

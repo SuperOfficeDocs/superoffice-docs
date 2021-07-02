@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Cache maintenance
-
-1. autolist 
-

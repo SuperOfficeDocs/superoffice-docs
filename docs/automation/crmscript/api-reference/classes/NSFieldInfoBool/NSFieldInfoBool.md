@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Boolean custom database field. Typically rendered as a checkbox.
-
-1. autolist 
-

@@ -5,8 +5,3 @@ intellisense: Void.NSCategory
 keywords: NSCategory
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

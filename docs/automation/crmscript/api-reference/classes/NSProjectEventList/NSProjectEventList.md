@@ -5,8 +5,3 @@ intellisense: Void.NSProjectEventList
 keywords: NSProjectEventList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -5,8 +5,3 @@ intellisense: Void.NSLegalBaseList
 keywords: NSLegalBaseList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

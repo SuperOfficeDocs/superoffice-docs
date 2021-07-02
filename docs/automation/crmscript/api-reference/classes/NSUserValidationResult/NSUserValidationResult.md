@@ -5,8 +5,3 @@ intellisense: Void.NSUserValidationResult
 keywords: NSUserValidationResult
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

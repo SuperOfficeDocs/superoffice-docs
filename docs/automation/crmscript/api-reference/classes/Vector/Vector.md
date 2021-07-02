@@ -7,9 +7,3 @@ so.topic: reference
 
 
 This class represent a Vector, in which you can add object of the type String.
-
-
-
-
-1. autolist
-

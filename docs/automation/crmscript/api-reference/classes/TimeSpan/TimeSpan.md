@@ -6,9 +6,3 @@ so.topic: reference
 ---
 
 A class for representing a timespan.
-
-
-
-
-1. autolist
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Full set of all TypicalSearch elements maintained by one source (including criteria)
-
-1. autolist 
-

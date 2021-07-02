@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Credentials for external authentication.
-
-1. autolist 
-

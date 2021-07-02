@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Activity list filter information.
-
-1. autolist 
-

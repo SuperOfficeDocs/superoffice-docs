@@ -5,8 +5,3 @@ intellisense: Void.NSCustomerLanguageList
 keywords: NSCustomerLanguageList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

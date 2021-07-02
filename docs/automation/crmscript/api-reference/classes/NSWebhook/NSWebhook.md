@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
-
-1. autolist 
-

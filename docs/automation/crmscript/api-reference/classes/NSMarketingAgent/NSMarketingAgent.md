@@ -12,6 +12,3 @@ Agent used for Marketing functions, such as Forms
 NSMarketingAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Dictionary where key is string and value is a FieldMetadata
-
-1. autolist 
-

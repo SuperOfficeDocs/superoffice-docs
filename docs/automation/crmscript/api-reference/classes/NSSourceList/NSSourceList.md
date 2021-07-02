@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Source of a sale
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Chat session summary: id, title, created date
-
-1. autolist 
-

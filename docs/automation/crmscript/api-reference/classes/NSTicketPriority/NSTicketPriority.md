@@ -5,8 +5,3 @@ intellisense: Void.NSTicketPriority
 keywords: NSTicketPriority
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

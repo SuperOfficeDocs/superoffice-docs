@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 One line in a list
-
-1. autolist 
-

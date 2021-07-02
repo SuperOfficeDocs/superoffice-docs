@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Definition and configuration of a Form
-
-1. autolist 
-

@@ -22,9 +22,3 @@ The default date is now.
     d.addYear(1); // d is 1 year, 2 months and 3 days from today
     print(d.getWeekDay().toString()); // Monday is 0
     print(d.toString()); // yyyy-mm-dd
-
-
-
-
-1. autolist
-

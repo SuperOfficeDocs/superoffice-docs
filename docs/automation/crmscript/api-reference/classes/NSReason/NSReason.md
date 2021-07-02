@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Reason for a lost sale
-
-1. autolist 
-

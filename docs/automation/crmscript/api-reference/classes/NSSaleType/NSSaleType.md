@@ -5,8 +5,3 @@ intellisense: Void.NSSaleType
 keywords: NSSaleType
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -32,9 +32,3 @@ A class for representing fields (Used by Company::set/getAddress() functions).
     }
     
     print("done!\n");
-
-
-
-
-1. autolist
-

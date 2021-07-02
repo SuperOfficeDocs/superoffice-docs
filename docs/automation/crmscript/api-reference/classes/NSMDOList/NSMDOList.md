@@ -5,8 +5,3 @@ intellisense: Void.NSMDOList
 keywords: NSMDOList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

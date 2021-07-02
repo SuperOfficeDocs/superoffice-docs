@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A refcount entity for a number allocation
-
-1. autolist 
-

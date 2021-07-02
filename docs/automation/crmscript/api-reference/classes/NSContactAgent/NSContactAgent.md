@@ -12,6 +12,3 @@ Contact (company) data services.
 NSContactAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

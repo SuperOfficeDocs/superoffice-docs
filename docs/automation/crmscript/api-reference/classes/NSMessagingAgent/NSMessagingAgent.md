@@ -12,6 +12,3 @@ SMS and other external messaging systems
 NSMessagingAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

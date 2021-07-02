@@ -5,8 +5,3 @@ intellisense: Void.NSSelectionEntity
 keywords: NSSelectionEntity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

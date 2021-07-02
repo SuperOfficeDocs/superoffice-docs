@@ -7,9 +7,3 @@ so.topic: reference
 ---
 
 Carrier object for DuplicateRule.
-
-
-
-
-1. autolist
-

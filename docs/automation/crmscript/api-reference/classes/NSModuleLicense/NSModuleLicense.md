@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Represents a single module license info.
-
-1. autolist 
-

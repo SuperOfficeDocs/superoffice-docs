@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Date + time custom database field.
-
-1. autolist 
-

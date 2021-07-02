@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about an attachment
-
-1. autolist 
-

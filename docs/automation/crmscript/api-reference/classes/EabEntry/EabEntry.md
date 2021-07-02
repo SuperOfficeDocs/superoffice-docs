@@ -21,9 +21,3 @@ This class enables you to read and write entries from the email address book. It
     print(e.getValue("sms"));
     e.setValue("name", "test");
     e.save();
-
-
-
-
-1. autolist
-

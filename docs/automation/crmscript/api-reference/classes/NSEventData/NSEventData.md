@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 EventData containing data related to event handlers
-
-1. autolist 
-

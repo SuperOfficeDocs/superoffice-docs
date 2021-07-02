@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Result of CheckLicenseStatus
-
-1. autolist 
-

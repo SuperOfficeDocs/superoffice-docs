@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Token information
-
-1. autolist 
-

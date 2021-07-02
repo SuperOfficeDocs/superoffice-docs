@@ -5,8 +5,3 @@ intellisense: Void.NSBusinessList
 keywords: NSBusinessList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The ticket entity is used for representing a service ticket
-
-1. autolist 
-

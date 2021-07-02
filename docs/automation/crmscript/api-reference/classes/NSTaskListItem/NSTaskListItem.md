@@ -5,8 +5,3 @@ intellisense: Void.NSTaskListItem
 keywords: NSTaskListItem
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

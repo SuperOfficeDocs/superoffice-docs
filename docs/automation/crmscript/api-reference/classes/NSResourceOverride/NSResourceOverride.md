@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Override specifications for resources/labels
-
-1. autolist 
-

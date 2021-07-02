@@ -12,6 +12,3 @@ Collection of all services for searching for person or contact (company) phone n
 NSPhoneListAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

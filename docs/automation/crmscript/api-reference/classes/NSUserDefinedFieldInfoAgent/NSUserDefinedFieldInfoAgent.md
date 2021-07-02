@@ -12,6 +12,3 @@ Returns information about user-defined fields, like field type, field size, fiel
 NSUserDefinedFieldInfoAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

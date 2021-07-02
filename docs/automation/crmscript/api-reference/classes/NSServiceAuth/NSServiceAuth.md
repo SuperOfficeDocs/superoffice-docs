@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Properties for service authentication
-
-1. autolist 
-

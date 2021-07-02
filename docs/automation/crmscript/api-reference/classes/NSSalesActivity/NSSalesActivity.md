@@ -5,8 +5,3 @@ intellisense: Void.NSSalesActivity
 keywords: NSSalesActivity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

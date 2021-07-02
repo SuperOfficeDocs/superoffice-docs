@@ -12,6 +12,3 @@ Preferences, user interface tab configuration
 NSPreferenceAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

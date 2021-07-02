@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Describes a device running Pocket CRM
-
-1. autolist 
-

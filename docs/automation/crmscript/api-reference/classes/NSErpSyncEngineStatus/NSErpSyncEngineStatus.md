@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Status of the Sync engine
-
-1. autolist 
-

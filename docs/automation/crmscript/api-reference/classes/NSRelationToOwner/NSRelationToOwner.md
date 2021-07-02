@@ -5,8 +5,3 @@ intellisense: Void.NSRelationToOwner
 keywords: NSRelationToOwner
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

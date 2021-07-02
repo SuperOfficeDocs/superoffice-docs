@@ -5,8 +5,3 @@ intellisense: Void.NSLocalizedText
 keywords: NSLocalizedText
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

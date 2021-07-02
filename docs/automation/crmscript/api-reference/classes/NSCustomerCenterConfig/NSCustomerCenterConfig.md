@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Contains configuration when displaying the Customer Center
-
-1. autolist 
-

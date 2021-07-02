@@ -12,6 +12,3 @@ Tooltip system, hint to text transformation
 NSTooltipsAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

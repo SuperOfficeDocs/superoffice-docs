@@ -7,9 +7,3 @@ so.topic: reference
 
 
 This class represents a XML DOM structure.
-
-
-
-
-1. autolist
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about all list connections for a connection between CRM and the ERP system.
-
-1. autolist 
-

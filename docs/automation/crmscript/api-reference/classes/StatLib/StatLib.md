@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Class for using the eJournal statistics library.
-
-
-
-
-1. autolist
-

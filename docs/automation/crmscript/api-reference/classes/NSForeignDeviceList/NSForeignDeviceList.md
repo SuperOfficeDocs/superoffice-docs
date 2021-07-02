@@ -5,8 +5,3 @@ intellisense: Void.NSForeignDeviceList
 keywords: NSForeignDeviceList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

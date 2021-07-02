@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A message in a chat session
-
-1. autolist 
-

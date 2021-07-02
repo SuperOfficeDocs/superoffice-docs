@@ -12,6 +12,3 @@ AI services, such as Translation, Statistics, Sentiment analysis, backed by call
 NSAIAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

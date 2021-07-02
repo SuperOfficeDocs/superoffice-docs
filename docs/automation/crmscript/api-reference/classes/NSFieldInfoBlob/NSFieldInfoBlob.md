@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Blob custom database field. Base64 encoded string value.
-
-1. autolist 
-

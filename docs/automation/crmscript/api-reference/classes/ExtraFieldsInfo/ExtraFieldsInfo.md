@@ -19,9 +19,3 @@ extra field from this class.
     
     e.getExtraFields("person"); // Finds extraFields in tabel person
     print(e.getTableName()); // Prints "person"
-
-
-
-
-1. autolist
-

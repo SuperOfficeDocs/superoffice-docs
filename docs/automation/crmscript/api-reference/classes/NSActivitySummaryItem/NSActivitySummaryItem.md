@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Summary details about appointments and documents.
-
-1. autolist 
-

@@ -20,9 +20,3 @@ A class to access eJournal extra tables - create, edit and delete entries.
     e.setValue("value", "43");
     print(e.getValue("Test"));
     e.save();
-
-
-
-
-1. autolist
-

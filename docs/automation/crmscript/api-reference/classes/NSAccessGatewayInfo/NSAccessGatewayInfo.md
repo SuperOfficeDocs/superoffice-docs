@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Access gateway related data and operations
-
-1. autolist 
-

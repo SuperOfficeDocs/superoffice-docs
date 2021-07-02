@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Contains default value information for one ERP field
-
-1. autolist 
-

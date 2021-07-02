@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Customer languages that customer center supports.
-
-1. autolist 
-

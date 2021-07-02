@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about a version of the .
-
-1. autolist 
-

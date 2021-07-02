@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A project that is also an event. Used by Audience
-
-1. autolist 
-

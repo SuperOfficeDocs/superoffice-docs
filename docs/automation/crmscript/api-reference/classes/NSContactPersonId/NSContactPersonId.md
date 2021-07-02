@@ -8,9 +8,3 @@ so.topic: reference
 
 
 Carrier object for ContactPersonId.
-
-
-
-
-1. autolist
-

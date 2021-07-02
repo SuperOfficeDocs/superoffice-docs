@@ -21,9 +21,3 @@ This class is used to handle eJournal attachments.
     a.setValue("name", "test.txt");
     print(a.getValue("size")); // Size in bytes
     a.save();
-
-
-
-
-1. autolist
-

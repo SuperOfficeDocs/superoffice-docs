@@ -8,9 +8,3 @@ so.topic: reference
 
 
 This class represents a byte.
-
-
-
-
-1. autolist
-

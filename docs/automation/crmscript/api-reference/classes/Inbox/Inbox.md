@@ -7,9 +7,3 @@ so.topic: reference
 ---
 
 A class for managing the inbox.
-
-
-
-
-1. autolist
-

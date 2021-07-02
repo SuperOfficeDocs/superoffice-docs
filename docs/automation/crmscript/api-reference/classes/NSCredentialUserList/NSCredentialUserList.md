@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The list of actual users that can be selected
-
-1. autolist 
-

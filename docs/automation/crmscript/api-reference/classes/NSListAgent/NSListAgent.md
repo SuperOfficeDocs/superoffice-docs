@@ -12,6 +12,3 @@ Collection of all services that works with Lists. These are typical lists of dat
 NSListAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

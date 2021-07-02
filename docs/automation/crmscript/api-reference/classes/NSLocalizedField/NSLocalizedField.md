@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Carrier object for LocalizedField.
-
-
-
-
-1. autolist
-

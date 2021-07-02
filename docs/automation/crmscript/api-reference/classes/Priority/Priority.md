@@ -7,9 +7,3 @@ so.topic: reference
 
 
 This class contains methods which is used to handle priorities.
-
-
-
-
-1. autolist
-

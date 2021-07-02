@@ -12,6 +12,3 @@ Agent used for retrieveing and setting favourites
 NSFavouriteAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

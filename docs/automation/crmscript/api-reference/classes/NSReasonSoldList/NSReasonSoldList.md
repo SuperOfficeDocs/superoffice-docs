@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Reasons for a succesfully sold sale
-
-1. autolist 
-

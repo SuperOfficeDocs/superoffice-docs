@@ -8,9 +8,3 @@ so.topic: reference
 
 
 Carrier object for Address.
-
-
-
-
-1. autolist
-

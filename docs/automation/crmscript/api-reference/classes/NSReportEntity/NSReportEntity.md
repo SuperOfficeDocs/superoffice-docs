@@ -5,8 +5,3 @@ intellisense: Void.NSReportEntity
 keywords: NSReportEntity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

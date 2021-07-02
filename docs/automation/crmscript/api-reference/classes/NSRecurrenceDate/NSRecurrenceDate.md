@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Carrier object for RecurrenceDate.
-
-
-
-
-1. autolist
-

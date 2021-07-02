@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The ticket carrier is used for representing a service request.
-
-1. autolist 
-

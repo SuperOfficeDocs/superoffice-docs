@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Web panels show web pages embedded in the client.
-
-1. autolist 
-

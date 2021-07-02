@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The resource entity contains resource information
-
-1. autolist 
-

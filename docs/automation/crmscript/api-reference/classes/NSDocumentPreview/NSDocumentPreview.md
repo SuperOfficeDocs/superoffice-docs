@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Document data intended for preview purposes
-
-1. autolist 
-

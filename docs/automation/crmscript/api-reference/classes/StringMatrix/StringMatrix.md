@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Two-dimensional string array.
-
-
-
-
-1. autolist
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Attachment documents for a given version of a Quote
-
-1. autolist 
-

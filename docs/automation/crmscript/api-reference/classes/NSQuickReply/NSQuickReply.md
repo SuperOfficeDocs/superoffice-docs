@@ -5,8 +5,3 @@ intellisense: Void.NSQuickReply
 keywords: NSQuickReply
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

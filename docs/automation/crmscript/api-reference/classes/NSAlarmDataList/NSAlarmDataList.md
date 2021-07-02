@@ -5,8 +5,3 @@ intellisense: Void.NSAlarmDataList
 keywords: NSAlarmDataList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

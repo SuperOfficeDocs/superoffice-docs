@@ -21,9 +21,3 @@ Class for representing a customer.
     print(c.getValue("email")); // Returns a list of all emails
     c.setValue("firstname", "Bob");
     c.save();
-
-
-
-
-1. autolist
-

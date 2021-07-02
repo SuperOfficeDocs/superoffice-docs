@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about the rules for a TimeZone
-
-1. autolist 
-

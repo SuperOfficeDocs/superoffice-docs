@@ -8,9 +8,3 @@ so.topic: reference
 
 
 This class is used for communicating with DBI agents - to share data with external systems.
-
-
-
-
-1. autolist
-

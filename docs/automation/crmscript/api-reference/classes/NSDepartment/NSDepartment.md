@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 a.k.a. User Group
-
-1. autolist 
-

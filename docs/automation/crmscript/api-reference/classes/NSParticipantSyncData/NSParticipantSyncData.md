@@ -5,8 +5,3 @@ intellisense: Void.NSParticipantSyncData
 keywords: NSParticipantSyncData
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -24,9 +24,3 @@ Class for representing an eJournal Ticket.
     t.setValue("dbiLastModified", d.toString());
     print(t.getOwnerEmail()); // Prints name and email of owner
     t.save();
-
-
-
-
-1. autolist
-

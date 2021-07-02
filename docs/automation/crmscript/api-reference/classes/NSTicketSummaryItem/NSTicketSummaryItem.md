@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The ticket summary with heading, created date.
-
-1. autolist 
-

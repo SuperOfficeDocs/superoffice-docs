@@ -101,9 +101,6 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 
 * String [getNavigateTo()][13]
 * Void [setNavigateTo(String url)][14]
-
-1. autolist
-
 <!-- Referenced links -->
 [1]: ../../../user-interface/docs/service-ui/screen-events.md
 [2]: ../../../user-interface/docs/soprotocol/index.md

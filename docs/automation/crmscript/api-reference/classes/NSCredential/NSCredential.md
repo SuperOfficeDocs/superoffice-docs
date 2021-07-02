@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Credentials supported for authentication
-
-1. autolist 
-

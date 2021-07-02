@@ -7,9 +7,3 @@ so.topic: reference
 
 
 This class handles notification of different types.
-
-
-
-
-1. autolist
-

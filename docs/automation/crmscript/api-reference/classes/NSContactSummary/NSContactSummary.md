@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Summary of contact with recent activities, chats, and requests included.
-
-1. autolist 
-

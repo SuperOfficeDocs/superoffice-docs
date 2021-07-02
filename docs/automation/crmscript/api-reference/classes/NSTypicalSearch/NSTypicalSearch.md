@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Complete information about a TypicalSearch (including criteria)
-
-1. autolist 
-

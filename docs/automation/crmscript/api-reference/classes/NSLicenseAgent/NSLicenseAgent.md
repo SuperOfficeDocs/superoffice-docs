@@ -12,6 +12,3 @@ License query, download, activation
 NSLicenseAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

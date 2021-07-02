@@ -20,9 +20,3 @@ The Parser class is a template engine. A Parser instance can set template variab
     printLine(output);
     
     //prints Hello Jack Black!
-
-
-
-
-1. autolist
-

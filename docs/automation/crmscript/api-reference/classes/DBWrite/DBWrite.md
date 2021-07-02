@@ -11,9 +11,3 @@ This class is obsolete. Use SearchEngine to insert or update data to the databas
 
 
 Class for writing to the database.
-
-
-
-
-1. autolist
-

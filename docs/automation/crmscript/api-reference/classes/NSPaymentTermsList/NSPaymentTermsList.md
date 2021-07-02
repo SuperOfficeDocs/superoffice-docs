@@ -5,8 +5,3 @@ intellisense: Void.NSPaymentTermsList
 keywords: NSPaymentTermsList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

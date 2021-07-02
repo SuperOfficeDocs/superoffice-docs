@@ -5,8 +5,3 @@ intellisense: Void.NSCurrencyEntity
 keywords: NSCurrencyEntity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

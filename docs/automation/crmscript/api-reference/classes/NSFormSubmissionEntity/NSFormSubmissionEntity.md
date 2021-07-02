@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Content of a Form submission
-
-1. autolist 
-

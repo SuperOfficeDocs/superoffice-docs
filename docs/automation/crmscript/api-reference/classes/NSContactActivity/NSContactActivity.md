@@ -5,8 +5,3 @@ intellisense: Void.NSContactActivity
 keywords: NSContactActivity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

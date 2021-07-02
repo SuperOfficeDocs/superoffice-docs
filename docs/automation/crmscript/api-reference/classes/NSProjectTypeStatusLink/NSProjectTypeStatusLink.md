@@ -4,11 +4,3 @@ title: NSProjectTypeStatusLink
 intellisense: Void.NSProjectTypeStatusLink
 so.topic: reference
 ---
-
-
-
-
-
-
-1. autolist
-

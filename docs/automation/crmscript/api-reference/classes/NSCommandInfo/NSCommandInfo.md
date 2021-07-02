@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 An instance of this class describes a custom command, declared and implemented by a document plugin
-
-1. autolist 
-

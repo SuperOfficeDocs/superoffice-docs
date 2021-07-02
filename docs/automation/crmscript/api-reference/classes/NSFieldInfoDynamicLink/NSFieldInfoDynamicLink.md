@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Dynamic Link custom database field. Links are resolved indirectly via by CS.
-
-1. autolist 
-

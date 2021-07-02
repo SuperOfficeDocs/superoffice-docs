@@ -12,6 +12,3 @@ String resource substitution management.
 NSResourceAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

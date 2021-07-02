@@ -22,9 +22,3 @@ This class represent invoice entries. You will be able to create new or modify e
     Date d; // Default value for date is today
     i.setValue("date", d.toString());
     i.save();
-
-
-
-
-1. autolist
-

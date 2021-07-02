@@ -5,8 +5,3 @@ intellisense: Void.NSProjectStatus
 keywords: NSProjectStatus
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

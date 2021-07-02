@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Definition of the three perionds for status monitors and some other settings per saint entity
-
-1. autolist 
-

@@ -12,6 +12,3 @@ MDO Lists, reading, searching, and item lookup.
 NSMDOAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

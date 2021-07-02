@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Object for returning information when validating a CRMScript
-
-1. autolist 
-

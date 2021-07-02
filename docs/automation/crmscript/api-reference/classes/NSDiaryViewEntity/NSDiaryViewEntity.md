@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The DiaryView Service. The service implements all services working with the DiaryView object.
-
-1. autolist 
-

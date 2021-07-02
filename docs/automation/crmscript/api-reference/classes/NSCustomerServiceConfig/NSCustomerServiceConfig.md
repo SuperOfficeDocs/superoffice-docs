@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 This contains different configuration methods regarding Service
-
-1. autolist 
-

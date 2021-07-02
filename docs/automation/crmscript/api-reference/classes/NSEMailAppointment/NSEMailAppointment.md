@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Information about an email appointment received as iCal data
-
-1. autolist 
-

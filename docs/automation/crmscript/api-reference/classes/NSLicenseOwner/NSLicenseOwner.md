@@ -5,8 +5,3 @@ intellisense: Void.NSLicenseOwner
 keywords: NSLicenseOwner
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

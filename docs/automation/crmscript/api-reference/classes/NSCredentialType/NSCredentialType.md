@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Description of credential type
-
-1. autolist 
-

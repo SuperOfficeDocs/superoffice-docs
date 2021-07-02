@@ -5,8 +5,3 @@ intellisense: Void.NSUserInfoList
 keywords: NSUserInfoList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Ticket Category - light read-only version of TicketCategoryEntity.
-
-1. autolist 
-

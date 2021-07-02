@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 A shipment with information intended for previewing it.
-
-1. autolist 
-

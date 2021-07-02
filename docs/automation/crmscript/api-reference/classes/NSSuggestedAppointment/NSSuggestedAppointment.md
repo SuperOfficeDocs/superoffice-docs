@@ -5,8 +5,3 @@ intellisense: Void.NSSuggestedAppointment
 keywords: NSSuggestedAppointment
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -7,9 +7,3 @@ so.topic: reference
 
 
 Interface for the TrayApp Agent
-
-
-
-
-1. autolist
-

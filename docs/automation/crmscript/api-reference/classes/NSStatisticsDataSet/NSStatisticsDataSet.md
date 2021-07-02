@@ -5,8 +5,3 @@ intellisense: Void.NSStatisticsDataSet
 keywords: NSStatisticsDataSet
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

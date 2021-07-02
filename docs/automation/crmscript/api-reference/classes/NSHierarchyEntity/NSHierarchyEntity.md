@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Folder structures
-
-1. autolist 
-

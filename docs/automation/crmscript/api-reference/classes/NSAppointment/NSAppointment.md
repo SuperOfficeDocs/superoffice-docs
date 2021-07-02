@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Simple read-only appointment data.
-
-1. autolist 
-

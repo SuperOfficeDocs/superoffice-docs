@@ -26,9 +26,3 @@ Use open before you call any other methods.
     g.open("test.txt", "r"); // Opening file for reading only
     print(g.readAll());
     g.close();
-
-
-
-
-1. autolist
-

@@ -23,9 +23,3 @@ Class for representing a user.
     u.setValue("status", "1"); // 1 is Active, 2 is Not Present, 3 is deleted
     print(u.isLoggedIn(2).toString()); // 2 = web pages, 1 = soap interface
     u.save();
-
-
-
-
-1. autolist
-

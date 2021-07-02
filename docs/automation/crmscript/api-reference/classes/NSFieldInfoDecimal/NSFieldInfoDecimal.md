@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Decimal (double precision) custom database field.
-
-1. autolist 
-

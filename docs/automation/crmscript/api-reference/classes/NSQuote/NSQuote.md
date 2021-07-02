@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Quote carrier with the active quote version and favorite alternative.
-
-1. autolist 
-

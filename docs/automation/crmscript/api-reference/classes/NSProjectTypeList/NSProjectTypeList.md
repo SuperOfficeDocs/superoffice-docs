@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 List of Project Type values.
-
-1. autolist 
-

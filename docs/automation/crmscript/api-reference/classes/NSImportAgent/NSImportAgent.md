@@ -12,6 +12,3 @@ This agent can be used to import data into the system
 NSImportAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

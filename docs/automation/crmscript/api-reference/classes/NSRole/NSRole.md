@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Users role for role-based security
-
-1. autolist 
-

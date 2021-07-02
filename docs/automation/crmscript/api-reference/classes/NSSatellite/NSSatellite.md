@@ -5,8 +5,3 @@ intellisense: Void.NSSatellite
 keywords: NSSatellite
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

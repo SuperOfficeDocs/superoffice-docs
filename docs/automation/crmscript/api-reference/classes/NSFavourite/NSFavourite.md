@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Favourite carrier.
-
-1. autolist 
-

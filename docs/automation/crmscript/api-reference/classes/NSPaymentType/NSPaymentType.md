@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 The built-in payment types list. Used by the SuperOffice Quote Connector in quote versions.
-
-1. autolist 
-

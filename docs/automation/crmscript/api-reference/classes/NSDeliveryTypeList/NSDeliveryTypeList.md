@@ -5,8 +5,3 @@ intellisense: Void.NSDeliveryTypeList
 keywords: NSDeliveryTypeList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Result of calling a webhook
-
-1. autolist 
-

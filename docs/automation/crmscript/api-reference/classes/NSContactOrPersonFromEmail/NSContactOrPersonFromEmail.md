@@ -5,8 +5,3 @@ intellisense: Void.NSContactOrPersonFromEmail
 keywords: NSContactOrPersonFromEmail
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

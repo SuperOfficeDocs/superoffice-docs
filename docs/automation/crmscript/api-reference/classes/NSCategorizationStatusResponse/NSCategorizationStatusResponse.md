@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Carrier to describe the current categorization training status for a tenant in HugoAI
-
-1. autolist 
-

@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Sms settings for Customer Service sms providers.
-
-1. autolist 
-

@@ -12,6 +12,3 @@ Database schema queries and changes
 NSDatabaseAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

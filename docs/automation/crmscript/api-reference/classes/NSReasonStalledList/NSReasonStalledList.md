@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Why is the sale stalled?
-
-1. autolist 
-

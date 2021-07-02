@@ -5,8 +5,3 @@ intellisense: Void.NSEntityNameList
 keywords: NSEntityNameList
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

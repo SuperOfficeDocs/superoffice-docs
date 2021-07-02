@@ -12,6 +12,3 @@ Get preview strings from a hint
 NSPreviewsAgent agent;
 agent.callMethod(arg1, arg2);
 ```
-
-1. autolist
-

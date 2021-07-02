@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Quote methods
-
-1. autolist 
-

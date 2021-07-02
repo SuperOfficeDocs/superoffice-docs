@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Limited information about one e-mail.
-
-1. autolist 
-

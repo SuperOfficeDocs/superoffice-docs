@@ -5,8 +5,3 @@ intellisense: Void.NSRoleEntity
 keywords: NSRoleEntity
 so.topic: reference
 ---
-
-
-
-1. autolist 
-

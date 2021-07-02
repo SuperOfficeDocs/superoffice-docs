@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Relation to other table database field.
-
-1. autolist 
-

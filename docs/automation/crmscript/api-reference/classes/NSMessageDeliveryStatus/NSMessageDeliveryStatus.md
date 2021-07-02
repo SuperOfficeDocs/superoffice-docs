@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Class used to describe the message status.
-
-1. autolist 
-

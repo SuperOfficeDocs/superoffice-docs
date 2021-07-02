@@ -4,11 +4,3 @@ title: SpmCustomerList
 intellisense: Void.SpmCustomerList
 so.topic: reference
 ---
-
-
-
-
-
-
-1. autolist
-

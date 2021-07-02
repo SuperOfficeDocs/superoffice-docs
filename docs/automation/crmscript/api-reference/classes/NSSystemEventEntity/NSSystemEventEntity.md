@@ -7,6 +7,3 @@ so.topic: reference
 ---
 
 Entity for system events
-
-1. autolist 
-
