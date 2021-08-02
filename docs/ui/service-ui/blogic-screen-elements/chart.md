@@ -49,22 +49,23 @@ type = pie
 
 | Action                | Map keys               | Description                                                             |
 |:----------------------|:-----------------------|:------------------------------------------------------------------------|
-| addSeries             | label<br>seriesType<br>yaxis2                  | Creates a new series of data                                            |
+| addSeries             | label<br>seriesType<br>yaxis2                  | Creates a new series of data   <br> New options (v. 9.2 R8)<br> seriesType<br>yaxis2                                         |
 | addLabel              | key<br>label         | Adds a label for a key                                                  |
 | setUrl                | key<br>url<br>series | Sets the URL for a key and optionally a series                          |
 | setValue              | key<br>value<br>annotation<br>xValue<br>zValue<br>fillColor | Sets the value for a key in a series<br>xValue, zValue, and fillColor apply to bubble charts (v. 8.5R09) |
 | increaseValue         | key<br>delta<br>series<br>annotation | Adds a delta to the value of a key in the given series |
+| addXBand<br>addYBand | color<br>from<br>to<br>label | Adds a vertical/horizontal band to the chart (v. 8.2) |
 | setXLabel             | label                  | Sets the label for the X-axis                                           |
-| setX2Label             | label                  | Sets the label for the X2-axis                                           |
+| setX2Label             | label                  | Sets the label for the X2-axis   (v. 9.2 R8)                                        |
 | setYLabel             | label                  | Sets the label for the Y-axis                                           |
-| setY2Label             | label                  | Sets the label for the Y2-axis                                           |
+| setY2Label             | label                  | Sets the label for the Y2-axis       (v. 9.2 R8)                                    |
 | setZLabel             | label                  | Sets the label for the Z-axis (v. 8.5R09)                               |
 | setYIsTimespan        | set                    | Whether the y-axis represents a time-span (in seconds) - Bool           |
 | setYMin               | value                  | Sets minimum value for the Y-axis                                       |
-| setY2Min               | value                  | Sets minimum value for the Y2-axis                                       |
+| setY2Min               | value                  | Sets minimum value for the Y2-axis                                    (v. 9.2 R8)   |
 | setXMax               | value                  | Sets maximum value for the X-axis                                       |
-| setX2Max               | value                  | Sets maximum value for the X2-axis                                       |
+| setX2Max               | value                  | Sets maximum value for the X2-axis                                  (v. 9.2 R8)     |
 | setAllowYAxisDecimals | set |    Set allow Y-axis decimals       |
-| setAllowY2AxisDecimals | set |     Set allow Y2-axis decimals      |
+| setAllowY2AxisDecimals | set |     Set allow Y2-axis decimals     (v. 9.2 R8) |
 | setYAxisInterval | value |       Set interval for Y-axis    |
-| setY2AxisInterval | value |   Set interval for Y2-axis        |
+| setY2AxisInterval | value |   Set interval for Y2-axis  (v. 9.2 R8)      |
