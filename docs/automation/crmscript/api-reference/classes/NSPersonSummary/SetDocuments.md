@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_SetDocuments
-title: SetDocuments(ActivitySummaryItem[] documents)
+title: SetDocuments(NSActivitySummaryItem[] documents)
 intellisense: NSPersonSummary.SetDocuments
 keywords: NSPersonSummary, GetDocuments
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Recent documents on person
 
 **Parameter:** 
- - **documents** ActivitySummaryItem[]
+ - **documents** NSActivitySummaryItem[]
 
 ```crmscript
 NSPersonSummary thing;
-ActivitySummaryItem[] documents;
+NSActivitySummaryItem[] documents;
 thing.SetDocuments(documents);
 ```
 

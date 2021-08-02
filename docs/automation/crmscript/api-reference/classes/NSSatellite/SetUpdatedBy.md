@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_SetUpdatedBy
-title: SetUpdatedBy(Associate updatedBy)
+title: SetUpdatedBy(NSAssociate updatedBy)
 intellisense: NSSatellite.SetUpdatedBy
 keywords: NSSatellite, GetUpdatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **updatedBy** Associate
+ - **updatedBy** NSAssociate
 
 ```crmscript
 NSSatellite thing;
-Associate updatedBy;
+NSAssociate updatedBy;
 thing.SetUpdatedBy(updatedBy);
 ```
 

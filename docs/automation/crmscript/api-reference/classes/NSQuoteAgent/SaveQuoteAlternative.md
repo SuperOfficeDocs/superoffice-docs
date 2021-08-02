@@ -11,10 +11,10 @@ Updates the existing NSQuoteAlternative or creates a new NSQuoteAlternative if t
 **Parameters**:
  - **quoteAlternative** The NSQuoteAlternative to save.
 
-**Returns:** New or updated NSQuoteAlternative
+**Returns:** NSQuoteAlternative
 
 ```crmscript
-NSQuote  agent;
+NSQuoteAgent agent;
 NSQuoteAlternative thing = agent.CreateDefaultQuoteAlternative();
 thing = agent.SaveQuoteAlternative(thing);
 ```

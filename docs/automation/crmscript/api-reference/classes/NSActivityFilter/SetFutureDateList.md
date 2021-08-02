@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSActivityFilter_SetFutureDateList
-title: SetFutureDateList(MDOListItem[] futureDateList)
+title: SetFutureDateList(NSMDOListItem[] futureDateList)
 intellisense: NSActivityFilter.SetFutureDateList
 keywords: NSActivityFilter, GetFutureDateList
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The list of future date selections. This is a static MDO list with standard values.
 
 **Parameter:** 
- - **futureDateList** MDOListItem[]
+ - **futureDateList** NSMDOListItem[]
 
 ```crmscript
 NSActivityFilter thing;
-MDOListItem[] futureDateList;
+NSMDOListItem[] futureDateList;
 thing.SetFutureDateList(futureDateList);
 ```
 

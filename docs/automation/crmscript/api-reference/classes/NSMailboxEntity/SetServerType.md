@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMailboxEntity_SetServerType
-title: SetServerType(MailboxType serverType)
+title: SetServerType(Integer serverType)
 intellisense: NSMailboxEntity.SetServerType
 keywords: NSMailboxEntity, GetServerType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Enum indicating the protocol to use (POP/IMAP).
 
 **Parameter:** 
- - **serverType** MailboxType
+ - **serverType** Integer
      - Enum: 0 = Unknown 
      - Enum: 1 = Pop 
      - Enum: 2 = Imap 
@@ -23,7 +23,7 @@ Enum indicating the protocol to use (POP/IMAP).
 
 ```crmscript
 NSMailboxEntity thing;
-MailboxType serverType;
+Integer serverType;
 thing.SetServerType(serverType);
 ```
 

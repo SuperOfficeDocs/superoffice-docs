@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_Find
-title: FindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
+title: NSFindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.Find
 keywords: NSFindAgent, Find
 so.topic: reference
@@ -15,7 +15,7 @@ Execute a Find operation and return a page of results. The criteria for the Find
  - **pageSize** Size of result set pages
  - **pageNumber** Result set page to return, 0 is the first page. When a call returns no rows, no further pages are available. Negative page numbers are interpreted as number of rows to skip.
 
-**Returns:** Results from search, containing column information and result rows.
+**Returns:** NSFindResults
 
 ```crmscript
 NSFindAgent agent;
@@ -24,6 +24,6 @@ String providerName;
 String storageKey;
 Integer pageSize;
 Integer pageNumber;
-FindResults res = agent.Find(storageType, providerName, storageKey, pageSize, pageNumber);
+NSFindResults res = agent.Find(storageType, providerName, storageKey, pageSize, pageNumber);
 ```
 

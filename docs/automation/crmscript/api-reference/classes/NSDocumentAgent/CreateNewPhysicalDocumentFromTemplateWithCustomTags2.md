@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags2
-title: DocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, StringDictionary customTags, String uiCulture)
+title: NSDocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, StringDictionary customTags, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 keywords: NSDocumentAgent, CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 so.topic: reference
@@ -19,7 +19,7 @@ Create a new physical document based on a document template and store it in the 
  - **customTags** Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
  - **uiCulture** Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang".
 
-**Returns:** The document object with updated info after creating the document
+**Returns:** NSDocumentEntity
 
 ```crmscript
 NSDocumentAgent agent;
@@ -32,6 +32,6 @@ Integer selectionId;
 Integer projectId;
 StringDictionary customTags;
 String uiCulture;
-DocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, customTags, uiCulture);
+NSDocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, customTags, uiCulture);
 ```
 

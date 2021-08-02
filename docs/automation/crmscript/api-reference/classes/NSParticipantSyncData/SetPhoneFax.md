@@ -9,7 +9,7 @@ so.topic: reference
 Returns a collection of fax numbers that belong to the contact person.
 
 **Parameter:** 
- - **phoneFax** StringArray
+ - **phoneFax** String[]
 
 ```crmscript
 NSParticipantSyncData thing;

@@ -11,7 +11,7 @@ Updates the existing NSUser or creates a new NSUser if the id parameter is 0
 **Parameters**:
  - **user** The NSUser to save.
 
-**Returns:** New or updated NSUser
+**Returns:** NSUser
 
 ```crmscript
 NSUser  agent;

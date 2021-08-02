@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreference_SetTabOrder
-title: SetTabOrder(TabOrder tabOrder)
+title: SetTabOrder(NSTabOrder tabOrder)
 intellisense: NSPreference.SetTabOrder
 keywords: NSPreference, GetTabOrder
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **tabOrder** TabOrder
+ - **tabOrder** NSTabOrder
 
 ```crmscript
 NSPreference thing;
-TabOrder tabOrder;
+NSTabOrder tabOrder;
 thing.SetTabOrder(tabOrder);
 ```
 

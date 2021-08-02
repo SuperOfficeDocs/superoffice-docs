@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByAssociatesAndState
-title: BatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(Integer[] associateIds, Integer state)
+title: NSBatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(Integer[] associateIds, Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState
 keywords: NSBatchAgent, GetBatchTaskInfosByAssociatesAndState
 so.topic: reference
 ---
 
-Get an array of BatchTaskInfo for the provided associate id's and batch task state.
+Get an array of NSBatchTaskInfo for the provided associate id's and batch task state.
 
 **Parameters:**
  - **associateIds** Array of associate id's.
@@ -20,12 +20,12 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task sta
      - Enum: 6 = SucceededManualCleanup 
      - Enum: 99999 = All 
 
-**Returns:** Returns an array of BatchTaskInfo.
+**Returns:** NSBatchTaskInfo[]
 
 ```crmscript
 NSBatchAgent agent;
 Integer[] associateIds;
 Integer state;
-BatchTaskInfo[] res = agent.GetBatchTaskInfosByAssociatesAndState(associateIds, state);
+NSBatchTaskInfo[] res = agent.GetBatchTaskInfosByAssociatesAndState(associateIds, state);
 ```
 

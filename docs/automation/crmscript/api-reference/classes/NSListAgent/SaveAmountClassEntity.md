@@ -11,7 +11,7 @@ Updates the existing NSAmountClassEntity or creates a new NSAmountClassEntity if
 **Parameters**:
  - **amountClassEntity** The NSAmountClassEntity to save.
 
-**Returns:** New or updated NSAmountClassEntity
+**Returns:** NSAmountClassEntity
 
 ```crmscript
 NSList  agent;

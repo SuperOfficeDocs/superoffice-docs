@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_GetStreetAddress
-title: AddressSyncData GetStreetAddress()
+title: NSAddressSyncData GetStreetAddress()
 intellisense: NSParticipantSyncData.GetStreetAddress
 keywords: NSParticipantSyncData, GetStreetAddress
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** AddressSyncData
+**Returns:** NSAddressSyncData
 
 
 ```crmscript
 NSParticipantSyncData thing;
-AddressSyncData streetAddress  = thing.GetStreetAddress();
+NSAddressSyncData streetAddress  = thing.GetStreetAddress();
 ```
 
 

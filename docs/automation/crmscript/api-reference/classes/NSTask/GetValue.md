@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the Task.
 
-**Returns:** String Task name.
+**Returns:** String
 
 ```crmscript
 NSTask thing;

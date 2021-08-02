@@ -12,7 +12,7 @@ Get plugin-dependent properties for the document. A number of standard propertie
  - **documentId** SuperOffice document ID
  - **requestedProperties** Array of property names whose values are being requested.
 
-**Returns:** Dictionary of name=value pairs, corresponding to the requested properties.
+**Returns:** StringDictionary
 
 ```crmscript
 NSDocumentAgent agent;

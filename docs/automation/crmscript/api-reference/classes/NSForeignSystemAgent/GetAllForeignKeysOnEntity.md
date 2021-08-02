@@ -12,7 +12,7 @@ Get a list of foreignkeys ('app.device.key') and their values ('123') that belon
  - **entityType** Entity type (table name): 'contact', 'project' etc.
  - **entityId** Primary key of Entity
 
-**Returns:** Dictionary of 'appname.deviceid.keyname' = '123' key values
+**Returns:** StringDictionary
 
 ```crmscript
 NSForeignSystemAgent agent;

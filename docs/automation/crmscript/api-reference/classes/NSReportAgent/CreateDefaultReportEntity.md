@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSReportEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSReportEntity with default values.
+**Returns:** NSReportEntity
 
 ```crmscript
 NSReportAgent agent;

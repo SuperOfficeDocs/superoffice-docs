@@ -11,7 +11,7 @@ Updates the existing NSServiceAuth or creates a new NSServiceAuth if the id para
 **Parameters**:
  - **serviceAuth** The NSServiceAuth to save.
 
-**Returns:** New or updated NSServiceAuth
+**Returns:** NSServiceAuth
 
 ```crmscript
 NSUser  agent;

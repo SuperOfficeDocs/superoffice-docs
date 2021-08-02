@@ -8,7 +8,7 @@ so.topic: reference
 
 Red letter day texts for other countries than the associates' own country
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

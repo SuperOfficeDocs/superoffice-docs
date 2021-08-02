@@ -12,12 +12,10 @@ This method will change all references from one ticket status to another. Typica
  - **fromTicketStatusId** The id of the ticket status to change from
  - **toTicketStatusId** The id of the ticket status to change to
 
-**Returns:** Does not return anything
-
 ```crmscript
 NSListAgent agent;
 Integer fromTicketStatusId;
 Integer toTicketStatusId;
-Void res = agent.GlobalChangeTicketStatus(fromTicketStatusId, toTicketStatusId);
+agent.GlobalChangeTicketStatus(fromTicketStatusId, toTicketStatusId);
 ```
 

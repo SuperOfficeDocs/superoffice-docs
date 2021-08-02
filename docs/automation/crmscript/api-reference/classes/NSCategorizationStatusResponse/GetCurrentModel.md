@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCategorizationStatusResponse_GetCurrentModel
-title: CategorizationModelDetails GetCurrentModel()
+title: NSCategorizationModelDetails GetCurrentModel()
 intellisense: NSCategorizationStatusResponse.GetCurrentModel
 keywords: NSCategorizationStatusResponse, GetCurrentModel
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Current model information
 
-**Returns:** CategorizationModelDetails
+**Returns:** NSCategorizationModelDetails
 
 
 ```crmscript
 NSCategorizationStatusResponse thing;
-CategorizationModelDetails currentModel  = thing.GetCurrentModel();
+NSCategorizationModelDetails currentModel  = thing.GetCurrentModel();
 ```
 
 

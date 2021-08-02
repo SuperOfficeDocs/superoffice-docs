@@ -6,7 +6,7 @@ keywords: NSSaleSummaryItem, GetCurrency
 so.topic: reference
 ---
 
-Currency the sale amount is in.
+NSCurrency the sale amount is in.
 
 **Parameter:** 
  - **currency** String

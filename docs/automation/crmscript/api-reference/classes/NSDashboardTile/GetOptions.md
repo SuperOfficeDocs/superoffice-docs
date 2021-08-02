@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardTile_GetOptions
-title: DashboardTileOption[] GetOptions()
+title: NSDashboardTileOption[] GetOptions()
 intellisense: NSDashboardTile.GetOptions
 keywords: NSDashboardTile, GetOptions
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The tile options
 
-**Returns:** DashboardTileOption[]
+**Returns:** NSDashboardTileOption[]
 
 
 ```crmscript
 NSDashboardTile thing;
-DashboardTileOption[] options  = thing.GetOptions();
+NSDashboardTileOption[] options  = thing.GetOptions();
 ```
 
 

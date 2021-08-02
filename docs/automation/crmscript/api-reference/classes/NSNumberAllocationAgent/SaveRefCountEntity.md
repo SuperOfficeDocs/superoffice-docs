@@ -11,7 +11,7 @@ Updates the existing NSRefCountEntity or creates a new NSRefCountEntity if the i
 **Parameters**:
  - **refCountEntity** The NSRefCountEntity to save.
 
-**Returns:** New or updated NSRefCountEntity
+**Returns:** NSRefCountEntity
 
 ```crmscript
 NSNumberAllocation  agent;

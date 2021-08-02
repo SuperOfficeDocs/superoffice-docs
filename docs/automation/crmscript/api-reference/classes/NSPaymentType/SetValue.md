@@ -6,10 +6,10 @@ keywords: NSPaymentType, SetValue
 so.topic: reference
 ---
 
-Set the name of the PaymentType item.
+Set the name of the NSPaymentType item.
 
 **Parameter:** 
- - **value** String PaymentType name.
+ - **value** String NSPaymentType name.
 
 ```crmscript
 NSPaymentType thing;

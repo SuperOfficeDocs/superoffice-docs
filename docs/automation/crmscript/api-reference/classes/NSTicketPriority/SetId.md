@@ -6,10 +6,10 @@ keywords: NSTicketPriority, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the TicketPriority
+Set the primary key (id) for the NSTicketPriority
 
 **Parameter:** 
- - **id** Integer TicketPriority id.
+ - **id** Integer
 
 ```crmscript
 NSTicketPriority thing;

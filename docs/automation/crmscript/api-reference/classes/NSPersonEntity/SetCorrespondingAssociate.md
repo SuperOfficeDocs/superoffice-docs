@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate
-title: SetCorrespondingAssociate(Associate correspondingAssociate)
+title: SetCorrespondingAssociate(NSAssociate correspondingAssociate)
 intellisense: NSPersonEntity.SetCorrespondingAssociate
 keywords: NSPersonEntity, GetCorrespondingAssociate
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user).
 
 **Parameter:** 
- - **correspondingAssociate** Associate
+ - **correspondingAssociate** NSAssociate
 
 ```crmscript
 NSPersonEntity thing;
-Associate correspondingAssociate;
+NSAssociate correspondingAssociate;
 thing.SetCorrespondingAssociate(correspondingAssociate);
 ```
 

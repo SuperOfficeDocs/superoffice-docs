@@ -12,7 +12,7 @@ Get a base64-encoded data stream that is just the order confirmation document, f
  - **quoteVersionId** VersionId of the quote to be sent; the status of the version will not be changed by calling this method
  - **confirmationTemplateId** Id of the template for the order confirmation lines document
 
-**Returns:** Base64-encoded binary data, that is in fact a PDF document that should be shown to the user
+**Returns:** String
 
 ```crmscript
 NSQuoteAgent agent;

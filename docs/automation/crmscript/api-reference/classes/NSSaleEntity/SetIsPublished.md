@@ -11,7 +11,7 @@ so.topic: reference
 
 Should this SaleEntity be published and visible to strangers?
 
-`SetIsPublished(Boolean isPublished)`
+`SetIsPublished(Bool isPublished)`
 
 ## Parameters
 

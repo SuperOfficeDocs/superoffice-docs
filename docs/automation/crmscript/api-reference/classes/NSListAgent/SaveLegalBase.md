@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveLegalBase
-title: LegalBase SaveLegalBase(LegalBase legalBase)
+title: NSLegalBase SaveLegalBase(NSLegalBase legalBase)
 intellisense: NSListAgent.SaveLegalBase
 keywords: NSListAgent, SaveLegalBase
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_SetUpdatedBy
-title: SetUpdatedBy(Associate updatedBy)
+title: SetUpdatedBy(NSAssociate updatedBy)
 intellisense: NSProjectEntity.SetUpdatedBy
 keywords: NSProjectEntity, GetUpdatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person that last updated the project
 
 **Parameter:** 
- - **updatedBy** Associate
+ - **updatedBy** NSAssociate
 
 ```crmscript
 NSProjectEntity thing;
-Associate updatedBy;
+NSAssociate updatedBy;
 thing.SetUpdatedBy(updatedBy);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSDocumentEntity.GetUpdatedBy
 keywords: NSDocumentEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The person that last updated the appointment.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSDocumentEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

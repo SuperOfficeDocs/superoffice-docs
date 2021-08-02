@@ -13,7 +13,7 @@ Generates a Pdf from HTML and makes a document
  - **title** Title of report
  - **personId** Person id associated with the report
 
-**Returns:** Document id of saved report
+**Returns:** Integer
 
 ```crmscript
 NSDocumentAgent agent;

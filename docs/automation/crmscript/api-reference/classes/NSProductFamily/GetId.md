@@ -6,9 +6,9 @@ keywords: NSProductFamily, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the ProductFamily
+Get the primary key (id) for the NSProductFamily
 
-**Returns:** Integer ProductFamily id.
+**Returns:** Integer NSProductFamily id.
 
 ```crmscript
 NSProductFamily thing;

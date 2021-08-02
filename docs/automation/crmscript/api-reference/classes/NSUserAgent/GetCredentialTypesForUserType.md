@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetCredentialTypesForUserType
-title: CredentialType[] GetCredentialTypesForUserType(Integer userType)
+title: NSCredentialType[] GetCredentialTypesForUserType(Integer userType)
 intellisense: NSUserAgent.GetCredentialTypesForUserType
 keywords: NSUserAgent, GetCredentialTypesForUserType
 so.topic: reference
@@ -17,11 +17,11 @@ Get available credential types that can be used for the specified user type.
      - Enum: 4 = AnonymousAssociate 
      - Enum: 5 = SystemAssociate 
 
-**Returns:** Credential types that can be used for authentication
+**Returns:** NSCredentialType[]
 
 ```crmscript
 NSUserAgent agent;
 Integer userType;
-CredentialType[] res = agent.GetCredentialTypesForUserType(userType);
+NSCredentialType[] res = agent.GetCredentialTypesForUserType(userType);
 ```
 

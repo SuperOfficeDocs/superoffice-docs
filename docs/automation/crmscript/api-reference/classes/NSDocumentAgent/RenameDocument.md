@@ -12,7 +12,7 @@ Rename the physical document, i.e., change the file name or equivalent concept i
  - **documentId** SuperOffice document ID
  - **newFilename** Suggested new file name. The document archive may amend this to conform to uniqueness constraints, character range limitations etc.
 
-**Returns:** The actual, new "file" name. This will generally be derived from the suggested name, but may be amended.
+**Returns:** String
 
 ```crmscript
 NSDocumentAgent agent;

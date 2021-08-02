@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketMessageEntity_GetPerson
-title: Person GetPerson()
+title: NSPerson GetPerson()
 intellisense: NSTicketMessageEntity.GetPerson
 keywords: NSTicketMessageEntity, GetPerson
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 If this is an incoming message, this will contain the person
 
-**Returns:** Person
+**Returns:** NSPerson
 
 
 ```crmscript
 NSTicketMessageEntity thing;
-Person person  = thing.GetPerson();
+NSPerson person  = thing.GetPerson();
 ```
 
 

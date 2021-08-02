@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetPhones
-title: SetPhones(EntityElement[] phones)
+title: SetPhones(NSEntityElement[] phones)
 intellisense: NSContactEntity.SetPhones
 keywords: NSContactEntity, GetPhones
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The contact's phone numbers
 
 **Parameter:** 
- - **phones** EntityElement[]
+ - **phones** NSEntityElement[]
 
 ```crmscript
 NSContactEntity thing;
-EntityElement[] phones;
+NSEntityElement[] phones;
 thing.SetPhones(phones);
 ```
 

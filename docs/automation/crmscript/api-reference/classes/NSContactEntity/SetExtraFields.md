@@ -6,7 +6,7 @@ keywords: NSContactEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values on ContactEntity with a map.
+Set the extra field values on NSContactEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

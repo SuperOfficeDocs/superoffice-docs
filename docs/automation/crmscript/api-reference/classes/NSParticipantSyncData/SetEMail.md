@@ -9,7 +9,7 @@ so.topic: reference
 
 
 **Parameter:** 
- - **eMail** StringArray
+ - **eMail** String[]
 
 ```crmscript
 NSParticipantSyncData thing;

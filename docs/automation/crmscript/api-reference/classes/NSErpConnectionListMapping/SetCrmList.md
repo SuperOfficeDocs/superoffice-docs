@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpConnectionListMapping_SetCrmList
-title: SetCrmList(MDOListItem crmList)
+title: SetCrmList(NSMDOListItem crmList)
 intellisense: NSErpConnectionListMapping.SetCrmList
 keywords: NSErpConnectionListMapping, GetCrmList
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The SuperOffice listItem
 
 **Parameter:** 
- - **crmList** MDOListItem
+ - **crmList** NSMDOListItem
 
 ```crmscript
 NSErpConnectionListMapping thing;
-MDOListItem crmList;
+NSMDOListItem crmList;
 thing.SetCrmList(crmList);
 ```
 

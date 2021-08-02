@@ -11,11 +11,11 @@ Gets a vector of ReasonSold objects.
 **Parameters:**
  - **reasonSoldIds** The identifiers of the NSReasonSold objects
 
-**Returns:** Vector of NSReasonSold objects
+**Returns:** NSReasonSold[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetReasonSoldList(ids);
+NSReasonSold[] res = agent.GetReasonSoldList(ids);
 ```
 

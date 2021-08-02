@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetPosition
-title: SetPosition(Position position)
+title: SetPosition(NSPosition position)
 intellisense: NSPersonEntity.SetPosition
 keywords: NSPersonEntity, GetPosition
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The position. This is a predefined SuperOffice value, different from Title
 
 **Parameter:** 
- - **position** Position
+ - **position** NSPosition
 
 ```crmscript
 NSPersonEntity thing;
-Position position;
+NSPosition position;
 thing.SetPosition(position);
 ```
 

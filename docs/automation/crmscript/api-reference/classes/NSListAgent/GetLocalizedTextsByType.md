@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nslistagent_getlocalizedtextsbytype
-title: LocalizedText[] GetLocalizedTextsByType()
+title: NSLocalizedText[] GetLocalizedTextsByType()
 description: CRMScript method in the NSListAgent class that gets localized text by their type
 intellisense: NSListAgent.GetLocalizedTextsByType
 keywords: NSListAgent, GetLocalizedTextsByType, GetLocalizedTextsByType(Integer[])
@@ -11,9 +11,9 @@ so.topic: reference
 
 Gets localized text by their type.
 
-Returns an array of LocalizedText objects.
+Returns an array of NSLocalizedText objects.
 
-`LocalizedText[] GetLocalizedTextsByType(Integer[] textTypes)`
+`NSLocalizedText[] GetLocalizedTextsByType(Integer[] textTypes)`
 
 ## Parameters
 
@@ -49,5 +49,5 @@ Returns an array of LocalizedText objects.
 ```crmscript
 NSListAgent agent;
 LocalizedTextType[] textTypes;
-LocalizedText[] res = agent.GetLocalizedTextsByType(textTypes);
+NSLocalizedText[] res = agent.GetLocalizedTextsByType(textTypes);
 ```

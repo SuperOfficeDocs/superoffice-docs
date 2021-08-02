@@ -9,7 +9,7 @@ so.topic: reference
 The contact's internet adresses
 
 **Parameter:** 
- - **contactUrl** StringArray
+ - **contactUrl** String[]
 
 ```crmscript
 NSParticipantSyncData thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_SetTicketNewinfo
-title: SetTicketNewinfo(TicketPriorityEscalateEvent ticketNewinfo)
+title: SetTicketNewinfo(Integer ticketNewinfo)
 intellisense: NSTicketPriorityEntity.SetTicketNewinfo
 keywords: NSTicketPriorityEntity, GetTicketNewinfo
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 This field indicates what to do with the escalation chain when the request gets new info
 
 **Parameter:** 
- - **ticketNewinfo** TicketPriorityEscalateEvent
+ - **ticketNewinfo** Integer
      - Enum: -1 = None 
      - Enum: 0 = Stop 
      - Enum: 1 = Continue 
@@ -17,7 +17,7 @@ This field indicates what to do with the escalation chain when the request gets 
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityEscalateEvent ticketNewinfo;
+Integer ticketNewinfo;
 thing.SetTicketNewinfo(ticketNewinfo);
 ```
 

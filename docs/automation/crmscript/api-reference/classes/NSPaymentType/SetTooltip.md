@@ -6,10 +6,10 @@ keywords: NSPaymentType, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the PaymentType list item.
+Set the tooltip description for the NSPaymentType list item.
 
 **Parameter:** 
- - **tooltip** String PaymentType tooltip description.
+ - **tooltip** String NSPaymentType tooltip description.
 
 ```crmscript
 NSPaymentType thing;

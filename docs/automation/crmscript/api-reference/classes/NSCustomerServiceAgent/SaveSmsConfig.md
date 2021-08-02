@@ -11,7 +11,7 @@ Updates the existing NSSmsConfig or creates a new NSSmsConfig if the id paramete
 **Parameters**:
  - **smsConfig** The NSSmsConfig to save.
 
-**Returns:** New or updated NSSmsConfig
+**Returns:** NSSmsConfig
 
 ```crmscript
 NSCustomerService  agent;

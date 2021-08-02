@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetSource
-title: Source GetSource()
+title: NSSource GetSource()
 intellisense: NSSaleEntity.GetSource
 keywords: NSSaleEntity, GetSource
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The sale source
 
-**Returns:** Source
+**Returns:** NSSource
 
 
 ```crmscript
 NSSaleEntity thing;
-Source source  = thing.GetSource();
+NSSource source  = thing.GetSource();
 ```
 
 

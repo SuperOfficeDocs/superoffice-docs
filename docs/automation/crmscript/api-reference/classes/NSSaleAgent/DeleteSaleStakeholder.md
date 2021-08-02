@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSSaleStakeholder
   
 **Parameters:**
- - **saleStakeholderId** The identity of the SaleStakeholder to delete.
+ - **saleStakeholderId** The identity of the NSSaleStakeholder to delete.
 
 ```crmscript
 NSSaleAgent agent;

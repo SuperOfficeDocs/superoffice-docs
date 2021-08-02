@@ -12,7 +12,7 @@ Adds members to the selection from the search result.
  - **selectionId** The id of the selection to add members
  - **storageKey** Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
 
-**Returns:** Number of members added
+**Returns:** Integer
 
 ```crmscript
 NSSelectionAgent agent;

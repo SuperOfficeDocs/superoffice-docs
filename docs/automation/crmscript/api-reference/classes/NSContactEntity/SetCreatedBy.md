@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetCreatedBy
-title: SetCreatedBy(Associate createdBy)
+title: SetCreatedBy(NSAssociate createdBy)
 intellisense: NSContactEntity.SetCreatedBy
 keywords: NSContactEntity, GetCreatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The user that created the contact
 
 **Parameter:** 
- - **createdBy** Associate
+ - **createdBy** NSAssociate
 
 ```crmscript
 NSContactEntity thing;
-Associate createdBy;
+NSAssociate createdBy;
 thing.SetCreatedBy(createdBy);
 ```
 

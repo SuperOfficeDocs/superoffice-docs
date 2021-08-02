@@ -6,10 +6,10 @@ keywords: NSDeliveryTerm, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the DeliveryTerm list item.
+Set the tooltip description for the NSDeliveryTerm list item.
 
 **Parameter:** 
- - **tooltip** String DeliveryTerm tooltip description.
+ - **tooltip** String NSDeliveryTerm tooltip description.
 
 ```crmscript
 NSDeliveryTerm thing;

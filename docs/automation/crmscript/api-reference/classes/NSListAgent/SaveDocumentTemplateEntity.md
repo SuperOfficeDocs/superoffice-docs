@@ -11,7 +11,7 @@ Updates the existing NSDocumentTemplateEntity or creates a new NSDocumentTemplat
 **Parameters**:
  - **documentTemplateEntity** The NSDocumentTemplateEntity to save.
 
-**Returns:** New or updated NSDocumentTemplateEntity
+**Returns:** NSDocumentTemplateEntity
 
 ```crmscript
 NSList  agent;

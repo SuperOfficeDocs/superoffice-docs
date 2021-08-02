@@ -6,16 +6,16 @@ keywords: NSListAgent, GetReasonList
 so.topic: reference
 ---
 
-Gets a vector of Reason objects.
+Gets a vector of NSReason objects.
 
 **Parameters:**
  - **reasonIds** The identifiers of the NSReason objects
 
-**Returns:** Vector of NSReason objects
+**Returns:** NSReason[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetReasonList(ids);
+NSReason[] res = agent.GetReasonList(ids);
 ```
 

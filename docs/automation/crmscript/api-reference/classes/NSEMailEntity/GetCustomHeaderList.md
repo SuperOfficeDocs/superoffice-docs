@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetCustomHeaderList
-title: EMailCustomHeader[] GetCustomHeaderList()
+title: NSEMailCustomHeader[] GetCustomHeaderList()
 intellisense: NSEMailEntity.GetCustomHeaderList
 keywords: NSEMailEntity, GetCustomHeaderList
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Non standard e-mail headers
 
-**Returns:** EMailCustomHeader[]
+**Returns:** NSEMailCustomHeader[]
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailCustomHeader[] customHeaderList  = thing.GetCustomHeaderList();
+NSEMailCustomHeader[] customHeaderList  = thing.GetCustomHeaderList();
 ```
 
 

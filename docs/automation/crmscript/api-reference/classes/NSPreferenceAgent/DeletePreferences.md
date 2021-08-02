@@ -11,11 +11,9 @@ Delete some preferences by id
 **Parameters:**
  - **ids** The ids of the preference to delete
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSPreferenceAgent agent;
 Integer[] ids;
-Void res = agent.DeletePreferences(ids);
+agent.DeletePreferences(ids);
 ```
 

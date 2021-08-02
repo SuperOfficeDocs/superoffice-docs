@@ -6,9 +6,9 @@ keywords: NSTicketPriority, GetValue
 so.topic: reference
 ---
 
-Get the name of the TicketPriority.
+Get the name of the NSTicketPriority.
 
-**Returns:** String TicketPriority name.
+**Returns:** String
 
 ```crmscript
 NSTicketPriority thing;

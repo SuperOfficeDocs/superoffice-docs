@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_AddChatTopicUserAgent
-title: ChatTopicAgent AddChatTopicUserAgent(Integer chatTopicId, ChatTopicAgent useragent)
+title: NSChatTopicAgent AddChatTopicUserAgent(Integer chatTopicId, NSChatTopicAgent useragent)
 intellisense: NSChatAgent.AddChatTopicUserAgent
 keywords: NSChatAgent, AddChatTopicUserAgent
 so.topic: reference
@@ -12,12 +12,12 @@ Add a user to a chat topic
  - **chatTopicId** Id of the chat topic
  - **useragent** User's role within the chat topic to add to topic.
 
-**Returns:** The user's role within the chat topic.
+**Returns:** NSChatTopicAgent
 
 ```crmscript
 NSChatAgent agent;
 Integer chatTopicId;
-ChatTopicAgent useragent;
-ChatTopicAgent res = agent.AddChatTopicUserAgent(chatTopicId, useragent);
+NSChatTopicAgent useragent;
+NSChatTopicAgent res = agent.AddChatTopicUserAgent(chatTopicId, useragent);
 ```
 

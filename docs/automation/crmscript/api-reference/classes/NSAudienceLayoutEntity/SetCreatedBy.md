@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceLayoutEntity_SetCreatedBy
-title: SetCreatedBy(Associate createdBy)
+title: SetCreatedBy(NSAssociate createdBy)
 intellisense: NSAudienceLayoutEntity.SetCreatedBy
 keywords: NSAudienceLayoutEntity, GetCreatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Name of the person that created the Audience layout
 
 **Parameter:** 
- - **createdBy** Associate
+ - **createdBy** NSAssociate
 
 ```crmscript
 NSAudienceLayoutEntity thing;
-Associate createdBy;
+NSAssociate createdBy;
 thing.SetCreatedBy(createdBy);
 ```
 

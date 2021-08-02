@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetCreatedBy
-title: SetCreatedBy(Associate createdBy)
+title: SetCreatedBy(NSAssociate createdBy)
 intellisense: NSSaleEntity.SetCreatedBy
 keywords: NSSaleEntity, GetCreatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Who created to sale
 
 **Parameter:** 
- - **createdBy** Associate
+ - **createdBy** NSAssociate
 
 ```crmscript
 NSSaleEntity thing;
-Associate createdBy;
+NSAssociate createdBy;
 thing.SetCreatedBy(createdBy);
 ```
 

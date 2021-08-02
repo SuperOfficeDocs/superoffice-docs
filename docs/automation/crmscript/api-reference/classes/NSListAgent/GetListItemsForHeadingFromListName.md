@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetListItemsForHeadingFromListName
-title: SelectableMDOListItem[] GetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId)
+title: NSSelectableMDOListItem[] GetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId)
 intellisense: NSListAgent.GetListItemsForHeadingFromListName
 keywords: NSListAgent, GetListItemsForHeadingFromListName
 so.topic: reference
@@ -12,12 +12,12 @@ List of list items that is selected if under this heading
  - **udListDefinitionName** The name of the list definition.
  - **headingId** The id of the heading
 
-**Returns:** Array of selectable list items
+**Returns:** NSSelectableMDOListItem[]
 
 ```crmscript
 NSListAgent agent;
 String udListDefinitionName;
 Integer headingId;
-SelectableMDOListItem[] res = agent.GetListItemsForHeadingFromListName(udListDefinitionName, headingId);
+NSSelectableMDOListItem[] res = agent.GetListItemsForHeadingFromListName(udListDefinitionName, headingId);
 ```
 

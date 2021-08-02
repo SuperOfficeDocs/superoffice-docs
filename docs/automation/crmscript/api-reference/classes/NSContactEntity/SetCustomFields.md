@@ -6,7 +6,7 @@ keywords: NSContactEntity, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields on a ContactEntity with a map.
+Set the user-defined and extra fields on a NSContactEntity with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

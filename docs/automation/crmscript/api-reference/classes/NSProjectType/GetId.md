@@ -6,9 +6,9 @@ keywords: NSProjectType, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the ProjectType
+Get the primary key (id) for the NSProjectType
 
-**Returns:** Integer ProjectType id.
+**Returns:** Integer NSProjectType id.
 
 ```crmscript
 NSProjectType thing;

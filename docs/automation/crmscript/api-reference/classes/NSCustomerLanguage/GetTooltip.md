@@ -6,9 +6,9 @@ keywords: NSCustomerLanguage, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the CustomerLanguage list item.
+Get the tooltip description for the NSCustomerLanguage list item.
 
-**Returns:** String CustomerLanguage tooltip description.
+**Returns:** String
 
 ```crmscript
 NSCustomerLanguage thing;

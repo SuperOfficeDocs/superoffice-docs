@@ -11,7 +11,7 @@ Updates the existing NSListEntity or creates a new NSListEntity if the id parame
 **Parameters**:
  - **listEntity** The NSListEntity to save.
 
-**Returns:** New or updated NSListEntity
+**Returns:** NSListEntity
 
 ```crmscript
 NSList  agent;

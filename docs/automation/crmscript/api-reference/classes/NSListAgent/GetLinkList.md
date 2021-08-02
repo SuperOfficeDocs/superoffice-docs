@@ -11,11 +11,11 @@ Gets a vector of Link objects.
 **Parameters:**
  - **linkIds** The identifiers of the NSLink objects
 
-**Returns:** Vector of NSLink objects
+**Returns:** NSLink[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetLinkList(ids);
+NSLink[] res = agent.GetLinkList(ids);
 ```
 

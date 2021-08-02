@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSQuoteVersion_GetQuoteAlternatives
-title: QuoteAlternative[] GetQuoteAlternatives()
+title: NSQuoteAlternative[] GetQuoteAlternatives()
 intellisense: NSQuoteVersion.GetQuoteAlternatives
 keywords: NSQuoteVersion, GetQuoteAlternatives
 so.topic: reference
 ---
 
-The QuoteAlternatives for the QuoteVersion
+The QuoteAlternatives for the NSQuoteVersion
 
-**Returns:** QuoteAlternative[]
+**Returns:** NSQuoteAlternative[]
 
 
 ```crmscript
 NSQuoteVersion thing;
-QuoteAlternative[] quoteAlternatives  = thing.GetQuoteAlternatives();
+NSQuoteAlternative[] quoteAlternatives  = thing.GetQuoteAlternatives();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTypicalSearch_SetRestrictionGroups
-title: SetRestrictionGroups(ArchiveRestrictionGroup[] restrictionGroups)
+title: SetRestrictionGroups(NSArchiveRestrictionGroup[] restrictionGroups)
 intellisense: NSTypicalSearch.SetRestrictionGroups
 keywords: NSTypicalSearch, GetRestrictionGroups
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The restrictions (can be multiple groups) that make up the TypicalSearch
 
 **Parameter:** 
- - **restrictionGroups** ArchiveRestrictionGroup[]
+ - **restrictionGroups** NSArchiveRestrictionGroup[]
 
 ```crmscript
 NSTypicalSearch thing;
-ArchiveRestrictionGroup[] restrictionGroups;
+NSArchiveRestrictionGroup[] restrictionGroups;
 thing.SetRestrictionGroups(restrictionGroups);
 ```
 

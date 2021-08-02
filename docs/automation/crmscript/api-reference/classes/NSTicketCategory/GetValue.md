@@ -6,9 +6,9 @@ keywords: NSTicketCategory, GetValue
 so.topic: reference
 ---
 
-Get the name of the TicketCategory.
+Get the name of the NSTicketCategory.
 
-**Returns:** String TicketCategory name.
+**Returns:** String
 
 ```crmscript
 NSTicketCategory thing;

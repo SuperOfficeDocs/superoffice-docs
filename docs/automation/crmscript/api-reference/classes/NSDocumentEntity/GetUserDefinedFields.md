@@ -6,9 +6,9 @@ keywords: NSDocumentEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields on the DocumentEntity as a map.
+Get the user-defined fields on the NSDocumentEntity as a map.
 
-**Returns:** Map containing user defined field values by field prog.id.
+**Returns:** Map
 
 ```crmscript
 NSDocumentEntity thing;

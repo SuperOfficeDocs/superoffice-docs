@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the Source
 
-**Returns:** Integer Source id.
+**Returns:** Integer
 
 ```crmscript
 NSSource thing;

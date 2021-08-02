@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetAppointment
-title: Appointment GetAppointment()
+title: NSAppointment GetAppointment()
 intellisense: NSSaleEntity.GetAppointment
 keywords: NSSaleEntity, GetAppointment
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Appointment
+**Returns:** NSAppointment
 
 
 ```crmscript
 NSSaleEntity thing;
-Appointment appointment  = thing.GetAppointment();
+NSAppointment appointment  = thing.GetAppointment();
 ```
 
 

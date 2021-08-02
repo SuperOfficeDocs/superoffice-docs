@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBLOBAgent_SetPersonImage
-title: Void SetPersonImage(Integer personId, Image image)
+title: Void SetPersonImage(Integer personId, NSImage image)
 intellisense: NSBLOBAgent.SetPersonImage
 keywords: NSBLOBAgent, SetPersonImage
 so.topic: reference

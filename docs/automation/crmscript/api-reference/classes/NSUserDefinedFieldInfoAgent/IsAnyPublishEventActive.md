@@ -8,3 +8,4 @@ so.topic: reference
 
 Check if any publish events are active
 
+**Returns:** Bool

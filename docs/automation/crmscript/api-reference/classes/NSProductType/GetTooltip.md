@@ -6,9 +6,9 @@ keywords: NSProductType, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the ProductType list item.
+Get the tooltip description for the NSProductType list item.
 
-**Returns:** String ProductType tooltip description.
+**Returns:** String NSProductType tooltip description.
 
 ```crmscript
 NSProductType thing;

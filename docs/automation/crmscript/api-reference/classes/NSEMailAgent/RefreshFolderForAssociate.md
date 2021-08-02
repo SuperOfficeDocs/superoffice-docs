@@ -11,7 +11,7 @@ Get all emails in folder(s) from current associate
 **Parameters:**
  - **folders** List of folder names to refresh
 
-**Returns:** JSON serialized string containing array of data about each folder
+**Returns:** String
 
 ```crmscript
 NSEMailAgent agent;

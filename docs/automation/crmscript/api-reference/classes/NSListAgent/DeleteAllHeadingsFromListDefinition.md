@@ -11,11 +11,9 @@ Delete all headings for list resolved by the provided id.
 **Parameters:**
  - **id** The id of the list to look up.
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer id;
-Void res = agent.DeleteAllHeadingsFromListDefinition(id);
+agent.DeleteAllHeadingsFromListDefinition(id);
 ```
 

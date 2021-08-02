@@ -12,12 +12,10 @@ Enable freetext search on this area
  - **areaId** The id of the area
  - **freetextEnabled** True if freetextSearch on this area shall be enabled
 
-**Returns:** No return value
-
 ```crmscript
 NSReplicationAgent agent;
 Integer areaId;
 Bool freetextEnabled;
-Void res = agent.SetFreetextSearchEnabledOnArea(areaId, freetextEnabled);
+agent.SetFreetextSearchEnabledOnArea(areaId, freetextEnabled);
 ```
 

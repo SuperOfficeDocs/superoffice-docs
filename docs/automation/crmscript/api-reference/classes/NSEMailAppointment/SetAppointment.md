@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAppointment_SetAppointment
-title: SetAppointment(Appointment appointment)
+title: SetAppointment(NSAppointment appointment)
 intellisense: NSEMailAppointment.SetAppointment
 keywords: NSEMailAppointment, GetAppointment
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Appointment information
 
 **Parameter:** 
- - **appointment** Appointment
+ - **appointment** NSAppointment
 
 ```crmscript
 NSEMailAppointment thing;
-Appointment appointment;
+NSAppointment appointment;
 thing.SetAppointment(appointment);
 ```
 

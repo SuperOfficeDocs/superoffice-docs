@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetFaxes
-title: SetFaxes(EntityElement[] faxes)
+title: SetFaxes(NSEntityElement[] faxes)
 intellisense: NSContactEntity.SetFaxes
 keywords: NSContactEntity, GetFaxes
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The contact's fax numbers
 
 **Parameter:** 
- - **faxes** EntityElement[]
+ - **faxes** NSEntityElement[]
 
 ```crmscript
 NSContactEntity thing;
-EntityElement[] faxes;
+NSEntityElement[] faxes;
 thing.SetFaxes(faxes);
 ```
 

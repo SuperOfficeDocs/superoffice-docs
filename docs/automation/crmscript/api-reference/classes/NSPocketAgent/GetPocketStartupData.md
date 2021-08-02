@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nspocketagent_getpocketstartupdata
-title: PocketStartupData GetPocketStartupData()
+title: NSPocketStartupData GetPocketStartupData()
 intellisense: NSPocketAgent.GetPocketStartupData
 keywords: NSPocketAgent, GetPocketStartupData, GetPocketStartupData(String[],DateTime)
 so.topic: reference
@@ -10,7 +10,7 @@ so.topic: reference
 
 Returns start-up data for SuperOffice Pocket CRM
 
-`PocketStartupData GetPocketStartupData(String[] tables, DateTime currentClientTime)`
+`NSPocketStartupData GetPocketStartupData(String[] tables, DateTime currentClientTime)`
 
 ## Parameters
 
@@ -23,5 +23,5 @@ Returns start-up data for SuperOffice Pocket CRM
 NSPocketAgent agent;
 String[] tables;
 DateTime currentClientTime;
-PocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);
+NSPocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);
 ```

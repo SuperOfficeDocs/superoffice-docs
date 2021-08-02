@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetSalesByDate
-title: Sale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
+title: NSSale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 intellisense: NSSaleAgent.GetSalesByDate
 keywords: NSSaleAgent, GetSalesByDate
 so.topic: reference
@@ -20,7 +20,7 @@ Returns all sales within a time period. The sales array can be limited by amount
      - Enum: 4 = Stalled 
      - Enum: 1000 = SaintAll 
 
-**Returns:** Array of sales.
+**Returns:** NSSale[]
 
 ```crmscript
 NSSaleAgent agent;
@@ -28,6 +28,6 @@ DateTime fromDate;
 DateTime toDate;
 Integer amountLimit;
 Integer status;
-Sale[] res = agent.GetSalesByDate(fromDate, toDate, amountLimit, status);
+NSSale[] res = agent.GetSalesByDate(fromDate, toDate, amountLimit, status);
 ```
 

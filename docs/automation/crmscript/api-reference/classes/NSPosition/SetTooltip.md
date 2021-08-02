@@ -6,10 +6,10 @@ keywords: NSPosition, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the Position list item.
+Set the tooltip description for the NSPosition list item.
 
 **Parameter:** 
- - **tooltip** String Position tooltip description.
+ - **tooltip** String NSPosition tooltip description.
 
 ```crmscript
 NSPosition thing;

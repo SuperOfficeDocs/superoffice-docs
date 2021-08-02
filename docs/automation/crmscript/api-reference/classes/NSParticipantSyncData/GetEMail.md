@@ -8,7 +8,7 @@ so.topic: reference
 
 
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

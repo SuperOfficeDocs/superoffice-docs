@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_GetDocuments
-title: ActivitySummaryItem[] GetDocuments()
+title: NSActivitySummaryItem[] GetDocuments()
 intellisense: NSPersonSummary.GetDocuments
 keywords: NSPersonSummary, GetDocuments
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent documents on person
 
-**Returns:** ActivitySummaryItem[]
+**Returns:** NSActivitySummaryItem[]
 
 
 ```crmscript
 NSPersonSummary thing;
-ActivitySummaryItem[] documents  = thing.GetDocuments();
+NSActivitySummaryItem[] documents  = thing.GetDocuments();
 ```
 
 

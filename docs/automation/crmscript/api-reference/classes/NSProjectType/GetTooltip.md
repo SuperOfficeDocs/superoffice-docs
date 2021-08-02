@@ -6,9 +6,9 @@ keywords: NSProjectType, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the ProjectType list item.
+Get the tooltip description for the NSProjectType list item.
 
-**Returns:** String ProjectType tooltip description.
+**Returns:** String NSProjectType tooltip description.
 
 ```crmscript
 NSProjectType thing;

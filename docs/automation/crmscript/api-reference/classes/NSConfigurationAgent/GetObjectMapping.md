@@ -12,7 +12,7 @@ Get the object mappings, i.e., the what code objects should be instantiated to h
  - **application** The application name, for instance 'SixWeb'
  - **instance** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML containing the object mappings, including assembly and class names
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

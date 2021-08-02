@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_GetChats
-title: ChatSummaryItem[] GetChats()
+title: NSChatSummaryItem[] GetChats()
 intellisense: NSPersonSummary.GetChats
 keywords: NSPersonSummary, GetChats
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent chats with person
 
-**Returns:** ChatSummaryItem[]
+**Returns:** NSChatSummaryItem[]
 
 
 ```crmscript
 NSPersonSummary thing;
-ChatSummaryItem[] chats  = thing.GetChats();
+NSChatSummaryItem[] chats  = thing.GetChats();
 ```
 
 

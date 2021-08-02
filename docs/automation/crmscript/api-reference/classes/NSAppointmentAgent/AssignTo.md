@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_AssignTo
-title: AppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
+title: NSAppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
 intellisense: NSAppointmentAgent.AssignTo
 keywords: NSAppointmentAgent, AssignTo
 so.topic: reference
@@ -17,13 +17,13 @@ Assigning an appointment to another person.
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** Updated NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 ParticipantInfo participant;
 Integer updateMode;
-AppointmentEntity res = agent.AssignTo(appointmentId, participant, updateMode);
+NSAppointmentEntity res = agent.AssignTo(appointmentId, participant, updateMode);
 ```
 

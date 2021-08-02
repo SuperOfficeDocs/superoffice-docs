@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetCrediteds
-title: Credited[] GetCrediteds()
+title: NSCredited[] GetCrediteds()
 intellisense: NSListAgent.GetCrediteds
 keywords: NSListAgent, GetCrediteds
 so.topic: reference
@@ -8,3 +8,4 @@ so.topic: reference
 
 Returns all credited
 
+**Returns:** NSCredited[]

@@ -8,7 +8,7 @@ so.topic: reference
 
 The values to be set on this field on this bulkupdate
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

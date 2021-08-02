@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFreeTextAgent_GetStatus
-title: FreeText GetStatus()
+title: NSFreeText GetStatus()
 intellisense: NSFreeTextAgent.GetStatus
 keywords: NSFreeTextAgent, GetStatus
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns status for the freetext search words
 
 
-**Returns:** The freetext status
+**Returns:** NSFreeText
 
 ```crmscript
 NSFreeTextAgent agent;
-FreeText res = agent.GetStatus();
+NSFreeText res = agent.GetStatus();
 ```
 

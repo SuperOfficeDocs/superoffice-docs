@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CreateTempFile
-title: String CreateTempFile(String filename, Stream dataStream)
+title: String CreateTempFile(String filename, NSStream dataStream)
 intellisense: NSDocumentAgent.CreateTempFile
 keywords: NSDocumentAgent, CreateTempFile
 so.topic: reference
@@ -12,12 +12,12 @@ Create a new temporary file based on the provided stream.  Specified filename ma
  - **filename** Wanted name of file.
  - **dataStream** Data to be added to the file.
 
-**Returns:** Actual used filename.
+**Returns:** String
 
 ```crmscript
 NSDocumentAgent agent;
 String filename;
-Stream dataStream;
+NSStream dataStream;
 String res = agent.CreateTempFile(filename, dataStream);
 ```
 

@@ -9,7 +9,7 @@ so.topic: reference
 This method will get the host name for CS
 
 
-**Returns:** Will get the host name for where CS is installed
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

@@ -20,7 +20,7 @@ Detect changes to the admin version (unpublished)
      - Enum: 13 = Document 
      - Enum: 14 = None 
 
-**Returns:** Returns true if any changes were found. This includes cosmetic changes.
+**Returns:** Bool
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;

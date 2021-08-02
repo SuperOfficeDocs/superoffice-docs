@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpConnectionData_SetErpFields
-title: SetErpFields(FieldMetadata[] erpFields)
+title: SetErpFields(NSFieldMetadata[] erpFields)
 intellisense: NSErpConnectionData.SetErpFields
 keywords: NSErpConnectionData, GetErpFields
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The ERP fields that should be displayed
 
 **Parameter:** 
- - **erpFields** FieldMetadata[]
+ - **erpFields** NSFieldMetadata[]
 
 ```crmscript
 NSErpConnectionData thing;
-FieldMetadata[] erpFields;
+NSFieldMetadata[] erpFields;
 thing.SetErpFields(erpFields);
 ```
 

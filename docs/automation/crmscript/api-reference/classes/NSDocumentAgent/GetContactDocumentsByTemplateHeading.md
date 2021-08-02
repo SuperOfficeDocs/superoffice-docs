@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetContactDocumentsByTemplateHeading
-title: Document[] GetContactDocumentsByTemplateHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+title: NSDocument[] GetContactDocumentsByTemplateHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetContactDocumentsByTemplateHeading
 keywords: NSDocumentAgent, GetContactDocumentsByTemplateHeading
 so.topic: reference
@@ -15,7 +15,7 @@ Method that returns a specified number of document appointments within a time ra
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
  - **templateHeadingId** The document template heading id. The heading represents a grouping or filtering of document templates.
 
-**Returns:** Array of Appointments.
+**Returns:** NSDocument[]
 
 ```crmscript
 NSDocumentAgent agent;
@@ -24,6 +24,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer templateHeadingId;
-Document[] res = agent.GetContactDocumentsByTemplateHeading(contactId, startTime, endTime, count, templateHeadingId);
+NSDocument[] res = agent.GetContactDocumentsByTemplateHeading(contactId, startTime, endTime, count, templateHeadingId);
 ```
 

@@ -11,7 +11,7 @@ Updates the existing NSWebPanelEntity or creates a new NSWebPanelEntity if the i
 **Parameters**:
  - **webPanelEntity** The NSWebPanelEntity to save.
 
-**Returns:** New or updated NSWebPanelEntity
+**Returns:** NSWebPanelEntity
 
 ```crmscript
 NSList  agent;

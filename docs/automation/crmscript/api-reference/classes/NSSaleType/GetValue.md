@@ -6,9 +6,9 @@ keywords: NSSaleType, GetValue
 so.topic: reference
 ---
 
-Get the name of the SaleType.
+Get the name of the NSSaleType.
 
-**Returns:** String SaleType name.
+**Returns:** String
 
 ```crmscript
 NSSaleType thing;

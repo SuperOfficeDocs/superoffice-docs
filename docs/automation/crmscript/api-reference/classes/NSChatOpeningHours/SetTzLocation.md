@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatOpeningHours_SetTzLocation
-title: SetTzLocation(TimeZoneData tzLocation)
+title: SetTzLocation(NSTimeZoneData tzLocation)
 intellisense: NSChatOpeningHours.SetTzLocation
 keywords: NSChatOpeningHours, GetTzLocation
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Timezone used for the opening hours (start/stop times) for this topic.
 
 **Parameter:** 
- - **tzLocation** TimeZoneData
+ - **tzLocation** NSTimeZoneData
 
 ```crmscript
 NSChatOpeningHours thing;
-TimeZoneData tzLocation;
+NSTimeZoneData tzLocation;
 thing.SetTzLocation(tzLocation);
 ```
 

@@ -9,7 +9,7 @@ so.topic: reference
 Returns true or false if Automatically create new counters for new document templates
 
 
-**Returns:** Is NumberEachTemplate?
+**Returns:** Bool
 
 ```crmscript
 NSNumberAllocationAgent agent;

@@ -11,7 +11,7 @@ Updates the existing NSTicketCategoryEntity or creates a new NSTicketCategoryEnt
 **Parameters**:
  - **ticketCategoryEntity** The NSTicketCategoryEntity to save.
 
-**Returns:** New or updated NSTicketCategoryEntity
+**Returns:** NSTicketCategoryEntity
 
 ```crmscript
 NSList  agent;

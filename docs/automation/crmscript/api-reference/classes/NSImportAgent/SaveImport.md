@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportAgent_SaveImport
-title: Integer[] SaveImport(ImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
+title: Integer[] SaveImport(NSImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
 intellisense: NSImportAgent.SaveImport
 keywords: NSImportAgent, SaveImport
 so.topic: reference
@@ -15,11 +15,11 @@ Do the actual import
  - **culture** The current culture used in the import. Used to match language specific strings
  - **context** Optional context for the import.
 
-**Returns:** First part: the id of the selection created after the import, 0 if no selection is created. Second part: The number of rows actually imported
+**Returns:** Integer[]
 
 ```crmscript
 NSImportAgent agent;
-ImportLine[] importLines;
+NSImportLine[] importLines;
 String[] columnDefinition;
 Bool createSelection;
 String culture;

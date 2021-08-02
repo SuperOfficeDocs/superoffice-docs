@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetPreviewAttachmentFromId
-title: EMailAttachment GetPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
+title: NSEMailAttachment GetPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
 intellisense: NSEMailAgent.GetPreviewAttachmentFromId
 keywords: NSEMailAgent, GetPreviewAttachmentFromId
 so.topic: reference
@@ -22,6 +22,6 @@ Integer mailItemId;
 String attachmentId;
 String attachmentType;
 String attachmentFilename;
-EMailAttachment res = agent.GetPreviewAttachmentFromId(mailItemId, attachmentId, attachmentType, attachmentFilename);
+NSEMailAttachment res = agent.GetPreviewAttachmentFromId(mailItemId, attachmentId, attachmentType, attachmentFilename);
 ```
 

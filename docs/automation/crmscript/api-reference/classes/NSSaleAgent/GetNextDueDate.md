@@ -11,7 +11,7 @@ Gets the next due date for a sale. The next due date is the next future appointm
 **Parameters:**
  - **saleId** Sale id
 
-**Returns:** Next due date for the given sale.
+**Returns:** DateTime
 
 ```crmscript
 NSSaleAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetAllFromListDefinition
-title: ListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
+title: NSListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
 intellisense: NSListAgent.GetAllFromListDefinition
 keywords: NSListAgent, GetAllFromListDefinition
 so.topic: reference
@@ -12,12 +12,12 @@ Get all list items for the specified list defintion
  - **udListDefinitionId** The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
  - **includeDeleted** Include deleted items in result?
 
-**Returns:** The list items
+**Returns:** NSListItemEntity[]
 
 ```crmscript
 NSListAgent agent;
 Integer udListDefinitionId;
 Bool includeDeleted;
-ListItemEntity[] res = agent.GetAllFromListDefinition(udListDefinitionId, includeDeleted);
+NSListItemEntity[] res = agent.GetAllFromListDefinition(udListDefinitionId, includeDeleted);
 ```
 

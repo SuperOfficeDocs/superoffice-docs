@@ -6,9 +6,9 @@ keywords: NSCurrency, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the Currency list item.
+Get the tooltip description for the NSCurrency list item.
 
-**Returns:** String Currency tooltip description.
+**Returns:** String
 
 ```crmscript
 NSCurrency thing;

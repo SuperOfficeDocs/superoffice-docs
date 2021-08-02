@@ -13,7 +13,7 @@ Returns true if viewState has been clicked at least once since FromDate, if assc
  - **viewState** The viewState to search for
  - **fromDate** The datetime to restrict webapp usage on
 
-**Returns:** Returns true if viewState has been clicked at least once since FromDate
+**Returns:** Bool
 
 ```crmscript
 NSDiagnosticsAgent agent;

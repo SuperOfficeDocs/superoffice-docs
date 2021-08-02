@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredentialsGroupUsers_SetUsers
-title: SetUsers(CredentialUser[] users)
+title: SetUsers(NSCredentialUser[] users)
 intellisense: NSCredentialsGroupUsers.SetUsers
 keywords: NSCredentialsGroupUsers, GetUsers
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The list of actual users that can be selected
 
 **Parameter:** 
- - **users** CredentialUser[]
+ - **users** NSCredentialUser[]
 
 ```crmscript
 NSCredentialsGroupUsers thing;
-CredentialUser[] users;
+NSCredentialUser[] users;
 thing.SetUsers(users);
 ```
 

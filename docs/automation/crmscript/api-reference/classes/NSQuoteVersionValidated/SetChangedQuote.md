@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSQuoteVersionValidated_SetChangedQuote
-title: SetChangedQuote(Quote changedQuote)
+title: SetChangedQuote(NSQuote changedQuote)
 intellisense: NSQuoteVersionValidated.SetChangedQuote
 keywords: NSQuoteVersionValidated, GetChangedQuote
 so.topic: reference
 ---
 
-The validated version is a member of Quote
+The validated version is a member of NSQuote
 
 **Parameter:** 
- - **changedQuote** Quote
+ - **changedQuote** NSQuote
 
 ```crmscript
 NSQuoteVersionValidated thing;
-Quote changedQuote;
+NSQuote changedQuote;
 thing.SetChangedQuote(changedQuote);
 ```
 

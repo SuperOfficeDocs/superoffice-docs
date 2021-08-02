@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSShipmentMessageEntity_GetDesigntype
-title: DesignType GetDesigntype()
+title: Integer GetDesigntype()
 intellisense: NSShipmentMessageEntity.GetDesigntype
 keywords: NSShipmentMessageEntity, GetDesigntype
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Enum containing the type of the design
 
-**Returns:** DesignType
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = SOEditor 
@@ -16,7 +16,7 @@ Enum containing the type of the design
 
 ```crmscript
 NSShipmentMessageEntity thing;
-DesignType designtype  = thing.GetDesigntype();
+Integer designtype  = thing.GetDesigntype();
 ```
 
 

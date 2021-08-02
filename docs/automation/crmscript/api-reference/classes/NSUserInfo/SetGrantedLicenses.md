@@ -9,7 +9,7 @@ so.topic: reference
 
 
 **Parameter:** 
- - **grantedLicenses** StringArray
+ - **grantedLicenses** String[]
 
 ```crmscript
 NSUserInfo thing;

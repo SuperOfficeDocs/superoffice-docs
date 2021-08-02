@@ -123,7 +123,7 @@ This example will print a mapping of numbers and their hexadecimal value.
 
 Same as above except you write `toHex(i)` rather than `i.toHex()`.
 
-## Boolean
+## Bool
 
 In conditional statements, you need something that evaluates to **true** or **false**. For example in C, it is common to treat 0 as false and everything else as true.
 

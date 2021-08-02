@@ -11,7 +11,7 @@ Gets all supported actor types, and all fields for each actor type, and save thi
 **Parameters:**
  - **erpConnectionId** The ERP connection ID
 
-**Returns:** Success or fail
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

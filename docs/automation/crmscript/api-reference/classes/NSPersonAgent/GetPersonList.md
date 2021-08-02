@@ -6,12 +6,12 @@ keywords: NSPersonAgent, GetPersonList
 so.topic: reference
 ---
 
-Gets a vector of Person objects.
+Gets a vector of NSPerson objects.
 
 **Parameters:**
  - **personIds** The identifiers of the NSPerson objects
 
-**Returns:** Vector of NSPerson objects
+**Returns:** NSPerson[]
 
 ```crmscript
 Integer[] ids;

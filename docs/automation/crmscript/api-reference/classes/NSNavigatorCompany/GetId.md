@@ -6,7 +6,7 @@ keywords: NSNavigatorCompany, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the NavigatorCompany
+Get the primary key (id) for the NSNavigatorCompany
 
 **Returns:** Integer NavigatorCompany id.
 

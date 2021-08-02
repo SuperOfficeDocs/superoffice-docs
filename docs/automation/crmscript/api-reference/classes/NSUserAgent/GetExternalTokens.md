@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetExternalTokens
-title: TokenManagementInfo GetExternalTokens(String key)
+title: NSTokenManagementInfo GetExternalTokens(String key)
 intellisense: NSUserAgent.GetExternalTokens
 keywords: NSUserAgent, GetExternalTokens
 so.topic: reference
@@ -11,11 +11,11 @@ Retrieve the tokens from the DB based on the given key
 **Parameters:**
  - **key** Token retrievel key
 
-**Returns:** Key to retrieve tokens
+**Returns:** NSTokenManagementInfo
 
 ```crmscript
 NSUserAgent agent;
 String key;
-TokenManagementInfo res = agent.GetExternalTokens(key);
+NSTokenManagementInfo res = agent.GetExternalTokens(key);
 ```
 

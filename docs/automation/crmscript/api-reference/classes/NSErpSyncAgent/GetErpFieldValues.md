@@ -19,7 +19,7 @@ Get the values for the specified fields from the ERP connection
  - **entityId** The id of the entity
  - **fieldKeys** The fields for which you want to get the values
 
-**Returns:** An array containing the values for the specified fields, in the same order
+**Returns:** String[]
 
 ```crmscript
 NSErpSyncAgent agent;

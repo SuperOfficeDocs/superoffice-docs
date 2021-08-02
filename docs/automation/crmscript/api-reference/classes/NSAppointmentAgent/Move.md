@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_Move
-title: AppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
+title: NSAppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
 intellisense: NSAppointmentAgent.Move
 keywords: NSAppointmentAgent, Move
 so.topic: reference
@@ -17,13 +17,13 @@ Moving a booking to another start time.
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 DateTime newStartTime;
 Integer updateMode;
-AppointmentEntity res = agent.Move(appointmentId, newStartTime, updateMode);
+NSAppointmentEntity res = agent.Move(appointmentId, newStartTime, updateMode);
 ```
 

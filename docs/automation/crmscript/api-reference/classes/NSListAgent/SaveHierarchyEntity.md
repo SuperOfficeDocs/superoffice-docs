@@ -11,7 +11,7 @@ Updates the existing NSHierarchyEntity or creates a new NSHierarchyEntity if the
 **Parameters**:
  - **hierarchyEntity** The NSHierarchyEntity to save.
 
-**Returns:** New or updated NSHierarchyEntity
+**Returns:** NSHierarchyEntity
 
 ```crmscript
 NSList  agent;

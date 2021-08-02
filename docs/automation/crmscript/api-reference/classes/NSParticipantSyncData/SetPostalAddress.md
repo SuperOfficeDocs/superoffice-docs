@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSParticipantSyncData_SetPostalAddress
-title: SetPostalAddress(AddressSyncData postalAddress)
+title: SetPostalAddress(NSAddressSyncData postalAddress)
 intellisense: NSParticipantSyncData.SetPostalAddress
 keywords: NSParticipantSyncData, GetPostalAddress
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **postalAddress** AddressSyncData
+ - **postalAddress** NSAddressSyncData
 
 ```crmscript
 NSParticipantSyncData thing;
-AddressSyncData postalAddress;
+NSAddressSyncData postalAddress;
 thing.SetPostalAddress(postalAddress);
 ```
 

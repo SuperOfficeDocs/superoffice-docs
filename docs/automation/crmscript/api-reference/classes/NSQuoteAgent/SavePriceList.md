@@ -11,7 +11,7 @@ Updates the existing NSPriceList or creates a new NSPriceList if the id paramete
 **Parameters**:
  - **priceList** The NSPriceList to save.
 
-**Returns:** New or updated NSPriceList
+**Returns:** NSPriceList
 
 ```crmscript
 NSQuote  agent;

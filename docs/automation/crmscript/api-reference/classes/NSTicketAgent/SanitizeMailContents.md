@@ -11,7 +11,7 @@ Remove harmful HTML tags and attributes from an email
 **Parameters:**
  - **contents** The email contents to sanitize
 
-**Returns:** The sanitized email contents
+**Returns:** String[]
 
 ```crmscript
 NSTicketAgent agent;

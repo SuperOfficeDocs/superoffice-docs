@@ -6,16 +6,16 @@ keywords: NSListAgent, GetTicketStatusList
 so.topic: reference
 ---
 
-Gets a vector of TicketStatusEntity objects.
+Gets a vector of NSTicketStatusEntity objects.
 
 **Parameters:**
  - **ticketStatusEntityIds** The identifiers of the NSTicketStatusEntity objects
 
-**Returns:** Vector of NSTicketStatusEntity objects
+**Returns:** NSTicketStatusEntity[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetTicketStatusList(ids);
+NSTicketStatusEntity[] res = agent.GetTicketStatusList(ids);
 ```
 

@@ -14,11 +14,9 @@ Sets the operator used when matching multiple words
      - Enum: 2 = StartsWith 
      - Enum: 3 = ExactMatch 
 
-**Returns:** No return value
-
 ```crmscript
 NSFreeTextAgent agent;
 Integer freeTextOperator;
-Void res = agent.SetMultiWordOperator(freeTextOperator);
+agent.SetMultiWordOperator(freeTextOperator);
 ```
 

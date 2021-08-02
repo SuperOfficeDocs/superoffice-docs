@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteLine_GetUserValueOverride
-title: ValueOverride GetUserValueOverride()
+title: Integer GetUserValueOverride()
 intellisense: NSQuoteLine.GetUserValueOverride
 keywords: NSQuoteLine, GetUserValueOverride
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)
 
-**Returns:** ValueOverride
+**Returns:** Integer
 
      - Enum: 0 = None 
      - Enum: 1 = Total 
@@ -19,7 +19,7 @@ Has the pre-calculated (from ERP) price information been overridden, and how. If
 
 ```crmscript
 NSQuoteLine thing;
-ValueOverride userValueOverride  = thing.GetUserValueOverride();
+Integer userValueOverride  = thing.GetUserValueOverride();
 ```
 
 

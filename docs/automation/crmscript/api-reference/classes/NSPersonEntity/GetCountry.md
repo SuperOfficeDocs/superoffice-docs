@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetCountry
-title: Country GetCountry()
+title: NSCountry GetCountry()
 intellisense: NSPersonEntity.GetCountry
 keywords: NSPersonEntity, GetCountry
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The country this contact person is located in.
 
-**Returns:** Country
+**Returns:** NSCountry
 
 
 ```crmscript
 NSPersonEntity thing;
-Country country  = thing.GetCountry();
+NSCountry country  = thing.GetCountry();
 ```
 
 

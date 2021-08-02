@@ -1,15 +1,15 @@
 ﻿---
 uid: crmscript_ref_NSPreference_SetLevel
-title: SetLevel(PreferenceLevel level)
+title: SetLevel(Integer level)
 intellisense: NSPreference.SetLevel
 keywords: NSPreference, GetLevel
 so.topic: reference
 ---
 
-Preference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.
+NSPreference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.
 
 **Parameter:** 
- - **level** PreferenceLevel
+ - **level** Integer
      - Enum: 0 = Undefined 
      - Enum: 1 = HardDefault 
      - Enum: 2 = SystemWide 
@@ -20,7 +20,7 @@ Preference level, using the standard enumerated type. Undefined is returned for 
 
 ```crmscript
 NSPreference thing;
-PreferenceLevel level;
+Integer level;
 thing.SetLevel(level);
 ```
 

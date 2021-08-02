@@ -6,16 +6,16 @@ keywords: NSListAgent, GetCreditedList
 so.topic: reference
 ---
 
-Gets a vector of Credited objects.
+Gets a vector of NSCredited objects.
 
 **Parameters:**
  - **creditedIds** The identifiers of the NSCredited objects
 
-**Returns:** Vector of NSCredited objects
+**Returns:** NSCredited[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetCreditedList(ids);
+NSCredited[] res = agent.GetCreditedList(ids);
 ```
 

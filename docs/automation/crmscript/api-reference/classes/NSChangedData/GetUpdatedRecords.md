@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChangedData_GetUpdatedRecords
-title: ChangedDataItem[] GetUpdatedRecords()
+title: NSChangedDataItem[] GetUpdatedRecords()
 intellisense: NSChangedData.GetUpdatedRecords
 keywords: NSChangedData, GetUpdatedRecords
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Ids of updated records.
 
-**Returns:** ChangedDataItem[]
+**Returns:** NSChangedDataItem[]
 
 
 ```crmscript
 NSChangedData thing;
-ChangedDataItem[] updatedRecords  = thing.GetUpdatedRecords();
+NSChangedDataItem[] updatedRecords  = thing.GetUpdatedRecords();
 ```
 
 

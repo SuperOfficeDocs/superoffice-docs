@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPocketStartupData_GetBaseLocaleTimeZoneData
-title: TimeZoneData GetBaseLocaleTimeZoneData()
+title: NSTimeZoneData GetBaseLocaleTimeZoneData()
 intellisense: NSPocketStartupData.GetBaseLocaleTimeZoneData
 keywords: NSPocketStartupData, GetBaseLocaleTimeZoneData
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** TimeZoneData
+**Returns:** NSTimeZoneData
 
 
 ```crmscript
 NSPocketStartupData thing;
-TimeZoneData baseLocaleTimeZoneData  = thing.GetBaseLocaleTimeZoneData();
+NSTimeZoneData baseLocaleTimeZoneData  = thing.GetBaseLocaleTimeZoneData();
 ```
 
 

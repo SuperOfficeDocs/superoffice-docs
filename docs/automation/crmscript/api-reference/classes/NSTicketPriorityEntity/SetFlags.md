@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_SetFlags
-title: SetFlags(TicketPriorityFlags flags)
+title: SetFlags(Integer flags)
 intellisense: NSTicketPriorityEntity.SetFlags
 keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 A bitmask of flags.
 
 **Parameter:** 
- - **flags** TicketPriorityFlags
+ - **flags** Integer
      - Enum: 0 = Unknown 
      - Enum: 1 = External 
      - Enum: 2 = Default 
@@ -17,7 +17,7 @@ A bitmask of flags.
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityFlags flags;
+Integer flags;
 thing.SetFlags(flags);
 ```
 

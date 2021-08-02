@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFormSubmissionEntity_SetStatus
-title: SetStatus(FormSubmissionStatus status)
+title: SetStatus(Integer status)
 intellisense: NSFormSubmissionEntity.SetStatus
 keywords: NSFormSubmissionEntity, GetStatus
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 What is the status of this submission
 
 **Parameter:** 
- - **status** FormSubmissionStatus
+ - **status** Integer
      - Enum: 0 = Unknown 
      - Enum: 1 = InProgress 
      - Enum: 2 = EmailVerification 
@@ -19,7 +19,7 @@ What is the status of this submission
 
 ```crmscript
 NSFormSubmissionEntity thing;
-FormSubmissionStatus status;
+Integer status;
 thing.SetStatus(status);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuote_SetFavoriteQuoteAlternative
-title: SetFavoriteQuoteAlternative(QuoteAlternative favoriteQuoteAlternative)
+title: SetFavoriteQuoteAlternative(NSQuoteAlternative favoriteQuoteAlternative)
 intellisense: NSQuote.SetFavoriteQuoteAlternative
 keywords: NSQuote, GetFavoriteQuoteAlternative
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The favorite quote alternative for the quote and active quote version.
 
 **Parameter:** 
- - **favoriteQuoteAlternative** QuoteAlternative
+ - **favoriteQuoteAlternative** NSQuoteAlternative
 
 ```crmscript
 NSQuote thing;
-QuoteAlternative favoriteQuoteAlternative;
+NSQuoteAlternative favoriteQuoteAlternative;
 thing.SetFavoriteQuoteAlternative(favoriteQuoteAlternative);
 ```
 

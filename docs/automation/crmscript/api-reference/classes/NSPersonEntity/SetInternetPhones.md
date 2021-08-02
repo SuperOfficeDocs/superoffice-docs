@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetInternetPhones
-title: SetInternetPhones(EntityElement[] internetPhones)
+title: SetInternetPhones(NSEntityElement[] internetPhones)
 intellisense: NSPersonEntity.SetInternetPhones
 keywords: NSPersonEntity, GetInternetPhones
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **internetPhones** EntityElement[]
+ - **internetPhones** NSEntityElement[]
 
 ```crmscript
 NSPersonEntity thing;
-EntityElement[] internetPhones;
+NSEntityElement[] internetPhones;
 thing.SetInternetPhones(internetPhones);
 ```
 

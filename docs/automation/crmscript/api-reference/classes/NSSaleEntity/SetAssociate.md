@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetAssociate
-title: SetAssociate(Associate associate)
+title: SetAssociate(NSAssociate associate)
 intellisense: NSSaleEntity.SetAssociate
 keywords: NSSaleEntity, GetAssociate
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The sale owner
 
 **Parameter:** 
- - **associate** Associate
+ - **associate** NSAssociate
 
 ```crmscript
 NSSaleEntity thing;
-Associate associate;
+NSAssociate associate;
 thing.SetAssociate(associate);
 ```
 

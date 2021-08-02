@@ -15,7 +15,7 @@ Creates an associate of type external user.
  - **roleId** Id of role for the external user. The role must be a role of type external users.
  - **isActive** Set isActive to true to enable the external user to log in.
 
-**Returns:** Returns the created associateId.
+**Returns:** Integer
 
 ```crmscript
 NSUserAgent agent;

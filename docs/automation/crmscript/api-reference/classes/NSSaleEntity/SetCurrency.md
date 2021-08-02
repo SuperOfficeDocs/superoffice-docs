@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetCurrency
-title: SetCurrency(Currency currency)
+title: SetCurrency(NSCurrency currency)
 intellisense: NSSaleEntity.SetCurrency
 keywords: NSSaleEntity, GetCurrency
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The currency the sale object was sold in
 
 **Parameter:** 
- - **currency** Currency
+ - **currency** NSCurrency
 
 ```crmscript
 NSSaleEntity thing;
-Currency currency;
+NSCurrency currency;
 thing.SetCurrency(currency);
 ```
 

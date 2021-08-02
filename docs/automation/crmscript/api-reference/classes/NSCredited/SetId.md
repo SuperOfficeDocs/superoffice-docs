@@ -6,10 +6,10 @@ keywords: NSCredited, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Credited
+Set the primary key (id) for the NSCredited
 
 **Parameter:** 
- - **id** Integer Credited id.
+ - **id** Integer NSCredited id.
 
 ```crmscript
 NSCredited thing;

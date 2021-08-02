@@ -11,3 +11,5 @@ Checks if the number is unique or required.  The setting is configured from admi
 **Parameters:**
  - **contactId** 
  - **number** 
+
+**Returns:** Bool

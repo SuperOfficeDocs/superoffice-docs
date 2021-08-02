@@ -11,7 +11,7 @@ Updates the existing NSProjectMember or creates a new NSProjectMember if the id 
 **Parameters**:
  - **projectMember** The NSProjectMember to save.
 
-**Returns:** New or updated NSProjectMember
+**Returns:** NSProjectMember
 
 ```crmscript
 NSProject  agent;

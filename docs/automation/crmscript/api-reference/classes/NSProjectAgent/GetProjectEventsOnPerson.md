@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetProjectEventsOnPerson
-title: ProjectEvent[] GetProjectEventsOnPerson(Integer personId)
+title: NSProjectEvent[] GetProjectEventsOnPerson(Integer personId)
 intellisense: NSProjectAgent.GetProjectEventsOnPerson
 keywords: NSProjectAgent, GetProjectEventsOnPerson
 so.topic: reference
@@ -11,11 +11,11 @@ Gets all project events that belongs to the person specified. The list of events
 **Parameters:**
  - **personId** Id of the person the project events belong to.
 
-**Returns:** Array of project events
+**Returns:** **Returns:** NSProjectEvent[]
 
 ```crmscript
 NSProjectAgent agent;
 Integer personId;
-ProjectEvent[] res = agent.GetProjectEventsOnPerson(personId);
+NSProjectEvent[] res = agent.GetProjectEventsOnPerson(personId);
 ```
 

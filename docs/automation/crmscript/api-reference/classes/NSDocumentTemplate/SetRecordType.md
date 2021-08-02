@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentTemplate_SetRecordType
-title: SetRecordType(DocTmplType recordType)
+title: SetRecordType(NSDocTmplType recordType)
 intellisense: NSDocumentTemplate.SetRecordType
 keywords: NSDocumentTemplate, GetRecordType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 
 **Parameter:** 
- - **recordType** DocTmplType
+ - **recordType** NSDocTmplType
      - Enum: 0 = Unknown 
      - Enum: 1 = Appointment 
      - Enum: 2 = Document 
@@ -23,7 +23,7 @@ so.topic: reference
 
 ```crmscript
 NSDocumentTemplate thing;
-DocTmplType recordType;
+NSDocTmplType recordType;
 thing.SetRecordType(recordType);
 ```
 

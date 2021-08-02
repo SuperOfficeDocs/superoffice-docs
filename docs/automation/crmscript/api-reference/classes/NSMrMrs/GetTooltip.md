@@ -6,9 +6,9 @@ keywords: NSMrMrs, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the MrMrs list item.
+Get the tooltip description for the NSMrMrs list item.
 
-**Returns:** String MrMrs tooltip description.
+**Returns:** String NSMrMrs tooltip description.
 
 ```crmscript
 NSMrMrs thing;

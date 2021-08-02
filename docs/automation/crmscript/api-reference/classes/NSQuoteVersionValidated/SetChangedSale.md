@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteVersionValidated_SetChangedSale
-title: SetChangedSale(Sale changedSale)
+title: SetChangedSale(NSSale changedSale)
 intellisense: NSQuoteVersionValidated.SetChangedSale
 keywords: NSQuoteVersionValidated, GetChangedSale
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 If the sale has been changed, the carrier will be added.
 
 **Parameter:** 
- - **changedSale** Sale
+ - **changedSale** NSSale
 
 ```crmscript
 NSQuoteVersionValidated thing;
-Sale changedSale;
+NSSale changedSale;
 thing.SetChangedSale(changedSale);
 ```
 

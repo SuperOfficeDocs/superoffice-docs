@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_GetUser
-title: Associate GetUser()
+title: NSAssociate GetUser()
 intellisense: NSChatSessionEntity.GetUser
 keywords: NSChatSessionEntity, GetUser
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 User agent handling this session
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSChatSessionEntity thing;
-Associate user  = thing.GetUser();
+NSAssociate user  = thing.GetUser();
 ```
 
 

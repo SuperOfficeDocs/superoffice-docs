@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSSaleEntity.GetUpdatedBy
 keywords: NSSaleEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Who updated the sale
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSSaleEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

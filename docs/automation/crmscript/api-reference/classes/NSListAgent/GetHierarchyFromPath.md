@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetHierarchyFromPath
-title: HierarchyEntity GetHierarchyFromPath(Integer domain, String path, Bool children)
+title: NSHierarchyEntity GetHierarchyFromPath(Integer domain, String path, Bool children)
 intellisense: NSListAgent.GetHierarchyFromPath
 keywords: NSListAgent, GetHierarchyFromPath
 so.topic: reference
@@ -22,13 +22,13 @@ Get a hierarchy item from a path
  - **path** Hierarchy path to item
  - **children** Include sub-items?
 
-**Returns:** The hierarchy node at the path
+**Returns:** NSHierarchyEntity
 
 ```crmscript
 NSListAgent agent;
 Integer domain;
 String path;
 Bool children;
-HierarchyEntity res = agent.GetHierarchyFromPath(domain, path, children);
+NSHierarchyEntity res = agent.GetHierarchyFromPath(domain, path, children);
 ```
 

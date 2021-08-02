@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactRelationEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSContactRelationEntity.GetUpdatedBy
 keywords: NSContactRelationEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSContactRelationEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFieldValueInfo_GetOperationInfos
-title: OperationInfo[] GetOperationInfos()
+title: NSOperationInfo[] GetOperationInfos()
 intellisense: NSFieldValueInfo.GetOperationInfos
 keywords: NSFieldValueInfo, GetOperationInfos
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Array of the available operations for this field
 
-**Returns:** OperationInfo[]
+**Returns:** NSOperationInfo[]
 
 
 ```crmscript
 NSFieldValueInfo thing;
-OperationInfo[] operationInfos  = thing.GetOperationInfos();
+NSOperationInfo[] operationInfos  = thing.GetOperationInfos();
 ```
 
 

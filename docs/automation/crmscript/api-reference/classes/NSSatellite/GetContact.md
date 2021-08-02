@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_GetContact
-title: Contact GetContact()
+title: NSContact GetContact()
 intellisense: NSSatellite.GetContact
 keywords: NSSatellite, GetContact
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Contact
+**Returns:** NSContact
 
 
 ```crmscript
 NSSatellite thing;
-Contact contact  = thing.GetContact();
+NSContact contact  = thing.GetContact();
 ```
 
 

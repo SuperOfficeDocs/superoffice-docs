@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetSupportPerson
-title: SetSupportPerson(Person supportPerson)
+title: SetSupportPerson(NSPerson supportPerson)
 intellisense: NSContactEntity.SetSupportPerson
 keywords: NSContactEntity, GetSupportPerson
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **supportPerson** Person
+ - **supportPerson** NSPerson
 
 ```crmscript
 NSContactEntity thing;
-Person supportPerson;
+NSPerson supportPerson;
 thing.SetSupportPerson(supportPerson);
 ```
 

@@ -6,7 +6,7 @@ keywords: NSConsentSource, GetDeleted
 so.topic: reference
 ---
 
-true if the ConsentSource is deleted
+true if the NSConsentSource is deleted
 
 **Returns:** Bool
 

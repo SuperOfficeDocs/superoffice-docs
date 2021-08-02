@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEventEntity_SetCreatedBy
-title: SetCreatedBy(Associate createdBy)
+title: SetCreatedBy(NSAssociate createdBy)
 intellisense: NSProjectEventEntity.SetCreatedBy
 keywords: NSProjectEventEntity, GetCreatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person that created the projectevent
 
 **Parameter:** 
- - **createdBy** Associate
+ - **createdBy** NSAssociate
 
 ```crmscript
 NSProjectEventEntity thing;
-Associate createdBy;
+NSAssociate createdBy;
 thing.SetCreatedBy(createdBy);
 ```
 

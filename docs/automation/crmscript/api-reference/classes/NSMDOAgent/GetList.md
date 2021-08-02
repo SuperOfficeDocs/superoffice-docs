@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetList
-title: MDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
+title: NSMDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
 intellisense: NSMDOAgent.GetList
 keywords: NSMDOAgent, GetList
 so.topic: reference
@@ -14,7 +14,7 @@ Method to get a MDO list.
  - **additionalInfo** Additional info to the MDO provider
  - **onlyHistory** If true, return only history items
 
-**Returns:** Array of MDOListItem
+**Returns:** NSMDOListItem[]
 
 ```crmscript
 NSMDOAgent agent;
@@ -22,6 +22,6 @@ String name;
 Bool forceFlatList;
 String additionalInfo;
 Bool onlyHistory;
-MDOListItem[] res = agent.GetList(name, forceFlatList, additionalInfo, onlyHistory);
+NSMDOListItem[] res = agent.GetList(name, forceFlatList, additionalInfo, onlyHistory);
 ```
 

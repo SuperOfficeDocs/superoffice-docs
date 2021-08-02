@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
-title: UserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
+title: NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
 intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
 keywords: NSUserDefinedFieldInfoAgent, CreateUserDefinedFieldInfo
 so.topic: reference
@@ -29,12 +29,12 @@ Create a UserDefinedFieldInfo based on a owner-entity id
      - Enum: 7 = List 
      - Enum: 8 = Decimal 
 
-**Returns:** Returns the user-defined field info carrier
+**Returns:** NSUserDefinedFieldInfo
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;
 Integer ownerType;
 Integer fieldType;
-UserDefinedFieldInfo res = agent.CreateUserDefinedFieldInfo(ownerType, fieldType);
+NSUserDefinedFieldInfo res = agent.CreateUserDefinedFieldInfo(ownerType, fieldType);
 ```
 

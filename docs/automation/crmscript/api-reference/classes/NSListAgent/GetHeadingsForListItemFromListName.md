@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetHeadingsForListItemFromListName
-title: SelectableMDOListItem[] GetHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, Bool showDeleted)
+title: NSSelectableMDOListItem[] GetHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, Bool showDeleted)
 intellisense: NSListAgent.GetHeadingsForListItemFromListName
 keywords: NSListAgent, GetHeadingsForListItemFromListName
 so.topic: reference
@@ -13,13 +13,13 @@ Gets a selectable MDO list of the headings for this list item
  - **listItemId** The id of the list item
  - **showDeleted** Set to true if you want deleted headings
 
-**Returns:** Array of headings
+**Returns:** NSSelectableMDOListItem[]
 
 ```crmscript
 NSListAgent agent;
 String udListDefinitionName;
 Integer listItemId;
 Bool showDeleted;
-SelectableMDOListItem[] res = agent.GetHeadingsForListItemFromListName(udListDefinitionName, listItemId, showDeleted);
+NSSelectableMDOListItem[] res = agent.GetHeadingsForListItemFromListName(udListDefinitionName, listItemId, showDeleted);
 ```
 

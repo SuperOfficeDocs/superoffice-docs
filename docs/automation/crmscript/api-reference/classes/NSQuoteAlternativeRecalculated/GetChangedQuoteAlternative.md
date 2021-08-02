@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAlternativeRecalculated_GetChangedQuoteAlternative
-title: QuoteAlternative GetChangedQuoteAlternative()
+title: NSQuoteAlternative GetChangedQuoteAlternative()
 intellisense: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative
 keywords: NSQuoteAlternativeRecalculated, GetChangedQuoteAlternative
 so.topic: reference
 ---
 
-The recalculated QuoteAlternative
+The recalculated NSQuoteAlternative
 
-**Returns:** QuoteAlternative
+**Returns:** NSQuoteAlternative
 
 
 ```crmscript
 NSQuoteAlternativeRecalculated thing;
-QuoteAlternative changedQuoteAlternative  = thing.GetChangedQuoteAlternative();
+NSQuoteAlternative changedQuoteAlternative  = thing.GetChangedQuoteAlternative();
 ```
 
 

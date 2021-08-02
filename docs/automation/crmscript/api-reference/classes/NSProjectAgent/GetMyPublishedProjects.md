@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetMyPublishedProjects
-title: Project[] GetMyPublishedProjects()
+title: NSProject[] GetMyPublishedProjects()
 intellisense: NSProjectAgent.GetMyPublishedProjects
 keywords: NSProjectAgent, GetMyPublishedProjects
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get published projects from the logged in user.
 
 
-**Returns:** Projects
+**Returns:** NSProject[]
 
 ```crmscript
 NSProjectAgent agent;
-Project[] res = agent.GetMyPublishedProjects();
+NSProject[] res = agent.GetMyPublishedProjects();
 ```
 

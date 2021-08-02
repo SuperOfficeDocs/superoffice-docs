@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetOwnedBy
-title: SetOwnedBy(Associate ownedBy)
+title: SetOwnedBy(NSAssociate ownedBy)
 intellisense: NSTicketEntity.SetOwnedBy
 keywords: NSTicketEntity, GetOwnedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The associate who owns this ticket
 
 **Parameter:** 
- - **ownedBy** Associate
+ - **ownedBy** NSAssociate
 
 ```crmscript
 NSTicketEntity thing;
-Associate ownedBy;
+NSAssociate ownedBy;
 thing.SetOwnedBy(ownedBy);
 ```
 

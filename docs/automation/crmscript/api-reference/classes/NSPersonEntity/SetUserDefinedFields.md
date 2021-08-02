@@ -6,7 +6,7 @@ keywords: NSPersonEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
-Set the user-defined fields on the PersonEntity as a map.
+Set the user-defined fields on the NSPersonEntity as a map.
 
 **Parameter:** 
  - **udefs** Map user defined field values encoded as strings.

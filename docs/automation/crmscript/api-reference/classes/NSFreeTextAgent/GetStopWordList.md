@@ -9,7 +9,7 @@ so.topic: reference
 Returns the list of stop words
 
 
-**Returns:** The list of stop words
+**Returns:** String[]
 
 ```crmscript
 NSFreeTextAgent agent;

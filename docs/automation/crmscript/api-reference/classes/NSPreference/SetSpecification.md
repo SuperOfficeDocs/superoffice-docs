@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreference_SetSpecification
-title: SetSpecification(PreferenceSpec specification)
+title: SetSpecification(NSPreferenceSpec specification)
 intellisense: NSPreference.SetSpecification
 keywords: NSPreference, GetSpecification
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Preference specification, consisting of the section name and key name
 
 **Parameter:** 
- - **specification** PreferenceSpec
+ - **specification** NSPreferenceSpec
 
 ```crmscript
 NSPreference thing;
-PreferenceSpec specification;
+NSPreferenceSpec specification;
 thing.SetSpecification(specification);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBlobEntity_SetUpdatedBy
-title: SetUpdatedBy(Associate updatedBy)
+title: SetUpdatedBy(NSAssociate updatedBy)
 intellisense: NSBlobEntity.SetUpdatedBy
 keywords: NSBlobEntity, GetUpdatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person that last updated the appointment.
 
 **Parameter:** 
- - **updatedBy** Associate
+ - **updatedBy** NSAssociate
 
 ```crmscript
 NSBlobEntity thing;
-Associate updatedBy;
+NSAssociate updatedBy;
 thing.SetUpdatedBy(updatedBy);
 ```
 

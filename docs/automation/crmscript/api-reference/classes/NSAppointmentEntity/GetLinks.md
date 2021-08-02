@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetLinks
-title: Link[] GetLinks()
+title: NSLink[] GetLinks()
 intellisense: NSAppointmentEntity.GetLinks
 keywords: NSAppointmentEntity, GetLinks
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of all elements linked to the appointment.
 
-**Returns:** Link[]
+**Returns:** NSLink[]
 
 
 ```crmscript
 NSAppointmentEntity thing;
-Link[] links  = thing.GetLinks();
+NSLink[] links  = thing.GetLinks();
 ```
 
 

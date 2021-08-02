@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, SetPublishFrom
 so.topic: reference
 ---
 
-Set the publish from date on a AppointmentEntity.
+Set the publish from date on a NSAppointmentEntity.
 
 **Parameter:** 
  - **publishFrom** DateTime.

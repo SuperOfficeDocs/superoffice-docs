@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria3
-title: ArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer selectionId, ArchiveRestrictionInfo[] criteria, String filter)
+title: NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer selectionId, NSArchiveRestrictionInfo[] criteria, String filter)
 intellisense: NSSelectionAgent.SetDynamicSelectionCriteria3
 keywords: NSSelectionAgent, SetDynamicSelectionCriteria3
 so.topic: reference
@@ -13,13 +13,13 @@ Update the criteria for this dynamic selection. Use criteria as either restricti
  - **criteria** Criteria defining the selection result. Pass NULL if using the filter string instead.
  - **filter** Criteria defining the selection result in OData filter form: `category in (1,2,3) and name = 'foo'`. Pass NULL or empty string '' if using the criteria objects.
 
-**Returns:** Criteria defining the selection result. NULL if this is not a dynamic selection.
+**Returns:** NSArchiveRestrictionInfo[]
 
 ```crmscript
 NSSelectionAgent agent;
 Integer selectionId;
-ArchiveRestrictionInfo[] criteria;
+NSArchiveRestrictionInfo[] criteria;
 String filter;
-ArchiveRestrictionInfo[] res = agent.SetDynamicSelectionCriteria3(selectionId, criteria, filter);
+NSArchiveRestrictionInfo[] res = agent.SetDynamicSelectionCriteria3(selectionId, criteria, filter);
 ```
 

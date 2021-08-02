@@ -12,7 +12,7 @@ This method will try to verify a Google recaptcha token. The token is gained fro
  - **token** The token to be verified
  - **optionalSecretKey** Use an optional secret key instead of the system wide
 
-**Returns:** Returns true if the recaptcha token verified successfully
+**Returns:** Bool
 
 ```crmscript
 NSMarketingAgent agent;

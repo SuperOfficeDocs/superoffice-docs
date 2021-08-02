@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_GetLicenseFromLicenseServer
-title: ExtendedLicenseInfo GetLicenseFromLicenseServer(String ownerName)
+title: NSExtendedLicenseInfo GetLicenseFromLicenseServer(String ownerName)
 intellisense: NSLicenseAgent.GetLicenseFromLicenseServer
 keywords: NSLicenseAgent, GetLicenseFromLicenseServer
 so.topic: reference
@@ -10,3 +10,5 @@ so.topic: reference
 
 **Parameters:**
  - **ownerName** 
+
+**Returns:** NSExtendedLicenseInfo

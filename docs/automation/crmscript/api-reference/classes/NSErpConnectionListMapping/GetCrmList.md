@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpConnectionListMapping_GetCrmList
-title: MDOListItem GetCrmList()
+title: NSMDOListItem GetCrmList()
 intellisense: NSErpConnectionListMapping.GetCrmList
 keywords: NSErpConnectionListMapping, GetCrmList
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The SuperOffice listItem
 
-**Returns:** MDOListItem
+**Returns:** NSMDOListItem
 
 
 ```crmscript
 NSErpConnectionListMapping thing;
-MDOListItem crmList  = thing.GetCrmList();
+NSMDOListItem crmList  = thing.GetCrmList();
 ```
 
 

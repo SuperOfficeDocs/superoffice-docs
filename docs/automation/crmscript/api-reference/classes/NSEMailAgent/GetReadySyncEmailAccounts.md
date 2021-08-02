@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetReadySyncEmailAccounts
-title: SyncUserAccount[] GetReadySyncEmailAccounts()
+title: NSSyncUserAccount[] GetReadySyncEmailAccounts()
 intellisense: NSEMailAgent.GetReadySyncEmailAccounts
 keywords: NSEMailAgent, GetReadySyncEmailAccounts
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Gets the list of SyncUserAccounts that should be synced.
 
 
-**Returns:** List of accounts to sync
+**Returns:** NSSyncUserAccount[]
 
 ```crmscript
 NSEMailAgent agent;
-SyncUserAccount[] res = agent.GetReadySyncEmailAccounts();
+NSSyncUserAccount[] res = agent.GetReadySyncEmailAccounts();
 ```
 

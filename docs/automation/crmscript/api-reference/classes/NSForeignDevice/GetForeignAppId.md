@@ -6,7 +6,7 @@ keywords: NSForeignDevice, GetForeignAppId
 so.topic: reference
 ---
 
-Reference to foregin application (device type)
+Reference to foreign application (device type)
 
 **Returns:** Integer
 

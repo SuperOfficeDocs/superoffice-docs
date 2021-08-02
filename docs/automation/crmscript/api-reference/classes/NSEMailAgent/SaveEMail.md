@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_SaveEMail
-title: EMailEntity SaveEMail(EMailConnectionInfo connectionInfo, EMailEntity email)
+title: NSEMailEntity SaveEMail(NSEMailConnectionInfo connectionInfo, NSEMailEntity email)
 intellisense: NSEMailAgent.SaveEMail
 keywords: NSEMailAgent, SaveEMail
 so.topic: reference
@@ -12,12 +12,12 @@ Save the passed e-mail back to the server
  - **connectionInfo** All information needed to connect to the mailserver
  - **email** The e-mail to save
 
-**Returns:** The updated saved entity
+**Returns:** NSEMailEntity
 
 ```crmscript
 NSEMailAgent agent;
-EMailConnectionInfo connectionInfo;
-EMailEntity email;
-EMailEntity res = agent.SaveEMail(connectionInfo, email);
+NSEMailConnectionInfo connectionInfo;
+NSEMailEntity email;
+NSEMailEntity res = agent.SaveEMail(connectionInfo, email);
 ```
 

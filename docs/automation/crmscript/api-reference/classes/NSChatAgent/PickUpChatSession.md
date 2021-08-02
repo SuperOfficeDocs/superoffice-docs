@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_PickUpChatSession
-title: ChatSessionEntity PickUpChatSession(Integer chatSessionId)
+title: NSChatSessionEntity PickUpChatSession(Integer chatSessionId)
 intellisense: NSChatAgent.PickUpChatSession
 keywords: NSChatAgent, PickUpChatSession
 so.topic: reference
@@ -11,11 +11,11 @@ so.topic: reference
 **Parameters:**
  - **chatSessionId** id of the chat session to answer
 
-**Returns:** The chat session
+**Returns:** NSChatSessionEntity
 
 ```crmscript
 NSChatAgent agent;
 Integer chatSessionId;
-ChatSessionEntity res = agent.PickUpChatSession(chatSessionId);
+NSChatSessionEntity res = agent.PickUpChatSession(chatSessionId);
 ```
 

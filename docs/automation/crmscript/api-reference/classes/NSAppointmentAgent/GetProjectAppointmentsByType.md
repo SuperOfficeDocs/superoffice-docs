@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetProjectAppointmentsByType
-title: Appointment[] GetProjectAppointmentsByType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+title: NSAppointment[] GetProjectAppointmentsByType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
 intellisense: NSAppointmentAgent.GetProjectAppointmentsByType
 keywords: NSAppointmentAgent, GetProjectAppointmentsByType
 so.topic: reference
@@ -25,7 +25,7 @@ Method that returns a specified number of appointments of a specific appointment
      - Enum: 8 = MergeDraft 
      - Enum: 9 = MergeFinal 
 
-**Returns:** Array of Appointments.
+**Returns:** NSAppointment[]
 
 ```crmscript
 NSAppointmentAgent agent;
@@ -34,6 +34,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer appointmentType;
-Appointment[] res = agent.GetProjectAppointmentsByType(projectId, startTime, endTime, count, appointmentType);
+NSAppointment[] res = agent.GetProjectAppointmentsByType(projectId, startTime, endTime, count, appointmentType);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_SetPersonImage
-title: Void SetPersonImage(Integer personId, Image image)
+title: Void SetPersonImage(Integer personId, NSImage image)
 intellisense: NSPersonAgent.SetPersonImage
 keywords: NSPersonAgent, SetPersonImage
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionGroup
-title: Void SaveRestrictionGroup(String storageType, String providerName, String storageKey, ArchiveRestrictionGroup restrictionGroup, String context)
+title: Void SaveRestrictionGroup(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup restrictionGroup, String context)
 intellisense: NSFindAgent.SaveRestrictionGroup
 keywords: NSFindAgent, SaveRestrictionGroup
 so.topic: reference
@@ -15,15 +15,13 @@ Save an array of restrictions as a restriction group for later use as search cri
  - **restrictionGroup** Information about a group of restrictions
  - **context** Optional context that can be used by FindProvider
 
-**Returns:** This service call just saves the restrictions.
-
 ```crmscript
 NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionGroup restrictionGroup;
+NSArchiveRestrictionGroup restrictionGroup;
 String context;
-Void res = agent.SaveRestrictionGroup(storageType, providerName, storageKey, restrictionGroup, context);
+agent.SaveRestrictionGroup(storageType, providerName, storageKey, restrictionGroup, context);
 ```
 

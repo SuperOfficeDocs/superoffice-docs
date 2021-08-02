@@ -6,7 +6,7 @@ keywords: NSContactEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields on the ContactEntity as a map.
+Get the user-defined fields on the NSContactEntity as a map.
 
 **Returns:** Map containing user defined field values by field prog.id.
 

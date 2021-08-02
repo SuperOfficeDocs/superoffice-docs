@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSuggestedAppointment_GetAssociate
-title: Associate GetAssociate()
+title: NSAssociate GetAssociate()
 intellisense: NSSuggestedAppointment.GetAssociate
 keywords: NSSuggestedAppointment, GetAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The owner of the suggested activity. Always the same as the sales owner.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSSuggestedAppointment thing;
-Associate associate  = thing.GetAssociate();
+NSAssociate associate  = thing.GetAssociate();
 ```
 
 

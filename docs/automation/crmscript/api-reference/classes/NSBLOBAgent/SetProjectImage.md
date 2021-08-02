@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBLOBAgent_SetProjectImage
-title: Void SetProjectImage(Integer projectId, Image image)
+title: Void SetProjectImage(Integer projectId, NSImage image)
 intellisense: NSBLOBAgent.SetProjectImage
 keywords: NSBLOBAgent, SetProjectImage
 so.topic: reference

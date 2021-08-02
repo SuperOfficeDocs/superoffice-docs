@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveListByColumnsWithHeader2
-title: ArchiveListResult GetArchiveListByColumnsWithHeader2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options)
+title: NSArchiveListResult GetArchiveListByColumnsWithHeader2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options)
 intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeader2
 keywords: NSArchiveAgent, GetArchiveListByColumnsWithHeader2
 so.topic: reference
@@ -30,6 +30,6 @@ String entities;
 Integer page;
 Integer pageSize;
 String options;
-ArchiveListResult res = agent.GetArchiveListByColumnsWithHeader2(providerName, columns, sortOrder, restriction, entities, page, pageSize, options);
+NSArchiveListResult res = agent.GetArchiveListByColumnsWithHeader2(providerName, columns, sortOrder, restriction, entities, page, pageSize, options);
 ```
 

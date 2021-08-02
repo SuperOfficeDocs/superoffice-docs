@@ -12,3 +12,5 @@ Checks if a record in a table is a favourite for an associate
  - **tableName** Table name, transformed to and from numeric table id by the service layer.
  - **recordId** 
  - **associateId** 
+
+**Returns:** Bool

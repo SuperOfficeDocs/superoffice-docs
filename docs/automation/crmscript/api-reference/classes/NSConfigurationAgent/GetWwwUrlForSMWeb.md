@@ -9,7 +9,7 @@ so.topic: reference
 Returns the URL used for the logo by the SM.web client. Uses urldispatch.aspx
 
 
-**Returns:** Link to urldispatch.aspx tagged with [SOSITEURL]
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

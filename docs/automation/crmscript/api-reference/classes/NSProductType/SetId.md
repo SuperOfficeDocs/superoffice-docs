@@ -6,10 +6,10 @@ keywords: NSProductType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the ProductType
+Set the primary key (id) for the NSProductType
 
 **Parameter:** 
- - **id** Integer ProductType id.
+ - **id** Integer NSProductType id.
 
 ```crmscript
 NSProductType thing;

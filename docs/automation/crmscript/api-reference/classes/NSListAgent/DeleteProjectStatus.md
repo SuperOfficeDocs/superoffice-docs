@@ -11,11 +11,9 @@ Deletes a project status
 **Parameters:**
  - **projectStatusId** The project status id to delete
 
-**Returns:** No return
-
 ```crmscript
 NSListAgent agent;
 Integer projectStatusId;
-Void res = agent.DeleteProjectStatus(projectStatusId);
+agent.DeleteProjectStatus(projectStatusId);
 ```
 

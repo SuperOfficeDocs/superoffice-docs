@@ -6,10 +6,10 @@ keywords: NSProjectStatus, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the ProjectStatus
+Set the primary key (id) for the NSProjectStatus
 
 **Parameter:** 
- - **id** Integer ProjectStatus id.
+ - **id** Integer NSProjectStatus id.
 
 ```crmscript
 NSProjectStatus thing;

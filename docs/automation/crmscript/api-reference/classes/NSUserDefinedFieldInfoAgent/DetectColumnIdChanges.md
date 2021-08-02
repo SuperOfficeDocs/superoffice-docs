@@ -20,7 +20,7 @@ Detect columnid changes to the admin version (for determining publish warning)
      - Enum: 13 = Document 
      - Enum: 14 = None 
 
-**Returns:** Returns true if columnid changes where found. i.e. if data needs to be moved during publishing.
+**Returns:** Bool
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;

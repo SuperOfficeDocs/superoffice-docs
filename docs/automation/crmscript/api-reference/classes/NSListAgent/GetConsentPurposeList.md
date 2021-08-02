@@ -6,16 +6,16 @@ keywords: NSListAgent, GetConsentPurposeList
 so.topic: reference
 ---
 
-Gets a vector of ConsentPurpose objects.
+Gets a vector of NSConsentPurpose objects.
 
 **Parameters:**
  - **consentPurposeIds** The identifiers of the NSConsentPurpose objects
 
-**Returns:** Vector of NSConsentPurpose objects
+**Returns:** NSConsentPurpose[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetConsentPurposeList(ids);
+NSConsentPurpose[] res = agent.GetConsentPurposeList(ids);
 ```
 

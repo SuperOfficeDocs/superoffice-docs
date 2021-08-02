@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_GetCreatedBy
-title: Associate GetCreatedBy()
+title: NSAssociate GetCreatedBy()
 intellisense: NSProjectEntity.GetCreatedBy
 keywords: NSProjectEntity, GetCreatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The person that created the project
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSProjectEntity thing;
-Associate createdBy  = thing.GetCreatedBy();
+NSAssociate createdBy  = thing.GetCreatedBy();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSuggestedAppointmentEntity_GetSaleTypeStageLink
-title: SaleTypeStageLink GetSaleTypeStageLink()
+title: NSSaleTypeStageLink GetSaleTypeStageLink()
 intellisense: NSSuggestedAppointmentEntity.GetSaleTypeStageLink
 keywords: NSSuggestedAppointmentEntity, GetSaleTypeStageLink
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Sale type and stage link info
 
-**Returns:** SaleTypeStageLink
+**Returns:** NSSaleTypeStageLink
 
 
 ```crmscript
 NSSuggestedAppointmentEntity thing;
-SaleTypeStageLink saleTypeStageLink  = thing.GetSaleTypeStageLink();
+NSSaleTypeStageLink saleTypeStageLink  = thing.GetSaleTypeStageLink();
 ```
 
 

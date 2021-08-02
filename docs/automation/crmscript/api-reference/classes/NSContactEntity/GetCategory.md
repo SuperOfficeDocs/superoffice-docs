@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_GetCategory
-title: Category GetCategory()
+title: NSCategory GetCategory()
 intellisense: NSContactEntity.GetCategory
 keywords: NSContactEntity, GetCategory
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The category that is set on the company. The GUI forces the user to enter a category type
 
-**Returns:** Category
+**Returns:** NSCategory
 
 
 ```crmscript
 NSContactEntity thing;
-Category category  = thing.GetCategory();
+NSCategory category  = thing.GetCategory();
 ```
 
 

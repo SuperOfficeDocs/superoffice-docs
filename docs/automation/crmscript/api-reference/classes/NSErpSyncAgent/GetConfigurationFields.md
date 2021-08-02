@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetConfigurationFields
-title: FieldMetadata[] GetConfigurationFields(Integer erpConnectorId)
+title: NSFieldMetadata[] GetConfigurationFields(Integer erpConnectorId)
 intellisense: NSErpSyncAgent.GetConfigurationFields
 keywords: NSErpSyncAgent, GetConfigurationFields
 so.topic: reference
@@ -16,6 +16,6 @@ Returns all fields needed to connect to the given connector
 ```crmscript
 NSErpSyncAgent agent;
 Integer erpConnectorId;
-FieldMetadata[] res = agent.GetConfigurationFields(erpConnectorId);
+NSFieldMetadata[] res = agent.GetConfigurationFields(erpConnectorId);
 ```
 

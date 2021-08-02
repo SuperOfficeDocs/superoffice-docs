@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, SetPublishFrom
 so.topic: reference
 ---
 
-Set the publish from date on a DocumentEntity.
+Set the publish from date on a NSDocumentEntity.
 
 **Parameter:** 
  - **publishFrom** DateTime.

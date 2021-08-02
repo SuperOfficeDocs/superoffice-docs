@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_GetDefaultDesiredColumns
-title: ArchiveColumnInfo[] GetDefaultDesiredColumns(String storageType, String providerName, String storageKey)
+title: NSArchiveColumnInfo[] GetDefaultDesiredColumns(String storageType, String providerName, String storageKey)
 intellisense: NSFindAgent.GetDefaultDesiredColumns
 keywords: NSFindAgent, GetDefaultDesiredColumns
 so.topic: reference
@@ -13,13 +13,13 @@ Calculate the default desired columns, i.e., the result columns for a given sear
  - **providerName** Name of the provider to calculate default desired columns for
  - **storageKey** Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
 
-**Returns:** Column information for the default desired columns, fully populated. Percentage-specified column widths sum to exactly 100.
+**Returns:** NSArchiveColumnInfo[]
 
 ```crmscript
 NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveColumnInfo[] res = agent.GetDefaultDesiredColumns(storageType, providerName, storageKey);
+NSArchiveColumnInfo[] res = agent.GetDefaultDesiredColumns(storageType, providerName, storageKey);
 ```
 

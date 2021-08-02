@@ -6,7 +6,7 @@ keywords: NSRating, SetValue
 so.topic: reference
 ---
 
-Set the name of the Rating item.
+Set the name of the NSRating item.
 
 **Parameter:** 
  - **value** String Rating name.

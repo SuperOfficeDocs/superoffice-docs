@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the Department
 
-**Returns:** Integer Department id.
+**Returns:** Integer
 
 ```crmscript
 NSDepartment thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetCreatedBy
-title: SetCreatedBy(Associate createdBy)
+title: SetCreatedBy(NSAssociate createdBy)
 intellisense: NSTicketEntity.SetCreatedBy
 keywords: NSTicketEntity, GetCreatedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The associate who created this ticket
 
 **Parameter:** 
- - **createdBy** Associate
+ - **createdBy** NSAssociate
 
 ```crmscript
 NSTicketEntity thing;
-Associate createdBy;
+NSAssociate createdBy;
 thing.SetCreatedBy(createdBy);
 ```
 

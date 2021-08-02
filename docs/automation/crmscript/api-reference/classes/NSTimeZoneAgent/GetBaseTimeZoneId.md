@@ -9,7 +9,7 @@ so.topic: reference
 Get the base timezone id.
 
 
-**Returns:** Returns the base timezone id. Returns 0 if not set.
+**Returns:** Integer
 
 ```crmscript
 NSTimeZoneAgent agent;

@@ -9,7 +9,7 @@ so.topic: reference
 This method will get the www folder for CS
 
 
-**Returns:** The www folder for CS
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

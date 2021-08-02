@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignAppEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSForeignAppEntity.GetUpdatedBy
 keywords: NSForeignAppEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The person that last updated this foreign application.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSForeignAppEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

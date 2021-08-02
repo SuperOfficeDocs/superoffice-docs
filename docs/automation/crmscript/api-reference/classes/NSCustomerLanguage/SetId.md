@@ -6,10 +6,10 @@ keywords: NSCustomerLanguage, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the CustomerLanguage
+Set the primary key (id) for the NSCustomerLanguage
 
 **Parameter:** 
- - **id** Integer CustomerLanguage id.
+ - **id** Integer NSCustomerLanguage id.
 
 ```crmscript
 NSCustomerLanguage thing;

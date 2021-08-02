@@ -11,11 +11,9 @@ Marks all items in the list deleted
 **Parameters:**
  - **udListDefinitionName** The name of the list definition, indicating which list to delete the items from.
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 String udListDefinitionName;
-Void res = agent.DeleteAllFromListName(udListDefinitionName);
+agent.DeleteAllFromListName(udListDefinitionName);
 ```
 

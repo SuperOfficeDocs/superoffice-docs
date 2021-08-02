@@ -6,9 +6,9 @@ keywords: NSMrMrs, GetValue
 so.topic: reference
 ---
 
-Get the name of the MrMrs.
+Get the name of the NSMrMrs.
 
-**Returns:** String MrMrs name.
+**Returns:** String NSMrMrs name.
 
 ```crmscript
 NSMrMrs thing;

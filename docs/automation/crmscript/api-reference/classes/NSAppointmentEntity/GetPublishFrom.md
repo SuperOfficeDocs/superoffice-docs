@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, GetPublishFrom
 so.topic: reference
 ---
 
-Publish from date on AppointmentEntity.
+Publish from date on NSAppointmentEntity.
 
 **Returns:** DateTime.
 

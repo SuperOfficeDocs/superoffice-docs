@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetMyAudienceLayout
-title: AudienceLayoutEntity GetMyAudienceLayout()
+title: NSAudienceLayoutEntity GetMyAudienceLayout()
 intellisense: NSAudienceAgent.GetMyAudienceLayout
 keywords: NSAudienceAgent, GetMyAudienceLayout
 so.topic: reference
@@ -13,6 +13,6 @@ Gets the Audience layout belonging to the currently logged on user.
 
 ```crmscript
 NSAudienceAgent agent;
-AudienceLayoutEntity res = agent.GetMyAudienceLayout();
+NSAudienceLayoutEntity res = agent.GetMyAudienceLayout();
 ```
 

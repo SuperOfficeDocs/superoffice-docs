@@ -6,16 +6,16 @@ keywords: NSListAgent, GetPositionList
 so.topic: reference
 ---
 
-Gets a vector of Position objects.
+Gets a vector of NSPosition objects.
 
 **Parameters:**
  - **positionIds** The identifiers of the NSPosition objects
 
-**Returns:** Vector of NSPosition objects
+**Returns:** NSPosition[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetPositionList(ids);
+NSPosition[] res = agent.GetPositionList(ids);
 ```
 

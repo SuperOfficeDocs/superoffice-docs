@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_SetDefaultPersonImage
-title: Void SetDefaultPersonImage(String layoutName, Image image)
+title: Void SetDefaultPersonImage(String layoutName, NSImage image)
 intellisense: NSAudienceAgent.SetDefaultPersonImage
 keywords: NSAudienceAgent, SetDefaultPersonImage
 so.topic: reference

@@ -11,7 +11,7 @@ Updates the existing NSDashboardTile or creates a new NSDashboardTile if the id 
 **Parameters**:
  - **dashboardTile** The NSDashboardTile to save.
 
-**Returns:** New or updated NSDashboardTile
+**Returns:** NSDashboardTile
 
 ```crmscript
 NSDashboard  agent;

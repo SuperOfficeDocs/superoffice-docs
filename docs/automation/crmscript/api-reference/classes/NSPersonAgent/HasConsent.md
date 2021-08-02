@@ -12,7 +12,7 @@ Check if consent has been given by a specified person, for a specific purpose. W
  - **personId** The person id
  - **purpose** The key of the purpose to check. (e.g. 'STORE' or 'EMARKETING')
 
-**Returns:** True if the person has consented to the given purpose.
+**Returns:** Bool
 
 ```crmscript
 NSPersonAgent agent;

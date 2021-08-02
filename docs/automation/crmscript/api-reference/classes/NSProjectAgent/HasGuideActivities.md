@@ -9,4 +9,6 @@ so.topic: reference
 
 
 **Parameters:**
- - **projectId** 
+ - **projectId** Project id
+
+**Returns:** Bool

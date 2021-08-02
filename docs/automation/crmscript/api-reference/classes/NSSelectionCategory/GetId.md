@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the SelectionCategory
 
-**Returns:** Integer SelectionCategory id.
+**Returns:** Integer
 
 ```crmscript
 NSSelectionCategory thing;

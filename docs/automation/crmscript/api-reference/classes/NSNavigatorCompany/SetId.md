@@ -6,7 +6,7 @@ keywords: NSNavigatorCompany, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the NavigatorCompany
+Set the primary key (id) for the NSNavigatorCompany
 
 **Parameter:** 
  - **id** Integer NavigatorCompany id.

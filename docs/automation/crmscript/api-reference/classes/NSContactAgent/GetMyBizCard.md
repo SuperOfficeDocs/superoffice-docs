@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetMyBizCard
-title: ContactEntity GetMyBizCard()
+title: NSContactEntity GetMyBizCard()
 intellisense: NSContactAgent.GetMyBizCard
 keywords: NSContactAgent, GetMyBizCard
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all data needed to display the logged on person's business card. That is company, person, and company interest data.
 
 
-**Returns:** The contact object with persons and interests
+**Returns:** NSContactEntity
 
 ```crmscript
 NSContactAgent agent;
-ContactEntity res = agent.GetMyBizCard();
+NSContactEntity res = agent.GetMyBizCard();
 ```
 

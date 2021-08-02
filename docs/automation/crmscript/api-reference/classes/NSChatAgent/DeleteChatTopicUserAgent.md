@@ -18,6 +18,6 @@ Remove a user from a topic
 NSChatAgent agent;
 Integer chatTopicId;
 String username;
-Void res = agent.DeleteChatTopicUserAgent(chatTopicId, username);
+agent.DeleteChatTopicUserAgent(chatTopicId, username);
 ```
 

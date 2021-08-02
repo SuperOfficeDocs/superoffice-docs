@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate
-title: DocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
+title: NSDocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate
 keywords: NSDocumentAgent, CreateNewPhysicalMailMergeDocumentFromTemplate
 so.topic: reference
@@ -12,12 +12,12 @@ Create a new physical document based on the documents template. Do not replace t
  - **documentId** Identifier for a document. The template to use is stored in the document entity.
  - **uiCulture** Language variation of template to use. (ISO code: "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang".
 
-**Returns:** The document object with updated info after creating the document.
+**Returns:** NSDocumentEntity
 
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
 String uiCulture;
-DocumentEntity res = agent.CreateNewPhysicalMailMergeDocumentFromTemplate(documentId, uiCulture);
+NSDocumentEntity res = agent.CreateNewPhysicalMailMergeDocumentFromTemplate(documentId, uiCulture);
 ```
 

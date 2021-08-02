@@ -8,7 +8,7 @@ so.topic: reference
 
 All persons with this EmailAddress stored in db is listed here
 
-**Returns:** IntegerArray
+**Returns:** Integer[]
 
 
 ```crmscript

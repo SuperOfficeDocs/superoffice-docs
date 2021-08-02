@@ -11,7 +11,7 @@ Get the supported language variations for a document template
 **Parameters:**
  - **documentTemplateId** The id of the document template
 
-**Returns:** Returns the list of languages as ISO cultures (en-US, no, sv, etc)
+**Returns:** String[]
 
 ```crmscript
 NSListAgent agent;

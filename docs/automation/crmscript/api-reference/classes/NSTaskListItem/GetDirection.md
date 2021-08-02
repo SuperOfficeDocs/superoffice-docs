@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTaskListItem_GetDirection
-title: TaskDirection GetDirection()
+title: Integer GetDirection()
 intellisense: NSTaskListItem.GetDirection
 keywords: NSTaskListItem, GetDirection
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
-**Returns:** TaskDirection
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Incoming 
@@ -17,7 +17,7 @@ so.topic: reference
 
 ```crmscript
 NSTaskListItem thing;
-TaskDirection direction  = thing.GetDirection();
+Integer direction  = thing.GetDirection();
 ```
 
 

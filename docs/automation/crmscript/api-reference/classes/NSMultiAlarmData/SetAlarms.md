@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMultiAlarmData_SetAlarms
-title: SetAlarms(AlarmData[] alarms)
+title: SetAlarms(NSAlarmData[] alarms)
 intellisense: NSMultiAlarmData.SetAlarms
 keywords: NSMultiAlarmData, GetAlarms
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **alarms** AlarmData[]
+ - **alarms** NSAlarmData[]
 
 ```crmscript
 NSMultiAlarmData thing;
-AlarmData[] alarms;
+NSAlarmData[] alarms;
 thing.SetAlarms(alarms);
 ```
 

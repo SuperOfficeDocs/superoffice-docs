@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedLicenseInfo_SetCurrent
-title: SetCurrent(LicenseInfo current)
+title: SetCurrent(NSLicenseInfo current)
 intellisense: NSExtendedLicenseInfo.SetCurrent
 keywords: NSExtendedLicenseInfo, GetCurrent
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **current** LicenseInfo
+ - **current** NSLicenseInfo
 
 ```crmscript
 NSExtendedLicenseInfo thing;
-LicenseInfo current;
+NSLicenseInfo current;
 thing.SetCurrent(current);
 ```
 

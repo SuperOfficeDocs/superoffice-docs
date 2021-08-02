@@ -6,9 +6,9 @@ keywords: NSTicketCategoryEntity, GetCustomFields
 so.topic: reference
 ---
 
-Get the user-defined + extra fields on a TicketCategoryEntity as a map.
+Get the user-defined + extra fields on a NSTicketCategoryEntity as a map.
 
-**Returns:** Map containing user defined and extra field values by field name.
+**Returns:** Map
 
 ```crmscript
 NSTicketCategoryEntity thing;

@@ -11,7 +11,7 @@ Set the base timezone id.
 **Parameters:**
  - **timezoneId** The timezone id to save
 
-**Returns:** Returns true if setting of base timezone was done
+**Returns:** Bool
 
 ```crmscript
 NSTimeZoneAgent agent;

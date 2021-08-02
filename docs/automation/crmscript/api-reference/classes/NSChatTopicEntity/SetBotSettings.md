@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatTopicEntity_SetBotSettings
-title: SetBotSettings(ChatBotSettings botSettings)
+title: SetBotSettings(NSChatBotSettings botSettings)
 intellisense: NSChatTopicEntity.SetBotSettings
 keywords: NSChatTopicEntity, GetBotSettings
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Settings for chatbot: trigger script ids to run on bot events
 
 **Parameter:** 
- - **botSettings** ChatBotSettings
+ - **botSettings** NSChatBotSettings
 
 ```crmscript
 NSChatTopicEntity thing;
-ChatBotSettings botSettings;
+NSChatBotSettings botSettings;
 thing.SetBotSettings(botSettings);
 ```
 

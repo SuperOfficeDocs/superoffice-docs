@@ -12,7 +12,7 @@ Return the application configuration. This is a list of pages, with information 
  - **application** The application name, for instance 'SixWeb'
  - **instance** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML structure containing the application configuration
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_SetActivityFilter
-title: Void SetActivityFilter(ActivityFilter activityFilter)
+title: Void SetActivityFilter(NSActivityFilter activityFilter)
 intellisense: NSArchiveAgent.SetActivityFilter
 keywords: NSArchiveAgent, SetActivityFilter
 so.topic: reference

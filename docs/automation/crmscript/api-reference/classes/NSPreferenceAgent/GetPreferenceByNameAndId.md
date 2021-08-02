@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferenceByNameAndId
-title: Preference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
+title: NSPreference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
 intellisense: NSPreferenceAgent.GetPreferenceByNameAndId
 keywords: NSPreferenceAgent, GetPreferenceByNameAndId
 so.topic: reference
@@ -21,7 +21,7 @@ Get a preference by name and owner id.
      - Enum: 6 = PC 
  - **ownerId** The preference owner id, individual or group.
 
-**Returns:** The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+**Returns:** NSPreference
 
 ```crmscript
 NSPreferenceAgent agent;
@@ -29,6 +29,6 @@ String prefSection;
 String prefKey;
 Integer prefLevel;
 Integer ownerId;
-Preference res = agent.GetPreferenceByNameAndId(prefSection, prefKey, prefLevel, ownerId);
+NSPreference res = agent.GetPreferenceByNameAndId(prefSection, prefKey, prefLevel, ownerId);
 ```
 

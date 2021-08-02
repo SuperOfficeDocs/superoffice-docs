@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatWidgetSettings_GetRequiredFields
-title: WidgetRequiredFields GetRequiredFields()
+title: NSWidgetRequiredFields GetRequiredFields()
 intellisense: NSChatWidgetSettings.GetRequiredFields
 keywords: NSChatWidgetSettings, GetRequiredFields
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Fields required to start a chat
 
-**Returns:** WidgetRequiredFields
+**Returns:** NSWidgetRequiredFields
 
      - Enum: 0 = None 
      - Enum: 1 = Email 
@@ -18,7 +18,7 @@ Fields required to start a chat
 
 ```crmscript
 NSChatWidgetSettings thing;
-WidgetRequiredFields requiredFields  = thing.GetRequiredFields();
+NSWidgetRequiredFields requiredFields  = thing.GetRequiredFields();
 ```
 
 

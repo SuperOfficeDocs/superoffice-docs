@@ -6,7 +6,7 @@ keywords: NSConsentInfo, GetLegalBaseKey
 so.topic: reference
 ---
 
-Key for the LegalBase associated with this consent
+Key for the NSLegalBase associated with this consent
 
 **Parameter:** 
  - **legalBaseKey** String

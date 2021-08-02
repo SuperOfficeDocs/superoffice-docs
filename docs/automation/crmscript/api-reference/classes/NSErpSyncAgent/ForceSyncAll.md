@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_ForceSyncAll
-title: PluginResponse ForceSyncAll()
+title: NSPluginResponse ForceSyncAll()
 intellisense: NSErpSyncAgent.ForceSyncAll
 keywords: NSErpSyncAgent, ForceSyncAll
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Sync all active connections even when automatic sync is off
 
 
-**Returns:** The response
+**Returns:** NSPluginResponse
 
 ```crmscript
 NSErpSyncAgent agent;
-PluginResponse res = agent.ForceSyncAll();
+NSPluginResponse res = agent.ForceSyncAll();
 ```
 

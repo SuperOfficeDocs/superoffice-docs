@@ -19,3 +19,5 @@ Check if the publish event is active for the given type
      - Enum: 12 = Appointment 
      - Enum: 13 = Document 
      - Enum: 14 = None 
+
+**Returns:** Bool

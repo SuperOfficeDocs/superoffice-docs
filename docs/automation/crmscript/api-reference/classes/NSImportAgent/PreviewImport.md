@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSImportAgent_PreviewImport
-title: ImportLine[] PreviewImport(ImportLine[] importLines, String[] columnDefinition, String culture, String context)
+title: NSImportLine[] PreviewImport(NSImportLine[] importLines, String[] columnDefinition, String culture, String context)
 intellisense: NSImportAgent.PreviewImport
 keywords: NSImportAgent, PreviewImport
 so.topic: reference
@@ -14,14 +14,14 @@ Preview the import
  - **culture** The current culture used in the import. Used to match language specific strings
  - **context** Optional context for the import.
 
-**Returns:** An array of the the rows that can be imported, manipulated according to Import rules given
+**Returns:** NSImportLine[]
 
 ```crmscript
 NSImportAgent agent;
-ImportLine[] importLines;
+NSImportLine[] importLines;
 String[] columnDefinition;
 String culture;
 String context;
-ImportLine[] res = agent.PreviewImport(importLines, columnDefinition, culture, context);
+NSImportLine[] res = agent.PreviewImport(importLines, columnDefinition, culture, context);
 ```
 

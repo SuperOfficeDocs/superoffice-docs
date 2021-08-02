@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_GetPerson
-title: Person GetPerson()
+title: NSPerson GetPerson()
 intellisense: NSPersonSummary.GetPerson
 keywords: NSPersonSummary, GetPerson
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Simple Person data.
 
-**Returns:** Person
+**Returns:** NSPerson
 
 
 ```crmscript
 NSPersonSummary thing;
-Person person  = thing.GetPerson();
+NSPerson person  = thing.GetPerson();
 ```
 
 

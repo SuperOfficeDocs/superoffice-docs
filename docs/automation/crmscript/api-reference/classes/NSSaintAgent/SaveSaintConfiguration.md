@@ -11,7 +11,7 @@ Updates the existing NSSaintConfiguration or creates a new NSSaintConfiguration 
 **Parameters**:
  - **saintConfiguration** The NSSaintConfiguration to save.
 
-**Returns:** New or updated NSSaintConfiguration
+**Returns:** NSSaintConfiguration
 
 ```crmscript
 NSSaint  agent;

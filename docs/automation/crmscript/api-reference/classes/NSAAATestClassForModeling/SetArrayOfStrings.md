@@ -8,7 +8,7 @@ so.topic: reference
 ---
 
 
-* **ArrayOfStrings:** StringArray
-* **Returns:** StringArray
+* **ArrayOfStrings:** String[]
+* **Returns:** String[]
 
 

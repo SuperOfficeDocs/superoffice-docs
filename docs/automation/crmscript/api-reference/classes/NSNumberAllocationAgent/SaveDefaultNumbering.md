@@ -11,11 +11,9 @@ Saves default numbering values in preferences
 **Parameters:**
  - **refCountEntity** The refCountEntity that holds the values that will be saved
 
-**Returns:** void
-
 ```crmscript
 NSNumberAllocationAgent agent;
 RefCountEntity refCountEntity;
-Void res = agent.SaveDefaultNumbering(refCountEntity);
+agent.SaveDefaultNumbering(refCountEntity);
 ```
 

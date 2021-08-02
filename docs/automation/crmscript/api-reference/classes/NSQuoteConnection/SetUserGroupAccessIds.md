@@ -9,7 +9,7 @@ so.topic: reference
 Array of ids containing usergroups that will have access to this connection.
 
 **Parameter:** 
- - **userGroupAccessIds** IntegerArray
+ - **userGroupAccessIds** Integer[]
 
 ```crmscript
 NSQuoteConnection thing;

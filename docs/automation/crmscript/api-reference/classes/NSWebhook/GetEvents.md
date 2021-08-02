@@ -8,7 +8,7 @@ so.topic: reference
 
 Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] 
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

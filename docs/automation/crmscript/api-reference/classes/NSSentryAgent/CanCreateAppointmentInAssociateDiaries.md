@@ -11,7 +11,7 @@ CanCreateAppointmentInAssociateDiaries will check if the current associate can c
 **Parameters:**
  - **associateIds** Array of associate ids to check.
 
-**Returns:** Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
+**Returns:** Bool
 
 ```crmscript
 NSSentryAgent agent;

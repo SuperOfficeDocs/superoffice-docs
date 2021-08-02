@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSUntrustedCredentials.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSUntrustedCredentials with default values.
+**Returns:** NSUntrustedCredentials
 
 ```crmscript
 NSUserAgent agent;

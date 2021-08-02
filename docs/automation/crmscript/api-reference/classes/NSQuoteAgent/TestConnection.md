@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nsquoteagent_testconnection
-title: PluginResponse TestConnection()
+title: NSPluginResponse TestConnection()
 description: CRMScript method in the NSQuoteAgent class
 intellisense: NSQuoteAgent.TestConnection
 keywords: NSQuoteAgent, TestConnection, TestConnection(String,StringDictionary)
@@ -13,7 +13,7 @@ Used by the Admin clients. Testing if the connection data is sufficient to get a
 
 Returns how the test went
 
-`PluginResponse TestConnection(String connectorName, StringDictionary connectionData)`
+`NSPluginResponse TestConnection(String connectorName, StringDictionary connectionData)`
 
 ## Parameters
 
@@ -26,5 +26,5 @@ Returns how the test went
 NSQuoteAgent agent;
 String connectorName;
 StringDictionary connectionData;
-PluginResponse res = agent.TestConnection(connectorName, connectionData);
+NSPluginResponse res = agent.TestConnection(connectorName, connectionData);
 ```

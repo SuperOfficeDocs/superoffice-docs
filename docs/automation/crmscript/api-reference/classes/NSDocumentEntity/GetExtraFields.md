@@ -6,9 +6,9 @@ keywords: NSDocumentEntity, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields on DocumentEntity as a map.
+Get the extra fields on NSDocumentEntity as a map.
 
-**Returns:** Map containing extra field values by field name.
+**Returns:** Map
 
 ```crmscript
 NSDocumentEntity thing;

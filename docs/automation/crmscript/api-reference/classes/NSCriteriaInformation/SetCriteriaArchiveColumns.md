@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveColumns
-title: SetCriteriaArchiveColumns(ArchiveColumnInfo[] criteriaArchiveColumns)
+title: SetCriteriaArchiveColumns(NSArchiveColumnInfo[] criteriaArchiveColumns)
 intellisense: NSCriteriaInformation.SetCriteriaArchiveColumns
 keywords: NSCriteriaInformation, GetCriteriaArchiveColumns
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Array of ColumnInfo column specifications
 
 **Parameter:** 
- - **criteriaArchiveColumns** ArchiveColumnInfo[]
+ - **criteriaArchiveColumns** NSArchiveColumnInfo[]
 
 ```crmscript
 NSCriteriaInformation thing;
-ArchiveColumnInfo[] criteriaArchiveColumns;
+NSArchiveColumnInfo[] criteriaArchiveColumns;
 thing.SetCriteriaArchiveColumns(criteriaArchiveColumns);
 ```
 

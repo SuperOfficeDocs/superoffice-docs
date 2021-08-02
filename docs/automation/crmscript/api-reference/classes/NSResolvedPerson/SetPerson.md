@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSResolvedPerson_SetPerson
-title: SetPerson(PersonEntity person)
+title: SetPerson(NSPersonEntity person)
 intellisense: NSResolvedPerson.SetPerson
 keywords: NSResolvedPerson, GetPerson
 so.topic: reference
 ---
 
-The resolved PersonEntity instance.
+The resolved NSPersonEntity instance.
 
 **Parameter:** 
- - **person** PersonEntity
+ - **person** NSPersonEntity
 
 ```crmscript
 NSResolvedPerson thing;
-PersonEntity person;
+NSPersonEntity person;
 thing.SetPerson(person);
 ```
 

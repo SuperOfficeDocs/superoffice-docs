@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelection
-title: SelectionEntity CreateTemporaryContactSelection()
+title: NSSelectionEntity CreateTemporaryContactSelection()
 intellisense: NSSelectionAgent.CreateTemporaryContactSelection
 keywords: NSSelectionAgent, CreateTemporaryContactSelection
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Creates a temporary selection.
 
 
-**Returns:** Returns the newly created SelectionEntity.
+**Returns:** NSSelectionEntity
 
 ```crmscript
 NSSelectionAgent agent;
-SelectionEntity res = agent.CreateTemporaryContactSelection();
+NSSelectionEntity res = agent.CreateTemporaryContactSelection();
 ```
 

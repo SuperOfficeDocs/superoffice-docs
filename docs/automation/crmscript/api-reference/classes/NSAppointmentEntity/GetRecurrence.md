@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetRecurrence
-title: RecurrenceInfo GetRecurrence()
+title: NSRecurrenceInfo GetRecurrence()
 intellisense: NSAppointmentEntity.GetRecurrence
 keywords: NSAppointmentEntity, GetRecurrence
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The appointment recurrence.
 
-**Returns:** RecurrenceInfo
+**Returns:** NSRecurrenceInfo
 
 
 ```crmscript
 NSAppointmentEntity thing;
-RecurrenceInfo recurrence  = thing.GetRecurrence();
+NSRecurrenceInfo recurrence  = thing.GetRecurrence();
 ```
 
 

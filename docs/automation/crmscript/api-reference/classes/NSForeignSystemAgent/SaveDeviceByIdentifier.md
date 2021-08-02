@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_SaveDeviceByIdentifier
-title: ForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, ForeignDevice foreignDevice)
+title: NSForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, NSForeignDevice foreignDevice)
 intellisense: NSForeignSystemAgent.SaveDeviceByIdentifier
 keywords: NSForeignSystemAgent, SaveDeviceByIdentifier
 so.topic: reference
 ---
 
-Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
+Updates a NSForeignDevice with deviceName that belongs to the application with applicationName.
 
 **Parameters:**
  - **applicationName** The name of the foreign application.
@@ -14,14 +14,14 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
  - **deviceIdentifier** Unique id of device (Palm pilot device ID, version number, etc)
  - **foreignDevice** Foreign device to save. Can be null if adding new device.
 
-**Returns:** The ForeignDevice.
+**Returns:** NSForeignDevice
 
 ```crmscript
 NSForeignSystemAgent agent;
 String applicationName;
 String deviceName;
 String deviceIdentifier;
-ForeignDevice foreignDevice;
-ForeignDevice res = agent.SaveDeviceByIdentifier(applicationName, deviceName, deviceIdentifier, foreignDevice);
+NSForeignDevice foreignDevice;
+NSForeignDevice res = agent.SaveDeviceByIdentifier(applicationName, deviceName, deviceIdentifier, foreignDevice);
 ```
 

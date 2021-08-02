@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseOwner_GetUnrestrictedModuleLicenses
-title: ModuleLicenseLink[] GetUnrestrictedModuleLicenses()
+title: NSModuleLicenseLink[] GetUnrestrictedModuleLicenses()
 intellisense: NSLicenseOwner.GetUnrestrictedModuleLicenses
 keywords: NSLicenseOwner, GetUnrestrictedModuleLicenses
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The unrestricted module licenses that this license owner
 
-**Returns:** ModuleLicenseLink[]
+**Returns:** NSModuleLicenseLink[]
 
 
 ```crmscript
 NSLicenseOwner thing;
-ModuleLicenseLink[] unrestrictedModuleLicenses  = thing.GetUnrestrictedModuleLicenses();
+NSModuleLicenseLink[] unrestrictedModuleLicenses  = thing.GetUnrestrictedModuleLicenses();
 ```
 
 

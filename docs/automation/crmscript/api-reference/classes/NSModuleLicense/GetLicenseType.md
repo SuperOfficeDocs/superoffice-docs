@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSModuleLicense_GetLicenseType
-title: LicenseType GetLicenseType()
+title: Integer GetLicenseType()
 intellisense: NSModuleLicense.GetLicenseType
 keywords: NSModuleLicense, GetLicenseType
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Entire system, per database, or per associate
 
-**Returns:** LicenseType
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = SiteLicense 
@@ -17,7 +17,7 @@ Entire system, per database, or per associate
 
 ```crmscript
 NSModuleLicense thing;
-LicenseType licenseType  = thing.GetLicenseType();
+Integer licenseType  = thing.GetLicenseType();
 ```
 
 

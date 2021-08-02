@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterDetails
-title: SetRedLetterDetails(RedLetterDetails redLetterDetails)
+title: SetRedLetterDetails(NSRedLetterDetails redLetterDetails)
 intellisense: NSRedLetterInformationListItem.SetRedLetterDetails
 keywords: NSRedLetterInformationListItem, GetRedLetterDetails
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Red letter day text details, all the texts related to the given day.
 
 **Parameter:** 
- - **redLetterDetails** RedLetterDetails
+ - **redLetterDetails** NSRedLetterDetails
 
 ```crmscript
 NSRedLetterInformationListItem thing;
-RedLetterDetails redLetterDetails;
+NSRedLetterDetails redLetterDetails;
 thing.SetRedLetterDetails(redLetterDetails);
 ```
 

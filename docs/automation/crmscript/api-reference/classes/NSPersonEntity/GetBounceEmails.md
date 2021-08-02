@@ -8,7 +8,7 @@ so.topic: reference
 
 Email addresses with a positive bounce counter.
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

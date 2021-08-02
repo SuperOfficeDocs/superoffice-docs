@@ -11,7 +11,7 @@ Get a String array of names in project guide that this template is used in
 **Parameters:**
  - **documentTemplateId** The id of the template
 
-**Returns:** The name of the projectguides that use this template
+**Returns:** String[]
 
 ```crmscript
 NSListAgent agent;

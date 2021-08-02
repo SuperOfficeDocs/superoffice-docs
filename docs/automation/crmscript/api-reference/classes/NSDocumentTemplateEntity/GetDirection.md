@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentTemplateEntity_GetDirection
-title: DocTmplDirection GetDirection()
+title: NSDocTmplDirection GetDirection()
 intellisense: NSDocumentTemplateEntity.GetDirection
 keywords: NSDocumentTemplateEntity, GetDirection
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
-**Returns:** DocTmplDirection
+**Returns:** NSDocTmplDirection
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Incoming 
@@ -17,7 +17,7 @@ so.topic: reference
 
 ```crmscript
 NSDocumentTemplateEntity thing;
-DocTmplDirection direction  = thing.GetDirection();
+NSDocTmplDirection direction  = thing.GetDirection();
 ```
 
 

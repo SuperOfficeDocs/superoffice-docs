@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetAttachmentFromId
-title: EMailAttachment GetAttachmentFromId(Integer mailItemId, String attachmentId)
+title: NSEMailAttachment GetAttachmentFromId(Integer mailItemId, String attachmentId)
 intellisense: NSEMailAgent.GetAttachmentFromId
 keywords: NSEMailAgent, GetAttachmentFromId
 so.topic: reference
@@ -12,12 +12,12 @@ Retrieve an attachment from an e-mail
  - **mailItemId** Unique ID for the e-mail to retrieve the attachment from
  - **attachmentId** Id of the attachment in the e-mail
 
-**Returns:** The attachment
+**Returns:** NSEMailAttachment
 
 ```crmscript
 NSEMailAgent agent;
 Integer mailItemId;
 String attachmentId;
-EMailAttachment res = agent.GetAttachmentFromId(mailItemId, attachmentId);
+NSEMailAttachment res = agent.GetAttachmentFromId(mailItemId, attachmentId);
 ```
 

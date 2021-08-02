@@ -11,7 +11,7 @@ Updates the existing NSConsentPerson or creates a new NSConsentPerson if the id 
 **Parameters**:
  - **consentPerson** The NSConsentPerson to save.
 
-**Returns:** New or updated NSConsentPerson
+**Returns:** NSConsentPerson
 
 ```crmscript
 NSPerson  agent;

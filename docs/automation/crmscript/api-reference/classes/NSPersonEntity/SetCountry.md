@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetCountry
-title: SetCountry(Country country)
+title: SetCountry(NSCountry country)
 intellisense: NSPersonEntity.SetCountry
 keywords: NSPersonEntity, GetCountry
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The country this contact person is located in.
 
 **Parameter:** 
- - **country** Country
+ - **country** NSCountry
 
 ```crmscript
 NSPersonEntity thing;
-Country country;
+NSCountry country;
 thing.SetCountry(country);
 ```
 

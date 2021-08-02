@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetInReplyTo
-title: EMailEnvelope GetInReplyTo()
+title: NSEMailEnvelope GetInReplyTo()
 intellisense: NSEMailEntity.GetInReplyTo
 keywords: NSEMailEntity, GetInReplyTo
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The envelope of the email this email is a reply to, if it exists
 
-**Returns:** EMailEnvelope
+**Returns:** NSEMailEnvelope
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailEnvelope inReplyTo  = thing.GetInReplyTo();
+NSEMailEnvelope inReplyTo  = thing.GetInReplyTo();
 ```
 
 

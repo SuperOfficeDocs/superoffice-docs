@@ -12,7 +12,7 @@ Execute a CRMScript with parameters, returning printed output value.
  - **cRMScriptId** The id of the CRMScript to execute
  - **parameters** Parameters passed as variables to the CRMScript
 
-**Returns:** The output produced by the CRMScript
+**Returns:** String
 
 ```crmscript
 NSCRMScriptAgent agent;

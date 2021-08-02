@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetInstalledLanguages
-title: LanguageInfo[] GetInstalledLanguages()
+title: NSLanguageInfo[] GetInstalledLanguages()
 intellisense: NSListAgent.GetInstalledLanguages
 keywords: NSListAgent, GetInstalledLanguages
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns the list of all languages installed in this database.
 
 
-**Returns:** Array of installed languages
+**Returns:** NSLanguageInfo[]
 
 ```crmscript
 NSListAgent agent;
-LanguageInfo[] res = agent.GetInstalledLanguages();
+NSLanguageInfo[] res = agent.GetInstalledLanguages();
 ```
 

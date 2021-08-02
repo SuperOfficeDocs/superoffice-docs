@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSSaleEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSSaleEntity with default values.
+**Returns:** NSSaleEntity
 
 ```crmscript
 NSSaleAgent agent;

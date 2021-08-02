@@ -12,7 +12,7 @@ so.topic: reference
  - **name** The sender name
  - **emailAddress** The sender email address
 
-**Returns:** Contacts and persons matching emailaddress and name
+**Returns:** ContactOrPersonFromEmail[]
 
 ```crmscript
 NSEMailAgent agent;

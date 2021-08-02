@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_GetContactPhones
-title: PhoneListItem[] GetContactPhones(Integer contactId)
+title: NSPhoneListItem[] GetContactPhones(Integer contactId)
 intellisense: NSPhoneListAgent.GetContactPhones
 keywords: NSPhoneListAgent, GetContactPhones
 so.topic: reference
@@ -11,11 +11,11 @@ Returns an array of phone list items for all the persons belonging to a contact 
 **Parameters:**
  - **contactId** The contact id
 
-**Returns:** The contacts phone list.
+**Returns:** NSPhoneListItem[]
 
 ```crmscript
 NSPhoneListAgent agent;
 Integer contactId;
-PhoneListItem[] res = agent.GetContactPhones(contactId);
+NSPhoneListItem[] res = agent.GetContactPhones(contactId);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveConsentSource
-title: ConsentSource SaveConsentSource(ConsentSource consentSource)
+title: NSConsentSource SaveConsentSource(NSConsentSource consentSource)
 intellisense: NSListAgent.SaveConsentSource
 keywords: NSListAgent, SaveConsentSource
 so.topic: reference
@@ -10,3 +10,11 @@ so.topic: reference
 
 **Parameters:**
  - **consentSource** 
+
+**Returns:** NSConsentSource
+
+```crmscript
+NSListAgent agent;
+NSConsentSource consentSource;
+NSConsentSource res = agent.SaveConsentSource(consentSource);
+```

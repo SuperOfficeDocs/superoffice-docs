@@ -6,9 +6,9 @@ keywords: NSPaymentType, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the PaymentType
+Get the primary key (id) for the NSPaymentType
 
-**Returns:** Integer PaymentType id.
+**Returns:** Integer NSPaymentType id.
 
 ```crmscript
 NSPaymentType thing;

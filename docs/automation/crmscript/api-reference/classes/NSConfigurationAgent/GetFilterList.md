@@ -12,7 +12,7 @@ Get the list of filters to be used for processing the configuration data for thi
  - **application** The application name, for instance 'SixWeb'
  - **instance** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML representing the list of filters and any configuration data they may need.
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

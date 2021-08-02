@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_GetArea
-title: Area GetArea()
+title: NSArea GetArea()
 intellisense: NSSatellite.GetArea
 keywords: NSSatellite, GetArea
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Area
+**Returns:** NSArea
 
 
 ```crmscript
 NSSatellite thing;
-Area area  = thing.GetArea();
+NSArea area  = thing.GetArea();
 ```
 
 

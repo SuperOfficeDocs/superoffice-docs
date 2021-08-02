@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplate
-title: DocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
+title: NSDocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate
 keywords: NSDocumentAgent, CreateNewPhysicalDocumentFromTemplate
 so.topic: reference
@@ -18,7 +18,7 @@ Create a new document content based on a document template and store it in the d
  - **projectId** identifier for project. Defaults to document's project if 0
  - **uiCulture** Language variation of template to use when creating document content. (ISO code "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang".
 
-**Returns:** The updated document entity, after creating the document content from the template.
+**Returns:** NSDocumentEntity
 
 ```crmscript
 NSDocumentAgent agent;
@@ -30,6 +30,6 @@ Integer saleId;
 Integer selectionId;
 Integer projectId;
 String uiCulture;
-DocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplate(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, uiCulture);
+NSDocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplate(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, uiCulture);
 ```
 

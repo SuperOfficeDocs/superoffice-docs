@@ -17,13 +17,13 @@ Rejecting an appointment invitation and send an email confirmation to the meetin
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 String rejectReason;
 Integer updateMode;
-Void res = agent.RejectWithEmailConfirmation(appointmentId, rejectReason, updateMode);
+agent.RejectWithEmailConfirmation(appointmentId, rejectReason, updateMode);
 ```
 

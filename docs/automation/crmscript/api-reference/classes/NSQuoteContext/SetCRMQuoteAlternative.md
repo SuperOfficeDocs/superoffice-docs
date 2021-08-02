@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteContext_SetCRMQuoteAlternative
-title: SetCRMQuoteAlternative(QuoteAlternative cRMQuoteAlternative)
+title: SetCRMQuoteAlternative(NSQuoteAlternative cRMQuoteAlternative)
 intellisense: NSQuoteContext.SetCRMQuoteAlternative
 keywords: NSQuoteContext, GetCRMQuoteAlternative
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The relevant or current alternative of the quote in the CRM system, if applicable.
 
 **Parameter:** 
- - **cRMQuoteAlternative** QuoteAlternative
+ - **cRMQuoteAlternative** NSQuoteAlternative
 
 ```crmscript
 NSQuoteContext thing;
-QuoteAlternative cRMQuoteAlternative;
+NSQuoteAlternative cRMQuoteAlternative;
 thing.SetCRMQuoteAlternative(cRMQuoteAlternative);
 ```
 

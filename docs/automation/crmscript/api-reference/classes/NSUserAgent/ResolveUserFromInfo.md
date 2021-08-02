@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_ResolveUserFromInfo
-title: ResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, Credential credential)
+title: NSResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, NSCredential credential)
 intellisense: NSUserAgent.ResolveUserFromInfo
 keywords: NSUserAgent, ResolveUserFromInfo
 so.topic: reference
@@ -22,7 +22,7 @@ Get a user from the provided information. If the user or associated person does 
      - Enum: 5 = SystemAssociate 
  - **credential** The credentials to be used for the user. Required.
 
-**Returns:** The results of the resolve-operation.
+**Returns:** NSResolvedUser
 
 ```crmscript
 NSUserAgent agent;
@@ -31,7 +31,7 @@ String personName;
 String[] phoneNumbers;
 String[] emails;
 Integer userType;
-Credential credential;
-ResolvedUser res = agent.ResolveUserFromInfo(contactId, personName, phoneNumbers, emails, userType, credential);
+NSCredential credential;
+NSResolvedUser res = agent.ResolveUserFromInfo(contactId, personName, phoneNumbers, emails, userType, credential);
 ```
 

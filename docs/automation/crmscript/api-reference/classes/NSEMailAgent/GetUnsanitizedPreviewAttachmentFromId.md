@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedPreviewAttachmentFromId
-title: EMailAttachment GetUnsanitizedPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
+title: NSEMailAttachment GetUnsanitizedPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
 intellisense: NSEMailAgent.GetUnsanitizedPreviewAttachmentFromId
 keywords: NSEMailAgent, GetUnsanitizedPreviewAttachmentFromId
 so.topic: reference
@@ -14,7 +14,7 @@ Retrieve an attachment from an e-mail. The returned data is intended to be use f
  - **attachmentType** Mimetype of the attachment. Must be set if attachmentId contains a chain.
  - **attachmentFilename** Filename of the attachment. Must be set if attachmentId contains a chain.
 
-**Returns:** The attachment
+**Returns:** NSEMailAttachment
 
 ```crmscript
 NSEMailAgent agent;
@@ -22,6 +22,6 @@ Integer mailItemId;
 String attachmentId;
 String attachmentType;
 String attachmentFilename;
-EMailAttachment res = agent.GetUnsanitizedPreviewAttachmentFromId(mailItemId, attachmentId, attachmentType, attachmentFilename);
+NSEMailAttachment res = agent.GetUnsanitizedPreviewAttachmentFromId(mailItemId, attachmentId, attachmentType, attachmentFilename);
 ```
 

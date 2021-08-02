@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_SaveCurrent
-title: History SaveCurrent(History current)
+title: NSHistory SaveCurrent(NSHistory current)
 intellisense: NSViewStateAgent.SaveCurrent
 keywords: NSViewStateAgent, SaveCurrent
 so.topic: reference
@@ -11,11 +11,11 @@ Saving the current history item. This history item is saved with Rank = 1, and a
 **Parameters:**
  - **current** The new current history element.
 
-**Returns:** The current (most recent) history item
+**Returns:** NSHistory
 
 ```crmscript
 NSViewStateAgent agent;
-History current;
-History res = agent.SaveCurrent(current);
+NSHistory current;
+NSHistory res = agent.SaveCurrent(current);
 ```
 

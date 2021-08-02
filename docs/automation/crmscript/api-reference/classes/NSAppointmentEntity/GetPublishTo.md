@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, GetPublishTo
 so.topic: reference
 ---
 
-Publish to date on AppointmentEntity. After this date the event is no longer visible.
+Publish to date on NSAppointmentEntity. After this date the event is no longer visible.
 
 **Returns:** DateTime.
 

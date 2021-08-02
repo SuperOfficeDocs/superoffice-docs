@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredential_GetType
-title: CredentialType GetType()
+title: NSCredentialType GetType()
 intellisense: NSCredential.GetType
 keywords: NSCredential, GetType
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Description of credential type
 
-**Returns:** CredentialType
+**Returns:** NSCredentialType
 
 
 ```crmscript
 NSCredential thing;
-CredentialType type  = thing.GetType();
+NSCredentialType type  = thing.GetType();
 ```
 
 

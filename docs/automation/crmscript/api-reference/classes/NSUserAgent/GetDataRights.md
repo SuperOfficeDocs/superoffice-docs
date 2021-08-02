@@ -12,7 +12,7 @@ Read specific a set of data rights at the given row in the rights matrix. An exc
  - **roleId** The role id to set the data right for
  - **tableName** The name of the entity/table
 
-**Returns:** The data right values for all the defined relationships (C, CR, CRU, or CRUD)
+**Returns:** StringDictionary
 
 ```crmscript
 NSUserAgent agent;

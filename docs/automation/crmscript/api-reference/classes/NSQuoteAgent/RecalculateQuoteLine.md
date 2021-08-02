@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_RecalculateQuoteLine
-title: QuoteLine RecalculateQuoteLine(QuoteLine quoteLine, String[] changedFields)
+title: NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
 intellisense: NSQuoteAgent.RecalculateQuoteLine
 keywords: NSQuoteAgent, RecalculateQuoteLine
 so.topic: reference
@@ -12,12 +12,12 @@ When the user changes one or more values in a quoteline, the connector gets to c
  - **quoteLine** The QuoteLine to recalculate
  - **changedFields** The id of the changed fields in the form 'TableName.FieldName'
 
-**Returns:** The updated quote line.
+**Returns:** NSQuoteLine
 
 ```crmscript
 NSQuoteAgent agent;
-QuoteLine quoteLine;
+NSQuoteLine quoteLine;
 String[] changedFields;
-QuoteLine res = agent.RecalculateQuoteLine(quoteLine, changedFields);
+NSQuoteLine res = agent.RecalculateQuoteLine(quoteLine, changedFields);
 ```
 

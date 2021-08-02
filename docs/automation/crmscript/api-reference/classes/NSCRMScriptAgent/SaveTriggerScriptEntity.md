@@ -11,10 +11,10 @@ Updates the existing NSTriggerScriptEntity or creates a new NSTriggerScriptEntit
 **Parameters**:
  - **triggerScriptEntity** The NSTriggerScriptEntity to save.
 
-**Returns:** New or updated NSTriggerScriptEntity
+**Returns:** NSTriggerScriptEntity
 
 ```crmscript
-NSCRMScript  agent;
+NSCRMScriptAgent  agent;
 NSTriggerScriptEntity thing = agent.CreateDefaultTriggerScriptEntity();
 thing = agent.SaveTriggerScriptEntity(thing);
 ```

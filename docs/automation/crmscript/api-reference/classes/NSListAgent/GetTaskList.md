@@ -11,11 +11,11 @@ Gets a vector of Task objects.
 **Parameters:**
  - **taskIds** The identifiers of the NSTask objects
 
-**Returns:** Vector of NSTask objects
+**Returns:** NSTask[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetTaskList(ids);
+NSTask[] res = agent.GetTaskList(ids);
 ```
 

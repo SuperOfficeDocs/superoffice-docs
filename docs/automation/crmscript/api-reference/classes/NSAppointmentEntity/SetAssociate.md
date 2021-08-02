@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_SetAssociate
-title: SetAssociate(Associate associate)
+title: SetAssociate(NSAssociate associate)
 intellisense: NSAppointmentEntity.SetAssociate
 keywords: NSAppointmentEntity, GetAssociate
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The owner of the appointment - the associate whose diary/checklist the appointment is in.
 
 **Parameter:** 
- - **associate** Associate
+ - **associate** NSAssociate
 
 ```crmscript
 NSAppointmentEntity thing;
-Associate associate;
+NSAssociate associate;
 thing.SetAssociate(associate);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFreeTextAgent_RegenerateIndex
-title: BatchTaskInfo RegenerateIndex(Bool runAsBatch)
+title: NSBatchTaskInfo RegenerateIndex(Bool runAsBatch)
 intellisense: NSFreeTextAgent.RegenerateIndex
 keywords: NSFreeTextAgent, RegenerateIndex
 so.topic: reference
@@ -11,11 +11,11 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 **Parameters:**
  - **runAsBatch** If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
 
-**Returns:** Information about the batch task, if batch execution was requested. Otherwise null
+**Returns:** NSBatchTaskInfo
 
 ```crmscript
 NSFreeTextAgent agent;
 Bool runAsBatch;
-BatchTaskInfo res = agent.RegenerateIndex(runAsBatch);
+NSBatchTaskInfo res = agent.RegenerateIndex(runAsBatch);
 ```
 

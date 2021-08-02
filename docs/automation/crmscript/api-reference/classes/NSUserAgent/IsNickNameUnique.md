@@ -11,3 +11,5 @@ so.topic: reference
 **Parameters:**
  - **associateId** 
  - **nickName** 
+
+**Returns:** Bool

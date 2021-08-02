@@ -11,7 +11,7 @@ Toggles the Active state of the connection
 **Parameters:**
  - **erpConnectionId** Primary key of the erp connection
 
-**Returns:** Contains the reason for why the toggle failed. Empty if operation was successful
+**Returns:** String[]
 
 ```crmscript
 NSErpSyncAgent agent;

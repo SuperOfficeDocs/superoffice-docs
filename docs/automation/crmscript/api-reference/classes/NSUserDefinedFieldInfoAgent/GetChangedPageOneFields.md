@@ -20,3 +20,5 @@ Gets which page one fields have changed from the current version
      - Enum: 13 = Document 
      - Enum: 14 = None 
  - **userGroupId** ID of UserGroup
+
+**Returns:** Bool[]

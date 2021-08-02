@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSHierarchyEntity_SetChildren
-title: SetChildren(HierarchyEntity[] children)
+title: SetChildren(NSHierarchyEntity[] children)
 intellisense: NSHierarchyEntity.SetChildren
 keywords: NSHierarchyEntity, GetChildren
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Sub-items, if any.
 
 **Parameter:** 
- - **children** HierarchyEntity[]
+ - **children** NSHierarchyEntity[]
 
 ```crmscript
 NSHierarchyEntity thing;
-HierarchyEntity[] children;
+NSHierarchyEntity[] children;
 thing.SetChildren(children);
 ```
 

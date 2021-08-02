@@ -11,11 +11,11 @@ Gets a vector of Department objects.
 **Parameters:**
  - **departmentIds** The identifiers of the NSDepartment objects
 
-**Returns:** Vector of NSDepartment objects
+**Returns:** NSDepartment[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetDepartmentList(ids);
+NSDepartment[] res = agent.GetDepartmentList(ids);
 ```
 

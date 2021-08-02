@@ -13,7 +13,7 @@ Toggle the 'included' state of a quote version attachment; will throw exceptions
  - **documentId** The ID of the document
  - **include** Desired state
 
-**Returns:** The new state
+**Returns:** Bool
 
 ```crmscript
 NSQuoteAgent agent;

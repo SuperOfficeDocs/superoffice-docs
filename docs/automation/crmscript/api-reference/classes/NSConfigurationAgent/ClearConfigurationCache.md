@@ -20,6 +20,6 @@ NSConfigurationAgent agent;
 String application;
 String instance;
 Bool forAllAssociates;
-Void res = agent.ClearConfigurationCache(application, instance, forAllAssociates);
+agent.ClearConfigurationCache(application, instance, forAllAssociates);
 ```
 

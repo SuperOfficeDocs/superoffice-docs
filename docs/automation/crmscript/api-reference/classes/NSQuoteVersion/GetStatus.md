@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteVersion_GetStatus
-title: QuoteStatus GetStatus()
+title: Integer GetStatus()
 intellisense: NSQuoteVersion.GetStatus
 keywords: NSQuoteVersion, GetStatus
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 If there was a problem with for instance calculation, this field is set to warning or error.
 
-**Returns:** QuoteStatus
+**Returns:** Integer
 
      - Enum: 0 = Ok 
      - Enum: 1 = OkWithInfo 
@@ -17,7 +17,7 @@ If there was a problem with for instance calculation, this field is set to warni
 
 ```crmscript
 NSQuoteVersion thing;
-QuoteStatus status  = thing.GetStatus();
+Integer status  = thing.GetStatus();
 ```
 
 

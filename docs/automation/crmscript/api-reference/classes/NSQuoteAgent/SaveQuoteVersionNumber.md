@@ -12,7 +12,7 @@ Save the quote version number if it is valid
  - **quoteVersionId** VersionId of the quote version
  - **number** The number to save
 
-**Returns:** True if the number was valid and then saved
+**Returns:** Bool
 
 ```crmscript
 NSQuoteAgent agent;

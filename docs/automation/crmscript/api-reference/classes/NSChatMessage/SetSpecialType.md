@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatMessage_SetSpecialType
-title: SetSpecialType(ChatMessageSpecialType specialType)
+title: SetSpecialType(NSChatMessageSpecialType specialType)
 intellisense: NSChatMessage.SetSpecialType
 keywords: NSChatMessage, GetSpecialType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Enum indicating if it is a special message, such as an URL redirection, etc.
 
 **Parameter:** 
- - **specialType** ChatMessageSpecialType
+ - **specialType** NSChatMessageSpecialType
      - Enum: 0 = None 
      - Enum: 1 = Welcome 
      - Enum: 2 = Url 
@@ -30,7 +30,7 @@ Enum indicating if it is a special message, such as an URL redirection, etc.
 
 ```crmscript
 NSChatMessage thing;
-ChatMessageSpecialType specialType;
+NSChatMessageSpecialType specialType;
 thing.SetSpecialType(specialType);
 ```
 

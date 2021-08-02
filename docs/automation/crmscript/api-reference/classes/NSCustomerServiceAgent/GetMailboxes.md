@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCustomerServiceAgent_GetMailboxes
-title: Mailbox[] GetMailboxes()
+title: NSMailbox[] GetMailboxes()
 intellisense: NSCustomerServiceAgent.GetMailboxes
 keywords: NSCustomerServiceAgent, GetMailboxes
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 This method will get all registered mailboxes in Service
 
 
-**Returns:** An array of Mailbox objects
+**Returns:** NSMailbox[]
 
 ```crmscript
 NSCustomerServiceAgent agent;
-Mailbox[] res = agent.GetMailboxes();
+NSMailbox[] res = agent.GetMailboxes();
 ```
 

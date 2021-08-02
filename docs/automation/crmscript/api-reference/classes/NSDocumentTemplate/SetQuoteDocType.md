@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentTemplate_SetQuoteDocType
-title: SetQuoteDocType(DocTmplQuoteType quoteDocType)
+title: SetQuoteDocType(NSDocTmplQuoteType quoteDocType)
 intellisense: NSDocumentTemplate.SetQuoteDocType
 keywords: NSDocumentTemplate, GetQuoteDocType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 What type of quote document is this.
 
 **Parameter:** 
- - **quoteDocType** DocTmplQuoteType
+ - **quoteDocType** NSDocTmplQuoteType
      - Enum: 0 = None 
      - Enum: 1 = MailBody 
      - Enum: 2 = MainDocument 
@@ -19,7 +19,7 @@ What type of quote document is this.
 
 ```crmscript
 NSDocumentTemplate thing;
-DocTmplQuoteType quoteDocType;
+NSDocTmplQuoteType quoteDocType;
 thing.SetQuoteDocType(quoteDocType);
 ```
 

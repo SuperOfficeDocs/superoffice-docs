@@ -6,9 +6,9 @@ keywords: NSPaymentType, GetValue
 so.topic: reference
 ---
 
-Get the name of the PaymentType.
+Get the name of the NSPaymentType.
 
-**Returns:** String PaymentType name.
+**Returns:** String NSPaymentType name.
 
 ```crmscript
 NSPaymentType thing;

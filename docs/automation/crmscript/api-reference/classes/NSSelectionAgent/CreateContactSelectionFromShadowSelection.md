@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromShadowSelection
-title: SelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
+title: NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
 intellisense: NSSelectionAgent.CreateContactSelectionFromShadowSelection
 keywords: NSSelectionAgent, CreateContactSelectionFromShadowSelection
 so.topic: reference
@@ -12,12 +12,12 @@ Creates a new contact selection based on contact selection members from an exist
  - **selectionId** The id of the selection to copy members from.
  - **name** The name of the new selection.
 
-**Returns:** Returns the newly created SelectionEntity.
+**Returns:** NSSelectionEntity.
 
 ```crmscript
 NSSelectionAgent agent;
 Integer selectionId;
 String name;
-SelectionEntity res = agent.CreateContactSelectionFromShadowSelection(selectionId, name);
+NSSelectionEntity res = agent.CreateContactSelectionFromShadowSelection(selectionId, name);
 ```
 

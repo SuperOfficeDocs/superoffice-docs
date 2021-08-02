@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_CreateDefaultReOpenAppointment
-title: AppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
+title: NSAppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
 intellisense: NSAppointmentAgent.CreateDefaultReOpenAppointment
 keywords: NSAppointmentAgent, CreateDefaultReOpenAppointment
 so.topic: reference
@@ -16,6 +16,6 @@ A re-open appointment should be created as a reminder to re-open the sale at a c
 ```crmscript
 NSAppointmentAgent agent;
 Integer saleId;
-AppointmentEntity res = agent.CreateDefaultReOpenAppointment(saleId);
+NSAppointmentEntity res = agent.CreateDefaultReOpenAppointment(saleId);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_GetChatPresence
-title: ChatPresence[] GetChatPresence()
+title: NSChatPresence[] GetChatPresence()
 intellisense: NSChatAgent.GetChatPresence
 keywords: NSChatAgent, GetChatPresence
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get the chat presence status for all chat users
 
 
-**Returns:** An array with ChatPresence objects for each user
+**Returns:** NSChatPresence[]
 
 ```crmscript
 NSChatAgent agent;
-ChatPresence[] res = agent.GetChatPresence();
+NSChatPresence[] res = agent.GetChatPresence();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTaskListItem_GetType
-title: TaskType GetType()
+title: Integer GetType()
 intellisense: NSTaskListItem.GetType
 keywords: NSTaskListItem, GetType
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 
-**Returns:** TaskType
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Appointment 
@@ -24,7 +24,7 @@ so.topic: reference
 
 ```crmscript
 NSTaskListItem thing;
-TaskType type  = thing.GetType();
+Integer type  = thing.GetType();
 ```
 
 

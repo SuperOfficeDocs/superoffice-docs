@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionsAndGetCriteriaInformation
-title: CriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, ArchiveRestrictionInfo[] restrictions, String[] staticColumns)
+title: NSCriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] restrictions, String[] staticColumns)
 intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation
 keywords: NSFindAgent, SaveRestrictionsAndGetCriteriaInformation
 so.topic: reference
@@ -15,15 +15,15 @@ Save an array of restrictions for later use as search criteria (including as dyn
  - **restrictions** Array of restrictions. The ColumnInfo member and the DisplayValues members need NOT be populated; it is enough to provide a name, operator and any values the operator may need. The IsActive is also saved. Values should be encoded using the CultureDataFormatter to ensure compatibility across cultures.
  - **staticColumns** Optional array of restrictions that are to be EXCLUDED from the CriteriaArchiveRows part of the result. In the Find dialogs, that corresponds to the 'static' fields, to avoid duplicating them in the 'Match also' criteria list. This array can be null, indicating that all restrictions should be included in the criteria list.
 
-**Returns:** The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+**Returns:** NSCriteriaInformation
 
 ```crmscript
 NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionInfo[] restrictions;
+NSArchiveRestrictionInfo[] restrictions;
 String[] staticColumns;
-CriteriaInformation res = agent.SaveRestrictionsAndGetCriteriaInformation(storageType, providerName, storageKey, restrictions, staticColumns);
+NSCriteriaInformation res = agent.SaveRestrictionsAndGetCriteriaInformation(storageType, providerName, storageKey, restrictions, staticColumns);
 ```
 

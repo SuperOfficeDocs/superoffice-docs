@@ -11,11 +11,9 @@ Delete a ticket message
 **Parameters:**
  - **ticketMessageEntityId** The ticket message to delete
 
-**Returns:** returns void
-
 ```crmscript
 NSTicketAgent agent;
 Integer ticketMessageEntityId;
-Void res = agent.DeleteTicketMessageEntity(ticketMessageEntityId);
+agent.DeleteTicketMessageEntity(ticketMessageEntityId);
 ```
 

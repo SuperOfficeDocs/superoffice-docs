@@ -6,10 +6,10 @@ keywords: NSMrMrs, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the MrMrs list item.
+Set the tooltip description for the NSMrMrs list item.
 
 **Parameter:** 
- - **tooltip** String MrMrs tooltip description.
+ - **tooltip** String NSMrMrs tooltip description.
 
 ```crmscript
 NSMrMrs thing;

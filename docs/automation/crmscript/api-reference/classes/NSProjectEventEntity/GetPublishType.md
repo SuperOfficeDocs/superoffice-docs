@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEventEntity_GetPublishType
-title: PublishType GetPublishType()
+title: Integer GetPublishType()
 intellisense: NSProjectEventEntity.GetPublishType
 keywords: NSProjectEventEntity, GetPublishType
 so.topic: reference
@@ -8,14 +8,14 @@ so.topic: reference
 
 Type of publishing action, 0 = Unknown, 1 = to external persons
 
-**Returns:** PublishType
+**Returns:** Integer
 
      - Enum: 0 = Undefined 
      - Enum: 1 = External 
 
 ```crmscript
 NSProjectEventEntity thing;
-PublishType publishType  = thing.GetPublishType();
+Integer publishType  = thing.GetPublishType();
 ```
 
 

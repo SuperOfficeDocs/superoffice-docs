@@ -6,16 +6,16 @@ keywords: NSListAgent, GetCurrencyList
 so.topic: reference
 ---
 
-Gets a vector of Currency objects.
+Gets a vector of NSCurrency objects.
 
 **Parameters:**
  - **currencyIds** The identifiers of the NSCurrency objects
 
-**Returns:** Vector of NSCurrency objects
+**Returns:** NSCurrency[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetCurrencyList(ids);
+NSCurrency[] res = agent.GetCurrencyList(ids);
 ```
 

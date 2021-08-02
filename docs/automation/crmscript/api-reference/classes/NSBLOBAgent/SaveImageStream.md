@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBLOBAgent_SaveImageStream
-title: Integer SaveImageStream(Integer type, Image image, String description)
+title: Integer SaveImageStream(Integer type, NSImage image, String description)
 intellisense: NSBLOBAgent.SaveImageStream
 keywords: NSBLOBAgent, SaveImageStream
 so.topic: reference
@@ -30,12 +30,12 @@ Stores an image in the database without linking it to a project or a person. It 
  - **image** Image to store
  - **description** Image description
 
-**Returns:** The blob id
+**Returns:** Integer
 
 ```crmscript
 NSBLOBAgent agent;
 Integer type;
-Image image;
+NSImage image;
 String description;
 Integer res = agent.SaveImageStream(type, image, description);
 ```

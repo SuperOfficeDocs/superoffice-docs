@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_GetDepartmentPhones
-title: PhoneListItem[] GetDepartmentPhones(Integer departmentId)
+title: NSPhoneListItem[] GetDepartmentPhones(Integer departmentId)
 intellisense: NSPhoneListAgent.GetDepartmentPhones
 keywords: NSPhoneListAgent, GetDepartmentPhones
 so.topic: reference
@@ -11,11 +11,11 @@ Returns an array of phone list items with the in-parameter as restriction. The i
 **Parameters:**
  - **departmentId** The department to get the phone list for
 
-**Returns:** The department phone list
+**Returns:** NSPhoneListItem[]
 
 ```crmscript
 NSPhoneListAgent agent;
 Integer departmentId;
-PhoneListItem[] res = agent.GetDepartmentPhones(departmentId);
+NSPhoneListItem[] res = agent.GetDepartmentPhones(departmentId);
 ```
 

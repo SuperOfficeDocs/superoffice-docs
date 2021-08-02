@@ -15,7 +15,6 @@ Create a restriction group, initialized with next rank etc.
  - **rank** Rank of the group to be deleted.
  - **context** Optional context that can be used by FindProvider
 
-**Returns:** This service call just saves the restrictions.
 
 ```crmscript
 NSFindAgent agent;
@@ -24,6 +23,6 @@ String providerName;
 String storageKey;
 Integer rank;
 String context;
-Void res = agent.DeleteRestrictionGroup(storageType, providerName, storageKey, rank, context);
+agent.DeleteRestrictionGroup(storageType, providerName, storageKey, rank, context);
 ```
 

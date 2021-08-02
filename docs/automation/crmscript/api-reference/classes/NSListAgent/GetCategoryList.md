@@ -6,16 +6,16 @@ keywords: NSListAgent, GetCategoryList
 so.topic: reference
 ---
 
-Gets a vector of Category objects.
+Gets a vector of NSCategory objects.
 
 **Parameters:**
  - **categoryIds** The identifiers of the NSCategory objects
 
-**Returns:** Vector of NSCategory objects
+**Returns:** NSCategory[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetCategoryList(ids);
+NSCategory[] res = agent.GetCategoryList(ids);
 ```
 

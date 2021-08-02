@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_UpdateAppointmentFromIcsResponse
-title: Bool UpdateAppointmentFromIcsResponse(String emailAddress, Stream icsData)
+title: Bool UpdateAppointmentFromIcsResponse(String emailAddress, NSStream icsData)
 intellisense: NSAppointmentAgent.UpdateAppointmentFromIcsResponse
 keywords: NSAppointmentAgent, UpdateAppointmentFromIcsResponse
 so.topic: reference
@@ -17,7 +17,7 @@ Update the attendance to an appointment based on incoming ICS RSVPs.
 ```crmscript
 NSAppointmentAgent agent;
 String emailAddress;
-Stream icsData;
+NSStream icsData;
 Bool res = agent.UpdateAppointmentFromIcsResponse(emailAddress, icsData);
 ```
 

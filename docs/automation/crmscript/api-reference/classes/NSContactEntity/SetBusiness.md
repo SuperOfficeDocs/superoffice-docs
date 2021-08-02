@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetBusiness
-title: SetBusiness(Business business)
+title: SetBusiness(NSBusiness business)
 intellisense: NSContactEntity.SetBusiness
 keywords: NSContactEntity, GetBusiness
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The business that the contact is associated with. The GUI forces the user to enter a business type.
 
 **Parameter:** 
- - **business** Business
+ - **business** NSBusiness
 
 ```crmscript
 NSContactEntity thing;
-Business business;
+NSBusiness business;
 thing.SetBusiness(business);
 ```
 

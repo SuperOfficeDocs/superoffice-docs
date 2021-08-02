@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetRating
-title: SetRating(Rating rating)
+title: SetRating(NSRating rating)
 intellisense: NSSaleEntity.SetRating
 keywords: NSSaleEntity, GetRating
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The sale rating
 
 **Parameter:** 
- - **rating** Rating
+ - **rating** NSRating
 
 ```crmscript
 NSSaleEntity thing;
-Rating rating;
+NSRating rating;
 thing.SetRating(rating);
 ```
 

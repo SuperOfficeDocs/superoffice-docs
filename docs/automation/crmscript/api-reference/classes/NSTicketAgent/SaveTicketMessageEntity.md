@@ -11,10 +11,10 @@ Updates the existing NSTicketMessageEntity or creates a new NSTicketMessageEntit
 **Parameters**:
  - **ticketMessageEntity** The NSTicketMessageEntity to save.
 
-**Returns:** New or updated NSTicketMessageEntity
+**Returns:** NSTicketMessageEntity
 
 ```crmscript
-NSTicket  agent;
+NSTicketAgent agent;
 NSTicketMessageEntity thing = agent.CreateDefaultTicketMessageEntity();
 thing = agent.SaveTicketMessageEntity(thing);
 ```

@@ -7,4 +7,4 @@ so.topic: reference
 ---
 
 
-Carrier object for DuplicateEntry.
+Carrier object for NSDuplicateEntry.

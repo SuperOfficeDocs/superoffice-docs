@@ -13,7 +13,7 @@ Recalculates the amount to the new currency.
  - **fromCurrency** The old currency name
  - **toCurrency** The new currency name
 
-**Returns:** Amount in new currency
+**Returns:** Float
 
 ```crmscript
 NSListAgent agent;

@@ -11,7 +11,7 @@ Updates the existing NSProjectTypeEntity or creates a new NSProjectTypeEntity if
 **Parameters**:
  - **projectTypeEntity** The NSProjectTypeEntity to save.
 
-**Returns:** New or updated NSProjectTypeEntity
+**Returns:** NSProjectTypeEntity
 
 ```crmscript
 NSList  agent;

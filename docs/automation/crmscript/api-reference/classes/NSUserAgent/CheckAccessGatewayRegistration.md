@@ -9,7 +9,7 @@ so.topic: reference
 Checks if AccessGatewayRegistration is valid
 
 
-**Returns:** True if the registration is usable
+**Returns:** Bool
 
 ```crmscript
 NSUserAgent agent;

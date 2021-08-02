@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSResolvedUser_GetUser
-title: User GetUser()
+title: NSUser GetUser()
 intellisense: NSResolvedUser.GetUser
 keywords: NSResolvedUser, GetUser
 so.topic: reference
 ---
 
-The resolved User instance.
+The resolved NSUser instance.
 
-**Returns:** User
+**Returns:** NSUser
 
 
 ```crmscript
 NSResolvedUser thing;
-User user  = thing.GetUser();
+NSUser user  = thing.GetUser();
 ```
 
 

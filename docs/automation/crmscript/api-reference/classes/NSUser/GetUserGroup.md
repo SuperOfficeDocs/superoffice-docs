@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_GetUserGroup
-title: UserGroup GetUserGroup()
+title: NSUserGroup GetUserGroup()
 intellisense: NSUser.GetUserGroup
 keywords: NSUser, GetUserGroup
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The main user group that this user belongs to.
 
-**Returns:** UserGroup
+**Returns:** NSUserGroup
 
 
 ```crmscript
 NSUser thing;
-UserGroup userGroup  = thing.GetUserGroup();
+NSUserGroup userGroup  = thing.GetUserGroup();
 ```
 
 

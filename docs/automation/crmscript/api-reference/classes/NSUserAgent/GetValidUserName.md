@@ -7,7 +7,6 @@ so.topic: reference
 ---
 
 
-
 **Parameters:**
  - **associateId** 
  - **type** 
@@ -19,3 +18,5 @@ so.topic: reference
      - Enum: 5 = SystemAssociate 
  - **personId** 
  - **userName** 
+
+**Returns:** String

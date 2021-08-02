@@ -11,7 +11,7 @@ Updates the existing NSResourceEntity or creates a new NSResourceEntity if the i
 **Parameters**:
  - **resourceEntity** The NSResourceEntity to save.
 
-**Returns:** New or updated NSResourceEntity
+**Returns:** NSResourceEntity
 
 ```crmscript
 NSList  agent;

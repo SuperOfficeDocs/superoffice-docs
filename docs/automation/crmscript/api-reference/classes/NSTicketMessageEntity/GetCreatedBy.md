@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketMessageEntity_GetCreatedBy
-title: Associate GetCreatedBy()
+title: NSAssociate GetCreatedBy()
 intellisense: NSTicketMessageEntity.GetCreatedBy
 keywords: NSTicketMessageEntity, GetCreatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The associate who created this ticket message
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSTicketMessageEntity thing;
-Associate createdBy  = thing.GetCreatedBy();
+NSAssociate createdBy  = thing.GetCreatedBy();
 ```
 
 

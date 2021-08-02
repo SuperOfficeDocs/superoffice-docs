@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromSelection
-title: SelectionEntity CreateContactSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
+title: NSSelectionEntity CreateContactSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
 intellisense: NSSelectionAgent.CreateContactSelectionFromSelection
 keywords: NSSelectionAgent, CreateContactSelectionFromSelection
 so.topic: reference
@@ -17,7 +17,7 @@ Creates a new selection based on selection members from an existing selection.
      - Enum: 2 = Combined 
  - **copyMembers** If true, the members from the original selection will be added to the newly created selection.
 
-**Returns:** Returns the newly created SelectionEntity.
+**Returns:** NSSelectionEntity
 
 ```crmscript
 NSSelectionAgent agent;
@@ -25,6 +25,6 @@ Integer selectionId;
 String name;
 Integer targetSelectionType;
 Bool copyMembers;
-SelectionEntity res = agent.CreateContactSelectionFromSelection(selectionId, name, targetSelectionType, copyMembers);
+NSSelectionEntity res = agent.CreateContactSelectionFromSelection(selectionId, name, targetSelectionType, copyMembers);
 ```
 

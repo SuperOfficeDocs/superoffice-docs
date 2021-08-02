@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetShipmentTypes
-title: SetShipmentTypes(SelectableMDOListItem[] shipmentTypes)
+title: SetShipmentTypes(NSSelectableMDOListItem[] shipmentTypes)
 intellisense: NSPersonEntity.SetShipmentTypes
 keywords: NSPersonEntity, GetShipmentTypes
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person's available and selected shipment types.
 
 **Parameter:** 
- - **shipmentTypes** SelectableMDOListItem[]
+ - **shipmentTypes** NSSelectableMDOListItem[]
 
 ```crmscript
 NSPersonEntity thing;
-SelectableMDOListItem[] shipmentTypes;
+NSSelectableMDOListItem[] shipmentTypes;
 thing.SetShipmentTypes(shipmentTypes);
 ```
 

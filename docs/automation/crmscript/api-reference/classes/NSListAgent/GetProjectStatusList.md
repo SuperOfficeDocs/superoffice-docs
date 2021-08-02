@@ -6,16 +6,16 @@ keywords: NSListAgent, GetProjectStatusList
 so.topic: reference
 ---
 
-Gets a vector of ProjectStatus objects.
+Gets a vector of NSProjectStatus objects.
 
 **Parameters:**
  - **projectStatusIds** The identifiers of the NSProjectStatus objects
 
-**Returns:** Vector of NSProjectStatus objects
+**Returns:** NSProjectStatus[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetProjectStatusList(ids);
+NSProjectStatus[] res = agent.GetProjectStatusList(ids);
 ```
 

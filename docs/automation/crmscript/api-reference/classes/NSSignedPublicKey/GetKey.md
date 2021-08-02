@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSignedPublicKey_GetKey
-title: DSAParameters GetKey()
+title: NSDSAParameters GetKey()
 intellisense: NSSignedPublicKey.GetKey
 keywords: NSSignedPublicKey, GetKey
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Public key held by module owner.
 
-**Returns:** DSAParameters
+**Returns:** NSDSAParameters
 
 
 ```crmscript
 NSSignedPublicKey thing;
-DSAParameters key  = thing.GetKey();
+NSDSAParameters key  = thing.GetKey();
 ```
 
 

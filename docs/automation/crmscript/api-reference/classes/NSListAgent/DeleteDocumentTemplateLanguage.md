@@ -12,12 +12,10 @@ Deletes language variant of the document template
  - **documentTemplateId** The id of the document template
  - **languageCode** The language code ('en-US, 'nb-NO', etc)
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer documentTemplateId;
 String languageCode;
-Void res = agent.DeleteDocumentTemplateLanguage(documentTemplateId, languageCode);
+agent.DeleteDocumentTemplateLanguage(documentTemplateId, languageCode);
 ```
 

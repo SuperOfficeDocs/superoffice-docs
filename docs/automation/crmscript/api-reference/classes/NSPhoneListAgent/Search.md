@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_Search
-title: PhoneListItem[] Search(String searchString)
+title: NSPhoneListItem[] Search(String searchString)
 intellisense: NSPhoneListAgent.Search
 keywords: NSPhoneListAgent, Search
 so.topic: reference
 ---
 
-Searching the phone list. Using default search preferences or the preferences already set by the PhoneListPreferences Service
+Searching the phone list. Using default search preferences or the preferences already set by the NSPhoneListPreferences Service
 
 **Parameters:**
  - **searchString** The search string
@@ -16,6 +16,6 @@ Searching the phone list. Using default search preferences or the preferences al
 ```crmscript
 NSPhoneListAgent agent;
 String searchString;
-PhoneListItem[] res = agent.Search(searchString);
+NSPhoneListItem[] res = agent.Search(searchString);
 ```
 

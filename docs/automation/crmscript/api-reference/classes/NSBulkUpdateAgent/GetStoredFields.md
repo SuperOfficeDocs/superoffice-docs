@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBulkUpdateAgent_GetStoredFields
-title: FieldValueInfo[] GetStoredFields(String tablename, String context)
+title: NSFieldValueInfo[] GetStoredFields(String tablename, String context)
 intellisense: NSBulkUpdateAgent.GetStoredFields
 keywords: NSBulkUpdateAgent, GetStoredFields
 so.topic: reference
@@ -12,12 +12,12 @@ Get all stored fields for a given tablename/entity and context
  - **tablename** The name of the wanted tablename
  - **context** Where is the function called for
 
-**Returns:** Returns array of the stored or default fields for the given entity
+**Returns:** NSFieldValueInfo[]
 
 ```crmscript
 NSBulkUpdateAgent agent;
 String tablename;
 String context;
-FieldValueInfo[] res = agent.GetStoredFields(tablename, context);
+NSFieldValueInfo[] res = agent.GetStoredFields(tablename, context);
 ```
 

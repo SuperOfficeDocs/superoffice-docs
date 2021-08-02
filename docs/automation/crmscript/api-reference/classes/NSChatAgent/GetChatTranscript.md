@@ -12,7 +12,7 @@ Get the chat transcript, formatted as plain text or html
  - **chatSessionId** id of the chat session to get the transcript for
  - **html** Get transcript as HTML
 
-**Returns:** The transcript in text or HTML
+**Returns:** String
 
 ```crmscript
 NSChatAgent agent;

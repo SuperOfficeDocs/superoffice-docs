@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntityByTypeAndAssociate
-title: AppointmentEntity CreateDefaultAppointmentEntityByTypeAndAssociate(Integer type, Integer associateId)
+title: NSAppointmentEntity CreateDefaultAppointmentEntityByTypeAndAssociate(Integer type, Integer associateId)
 intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate
 keywords: NSAppointmentAgent, CreateDefaultAppointmentEntityByTypeAndAssociate
 so.topic: reference
 ---
 
-Creates a AppointmentEntity populated with the default values for the specific type and owner.
+Creates a NSAppointmentEntity populated with the default values for the specific type and owner.
 
 **Parameters:**
  - **type** The type of task requested.
@@ -23,12 +23,12 @@ Creates a AppointmentEntity populated with the default values for the specific t
      - Enum: 10 = SaintAll 
  - **associateId** The associateId of the appointment owner.
 
-**Returns:** AppointmentEntity with default values.
+**Returns:** NSAppointmentEntity with default values.
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer type;
 Integer associateId;
-AppointmentEntity res = agent.CreateDefaultAppointmentEntityByTypeAndAssociate(type, associateId);
+NSAppointmentEntity res = agent.CreateDefaultAppointmentEntityByTypeAndAssociate(type, associateId);
 ```
 

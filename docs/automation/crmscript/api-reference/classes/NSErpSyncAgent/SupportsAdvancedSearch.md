@@ -20,7 +20,7 @@ Indicates if the connection supports advanced search for the given erp actor
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
-**Returns:** True if advanced search is supported
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

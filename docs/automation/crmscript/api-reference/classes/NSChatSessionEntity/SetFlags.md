@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_SetFlags
-title: SetFlags(ChatSessionFlags flags)
+title: SetFlags(NSChatSessionFlags flags)
 intellisense: NSChatSessionEntity.SetFlags
 keywords: NSChatSessionEntity, GetFlags
 so.topic: reference
@@ -9,13 +9,13 @@ so.topic: reference
 Various flags for the chat session
 
 **Parameter:** 
- - **flags** ChatSessionFlags
+ - **flags** NSChatSessionFlags
      - Enum: 0 = CustomerIsTyping 
      - Enum: 1 = UserIsTyping 
 
 ```crmscript
 NSChatSessionEntity thing;
-ChatSessionFlags flags;
+NSChatSessionFlags flags;
 thing.SetFlags(flags);
 ```
 

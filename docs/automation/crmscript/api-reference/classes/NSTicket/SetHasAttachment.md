@@ -6,7 +6,7 @@ keywords: NSTicket, GetHasAttachment
 so.topic: reference
 ---
 
-Boolean indicating if this ticket has one or more attachments.
+Bool indicating if this ticket has one or more attachments.
 
 **Parameter:** 
  - **hasAttachment** Bool

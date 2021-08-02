@@ -6,10 +6,10 @@ keywords: NSCompetitor, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the Competitor list item.
+Set the tooltip description for the NSCompetitor list item.
 
 **Parameter:** 
- - **tooltip** String Competitor tooltip description.
+ - **tooltip** String NSCompetitor tooltip description.
 
 ```crmscript
 NSCompetitor thing;

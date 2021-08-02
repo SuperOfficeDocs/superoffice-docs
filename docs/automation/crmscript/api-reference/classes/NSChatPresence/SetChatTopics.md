@@ -9,7 +9,7 @@ so.topic: reference
 An array of ids with chat topics that this user is a member of
 
 **Parameter:** 
- - **chatTopics** IntegerArray
+ - **chatTopics** Integer[]
 
 ```crmscript
 NSChatPresence thing;

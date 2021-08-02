@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_GetTicketRead
-title: TicketPriorityEscalateEvent GetTicketRead()
+title: Integer GetTicketRead()
 intellisense: NSTicketPriorityEntity.GetTicketRead
 keywords: NSTicketPriorityEntity, GetTicketRead
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 This field indicates what to do with the escalation chain when the request is read
 
-**Returns:** TicketPriorityEscalateEvent
+**Returns:** Integer
 
      - Enum: -1 = None 
      - Enum: 0 = Stop 
@@ -17,7 +17,7 @@ This field indicates what to do with the escalation chain when the request is re
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityEscalateEvent ticketRead  = thing.GetTicketRead();
+Integer ticketRead  = thing.GetTicketRead();
 ```
 
 

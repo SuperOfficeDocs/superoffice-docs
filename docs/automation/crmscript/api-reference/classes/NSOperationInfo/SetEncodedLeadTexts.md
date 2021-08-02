@@ -9,7 +9,7 @@ so.topic: reference
 
 
 **Parameter:** 
- - **encodedLeadTexts** StringArray
+ - **encodedLeadTexts** String[]
 
 ```crmscript
 NSOperationInfo thing;

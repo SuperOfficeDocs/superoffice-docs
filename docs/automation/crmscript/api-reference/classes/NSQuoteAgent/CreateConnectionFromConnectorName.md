@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_CreateConnectionFromConnectorName
-title: QuoteConnection CreateConnectionFromConnectorName(String connectorName)
+title: NSQuoteConnection CreateConnectionFromConnectorName(String connectorName)
 intellisense: NSQuoteAgent.CreateConnectionFromConnectorName
 keywords: NSQuoteAgent, CreateConnectionFromConnectorName
 so.topic: reference
@@ -11,11 +11,11 @@ Create a new connection.
 **Parameters:**
  - **connectorName** The name of the connector to create this connection for.
 
-**Returns:** The created connection
+**Returns:** NSQuoteConnection
 
 ```crmscript
 NSQuoteAgent agent;
 String connectorName;
-QuoteConnection res = agent.CreateConnectionFromConnectorName(connectorName);
+NSQuoteConnection res = agent.CreateConnectionFromConnectorName(connectorName);
 ```
 

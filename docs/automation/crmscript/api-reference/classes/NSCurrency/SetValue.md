@@ -6,10 +6,10 @@ keywords: NSCurrency, SetValue
 so.topic: reference
 ---
 
-Set the name of the Currency item.
+Set the name of the NSCurrency item.
 
 **Parameter:** 
- - **value** String Currency name.
+ - **value** String NSCurrency name.
 
 ```crmscript
 NSCurrency thing;

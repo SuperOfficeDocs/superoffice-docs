@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the Department list item.
 
-**Returns:** String Department tooltip description.
+**Returns:** String
 
 ```crmscript
 NSDepartment thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutByName
-title: AudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
+title: NSAudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
 intellisense: NSAudienceAgent.GetAudienceLayoutByName
 keywords: NSAudienceAgent, GetAudienceLayoutByName
 so.topic: reference
@@ -16,6 +16,6 @@ Gets an Audience layout by it's instance name
 ```crmscript
 NSAudienceAgent agent;
 String layoutName;
-AudienceLayoutEntity res = agent.GetAudienceLayoutByName(layoutName);
+NSAudienceLayoutEntity res = agent.GetAudienceLayoutByName(layoutName);
 ```
 

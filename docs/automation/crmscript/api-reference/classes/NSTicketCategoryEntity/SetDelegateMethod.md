@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketCategoryEntity_SetDelegateMethod
-title: SetDelegateMethod(TicketCategoryDelegateMethod delegateMethod)
+title: SetDelegateMethod(Integer delegateMethod)
 intellisense: NSTicketCategoryEntity.SetDelegateMethod
 keywords: NSTicketCategoryEntity, GetDelegateMethod
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 An integer indicating the delegation method for this category.
 
 **Parameter:** 
- - **delegateMethod** TicketCategoryDelegateMethod
+ - **delegateMethod** Integer
      - Enum: 0 = Unknown 
      - Enum: 1 = Even 
      - Enum: 2 = Weighted 
@@ -18,7 +18,7 @@ An integer indicating the delegation method for this category.
 
 ```crmscript
 NSTicketCategoryEntity thing;
-TicketCategoryDelegateMethod delegateMethod;
+Integer delegateMethod;
 thing.SetDelegateMethod(delegateMethod);
 ```
 

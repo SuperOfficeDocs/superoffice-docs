@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
-title: ForeignKey[] GetDeviceKeysOnDeviceIdentifierTableRecordId(String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
+title: NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTableRecordId(String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
 keywords: NSForeignSystemAgent, GetDeviceKeysOnDeviceIdentifierTableRecordId
 so.topic: reference
@@ -15,7 +15,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
  - **tableName** Table name, transformed to and from numeric table id by the service layer.<p/>Use an empty string to indicate that your key is not bound to any specific table.
  - **recordId** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
 
-**Returns:** Array of all ForeignKeys in the ForeignDevice that match the criteria
+**Returns:** NSForeignKey[]
 
 ```crmscript
 NSForeignSystemAgent agent;
@@ -24,6 +24,6 @@ String deviceName;
 String deviceIdentifier;
 String tableName;
 Integer recordId;
-ForeignKey[] res = agent.GetDeviceKeysOnDeviceIdentifierTableRecordId(applicationName, deviceName, deviceIdentifier, tableName, recordId);
+NSForeignKey[] res = agent.GetDeviceKeysOnDeviceIdentifierTableRecordId(applicationName, deviceName, deviceIdentifier, tableName, recordId);
 ```
 

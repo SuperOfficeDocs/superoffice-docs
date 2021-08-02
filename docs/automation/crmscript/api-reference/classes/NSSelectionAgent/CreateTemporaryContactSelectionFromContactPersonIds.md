@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds
-title: SelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId[] contactPersonIds)
+title: NSSelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[] contactPersonIds)
 intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
 keywords: NSSelectionAgent, CreateTemporaryContactSelectionFromContactPersonIds
 so.topic: reference
@@ -11,11 +11,11 @@ Creates a temporary selection with members from a collection of ContactPerson id
 **Parameters:**
  - **contactPersonIds** A collection of ContactPersonId to copy into the temporary contact selection as members.
 
-**Returns:** Returns the newly created SelectionEntity.
+**Returns:** NSSelectionEntity
 
 ```crmscript
 NSSelectionAgent agent;
-ContactPersonId[] contactPersonIds;
-SelectionEntity res = agent.CreateTemporaryContactSelectionFromContactPersonIds(contactPersonIds);
+NSContactPersonId[] contactPersonIds;
+NSSelectionEntity res = agent.CreateTemporaryContactSelectionFromContactPersonIds(contactPersonIds);
 ```
 

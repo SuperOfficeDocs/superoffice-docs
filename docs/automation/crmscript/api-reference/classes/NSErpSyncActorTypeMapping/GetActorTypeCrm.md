@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeCrm
-title: CrmActorType GetActorTypeCrm()
+title: NSCrmActorType GetActorTypeCrm()
 intellisense: NSErpSyncActorTypeMapping.GetActorTypeCrm
 keywords: NSErpSyncActorTypeMapping, GetActorTypeCrm
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 The actor type (CRM side)
 
-**Returns:** CrmActorType
+**Returns:** NSCrmActorType
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Contact 
@@ -18,7 +18,7 @@ The actor type (CRM side)
 
 ```crmscript
 NSErpSyncActorTypeMapping thing;
-CrmActorType actorTypeCrm  = thing.GetActorTypeCrm();
+NSCrmActorType actorTypeCrm  = thing.GetActorTypeCrm();
 ```
 
 

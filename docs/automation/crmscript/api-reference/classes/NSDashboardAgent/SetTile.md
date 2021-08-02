@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardAgent_SetTile
-title: Dashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
+title: NSDashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
 intellisense: NSDashboardAgent.SetTile
 keywords: NSDashboardAgent, SetTile
 so.topic: reference
@@ -20,6 +20,6 @@ NSDashboardAgent agent;
 Integer dashboardId;
 Integer tileId;
 Integer position;
-Dashboard res = agent.SetTile(dashboardId, tileId, position);
+NSDashboard res = agent.SetTile(dashboardId, tileId, position);
 ```
 

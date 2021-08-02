@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_RecalculateQuoteAlternative
-title: QuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
+title: NSQuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
 intellisense: NSQuoteAgent.RecalculateQuoteAlternative
 keywords: NSQuoteAgent, RecalculateQuoteAlternative
 so.topic: reference
@@ -11,11 +11,11 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
 **Parameters:**
  - **quoteAlternative** The alternative to be recalculated
 
-**Returns:** The updated quote version.
+**Returns:** NSQuoteAlternativeRecalculated
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteAlternative;
-QuoteAlternativeRecalculated res = agent.RecalculateQuoteAlternative(quoteAlternative);
+NSQuoteAlternativeRecalculated res = agent.RecalculateQuoteAlternative(quoteAlternative);
 ```
 

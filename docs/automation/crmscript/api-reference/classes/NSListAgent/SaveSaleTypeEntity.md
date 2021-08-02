@@ -11,7 +11,7 @@ Updates the existing NSSaleTypeEntity or creates a new NSSaleTypeEntity if the i
 **Parameters**:
  - **saleTypeEntity** The NSSaleTypeEntity to save.
 
-**Returns:** New or updated NSSaleTypeEntity
+**Returns:** NSSaleTypeEntity
 
 ```crmscript
 NSList  agent;

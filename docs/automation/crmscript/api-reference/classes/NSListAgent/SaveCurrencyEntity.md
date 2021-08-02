@@ -11,10 +11,10 @@ Updates the existing NSCurrencyEntity or creates a new NSCurrencyEntity if the i
 **Parameters**:
  - **currencyEntity** The NSCurrencyEntity to save.
 
-**Returns:** New or updated NSCurrencyEntity
+**Returns:** NSCurrencyEntity
 
 ```crmscript
-NSList  agent;
+NSList agent;
 NSCurrencyEntity thing = agent.CreateDefaultCurrencyEntity();
 thing = agent.SaveCurrencyEntity(thing);
 ```

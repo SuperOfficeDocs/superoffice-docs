@@ -11,7 +11,7 @@ This method will get a value from the CS Registry table.
 **Parameters:**
  - **entry** The Registry entry to get
 
-**Returns:** The value of the specified Registry entry
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

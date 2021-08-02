@@ -6,7 +6,7 @@ keywords: NSUser, GetType
 so.topic: reference
 ---
 
-User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate 
+NSUser type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate 
 
 **Returns:** Integer
 

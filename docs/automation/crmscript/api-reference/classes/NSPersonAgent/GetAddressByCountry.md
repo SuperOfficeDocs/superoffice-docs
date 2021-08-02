@@ -11,7 +11,7 @@ so.topic: reference
 
 Gets the person's localized address.
 
-Returns the address as LocalizedField[][].
+Returns the address as NSLocalizedField[][].
 
 `GetAddressByCountry(Integer personId, Integer countryId)`
 
@@ -28,5 +28,5 @@ Returns the address as LocalizedField[][].
 NSPersonAgent agent;
 Integer personId;
 Integer countryId;
-Address res = agent.GetAddressByCountry(personId, countryId);
+NSAddress res = agent.GetAddressByCountry(personId, countryId);
 ```

@@ -11,11 +11,9 @@ Delete the CRMScript
 **Parameters:**
  - **uniqueIdentifier** Global unique reference to script (independent of installation)
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSCRMScriptAgent agent;
 String uniqueIdentifier;
-Void res = agent.DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier);
+agent.DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier);
 ```
 

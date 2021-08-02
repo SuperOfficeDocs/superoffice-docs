@@ -6,16 +6,16 @@ keywords: NSListAgent, GetSaleTypeList
 so.topic: reference
 ---
 
-Gets a vector of SaleType objects.
+Gets a vector of NSSaleType objects.
 
 **Parameters:**
  - **saleTypeIds** The identifiers of the NSSaleType objects
 
-**Returns:** Vector of NSSaleType objects
+**Returns:** NSSaleType[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetSaleTypeList(ids);
+NSSaleType[] res = agent.GetSaleTypeList(ids);
 ```
 

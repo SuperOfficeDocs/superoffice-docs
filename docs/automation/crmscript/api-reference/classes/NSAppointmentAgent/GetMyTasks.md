@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetMyTasks
-title: Appointment[] GetMyTasks(Integer count)
+title: NSAppointment[] GetMyTasks(Integer count)
 intellisense: NSAppointmentAgent.GetMyTasks
 keywords: NSAppointmentAgent, GetMyTasks
 so.topic: reference
@@ -11,11 +11,11 @@ Method that returns a specified number of appointments within a time range. It o
 **Parameters:**
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
-**Returns:** Array of Appointments.
+**Returns:** NSAppointment[]
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer count;
-Appointment[] res = agent.GetMyTasks(count);
+NSAppointment[] res = agent.GetMyTasks(count);
 ```
 

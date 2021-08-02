@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncFieldMapping_SetAccess
-title: SetAccess(FieldAccess access)
+title: SetAccess(NSFieldAccess access)
 intellisense: NSErpSyncFieldMapping.SetAccess
 keywords: NSErpSyncFieldMapping, GetAccess
 so.topic: reference
@@ -9,14 +9,14 @@ so.topic: reference
 Access restrictions for the field
 
 **Parameter:** 
- - **access** FieldAccess
+ - **access** NSFieldAccess
      - Enum: 0 = Normal 
      - Enum: 1 = Mandatory 
      - Enum: 2 = ReadOnly 
 
 ```crmscript
 NSErpSyncFieldMapping thing;
-FieldAccess access;
+NSFieldAccess access;
 thing.SetAccess(access);
 ```
 

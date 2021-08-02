@@ -8,7 +8,7 @@ so.topic: reference
 
 An array of the values that will be imported on the entity
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

@@ -11,7 +11,7 @@ Retrieve the UdListDefinition id of a list, by its name. Not all lists have such
 **Parameters:**
  - **name** The list name, same as the table name for lists that are backed by tables
 
-**Returns:** List id in the UdListDefinition table
+**Returns:** Integer
 
 ```crmscript
 NSMDOAgent agent;

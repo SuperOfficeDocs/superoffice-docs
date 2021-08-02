@@ -6,10 +6,10 @@ keywords: NSMrMrs, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the MrMrs
+Set the primary key (id) for the NSMrMrs
 
 **Parameter:** 
- - **id** Integer MrMrs id.
+ - **id** Integer NSMrMrs id.
 
 ```crmscript
 NSMrMrs thing;

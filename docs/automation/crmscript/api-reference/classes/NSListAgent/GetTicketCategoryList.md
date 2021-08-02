@@ -6,16 +6,16 @@ keywords: NSListAgent, GetTicketCategoryList
 so.topic: reference
 ---
 
-Gets a vector of TicketCategoryEntity objects.
+Gets a vector of NSTicketCategoryEntity objects.
 
 **Parameters:**
  - **ticketCategoryEntityIds** The identifiers of the NSTicketCategoryEntity objects
 
-**Returns:** Vector of NSTicketCategoryEntity objects
+**Returns:** NSTicketCategoryEntity[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetTicketCategoryList(ids);
+NSTicketCategoryEntity[] res = agent.GetTicketCategoryList(ids);
 ```
 

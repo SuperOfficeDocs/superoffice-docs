@@ -6,9 +6,9 @@ keywords: NSPosition, GetValue
 so.topic: reference
 ---
 
-Get the name of the Position.
+Get the name of the NSPosition.
 
-**Returns:** String Position name.
+**Returns:** String NSPosition name.
 
 ```crmscript
 NSPosition thing;

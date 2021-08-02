@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments
-title: Document[] GetAppointmentDocuments(Integer appointmentId)
+title: NSDocument[] GetAppointmentDocuments(Integer appointmentId)
 intellisense: NSDocumentAgent.GetAppointmentDocuments
 keywords: NSDocumentAgent, GetAppointmentDocuments
 so.topic: reference
@@ -11,11 +11,11 @@ Get all documents that are linked to the appointment. I.e. the documents that ar
 **Parameters:**
  - **appointmentId** The appointment id.
 
-**Returns:** Array of documents
+**Returns:** NSDocument[]
 
 ```crmscript
 NSDocumentAgent agent;
 Integer appointmentId;
-Document[] res = agent.GetAppointmentDocuments(appointmentId);
+NSDocument[] res = agent.GetAppointmentDocuments(appointmentId);
 ```
 

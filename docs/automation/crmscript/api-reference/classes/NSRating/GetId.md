@@ -6,9 +6,9 @@ keywords: NSRating, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the Rating
+Get the primary key (id) for the NSRating
 
-**Returns:** Integer Rating id.
+**Returns:** Integer
 
 ```crmscript
 NSRating thing;

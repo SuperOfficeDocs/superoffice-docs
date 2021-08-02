@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_GetDocumentTemplate
-title: DocumentTemplate GetDocumentTemplate()
+title: NSDocumentTemplate GetDocumentTemplate()
 intellisense: NSDocumentEntity.GetDocumentTemplate
 keywords: NSDocumentEntity, GetDocumentTemplate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The template type of the document.
 
-**Returns:** DocumentTemplate
+**Returns:** NSDocumentTemplate
 
 
 ```crmscript
 NSDocumentEntity thing;
-DocumentTemplate documentTemplate  = thing.GetDocumentTemplate();
+NSDocumentTemplate documentTemplate  = thing.GetDocumentTemplate();
 ```
 
 

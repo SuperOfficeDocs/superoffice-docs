@@ -1,21 +1,21 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveConsentPurpose
-title: ConsentPurpose SaveConsentPurpose(ConsentPurpose consentPurpose)
+title: NSConsentPurpose SaveConsentPurpose(NSConsentPurpose consentPurpose)
 intellisense: NSListAgent.SaveConsentPurpose
 keywords: NSListAgent, SaveConsentPurpose
 so.topic: reference
 ---
 
-Save a ConsentPurpose object
+Save a NSConsentPurpose object
 
 **Parameters:**
- - **consentPurpose** The ConsentPurpose object to save
+ - **consentPurpose** The NSConsentPurpose object to save
 
-**Returns:** The saved ConsentPurpose object, updated with the ConsentPurposeId if it is a new database entry
+**Returns:** NSConsentPurpose
 
 ```crmscript
 NSListAgent agent;
-ConsentPurpose consentPurpose;
-ConsentPurpose res = agent.SaveConsentPurpose(consentPurpose);
+NSConsentPurpose consentPurpose;
+NSConsentPurpose res = agent.SaveConsentPurpose(consentPurpose);
 ```
 

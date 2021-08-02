@@ -6,9 +6,9 @@ keywords: NSTicketPriority, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the TicketPriority list item.
+Get the tooltip description for the NSTicketPriority list item.
 
-**Returns:** String TicketPriority tooltip description.
+**Returns:** String
 
 ```crmscript
 NSTicketPriority thing;

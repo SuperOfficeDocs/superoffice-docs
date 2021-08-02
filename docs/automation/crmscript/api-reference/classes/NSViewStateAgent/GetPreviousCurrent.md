@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_GetPreviousCurrent
-title: History GetPreviousCurrent(String historyName, Integer id)
+title: NSHistory GetPreviousCurrent(String historyName, Integer id)
 intellisense: NSViewStateAgent.GetPreviousCurrent
 keywords: NSViewStateAgent, GetPreviousCurrent
 so.topic: reference
@@ -12,12 +12,12 @@ Returns the previous current item. If no item exists a default value is returned
  - **historyName** Name of the history list, e.g. contact, project
  - **id** Id of the history element, e.g. Contact id
 
-**Returns:** The current value.
+**Returns:** NSHistory
 
 ```crmscript
 NSViewStateAgent agent;
 String historyName;
 Integer id;
-History res = agent.GetPreviousCurrent(historyName, id);
+NSHistory res = agent.GetPreviousCurrent(historyName, id);
 ```
 

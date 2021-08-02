@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_SetTicketChangedPriority
-title: SetTicketChangedPriority(TicketPriorityEscalateEvent ticketChangedPriority)
+title: SetTicketChangedPriority(Integer ticketChangedPriority)
 intellisense: NSTicketPriorityEntity.SetTicketChangedPriority
 keywords: NSTicketPriorityEntity, GetTicketChangedPriority
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 This field indicates what to do with the escalation chain when the request is changed into this priority
 
 **Parameter:** 
- - **ticketChangedPriority** TicketPriorityEscalateEvent
+ - **ticketChangedPriority** Integer
      - Enum: -1 = None 
      - Enum: 0 = Stop 
      - Enum: 1 = Continue 
@@ -17,7 +17,7 @@ This field indicates what to do with the escalation chain when the request is ch
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityEscalateEvent ticketChangedPriority;
+Integer ticketChangedPriority;
 thing.SetTicketChangedPriority(ticketChangedPriority);
 ```
 

@@ -11,11 +11,9 @@ Hard-delete (real, permanent DELETE in the database) the given web panel. Use wi
 **Parameters:**
  - **id** Database id of web panel to delete
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer id;
-Void res = agent.DeleteWebPanel(id);
+agent.DeleteWebPanel(id);
 ```
 

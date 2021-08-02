@@ -11,7 +11,7 @@ Get a list of plugin-dependent capabilities for a given document archive plugin.
 **Parameters:**
  - **pluginId** Numeric document plugin id, corresponding to the document.archiveProvider id or doctmpl.AutoeventId.
 
-**Returns:** Dictionary mapping capability names=values
+**Returns:** StringDictionary
 
 ```crmscript
 NSListAgent agent;

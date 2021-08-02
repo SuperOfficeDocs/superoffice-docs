@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetReasonSold
-title: SetReasonSold(ReasonSold reasonSold)
+title: SetReasonSold(NSReasonSold reasonSold)
 intellisense: NSSaleEntity.SetReasonSold
 keywords: NSSaleEntity, GetReasonSold
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **reasonSold** ReasonSold
+ - **reasonSold** NSReasonSold
 
 ```crmscript
 NSSaleEntity thing;
-ReasonSold reasonSold;
+NSReasonSold reasonSold;
 thing.SetReasonSold(reasonSold);
 ```
 

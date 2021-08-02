@@ -6,9 +6,9 @@ keywords: NSSaleType, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the SaleType list item.
+Get the tooltip description for the NSSaleType list item.
 
-**Returns:** String SaleType tooltip description.
+**Returns:** String
 
 ```crmscript
 NSSaleType thing;

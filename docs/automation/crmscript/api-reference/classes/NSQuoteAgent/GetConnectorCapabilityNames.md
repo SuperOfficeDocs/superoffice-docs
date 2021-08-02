@@ -11,7 +11,7 @@ Gets a list of all possible connector capabilities
 **Parameters:**
  - **quoteConnectionId** Primary key of the connection
 
-**Returns:** Capabilities names
+**Returns:** String[]
 
 ```crmscript
 NSQuoteAgent agent;

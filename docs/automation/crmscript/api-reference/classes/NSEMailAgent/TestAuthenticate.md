@@ -8,3 +8,4 @@ so.topic: reference
 
 Test if logged-in user has a working mail account 
 
+**Returns:** Bool

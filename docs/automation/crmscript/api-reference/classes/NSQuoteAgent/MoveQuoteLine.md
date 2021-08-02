@@ -12,12 +12,10 @@ Move quote line rank up/down
  - **quoteLineId** Id of quote line to move up/down
  - **direction** True is up, false is down
 
-**Returns:** Void return
-
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteLineId;
 Bool direction;
-Void res = agent.MoveQuoteLine(quoteLineId, direction);
+agent.MoveQuoteLine(quoteLineId, direction);
 ```
 

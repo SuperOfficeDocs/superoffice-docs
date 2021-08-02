@@ -6,9 +6,9 @@ keywords: NSCredited, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the Credited list item.
+Get the tooltip description for the NSCredited list item.
 
-**Returns:** String Credited tooltip description.
+**Returns:** String
 
 ```crmscript
 NSCredited thing;

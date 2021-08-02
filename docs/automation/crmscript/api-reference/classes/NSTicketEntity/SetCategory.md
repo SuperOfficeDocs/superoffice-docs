@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetCategory
-title: SetCategory(TicketCategoryEntity category)
+title: SetCategory(NSTicketCategoryEntity category)
 intellisense: NSTicketEntity.SetCategory
 keywords: NSTicketEntity, GetCategory
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The ticket category entity which this ticket is connected to
 
 **Parameter:** 
- - **category** TicketCategoryEntity
+ - **category** NSTicketCategoryEntity
 
 ```crmscript
 NSTicketEntity thing;
-TicketCategoryEntity category;
+NSTicketCategoryEntity category;
 thing.SetCategory(category);
 ```
 

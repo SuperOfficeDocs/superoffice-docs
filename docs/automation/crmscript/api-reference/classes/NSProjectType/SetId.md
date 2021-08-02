@@ -6,10 +6,10 @@ keywords: NSProjectType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the ProjectType
+Set the primary key (id) for the NSProjectType
 
 **Parameter:** 
- - **id** Integer ProjectType id.
+ - **id** Integer NSProjectType id.
 
 ```crmscript
 NSProjectType thing;

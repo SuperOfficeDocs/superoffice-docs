@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDataRights_SetRowsInfo
-title: SetRowsInfo(EntityName[] rowsInfo)
+title: SetRowsInfo(NSEntityName[] rowsInfo)
 intellisense: NSDataRights.SetRowsInfo
 keywords: NSDataRights, GetRowsInfo
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **rowsInfo** EntityName[]
+ - **rowsInfo** NSEntityName[]
 
 ```crmscript
 NSDataRights thing;
-EntityName[] rowsInfo;
+NSEntityName[] rowsInfo;
 thing.SetRowsInfo(rowsInfo);
 ```
 

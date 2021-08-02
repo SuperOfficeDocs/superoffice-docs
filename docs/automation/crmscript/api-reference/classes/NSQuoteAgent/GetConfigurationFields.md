@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nsquoteagent_getconfigurationfields
-title: FieldMetadataDictionary GetConfigurationFields()
+title: NSFieldMetadataDictionary GetConfigurationFields()
 description: CRMScript method in the NSQuoteAgent class
 intellisense: NSQuoteAgent.GetConfigurationFields
 keywords: NSQuoteAgent, GetConfigurationFields, GetConfigurationFields(Integer,String)
@@ -13,7 +13,7 @@ Used by ADMIN. Asks for metadata needed to populate admin dialog that takes in t
 
 Returns carriers
 
-`FieldMetadataDictionary GetConfigurationFields(Integer connectionId, String connectorName)`
+`NSFieldMetadataDictionary GetConfigurationFields(Integer connectionId, String connectorName)`
 
 ## Parameters
 
@@ -28,5 +28,5 @@ Returns carriers
 NSQuoteAgent agent;
 Integer connectionId;
 String connectorName;
-FieldMetadataDictionary res = agent.GetConfigurationFields(connectionId, connectorName);
+NSFieldMetadataDictionary res = agent.GetConfigurationFields(connectionId, connectorName);
 ```

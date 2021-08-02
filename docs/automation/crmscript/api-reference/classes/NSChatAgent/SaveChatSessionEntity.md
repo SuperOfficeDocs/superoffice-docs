@@ -11,7 +11,7 @@ Updates the existing NSChatSessionEntity or creates a new NSChatSessionEntity if
 **Parameters**:
  - **chatSessionEntity** The NSChatSessionEntity to save.
 
-**Returns:** New or updated NSChatSessionEntity
+**Returns:** NSChatSessionEntity
 
 ```crmscript
 NSChat  agent;

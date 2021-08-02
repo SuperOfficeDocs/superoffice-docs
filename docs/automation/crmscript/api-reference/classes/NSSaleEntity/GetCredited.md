@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetCredited
-title: Credited GetCredited()
+title: NSCredited GetCredited()
 intellisense: NSSaleEntity.GetCredited
 keywords: NSSaleEntity, GetCredited
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of who is to be credited for the sale.
 
-**Returns:** Credited
+**Returns:** NSCredited
 
 
 ```crmscript
 NSSaleEntity thing;
-Credited credited  = thing.GetCredited();
+NSCredited credited  = thing.GetCredited();
 ```
 
 

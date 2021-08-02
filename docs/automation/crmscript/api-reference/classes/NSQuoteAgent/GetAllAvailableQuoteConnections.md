@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetAllAvailableQuoteConnections
-title: QuoteConnection[] GetAllAvailableQuoteConnections()
+title: NSQuoteConnection[] GetAllAvailableQuoteConnections()
 intellisense: NSQuoteAgent.GetAllAvailableQuoteConnections
 keywords: NSQuoteAgent, GetAllAvailableQuoteConnections
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get all available connections. Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.
 
 
-**Returns:** List of connections
+**Returns:** NSQuoteConnection[]
 
 ```crmscript
 NSQuoteAgent agent;
-QuoteConnection[] res = agent.GetAllAvailableQuoteConnections();
+NSQuoteConnection[] res = agent.GetAllAvailableQuoteConnections();
 ```
 

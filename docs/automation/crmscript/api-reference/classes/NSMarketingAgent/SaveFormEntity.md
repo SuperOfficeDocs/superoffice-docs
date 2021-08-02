@@ -11,7 +11,7 @@ Updates the existing NSFormEntity or creates a new NSFormEntity if the id parame
 **Parameters**:
  - **formEntity** The NSFormEntity to save.
 
-**Returns:** New or updated NSFormEntity
+**Returns:** NSFormEntity
 
 ```crmscript
 NSMarketing  agent;

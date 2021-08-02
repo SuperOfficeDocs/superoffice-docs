@@ -6,9 +6,9 @@ keywords: NSRelationToOwner, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the RelationToOwner
+Get the primary key (id) for the NSRelationToOwner
 
-**Returns:** Integer RelationToOwner id.
+**Returns:** Integer
 
 ```crmscript
 NSRelationToOwner thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetLinks
-title: SetLinks(Link[] links)
+title: SetLinks(NSLink[] links)
 intellisense: NSSaleEntity.SetLinks
 keywords: NSSaleEntity, GetLinks
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 List of all elements linked to the sale.
 
 **Parameter:** 
- - **links** Link[]
+ - **links** NSLink[]
 
 ```crmscript
 NSSaleEntity thing;
-Link[] links;
+NSLink[] links;
 thing.SetLinks(links);
 ```
 

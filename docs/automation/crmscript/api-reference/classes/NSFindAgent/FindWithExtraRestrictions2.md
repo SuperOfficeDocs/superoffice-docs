@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_FindWithExtraRestrictions2
-title: FindResults FindWithExtraRestrictions2(String storageType, String providerName, String storageKey, String extraRestrictions, String orderBy, String desiredColumns, Integer pageSize, Integer pageNumber)
+title: NSFindResults FindWithExtraRestrictions2(String storageType, String providerName, String storageKey, String extraRestrictions, String orderBy, String desiredColumns, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.FindWithExtraRestrictions2
 keywords: NSFindAgent, FindWithExtraRestrictions2
 so.topic: reference
@@ -18,7 +18,7 @@ Execute a Find operation and return a page of results. The criteria for the Find
  - **pageSize** Size of result set pages
  - **pageNumber** Result set page to return, 0 is the first page. When a call returns no rows, no further pages are available. Negative page numbers are interpreted as number of rows to skip.
 
-**Returns:** Results from search, containing column information and result rows.
+**Returns:** NSFindResults
 
 ```crmscript
 NSFindAgent agent;
@@ -30,6 +30,6 @@ String orderBy;
 String desiredColumns;
 Integer pageSize;
 Integer pageNumber;
-FindResults res = agent.FindWithExtraRestrictions2(storageType, providerName, storageKey, extraRestrictions, orderBy, desiredColumns, pageSize, pageNumber);
+NSFindResults res = agent.FindWithExtraRestrictions2(storageType, providerName, storageKey, extraRestrictions, orderBy, desiredColumns, pageSize, pageNumber);
 ```
 

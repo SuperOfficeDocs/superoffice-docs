@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeErp
-title: SetActorTypeErp(ErpActorType actorTypeErp)
+title: SetActorTypeErp(NSErpActorType actorTypeErp)
 intellisense: NSErpSyncActorTypeMapping.SetActorTypeErp
 keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 The actor type (ERP side)
 
 **Parameter:** 
- - **actorTypeErp** ErpActorType
+ - **actorTypeErp** NSErpActorType
      - Enum: 0 = Unknown 
      - Enum: 1 = Customer 
      - Enum: 2 = Supplier 
@@ -21,7 +21,7 @@ The actor type (ERP side)
 
 ```crmscript
 NSErpSyncActorTypeMapping thing;
-ErpActorType actorTypeErp;
+NSErpActorType actorTypeErp;
 thing.SetActorTypeErp(actorTypeErp);
 ```
 

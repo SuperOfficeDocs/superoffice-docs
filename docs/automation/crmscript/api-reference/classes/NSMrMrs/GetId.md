@@ -6,9 +6,9 @@ keywords: NSMrMrs, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the MrMrs
+Get the primary key (id) for the NSMrMrs
 
-**Returns:** Integer MrMrs id.
+**Returns:** Integer NSMrMrs id.
 
 ```crmscript
 NSMrMrs thing;

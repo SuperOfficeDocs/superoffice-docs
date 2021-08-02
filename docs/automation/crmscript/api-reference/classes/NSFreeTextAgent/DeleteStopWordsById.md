@@ -11,11 +11,9 @@ Delete the stop words with these ids
 **Parameters:**
  - **stopWordIds** The ids of the stopwords to delete
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSFreeTextAgent agent;
 Integer[] stopWordIds;
-Void res = agent.DeleteStopWordsById(stopWordIds);
+agent.DeleteStopWordsById(stopWordIds);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatTopicEntity_GetOpeningHours
-title: ChatOpeningHours GetOpeningHours()
+title: NSChatOpeningHours GetOpeningHours()
 intellisense: NSChatTopicEntity.GetOpeningHours
 keywords: NSChatTopicEntity, GetOpeningHours
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Opening hours settings
 
-**Returns:** ChatOpeningHours
+**Returns:** NSChatOpeningHours
 
 
 ```crmscript
 NSChatTopicEntity thing;
-ChatOpeningHours openingHours  = thing.GetOpeningHours();
+NSChatOpeningHours openingHours  = thing.GetOpeningHours();
 ```
 
 

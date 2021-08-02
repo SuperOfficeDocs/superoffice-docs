@@ -11,7 +11,7 @@ Gets a vector of UserGroup objects.
 **Parameters:**
  - **userGroupIds** The identifiers of the NSUserGroup objects
 
-**Returns:** Vector of NSUserGroup objects
+**Returns:** NSUserGroup[]
 
 ```crmscript
 Integer[] ids;

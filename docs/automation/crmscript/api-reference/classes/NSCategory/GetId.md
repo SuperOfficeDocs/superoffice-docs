@@ -6,9 +6,9 @@ keywords: NSCategory, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the Category
+Get the primary key (id) for the NSCategory
 
-**Returns:** Integer Category id.
+**Returns:** Integer
 
 ```crmscript
 NSCategory thing;

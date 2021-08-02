@@ -6,9 +6,9 @@ keywords: NSProductType, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the ProductType
+Get the primary key (id) for the NSProductType
 
-**Returns:** Integer ProductType id.
+**Returns:** Integer NSProductType id.
 
 ```crmscript
 NSProductType thing;

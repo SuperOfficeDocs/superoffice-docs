@@ -9,7 +9,7 @@ so.topic: reference
 The urls related to this person.
 
 **Parameter:** 
- - **url** StringArray
+ - **url** String[]
 
 ```crmscript
 NSParticipantSyncData thing;

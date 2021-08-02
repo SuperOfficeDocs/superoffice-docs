@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetMyAppointments
-title: Appointment[] GetMyAppointments(DateTime startTime, DateTime endTime, Integer count)
+title: NSAppointment[] GetMyAppointments(DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSAppointmentAgent.GetMyAppointments
 keywords: NSAppointmentAgent, GetMyAppointments
 so.topic: reference
@@ -13,13 +13,13 @@ Method that returns a specified number of appointments within a time range. The 
  - **endTime** The end of the time interval.
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
-**Returns:** Array of Appointments.
+**Returns:** NSAppointment[]
 
 ```crmscript
 NSAppointmentAgent agent;
 DateTime startTime;
 DateTime endTime;
 Integer count;
-Appointment[] res = agent.GetMyAppointments(startTime, endTime, count);
+NSAppointment[] res = agent.GetMyAppointments(startTime, endTime, count);
 ```
 

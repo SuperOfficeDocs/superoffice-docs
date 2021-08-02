@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_GetStatus
-title: TicketPriorityStatus GetStatus()
+title: Integer GetStatus()
 intellisense: NSTicketPriorityEntity.GetStatus
 keywords: NSTicketPriorityEntity, GetStatus
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 The status (normal/deleted) of the priority.
 
-**Returns:** TicketPriorityStatus
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Normal 
@@ -16,7 +16,7 @@ The status (normal/deleted) of the priority.
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityStatus status  = thing.GetStatus();
+Integer status  = thing.GetStatus();
 ```
 
 

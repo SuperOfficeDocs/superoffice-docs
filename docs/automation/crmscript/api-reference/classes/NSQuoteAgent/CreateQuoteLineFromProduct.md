@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_CreateQuoteLineFromProduct
-title: QuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, Product product)
+title: NSQuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, NSProduct product)
 intellisense: NSQuoteAgent.CreateQuoteLineFromProduct
 keywords: NSQuoteAgent, CreateQuoteLineFromProduct
 so.topic: reference
@@ -10,14 +10,14 @@ Create a quoteline based on a product.
 
 **Parameters:**
  - **quoteAlternativeId** Primary key of the alternative
- - **product** Product carrier
+ - **product** NSProduct carrier
 
-**Returns:** The updated quote line.
+**Returns:** NSQuoteLine
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteAlternativeId;
-Product product;
-QuoteLine res = agent.CreateQuoteLineFromProduct(quoteAlternativeId, product);
+NSProduct product;
+NSQuoteLine res = agent.CreateQuoteLineFromProduct(quoteAlternativeId, product);
 ```
 

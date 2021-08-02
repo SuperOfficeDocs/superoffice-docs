@@ -83,7 +83,7 @@ This methods generates the navigation URL to be used to navigate to the panel
      - Enum: 70 = ProjectCardTask 
  - **windowName** The name of the web panel window
 
-**Returns:** The navigation url
+**Returns:** String
 
 ```crmscript
 NSListAgent agent;

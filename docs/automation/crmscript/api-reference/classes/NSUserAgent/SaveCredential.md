@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_SaveCredential
-title: Bool SaveCredential(Integer userId, Credential credential)
+title: Bool SaveCredential(Integer userId, NSCredential credential)
 intellisense: NSUserAgent.SaveCredential
 keywords: NSUserAgent, SaveCredential
 so.topic: reference
@@ -12,12 +12,12 @@ Save (adds/replaces) current credential of the same type for the user.
  - **userId** Primary key of the user (i.e. associate)
  - **credential** Credentials supported for authentication
 
-**Returns:** True if the credential was successfully saved.
+**Returns:** Bool
 
 ```crmscript
 NSUserAgent agent;
 Integer userId;
-Credential credential;
+NSCredential credential;
 Bool res = agent.SaveCredential(userId, credential);
 ```
 

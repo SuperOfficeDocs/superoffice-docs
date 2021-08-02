@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_ValidateAppointmentEntity
-title: StringDictionary ValidateAppointmentEntity(AppointmentEntity appointmentEntity)
+title: StringDictionary ValidateAppointmentEntity(NSAppointmentEntity appointmentEntity)
 intellisense: NSAppointmentAgent.ValidateAppointmentEntity
 keywords: NSAppointmentAgent, ValidateAppointmentEntity
 so.topic: reference
@@ -15,7 +15,7 @@ Check that entity is ready for saving.
 
 ```crmscript
 NSAppointmentAgent agent;
-AppointmentEntity appointmentEntity;
+NSAppointmentEntity appointmentEntity;
 StringDictionary res = agent.ValidateAppointmentEntity(appointmentEntity);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_FindOrderBy2
-title: FindResults FindOrderBy2(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber, String orderBy)
+title: NSFindResults FindOrderBy2(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber, String orderBy)
 intellisense: NSFindAgent.FindOrderBy2
 keywords: NSFindAgent, FindOrderBy2
 so.topic: reference
@@ -16,7 +16,7 @@ Execute a Find operation and return a page of results. The criteria for the Find
  - **pageNumber** Result set page to return, 0 is the first page. When a call returns no rows, no further pages are available. Negative page numbers are interpreted as number of rows to skip.
  - **orderBy** Comma separated list of order by specifications. "name asc, dept desc" If it is null or empty, the row order is unspecified, database dependent, and might not be the same from call to call, depending on query execution plans. The unspecified order willgenerally not vary within pages of the same query.
 
-**Returns:** Results from search, containing column information and result rows.
+**Returns:** NSFindResults
 
 ```crmscript
 NSFindAgent agent;
@@ -26,6 +26,6 @@ String storageKey;
 Integer pageSize;
 Integer pageNumber;
 String orderBy;
-FindResults res = agent.FindOrderBy2(storageType, providerName, storageKey, pageSize, pageNumber, orderBy);
+NSFindResults res = agent.FindOrderBy2(storageType, providerName, storageKey, pageSize, pageNumber, orderBy);
 ```
 

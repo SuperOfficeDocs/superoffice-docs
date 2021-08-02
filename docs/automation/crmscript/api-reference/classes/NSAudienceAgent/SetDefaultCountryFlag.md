@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_SetDefaultCountryFlag
-title: Void SetDefaultCountryFlag(String layoutName, Image image)
+title: Void SetDefaultCountryFlag(String layoutName, NSImage image)
 intellisense: NSAudienceAgent.SetDefaultCountryFlag
 keywords: NSAudienceAgent, SetDefaultCountryFlag
 so.topic: reference

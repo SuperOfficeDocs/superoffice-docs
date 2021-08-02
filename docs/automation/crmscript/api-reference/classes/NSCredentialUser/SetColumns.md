@@ -9,7 +9,7 @@ so.topic: reference
 Columns, matching CredentialUsers.Headings
 
 **Parameter:** 
- - **columns** StringArray
+ - **columns** String[]
 
 ```crmscript
 NSCredentialUser thing;

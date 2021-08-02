@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType
-title: RoleEntity CreateDefaultRoleEntityFromType(Integer type)
+title: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
 intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
 keywords: NSUserAgent, CreateDefaultRoleEntityFromType
 so.topic: reference
@@ -15,11 +15,11 @@ Create a new role entity of the specified role type. The role type cannot be cha
      - Enum: 2 = Anonymous 
      - Enum: 3 = System 
 
-**Returns:** A blank role.
+**Returns:** NSRoleEntity
 
 ```crmscript
 NSUserAgent agent;
 Integer type;
-RoleEntity res = agent.CreateDefaultRoleEntityFromType(type);
+NSRoleEntity res = agent.CreateDefaultRoleEntityFromType(type);
 ```
 

@@ -6,4 +6,4 @@ sortOrder: 2732
 so.topic: reference
 ---
 
-Carrier object for DuplicateRule.
+Carrier object for NSDuplicateRule.

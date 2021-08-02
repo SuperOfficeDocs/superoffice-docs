@@ -6,16 +6,16 @@ keywords: NSListAgent, GetDocumentTemplateList
 so.topic: reference
 ---
 
-Gets a vector of DocumentTemplate objects.
+Gets a vector of NSDocumentTemplate objects.
 
 **Parameters:**
  - **documentTemplateIds** The identifiers of the NSDocumentTemplate objects
 
-**Returns:** Vector of NSDocumentTemplate objects
+**Returns:** NSDocumentTemplate[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetDocumentTemplateList(ids);
+NSDocumentTemplate[] res = agent.GetDocumentTemplateList(ids);
 ```
 

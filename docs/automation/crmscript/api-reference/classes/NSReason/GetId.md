@@ -6,9 +6,9 @@ keywords: NSReason, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the Reason
+Get the primary key (id) for the NSReason
 
-**Returns:** Integer Reason id.
+**Returns:** Integer
 
 ```crmscript
 NSReason thing;

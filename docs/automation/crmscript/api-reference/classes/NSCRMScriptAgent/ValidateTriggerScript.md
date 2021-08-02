@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCRMScriptAgent_ValidateTriggerScript
-title: CRMScriptResult ValidateTriggerScript(Integer triggerScriptId)
+title: NSCRMScriptResult ValidateTriggerScript(Integer triggerScriptId)
 intellisense: NSCRMScriptAgent.ValidateTriggerScript
 keywords: NSCRMScriptAgent, ValidateTriggerScript
 so.topic: reference
@@ -16,6 +16,6 @@ Validate a Trigger CRMScript. This will check that the syntax is correct, but no
 ```crmscript
 NSCRMScriptAgent agent;
 Integer triggerScriptId;
-CRMScriptResult res = agent.ValidateTriggerScript(triggerScriptId);
+NSCRMScriptResult res = agent.ValidateTriggerScript(triggerScriptId);
 ```
 

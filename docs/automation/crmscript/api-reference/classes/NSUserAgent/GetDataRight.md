@@ -21,7 +21,7 @@ Read one specific data right at the given position. An exception will be thrown 
      - Enum: 6 = MyCompany 
      - Enum: 7 = SameProject 
 
-**Returns:** The data right value at the specified position (C, CR, CRU, or CRUD)
+**Returns:** String
 
 ```crmscript
 NSUserAgent agent;

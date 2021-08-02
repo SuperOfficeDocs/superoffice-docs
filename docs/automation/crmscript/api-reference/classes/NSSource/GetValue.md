@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the Source.
 
-**Returns:** String Source name.
+**Returns:** String
 
 ```crmscript
 NSSource thing;

@@ -19,3 +19,5 @@ so.topic: reference
      - Enum: 5 = SystemAssociate 
  - **personId** 
  - **userName** 
+
+**Returns:** Bool

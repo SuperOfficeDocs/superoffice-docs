@@ -6,7 +6,7 @@ keywords: NSArchiveListItem, GetEntityName
 so.topic: reference
 ---
 
-The entity name of the ArchiveListItem. An ArchiveList may contain rows from different entities.
+The entity name of the NSArchiveListItem. An ArchiveList may contain rows from different entities.
 
 **Parameter:** 
  - **entityName** String

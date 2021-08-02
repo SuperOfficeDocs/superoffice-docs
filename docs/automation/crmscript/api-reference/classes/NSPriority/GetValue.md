@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the Priority.
 
-**Returns:** String Priority name.
+**Returns:** String
 
 ```crmscript
 NSPriority thing;

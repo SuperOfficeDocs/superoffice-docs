@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMDOAgent_GetListWithRestriction
-title: MDOListItem[] GetListWithRestriction(String name, String additionalInfo, String searchValue)
+title: NSMDOListItem[] GetListWithRestriction(String name, String additionalInfo, String searchValue)
 intellisense: NSMDOAgent.GetListWithRestriction
 keywords: NSMDOAgent, GetListWithRestriction
 so.topic: reference
@@ -13,13 +13,13 @@ Method to get a MDO list with restrictions.
  - **additionalInfo** Additional info to the MDO provider
  - **searchValue** the value used to restrict the list
 
-**Returns:** Array of MDOListItem
+**Returns:** NSMDOListItem[]
 
 ```crmscript
 NSMDOAgent agent;
 String name;
 String additionalInfo;
 String searchValue;
-MDOListItem[] res = agent.GetListWithRestriction(name, additionalInfo, searchValue);
+NSMDOListItem[] res = agent.GetListWithRestriction(name, additionalInfo, searchValue);
 ```
 

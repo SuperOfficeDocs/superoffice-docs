@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the user-defined + extra fields on a User as a map.
 
-**Returns:** Map containing user defined and extra field values by field name.
+**Returns:** Map
 
 ```crmscript
 NSUser thing;

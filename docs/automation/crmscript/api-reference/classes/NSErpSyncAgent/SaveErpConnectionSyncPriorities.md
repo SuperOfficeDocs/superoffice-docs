@@ -11,7 +11,7 @@ Takes an array of the ErpConnection ids and saves these as ordered sync prioriti
 **Parameters:**
  - **erpConnectionIds** The id put in array in the same order as the priorities
 
-**Returns:** Returns true if new sync priorities is saved
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteConnection_GetPriceLists
-title: PriceList[] GetPriceLists()
+title: NSPriceList[] GetPriceLists()
 intellisense: NSQuoteConnection.GetPriceLists
 keywords: NSQuoteConnection, GetPriceLists
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The PriceLists that this connection offers.
 
-**Returns:** PriceList[]
+**Returns:** NSPriceList[]
 
 
 ```crmscript
 NSQuoteConnection thing;
-PriceList[] priceLists  = thing.GetPriceLists();
+NSPriceList[] priceLists  = thing.GetPriceLists();
 ```
 
 

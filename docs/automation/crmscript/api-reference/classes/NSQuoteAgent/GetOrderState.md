@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetOrderState
-title: PluginUrlResponse GetOrderState(Integer quoteVersionId)
+title: NSPluginUrlResponse GetOrderState(Integer quoteVersionId)
 intellisense: NSQuoteAgent.GetOrderState
 keywords: NSQuoteAgent, GetOrderState
 so.topic: reference
@@ -11,11 +11,11 @@ If there is a problem with a quoteline, the error description shall be placed in
 **Parameters:**
  - **quoteVersionId** the QuoteVersionId of the ordered version.
 
-**Returns:** The order state. If a new quoteversion is created, the QuoteVersionId will be found in Changes.AddedRecords.
+**Returns:** NSPluginUrlResponse
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteVersionId;
-PluginUrlResponse res = agent.GetOrderState(quoteVersionId);
+NSPluginUrlResponse res = agent.GetOrderState(quoteVersionId);
 ```
 

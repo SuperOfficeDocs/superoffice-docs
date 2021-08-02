@@ -6,9 +6,9 @@ keywords: NSDeliveryTerm, GetValue
 so.topic: reference
 ---
 
-Get the name of the DeliveryTerm.
+Get the name of the NSDeliveryTerm.
 
-**Returns:** String DeliveryTerm name.
+**Returns:** String
 
 ```crmscript
 NSDeliveryTerm thing;

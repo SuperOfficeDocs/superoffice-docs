@@ -14,7 +14,7 @@ Get one defined configuration fragment, with full reference resolution and parsi
  - **item** The configuration item name (first component of file name)
  - **type** The configuration item type (second component of file name)
 
-**Returns:** Fully resolved and parsed configuration XML, as string.
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

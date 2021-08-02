@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpCrmListItemMapping_SetCrmListItem
-title: SetCrmListItem(MDOListItem crmListItem)
+title: SetCrmListItem(NSMDOListItem crmListItem)
 intellisense: NSErpCrmListItemMapping.SetCrmListItem
 keywords: NSErpCrmListItemMapping, GetCrmListItem
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 One mapped SuperOffice listItem
 
 **Parameter:** 
- - **crmListItem** MDOListItem
+ - **crmListItem** NSMDOListItem
 
 ```crmscript
 NSErpCrmListItemMapping thing;
-MDOListItem crmListItem;
+NSMDOListItem crmListItem;
 thing.SetCrmListItem(crmListItem);
 ```
 

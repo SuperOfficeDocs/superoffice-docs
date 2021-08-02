@@ -11,7 +11,7 @@ Updates the existing NSDashboard or creates a new NSDashboard if the id paramete
 **Parameters**:
  - **dashboard** The NSDashboard to save.
 
-**Returns:** New or updated NSDashboard
+**Returns:** NSDashboard
 
 ```crmscript
 NSDashboard  agent;

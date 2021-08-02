@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, GetPublishEventDate
 so.topic: reference
 ---
 
-Publish event date on DocumentEntity.
+Publish event date on NSDocumentEntity.
 
 **Returns:** DateTime
 

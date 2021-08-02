@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveQuickReplies
-title: Void SaveQuickReplies(QuickReply[] quickReplies)
+title: Void SaveQuickReplies(NSQuickReply[] quickReplies)
 intellisense: NSListAgent.SaveQuickReplies
 keywords: NSListAgent, SaveQuickReplies
 so.topic: reference

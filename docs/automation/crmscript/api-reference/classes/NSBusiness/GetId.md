@@ -6,9 +6,9 @@ keywords: NSBusiness, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the Business
+Get the primary key (id) for the NSBusiness
 
-**Returns:** Integer Business id.
+**Returns:** Integer NSBusiness id.
 
 ```crmscript
 NSBusiness thing;

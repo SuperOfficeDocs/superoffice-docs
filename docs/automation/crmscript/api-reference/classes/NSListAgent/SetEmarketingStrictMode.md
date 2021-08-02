@@ -11,11 +11,9 @@ Turn on the Emarketing strict mode, which will enable full GDPR rules concerning
 **Parameters:**
  - **enable** Set to true to enable strict mode
 
-**Returns:** A void return
-
 ```crmscript
 NSListAgent agent;
 Bool enable;
-Void res = agent.SetEmarketingStrictMode(enable);
+agent.SetEmarketingStrictMode(enable);
 ```
 

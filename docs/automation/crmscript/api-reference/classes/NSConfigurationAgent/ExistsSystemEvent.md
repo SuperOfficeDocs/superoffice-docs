@@ -11,7 +11,7 @@ Is there a system event with the given key?
 **Parameters:**
  - **key** The key to match on
 
-**Returns:** The system event
+**Returns:** Bool
 
 ```crmscript
 NSConfigurationAgent agent;

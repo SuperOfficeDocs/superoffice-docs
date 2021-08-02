@@ -6,9 +6,9 @@ keywords: NSSaleType, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the SaleType
+Get the primary key (id) for the NSSaleType
 
-**Returns:** Integer SaleType id.
+**Returns:** Integer
 
 ```crmscript
 NSSaleType thing;

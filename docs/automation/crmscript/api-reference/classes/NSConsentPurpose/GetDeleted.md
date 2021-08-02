@@ -6,7 +6,7 @@ keywords: NSConsentPurpose, GetDeleted
 so.topic: reference
 ---
 
-true if the ConsentPurpose is deleted
+true if the NSConsentPurpose is deleted
 
 **Returns:** Bool
 

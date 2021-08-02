@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCRMScriptAgent_SaveTriggerScriptByUniqueId
-title: TriggerScriptEntity SaveTriggerScriptByUniqueId(String triggerScriptUniqueId, TriggerScriptEntity entity)
+title: NSTriggerScriptEntity SaveTriggerScriptByUniqueId(String triggerScriptUniqueId, NSTriggerScriptEntity entity)
 intellisense: NSCRMScriptAgent.SaveTriggerScriptByUniqueId
 keywords: NSCRMScriptAgent, SaveTriggerScriptByUniqueId
 so.topic: reference
@@ -12,12 +12,12 @@ Validate a CRMScript. This will check that the syntax is correct
  - **triggerScriptUniqueId** The unique id of the CRMScript to validate
  - **entity** Trigger script details and source code
 
-**Returns:** Trigger script details and source code.
+**Returns:** NSTriggerScriptEntity
 
 ```crmscript
 NSCRMScriptAgent agent;
 String triggerScriptUniqueId;
-TriggerScriptEntity entity;
-TriggerScriptEntity res = agent.SaveTriggerScriptByUniqueId(triggerScriptUniqueId, entity);
+NSTriggerScriptEntity entity;
+NSTriggerScriptEntity res = agent.SaveTriggerScriptByUniqueId(triggerScriptUniqueId, entity);
 ```
 

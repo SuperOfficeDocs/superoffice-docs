@@ -12,12 +12,11 @@ Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on give
  - **listOwner** GUI name used in archive control config
  - **erpConnectionId** The ERP connection ID
 
-**Returns:** Validated ArchiveColumnConfig
 
 ```crmscript
 NSErpSyncAgent agent;
 String listOwner;
 Integer erpConnectionId;
-Void res = agent.ValidateArchiveColumnConfig(listOwner, erpConnectionId);
+agent.ValidateArchiveColumnConfig(listOwner, erpConnectionId);
 ```
 

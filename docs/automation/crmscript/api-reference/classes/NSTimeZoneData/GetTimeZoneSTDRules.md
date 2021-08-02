@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTimeZoneData_GetTimeZoneSTDRules
-title: TimeZoneRuleDictionary GetTimeZoneSTDRules()
+title: NSTimeZoneRuleDictionary GetTimeZoneSTDRules()
 intellisense: NSTimeZoneData.GetTimeZoneSTDRules
 keywords: NSTimeZoneData, GetTimeZoneSTDRules
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Rules for standard time
 
-**Returns:** TimeZoneRuleDictionary
+**Returns:** NSTimeZoneRuleDictionary
 
 
 ```crmscript
 NSTimeZoneData thing;
-TimeZoneRuleDictionary timeZoneSTDRules  = thing.GetTimeZoneSTDRules();
+NSTimeZoneRuleDictionary timeZoneSTDRules  = thing.GetTimeZoneSTDRules();
 ```
 
 

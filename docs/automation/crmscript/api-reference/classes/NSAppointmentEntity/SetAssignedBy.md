@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_SetAssignedBy
-title: SetAssignedBy(Associate assignedBy)
+title: SetAssignedBy(NSAssociate assignedBy)
 intellisense: NSAppointmentEntity.SetAssignedBy
 keywords: NSAppointmentEntity, GetAssignedBy
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Who assigned this appointment to this user? Whose diary did the appointment come from?
 
 **Parameter:** 
- - **assignedBy** Associate
+ - **assignedBy** NSAssociate
 
 ```crmscript
 NSAppointmentEntity thing;
-Associate assignedBy;
+NSAssociate assignedBy;
 thing.SetAssignedBy(assignedBy);
 ```
 

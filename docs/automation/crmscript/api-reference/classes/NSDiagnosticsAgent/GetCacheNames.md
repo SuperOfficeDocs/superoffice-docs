@@ -9,7 +9,7 @@ so.topic: reference
 Get the name of the caches that can be flushed
 
 
-**Returns:** Name of the caches that can be flusehd
+**Returns:** String[]
 
 ```crmscript
 NSDiagnosticsAgent agent;

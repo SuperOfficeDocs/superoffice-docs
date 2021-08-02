@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the DeliveryType list item.
 
-**Returns:** String DeliveryType tooltip description.
+**Returns:** String
 
 ```crmscript
 NSDeliveryType thing;

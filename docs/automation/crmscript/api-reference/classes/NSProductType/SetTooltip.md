@@ -6,10 +6,10 @@ keywords: NSProductType, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the ProductType list item.
+Set the tooltip description for the NSProductType list item.
 
 **Parameter:** 
- - **tooltip** String ProductType tooltip description.
+ - **tooltip** String NSProductType tooltip description.
 
 ```crmscript
 NSProductType thing;

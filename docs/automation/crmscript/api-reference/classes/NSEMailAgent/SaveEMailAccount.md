@@ -11,7 +11,7 @@ Updates the existing NSEMailAccount or creates a new NSEMailAccount if the id pa
 **Parameters**:
  - **eMailAccount** The NSEMailAccount to save.
 
-**Returns:** New or updated NSEMailAccount
+**Returns:** NSEMailAccount
 
 ```crmscript
 NSEMail  agent;

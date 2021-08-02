@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketStatusEntity_GetStatus
-title: TicketBaseStatus GetStatus()
+title: Integer GetStatus()
 intellisense: NSTicketStatusEntity.GetStatus
 keywords: NSTicketStatusEntity, GetStatus
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 The &apos;classic&apos; ticket status. I.e. active/closed/postponed/deleted
 
-**Returns:** TicketBaseStatus
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Active 
@@ -19,7 +19,7 @@ The &apos;classic&apos; ticket status. I.e. active/closed/postponed/deleted
 
 ```crmscript
 NSTicketStatusEntity thing;
-TicketBaseStatus status  = thing.GetStatus();
+Integer status  = thing.GetStatus();
 ```
 
 

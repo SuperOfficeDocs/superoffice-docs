@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSMDOListItem_SetChildItems
-title: SetChildItems(MDOListItem[] childItems)
+title: SetChildItems(NSMDOListItem[] childItems)
 intellisense: NSMDOListItem.SetChildItems
 keywords: NSMDOListItem, GetChildItems
 so.topic: reference
 ---
 
-The child items of the MDOListItem
+The child items of the NSMDOListItem
 
 **Parameter:** 
- - **childItems** MDOListItem[]
+ - **childItems** NSMDOListItem[]
 
 ```crmscript
 NSMDOListItem thing;
-MDOListItem[] childItems;
+NSMDOListItem[] childItems;
 thing.SetChildItems(childItems);
 ```
 

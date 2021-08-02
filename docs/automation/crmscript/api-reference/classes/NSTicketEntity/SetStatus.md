@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetStatus
-title: SetStatus(TicketStatusEntity status)
+title: SetStatus(NSTicketStatusEntity status)
 intellisense: NSTicketEntity.SetStatus
 keywords: NSTicketEntity, GetStatus
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The ticket status entity which this ticket is connected to
 
 **Parameter:** 
- - **status** TicketStatusEntity
+ - **status** NSTicketStatusEntity
 
 ```crmscript
 NSTicketEntity thing;
-TicketStatusEntity status;
+NSTicketStatusEntity status;
 thing.SetStatus(status);
 ```
 

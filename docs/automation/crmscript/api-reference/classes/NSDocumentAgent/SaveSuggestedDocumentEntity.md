@@ -11,7 +11,7 @@ Updates the existing NSSuggestedDocumentEntity or creates a new NSSuggestedDocum
 **Parameters**:
  - **suggestedDocumentEntity** The NSSuggestedDocumentEntity to save.
 
-**Returns:** New or updated NSSuggestedDocumentEntity
+**Returns:** NSSuggestedDocumentEntity
 
 ```crmscript
 NSDocument  agent;

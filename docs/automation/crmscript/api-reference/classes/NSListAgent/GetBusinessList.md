@@ -6,16 +6,16 @@ keywords: NSListAgent, GetBusinessList
 so.topic: reference
 ---
 
-Gets a vector of Business objects.
+Gets a vector of NSBusiness objects.
 
 **Parameters:**
  - **businessIds** The identifiers of the NSBusiness objects
 
-**Returns:** Vector of NSBusiness objects
+**Returns:** NSBusiness[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetBusinessList(ids);
+NSBusiness[] list = agent.GetBusinessList(ids);
 ```
 

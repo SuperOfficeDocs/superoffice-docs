@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the user-defined fields on the SaleEntity as a map.
 
-**Returns:** Map containing user defined field values by field prog.id.
+**Returns:** Map
 
 ```crmscript
 NSSaleEntity thing;

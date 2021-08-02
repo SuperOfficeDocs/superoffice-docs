@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteContext_SetCRMSale
-title: SetCRMSale(Sale cRMSale)
+title: SetCRMSale(NSSale cRMSale)
 intellisense: NSQuoteContext.SetCRMSale
 keywords: NSQuoteContext, GetCRMSale
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The sale the quote is registered in the CRM system.
 
 **Parameter:** 
- - **cRMSale** Sale
+ - **cRMSale** NSSale
 
 ```crmscript
 NSQuoteContext thing;
-Sale cRMSale;
+NSSale cRMSale;
 thing.SetCRMSale(cRMSale);
 ```
 

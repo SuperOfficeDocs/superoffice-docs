@@ -11,7 +11,7 @@ Nomralize the ranks for all persons that belong to a contact. This means that th
 **Parameters:**
  - **contactId** Id of contact whose persons are to be rank normalized
 
-**Returns:** The reutrn value is true if the operation suceeded, either because all persons were already normalized, or because normalization was done. It is false if Sentry blocks any required changes.
+**Returns:** Bool
 
 ```crmscript
 NSPersonAgent agent;

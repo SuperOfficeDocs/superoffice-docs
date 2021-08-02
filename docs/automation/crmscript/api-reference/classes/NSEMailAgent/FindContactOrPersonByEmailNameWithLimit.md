@@ -14,7 +14,7 @@ so.topic: reference
  - **numberOfContacts** Maximum returned number of contacts
  - **numberOfPersons** Maximum returned number of persons
 
-**Returns:** Contacts and persons matching emailaddress and name
+**Returns:** ContactOrPersonFromEmail[]
 
 ```crmscript
 NSEMailAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_SaveUntrustedCredentials
-title: Void SaveUntrustedCredentials(String type, UntrustedCredentials credentials)
+title: Void SaveUntrustedCredentials(String type, NSUntrustedCredentials credentials)
 intellisense: NSUserAgent.SaveUntrustedCredentials
 keywords: NSUserAgent, SaveUntrustedCredentials
 so.topic: reference

@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the SelectionCategory.
 
-**Returns:** String SelectionCategory name.
+**Returns:** String
 
 ```crmscript
 NSSelectionCategory thing;

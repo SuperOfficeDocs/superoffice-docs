@@ -6,10 +6,10 @@ keywords: NSCurrency, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Currency
+Set the primary key (id) for the NSCurrency
 
 **Parameter:** 
- - **id** Integer Currency id.
+ - **id** Integer NSCurrency id.
 
 ```crmscript
 NSCurrency thing;

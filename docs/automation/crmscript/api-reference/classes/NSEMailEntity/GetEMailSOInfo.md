@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEntity_GetEMailSOInfo
-title: EMailSOInfo GetEMailSOInfo()
+title: NSEMailSOInfo GetEMailSOInfo()
 intellisense: NSEMailEntity.GetEMailSOInfo
 keywords: NSEMailEntity, GetEMailSOInfo
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Glue between SuperOffice data and an e-mail.
 
-**Returns:** EMailSOInfo
+**Returns:** NSEMailSOInfo
 
 
 ```crmscript
 NSEMailEntity thing;
-EMailSOInfo eMailSOInfo  = thing.GetEMailSOInfo();
+NSEMailSOInfo eMailSOInfo  = thing.GetEMailSOInfo();
 ```
 
 

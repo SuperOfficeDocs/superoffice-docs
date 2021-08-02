@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_ValidateUser
-title: StringDictionary ValidateUser(User user)
+title: StringDictionary ValidateUser(NSUser user)
 intellisense: NSUserAgent.ValidateUser
 keywords: NSUserAgent, ValidateUser
 so.topic: reference
@@ -11,11 +11,11 @@ Check that entity is ready for saving, return error messages by field.
 **Parameters:**
  - **user** Entity to be checked for errors.
 
-**Returns:** Error messages tagged by field.
+**Returns:** StringDictionary
 
 ```crmscript
 NSUserAgent agent;
-User user;
+NSUser user;
 StringDictionary res = agent.ValidateUser(user);
 ```
 

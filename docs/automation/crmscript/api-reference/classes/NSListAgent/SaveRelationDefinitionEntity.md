@@ -11,7 +11,7 @@ Updates the existing NSRelationDefinitionEntity or creates a new NSRelationDefin
 **Parameters**:
  - **relationDefinitionEntity** The NSRelationDefinitionEntity to save.
 
-**Returns:** New or updated NSRelationDefinitionEntity
+**Returns:** NSRelationDefinitionEntity
 
 ```crmscript
 NSList  agent;

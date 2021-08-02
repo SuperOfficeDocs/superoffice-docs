@@ -6,10 +6,10 @@ keywords: NSCustomerLanguage, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the CustomerLanguage list item.
+Set the tooltip description for the NSCustomerLanguage list item.
 
 **Parameter:** 
- - **tooltip** String CustomerLanguage tooltip description.
+ - **tooltip** String NSCustomerLanguage tooltip description.
 
 ```crmscript
 NSCustomerLanguage thing;

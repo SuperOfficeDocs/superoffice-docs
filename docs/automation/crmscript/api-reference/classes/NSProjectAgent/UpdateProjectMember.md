@@ -1,21 +1,21 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_UpdateProjectMember
-title: ProjectMember UpdateProjectMember(ProjectMember projectMember)
+title: NSProjectMember UpdateProjectMember(NSProjectMember projectMember)
 intellisense: NSProjectAgent.UpdateProjectMember
 keywords: NSProjectAgent, UpdateProjectMember
 so.topic: reference
 ---
 
-Updates a ProjectMember row.
+Updates a NSProjectMember row.
 
 **Parameters:**
- - **projectMember** ProjectMember to update
+ - **projectMember** NSProjectMember to update
 
-**Returns:** The Updated ProjectMember
+**Returns:** NSProjectMember
 
 ```crmscript
 NSProjectAgent agent;
-ProjectMember projectMember;
-ProjectMember res = agent.UpdateProjectMember(projectMember);
+NSProjectMember projectMember;
+NSProjectMember res = agent.UpdateProjectMember(projectMember);
 ```
 

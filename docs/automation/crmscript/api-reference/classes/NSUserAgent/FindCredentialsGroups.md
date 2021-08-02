@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_FindCredentialsGroups
-title: CredentialsGroup[] FindCredentialsGroups(String type, String searchString)
+title: NSCredentialsGroup[] FindCredentialsGroups(String type, String searchString)
 intellisense: NSUserAgent.FindCredentialsGroups
 keywords: NSUserAgent, FindCredentialsGroups
 so.topic: reference
@@ -11,3 +11,5 @@ Get user groups holding users filtered by the searchString.  This method is only
 **Parameters:**
  - **type** Type of credentials, corresponding to name of plugin and type in the credentials table.
  - **searchString** Partly name of domain group.
+
+**Returns:** NSCredentialsGroup[]

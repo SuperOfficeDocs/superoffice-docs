@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseAgent_RemoveLicenseFromDB
-title: LicenseResult RemoveLicenseFromDB(String moduleOwner)
+title: NSLicenseResult RemoveLicenseFromDB(String moduleOwner)
 intellisense: NSLicenseAgent.RemoveLicenseFromDB
 keywords: NSLicenseAgent, RemoveLicenseFromDB
 so.topic: reference
@@ -10,3 +10,5 @@ Remove the license from a particular module owner from the database.  It is not 
 
 **Parameters:**
  - **moduleOwner** Name of the module owner to remove license from.
+
+**Returns:** NSLicenseResult

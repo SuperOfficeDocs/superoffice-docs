@@ -6,12 +6,12 @@ keywords: NSUserAgent, GetUserInfoList
 so.topic: reference
 ---
 
-Gets a vector of UserInfo objects.
+Gets a vector of NSUserInfo objects.
 
 **Parameters:**
  - **userInfoIds** The identifiers of the NSUserInfo objects
 
-**Returns:** Vector of NSUserInfo objects
+**Returns:** NSUserInfo[]
 
 ```crmscript
 Integer[] ids;

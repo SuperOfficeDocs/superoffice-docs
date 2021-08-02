@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_ValidateQuoteVersion
-title: QuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
+title: NSQuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
 intellisense: NSQuoteAgent.ValidateQuoteVersion
 keywords: NSQuoteAgent, ValidateQuoteVersion
 so.topic: reference
@@ -24,12 +24,12 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
      - Enum: 11 = GetOrderState 
      - Enum: 12 = UpdatePrices 
 
-**Returns:** The updated quote version.
+**Returns:** NSQuoteVersionValidated
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteVersionId;
 Integer action;
-QuoteVersionValidated res = agent.ValidateQuoteVersion(quoteVersionId, action);
+NSQuoteVersionValidated res = agent.ValidateQuoteVersion(quoteVersionId, action);
 ```
 

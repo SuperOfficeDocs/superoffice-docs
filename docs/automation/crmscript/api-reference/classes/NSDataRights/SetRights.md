@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDataRights_SetRights
-title: SetRights(DataRight[][] rights)
+title: SetRights(NSDataRight[][] rights)
 intellisense: NSDataRights.SetRights
 keywords: NSDataRights, GetRights
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **rights** DataRight[][]
+ - **rights** NSDataRight[][]
 
 ```crmscript
 NSDataRights thing;
-DataRight[][] rights;
+NSDataRight[][] rights;
 thing.SetRights(rights);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetContactAppointmentsByTaskHeading
-title: Appointment[] GetContactAppointmentsByTaskHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+title: NSAppointment[] GetContactAppointmentsByTaskHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetContactAppointmentsByTaskHeading
 keywords: NSAppointmentAgent, GetContactAppointmentsByTaskHeading
 so.topic: reference
@@ -15,7 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
  - **taskHeadingId** The task heading id. The heading represents a grouping or filtering of tasks. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
-**Returns:** Array of Appointments.
+**Returns:** NSAppointment[]
 
 ```crmscript
 NSAppointmentAgent agent;
@@ -24,6 +24,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer taskHeadingId;
-Appointment[] res = agent.GetContactAppointmentsByTaskHeading(contactId, startTime, endTime, count, taskHeadingId);
+NSAppointment[] res = agent.GetContactAppointmentsByTaskHeading(contactId, startTime, endTime, count, taskHeadingId);
 ```
 

@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSTemplateVariablesParameters_SetDocumentEntity
-title: SetDocumentEntity(DocumentEntity documentEntity)
+title: SetDocumentEntity(NSDocumentEntity documentEntity)
 intellisense: NSTemplateVariablesParameters.SetDocumentEntity
 keywords: NSTemplateVariablesParameters, GetDocumentEntity
 so.topic: reference
 ---
 
-Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property.
+Custom document entity to use for data retrieval. Useful for unsaved data.  NSDocumentEntity.DocumentId need to match the DocumentId specified in separate property.
 
 **Parameter:** 
- - **documentEntity** DocumentEntity
+ - **documentEntity** NSDocumentEntity
 
 ```crmscript
 NSTemplateVariablesParameters thing;
-DocumentEntity documentEntity;
+NSDocumentEntity documentEntity;
 thing.SetDocumentEntity(documentEntity);
 ```
 

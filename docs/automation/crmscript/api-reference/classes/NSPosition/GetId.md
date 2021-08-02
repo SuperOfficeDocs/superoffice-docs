@@ -6,9 +6,9 @@ keywords: NSPosition, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the Position
+Get the primary key (id) for the NSPosition
 
-**Returns:** Integer Position id.
+**Returns:** Integer NSPosition id.
 
 ```crmscript
 NSPosition thing;

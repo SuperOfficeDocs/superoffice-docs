@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardAgent_GetData
-title: TileData[] GetData(Integer dashboardTileId, String restrictions)
+title: NSTileData[] GetData(Integer dashboardTileId, String restrictions)
 intellisense: NSDashboardAgent.GetData
 keywords: NSDashboardAgent, GetData
 so.topic: reference
@@ -12,12 +12,12 @@ Get data for this tile
  - **dashboardTileId** Tile Id
  - **restrictions** Replacement restrictions
 
-**Returns:** The data
+**Returns:** NSTileData[]
 
 ```crmscript
 NSDashboardAgent agent;
 Integer dashboardTileId;
 String restrictions;
-TileData[] res = agent.GetData(dashboardTileId, restrictions);
+NSTileData[] res = agent.GetData(dashboardTileId, restrictions);
 ```
 

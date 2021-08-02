@@ -8,7 +8,7 @@ so.topic: reference
 
 Array of ids containing associates that will have access to this connection.
 
-**Returns:** IntegerArray
+**Returns:** Integer[]
 
 
 ```crmscript

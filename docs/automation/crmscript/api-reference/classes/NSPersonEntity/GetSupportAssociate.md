@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetSupportAssociate
-title: Associate GetSupportAssociate()
+title: NSAssociate GetSupportAssociate()
 intellisense: NSPersonEntity.GetSupportAssociate
 keywords: NSPersonEntity, GetSupportAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSPersonEntity thing;
-Associate supportAssociate  = thing.GetSupportAssociate();
+NSAssociate supportAssociate  = thing.GetSupportAssociate();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedLicenseInfo_SetNew
-title: SetNew(LicenseInfo new)
+title: SetNew(NSLicenseInfo new)
 intellisense: NSExtendedLicenseInfo.SetNew
 keywords: NSExtendedLicenseInfo, GetNew
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **new** LicenseInfo
+ - **new** NSLicenseInfo
 
 ```crmscript
 NSExtendedLicenseInfo thing;
-LicenseInfo new;
+NSLicenseInfo new;
 thing.SetNew(new);
 ```
 

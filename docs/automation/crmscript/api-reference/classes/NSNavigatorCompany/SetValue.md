@@ -6,7 +6,7 @@ keywords: NSNavigatorCompany, SetValue
 so.topic: reference
 ---
 
-Set the name of the NavigatorCompany item.
+Set the name of the NSNavigatorCompany item.
 
 **Parameter:** 
  - **value** String NavigatorCompany name.

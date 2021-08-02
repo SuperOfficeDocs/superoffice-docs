@@ -8,6 +8,6 @@ so.topic: reference
 ---
 
 
-LocalizedField[] is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.
+NSLocalizedField[] is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.
 
 

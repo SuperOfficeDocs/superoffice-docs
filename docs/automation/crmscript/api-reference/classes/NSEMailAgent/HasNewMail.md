@@ -12,7 +12,7 @@ Fast check for new mail in the database
  - **mailItemId** The last known mailitemid
  - **folderId** The folderId for the folder to check for new mail
 
-**Returns:** Has new mail if true
+**Returns:** Bool
 
 ```crmscript
 NSEMailAgent agent;

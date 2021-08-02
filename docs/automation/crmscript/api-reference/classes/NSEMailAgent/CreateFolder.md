@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_CreateFolder
-title: Void CreateFolder(EMailConnectionInfo connectionInfo)
+title: Void CreateFolder(NSEMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.CreateFolder
 keywords: NSEMailAgent, CreateFolder
 so.topic: reference

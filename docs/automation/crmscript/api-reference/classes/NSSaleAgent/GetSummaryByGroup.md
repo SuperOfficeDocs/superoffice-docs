@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetSummaryByGroup
-title: SaleSummary GetSummaryByGroup(Integer groupId, DateTime fromDate, DateTime toDate)
+title: NSSaleSummary GetSummaryByGroup(Integer groupId, DateTime fromDate, DateTime toDate)
 intellisense: NSSaleAgent.GetSummaryByGroup
 keywords: NSSaleAgent, GetSummaryByGroup
 so.topic: reference
@@ -12,3 +12,5 @@ so.topic: reference
  - **groupId** 
  - **fromDate** 
  - **toDate** 
+
+**Returns:** NSSaleSummary

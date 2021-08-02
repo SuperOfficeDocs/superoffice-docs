@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_FindAddress
-title: EMailAddress[] FindAddress(String address)
+title: NSEMailAddress[] FindAddress(String address)
 intellisense: NSEMailAgent.FindAddress
 keywords: NSEMailAgent, FindAddress
 so.topic: reference
@@ -11,11 +11,11 @@ Search for contacts and persons with the specified e-mail address (exact match o
 **Parameters:**
  - **address** E-mail address to look for
 
-**Returns:** All resolved contacts/persons
+**Returns:** NSEMailAddress[]
 
 ```crmscript
 NSEMailAgent agent;
 String address;
-EMailAddress[] res = agent.FindAddress(address);
+NSEMailAddress[] res = agent.FindAddress(address);
 ```
 

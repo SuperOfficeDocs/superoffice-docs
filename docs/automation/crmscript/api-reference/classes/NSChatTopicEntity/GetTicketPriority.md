@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatTopicEntity_GetTicketPriority
-title: TicketPriority GetTicketPriority()
+title: NSTicketPriority GetTicketPriority()
 intellisense: NSChatTopicEntity.GetTicketPriority
 keywords: NSChatTopicEntity, GetTicketPriority
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Priority on ticket created from off-line request
 
-**Returns:** TicketPriority
+**Returns:** NSTicketPriority
 
 
 ```crmscript
 NSChatTopicEntity thing;
-TicketPriority ticketPriority  = thing.GetTicketPriority();
+NSTicketPriority ticketPriority  = thing.GetTicketPriority();
 ```
 
 

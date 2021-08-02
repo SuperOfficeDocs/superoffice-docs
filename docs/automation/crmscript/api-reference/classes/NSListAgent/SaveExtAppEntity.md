@@ -11,7 +11,7 @@ Updates the existing NSExtAppEntity or creates a new NSExtAppEntity if the id pa
 **Parameters**:
  - **extAppEntity** The NSExtAppEntity to save.
 
-**Returns:** New or updated NSExtAppEntity
+**Returns:** NSExtAppEntity
 
 ```crmscript
 NSList  agent;

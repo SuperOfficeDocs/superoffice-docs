@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetChatEmails
-title: EntityElement[] GetChatEmails()
+title: NSEntityElement[] GetChatEmails()
 intellisense: NSPersonEntity.GetChatEmails
 keywords: NSPersonEntity, GetChatEmails
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** EntityElement[]
+**Returns:** NSEntityElement[]
 
 
 ```crmscript
 NSPersonEntity thing;
-EntityElement[] chatEmails  = thing.GetChatEmails();
+NSEntityElement[] chatEmails  = thing.GetChatEmails();
 ```
 
 

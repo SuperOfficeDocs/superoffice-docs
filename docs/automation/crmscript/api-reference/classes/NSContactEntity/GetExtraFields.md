@@ -6,7 +6,7 @@ keywords: NSContactEntity, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields on ContactEntity as a map.
+Get the extra fields on NSContactEntity as a map.
 
 **Returns:** Map containing extra field values by field name.
 

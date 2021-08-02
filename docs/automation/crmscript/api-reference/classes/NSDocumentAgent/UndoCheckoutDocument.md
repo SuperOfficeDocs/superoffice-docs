@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_UndoCheckoutDocument
-title: ReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
+title: NSReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
 intellisense: NSDocumentAgent.UndoCheckoutDocument
 keywords: NSDocumentAgent, UndoCheckoutDocument
 so.topic: reference
@@ -12,12 +12,12 @@ Undo (abandon) a checkout
  - **documentId** SuperOffice document ID
  - **allowedReturnTypes** List of return types that the client is prepared to handle, in case the document plugin needs to request additional processing.<br/>Standard allowed return types include 'None', 'Message', 'SoProtocol', 'CustomGui', 'Other'.<br/>An empty array implies that the client places no restriction on possible return action requests.
 
-**Returns:** Return information, including possible requests for further processing ("Return Action"). Return actions are constrained by the allowedReturnTypes parameter.
+**Returns:** NSReturnInfo
 
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
 String[] allowedReturnTypes;
-ReturnInfo res = agent.UndoCheckoutDocument(documentId, allowedReturnTypes);
+NSReturnInfo res = agent.UndoCheckoutDocument(documentId, allowedReturnTypes);
 ```
 

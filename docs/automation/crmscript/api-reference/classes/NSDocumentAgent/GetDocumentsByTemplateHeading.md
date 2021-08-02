@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetDocumentsByTemplateHeading
-title: Document[] GetDocumentsByTemplateHeading(Integer templateHeadingId)
+title: NSDocument[] GetDocumentsByTemplateHeading(Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetDocumentsByTemplateHeading
 keywords: NSDocumentAgent, GetDocumentsByTemplateHeading
 so.topic: reference
@@ -11,11 +11,11 @@ Method that returns document appointments, filtered by the document template hea
 **Parameters:**
  - **templateHeadingId** The document template heading id. The heading represents a grouping or filtering of document templates.
 
-**Returns:** Array of Appointments.
+**Returns:** NSDocument[]
 
 ```crmscript
 NSDocumentAgent agent;
 Integer templateHeadingId;
-Document[] res = agent.GetDocumentsByTemplateHeading(templateHeadingId);
+NSDocument[] res = agent.GetDocumentsByTemplateHeading(templateHeadingId);
 ```
 

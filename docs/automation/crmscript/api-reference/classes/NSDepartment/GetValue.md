@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the Department.
 
-**Returns:** String Department name.
+**Returns:** String
 
 ```crmscript
 NSDepartment thing;

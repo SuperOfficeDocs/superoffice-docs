@@ -6,10 +6,10 @@ keywords: NSTicketCategory, SetValue
 so.topic: reference
 ---
 
-Set the name of the TicketCategory item.
+Set the name of the NSTicketCategory item.
 
 **Parameter:** 
- - **value** String TicketCategory name.
+ - **value** String NSTicketCategory name.
 
 ```crmscript
 NSTicketCategory thing;

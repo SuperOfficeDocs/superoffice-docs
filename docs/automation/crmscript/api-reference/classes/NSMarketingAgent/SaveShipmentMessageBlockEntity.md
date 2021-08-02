@@ -11,7 +11,7 @@ Updates the existing NSShipmentMessageBlockEntity or creates a new NSShipmentMes
 **Parameters**:
  - **shipmentMessageBlockEntity** The NSShipmentMessageBlockEntity to save.
 
-**Returns:** New or updated NSShipmentMessageBlockEntity
+**Returns:** NSShipmentMessageBlockEntity
 
 ```crmscript
 NSMarketing  agent;

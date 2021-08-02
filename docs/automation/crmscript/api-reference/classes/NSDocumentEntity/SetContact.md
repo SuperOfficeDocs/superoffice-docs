@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_SetContact
-title: SetContact(Contact contact)
+title: SetContact(NSContact contact)
 intellisense: NSDocumentEntity.SetContact
 keywords: NSDocumentEntity, GetContact
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The contact associated with the document. It may also be null if no contact is associated with the document.
 
 **Parameter:** 
- - **contact** Contact
+ - **contact** NSContact
 
 ```crmscript
 NSDocumentEntity thing;
-Contact contact;
+NSContact contact;
 thing.SetContact(contact);
 ```
 

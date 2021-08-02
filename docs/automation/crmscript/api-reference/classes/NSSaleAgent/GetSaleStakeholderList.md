@@ -11,7 +11,7 @@ Gets a vector of SaleStakeholder objects.
 **Parameters:**
  - **saleStakeholderIds** The identifiers of the NSSaleStakeholder objects
 
-**Returns:** Vector of NSSaleStakeholder objects
+**Returns:** NSSaleStakeholder[]
 
 ```crmscript
 Integer[] ids;

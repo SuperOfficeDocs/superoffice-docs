@@ -9,7 +9,7 @@ so.topic: reference
 Get result of the batchupdate job
 
 
-**Returns:** Result of job as json
+**Returns:** String[]
 
 ```crmscript
 NSBulkUpdateAgent agent;

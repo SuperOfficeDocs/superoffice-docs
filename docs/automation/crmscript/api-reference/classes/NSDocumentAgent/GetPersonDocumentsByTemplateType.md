@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByTemplateType
-title: Document[] GetPersonDocumentsByTemplateType(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+title: NSDocument[] GetPersonDocumentsByTemplateType(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
 intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateType
 keywords: NSDocumentAgent, GetPersonDocumentsByTemplateType
 so.topic: reference
@@ -16,7 +16,7 @@ Method that returns a specified number of document appointments within a time ra
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
  - **documentTemplateId** Id of the document template type to filter on.
 
-**Returns:** Array of Appointments.
+**Returns:** NSDocument[]
 
 ```crmscript
 NSDocumentAgent agent;
@@ -26,6 +26,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer documentTemplateId;
-Document[] res = agent.GetPersonDocumentsByTemplateType(personId, includeProjectDocuments, startTime, endTime, count, documentTemplateId);
+NSDocument[] res = agent.GetPersonDocumentsByTemplateType(personId, includeProjectDocuments, startTime, endTime, count, documentTemplateId);
 ```
 

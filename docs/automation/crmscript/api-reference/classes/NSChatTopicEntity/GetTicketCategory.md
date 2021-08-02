@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatTopicEntity_GetTicketCategory
-title: TicketCategory GetTicketCategory()
+title: NSTicketCategory GetTicketCategory()
 intellisense: NSChatTopicEntity.GetTicketCategory
 keywords: NSChatTopicEntity, GetTicketCategory
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Category on ticket created from off-line request
 
-**Returns:** TicketCategory
+**Returns:** NSTicketCategory
 
 
 ```crmscript
 NSChatTopicEntity thing;
-TicketCategory ticketCategory  = thing.GetTicketCategory();
+NSTicketCategory ticketCategory  = thing.GetTicketCategory();
 ```
 
 

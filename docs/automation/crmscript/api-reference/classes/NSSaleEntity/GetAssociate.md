@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetAssociate
-title: Associate GetAssociate()
+title: NSAssociate GetAssociate()
 intellisense: NSSaleEntity.GetAssociate
 keywords: NSSaleEntity, GetAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The sale owner
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSSaleEntity thing;
-Associate associate  = thing.GetAssociate();
+NSAssociate associate  = thing.GetAssociate();
 ```
 
 

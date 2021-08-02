@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboard_SetTiles
-title: SetTiles(DashboardTile[] tiles)
+title: SetTiles(NSDashboardTile[] tiles)
 intellisense: NSDashboard.SetTiles
 keywords: NSDashboard, GetTiles
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The tiles associated with this dashboard
 
 **Parameter:** 
- - **tiles** DashboardTile[]
+ - **tiles** NSDashboardTile[]
 
 ```crmscript
 NSDashboard thing;
-DashboardTile[] tiles;
+NSDashboardTile[] tiles;
 thing.SetTiles(tiles);
 ```
 

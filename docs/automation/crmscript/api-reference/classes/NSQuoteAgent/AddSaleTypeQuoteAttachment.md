@@ -12,7 +12,7 @@ Adds a new quote attachment document to a sale type
  - **saleTypeId** The ID of the sale type
  - **documentId** The ID of the document
 
-**Returns:** ID of the new sale type quote attachment row
+**Returns:** Integer
 
 ```crmscript
 NSQuoteAgent agent;

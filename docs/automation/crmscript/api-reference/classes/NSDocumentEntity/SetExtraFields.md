@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values on DocumentEntity with a map.
+Set the extra field values on NSDocumentEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

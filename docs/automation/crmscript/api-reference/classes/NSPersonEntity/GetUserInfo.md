@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetUserInfo
-title: UserInfo GetUserInfo()
+title: NSUserInfo GetUserInfo()
 intellisense: NSPersonEntity.GetUserInfo
 keywords: NSPersonEntity, GetUserInfo
 so.topic: reference
 ---
 
-Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the UserInfo will be provided.
+Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the NSUserInfo will be provided.
 
-**Returns:** UserInfo
+**Returns:** NSUserInfo
 
 
 ```crmscript
 NSPersonEntity thing;
-UserInfo userInfo  = thing.GetUserInfo();
+NSUserInfo userInfo  = thing.GetUserInfo();
 ```
 
 

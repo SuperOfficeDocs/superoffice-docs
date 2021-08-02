@@ -108,7 +108,7 @@ Check if an eventhandler exists for a given enum
      - Enum: 1112 = SalesAfterSaveSelectionMember 
      - Enum: 1113 = SalesAfterSaveQuoteLine 
 
-**Returns:** True if it exists
+**Returns:** Bool
 
 ```crmscript
 NSCustomerServiceAgent agent;

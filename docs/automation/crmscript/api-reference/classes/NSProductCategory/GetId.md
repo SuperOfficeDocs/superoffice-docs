@@ -6,9 +6,9 @@ keywords: NSProductCategory, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the ProductCategory
+Get the primary key (id) for the NSProductCategory
 
-**Returns:** Integer ProductCategory id.
+**Returns:** Integer NSProductCategory id.
 
 ```crmscript
 NSProductCategory thing;

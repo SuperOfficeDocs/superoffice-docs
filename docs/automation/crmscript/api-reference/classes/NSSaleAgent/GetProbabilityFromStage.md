@@ -11,7 +11,7 @@ Get the probability percentage for a given sale stage
 **Parameters:**
  - **stageId** Probability list id
 
-**Returns:** Probability percentage
+**Returns:** Integer
 
 ```crmscript
 NSSaleAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBatchAgent_UpdateBatchTask
-title: BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
+title: NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo batchTaskInfo)
 intellisense: NSBatchAgent.UpdateBatchTask
 keywords: NSBatchAgent, UpdateBatchTask
 so.topic: reference
@@ -11,11 +11,11 @@ Update information about a BatchTask. Only the following properties can be updat
 **Parameters:**
  - **batchTaskInfo** The updated information to save.
 
-**Returns:** The updated BatchTaskInfo
+**Returns:** NSBatchTaskInfo
 
 ```crmscript
 NSBatchAgent agent;
-BatchTaskInfo batchTaskInfo;
-BatchTaskInfo res = agent.UpdateBatchTask(batchTaskInfo);
+NSBatchTaskInfo batchTaskInfo;
+NSBatchTaskInfo res = agent.UpdateBatchTask(batchTaskInfo);
 ```
 

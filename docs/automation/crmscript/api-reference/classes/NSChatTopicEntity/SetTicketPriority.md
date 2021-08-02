@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatTopicEntity_SetTicketPriority
-title: SetTicketPriority(TicketPriority ticketPriority)
+title: SetTicketPriority(NSTicketPriority ticketPriority)
 intellisense: NSChatTopicEntity.SetTicketPriority
 keywords: NSChatTopicEntity, GetTicketPriority
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Priority on ticket created from off-line request
 
 **Parameter:** 
- - **ticketPriority** TicketPriority
+ - **ticketPriority** NSTicketPriority
 
 ```crmscript
 NSChatTopicEntity thing;
-TicketPriority ticketPriority;
+NSTicketPriority ticketPriority;
 thing.SetTicketPriority(ticketPriority);
 ```
 

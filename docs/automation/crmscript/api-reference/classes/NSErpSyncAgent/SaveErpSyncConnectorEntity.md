@@ -11,7 +11,7 @@ Updates the existing NSErpSyncConnectorEntity or creates a new NSErpSyncConnecto
 **Parameters**:
  - **erpSyncConnectorEntity** The NSErpSyncConnectorEntity to save.
 
-**Returns:** New or updated NSErpSyncConnectorEntity
+**Returns:** NSErpSyncConnectorEntity
 
 ```crmscript
 NSErpSync  agent;

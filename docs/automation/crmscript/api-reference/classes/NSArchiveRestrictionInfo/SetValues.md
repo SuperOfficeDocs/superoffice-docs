@@ -9,7 +9,7 @@ so.topic: reference
 Value(s) to test against
 
 **Parameter:** 
- - **values** StringArray
+ - **values** String[]
 
 ```crmscript
 NSArchiveRestrictionInfo thing;

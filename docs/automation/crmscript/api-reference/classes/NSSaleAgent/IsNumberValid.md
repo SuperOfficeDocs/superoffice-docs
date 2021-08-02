@@ -12,7 +12,7 @@ Checks if the number is unique or required.  The setting is configured from admi
  - **contactId** SaleId
  - **number** Number value to check for uniqueness/required
 
-**Returns:** True if the number is valid
+**Returns:** Bool
 
 ```crmscript
 NSSaleAgent agent;

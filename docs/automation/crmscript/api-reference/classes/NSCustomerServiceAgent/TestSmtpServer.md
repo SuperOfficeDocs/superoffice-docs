@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCustomerServiceAgent_TestSmtpServer
-title: SmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
+title: NSSmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
 intellisense: NSCustomerServiceAgent.TestSmtpServer
 keywords: NSCustomerServiceAgent, TestSmtpServer
 so.topic: reference
@@ -13,13 +13,13 @@ This method will do a test of a SMTP account, by sending an email to a special @
  - **from** The from-address used in the test
  - **useStoredPassword** Use database persisted password
 
-**Returns:** Contains the result of the test
+**Returns:** S
 
 ```crmscript
 NSCustomerServiceAgent agent;
 String smtpUri;
 String from;
 Bool useStoredPassword;
-SmtpTestResult res = agent.TestSmtpServer(smtpUri, from, useStoredPassword);
+NSSmtpTestResult res = agent.TestSmtpServer(smtpUri, from, useStoredPassword);
 ```
 

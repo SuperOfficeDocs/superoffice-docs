@@ -9,7 +9,7 @@ so.topic: reference
 Will get the GetHelpDispatcherUrl used by the help system
 
 
-**Returns:** URL to be used by the help system
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

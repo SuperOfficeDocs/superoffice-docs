@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_CopySuperOfficePriceList
-title: PriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
+title: NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
 intellisense: NSQuoteAgent.CopySuperOfficePriceList
 keywords: NSQuoteAgent, CopySuperOfficePriceList
 so.topic: reference
@@ -16,7 +16,7 @@ Create a copy of a PriceList in the SuperOffice database
  - **newCurrencyId** Currency id of the copied PriceList. If 0 or the same as the original the copied products will keep their prices and the currency will be the same as the original.
  - **convertCurrency** If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero.
 
-**Returns:** The copied PriceList
+**Returns:** NSPriceList
 
 ```crmscript
 NSQuoteAgent agent;
@@ -26,6 +26,6 @@ DateTime validFrom;
 DateTime validTo;
 Integer newCurrencyId;
 Bool convertCurrency;
-PriceList res = agent.CopySuperOfficePriceList(originalPriceListId, newName, validFrom, validTo, newCurrencyId, convertCurrency);
+NSPriceList res = agent.CopySuperOfficePriceList(originalPriceListId, newName, validFrom, validTo, newCurrencyId, convertCurrency);
 ```
 

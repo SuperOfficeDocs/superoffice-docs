@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDatabaseTableAgent_ReadRow
-title: TableRecord ReadRow(String tableName, Integer id)
+title: NSTableRecord ReadRow(String tableName, Integer id)
 intellisense: NSDatabaseTableAgent.ReadRow
 keywords: NSDatabaseTableAgent, ReadRow
 so.topic: reference
@@ -12,12 +12,12 @@ Read a row from a table
  - **tableName** The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
  - **id** The id of the row to fetch
 
-**Returns:** The row from the table
+**Returns:** NSTableRecord
 
 ```crmscript
 NSDatabaseTableAgent agent;
 String tableName;
 Integer id;
-TableRecord res = agent.ReadRow(tableName, id);
+NSTableRecord res = agent.ReadRow(tableName, id);
 ```
 

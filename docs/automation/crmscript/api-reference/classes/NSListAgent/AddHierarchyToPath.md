@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_AddHierarchyToPath
-title: HierarchyEntity AddHierarchyToPath(Integer domain, String path, String name)
+title: NSHierarchyEntity AddHierarchyToPath(Integer domain, String path, String name)
 intellisense: NSListAgent.AddHierarchyToPath
 keywords: NSListAgent, AddHierarchyToPath
 so.topic: reference
@@ -22,13 +22,13 @@ Add a hierarchy item to a path
  - **path** Hierarchy path to parent item
  - **name** Name of node to add
 
-**Returns:** The hierarchy node added to the path
+**Returns:** NSHierarchyEntity
 
 ```crmscript
 NSListAgent agent;
 Integer domain;
 String path;
 String name;
-HierarchyEntity res = agent.AddHierarchyToPath(domain, path, name);
+NSHierarchyEntity res = agent.AddHierarchyToPath(domain, path, name);
 ```
 

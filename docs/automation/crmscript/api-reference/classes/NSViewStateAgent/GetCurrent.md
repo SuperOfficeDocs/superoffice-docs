@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_GetCurrent
-title: History GetCurrent(String historyName)
+title: NSHistory GetCurrent(String historyName)
 intellisense: NSViewStateAgent.GetCurrent
 keywords: NSViewStateAgent, GetCurrent
 so.topic: reference
@@ -11,11 +11,11 @@ Get the current (most recent) value of the history list. This is the item with r
 **Parameters:**
  - **historyName** Name of the history list, e.g. contact, project
 
-**Returns:** The current (most recent) history item
+**Returns:** NSHistory
 
 ```crmscript
 NSViewStateAgent agent;
 String historyName;
-History res = agent.GetCurrent(historyName);
+NSHistory res = agent.GetCurrent(historyName);
 ```
 

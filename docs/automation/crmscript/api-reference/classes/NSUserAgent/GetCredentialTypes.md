@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetCredentialTypes
-title: CredentialType[] GetCredentialTypes()
+title: NSCredentialType[] GetCredentialTypes()
 intellisense: NSUserAgent.GetCredentialTypes
 keywords: NSUserAgent, GetCredentialTypes
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get available credential types that can be used for authentication
 
 
-**Returns:** Credential types that can be used for authentication
+**Returns:** NSCredentialType[]
 
 ```crmscript
 NSUserAgent agent;
-CredentialType[] res = agent.GetCredentialTypes();
+NSCredentialType[] res = agent.GetCredentialTypes();
 ```
 

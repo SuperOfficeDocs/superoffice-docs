@@ -6,7 +6,7 @@ keywords: NSConsentInfo, GetConsentPurposeKey
 so.topic: reference
 ---
 
-Key of the ConsentPurpose associated with this consent
+Key of the NSConsentPurpose associated with this consent
 
 **Returns:** String
 

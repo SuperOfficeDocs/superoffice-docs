@@ -11,7 +11,7 @@ Tests to see if we can establish a connection with the given config fields
 **Parameters:**
  - **erpConnectionId** The id of the connection
 
-**Returns:** Returns true if success
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_GetUserFromEjUserId
-title: User[] GetUserFromEjUserId(Integer ejUserId)
+title: NSUser[] GetUserFromEjUserId(Integer ejUserId)
 intellisense: NSUserAgent.GetUserFromEjUserId
 keywords: NSUserAgent, GetUserFromEjUserId
 so.topic: reference
@@ -10,3 +10,5 @@ Get user from ejUserId - used for eJournal Legacy Support.
 
 **Parameters:**
  - **ejUserId** ejUserId - 
+
+**Returns:** NSUser

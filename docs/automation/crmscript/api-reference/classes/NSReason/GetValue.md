@@ -6,9 +6,9 @@ keywords: NSReason, GetValue
 so.topic: reference
 ---
 
-Get the name of the Reason.
+Get the name of the NSReason.
 
-**Returns:** String Reason name.
+**Returns:** String
 
 ```crmscript
 NSReason thing;

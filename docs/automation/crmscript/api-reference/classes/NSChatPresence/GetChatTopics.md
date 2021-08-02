@@ -8,7 +8,7 @@ so.topic: reference
 
 An array of ids with chat topics that this user is a member of
 
-**Returns:** IntegerArray
+**Returns:** Integer[]
 
 
 ```crmscript

@@ -6,10 +6,10 @@ keywords: NSPaymentType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the PaymentType
+Set the primary key (id) for the NSPaymentType
 
 **Parameter:** 
- - **id** Integer PaymentType id.
+ - **id** Integer NSPaymentType id.
 
 ```crmscript
 NSPaymentType thing;

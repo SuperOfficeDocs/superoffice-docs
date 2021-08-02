@@ -6,9 +6,9 @@ keywords: NSBusiness, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the Business list item.
+Get the tooltip description for the NSBusiness list item.
 
-**Returns:** String Business tooltip description.
+**Returns:** String NSBusiness tooltip description.
 
 ```crmscript
 NSBusiness thing;

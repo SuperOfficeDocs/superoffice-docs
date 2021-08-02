@@ -11,11 +11,9 @@ Update the NetServices preferences with values contained in the content from the
 **Parameters:**
  - **xmlOrJson** The text that was returned by getting the Status URL
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSPreferenceAgent agent;
 String xmlOrJson;
-Void res = agent.UpdateNetServicesStatus(xmlOrJson);
+agent.UpdateNetServicesStatus(xmlOrJson);
 ```
 

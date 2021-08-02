@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_GetMyOwner
-title: Person GetMyOwner()
+title: NSPerson GetMyOwner()
 intellisense: NSPersonAgent.GetMyOwner
 keywords: NSPersonAgent, GetMyOwner
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get the owner of the logged in person.
 
 
-**Returns:** Person
+**Returns:** NSPerson
 
 ```crmscript
 NSPersonAgent agent;
-Person res = agent.GetMyOwner();
+NSPerson res = agent.GetMyOwner();
 ```
 

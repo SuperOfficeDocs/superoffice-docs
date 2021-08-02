@@ -6,10 +6,10 @@ keywords: NSSaleType, SetValue
 so.topic: reference
 ---
 
-Set the name of the SaleType item.
+Set the name of the NSSaleType item.
 
 **Parameter:** 
- - **value** String SaleType name.
+ - **value** String NSSaleType name.
 
 ```crmscript
 NSSaleType thing;

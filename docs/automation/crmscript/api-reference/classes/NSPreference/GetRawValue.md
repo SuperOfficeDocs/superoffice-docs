@@ -6,7 +6,7 @@ keywords: NSPreference, GetRawValue
 so.topic: reference
 ---
 
-Preference value
+NSPreference value
 
 **Returns:** String
 

@@ -6,10 +6,10 @@ keywords: NSProductFamily, SetValue
 so.topic: reference
 ---
 
-Set the name of the ProductFamily item.
+Set the name of the NSProductFamily item.
 
 **Parameter:** 
- - **value** String ProductFamily name.
+ - **value** String NSProductFamily name.
 
 ```crmscript
 NSProductFamily thing;

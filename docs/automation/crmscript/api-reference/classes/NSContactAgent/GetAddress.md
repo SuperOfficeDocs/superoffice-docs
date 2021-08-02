@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nscontactagent_getaddress
-title: Address GetAddress(Integer contactId)
+title: NSAddress GetAddress(Integer contactId)
 description: CRMScript method in the NSContactAgent class that gets a contact's localized address
 intellisense: NSContactAgent.GetAddress
 keywords: NSContactAgent, GetAddress, GetAddress(Integer)
@@ -9,9 +9,9 @@ so.topic: reference
 
 # GetAddress()
 
-Gets the contact's localized address (LocalizedField[][]).
+Gets the contact's localized address (NSLocalizedField[][]).
 
-`Address GetAddress(Integer contactId)`
+`NSAddress GetAddress(Integer contactId)`
 
 ## Parameters
 
@@ -24,5 +24,5 @@ Gets the contact's localized address (LocalizedField[][]).
 ```crmscript
 NSContactAgent agent;
 Integer contactId;
-Address res = agent.GetAddress(contactId);
+NSAddress res = agent.GetAddress(contactId);
 ```

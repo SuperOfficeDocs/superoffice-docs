@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentTemplateEntity_SetQuoteDocType
-title: SetQuoteDocType(DocTmplQuoteType quoteDocType)
+title: SetQuoteDocType(NSDocTmplQuoteType quoteDocType)
 intellisense: NSDocumentTemplateEntity.SetQuoteDocType
 keywords: NSDocumentTemplateEntity, GetQuoteDocType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 The role this document plays in the Quote system, if any
 
 **Parameter:** 
- - **quoteDocType** DocTmplQuoteType
+ - **quoteDocType** NSDocTmplQuoteType
      - Enum: 0 = None 
      - Enum: 1 = MailBody 
      - Enum: 2 = MainDocument 
@@ -19,7 +19,7 @@ The role this document plays in the Quote system, if any
 
 ```crmscript
 NSDocumentTemplateEntity thing;
-DocTmplQuoteType quoteDocType;
+NSDocTmplQuoteType quoteDocType;
 thing.SetQuoteDocType(quoteDocType);
 ```
 

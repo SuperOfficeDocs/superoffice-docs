@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_CreateInlineHtmlHeader
-title: String CreateInlineHtmlHeader(EMailEntity email)
+title: String CreateInlineHtmlHeader(NSEMailEntity email)
 intellisense: NSEMailAgent.CreateInlineHtmlHeader
 keywords: NSEMailAgent, CreateInlineHtmlHeader
 so.topic: reference
@@ -11,11 +11,11 @@ Create Outlook style HTML header to use in for instance reply entities and when 
 **Parameters:**
  - **email** The e-mail to generate header based on
 
-**Returns:** The generated HTML header
+**Returns:** String
 
 ```crmscript
 NSEMailAgent agent;
-EMailEntity email;
+NSEMailEntity email;
 String res = agent.CreateInlineHtmlHeader(email);
 ```
 

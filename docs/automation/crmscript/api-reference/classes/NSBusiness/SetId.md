@@ -6,10 +6,10 @@ keywords: NSBusiness, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Business
+Set the primary key (id) for the NSBusiness
 
 **Parameter:** 
- - **id** Integer Business id.
+ - **id** Integer NSBusiness id.
 
 ```crmscript
 NSBusiness thing;

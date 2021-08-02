@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetConfigParametersOnPerson
-title: AudienceConfigParameter[] GetConfigParametersOnPerson(Integer personId)
+title: NSAudienceConfigParameter[] GetConfigParametersOnPerson(Integer personId)
 intellisense: NSAudienceAgent.GetConfigParametersOnPerson
 keywords: NSAudienceAgent, GetConfigParametersOnPerson
 so.topic: reference
@@ -16,6 +16,6 @@ Gets the Audience configuration parameters belonging to the person specified
 ```crmscript
 NSAudienceAgent agent;
 Integer personId;
-AudienceConfigParameter[] res = agent.GetConfigParametersOnPerson(personId);
+NSAudienceConfigParameter[] res = agent.GetConfigParametersOnPerson(personId);
 ```
 

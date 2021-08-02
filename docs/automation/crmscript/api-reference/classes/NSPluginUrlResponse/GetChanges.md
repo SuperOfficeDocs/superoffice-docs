@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPluginUrlResponse_GetChanges
-title: ChangedData GetChanges()
+title: NSChangedData GetChanges()
 intellisense: NSPluginUrlResponse.GetChanges
 keywords: NSPluginUrlResponse, GetChanges
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Tablename/recordid of data changed by this method, that the client may need to reload
 
-**Returns:** ChangedData
+**Returns:** NSChangedData
 
 
 ```crmscript
 NSPluginUrlResponse thing;
-ChangedData changes  = thing.GetChanges();
+NSChangedData changes  = thing.GetChanges();
 ```
 
 

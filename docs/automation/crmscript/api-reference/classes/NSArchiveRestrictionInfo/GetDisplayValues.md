@@ -8,7 +8,7 @@ so.topic: reference
 
 Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the CultureDataFormatter.
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

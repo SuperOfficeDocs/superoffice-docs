@@ -12,7 +12,7 @@ Remove credential of a specific type for a user
  - **userId** Primary key of the user (i.e. associate)
  - **credentialType** Type of credentials, corresponding to name of plugin and type in the credentials table
 
-**Returns:** True if credential was sucessfully removed.
+**Returns:** Bool
 
 ```crmscript
 NSUserAgent agent;

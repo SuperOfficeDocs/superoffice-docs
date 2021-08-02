@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSWebhookAgent_GetAllWebhooks
-title: Webhook[] GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
+title: NSWebhook[] GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
 intellisense: NSWebhookAgent.GetAllWebhooks
 keywords: NSWebhookAgent, GetAllWebhooks
 so.topic: reference
@@ -17,13 +17,13 @@ Returns all webhooks, according to filter criteria
      - Enum: 2 = Stopped 
      - Enum: 3 = TooManyErrors 
 
-**Returns:** Array of all webhooks, filtered according to given criteria.
+**Returns:** NSWebhook[]
 
 ```crmscript
 NSWebhookAgent agent;
 String nameFilter;
 String eventFilter;
 Integer statusFilter;
-Webhook[] res = agent.GetAllWebhooks(nameFilter, eventFilter, statusFilter);
+NSWebhook[] res = agent.GetAllWebhooks(nameFilter, eventFilter, statusFilter);
 ```
 

@@ -11,7 +11,7 @@ Updates the existing NSTicketStatusEntity or creates a new NSTicketStatusEntity 
 **Parameters**:
  - **ticketStatusEntity** The NSTicketStatusEntity to save.
 
-**Returns:** New or updated NSTicketStatusEntity
+**Returns:** NSTicketStatusEntity
 
 ```crmscript
 NSList  agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteVersionWorkflowState
-title: QuoteVersionWorkflowState GetQuoteVersionWorkflowState(Integer quoteVersionId, Integer quoteAlternativeId)
+title: NSQuoteVersionWorkflowState GetQuoteVersionWorkflowState(Integer quoteVersionId, Integer quoteAlternativeId)
 intellisense: NSQuoteAgent.GetQuoteVersionWorkflowState
 keywords: NSQuoteAgent, GetQuoteVersionWorkflowState
 so.topic: reference
@@ -12,12 +12,12 @@ Get all button states for the Quote version dialog. Packages ImageState, Button 
  - **quoteVersionId** Id of the quote version to get the button states for.
  - **quoteAlternativeId** Id of the active quote alternative id.
 
-**Returns:** Workflow state information
+**Returns:** NSQuoteVersionWorkflowState
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteVersionId;
 Integer quoteAlternativeId;
-QuoteVersionWorkflowState res = agent.GetQuoteVersionWorkflowState(quoteVersionId, quoteAlternativeId);
+NSQuoteVersionWorkflowState res = agent.GetQuoteVersionWorkflowState(quoteVersionId, quoteAlternativeId);
 ```
 

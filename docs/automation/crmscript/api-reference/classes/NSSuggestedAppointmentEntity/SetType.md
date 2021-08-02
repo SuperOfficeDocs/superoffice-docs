@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSuggestedAppointmentEntity_SetType
-title: SetType(Task type)
+title: SetType(NSTask type)
 intellisense: NSSuggestedAppointmentEntity.SetType
 keywords: NSSuggestedAppointmentEntity, GetType
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Type of the suggested appointment
 
 **Parameter:** 
- - **type** Task
+ - **type** NSTask
 
 ```crmscript
 NSSuggestedAppointmentEntity thing;
-Task type;
+NSTask type;
 thing.SetType(type);
 ```
 

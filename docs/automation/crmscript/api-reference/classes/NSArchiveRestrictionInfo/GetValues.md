@@ -8,7 +8,7 @@ so.topic: reference
 
 Value(s) to test against
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

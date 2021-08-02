@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicket_SetReadStatus
-title: SetReadStatus(TicketReadStatus readStatus)
+title: SetReadStatus(Integer readStatus)
 intellisense: NSTicket.SetReadStatus
 keywords: NSTicket, GetReadStatus
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Whether the owner has read the ticket or not (red, yellow, green).
 
 **Parameter:** 
- - **readStatus** TicketReadStatus
+ - **readStatus** Integer
      - Enum: 0 = Unknown 
      - Enum: 1 = Green 
      - Enum: 2 = Yellow 
@@ -17,7 +17,7 @@ Whether the owner has read the ticket or not (red, yellow, green).
 
 ```crmscript
 NSTicket thing;
-TicketReadStatus readStatus;
+Integer readStatus;
 thing.SetReadStatus(readStatus);
 ```
 

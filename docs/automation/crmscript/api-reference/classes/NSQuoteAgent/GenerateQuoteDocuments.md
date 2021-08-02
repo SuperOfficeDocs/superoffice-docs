@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GenerateQuoteDocuments
-title: QuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
+title: NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
 intellisense: NSQuoteAgent.GenerateQuoteDocuments
 keywords: NSQuoteAgent, GenerateQuoteDocuments
 so.topic: reference
@@ -16,7 +16,7 @@ Generate all the documents required to send the Quote as an email to the prospec
  - **includeAttachments** If true, then the currently specified (in the database) attachments will be included
  - **rawMailSubject** Subject line for email, in the correct language, sent in here to have any template variables substituted
 
-**Returns:** Carrier specifying the document id's of all the documents, as well as other results
+**Returns:** NSQuotePublishDocuments
 
 ```crmscript
 NSQuoteAgent agent;
@@ -26,6 +26,6 @@ Bool attachMainDocument;
 Integer quotedProductsTemplateId;
 Bool includeAttachments;
 String rawMailSubject;
-QuotePublishDocuments res = agent.GenerateQuoteDocuments(quoteVersionId, emailBodyTemplateId, attachMainDocument, quotedProductsTemplateId, includeAttachments, rawMailSubject);
+NSQuotePublishDocuments res = agent.GenerateQuoteDocuments(quoteVersionId, emailBodyTemplateId, attachMainDocument, quotedProductsTemplateId, includeAttachments, rawMailSubject);
 ```
 

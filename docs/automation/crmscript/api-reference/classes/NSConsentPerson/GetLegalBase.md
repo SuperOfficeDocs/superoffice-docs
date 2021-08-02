@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSConsentPerson_GetLegalBase
-title: LegalBase GetLegalBase()
+title: NSLegalBase GetLegalBase()
 intellisense: NSConsentPerson.GetLegalBase
 keywords: NSConsentPerson, GetLegalBase
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The legal base
 
-**Returns:** LegalBase
+**Returns:** NSLegalBase
 
 
 ```crmscript
 NSConsentPerson thing;
-LegalBase legalBase  = thing.GetLegalBase();
+NSLegalBase legalBase  = thing.GetLegalBase();
 ```
 
 

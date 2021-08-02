@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetDocumentStream
-title: Stream GetDocumentStream(Integer documentId)
+title: NSStream GetDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetDocumentStream
 keywords: NSDocumentAgent, GetDocumentStream
 so.topic: reference
@@ -11,11 +11,11 @@ Get the document content as a stream
 **Parameters:**
  - **documentId** SuperOffice document id
 
-**Returns:** The document as a Stream. This stream can be read once and clients should not assume it remains valid after a ReadToEnd or Close.
+**Returns:** NSStream
 
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-Stream res = agent.GetDocumentStream(documentId);
+NSStream res = agent.GetDocumentStream(documentId);
 ```
 

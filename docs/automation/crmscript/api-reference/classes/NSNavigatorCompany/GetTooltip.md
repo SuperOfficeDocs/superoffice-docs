@@ -6,9 +6,9 @@ keywords: NSNavigatorCompany, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the NavigatorCompany list item.
+Get the tooltip description for the NSNavigatorCompany list item.
 
-**Returns:** String NavigatorCompany tooltip description.
+**Returns:** String NSNavigatorCompany tooltip description.
 
 ```crmscript
 NSNavigatorCompany thing;

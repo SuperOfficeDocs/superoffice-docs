@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredentialsGroupUsers_GetUsers
-title: CredentialUser[] GetUsers()
+title: NSCredentialUser[] GetUsers()
 intellisense: NSCredentialsGroupUsers.GetUsers
 keywords: NSCredentialsGroupUsers, GetUsers
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The list of actual users that can be selected
 
-**Returns:** CredentialUser[]
+**Returns:** NSCredentialUser[]
 
 
 ```crmscript
 NSCredentialsGroupUsers thing;
-CredentialUser[] users  = thing.GetUsers();
+NSCredentialUser[] users  = thing.GetUsers();
 ```
 
 

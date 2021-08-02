@@ -11,7 +11,7 @@ Takes the input stream and create a report. This stream must be on a valid xml f
 **Parameters:**
  - **report** The report to import in a correct xml format
 
-**Returns:** The id of the newly imported report
+**Returns:** Integer
 
 ```crmscript
 NSReportAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetContact
-title: Contact GetContact()
+title: NSContact GetContact()
 intellisense: NSAppointmentEntity.GetContact
 keywords: NSAppointmentEntity, GetContact
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The contact associated with the appointment. It may also be null if no contact is associated with the appointment.
 
-**Returns:** Contact
+**Returns:** NSContact
 
 
 ```crmscript
 NSAppointmentEntity thing;
-Contact contact  = thing.GetContact();
+NSContact contact  = thing.GetContact();
 ```
 
 

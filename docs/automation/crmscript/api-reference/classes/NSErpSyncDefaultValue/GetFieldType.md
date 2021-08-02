@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncDefaultValue_GetFieldType
-title: FieldMetadataType GetFieldType()
+title: NSFieldMetadataType GetFieldType()
 intellisense: NSErpSyncDefaultValue.GetFieldType
 keywords: NSErpSyncDefaultValue, GetFieldType
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Field type
 
-**Returns:** FieldMetadataType
+**Returns:** NSFieldMetadataType
 
      - Enum: 0 = Checkbox 
      - Enum: 1 = Text 
@@ -21,7 +21,7 @@ Field type
 
 ```crmscript
 NSErpSyncDefaultValue thing;
-FieldMetadataType fieldType  = thing.GetFieldType();
+NSFieldMetadataType fieldType  = thing.GetFieldType();
 ```
 
 

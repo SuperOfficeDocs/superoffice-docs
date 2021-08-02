@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSMarketingAgent_GetPreviewMailing
-title: PreviewMailing GetPreviewMailing(Integer shipmentAddrId)
+title: NSPreviewMailing GetPreviewMailing(Integer shipmentAddrId)
 intellisense: NSMarketingAgent.GetPreviewMailing
 keywords: NSMarketingAgent, GetPreviewMailing
 so.topic: reference
@@ -11,11 +11,11 @@ Get a shipment message from its shipment address id
 **Parameters:**
  - **shipmentAddrId** Shipment address id
 
-**Returns:** PreviewMailing
+**Returns:** NSPreviewMailing
 
 ```crmscript
 NSMarketingAgent agent;
 Integer shipmentAddrId;
-PreviewMailing res = agent.GetPreviewMailing(shipmentAddrId);
+NSPreviewMailing res = agent.GetPreviewMailing(shipmentAddrId);
 ```
 

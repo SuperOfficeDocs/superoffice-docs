@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_SaveActorTypeMapping
-title: ErpSyncActorTypeMapping SaveActorTypeMapping(ErpSyncActorTypeMapping mapping)
+title: NSErpSyncActorTypeMapping SaveActorTypeMapping(NSErpSyncActorTypeMapping mapping)
 intellisense: NSErpSyncAgent.SaveActorTypeMapping
 keywords: NSErpSyncAgent, SaveActorTypeMapping
 so.topic: reference
@@ -11,11 +11,11 @@ Save mappings for a connection/actor
 **Parameters:**
  - **mapping** The mapping to be saved; new mapping rows will be created in the database if needed
 
-**Returns:** The current mapping from the database
+**Returns:** NSErpSyncActorTypeMapping
 
 ```crmscript
 NSErpSyncAgent agent;
-ErpSyncActorTypeMapping mapping;
-ErpSyncActorTypeMapping res = agent.SaveActorTypeMapping(mapping);
+NSErpSyncActorTypeMapping mapping;
+NSErpSyncActorTypeMapping res = agent.SaveActorTypeMapping(mapping);
 ```
 

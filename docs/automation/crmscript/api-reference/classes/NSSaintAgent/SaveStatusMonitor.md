@@ -11,7 +11,7 @@ Updates the existing NSStatusMonitor or creates a new NSStatusMonitor if the id 
 **Parameters**:
  - **statusMonitor** The NSStatusMonitor to save.
 
-**Returns:** New or updated NSStatusMonitor
+**Returns:** NSStatusMonitor
 
 ```crmscript
 NSSaint  agent;

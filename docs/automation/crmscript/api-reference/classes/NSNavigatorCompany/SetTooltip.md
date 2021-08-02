@@ -6,7 +6,7 @@ keywords: NSNavigatorCompany, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the NavigatorCompany list item.
+Set the tooltip description for the NSNavigatorCompany list item.
 
 **Parameter:** 
  - **tooltip** String NavigatorCompany tooltip description.

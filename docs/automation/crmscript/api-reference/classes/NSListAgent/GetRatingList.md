@@ -6,16 +6,16 @@ keywords: NSListAgent, GetRatingList
 so.topic: reference
 ---
 
-Gets a vector of Rating objects.
+Gets a vector of NSRating objects.
 
 **Parameters:**
  - **ratingIds** The identifiers of the NSRating objects
 
-**Returns:** Vector of NSRating objects
+**Returns:** NSRating[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetRatingList(ids);
+NSRating[] res = agent.GetRatingList(ids);
 ```
 

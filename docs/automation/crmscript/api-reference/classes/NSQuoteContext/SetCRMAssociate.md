@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteContext_SetCRMAssociate
-title: SetCRMAssociate(Associate cRMAssociate)
+title: SetCRMAssociate(NSAssociate cRMAssociate)
 intellisense: NSQuoteContext.SetCRMAssociate
 keywords: NSQuoteContext, GetCRMAssociate
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The associate (salesman) that is logged into the CRM system.
 
 **Parameter:** 
- - **cRMAssociate** Associate
+ - **cRMAssociate** NSAssociate
 
 ```crmscript
 NSQuoteContext thing;
-Associate cRMAssociate;
+NSAssociate cRMAssociate;
 thing.SetCRMAssociate(cRMAssociate);
 ```
 

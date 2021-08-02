@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDayInformationListItem_GetActivityInformation
-title: ActivitySummary GetActivityInformation()
+title: NSActivitySummary GetActivityInformation()
 intellisense: NSDayInformationListItem.GetActivityInformation
 keywords: NSDayInformationListItem, GetActivityInformation
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Activity information summary - number of free and busy activities.
 
-**Returns:** ActivitySummary
+**Returns:** NSActivitySummary
 
 
 ```crmscript
 NSDayInformationListItem thing;
-ActivitySummary activityInformation  = thing.GetActivityInformation();
+NSActivitySummary activityInformation  = thing.GetActivityInformation();
 ```
 
 

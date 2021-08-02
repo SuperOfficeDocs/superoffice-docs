@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_GetCredentials
-title: Credential[] GetCredentials()
+title: NSCredential[] GetCredentials()
 intellisense: NSUser.GetCredentials
 keywords: NSUser, GetCredentials
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of credentials registered for this user. i.e. valid authentication methods.
 
-**Returns:** Credential[]
+**Returns:** NSCredential[]
 
 
 ```crmscript
 NSUser thing;
-Credential[] credentials  = thing.GetCredentials();
+NSCredential[] credentials  = thing.GetCredentials();
 ```
 
 

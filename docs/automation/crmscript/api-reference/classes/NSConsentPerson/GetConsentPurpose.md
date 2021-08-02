@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSConsentPerson_GetConsentPurpose
-title: ConsentPurpose GetConsentPurpose()
+title: NSConsentPurpose GetConsentPurpose()
 intellisense: NSConsentPerson.GetConsentPurpose
 keywords: NSConsentPerson, GetConsentPurpose
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The consent purpose
 
-**Returns:** ConsentPurpose
+**Returns:** NSConsentPurpose
 
 
 ```crmscript
 NSConsentPerson thing;
-ConsentPurpose consentPurpose  = thing.GetConsentPurpose();
+NSConsentPurpose consentPurpose  = thing.GetConsentPurpose();
 ```
 
 

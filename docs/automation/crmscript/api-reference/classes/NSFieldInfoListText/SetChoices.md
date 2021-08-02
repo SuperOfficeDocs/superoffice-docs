@@ -9,7 +9,7 @@ so.topic: reference
 List of items to choose from.
 
 **Parameter:** 
- - **choices** StringArray
+ - **choices** String[]
 
 ```crmscript
 NSFieldInfoListText thing;

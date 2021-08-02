@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_WillSendEmail
-title: Bool WillSendEmail(AppointmentEntity appointment)
+title: Bool WillSendEmail(NSAppointmentEntity appointment)
 intellisense: NSAppointmentAgent.WillSendEmail
 keywords: NSAppointmentAgent, WillSendEmail
 so.topic: reference
@@ -15,7 +15,7 @@ Returns true if the changes will trigger email sending on Save, so you can infor
 
 ```crmscript
 NSAppointmentAgent agent;
-AppointmentEntity appointment;
+NSAppointmentEntity appointment;
 Bool res = agent.WillSendEmail(appointment);
 ```
 

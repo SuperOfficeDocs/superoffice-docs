@@ -6,7 +6,7 @@ keywords: NSRating, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the Rating list item.
+Set the tooltip description for the NSRating list item.
 
 **Parameter:** 
  - **tooltip** String Rating tooltip description.

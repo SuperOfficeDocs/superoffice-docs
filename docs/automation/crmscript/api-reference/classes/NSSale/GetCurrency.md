@@ -6,7 +6,7 @@ keywords: NSSale, GetCurrency
 so.topic: reference
 ---
 
-Currency the sale was made in.
+NSCurrency the sale was made in.
 
 **Returns:** String
 

@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields on the AppointmentEntity as a map.
+Get the user-defined fields on the NSAppointmentEntity as a map.
 
 **Returns:** Map containing user defined field values by field prog.id.
 

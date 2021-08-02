@@ -11,11 +11,9 @@ Delete the PrefDescLines associated with Preference Description Id in the SuperO
 **Parameters:**
  - **prefDescId** Primary key of the Preference Description that contains PrefDescLines to delete
 
-**Returns:** Nothing
-
 ```crmscript
 NSPreferenceAgent agent;
 Integer prefDescId;
-Void res = agent.DeletePrefDescLinesByPrefDescId(prefDescId);
+agent.DeletePrefDescLinesByPrefDescId(prefDescId);
 ```
 

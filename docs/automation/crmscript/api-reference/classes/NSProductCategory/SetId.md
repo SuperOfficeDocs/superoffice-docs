@@ -6,10 +6,10 @@ keywords: NSProductCategory, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the ProductCategory
+Set the primary key (id) for the NSProductCategory
 
 **Parameter:** 
- - **id** Integer ProductCategory id.
+ - **id** Integer NSProductCategory id.
 
 ```crmscript
 NSProductCategory thing;

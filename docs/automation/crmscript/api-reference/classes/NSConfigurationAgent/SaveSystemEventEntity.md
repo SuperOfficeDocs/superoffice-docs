@@ -11,7 +11,7 @@ Updates the existing NSSystemEventEntity or creates a new NSSystemEventEntity if
 **Parameters**:
  - **systemEventEntity** The NSSystemEventEntity to save.
 
-**Returns:** New or updated NSSystemEventEntity
+**Returns:** NSSystemEventEntity
 
 ```crmscript
 NSConfiguration  agent;

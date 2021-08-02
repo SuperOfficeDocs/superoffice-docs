@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nsemailagent_getemailfromid
-title: EMailEntity GetEMailFromId()
+title: NSEMailEntity GetEMailFromId()
 description: CRMScript method in the NSEMailAgent class that gets an email based on its unique ID
 intellisense: NSEMailAgent.GetEMailFromId
 keywords: NSEMailAgent, GetEMailFromId, GetEMailFromId(NSEMailConnectionInfo,Integer,Bool,NSEMailFlags,Bool)
@@ -13,13 +13,13 @@ Gets an email based on its unique ID.
 
 Returns the email.
 
-`EMailEntity GetEMailFromId(EMailConnectionInfo connectionInfo, Integer messageServerId, Bool lookupAddresses, Integer flags, Bool includeAttachments)`
+`NSEMailEntity GetEMailFromId(NSEMailConnectionInfo connectionInfo, Integer messageServerId, Bool lookupAddresses, Integer flags, Bool includeAttachments)`
 
 ## Parameters
 
 | Parameter | Type | Description |
 |---|---|---|
-| connectionInfo | EMailConnectionInfo | All information needed to connect to the mail server |
+| connectionInfo | NSEMailConnectionInfo | All information needed to connect to the mail server |
 | messageServerId | Integer | Unique ID for the email to retrieve |
 | lookupAddresses | Bool | If true, try to look up email addresses in from/to/cc/bcc fields against SuperOffice contacts |
 | flags | Integer | Any flags to apply to the fetched item. For example, Seen/Answered |
@@ -41,10 +41,10 @@ Returns the email.
 
 ```crmscript
 NSEMailAgent agent;
-EMailConnectionInfo connectionInfo;
+NSEMailConnectionInfo connectionInfo;
 Integer messageServerId;
 Bool lookupAddresses;
 Integer flags;
 Bool includeAttachments;
-EMailEntity res = agent.GetEMailFromId(connectionInfo, messageServerId, lookupAddresses, flags, includeAttachments);
+NSEMailEntity res = agent.GetEMailFromId(connectionInfo, messageServerId, lookupAddresses, flags, includeAttachments);
 ```

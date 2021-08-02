@@ -20,7 +20,7 @@ Publish changed Udef fields for the given owner type
      - Enum: 13 = Document 
      - Enum: 14 = None 
 
-**Returns:** Batch task id or 0 that handles publishing.
+**Returns:** Integer
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;

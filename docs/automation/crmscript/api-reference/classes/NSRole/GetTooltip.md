@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the Role list item.
 
-**Returns:** String Role tooltip description.
+**Returns:** String
 
 ```crmscript
 NSRole thing;

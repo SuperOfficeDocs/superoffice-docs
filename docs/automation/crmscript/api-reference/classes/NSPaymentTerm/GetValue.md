@@ -6,9 +6,9 @@ keywords: NSPaymentTerm, GetValue
 so.topic: reference
 ---
 
-Get the name of the PaymentTerm.
+Get the name of the NSPaymentTerm.
 
-**Returns:** String PaymentTerm name.
+**Returns:** String NSPaymentTerm name.
 
 ```crmscript
 NSPaymentTerm thing;

@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSShipmentMessageBlockEntity
   
 **Parameters:**
- - **shipmentMessageBlockEntityId** The identity of the ShipmentMessageBlockEntity to delete.
+ - **shipmentMessageBlockEntityId** The identity of the NSShipmentMessageBlockEntity to delete.
 
 ```crmscript
 NSMarketingAgent agent;

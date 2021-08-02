@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSLicenseInfo_GetPublicKey
-title: SignedPublicKey GetPublicKey()
+title: NSSignedPublicKey GetPublicKey()
 intellisense: NSLicenseInfo.GetPublicKey
 keywords: NSLicenseInfo, GetPublicKey
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The public key used to verify licenses owned by this owner.
 
-**Returns:** SignedPublicKey
+**Returns:** NSSignedPublicKey
 
 
 ```crmscript
 NSLicenseInfo thing;
-SignedPublicKey publicKey  = thing.GetPublicKey();
+NSSignedPublicKey publicKey  = thing.GetPublicKey();
 ```
 
 

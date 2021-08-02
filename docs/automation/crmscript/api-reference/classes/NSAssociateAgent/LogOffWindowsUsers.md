@@ -16,6 +16,6 @@ Method that logs off associates that are logged on to the win client
 ```crmscript
 NSAssociateAgent agent;
 Integer[] associateIds;
-Void res = agent.LogOffWindowsUsers(associateIds);
+agent.LogOffWindowsUsers(associateIds);
 ```
 

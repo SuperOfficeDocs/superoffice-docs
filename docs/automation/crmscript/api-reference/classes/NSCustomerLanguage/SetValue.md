@@ -6,10 +6,10 @@ keywords: NSCustomerLanguage, SetValue
 so.topic: reference
 ---
 
-Set the name of the CustomerLanguage item.
+Set the name of the NSCustomerLanguage item.
 
 **Parameter:** 
- - **value** String CustomerLanguage name.
+ - **value** String NSCustomerLanguage name.
 
 ```crmscript
 NSCustomerLanguage thing;

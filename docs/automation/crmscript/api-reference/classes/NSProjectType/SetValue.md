@@ -6,10 +6,10 @@ keywords: NSProjectType, SetValue
 so.topic: reference
 ---
 
-Set the name of the ProjectType item.
+Set the name of the NSProjectType item.
 
 **Parameter:** 
- - **value** String ProjectType name.
+ - **value** String NSProjectType name.
 
 ```crmscript
 NSProjectType thing;

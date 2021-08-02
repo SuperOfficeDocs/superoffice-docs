@@ -6,10 +6,10 @@ keywords: NSProductCategory, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the ProductCategory list item.
+Set the tooltip description for the NSProductCategory list item.
 
 **Parameter:** 
- - **tooltip** String ProductCategory tooltip description.
+ - **tooltip** String NSProductCategory tooltip description.
 
 ```crmscript
 NSProductCategory thing;

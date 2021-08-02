@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetVisibleFor
-title: VisibleFor[] GetVisibleFor()
+title: NSVisibleFor[] GetVisibleFor()
 intellisense: NSSaleEntity.GetVisibleFor
 keywords: NSSaleEntity, GetVisibleFor
 so.topic: reference
@@ -8,10 +8,10 @@ so.topic: reference
 
 Return the usergroups and/or users the SaleEntity item is visible for.
 
-**Returns:** Visible for array.
+**Returns:** NSVisibleFor[]
 
 ```crmscript
 NSSaleEntity thing;
-VisibleFor[] visibleFor = thing.GetVisibleFor();
+NSVisibleFor[] visibleFor = thing.GetVisibleFor();
 ```
 

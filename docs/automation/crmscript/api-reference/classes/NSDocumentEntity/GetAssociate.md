@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentEntity_GetAssociate
-title: Associate GetAssociate()
+title: NSAssociate GetAssociate()
 intellisense: NSDocumentEntity.GetAssociate
 keywords: NSDocumentEntity, GetAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The owner of the document - the associate whose checklist the document is in.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSDocumentEntity thing;
-Associate associate  = thing.GetAssociate();
+NSAssociate associate  = thing.GetAssociate();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreference_GetSpecification
-title: PreferenceSpec GetSpecification()
+title: NSPreferenceSpec GetSpecification()
 intellisense: NSPreference.GetSpecification
 keywords: NSPreference, GetSpecification
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Preference specification, consisting of the section name and key name
 
-**Returns:** PreferenceSpec
+**Returns:** NSPreferenceSpec
 
 
 ```crmscript
 NSPreference thing;
-PreferenceSpec specification  = thing.GetSpecification();
+NSPreferenceSpec specification  = thing.GetSpecification();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_IsUserNameValidWithReason
-title: UserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
+title: NSUserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.IsUserNameValidWithReason
 keywords: NSUserAgent, IsUserNameValidWithReason
 so.topic: reference
@@ -19,3 +19,5 @@ so.topic: reference
      - Enum: 5 = SystemAssociate 
  - **personId** 
  - **userName** 
+
+**Returns:** NSUserValidationResult

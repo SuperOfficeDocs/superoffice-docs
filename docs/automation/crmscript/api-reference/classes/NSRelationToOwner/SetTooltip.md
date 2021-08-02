@@ -6,10 +6,10 @@ keywords: NSRelationToOwner, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the RelationToOwner list item.
+Set the tooltip description for the NSRelationToOwner list item.
 
 **Parameter:** 
- - **tooltip** String RelationToOwner tooltip description.
+ - **tooltip** String NSRelationToOwner tooltip description.
 
 ```crmscript
 NSRelationToOwner thing;

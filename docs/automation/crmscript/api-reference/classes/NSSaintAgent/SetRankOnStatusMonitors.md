@@ -12,12 +12,10 @@ Set rank order on status monitors
  - **type** Type of status monitors to reorder ("contact", "project", etc.)
  - **itemsIds** The ids of the items in the order you want
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSSaintAgent agent;
 String type;
 Integer[] itemsIds;
-Void res = agent.SetRankOnStatusMonitors(type, itemsIds);
+agent.SetRankOnStatusMonitors(type, itemsIds);
 ```
 

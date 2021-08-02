@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketMessageEntity_GetTicket
-title: Ticket GetTicket()
+title: NSTicket GetTicket()
 intellisense: NSTicketMessageEntity.GetTicket
 keywords: NSTicketMessageEntity, GetTicket
 so.topic: reference
@@ -13,7 +13,7 @@ The connected ticket
 
 ```crmscript
 NSTicketMessageEntity thing;
-Ticket ticket  = thing.GetTicket();
+NSTicket ticket  = thing.GetTicket();
 ```
 
 

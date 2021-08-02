@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_GetFavoritesPhones
-title: PhoneListItem[] GetFavoritesPhones()
+title: NSPhoneListItem[] GetFavoritesPhones()
 intellisense: NSPhoneListAgent.GetFavoritesPhones
 keywords: NSPhoneListAgent, GetFavoritesPhones
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns an array of phone list items with the Contacts in the users favorites dropdown list.
 
 
-**Returns:** The favorite contact phone list
+**Returns:** NSPhoneListItem[]
 
 ```crmscript
 NSPhoneListAgent agent;
-PhoneListItem[] res = agent.GetFavoritesPhones();
+NSPhoneListItem[] res = agent.GetFavoritesPhones();
 ```
 

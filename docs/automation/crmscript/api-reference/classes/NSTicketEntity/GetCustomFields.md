@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the user-defined + extra fields on a TicketEntity as a map.
 
-**Returns:** Map containing user defined and extra field values by field name.
+**Returns:** Map
 
 ```crmscript
 NSTicketEntity thing;

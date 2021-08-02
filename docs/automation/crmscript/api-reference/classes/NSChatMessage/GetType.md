@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatMessage_GetType
-title: ChatMessageType GetType()
+title: NSChatMessageType GetType()
 intellisense: NSChatMessage.GetType
 keywords: NSChatMessage, GetType
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 The type of the message.
 
-**Returns:** ChatMessageType
+**Returns:** NSChatMessageType
 
      - Enum: 0 = Invalid 
      - Enum: 1 = ToCustomer 
@@ -17,7 +17,7 @@ The type of the message.
 
 ```crmscript
 NSChatMessage thing;
-ChatMessageType type  = thing.GetType();
+NSChatMessageType type  = thing.GetType();
 ```
 
 

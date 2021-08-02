@@ -11,7 +11,7 @@ Check if a CS session is valid
 **Parameters:**
  - **csSessionKey** The CS session key to check
 
-**Returns:** True if there is a valid CS session based on the session key
+**Returns:** Bool
 
 ```crmscript
 NSCustomerServiceAgent agent;

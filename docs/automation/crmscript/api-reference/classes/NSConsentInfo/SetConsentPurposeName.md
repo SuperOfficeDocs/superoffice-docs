@@ -6,7 +6,7 @@ keywords: NSConsentInfo, GetConsentPurposeName
 so.topic: reference
 ---
 
-Name of the ConsentPurpose associated with this consent
+Name of the NSConsentPurpose associated with this consent
 
 **Parameter:** 
  - **consentPurposeName** String

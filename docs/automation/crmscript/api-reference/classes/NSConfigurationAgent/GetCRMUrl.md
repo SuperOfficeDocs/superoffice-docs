@@ -13,7 +13,7 @@ Returns a valid url based in the soprotocol provided
  - **currents** currents to set. Eg. contact_id=100&person_id=299
  - **frameless** If true frame is not rendered( Navigationbar, buttonbar and menu )
 
-**Returns:** Url with soprotocol
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

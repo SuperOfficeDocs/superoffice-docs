@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketPriorityEntity_GetFlags
-title: TicketPriorityFlags GetFlags()
+title: Integer GetFlags()
 intellisense: NSTicketPriorityEntity.GetFlags
 keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 A bitmask of flags.
 
-**Returns:** TicketPriorityFlags
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = External 
@@ -17,7 +17,7 @@ A bitmask of flags.
 
 ```crmscript
 NSTicketPriorityEntity thing;
-TicketPriorityFlags flags  = thing.GetFlags();
+Integer flags  = thing.GetFlags();
 ```
 
 

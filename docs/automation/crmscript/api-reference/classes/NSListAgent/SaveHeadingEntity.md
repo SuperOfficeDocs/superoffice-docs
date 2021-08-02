@@ -11,7 +11,7 @@ Updates the existing NSHeadingEntity or creates a new NSHeadingEntity if the id 
 **Parameters**:
  - **headingEntity** The NSHeadingEntity to save.
 
-**Returns:** New or updated NSHeadingEntity
+**Returns:** NSHeadingEntity
 
 ```crmscript
 NSList  agent;

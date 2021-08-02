@@ -6,10 +6,10 @@ keywords: NSRelationToOwner, SetValue
 so.topic: reference
 ---
 
-Set the name of the RelationToOwner item.
+Set the name of the NSRelationToOwner item.
 
 **Parameter:** 
- - **value** String RelationToOwner name.
+ - **value** String NSRelationToOwner name.
 
 ```crmscript
 NSRelationToOwner thing;

@@ -21,12 +21,10 @@ Remove a hierarchy item and its children from a path
      - Enum: 8 = Dashboards 
  - **path** Hierarchy path to item to delete
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer domain;
 String path;
-Void res = agent.DeleteHierarchyFromPath(domain, path);
+agent.DeleteHierarchyFromPath(domain, path);
 ```
 

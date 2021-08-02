@@ -11,7 +11,7 @@ Will get the default URL used for the logo, from the [NetServices] PageUrl prefe
 **Parameters:**
  - **client** The name for the client application, like 'CS' or 'SM.web', used for the <clie> variable
 
-**Returns:** URL to be used when clicking the logo
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

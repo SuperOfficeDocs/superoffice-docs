@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_SetDefaultProjectImage
-title: Void SetDefaultProjectImage(String layoutName, Image image)
+title: Void SetDefaultProjectImage(String layoutName, NSImage image)
 intellisense: NSAudienceAgent.SetDefaultProjectImage
 keywords: NSAudienceAgent, SetDefaultProjectImage
 so.topic: reference

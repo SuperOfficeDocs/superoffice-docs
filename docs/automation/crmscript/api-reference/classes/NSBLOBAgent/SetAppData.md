@@ -18,6 +18,6 @@ Get a CLOB (limited to a reasonable size by the mechanics of Web Services) accor
 NSBLOBAgent agent;
 String key;
 String data;
-Void res = agent.SetAppData(key, data);
+agent.SetAppData(key, data);
 ```
 

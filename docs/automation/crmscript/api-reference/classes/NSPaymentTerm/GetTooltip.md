@@ -6,9 +6,9 @@ keywords: NSPaymentTerm, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the PaymentTerm list item.
+Get the tooltip description for the NSPaymentTerm list item.
 
-**Returns:** String PaymentTerm tooltip description.
+**Returns:** String NSPaymentTerm tooltip description.
 
 ```crmscript
 NSPaymentTerm thing;

@@ -11,10 +11,10 @@ Updates the existing NSTicketEntity or creates a new NSTicketEntity if the id pa
 **Parameters**:
  - **ticketEntity** The NSTicketEntity to save.
 
-**Returns:** New or updated NSTicketEntity
+**Returns:** NNSTicketEntity
 
 ```crmscript
-NSTicket  agent;
+NSTicketAgent agent;
 NSTicketEntity thing = agent.CreateDefaultTicketEntity();
 thing = agent.SaveTicketEntity(thing);
 ```

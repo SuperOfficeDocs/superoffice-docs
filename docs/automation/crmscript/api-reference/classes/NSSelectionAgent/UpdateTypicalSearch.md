@@ -11,7 +11,7 @@ Update (import) TypicalSearch information in the database
 **Parameters:**
  - **searches** TypicalSearch structures to import. If null, then the fileset is scanned for *TypicalSearch.json files and those are imported instead
 
-**Returns:** Message that can be shown to the user, summarizing what has been done, if anything.
+**Returns:** String
 
 ```crmscript
 NSSelectionAgent agent;

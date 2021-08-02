@@ -6,10 +6,10 @@ keywords: NSCategory, SetValue
 so.topic: reference
 ---
 
-Set the name of the Category item.
+Set the name of the NSCategory item.
 
 **Parameter:** 
- - **value** String Category name.
+ - **value** String NSCategory name.
 
 ```crmscript
 NSCategory thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetDocumentTemplateStream
-title: DocumentTemplateEntity SetDocumentTemplateStream(DocumentTemplateEntity documentTemplateEntity, Stream stream, String languageCode, Integer pluginId)
+title: NSDocumentTemplateEntity SetDocumentTemplateStream(NSDocumentTemplateEntity documentTemplateEntity, NSStream stream, String languageCode, Integer pluginId)
 intellisense: NSListAgent.SetDocumentTemplateStream
 keywords: NSListAgent, SetDocumentTemplateStream
 so.topic: reference
@@ -14,14 +14,14 @@ Store a document template from its stream. Since there is a potential for a name
  - **languageCode** The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used.
  - **pluginId** The plugin id to store the template with. 0 for SOArc
 
-**Returns:** Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+**Returns:** NSDocumentTemplateEntity
 
 ```crmscript
 NSListAgent agent;
-DocumentTemplateEntity documentTemplateEntity;
-Stream stream;
+NSDocumentTemplateEntity documentTemplateEntity;
+NSStream stream;
 String languageCode;
 Integer pluginId;
-DocumentTemplateEntity res = agent.SetDocumentTemplateStream(documentTemplateEntity, stream, languageCode, pluginId);
+NSDocumentTemplateEntity res = agent.SetDocumentTemplateStream(documentTemplateEntity, stream, languageCode, pluginId);
 ```
 

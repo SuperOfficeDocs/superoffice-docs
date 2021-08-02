@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveConfiguration
-title: ArchiveConfiguration GetArchiveConfiguration(String guiName, String providerName)
+title: NSArchiveConfiguration GetArchiveConfiguration(String guiName, String providerName)
 intellisense: NSArchiveAgent.GetArchiveConfiguration
 keywords: NSArchiveAgent, GetArchiveConfiguration
 so.topic: reference
@@ -18,6 +18,6 @@ Get the configuration for one archive. The configuration is keyed by a combinati
 NSArchiveAgent agent;
 String guiName;
 String providerName;
-ArchiveConfiguration res = agent.GetArchiveConfiguration(guiName, providerName);
+NSArchiveConfiguration res = agent.GetArchiveConfiguration(guiName, providerName);
 ```
 

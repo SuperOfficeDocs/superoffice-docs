@@ -11,7 +11,7 @@ Check if we are right now within the opening hours of the given topic. Will use 
 **Parameters:**
  - **chatTopicId** The id of the topic to check
 
-**Returns:** True if we are within opening hours, or if the topic does not use opening hours
+**Returns:** Bool
 
 ```crmscript
 NSChatAgent agent;

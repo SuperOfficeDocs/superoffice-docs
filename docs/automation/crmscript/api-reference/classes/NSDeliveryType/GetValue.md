@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the DeliveryType.
 
-**Returns:** String DeliveryType name.
+**Returns:** String
 
 ```crmscript
 NSDeliveryType thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByTemplateHeading
-title: Document[] GetPersonDocumentsByTemplateHeading(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+title: NSDocument[] GetPersonDocumentsByTemplateHeading(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateHeading
 keywords: NSDocumentAgent, GetPersonDocumentsByTemplateHeading
 so.topic: reference
@@ -16,7 +16,7 @@ Method that returns a specified number of document appointments within a time ra
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
  - **templateHeadingId** The document template heading id. The heading represents a grouping or filtering of document templates.
 
-**Returns:** Array of Appointments.
+**Returns:** NSDocument[]
 
 ```crmscript
 NSDocumentAgent agent;
@@ -26,6 +26,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer templateHeadingId;
-Document[] res = agent.GetPersonDocumentsByTemplateHeading(personId, includeProjectDocuments, startTime, endTime, count, templateHeadingId);
+NSDocument[] res = agent.GetPersonDocumentsByTemplateHeading(personId, includeProjectDocuments, startTime, endTime, count, templateHeadingId);
 ```
 

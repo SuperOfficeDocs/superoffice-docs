@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectTypeEntity_GetDurationUnit
-title: DurationUnit GetDurationUnit()
+title: Integer GetDurationUnit()
 intellisense: NSProjectTypeEntity.GetDurationUnit
 keywords: NSProjectTypeEntity, GetDurationUnit
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Units for the duration
 
-**Returns:** DurationUnit
+**Returns:** Integer
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Second 
@@ -26,7 +26,7 @@ Units for the duration
 
 ```crmscript
 NSProjectTypeEntity thing;
-DurationUnit durationUnit  = thing.GetDurationUnit();
+Integer durationUnit  = thing.GetDurationUnit();
 ```
 
 

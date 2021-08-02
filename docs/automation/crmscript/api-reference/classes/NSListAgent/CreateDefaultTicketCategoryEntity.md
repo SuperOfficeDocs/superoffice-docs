@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSTicketCategoryEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSTicketCategoryEntity with default values.
+**Returns:** NSTicketCategoryEntity
 
 ```crmscript
 NSListAgent agent;

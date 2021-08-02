@@ -6,10 +6,10 @@ keywords: NSProductFamily, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the ProductFamily
+Set the primary key (id) for the NSProductFamily
 
 **Parameter:** 
- - **id** Integer ProductFamily id.
+ - **id** Integer NSProductFamily id.
 
 ```crmscript
 NSProductFamily thing;

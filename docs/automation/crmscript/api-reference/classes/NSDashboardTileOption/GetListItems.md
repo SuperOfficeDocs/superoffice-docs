@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardTileOption_GetListItems
-title: MDOListItem[] GetListItems()
+title: NSMDOListItem[] GetListItems()
 intellisense: NSDashboardTileOption.GetListItems
 keywords: NSDashboardTileOption, GetListItems
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List options given directly, not via MDO list name
 
-**Returns:** MDOListItem[]
+**Returns:** NSMDOListItem[]
 
 
 ```crmscript
 NSDashboardTileOption thing;
-MDOListItem[] listItems  = thing.GetListItems();
+NSMDOListItem[] listItems  = thing.GetListItems();
 ```
 
 

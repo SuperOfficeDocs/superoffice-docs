@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBLOBAgent_SaveProjectImage
-title: Void SaveProjectImage(String description, Image image)
+title: Void SaveProjectImage(String description, NSImage image)
 intellisense: NSBLOBAgent.SaveProjectImage
 keywords: NSBLOBAgent, SaveProjectImage
 so.topic: reference

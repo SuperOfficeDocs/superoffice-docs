@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_GetOtherGroups
-title: UserGroup[] GetOtherGroups()
+title: NSUserGroup[] GetOtherGroups()
 intellisense: NSUser.GetOtherGroups
 keywords: NSUser, GetOtherGroups
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The other groups this user is a member of, apart from the main user group.
 
-**Returns:** UserGroup[]
+**Returns:** NSUserGroup[]
 
 
 ```crmscript
 NSUser thing;
-UserGroup[] otherGroups  = thing.GetOtherGroups();
+NSUserGroup[] otherGroups  = thing.GetOtherGroups();
 ```
 
 

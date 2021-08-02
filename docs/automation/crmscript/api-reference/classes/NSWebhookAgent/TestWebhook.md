@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSWebhookAgent_TestWebhook
-title: WebhookResult TestWebhook(Webhook webhook)
+title: NSWebhookResult TestWebhook(NSWebhook webhook)
 intellisense: NSWebhookAgent.TestWebhook
 keywords: NSWebhookAgent, TestWebhook
 so.topic: reference
@@ -9,13 +9,13 @@ so.topic: reference
 Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
 
 **Parameters:**
- - **webhook** Webhook definition to ping. Must contain a valid TargetUrl.
+ - **webhook** NSWebhook definition to ping. Must contain a valid TargetUrl.
 
-**Returns:** Result of calling webhook. Sucess=true/false + Error message
+**Returns:** NSWebhookResult
 
 ```crmscript
 NSWebhookAgent agent;
-Webhook webhook;
-WebhookResult res = agent.TestWebhook(webhook);
+NSWebhook webhook;
+NSWebhookResult res = agent.TestWebhook(webhook);
 ```
 

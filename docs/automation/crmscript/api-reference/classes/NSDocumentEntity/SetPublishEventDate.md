@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, SetPublishEventDate
 so.topic: reference
 ---
 
-Publish event date on DocumentEntity.
+Publish event date on NSDocumentEntity.
 
 **Parameter:** 
  - **publishDate** DateTime.

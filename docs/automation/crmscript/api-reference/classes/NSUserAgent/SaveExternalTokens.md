@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_SaveExternalTokens
-title: String SaveExternalTokens(TokenManagementInfo tokenManagementInfo)
+title: String SaveExternalTokens(NSTokenManagementInfo tokenManagementInfo)
 intellisense: NSUserAgent.SaveExternalTokens
 keywords: NSUserAgent, SaveExternalTokens
 so.topic: reference
@@ -11,11 +11,11 @@ Saves the external tokens to the DB and returns a key that can be used to retrie
 **Parameters:**
  - **tokenManagementInfo** Token information.
 
-**Returns:** Key that can be used to retrieve the tokens
+**Returns:** String
 
 ```crmscript
 NSUserAgent agent;
-TokenManagementInfo tokenManagementInfo;
+NSTokenManagementInfo tokenManagementInfo;
 String res = agent.SaveExternalTokens(tokenManagementInfo);
 ```
 

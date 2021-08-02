@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDashboardAgent_GetStandardDashboardTileFromChartId
-title: DashboardTile GetStandardDashboardTileFromChartId(String chartId)
+title: NSDashboardTile GetStandardDashboardTileFromChartId(String chartId)
 intellisense: NSDashboardAgent.GetStandardDashboardTileFromChartId
 keywords: NSDashboardAgent, GetStandardDashboardTileFromChartId
 so.topic: reference
@@ -11,11 +11,11 @@ Gets the standard tile (not personal tile) corresponding to the given chart id
 **Parameters:**
  - **chartId** The ChartId of the wanted chart/tile
 
-**Returns:** Standard tile
+**Returns:** NSDashboardTile
 
 ```crmscript
 NSDashboardAgent agent;
 String chartId;
-DashboardTile res = agent.GetStandardDashboardTileFromChartId(chartId);
+NSDashboardTile res = agent.GetStandardDashboardTileFromChartId(chartId);
 ```
 

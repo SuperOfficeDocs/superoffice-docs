@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_class_nscustomerserviceagent_getstatistics
-title: StatisticsDataSet[] GetStatistics()
+title: NSStatisticsDataSet[] GetStatistics()
 description: CRMScript method in the NSCustomerServiceAgent class that returns the calculated results for the required statistics for the Service Status page
 intellisense: NSCustomerServiceAgent.GetStatistics
 keywords: NSCustomerServiceAgent, GetStatistics, GetStatistics(NSStatusScreenPanelType[])
@@ -48,6 +48,6 @@ Returns an array of `StatisticsDataSet`.
 
 ```crmscript
 NSCustomerServiceAgent agent;
-StatusScreenPanelType[] functions;
-StatisticsDataSet[] res = agent.GetStatistics(functions);
+NSStatusScreenPanelType[] functions;
+NSStatisticsDataSet[] res = agent.GetStatistics(functions);
 ```

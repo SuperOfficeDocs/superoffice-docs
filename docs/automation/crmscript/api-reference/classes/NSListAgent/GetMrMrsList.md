@@ -6,16 +6,16 @@ keywords: NSListAgent, GetMrMrsList
 so.topic: reference
 ---
 
-Gets a vector of MrMrs objects.
+Gets a vector of NSMrMrs objects.
 
 **Parameters:**
  - **mrMrsIds** The identifiers of the NSMrMrs objects
 
-**Returns:** Vector of NSMrMrs objects
+**Returns:** NSMrMrs[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetMrMrsList(ids);
+NSMrMrs[] res = agent.GetMrMrsList(ids);
 ```
 

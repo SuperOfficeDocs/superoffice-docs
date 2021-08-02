@@ -6,10 +6,10 @@ keywords: NSPosition, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Position
+Set the primary key (id) for the NSPosition
 
 **Parameter:** 
- - **id** Integer Position id.
+ - **id** Integer NSPosition id.
 
 ```crmscript
 NSPosition thing;

@@ -6,10 +6,10 @@ keywords: NSCompetitor, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Competitor
+Set the primary key (id) for the NSCompetitor
 
 **Parameter:** 
- - **id** Integer Competitor id.
+ - **id** Integer NSCompetitor id.
 
 ```crmscript
 NSCompetitor thing;

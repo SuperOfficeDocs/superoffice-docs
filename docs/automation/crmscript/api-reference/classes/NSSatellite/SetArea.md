@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_SetArea
-title: SetArea(Area area)
+title: SetArea(NSArea area)
 intellisense: NSSatellite.SetArea
 keywords: NSSatellite, GetArea
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **area** Area
+ - **area** NSArea
 
 ```crmscript
 NSSatellite thing;
-Area area;
+NSArea area;
 thing.SetArea(area);
 ```
 

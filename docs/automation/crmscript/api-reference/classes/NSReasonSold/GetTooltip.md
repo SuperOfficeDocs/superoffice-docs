@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the ReasonSold list item.
 
-**Returns:** String ReasonSold tooltip description.
+**Returns:** String
 
 ```crmscript
 NSReasonSold thing;

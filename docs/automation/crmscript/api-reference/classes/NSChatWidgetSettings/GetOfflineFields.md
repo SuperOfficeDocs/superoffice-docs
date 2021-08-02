@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatWidgetSettings_GetOfflineFields
-title: WidgetRequiredFields GetOfflineFields()
+title: NSWidgetRequiredFields GetOfflineFields()
 intellisense: NSChatWidgetSettings.GetOfflineFields
 keywords: NSChatWidgetSettings, GetOfflineFields
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Required field when creating ticket in offline mode
 
-**Returns:** WidgetRequiredFields
+**Returns:** NSWidgetRequiredFields
 
      - Enum: 0 = None 
      - Enum: 1 = Email 
@@ -18,7 +18,7 @@ Required field when creating ticket in offline mode
 
 ```crmscript
 NSChatWidgetSettings thing;
-WidgetRequiredFields offlineFields  = thing.GetOfflineFields();
+NSWidgetRequiredFields offlineFields  = thing.GetOfflineFields();
 ```
 
 

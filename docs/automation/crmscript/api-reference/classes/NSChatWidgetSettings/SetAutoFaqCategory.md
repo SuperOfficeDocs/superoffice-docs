@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatWidgetSettings_SetAutoFaqCategory
-title: SetAutoFaqCategory(KbCategory autoFaqCategory)
+title: SetAutoFaqCategory(NSKbCategory autoFaqCategory)
 intellisense: NSChatWidgetSettings.SetAutoFaqCategory
 keywords: NSChatWidgetSettings, GetAutoFaqCategory
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Root folder for FAQ suggestions
 
 **Parameter:** 
- - **autoFaqCategory** KbCategory
+ - **autoFaqCategory** NSKbCategory
 
 ```crmscript
 NSChatWidgetSettings thing;
-KbCategory autoFaqCategory;
+NSKbCategory autoFaqCategory;
 thing.SetAutoFaqCategory(autoFaqCategory);
 ```
 

@@ -8,7 +8,7 @@ so.topic: reference
 
 Columns, matching CredentialUsers.Headings
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

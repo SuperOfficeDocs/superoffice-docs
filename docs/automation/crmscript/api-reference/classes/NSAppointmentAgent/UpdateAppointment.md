@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_UpdateAppointment
-title: Appointment UpdateAppointment(Integer id, DateTime startTime, DateTime endTime, Integer status, Integer type, Integer associateId)
+title: NSAppointment UpdateAppointment(Integer id, DateTime startTime, DateTime endTime, Integer status, Integer type, Integer associateId)
 intellisense: NSAppointmentAgent.UpdateAppointment
 keywords: NSAppointmentAgent, UpdateAppointment
 so.topic: reference

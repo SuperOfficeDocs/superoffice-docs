@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSWebhook_GetUpdatedAssociate
-title: Associate GetUpdatedAssociate()
+title: NSAssociate GetUpdatedAssociate()
 intellisense: NSWebhook.GetUpdatedAssociate
 keywords: NSWebhook, GetUpdatedAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The user that last updated the webhook.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSWebhook thing;
-Associate updatedAssociate  = thing.GetUpdatedAssociate();
+NSAssociate updatedAssociate  = thing.GetUpdatedAssociate();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetPrivatePhones
-title: SetPrivatePhones(EntityElement[] privatePhones)
+title: SetPrivatePhones(NSEntityElement[] privatePhones)
 intellisense: NSPersonEntity.SetPrivatePhones
 keywords: NSPersonEntity, GetPrivatePhones
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Returns a collection of phone numbers that belong to the contact person.
 
 **Parameter:** 
- - **privatePhones** EntityElement[]
+ - **privatePhones** NSEntityElement[]
 
 ```crmscript
 NSPersonEntity thing;
-EntityElement[] privatePhones;
+NSEntityElement[] privatePhones;
 thing.SetPrivatePhones(privatePhones);
 ```
 

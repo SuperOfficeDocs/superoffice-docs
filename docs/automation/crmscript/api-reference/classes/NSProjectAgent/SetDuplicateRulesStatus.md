@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_SetDuplicateRulesStatus
-title: Void SetDuplicateRulesStatus(DuplicateRule[] rules)
+title: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
 intellisense: NSProjectAgent.SetDuplicateRulesStatus
 keywords: NSProjectAgent, SetDuplicateRulesStatus
 so.topic: reference

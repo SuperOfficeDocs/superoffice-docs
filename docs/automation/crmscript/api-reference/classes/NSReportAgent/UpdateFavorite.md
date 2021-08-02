@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSReportAgent_UpdateFavorite
-title: ReportEntity UpdateFavorite(ReportEntity reportEntity)
+title: NSReportEntity UpdateFavorite(NSReportEntity reportEntity)
 intellisense: NSReportAgent.UpdateFavorite
 keywords: NSReportAgent, UpdateFavorite
 so.topic: reference
@@ -11,11 +11,11 @@ Updates the favorite.
 **Parameters:**
  - **reportEntity** ReportEntity carrier containg updated data.
 
-**Returns:** The updated ReportEntity carrier.
+**Returns:** NSReportEntity
 
 ```crmscript
 NSReportAgent agent;
-ReportEntity reportEntity;
-ReportEntity res = agent.UpdateFavorite(reportEntity);
+NSReportEntity reportEntity;
+NSReportEntity res = agent.UpdateFavorite(reportEntity);
 ```
 

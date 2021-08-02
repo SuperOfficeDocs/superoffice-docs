@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPocketStartupData_GetTableRights
-title: ETableRight[] GetTableRights()
+title: Integer[] GetTableRights()
 intellisense: NSPocketStartupData.GetTableRights
 keywords: NSPocketStartupData, GetTableRights
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 List of tablerights for logged in user, in the same order as the Tables array parameter
 
-**Returns:** ETableRight[]
+**Returns:** Integer[]
 
      - Enum: 0 = None 
      - Enum: 1 = Select 
@@ -33,7 +33,7 @@ List of tablerights for logged in user, in the same order as the Tables array pa
 
 ```crmscript
 NSPocketStartupData thing;
-ETableRight[] tableRights  = thing.GetTableRights();
+Integer[] tableRights  = thing.GetTableRights();
 ```
 
 

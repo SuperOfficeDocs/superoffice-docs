@@ -6,9 +6,9 @@ keywords: NSProjectStatus, GetValue
 so.topic: reference
 ---
 
-Get the name of the ProjectStatus.
+Get the name of the NSProjectStatus.
 
-**Returns:** String ProjectStatus name.
+**Returns:** String NSProjectStatus name.
 
 ```crmscript
 NSProjectStatus thing;

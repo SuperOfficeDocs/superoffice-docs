@@ -6,9 +6,9 @@ keywords: NSPosition, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the Position list item.
+Get the tooltip description for the NSPosition list item.
 
-**Returns:** String Position tooltip description.
+**Returns:** String NSPosition tooltip description.
 
 ```crmscript
 NSPosition thing;

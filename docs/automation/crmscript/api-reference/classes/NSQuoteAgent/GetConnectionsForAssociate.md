@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetConnectionsForAssociate
-title: QuoteConnection[] GetConnectionsForAssociate(Integer associateId)
+title: NSQuoteConnection[] GetConnectionsForAssociate(Integer associateId)
 intellisense: NSQuoteAgent.GetConnectionsForAssociate
 keywords: NSQuoteAgent, GetConnectionsForAssociate
 so.topic: reference
@@ -11,11 +11,11 @@ Returns all connections available for the specified user.
 **Parameters:**
  - **associateId** Primary key of the user
 
-**Returns:** The connections
+**Returns:** NSQuoteConnection[]
 
 ```crmscript
 NSQuoteAgent agent;
 Integer associateId;
-QuoteConnection[] res = agent.GetConnectionsForAssociate(associateId);
+NSQuoteConnection[] res = agent.GetConnectionsForAssociate(associateId);
 ```
 

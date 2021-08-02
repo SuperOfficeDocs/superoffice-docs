@@ -6,9 +6,9 @@ keywords: NSTicketCategory, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the TicketCategory
+Get the primary key (id) for the NSTicketCategory
 
-**Returns:** Integer TicketCategory id.
+**Returns:** Integer
 
 ```crmscript
 NSTicketCategory thing;

@@ -12,12 +12,10 @@ Set ticket categories for one user group
  - **userGroupId** The ids of the user groups we want tickets categories from
  - **categoryIds** The ids of the user groups we want tickets categories from
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer userGroupId;
 Integer[] categoryIds;
-Void res = agent.SetTicketCategoriesForUserGroup(userGroupId, categoryIds);
+agent.SetTicketCategoriesForUserGroup(userGroupId, categoryIds);
 ```
 

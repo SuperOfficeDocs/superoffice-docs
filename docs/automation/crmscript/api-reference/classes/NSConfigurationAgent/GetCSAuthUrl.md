@@ -14,7 +14,7 @@ Will generate an url to the emarketing module
  - **action** Here you can optionally specify the action for the current program. This will enable you to go to a specific screen.
  - **extraParameters** If an action is specified, you can specify extra parameters here. This can be used to set specific behaviour for the chosen screen/action. If an empty action is supplied, this parameter will be ignored.
 
-**Returns:** Returns a valid CS URL composed of the give parameters.
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

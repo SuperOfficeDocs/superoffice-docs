@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetCustomerLanguage
-title: SetCustomerLanguage(CustomerLanguage customerLanguage)
+title: SetCustomerLanguage(NSCustomerLanguage customerLanguage)
 intellisense: NSContactEntity.SetCustomerLanguage
 keywords: NSContactEntity, GetCustomerLanguage
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 customerlanguage
 
 **Parameter:** 
- - **customerLanguage** CustomerLanguage
+ - **customerLanguage** NSCustomerLanguage
 
 ```crmscript
 NSContactEntity thing;
-CustomerLanguage customerLanguage;
+NSCustomerLanguage customerLanguage;
 thing.SetCustomerLanguage(customerLanguage);
 ```
 

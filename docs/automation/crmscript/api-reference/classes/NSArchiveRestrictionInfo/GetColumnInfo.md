@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSArchiveRestrictionInfo_GetColumnInfo
-title: ArchiveColumnInfo GetColumnInfo()
+title: NSArchiveColumnInfo GetColumnInfo()
 intellisense: NSArchiveRestrictionInfo.GetColumnInfo
 keywords: NSArchiveRestrictionInfo, GetColumnInfo
 so.topic: reference
 ---
 
-Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true
+Optional complete NSArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true
 
-**Returns:** ArchiveColumnInfo
+**Returns:** NSArchiveColumnInfo
 
 
 ```crmscript
 NSArchiveRestrictionInfo thing;
-ArchiveColumnInfo columnInfo  = thing.GetColumnInfo();
+NSArchiveColumnInfo columnInfo  = thing.GetColumnInfo();
 ```
 
 

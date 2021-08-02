@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_GetAddress
-title: Address GetAddress()
+title: NSAddress GetAddress()
 intellisense: NSContactEntity.GetAddress
 keywords: NSContactEntity, GetAddress
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Address
+**Returns:** NSAddress
 
 
 ```crmscript
 NSContactEntity thing;
-Address address  = thing.GetAddress();
+NSAddress address  = thing.GetAddress();
 ```
 
 

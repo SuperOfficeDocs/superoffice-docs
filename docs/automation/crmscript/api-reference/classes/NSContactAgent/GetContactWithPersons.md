@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetContactWithPersons
-title: ContactEntity GetContactWithPersons(Integer contactId)
+title: NSContactEntity GetContactWithPersons(Integer contactId)
 intellisense: NSContactAgent.GetContactWithPersons
 keywords: NSContactAgent, GetContactWithPersons
 so.topic: reference
@@ -11,11 +11,11 @@ Returns the contact with all the contact persons belonging to the contact
 **Parameters:**
  - **contactId** The id of the contact.
 
-**Returns:** ContactEntity with all data and persons.
+**Returns:** NSContactEntity
 
 ```crmscript
 NSContactAgent agent;
 Integer contactId;
-ContactEntity res = agent.GetContactWithPersons(contactId);
+NSContactEntity res = agent.GetContactWithPersons(contactId);
 ```
 

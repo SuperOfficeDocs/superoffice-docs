@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTypicalSearches_SetSearches
-title: SetSearches(TypicalSearch[] searches)
+title: SetSearches(NSTypicalSearch[] searches)
 intellisense: NSTypicalSearches.SetSearches
 keywords: NSTypicalSearches, GetSearches
 so.topic: reference
@@ -13,7 +13,7 @@ The TypicalSearch structures (including criteria) to import
 
 ```crmscript
 NSTypicalSearches thing;
-TypicalSearch[] searches;
+NSTypicalSearch[] searches;
 thing.SetSearches(searches);
 ```
 

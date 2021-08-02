@@ -11,7 +11,7 @@ Adds a new contact to the history/favorites. Returns the rank of the new history
 **Parameters:**
  - **contactId** The contact id
 
-**Returns:** The rank of the history item
+**Returns:** Integer
 
 ```crmscript
 NSPhoneListAgent agent;

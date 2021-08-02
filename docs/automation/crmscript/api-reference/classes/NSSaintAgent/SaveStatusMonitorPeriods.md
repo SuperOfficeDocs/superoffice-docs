@@ -11,7 +11,7 @@ Updates the existing NSStatusMonitorPeriods or creates a new NSStatusMonitorPeri
 **Parameters**:
  - **statusMonitorPeriods** The NSStatusMonitorPeriods to save.
 
-**Returns:** New or updated NSStatusMonitorPeriods
+**Returns:** NSStatusMonitorPeriods
 
 ```crmscript
 NSSaint  agent;

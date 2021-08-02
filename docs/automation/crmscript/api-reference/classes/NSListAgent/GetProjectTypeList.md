@@ -6,16 +6,16 @@ keywords: NSListAgent, GetProjectTypeList
 so.topic: reference
 ---
 
-Gets a vector of ProjectType objects.
+Gets a vector of NSProjectType objects.
 
 **Parameters:**
  - **projectTypeIds** The identifiers of the NSProjectType objects
 
-**Returns:** Vector of NSProjectType objects
+**Returns:** NSProjectType[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetProjectTypeList(ids);
+NSProjectType[] res = agent.GetProjectTypeList(ids);
 ```
 

@@ -11,11 +11,9 @@ This entity supports Soft Delete. Call this method to Undelete a previously soft
 **Parameters:**
  - **id** The primary key of the entity to undelete
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSPersonAgent agent;
 Integer id;
-Void res = agent.Undelete(id);
+agent.Undelete(id);
 ```
 

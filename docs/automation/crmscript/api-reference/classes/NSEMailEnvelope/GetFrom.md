@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailEnvelope_GetFrom
-title: EMailAddress GetFrom()
+title: NSEMailAddress GetFrom()
 intellisense: NSEMailEnvelope.GetFrom
 keywords: NSEMailEnvelope, GetFrom
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Who did the e-mail originate from
 
-**Returns:** EMailAddress
+**Returns:** NSEMailAddress
 
 
 ```crmscript
 NSEMailEnvelope thing;
-EMailAddress from  = thing.GetFrom();
+NSEMailAddress from  = thing.GetFrom();
 ```
 
 

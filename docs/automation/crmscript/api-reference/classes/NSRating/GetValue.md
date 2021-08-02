@@ -6,9 +6,9 @@ keywords: NSRating, GetValue
 so.topic: reference
 ---
 
-Get the name of the Rating.
+Get the name of the NSRating.
 
-**Returns:** String Rating name.
+**Returns:** String
 
 ```crmscript
 NSRating thing;

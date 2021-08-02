@@ -6,9 +6,9 @@ keywords: NSProductType, GetValue
 so.topic: reference
 ---
 
-Get the name of the ProductType.
+Get the name of the NSProductType.
 
-**Returns:** String ProductType name.
+**Returns:** String NSProductType name.
 
 ```crmscript
 NSProductType thing;

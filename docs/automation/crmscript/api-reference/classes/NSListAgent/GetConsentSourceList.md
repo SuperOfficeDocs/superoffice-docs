@@ -6,16 +6,16 @@ keywords: NSListAgent, GetConsentSourceList
 so.topic: reference
 ---
 
-Gets a vector of ConsentSource objects.
+Gets a vector of NSConsentSource objects.
 
 **Parameters:**
  - **consentSourceIds** The identifiers of the NSConsentSource objects
 
-**Returns:** Vector of NSConsentSource objects
+**Returns:** NSConsentSource[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetConsentSourceList(ids);
+NSConsentSource[] res = agent.GetConsentSourceList(ids);
 ```
 

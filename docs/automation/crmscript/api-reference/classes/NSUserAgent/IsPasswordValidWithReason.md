@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_IsPasswordValidWithReason
-title: UserValidationResult IsPasswordValidWithReason(Integer associateId, Integer type, Integer personId, String password)
+title: NSUserValidationResult IsPasswordValidWithReason(Integer associateId, Integer type, Integer personId, String password)
 intellisense: NSUserAgent.IsPasswordValidWithReason
 keywords: NSUserAgent, IsPasswordValidWithReason
 so.topic: reference
@@ -19,3 +19,5 @@ so.topic: reference
      - Enum: 5 = SystemAssociate 
  - **personId** 
  - **password** 
+
+**Returns:** NSUserValidationResult

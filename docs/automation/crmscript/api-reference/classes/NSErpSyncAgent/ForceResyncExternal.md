@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternal
-title: PluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
+title: NSPluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternal
 keywords: NSErpSyncAgent, ForceResyncExternal
 so.topic: reference
@@ -21,13 +21,13 @@ Force resync from CRM or given Erp connection to all other connections, using ex
      - Enum: 7 = Sale 
  - **externalKeys** The internal keys of the entities to resync, or empty to resync all
 
-**Returns:** The response
+**Returns:** NSPluginResponse
 
 ```crmscript
 NSErpSyncAgent agent;
 Integer erpConnectionId;
 Integer erpActorType;
 String[] externalKeys;
-PluginResponse res = agent.ForceResyncExternal(erpConnectionId, erpActorType, externalKeys);
+NSPluginResponse res = agent.ForceResyncExternal(erpConnectionId, erpActorType, externalKeys);
 ```
 

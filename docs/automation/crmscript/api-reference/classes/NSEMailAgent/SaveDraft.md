@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_SaveDraft
-title: EMailEntity SaveDraft(EMailEntity entity)
+title: NSEMailEntity SaveDraft(NSEMailEntity entity)
 intellisense: NSEMailAgent.SaveDraft
 keywords: NSEMailAgent, SaveDraft
 so.topic: reference
@@ -11,11 +11,11 @@ Save the Email entity to the drafts folder
 **Parameters:**
  - **entity** The entity to save
 
-**Returns:** The saved e-mail entity
+**Returns:** NSEMailEntity
 
 ```crmscript
 NSEMailAgent agent;
-EMailEntity entity;
-EMailEntity res = agent.SaveDraft(entity);
+NSEMailEntity entity;
+NSEMailEntity res = agent.SaveDraft(entity);
 ```
 

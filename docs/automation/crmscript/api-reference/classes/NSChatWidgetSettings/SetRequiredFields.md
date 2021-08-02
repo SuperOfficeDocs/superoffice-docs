@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatWidgetSettings_SetRequiredFields
-title: SetRequiredFields(WidgetRequiredFields requiredFields)
+title: SetRequiredFields(NSWidgetRequiredFields requiredFields)
 intellisense: NSChatWidgetSettings.SetRequiredFields
 keywords: NSChatWidgetSettings, GetRequiredFields
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Fields required to start a chat
 
 **Parameter:** 
- - **requiredFields** WidgetRequiredFields
+ - **requiredFields** NSWidgetRequiredFields
      - Enum: 0 = None 
      - Enum: 1 = Email 
      - Enum: 2 = Name 
@@ -18,7 +18,7 @@ Fields required to start a chat
 
 ```crmscript
 NSChatWidgetSettings thing;
-WidgetRequiredFields requiredFields;
+NSWidgetRequiredFields requiredFields;
 thing.SetRequiredFields(requiredFields);
 ```
 

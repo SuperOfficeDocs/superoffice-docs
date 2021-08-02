@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCRMScriptAgent_ValidateScriptByIncludeId
-title: CRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
+title: NSCRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
 intellisense: NSCRMScriptAgent.ValidateScriptByIncludeId
 keywords: NSCRMScriptAgent, ValidateScriptByIncludeId
 so.topic: reference
@@ -16,6 +16,6 @@ Validate a CRMScript. This will check that the syntax is correct
 ```crmscript
 NSCRMScriptAgent agent;
 String cRMScriptIncludeId;
-CRMScriptResult res = agent.ValidateScriptByIncludeId(cRMScriptIncludeId);
+NSCRMScriptResult res = agent.ValidateScriptByIncludeId(cRMScriptIncludeId);
 ```
 

@@ -11,7 +11,7 @@ Does this project have a guide associated with its project type?
 **Parameters:**
  - **projectId** Project id
 
-**Returns:** True if the project has a guide
+**Returns:** Bool
 
 ```crmscript
 NSProjectAgent agent;

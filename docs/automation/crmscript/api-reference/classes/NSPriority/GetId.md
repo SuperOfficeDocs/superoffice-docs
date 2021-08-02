@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the Priority
 
-**Returns:** Integer Priority id.
+**Returns:** Integer
 
 ```crmscript
 NSPriority thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPhoneListAgent_GetPreferences
-title: PhoneListPreferences GetPreferences()
+title: NSPhoneListPreferences GetPreferences()
 intellisense: NSPhoneListAgent.GetPreferences
 keywords: NSPhoneListAgent, GetPreferences
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Getting Phone List Preferences from the CRM 5 user preferences
 
 
-**Returns:** The Phone List Preferences
+**Returns:** NSPhoneListPreferences
 
 ```crmscript
 NSPhoneListAgent agent;
-PhoneListPreferences res = agent.GetPreferences();
+NSPhoneListPreferences res = agent.GetPreferences();
 ```
 

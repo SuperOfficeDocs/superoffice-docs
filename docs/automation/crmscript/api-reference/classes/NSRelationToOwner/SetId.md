@@ -6,7 +6,7 @@ keywords: NSRelationToOwner, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the RelationToOwner
+Set the primary key (id) for the NSRelationToOwner
 
 **Parameter:** 
  - **id** Integer RelationToOwner id.

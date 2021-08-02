@@ -1,23 +1,23 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveListEntityByName
-title: ListEntity SaveListEntityByName(String name, ListEntity listEntity)
+title: NSListEntity SaveListEntityByName(String name, NSListEntity listEntity)
 intellisense: NSListAgent.SaveListEntityByName
 keywords: NSListAgent, SaveListEntityByName
 so.topic: reference
 ---
 
-Save a ListEntity resolved by the provided name.
+Save a NSListEntity resolved by the provided name.
 
 **Parameters:**
  - **name** The name of the list to save.
- - **listEntity** The ListEntity to save.
+ - **listEntity** The NSListEntity to save.
 
-**Returns:** A ListEntity or null.
+**Returns:** NSListEntity
 
 ```crmscript
 NSListAgent agent;
 String name;
-ListEntity listEntity;
-ListEntity res = agent.SaveListEntityByName(name, listEntity);
+NSListEntity listEntity;
+NSListEntity res = agent.SaveListEntityByName(name, listEntity);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_SetUserGroup
-title: SetUserGroup(UserGroup userGroup)
+title: SetUserGroup(NSUserGroup userGroup)
 intellisense: NSUser.SetUserGroup
 keywords: NSUser, GetUserGroup
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The main user group that this user belongs to.
 
 **Parameter:** 
- - **userGroup** UserGroup
+ - **userGroup** NSUserGroup
 
 ```crmscript
 NSUser thing;
-UserGroup userGroup;
+NSUserGroup userGroup;
 thing.SetUserGroup(userGroup);
 ```
 

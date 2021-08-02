@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSProjectMember.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSProjectMember with default values.
+**Returns:** NSProjectMember
 
 ```crmscript
 NSProjectAgent agent;

@@ -320,7 +320,7 @@ if (r.GetIsRecurrence()) {
 | RecurrenceCounter | Integer          | the number of repetitions<br>used only when the end is calculated from a count |
 | StartDate         | DateTime         | when repetition starts              |
 | EndDate           | DateTime         | when repetition ends<br>used only when the end is calculated from a date       |
-| Dates             | RecurrenceDate[] | List of all dates the follow-up occurs<br>wraps a DateTime                     |
+| Dates             | NSRecurrenceDate[] | List of all dates the follow-up occurs<br>wraps a DateTime                     |
 | Pattern           | Integer          | the main pattern of recurrence      |
 
 ### Main patterns

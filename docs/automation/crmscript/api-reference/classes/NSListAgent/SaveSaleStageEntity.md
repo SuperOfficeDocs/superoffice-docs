@@ -11,7 +11,7 @@ Updates the existing NSSaleStageEntity or creates a new NSSaleStageEntity if the
 **Parameters**:
  - **saleStageEntity** The NSSaleStageEntity to save.
 
-**Returns:** New or updated NSSaleStageEntity
+**Returns:** NSSaleStageEntity
 
 ```crmscript
 NSList  agent;

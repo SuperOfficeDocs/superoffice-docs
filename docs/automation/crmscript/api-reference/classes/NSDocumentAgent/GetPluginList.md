@@ -9,7 +9,7 @@ so.topic: reference
 Get a list of installed document plugins
 
 
-**Returns:** Dictionary mapping plugin id=plugin name
+**Returns:** StringDictionary
 
 ```crmscript
 NSDocumentAgent agent;

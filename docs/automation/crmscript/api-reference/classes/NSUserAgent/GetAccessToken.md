@@ -12,7 +12,7 @@ Get an access token based on the current user's session.
  - **appToken** Application token to get access on behalf of. Optional.
  - **includeCsSession** Initialize CS session for this access token?.
 
-**Returns:** An access token. "8A:xyz123=="
+**Returns:** String
 
 ```crmscript
 NSUserAgent agent;

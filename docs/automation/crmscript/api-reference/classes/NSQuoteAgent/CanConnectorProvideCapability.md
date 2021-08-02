@@ -12,7 +12,7 @@ Can the connector provide the capability
  - **quoteConnectionId** Primary key of the connection
  - **capabilityName** Capability name
 
-**Returns:** Capability name
+**Returns:** Bool
 
 ```crmscript
 NSQuoteAgent agent;

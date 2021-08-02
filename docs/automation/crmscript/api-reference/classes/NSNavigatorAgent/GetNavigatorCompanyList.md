@@ -6,12 +6,12 @@ keywords: NSNavigatorAgent, GetNavigatorCompanyList
 so.topic: reference
 ---
 
-Gets a vector of NavigatorCompany objects.
+Gets a vector of NSNavigatorCompany objects.
 
 **Parameters:**
  - **navigatorCompanyIds** The identifiers of the NSNavigatorCompany objects
 
-**Returns:** Vector of NSNavigatorCompany objects
+**Returns:** NSNavigatorCompany[]
 
 ```crmscript
 Integer[] ids;

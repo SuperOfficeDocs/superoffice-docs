@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSTicketStatusEntity
   
 **Parameters:**
- - **ticketStatusEntityId** The identity of the TicketStatusEntity to delete.
+ - **ticketStatusEntityId** The identity of the NSTicketStatusEntity to delete.
 
 ```crmscript
 NSListAgent agent;

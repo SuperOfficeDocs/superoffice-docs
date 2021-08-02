@@ -15,18 +15,18 @@ The display value is encoded by the **CultureDataFormatter** and can be decoded 
 
 Tooltip hints can be passed to the **TooltipProvider** (Tooltip service) to be translated into an actual too tip.
 
-`SetColumnData(ColumnDataDictionary columnData)`
+`SetColumnData(NSColumnDataDictionary columnData)`
 
 ## Parameters
 
 | Parameter | Type | Description |
 |---|---|---|
-|columnData | ColumnDataDictionary | |
+|columnData | NSColumnDataDictionary | |
 
 ## Example
 
 ```crmscript
 NSArchiveListItem thing;
-ColumnDataDictionary columnData;
+NSColumnDataDictionary columnData;
 thing.SetColumnData(columnData);
 ```

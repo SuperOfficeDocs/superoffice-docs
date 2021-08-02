@@ -11,11 +11,9 @@ Automatically enable freetext search for new travel areas? true or false
 **Parameters:**
  - **autoEnable** If true, auto enable
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSFreeTextAgent agent;
 Bool autoEnable;
-Void res = agent.SetAutoEnableTravelAreas(autoEnable);
+agent.SetAutoEnableTravelAreas(autoEnable);
 ```
 

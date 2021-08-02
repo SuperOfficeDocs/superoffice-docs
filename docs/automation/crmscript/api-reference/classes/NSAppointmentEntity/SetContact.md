@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_SetContact
-title: SetContact(Contact contact)
+title: SetContact(NSContact contact)
 intellisense: NSAppointmentEntity.SetContact
 keywords: NSAppointmentEntity, GetContact
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The contact associated with the appointment. It may also be null if no contact is associated with the appointment.
 
 **Parameter:** 
- - **contact** Contact
+ - **contact** NSContact
 
 ```crmscript
 NSAppointmentEntity thing;
-Contact contact;
+NSContact contact;
 thing.SetContact(contact);
 ```
 

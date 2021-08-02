@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetDefaultPersonImage
-title: Image GetDefaultPersonImage(String layoutName)
+title: NSImage GetDefaultPersonImage(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultPersonImage
 keywords: NSAudienceAgent, GetDefaultPersonImage
 so.topic: reference
@@ -16,6 +16,6 @@ Returns the default person (sales rep) image that is displayed in Audience when 
 ```crmscript
 NSAudienceAgent agent;
 String layoutName;
-Image res = agent.GetDefaultPersonImage(layoutName);
+NSImage res = agent.GetDefaultPersonImage(layoutName);
 ```
 

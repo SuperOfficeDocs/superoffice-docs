@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetSaleType
-title: SaleType GetSaleType()
+title: NSSaleType GetSaleType()
 intellisense: NSSaleEntity.GetSaleType
 keywords: NSSaleEntity, GetSaleType
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** SaleType
+**Returns:** NSSaleType
 
 
 ```crmscript
 NSSaleEntity thing;
-SaleType saleType  = thing.GetSaleType();
+NSSaleType saleType  = thing.GetSaleType();
 ```
 
 

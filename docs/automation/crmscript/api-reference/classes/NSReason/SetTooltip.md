@@ -6,10 +6,10 @@ keywords: NSReason, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the Reason list item.
+Set the tooltip description for the NSReason list item.
 
 **Parameter:** 
- - **tooltip** String Reason tooltip description.
+ - **tooltip** String NSReason tooltip description.
 
 ```crmscript
 NSReason thing;

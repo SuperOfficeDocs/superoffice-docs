@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_GetProject
-title: Project GetProject()
+title: NSProject GetProject()
 intellisense: NSChatSessionEntity.GetProject
 keywords: NSChatSessionEntity, GetProject
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Project the session is connectedto - could be empty if we don't know exactly.
 
-**Returns:** Project
+**Returns:** NSProject
 
 
 ```crmscript
 NSChatSessionEntity thing;
-Project project  = thing.GetProject();
+NSProject project  = thing.GetProject();
 ```
 
 

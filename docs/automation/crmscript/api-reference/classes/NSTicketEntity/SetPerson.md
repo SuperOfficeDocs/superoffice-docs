@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_SetPerson
-title: SetPerson(Person person)
+title: SetPerson(NSPerson person)
 intellisense: NSTicketEntity.SetPerson
 keywords: NSTicketEntity, GetPerson
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The primary person that this ticket is connected to
 
 **Parameter:** 
- - **person** Person
+ - **person** NSPerson
 
 ```crmscript
 NSTicketEntity thing;
-Person person;
+NSPerson person;
 thing.SetPerson(person);
 ```
 

@@ -9,7 +9,7 @@ so.topic: reference
 
 # SetIsPublished()
 
-Should this DocumentEntity be published and visible to strangers?
+Should this NSDocumentEntity be published and visible to strangers?
 
 `SetIsPublished(Bool isPublished)`
 
@@ -17,4 +17,4 @@ Should this DocumentEntity be published and visible to strangers?
 
 | Parameter | Type | Description |
 |---|---|---|
-| isPublished | Bool | The visibility of DocumentEntity to set |
+| isPublished | Bool | The visibility of NSDocumentEntity to set |

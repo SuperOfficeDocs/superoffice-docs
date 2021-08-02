@@ -8,7 +8,7 @@ so.topic: reference
 
 List of items to choose from.
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

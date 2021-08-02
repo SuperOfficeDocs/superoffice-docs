@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignAppEntity_GetDevices
-title: ForeignDevice[] GetDevices()
+title: NSForeignDevice[] GetDevices()
 intellisense: NSForeignAppEntity.GetDevices
 keywords: NSForeignAppEntity, GetDevices
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The devices that belong to this foreign app.
 
-**Returns:** ForeignDevice[]
+**Returns:** NSForeignDevice[]
 
 
 ```crmscript
 NSForeignAppEntity thing;
-ForeignDevice[] devices  = thing.GetDevices();
+NSForeignDevice[] devices  = thing.GetDevices();
 ```
 
 

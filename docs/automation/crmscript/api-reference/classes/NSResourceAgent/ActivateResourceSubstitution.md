@@ -13,13 +13,11 @@ Activate or deactive a resource substitution for one or more cultures
  - **culture** The .NET culture string; if blank, then ALL substitutions for this resource will be affected
  - **isActive** New status of override
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSResourceAgent agent;
 String resourceName;
 String culture;
 Bool isActive;
-Void res = agent.ActivateResourceSubstitution(resourceName, culture, isActive);
+agent.ActivateResourceSubstitution(resourceName, culture, isActive);
 ```
 

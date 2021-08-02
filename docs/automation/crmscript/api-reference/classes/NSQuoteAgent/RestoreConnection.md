@@ -11,11 +11,9 @@ Restores a connection marked as deleted.
 **Parameters:**
  - **quoteConnectionId** Primary key of the connection to restore
 
-**Returns:** A void return
-
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteConnectionId;
-Void res = agent.RestoreConnection(quoteConnectionId);
+agent.RestoreConnection(quoteConnectionId);
 ```
 

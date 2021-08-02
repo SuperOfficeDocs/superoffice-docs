@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the SelectionCategory list item.
 
-**Returns:** String SelectionCategory tooltip description.
+**Returns:** String
 
 ```crmscript
 NSSelectionCategory thing;

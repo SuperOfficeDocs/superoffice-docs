@@ -6,7 +6,7 @@ keywords: NSTicketCategoryEntity, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields on a TicketCategoryEntity with a map.
+Set the user-defined and extra fields on a NSTicketCategoryEntity with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

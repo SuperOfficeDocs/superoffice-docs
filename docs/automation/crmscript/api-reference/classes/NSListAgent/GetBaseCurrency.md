@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetBaseCurrency
-title: CurrencyEntity GetBaseCurrency()
+title: NSCurrencyEntity GetBaseCurrency()
 intellisense: NSListAgent.GetBaseCurrency
 keywords: NSListAgent, GetBaseCurrency
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get the base currency, used for calculating exchange rates
 
 
-**Returns:** The base currency that other currencies are expressed in terms of
+**Returns:** NSCurrencyEntity
 
 ```crmscript
 NSListAgent agent;
-CurrencyEntity res = agent.GetBaseCurrency();
+NSCurrencyEntity res = agent.GetBaseCurrency();
 ```
 

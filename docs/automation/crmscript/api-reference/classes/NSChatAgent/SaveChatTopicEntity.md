@@ -11,7 +11,7 @@ Updates the existing NSChatTopicEntity or creates a new NSChatTopicEntity if the
 **Parameters**:
  - **chatTopicEntity** The NSChatTopicEntity to save.
 
-**Returns:** New or updated NSChatTopicEntity
+**Returns:** NSChatTopicEntity
 
 ```crmscript
 NSChat  agent;

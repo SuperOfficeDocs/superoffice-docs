@@ -9,7 +9,7 @@ so.topic: reference
 
 # SetIsPublished()
 
-Should this AppointmentEntity be published and visible to strangers?
+Should this NSAppointmentEntity be published and visible to strangers?
 
 `SetIsPublished(Bool isPublished)`
 

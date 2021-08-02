@@ -9,7 +9,7 @@ so.topic: reference
 Fetch list of folders from email server for the current account, and cache in DB
 
 
-**Returns:** List of folders from mail server
+**Returns:** EMailFolder[]
 
 ```crmscript
 NSEMailAgent agent;

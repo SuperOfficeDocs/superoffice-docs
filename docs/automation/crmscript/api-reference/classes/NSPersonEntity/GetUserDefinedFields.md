@@ -6,9 +6,9 @@ keywords: NSPersonEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields on the PersonEntity as a map.
+Get the user-defined fields on the NSPersonEntity as a map.
 
-**Returns:** Map containing user defined field values by field prog.id.
+**Returns:** Map
 
 ```crmscript
 NSPersonEntity thing;

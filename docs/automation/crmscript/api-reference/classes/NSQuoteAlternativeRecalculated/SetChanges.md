@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges
-title: SetChanges(ChangedData changes)
+title: SetChanges(NSChangedData changes)
 intellisense: NSQuoteAlternativeRecalculated.SetChanges
 keywords: NSQuoteAlternativeRecalculated, GetChanges
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Tablename/recordid of data changed by this method
 
 **Parameter:** 
- - **changes** ChangedData
+ - **changes** NSChangedData
 
 ```crmscript
 NSQuoteAlternativeRecalculated thing;
-ChangedData changes;
+NSChangedData changes;
 thing.SetChanges(changes);
 ```
 

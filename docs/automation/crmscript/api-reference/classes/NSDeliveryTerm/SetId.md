@@ -6,10 +6,10 @@ keywords: NSDeliveryTerm, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the DeliveryTerm
+Set the primary key (id) for the NSDeliveryTerm
 
 **Parameter:** 
- - **id** Integer DeliveryTerm id.
+ - **id** Integer NSDeliveryTerm id.
 
 ```crmscript
 NSDeliveryTerm thing;

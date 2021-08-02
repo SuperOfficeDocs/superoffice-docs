@@ -11,7 +11,7 @@ Does this sale have a sale guide associated with its sale type?
 **Parameters:**
  - **saleId** Sale id
 
-**Returns:** True if the sale has a guide
+**Returns:** Bool
 
 ```crmscript
 NSSaleAgent agent;

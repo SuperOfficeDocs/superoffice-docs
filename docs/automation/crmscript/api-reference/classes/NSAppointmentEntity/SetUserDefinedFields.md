@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
-Set the user-defined fields on the AppointmentEntity as a map.
+Set the user-defined fields on the NSAppointmentEntity as a map.
 
 **Parameter:** 
  - **udefs** Map user defined field values encoded as strings.

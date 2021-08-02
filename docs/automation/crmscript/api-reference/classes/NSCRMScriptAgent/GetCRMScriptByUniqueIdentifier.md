@@ -11,7 +11,7 @@ Get information about a script from a unique identifier
 **Parameters:**
  - **uniqueIdentifier** Global unique reference to script (independent of installation)
 
-**Returns:** Information about CRMScript
+**Returns:** String
 
 ```crmscript
 NSCRMScriptAgent agent;

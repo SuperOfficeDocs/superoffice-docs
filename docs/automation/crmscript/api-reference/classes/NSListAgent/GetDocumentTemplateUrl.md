@@ -13,7 +13,7 @@ Get a url to the document template
  - **writableUrl** Get a writeable url to the document template?
  - **languageCode** The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used.
 
-**Returns:** The URL to the document template
+**Returns:** String
 
 ```crmscript
 NSListAgent agent;

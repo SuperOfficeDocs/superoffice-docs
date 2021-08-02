@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDayInformationListItem_GetRedLetterInformation
-title: RedLetterSummary GetRedLetterInformation()
+title: NSRedLetterSummary GetRedLetterInformation()
 intellisense: NSDayInformationListItem.GetRedLetterInformation
 keywords: NSDayInformationListItem, GetRedLetterInformation
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Summary of redletter day information - holiday in own country, and in other countries known to the system.
 
-**Returns:** RedLetterSummary
+**Returns:** NSRedLetterSummary
 
 
 ```crmscript
 NSDayInformationListItem thing;
-RedLetterSummary redLetterInformation  = thing.GetRedLetterInformation();
+NSRedLetterSummary redLetterInformation  = thing.GetRedLetterInformation();
 ```
 
 

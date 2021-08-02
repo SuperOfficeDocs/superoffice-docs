@@ -11,11 +11,11 @@ Gets a vector of SelectionCategory objects.
 **Parameters:**
  - **selectionCategoryIds** The identifiers of the NSSelectionCategory objects
 
-**Returns:** Vector of NSSelectionCategory objects
+**Returns:** NSSelectionCategory[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetSelectionCategoryList(ids);
+NSSelectionCategory[] res = agent.GetSelectionCategoryList(ids);
 ```
 

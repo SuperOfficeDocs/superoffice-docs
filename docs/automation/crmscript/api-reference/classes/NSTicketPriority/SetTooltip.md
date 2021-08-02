@@ -6,10 +6,10 @@ keywords: NSTicketPriority, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the TicketPriority list item.
+Set the tooltip description for the NSTicketPriority list item.
 
 **Parameter:** 
- - **tooltip** String TicketPriority tooltip description.
+ - **tooltip** String NSTicketPriority tooltip description.
 
 ```crmscript
 NSTicketPriority thing;

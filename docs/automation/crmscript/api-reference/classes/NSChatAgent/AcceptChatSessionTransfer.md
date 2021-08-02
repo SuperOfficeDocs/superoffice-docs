@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_AcceptChatSessionTransfer
-title: ChatSessionEntity AcceptChatSessionTransfer(Integer chatSessionId)
+title: NSChatSessionEntity AcceptChatSessionTransfer(Integer chatSessionId)
 intellisense: NSChatAgent.AcceptChatSessionTransfer
 keywords: NSChatAgent, AcceptChatSessionTransfer
 so.topic: reference
@@ -11,11 +11,11 @@ Accept the transfer: assign the session to the user. If the session is not being
 **Parameters:**
  - **chatSessionId** id of the chat session to send
 
-**Returns:** The updated chat session
+**Returns:** NSChatSessionEntity
 
 ```crmscript
 NSChatAgent agent;
 Integer chatSessionId;
-ChatSessionEntity res = agent.AcceptChatSessionTransfer(chatSessionId);
+NSChatSessionEntity res = agent.AcceptChatSessionTransfer(chatSessionId);
 ```
 

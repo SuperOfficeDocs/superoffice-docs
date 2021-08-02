@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSResolvedPerson_GetPerson
-title: PersonEntity GetPerson()
+title: NSPersonEntity GetPerson()
 intellisense: NSResolvedPerson.GetPerson
 keywords: NSResolvedPerson, GetPerson
 so.topic: reference
 ---
 
-The resolved PersonEntity instance.
+The resolved NSPersonEntity instance.
 
-**Returns:** PersonEntity
+**Returns:** NSPersonEntity
 
 
 ```crmscript
 NSResolvedPerson thing;
-PersonEntity person  = thing.GetPerson();
+NSPersonEntity person  = thing.GetPerson();
 ```
 
 

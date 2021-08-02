@@ -11,7 +11,7 @@ Generates a new password for an external user.
 **Parameters:**
  - **associateName** The name of the associate to change the password for.
 
-**Returns:** Returns the generated password.
+**Returns:** String
 
 ```crmscript
 NSUserAgent agent;

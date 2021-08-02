@@ -11,11 +11,11 @@ Gets a vector of Priority objects.
 **Parameters:**
  - **priorityIds** The identifiers of the NSPriority objects
 
-**Returns:** Vector of NSPriority objects
+**Returns:** NSPriority[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetPriorityList(ids);
+NSPriority[] res = agent.GetPriorityList(ids);
 ```
 

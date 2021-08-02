@@ -6,10 +6,10 @@ keywords: NSSaleType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the SaleType
+Set the primary key (id) for the NSSaleType
 
 **Parameter:** 
- - **id** Integer SaleType id.
+ - **id** Integer NSSaleType id.
 
 ```crmscript
 NSSaleType thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetFieldValuesFromCrm
-title: ErpSyncFieldValue[] GetFieldValuesFromCrm(Integer recordId, Integer actorTypeCrm)
+title: NSErpSyncFieldValue[] GetFieldValuesFromCrm(Integer recordId, Integer actorTypeCrm)
 intellisense: NSErpSyncAgent.GetFieldValuesFromCrm
 keywords: NSErpSyncAgent, GetFieldValuesFromCrm
 so.topic: reference
@@ -17,12 +17,12 @@ Get Crm Field values
      - Enum: 3 = Project 
      - Enum: 4 = Sale 
 
-**Returns:** The Crm Fields
+**Returns:** NSErpSyncFieldValue[]
 
 ```crmscript
 NSErpSyncAgent agent;
 Integer recordId;
 Integer actorTypeCrm;
-ErpSyncFieldValue[] res = agent.GetFieldValuesFromCrm(recordId, actorTypeCrm);
+NSErpSyncFieldValue[] res = agent.GetFieldValuesFromCrm(recordId, actorTypeCrm);
 ```
 

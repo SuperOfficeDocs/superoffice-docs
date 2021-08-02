@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_CreateForwardEmail
-title: EMailEntity CreateForwardEmail(EMailEntity email)
+title: NSEMailEntity CreateForwardEmail(NSEMailEntity email)
 intellisense: NSEMailAgent.CreateForwardEmail
 keywords: NSEMailAgent, CreateForwardEmail
 so.topic: reference
@@ -11,11 +11,11 @@ Create forward email
 **Parameters:**
  - **email** The e-mail to forward
 
-**Returns:** The new forward email entity
+**Returns:** NSEMailEntity
 
 ```crmscript
 NSEMailAgent agent;
-EMailEntity email;
-EMailEntity res = agent.CreateForwardEmail(email);
+NSEMailEntity email;
+NSEMailEntity res = agent.CreateForwardEmail(email);
 ```
 

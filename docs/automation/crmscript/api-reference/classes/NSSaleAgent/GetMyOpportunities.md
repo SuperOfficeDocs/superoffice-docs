@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetMyOpportunities
-title: Sale[] GetMyOpportunities(Integer count)
+title: NSSale[] GetMyOpportunities(Integer count)
 intellisense: NSSaleAgent.GetMyOpportunities
 keywords: NSSaleAgent, GetMyOpportunities
 so.topic: reference
@@ -11,11 +11,11 @@ Returning the opportunities (open sales) belonging to the user currently logged 
 **Parameters:**
  - **count** The number of sales that is returned. -1 returns all.
 
-**Returns:** Array of open sales (opportunities).
+**Returns:** NSSale[]
 
 ```crmscript
 NSSaleAgent agent;
 Integer count;
-Sale[] res = agent.GetMyOpportunities(count);
+NSSale[] res = agent.GetMyOpportunities(count);
 ```
 

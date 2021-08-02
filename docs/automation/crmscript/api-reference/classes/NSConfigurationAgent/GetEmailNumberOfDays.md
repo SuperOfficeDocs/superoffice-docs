@@ -9,7 +9,7 @@ so.topic: reference
 
 
 
-**Returns:** Number of days in the past for which we are fetching email
+**Returns:** Integer
 
 ```crmscript
 NSConfigurationAgent agent;

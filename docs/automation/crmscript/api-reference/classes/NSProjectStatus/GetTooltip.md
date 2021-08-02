@@ -6,9 +6,9 @@ keywords: NSProjectStatus, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the ProjectStatus list item.
+Get the tooltip description for the NSProjectStatus list item.
 
-**Returns:** String ProjectStatus tooltip description.
+**Returns:** String NSProjectStatus tooltip description.
 
 ```crmscript
 NSProjectStatus thing;

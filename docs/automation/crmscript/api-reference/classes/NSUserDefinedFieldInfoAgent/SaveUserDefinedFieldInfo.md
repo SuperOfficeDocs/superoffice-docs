@@ -11,7 +11,7 @@ Updates the existing NSUserDefinedFieldInfo or creates a new NSUserDefinedFieldI
 **Parameters**:
  - **userDefinedFieldInfo** The NSUserDefinedFieldInfo to save.
 
-**Returns:** New or updated NSUserDefinedFieldInfo
+**Returns:** NSUserDefinedFieldInfo
 
 ```crmscript
 NSUserDefinedFieldInfo  agent;

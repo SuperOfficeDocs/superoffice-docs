@@ -11,7 +11,7 @@ Gets a vector of Sale objects.
 **Parameters:**
  - **saleIds** The identifiers of the NSSale objects
 
-**Returns:** Vector of NSSale objects
+**Returns:** NSSale[]
 
 ```crmscript
 Integer[] ids;

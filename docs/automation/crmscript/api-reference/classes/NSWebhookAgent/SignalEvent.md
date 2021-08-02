@@ -20,6 +20,6 @@ NSWebhookAgent agent;
 String eventName;
 Integer primaryKey;
 StringObjectDictionary data;
-Void res = agent.SignalEvent(eventName, primaryKey, data);
+agent.SignalEvent(eventName, primaryKey, data);
 ```
 

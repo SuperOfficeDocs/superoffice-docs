@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_PlaceOrder
-title: PluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
+title: NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
 intellisense: NSQuoteAgent.PlaceOrder
 keywords: NSQuoteAgent, PlaceOrder
 so.topic: reference
@@ -15,7 +15,7 @@ Place an order in the ERP system.
  - **orderComment** Order comment, saved to Quote record
  - **culture** Desired culture for email body and other culture-sensitive templates/content
 
-**Returns:** Status for the placed order.
+**Returns:** NSPluginUrlResponse
 
 ```crmscript
 NSQuoteAgent agent;
@@ -24,6 +24,6 @@ Bool markSaleAsSold;
 String poNumber;
 String orderComment;
 String culture;
-PluginUrlResponse res = agent.PlaceOrder(quoteAlternativeId, markSaleAsSold, poNumber, orderComment, culture);
+NSPluginUrlResponse res = agent.PlaceOrder(quoteAlternativeId, markSaleAsSold, poNumber, orderComment, culture);
 ```
 

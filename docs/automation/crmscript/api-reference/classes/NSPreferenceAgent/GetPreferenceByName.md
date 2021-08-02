@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferenceByName
-title: Preference GetPreferenceByName(String prefSection, String prefKey, Integer prefLevel)
+title: NSPreference GetPreferenceByName(String prefSection, String prefKey, Integer prefLevel)
 intellisense: NSPreferenceAgent.GetPreferenceByName
 keywords: NSPreferenceAgent, GetPreferenceByName
 so.topic: reference
@@ -20,13 +20,13 @@ Get a preference by name
      - Enum: 5 = Individual 
      - Enum: 6 = PC 
 
-**Returns:** The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+**Returns:** NSPreference
 
 ```crmscript
 NSPreferenceAgent agent;
 String prefSection;
 String prefKey;
 Integer prefLevel;
-Preference res = agent.GetPreferenceByName(prefSection, prefKey, prefLevel);
+NSPreference res = agent.GetPreferenceByName(prefSection, prefKey, prefLevel);
 ```
 

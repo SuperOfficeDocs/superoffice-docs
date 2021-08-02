@@ -7,6 +7,7 @@ so.topic: reference
 ---
 
 
-
 **Parameters:**
  - **language** 
+
+**Returns:** String

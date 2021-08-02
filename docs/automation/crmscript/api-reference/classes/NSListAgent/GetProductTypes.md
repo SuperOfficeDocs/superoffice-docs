@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetProductTypes
-title: ProductType[] GetProductTypes()
+title: NSProductType[] GetProductTypes()
 intellisense: NSListAgent.GetProductTypes
 keywords: NSListAgent, GetProductTypes
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all ProductTypes in SuperOffice list.
 
 
-**Returns:** An array of all available ProductTypes
+**Returns:** NSProductType[]
 
 ```crmscript
 NSListAgent agent;
-ProductType[] res = agent.GetProductTypes();
+NSProductType[] res = agent.GetProductTypes();
 ```
 

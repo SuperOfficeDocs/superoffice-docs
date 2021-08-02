@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleAgent_GetSummaryByAssociate
-title: SaleSummary GetSummaryByAssociate(Integer associateId, DateTime fromDate, DateTime toDate)
+title: NSSaleSummary GetSummaryByAssociate(Integer associateId, DateTime fromDate, DateTime toDate)
 intellisense: NSSaleAgent.GetSummaryByAssociate
 keywords: NSSaleAgent, GetSummaryByAssociate
 so.topic: reference
@@ -12,3 +12,5 @@ so.topic: reference
  - **associateId** 
  - **fromDate** 
  - **toDate** 
+
+**Returns:** NSSaleSummary

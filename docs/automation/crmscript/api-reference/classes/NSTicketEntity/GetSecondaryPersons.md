@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketEntity_GetSecondaryPersons
-title: Person[] GetSecondaryPersons()
+title: NSPerson[] GetSecondaryPersons()
 intellisense: NSTicketEntity.GetSecondaryPersons
 keywords: NSTicketEntity, GetSecondaryPersons
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The secondary persons this ticket is connected to
 
-**Returns:** Person[]
+**Returns:** NSPerson[]
 
 
 ```crmscript
 NSTicketEntity thing;
-Person[] secondaryPersons  = thing.GetSecondaryPersons();
+NSPerson[] secondaryPersons  = thing.GetSecondaryPersons();
 ```
 
 

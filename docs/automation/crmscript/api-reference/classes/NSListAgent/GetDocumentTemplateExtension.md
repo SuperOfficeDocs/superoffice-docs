@@ -11,7 +11,7 @@ Get the file extension for the document template
 **Parameters:**
  - **documentTemplateId** The primary key of the document template
 
-**Returns:** File name extension including '.': '.doc' or '.xlsx'
+**Returns:** String
 
 ```crmscript
 NSListAgent agent;

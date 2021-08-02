@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserAgent_SaveUserGroup
-title: UserGroup SaveUserGroup(UserGroup userGroup)
+title: NSUserGroup SaveUserGroup(NSUserGroup userGroup)
 intellisense: NSUserAgent.SaveUserGroup
 keywords: NSUserAgent, SaveUserGroup
 so.topic: reference
@@ -11,11 +11,11 @@ Save a user group.  Set UserGroup.Deleted to mark a user group as deleted and in
 **Parameters:**
  - **userGroup** UserGroup to save
 
-**Returns:** UserGroup as saved to the database
+**Returns:** NSUserGroup
 
 ```crmscript
 NSUserAgent agent;
-UserGroup userGroup;
-UserGroup res = agent.SaveUserGroup(userGroup);
+NSUserGroup userGroup;
+NSUserGroup res = agent.SaveUserGroup(userGroup);
 ```
 

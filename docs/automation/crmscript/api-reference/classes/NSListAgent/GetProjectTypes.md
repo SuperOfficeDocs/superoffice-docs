@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetProjectTypes
-title: ProjectType[] GetProjectTypes()
+title: NSProjectType[] GetProjectTypes()
 intellisense: NSListAgent.GetProjectTypes
 keywords: NSListAgent, GetProjectTypes
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Gets all items from the Project Type (ProjType) table.
 
 
-**Returns:** List of all project types.
+**Returns:** NSProjectType[]
 
 ```crmscript
 NSListAgent agent;
-ProjectType[] res = agent.GetProjectTypes();
+NSProjectType[] res = agent.GetProjectTypes();
 ```
 

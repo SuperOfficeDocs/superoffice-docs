@@ -6,9 +6,9 @@ keywords: NSCustomerLanguage, GetValue
 so.topic: reference
 ---
 
-Get the name of the CustomerLanguage.
+Get the name of the NSCustomerLanguage.
 
-**Returns:** String CustomerLanguage name.
+**Returns:** String
 
 ```crmscript
 NSCustomerLanguage thing;

@@ -6,10 +6,10 @@ keywords: NSDeliveryTerm, SetValue
 so.topic: reference
 ---
 
-Set the name of the DeliveryTerm item.
+Set the name of the NSDeliveryTerm item.
 
 **Parameter:** 
- - **value** String DeliveryTerm name.
+ - **value** String NSDeliveryTerm name.
 
 ```crmscript
 NSDeliveryTerm thing;

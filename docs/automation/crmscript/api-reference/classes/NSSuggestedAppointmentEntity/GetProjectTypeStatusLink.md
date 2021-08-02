@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSuggestedAppointmentEntity_GetProjectTypeStatusLink
-title: ProjectTypeStatusLink GetProjectTypeStatusLink()
+title: NSProjectTypeStatusLink GetProjectTypeStatusLink()
 intellisense: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink
 keywords: NSSuggestedAppointmentEntity, GetProjectTypeStatusLink
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Project type and project status link info
 
-**Returns:** ProjectTypeStatusLink
+**Returns:** NSProjectTypeStatusLink
 
 
 ```crmscript
 NSSuggestedAppointmentEntity thing;
-ProjectTypeStatusLink projectTypeStatusLink  = thing.GetProjectTypeStatusLink();
+NSProjectTypeStatusLink projectTypeStatusLink  = thing.GetProjectTypeStatusLink();
 ```
 
 

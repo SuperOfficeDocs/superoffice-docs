@@ -6,7 +6,7 @@ keywords: NSErpSyncAgent, GetCrmActorType
 so.topic: reference
 ---
 
-Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
+Retrieves the NSCrmActorType that are mapped to a specific ErpActorType for this connection
 
 **Parameters:**
  - **erpConnectionId** The ERP connection ID
@@ -20,7 +20,7 @@ Retrieves the CrmActorType that are mapped to a specific ErpActorType for this c
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
-**Returns:** The CrmActorType
+**Returns:** NSCrmActorType
 
 ```crmscript
 NSErpSyncAgent agent;

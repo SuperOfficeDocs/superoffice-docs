@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson
-title: AudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
+title: NSAudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
 intellisense: NSAudienceAgent.GetAudienceLayoutOnPerson
 keywords: NSAudienceAgent, GetAudienceLayoutOnPerson
 so.topic: reference
@@ -16,6 +16,6 @@ Gets the Audience layout belonging to the person specified.
 ```crmscript
 NSAudienceAgent agent;
 Integer personId;
-AudienceLayoutEntity res = agent.GetAudienceLayoutOnPerson(personId);
+NSAudienceLayoutEntity res = agent.GetAudienceLayoutOnPerson(personId);
 ```
 

@@ -11,11 +11,11 @@ Gets a vector of Source objects.
 **Parameters:**
  - **sourceIds** The identifiers of the NSSource objects
 
-**Returns:** Vector of NSSource objects
+**Returns:** NSSource[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetSourceList(ids);
+NSSource[] res = agent.GetSourceList(ids);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetCompetitor
-title: SetCompetitor(Competitor competitor)
+title: SetCompetitor(NSCompetitor competitor)
 intellisense: NSSaleEntity.SetCompetitor
 keywords: NSSaleEntity, GetCompetitor
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 List of all possible competitors. 
 
 **Parameter:** 
- - **competitor** Competitor
+ - **competitor** NSCompetitor
 
 ```crmscript
 NSSaleEntity thing;
-Competitor competitor;
+NSCompetitor competitor;
 thing.SetCompetitor(competitor);
 ```
 

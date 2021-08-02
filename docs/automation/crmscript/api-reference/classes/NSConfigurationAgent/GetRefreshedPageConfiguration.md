@@ -13,7 +13,7 @@ Get the configuration for one whole web page, including all its panels etc.  tot
  - **instance** The instance name for the application, like 'MainInstance'
  - **page** Page name, must correspond to one of the pages in the Application Configuration
 
-**Returns:** XML containing the configuration for the given page, from the page down to the control level.
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

@@ -6,10 +6,10 @@ keywords: NSTicketCategory, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the TicketCategory list item.
+Set the tooltip description for the NSTicketCategory list item.
 
 **Parameter:** 
- - **tooltip** String TicketCategory tooltip description.
+ - **tooltip** String NSTicketCategory tooltip description.
 
 ```crmscript
 NSTicketCategory thing;

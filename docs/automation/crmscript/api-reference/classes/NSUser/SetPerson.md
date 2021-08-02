@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUser_SetPerson
-title: SetPerson(Person person)
+title: SetPerson(NSPerson person)
 intellisense: NSUser.SetPerson
 keywords: NSUser, GetPerson
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person associated with this user. Detailed information about the user
 
 **Parameter:** 
- - **person** Person
+ - **person** NSPerson
 
 ```crmscript
 NSUser thing;
-Person person;
+NSPerson person;
 thing.SetPerson(person);
 ```
 

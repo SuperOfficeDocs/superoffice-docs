@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSTicketPriorityEntity
   
 **Parameters:**
- - **ticketPriorityEntityId** The identity of the TicketPriorityEntity to delete.
+ - **ticketPriorityEntityId** The identity of the NSTicketPriorityEntity to delete.
 
 ```crmscript
 NSListAgent agent;

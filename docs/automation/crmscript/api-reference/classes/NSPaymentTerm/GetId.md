@@ -6,9 +6,9 @@ keywords: NSPaymentTerm, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the PaymentTerm
+Get the primary key (id) for the NSPaymentTerm
 
-**Returns:** Integer PaymentTerm id.
+**Returns:** Integer NSPaymentTerm id.
 
 ```crmscript
 NSPaymentTerm thing;

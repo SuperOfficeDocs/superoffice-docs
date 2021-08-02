@@ -11,7 +11,7 @@ Get multiple tickets
 **Parameters:**
  - **ticketIds** The ids of tickets to get
 
-**Returns:** Returns array of tickets in same order as input ids
+**Returns:** Ticket[]
 
 ```crmscript
 NSTicketAgent agent;

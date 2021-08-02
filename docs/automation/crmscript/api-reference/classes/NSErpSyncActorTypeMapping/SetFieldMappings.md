@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_SetFieldMappings
-title: SetFieldMappings(ErpSyncFieldMapping[9] fieldMappings)
+title: SetFieldMappings(NSErpSyncFieldMapping[9] fieldMappings)
 intellisense: NSErpSyncActorTypeMapping.SetFieldMappings
 keywords: NSErpSyncActorTypeMapping, GetFieldMappings
 so.topic: reference
@@ -13,7 +13,7 @@ Array of individual field mappings; explicitly map to empty CrmFieldKey to indic
 
 ```crmscript
 NSErpSyncActorTypeMapping thing;
-ErpSyncFieldMapping[] fieldMappings;
+NSErpSyncFieldMapping[] fieldMappings;
 thing.SetFieldMappings(fieldMappings);
 ```
 

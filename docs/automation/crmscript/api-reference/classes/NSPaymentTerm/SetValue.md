@@ -6,10 +6,10 @@ keywords: NSPaymentTerm, SetValue
 so.topic: reference
 ---
 
-Set the name of the PaymentTerm item.
+Set the name of the NSPaymentTerm item.
 
 **Parameter:** 
- - **value** String PaymentTerm name.
+ - **value** String NSPaymentTerm name.
 
 ```crmscript
 NSPaymentTerm thing;

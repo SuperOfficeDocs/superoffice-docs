@@ -6,16 +6,16 @@ keywords: NSListAgent, GetLocalizedTextList
 so.topic: reference
 ---
 
-Gets a vector of LocalizedText objects.
+Gets a vector of NSLocalizedText objects.
 
 **Parameters:**
  - **localizedTextIds** The identifiers of the NSLocalizedText objects
 
-**Returns:** Vector of NSLocalizedText objects
+**Returns:** NSLocalizedText[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetLocalizedTextList(ids);
+NSLocalizedText[] res = agent.GetLocalizedTextList(ids);
 ```
 

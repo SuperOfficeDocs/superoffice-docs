@@ -6,9 +6,9 @@ keywords: NSProductFamily, GetValue
 so.topic: reference
 ---
 
-Get the name of the ProductFamily.
+Get the name of the NSProductFamily.
 
-**Returns:** String ProductFamily name.
+**Returns:** String NSProductFamily name.
 
 ```crmscript
 NSProductFamily thing;

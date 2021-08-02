@@ -12,12 +12,10 @@ Create a new document template language based on an existing template
  - **documentTemplateId** The id of the document template
  - **languageCode** The language code ('en-US, 'nb-NO', etc)
 
-**Returns:** Returns nothing - throws on error
-
 ```crmscript
 NSListAgent agent;
 Integer documentTemplateId;
 String languageCode;
-Void res = agent.CreateDefaultDocumentTemplateLanguage(documentTemplateId, languageCode);
+agent.CreateDefaultDocumentTemplateLanguage(documentTemplateId, languageCode);
 ```
 

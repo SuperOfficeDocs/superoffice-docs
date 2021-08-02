@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveHeadingsForListItemFromListDefinition
-title: SelectableMDOListItem[] SaveHeadingsForListItemFromListDefinition(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItem[] headings)
+title: NSSelectableMDOListItem[] SaveHeadingsForListItemFromListDefinition(Integer udListDefinitionId, Integer listItemId, NSSelectableMDOListItem[] headings)
 intellisense: NSListAgent.SaveHeadingsForListItemFromListDefinition
 keywords: NSListAgent, SaveHeadingsForListItemFromListDefinition
 so.topic: reference
@@ -13,13 +13,13 @@ Saves the active headings for the list item.
  - **listItemId** The identity of the list item to delete
  - **headings** The headings to save.
 
-**Returns:** Array of headings
+**Returns:** NSSelectableMDOListItem[]
 
 ```crmscript
 NSListAgent agent;
 Integer udListDefinitionId;
 Integer listItemId;
-SelectableMDOListItem[] headings;
-SelectableMDOListItem[] res = agent.SaveHeadingsForListItemFromListDefinition(udListDefinitionId, listItemId, headings);
+NSSelectableMDOListItem[] headings;
+NSSelectableMDOListItem[] res = agent.SaveHeadingsForListItemFromListDefinition(udListDefinitionId, listItemId, headings);
 ```
 

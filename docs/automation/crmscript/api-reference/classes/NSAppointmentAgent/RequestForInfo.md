@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_RequestForInfo
-title: SalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
+title: NSSalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
 intellisense: NSAppointmentAgent.RequestForInfo
 keywords: NSAppointmentAgent, RequestForInfo
 so.topic: reference
@@ -30,6 +30,6 @@ String personFirstname;
 String personLastname;
 String emailAddress;
 String phoneNumber;
-SalesActivity res = agent.RequestForInfo(associateIdForNewContact, channel, regarding, contactName, personFirstname, personLastname, emailAddress, phoneNumber);
+NSSalesActivity res = agent.RequestForInfo(associateIdForNewContact, channel, regarding, contactName, personFirstname, personLastname, emailAddress, phoneNumber);
 ```
 

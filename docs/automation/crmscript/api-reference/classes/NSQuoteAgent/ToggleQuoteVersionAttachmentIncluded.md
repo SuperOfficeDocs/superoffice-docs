@@ -11,7 +11,7 @@ Toggle the 'included' state of a quote version attachment
 **Parameters:**
  - **quoteVersionAttachmentId** The ID of the quote version attachment row
 
-**Returns:** The new state
+**Returns:** Bool
 
 ```crmscript
 NSQuoteAgent agent;

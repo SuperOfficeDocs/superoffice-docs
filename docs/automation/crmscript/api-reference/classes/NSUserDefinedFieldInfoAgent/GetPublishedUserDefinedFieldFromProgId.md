@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId
-title: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromProgId(String progId, Integer ownerType)
+title: NSUserDefinedFieldInfo GetPublishedUserDefinedFieldFromProgId(String progId, Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
 keywords: NSUserDefinedFieldInfoAgent, GetPublishedUserDefinedFieldFromProgId
 so.topic: reference
@@ -21,12 +21,12 @@ Return information about the given user defined field identified by the owner an
      - Enum: 13 = Document 
      - Enum: 14 = None 
 
-**Returns:** Returns the user-defined field info carrier, or null if no matching field is found.
+**Returns:** NSUserDefinedFieldInfo
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;
 String progId;
 Integer ownerType;
-UserDefinedFieldInfo res = agent.GetPublishedUserDefinedFieldFromProgId(progId, ownerType);
+NSUserDefinedFieldInfo res = agent.GetPublishedUserDefinedFieldFromProgId(progId, ownerType);
 ```
 

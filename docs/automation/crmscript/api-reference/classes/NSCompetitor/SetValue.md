@@ -6,10 +6,10 @@ keywords: NSCompetitor, SetValue
 so.topic: reference
 ---
 
-Set the name of the Competitor item.
+Set the name of the NSCompetitor item.
 
 **Parameter:** 
- - **value** String Competitor name.
+ - **value** String NSCompetitor name.
 
 ```crmscript
 NSCompetitor thing;

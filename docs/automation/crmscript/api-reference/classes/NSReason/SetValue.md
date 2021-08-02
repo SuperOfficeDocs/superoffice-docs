@@ -6,10 +6,10 @@ keywords: NSReason, SetValue
 so.topic: reference
 ---
 
-Set the name of the Reason item.
+Set the name of the NSReason item.
 
 **Parameter:** 
- - **value** String Reason name.
+ - **value** String NSReason name.
 
 ```crmscript
 NSReason thing;

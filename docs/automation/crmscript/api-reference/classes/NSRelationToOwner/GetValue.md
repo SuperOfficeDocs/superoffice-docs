@@ -6,9 +6,9 @@ keywords: NSRelationToOwner, GetValue
 so.topic: reference
 ---
 
-Get the name of the RelationToOwner.
+Get the name of the NSRelationToOwner.
 
-**Returns:** String RelationToOwner name.
+**Returns:** String
 
 ```crmscript
 NSRelationToOwner thing;

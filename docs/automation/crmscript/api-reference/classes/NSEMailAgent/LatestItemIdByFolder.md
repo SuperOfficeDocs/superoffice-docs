@@ -11,7 +11,7 @@ Returns the latest id of the mail item by folder
 **Parameters:**
  - **folderId** The folderId for the folder to check for the latest mail id
 
-**Returns:** Mail Item id
+**Returns:** Integer
 
 ```crmscript
 NSEMailAgent agent;

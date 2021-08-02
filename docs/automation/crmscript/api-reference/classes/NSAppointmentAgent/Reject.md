@@ -17,13 +17,13 @@ Rejecting an appointment invitation
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 String rejectReason;
 Integer updateMode;
-Void res = agent.Reject(appointmentId, rejectReason, updateMode);
+agent.Reject(appointmentId, rejectReason, updateMode);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetSaleStakeholders
-title: SaleStakeholder[] GetSaleStakeholders()
+title: NSSaleStakeholder[] GetSaleStakeholders()
 intellisense: NSSaleEntity.GetSaleStakeholders
 keywords: NSSaleEntity, GetSaleStakeholders
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** SaleStakeholder[]
+**Returns:** NSSaleStakeholder[]
 
 
 ```crmscript
 NSSaleEntity thing;
-SaleStakeholder[] saleStakeholders  = thing.GetSaleStakeholders();
+NSSaleStakeholder[] saleStakeholders  = thing.GetSaleStakeholders();
 ```
 
 

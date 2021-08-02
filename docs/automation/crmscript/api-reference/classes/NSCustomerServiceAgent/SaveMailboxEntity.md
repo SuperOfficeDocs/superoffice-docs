@@ -11,7 +11,7 @@ Updates the existing NSMailboxEntity or creates a new NSMailboxEntity if the id 
 **Parameters**:
  - **mailboxEntity** The NSMailboxEntity to save.
 
-**Returns:** New or updated NSMailboxEntity
+**Returns:** NSMailboxEntity
 
 ```crmscript
 NSCustomerService  agent;

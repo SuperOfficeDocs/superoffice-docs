@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings
-title: ErpConnectionListMappingContainer SaveConnectionListMappings(ErpConnectionListMappingContainer listMapping)
+title: NSErpConnectionListMappingContainer SaveConnectionListMappings(NSErpConnectionListMappingContainer listMapping)
 intellisense: NSErpSyncAgent.SaveConnectionListMappings
 keywords: NSErpSyncAgent, SaveConnectionListMappings
 so.topic: reference
@@ -11,11 +11,11 @@ Saves a connection to the database.
 **Parameters:**
  - **listMapping** The list item mappings to save.
 
-**Returns:** The saved list mappings.
+**Returns:** NSErpConnectionListMappingContainer
 
 ```crmscript
 NSErpSyncAgent agent;
-ErpConnectionListMappingContainer listMapping;
-ErpConnectionListMappingContainer res = agent.SaveConnectionListMappings(listMapping);
+NSErpConnectionListMappingContainer listMapping;
+NSErpConnectionListMappingContainer res = agent.SaveConnectionListMappings(listMapping);
 ```
 

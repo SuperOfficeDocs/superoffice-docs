@@ -9,7 +9,7 @@ so.topic: reference
 Set default values into a new NSEMailCustomHeader.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 	  
-**Returns:** A new NSEMailCustomHeader with default values.
+**Returns:** NSEMailCustomHeader
 
 ```crmscript
 NSEMailAgent agent;

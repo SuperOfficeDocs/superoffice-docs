@@ -11,7 +11,7 @@ Get a list of all selection ids where the given selection is used to create a co
 **Parameters:**
  - **selectionId** The selectionId to query for.
 
-**Returns:** Array of selectionIds.
+**Returns:** Integer[]
 
 ```crmscript
 NSSelectionAgent agent;

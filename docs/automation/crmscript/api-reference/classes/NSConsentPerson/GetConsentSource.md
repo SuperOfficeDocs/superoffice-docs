@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSConsentPerson_GetConsentSource
-title: ConsentSource GetConsentSource()
+title: NSConsentSource GetConsentSource()
 intellisense: NSConsentPerson.GetConsentSource
 keywords: NSConsentPerson, GetConsentSource
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The consent source
 
-**Returns:** ConsentSource
+**Returns:** NSConsentSource
 
 
 ```crmscript
 NSConsentPerson thing;
-ConsentSource consentSource  = thing.GetConsentSource();
+NSConsentSource consentSource  = thing.GetConsentSource();
 ```
 
 

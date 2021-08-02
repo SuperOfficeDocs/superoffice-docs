@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAlternative_SetStatus
-title: SetStatus(QuoteStatus status)
+title: SetStatus(Integer status)
 intellisense: NSQuoteAlternative.SetStatus
 keywords: NSQuoteAlternative, GetStatus
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 If there was a problem with for instance calculation, this field is set to warning or error.
 
 **Parameter:** 
- - **status** QuoteStatus
+ - **status** Integer
      - Enum: 0 = Ok 
      - Enum: 1 = OkWithInfo 
      - Enum: 2 = Warning 
@@ -17,7 +17,7 @@ If there was a problem with for instance calculation, this field is set to warni
 
 ```crmscript
 NSQuoteAlternative thing;
-QuoteStatus status;
+Integer status;
 thing.SetStatus(status);
 ```
 

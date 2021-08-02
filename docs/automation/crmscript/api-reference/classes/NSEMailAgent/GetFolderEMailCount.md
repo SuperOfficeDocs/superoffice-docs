@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetFolderEMailCount
-title: Integer GetFolderEMailCount(EMailConnectionInfo connectionInfo, Bool onlyUnread)
+title: Integer GetFolderEMailCount(NSEMailConnectionInfo connectionInfo, Bool onlyUnread)
 intellisense: NSEMailAgent.GetFolderEMailCount
 keywords: NSEMailAgent, GetFolderEMailCount
 so.topic: reference
@@ -12,11 +12,11 @@ Retrieve total/unread mail items in current folder
  - **connectionInfo** All information needed to connect to the mailserver
  - **onlyUnread** If true, only unread items are counted
 
-**Returns:** Number of mail items
+**Returns:** Integer
 
 ```crmscript
 NSEMailAgent agent;
-EMailConnectionInfo connectionInfo;
+NSEMailConnectionInfo connectionInfo;
 Bool onlyUnread;
 Integer res = agent.GetFolderEMailCount(connectionInfo, onlyUnread);
 ```

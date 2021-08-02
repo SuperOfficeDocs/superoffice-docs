@@ -16,12 +16,12 @@ Accepting an appointment invitation.
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** Updated NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 Integer updateMode;
-Void res = agent.Accept(appointmentId, updateMode);
+agent.Accept(appointmentId, updateMode);
 ```
 

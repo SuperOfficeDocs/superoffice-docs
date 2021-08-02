@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSApproveRejectResponse_GetPluginResponse
-title: PluginResponse GetPluginResponse()
+title: NSPluginResponse GetPluginResponse()
 intellisense: NSApproveRejectResponse.GetPluginResponse
 keywords: NSApproveRejectResponse, GetPluginResponse
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The response from the operation.
 
-**Returns:** PluginResponse
+**Returns:** NSPluginResponse
 
 
 ```crmscript
 NSApproveRejectResponse thing;
-PluginResponse pluginResponse  = thing.GetPluginResponse();
+NSPluginResponse pluginResponse  = thing.GetPluginResponse();
 ```
 
 

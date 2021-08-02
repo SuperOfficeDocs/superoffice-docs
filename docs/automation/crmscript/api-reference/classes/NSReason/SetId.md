@@ -6,10 +6,10 @@ keywords: NSReason, SetId
 so.topic: reference
 ---
 
-Set the primary key (id) for the Reason
+Set the primary key (id) for the NSReason
 
 **Parameter:** 
- - **id** Integer Reason id.
+ - **id** Integer NSReason id.
 
 ```crmscript
 NSReason thing;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GetProjectMemberAppointmentsByTask
-title: Appointment[] GetProjectMemberAppointmentsByTask(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+title: NSAppointment[] GetProjectMemberAppointmentsByTask(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
 intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTask
 keywords: NSAppointmentAgent, GetProjectMemberAppointmentsByTask
 so.topic: reference
@@ -15,7 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
  - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
  - **taskId** The task id. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
-**Returns:** Array of Appointments.
+**Returns:** NSAppointment[]
 
 ```crmscript
 NSAppointmentAgent agent;
@@ -24,6 +24,6 @@ DateTime startTime;
 DateTime endTime;
 Integer count;
 Integer taskId;
-Appointment[] res = agent.GetProjectMemberAppointmentsByTask(personId, startTime, endTime, count, taskId);
+NSAppointment[] res = agent.GetProjectMemberAppointmentsByTask(personId, startTime, endTime, count, taskId);
 ```
 

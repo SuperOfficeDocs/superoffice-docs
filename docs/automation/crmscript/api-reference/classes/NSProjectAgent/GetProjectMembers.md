@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectAgent_GetProjectMembers
-title: ProjectMember[] GetProjectMembers(Integer projectId)
+title: NSProjectMember[] GetProjectMembers(Integer projectId)
 intellisense: NSProjectAgent.GetProjectMembers
 keywords: NSProjectAgent, GetProjectMembers
 so.topic: reference
@@ -11,11 +11,11 @@ Returns an array of project members
 **Parameters:**
  - **projectId** The project id
 
-**Returns:** An array of project members
+**Returns:** NSProjectMember[]
 
 ```crmscript
 NSProjectAgent agent;
 Integer projectId;
-ProjectMember[] res = agent.GetProjectMembers(projectId);
+NSProjectMember[] res = agent.GetProjectMembers(projectId);
 ```
 

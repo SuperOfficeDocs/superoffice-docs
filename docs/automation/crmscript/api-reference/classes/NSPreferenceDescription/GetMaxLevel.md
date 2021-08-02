@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceDescription_GetMaxLevel
-title: PreferenceLevel GetMaxLevel()
+title: Integer GetMaxLevel()
 intellisense: NSPreferenceDescription.GetMaxLevel
 keywords: NSPreferenceDescription, GetMaxLevel
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Lowest allowed setting level, set by user, but not lower than sysMaxLevel
 
-**Returns:** PreferenceLevel
+**Returns:** Integer
 
      - Enum: 0 = Undefined 
      - Enum: 1 = HardDefault 
@@ -20,7 +20,7 @@ Lowest allowed setting level, set by user, but not lower than sysMaxLevel
 
 ```crmscript
 NSPreferenceDescription thing;
-PreferenceLevel maxLevel  = thing.GetMaxLevel();
+Integer maxLevel  = thing.GetMaxLevel();
 ```
 
 

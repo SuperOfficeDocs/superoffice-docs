@@ -1,21 +1,21 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteFromSaleId
-title: Quote GetQuoteFromSaleId(Integer saleId)
+title: NSQuote GetQuoteFromSaleId(Integer saleId)
 intellisense: NSQuoteAgent.GetQuoteFromSaleId
 keywords: NSQuoteAgent, GetQuoteFromSaleId
 so.topic: reference
 ---
 
-Get a Quote for a sale
+Get a NSQuote for a sale
 
 **Parameters:**
- - **saleId** SaleId of the Quote to get.
+ - **saleId** SaleId of the NSQuote to get.
 
-**Returns:** The Quote
+**Returns:** NSQuote
 
 ```crmscript
 NSQuoteAgent agent;
 Integer saleId;
-Quote res = agent.GetQuoteFromSaleId(saleId);
+NSQuote res = agent.GetQuoteFromSaleId(saleId);
 ```
 

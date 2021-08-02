@@ -6,7 +6,7 @@ keywords: NSTicketCategoryEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values on TicketCategoryEntity with a map.
+Set the extra field values on NSTicketCategoryEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

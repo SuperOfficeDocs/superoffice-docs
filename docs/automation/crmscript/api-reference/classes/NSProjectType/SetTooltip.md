@@ -6,10 +6,10 @@ keywords: NSProjectType, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the ProjectType list item.
+Set the tooltip description for the NSProjectType list item.
 
 **Parameter:** 
- - **tooltip** String ProjectType tooltip description.
+ - **tooltip** String NSProjectType tooltip description.
 
 ```crmscript
 NSProjectType thing;

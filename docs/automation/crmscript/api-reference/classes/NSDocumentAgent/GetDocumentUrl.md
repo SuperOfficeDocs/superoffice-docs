@@ -13,7 +13,7 @@ Get a URL referring to the given document content.<para/>This URL may be passed 
  - **versionId** Version ID if applicable/desired; a blank value implies "latest" version and is always acceptable.
  - **writeableUrl** If true, then a URL that supports saving is requested. Som edocument plugins may not support read-only URLs, so there is no guarantee that a False value will actually yield a read-only URL, and vice versa.
 
-**Returns:** Fully resolved URL referring to the document. May be NULL or blank if plugin does not support URLs.
+**Returns:** String
 
 ```crmscript
 NSDocumentAgent agent;

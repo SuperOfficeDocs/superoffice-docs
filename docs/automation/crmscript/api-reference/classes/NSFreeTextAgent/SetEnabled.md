@@ -11,11 +11,9 @@ Sets freetext search to enabled (true) or disabled (false)
 **Parameters:**
  - **enabled** If enabled true, else false
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSFreeTextAgent agent;
 Bool enabled;
-Void res = agent.SetEnabled(enabled);
+agent.SetEnabled(enabled);
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteConnection_SetInitializeResponse
-title: SetInitializeResponse(PluginResponse initializeResponse)
+title: SetInitializeResponse(NSPluginResponse initializeResponse)
 intellisense: NSQuoteConnection.SetInitializeResponse
 keywords: NSQuoteConnection, GetInitializeResponse
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet.
 
 **Parameter:** 
- - **initializeResponse** PluginResponse
+ - **initializeResponse** NSPluginResponse
 
 ```crmscript
 NSQuoteConnection thing;
-PluginResponse initializeResponse;
+NSPluginResponse initializeResponse;
 thing.SetInitializeResponse(initializeResponse);
 ```
 

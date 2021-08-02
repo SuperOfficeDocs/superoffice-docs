@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSSelectableMDOListItem_GetChildItems
-title: SelectableMDOListItem[] GetChildItems()
+title: NSSelectableMDOListItem[] GetChildItems()
 intellisense: NSSelectableMDOListItem.GetChildItems
 keywords: NSSelectableMDOListItem, GetChildItems
 so.topic: reference
 ---
 
-The child items of the SelectableMDOListItem
+The child items of the NSSelectableMDOListItem
 
-**Returns:** SelectableMDOListItem[]
+**Returns:** NSSelectableMDOListItem[]
 
 
 ```crmscript
 NSSelectableMDOListItem thing;
-SelectableMDOListItem[] childItems  = thing.GetChildItems();
+NSSelectableMDOListItem[] childItems  = thing.GetChildItems();
 ```
 
 

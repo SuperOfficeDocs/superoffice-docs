@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_GetLinks
-title: Link[] GetLinks()
+title: NSLink[] GetLinks()
 intellisense: NSProjectEntity.GetLinks
 keywords: NSProjectEntity, GetLinks
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of all elements linked to the project
 
-**Returns:** Link[]
+**Returns:** NSLink[]
 
 
 ```crmscript
 NSProjectEntity thing;
-Link[] links  = thing.GetLinks();
+NSLink[] links  = thing.GetLinks();
 ```
 
 

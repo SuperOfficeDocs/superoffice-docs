@@ -6,10 +6,10 @@ keywords: NSTicketPriority, SetValue
 so.topic: reference
 ---
 
-Set the name of the TicketPriority item.
+Set the name of the NSTicketPriority item.
 
 **Parameter:** 
- - **value** String TicketPriority name.
+ - **value** String NSTicketPriority name.
 
 ```crmscript
 NSTicketPriority thing;

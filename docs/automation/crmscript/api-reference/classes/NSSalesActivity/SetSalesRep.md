@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSalesActivity_SetSalesRep
-title: SetSalesRep(Person salesRep)
+title: SetSalesRep(NSPerson salesRep)
 intellisense: NSSalesActivity.SetSalesRep
 keywords: NSSalesActivity, GetSalesRep
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The sales representative for the person that matches the request.
 
 **Parameter:** 
- - **salesRep** Person
+ - **salesRep** NSPerson
 
 ```crmscript
 NSSalesActivity thing;
-Person salesRep;
+NSPerson salesRep;
 thing.SetSalesRep(salesRep);
 ```
 

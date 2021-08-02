@@ -6,7 +6,7 @@ keywords: NSConsentInfo, GetLegalBaseId
 so.topic: reference
 ---
 
-Primary key for the LegalBase associated with this consent
+Primary key for the NSLegalBase associated with this consent
 
 **Parameter:** 
  - **legalBaseId** Integer

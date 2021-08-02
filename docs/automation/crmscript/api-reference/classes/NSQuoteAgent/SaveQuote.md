@@ -1,21 +1,21 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_SaveQuote
-title: Quote SaveQuote(Quote quote)
+title: NSQuote SaveQuote(NSQuote quote)
 intellisense: NSQuoteAgent.SaveQuote
 keywords: NSQuoteAgent, SaveQuote
 so.topic: reference
 ---
 
-Saves a Quote
+Saves a NSQuote
 
 **Parameters:**
- - **quote** The Quote to save
+ - **quote** The NSQuote to save
 
-**Returns:** The saved Quote
+**Returns:** NSQuote
 
 ```crmscript
 NSQuoteAgent agent;
-Quote quote;
-Quote res = agent.SaveQuote(quote);
+NSQuote quote;
+NSQuote res = agent.SaveQuote(quote);
 ```
 

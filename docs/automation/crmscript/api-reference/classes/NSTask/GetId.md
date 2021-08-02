@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the Task
 
-**Returns:** Integer Task id.
+**Returns:** Integer
 
 ```crmscript
 NSTask thing;

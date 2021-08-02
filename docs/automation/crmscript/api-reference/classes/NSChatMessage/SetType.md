@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatMessage_SetType
-title: SetType(ChatMessageType type)
+title: SetType(NSChatMessageType type)
 intellisense: NSChatMessage.SetType
 keywords: NSChatMessage, GetType
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 The type of the message.
 
 **Parameter:** 
- - **type** ChatMessageType
+ - **type** NSChatMessageType
      - Enum: 0 = Invalid 
      - Enum: 1 = ToCustomer 
      - Enum: 2 = ToUser 
@@ -17,7 +17,7 @@ The type of the message.
 
 ```crmscript
 NSChatMessage thing;
-ChatMessageType type;
+NSChatMessageType type;
 thing.SetType(type);
 ```
 

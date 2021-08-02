@@ -11,7 +11,7 @@ Toggle the 'default included' state of a sale type quote attachment
 **Parameters:**
  - **saleTypeQuoteAttachmentId** The ID of the sale type quote attachment row
 
-**Returns:** The new state
+**Returns:** Bool
 
 ```crmscript
 NSQuoteAgent agent;

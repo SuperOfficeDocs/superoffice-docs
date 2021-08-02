@@ -3,7 +3,7 @@ uid: crmscript_class_nsdocumenttemplate_setdirection
 title: SetDirection()
 description: CRMScript method in the NSDocumentTemplate class that sets the direction of a document template
 intellisense: NSDocumentTemplate.SetDirection
-keywords: NSDocumentTemplate, GetDirection, SetDirection(DocTmplDirection direction), SetDirection(NSDocTmplDirection)
+keywords: NSDocumentTemplate, GetDirection, SetDirection(NSDocTmplDirection direction), SetDirection(NSDocTmplDirection)
 so.topic: reference
 ---
 
@@ -13,7 +13,7 @@ so.topic: reference
 
 | Parameter | Type | Description |
 |---|---|---|
-| direction | DocTmplDirection | The direction of documents from this template |
+| direction | NSDocTmplDirection | The direction of documents from this template |
 
 ### Directions
 
@@ -30,6 +30,6 @@ See EAppntDirection
 
 ```crmscript
 NSDocumentTemplate thing;
-DocTmplDirection direction;
+NSDocTmplDirection direction;
 thing.SetDirection(direction);
 ```

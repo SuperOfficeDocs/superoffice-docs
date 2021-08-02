@@ -28,7 +28,7 @@ Link a crm entity to an erp entity
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
-**Returns:** True if success
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

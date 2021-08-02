@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncDefaultValue_GetAccess
-title: FieldAccess GetAccess()
+title: NSFieldAccess GetAccess()
 intellisense: NSErpSyncDefaultValue.GetAccess
 keywords: NSErpSyncDefaultValue, GetAccess
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Access restrictions for the field
 
-**Returns:** FieldAccess
+**Returns:** NSFieldAccess
 
      - Enum: 0 = Normal 
      - Enum: 1 = Mandatory 
@@ -16,7 +16,7 @@ Access restrictions for the field
 
 ```crmscript
 NSErpSyncDefaultValue thing;
-FieldAccess access  = thing.GetAccess();
+NSFieldAccess access  = thing.GetAccess();
 ```
 
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables2
-title: Stream SubstituteMergeDocumentTemplateVariables2(Integer documentId, Integer associateId, StringDictionary customTags)
+title: NSStream SubstituteMergeDocumentTemplateVariables2(Integer documentId, Integer associateId, StringDictionary customTags)
 intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2
 keywords: NSDocumentAgent, SubstituteMergeDocumentTemplateVariables2
 so.topic: reference
@@ -13,13 +13,13 @@ Parse the source document, and replace any template variable tags with their val
  - **associateId** The associateId used to subsitute tags in the document.
  - **customTags** Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
 
-**Returns:** The document as a Stream
+**Returns:** NSStream
 
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
 Integer associateId;
 StringDictionary customTags;
-Stream res = agent.SubstituteMergeDocumentTemplateVariables2(documentId, associateId, customTags);
+NSStream res = agent.SubstituteMergeDocumentTemplateVariables2(documentId, associateId, customTags);
 ```
 

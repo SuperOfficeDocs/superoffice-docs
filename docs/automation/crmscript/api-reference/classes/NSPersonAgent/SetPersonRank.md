@@ -12,7 +12,7 @@ Directly set the rank field of a person record, adjusting all other person recor
  - **personId** Id of person to change
  - **desiredRank** Desired rank to set, legal values are from 1 to the number of person records on this contact. Out of range values will be moved to the closest valid value and processed.
 
-**Returns:** If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false. 
+**Returns:** Bool
 
 ```crmscript
 NSPersonAgent agent;

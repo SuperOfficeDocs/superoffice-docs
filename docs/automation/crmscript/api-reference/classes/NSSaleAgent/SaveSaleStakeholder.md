@@ -11,7 +11,7 @@ Updates the existing NSSaleStakeholder or creates a new NSSaleStakeholder if the
 **Parameters**:
  - **saleStakeholder** The NSSaleStakeholder to save.
 
-**Returns:** New or updated NSSaleStakeholder
+**Returns:** NSSaleStakeholder
 
 ```crmscript
 NSSale  agent;

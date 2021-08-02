@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetFaxes
-title: EntityElement[] GetFaxes()
+title: NSEntityElement[] GetFaxes()
 intellisense: NSPersonEntity.GetFaxes
 keywords: NSPersonEntity, GetFaxes
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Returns a collection of fax numbers that belong to the contact person.
 
-**Returns:** EntityElement[]
+**Returns:** NSEntityElement[]
 
 
 ```crmscript
 NSPersonEntity thing;
-EntityElement[] faxes  = thing.GetFaxes();
+NSEntityElement[] faxes  = thing.GetFaxes();
 ```
 
 

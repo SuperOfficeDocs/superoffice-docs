@@ -11,10 +11,10 @@ Updates the existing NSAttachmentEntity or creates a new NSAttachmentEntity if t
 **Parameters**:
  - **attachmentEntity** The NSAttachmentEntity to save.
 
-**Returns:** New or updated NSAttachmentEntity
+**Returns:** NSAttachmentEntity
 
 ```crmscript
-NSTicket  agent;
+NSTicketAgent agent;
 NSAttachmentEntity thing = agent.CreateDefaultAttachmentEntity();
 thing = agent.SaveAttachmentEntity(thing);
 ```

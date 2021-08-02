@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_GetPerson
-title: Person GetPerson()
+title: NSPerson GetPerson()
 intellisense: NSChatSessionEntity.GetPerson
 keywords: NSChatSessionEntity, GetPerson
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Customer person in this session - could be empty if we don't know exactly.
 
-**Returns:** Person
+**Returns:** NSPerson
 
 
 ```crmscript
 NSChatSessionEntity thing;
-Person person  = thing.GetPerson();
+NSPerson person  = thing.GetPerson();
 ```
 
 

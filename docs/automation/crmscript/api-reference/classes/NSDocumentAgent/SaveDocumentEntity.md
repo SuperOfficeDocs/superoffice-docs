@@ -11,7 +11,7 @@ Updates the existing NSDocumentEntity or creates a new NSDocumentEntity if the i
 **Parameters**:
  - **documentEntity** The NSDocumentEntity to save.
 
-**Returns:** New or updated NSDocumentEntity
+**Returns:** NSDocumentEntity
 
 ```crmscript
 NSDocument  agent;

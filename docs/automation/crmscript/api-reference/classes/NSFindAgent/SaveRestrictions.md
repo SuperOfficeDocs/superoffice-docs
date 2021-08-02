@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_SaveRestrictions
-title: Void SaveRestrictions(String storageType, String providerName, String storageKey, ArchiveRestrictionInfo[] restrictions)
+title: Void SaveRestrictions(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] restrictions)
 intellisense: NSFindAgent.SaveRestrictions
 keywords: NSFindAgent, SaveRestrictions
 so.topic: reference
@@ -14,14 +14,13 @@ Save an array of restrictions for later use as search criteria (including as dyn
  - **storageKey** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
  - **restrictions** Array of restrictions. The ColumnInfo member and the DisplayValues members need NOT be populated; it is enough to provide a name, operator and any values the operator may need. The IsActive is also saved. Values should be encoded using the CultureDataFormatter to ensure compatibility across cultures.
 
-**Returns:** This service call just saves the restrictions. See SaveRestrictionsAndGetCriteriaInformation if you would like the restrictions returned as criteria immediately, in one roundtrip
 
 ```crmscript
 NSFindAgent agent;
 String storageType;
 String providerName;
 String storageKey;
-ArchiveRestrictionInfo[] restrictions;
-Void res = agent.SaveRestrictions(storageType, providerName, storageKey, restrictions);
+NSArchiveRestrictionInfo[] restrictions;
+agent.SaveRestrictions(storageType, providerName, storageKey, restrictions);
 ```
 

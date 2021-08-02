@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSViewStateAgent_GetHistories
-title: History[] GetHistories()
+title: NSHistory[] GetHistories()
 intellisense: NSViewStateAgent.GetHistories
 keywords: NSViewStateAgent, GetHistories
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all history items that belong to the currently logged in user
 
 
-**Returns:** Array of History items
+**Returns:** NSHistory[]
 
 ```crmscript
 NSViewStateAgent agent;
-History[] res = agent.GetHistories();
+NSHistory[] res = agent.GetHistories();
 ```
 

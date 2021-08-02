@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_ChangeFieldType
-title: UserDefinedFieldInfo ChangeFieldType(UserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
+title: NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
 intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
 keywords: NSUserDefinedFieldInfoAgent, ChangeFieldType
 so.topic: reference
@@ -21,13 +21,13 @@ Create a UserDefinedFieldInfo based on a owner-entity id
      - Enum: 8 = Decimal 
  - **isIndexed** The new indexed status you want
 
-**Returns:** Returns the user-defined field info carrier
+**Returns:** NSUserDefinedFieldInfo
 
 ```crmscript
 NSUserDefinedFieldInfoAgent agent;
-UserDefinedFieldInfo info;
+NSUserDefinedFieldInfo info;
 Integer fieldType;
 Bool isIndexed;
-UserDefinedFieldInfo res = agent.ChangeFieldType(info, fieldType, isIndexed);
+NSUserDefinedFieldInfo res = agent.ChangeFieldType(info, fieldType, isIndexed);
 ```
 

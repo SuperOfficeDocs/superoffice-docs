@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_DeleteForeignDevice
-title: Void DeleteForeignDevice(ForeignDevice foreignDevice, String applicationName)
+title: Void DeleteForeignDevice(NSForeignDevice foreignDevice, String applicationName)
 intellisense: NSForeignSystemAgent.DeleteForeignDevice
 keywords: NSForeignSystemAgent, DeleteForeignDevice
 so.topic: reference

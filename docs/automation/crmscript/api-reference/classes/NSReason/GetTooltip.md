@@ -6,9 +6,9 @@ keywords: NSReason, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the Reason list item.
+Get the tooltip description for the NSReason list item.
 
-**Returns:** String Reason tooltip description.
+**Returns:** String
 
 ```crmscript
 NSReason thing;

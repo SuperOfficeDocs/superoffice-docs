@@ -6,16 +6,16 @@ keywords: NSListAgent, GetLanguageInfoList
 so.topic: reference
 ---
 
-Gets a vector of LanguageInfo objects.
+Gets a vector of NSLanguageInfo objects.
 
 **Parameters:**
  - **languageInfoIds** The identifiers of the NSLanguageInfo objects
 
-**Returns:** Vector of NSLanguageInfo objects
+**Returns:** NSLanguageInfo[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetLanguageInfoList(ids);
+NSLanguageInfo[] res = agent.GetLanguageInfoList(ids);
 ```
 

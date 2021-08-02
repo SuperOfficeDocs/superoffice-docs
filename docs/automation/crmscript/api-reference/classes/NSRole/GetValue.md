@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the Role.
 
-**Returns:** String Role name.
+**Returns:** String
 
 ```crmscript
 NSRole thing;

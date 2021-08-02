@@ -6,9 +6,9 @@ keywords: NSCategory, GetValue
 so.topic: reference
 ---
 
-Get the name of the Category.
+Get the name of the NSCategory.
 
-**Returns:** String Category name.
+**Returns:** String
 
 ```crmscript
 NSCategory thing;

@@ -9,7 +9,7 @@ so.topic: reference
 Set the extra field values on User with a map.
 
 **Parameter:** 
- - **extras** Map containing extra field values encoded as strings.
+ - **extras** Map
 
 ```crmscript
 NSUser thing;

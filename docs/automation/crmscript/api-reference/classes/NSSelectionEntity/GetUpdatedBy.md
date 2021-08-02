@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSSelectionEntity.GetUpdatedBy
 keywords: NSSelectionEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Who last modified the selection
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSSelectionEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

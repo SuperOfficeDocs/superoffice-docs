@@ -10,3 +10,5 @@ so.topic: reference
 
 **Parameters:**
  - **associateId** 
+
+**Returns:** String

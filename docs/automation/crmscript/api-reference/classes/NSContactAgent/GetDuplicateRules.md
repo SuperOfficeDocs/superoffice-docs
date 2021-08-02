@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_GetDuplicateRules
-title: DuplicateRule[] GetDuplicateRules()
+title: NSDuplicateRule[] GetDuplicateRules()
 intellisense: NSContactAgent.GetDuplicateRules
 keywords: NSContactAgent, GetDuplicateRules
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Retrieve all available duplicate rules for contact
 
 
-**Returns:** All available duplicate rules
+**Returns:** NSDuplicateRule[]
 
 ```crmscript
 NSContactAgent agent;
-DuplicateRule[] res = agent.GetDuplicateRules();
+NSDuplicateRule[] res = agent.GetDuplicateRules();
 ```
 

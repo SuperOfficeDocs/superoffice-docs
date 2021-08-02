@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSBlobEntity_GetCreatedBy
-title: Associate GetCreatedBy()
+title: NSAssociate GetCreatedBy()
 intellisense: NSBlobEntity.GetCreatedBy
 keywords: NSBlobEntity, GetCreatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The person that first created the document. The property is read-only.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSBlobEntity thing;
-Associate createdBy  = thing.GetCreatedBy();
+NSAssociate createdBy  = thing.GetCreatedBy();
 ```
 
 

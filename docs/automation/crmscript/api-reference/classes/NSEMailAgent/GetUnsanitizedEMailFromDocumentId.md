@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedEMailFromDocumentId
-title: EMailEntity GetUnsanitizedEMailFromDocumentId(Integer documentId)
+title: NSEMailEntity GetUnsanitizedEMailFromDocumentId(Integer documentId)
 intellisense: NSEMailAgent.GetUnsanitizedEMailFromDocumentId
 keywords: NSEMailAgent, GetUnsanitizedEMailFromDocumentId
 so.topic: reference
@@ -11,11 +11,11 @@ Get an e-mail based on an archived document. The returned value is not sanitized
 **Parameters:**
  - **documentId** Unique id of the document
 
-**Returns:** The e-mail
+**Returns:** NSEMailEntity
 
 ```crmscript
 NSEMailAgent agent;
 Integer documentId;
-EMailEntity res = agent.GetUnsanitizedEMailFromDocumentId(documentId);
+NSEMailEntity res = agent.GetUnsanitizedEMailFromDocumentId(documentId);
 ```
 

@@ -9,7 +9,7 @@ so.topic: reference
 
 
 **Parameter:** 
- - **values** StringArray
+ - **values** String[]
 
 ```crmscript
 NSEMailCustomHeader thing;

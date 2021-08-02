@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the primary key (id) for the Role
 
-**Returns:** Integer Role id.
+**Returns:** Integer
 
 ```crmscript
 NSRole thing;

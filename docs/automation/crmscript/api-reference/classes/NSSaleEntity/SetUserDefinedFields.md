@@ -9,7 +9,7 @@ so.topic: reference
 Set the user-defined fields on the SaleEntity as a map.
 
 **Parameter:** 
- - **udefs** Map user defined field values encoded as strings.
+ - **udefs** Map
 
 ```crmscript
 NSSaleEntity thing;

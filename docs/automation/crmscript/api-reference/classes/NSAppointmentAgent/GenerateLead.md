@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_GenerateLead
-title: SalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
+title: NSSalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
 intellisense: NSAppointmentAgent.GenerateLead
 keywords: NSAppointmentAgent, GenerateLead
 so.topic: reference
@@ -38,6 +38,6 @@ String leadPhoneNumber;
 String creatorsContact;
 String creatorsFirstname;
 String creatorsLastname;
-SalesActivity res = agent.GenerateLead(associateIdForNewContact, leadDescription, relation, relationId, leadContact, leadPersonFirstname, leadPersonLastname, leadPersonEmail, leadPhoneNumber, creatorsContact, creatorsFirstname, creatorsLastname);
+NSSalesActivity res = agent.GenerateLead(associateIdForNewContact, leadDescription, relation, relationId, leadContact, leadPersonFirstname, leadPersonLastname, leadPersonEmail, leadPhoneNumber, creatorsContact, creatorsFirstname, creatorsLastname);
 ```
 

@@ -6,7 +6,7 @@ keywords: NSConsentInfo, GetConsentSourceId
 so.topic: reference
 ---
 
-Primary key for the ConsentSource associated with this consent
+Primary key for the NSConsentSource associated with this consent
 
 **Parameter:** 
  - **consentSourceId** Integer

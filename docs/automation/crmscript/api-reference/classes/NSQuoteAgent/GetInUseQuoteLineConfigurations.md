@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetInUseQuoteLineConfigurations
-title: QuoteLineConfiguration[] GetInUseQuoteLineConfigurations()
+title: NSQuoteLineConfiguration[] GetInUseQuoteLineConfigurations()
 intellisense: NSQuoteAgent.GetInUseQuoteLineConfigurations
 keywords: NSQuoteAgent, GetInUseQuoteLineConfigurations
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns the configuration fields that should be visible in the GUI.
 
 
-**Returns:** Array of QuoteLineConfigurations
+**Returns:** NSQuoteLineConfiguration[]
 
 ```crmscript
 NSQuoteAgent agent;
-QuoteLineConfiguration[] res = agent.GetInUseQuoteLineConfigurations();
+NSQuoteLineConfiguration[] res = agent.GetInUseQuoteLineConfigurations();
 ```
 

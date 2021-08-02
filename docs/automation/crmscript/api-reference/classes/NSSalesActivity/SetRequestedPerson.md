@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSalesActivity_SetRequestedPerson
-title: SetRequestedPerson(Person requestedPerson)
+title: SetRequestedPerson(NSPerson requestedPerson)
 intellisense: NSSalesActivity.SetRequestedPerson
 keywords: NSSalesActivity, GetRequestedPerson
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The person that matches the request.
 
 **Parameter:** 
- - **requestedPerson** Person
+ - **requestedPerson** NSPerson
 
 ```crmscript
 NSSalesActivity thing;
-Person requestedPerson;
+NSPerson requestedPerson;
 thing.SetRequestedPerson(requestedPerson);
 ```
 

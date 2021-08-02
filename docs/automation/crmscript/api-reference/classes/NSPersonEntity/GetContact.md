@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_GetContact
-title: Contact GetContact()
+title: NSContact GetContact()
 intellisense: NSPersonEntity.GetContact
 keywords: NSPersonEntity, GetContact
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.
 
-**Returns:** Contact
+**Returns:** NSContact
 
 
 ```crmscript
 NSPersonEntity thing;
-Contact contact  = thing.GetContact();
+NSContact contact  = thing.GetContact();
 ```
 
 

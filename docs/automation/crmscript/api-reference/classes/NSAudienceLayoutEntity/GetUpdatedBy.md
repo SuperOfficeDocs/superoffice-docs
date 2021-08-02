@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceLayoutEntity_GetUpdatedBy
-title: Associate GetUpdatedBy()
+title: NSAssociate GetUpdatedBy()
 intellisense: NSAudienceLayoutEntity.GetUpdatedBy
 keywords: NSAudienceLayoutEntity, GetUpdatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Name of the person that last updated the Audience layout
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSAudienceLayoutEntity thing;
-Associate updatedBy  = thing.GetUpdatedBy();
+NSAssociate updatedBy  = thing.GetUpdatedBy();
 ```
 
 

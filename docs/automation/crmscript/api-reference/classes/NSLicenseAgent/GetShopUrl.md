@@ -11,7 +11,7 @@ Get the shop URL for the specified module owner. This can be used to redirect us
 **Parameters:**
  - **ownerName** Name of the module owner.
 
-**Returns:** The URL which contains the shop for the specified module owner.
+**Returns:** String
 
 ```crmscript
 NSLicenseAgent agent;

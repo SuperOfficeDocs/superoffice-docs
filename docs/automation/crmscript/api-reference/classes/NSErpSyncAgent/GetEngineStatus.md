@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncAgent_GetEngineStatus
-title: ErpSyncEngineStatus GetEngineStatus()
+title: NSErpSyncEngineStatus GetEngineStatus()
 intellisense: NSErpSyncAgent.GetEngineStatus
 keywords: NSErpSyncAgent, GetEngineStatus
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get the current status of the Sync engine
 
 
-**Returns:** The current status of the engine
+**Returns:** NSErpSyncEngineStatus
 
 ```crmscript
 NSErpSyncAgent agent;
-ErpSyncEngineStatus res = agent.GetEngineStatus();
+NSErpSyncEngineStatus res = agent.GetEngineStatus();
 ```
 

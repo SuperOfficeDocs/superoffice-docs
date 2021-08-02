@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSActivityInformationListItem_SetActivityInformation
-title: SetActivityInformation(ActivitySummary activityInformation)
+title: SetActivityInformation(NSActivitySummary activityInformation)
 intellisense: NSActivityInformationListItem.SetActivityInformation
 keywords: NSActivityInformationListItem, GetActivityInformation
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Activity information summary - number of free and busy activities.
 
 **Parameter:** 
- - **activityInformation** ActivitySummary
+ - **activityInformation** NSActivitySummary
 
 ```crmscript
 NSActivityInformationListItem thing;
-ActivitySummary activityInformation;
+NSActivitySummary activityInformation;
 thing.SetActivityInformation(activityInformation);
 ```
 

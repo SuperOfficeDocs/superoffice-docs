@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSReportAgent_GenerateReport
-title: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, ArchiveRestrictionInfo[] restrictions)
+title: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, NSArchiveRestrictionInfo[] restrictions)
 intellisense: NSReportAgent.GenerateReport
 keywords: NSReportAgent, GenerateReport
 so.topic: reference
@@ -16,7 +16,7 @@ Generates the report in PDF format
  - **fileType** 
  - **restrictions** Use restrictions to provide additional restrictions when generating the report.
 
-**Returns:** Batch task id, as string. Used to be path to the generated report, but no more.
+**Returns:** String
 
 ```crmscript
 NSReportAgent agent;
@@ -25,7 +25,7 @@ Integer labelLayoutId;
 String filename;
 String language;
 String fileType;
-ArchiveRestrictionInfo[] restrictions;
+NSArchiveRestrictionInfo[] restrictions;
 String res = agent.GenerateReport(reportId, labelLayoutId, filename, language, fileType, restrictions);
 ```
 

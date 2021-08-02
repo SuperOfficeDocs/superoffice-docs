@@ -6,10 +6,10 @@ keywords: NSProjectStatus, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the ProjectStatus list item.
+Set the tooltip description for the NSProjectStatus list item.
 
 **Parameter:** 
- - **tooltip** String ProjectStatus tooltip description.
+ - **tooltip** String NSProjectStatus tooltip description.
 
 ```crmscript
 NSProjectStatus thing;

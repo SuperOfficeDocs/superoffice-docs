@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTicketStatusEntity_SetTimeCounter
-title: SetTimeCounter(TicketStatusTimeCounter timeCounter)
+title: SetTimeCounter(Integer timeCounter)
 intellisense: NSTicketStatusEntity.SetTimeCounter
 keywords: NSTicketStatusEntity, GetTimeCounter
 so.topic: reference
@@ -9,7 +9,7 @@ so.topic: reference
 Which field in ticket we count time spent on (queue, internal, external) 
 
 **Parameter:** 
- - **timeCounter** TicketStatusTimeCounter
+ - **timeCounter** Integer
      - Enum: 0 = None 
      - Enum: 1 = Internally 
      - Enum: 2 = Externally 
@@ -17,7 +17,7 @@ Which field in ticket we count time spent on (queue, internal, external)
 
 ```crmscript
 NSTicketStatusEntity thing;
-TicketStatusTimeCounter timeCounter;
+Integer timeCounter;
 thing.SetTimeCounter(timeCounter);
 ```
 

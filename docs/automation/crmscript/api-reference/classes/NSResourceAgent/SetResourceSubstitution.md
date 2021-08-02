@@ -14,14 +14,12 @@ Create or update a resource substitution
  - **culture** The .NET culture string
  - **isActive** Is the subsitution now active
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSResourceAgent agent;
 String resourceName;
 String resourceValues;
 String culture;
 Bool isActive;
-Void res = agent.SetResourceSubstitution(resourceName, resourceValues, culture, isActive);
+agent.SetResourceSubstitution(resourceName, resourceValues, culture, isActive);
 ```
 

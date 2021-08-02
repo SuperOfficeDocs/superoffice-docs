@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetSaleStakeholders
-title: SetSaleStakeholders(SaleStakeholder[] saleStakeholders)
+title: SetSaleStakeholders(NSSaleStakeholder[] saleStakeholders)
 intellisense: NSSaleEntity.SetSaleStakeholders
 keywords: NSSaleEntity, GetSaleStakeholders
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **saleStakeholders** SaleStakeholder[]
+ - **saleStakeholders** NSSaleStakeholder[]
 
 ```crmscript
 NSSaleEntity thing;
-SaleStakeholder[] saleStakeholders;
+NSSaleStakeholder[] saleStakeholders;
 thing.SetSaleStakeholders(saleStakeholders);
 ```
 

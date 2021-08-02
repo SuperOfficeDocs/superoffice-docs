@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCRMScriptAgent_ExecuteScriptAsEvent
-title: EventData ExecuteScriptAsEvent(Integer cRMScriptId, EventData eventData)
+title: NSEventData ExecuteScriptAsEvent(Integer cRMScriptId, NSEventData eventData)
 intellisense: NSCRMScriptAgent.ExecuteScriptAsEvent
 keywords: NSCRMScriptAgent, ExecuteScriptAsEvent
 so.topic: reference
@@ -10,14 +10,14 @@ Execute a CRMScript with event data as input. Returns event data with output var
 
 **Parameters:**
  - **cRMScriptId** The id of the CRMScript to execute
- - **eventData** The EventData instance sent to the crmscript with input values
+ - **eventData** The NSEventData instance sent to the crmscript with input values
 
-**Returns:** The EventData instance after script execution with output values
+**Returns:** NSEventData
 
 ```crmscript
 NSCRMScriptAgent agent;
 Integer cRMScriptId;
-EventData eventData;
-EventData res = agent.ExecuteScriptAsEvent(cRMScriptId, eventData);
+NSEventData eventData;
+NSEventData res = agent.ExecuteScriptAsEvent(cRMScriptId, eventData);
 ```
 

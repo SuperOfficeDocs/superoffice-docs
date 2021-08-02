@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_GetCompetitor
-title: Competitor GetCompetitor()
+title: NSCompetitor GetCompetitor()
 intellisense: NSSaleEntity.GetCompetitor
 keywords: NSSaleEntity, GetCompetitor
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 List of all possible competitors. 
 
-**Returns:** Competitor
+**Returns:** NSCompetitor
 
 
 ```crmscript
 NSSaleEntity thing;
-Competitor competitor  = thing.GetCompetitor();
+NSCompetitor competitor  = thing.GetCompetitor();
 ```
 
 

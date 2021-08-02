@@ -11,7 +11,7 @@ Updates the existing NSPreferenceDescriptionLine or creates a new NSPreferenceDe
 **Parameters**:
  - **preferenceDescriptionLine** The NSPreferenceDescriptionLine to save.
 
-**Returns:** New or updated NSPreferenceDescriptionLine
+**Returns:** NSPreferenceDescriptionLine
 
 ```crmscript
 NSPreference  agent;

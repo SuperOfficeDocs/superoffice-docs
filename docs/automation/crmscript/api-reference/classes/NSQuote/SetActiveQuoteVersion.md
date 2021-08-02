@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuote_SetActiveQuoteVersion
-title: SetActiveQuoteVersion(QuoteVersion activeQuoteVersion)
+title: SetActiveQuoteVersion(NSQuoteVersion activeQuoteVersion)
 intellisense: NSQuote.SetActiveQuoteVersion
 keywords: NSQuote, GetActiveQuoteVersion
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The active quote version for the quote
 
 **Parameter:** 
- - **activeQuoteVersion** QuoteVersion
+ - **activeQuoteVersion** NSQuoteVersion
 
 ```crmscript
 NSQuote thing;
-QuoteVersion activeQuoteVersion;
+NSQuoteVersion activeQuoteVersion;
 thing.SetActiveQuoteVersion(activeQuoteVersion);
 ```
 

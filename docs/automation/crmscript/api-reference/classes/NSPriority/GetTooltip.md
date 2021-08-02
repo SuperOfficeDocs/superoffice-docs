@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the tooltip description for the Priority list item.
 
-**Returns:** String Priority tooltip description.
+**Returns:** String
 
 ```crmscript
 NSPriority thing;

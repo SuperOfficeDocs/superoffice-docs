@@ -9,7 +9,7 @@ so.topic: reference
 Get the time time zone data was last updated
 
 
-**Returns:** Time of last update
+**Returns:** DateTime
 
 ```crmscript
 NSTimeZoneAgent agent;

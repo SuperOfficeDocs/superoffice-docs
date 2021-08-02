@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSTriggerScriptEntity
   
 **Parameters:**
- - **triggerScriptEntityId** The identity of the TriggerScriptEntity to delete.
+ - **triggerScriptEntityId** The identity of the NSTriggerScriptEntity to delete.
 
 ```crmscript
 NSCRMScriptAgent agent;

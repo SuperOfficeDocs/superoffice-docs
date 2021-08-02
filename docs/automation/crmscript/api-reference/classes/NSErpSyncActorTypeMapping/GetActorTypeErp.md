@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeErp
-title: ErpActorType GetActorTypeErp()
+title: NSErpActorType GetActorTypeErp()
 intellisense: NSErpSyncActorTypeMapping.GetActorTypeErp
 keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 The actor type (ERP side)
 
-**Returns:** ErpActorType
+**Returns:** NSErpActorType
 
      - Enum: 0 = Unknown 
      - Enum: 1 = Customer 
@@ -21,7 +21,7 @@ The actor type (ERP side)
 
 ```crmscript
 NSErpSyncActorTypeMapping thing;
-ErpActorType actorTypeErp  = thing.GetActorTypeErp();
+NSErpActorType actorTypeErp  = thing.GetActorTypeErp();
 ```
 
 

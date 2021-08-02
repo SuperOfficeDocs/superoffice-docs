@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields on AppointmentEntity as a map.
+Get the extra fields on NSAppointmentEntity as a map.
 
 **Returns:** Map containing extra field values by field name.
 

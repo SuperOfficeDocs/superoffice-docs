@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_SetLinks
-title: SetLinks(Link[] links)
+title: SetLinks(NSLink[] links)
 intellisense: NSProjectEntity.SetLinks
 keywords: NSProjectEntity, GetLinks
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 List of all elements linked to the project
 
 **Parameter:** 
- - **links** Link[]
+ - **links** NSLink[]
 
 ```crmscript
 NSProjectEntity thing;
-Link[] links;
+NSLink[] links;
 thing.SetLinks(links);
 ```
 

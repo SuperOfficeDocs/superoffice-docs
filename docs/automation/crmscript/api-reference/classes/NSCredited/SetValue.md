@@ -6,10 +6,10 @@ keywords: NSCredited, SetValue
 so.topic: reference
 ---
 
-Set the name of the Credited item.
+Set the name of the NSCredited item.
 
 **Parameter:** 
- - **value** String Credited name.
+ - **value** String NSCredited name.
 
 ```crmscript
 NSCredited thing;

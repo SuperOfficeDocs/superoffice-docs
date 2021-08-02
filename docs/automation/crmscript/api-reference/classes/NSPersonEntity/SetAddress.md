@@ -15,10 +15,10 @@ Sets the structure holding formatted address data. The layout of the array struc
 
 | Parameter | Type | Description |
 |---|---|---|
-| address | Address | |
+| address | NSAddress | |
 
 ```crmscript
 NSPersonEntity thing;
-Address address;
+NSAddress address;
 thing.SetAddress(address);
 ```

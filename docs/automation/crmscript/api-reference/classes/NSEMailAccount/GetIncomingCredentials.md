@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAccount_GetIncomingCredentials
-title: ServiceAuth GetIncomingCredentials()
+title: NSServiceAuth GetIncomingCredentials()
 intellisense: NSEMailAccount.GetIncomingCredentials
 keywords: NSEMailAccount, GetIncomingCredentials
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Account credentials for imap
 
-**Returns:** ServiceAuth
+**Returns:** NSServiceAuth
 
 
 ```crmscript
 NSEMailAccount thing;
-ServiceAuth incomingCredentials  = thing.GetIncomingCredentials();
+NSServiceAuth incomingCredentials  = thing.GetIncomingCredentials();
 ```
 
 

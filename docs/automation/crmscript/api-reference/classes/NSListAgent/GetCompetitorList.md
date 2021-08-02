@@ -6,16 +6,16 @@ keywords: NSListAgent, GetCompetitorList
 so.topic: reference
 ---
 
-Gets a vector of Competitor objects.
+Gets a vector of NSCompetitor objects.
 
 **Parameters:**
  - **competitorIds** The identifiers of the NSCompetitor objects
 
-**Returns:** Vector of NSCompetitor objects
+**Returns:** NSCompetitor[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetCompetitorList(ids);
+NSCompetitor[] res = agent.GetCompetitorList(ids);
 ```
 

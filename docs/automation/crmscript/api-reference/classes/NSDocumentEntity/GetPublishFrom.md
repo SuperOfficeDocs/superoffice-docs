@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, GetPublishFrom
 so.topic: reference
 ---
 
-Publish from date on DocumentEntity.
+Publish from date on NSDocumentEntity.
 
 **Returns:** DateTime.
 

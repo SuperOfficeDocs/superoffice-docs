@@ -11,7 +11,7 @@ Updates the existing NSReportEntity or creates a new NSReportEntity if the id pa
 **Parameters**:
  - **reportEntity** The NSReportEntity to save.
 
-**Returns:** New or updated NSReportEntity
+**Returns:** NSReportEntity
 
 ```crmscript
 NSReport  agent;

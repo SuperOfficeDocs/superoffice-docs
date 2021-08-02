@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedLicenseInfo_GetNew
-title: LicenseInfo GetNew()
+title: NSLicenseInfo GetNew()
 intellisense: NSExtendedLicenseInfo.GetNew
 keywords: NSExtendedLicenseInfo, GetNew
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** LicenseInfo
+**Returns:** NSLicenseInfo
 
 
 ```crmscript
 NSExtendedLicenseInfo thing;
-LicenseInfo new  = thing.GetNew();
+NSLicenseInfo new  = thing.GetNew();
 ```
 
 

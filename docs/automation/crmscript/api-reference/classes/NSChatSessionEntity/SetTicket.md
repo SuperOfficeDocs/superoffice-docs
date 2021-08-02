@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_SetTicket
-title: SetTicket(Ticket ticket)
+title: SetTicket(NSTicket ticket)
 intellisense: NSChatSessionEntity.SetTicket
 keywords: NSChatSessionEntity, GetTicket
 so.topic: reference
@@ -13,7 +13,7 @@ Ticket the session is connected to - could be empty if we don't know exactly.
 
 ```crmscript
 NSChatSessionEntity thing;
-Ticket ticket;
+NSTicket ticket;
 thing.SetTicket(ticket);
 ```
 

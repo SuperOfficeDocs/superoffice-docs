@@ -7,7 +7,7 @@ keywords: DictionarFieldMetadataInput(FieldMetadataDictionary)
 so.topic: reference
 ---
 
-Test FieldMetadata Dictionary input
+Test NSFieldMetadata Dictionary input
 
-* **fieldMetadataDictionaryArgument:** Some FieldMetadata Dictionary argument
+* **fieldMetadataDictionaryArgument:** Some NSFieldMetadata Dictionary argument
 * **Returns:** A void return

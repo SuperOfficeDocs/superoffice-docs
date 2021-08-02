@@ -11,7 +11,7 @@ Updates the existing NSRoleEntity or creates a new NSRoleEntity if the id parame
 **Parameters**:
  - **roleEntity** The NSRoleEntity to save.
 
-**Returns:** New or updated NSRoleEntity
+**Returns:** NSRoleEntity
 
 ```crmscript
 NSUser  agent;

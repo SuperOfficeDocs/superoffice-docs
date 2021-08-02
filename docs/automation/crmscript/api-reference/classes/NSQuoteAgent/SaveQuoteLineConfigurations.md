@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfigurations
-title: QuoteLineConfiguration[] SaveQuoteLineConfigurations(QuoteLineConfiguration[] quoteLineConfigurations)
+title: NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] quoteLineConfigurations)
 intellisense: NSQuoteAgent.SaveQuoteLineConfigurations
 keywords: NSQuoteAgent, SaveQuoteLineConfigurations
 so.topic: reference
@@ -11,11 +11,11 @@ Save a collection of QuoteLineConfigurations. It is not possible to add a new co
 **Parameters:**
  - **quoteLineConfigurations** The QuoteLineConfigurations to save.
 
-**Returns:** The saved QuoteLineConfigurations.
+**Returns:** NSQuoteLineConfiguration[]
 
 ```crmscript
 NSQuoteAgent agent;
-QuoteLineConfiguration[] quoteLineConfigurations;
-QuoteLineConfiguration[] res = agent.SaveQuoteLineConfigurations(quoteLineConfigurations);
+NSQuoteLineConfiguration[] quoteLineConfigurations;
+NSQuoteLineConfiguration[] res = agent.SaveQuoteLineConfigurations(quoteLineConfigurations);
 ```
 

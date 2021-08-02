@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPreferenceAgent_GetAll
-title: PreferenceDescription[] GetAll()
+title: NSPreferenceDescription[] GetAll()
 intellisense: NSPreferenceAgent.GetAll
 keywords: NSPreferenceAgent, GetAll
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Gets a list of all PreferenceDescriptions in the system.
 
 
-**Returns:** All PreferenceDescriptions in the system
+**Returns:** NSPreferenceDescription[]
 
 ```crmscript
 NSPreferenceAgent agent;
-PreferenceDescription[] res = agent.GetAll();
+NSPreferenceDescription[] res = agent.GetAll();
 ```
 

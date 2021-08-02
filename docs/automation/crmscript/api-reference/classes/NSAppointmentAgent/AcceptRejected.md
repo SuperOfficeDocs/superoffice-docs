@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_AcceptRejected
-title: AppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
+title: NSAppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.AcceptRejected
 keywords: NSAppointmentAgent, AcceptRejected
 so.topic: reference
@@ -16,12 +16,12 @@ Accept that an invited participant has rejected your invitation or assignment.
      - Enum: 2 = ThisAndForward 
      - Enum: 9 = StopRecurrence 
 
-**Returns:** Updated AppointmentEntity
+**Returns:** NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 Integer updateMode;
-AppointmentEntity res = agent.AcceptRejected(appointmentId, updateMode);
+NSAppointmentEntity res = agent.AcceptRejected(appointmentId, updateMode);
 ```
 

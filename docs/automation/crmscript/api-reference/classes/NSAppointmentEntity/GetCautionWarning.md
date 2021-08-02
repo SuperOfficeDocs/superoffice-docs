@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetCautionWarning
-title: AppointmentCautionWarning GetCautionWarning()
+title: NSAppointmentCautionWarning GetCautionWarning()
 intellisense: NSAppointmentEntity.GetCautionWarning
 keywords: NSAppointmentEntity, GetCautionWarning
 so.topic: reference
@@ -8,7 +8,7 @@ so.topic: reference
 
 Status field to indicate appointments that have some sort of problem
 
-**Returns:** AppointmentCautionWarning
+**Returns:** NSAppointmentCautionWarning
 
      - Enum: 0 = OK 
      - Enum: 1 = NotInSync 
@@ -19,7 +19,7 @@ Status field to indicate appointments that have some sort of problem
 
 ```crmscript
 NSAppointmentEntity thing;
-AppointmentCautionWarning cautionWarning  = thing.GetCautionWarning();
+NSAppointmentCautionWarning cautionWarning  = thing.GetCautionWarning();
 ```
 
 

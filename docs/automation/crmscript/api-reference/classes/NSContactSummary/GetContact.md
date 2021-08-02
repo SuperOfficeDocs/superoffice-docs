@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactSummary_GetContact
-title: Contact GetContact()
+title: NSContact GetContact()
 intellisense: NSContactSummary.GetContact
 keywords: NSContactSummary, GetContact
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Simple Contact data.
 
-**Returns:** Contact
+**Returns:** NSContact
 
 
 ```crmscript
 NSContactSummary thing;
-Contact contact  = thing.GetContact();
+NSContact contact  = thing.GetContact();
 ```
 
 

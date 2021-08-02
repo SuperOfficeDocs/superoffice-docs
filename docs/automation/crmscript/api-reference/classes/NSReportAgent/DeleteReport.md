@@ -11,7 +11,7 @@ Delete the report with the given id
 **Parameters:**
  - **reportId** The id of the report to delete
 
-**Returns:** Delete ok?
+**Returns:** Bool
 
 ```crmscript
 NSReportAgent agent;

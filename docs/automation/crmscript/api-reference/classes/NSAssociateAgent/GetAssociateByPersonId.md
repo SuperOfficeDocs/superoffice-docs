@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAssociateAgent_GetAssociateByPersonId
-title: Associate GetAssociateByPersonId(Integer personId)
+title: NSAssociate GetAssociateByPersonId(Integer personId)
 intellisense: NSAssociateAgent.GetAssociateByPersonId
 keywords: NSAssociateAgent, GetAssociateByPersonId
 so.topic: reference
@@ -11,11 +11,11 @@ Returns the associate that belongs to this person if the person is an associate.
 **Parameters:**
  - **personId** The person id
 
-**Returns:** Associate if person is associate
+**Returns:** NSAssociate
 
 ```crmscript
 NSAssociateAgent agent;
 Integer personId;
-Associate res = agent.GetAssociateByPersonId(personId);
+NSAssociate res = agent.GetAssociateByPersonId(personId);
 ```
 

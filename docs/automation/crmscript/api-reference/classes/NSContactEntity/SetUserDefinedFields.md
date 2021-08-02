@@ -6,7 +6,7 @@ keywords: NSContactEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
-Set the user-defined fields on the ContactEntity as a map.
+Set the user-defined fields on the NSContactEntity as a map.
 
 **Parameter:** 
  - **udefs** Map user defined field values encoded as strings.

@@ -11,7 +11,7 @@ Updates the existing NSCustomerCenterConfig or creates a new NSCustomerCenterCon
 **Parameters**:
  - **customerCenterConfig** The NSCustomerCenterConfig to save.
 
-**Returns:** New or updated NSCustomerCenterConfig
+**Returns:** NSCustomerCenterConfig
 
 ```crmscript
 NSCustomerService  agent;

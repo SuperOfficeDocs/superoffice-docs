@@ -12,7 +12,7 @@ Checks if the number is unique or required.  The setting is configured from admi
  - **contactId** 
  - **number** Number to check.
 
-**Returns:** True if number is ok (passes uniqueness/required checks)
+**Returns:** Bool
 
 ```crmscript
 NSPersonAgent agent;

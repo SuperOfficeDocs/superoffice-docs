@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_SendQuoteVersion
-title: PluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
+title: NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
 intellisense: NSQuoteAgent.SendQuoteVersion
 keywords: NSQuoteAgent, SendQuoteVersion
 so.topic: reference
@@ -15,7 +15,7 @@ Send the quote to the user's customer. More parameters to be added later...
  - **followupText** The body text for the follwup appointment, resolved to the correct culture (no resources please)
  - **culture** Desired culture for email body and other culture-sensitive templates/content
 
-**Returns:** Response of the operation
+**Returns:** NSPluginUrlResponse
 
 ```crmscript
 NSQuoteAgent agent;
@@ -24,6 +24,6 @@ DateTime expiryDate;
 DateTime followupDate;
 String followupText;
 String culture;
-PluginUrlResponse res = agent.SendQuoteVersion(quoteVersionId, expiryDate, followupDate, followupText, culture);
+NSPluginUrlResponse res = agent.SendQuoteVersion(quoteVersionId, expiryDate, followupDate, followupText, culture);
 ```
 

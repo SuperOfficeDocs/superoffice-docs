@@ -11,7 +11,7 @@ so.topic: reference
 
 Gets the person's localized address.
 
-Returns the address as LocalizedField[][].
+Returns the address as NSLocalizedField[][].
 
 `GetAddress(Integer personId)`
 
@@ -26,5 +26,5 @@ Returns the address as LocalizedField[][].
 ```crmscript
 NSPersonAgent agent;
 Integer personId;
-Address res = agent.GetAddress(personId);
+NSAddress res = agent.GetAddress(personId);
 ```

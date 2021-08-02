@@ -11,7 +11,7 @@ Gets a vector of Contact objects.
 **Parameters:**
  - **contactIds** The identifiers of the NSContact objects
 
-**Returns:** Vector of NSContact objects
+**Returns:** NSContact[]
 
 ```crmscript
 Integer[] ids;

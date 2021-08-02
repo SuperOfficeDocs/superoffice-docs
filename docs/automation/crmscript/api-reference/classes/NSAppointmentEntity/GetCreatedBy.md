@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentEntity_GetCreatedBy
-title: Associate GetCreatedBy()
+title: NSAssociate GetCreatedBy()
 intellisense: NSAppointmentEntity.GetCreatedBy
 keywords: NSAppointmentEntity, GetCreatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The associate that first created the appointment. The property is read-only.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSAppointmentEntity thing;
-Associate createdBy  = thing.GetCreatedBy();
+NSAssociate createdBy  = thing.GetCreatedBy();
 ```
 
 

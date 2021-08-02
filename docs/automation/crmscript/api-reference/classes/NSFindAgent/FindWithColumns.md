@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSFindAgent_FindWithColumns
-title: FindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, ArchiveOrderByInfo[] orderBy)
+title: NSFindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, NSArchiveOrderByInfo[] orderBy)
 intellisense: NSFindAgent.FindWithColumns
 keywords: NSFindAgent, FindWithColumns
 so.topic: reference
@@ -17,7 +17,7 @@ Execute a Find operation and return a page of results. The criteria for the Find
  - **pageNumber** Result set page to return, 0 is the first page. When a call returns no rows, no further pages are available. Negative page numbers are interpreted as number of rows to skip.
  - **orderBy** Array of order by specifications. If it is null or empty, the row order is unspecified, database dependent, and might not be the same from call to call, depending on query execution plans. The unspecified order willgenerally not vary within pages of the same query.
 
-**Returns:** Results from search, containing column information and result rows.
+**Returns:** NSFindResults
 
 ```crmscript
 NSFindAgent agent;
@@ -27,7 +27,7 @@ String storageKey;
 String[] desiredColumns;
 Integer pageSize;
 Integer pageNumber;
-ArchiveOrderByInfo[] orderBy;
-FindResults res = agent.FindWithColumns(storageType, providerName, storageKey, desiredColumns, pageSize, pageNumber, orderBy);
+NSArchiveOrderByInfo[] orderBy;
+NSFindResults res = agent.FindWithColumns(storageType, providerName, storageKey, desiredColumns, pageSize, pageNumber, orderBy);
 ```
 

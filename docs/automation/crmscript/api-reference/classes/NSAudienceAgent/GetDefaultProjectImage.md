@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAudienceAgent_GetDefaultProjectImage
-title: Image GetDefaultProjectImage(String layoutName)
+title: NSImage GetDefaultProjectImage(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultProjectImage
 keywords: NSAudienceAgent, GetDefaultProjectImage
 so.topic: reference
@@ -16,6 +16,6 @@ Returns the default project or event image that is displayed in Audience when no
 ```crmscript
 NSAudienceAgent agent;
 String layoutName;
-Image res = agent.GetDefaultProjectImage(layoutName);
+NSImage res = agent.GetDefaultProjectImage(layoutName);
 ```
 

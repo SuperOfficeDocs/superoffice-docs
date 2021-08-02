@@ -12,7 +12,7 @@ Get the best language for this person on this template
  - **personId** The id of the person
  - **templateId** The id of the template to find languages on
 
-**Returns:** The solang code for best language, empty string if no best language found
+**Returns:** String
 
 ```crmscript
 NSPersonAgent agent;

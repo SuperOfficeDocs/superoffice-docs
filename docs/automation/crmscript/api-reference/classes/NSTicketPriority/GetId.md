@@ -6,9 +6,9 @@ keywords: NSTicketPriority, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the TicketPriority
+Get the primary key (id) for the NSTicketPriority
 
-**Returns:** Integer TicketPriority id.
+**Returns:** Integer
 
 ```crmscript
 NSTicketPriority thing;

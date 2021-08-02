@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSuggestedAppointmentEntity_GetType
-title: Task GetType()
+title: NSTask GetType()
 intellisense: NSSuggestedAppointmentEntity.GetType
 keywords: NSSuggestedAppointmentEntity, GetType
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Type of the suggested appointment
 
-**Returns:** Task
+**Returns:** NSTask
 
 
 ```crmscript
 NSSuggestedAppointmentEntity thing;
-Task type  = thing.GetType();
+NSTask type  = thing.GetType();
 ```
 
 

@@ -6,16 +6,16 @@ keywords: NSListAgent, GetCustomerLanguageList
 so.topic: reference
 ---
 
-Gets a vector of CustomerLanguage objects.
+Gets a vector of NSCustomerLanguage objects.
 
 **Parameters:**
  - **customerLanguageIds** The identifiers of the NSCustomerLanguage objects
 
-**Returns:** Vector of NSCustomerLanguage objects
+**Returns:** NSCustomerLanguage[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetCustomerLanguageList(ids);
+NSCustomerLanguage[] res = agent.GetCustomerLanguageList(ids);
 ```
 

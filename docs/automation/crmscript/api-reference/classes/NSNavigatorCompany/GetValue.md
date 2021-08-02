@@ -6,7 +6,7 @@ keywords: NSNavigatorCompany, GetValue
 so.topic: reference
 ---
 
-Get the name of the NavigatorCompany.
+Get the name of the NSNavigatorCompany.
 
 **Returns:** String NavigatorCompany name.
 

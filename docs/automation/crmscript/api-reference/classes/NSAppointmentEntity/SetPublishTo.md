@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, SetPublishTo
 so.topic: reference
 ---
 
-Set the publish to date on AppointmentEntity. After this date the event is no longer visible.
+Set the publish to date on NSAppointmentEntity. After this date the event is no longer visible.
 
 **Parameter:** 
  - **publishTo** DateTime

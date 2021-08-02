@@ -11,7 +11,7 @@ Do a test to check that we are using the same encryption keys
 **Parameters:**
  - **encryptedString** An encrypted version of the string
 
-**Returns:** Encrypted version of the string done by NetServer
+**Returns:** String
 
 ```crmscript
 NSCustomerServiceAgent agent;

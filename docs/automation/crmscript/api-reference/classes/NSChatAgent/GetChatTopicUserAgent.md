@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatAgent_GetChatTopicUserAgent
-title: ChatTopicAgent GetChatTopicUserAgent(Integer chatTopicId, String username)
+title: NSChatTopicAgent GetChatTopicUserAgent(Integer chatTopicId, String username)
 intellisense: NSChatAgent.GetChatTopicUserAgent
 keywords: NSChatAgent, GetChatTopicUserAgent
 so.topic: reference
@@ -12,12 +12,12 @@ Get a user assigned to a topic
  - **chatTopicId** Id of the chat topic
  - **username** Associate username or associate id to get.
 
-**Returns:** The user's role within the chat topic.
+**Returns:** NSChatTopicAgent
 
 ```crmscript
 NSChatAgent agent;
 Integer chatTopicId;
 String username;
-ChatTopicAgent res = agent.GetChatTopicUserAgent(chatTopicId, username);
+NSChatTopicAgent res = agent.GetChatTopicUserAgent(chatTopicId, username);
 ```
 

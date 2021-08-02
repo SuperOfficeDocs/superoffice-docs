@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAccount_SetOutgoingCredentials
-title: SetOutgoingCredentials(ServiceAuth outgoingCredentials)
+title: SetOutgoingCredentials(NSServiceAuth outgoingCredentials)
 intellisense: NSEMailAccount.SetOutgoingCredentials
 keywords: NSEMailAccount, GetOutgoingCredentials
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Account credentials for smtp
 
 **Parameter:** 
- - **outgoingCredentials** ServiceAuth
+ - **outgoingCredentials** NSServiceAuth
 
 ```crmscript
 NSEMailAccount thing;
-ServiceAuth outgoingCredentials;
+NSServiceAuth outgoingCredentials;
 thing.SetOutgoingCredentials(outgoingCredentials);
 ```
 

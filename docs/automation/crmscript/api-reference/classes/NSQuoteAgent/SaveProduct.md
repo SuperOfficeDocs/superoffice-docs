@@ -11,7 +11,7 @@ Updates the existing NSProduct or creates a new NSProduct if the id parameter is
 **Parameters**:
  - **product** The NSProduct to save.
 
-**Returns:** New or updated NSProduct
+**Returns:** NSProduct
 
 ```crmscript
 NSQuote  agent;

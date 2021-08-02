@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactSummary_GetTickets
-title: TicketSummaryItem[] GetTickets()
+title: NSTicketSummaryItem[] GetTickets()
 intellisense: NSContactSummary.GetTickets
 keywords: NSContactSummary, GetTickets
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent tickets on contact
 
-**Returns:** TicketSummaryItem[]
+**Returns:** NSTicketSummaryItem[]
 
 
 ```crmscript
 NSContactSummary thing;
-TicketSummaryItem[] tickets  = thing.GetTickets();
+NSTicketSummaryItem[] tickets  = thing.GetTickets();
 ```
 
 

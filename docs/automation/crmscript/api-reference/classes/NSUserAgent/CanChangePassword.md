@@ -11,7 +11,7 @@ Check if the current assoicate can change the password for an associate
 **Parameters:**
  - **associateId** AssociateId of the user to check if password can be changed
 
-**Returns:** True if the associate can change the password
+**Returns:** Bool
 
 ```crmscript
 NSUserAgent agent;

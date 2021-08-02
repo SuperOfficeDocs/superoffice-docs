@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_SetTicketPriority
-title: SetTicketPriority(TicketPriority ticketPriority)
+title: SetTicketPriority(NSTicketPriority ticketPriority)
 intellisense: NSContactEntity.SetTicketPriority
 keywords: NSContactEntity, GetTicketPriority
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **ticketPriority** TicketPriority
+ - **ticketPriority** NSTicketPriority
 
 ```crmscript
 NSContactEntity thing;
-TicketPriority ticketPriority;
+NSTicketPriority ticketPriority;
 thing.SetTicketPriority(ticketPriority);
 ```
 

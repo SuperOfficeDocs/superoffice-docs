@@ -34,7 +34,7 @@ Parse the source string, and replace any template variable tags with their value
  - **projectId** Identifier for a project
  - **cultureName** Name of culture to be used for culture-sensitive data, such as dates or multi-language texts. Use a blank string to accept whatever current culture is set on the server (possibly not a good choice in multinational organizations with a single server).
 
-**Returns:** Source string with templates substituted, using the same encoding as for the source (binary data will be returned in Base64).
+**Returns:** String
 
 ```crmscript
 NSDocumentAgent agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_GetCurrentAccount
-title: EMailAccount GetCurrentAccount()
+title: NSEMailAccount GetCurrentAccount()
 intellisense: NSEMailAgent.GetCurrentAccount
 keywords: NSEMailAgent, GetCurrentAccount
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Get current account (last logged into should normally be current) for logged in associate
 
 
-**Returns:** Id of current account
+**Returns:** NSEMailAccount
 
 ```crmscript
 NSEMailAgent agent;
-EMailAccount res = agent.GetCurrentAccount();
+NSEMailAccount res = agent.GetCurrentAccount();
 ```
 

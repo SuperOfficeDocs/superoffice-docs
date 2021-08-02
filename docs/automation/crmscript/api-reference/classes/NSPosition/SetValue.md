@@ -6,10 +6,10 @@ keywords: NSPosition, SetValue
 so.topic: reference
 ---
 
-Set the name of the Position item.
+Set the name of the NSPosition item.
 
 **Parameter:** 
- - **value** String Position name.
+ - **value** String NSPosition name.
 
 ```crmscript
 NSPosition thing;

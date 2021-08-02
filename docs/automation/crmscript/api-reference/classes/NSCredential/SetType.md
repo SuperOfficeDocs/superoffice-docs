@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSCredential_SetType
-title: SetType(CredentialType type)
+title: SetType(NSCredentialType type)
 intellisense: NSCredential.SetType
 keywords: NSCredential, GetType
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Description of credential type
 
 **Parameter:** 
- - **type** CredentialType
+ - **type** NSCredentialType
 
 ```crmscript
 NSCredential thing;
-CredentialType type;
+NSCredentialType type;
 thing.SetType(type);
 ```
 

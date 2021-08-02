@@ -6,10 +6,10 @@ keywords: NSBusiness, SetValue
 so.topic: reference
 ---
 
-Set the name of the Business item.
+Set the name of the NSBusiness item.
 
 **Parameter:** 
- - **value** String Business name.
+ - **value** String NSBusiness name.
 
 ```crmscript
 NSBusiness thing;

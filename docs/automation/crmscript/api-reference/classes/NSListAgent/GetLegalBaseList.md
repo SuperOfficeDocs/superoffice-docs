@@ -6,16 +6,16 @@ keywords: NSListAgent, GetLegalBaseList
 so.topic: reference
 ---
 
-Gets a vector of LegalBase objects.
+Gets a vector of NSLegalBase objects.
 
 **Parameters:**
  - **legalBaseIds** The identifiers of the NSLegalBase objects
 
-**Returns:** Vector of NSLegalBase objects
+**Returns:** NSLegalBase[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetLegalBaseList(ids);
+NSLegalBase[] res = agent.GetLegalBaseList(ids);
 ```
 

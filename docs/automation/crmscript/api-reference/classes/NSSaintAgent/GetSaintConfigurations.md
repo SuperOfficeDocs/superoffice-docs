@@ -1,18 +1,18 @@
 ﻿---
 uid: crmscript_ref_NSSaintAgent_GetSaintConfigurations
-title: SaintConfiguration[] GetSaintConfigurations()
+title: NSSaintConfiguration[] GetSaintConfigurations()
 intellisense: NSSaintAgent.GetSaintConfigurations
 keywords: NSSaintAgent, GetSaintConfigurations
 so.topic: reference
 ---
 
-Returns the StatusMonitorPeriods entity.
+Returns the NSStatusMonitorPeriods entity.
 
 
-**Returns:** The SaintConfiguration for all entities
+**Returns:** NSSaintConfiguration[]
 
 ```crmscript
 NSSaintAgent agent;
-SaintConfiguration[] res = agent.GetSaintConfigurations();
+NSSaintConfiguration[] res = agent.GetSaintConfigurations();
 ```
 

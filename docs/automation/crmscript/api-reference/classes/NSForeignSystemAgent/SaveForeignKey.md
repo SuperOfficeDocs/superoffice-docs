@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSForeignSystemAgent_SaveForeignKey
-title: ForeignKey SaveForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+title: NSForeignKey SaveForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.SaveForeignKey
 keywords: NSForeignSystemAgent, SaveForeignKey
 so.topic: reference
 ---
 
-Saves a key belonging to the ForeignApp and ForeignDevice specified.
+Saves a key belonging to the ForeignApp and NSForeignDevice specified.
 
 **Parameters:**
  - **foreignKey** Foreign key to save
@@ -14,14 +14,14 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
  - **deviceName** The name of the foreign device.
  - **deviceIdentifier** The device identifier. Optional if device identifier is not used.
 
-**Returns:** The new or updated ForeignKey
+**Returns:** NSForeignKey
 
 ```crmscript
 NSForeignSystemAgent agent;
-ForeignKey foreignKey;
+NSForeignKey foreignKey;
 String applicationName;
 String deviceName;
 String deviceIdentifier;
-ForeignKey res = agent.SaveForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier);
+NSForeignKey res = agent.SaveForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier);
 ```
 

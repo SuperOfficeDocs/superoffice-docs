@@ -6,10 +6,10 @@ keywords: NSCredited, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the Credited list item.
+Set the tooltip description for the NSCredited list item.
 
 **Parameter:** 
- - **tooltip** String Credited tooltip description.
+ - **tooltip** String NSCredited tooltip description.
 
 ```crmscript
 NSCredited thing;

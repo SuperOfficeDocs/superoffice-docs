@@ -6,9 +6,9 @@ keywords: NSRelationToOwner, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the RelationToOwner list item.
+Get the tooltip description for the NSRelationToOwner list item.
 
-**Returns:** String RelationToOwner tooltip description.
+**Returns:** String
 
 ```crmscript
 NSRelationToOwner thing;

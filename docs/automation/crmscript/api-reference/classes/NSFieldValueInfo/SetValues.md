@@ -9,7 +9,7 @@ so.topic: reference
 The values to be set on this field on this bulkupdate
 
 **Parameter:** 
- - **values** StringArray
+ - **values** String[]
 
 ```crmscript
 NSFieldValueInfo thing;

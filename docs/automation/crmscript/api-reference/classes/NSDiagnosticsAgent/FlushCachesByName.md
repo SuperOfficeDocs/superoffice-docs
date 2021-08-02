@@ -11,11 +11,10 @@ Flushes all NetServer caches named
 **Parameters:**
  - **cacheNames** Name of the cahcnes to flush
 
-**Returns:** This method has no return value
 
 ```crmscript
 NSDiagnosticsAgent agent;
 String[] cacheNames;
-Void res = agent.FlushCachesByName(cacheNames);
+agent.FlushCachesByName(cacheNames);
 ```
 

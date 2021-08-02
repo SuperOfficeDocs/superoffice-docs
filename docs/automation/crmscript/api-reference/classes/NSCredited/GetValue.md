@@ -6,9 +6,9 @@ keywords: NSCredited, GetValue
 so.topic: reference
 ---
 
-Get the name of the Credited.
+Get the name of the NSCredited.
 
-**Returns:** String Credited name.
+**Returns:** String
 
 ```crmscript
 NSCredited thing;

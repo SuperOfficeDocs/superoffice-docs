@@ -11,7 +11,7 @@ Can we delete the connector?
 **Parameters:**
  - **erpSyncConnectorId** The ID of the ErpSync connector to check if can be deleted
 
-**Returns:** Enum response says ok or what is wrong
+**Returns:** Integer
 
 ```crmscript
 NSErpSyncAgent agent;

@@ -12,7 +12,7 @@ Insert a row into a table
  - **tableName** The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
  - **values** A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
 
-**Returns:** The id of the newly inserted row
+**Returns:** Integer
 
 ```crmscript
 NSDatabaseTableAgent agent;

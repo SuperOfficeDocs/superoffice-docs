@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactEntity_GetAssociate
-title: Associate GetAssociate()
+title: NSAssociate GetAssociate()
 intellisense: NSContactEntity.GetAssociate
 keywords: NSContactEntity, GetAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The user that owns this contact.
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSContactEntity thing;
-Associate associate  = thing.GetAssociate();
+NSAssociate associate  = thing.GetAssociate();
 ```
 
 

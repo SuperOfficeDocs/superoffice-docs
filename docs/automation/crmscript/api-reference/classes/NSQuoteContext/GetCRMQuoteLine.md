@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteContext_GetCRMQuoteLine
-title: QuoteLine GetCRMQuoteLine()
+title: NSQuoteLine GetCRMQuoteLine()
 intellisense: NSQuoteContext.GetCRMQuoteLine
 keywords: NSQuoteContext, GetCRMQuoteLine
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The relevant or current quote line of the quote in the CRM system, if applicable.
 
-**Returns:** QuoteLine
+**Returns:** NSQuoteLine
 
 
 ```crmscript
 NSQuoteContext thing;
-QuoteLine cRMQuoteLine  = thing.GetCRMQuoteLine();
+NSQuoteLine cRMQuoteLine  = thing.GetCRMQuoteLine();
 ```
 
 

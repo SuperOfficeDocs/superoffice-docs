@@ -6,9 +6,9 @@ keywords: NSProjectStatus, GetId
 so.topic: reference
 ---
 
-Get the primary key (id) for the ProjectStatus
+Get the primary key (id) for the NSProjectStatus
 
-**Returns:** Integer ProjectStatus id.
+**Returns:** Integer NSProjectStatus id.
 
 ```crmscript
 NSProjectStatus thing;

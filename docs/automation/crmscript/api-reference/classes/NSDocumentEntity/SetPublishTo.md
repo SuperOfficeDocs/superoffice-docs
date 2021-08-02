@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, SetPublishTo
 so.topic: reference
 ---
 
-Set the publish to date on DocumentEntity. After this date the event is no longer visible.
+Set the publish to date on NSDocumentEntity. After this date the event is no longer visible.
 
 **Parameter:** 
  - **publishTo** DateTime

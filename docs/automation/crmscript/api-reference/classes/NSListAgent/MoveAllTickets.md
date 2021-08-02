@@ -12,12 +12,10 @@ Move all tickets from one ticket category to another
  - **fromTicketCategoryId** The id of the category we want to move tickets from
  - **toTicketCategoryId** The id of the category we want to move the tickets to
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer fromTicketCategoryId;
 Integer toTicketCategoryId;
-Void res = agent.MoveAllTickets(fromTicketCategoryId, toTicketCategoryId);
+agent.MoveAllTickets(fromTicketCategoryId, toTicketCategoryId);
 ```
 

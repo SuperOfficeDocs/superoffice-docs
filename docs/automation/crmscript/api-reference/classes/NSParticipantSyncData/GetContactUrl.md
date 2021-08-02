@@ -8,7 +8,7 @@ so.topic: reference
 
 The contact's internet adresses
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

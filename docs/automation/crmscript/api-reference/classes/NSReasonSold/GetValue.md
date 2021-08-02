@@ -8,7 +8,7 @@ so.topic: reference
 
 Get the name of the ReasonSold.
 
-**Returns:** String ReasonSold name.
+**Returns:** String
 
 ```crmscript
 NSReasonSold thing;

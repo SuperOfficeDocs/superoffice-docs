@@ -9,7 +9,7 @@ so.topic: reference
 Checks whether the core html templates are customized
 
 
-**Returns:** True if the templates are customized
+**Returns:** Bool
 
 ```crmscript
 NSCustomerServiceAgent agent;

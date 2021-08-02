@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteList
-title: QuoteListItem[] GetQuoteList(String quoteListType)
+title: NSQuoteListItem[] GetQuoteList(String quoteListType)
 intellisense: NSQuoteAgent.GetQuoteList
 keywords: NSQuoteAgent, GetQuoteList
 so.topic: reference
@@ -11,11 +11,11 @@ Gets a named list from the connector Return array of QuoteListItems. Return NULL
 **Parameters:**
  - **quoteListType** The name of the requested list, for instance: ProductCategory, ProductFamily, ProductType, PaymentTerms, PaymentType, DeliveryTerms, DeliveryType.
 
-**Returns:** The list items
+**Returns:** NSQuoteListItem[]
 
 ```crmscript
 NSQuoteAgent agent;
 String quoteListType;
-QuoteListItem[] res = agent.GetQuoteList(quoteListType);
+NSQuoteListItem[] res = agent.GetQuoteList(quoteListType);
 ```
 

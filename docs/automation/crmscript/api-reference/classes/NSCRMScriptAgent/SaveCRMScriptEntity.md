@@ -11,10 +11,10 @@ Updates the existing NSCRMScriptEntity or creates a new NSCRMScriptEntity if the
 **Parameters**:
  - **cRMScriptEntity** The NSCRMScriptEntity to save.
 
-**Returns:** New or updated NSCRMScriptEntity
+**Returns:** NSCRMScriptEntity
 
 ```crmscript
-NSCRMScript  agent;
+NSCRMScriptAgent  agent;
 NSCRMScriptEntity thing = agent.CreateDefaultCRMScriptEntity();
 thing = agent.SaveCRMScriptEntity(thing);
 ```

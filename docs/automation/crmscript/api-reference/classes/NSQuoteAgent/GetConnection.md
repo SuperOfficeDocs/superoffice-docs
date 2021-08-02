@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetConnection
-title: QuoteConnection GetConnection(Integer quoteConnectionId)
+title: NSQuoteConnection GetConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.GetConnection
 keywords: NSQuoteAgent, GetConnection
 so.topic: reference
@@ -11,11 +11,11 @@ Returns the specified connection.
 **Parameters:**
  - **quoteConnectionId** Primary key of the connection
 
-**Returns:** The connection
+**Returns:** NSQuoteConnection
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteConnectionId;
-QuoteConnection res = agent.GetConnection(quoteConnectionId);
+NSQuoteConnection res = agent.GetConnection(quoteConnectionId);
 ```
 

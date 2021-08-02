@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSDocumentAgent_GetUnsanitizedPreviewDocumentStream
-title: DocumentPreview GetUnsanitizedPreviewDocumentStream(Integer documentId)
+title: NSDocumentPreview GetUnsanitizedPreviewDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetUnsanitizedPreviewDocumentStream
 keywords: NSDocumentAgent, GetUnsanitizedPreviewDocumentStream
 so.topic: reference
@@ -11,11 +11,11 @@ Get the preview version of the document content as a stream. Retrieves an unsani
 **Parameters:**
  - **documentId** SuperOffice document id
 
-**Returns:** Unsanitized preview version of the document
+**Returns:** NSDocumentPreview
 
 ```crmscript
 NSDocumentAgent agent;
 Integer documentId;
-DocumentPreview res = agent.GetUnsanitizedPreviewDocumentStream(documentId);
+NSDocumentPreview res = agent.GetUnsanitizedPreviewDocumentStream(documentId);
 ```
 

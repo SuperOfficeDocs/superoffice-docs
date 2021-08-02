@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetDeliveryTerms
-title: DeliveryTerm[] GetDeliveryTerms()
+title: NSDeliveryTerm[] GetDeliveryTerms()
 intellisense: NSListAgent.GetDeliveryTerms
 keywords: NSListAgent, GetDeliveryTerms
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all DeliveryTerms in SuperOffice db.
 
 
-**Returns:** An array of all available DeliveryTerms
+**Returns:** NSDeliveryTerm[]
 
 ```crmscript
 NSListAgent agent;
-DeliveryTerm[] res = agent.GetDeliveryTerms();
+NSDeliveryTerm[] res = agent.GetDeliveryTerms();
 ```
 

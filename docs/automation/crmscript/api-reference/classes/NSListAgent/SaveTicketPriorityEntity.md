@@ -11,7 +11,7 @@ Updates the existing NSTicketPriorityEntity or creates a new NSTicketPriorityEnt
 **Parameters**:
  - **ticketPriorityEntity** The NSTicketPriorityEntity to save.
 
-**Returns:** New or updated NSTicketPriorityEntity
+**Returns:** NSTicketPriorityEntity
 
 ```crmscript
 NSList  agent;

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_GetSales
-title: SaleSummaryItem[] GetSales()
+title: NSSaleSummaryItem[] GetSales()
 intellisense: NSPersonSummary.GetSales
 keywords: NSPersonSummary, GetSales
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 Recent sales on person
 
-**Returns:** SaleSummaryItem[]
+**Returns:** NSSaleSummaryItem[]
 
 
 ```crmscript
 NSPersonSummary thing;
-SaleSummaryItem[] sales  = thing.GetSales();
+NSSaleSummaryItem[] sales  = thing.GetSales();
 ```
 
 

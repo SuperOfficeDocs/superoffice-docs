@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedModuleLicense_GetCurrent
-title: ModuleLicense GetCurrent()
+title: NSModuleLicense GetCurrent()
 intellisense: NSExtendedModuleLicense.GetCurrent
 keywords: NSExtendedModuleLicense, GetCurrent
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** ModuleLicense
+**Returns:** NSModuleLicense
 
 
 ```crmscript
 NSExtendedModuleLicense thing;
-ModuleLicense current  = thing.GetCurrent();
+NSModuleLicense current  = thing.GetCurrent();
 ```
 
 

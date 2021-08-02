@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonSummary_SetTickets
-title: SetTickets(TicketSummaryItem[] tickets)
+title: SetTickets(NSTicketSummaryItem[] tickets)
 intellisense: NSPersonSummary.SetTickets
 keywords: NSPersonSummary, GetTickets
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Recent tickets on person
 
 **Parameter:** 
- - **tickets** TicketSummaryItem[]
+ - **tickets** NSTicketSummaryItem[]
 
 ```crmscript
 NSPersonSummary thing;
-TicketSummaryItem[] tickets;
+NSTicketSummaryItem[] tickets;
 thing.SetTickets(tickets);
 ```
 

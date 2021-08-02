@@ -6,16 +6,16 @@ keywords: NSDocumentAgent, GetDocumentList
 so.topic: reference
 ---
 
-Gets a vector of Document objects.
+Gets a vector of NSDocument objects.
 
 **Parameters:**
  - **documentIds** The identifiers of the NSDocument objects
 
-**Returns:** Vector of NSDocument objects
+**Returns:** NSDocument[]
 
 ```crmscript
 Integer[] ids;
 NSDocumentAgent agent;
-agent.GetDocumentList(ids);
+NSDocument[] docs = agent.GetDocumentList(ids);
 ```
 

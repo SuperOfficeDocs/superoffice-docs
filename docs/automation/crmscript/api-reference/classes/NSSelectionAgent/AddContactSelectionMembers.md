@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSelectionAgent_AddContactSelectionMembers
-title: Void AddContactSelectionMembers(Integer selectionId, ContactPersonId[] contactPersonIds)
+title: Void AddContactSelectionMembers(Integer selectionId, NSContactPersonId[] contactPersonIds)
 intellisense: NSSelectionAgent.AddContactSelectionMembers
 keywords: NSSelectionAgent, AddContactSelectionMembers
 so.topic: reference

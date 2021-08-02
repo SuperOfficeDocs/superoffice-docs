@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetProjectStatuses
-title: ProjectStatus[] GetProjectStatuses()
+title: NSProjectStatus[] GetProjectStatuses()
 intellisense: NSListAgent.GetProjectStatuses
 keywords: NSListAgent, GetProjectStatuses
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Gets all items from the Project Status (ProjStatus) table.
 
 
-**Returns:** List of all Project statuses.
+**Returns:** NSProjectStatus[]
 
 ```crmscript
 NSListAgent agent;
-ProjectStatus[] res = agent.GetProjectStatuses();
+NSProjectStatus[] res = agent.GetProjectStatuses();
 ```
 

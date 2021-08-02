@@ -11,7 +11,7 @@ Check that entity is ready for saving, return error messages by field.
 **Parameters:**
  - **projectEntity** Entity to be checked for errors.
 
-**Returns:** Error messages tagged by field.
+**Returns:** StringDictionary
 
 ```crmscript
 NSProjectAgent agent;

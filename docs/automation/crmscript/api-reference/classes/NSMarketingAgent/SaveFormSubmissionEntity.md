@@ -11,7 +11,7 @@ Updates the existing NSFormSubmissionEntity or creates a new NSFormSubmissionEnt
 **Parameters**:
  - **formSubmissionEntity** The NSFormSubmissionEntity to save.
 
-**Returns:** New or updated NSFormSubmissionEntity
+**Returns:** NSFormSubmissionEntity
 
 ```crmscript
 NSMarketing  agent;

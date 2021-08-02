@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSWebhook
   
 **Parameters:**
- - **webhookId** The identity of the Webhook to delete.
+ - **webhookId** The identity of the NSWebhook to delete.
 
 ```crmscript
 NSWebhookAgent agent;

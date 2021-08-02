@@ -12,7 +12,7 @@ This method will convert a module name into a Service URL.
  - **programName** In this parameter you must specify which CS program you want to create an URL for. Valid examples are "ticket", "rms", "spm" etc.
  - **external** If set to true, this will generate URLs that are accesible from the outside (for example Internet)
 
-**Returns:** Returns a valid Service URL composed of the give parameters.
+**Returns:** String
 
 ```crmscript
 NSCustomerServiceAgent agent;

@@ -6,7 +6,7 @@ keywords: NSPersonEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values on PersonEntity with a map.
+Set the extra field values on NSPersonEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

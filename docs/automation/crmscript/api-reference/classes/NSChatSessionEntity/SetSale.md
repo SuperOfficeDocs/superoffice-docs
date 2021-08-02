@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_SetSale
-title: SetSale(Sale sale)
+title: SetSale(NSSale sale)
 intellisense: NSChatSessionEntity.SetSale
 keywords: NSChatSessionEntity, GetSale
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Sale the session is connected to - could be empty if we don't know exactly.
 
 **Parameter:** 
- - **sale** Sale
+ - **sale** NSSale
 
 ```crmscript
 NSChatSessionEntity thing;
-Sale sale;
+NSSale sale;
 thing.SetSale(sale);
 ```
 

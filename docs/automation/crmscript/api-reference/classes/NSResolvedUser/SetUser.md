@@ -1,19 +1,19 @@
 ﻿---
 uid: crmscript_ref_NSResolvedUser_SetUser
-title: SetUser(User user)
+title: SetUser(NSUser user)
 intellisense: NSResolvedUser.SetUser
 keywords: NSResolvedUser, GetUser
 so.topic: reference
 ---
 
-The resolved User instance.
+The resolved NSUser instance.
 
 **Parameter:** 
  - **user** User
 
 ```crmscript
 NSResolvedUser thing;
-User user;
+NSUser user;
 thing.SetUser(user);
 ```
 

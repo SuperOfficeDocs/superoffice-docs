@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSQuoteAgent_GetActivePriceListsByCurrencyId
-title: PriceList[] GetActivePriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
+title: NSPriceList[] GetActivePriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
 intellisense: NSQuoteAgent.GetActivePriceListsByCurrencyId
 keywords: NSQuoteAgent, GetActivePriceListsByCurrencyId
 so.topic: reference
@@ -12,12 +12,12 @@ Gets the available active PriceLists in a specific currency. Will return empty a
  - **quoteConnectionId** Primary key of the connection
  - **currencyId** SuperOffice currency id.
 
-**Returns:** The PriceLists that supports a specific currency
+**Returns:** NSPriceList[]
 
 ```crmscript
 NSQuoteAgent agent;
 Integer quoteConnectionId;
 Integer currencyId;
-PriceList[] res = agent.GetActivePriceListsByCurrencyId(quoteConnectionId, currencyId);
+NSPriceList[] res = agent.GetActivePriceListsByCurrencyId(quoteConnectionId, currencyId);
 ```
 

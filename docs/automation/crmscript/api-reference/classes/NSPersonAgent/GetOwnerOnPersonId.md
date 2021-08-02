@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_GetOwnerOnPersonId
-title: Person GetOwnerOnPersonId(Integer personId)
+title: NSPerson GetOwnerOnPersonId(Integer personId)
 intellisense: NSPersonAgent.GetOwnerOnPersonId
 keywords: NSPersonAgent, GetOwnerOnPersonId
 so.topic: reference
@@ -11,11 +11,11 @@ Get the owner of the person by id.
 **Parameters:**
  - **personId** 
 
-**Returns:** Person
+**Returns:** NSPerson
 
 ```crmscript
 NSPersonAgent agent;
 Integer personId;
-Person res = agent.GetOwnerOnPersonId(personId);
+NSPerson res = agent.GetOwnerOnPersonId(personId);
 ```
 

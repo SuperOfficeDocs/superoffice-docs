@@ -9,7 +9,7 @@ so.topic: reference
 Check to see if new timezone data is available
 
 
-**Returns:** Returns true if new timezone info is found available, false otherwise
+**Returns:** Bool
 
 ```crmscript
 NSTimeZoneAgent agent;

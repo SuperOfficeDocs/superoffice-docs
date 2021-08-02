@@ -12,7 +12,7 @@ Change password for a user.
  - **associateId** Id of User to set password for
  - **password** New password
 
-**Returns:** Succeeded?
+**Returns:** Bool
 
 ```crmscript
 NSUserAgent agent;

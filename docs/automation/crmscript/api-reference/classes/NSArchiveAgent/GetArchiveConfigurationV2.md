@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveConfigurationV2
-title: ArchiveConfiguration GetArchiveConfigurationV2(String guiName, String providerName, String context, String ownerKeys)
+title: NSArchiveConfiguration GetArchiveConfigurationV2(String guiName, String providerName, String context, String ownerKeys)
 intellisense: NSArchiveAgent.GetArchiveConfigurationV2
 keywords: NSArchiveAgent, GetArchiveConfigurationV2
 so.topic: reference
@@ -22,6 +22,6 @@ String guiName;
 String providerName;
 String context;
 String ownerKeys;
-ArchiveConfiguration res = agent.GetArchiveConfigurationV2(guiName, providerName, context, ownerKeys);
+NSArchiveConfiguration res = agent.GetArchiveConfigurationV2(guiName, providerName, context, ownerKeys);
 ```
 

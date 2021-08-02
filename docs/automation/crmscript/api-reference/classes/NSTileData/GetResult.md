@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTileData_GetResult
-title: ArchiveListResult GetResult()
+title: NSArchiveListResult GetResult()
 intellisense: NSTileData.GetResult
 keywords: NSTileData, GetResult
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The result set
 
-**Returns:** ArchiveListResult
+**Returns:** NSArchiveListResult
 
 
 ```crmscript
 NSTileData thing;
-ArchiveListResult result  = thing.GetResult();
+NSArchiveListResult result  = thing.GetResult();
 ```
 
 

@@ -6,9 +6,9 @@ keywords: NSProductFamily, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the ProductFamily list item.
+Get the tooltip description for the NSProductFamily list item.
 
-**Returns:** String ProductFamily tooltip description.
+**Returns:** String NSProductFamily tooltip description.
 
 ```crmscript
 NSProductFamily thing;

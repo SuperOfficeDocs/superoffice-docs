@@ -160,7 +160,7 @@ Runs the query and passes the result through a JSONBuilder. This gives you more 
 **A comma-separated list of label:fieldType elements:**
 
 * label - the name the field gets in the JSON object
-* fieldType can be any of the simple CRMScript types (Integer, Float, Boolean, String). The JSON object member will be formatted accordingly
+* fieldType can be any of the simple CRMScript types (Integer, Float, Bool, String). The JSON object member will be formatted accordingly
 
 **arrayName:**
 Becomes the name of the array in the JSONBuilder.

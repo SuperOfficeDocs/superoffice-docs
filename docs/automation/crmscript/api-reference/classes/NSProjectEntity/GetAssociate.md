@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSProjectEntity_GetAssociate
-title: Associate GetAssociate()
+title: NSAssociate GetAssociate()
 intellisense: NSProjectEntity.GetAssociate
 keywords: NSProjectEntity, GetAssociate
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 The person that created the project
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSProjectEntity thing;
-Associate associate  = thing.GetAssociate();
+NSAssociate associate  = thing.GetAssociate();
 ```
 
 

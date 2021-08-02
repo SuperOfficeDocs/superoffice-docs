@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetSaleType
-title: SetSaleType(SaleType saleType)
+title: SetSaleType(NSSaleType saleType)
 intellisense: NSSaleEntity.SetSaleType
 keywords: NSSaleEntity, GetSaleType
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **saleType** SaleType
+ - **saleType** NSSaleType
 
 ```crmscript
 NSSaleEntity thing;
-SaleType saleType;
+NSSaleType saleType;
 thing.SetSaleType(saleType);
 ```
 

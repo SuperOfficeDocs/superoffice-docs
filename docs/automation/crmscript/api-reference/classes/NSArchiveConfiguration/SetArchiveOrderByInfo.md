@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSArchiveConfiguration_SetArchiveOrderByInfo
-title: SetArchiveOrderByInfo(ArchiveOrderByInfo[] archiveOrderByInfo)
+title: SetArchiveOrderByInfo(NSArchiveOrderByInfo[] archiveOrderByInfo)
 intellisense: NSArchiveConfiguration.SetArchiveOrderByInfo
 keywords: NSArchiveConfiguration, GetArchiveOrderByInfo
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **archiveOrderByInfo** ArchiveOrderByInfo[]
+ - **archiveOrderByInfo** NSArchiveOrderByInfo[]
 
 ```crmscript
 NSArchiveConfiguration thing;
-ArchiveOrderByInfo[] archiveOrderByInfo;
+NSArchiveOrderByInfo[] archiveOrderByInfo;
 thing.SetArchiveOrderByInfo(archiveOrderByInfo);
 ```
 

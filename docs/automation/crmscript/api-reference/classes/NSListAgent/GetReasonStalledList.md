@@ -11,11 +11,11 @@ Gets a vector of ReasonStalled objects.
 **Parameters:**
  - **reasonStalledIds** The identifiers of the NSReasonStalled objects
 
-**Returns:** Vector of NSReasonStalled objects
+**Returns:** NSReasonStalled[]
 
 ```crmscript
 Integer[] ids;
 NSListAgent agent;
-agent.GetReasonStalledList(ids);
+NSReasonStalled[] res = agent.GetReasonStalledList(ids);
 ```
 

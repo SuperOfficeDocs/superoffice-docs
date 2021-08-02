@@ -1,18 +1,18 @@
 ﻿---
 uid: crmscript_ref_NSCustomerServiceAgent_GetSmsConfig
-title: SmsConfig GetSmsConfig()
+title: NSSmsConfig GetSmsConfig()
 intellisense: NSCustomerServiceAgent.GetSmsConfig
 keywords: NSCustomerServiceAgent, GetSmsConfig
 so.topic: reference
 ---
 
-Get the SmsConfig settings for Customer Service sms providers.
+Get the NSSmsConfig settings for Customer Service sms providers.
 
 
-**Returns:** Current SMS configuration.
+**Returns:** NSSmsConfig
 
 ```crmscript
 NSCustomerServiceAgent agent;
-SmsConfig res = agent.GetSmsConfig();
+NSSmsConfig res = agent.GetSmsConfig();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SetDocumentTemplateFromDocumentTemplate
-title: DocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer sourceDocumentTemplateId, DocumentTemplateEntity documentTemplateEntity)
+title: NSDocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer sourceDocumentTemplateId, NSDocumentTemplateEntity documentTemplateEntity)
 intellisense: NSListAgent.SetDocumentTemplateFromDocumentTemplate
 keywords: NSListAgent, SetDocumentTemplateFromDocumentTemplate
 so.topic: reference
@@ -12,12 +12,12 @@ Create a new document template based on another template
  - **sourceDocumentTemplateId** The document template to copy contents from.
  - **documentTemplateEntity** The new document template entity
 
-**Returns:** The new document template entity
+**Returns:** NSDocumentTemplateEntity
 
 ```crmscript
 NSListAgent agent;
 Integer sourceDocumentTemplateId;
-DocumentTemplateEntity documentTemplateEntity;
-DocumentTemplateEntity res = agent.SetDocumentTemplateFromDocumentTemplate(sourceDocumentTemplateId, documentTemplateEntity);
+NSDocumentTemplateEntity documentTemplateEntity;
+NSDocumentTemplateEntity res = agent.SetDocumentTemplateFromDocumentTemplate(sourceDocumentTemplateId, documentTemplateEntity);
 ```
 

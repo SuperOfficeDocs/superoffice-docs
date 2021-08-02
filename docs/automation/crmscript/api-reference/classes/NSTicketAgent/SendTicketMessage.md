@@ -17,8 +17,6 @@ Send a message to recipients, e.g. by email or sms
  - **replyTemplateId** Optional ID of reply template to merge message with. <= 0 to skip.
  - **gdprSource** Optional GdprSource string which will be stored for newly created Persons. Blank value will give Gdpr source: API.
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSTicketAgent agent;
 Integer ticketMessageEntityId;
@@ -28,6 +26,6 @@ String[] bcc;
 String subject;
 Integer replyTemplateId;
 String gdprSource;
-Void res = agent.SendTicketMessage(ticketMessageEntityId, to, cc, bcc, subject, replyTemplateId, gdprSource);
+agent.SendTicketMessage(ticketMessageEntityId, to, cc, bcc, subject, replyTemplateId, gdprSource);
 ```
 

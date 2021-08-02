@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSContactAgent_SaveQuoteVersionAddress
-title: Address SaveQuoteVersionAddress(Integer quoteVersionId, Address address, Integer addressType, Integer countryId)
+title: NSAddress SaveQuoteVersionAddress(Integer quoteVersionId, NSAddress address, Integer addressType, Integer countryId)
 intellisense: NSContactAgent.SaveQuoteVersionAddress
 keywords: NSContactAgent, SaveQuoteVersionAddress
 so.topic: reference
@@ -20,14 +20,14 @@ Save a custom quote version address.
      - Enum: 8197 = QuoteShippingAddress 
  - **countryId** The country for the custom address
 
-**Returns:** The saved addresses.
+**Returns:** NSAddress
 
 ```crmscript
 NSContactAgent agent;
 Integer quoteVersionId;
-Address address;
+NSAddress address;
 Integer addressType;
 Integer countryId;
-Address res = agent.SaveQuoteVersionAddress(quoteVersionId, address, addressType, countryId);
+NSAddress res = agent.SaveQuoteVersionAddress(quoteVersionId, address, addressType, countryId);
 ```
 

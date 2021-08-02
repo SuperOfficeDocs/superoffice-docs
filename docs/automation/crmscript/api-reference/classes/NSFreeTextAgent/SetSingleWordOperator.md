@@ -14,11 +14,8 @@ Sets the operator used when matching single words
      - Enum: 2 = StartsWith 
      - Enum: 3 = ExactMatch 
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSFreeTextAgent agent;
 Integer freeTextOperator;
-Void res = agent.SetSingleWordOperator(freeTextOperator);
+agent.SetSingleWordOperator(freeTextOperator);
 ```
-

@@ -11,11 +11,11 @@ Gets a vector of Project objects.
 **Parameters:**
  - **projectIds** The identifiers of the NSProject objects
 
-**Returns:** Vector of NSProject objects
+**Returns:** NSProject[]
 
 ```crmscript
 Integer[] ids;
 NSProjectAgent agent;
-agent.GetProjectList(ids);
+NSProject[] res = agent.GetProjectList(ids);
 ```
 

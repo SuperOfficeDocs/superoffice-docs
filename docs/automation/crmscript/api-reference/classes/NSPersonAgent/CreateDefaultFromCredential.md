@@ -1,12 +1,12 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_CreateDefaultFromCredential
-title: PersonEntity CreateDefaultFromCredential(Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
+title: NSPersonEntity CreateDefaultFromCredential(Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
 intellisense: NSPersonAgent.CreateDefaultFromCredential
 keywords: NSPersonAgent, CreateDefaultFromCredential
 so.topic: reference
 ---
 
-Creates a PersonEntity with default values based on the contactId and credentials.
+Creates a NSPersonEntity with default values based on the contactId and credentials.
 
 **Parameters:**
  - **contactId** Contact id of the person

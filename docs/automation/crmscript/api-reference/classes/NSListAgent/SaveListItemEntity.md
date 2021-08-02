@@ -1,21 +1,21 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_SaveListItemEntity
-title: ListItemEntity SaveListItemEntity(ListItemEntity listItemEntity)
+title: NSListItemEntity SaveListItemEntity(NSListItemEntity listItemEntity)
 intellisense: NSListAgent.SaveListItemEntity
 keywords: NSListAgent, SaveListItemEntity
 so.topic: reference
 ---
 
-Save the ListItemEntity.
+Save the NSListItemEntity.
 
 **Parameters:**
- - **listItemEntity** The ListItemEntity to save.
+ - **listItemEntity** The NSListItemEntity to save.
 
-**Returns:** The saved ListItemEntity.
+**Returns:** NSListItemEntity.
 
 ```crmscript
 NSListAgent agent;
-ListItemEntity listItemEntity;
-ListItemEntity res = agent.SaveListItemEntity(listItemEntity);
+NSListItemEntity listItemEntity;
+NSListItemEntity res = agent.SaveListItemEntity(listItemEntity);
 ```
 

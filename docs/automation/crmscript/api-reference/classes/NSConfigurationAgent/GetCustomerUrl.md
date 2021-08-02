@@ -9,7 +9,7 @@ so.topic: reference
 This method will get the URL for the external access to the customer center
 
 
-**Returns:** The URL to the customer center, without any actions
+**Returns:** String
 
 ```crmscript
 NSConfigurationAgent agent;

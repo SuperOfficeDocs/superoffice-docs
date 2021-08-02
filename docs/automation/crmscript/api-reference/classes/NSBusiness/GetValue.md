@@ -6,9 +6,9 @@ keywords: NSBusiness, GetValue
 so.topic: reference
 ---
 
-Get the name of the Business.
+Get the name of the NSBusiness.
 
-**Returns:** String Business name.
+**Returns:** String NSBusiness name.
 
 ```crmscript
 NSBusiness thing;

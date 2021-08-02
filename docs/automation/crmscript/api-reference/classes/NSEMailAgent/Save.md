@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSEMailAgent_Save
-title: EMailEntity Save(EMailEntity email)
+title: NSEMailEntity Save(NSEMailEntity email)
 intellisense: NSEMailAgent.Save
 keywords: NSEMailAgent, Save
 so.topic: reference
@@ -11,11 +11,11 @@ Save the e-mail back to the database
 **Parameters:**
  - **email** The e-mail to save
 
-**Returns:** The updated saved entity
+**Returns:** NSEMailEntity
 
 ```crmscript
 NSEMailAgent agent;
-EMailEntity email;
-EMailEntity res = agent.Save(email);
+NSEMailEntity email;
+NSEMailEntity res = agent.Save(email);
 ```
 

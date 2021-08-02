@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSTimeZoneData_SetTimeZoneDSTRules
-title: SetTimeZoneDSTRules(TimeZoneRuleDictionary timeZoneDSTRules)
+title: SetTimeZoneDSTRules(NSTimeZoneRuleDictionary timeZoneDSTRules)
 intellisense: NSTimeZoneData.SetTimeZoneDSTRules
 keywords: NSTimeZoneData, GetTimeZoneDSTRules
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Rules for daylight savings time
 
 **Parameter:** 
- - **timeZoneDSTRules** TimeZoneRuleDictionary
+ - **timeZoneDSTRules** NSTimeZoneRuleDictionary
 
 ```crmscript
 NSTimeZoneData thing;
-TimeZoneRuleDictionary timeZoneDSTRules;
+NSTimeZoneRuleDictionary timeZoneDSTRules;
 thing.SetTimeZoneDSTRules(timeZoneDSTRules);
 ```
 

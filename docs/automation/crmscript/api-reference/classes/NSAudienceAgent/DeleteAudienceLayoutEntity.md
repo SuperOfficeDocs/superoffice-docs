@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSAudienceLayoutEntity
   
 **Parameters:**
- - **audienceLayoutEntityId** The identity of the AudienceLayoutEntity to delete.
+ - **audienceLayoutEntityId** The identity of the NSAudienceLayoutEntity to delete.
 
 ```crmscript
 NSAudienceAgent agent;

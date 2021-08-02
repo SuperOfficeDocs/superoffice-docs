@@ -6,10 +6,10 @@ keywords: NSPaymentTerm, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the PaymentTerm list item.
+Set the tooltip description for the NSPaymentTerm list item.
 
 **Parameter:** 
- - **tooltip** String PaymentTerm tooltip description.
+ - **tooltip** String NSPaymentTerm tooltip description.
 
 ```crmscript
 NSPaymentTerm thing;

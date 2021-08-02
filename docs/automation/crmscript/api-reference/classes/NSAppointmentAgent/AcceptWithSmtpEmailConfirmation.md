@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_AcceptWithSmtpEmailConfirmation
-title: Void AcceptWithSmtpEmailConfirmation(Integer appointmentId, Integer updateMode, EMailConnectionInfo smtpEMailConnectionInfo)
+title: Void AcceptWithSmtpEmailConfirmation(Integer appointmentId, Integer updateMode, NSEMailConnectionInfo smtpEMailConnectionInfo)
 intellisense: NSAppointmentAgent.AcceptWithSmtpEmailConfirmation
 keywords: NSAppointmentAgent, AcceptWithSmtpEmailConfirmation
 so.topic: reference
@@ -17,13 +17,13 @@ Accepting an appointment invitation and send an email confirmation to the meetin
      - Enum: 9 = StopRecurrence 
  - **smtpEMailConnectionInfo** Login information for outgoing smtp email server. Will be null if no login information is relevant.
 
-**Returns:** Updated AppointmentEntity
+**Returns:** Updated NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 Integer updateMode;
-EMailConnectionInfo smtpEMailConnectionInfo;
-Void res = agent.AcceptWithSmtpEmailConfirmation(appointmentId, updateMode, smtpEMailConnectionInfo);
+NSEMailConnectionInfo smtpEMailConnectionInfo;
+agent.AcceptWithSmtpEmailConfirmation(appointmentId, updateMode, smtpEMailConnectionInfo);
 ```
 

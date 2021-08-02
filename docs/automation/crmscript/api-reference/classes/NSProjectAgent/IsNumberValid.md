@@ -12,7 +12,7 @@ Checks if the number is unique or required.  The setting is configured from admi
  - **contactId** The Project id
  - **number** The number to check for uniqueness and validity
 
-**Returns:** True if the number is valid
+**Returns:** Bool
 
 ```crmscript
 NSProjectAgent agent;

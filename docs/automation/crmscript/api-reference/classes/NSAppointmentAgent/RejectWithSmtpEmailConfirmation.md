@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSAppointmentAgent_RejectWithSmtpEmailConfirmation
-title: Void RejectWithSmtpEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode, EMailConnectionInfo smtpEMailConnectionInfo)
+title: Void RejectWithSmtpEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode, NSEMailConnectionInfo smtpEMailConnectionInfo)
 intellisense: NSAppointmentAgent.RejectWithSmtpEmailConfirmation
 keywords: NSAppointmentAgent, RejectWithSmtpEmailConfirmation
 so.topic: reference
@@ -18,14 +18,14 @@ Rejecting an appointment invitation and send an email confirmation to the meetin
      - Enum: 9 = StopRecurrence 
  - **smtpEMailConnectionInfo** Login information for outgoing smtp email server. Will be null if no login information is relevant.
 
-**Returns:** Updated AppointmentEntity
+**Returns:** NSAppointmentEntity
 
 ```crmscript
 NSAppointmentAgent agent;
 Integer appointmentId;
 String rejectReason;
 Integer updateMode;
-EMailConnectionInfo smtpEMailConnectionInfo;
-Void res = agent.RejectWithSmtpEmailConfirmation(appointmentId, rejectReason, updateMode, smtpEMailConnectionInfo);
+NSEMailConnectionInfo smtpEMailConnectionInfo;
+agent.RejectWithSmtpEmailConfirmation(appointmentId, rejectReason, updateMode, smtpEMailConnectionInfo);
 ```
 

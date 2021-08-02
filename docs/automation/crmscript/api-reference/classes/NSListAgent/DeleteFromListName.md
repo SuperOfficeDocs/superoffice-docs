@@ -12,12 +12,10 @@ Delete a list item from the specified list defintion
  - **id** The identity of the list item to delete
  - **udListDefinitionName** The name of the list definition, indicating which list to delete the items from.
 
-**Returns:** This method has no return value
-
 ```crmscript
 NSListAgent agent;
 Integer id;
 String udListDefinitionName;
-Void res = agent.DeleteFromListName(id, udListDefinitionName);
+agent.DeleteFromListName(id, udListDefinitionName);
 ```
 

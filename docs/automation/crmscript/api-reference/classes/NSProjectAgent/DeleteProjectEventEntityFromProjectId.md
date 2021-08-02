@@ -11,11 +11,9 @@ Delete a project event based on a project id. Does not delete the project, but d
 **Parameters:**
  - **projectId** The project id of the external event to delete.
 
-**Returns:** Nothing
-
 ```crmscript
 NSProjectAgent agent;
 Integer projectId;
-Void res = agent.DeleteProjectEventEntityFromProjectId(projectId);
+agent.DeleteProjectEventEntityFromProjectId(projectId);
 ```
 

@@ -8,7 +8,7 @@ so.topic: reference
 
 The urls related to this person.
 
-**Returns:** StringArray
+**Returns:** String[]
 
 
 ```crmscript

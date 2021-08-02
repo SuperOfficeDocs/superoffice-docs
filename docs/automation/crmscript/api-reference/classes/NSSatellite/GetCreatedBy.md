@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSatellite_GetCreatedBy
-title: Associate GetCreatedBy()
+title: NSAssociate GetCreatedBy()
 intellisense: NSSatellite.GetCreatedBy
 keywords: NSSatellite, GetCreatedBy
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSSatellite thing;
-Associate createdBy  = thing.GetCreatedBy();
+NSAssociate createdBy  = thing.GetCreatedBy();
 ```
 
 

@@ -6,16 +6,16 @@ keywords: NSProjectAgent, GetProjectEventList
 so.topic: reference
 ---
 
-Gets a vector of ProjectEvent objects.
+Gets a vector of NSProjectEvent objects.
 
 **Parameters:**
  - **projectEventIds** The identifiers of the NSProjectEvent objects
 
-**Returns:** Vector of NSProjectEvent objects
+**Returns:** NSProjectEvent[]
 
 ```crmscript
 Integer[] ids;
 NSProjectAgent agent;
-agent.GetProjectEventList(ids);
+NSProjectEvent[] res = agent.GetProjectEventList(ids);
 ```
 

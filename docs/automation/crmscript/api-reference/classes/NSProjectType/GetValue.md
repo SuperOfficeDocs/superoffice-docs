@@ -6,9 +6,9 @@ keywords: NSProjectType, GetValue
 so.topic: reference
 ---
 
-Get the name of the ProjectType.
+Get the name of the NSProjectType.
 
-**Returns:** String ProjectType name.
+**Returns:** String NSProjectType name.
 
 ```crmscript
 NSProjectType thing;

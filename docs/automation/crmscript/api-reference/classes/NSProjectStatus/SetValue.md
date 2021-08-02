@@ -6,10 +6,10 @@ keywords: NSProjectStatus, SetValue
 so.topic: reference
 ---
 
-Set the name of the ProjectStatus item.
+Set the name of the NSProjectStatus item.
 
 **Parameter:** 
- - **value** String ProjectStatus name.
+ - **value** String NSProjectStatus name.
 
 ```crmscript
 NSProjectStatus thing;

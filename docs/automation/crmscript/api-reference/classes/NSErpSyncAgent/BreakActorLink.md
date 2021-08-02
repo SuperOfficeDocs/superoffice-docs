@@ -18,7 +18,7 @@ Remove the link between a CRM entity and an ERP entity
      - Enum: 3 = Project 
      - Enum: 4 = Sale 
 
-**Returns:** True if success
+**Returns:** Bool
 
 ```crmscript
 NSErpSyncAgent agent;

@@ -6,10 +6,10 @@ keywords: NSSaleType, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the SaleType list item.
+Set the tooltip description for the NSSaleType list item.
 
 **Parameter:** 
- - **tooltip** String SaleType tooltip description.
+ - **tooltip** String NSSaleType tooltip description.
 
 ```crmscript
 NSSaleType thing;

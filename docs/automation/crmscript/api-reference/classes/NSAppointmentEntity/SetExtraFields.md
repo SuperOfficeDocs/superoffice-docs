@@ -6,7 +6,7 @@ keywords: NSAppointmentEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values on AppointmentEntity with a map.
+Set the extra field values on NSAppointmentEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

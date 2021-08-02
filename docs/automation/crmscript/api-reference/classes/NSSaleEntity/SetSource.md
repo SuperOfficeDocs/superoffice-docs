@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSSaleEntity_SetSource
-title: SetSource(Source source)
+title: SetSource(NSSource source)
 intellisense: NSSaleEntity.SetSource
 keywords: NSSaleEntity, GetSource
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The sale source
 
 **Parameter:** 
- - **source** Source
+ - **source** NSSource
 
 ```crmscript
 NSSaleEntity thing;
-Source source;
+NSSource source;
 thing.SetSource(source);
 ```
 

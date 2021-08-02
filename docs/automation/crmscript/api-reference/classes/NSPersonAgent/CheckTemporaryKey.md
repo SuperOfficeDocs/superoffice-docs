@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonAgent_CheckTemporaryKey
-title: TemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
+title: NSTemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
 intellisense: NSPersonAgent.CheckTemporaryKey
 keywords: NSPersonAgent, CheckTemporaryKey
 so.topic: reference
@@ -16,6 +16,6 @@ Check a temporary key for validity, and in case it is valid, return its domain, 
 ```crmscript
 NSPersonAgent agent;
 String temporaryKey;
-TemporaryKeyInfo res = agent.CheckTemporaryKey(temporaryKey);
+NSTemporaryKeyInfo res = agent.CheckTemporaryKey(temporaryKey);
 ```
 

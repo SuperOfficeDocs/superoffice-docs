@@ -9,7 +9,7 @@ so.topic: reference
 Deletes the NSTicketCategoryEntity
   
 **Parameters:**
- - **ticketCategoryEntityId** The identity of the TicketCategoryEntity to delete.
+ - **ticketCategoryEntityId** The identity of the NSTicketCategoryEntity to delete.
 
 ```crmscript
 NSListAgent agent;

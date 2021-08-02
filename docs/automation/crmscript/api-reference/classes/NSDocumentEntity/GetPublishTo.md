@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, GetPublishTo
 so.topic: reference
 ---
 
-Publish to date on DocumentEntity. After this date the event is no longer visible.
+Publish to date on NSDocumentEntity. After this date the event is no longer visible.
 
 **Returns:** DateTime.
 

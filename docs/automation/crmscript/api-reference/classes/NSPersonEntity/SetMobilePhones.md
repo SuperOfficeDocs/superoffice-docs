@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSPersonEntity_SetMobilePhones
-title: SetMobilePhones(EntityElement[] mobilePhones)
+title: SetMobilePhones(NSEntityElement[] mobilePhones)
 intellisense: NSPersonEntity.SetMobilePhones
 keywords: NSPersonEntity, GetMobilePhones
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 Returns a collection of mobile phone numbers that belong to the contact person.
 
 **Parameter:** 
- - **mobilePhones** EntityElement[]
+ - **mobilePhones** NSEntityElement[]
 
 ```crmscript
 NSPersonEntity thing;
-EntityElement[] mobilePhones;
+NSEntityElement[] mobilePhones;
 thing.SetMobilePhones(mobilePhones);
 ```
 

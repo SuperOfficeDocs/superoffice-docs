@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSExtendedModuleLicense_SetNew
-title: SetNew(ModuleLicense new)
+title: SetNew(NSModuleLicense new)
 intellisense: NSExtendedModuleLicense.SetNew
 keywords: NSExtendedModuleLicense, GetNew
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 
 
 **Parameter:** 
- - **new** ModuleLicense
+ - **new** NSModuleLicense
 
 ```crmscript
 NSExtendedModuleLicense thing;
-ModuleLicense new;
+NSModuleLicense new;
 thing.SetNew(new);
 ```
 

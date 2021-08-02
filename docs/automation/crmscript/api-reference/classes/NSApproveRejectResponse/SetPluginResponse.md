@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSApproveRejectResponse_SetPluginResponse
-title: SetPluginResponse(PluginResponse pluginResponse)
+title: SetPluginResponse(NSPluginResponse pluginResponse)
 intellisense: NSApproveRejectResponse.SetPluginResponse
 keywords: NSApproveRejectResponse, GetPluginResponse
 so.topic: reference
@@ -9,11 +9,11 @@ so.topic: reference
 The response from the operation.
 
 **Parameter:** 
- - **pluginResponse** PluginResponse
+ - **pluginResponse** NSPluginResponse
 
 ```crmscript
 NSApproveRejectResponse thing;
-PluginResponse pluginResponse;
+NSPluginResponse pluginResponse;
 thing.SetPluginResponse(pluginResponse);
 ```
 

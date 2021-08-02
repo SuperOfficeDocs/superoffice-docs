@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetConsentPurposes
-title: ConsentPurpose[] GetConsentPurposes()
+title: NSConsentPurpose[] GetConsentPurposes()
 intellisense: NSListAgent.GetConsentPurposes
 keywords: NSListAgent, GetConsentPurposes
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all defined purposes.
 
 
-**Returns:** An array of all defined purposes
+**Returns:** NSConsentPurpose[]
 
 ```crmscript
 NSListAgent agent;
-ConsentPurpose[] res = agent.GetConsentPurposes();
+NSConsentPurpose[] res = agent.GetConsentPurposes();
 ```
 

@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSChatSessionEntity_GetTransferTo
-title: Associate GetTransferTo()
+title: NSAssociate GetTransferTo()
 intellisense: NSChatSessionEntity.GetTransferTo
 keywords: NSChatSessionEntity, GetTransferTo
 so.topic: reference
@@ -8,12 +8,12 @@ so.topic: reference
 
 User agent that has a pending transfer of the chat session
 
-**Returns:** Associate
+**Returns:** NSAssociate
 
 
 ```crmscript
 NSChatSessionEntity thing;
-Associate transferTo  = thing.GetTransferTo();
+NSAssociate transferTo  = thing.GetTransferTo();
 ```
 
 

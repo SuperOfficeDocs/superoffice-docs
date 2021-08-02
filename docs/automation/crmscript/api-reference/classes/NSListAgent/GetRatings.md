@@ -1,6 +1,6 @@
 ﻿---
 uid: crmscript_ref_NSListAgent_GetRatings
-title: Rating[] GetRatings()
+title: NSRating[] GetRatings()
 intellisense: NSListAgent.GetRatings
 keywords: NSListAgent, GetRatings
 so.topic: reference
@@ -9,10 +9,10 @@ so.topic: reference
 Returns all ratings
 
 
-**Returns:** Array of ratings
+**Returns:** NSRating[]
 
 ```crmscript
 NSListAgent agent;
-Rating[] res = agent.GetRatings();
+NSRating[] res = agent.GetRatings();
 ```
 
