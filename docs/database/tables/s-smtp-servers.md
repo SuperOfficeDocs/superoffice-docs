@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_smtp_servers"
-so.date: 22.03.2021
+so.date: 03.22.2021
 so.topic: reference
 so.envir:
   - "onsite"
