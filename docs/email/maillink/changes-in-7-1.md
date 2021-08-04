@@ -5,7 +5,7 @@ description: SuperOffice Mail Link 7.1
 author: Hans Oluf Waaler
 keywords:
 so.topic: reference
-so.date: 24 Jun 2012
+so.date: 06.24.2012
 ---
 
 # SuperOffice Mail Link 7.1
