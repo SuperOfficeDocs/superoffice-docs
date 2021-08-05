@@ -199,6 +199,8 @@ items:
       href: netserver/services/scripting/basic-scripting.md
     - name: Running scripts
       href: netserver/services/scripting/run-scripts.md
+    - name: Reference
+      href: netserver/services/scripting/reference/
   - name: How to...
     items:
     - name: Call service using NetServer Services Proxies

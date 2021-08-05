@@ -1,0 +1,3361 @@
+items:
+- name: Overview
+  href: index.md
+- name: IAIAgent
+  href: IAIAgent/index.md
+  items:
+  - name: IAIAgent.DetectLanguage event method
+    href: IAIAgent/detectlanguage.md
+  - name: IAIAgent.DetectSentiment event method
+    href: IAIAgent/detectsentiment.md
+  - name: IAIAgent.GetTrainingStatus event method
+    href: IAIAgent/gettrainingstatus.md
+  - name: IAIAgent.GuessCategory event method
+    href: IAIAgent/guesscategory.md
+  - name: IAIAgent.TrainCategoryGuesser event method
+    href: IAIAgent/traincategoryguesser.md
+  - name: IAIAgent.Translate event method
+    href: IAIAgent/translate.md
+- name: IAppointmentAgent
+  href: IAppointmentAgent/index.md
+  items:
+  - name: IAppointmentAgent.Accept event method
+    href: IAppointmentAgent/accept.md
+  - name: IAppointmentAgent.AcceptRejected event method
+    href: IAppointmentAgent/acceptrejected.md
+  - name: IAppointmentAgent.AcceptWithEmailConfirmation event method
+    href: IAppointmentAgent/acceptwithemailconfirmation.md
+  - name: IAppointmentAgent.AcceptWithSmtpEmailConfirmation event method
+    href: IAppointmentAgent/acceptwithsmtpemailconfirmation.md
+  - name: IAppointmentAgent.AssignTo event method
+    href: IAppointmentAgent/assignto.md
+  - name: IAppointmentAgent.CalculateDays event method
+    href: IAppointmentAgent/calculatedays.md
+  - name: IAppointmentAgent.CanAssignToProjectMember event method
+    href: IAppointmentAgent/canassigntoprojectmember.md
+  - name: IAppointmentAgent.CleanUpBookingDeleted event method
+    href: IAppointmentAgent/cleanupbookingdeleted.md
+  - name: IAppointmentAgent.CleanUpRecurringBookingDeleted event method
+    href: IAppointmentAgent/cleanuprecurringbookingdeleted.md
+  - name: IAppointmentAgent.CreateAndAccept event method
+    href: IAppointmentAgent/createandaccept.md
+  - name: IAppointmentAgent.CreateAndAcceptWithEmailConfirmation event method
+    href: IAppointmentAgent/createandacceptwithemailconfirmation.md
+  - name: IAppointmentAgent.CreateAppointmentForUID event method
+    href: IAppointmentAgent/createappointmentforuid.md
+  - name: IAppointmentAgent.CreateDefaultAppointmentEntity event method
+    href: IAppointmentAgent/createdefaultappointmententity.md
+  - name: IAppointmentAgent.CreateDefaultAppointmentEntityByType event method
+    href: IAppointmentAgent/createdefaultappointmententitybytype.md
+  - name: IAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate event method
+    href: IAppointmentAgent/createdefaultappointmententitybytypeandassociate.md
+  - name: IAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion event method
+    href: IAppointmentAgent/createdefaultappointmententityfromprojectsuggestion.md
+  - name: IAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion event method
+    href: IAppointmentAgent/createdefaultappointmententityfromsalesuggestion.md
+  - name: IAppointmentAgent.CreateDefaultRecurrence event method
+    href: IAppointmentAgent/createdefaultrecurrence.md
+  - name: IAppointmentAgent.CreateDefaultRecurrenceByDate event method
+    href: IAppointmentAgent/createdefaultrecurrencebydate.md
+  - name: IAppointmentAgent.CreateDefaultReOpenAppointment event method
+    href: IAppointmentAgent/createdefaultreopenappointment.md
+  - name: IAppointmentAgent.CreateDefaultSuggestedAppointmentEntity event method
+    href: IAppointmentAgent/createdefaultsuggestedappointmententity.md
+  - name: IAppointmentAgent.CreateDefaultTaskListItem event method
+    href: IAppointmentAgent/createdefaulttasklistitem.md
+  - name: IAppointmentAgent.DeclineInvitationFromEmailItem event method
+    href: IAppointmentAgent/declineinvitationfromemailitem.md
+  - name: IAppointmentAgent.Delete event method
+    href: IAppointmentAgent/delete.md
+  - name: IAppointmentAgent.DeleteAppointmentEntity event method
+    href: IAppointmentAgent/deleteappointmententity.md
+  - name: IAppointmentAgent.GenerateLead event method
+    href: IAppointmentAgent/generatelead.md
+  - name: IAppointmentAgent.GetActivityInformationListByDatesAndAssociate event method
+    href: IAppointmentAgent/getactivityinformationlistbydatesandassociate.md
+  - name: IAppointmentAgent.GetAlarms event method
+    href: IAppointmentAgent/getalarms.md
+  - name: IAppointmentAgent.GetAppointment event method
+    href: IAppointmentAgent/getappointment.md
+  - name: IAppointmentAgent.GetAppointmentEntity event method
+    href: IAppointmentAgent/getappointmententity.md
+  - name: IAppointmentAgent.GetAppointmentFromUID event method
+    href: IAppointmentAgent/getappointmentfromuid.md
+  - name: IAppointmentAgent.GetAppointmentHaveParticipantsWithEmail event method
+    href: IAppointmentAgent/getappointmenthaveparticipantswithemail.md
+  - name: IAppointmentAgent.GetAppointmentList event method
+    href: IAppointmentAgent/getappointmentlist.md
+  - name: IAppointmentAgent.GetAppointmentRecords event method
+    href: IAppointmentAgent/getappointmentrecords.md
+  - name: IAppointmentAgent.GetAppointmentsByTaskHeading event method
+    href: IAppointmentAgent/getappointmentsbytaskheading.md
+  - name: IAppointmentAgent.GetAssociateDiary event method
+    href: IAppointmentAgent/getassociatediary.md
+  - name: IAppointmentAgent.GetAssociatesDiary event method
+    href: IAppointmentAgent/getassociatesdiary.md
+  - name: IAppointmentAgent.GetCanInsertForAssociates event method
+    href: IAppointmentAgent/getcaninsertforassociates.md
+  - name: IAppointmentAgent.GetContactAppointments event method
+    href: IAppointmentAgent/getcontactappointments.md
+  - name: IAppointmentAgent.GetContactAppointmentsByTask event method
+    href: IAppointmentAgent/getcontactappointmentsbytask.md
+  - name: IAppointmentAgent.GetContactAppointmentsByTaskHeading event method
+    href: IAppointmentAgent/getcontactappointmentsbytaskheading.md
+  - name: IAppointmentAgent.GetContactAppointmentsByTasks event method
+    href: IAppointmentAgent/getcontactappointmentsbytasks.md
+  - name: IAppointmentAgent.GetContactAppointmentsByType event method
+    href: IAppointmentAgent/getcontactappointmentsbytype.md
+  - name: IAppointmentAgent.GetDayInformationListByDatesAndAssociate event method
+    href: IAppointmentAgent/getdayinformationlistbydatesandassociate.md
+  - name: IAppointmentAgent.GetDiaryByGroup event method
+    href: IAppointmentAgent/getdiarybygroup.md
+  - name: IAppointmentAgent.GetMyAppointments event method
+    href: IAppointmentAgent/getmyappointments.md
+  - name: IAppointmentAgent.GetMyDiary event method
+    href: IAppointmentAgent/getmydiary.md
+  - name: IAppointmentAgent.GetMyPublishedAppointments event method
+    href: IAppointmentAgent/getmypublishedappointments.md
+  - name: IAppointmentAgent.GetMySyncAppointments event method
+    href: IAppointmentAgent/getmysyncappointments.md
+  - name: IAppointmentAgent.GetMyTasks event method
+    href: IAppointmentAgent/getmytasks.md
+  - name: IAppointmentAgent.GetNextSuggestedAppointmentBySale event method
+    href: IAppointmentAgent/getnextsuggestedappointmentbysale.md
+  - name: IAppointmentAgent.GetOrganizerName event method
+    href: IAppointmentAgent/getorganizername.md
+  - name: IAppointmentAgent.GetPersonAppointments event method
+    href: IAppointmentAgent/getpersonappointments.md
+  - name: IAppointmentAgent.GetPersonAppointmentsByTask event method
+    href: IAppointmentAgent/getpersonappointmentsbytask.md
+  - name: IAppointmentAgent.GetPersonAppointmentsByTaskHeading event method
+    href: IAppointmentAgent/getpersonappointmentsbytaskheading.md
+  - name: IAppointmentAgent.GetPersonAppointmentsByTasks event method
+    href: IAppointmentAgent/getpersonappointmentsbytasks.md
+  - name: IAppointmentAgent.GetPersonAppointmentsByType event method
+    href: IAppointmentAgent/getpersonappointmentsbytype.md
+  - name: IAppointmentAgent.GetPersonDiary event method
+    href: IAppointmentAgent/getpersondiary.md
+  - name: IAppointmentAgent.GetPersonTasks event method
+    href: IAppointmentAgent/getpersontasks.md
+  - name: IAppointmentAgent.GetProjectAppointments event method
+    href: IAppointmentAgent/getprojectappointments.md
+  - name: IAppointmentAgent.GetProjectAppointmentsByTask event method
+    href: IAppointmentAgent/getprojectappointmentsbytask.md
+  - name: IAppointmentAgent.GetProjectAppointmentsByTaskHeading event method
+    href: IAppointmentAgent/getprojectappointmentsbytaskheading.md
+  - name: IAppointmentAgent.GetProjectAppointmentsByTasks event method
+    href: IAppointmentAgent/getprojectappointmentsbytasks.md
+  - name: IAppointmentAgent.GetProjectAppointmentsByType event method
+    href: IAppointmentAgent/getprojectappointmentsbytype.md
+  - name: IAppointmentAgent.GetProjectMemberAppointments event method
+    href: IAppointmentAgent/getprojectmemberappointments.md
+  - name: IAppointmentAgent.GetProjectMemberAppointmentsByTask event method
+    href: IAppointmentAgent/getprojectmemberappointmentsbytask.md
+  - name: IAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading event method
+    href: IAppointmentAgent/getprojectmemberappointmentsbytaskheading.md
+  - name: IAppointmentAgent.GetProjectMemberAppointmentsByTasks event method
+    href: IAppointmentAgent/getprojectmemberappointmentsbytasks.md
+  - name: IAppointmentAgent.GetProjectMemberAppointmentsByType event method
+    href: IAppointmentAgent/getprojectmemberappointmentsbytype.md
+  - name: IAppointmentAgent.GetPublishedAppointment event method
+    href: IAppointmentAgent/getpublishedappointment.md
+  - name: IAppointmentAgent.GetPublishedAppointments event method
+    href: IAppointmentAgent/getpublishedappointments.md
+  - name: IAppointmentAgent.GetPublishedProjectAppointments event method
+    href: IAppointmentAgent/getpublishedprojectappointments.md
+  - name: IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate event method
+    href: IAppointmentAgent/getredletterinformationlistbydatesandassociate.md
+  - name: IAppointmentAgent.GetSuggestedAppointment event method
+    href: IAppointmentAgent/getsuggestedappointment.md
+  - name: IAppointmentAgent.GetSuggestedAppointmentEntity event method
+    href: IAppointmentAgent/getsuggestedappointmententity.md
+  - name: IAppointmentAgent.GetTaskListItem event method
+    href: IAppointmentAgent/gettasklistitem.md
+  - name: IAppointmentAgent.GetTaskListItems event method
+    href: IAppointmentAgent/gettasklistitems.md
+  - name: IAppointmentAgent.GetUIDFromAppointmentId event method
+    href: IAppointmentAgent/getuidfromappointmentid.md
+  - name: IAppointmentAgent.Move event method
+    href: IAppointmentAgent/move.md
+  - name: IAppointmentAgent.Reject event method
+    href: IAppointmentAgent/reject.md
+  - name: IAppointmentAgent.RejectWithEmailConfirmation event method
+    href: IAppointmentAgent/rejectwithemailconfirmation.md
+  - name: IAppointmentAgent.RejectWithSmtpEmailConfirmation event method
+    href: IAppointmentAgent/rejectwithsmtpemailconfirmation.md
+  - name: IAppointmentAgent.RequestForInfo event method
+    href: IAppointmentAgent/requestforinfo.md
+  - name: IAppointmentAgent.Save event method
+    href: IAppointmentAgent/save.md
+  - name: IAppointmentAgent.SaveAppointmentEntity event method
+    href: IAppointmentAgent/saveappointmententity.md
+  - name: IAppointmentAgent.SaveSuggestedAppointmentEntity event method
+    href: IAppointmentAgent/savesuggestedappointmententity.md
+  - name: IAppointmentAgent.SaveTaskListItem event method
+    href: IAppointmentAgent/savetasklistitem.md
+  - name: IAppointmentAgent.SetActivityStatus event method
+    href: IAppointmentAgent/setactivitystatus.md
+  - name: IAppointmentAgent.SetSeen event method
+    href: IAppointmentAgent/setseen.md
+  - name: IAppointmentAgent.ToggleActivities event method
+    href: IAppointmentAgent/toggleactivities.md
+  - name: IAppointmentAgent.ToggleActivity event method
+    href: IAppointmentAgent/toggleactivity.md
+  - name: IAppointmentAgent.ToggleAndSetActivities event method
+    href: IAppointmentAgent/toggleandsetactivities.md
+  - name: IAppointmentAgent.ToggleAppointmentStatus event method
+    href: IAppointmentAgent/toggleappointmentstatus.md
+  - name: IAppointmentAgent.UpdateAppointment event method
+    href: IAppointmentAgent/updateappointment.md
+  - name: IAppointmentAgent.UpdateAppointmentFromIcsResponse event method
+    href: IAppointmentAgent/updateappointmentfromicsresponse.md
+  - name: IAppointmentAgent.ValidateAppointmentEntity event method
+    href: IAppointmentAgent/validateappointmententity.md
+  - name: IAppointmentAgent.ValidateDays event method
+    href: IAppointmentAgent/validatedays.md
+  - name: IAppointmentAgent.WillSendEmail event method
+    href: IAppointmentAgent/willsendemail.md
+- name: IArchiveAgent
+  href: IArchiveAgent/index.md
+  items:
+  - name: IArchiveAgent.CreateDefaultArchiveListResult event method
+    href: IArchiveAgent/createdefaultarchivelistresult.md
+  - name: IArchiveAgent.ExportArchive event method
+    href: IArchiveAgent/exportarchive.md
+  - name: IArchiveAgent.GetActivityFilter event method
+    href: IArchiveAgent/getactivityfilter.md
+  - name: IArchiveAgent.GetArchiveConfiguration event method
+    href: IArchiveAgent/getarchiveconfiguration.md
+  - name: IArchiveAgent.GetArchiveConfigurationV2 event method
+    href: IArchiveAgent/getarchiveconfigurationv2.md
+  - name: IArchiveAgent.GetArchiveConfigurationWithContext event method
+    href: IArchiveAgent/getarchiveconfigurationwithcontext.md
+  - name: IArchiveAgent.GetArchiveList event method
+    href: IArchiveAgent/getarchivelist.md
+  - name: IArchiveAgent.GetArchiveList2 event method
+    href: IArchiveAgent/getarchivelist2.md
+  - name: IArchiveAgent.GetArchiveListByColumns event method
+    href: IArchiveAgent/getarchivelistbycolumns.md
+  - name: IArchiveAgent.GetArchiveListByColumns2 event method
+    href: IArchiveAgent/getarchivelistbycolumns2.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithContext event method
+    href: IArchiveAgent/getarchivelistbycolumnswithcontext.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithContext2 event method
+    href: IArchiveAgent/getarchivelistbycolumnswithcontext2.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithHeader event method
+    href: IArchiveAgent/getarchivelistbycolumnswithheader.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithHeader2 event method
+    href: IArchiveAgent/getarchivelistbycolumnswithheader2.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext event method
+    href: IArchiveAgent/getarchivelistbycolumnswithheaderwithcontext.md
+  - name: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2 event method
+    href: IArchiveAgent/getarchivelistbycolumnswithheaderwithcontext2.md
+  - name: IArchiveAgent.GetArchiveListWithContext event method
+    href: IArchiveAgent/getarchivelistwithcontext.md
+  - name: IArchiveAgent.GetArchiveListWithContext2 event method
+    href: IArchiveAgent/getarchivelistwithcontext2.md
+  - name: IArchiveAgent.GetAvailableColumns event method
+    href: IArchiveAgent/getavailablecolumns.md
+  - name: IArchiveAgent.GetAvailableEntities event method
+    href: IArchiveAgent/getavailableentities.md
+  - name: IArchiveAgent.GetGroupAssociateIds event method
+    href: IArchiveAgent/getgroupassociateids.md
+  - name: IArchiveAgent.GetProviderNames event method
+    href: IArchiveAgent/getprovidernames.md
+  - name: IArchiveAgent.SetActivityFilter event method
+    href: IArchiveAgent/setactivityfilter.md
+  - name: IArchiveAgent.SetChosenColumns event method
+    href: IArchiveAgent/setchosencolumns.md
+  - name: IArchiveAgent.SetChosenColumnsV2 event method
+    href: IArchiveAgent/setchosencolumnsv2.md
+  - name: IArchiveAgent.SetChosenEntities event method
+    href: IArchiveAgent/setchosenentities.md
+  - name: IArchiveAgent.SetChosenEntitiesV2 event method
+    href: IArchiveAgent/setchosenentitiesv2.md
+  - name: IArchiveAgent.SetColumnWidths event method
+    href: IArchiveAgent/setcolumnwidths.md
+  - name: IArchiveAgent.SetColumnWidthsV2 event method
+    href: IArchiveAgent/setcolumnwidthsv2.md
+- name: IAssociateAgent
+  href: IAssociateAgent/index.md
+  items:
+  - name: IAssociateAgent.GetAssociate event method
+    href: IAssociateAgent/getassociate.md
+  - name: IAssociateAgent.GetAssociateByPersonId event method
+    href: IAssociateAgent/getassociatebypersonid.md
+  - name: IAssociateAgent.GetAssociateList event method
+    href: IAssociateAgent/getassociatelist.md
+  - name: IAssociateAgent.GetAssociatesByGroup event method
+    href: IAssociateAgent/getassociatesbygroup.md
+  - name: IAssociateAgent.GetNote event method
+    href: IAssociateAgent/getnote.md
+  - name: IAssociateAgent.LogOffWindowsUsers event method
+    href: IAssociateAgent/logoffwindowsusers.md
+  - name: IAssociateAgent.SaveNote event method
+    href: IAssociateAgent/savenote.md
+- name: IAudienceAgent
+  href: IAudienceAgent/index.md
+  items:
+  - name: IAudienceAgent.CreateDefaultAudienceLayoutEntity event method
+    href: IAudienceAgent/createdefaultaudiencelayoutentity.md
+  - name: IAudienceAgent.DeleteAudienceLayoutEntity event method
+    href: IAudienceAgent/deleteaudiencelayoutentity.md
+  - name: IAudienceAgent.DeleteConfigParameter event method
+    href: IAudienceAgent/deleteconfigparameter.md
+  - name: IAudienceAgent.GetAudienceLayoutByName event method
+    href: IAudienceAgent/getaudiencelayoutbyname.md
+  - name: IAudienceAgent.GetAudienceLayoutEntity event method
+    href: IAudienceAgent/getaudiencelayoutentity.md
+  - name: IAudienceAgent.GetAudienceLayoutOnPerson event method
+    href: IAudienceAgent/getaudiencelayoutonperson.md
+  - name: IAudienceAgent.GetConfigParameter event method
+    href: IAudienceAgent/getconfigparameter.md
+  - name: IAudienceAgent.GetConfigParameterOnPerson event method
+    href: IAudienceAgent/getconfigparameteronperson.md
+  - name: IAudienceAgent.GetConfigParametersByLayoutName event method
+    href: IAudienceAgent/getconfigparametersbylayoutname.md
+  - name: IAudienceAgent.GetConfigParametersOnPerson event method
+    href: IAudienceAgent/getconfigparametersonperson.md
+  - name: IAudienceAgent.GetConfigParameterValue event method
+    href: IAudienceAgent/getconfigparametervalue.md
+  - name: IAudienceAgent.GetConfigParameterValueOnPerson event method
+    href: IAudienceAgent/getconfigparametervalueonperson.md
+  - name: IAudienceAgent.GetDefaultCountryFlag event method
+    href: IAudienceAgent/getdefaultcountryflag.md
+  - name: IAudienceAgent.GetDefaultPersonImage event method
+    href: IAudienceAgent/getdefaultpersonimage.md
+  - name: IAudienceAgent.GetDefaultProjectImage event method
+    href: IAudienceAgent/getdefaultprojectimage.md
+  - name: IAudienceAgent.GetLogoImage event method
+    href: IAudienceAgent/getlogoimage.md
+  - name: IAudienceAgent.GetMyAudienceLayout event method
+    href: IAudienceAgent/getmyaudiencelayout.md
+  - name: IAudienceAgent.GetMyConfigParameter event method
+    href: IAudienceAgent/getmyconfigparameter.md
+  - name: IAudienceAgent.GetMyConfigParameters event method
+    href: IAudienceAgent/getmyconfigparameters.md
+  - name: IAudienceAgent.GetMyConfigParameterValue event method
+    href: IAudienceAgent/getmyconfigparametervalue.md
+  - name: IAudienceAgent.SaveAudienceLayoutEntity event method
+    href: IAudienceAgent/saveaudiencelayoutentity.md
+  - name: IAudienceAgent.SaveConfigParameter event method
+    href: IAudienceAgent/saveconfigparameter.md
+  - name: IAudienceAgent.SetDefaultCountryFlag event method
+    href: IAudienceAgent/setdefaultcountryflag.md
+  - name: IAudienceAgent.SetDefaultPersonImage event method
+    href: IAudienceAgent/setdefaultpersonimage.md
+  - name: IAudienceAgent.SetDefaultProjectImage event method
+    href: IAudienceAgent/setdefaultprojectimage.md
+  - name: IAudienceAgent.SetLogoImage event method
+    href: IAudienceAgent/setlogoimage.md
+- name: IBatchAgent
+  href: IBatchAgent/index.md
+  items:
+  - name: IBatchAgent.DeleteBatchTask event method
+    href: IBatchAgent/deletebatchtask.md
+  - name: IBatchAgent.DeleteBatchTasks event method
+    href: IBatchAgent/deletebatchtasks.md
+  - name: IBatchAgent.GetBatchTaskInfo event method
+    href: IBatchAgent/getbatchtaskinfo.md
+  - name: IBatchAgent.GetBatchTaskInfosByAssociates event method
+    href: IBatchAgent/getbatchtaskinfosbyassociates.md
+  - name: IBatchAgent.GetBatchTaskInfosByAssociatesAndState event method
+    href: IBatchAgent/getbatchtaskinfosbyassociatesandstate.md
+  - name: IBatchAgent.GetBatchTaskInfosByNameAndAssociates event method
+    href: IBatchAgent/getbatchtaskinfosbynameandassociates.md
+  - name: IBatchAgent.GetBatchTaskInfosByNameAndState event method
+    href: IBatchAgent/getbatchtaskinfosbynameandstate.md
+  - name: IBatchAgent.GetBatchTaskInfosByState event method
+    href: IBatchAgent/getbatchtaskinfosbystate.md
+  - name: IBatchAgent.StartBatchJob event method
+    href: IBatchAgent/startbatchjob.md
+  - name: IBatchAgent.StopBatchJob event method
+    href: IBatchAgent/stopbatchjob.md
+  - name: IBatchAgent.UpdateBatchTask event method
+    href: IBatchAgent/updatebatchtask.md
+- name: IBLOBAgent
+  href: IBLOBAgent/index.md
+  items:
+  - name: IBLOBAgent.ChangeContactImage event method
+    href: IBLOBAgent/changecontactimage.md
+  - name: IBLOBAgent.ChangePersonImage event method
+    href: IBLOBAgent/changepersonimage.md
+  - name: IBLOBAgent.ChangeProductImage event method
+    href: IBLOBAgent/changeproductimage.md
+  - name: IBLOBAgent.ChangeProjectImage event method
+    href: IBLOBAgent/changeprojectimage.md
+  - name: IBLOBAgent.CleanupBatchTask event method
+    href: IBLOBAgent/cleanupbatchtask.md
+  - name: IBLOBAgent.CreateDefaultBlobEntity event method
+    href: IBLOBAgent/createdefaultblobentity.md
+  - name: IBLOBAgent.DeleteBlobEntity event method
+    href: IBLOBAgent/deleteblobentity.md
+  - name: IBLOBAgent.GetAppData event method
+    href: IBLOBAgent/getappdata.md
+  - name: IBLOBAgent.GetBlobEntity event method
+    href: IBLOBAgent/getblobentity.md
+  - name: IBLOBAgent.GetBlobEntityOnContact event method
+    href: IBLOBAgent/getblobentityoncontact.md
+  - name: IBLOBAgent.GetBlobEntityOnCountry event method
+    href: IBLOBAgent/getblobentityoncountry.md
+  - name: IBLOBAgent.GetBlobEntityOnPerson event method
+    href: IBLOBAgent/getblobentityonperson.md
+  - name: IBLOBAgent.GetBlobEntityOnProduct event method
+    href: IBLOBAgent/getblobentityonproduct.md
+  - name: IBLOBAgent.GetBlobEntityOnProject event method
+    href: IBLOBAgent/getblobentityonproject.md
+  - name: IBLOBAgent.GetBlobStream event method
+    href: IBLOBAgent/getblobstream.md
+  - name: IBLOBAgent.GetChatImageWithSize event method
+    href: IBLOBAgent/getchatimagewithsize.md
+  - name: IBLOBAgent.GetContactImage event method
+    href: IBLOBAgent/getcontactimage.md
+  - name: IBLOBAgent.GetContactImageWithSize event method
+    href: IBLOBAgent/getcontactimagewithsize.md
+  - name: IBLOBAgent.GetOutputFromBatch event method
+    href: IBLOBAgent/getoutputfrombatch.md
+  - name: IBLOBAgent.GetPersonImage event method
+    href: IBLOBAgent/getpersonimage.md
+  - name: IBLOBAgent.GetPersonImageWithSize event method
+    href: IBLOBAgent/getpersonimagewithsize.md
+  - name: IBLOBAgent.GetProductImage event method
+    href: IBLOBAgent/getproductimage.md
+  - name: IBLOBAgent.GetProductThumbnail event method
+    href: IBLOBAgent/getproductthumbnail.md
+  - name: IBLOBAgent.GetProjectImage event method
+    href: IBLOBAgent/getprojectimage.md
+  - name: IBLOBAgent.GetProjectImageWithSize event method
+    href: IBLOBAgent/getprojectimagewithsize.md
+  - name: IBLOBAgent.GetQuoteLineImage event method
+    href: IBLOBAgent/getquotelineimage.md
+  - name: IBLOBAgent.SaveBlobEntity event method
+    href: IBLOBAgent/saveblobentity.md
+  - name: IBLOBAgent.SaveImageStream event method
+    href: IBLOBAgent/saveimagestream.md
+  - name: IBLOBAgent.SaveProjectImage event method
+    href: IBLOBAgent/saveprojectimage.md
+  - name: IBLOBAgent.SetAppData event method
+    href: IBLOBAgent/setappdata.md
+  - name: IBLOBAgent.SetBlobStream event method
+    href: IBLOBAgent/setblobstream.md
+  - name: IBLOBAgent.SetContactImage event method
+    href: IBLOBAgent/setcontactimage.md
+  - name: IBLOBAgent.SetPersonImage event method
+    href: IBLOBAgent/setpersonimage.md
+  - name: IBLOBAgent.SetProductImage event method
+    href: IBLOBAgent/setproductimage.md
+  - name: IBLOBAgent.SetProductThumbnail event method
+    href: IBLOBAgent/setproductthumbnail.md
+  - name: IBLOBAgent.SetProjectImage event method
+    href: IBLOBAgent/setprojectimage.md
+- name: IBulkUpdateAgent
+  href: IBulkUpdateAgent/index.md
+  items:
+  - name: IBulkUpdateAgent.ExecuteByEntityIds event method
+    href: IBulkUpdateAgent/executebyentityids.md
+  - name: IBulkUpdateAgent.ExecuteBySelectionId event method
+    href: IBulkUpdateAgent/executebyselectionid.md
+  - name: IBulkUpdateAgent.GetAvailableFields event method
+    href: IBulkUpdateAgent/getavailablefields.md
+  - name: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId event method
+    href: IBulkUpdateAgent/getjobresultasjsonfrombinaryobjectid.md
+  - name: IBulkUpdateAgent.GetJobResultsFromStorageAsJson event method
+    href: IBulkUpdateAgent/getjobresultsfromstorageasjson.md
+  - name: IBulkUpdateAgent.GetStoredFields event method
+    href: IBulkUpdateAgent/getstoredfields.md
+  - name: IBulkUpdateAgent.RemoveStoredFields event method
+    href: IBulkUpdateAgent/removestoredfields.md
+  - name: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields event method
+    href: IBulkUpdateAgent/removestoredfieldsandgetdefaultfields.md
+- name: IChatAgent
+  href: IChatAgent/index.md
+  items:
+  - name: IChatAgent.AcceptChatSessionTransfer event method
+    href: IChatAgent/acceptchatsessiontransfer.md
+  - name: IChatAgent.AddChatMessage event method
+    href: IChatAgent/addchatmessage.md
+  - name: IChatAgent.AddChatTopicUserAgent event method
+    href: IChatAgent/addchattopicuseragent.md
+  - name: IChatAgent.ChatSessionsForUser event method
+    href: IChatAgent/chatsessionsforuser.md
+  - name: IChatAgent.ChatTopicsForUser event method
+    href: IChatAgent/chattopicsforuser.md
+  - name: IChatAgent.CreateChatSessionForTopic event method
+    href: IChatAgent/createchatsessionfortopic.md
+  - name: IChatAgent.CreateDefaultChatSessionEntity event method
+    href: IChatAgent/createdefaultchatsessionentity.md
+  - name: IChatAgent.CreateDefaultChatTopicAgent event method
+    href: IChatAgent/createdefaultchattopicagent.md
+  - name: IChatAgent.CreateDefaultChatTopicEntity event method
+    href: IChatAgent/createdefaultchattopicentity.md
+  - name: IChatAgent.DeleteChatSessionEntity event method
+    href: IChatAgent/deletechatsessionentity.md
+  - name: IChatAgent.DeleteChatTopicEntity event method
+    href: IChatAgent/deletechattopicentity.md
+  - name: IChatAgent.DeleteChatTopicUserAgent event method
+    href: IChatAgent/deletechattopicuseragent.md
+  - name: IChatAgent.GetChatMessages event method
+    href: IChatAgent/getchatmessages.md
+  - name: IChatAgent.GetChatPresence event method
+    href: IChatAgent/getchatpresence.md
+  - name: IChatAgent.GetChatSessionEntity event method
+    href: IChatAgent/getchatsessionentity.md
+  - name: IChatAgent.GetChatTopicEntity event method
+    href: IChatAgent/getchattopicentity.md
+  - name: IChatAgent.GetChatTopicUserAgent event method
+    href: IChatAgent/getchattopicuseragent.md
+  - name: IChatAgent.GetChatTopicUserAgentList event method
+    href: IChatAgent/getchattopicuseragentlist.md
+  - name: IChatAgent.GetChatTranscript event method
+    href: IChatAgent/getchattranscript.md
+  - name: IChatAgent.GetUserAgentList event method
+    href: IChatAgent/getuseragentlist.md
+  - name: IChatAgent.IsWithinOpeningHours event method
+    href: IChatAgent/iswithinopeninghours.md
+  - name: IChatAgent.PickUpChatSession event method
+    href: IChatAgent/pickupchatsession.md
+  - name: IChatAgent.PickUpFirstChatSession event method
+    href: IChatAgent/pickupfirstchatsession.md
+  - name: IChatAgent.RejectChatSessionTransfer event method
+    href: IChatAgent/rejectchatsessiontransfer.md
+  - name: IChatAgent.ResetChatSession event method
+    href: IChatAgent/resetchatsession.md
+  - name: IChatAgent.SaveChatPresence event method
+    href: IChatAgent/savechatpresence.md
+  - name: IChatAgent.SaveChatSessionEntity event method
+    href: IChatAgent/savechatsessionentity.md
+  - name: IChatAgent.SaveChatTopicEntity event method
+    href: IChatAgent/savechattopicentity.md
+  - name: IChatAgent.TransferChatSession event method
+    href: IChatAgent/transferchatsession.md
+  - name: IChatAgent.UpdateChatTopicUserAgent event method
+    href: IChatAgent/updatechattopicuseragent.md
+  - name: IChatAgent.UpdateChatTopicUserAgents event method
+    href: IChatAgent/updatechattopicuseragents.md
+- name: IContactAgent
+  href: IContactAgent/index.md
+  items:
+  - name: IContactAgent.AddPerson event method
+    href: IContactAgent/addperson.md
+  - name: IContactAgent.ChangeCountry event method
+    href: IContactAgent/changecountry.md
+  - name: IContactAgent.Copy event method
+    href: IContactAgent/copy.md
+  - name: IContactAgent.CreateDefaultContactEntity event method
+    href: IContactAgent/createdefaultcontactentity.md
+  - name: IContactAgent.CreateNewEntry event method
+    href: IContactAgent/createnewentry.md
+  - name: IContactAgent.DeleteContactEntity event method
+    href: IContactAgent/deletecontactentity.md
+  - name: IContactAgent.DeleteExpired event method
+    href: IContactAgent/deleteexpired.md
+  - name: IContactAgent.GetAddress event method
+    href: IContactAgent/getaddress.md
+  - name: IContactAgent.GetAddressByCountry event method
+    href: IContactAgent/getaddressbycountry.md
+  - name: IContactAgent.GetContact event method
+    href: IContactAgent/getcontact.md
+  - name: IContactAgent.GetContactEntity event method
+    href: IContactAgent/getcontactentity.md
+  - name: IContactAgent.GetContactList event method
+    href: IContactAgent/getcontactlist.md
+  - name: IContactAgent.GetContactSummary event method
+    href: IContactAgent/getcontactsummary.md
+  - name: IContactAgent.GetContactWithPersons event method
+    href: IContactAgent/getcontactwithpersons.md
+  - name: IContactAgent.GetDuplicateRules event method
+    href: IContactAgent/getduplicaterules.md
+  - name: IContactAgent.GetDuplicates event method
+    href: IContactAgent/getduplicates.md
+  - name: IContactAgent.GetMyActiveContacts event method
+    href: IContactAgent/getmyactivecontacts.md
+  - name: IContactAgent.GetMyBizCard event method
+    href: IContactAgent/getmybizcard.md
+  - name: IContactAgent.GetMyContact event method
+    href: IContactAgent/getmycontact.md
+  - name: IContactAgent.GetMyContacts event method
+    href: IContactAgent/getmycontacts.md
+  - name: IContactAgent.GetMyRecentContacts event method
+    href: IContactAgent/getmyrecentcontacts.md
+  - name: IContactAgent.GetNameDepartmentDuplicates event method
+    href: IContactAgent/getnamedepartmentduplicates.md
+  - name: IContactAgent.GetPersons event method
+    href: IContactAgent/getpersons.md
+  - name: IContactAgent.GetQuoteVersionAddresses event method
+    href: IContactAgent/getquoteversionaddresses.md
+  - name: IContactAgent.IsNumberValid event method
+    href: IContactAgent/isnumbervalid.md
+  - name: IContactAgent.Merge event method
+    href: IContactAgent/merge.md
+  - name: IContactAgent.SaveContactEntity event method
+    href: IContactAgent/savecontactentity.md
+  - name: IContactAgent.SaveQuoteVersionAddress event method
+    href: IContactAgent/savequoteversionaddress.md
+  - name: IContactAgent.SetDuplicateRulesStatus event method
+    href: IContactAgent/setduplicaterulesstatus.md
+  - name: IContactAgent.Undelete event method
+    href: IContactAgent/undelete.md
+  - name: IContactAgent.ValidateContactEntity event method
+    href: IContactAgent/validatecontactentity.md
+- name: ICRMScriptAgent
+  href: ICRMScriptAgent/index.md
+  items:
+  - name: ICRMScriptAgent.CreateDefaultCRMScriptEntity event method
+    href: ICRMScriptAgent/createdefaultcrmscriptentity.md
+  - name: ICRMScriptAgent.CreateDefaultTriggerScriptEntity event method
+    href: ICRMScriptAgent/createdefaulttriggerscriptentity.md
+  - name: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier event method
+    href: ICRMScriptAgent/deletecrmscriptbyuniqueidentifier.md
+  - name: ICRMScriptAgent.DeleteCRMScriptEntity event method
+    href: ICRMScriptAgent/deletecrmscriptentity.md
+  - name: ICRMScriptAgent.DeleteTriggerScriptByUniqueId event method
+    href: ICRMScriptAgent/deletetriggerscriptbyuniqueid.md
+  - name: ICRMScriptAgent.DeleteTriggerScriptEntity event method
+    href: ICRMScriptAgent/deletetriggerscriptentity.md
+  - name: ICRMScriptAgent.ExecuteScript event method
+    href: ICRMScriptAgent/executescript.md
+  - name: ICRMScriptAgent.ExecuteScriptAsEvent event method
+    href: ICRMScriptAgent/executescriptasevent.md
+  - name: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId event method
+    href: ICRMScriptAgent/executescriptaseventbyuniqueid.md
+  - name: ICRMScriptAgent.ExecuteScriptByIncludeId event method
+    href: ICRMScriptAgent/executescriptbyincludeid.md
+  - name: ICRMScriptAgent.ExecuteScriptByUniqueId event method
+    href: ICRMScriptAgent/executescriptbyuniqueid.md
+  - name: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier event method
+    href: ICRMScriptAgent/getcrmscriptbyuniqueidentifier.md
+  - name: ICRMScriptAgent.GetCRMScriptEntity event method
+    href: ICRMScriptAgent/getcrmscriptentity.md
+  - name: ICRMScriptAgent.GetTriggerScriptByUniqueId event method
+    href: ICRMScriptAgent/gettriggerscriptbyuniqueid.md
+  - name: ICRMScriptAgent.GetTriggerScriptEntity event method
+    href: ICRMScriptAgent/gettriggerscriptentity.md
+  - name: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier event method
+    href: ICRMScriptAgent/savecrmscriptbyuniqueidentifier.md
+  - name: ICRMScriptAgent.SaveCRMScriptEntity event method
+    href: ICRMScriptAgent/savecrmscriptentity.md
+  - name: ICRMScriptAgent.SaveTriggerScriptByUniqueId event method
+    href: ICRMScriptAgent/savetriggerscriptbyuniqueid.md
+  - name: ICRMScriptAgent.SaveTriggerScriptEntity event method
+    href: ICRMScriptAgent/savetriggerscriptentity.md
+  - name: ICRMScriptAgent.ValidateScript event method
+    href: ICRMScriptAgent/validatescript.md
+  - name: ICRMScriptAgent.ValidateScriptByIncludeId event method
+    href: ICRMScriptAgent/validatescriptbyincludeid.md
+  - name: ICRMScriptAgent.ValidateScriptByUniqueId event method
+    href: ICRMScriptAgent/validatescriptbyuniqueid.md
+  - name: ICRMScriptAgent.ValidateTriggerScript event method
+    href: ICRMScriptAgent/validatetriggerscript.md
+  - name: ICRMScriptAgent.ValidateTriggerScriptByUniqueId event method
+    href: ICRMScriptAgent/validatetriggerscriptbyuniqueid.md
+- name: ICustomerServiceAgent
+  href: ICustomerServiceAgent/index.md
+  items:
+  - name: ICustomerServiceAgent.AddMessageFromMailData event method
+    href: ICustomerServiceAgent/addmessagefrommaildata.md
+  - name: ICustomerServiceAgent.ChatSessionsForUser event method
+    href: ICustomerServiceAgent/chatsessionsforuser.md
+  - name: ICustomerServiceAgent.CheckIfCustomizedTemplates event method
+    href: ICustomerServiceAgent/checkifcustomizedtemplates.md
+  - name: ICustomerServiceAgent.CheckSymmetricEncryption event method
+    href: ICustomerServiceAgent/checksymmetricencryption.md
+  - name: ICustomerServiceAgent.CreateDefaultCustomerCenterConfig event method
+    href: ICustomerServiceAgent/createdefaultcustomercenterconfig.md
+  - name: ICustomerServiceAgent.CreateDefaultMailboxEntity event method
+    href: ICustomerServiceAgent/createdefaultmailboxentity.md
+  - name: ICustomerServiceAgent.CreateDefaultSmsConfig event method
+    href: ICustomerServiceAgent/createdefaultsmsconfig.md
+  - name: ICustomerServiceAgent.CreateSession event method
+    href: ICustomerServiceAgent/createsession.md
+  - name: ICustomerServiceAgent.CreateTicketFromMailData event method
+    href: ICustomerServiceAgent/createticketfrommaildata.md
+  - name: ICustomerServiceAgent.DeleteChatSessions event method
+    href: ICustomerServiceAgent/deletechatsessions.md
+  - name: ICustomerServiceAgent.DeleteCustomerCenterConfig event method
+    href: ICustomerServiceAgent/deletecustomercenterconfig.md
+  - name: ICustomerServiceAgent.EventHandlerExists event method
+    href: ICustomerServiceAgent/eventhandlerexists.md
+  - name: ICustomerServiceAgent.ExecuteEventHandlers event method
+    href: ICustomerServiceAgent/executeeventhandlers.md
+  - name: ICustomerServiceAgent.FindTicketsByTitleOrId event method
+    href: ICustomerServiceAgent/findticketsbytitleorid.md
+  - name: ICustomerServiceAgent.GetAllCustomerCenterConfigs event method
+    href: ICustomerServiceAgent/getallcustomercenterconfigs.md
+  - name: ICustomerServiceAgent.GetCustomerCenterConfig event method
+    href: ICustomerServiceAgent/getcustomercenterconfig.md
+  - name: ICustomerServiceAgent.GetCustomerServiceStartup event method
+    href: ICustomerServiceAgent/getcustomerservicestartup.md
+  - name: ICustomerServiceAgent.GetMailboxEntity event method
+    href: ICustomerServiceAgent/getmailboxentity.md
+  - name: ICustomerServiceAgent.GetMailboxes event method
+    href: ICustomerServiceAgent/getmailboxes.md
+  - name: ICustomerServiceAgent.GetProgramUrl event method
+    href: ICustomerServiceAgent/getprogramurl.md
+  - name: ICustomerServiceAgent.GetSmsConfig event method
+    href: ICustomerServiceAgent/getsmsconfig.md
+  - name: ICustomerServiceAgent.GetStatistics event method
+    href: ICustomerServiceAgent/getstatistics.md
+  - name: ICustomerServiceAgent.HasChatNotify event method
+    href: ICustomerServiceAgent/haschatnotify.md
+  - name: ICustomerServiceAgent.RemoveSession event method
+    href: ICustomerServiceAgent/removesession.md
+  - name: ICustomerServiceAgent.SaveAllCustomerCenterConfigs event method
+    href: ICustomerServiceAgent/saveallcustomercenterconfigs.md
+  - name: ICustomerServiceAgent.SaveCustomerCenterConfig event method
+    href: ICustomerServiceAgent/savecustomercenterconfig.md
+  - name: ICustomerServiceAgent.SaveMailboxEntity event method
+    href: ICustomerServiceAgent/savemailboxentity.md
+  - name: ICustomerServiceAgent.SaveSmsConfig event method
+    href: ICustomerServiceAgent/savesmsconfig.md
+  - name: ICustomerServiceAgent.SessionIsValid event method
+    href: ICustomerServiceAgent/sessionisvalid.md
+  - name: ICustomerServiceAgent.TestSmtpServer event method
+    href: ICustomerServiceAgent/testsmtpserver.md
+  - name: ICustomerServiceAgent.UpdateFeatureToggles event method
+    href: ICustomerServiceAgent/updatefeaturetoggles.md
+- name: IDashboardAgent
+  href: IDashboardAgent/index.md
+  items:
+  - name: IDashboardAgent.CreateDefaultDashboard event method
+    href: IDashboardAgent/createdefaultdashboard.md
+  - name: IDashboardAgent.CreateDefaultDashboardTile event method
+    href: IDashboardAgent/createdefaultdashboardtile.md
+  - name: IDashboardAgent.CreateNewFromTemplate event method
+    href: IDashboardAgent/createnewfromtemplate.md
+  - name: IDashboardAgent.DeleteDashboard event method
+    href: IDashboardAgent/deletedashboard.md
+  - name: IDashboardAgent.DeleteDashboardTile event method
+    href: IDashboardAgent/deletedashboardtile.md
+  - name: IDashboardAgent.GetDashboard event method
+    href: IDashboardAgent/getdashboard.md
+  - name: IDashboardAgent.GetDashboards event method
+    href: IDashboardAgent/getdashboards.md
+  - name: IDashboardAgent.GetDashboardTile event method
+    href: IDashboardAgent/getdashboardtile.md
+  - name: IDashboardAgent.GetDashboardTiles event method
+    href: IDashboardAgent/getdashboardtiles.md
+  - name: IDashboardAgent.GetData event method
+    href: IDashboardAgent/getdata.md
+  - name: IDashboardAgent.GetDataWithSelection event method
+    href: IDashboardAgent/getdatawithselection.md
+  - name: IDashboardAgent.GetStandardDashboardTileFromChartId event method
+    href: IDashboardAgent/getstandarddashboardtilefromchartid.md
+  - name: IDashboardAgent.SaveDashboard event method
+    href: IDashboardAgent/savedashboard.md
+  - name: IDashboardAgent.SaveDashboardTile event method
+    href: IDashboardAgent/savedashboardtile.md
+  - name: IDashboardAgent.SetTile event method
+    href: IDashboardAgent/settile.md
+- name: IDatabaseAgent
+  href: IDatabaseAgent/index.md
+  items:
+  - name: IDatabaseAgent.GetStepsFromNetServerCode event method
+    href: IDatabaseAgent/getstepsfromnetservercode.md
+  - name: IDatabaseAgent.GetStepsInDatabase event method
+    href: IDatabaseAgent/getstepsindatabase.md
+- name: IDatabaseTableAgent
+  href: IDatabaseTableAgent/index.md
+  items:
+  - name: IDatabaseTableAgent.Delete event method
+    href: IDatabaseTableAgent/delete.md
+  - name: IDatabaseTableAgent.DeleteRow event method
+    href: IDatabaseTableAgent/deleterow.md
+  - name: IDatabaseTableAgent.Insert event method
+    href: IDatabaseTableAgent/insert.md
+  - name: IDatabaseTableAgent.InsertRow event method
+    href: IDatabaseTableAgent/insertrow.md
+  - name: IDatabaseTableAgent.ReadRow event method
+    href: IDatabaseTableAgent/readrow.md
+  - name: IDatabaseTableAgent.Truncate event method
+    href: IDatabaseTableAgent/truncate.md
+  - name: IDatabaseTableAgent.UpdateRow event method
+    href: IDatabaseTableAgent/updaterow.md
+  - name: IDatabaseTableAgent.Upsert event method
+    href: IDatabaseTableAgent/upsert.md
+- name: IDiagnosticsAgent
+  href: IDiagnosticsAgent/index.md
+  items:
+  - name: IDiagnosticsAgent.AddWebAppUsage event method
+    href: IDiagnosticsAgent/addwebappusage.md
+  - name: IDiagnosticsAgent.ChangeLogSettings event method
+    href: IDiagnosticsAgent/changelogsettings.md
+  - name: IDiagnosticsAgent.CollectDataAdditions event method
+    href: IDiagnosticsAgent/collectdataadditions.md
+  - name: IDiagnosticsAgent.CollectTableSizes event method
+    href: IDiagnosticsAgent/collecttablesizes.md
+  - name: IDiagnosticsAgent.CollectWebUsage event method
+    href: IDiagnosticsAgent/collectwebusage.md
+  - name: IDiagnosticsAgent.CollectWinUsage event method
+    href: IDiagnosticsAgent/collectwinusage.md
+  - name: IDiagnosticsAgent.FlushCaches event method
+    href: IDiagnosticsAgent/flushcaches.md
+  - name: IDiagnosticsAgent.FlushCachesByName event method
+    href: IDiagnosticsAgent/flushcachesbyname.md
+  - name: IDiagnosticsAgent.GetCacheNames event method
+    href: IDiagnosticsAgent/getcachenames.md
+  - name: IDiagnosticsAgent.GetWebAppUsagesForPeriod event method
+    href: IDiagnosticsAgent/getwebappusagesforperiod.md
+  - name: IDiagnosticsAgent.LogViewState event method
+    href: IDiagnosticsAgent/logviewstate.md
+  - name: IDiagnosticsAgent.PerformTasksAfterUpgrade event method
+    href: IDiagnosticsAgent/performtasksafterupgrade.md
+  - name: IDiagnosticsAgent.ResyncUsers event method
+    href: IDiagnosticsAgent/resyncusers.md
+  - name: IDiagnosticsAgent.WebAppUsageExistsInPeriod event method
+    href: IDiagnosticsAgent/webappusageexistsinperiod.md
+- name: IDocumentAgent
+  href: IDocumentAgent/index.md
+  items:
+  - name: IDocumentAgent.CheckinDocument event method
+    href: IDocumentAgent/checkindocument.md
+  - name: IDocumentAgent.CheckoutDocument event method
+    href: IDocumentAgent/checkoutdocument.md
+  - name: IDocumentAgent.CreateDefaultDocumentEntity event method
+    href: IDocumentAgent/createdefaultdocumententity.md
+  - name: IDocumentAgent.CreateDefaultDocumentEntityFromSuggestion event method
+    href: IDocumentAgent/createdefaultdocumententityfromsuggestion.md
+  - name: IDocumentAgent.CreateDefaultDocumentPreview event method
+    href: IDocumentAgent/createdefaultdocumentpreview.md
+  - name: IDocumentAgent.CreateDefaultSuggestedDocumentEntity event method
+    href: IDocumentAgent/createdefaultsuggesteddocumententity.md
+  - name: IDocumentAgent.CreateDefaultTemplateVariablesParameters event method
+    href: IDocumentAgent/createdefaulttemplatevariablesparameters.md
+  - name: IDocumentAgent.CreateDocumentStream event method
+    href: IDocumentAgent/createdocumentstream.md
+  - name: IDocumentAgent.CreateNewPhysicalDocumentFromTemplate event method
+    href: IDocumentAgent/createnewphysicaldocumentfromtemplate.md
+  - name: IDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags event method
+    href: IDocumentAgent/createnewphysicaldocumentfromtemplatewithcustomtags.md
+  - name: IDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2 event method
+    href: IDocumentAgent/createnewphysicaldocumentfromtemplatewithcustomtags2.md
+  - name: IDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate event method
+    href: IDocumentAgent/createnewphysicalmailmergedocumentfromtemplate.md
+  - name: IDocumentAgent.CreateTempFile event method
+    href: IDocumentAgent/createtempfile.md
+  - name: IDocumentAgent.DeleteDocumentEntity event method
+    href: IDocumentAgent/deletedocumententity.md
+  - name: IDocumentAgent.DeletePhysicalDocument event method
+    href: IDocumentAgent/deletephysicaldocument.md
+  - name: IDocumentAgent.DeleteTempFile event method
+    href: IDocumentAgent/deletetempfile.md
+  - name: IDocumentAgent.ExecuteDocumentCommand event method
+    href: IDocumentAgent/executedocumentcommand.md
+  - name: IDocumentAgent.GetAppointmentDocuments event method
+    href: IDocumentAgent/getappointmentdocuments.md
+  - name: IDocumentAgent.GetCheckoutState event method
+    href: IDocumentAgent/getcheckoutstate.md
+  - name: IDocumentAgent.GetContactDocuments event method
+    href: IDocumentAgent/getcontactdocuments.md
+  - name: IDocumentAgent.GetContactDocumentsByTemplateHeading event method
+    href: IDocumentAgent/getcontactdocumentsbytemplateheading.md
+  - name: IDocumentAgent.GetContactDocumentsByTemplateType event method
+    href: IDocumentAgent/getcontactdocumentsbytemplatetype.md
+  - name: IDocumentAgent.GetContactDocumentsByTemplateTypes event method
+    href: IDocumentAgent/getcontactdocumentsbytemplatetypes.md
+  - name: IDocumentAgent.GetDocument event method
+    href: IDocumentAgent/getdocument.md
+  - name: IDocumentAgent.GetDocumentCommands event method
+    href: IDocumentAgent/getdocumentcommands.md
+  - name: IDocumentAgent.GetDocumentEntity event method
+    href: IDocumentAgent/getdocumententity.md
+  - name: IDocumentAgent.GetDocumentList event method
+    href: IDocumentAgent/getdocumentlist.md
+  - name: IDocumentAgent.GetDocumentProperties event method
+    href: IDocumentAgent/getdocumentproperties.md
+  - name: IDocumentAgent.GetDocumentsByTemplateHeading event method
+    href: IDocumentAgent/getdocumentsbytemplateheading.md
+  - name: IDocumentAgent.GetDocumentStream event method
+    href: IDocumentAgent/getdocumentstream.md
+  - name: IDocumentAgent.GetDocumentStreamFromEntity event method
+    href: IDocumentAgent/getdocumentstreamfromentity.md
+  - name: IDocumentAgent.GetDocumentUrl event method
+    href: IDocumentAgent/getdocumenturl.md
+  - name: IDocumentAgent.GetMyPublishedDocuments event method
+    href: IDocumentAgent/getmypublisheddocuments.md
+  - name: IDocumentAgent.GetPersonDocuments event method
+    href: IDocumentAgent/getpersondocuments.md
+  - name: IDocumentAgent.GetPersonDocumentsByDate event method
+    href: IDocumentAgent/getpersondocumentsbydate.md
+  - name: IDocumentAgent.GetPersonDocumentsByTemplateHeading event method
+    href: IDocumentAgent/getpersondocumentsbytemplateheading.md
+  - name: IDocumentAgent.GetPersonDocumentsByTemplateType event method
+    href: IDocumentAgent/getpersondocumentsbytemplatetype.md
+  - name: IDocumentAgent.GetPersonDocumentsByTemplateTypes event method
+    href: IDocumentAgent/getpersondocumentsbytemplatetypes.md
+  - name: IDocumentAgent.GetPluginCapabilities event method
+    href: IDocumentAgent/getplugincapabilities.md
+  - name: IDocumentAgent.GetPluginList event method
+    href: IDocumentAgent/getpluginlist.md
+  - name: IDocumentAgent.GetPreviewDocumentStream event method
+    href: IDocumentAgent/getpreviewdocumentstream.md
+  - name: IDocumentAgent.GetProjectDocuments event method
+    href: IDocumentAgent/getprojectdocuments.md
+  - name: IDocumentAgent.GetProjectDocumentsByTemplateHeading event method
+    href: IDocumentAgent/getprojectdocumentsbytemplateheading.md
+  - name: IDocumentAgent.GetProjectDocumentsByTemplateType event method
+    href: IDocumentAgent/getprojectdocumentsbytemplatetype.md
+  - name: IDocumentAgent.GetProjectDocumentsByTemplateTypes event method
+    href: IDocumentAgent/getprojectdocumentsbytemplatetypes.md
+  - name: IDocumentAgent.GetProjectMemberDocuments event method
+    href: IDocumentAgent/getprojectmemberdocuments.md
+  - name: IDocumentAgent.GetProjectMemberDocumentsByTemplateHeading event method
+    href: IDocumentAgent/getprojectmemberdocumentsbytemplateheading.md
+  - name: IDocumentAgent.GetProjectMemberDocumentsByTemplateType event method
+    href: IDocumentAgent/getprojectmemberdocumentsbytemplatetype.md
+  - name: IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes event method
+    href: IDocumentAgent/getprojectmemberdocumentsbytemplatetypes.md
+  - name: IDocumentAgent.GetPublishedDocument event method
+    href: IDocumentAgent/getpublisheddocument.md
+  - name: IDocumentAgent.GetPublishedDocuments event method
+    href: IDocumentAgent/getpublisheddocuments.md
+  - name: IDocumentAgent.GetPublishedDocumentsByDate event method
+    href: IDocumentAgent/getpublisheddocumentsbydate.md
+  - name: IDocumentAgent.GetPublishedPersonDocumentsByDate event method
+    href: IDocumentAgent/getpublishedpersondocumentsbydate.md
+  - name: IDocumentAgent.GetPublishedProjectDocuments event method
+    href: IDocumentAgent/getpublishedprojectdocuments.md
+  - name: IDocumentAgent.GetSaleDocuments event method
+    href: IDocumentAgent/getsaledocuments.md
+  - name: IDocumentAgent.GetSanitizedDocumentStream event method
+    href: IDocumentAgent/getsanitizeddocumentstream.md
+  - name: IDocumentAgent.GetSanitizedTemplateStream event method
+    href: IDocumentAgent/getsanitizedtemplatestream.md
+  - name: IDocumentAgent.GetSanitizedTemplateStreamFromId event method
+    href: IDocumentAgent/getsanitizedtemplatestreamfromid.md
+  - name: IDocumentAgent.GetSuggestedDocumentEntity event method
+    href: IDocumentAgent/getsuggesteddocumententity.md
+  - name: IDocumentAgent.GetTempFile event method
+    href: IDocumentAgent/gettempfile.md
+  - name: IDocumentAgent.GetTemplateStream event method
+    href: IDocumentAgent/gettemplatestream.md
+  - name: IDocumentAgent.GetTemplateStreamFromId event method
+    href: IDocumentAgent/gettemplatestreamfromid.md
+  - name: IDocumentAgent.GetUnsanitizedPreviewDocumentStream event method
+    href: IDocumentAgent/getunsanitizedpreviewdocumentstream.md
+  - name: IDocumentAgent.GetVersionList event method
+    href: IDocumentAgent/getversionlist.md
+  - name: IDocumentAgent.RenameDocument event method
+    href: IDocumentAgent/renamedocument.md
+  - name: IDocumentAgent.SaveDocumentEntity event method
+    href: IDocumentAgent/savedocumententity.md
+  - name: IDocumentAgent.SaveDocumentTemplateStream event method
+    href: IDocumentAgent/savedocumenttemplatestream.md
+  - name: IDocumentAgent.SavePrivacyReport event method
+    href: IDocumentAgent/saveprivacyreport.md
+  - name: IDocumentAgent.SaveSuggestedDocumentEntity event method
+    href: IDocumentAgent/savesuggesteddocumententity.md
+  - name: IDocumentAgent.SetDocumentStream event method
+    href: IDocumentAgent/setdocumentstream.md
+  - name: IDocumentAgent.SetDocumentStreamFromId event method
+    href: IDocumentAgent/setdocumentstreamfromid.md
+  - name: IDocumentAgent.SetTemplateStream event method
+    href: IDocumentAgent/settemplatestream.md
+  - name: IDocumentAgent.SubstituteMergeDocumentTemplateVariables event method
+    href: IDocumentAgent/substitutemergedocumenttemplatevariables.md
+  - name: IDocumentAgent.SubstituteMergeDocumentTemplateVariables2 event method
+    href: IDocumentAgent/substitutemergedocumenttemplatevariables2.md
+  - name: IDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx event method
+    href: IDocumentAgent/substitutemergedocumenttemplatevariablesex.md
+  - name: IDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2 event method
+    href: IDocumentAgent/substitutemergedocumenttemplatevariablesex2.md
+  - name: IDocumentAgent.SubstituteTemplateVariables event method
+    href: IDocumentAgent/substitutetemplatevariables.md
+  - name: IDocumentAgent.SubstituteTemplateVariablesEx event method
+    href: IDocumentAgent/substitutetemplatevariablesex.md
+  - name: IDocumentAgent.SubstituteTemplateVariablesWithCustomTags event method
+    href: IDocumentAgent/substitutetemplatevariableswithcustomtags.md
+  - name: IDocumentAgent.SubstituteTemplateVariablesWithCustomTags2 event method
+    href: IDocumentAgent/substitutetemplatevariableswithcustomtags2.md
+  - name: IDocumentAgent.UndoCheckoutDocument event method
+    href: IDocumentAgent/undocheckoutdocument.md
+  - name: IDocumentAgent.ValidateDocumentEntity event method
+    href: IDocumentAgent/validatedocumententity.md
+  - name: IDocumentAgent.VerifyGetDocumentStream event method
+    href: IDocumentAgent/verifygetdocumentstream.md
+- name: IEMailAgent
+  href: IEMailAgent/index.md
+  items:
+  - name: IEMailAgent.Authenticate event method
+    href: IEMailAgent/authenticate.md
+  - name: IEMailAgent.AuthenticateIncoming event method
+    href: IEMailAgent/authenticateincoming.md
+  - name: IEMailAgent.AuthenticateOutgoing event method
+    href: IEMailAgent/authenticateoutgoing.md
+  - name: IEMailAgent.CacheFolderList event method
+    href: IEMailAgent/cachefolderlist.md
+  - name: IEMailAgent.CreateDefaultEMailAccount event method
+    href: IEMailAgent/createdefaultemailaccount.md
+  - name: IEMailAgent.CreateDefaultEMailAddress event method
+    href: IEMailAgent/createdefaultemailaddress.md
+  - name: IEMailAgent.CreateDefaultEMailAppointment event method
+    href: IEMailAgent/createdefaultemailappointment.md
+  - name: IEMailAgent.CreateDefaultEMailAttachment event method
+    href: IEMailAgent/createdefaultemailattachment.md
+  - name: IEMailAgent.CreateDefaultEMailConnectionInfo event method
+    href: IEMailAgent/createdefaultemailconnectioninfo.md
+  - name: IEMailAgent.CreateDefaultEMailConnectionInfoExtended event method
+    href: IEMailAgent/createdefaultemailconnectioninfoextended.md
+  - name: IEMailAgent.CreateDefaultEMailCustomHeader event method
+    href: IEMailAgent/createdefaultemailcustomheader.md
+  - name: IEMailAgent.CreateDefaultEMailEntity event method
+    href: IEMailAgent/createdefaultemailentity.md
+  - name: IEMailAgent.CreateDefaultEMailEnvelope event method
+    href: IEMailAgent/createdefaultemailenvelope.md
+  - name: IEMailAgent.CreateDefaultEMailFolder event method
+    href: IEMailAgent/createdefaultemailfolder.md
+  - name: IEMailAgent.CreateDefaultEMailSOInfo event method
+    href: IEMailAgent/createdefaultemailsoinfo.md
+  - name: IEMailAgent.CreateEMailFromDocumentEntity event method
+    href: IEMailAgent/createemailfromdocumententity.md
+  - name: IEMailAgent.CreateEMailFromMimeMessage event method
+    href: IEMailAgent/createemailfrommimemessage.md
+  - name: IEMailAgent.CreateFolder event method
+    href: IEMailAgent/createfolder.md
+  - name: IEMailAgent.CreateForwardEmail event method
+    href: IEMailAgent/createforwardemail.md
+  - name: IEMailAgent.CreateInlineHtmlHeader event method
+    href: IEMailAgent/createinlinehtmlheader.md
+  - name: IEMailAgent.Delete event method
+    href: IEMailAgent/delete.md
+  - name: IEMailAgent.DeleteEMailAccount event method
+    href: IEMailAgent/deleteemailaccount.md
+  - name: IEMailAgent.DeleteEmails event method
+    href: IEMailAgent/deleteemails.md
+  - name: IEMailAgent.DeleteExtended event method
+    href: IEMailAgent/deleteextended.md
+  - name: IEMailAgent.DeleteFolder event method
+    href: IEMailAgent/deletefolder.md
+  - name: IEMailAgent.EmptyFolder event method
+    href: IEMailAgent/emptyfolder.md
+  - name: IEMailAgent.FindAddress event method
+    href: IEMailAgent/findaddress.md
+  - name: IEMailAgent.FindContactOrPersonByEmailName event method
+    href: IEMailAgent/findcontactorpersonbyemailname.md
+  - name: IEMailAgent.FindContactOrPersonByEmailNameWithLimit event method
+    href: IEMailAgent/findcontactorpersonbyemailnamewithlimit.md
+  - name: IEMailAgent.GetAttachment event method
+    href: IEMailAgent/getattachment.md
+  - name: IEMailAgent.GetAttachmentFromId event method
+    href: IEMailAgent/getattachmentfromid.md
+  - name: IEMailAgent.GetCurrentAccount event method
+    href: IEMailAgent/getcurrentaccount.md
+  - name: IEMailAgent.GetCurrentAccountId event method
+    href: IEMailAgent/getcurrentaccountid.md
+  - name: IEMailAgent.GetEMail event method
+    href: IEMailAgent/getemail.md
+  - name: IEMailAgent.GetEMailAccount event method
+    href: IEMailAgent/getemailaccount.md
+  - name: IEMailAgent.GetEMailAccountFromEMailAddress event method
+    href: IEMailAgent/getemailaccountfromemailaddress.md
+  - name: IEMailAgent.GetEMailAddresses event method
+    href: IEMailAgent/getemailaddresses.md
+  - name: IEMailAgent.GetEmailAppointment event method
+    href: IEMailAgent/getemailappointment.md
+  - name: IEMailAgent.GetEmailAppointmentRecurrence event method
+    href: IEMailAgent/getemailappointmentrecurrence.md
+  - name: IEMailAgent.GetEMailAsStream event method
+    href: IEMailAgent/getemailasstream.md
+  - name: IEMailAgent.GetEmailDocumentAsMimeStream event method
+    href: IEMailAgent/getemaildocumentasmimestream.md
+  - name: IEMailAgent.GetEMailEnvelopes event method
+    href: IEMailAgent/getemailenvelopes.md
+  - name: IEMailAgent.GetEMailFromAttachmentId event method
+    href: IEMailAgent/getemailfromattachmentid.md
+  - name: IEMailAgent.GetEMailFromDocumentAttachmentId event method
+    href: IEMailAgent/getemailfromdocumentattachmentid.md
+  - name: IEMailAgent.GetEMailFromDocumentId event method
+    href: IEMailAgent/getemailfromdocumentid.md
+  - name: IEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream event method
+    href: IEMailAgent/getemailfromdocumentidwithoutattachmentstream.md
+  - name: IEMailAgent.GetEMailFromId event method
+    href: IEMailAgent/getemailfromid.md
+  - name: IEMailAgent.GetEMailFromTemp event method
+    href: IEMailAgent/getemailfromtemp.md
+  - name: IEMailAgent.GetEmailMessageIds event method
+    href: IEMailAgent/getemailmessageids.md
+  - name: IEMailAgent.GetEmailsAsString event method
+    href: IEMailAgent/getemailsasstring.md
+  - name: IEMailAgent.GetEMailSOInfo event method
+    href: IEMailAgent/getemailsoinfo.md
+  - name: IEMailAgent.GetFolderEMailCount event method
+    href: IEMailAgent/getfolderemailcount.md
+  - name: IEMailAgent.GetFolderHasNewEMail event method
+    href: IEMailAgent/getfolderhasnewemail.md
+  - name: IEMailAgent.GetFolderInfo event method
+    href: IEMailAgent/getfolderinfo.md
+  - name: IEMailAgent.GetFolderList event method
+    href: IEMailAgent/getfolderlist.md
+  - name: IEMailAgent.GetMailFromInReplyTo event method
+    href: IEMailAgent/getmailfrominreplyto.md
+  - name: IEMailAgent.GetMailFromMessageId event method
+    href: IEMailAgent/getmailfrommessageid.md
+  - name: IEMailAgent.GetNewMail event method
+    href: IEMailAgent/getnewmail.md
+  - name: IEMailAgent.GetParticipantInfoFromEmailAddress event method
+    href: IEMailAgent/getparticipantinfofromemailaddress.md
+  - name: IEMailAgent.GetPersonEntitiesFromEmailAddress event method
+    href: IEMailAgent/getpersonentitiesfromemailaddress.md
+  - name: IEMailAgent.GetPersonsFromEmailAddress event method
+    href: IEMailAgent/getpersonsfromemailaddress.md
+  - name: IEMailAgent.GetPreviewAttachmentFromDocId event method
+    href: IEMailAgent/getpreviewattachmentfromdocid.md
+  - name: IEMailAgent.GetPreviewAttachmentFromId event method
+    href: IEMailAgent/getpreviewattachmentfromid.md
+  - name: IEMailAgent.GetReadySyncEmailAccounts event method
+    href: IEMailAgent/getreadysyncemailaccounts.md
+  - name: IEMailAgent.GetUnsanitizedEMail event method
+    href: IEMailAgent/getunsanitizedemail.md
+  - name: IEMailAgent.GetUnsanitizedEMailFromAttachmentId event method
+    href: IEMailAgent/getunsanitizedemailfromattachmentid.md
+  - name: IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId event method
+    href: IEMailAgent/getunsanitizedemailfromdocumentattachmentid.md
+  - name: IEMailAgent.GetUnsanitizedEMailFromDocumentId event method
+    href: IEMailAgent/getunsanitizedemailfromdocumentid.md
+  - name: IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream event method
+    href: IEMailAgent/getunsanitizedemailfromdocumentidwithoutattachmentstream.md
+  - name: IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId event method
+    href: IEMailAgent/getunsanitizedpreviewattachmentfromdocid.md
+  - name: IEMailAgent.GetUnsanitizedPreviewAttachmentFromId event method
+    href: IEMailAgent/getunsanitizedpreviewattachmentfromid.md
+  - name: IEMailAgent.HasMXRecord event method
+    href: IEMailAgent/hasmxrecord.md
+  - name: IEMailAgent.HasNewMail event method
+    href: IEMailAgent/hasnewmail.md
+  - name: IEMailAgent.LatestItemIdByFolder event method
+    href: IEMailAgent/latestitemidbyfolder.md
+  - name: IEMailAgent.MarkAsRead event method
+    href: IEMailAgent/markasread.md
+  - name: IEMailAgent.MarkEmailsAsRead event method
+    href: IEMailAgent/markemailsasread.md
+  - name: IEMailAgent.MoveEmailsToFolder event method
+    href: IEMailAgent/moveemailstofolder.md
+  - name: IEMailAgent.MoveEmailsToTrash event method
+    href: IEMailAgent/moveemailstotrash.md
+  - name: IEMailAgent.MoveToFolder event method
+    href: IEMailAgent/movetofolder.md
+  - name: IEMailAgent.RefreshFolder event method
+    href: IEMailAgent/refreshfolder.md
+  - name: IEMailAgent.RefreshFolderForAssociate event method
+    href: IEMailAgent/refreshfolderforassociate.md
+  - name: IEMailAgent.RelayMessage event method
+    href: IEMailAgent/relaymessage.md
+  - name: IEMailAgent.Save event method
+    href: IEMailAgent/save.md
+  - name: IEMailAgent.SaveDraft event method
+    href: IEMailAgent/savedraft.md
+  - name: IEMailAgent.SaveEMail event method
+    href: IEMailAgent/saveemail.md
+  - name: IEMailAgent.SaveEMailAccount event method
+    href: IEMailAgent/saveemailaccount.md
+  - name: IEMailAgent.SaveEmailToTmpDocument event method
+    href: IEMailAgent/saveemailtotmpdocument.md
+  - name: IEMailAgent.SaveToMailServer event method
+    href: IEMailAgent/savetomailserver.md
+  - name: IEMailAgent.Send event method
+    href: IEMailAgent/send.md
+  - name: IEMailAgent.SendAndSaveEmailToTmpDocument event method
+    href: IEMailAgent/sendandsaveemailtotmpdocument.md
+  - name: IEMailAgent.SendEMails event method
+    href: IEMailAgent/sendemails.md
+  - name: IEMailAgent.SetRepliedAt event method
+    href: IEMailAgent/setrepliedat.md
+  - name: IEMailAgent.SetSubscription event method
+    href: IEMailAgent/setsubscription.md
+  - name: IEMailAgent.SyncEmailAccount event method
+    href: IEMailAgent/syncemailaccount.md
+  - name: IEMailAgent.SyncEmailAccounts event method
+    href: IEMailAgent/syncemailaccounts.md
+  - name: IEMailAgent.TestAuthenticate event method
+    href: IEMailAgent/testauthenticate.md
+  - name: IEMailAgent.ToggleSubscription event method
+    href: IEMailAgent/togglesubscription.md
+- name: IErpSyncAgent
+  href: IErpSyncAgent/index.md
+  items:
+  - name: IErpSyncAgent.BreakActorLink event method
+    href: IErpSyncAgent/breakactorlink.md
+  - name: IErpSyncAgent.CanDeleteErpSyncConnectorEntity event method
+    href: IErpSyncAgent/candeleteerpsyncconnectorentity.md
+  - name: IErpSyncAgent.ChangeEngineInterval event method
+    href: IErpSyncAgent/changeengineinterval.md
+  - name: IErpSyncAgent.ChangeEngineStatus event method
+    href: IErpSyncAgent/changeenginestatus.md
+  - name: IErpSyncAgent.ConnectActor event method
+    href: IErpSyncAgent/connectactor.md
+  - name: IErpSyncAgent.CreateActorLink event method
+    href: IErpSyncAgent/createactorlink.md
+  - name: IErpSyncAgent.CreateDefaultErpSyncConnectorEntity event method
+    href: IErpSyncAgent/createdefaulterpsyncconnectorentity.md
+  - name: IErpSyncAgent.CreateErpActorFromCrm event method
+    href: IErpSyncAgent/createerpactorfromcrm.md
+  - name: IErpSyncAgent.DeleteConnection event method
+    href: IErpSyncAgent/deleteconnection.md
+  - name: IErpSyncAgent.DeleteErpSyncConnectorEntity event method
+    href: IErpSyncAgent/deleteerpsyncconnectorentity.md
+  - name: IErpSyncAgent.ForceResync event method
+    href: IErpSyncAgent/forceresync.md
+  - name: IErpSyncAgent.ForceResyncBatchTask event method
+    href: IErpSyncAgent/forceresyncbatchtask.md
+  - name: IErpSyncAgent.ForceResyncExternal event method
+    href: IErpSyncAgent/forceresyncexternal.md
+  - name: IErpSyncAgent.ForceResyncExternalNoBlankValues event method
+    href: IErpSyncAgent/forceresyncexternalnoblankvalues.md
+  - name: IErpSyncAgent.ForceResyncNoBlankValues event method
+    href: IErpSyncAgent/forceresyncnoblankvalues.md
+  - name: IErpSyncAgent.ForceSyncAll event method
+    href: IErpSyncAgent/forcesyncall.md
+  - name: IErpSyncAgent.GetActorTypeMapping event method
+    href: IErpSyncAgent/getactortypemapping.md
+  - name: IErpSyncAgent.GetConfigurationFields event method
+    href: IErpSyncAgent/getconfigurationfields.md
+  - name: IErpSyncAgent.GetConnection event method
+    href: IErpSyncAgent/getconnection.md
+  - name: IErpSyncAgent.GetConnectionListMappings event method
+    href: IErpSyncAgent/getconnectionlistmappings.md
+  - name: IErpSyncAgent.GetConnectionsAndDisplayFields event method
+    href: IErpSyncAgent/getconnectionsanddisplayfields.md
+  - name: IErpSyncAgent.GetCrmActorType event method
+    href: IErpSyncAgent/getcrmactortype.md
+  - name: IErpSyncAgent.GetDefaultValueInfo event method
+    href: IErpSyncAgent/getdefaultvalueinfo.md
+  - name: IErpSyncAgent.GetEngineStatus event method
+    href: IErpSyncAgent/getenginestatus.md
+  - name: IErpSyncAgent.GetErpConnectionConfigFields event method
+    href: IErpSyncAgent/geterpconnectionconfigfields.md
+  - name: IErpSyncAgent.GetErpFieldValues event method
+    href: IErpSyncAgent/geterpfieldvalues.md
+  - name: IErpSyncAgent.GetErpSyncConnectionSummary event method
+    href: IErpSyncAgent/geterpsyncconnectionsummary.md
+  - name: IErpSyncAgent.GetErpSyncConnectorEntity event method
+    href: IErpSyncAgent/geterpsyncconnectorentity.md
+  - name: IErpSyncAgent.GetFieldsForNewErpActor event method
+    href: IErpSyncAgent/getfieldsfornewerpactor.md
+  - name: IErpSyncAgent.GetFieldValuesFromCrm event method
+    href: IErpSyncAgent/getfieldvaluesfromcrm.md
+  - name: IErpSyncAgent.GetFieldValuesFromErp event method
+    href: IErpSyncAgent/getfieldvaluesfromerp.md
+  - name: IErpSyncAgent.MoveErpFieldItem event method
+    href: IErpSyncAgent/moveerpfielditem.md
+  - name: IErpSyncAgent.SaveActorTypeMapping event method
+    href: IErpSyncAgent/saveactortypemapping.md
+  - name: IErpSyncAgent.SaveConnection event method
+    href: IErpSyncAgent/saveconnection.md
+  - name: IErpSyncAgent.SaveConnectionListMappings event method
+    href: IErpSyncAgent/saveconnectionlistmappings.md
+  - name: IErpSyncAgent.SaveDefaultValueInfo event method
+    href: IErpSyncAgent/savedefaultvalueinfo.md
+  - name: IErpSyncAgent.SaveErpConnectionSyncPriorities event method
+    href: IErpSyncAgent/saveerpconnectionsyncpriorities.md
+  - name: IErpSyncAgent.SaveErpSyncConnectorEntity event method
+    href: IErpSyncAgent/saveerpsyncconnectorentity.md
+  - name: IErpSyncAgent.SupportsAdvancedSearch event method
+    href: IErpSyncAgent/supportsadvancedsearch.md
+  - name: IErpSyncAgent.SyncAll event method
+    href: IErpSyncAgent/syncall.md
+  - name: IErpSyncAgent.TestConnectionByConfig event method
+    href: IErpSyncAgent/testconnectionbyconfig.md
+  - name: IErpSyncAgent.TestConnectionById event method
+    href: IErpSyncAgent/testconnectionbyid.md
+  - name: IErpSyncAgent.TestConnectorUrl event method
+    href: IErpSyncAgent/testconnectorurl.md
+  - name: IErpSyncAgent.ToggleErpConnectionActive event method
+    href: IErpSyncAgent/toggleerpconnectionactive.md
+  - name: IErpSyncAgent.UpdateConnectionFields event method
+    href: IErpSyncAgent/updateconnectionfields.md
+  - name: IErpSyncAgent.ValidateArchiveColumnConfig event method
+    href: IErpSyncAgent/validatearchivecolumnconfig.md
+- name: IFavouriteAgent
+  href: IFavouriteAgent/index.md
+  items:
+  - name: IFavouriteAgent.AddFavourite event method
+    href: IFavouriteAgent/addfavourite.md
+  - name: IFavouriteAgent.AddFavourites event method
+    href: IFavouriteAgent/addfavourites.md
+  - name: IFavouriteAgent.GetFavourites event method
+    href: IFavouriteAgent/getfavourites.md
+  - name: IFavouriteAgent.IsFavourite event method
+    href: IFavouriteAgent/isfavourite.md
+  - name: IFavouriteAgent.RemoveAllFavourites event method
+    href: IFavouriteAgent/removeallfavourites.md
+  - name: IFavouriteAgent.RemoveFavourite event method
+    href: IFavouriteAgent/removefavourite.md
+  - name: IFavouriteAgent.RemoveFavouritesById event method
+    href: IFavouriteAgent/removefavouritesbyid.md
+  - name: IFavouriteAgent.ToggleFavourite event method
+    href: IFavouriteAgent/togglefavourite.md
+- name: IFindAgent
+  href: IFindAgent/index.md
+  items:
+  - name: IFindAgent.CreateRestrictionGroup event method
+    href: IFindAgent/createrestrictiongroup.md
+  - name: IFindAgent.DeleteRestrictionGroup event method
+    href: IFindAgent/deleterestrictiongroup.md
+  - name: IFindAgent.Find event method
+    href: IFindAgent/find.md
+  - name: IFindAgent.FindFromRestrictions event method
+    href: IFindAgent/findfromrestrictions.md
+  - name: IFindAgent.FindFromRestrictions2 event method
+    href: IFindAgent/findfromrestrictions2.md
+  - name: IFindAgent.FindFromRestrictionsColumns event method
+    href: IFindAgent/findfromrestrictionscolumns.md
+  - name: IFindAgent.FindFromRestrictionsColumns2 event method
+    href: IFindAgent/findfromrestrictionscolumns2.md
+  - name: IFindAgent.FindFromRestrictionsColumnsOrderBy event method
+    href: IFindAgent/findfromrestrictionscolumnsorderby.md
+  - name: IFindAgent.FindFromRestrictionsColumnsOrderBy2 event method
+    href: IFindAgent/findfromrestrictionscolumnsorderby2.md
+  - name: IFindAgent.FindOrderBy event method
+    href: IFindAgent/findorderby.md
+  - name: IFindAgent.FindOrderBy2 event method
+    href: IFindAgent/findorderby2.md
+  - name: IFindAgent.FindWithColumns event method
+    href: IFindAgent/findwithcolumns.md
+  - name: IFindAgent.FindWithExtraRestrictions event method
+    href: IFindAgent/findwithextrarestrictions.md
+  - name: IFindAgent.FindWithExtraRestrictions2 event method
+    href: IFindAgent/findwithextrarestrictions2.md
+  - name: IFindAgent.GetAvailableRestrictionColumns event method
+    href: IFindAgent/getavailablerestrictioncolumns.md
+  - name: IFindAgent.GetCriteriaInformation event method
+    href: IFindAgent/getcriteriainformation.md
+  - name: IFindAgent.GetCriteriaInformationWithContext event method
+    href: IFindAgent/getcriteriainformationwithcontext.md
+  - name: IFindAgent.GetDefaultDesiredColumns event method
+    href: IFindAgent/getdefaultdesiredcolumns.md
+  - name: IFindAgent.GetDefaultDesiredColumnsFromRestrictions event method
+    href: IFindAgent/getdefaultdesiredcolumnsfromrestrictions.md
+  - name: IFindAgent.GetDefaultDesiredColumnsFromRestrictions2 event method
+    href: IFindAgent/getdefaultdesiredcolumnsfromrestrictions2.md
+  - name: IFindAgent.GetDefaultOrderBy event method
+    href: IFindAgent/getdefaultorderby.md
+  - name: IFindAgent.GetDefaultOrderByFromDesiredColumns event method
+    href: IFindAgent/getdefaultorderbyfromdesiredcolumns.md
+  - name: IFindAgent.GetRestrictionGroup event method
+    href: IFindAgent/getrestrictiongroup.md
+  - name: IFindAgent.GetRestrictionGroups event method
+    href: IFindAgent/getrestrictiongroups.md
+  - name: IFindAgent.GetSpecifiedCriteriaInformationWithDefaults event method
+    href: IFindAgent/getspecifiedcriteriainformationwithdefaults.md
+  - name: IFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext event method
+    href: IFindAgent/getspecifiedcriteriainformationwithdefaultswithcontext.md
+  - name: IFindAgent.PopulateRestrictions event method
+    href: IFindAgent/populaterestrictions.md
+  - name: IFindAgent.PopulateRestrictionValues event method
+    href: IFindAgent/populaterestrictionvalues.md
+  - name: IFindAgent.SaveRestrictionGroup event method
+    href: IFindAgent/saverestrictiongroup.md
+  - name: IFindAgent.SaveRestrictionGroups event method
+    href: IFindAgent/saverestrictiongroups.md
+  - name: IFindAgent.SaveRestrictions event method
+    href: IFindAgent/saverestrictions.md
+  - name: IFindAgent.SaveRestrictions2 event method
+    href: IFindAgent/saverestrictions2.md
+  - name: IFindAgent.SaveRestrictionsAndGetCriteriaInformation event method
+    href: IFindAgent/saverestrictionsandgetcriteriainformation.md
+  - name: IFindAgent.SaveRestrictionsAndGetCriteriaInformation2 event method
+    href: IFindAgent/saverestrictionsandgetcriteriainformation2.md
+  - name: IFindAgent.SaveRestrictionsWithContext event method
+    href: IFindAgent/saverestrictionswithcontext.md
+  - name: IFindAgent.SaveRestrictionsWithContext2 event method
+    href: IFindAgent/saverestrictionswithcontext2.md
+- name: IForeignSystemAgent
+  href: IForeignSystemAgent/index.md
+  items:
+  - name: IForeignSystemAgent.AddDeviceByIdentifier event method
+    href: IForeignSystemAgent/adddevicebyidentifier.md
+  - name: IForeignSystemAgent.AddForeignKey event method
+    href: IForeignSystemAgent/addforeignkey.md
+  - name: IForeignSystemAgent.CreateDefaultForeignAppEntity event method
+    href: IForeignSystemAgent/createdefaultforeignappentity.md
+  - name: IForeignSystemAgent.DeleteDeviceByIdentifier event method
+    href: IForeignSystemAgent/deletedevicebyidentifier.md
+  - name: IForeignSystemAgent.DeleteForeignAppEntity event method
+    href: IForeignSystemAgent/deleteforeignappentity.md
+  - name: IForeignSystemAgent.DeleteForeignDevice event method
+    href: IForeignSystemAgent/deleteforeigndevice.md
+  - name: IForeignSystemAgent.DeleteForeignKey event method
+    href: IForeignSystemAgent/deleteforeignkey.md
+  - name: IForeignSystemAgent.DeleteForeignKeyOnName event method
+    href: IForeignSystemAgent/deleteforeignkeyonname.md
+  - name: IForeignSystemAgent.GetAllForeignKeysOnEntity event method
+    href: IForeignSystemAgent/getallforeignkeysonentity.md
+  - name: IForeignSystemAgent.GetAppByName event method
+    href: IForeignSystemAgent/getappbyname.md
+  - name: IForeignSystemAgent.GetApplicationDevices event method
+    href: IForeignSystemAgent/getapplicationdevices.md
+  - name: IForeignSystemAgent.GetApplicationKeys event method
+    href: IForeignSystemAgent/getapplicationkeys.md
+  - name: IForeignSystemAgent.GetDeviceByIdentifier event method
+    href: IForeignSystemAgent/getdevicebyidentifier.md
+  - name: IForeignSystemAgent.GetDeviceByName event method
+    href: IForeignSystemAgent/getdevicebyname.md
+  - name: IForeignSystemAgent.GetDeviceKeys event method
+    href: IForeignSystemAgent/getdevicekeys.md
+  - name: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier event method
+    href: IForeignSystemAgent/getdevicekeysondeviceidentifier.md
+  - name: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable event method
+    href: IForeignSystemAgent/getdevicekeysondeviceidentifiertable.md
+  - name: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId event method
+    href: IForeignSystemAgent/getdevicekeysondeviceidentifiertablerecordid.md
+  - name: IForeignSystemAgent.GetForeignAppEntity event method
+    href: IForeignSystemAgent/getforeignappentity.md
+  - name: IForeignSystemAgent.GetForeignDevice event method
+    href: IForeignSystemAgent/getforeigndevice.md
+  - name: IForeignSystemAgent.GetKey event method
+    href: IForeignSystemAgent/getkey.md
+  - name: IForeignSystemAgent.GetKeyByValue event method
+    href: IForeignSystemAgent/getkeybyvalue.md
+  - name: IForeignSystemAgent.GetKeyByValueAndIdentifier event method
+    href: IForeignSystemAgent/getkeybyvalueandidentifier.md
+  - name: IForeignSystemAgent.GetKeyOnDeviceIdentifier event method
+    href: IForeignSystemAgent/getkeyondeviceidentifier.md
+  - name: IForeignSystemAgent.GetKeyValue event method
+    href: IForeignSystemAgent/getkeyvalue.md
+  - name: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier event method
+    href: IForeignSystemAgent/getkeyvalueondeviceidentifier.md
+  - name: IForeignSystemAgent.SaveDeviceByIdentifier event method
+    href: IForeignSystemAgent/savedevicebyidentifier.md
+  - name: IForeignSystemAgent.SaveForeignAppEntity event method
+    href: IForeignSystemAgent/saveforeignappentity.md
+  - name: IForeignSystemAgent.SaveForeignDevice event method
+    href: IForeignSystemAgent/saveforeigndevice.md
+  - name: IForeignSystemAgent.SaveForeignKey event method
+    href: IForeignSystemAgent/saveforeignkey.md
+- name: IFreeTextAgent
+  href: IFreeTextAgent/index.md
+  items:
+  - name: IFreeTextAgent.AddWords event method
+    href: IFreeTextAgent/addwords.md
+  - name: IFreeTextAgent.DeleteStopWordsById event method
+    href: IFreeTextAgent/deletestopwordsbyid.md
+  - name: IFreeTextAgent.GetStatus event method
+    href: IFreeTextAgent/getstatus.md
+  - name: IFreeTextAgent.GetStopWordList event method
+    href: IFreeTextAgent/getstopwordlist.md
+  - name: IFreeTextAgent.GetSuggestedStopWords event method
+    href: IFreeTextAgent/getsuggestedstopwords.md
+  - name: IFreeTextAgent.RegenerateIndex event method
+    href: IFreeTextAgent/regenerateindex.md
+  - name: IFreeTextAgent.SetAutoEnableTravelAreas event method
+    href: IFreeTextAgent/setautoenabletravelareas.md
+  - name: IFreeTextAgent.SetEnabled event method
+    href: IFreeTextAgent/setenabled.md
+  - name: IFreeTextAgent.SetMultiWordOperator event method
+    href: IFreeTextAgent/setmultiwordoperator.md
+  - name: IFreeTextAgent.SetSingleWordOperator event method
+    href: IFreeTextAgent/setsinglewordoperator.md
+- name: IImportAgent
+  href: IImportAgent/index.md
+  items:
+  - name: IImportAgent.CreateDefaultImportLine event method
+    href: IImportAgent/createdefaultimportline.md
+  - name: IImportAgent.CreateErpImportData event method
+    href: IImportAgent/createerpimportdata.md
+  - name: IImportAgent.PreviewImport event method
+    href: IImportAgent/previewimport.md
+  - name: IImportAgent.SaveImport event method
+    href: IImportAgent/saveimport.md
+- name: ILicenseAgent
+  href: ILicenseAgent/index.md
+  items:
+  - name: ILicenseAgent.ActivateLicenseInfo event method
+    href: ILicenseAgent/activatelicenseinfo.md
+  - name: ILicenseAgent.AddLicenseFromFile event method
+    href: ILicenseAgent/addlicensefromfile.md
+  - name: ILicenseAgent.AssignThirdPartyLicenses event method
+    href: ILicenseAgent/assignthirdpartylicenses.md
+  - name: ILicenseAgent.ChangeSerialNumber event method
+    href: ILicenseAgent/changeserialnumber.md
+  - name: ILicenseAgent.GetLicenseForAllOwnersFromDB event method
+    href: ILicenseAgent/getlicenseforallownersfromdb.md
+  - name: ILicenseAgent.GetLicenseFromDB event method
+    href: ILicenseAgent/getlicensefromdb.md
+  - name: ILicenseAgent.GetLicenseFromFile event method
+    href: ILicenseAgent/getlicensefromfile.md
+  - name: ILicenseAgent.GetLicenseFromLicenseServer event method
+    href: ILicenseAgent/getlicensefromlicenseserver.md
+  - name: ILicenseAgent.GetLicenseStatusFromLicenseServer event method
+    href: ILicenseAgent/getlicensestatusfromlicenseserver.md
+  - name: ILicenseAgent.GetModuleLicenseFromDB event method
+    href: ILicenseAgent/getmodulelicensefromdb.md
+  - name: ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer event method
+    href: ILicenseAgent/getmodulelicensehistoryfromlicenseserver.md
+  - name: ILicenseAgent.GetSatelliteLicenses event method
+    href: ILicenseAgent/getsatellitelicenses.md
+  - name: ILicenseAgent.GetShopUrl event method
+    href: ILicenseAgent/getshopurl.md
+  - name: ILicenseAgent.GetThirdPartyLicenseAssignments event method
+    href: ILicenseAgent/getthirdpartylicenseassignments.md
+  - name: ILicenseAgent.GetUserLicenses event method
+    href: ILicenseAgent/getuserlicenses.md
+  - name: ILicenseAgent.GetUserLicensesMDOList event method
+    href: ILicenseAgent/getuserlicensesmdolist.md
+  - name: ILicenseAgent.RemoveLicenseFromDB event method
+    href: ILicenseAgent/removelicensefromdb.md
+  - name: ILicenseAgent.UnassignThirdPartyLicenses event method
+    href: ILicenseAgent/unassignthirdpartylicenses.md
+  - name: ILicenseAgent.ValidateLicenseInfo event method
+    href: ILicenseAgent/validatelicenseinfo.md
+- name: IListAgent
+  href: IListAgent/index.md
+  items:
+  - name: IListAgent.AddFromListDefinition event method
+    href: IListAgent/addfromlistdefinition.md
+  - name: IListAgent.AddFromListName event method
+    href: IListAgent/addfromlistname.md
+  - name: IListAgent.AddHierarchyToPath event method
+    href: IListAgent/addhierarchytopath.md
+  - name: IListAgent.ChangeCurrency event method
+    href: IListAgent/changecurrency.md
+  - name: IListAgent.CreateDefaultAmountClassEntity event method
+    href: IListAgent/createdefaultamountclassentity.md
+  - name: IListAgent.CreateDefaultCountry event method
+    href: IListAgent/createdefaultcountry.md
+  - name: IListAgent.CreateDefaultCurrencyEntity event method
+    href: IListAgent/createdefaultcurrencyentity.md
+  - name: IListAgent.CreateDefaultDocumentTemplateEntity event method
+    href: IListAgent/createdefaultdocumenttemplateentity.md
+  - name: IListAgent.CreateDefaultDocumentTemplateLanguage event method
+    href: IListAgent/createdefaultdocumenttemplatelanguage.md
+  - name: IListAgent.CreateDefaultExtAppEntity event method
+    href: IListAgent/createdefaultextappentity.md
+  - name: IListAgent.CreateDefaultHeadingEntity event method
+    href: IListAgent/createdefaultheadingentity.md
+  - name: IListAgent.CreateDefaultHeadingFromListDefinition event method
+    href: IListAgent/createdefaultheadingfromlistdefinition.md
+  - name: IListAgent.CreateDefaultHierarchyEntity event method
+    href: IListAgent/createdefaulthierarchyentity.md
+  - name: IListAgent.CreateDefaultListEntity event method
+    href: IListAgent/createdefaultlistentity.md
+  - name: IListAgent.CreateDefaultListItemEntity event method
+    href: IListAgent/createdefaultlistitementity.md
+  - name: IListAgent.CreateDefaultProjectTypeEntity event method
+    href: IListAgent/createdefaultprojecttypeentity.md
+  - name: IListAgent.CreateDefaultRelationDefinitionEntity event method
+    href: IListAgent/createdefaultrelationdefinitionentity.md
+  - name: IListAgent.CreateDefaultResourceEntity event method
+    href: IListAgent/createdefaultresourceentity.md
+  - name: IListAgent.CreateDefaultSaleStageEntity event method
+    href: IListAgent/createdefaultsalestageentity.md
+  - name: IListAgent.CreateDefaultSaleTypeEntity event method
+    href: IListAgent/createdefaultsaletypeentity.md
+  - name: IListAgent.CreateDefaultTicketCategoryEntity event method
+    href: IListAgent/createdefaultticketcategoryentity.md
+  - name: IListAgent.CreateDefaultTicketPriorityEntity event method
+    href: IListAgent/createdefaultticketpriorityentity.md
+  - name: IListAgent.CreateDefaultTicketStatusEntity event method
+    href: IListAgent/createdefaultticketstatusentity.md
+  - name: IListAgent.CreateDefaultWebPanelEntity event method
+    href: IListAgent/createdefaultwebpanelentity.md
+  - name: IListAgent.DeleteAllFromListDefinition event method
+    href: IListAgent/deleteallfromlistdefinition.md
+  - name: IListAgent.DeleteAllFromListName event method
+    href: IListAgent/deleteallfromlistname.md
+  - name: IListAgent.DeleteAllHeadingsFromListDefinition event method
+    href: IListAgent/deleteallheadingsfromlistdefinition.md
+  - name: IListAgent.DeleteAllHeadingsFromName event method
+    href: IListAgent/deleteallheadingsfromname.md
+  - name: IListAgent.DeleteAppWebPanels event method
+    href: IListAgent/deleteappwebpanels.md
+  - name: IListAgent.DeleteDocumentTemplateLanguage event method
+    href: IListAgent/deletedocumenttemplatelanguage.md
+  - name: IListAgent.DeleteFromListDefinition event method
+    href: IListAgent/deletefromlistdefinition.md
+  - name: IListAgent.DeleteFromListName event method
+    href: IListAgent/deletefromlistname.md
+  - name: IListAgent.DeleteHierarchyEntity event method
+    href: IListAgent/deletehierarchyentity.md
+  - name: IListAgent.DeleteHierarchyFromPath event method
+    href: IListAgent/deletehierarchyfrompath.md
+  - name: IListAgent.DeleteListEntity event method
+    href: IListAgent/deletelistentity.md
+  - name: IListAgent.DeleteListEntityByName event method
+    href: IListAgent/deletelistentitybyname.md
+  - name: IListAgent.DeleteProjectStatus event method
+    href: IListAgent/deleteprojectstatus.md
+  - name: IListAgent.DeleteResourceEntity event method
+    href: IListAgent/deleteresourceentity.md
+  - name: IListAgent.DeleteTicketCategoryEntity event method
+    href: IListAgent/deleteticketcategoryentity.md
+  - name: IListAgent.DeleteTicketPriorityEntity event method
+    href: IListAgent/deleteticketpriorityentity.md
+  - name: IListAgent.DeleteTicketStatusEntity event method
+    href: IListAgent/deleteticketstatusentity.md
+  - name: IListAgent.DeleteWebPanel event method
+    href: IListAgent/deletewebpanel.md
+  - name: IListAgent.GenerateNavigationUrl event method
+    href: IListAgent/generatenavigationurl.md
+  - name: IListAgent.GetAllConsentSource event method
+    href: IListAgent/getallconsentsource.md
+  - name: IListAgent.GetAllCountries event method
+    href: IListAgent/getallcountries.md
+  - name: IListAgent.GetAllCurrencies event method
+    href: IListAgent/getallcurrencies.md
+  - name: IListAgent.GetAllDocumentTemplates event method
+    href: IListAgent/getalldocumenttemplates.md
+  - name: IListAgent.GetAllDomains event method
+    href: IListAgent/getalldomains.md
+  - name: IListAgent.GetAllFromListDefinition event method
+    href: IListAgent/getallfromlistdefinition.md
+  - name: IListAgent.GetAllFromListName event method
+    href: IListAgent/getallfromlistname.md
+  - name: IListAgent.GetAllInDomain event method
+    href: IListAgent/getallindomain.md
+  - name: IListAgent.GetAllLegalBase event method
+    href: IListAgent/getalllegalbase.md
+  - name: IListAgent.GetAllReasonSold event method
+    href: IListAgent/getallreasonsold.md
+  - name: IListAgent.GetAllReasonStalled event method
+    href: IListAgent/getallreasonstalled.md
+  - name: IListAgent.GetAllSaleStages event method
+    href: IListAgent/getallsalestages.md
+  - name: IListAgent.GetAllSaleType event method
+    href: IListAgent/getallsaletype.md
+  - name: IListAgent.GetAllSaleTypeEntities event method
+    href: IListAgent/getallsaletypeentities.md
+  - name: IListAgent.GetAllSelectionCategory event method
+    href: IListAgent/getallselectioncategory.md
+  - name: IListAgent.GetAllTasks event method
+    href: IListAgent/getalltasks.md
+  - name: IListAgent.GetAllTicketPriorities event method
+    href: IListAgent/getallticketpriorities.md
+  - name: IListAgent.GetAmountClassEntity event method
+    href: IListAgent/getamountclassentity.md
+  - name: IListAgent.GetAppWebPanels event method
+    href: IListAgent/getappwebpanels.md
+  - name: IListAgent.GetBaseCurrency event method
+    href: IListAgent/getbasecurrency.md
+  - name: IListAgent.GetBusiness event method
+    href: IListAgent/getbusiness.md
+  - name: IListAgent.GetBusinesses event method
+    href: IListAgent/getbusinesses.md
+  - name: IListAgent.GetBusinessList event method
+    href: IListAgent/getbusinesslist.md
+  - name: IListAgent.GetCategories event method
+    href: IListAgent/getcategories.md
+  - name: IListAgent.GetCategory event method
+    href: IListAgent/getcategory.md
+  - name: IListAgent.GetCategoryList event method
+    href: IListAgent/getcategorylist.md
+  - name: IListAgent.GetCompetitor event method
+    href: IListAgent/getcompetitor.md
+  - name: IListAgent.GetCompetitorList event method
+    href: IListAgent/getcompetitorlist.md
+  - name: IListAgent.GetCompetitors event method
+    href: IListAgent/getcompetitors.md
+  - name: IListAgent.GetConsentPurpose event method
+    href: IListAgent/getconsentpurpose.md
+  - name: IListAgent.GetConsentPurposeList event method
+    href: IListAgent/getconsentpurposelist.md
+  - name: IListAgent.GetConsentPurposes event method
+    href: IListAgent/getconsentpurposes.md
+  - name: IListAgent.GetConsentSource event method
+    href: IListAgent/getconsentsource.md
+  - name: IListAgent.GetConsentSourceList event method
+    href: IListAgent/getconsentsourcelist.md
+  - name: IListAgent.GetConsentSources event method
+    href: IListAgent/getconsentsources.md
+  - name: IListAgent.GetCountries event method
+    href: IListAgent/getcountries.md
+  - name: IListAgent.GetCountry event method
+    href: IListAgent/getcountry.md
+  - name: IListAgent.GetCountryList event method
+    href: IListAgent/getcountrylist.md
+  - name: IListAgent.GetCredited event method
+    href: IListAgent/getcredited.md
+  - name: IListAgent.GetCreditedList event method
+    href: IListAgent/getcreditedlist.md
+  - name: IListAgent.GetCrediteds event method
+    href: IListAgent/getcrediteds.md
+  - name: IListAgent.GetCurrencies event method
+    href: IListAgent/getcurrencies.md
+  - name: IListAgent.GetCurrency event method
+    href: IListAgent/getcurrency.md
+  - name: IListAgent.GetCurrencyEntity event method
+    href: IListAgent/getcurrencyentity.md
+  - name: IListAgent.GetCurrencyList event method
+    href: IListAgent/getcurrencylist.md
+  - name: IListAgent.GetCustomerLanguage event method
+    href: IListAgent/getcustomerlanguage.md
+  - name: IListAgent.GetCustomerLanguageList event method
+    href: IListAgent/getcustomerlanguagelist.md
+  - name: IListAgent.GetCustomerLanguages event method
+    href: IListAgent/getcustomerlanguages.md
+  - name: IListAgent.GetDeliveryTerm event method
+    href: IListAgent/getdeliveryterm.md
+  - name: IListAgent.GetDeliveryTerms event method
+    href: IListAgent/getdeliveryterms.md
+  - name: IListAgent.GetDeliveryType event method
+    href: IListAgent/getdeliverytype.md
+  - name: IListAgent.GetDeliveryTypes event method
+    href: IListAgent/getdeliverytypes.md
+  - name: IListAgent.GetDepartment event method
+    href: IListAgent/getdepartment.md
+  - name: IListAgent.GetDepartmentList event method
+    href: IListAgent/getdepartmentlist.md
+  - name: IListAgent.GetDepartments event method
+    href: IListAgent/getdepartments.md
+  - name: IListAgent.GetDocumentTemplate event method
+    href: IListAgent/getdocumenttemplate.md
+  - name: IListAgent.GetDocumentTemplateEntity event method
+    href: IListAgent/getdocumenttemplateentity.md
+  - name: IListAgent.GetDocumentTemplateExtension event method
+    href: IListAgent/getdocumenttemplateextension.md
+  - name: IListAgent.GetDocumentTemplateLanguages event method
+    href: IListAgent/getdocumenttemplatelanguages.md
+  - name: IListAgent.GetDocumentTemplateList event method
+    href: IListAgent/getdocumenttemplatelist.md
+  - name: IListAgent.GetDocumentTemplateProperties event method
+    href: IListAgent/getdocumenttemplateproperties.md
+  - name: IListAgent.GetDocumentTemplates event method
+    href: IListAgent/getdocumenttemplates.md
+  - name: IListAgent.GetDocumentTemplatesTasks event method
+    href: IListAgent/getdocumenttemplatestasks.md
+  - name: IListAgent.GetDocumentTemplateStreamFromId event method
+    href: IListAgent/getdocumenttemplatestreamfromid.md
+  - name: IListAgent.GetDocumentTemplateTask event method
+    href: IListAgent/getdocumenttemplatetask.md
+  - name: IListAgent.GetDocumentTemplateUrl event method
+    href: IListAgent/getdocumenttemplateurl.md
+  - name: IListAgent.GetDocumentTemplateUsedInProjectStage event method
+    href: IListAgent/getdocumenttemplateusedinprojectstage.md
+  - name: IListAgent.GetDocumentTemplateUsedInSalesStage event method
+    href: IListAgent/getdocumenttemplateusedinsalesstage.md
+  - name: IListAgent.GetDocumentTypesForPlugin event method
+    href: IListAgent/getdocumenttypesforplugin.md
+  - name: IListAgent.GetEmarketingStrictMode event method
+    href: IListAgent/getemarketingstrictmode.md
+  - name: IListAgent.GetExtAppEntity event method
+    href: IListAgent/getextappentity.md
+  - name: IListAgent.GetFromListDefinition event method
+    href: IListAgent/getfromlistdefinition.md
+  - name: IListAgent.GetFromListName event method
+    href: IListAgent/getfromlistname.md
+  - name: IListAgent.GetHeadingEntity event method
+    href: IListAgent/getheadingentity.md
+  - name: IListAgent.GetHeadings event method
+    href: IListAgent/getheadings.md
+  - name: IListAgent.GetHeadingsForListItemFromListName event method
+    href: IListAgent/getheadingsforlistitemfromlistname.md
+  - name: IListAgent.GetHeadingsFromListDefinition event method
+    href: IListAgent/getheadingsfromlistdefinition.md
+  - name: IListAgent.GetHeadingsFromName event method
+    href: IListAgent/getheadingsfromname.md
+  - name: IListAgent.GetHierarchyEntity event method
+    href: IListAgent/gethierarchyentity.md
+  - name: IListAgent.GetHierarchyFromPath event method
+    href: IListAgent/gethierarchyfrompath.md
+  - name: IListAgent.GetInstalledLanguages event method
+    href: IListAgent/getinstalledlanguages.md
+  - name: IListAgent.GetLanguageInfo event method
+    href: IListAgent/getlanguageinfo.md
+  - name: IListAgent.GetLanguageInfoList event method
+    href: IListAgent/getlanguageinfolist.md
+  - name: IListAgent.GetLegalBase event method
+    href: IListAgent/getlegalbase.md
+  - name: IListAgent.GetLegalBaseList event method
+    href: IListAgent/getlegalbaselist.md
+  - name: IListAgent.GetLegalBases event method
+    href: IListAgent/getlegalbases.md
+  - name: IListAgent.GetLink event method
+    href: IListAgent/getlink.md
+  - name: IListAgent.GetLinkList event method
+    href: IListAgent/getlinklist.md
+  - name: IListAgent.GetListDefinitions event method
+    href: IListAgent/getlistdefinitions.md
+  - name: IListAgent.GetListEntity event method
+    href: IListAgent/getlistentity.md
+  - name: IListAgent.GetListEntityByName event method
+    href: IListAgent/getlistentitybyname.md
+  - name: IListAgent.GetListItemsForHeading event method
+    href: IListAgent/getlistitemsforheading.md
+  - name: IListAgent.GetListItemsForHeadingFromListName event method
+    href: IListAgent/getlistitemsforheadingfromlistname.md
+  - name: IListAgent.GetListItemsForUserGroup event method
+    href: IListAgent/getlistitemsforusergroup.md
+  - name: IListAgent.GetListItemsForUserGroupFromListName event method
+    href: IListAgent/getlistitemsforusergroupfromlistname.md
+  - name: IListAgent.GetLocalizedText event method
+    href: IListAgent/getlocalizedtext.md
+  - name: IListAgent.GetLocalizedTextByType event method
+    href: IListAgent/getlocalizedtextbytype.md
+  - name: IListAgent.GetLocalizedTextList event method
+    href: IListAgent/getlocalizedtextlist.md
+  - name: IListAgent.GetLocalizedTexts event method
+    href: IListAgent/getlocalizedtexts.md
+  - name: IListAgent.GetLocalizedTextsByLanguageId event method
+    href: IListAgent/getlocalizedtextsbylanguageid.md
+  - name: IListAgent.GetLocalizedTextsByType event method
+    href: IListAgent/getlocalizedtextsbytype.md
+  - name: IListAgent.GetMrMrs event method
+    href: IListAgent/getmrmrs.md
+  - name: IListAgent.GetMrMrses event method
+    href: IListAgent/getmrmrses.md
+  - name: IListAgent.GetMrMrsList event method
+    href: IListAgent/getmrmrslist.md
+  - name: IListAgent.GetOurCurrency event method
+    href: IListAgent/getourcurrency.md
+  - name: IListAgent.GetOwnerCompanysCurrency event method
+    href: IListAgent/getownercompanyscurrency.md
+  - name: IListAgent.GetPaymentTerm event method
+    href: IListAgent/getpaymentterm.md
+  - name: IListAgent.GetPaymentTerms event method
+    href: IListAgent/getpaymentterms.md
+  - name: IListAgent.GetPaymentType event method
+    href: IListAgent/getpaymenttype.md
+  - name: IListAgent.GetPaymentTypes event method
+    href: IListAgent/getpaymenttypes.md
+  - name: IListAgent.GetPluginCapabilities event method
+    href: IListAgent/getplugincapabilities.md
+  - name: IListAgent.GetPluginList event method
+    href: IListAgent/getpluginlist.md
+  - name: IListAgent.GetPosition event method
+    href: IListAgent/getposition.md
+  - name: IListAgent.GetPositionList event method
+    href: IListAgent/getpositionlist.md
+  - name: IListAgent.GetPositions event method
+    href: IListAgent/getpositions.md
+  - name: IListAgent.GetPriorities event method
+    href: IListAgent/getpriorities.md
+  - name: IListAgent.GetPriority event method
+    href: IListAgent/getpriority.md
+  - name: IListAgent.GetPriorityList event method
+    href: IListAgent/getprioritylist.md
+  - name: IListAgent.GetProductCategories event method
+    href: IListAgent/getproductcategories.md
+  - name: IListAgent.GetProductCategory event method
+    href: IListAgent/getproductcategory.md
+  - name: IListAgent.GetProductFamilies event method
+    href: IListAgent/getproductfamilies.md
+  - name: IListAgent.GetProductFamily event method
+    href: IListAgent/getproductfamily.md
+  - name: IListAgent.GetProductType event method
+    href: IListAgent/getproducttype.md
+  - name: IListAgent.GetProductTypes event method
+    href: IListAgent/getproducttypes.md
+  - name: IListAgent.GetProjectStatus event method
+    href: IListAgent/getprojectstatus.md
+  - name: IListAgent.GetProjectStatuses event method
+    href: IListAgent/getprojectstatuses.md
+  - name: IListAgent.GetProjectStatusList event method
+    href: IListAgent/getprojectstatuslist.md
+  - name: IListAgent.GetProjectType event method
+    href: IListAgent/getprojecttype.md
+  - name: IListAgent.GetProjectTypeEntity event method
+    href: IListAgent/getprojecttypeentity.md
+  - name: IListAgent.GetProjectTypeList event method
+    href: IListAgent/getprojecttypelist.md
+  - name: IListAgent.GetProjectTypes event method
+    href: IListAgent/getprojecttypes.md
+  - name: IListAgent.GetQuickReplies event method
+    href: IListAgent/getquickreplies.md
+  - name: IListAgent.GetRating event method
+    href: IListAgent/getrating.md
+  - name: IListAgent.GetRatingList event method
+    href: IListAgent/getratinglist.md
+  - name: IListAgent.GetRatings event method
+    href: IListAgent/getratings.md
+  - name: IListAgent.GetReason event method
+    href: IListAgent/getreason.md
+  - name: IListAgent.GetReasonList event method
+    href: IListAgent/getreasonlist.md
+  - name: IListAgent.GetReasons event method
+    href: IListAgent/getreasons.md
+  - name: IListAgent.GetReasonSold event method
+    href: IListAgent/getreasonsold.md
+  - name: IListAgent.GetReasonSoldList event method
+    href: IListAgent/getreasonsoldlist.md
+  - name: IListAgent.GetReasonStalled event method
+    href: IListAgent/getreasonstalled.md
+  - name: IListAgent.GetReasonStalledList event method
+    href: IListAgent/getreasonstalledlist.md
+  - name: IListAgent.GetRelationDefinitionEntity event method
+    href: IListAgent/getrelationdefinitionentity.md
+  - name: IListAgent.GetResourceEntity event method
+    href: IListAgent/getresourceentity.md
+  - name: IListAgent.GetSaleStageEntity event method
+    href: IListAgent/getsalestageentity.md
+  - name: IListAgent.GetSaleType event method
+    href: IListAgent/getsaletype.md
+  - name: IListAgent.GetSaleTypeEntity event method
+    href: IListAgent/getsaletypeentity.md
+  - name: IListAgent.GetSaleTypeList event method
+    href: IListAgent/getsaletypelist.md
+  - name: IListAgent.GetSelectionCategory event method
+    href: IListAgent/getselectioncategory.md
+  - name: IListAgent.GetSelectionCategoryList event method
+    href: IListAgent/getselectioncategorylist.md
+  - name: IListAgent.GetSource event method
+    href: IListAgent/getsource.md
+  - name: IListAgent.GetSourceList event method
+    href: IListAgent/getsourcelist.md
+  - name: IListAgent.GetSources event method
+    href: IListAgent/getsources.md
+  - name: IListAgent.GetTask event method
+    href: IListAgent/gettask.md
+  - name: IListAgent.GetTaskList event method
+    href: IListAgent/gettasklist.md
+  - name: IListAgent.GetTasks event method
+    href: IListAgent/gettasks.md
+  - name: IListAgent.GetTicketCategories event method
+    href: IListAgent/getticketcategories.md
+  - name: IListAgent.GetTicketCategoriesForUserGroups event method
+    href: IListAgent/getticketcategoriesforusergroups.md
+  - name: IListAgent.GetTicketCategory event method
+    href: IListAgent/getticketcategory.md
+  - name: IListAgent.GetTicketCategoryEntity event method
+    href: IListAgent/getticketcategoryentity.md
+  - name: IListAgent.GetTicketCategoryList event method
+    href: IListAgent/getticketcategorylist.md
+  - name: IListAgent.GetTicketPriorities event method
+    href: IListAgent/getticketpriorities.md
+  - name: IListAgent.GetTicketPriority event method
+    href: IListAgent/getticketpriority.md
+  - name: IListAgent.GetTicketPriorityEntity event method
+    href: IListAgent/getticketpriorityentity.md
+  - name: IListAgent.GetTicketPriorityList event method
+    href: IListAgent/getticketprioritylist.md
+  - name: IListAgent.GetTicketStatusEntity event method
+    href: IListAgent/getticketstatusentity.md
+  - name: IListAgent.GetTicketStatuses event method
+    href: IListAgent/getticketstatuses.md
+  - name: IListAgent.GetTicketStatusList event method
+    href: IListAgent/getticketstatuslist.md
+  - name: IListAgent.GetVisibleForUserGroups event method
+    href: IListAgent/getvisibleforusergroups.md
+  - name: IListAgent.GetVisibleForUserGroupsFromListName event method
+    href: IListAgent/getvisibleforusergroupsfromlistname.md
+  - name: IListAgent.GetWebPanelByProgId event method
+    href: IListAgent/getwebpanelbyprogid.md
+  - name: IListAgent.GetWebPanelEntity event method
+    href: IListAgent/getwebpanelentity.md
+  - name: IListAgent.GetWebPanelList event method
+    href: IListAgent/getwebpanellist.md
+  - name: IListAgent.GlobalChangeTicketStatus event method
+    href: IListAgent/globalchangeticketstatus.md
+  - name: IListAgent.MoveAllTickets event method
+    href: IListAgent/movealltickets.md
+  - name: IListAgent.MoveListItem event method
+    href: IListAgent/movelistitem.md
+  - name: IListAgent.RebuildFullnames event method
+    href: IListAgent/rebuildfullnames.md
+  - name: IListAgent.SaveAllFromListDefinition event method
+    href: IListAgent/saveallfromlistdefinition.md
+  - name: IListAgent.SaveAllFromListName event method
+    href: IListAgent/saveallfromlistname.md
+  - name: IListAgent.SaveAmountClassEntity event method
+    href: IListAgent/saveamountclassentity.md
+  - name: IListAgent.SaveConsentPurpose event method
+    href: IListAgent/saveconsentpurpose.md
+  - name: IListAgent.SaveConsentSource event method
+    href: IListAgent/saveconsentsource.md
+  - name: IListAgent.SaveCountry event method
+    href: IListAgent/savecountry.md
+  - name: IListAgent.SaveCurrencyEntity event method
+    href: IListAgent/savecurrencyentity.md
+  - name: IListAgent.SaveDocumentTemplateEntity event method
+    href: IListAgent/savedocumenttemplateentity.md
+  - name: IListAgent.SaveDocumentTemplateStream event method
+    href: IListAgent/savedocumenttemplatestream.md
+  - name: IListAgent.SaveExtAppEntity event method
+    href: IListAgent/saveextappentity.md
+  - name: IListAgent.SaveFromListDefinition event method
+    href: IListAgent/savefromlistdefinition.md
+  - name: IListAgent.SaveFromListName event method
+    href: IListAgent/savefromlistname.md
+  - name: IListAgent.SaveHeadingEntity event method
+    href: IListAgent/saveheadingentity.md
+  - name: IListAgent.SaveHeadingFromListDefinition event method
+    href: IListAgent/saveheadingfromlistdefinition.md
+  - name: IListAgent.SaveHeadingFromName event method
+    href: IListAgent/saveheadingfromname.md
+  - name: IListAgent.SaveHeadingsForListItemFromListDefinition event method
+    href: IListAgent/saveheadingsforlistitemfromlistdefinition.md
+  - name: IListAgent.SaveHeadingsForListItemFromListName event method
+    href: IListAgent/saveheadingsforlistitemfromlistname.md
+  - name: IListAgent.SaveHeadingsFromListDefinition event method
+    href: IListAgent/saveheadingsfromlistdefinition.md
+  - name: IListAgent.SaveHeadingsFromName event method
+    href: IListAgent/saveheadingsfromname.md
+  - name: IListAgent.SaveHierarchyEntity event method
+    href: IListAgent/savehierarchyentity.md
+  - name: IListAgent.SaveLegalBase event method
+    href: IListAgent/savelegalbase.md
+  - name: IListAgent.SaveListEntity event method
+    href: IListAgent/savelistentity.md
+  - name: IListAgent.SaveListEntityByName event method
+    href: IListAgent/savelistentitybyname.md
+  - name: IListAgent.SaveListItemEntity event method
+    href: IListAgent/savelistitementity.md
+  - name: IListAgent.SaveProjectTypeEntity event method
+    href: IListAgent/saveprojecttypeentity.md
+  - name: IListAgent.SaveQuickReplies event method
+    href: IListAgent/savequickreplies.md
+  - name: IListAgent.SaveRelationDefinitionEntity event method
+    href: IListAgent/saverelationdefinitionentity.md
+  - name: IListAgent.SaveResourceEntity event method
+    href: IListAgent/saveresourceentity.md
+  - name: IListAgent.SaveSaleStageEntity event method
+    href: IListAgent/savesalestageentity.md
+  - name: IListAgent.SaveSaleTypeEntity event method
+    href: IListAgent/savesaletypeentity.md
+  - name: IListAgent.SaveTicketCategoryEntity event method
+    href: IListAgent/saveticketcategoryentity.md
+  - name: IListAgent.SaveTicketPriorityEntity event method
+    href: IListAgent/saveticketpriorityentity.md
+  - name: IListAgent.SaveTicketStatusEntity event method
+    href: IListAgent/saveticketstatusentity.md
+  - name: IListAgent.SaveWebPanelEntity event method
+    href: IListAgent/savewebpanelentity.md
+  - name: IListAgent.SetDocumentTemplateFromDocumentTemplate event method
+    href: IListAgent/setdocumenttemplatefromdocumenttemplate.md
+  - name: IListAgent.SetDocumentTemplateStream event method
+    href: IListAgent/setdocumenttemplatestream.md
+  - name: IListAgent.SetEmarketingStrictMode event method
+    href: IListAgent/setemarketingstrictmode.md
+  - name: IListAgent.SetHeadingsForListItem event method
+    href: IListAgent/setheadingsforlistitem.md
+  - name: IListAgent.SetListItemsForHeading event method
+    href: IListAgent/setlistitemsforheading.md
+  - name: IListAgent.SetListItemsForHeadingFromListName event method
+    href: IListAgent/setlistitemsforheadingfromlistname.md
+  - name: IListAgent.SetListItemsForUserGroup event method
+    href: IListAgent/setlistitemsforusergroup.md
+  - name: IListAgent.SetListItemsForUserGroupFromListName event method
+    href: IListAgent/setlistitemsforusergroupfromlistname.md
+  - name: IListAgent.SetRankOnHeadings event method
+    href: IListAgent/setrankonheadings.md
+  - name: IListAgent.SetRankOnProjectActivity event method
+    href: IListAgent/setrankonprojectactivity.md
+  - name: IListAgent.SetRankOnProjectDocument event method
+    href: IListAgent/setrankonprojectdocument.md
+  - name: IListAgent.SetRankOnSaleActivity event method
+    href: IListAgent/setrankonsaleactivity.md
+  - name: IListAgent.SetRankOnSaleDocument event method
+    href: IListAgent/setrankonsaledocument.md
+  - name: IListAgent.SetTicketCategoriesForUserGroup event method
+    href: IListAgent/setticketcategoriesforusergroup.md
+  - name: IListAgent.SetVisibleForUserGroup event method
+    href: IListAgent/setvisibleforusergroup.md
+  - name: IListAgent.SetVisibleForUserGroups event method
+    href: IListAgent/setvisibleforusergroups.md
+  - name: IListAgent.SetVisibleForUserGroupsFromListName event method
+    href: IListAgent/setvisibleforusergroupsfromlistname.md
+  - name: IListAgent.SortListItems event method
+    href: IListAgent/sortlistitems.md
+  - name: IListAgent.UpdateHierarchyFromPath event method
+    href: IListAgent/updatehierarchyfrompath.md
+- name: IMarketingAgent
+  href: IMarketingAgent/index.md
+  items:
+  - name: IMarketingAgent.CreateDefaultFormEntity event method
+    href: IMarketingAgent/createdefaultformentity.md
+  - name: IMarketingAgent.CreateDefaultFormSubmissionEntity event method
+    href: IMarketingAgent/createdefaultformsubmissionentity.md
+  - name: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity event method
+    href: IMarketingAgent/createdefaultshipmentmessageblockentity.md
+  - name: IMarketingAgent.CreateDefaultShipmentMessageEntity event method
+    href: IMarketingAgent/createdefaultshipmentmessageentity.md
+  - name: IMarketingAgent.DeleteFormEntity event method
+    href: IMarketingAgent/deleteformentity.md
+  - name: IMarketingAgent.DeleteFormSubmissionEntity event method
+    href: IMarketingAgent/deleteformsubmissionentity.md
+  - name: IMarketingAgent.DeleteShipmentMessageBlockEntity event method
+    href: IMarketingAgent/deleteshipmentmessageblockentity.md
+  - name: IMarketingAgent.DeleteShipmentMessageEntity event method
+    href: IMarketingAgent/deleteshipmentmessageentity.md
+  - name: IMarketingAgent.GetFormEntity event method
+    href: IMarketingAgent/getformentity.md
+  - name: IMarketingAgent.GetFormSubmissionEntity event method
+    href: IMarketingAgent/getformsubmissionentity.md
+  - name: IMarketingAgent.GetPreviewMailing event method
+    href: IMarketingAgent/getpreviewmailing.md
+  - name: IMarketingAgent.GetPreviewMailingHeader event method
+    href: IMarketingAgent/getpreviewmailingheader.md
+  - name: IMarketingAgent.GetShipmentMessageBlockEntity event method
+    href: IMarketingAgent/getshipmentmessageblockentity.md
+  - name: IMarketingAgent.GetShipmentMessageEntity event method
+    href: IMarketingAgent/getshipmentmessageentity.md
+  - name: IMarketingAgent.GetUserBlocks event method
+    href: IMarketingAgent/getuserblocks.md
+  - name: IMarketingAgent.SaveFormEntity event method
+    href: IMarketingAgent/saveformentity.md
+  - name: IMarketingAgent.SaveFormSubmissionEntity event method
+    href: IMarketingAgent/saveformsubmissionentity.md
+  - name: IMarketingAgent.SaveShipmentMessageBlockEntity event method
+    href: IMarketingAgent/saveshipmentmessageblockentity.md
+  - name: IMarketingAgent.SaveShipmentMessageEntity event method
+    href: IMarketingAgent/saveshipmentmessageentity.md
+  - name: IMarketingAgent.VerifyGoogleRecaptcha event method
+    href: IMarketingAgent/verifygooglerecaptcha.md
+- name: IMDOAgent
+  href: IMDOAgent/index.md
+  items:
+  - name: IMDOAgent.GetList event method
+    href: IMDOAgent/getlist.md
+  - name: IMDOAgent.GetListIdByListName event method
+    href: IMDOAgent/getlistidbylistname.md
+  - name: IMDOAgent.GetListItem event method
+    href: IMDOAgent/getlistitem.md
+  - name: IMDOAgent.GetListNames event method
+    href: IMDOAgent/getlistnames.md
+  - name: IMDOAgent.GetListWithHistory event method
+    href: IMDOAgent/getlistwithhistory.md
+  - name: IMDOAgent.GetListWithRestriction event method
+    href: IMDOAgent/getlistwithrestriction.md
+  - name: IMDOAgent.GetSelectableList event method
+    href: IMDOAgent/getselectablelist.md
+  - name: IMDOAgent.GetSelectableListWithHistory event method
+    href: IMDOAgent/getselectablelistwithhistory.md
+  - name: IMDOAgent.GetSelectableListWithRestriction event method
+    href: IMDOAgent/getselectablelistwithrestriction.md
+  - name: IMDOAgent.GetSelectableSimpleList event method
+    href: IMDOAgent/getselectablesimplelist.md
+  - name: IMDOAgent.GetSimpleList event method
+    href: IMDOAgent/getsimplelist.md
+  - name: IMDOAgent.SetSelected event method
+    href: IMDOAgent/setselected.md
+- name: INumberAllocationAgent
+  href: INumberAllocationAgent/index.md
+  items:
+  - name: INumberAllocationAgent.CreateDefaultRefCountEntity event method
+    href: INumberAllocationAgent/createdefaultrefcountentity.md
+  - name: INumberAllocationAgent.DeleteRefCountEntity event method
+    href: INumberAllocationAgent/deleterefcountentity.md
+  - name: INumberAllocationAgent.GetNumberEachTemplate event method
+    href: INumberAllocationAgent/getnumbereachtemplate.md
+  - name: INumberAllocationAgent.GetRefCountEntity event method
+    href: INumberAllocationAgent/getrefcountentity.md
+  - name: INumberAllocationAgent.SaveDefaultNumbering event method
+    href: INumberAllocationAgent/savedefaultnumbering.md
+  - name: INumberAllocationAgent.SaveRefCountEntity event method
+    href: INumberAllocationAgent/saverefcountentity.md
+  - name: INumberAllocationAgent.SetNumberEachTemplate event method
+    href: INumberAllocationAgent/setnumbereachtemplate.md
+- name: IPartnerAgent
+  href: IPartnerAgent/index.md
+  items:
+  - name: IPartnerAgent.CreateOrUpdateWebPanel event method
+    href: IPartnerAgent/createorupdatewebpanel.md
+  - name: IPartnerAgent.DeleteMyWebPanels event method
+    href: IPartnerAgent/deletemywebpanels.md
+  - name: IPartnerAgent.DeleteWebPanel event method
+    href: IPartnerAgent/deletewebpanel.md
+  - name: IPartnerAgent.GetMyWebPanels event method
+    href: IPartnerAgent/getmywebpanels.md
+  - name: IPartnerAgent.ResumeWebPanel event method
+    href: IPartnerAgent/resumewebpanel.md
+  - name: IPartnerAgent.SuspendWebPanel event method
+    href: IPartnerAgent/suspendwebpanel.md
+- name: IPersonAgent
+  href: IPersonAgent/index.md
+  items:
+  - name: IPersonAgent.AddBounce event method
+    href: IPersonAgent/addbounce.md
+  - name: IPersonAgent.AddBounceWithCount event method
+    href: IPersonAgent/addbouncewithcount.md
+  - name: IPersonAgent.AddEmailAddressToPerson event method
+    href: IPersonAgent/addemailaddresstoperson.md
+  - name: IPersonAgent.ChangeCountry event method
+    href: IPersonAgent/changecountry.md
+  - name: IPersonAgent.ChangePersonRank event method
+    href: IPersonAgent/changepersonrank.md
+  - name: IPersonAgent.CheckTemporaryKey event method
+    href: IPersonAgent/checktemporarykey.md
+  - name: IPersonAgent.CreateDefaultByContactId event method
+    href: IPersonAgent/createdefaultbycontactid.md
+  - name: IPersonAgent.CreateDefaultConsentPerson event method
+    href: IPersonAgent/createdefaultconsentperson.md
+  - name: IPersonAgent.CreateDefaultFromCredential event method
+    href: IPersonAgent/createdefaultfromcredential.md
+  - name: IPersonAgent.CreateDefaultPersonEntity event method
+    href: IPersonAgent/createdefaultpersonentity.md
+  - name: IPersonAgent.CreateTemporaryKey event method
+    href: IPersonAgent/createtemporarykey.md
+  - name: IPersonAgent.DeleteConsentPerson event method
+    href: IPersonAgent/deleteconsentperson.md
+  - name: IPersonAgent.DeleteExpired event method
+    href: IPersonAgent/deleteexpired.md
+  - name: IPersonAgent.DeletePersonEntity event method
+    href: IPersonAgent/deletepersonentity.md
+  - name: IPersonAgent.DeleteTemporaryKeysOfDomain event method
+    href: IPersonAgent/deletetemporarykeysofdomain.md
+  - name: IPersonAgent.GetAddress event method
+    href: IPersonAgent/getaddress.md
+  - name: IPersonAgent.GetAddressByCountry event method
+    href: IPersonAgent/getaddressbycountry.md
+  - name: IPersonAgent.GetBestSoLanguageForTemplate event method
+    href: IPersonAgent/getbestsolanguagefortemplate.md
+  - name: IPersonAgent.GetColleagues event method
+    href: IPersonAgent/getcolleagues.md
+  - name: IPersonAgent.GetColleaguesByDepartment event method
+    href: IPersonAgent/getcolleaguesbydepartment.md
+  - name: IPersonAgent.GetColleaguesBySource event method
+    href: IPersonAgent/getcolleaguesbysource.md
+  - name: IPersonAgent.GetConsentInfos event method
+    href: IPersonAgent/getconsentinfos.md
+  - name: IPersonAgent.GetConsentPerson event method
+    href: IPersonAgent/getconsentperson.md
+  - name: IPersonAgent.GetMyOwner event method
+    href: IPersonAgent/getmyowner.md
+  - name: IPersonAgent.GetMyPerson event method
+    href: IPersonAgent/getmyperson.md
+  - name: IPersonAgent.GetOwnerOnPersonId event method
+    href: IPersonAgent/getowneronpersonid.md
+  - name: IPersonAgent.GetPerson event method
+    href: IPersonAgent/getperson.md
+  - name: IPersonAgent.GetPersonEntity event method
+    href: IPersonAgent/getpersonentity.md
+  - name: IPersonAgent.GetPersonImage event method
+    href: IPersonAgent/getpersonimage.md
+  - name: IPersonAgent.GetPersonList event method
+    href: IPersonAgent/getpersonlist.md
+  - name: IPersonAgent.GetPersonsFromContact event method
+    href: IPersonAgent/getpersonsfromcontact.md
+  - name: IPersonAgent.GetPersonsFromProject event method
+    href: IPersonAgent/getpersonsfromproject.md
+  - name: IPersonAgent.GetPersonSummary event method
+    href: IPersonAgent/getpersonsummary.md
+  - name: IPersonAgent.GetPhones event method
+    href: IPersonAgent/getphones.md
+  - name: IPersonAgent.GetSalesRep event method
+    href: IPersonAgent/getsalesrep.md
+  - name: IPersonAgent.HasConsent event method
+    href: IPersonAgent/hasconsent.md
+  - name: IPersonAgent.IsNumberValid event method
+    href: IPersonAgent/isnumbervalid.md
+  - name: IPersonAgent.Merge event method
+    href: IPersonAgent/merge.md
+  - name: IPersonAgent.Move event method
+    href: IPersonAgent/move.md
+  - name: IPersonAgent.NormalizeRanks event method
+    href: IPersonAgent/normalizeranks.md
+  - name: IPersonAgent.RemoveConsent event method
+    href: IPersonAgent/removeconsent.md
+  - name: IPersonAgent.ResolvePersonFromInfo event method
+    href: IPersonAgent/resolvepersonfrominfo.md
+  - name: IPersonAgent.SaveConsentPerson event method
+    href: IPersonAgent/saveconsentperson.md
+  - name: IPersonAgent.SavePersonEntity event method
+    href: IPersonAgent/savepersonentity.md
+  - name: IPersonAgent.SendConsentConfirmationEmail event method
+    href: IPersonAgent/sendconsentconfirmationemail.md
+  - name: IPersonAgent.SetConsent event method
+    href: IPersonAgent/setconsent.md
+  - name: IPersonAgent.SetPersonImage event method
+    href: IPersonAgent/setpersonimage.md
+  - name: IPersonAgent.SetPersonRank event method
+    href: IPersonAgent/setpersonrank.md
+  - name: IPersonAgent.Undelete event method
+    href: IPersonAgent/undelete.md
+  - name: IPersonAgent.ValidatePersonEntity event method
+    href: IPersonAgent/validatepersonentity.md
+- name: IPhoneListAgent
+  href: IPhoneListAgent/index.md
+  items:
+  - name: IPhoneListAgent.AddToFavorites event method
+    href: IPhoneListAgent/addtofavorites.md
+  - name: IPhoneListAgent.GetContactPhones event method
+    href: IPhoneListAgent/getcontactphones.md
+  - name: IPhoneListAgent.GetDepartmentPhones event method
+    href: IPhoneListAgent/getdepartmentphones.md
+  - name: IPhoneListAgent.GetFavoritesPhones event method
+    href: IPhoneListAgent/getfavoritesphones.md
+  - name: IPhoneListAgent.GetPreferences event method
+    href: IPhoneListAgent/getpreferences.md
+  - name: IPhoneListAgent.Search event method
+    href: IPhoneListAgent/search.md
+  - name: IPhoneListAgent.SearchWithPreferences event method
+    href: IPhoneListAgent/searchwithpreferences.md
+  - name: IPhoneListAgent.SetPreferences event method
+    href: IPhoneListAgent/setpreferences.md
+- name: IPocketAgent
+  href: IPocketAgent/index.md
+  items:
+  - name: IPocketAgent.GetPocketStartupData event method
+    href: IPocketAgent/getpocketstartupdata.md
+  - name: IPocketAgent.GetPushNotificationTagsForDevice event method
+    href: IPocketAgent/getpushnotificationtagsfordevice.md
+  - name: IPocketAgent.GetRegisteredDevices event method
+    href: IPocketAgent/getregistereddevices.md
+  - name: IPocketAgent.RegisterDeviceForPushNotification event method
+    href: IPocketAgent/registerdeviceforpushnotification.md
+  - name: IPocketAgent.RunAppointmentAlarmBroker event method
+    href: IPocketAgent/runappointmentalarmbroker.md
+  - name: IPocketAgent.SendPushNotification event method
+    href: IPocketAgent/sendpushnotification.md
+  - name: IPocketAgent.SetPushNotificationTagsForDevice event method
+    href: IPocketAgent/setpushnotificationtagsfordevice.md
+  - name: IPocketAgent.SetPushNotificationTagsForUser event method
+    href: IPocketAgent/setpushnotificationtagsforuser.md
+- name: IPreferenceAgent
+  href: IPreferenceAgent/index.md
+  items:
+  - name: IPreferenceAgent.CreateDefaultPreference event method
+    href: IPreferenceAgent/createdefaultpreference.md
+  - name: IPreferenceAgent.CreateDefaultPreferenceDescription event method
+    href: IPreferenceAgent/createdefaultpreferencedescription.md
+  - name: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine event method
+    href: IPreferenceAgent/createdefaultpreferencedescriptionline.md
+  - name: IPreferenceAgent.DeleteFromSectionAndKey event method
+    href: IPreferenceAgent/deletefromsectionandkey.md
+  - name: IPreferenceAgent.DeletePrefDescLinesByPrefDescId event method
+    href: IPreferenceAgent/deleteprefdesclinesbyprefdescid.md
+  - name: IPreferenceAgent.DeletePrefDescLinesByPrefDescIds event method
+    href: IPreferenceAgent/deleteprefdesclinesbyprefdescids.md
+  - name: IPreferenceAgent.DeletePreference event method
+    href: IPreferenceAgent/deletepreference.md
+  - name: IPreferenceAgent.DeletePreferenceDescription event method
+    href: IPreferenceAgent/deletepreferencedescription.md
+  - name: IPreferenceAgent.DeletePreferenceDescriptionLine event method
+    href: IPreferenceAgent/deletepreferencedescriptionline.md
+  - name: IPreferenceAgent.DeletePreferenceDescriptionLines event method
+    href: IPreferenceAgent/deletepreferencedescriptionlines.md
+  - name: IPreferenceAgent.DeletePreferences event method
+    href: IPreferenceAgent/deletepreferences.md
+  - name: IPreferenceAgent.GetAll event method
+    href: IPreferenceAgent/getall.md
+  - name: IPreferenceAgent.GetAllFromSection event method
+    href: IPreferenceAgent/getallfromsection.md
+  - name: IPreferenceAgent.GetFromSectionAndKey event method
+    href: IPreferenceAgent/getfromsectionandkey.md
+  - name: IPreferenceAgent.GetNetServicesStatusUrl event method
+    href: IPreferenceAgent/getnetservicesstatusurl.md
+  - name: IPreferenceAgent.GetPreference event method
+    href: IPreferenceAgent/getpreference.md
+  - name: IPreferenceAgent.GetPreferenceByName event method
+    href: IPreferenceAgent/getpreferencebyname.md
+  - name: IPreferenceAgent.GetPreferenceByNameAndId event method
+    href: IPreferenceAgent/getpreferencebynameandid.md
+  - name: IPreferenceAgent.GetPreferenceDescription event method
+    href: IPreferenceAgent/getpreferencedescription.md
+  - name: IPreferenceAgent.GetPreferenceDescriptionLine event method
+    href: IPreferenceAgent/getpreferencedescriptionline.md
+  - name: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue event method
+    href: IPreferenceAgent/getpreferencedescriptionlinefromidandvalue.md
+  - name: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId event method
+    href: IPreferenceAgent/getpreferencedescriptionlinesbyprefdescid.md
+  - name: IPreferenceAgent.GetPreferences event method
+    href: IPreferenceAgent/getpreferences.md
+  - name: IPreferenceAgent.GetPreferencesWithDisplayValues event method
+    href: IPreferenceAgent/getpreferenceswithdisplayvalues.md
+  - name: IPreferenceAgent.GetTabOrder event method
+    href: IPreferenceAgent/gettaborder.md
+  - name: IPreferenceAgent.GetTabOrders event method
+    href: IPreferenceAgent/gettaborders.md
+  - name: IPreferenceAgent.SaveFromSectionAndKey event method
+    href: IPreferenceAgent/savefromsectionandkey.md
+  - name: IPreferenceAgent.SavePreference event method
+    href: IPreferenceAgent/savepreference.md
+  - name: IPreferenceAgent.SavePreferenceDescription event method
+    href: IPreferenceAgent/savepreferencedescription.md
+  - name: IPreferenceAgent.SavePreferenceDescriptionLine event method
+    href: IPreferenceAgent/savepreferencedescriptionline.md
+  - name: IPreferenceAgent.SavePreferenceDescriptionLines event method
+    href: IPreferenceAgent/savepreferencedescriptionlines.md
+  - name: IPreferenceAgent.SavePreferenceEntities event method
+    href: IPreferenceAgent/savepreferenceentities.md
+  - name: IPreferenceAgent.SavePreferenceEntity event method
+    href: IPreferenceAgent/savepreferenceentity.md
+  - name: IPreferenceAgent.SavePreferences event method
+    href: IPreferenceAgent/savepreferences.md
+  - name: IPreferenceAgent.SaveTabOrder event method
+    href: IPreferenceAgent/savetaborder.md
+  - name: IPreferenceAgent.SaveTabOrders event method
+    href: IPreferenceAgent/savetaborders.md
+  - name: IPreferenceAgent.UpdateNetServicesStatus event method
+    href: IPreferenceAgent/updatenetservicesstatus.md
+- name: IProjectAgent
+  href: IProjectAgent/index.md
+  items:
+  - name: IProjectAgent.AddProjectMembers event method
+    href: IProjectAgent/addprojectmembers.md
+  - name: IProjectAgent.CreateDefaultProjectEntity event method
+    href: IProjectAgent/createdefaultprojectentity.md
+  - name: IProjectAgent.CreateDefaultProjectEventEntity event method
+    href: IProjectAgent/createdefaultprojectevententity.md
+  - name: IProjectAgent.CreateDefaultProjectMember event method
+    href: IProjectAgent/createdefaultprojectmember.md
+  - name: IProjectAgent.CreateNewEntry event method
+    href: IProjectAgent/createnewentry.md
+  - name: IProjectAgent.DeleteProjectEntity event method
+    href: IProjectAgent/deleteprojectentity.md
+  - name: IProjectAgent.DeleteProjectEventEntity event method
+    href: IProjectAgent/deleteprojectevententity.md
+  - name: IProjectAgent.DeleteProjectEventEntityFromProjectId event method
+    href: IProjectAgent/deleteprojectevententityfromprojectid.md
+  - name: IProjectAgent.DeleteProjectMember event method
+    href: IProjectAgent/deleteprojectmember.md
+  - name: IProjectAgent.DeleteProjectMemberByIds event method
+    href: IProjectAgent/deleteprojectmemberbyids.md
+  - name: IProjectAgent.DeleteProjectMembers event method
+    href: IProjectAgent/deleteprojectmembers.md
+  - name: IProjectAgent.GetDuplicateRules event method
+    href: IProjectAgent/getduplicaterules.md
+  - name: IProjectAgent.GetDuplicates event method
+    href: IProjectAgent/getduplicates.md
+  - name: IProjectAgent.GetMyMemberProjects event method
+    href: IProjectAgent/getmymemberprojects.md
+  - name: IProjectAgent.GetMyProjectEvents event method
+    href: IProjectAgent/getmyprojectevents.md
+  - name: IProjectAgent.GetMyProjects event method
+    href: IProjectAgent/getmyprojects.md
+  - name: IProjectAgent.GetMyPublishedProjects event method
+    href: IProjectAgent/getmypublishedprojects.md
+  - name: IProjectAgent.GetNextMilestone event method
+    href: IProjectAgent/getnextmilestone.md
+  - name: IProjectAgent.GetNextProjectStatus event method
+    href: IProjectAgent/getnextprojectstatus.md
+  - name: IProjectAgent.GetProject event method
+    href: IProjectAgent/getproject.md
+  - name: IProjectAgent.GetProjectEntity event method
+    href: IProjectAgent/getprojectentity.md
+  - name: IProjectAgent.GetProjectEvent event method
+    href: IProjectAgent/getprojectevent.md
+  - name: IProjectAgent.GetProjectEventEntity event method
+    href: IProjectAgent/getprojectevententity.md
+  - name: IProjectAgent.GetProjectEventEntityFromProjectId event method
+    href: IProjectAgent/getprojectevententityfromprojectid.md
+  - name: IProjectAgent.GetProjectEventList event method
+    href: IProjectAgent/getprojecteventlist.md
+  - name: IProjectAgent.GetProjectEventOnPerson event method
+    href: IProjectAgent/getprojecteventonperson.md
+  - name: IProjectAgent.GetProjectEventsOnPerson event method
+    href: IProjectAgent/getprojecteventsonperson.md
+  - name: IProjectAgent.GetProjectImage event method
+    href: IProjectAgent/getprojectimage.md
+  - name: IProjectAgent.GetProjectList event method
+    href: IProjectAgent/getprojectlist.md
+  - name: IProjectAgent.GetProjectMember event method
+    href: IProjectAgent/getprojectmember.md
+  - name: IProjectAgent.GetProjectMembers event method
+    href: IProjectAgent/getprojectmembers.md
+  - name: IProjectAgent.GetProjectMembersById event method
+    href: IProjectAgent/getprojectmembersbyid.md
+  - name: IProjectAgent.GetProjectsFromContact event method
+    href: IProjectAgent/getprojectsfromcontact.md
+  - name: IProjectAgent.GetProjectsFromPerson event method
+    href: IProjectAgent/getprojectsfromperson.md
+  - name: IProjectAgent.GetPublishedProject event method
+    href: IProjectAgent/getpublishedproject.md
+  - name: IProjectAgent.GetPublishedProjects event method
+    href: IProjectAgent/getpublishedprojects.md
+  - name: IProjectAgent.GetPublishedProjectsOnPersonId event method
+    href: IProjectAgent/getpublishedprojectsonpersonid.md
+  - name: IProjectAgent.HasGuide event method
+    href: IProjectAgent/hasguide.md
+  - name: IProjectAgent.HasGuideActivities event method
+    href: IProjectAgent/hasguideactivities.md
+  - name: IProjectAgent.IsNumberValid event method
+    href: IProjectAgent/isnumbervalid.md
+  - name: IProjectAgent.Merge event method
+    href: IProjectAgent/merge.md
+  - name: IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted event method
+    href: IProjectAgent/offerautonextstatusonapppointmentcompleted.md
+  - name: IProjectAgent.SaveProjectEntity event method
+    href: IProjectAgent/saveprojectentity.md
+  - name: IProjectAgent.SaveProjectEventEntity event method
+    href: IProjectAgent/saveprojectevententity.md
+  - name: IProjectAgent.SaveProjectMember event method
+    href: IProjectAgent/saveprojectmember.md
+  - name: IProjectAgent.SaveProjectMembersFunctionAndComment event method
+    href: IProjectAgent/saveprojectmembersfunctionandcomment.md
+  - name: IProjectAgent.SetDuplicateRulesStatus event method
+    href: IProjectAgent/setduplicaterulesstatus.md
+  - name: IProjectAgent.SetProjectImage event method
+    href: IProjectAgent/setprojectimage.md
+  - name: IProjectAgent.UpdateProjectMember event method
+    href: IProjectAgent/updateprojectmember.md
+  - name: IProjectAgent.ValidateProjectEntity event method
+    href: IProjectAgent/validateprojectentity.md
+- name: IQuoteAgent
+  href: IQuoteAgent/index.md
+  items:
+  - name: IQuoteAgent.AddSaleTypeQuoteAttachment event method
+    href: IQuoteAgent/addsaletypequoteattachment.md
+  - name: IQuoteAgent.ApproveQuoteVersion event method
+    href: IQuoteAgent/approvequoteversion.md
+  - name: IQuoteAgent.CanConnectorProvideCapability event method
+    href: IQuoteAgent/canconnectorprovidecapability.md
+  - name: IQuoteAgent.CopyQuoteAlternative event method
+    href: IQuoteAgent/copyquotealternative.md
+  - name: IQuoteAgent.CopySuperOfficePriceList event method
+    href: IQuoteAgent/copysuperofficepricelist.md
+  - name: IQuoteAgent.CreateAndSaveQuote event method
+    href: IQuoteAgent/createandsavequote.md
+  - name: IQuoteAgent.CreateAndSaveQuoteFromSale event method
+    href: IQuoteAgent/createandsavequotefromsale.md
+  - name: IQuoteAgent.CreateAndSaveQuoteVersion event method
+    href: IQuoteAgent/createandsavequoteversion.md
+  - name: IQuoteAgent.CreateConnectionFromConnectorName event method
+    href: IQuoteAgent/createconnectionfromconnectorname.md
+  - name: IQuoteAgent.CreateDefaultPriceList event method
+    href: IQuoteAgent/createdefaultpricelist.md
+  - name: IQuoteAgent.CreateDefaultProduct event method
+    href: IQuoteAgent/createdefaultproduct.md
+  - name: IQuoteAgent.CreateDefaultQuoteAlternative event method
+    href: IQuoteAgent/createdefaultquotealternative.md
+  - name: IQuoteAgent.CreateOrUpdateQuoteVersionAttachments event method
+    href: IQuoteAgent/createorupdatequoteversionattachments.md
+  - name: IQuoteAgent.CreateQuoteAlternative event method
+    href: IQuoteAgent/createquotealternative.md
+  - name: IQuoteAgent.CreateQuoteLine event method
+    href: IQuoteAgent/createquoteline.md
+  - name: IQuoteAgent.CreateQuoteLineFromProduct event method
+    href: IQuoteAgent/createquotelinefromproduct.md
+  - name: IQuoteAgent.DeleteConnection event method
+    href: IQuoteAgent/deleteconnection.md
+  - name: IQuoteAgent.DeletePriceList event method
+    href: IQuoteAgent/deletepricelist.md
+  - name: IQuoteAgent.DeleteProduct event method
+    href: IQuoteAgent/deleteproduct.md
+  - name: IQuoteAgent.DeleteQuote event method
+    href: IQuoteAgent/deletequote.md
+  - name: IQuoteAgent.DeleteQuoteAlternative event method
+    href: IQuoteAgent/deletequotealternative.md
+  - name: IQuoteAgent.DeleteQuoteLine event method
+    href: IQuoteAgent/deletequoteline.md
+  - name: IQuoteAgent.DeleteQuoteLines event method
+    href: IQuoteAgent/deletequotelines.md
+  - name: IQuoteAgent.DeleteSaleTypeQuoteAttachment event method
+    href: IQuoteAgent/deletesaletypequoteattachment.md
+  - name: IQuoteAgent.FindProduct event method
+    href: IQuoteAgent/findproduct.md
+  - name: IQuoteAgent.GenerateQuoteDocuments event method
+    href: IQuoteAgent/generatequotedocuments.md
+  - name: IQuoteAgent.GetActivePriceLists event method
+    href: IQuoteAgent/getactivepricelists.md
+  - name: IQuoteAgent.GetActivePriceListsByCurrencyId event method
+    href: IQuoteAgent/getactivepricelistsbycurrencyid.md
+  - name: IQuoteAgent.GetAllAvailableQuoteConnections event method
+    href: IQuoteAgent/getallavailablequoteconnections.md
+  - name: IQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists event method
+    href: IQuoteAgent/getallavailablequoteconnectionswithpricelists.md
+  - name: IQuoteAgent.GetAllInstalledQuoteConnections event method
+    href: IQuoteAgent/getallinstalledquoteconnections.md
+  - name: IQuoteAgent.GetAllPriceLists event method
+    href: IQuoteAgent/getallpricelists.md
+  - name: IQuoteAgent.GetAllPriceListsByCurrencyId event method
+    href: IQuoteAgent/getallpricelistsbycurrencyid.md
+  - name: IQuoteAgent.GetAllQuoteLineConfigurations event method
+    href: IQuoteAgent/getallquotelineconfigurations.md
+  - name: IQuoteAgent.GetConfigurationFields event method
+    href: IQuoteAgent/getconfigurationfields.md
+  - name: IQuoteAgent.GetConnection event method
+    href: IQuoteAgent/getconnection.md
+  - name: IQuoteAgent.GetConnectionConfigFields event method
+    href: IQuoteAgent/getconnectionconfigfields.md
+  - name: IQuoteAgent.GetConnectionsForAssociate event method
+    href: IQuoteAgent/getconnectionsforassociate.md
+  - name: IQuoteAgent.GetConnectionStartupErrors event method
+    href: IQuoteAgent/getconnectionstartuperrors.md
+  - name: IQuoteAgent.GetConnectionStartupResponse event method
+    href: IQuoteAgent/getconnectionstartupresponse.md
+  - name: IQuoteAgent.GetConnectorCapabilities event method
+    href: IQuoteAgent/getconnectorcapabilities.md
+  - name: IQuoteAgent.GetConnectorCapabilityNames event method
+    href: IQuoteAgent/getconnectorcapabilitynames.md
+  - name: IQuoteAgent.GetExtraInfo event method
+    href: IQuoteAgent/getextrainfo.md
+  - name: IQuoteAgent.GetInUseQuoteLineConfigurations event method
+    href: IQuoteAgent/getinusequotelineconfigurations.md
+  - name: IQuoteAgent.GetOrderConfirmation event method
+    href: IQuoteAgent/getorderconfirmation.md
+  - name: IQuoteAgent.GetOrderState event method
+    href: IQuoteAgent/getorderstate.md
+  - name: IQuoteAgent.GetPriceList event method
+    href: IQuoteAgent/getpricelist.md
+  - name: IQuoteAgent.GetProduct event method
+    href: IQuoteAgent/getproduct.md
+  - name: IQuoteAgent.GetProductFromDbId event method
+    href: IQuoteAgent/getproductfromdbid.md
+  - name: IQuoteAgent.GetProductImage event method
+    href: IQuoteAgent/getproductimage.md
+  - name: IQuoteAgent.GetQuote event method
+    href: IQuoteAgent/getquote.md
+  - name: IQuoteAgent.GetQuoteAlternative event method
+    href: IQuoteAgent/getquotealternative.md
+  - name: IQuoteAgent.GetQuoteAlternatives event method
+    href: IQuoteAgent/getquotealternatives.md
+  - name: IQuoteAgent.GetQuoteEntity event method
+    href: IQuoteAgent/getquoteentity.md
+  - name: IQuoteAgent.GetQuoteEntityFromSaleId event method
+    href: IQuoteAgent/getquoteentityfromsaleid.md
+  - name: IQuoteAgent.GetQuoteFromSaleId event method
+    href: IQuoteAgent/getquotefromsaleid.md
+  - name: IQuoteAgent.GetQuoteLine event method
+    href: IQuoteAgent/getquoteline.md
+  - name: IQuoteAgent.GetQuoteLineConfiguration event method
+    href: IQuoteAgent/getquotelineconfiguration.md
+  - name: IQuoteAgent.GetQuoteLineConfigurationFromFieldName event method
+    href: IQuoteAgent/getquotelineconfigurationfromfieldname.md
+  - name: IQuoteAgent.GetQuoteLineImage event method
+    href: IQuoteAgent/getquotelineimage.md
+  - name: IQuoteAgent.GetQuoteLines event method
+    href: IQuoteAgent/getquotelines.md
+  - name: IQuoteAgent.GetQuoteList event method
+    href: IQuoteAgent/getquotelist.md
+  - name: IQuoteAgent.GetQuoteVersion event method
+    href: IQuoteAgent/getquoteversion.md
+  - name: IQuoteAgent.GetQuoteVersions event method
+    href: IQuoteAgent/getquoteversions.md
+  - name: IQuoteAgent.GetQuoteVersionWorkflowButtonStates event method
+    href: IQuoteAgent/getquoteversionworkflowbuttonstates.md
+  - name: IQuoteAgent.GetQuoteVersionWorkflowImageState event method
+    href: IQuoteAgent/getquoteversionworkflowimagestate.md
+  - name: IQuoteAgent.GetQuoteVersionWorkflowState event method
+    href: IQuoteAgent/getquoteversionworkflowstate.md
+  - name: IQuoteAgent.GetQuoteVersionWorkflowStatusInfo event method
+    href: IQuoteAgent/getquoteversionworkflowstatusinfo.md
+  - name: IQuoteAgent.HasConnections event method
+    href: IQuoteAgent/hasconnections.md
+  - name: IQuoteAgent.IncludeQuoteVersionAttachment event method
+    href: IQuoteAgent/includequoteversionattachment.md
+  - name: IQuoteAgent.MoveQuoteLine event method
+    href: IQuoteAgent/movequoteline.md
+  - name: IQuoteAgent.PlaceOrder event method
+    href: IQuoteAgent/placeorder.md
+  - name: IQuoteAgent.RecalculateQuoteAlternative event method
+    href: IQuoteAgent/recalculatequotealternative.md
+  - name: IQuoteAgent.RecalculateQuoteLine event method
+    href: IQuoteAgent/recalculatequoteline.md
+  - name: IQuoteAgent.RejectQuoteVersion event method
+    href: IQuoteAgent/rejectquoteversion.md
+  - name: IQuoteAgent.RemoveProduct event method
+    href: IQuoteAgent/removeproduct.md
+  - name: IQuoteAgent.RestoreConnection event method
+    href: IQuoteAgent/restoreconnection.md
+  - name: IQuoteAgent.SaveConnection event method
+    href: IQuoteAgent/saveconnection.md
+  - name: IQuoteAgent.SaveConnectionConfigFields event method
+    href: IQuoteAgent/saveconnectionconfigfields.md
+  - name: IQuoteAgent.SavePriceList event method
+    href: IQuoteAgent/savepricelist.md
+  - name: IQuoteAgent.SaveProduct event method
+    href: IQuoteAgent/saveproduct.md
+  - name: IQuoteAgent.SaveQuote event method
+    href: IQuoteAgent/savequote.md
+  - name: IQuoteAgent.SaveQuoteAlternative event method
+    href: IQuoteAgent/savequotealternative.md
+  - name: IQuoteAgent.SaveQuoteEntity event method
+    href: IQuoteAgent/savequoteentity.md
+  - name: IQuoteAgent.SaveQuoteLine event method
+    href: IQuoteAgent/savequoteline.md
+  - name: IQuoteAgent.SaveQuoteLineConfiguration event method
+    href: IQuoteAgent/savequotelineconfiguration.md
+  - name: IQuoteAgent.SaveQuoteLineConfigurations event method
+    href: IQuoteAgent/savequotelineconfigurations.md
+  - name: IQuoteAgent.SaveQuoteLineImage event method
+    href: IQuoteAgent/savequotelineimage.md
+  - name: IQuoteAgent.SaveQuoteLines event method
+    href: IQuoteAgent/savequotelines.md
+  - name: IQuoteAgent.SaveQuoteVersion event method
+    href: IQuoteAgent/savequoteversion.md
+  - name: IQuoteAgent.SaveQuoteVersionNumber event method
+    href: IQuoteAgent/savequoteversionnumber.md
+  - name: IQuoteAgent.SendQuoteVersion event method
+    href: IQuoteAgent/sendquoteversion.md
+  - name: IQuoteAgent.TestConnection event method
+    href: IQuoteAgent/testconnection.md
+  - name: IQuoteAgent.ToggleProductInAssortment event method
+    href: IQuoteAgent/toggleproductinassortment.md
+  - name: IQuoteAgent.ToggleQuoteVersionAttachmentIncluded event method
+    href: IQuoteAgent/togglequoteversionattachmentincluded.md
+  - name: IQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded event method
+    href: IQuoteAgent/togglesaletypequoteattachmentdefaultincluded.md
+  - name: IQuoteAgent.UpdateQuoteVersionPrices event method
+    href: IQuoteAgent/updatequoteversionprices.md
+  - name: IQuoteAgent.ValidateQuoteVersion event method
+    href: IQuoteAgent/validatequoteversion.md
+- name: IRelationAgent
+  href: IRelationAgent/index.md
+  items:
+  - name: IRelationAgent.CreateDefaultContactRelationEntity event method
+    href: IRelationAgent/createdefaultcontactrelationentity.md
+  - name: IRelationAgent.DeleteContactRelation event method
+    href: IRelationAgent/deletecontactrelation.md
+  - name: IRelationAgent.GetContactRelationEntity event method
+    href: IRelationAgent/getcontactrelationentity.md
+  - name: IRelationAgent.SaveContactRelation event method
+    href: IRelationAgent/savecontactrelation.md
+- name: IReplicationAgent
+  href: IReplicationAgent/index.md
+  items:
+  - name: IReplicationAgent.CreateDefaultSatellite event method
+    href: IReplicationAgent/createdefaultsatellite.md
+  - name: IReplicationAgent.GetArea event method
+    href: IReplicationAgent/getarea.md
+  - name: IReplicationAgent.GetAreaList event method
+    href: IReplicationAgent/getarealist.md
+  - name: IReplicationAgent.GetCentralLicense event method
+    href: IReplicationAgent/getcentrallicense.md
+  - name: IReplicationAgent.GetSatellite event method
+    href: IReplicationAgent/getsatellite.md
+  - name: IReplicationAgent.SaveCentralLicense event method
+    href: IReplicationAgent/savecentrallicense.md
+  - name: IReplicationAgent.SaveSatellite event method
+    href: IReplicationAgent/savesatellite.md
+  - name: IReplicationAgent.SetFreetextSearchEnabledOnArea event method
+    href: IReplicationAgent/setfreetextsearchenabledonarea.md
+- name: IReportAgent
+  href: IReportAgent/index.md
+  items:
+  - name: IReportAgent.CreateDefaultReportEntity event method
+    href: IReportAgent/createdefaultreportentity.md
+  - name: IReportAgent.CreateDefaultReportLabelLayoutEntity event method
+    href: IReportAgent/createdefaultreportlabellayoutentity.md
+  - name: IReportAgent.CreateFavorite event method
+    href: IReportAgent/createfavorite.md
+  - name: IReportAgent.DeleteFavorite event method
+    href: IReportAgent/deletefavorite.md
+  - name: IReportAgent.DeleteReport event method
+    href: IReportAgent/deletereport.md
+  - name: IReportAgent.DeleteReportLabelLayoutEntity event method
+    href: IReportAgent/deletereportlabellayoutentity.md
+  - name: IReportAgent.GenerateReport event method
+    href: IReportAgent/generatereport.md
+  - name: IReportAgent.GetReportEntity event method
+    href: IReportAgent/getreportentity.md
+  - name: IReportAgent.GetReportLabelLayoutEntity event method
+    href: IReportAgent/getreportlabellayoutentity.md
+  - name: IReportAgent.ImportReport event method
+    href: IReportAgent/importreport.md
+  - name: IReportAgent.SaveReportEntity event method
+    href: IReportAgent/savereportentity.md
+  - name: IReportAgent.SaveReportLabelLayoutEntity event method
+    href: IReportAgent/savereportlabellayoutentity.md
+  - name: IReportAgent.UpdateFavorite event method
+    href: IReportAgent/updatefavorite.md
+- name: IResourceAgent
+  href: IResourceAgent/index.md
+  items:
+  - name: IResourceAgent.ActivateResourceSubstitution event method
+    href: IResourceAgent/activateresourcesubstitution.md
+  - name: IResourceAgent.DeleteResourceSubstitution event method
+    href: IResourceAgent/deleteresourcesubstitution.md
+  - name: IResourceAgent.GetResourceSubstitutions event method
+    href: IResourceAgent/getresourcesubstitutions.md
+  - name: IResourceAgent.IsResourceSubstitutionActive event method
+    href: IResourceAgent/isresourcesubstitutionactive.md
+  - name: IResourceAgent.SetResourceSubstitution event method
+    href: IResourceAgent/setresourcesubstitution.md
+- name: ISaintAgent
+  href: ISaintAgent/index.md
+  items:
+  - name: ISaintAgent.CreateDefaultSaintConfiguration event method
+    href: ISaintAgent/createdefaultsaintconfiguration.md
+  - name: ISaintAgent.CreateDefaultStatusMonitor event method
+    href: ISaintAgent/createdefaultstatusmonitor.md
+  - name: ISaintAgent.CreateDefaultStatusMonitorPeriods event method
+    href: ISaintAgent/createdefaultstatusmonitorperiods.md
+  - name: ISaintAgent.GetSaintConfigurations event method
+    href: ISaintAgent/getsaintconfigurations.md
+  - name: ISaintAgent.GetStatusMonitor event method
+    href: ISaintAgent/getstatusmonitor.md
+  - name: ISaintAgent.GetStatusMonitorPeriods event method
+    href: ISaintAgent/getstatusmonitorperiods.md
+  - name: ISaintAgent.GetStatusMonitors event method
+    href: ISaintAgent/getstatusmonitors.md
+  - name: ISaintAgent.RegenerateCounters event method
+    href: ISaintAgent/regeneratecounters.md
+  - name: ISaintAgent.RegenerateStatusMonitor event method
+    href: ISaintAgent/regeneratestatusmonitor.md
+  - name: ISaintAgent.RegenerateStatusMonitors event method
+    href: ISaintAgent/regeneratestatusmonitors.md
+  - name: ISaintAgent.SaveSaintConfiguration event method
+    href: ISaintAgent/savesaintconfiguration.md
+  - name: ISaintAgent.SaveStatusMonitor event method
+    href: ISaintAgent/savestatusmonitor.md
+  - name: ISaintAgent.SaveStatusMonitorPeriods event method
+    href: ISaintAgent/savestatusmonitorperiods.md
+  - name: ISaintAgent.SetRankOnStatusMonitors event method
+    href: ISaintAgent/setrankonstatusmonitors.md
+- name: ISaleAgent
+  href: ISaleAgent/index.md
+  items:
+  - name: ISaleAgent.AddSaleStakeholders event method
+    href: ISaleAgent/addsalestakeholders.md
+  - name: ISaleAgent.BatchUpdateNextDueDate event method
+    href: ISaleAgent/batchupdatenextduedate.md
+  - name: ISaleAgent.CreateDefaultSaleEntity event method
+    href: ISaleAgent/createdefaultsaleentity.md
+  - name: ISaleAgent.CreateDefaultSaleStakeholder event method
+    href: ISaleAgent/createdefaultsalestakeholder.md
+  - name: ISaleAgent.CreateDefaultSaleSummary event method
+    href: ISaleAgent/createdefaultsalesummary.md
+  - name: ISaleAgent.DeleteSaleEntity event method
+    href: ISaleAgent/deletesaleentity.md
+  - name: ISaleAgent.DeleteSaleStakeholder event method
+    href: ISaleAgent/deletesalestakeholder.md
+  - name: ISaleAgent.DeleteSaleStakeholders event method
+    href: ISaleAgent/deletesalestakeholders.md
+  - name: ISaleAgent.GetMyOpportunities event method
+    href: ISaleAgent/getmyopportunities.md
+  - name: ISaleAgent.GetNextDueDate event method
+    href: ISaleAgent/getnextduedate.md
+  - name: ISaleAgent.GetNextSaleStage event method
+    href: ISaleAgent/getnextsalestage.md
+  - name: ISaleAgent.GetOpenSalesForContact event method
+    href: ISaleAgent/getopensalesforcontact.md
+  - name: ISaleAgent.GetProbabilityFromStage event method
+    href: ISaleAgent/getprobabilityfromstage.md
+  - name: ISaleAgent.GetRecentSales event method
+    href: ISaleAgent/getrecentsales.md
+  - name: ISaleAgent.GetSale event method
+    href: ISaleAgent/getsale.md
+  - name: ISaleAgent.GetSaleEntity event method
+    href: ISaleAgent/getsaleentity.md
+  - name: ISaleAgent.GetSaleList event method
+    href: ISaleAgent/getsalelist.md
+  - name: ISaleAgent.GetSalesByDate event method
+    href: ISaleAgent/getsalesbydate.md
+  - name: ISaleAgent.GetSalesFromContact event method
+    href: ISaleAgent/getsalesfromcontact.md
+  - name: ISaleAgent.GetSalesFromPerson event method
+    href: ISaleAgent/getsalesfromperson.md
+  - name: ISaleAgent.GetSaleStakeholder event method
+    href: ISaleAgent/getsalestakeholder.md
+  - name: ISaleAgent.GetSaleStakeholderById event method
+    href: ISaleAgent/getsalestakeholderbyid.md
+  - name: ISaleAgent.GetSaleStakeholderList event method
+    href: ISaleAgent/getsalestakeholderlist.md
+  - name: ISaleAgent.GetSaleStakeholders event method
+    href: ISaleAgent/getsalestakeholders.md
+  - name: ISaleAgent.GetSummaryByAssociate event method
+    href: ISaleAgent/getsummarybyassociate.md
+  - name: ISaleAgent.GetSummaryByContact event method
+    href: ISaleAgent/getsummarybycontact.md
+  - name: ISaleAgent.GetSummaryByGroup event method
+    href: ISaleAgent/getsummarybygroup.md
+  - name: ISaleAgent.GetUpcomingSales event method
+    href: ISaleAgent/getupcomingsales.md
+  - name: ISaleAgent.HasGuide event method
+    href: ISaleAgent/hasguide.md
+  - name: ISaleAgent.HasGuideActivities event method
+    href: ISaleAgent/hasguideactivities.md
+  - name: ISaleAgent.HasStakeholderSetting event method
+    href: ISaleAgent/hasstakeholdersetting.md
+  - name: ISaleAgent.IsNumberValid event method
+    href: ISaleAgent/isnumbervalid.md
+  - name: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted event method
+    href: ISaleAgent/offerautonextstageonapppointmentcompleted.md
+  - name: ISaleAgent.SaveSaleEntity event method
+    href: ISaleAgent/savesaleentity.md
+  - name: ISaleAgent.SaveSaleStakeholder event method
+    href: ISaleAgent/savesalestakeholder.md
+  - name: ISaleAgent.SetAsLost event method
+    href: ISaleAgent/setaslost.md
+  - name: ISaleAgent.SetAsSold event method
+    href: ISaleAgent/setassold.md
+  - name: ISaleAgent.UpdateSaleStakeholders event method
+    href: ISaleAgent/updatesalestakeholders.md
+  - name: ISaleAgent.ValidateSaleEntity event method
+    href: ISaleAgent/validatesaleentity.md
+- name: ISelectionAgent
+  href: ISelectionAgent/index.md
+  items:
+  - name: ISelectionAgent.AddContactSelectionMembers event method
+    href: ISelectionAgent/addcontactselectionmembers.md
+  - name: ISelectionAgent.AddContactSelectionMembersFromSearch event method
+    href: ISelectionAgent/addcontactselectionmembersfromsearch.md
+  - name: ISelectionAgent.AddRemoveContactSelectionMemberInterests event method
+    href: ISelectionAgent/addremovecontactselectionmemberinterests.md
+  - name: ISelectionAgent.AddSelectionMembers event method
+    href: ISelectionAgent/addselectionmembers.md
+  - name: ISelectionAgent.AddSelectionMembersFromSearch event method
+    href: ISelectionAgent/addselectionmembersfromsearch.md
+  - name: ISelectionAgent.CopyContactSelectionMembers event method
+    href: ISelectionAgent/copycontactselectionmembers.md
+  - name: ISelectionAgent.CopySelectionMembers event method
+    href: ISelectionAgent/copyselectionmembers.md
+  - name: ISelectionAgent.CreateContactSelectionFromSelection event method
+    href: ISelectionAgent/createcontactselectionfromselection.md
+  - name: ISelectionAgent.CreateContactSelectionFromShadowSelection event method
+    href: ISelectionAgent/createcontactselectionfromshadowselection.md
+  - name: ISelectionAgent.CreateDefaultMailMergeSettings event method
+    href: ISelectionAgent/createdefaultmailmergesettings.md
+  - name: ISelectionAgent.CreateDefaultMailMergeTask event method
+    href: ISelectionAgent/createdefaultmailmergetask.md
+  - name: ISelectionAgent.CreateDefaultSelectionEntity event method
+    href: ISelectionAgent/createdefaultselectionentity.md
+  - name: ISelectionAgent.CreateNewEntry event method
+    href: ISelectionAgent/createnewentry.md
+  - name: ISelectionAgent.CreateSelectionEntity event method
+    href: ISelectionAgent/createselectionentity.md
+  - name: ISelectionAgent.CreateSelectionFromSelection event method
+    href: ISelectionAgent/createselectionfromselection.md
+  - name: ISelectionAgent.CreateTemporaryContactSelection event method
+    href: ISelectionAgent/createtemporarycontactselection.md
+  - name: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds event method
+    href: ISelectionAgent/createtemporarycontactselectionfromcontactpersonids.md
+  - name: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers event method
+    href: ISelectionAgent/createtemporarycontactselectionfromprojectmembers.md
+  - name: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds event method
+    href: ISelectionAgent/createtemporarycontactselectionfromselectionmemberids.md
+  - name: ISelectionAgent.CreateTemporarySelectionFromIds event method
+    href: ISelectionAgent/createtemporaryselectionfromids.md
+  - name: ISelectionAgent.DeleteContacts event method
+    href: ISelectionAgent/deletecontacts.md
+  - name: ISelectionAgent.DeleteEntities event method
+    href: ISelectionAgent/deleteentities.md
+  - name: ISelectionAgent.DeletePersons event method
+    href: ISelectionAgent/deletepersons.md
+  - name: ISelectionAgent.DeleteSelectionEntity event method
+    href: ISelectionAgent/deleteselectionentity.md
+  - name: ISelectionAgent.EditContactSelectionMemberDetails event method
+    href: ISelectionAgent/editcontactselectionmemberdetails.md
+  - name: ISelectionAgent.ExportSelectionMembers event method
+    href: ISelectionAgent/exportselectionmembers.md
+  - name: ISelectionAgent.ExportSelectionMembersWithOrderBy event method
+    href: ISelectionAgent/exportselectionmemberswithorderby.md
+  - name: ISelectionAgent.GenerateFollowUps event method
+    href: ISelectionAgent/generatefollowups.md
+  - name: ISelectionAgent.GetDuplicateRules event method
+    href: ISelectionAgent/getduplicaterules.md
+  - name: ISelectionAgent.GetDuplicates event method
+    href: ISelectionAgent/getduplicates.md
+  - name: ISelectionAgent.GetDynamicSelectionCriteria event method
+    href: ISelectionAgent/getdynamicselectioncriteria.md
+  - name: ISelectionAgent.GetDynamicSelectionCriteriaGroups event method
+    href: ISelectionAgent/getdynamicselectioncriteriagroups.md
+  - name: ISelectionAgent.GetParentCombinedSelections event method
+    href: ISelectionAgent/getparentcombinedselections.md
+  - name: ISelectionAgent.GetRecipientStatistics event method
+    href: ISelectionAgent/getrecipientstatistics.md
+  - name: ISelectionAgent.GetRecipientStatisticsFromContactPersonIds event method
+    href: ISelectionAgent/getrecipientstatisticsfromcontactpersonids.md
+  - name: ISelectionAgent.GetRecipientStatisticsFromProjectMembers event method
+    href: ISelectionAgent/getrecipientstatisticsfromprojectmembers.md
+  - name: ISelectionAgent.GetSelectionEntity event method
+    href: ISelectionAgent/getselectionentity.md
+  - name: ISelectionAgent.GetSelectionForFind event method
+    href: ISelectionAgent/getselectionforfind.md
+  - name: ISelectionAgent.GetSelectionMembersArchiveRows event method
+    href: ISelectionAgent/getselectionmembersarchiverows.md
+  - name: ISelectionAgent.GetSelectionShadowMembersArchiveRows event method
+    href: ISelectionAgent/getselectionshadowmembersarchiverows.md
+  - name: ISelectionAgent.RemoveContactSelectionMembers event method
+    href: ISelectionAgent/removecontactselectionmembers.md
+  - name: ISelectionAgent.RemoveContactSelectionMembersFromIds event method
+    href: ISelectionAgent/removecontactselectionmembersfromids.md
+  - name: ISelectionAgent.RemoveContactSelectionMembersFromSearch event method
+    href: ISelectionAgent/removecontactselectionmembersfromsearch.md
+  - name: ISelectionAgent.RemoveSelectionMembers event method
+    href: ISelectionAgent/removeselectionmembers.md
+  - name: ISelectionAgent.RemoveSelectionMembersById event method
+    href: ISelectionAgent/removeselectionmembersbyid.md
+  - name: ISelectionAgent.RemoveSelectionMembersFromSearch event method
+    href: ISelectionAgent/removeselectionmembersfromsearch.md
+  - name: ISelectionAgent.SaveSelectionEntity event method
+    href: ISelectionAgent/saveselectionentity.md
+  - name: ISelectionAgent.SetDuplicateRulesStatus event method
+    href: ISelectionAgent/setduplicaterulesstatus.md
+  - name: ISelectionAgent.SetDynamicSelectionCriteria event method
+    href: ISelectionAgent/setdynamicselectioncriteria.md
+  - name: ISelectionAgent.SetDynamicSelectionCriteria2 event method
+    href: ISelectionAgent/setdynamicselectioncriteria2.md
+  - name: ISelectionAgent.SetDynamicSelectionCriteria3 event method
+    href: ISelectionAgent/setdynamicselectioncriteria3.md
+  - name: ISelectionAgent.SetDynamicSelectionCriteriaGroups event method
+    href: ISelectionAgent/setdynamicselectioncriteriagroups.md
+  - name: ISelectionAgent.StartMailMerge event method
+    href: ISelectionAgent/startmailmerge.md
+  - name: ISelectionAgent.UpdateTypicalSearch event method
+    href: ISelectionAgent/updatetypicalsearch.md
+- name: ISentryAgent
+  href: ISentryAgent/index.md
+  items:
+  - name: ISentryAgent.CanCreateAppointmentInAllDiaries event method
+    href: ISentryAgent/cancreateappointmentinalldiaries.md
+  - name: ISentryAgent.CanCreateAppointmentInAssociateDiaries event method
+    href: ISentryAgent/cancreateappointmentinassociatediaries.md
+  - name: ISentryAgent.GetFunctionRights event method
+    href: ISentryAgent/getfunctionrights.md
+  - name: ISentryAgent.GetNewTableRight event method
+    href: ISentryAgent/getnewtableright.md
+  - name: ISentryAgent.GetTableRightByContactOwnership event method
+    href: ISentryAgent/gettablerightbycontactownership.md
+  - name: ISentryAgent.GetTableRightByOwnership event method
+    href: ISentryAgent/gettablerightbyownership.md
+  - name: ISentryAgent.HasFunctionRight event method
+    href: ISentryAgent/hasfunctionright.md
+- name: ITicketAgent
+  href: ITicketAgent/index.md
+  items:
+  - name: ITicketAgent.AddAttachments event method
+    href: ITicketAgent/addattachments.md
+  - name: ITicketAgent.CreateDefaultAttachmentEntity event method
+    href: ITicketAgent/createdefaultattachmententity.md
+  - name: ITicketAgent.CreateDefaultTicketEntity event method
+    href: ITicketAgent/createdefaultticketentity.md
+  - name: ITicketAgent.CreateDefaultTicketMessageEntity event method
+    href: ITicketAgent/createdefaultticketmessageentity.md
+  - name: ITicketAgent.DeleteTicketEntity event method
+    href: ITicketAgent/deleteticketentity.md
+  - name: ITicketAgent.DeleteTicketMessageEntity event method
+    href: ITicketAgent/deleteticketmessageentity.md
+  - name: ITicketAgent.GetAttachmentEntity event method
+    href: ITicketAgent/getattachmententity.md
+  - name: ITicketAgent.GetAttachmentInfo event method
+    href: ITicketAgent/getattachmentinfo.md
+  - name: ITicketAgent.GetAttachmentStream event method
+    href: ITicketAgent/getattachmentstream.md
+  - name: ITicketAgent.GetTicket event method
+    href: ITicketAgent/getticket.md
+  - name: ITicketAgent.GetTicketAttachments event method
+    href: ITicketAgent/getticketattachments.md
+  - name: ITicketAgent.GetTicketEntity event method
+    href: ITicketAgent/getticketentity.md
+  - name: ITicketAgent.GetTicketMessage event method
+    href: ITicketAgent/getticketmessage.md
+  - name: ITicketAgent.GetTicketMessageEntity event method
+    href: ITicketAgent/getticketmessageentity.md
+  - name: ITicketAgent.GetTickets event method
+    href: ITicketAgent/gettickets.md
+  - name: ITicketAgent.Html2Text event method
+    href: ITicketAgent/html2text.md
+  - name: ITicketAgent.NotifyNewTicket event method
+    href: ITicketAgent/notifynewticket.md
+  - name: ITicketAgent.NotifyNewTicketMessage event method
+    href: ITicketAgent/notifynewticketmessage.md
+  - name: ITicketAgent.SanitizeMailContent event method
+    href: ITicketAgent/sanitizemailcontent.md
+  - name: ITicketAgent.SanitizeMailContents event method
+    href: ITicketAgent/sanitizemailcontents.md
+  - name: ITicketAgent.SaveAttachmentEntity event method
+    href: ITicketAgent/saveattachmententity.md
+  - name: ITicketAgent.SaveTicketEntity event method
+    href: ITicketAgent/saveticketentity.md
+  - name: ITicketAgent.SaveTicketMessageEntity event method
+    href: ITicketAgent/saveticketmessageentity.md
+  - name: ITicketAgent.SendTicketMessage event method
+    href: ITicketAgent/sendticketmessage.md
+  - name: ITicketAgent.SetTicketReadByOwner event method
+    href: ITicketAgent/setticketreadbyowner.md
+  - name: ITicketAgent.UploadAttachment event method
+    href: ITicketAgent/uploadattachment.md
+- name: ITimeZoneAgent
+  href: ITimeZoneAgent/index.md
+  items:
+  - name: ITimeZoneAgent.CheckNewTimeZoneDataAvailable event method
+    href: ITimeZoneAgent/checknewtimezonedataavailable.md
+  - name: ITimeZoneAgent.DeleteTimeZones event method
+    href: ITimeZoneAgent/deletetimezones.md
+  - name: ITimeZoneAgent.GetBaseTimeZoneId event method
+    href: ITimeZoneAgent/getbasetimezoneid.md
+  - name: ITimeZoneAgent.GetDefaultTimeZonePreference event method
+    href: ITimeZoneAgent/getdefaulttimezonepreference.md
+  - name: ITimeZoneAgent.InitializeTimeZoneData event method
+    href: ITimeZoneAgent/initializetimezonedata.md
+  - name: ITimeZoneAgent.SetActiveTimeZoneRow event method
+    href: ITimeZoneAgent/setactivetimezonerow.md
+  - name: ITimeZoneAgent.SetActiveTimeZonesByFilter event method
+    href: ITimeZoneAgent/setactivetimezonesbyfilter.md
+  - name: ITimeZoneAgent.SetBaseTimeZoneId event method
+    href: ITimeZoneAgent/setbasetimezoneid.md
+  - name: ITimeZoneAgent.TimeOfLastTimeZoneUpdate event method
+    href: ITimeZoneAgent/timeoflasttimezoneupdate.md
+  - name: ITimeZoneAgent.ToggleActiveTimeZoneRow event method
+    href: ITimeZoneAgent/toggleactivetimezonerow.md
+  - name: ITimeZoneAgent.UpdateTimeZoneData event method
+    href: ITimeZoneAgent/updatetimezonedata.md
+- name: IUserAgent
+  href: IUserAgent/index.md
+  items:
+  - name: IUserAgent.AddOwnerContact event method
+    href: IUserAgent/addownercontact.md
+  - name: IUserAgent.CanChangePassword event method
+    href: IUserAgent/canchangepassword.md
+  - name: IUserAgent.ChangeOwnPassword event method
+    href: IUserAgent/changeownpassword.md
+  - name: IUserAgent.ChangePassword event method
+    href: IUserAgent/changepassword.md
+  - name: IUserAgent.ChangePasswordFromName event method
+    href: IUserAgent/changepasswordfromname.md
+  - name: IUserAgent.ChangeUserType event method
+    href: IUserAgent/changeusertype.md
+  - name: IUserAgent.CheckAccessGatewayRegistration event method
+    href: IUserAgent/checkaccessgatewayregistration.md
+  - name: IUserAgent.CreateDefaultRoleEntity event method
+    href: IUserAgent/createdefaultroleentity.md
+  - name: IUserAgent.CreateDefaultRoleEntityFromType event method
+    href: IUserAgent/createdefaultroleentityfromtype.md
+  - name: IUserAgent.CreateDefaultServiceAuth event method
+    href: IUserAgent/createdefaultserviceauth.md
+  - name: IUserAgent.CreateDefaultUntrustedCredentials event method
+    href: IUserAgent/createdefaultuntrustedcredentials.md
+  - name: IUserAgent.CreateDefaultUser event method
+    href: IUserAgent/createdefaultuser.md
+  - name: IUserAgent.CreateDefaultUserFromUserType event method
+    href: IUserAgent/createdefaultuserfromusertype.md
+  - name: IUserAgent.CreateDefaultUserFromUserTypeAndCredential event method
+    href: IUserAgent/createdefaultuserfromusertypeandcredential.md
+  - name: IUserAgent.CreateDefaultUserFromUserTypeAndPersonId event method
+    href: IUserAgent/createdefaultuserfromusertypeandpersonid.md
+  - name: IUserAgent.CreateExternalUser event method
+    href: IUserAgent/createexternaluser.md
+  - name: IUserAgent.CreateUserGroup event method
+    href: IUserAgent/createusergroup.md
+  - name: IUserAgent.DecryptAndSaveExternalTokens event method
+    href: IUserAgent/decryptandsaveexternaltokens.md
+  - name: IUserAgent.DeleteCredential event method
+    href: IUserAgent/deletecredential.md
+  - name: IUserAgent.DeleteExternalUser event method
+    href: IUserAgent/deleteexternaluser.md
+  - name: IUserAgent.DeleteRole event method
+    href: IUserAgent/deleterole.md
+  - name: IUserAgent.DeleteServiceAuth event method
+    href: IUserAgent/deleteserviceauth.md
+  - name: IUserAgent.DeleteUser event method
+    href: IUserAgent/deleteuser.md
+  - name: IUserAgent.DeleteUserFromName event method
+    href: IUserAgent/deleteuserfromname.md
+  - name: IUserAgent.DeleteUserGroup event method
+    href: IUserAgent/deleteusergroup.md
+  - name: IUserAgent.ExecuteUserCommand event method
+    href: IUserAgent/executeusercommand.md
+  - name: IUserAgent.FindCredentialsGroups event method
+    href: IUserAgent/findcredentialsgroups.md
+  - name: IUserAgent.FindCredentialUsers event method
+    href: IUserAgent/findcredentialusers.md
+  - name: IUserAgent.FindRolesWithFunctionalRight event method
+    href: IUserAgent/findroleswithfunctionalright.md
+  - name: IUserAgent.FindRolesWithFunctionalRights event method
+    href: IUserAgent/findroleswithfunctionalrights.md
+  - name: IUserAgent.FindRolesWithoutFunctionalRights event method
+    href: IUserAgent/findroleswithoutfunctionalrights.md
+  - name: IUserAgent.GenerateNewPasswordForExternalUser event method
+    href: IUserAgent/generatenewpasswordforexternaluser.md
+  - name: IUserAgent.GetAccessGatewayInfo event method
+    href: IUserAgent/getaccessgatewayinfo.md
+  - name: IUserAgent.GetAccessToken event method
+    href: IUserAgent/getaccesstoken.md
+  - name: IUserAgent.GetAllFunctionalRights event method
+    href: IUserAgent/getallfunctionalrights.md
+  - name: IUserAgent.GetAllRoles event method
+    href: IUserAgent/getallroles.md
+  - name: IUserAgent.GetAllUserGroups event method
+    href: IUserAgent/getallusergroups.md
+  - name: IUserAgent.GetCredentialTypes event method
+    href: IUserAgent/getcredentialtypes.md
+  - name: IUserAgent.GetCredentialTypesForUserType event method
+    href: IUserAgent/getcredentialtypesforusertype.md
+  - name: IUserAgent.GetCredentialUsersInGroup event method
+    href: IUserAgent/getcredentialusersingroup.md
+  - name: IUserAgent.GetDataRight event method
+    href: IUserAgent/getdataright.md
+  - name: IUserAgent.GetDataRights event method
+    href: IUserAgent/getdatarights.md
+  - name: IUserAgent.GetDefaultAssociateUserName event method
+    href: IUserAgent/getdefaultassociateusername.md
+  - name: IUserAgent.GetExternalTokens event method
+    href: IUserAgent/getexternaltokens.md
+  - name: IUserAgent.GetFunctionalRights event method
+    href: IUserAgent/getfunctionalrights.md
+  - name: IUserAgent.GetRole event method
+    href: IUserAgent/getrole.md
+  - name: IUserAgent.GetRoleEntity event method
+    href: IUserAgent/getroleentity.md
+  - name: IUserAgent.GetServiceAuth event method
+    href: IUserAgent/getserviceauth.md
+  - name: IUserAgent.GetUntrustedCredentials event method
+    href: IUserAgent/getuntrustedcredentials.md
+  - name: IUserAgent.GetUntrustedCredentialsForAssociate event method
+    href: IUserAgent/getuntrustedcredentialsforassociate.md
+  - name: IUserAgent.GetUser event method
+    href: IUserAgent/getuser.md
+  - name: IUserAgent.GetUserCommands event method
+    href: IUserAgent/getusercommands.md
+  - name: IUserAgent.GetUserFromEjUserId event method
+    href: IUserAgent/getuserfromejuserid.md
+  - name: IUserAgent.GetUserFromName event method
+    href: IUserAgent/getuserfromname.md
+  - name: IUserAgent.GetUserFromPersonId event method
+    href: IUserAgent/getuserfrompersonid.md
+  - name: IUserAgent.GetUserGroup event method
+    href: IUserAgent/getusergroup.md
+  - name: IUserAgent.GetUserGroupList event method
+    href: IUserAgent/getusergrouplist.md
+  - name: IUserAgent.GetUserInfo event method
+    href: IUserAgent/getuserinfo.md
+  - name: IUserAgent.GetUserInfoList event method
+    href: IUserAgent/getuserinfolist.md
+  - name: IUserAgent.GetValidUserName event method
+    href: IUserAgent/getvalidusername.md
+  - name: IUserAgent.GetValidUserNameForNewUser event method
+    href: IUserAgent/getvalidusernamefornewuser.md
+  - name: IUserAgent.IsNickNameUnique event method
+    href: IUserAgent/isnicknameunique.md
+  - name: IUserAgent.IsPasswordValid event method
+    href: IUserAgent/ispasswordvalid.md
+  - name: IUserAgent.IsPasswordValidWithReason event method
+    href: IUserAgent/ispasswordvalidwithreason.md
+  - name: IUserAgent.IsUserNameValid event method
+    href: IUserAgent/isusernamevalid.md
+  - name: IUserAgent.IsUserNameValidWithReason event method
+    href: IUserAgent/isusernamevalidwithreason.md
+  - name: IUserAgent.MakeRetired event method
+    href: IUserAgent/makeretired.md
+  - name: IUserAgent.RegisterWithAccessGateway event method
+    href: IUserAgent/registerwithaccessgateway.md
+  - name: IUserAgent.RemoveLicenses event method
+    href: IUserAgent/removelicenses.md
+  - name: IUserAgent.RemoveOwnerContact event method
+    href: IUserAgent/removeownercontact.md
+  - name: IUserAgent.RemoveUntrustedCredentials event method
+    href: IUserAgent/removeuntrustedcredentials.md
+  - name: IUserAgent.RemoveUntrustedCredentialsForAssociate event method
+    href: IUserAgent/removeuntrustedcredentialsforassociate.md
+  - name: IUserAgent.ResolveUserFromInfo event method
+    href: IUserAgent/resolveuserfrominfo.md
+  - name: IUserAgent.SaveCredential event method
+    href: IUserAgent/savecredential.md
+  - name: IUserAgent.SaveExternalTokens event method
+    href: IUserAgent/saveexternaltokens.md
+  - name: IUserAgent.SaveRoleEntity event method
+    href: IUserAgent/saveroleentity.md
+  - name: IUserAgent.SaveServiceAuth event method
+    href: IUserAgent/saveserviceauth.md
+  - name: IUserAgent.SaveUntrustedCredentials event method
+    href: IUserAgent/saveuntrustedcredentials.md
+  - name: IUserAgent.SaveUntrustedCredentialsForAssociate event method
+    href: IUserAgent/saveuntrustedcredentialsforassociate.md
+  - name: IUserAgent.SaveUser event method
+    href: IUserAgent/saveuser.md
+  - name: IUserAgent.SaveUserFromName event method
+    href: IUserAgent/saveuserfromname.md
+  - name: IUserAgent.SaveUserGroup event method
+    href: IUserAgent/saveusergroup.md
+  - name: IUserAgent.SetDataRight event method
+    href: IUserAgent/setdataright.md
+  - name: IUserAgent.SetExternalUserInfo event method
+    href: IUserAgent/setexternaluserinfo.md
+  - name: IUserAgent.SetFunctionalRights event method
+    href: IUserAgent/setfunctionalrights.md
+  - name: IUserAgent.SetGeneratedPassword event method
+    href: IUserAgent/setgeneratedpassword.md
+  - name: IUserAgent.SetGeneratedPasswordFromName event method
+    href: IUserAgent/setgeneratedpasswordfromname.md
+  - name: IUserAgent.SetPassword event method
+    href: IUserAgent/setpassword.md
+  - name: IUserAgent.SetPasswordFromName event method
+    href: IUserAgent/setpasswordfromname.md
+  - name: IUserAgent.ValidateUser event method
+    href: IUserAgent/validateuser.md
+- name: IUserDefinedFieldInfoAgent
+  href: IUserDefinedFieldInfoAgent/index.md
+  items:
+  - name: IUserDefinedFieldInfoAgent.ChangeFieldType event method
+    href: IUserDefinedFieldInfoAgent/changefieldtype.md
+  - name: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/createdefaultuserdefinedfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/createuserdefinedfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/deleteuserdefinedfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.DetectColumnIdChanges event method
+    href: IUserDefinedFieldInfoAgent/detectcolumnidchanges.md
+  - name: IUserDefinedFieldInfoAgent.DetectUnpublishedChanges event method
+    href: IUserDefinedFieldInfoAgent/detectunpublishedchanges.md
+  - name: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId event method
+    href: IUserDefinedFieldInfoAgent/figureoutlistidfromlisttableidandudlistdefinitionid.md
+  - name: IUserDefinedFieldInfoAgent.GetChangedPageOneFields event method
+    href: IUserDefinedFieldInfoAgent/getchangedpageonefields.md
+  - name: IUserDefinedFieldInfoAgent.GetCustomFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/getcustomfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList event method
+    href: IUserDefinedFieldInfoAgent/getcustomfieldinfolist.md
+  - name: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel event method
+    href: IUserDefinedFieldInfoAgent/getpublisheduserdefinedfieldfromfieldlabel.md
+  - name: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId event method
+    href: IUserDefinedFieldInfoAgent/getpublisheduserdefinedfieldfromprogid.md
+  - name: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList event method
+    href: IUserDefinedFieldInfoAgent/getpublisheduserdefinedfieldlist.md
+  - name: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields event method
+    href: IUserDefinedFieldInfoAgent/getpublisheduserdefinedpageonefields.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldfromfieldlabel.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldfromids.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldfromprogid.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldfromprogids.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedFieldList event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedfieldlist.md
+  - name: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields event method
+    href: IUserDefinedFieldInfoAgent/getuserdefinedpageonefields.md
+  - name: IUserDefinedFieldInfoAgent.IsAnyPublishEventActive event method
+    href: IUserDefinedFieldInfoAgent/isanypublisheventactive.md
+  - name: IUserDefinedFieldInfoAgent.IsPublishEventActive event method
+    href: IUserDefinedFieldInfoAgent/ispublisheventactive.md
+  - name: IUserDefinedFieldInfoAgent.Publish event method
+    href: IUserDefinedFieldInfoAgent/publish.md
+  - name: IUserDefinedFieldInfoAgent.Revert event method
+    href: IUserDefinedFieldInfoAgent/revert.md
+  - name: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo event method
+    href: IUserDefinedFieldInfoAgent/saveuserdefinedfieldinfo.md
+  - name: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos event method
+    href: IUserDefinedFieldInfoAgent/saveuserdefinedfieldinfos.md
+  - name: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId event method
+    href: IUserDefinedFieldInfoAgent/setlisttableidandudlistdefinitionidfromselectedlistid.md
+  - name: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping event method
+    href: IUserDefinedFieldInfoAgent/setpageonefieldgrouping.md
+  - name: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent event method
+    href: IUserDefinedFieldInfoAgent/setpublishstartsystemevent.md
+  - name: IUserDefinedFieldInfoAgent.SetRankOnFields event method
+    href: IUserDefinedFieldInfoAgent/setrankonfields.md
+  - name: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField event method
+    href: IUserDefinedFieldInfoAgent/setuserdefinedpageonefield.md
+- name: IViewStateAgent
+  href: IViewStateAgent/index.md
+  items:
+  - name: IViewStateAgent.DeleteHistory event method
+    href: IViewStateAgent/deletehistory.md
+  - name: IViewStateAgent.GetCurrent event method
+    href: IViewStateAgent/getcurrent.md
+  - name: IViewStateAgent.GetHistories event method
+    href: IViewStateAgent/gethistories.md
+  - name: IViewStateAgent.GetHistoriesByName event method
+    href: IViewStateAgent/gethistoriesbyname.md
+  - name: IViewStateAgent.GetHistoriesByNames event method
+    href: IViewStateAgent/gethistoriesbynames.md
+  - name: IViewStateAgent.GetHistoriesByNamesAndIds event method
+    href: IViewStateAgent/gethistoriesbynamesandids.md
+  - name: IViewStateAgent.GetHistory event method
+    href: IViewStateAgent/gethistory.md
+  - name: IViewStateAgent.GetHistoryLengthPrefValue event method
+    href: IViewStateAgent/gethistorylengthprefvalue.md
+  - name: IViewStateAgent.GetNextCurrent event method
+    href: IViewStateAgent/getnextcurrent.md
+  - name: IViewStateAgent.GetPreviousCurrent event method
+    href: IViewStateAgent/getpreviouscurrent.md
+  - name: IViewStateAgent.SaveCurrent event method
+    href: IViewStateAgent/savecurrent.md
+  - name: IViewStateAgent.SaveCurrents event method
+    href: IViewStateAgent/savecurrents.md
+  - name: IViewStateAgent.SaveHistories event method
+    href: IViewStateAgent/savehistories.md
+  - name: IViewStateAgent.SetHistoryLengthPrefValue event method
+    href: IViewStateAgent/sethistorylengthprefvalue.md
+- name: IWebhookAgent
+  href: IWebhookAgent/index.md
+  items:
+  - name: IWebhookAgent.CreateDefaultWebhook event method
+    href: IWebhookAgent/createdefaultwebhook.md
+  - name: IWebhookAgent.DeleteWebhook event method
+    href: IWebhookAgent/deletewebhook.md
+  - name: IWebhookAgent.GetAllWebhooks event method
+    href: IWebhookAgent/getallwebhooks.md
+  - name: IWebhookAgent.GetLastError event method
+    href: IWebhookAgent/getlasterror.md
+  - name: IWebhookAgent.GetWebhook event method
+    href: IWebhookAgent/getwebhook.md
+  - name: IWebhookAgent.SaveWebhook event method
+    href: IWebhookAgent/savewebhook.md
+  - name: IWebhookAgent.SignalEvent event method
+    href: IWebhookAgent/signalevent.md
+  - name: IWebhookAgent.TestWebhook event method
+    href: IWebhookAgent/testwebhook.md
