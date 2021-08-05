@@ -2,7 +2,7 @@
 title: Insert records
 description: How to insert large numbers of records in bulk.
 author: AnthonyYates
-so.date: 29.02.2021
+so.date: 02.29.2021
 keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 ---

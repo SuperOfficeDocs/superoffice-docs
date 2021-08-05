@@ -3,7 +3,7 @@ title: How to import data into Excel
 uid: import_to_excel
 description: How to import data into Excel
 author: Tony Yates
-so-date: 15 Oct 2020
+so-date: 10.15.2020
 keywords:
 so.topic: tutorial
 so.envir: cloud

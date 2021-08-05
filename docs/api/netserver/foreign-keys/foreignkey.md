@@ -2,7 +2,7 @@
 title: foreignkey
 description: ForeignKeys – to fluent or not to fluent, that is the question
 author: Tony Yates
-so-date: 26 Dec 2009
+so-date: 12.26.2009
 keywords:
 so.topic:
 so.envir: cloud

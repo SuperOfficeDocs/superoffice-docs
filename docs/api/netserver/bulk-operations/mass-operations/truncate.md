@@ -2,7 +2,7 @@
 title: Truncate table
 description: How to truncate a table.
 author: AnthonyYates
-so.date: 29.02.2021
+so.date: 02.29.2021
 keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 so.topic: howto

@@ -2,7 +2,7 @@
 title: Understanding NetServer
 description: Understanding NetServer
 author: AnthonyYates
-so.date: 15.04.2021
+so.date: 04.15.2021
 keywords:
 so.topic: concept
 ---

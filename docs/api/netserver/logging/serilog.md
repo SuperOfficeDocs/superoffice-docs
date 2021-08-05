@@ -2,7 +2,7 @@
 uid: logging_serilog
 title: SuperOffice.Serilog
 author: xt1
-so.date: 2021-05-07
+so.date: 05.07.2021
 keywords: logging
 so.topic: concept
 ---
