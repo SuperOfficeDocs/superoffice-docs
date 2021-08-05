@@ -2,7 +2,7 @@
 uid: chatbot_overview
 title: Chatbot overview
 author: christianm
-so.date: 2021-03-08
+so.date: 03.08.2021
 keywords: chatbot, ai
 so.topic: concept
 ---

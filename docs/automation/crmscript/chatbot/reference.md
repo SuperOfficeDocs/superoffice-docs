@@ -3,7 +3,7 @@ uid: chatbot_reference_registration
 title: Chatbot Scripts Reference
 description: Chatbot scripts reference
 author: christianm
-so.date: 2021-03-29
+so.date: 03.08.2021
 keywords: chatbot, ai
 so.topic: reference
 ---
