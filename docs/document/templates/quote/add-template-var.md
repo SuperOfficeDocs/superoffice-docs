@@ -5,7 +5,7 @@ description: Quote Template - Insert template variables
 author: Terje Nøstdahl
 keywords:
 so.topic: howto
-so.date: 27.06.2014
+so.date: 06.27.2014
 ---
 
 # How you add template variables into a quote template

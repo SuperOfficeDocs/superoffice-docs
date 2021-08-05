@@ -5,7 +5,7 @@ description: Expanding quick search functionality
 author: Hans Wilhelmsen
 keywords:
 so.topic: howto
-so.date: 30 Sep 2013
+so.date: 09.30.2013
 ---
 
 # Expanding quick search functionality
