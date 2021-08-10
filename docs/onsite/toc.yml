@@ -126,6 +126,8 @@ items:
       href: install/database/dbsetup-exe.md
     - name: Batch task server
       href: batch-task-server.md
+    - name: SuperOffice Reports
+      href: Reports.md      
     - name: Command line switches
       href: command-line-switches.md
     - name: Files
