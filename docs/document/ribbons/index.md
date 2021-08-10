@@ -1,5 +1,5 @@
 ---
-title: ribbons
+title: SuperOffice Ribbons
 description: SuperOffice Ribbons
 author: {github-id}
 keywords:
