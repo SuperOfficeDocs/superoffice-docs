@@ -32,12 +32,43 @@ inside the same brackets |
 
 ### Functions
 
-[!include[ALT](../../../searchengine/includes/functions.md)]
+| Function | Other name | Applies to     | bypassNetServer | Description |
+|----------|------------|----------------|:---------------:|-------------|
+| avg      | FuncAvg    | Integer, Float |     yes         | aggregate, the average value of a column          |
+| count    | FuncCount  | Integer, Float |     yes         | aggregate, the number of rows matching cond.            |
+| sum      | FuncSum    | Integer, Float |     yes         |aggregate, the total sum of a column            |
+| max      | FuncMax    | Integer, Float |     yes         | aggregate, the largest value of a column            |
+| min      | FuncMin    | Time, DateTime |                 |            |
+| hour     | FuncHour   | Time, DateTime |                 |            |
+| wday     | FuncWDay   | Date, DateTime |                 |            |
+| upper    | FuncUpper  | String         |                 |            |
+| lower    | FuncLower  | String         |                 |            |
 
 ### Row operators
 
-[!include[ALT](../../../searchengine/includes/row-operators.md)]
+| Value          | Logical operator | Expression  | Result                                     |
+|----------------|:----------------:|:-----------:|--------------------------------------------|
+| OperatorAnd    | AND              | A && B      | Only rows matching both conditions         |
+| OperatorNotAnd | NAND             | !(A && B)   | Rows matching 0 or 1 condition but not both |
+| OperatorOr     | OR               | A \|\| B    | Rows matching either condition (or both)   |
+| OperatorNotOr  | NOR              | !(A \|\| B) | Only rows matching no conditions |
 
 ### Comparison operators
 
-[!include[ALT](../../../searchengine/includes/comp-operators.md)]
+| Value              | Same as | Result                         |
+|--------------------|:-------:|--------------------------------|
+| OperatorEquals     | ==      | values match                   |
+| OperatorNotEquals  | !=      | values don't match             |
+| OperatorLt         | <       | value less than                |
+| OperatorLte        | <=      | value less than or equal       |
+| OperatorGt         | >       | value greater than             |
+| OperatorGte        | >=      | value greater than or equal    |
+| OperatorIs         |         | values of the same type        |
+| OperatorIsNot      |         | values of different types      |
+| OperatorLike       |         | pattern found in string        |
+| OperatorNotLike    |         | pattern not found in string    |
+| OperatorContains   |         | string is present              |
+| OperatorBeginsWith |         | string starts with             |
+| OperatorEndsWith   |         | string ends with               |
+| OperatorIn         |         | column has entries in table    |
+| OperatorNotIn      |         | column has no entries in table |
