@@ -1,7 +1,7 @@
 ---
-title: Install Windows client
+title: Install SuperOffice 8 Windows client
 uid: install_win_client
-description: Install Windows client
+description: Install SuperOffice 8 Windows client
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,23 +9,23 @@ so.envir: onsite
 so.client: win
 ---
 
-# Install Windows client
+# Install SuperOffice 8 Windows client
 
-From SuperOffice 8 the SuperOffice Windows Client is an app, which you need to be assigned rights to in the *Settings and Maintenance > user* section of SuperOffice Web.
+From SuperOffice 8 the SuperOffice Windows Client is an app, which you need to be assigned rights to in the *Settings and Maintenance > User* section of SuperOffice Web.
 
-Client installers are found on the SuperOffice CRM Server in the *Client* folder.
+The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
 [!include[Warning legacy](../../includes/warn-win-client-discontinued.md)]
 
 ## MSI Installer
 
-Contains SuperOffice Windows client, MailLink, Ribbons, Travel Gateway, Mail Gateway.
+MSI installer contains SuperOffice Windows client, MailLink, Ribbons, Travel Gateway and Mail Gateway.
 
-Performs: Copies installation files, adds registry settings, and program shortcuts.
+It copies installation files, adds registry settings, and program shortcuts.
 
 ## Installer
 
-All installation tasks are performed by the installer found in the folder *SuperOffice Server\Client*
+All installation tasks are performed by the installer found in the folder *SuperOffice Server\Client*.
 
 To install the client run the MSI Installer SuperOffice8.exe found in the *SuperOffice Server\Client* folder.
 
