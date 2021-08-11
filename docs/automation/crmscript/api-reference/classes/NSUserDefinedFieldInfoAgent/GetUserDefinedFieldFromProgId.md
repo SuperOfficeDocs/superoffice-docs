@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
 title: NSUserDefinedFieldInfo GetUserDefinedFieldFromProgId(String progId, Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
 keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldFromProgId
 so.topic: reference
 ---
+
+# NSUserDefinedFieldInfo GetUserDefinedFieldFromProgId(String progId, Integer ownerType)
 
 Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
 

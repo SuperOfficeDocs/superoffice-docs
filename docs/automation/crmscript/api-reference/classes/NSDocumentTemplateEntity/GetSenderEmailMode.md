@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_GetSenderEmailMode
 title: NSSenderMailMode GetSenderEmailMode()
 intellisense: NSDocumentTemplateEntity.GetSenderEmailMode
 keywords: NSDocumentTemplateEntity, GetSenderEmailMode
 so.topic: reference
 ---
+
+# NSSenderMailMode GetSenderEmailMode()
 
 If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address
 
@@ -19,5 +21,4 @@ If email template, when DocType is Privacy or quote email, it is possible to mak
 NSDocumentTemplateEntity thing;
 NSSenderMailMode senderEmailMode  = thing.GetSenderEmailMode();
 ```
-
 

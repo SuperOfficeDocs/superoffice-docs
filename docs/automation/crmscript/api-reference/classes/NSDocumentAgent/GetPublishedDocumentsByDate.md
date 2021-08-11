@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetPublishedDocumentsByDate
 title: NSDocument[] GetPublishedDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetPublishedDocumentsByDate
 keywords: NSDocumentAgent, GetPublishedDocumentsByDate
 so.topic: reference
 ---
+
+# NSDocument[] GetPublishedDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 
 Method that returns a specified number of published document appointments within a time range. The document appointments is visible to the person specified or the document is in a project the person belongs to. 
 

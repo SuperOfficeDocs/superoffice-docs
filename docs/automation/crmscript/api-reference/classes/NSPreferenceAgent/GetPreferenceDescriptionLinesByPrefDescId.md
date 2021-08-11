@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
 title: NSPreferenceDescriptionLine[] GetPreferenceDescriptionLinesByPrefDescId(Integer prefDescId)
 intellisense: NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
 keywords: NSPreferenceAgent, GetPreferenceDescriptionLinesByPrefDescId
 so.topic: reference
 ---
+
+# NSPreferenceDescriptionLine[] GetPreferenceDescriptionLinesByPrefDescId(Integer prefDescId)
 
 Get all preference description lines from a prefDesc_id
 

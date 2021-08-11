@@ -6,14 +6,11 @@ sortOrder: 272
 so.topic: reference
 ---
 
+# EabEntry
 
 This class enables you to read and write entries from the email address book. It is also used when you want to synchronise the address book using DBI.
 
-
-
-
 ## Example
-
 
     EabEntry e;
     

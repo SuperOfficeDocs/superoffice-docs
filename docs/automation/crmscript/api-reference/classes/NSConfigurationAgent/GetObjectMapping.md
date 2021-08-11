@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetObjectMapping
 title: String GetObjectMapping(String application, String instance)
 intellisense: NSConfigurationAgent.GetObjectMapping
 keywords: NSConfigurationAgent, GetObjectMapping
 so.topic: reference
 ---
+
+# String GetObjectMapping(String application, String instance)
 
 Get the object mappings, i.e., the what code objects should be instantiated to handle the entities of the client configuration.
 

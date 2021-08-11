@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetParticipantInfoFromEmailAddress
 title: NSPerson GetParticipantInfoFromEmailAddress(String emailAddress, Integer appointmentId)
 intellisense: NSEMailAgent.GetParticipantInfoFromEmailAddress
 keywords: NSEMailAgent, GetParticipantInfoFromEmailAddress
 so.topic: reference
 ---
+
+# NSPerson GetParticipantInfoFromEmailAddress(String emailAddress, Integer appointmentId)
 
 Get participant data associated with the participant in the emails iCal attachment
 

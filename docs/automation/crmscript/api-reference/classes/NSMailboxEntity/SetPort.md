@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailboxEntity_SetPort
 title: SetPort(Integer port)
 intellisense: NSMailboxEntity.SetPort
 keywords: NSMailboxEntity, GetPort
 so.topic: reference
 ---
+
+# SetPort(Integer port)
 
 The port used to connect to the server
 

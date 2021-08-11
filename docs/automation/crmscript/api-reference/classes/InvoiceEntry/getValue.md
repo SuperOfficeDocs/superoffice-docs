@@ -7,14 +7,11 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# InvoiceEntry.getValue(String field)
 
 Get the value of the specifed field.
 
-
-
-
 ## Available fields
-
 
  - messageId the id which this invoice entry is connected to
  - description the descriptive text of this invoice entry
@@ -25,15 +22,9 @@ Get the value of the specifed field.
  - discountMoney discount in money (precision 2)
  - date the date for this invoice entry
 
-
-
-
 ## Parameters
-
 
  - field: Name of the field which contains the value
 
-
 Returns the value of the field.
-
 

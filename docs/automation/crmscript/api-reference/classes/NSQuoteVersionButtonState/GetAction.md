@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersionButtonState_GetAction
 title: Integer GetAction()
 intellisense: NSQuoteVersionButtonState.GetAction
 keywords: NSQuoteVersionButtonState, GetAction
 so.topic: reference
 ---
+
+# Integer GetAction()
 
 Action for the button
 
@@ -27,5 +29,4 @@ Action for the button
 NSQuoteVersionButtonState thing;
 Integer action  = thing.GetAction();
 ```
-
 

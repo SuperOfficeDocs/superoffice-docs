@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveList2
 title: NSArchiveListItem[] GetArchiveList2(String guiName, String providerName, String sortOrder, String restriction, String entities, Integer page, Integer pageSize)
 intellisense: NSArchiveAgent.GetArchiveList2
 keywords: NSArchiveAgent, GetArchiveList2
 so.topic: reference
 ---
+
+# NSArchiveListItem[] GetArchiveList2(String guiName, String providerName, String sortOrder, String restriction, String entities, Integer page, Integer pageSize)
 
 Get a page of data for an archive using a restriction string. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
 

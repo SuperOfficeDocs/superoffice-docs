@@ -6,6 +6,5 @@ keywords: SetSaleTypeName(String)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetSaleTypeName(String p_0)
 

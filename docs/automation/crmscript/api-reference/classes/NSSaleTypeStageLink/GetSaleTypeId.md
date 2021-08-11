@@ -6,6 +6,5 @@ keywords: GetSaleTypeId()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetSaleTypeId()
 

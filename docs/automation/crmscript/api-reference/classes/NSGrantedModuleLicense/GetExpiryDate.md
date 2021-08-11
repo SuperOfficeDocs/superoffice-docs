@@ -7,6 +7,5 @@ keywords: GetExpiryDate()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetExpiryDate()
 

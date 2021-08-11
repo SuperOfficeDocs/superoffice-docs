@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_Undelete
 title: Void Undelete(Integer id)
 intellisense: NSPersonAgent.Undelete
 keywords: NSPersonAgent, Undelete
 so.topic: reference
 ---
+
+# Void Undelete(Integer id)
 
 This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record
 

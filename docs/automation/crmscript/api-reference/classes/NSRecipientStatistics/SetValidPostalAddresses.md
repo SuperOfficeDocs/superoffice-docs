@@ -6,7 +6,7 @@ keywords: SetValidPostalAddresses(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetValidPostalAddresses(Integer p_0)
 
 Number of members with a valid postal address.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceAgent_ActivateResourceSubstitution
 title: Void ActivateResourceSubstitution(String resourceName, String culture, Bool isActive)
 intellisense: NSResourceAgent.ActivateResourceSubstitution
 keywords: NSResourceAgent, ActivateResourceSubstitution
 so.topic: reference
 ---
+
+# Void ActivateResourceSubstitution(String resourceName, String culture, Bool isActive)
 
 Activate or deactive a resource substitution for one or more cultures
 

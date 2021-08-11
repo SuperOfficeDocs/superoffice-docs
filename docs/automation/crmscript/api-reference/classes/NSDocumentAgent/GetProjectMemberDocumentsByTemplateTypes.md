@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetProjectMemberDocumentsByTemplateTypes
 title: NSDocument[] GetProjectMemberDocumentsByTemplateTypes(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
 intellisense: NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes
 keywords: NSDocumentAgent, GetProjectMemberDocumentsByTemplateTypes
 so.topic: reference
 ---
+
+# NSDocument[] GetProjectMemberDocumentsByTemplateTypes(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the project member specified. 
 

@@ -7,7 +7,7 @@ keywords: toString()
 so.topic: reference
 ---
 
+# Byte.toString()
 
 Returns the value of a Byte to a string.
-
 

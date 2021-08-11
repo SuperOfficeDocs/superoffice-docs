@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetPreviewAttachmentFromDocId
 title: NSEMailAttachment GetPreviewAttachmentFromDocId(Integer docId, String attachmentId)
 intellisense: NSEMailAgent.GetPreviewAttachmentFromDocId
 keywords: NSEMailAgent, GetPreviewAttachmentFromDocId
 so.topic: reference
 ---
+
+# NSEMailAttachment GetPreviewAttachmentFromDocId(Integer docId, String attachmentId)
 
 Retrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview.
 

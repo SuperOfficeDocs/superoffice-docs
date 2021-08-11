@@ -6,7 +6,7 @@ keywords: SetNoAddresses(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetNoAddresses(Integer p_0)
 
 Number of members with an invalid address.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_GetStatus
 title: NSChatSessionStatus GetStatus()
 intellisense: NSChatSessionEntity.GetStatus
 keywords: NSChatSessionEntity, GetStatus
 so.topic: reference
 ---
+
+# NSChatSessionStatus GetStatus()
 
 Enum indicating the status for the session (pending, active, closed, etc).
 
@@ -27,5 +29,4 @@ Enum indicating the status for the session (pending, active, closed, etc).
 NSChatSessionEntity thing;
 NSChatSessionStatus status  = thing.GetStatus();
 ```
-
 

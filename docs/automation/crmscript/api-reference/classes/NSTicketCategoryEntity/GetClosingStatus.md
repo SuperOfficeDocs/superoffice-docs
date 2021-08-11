@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketCategoryEntity_GetClosingStatus
 title: Integer GetClosingStatus()
 intellisense: NSTicketCategoryEntity.GetClosingStatus
 keywords: NSTicketCategoryEntity, GetClosingStatus
 so.topic: reference
 ---
+
+# Integer GetClosingStatus()
 
 An integer indicating if new requests should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.
 
@@ -19,5 +21,4 @@ An integer indicating if new requests should have the &apos;close request&apos; 
 NSTicketCategoryEntity thing;
 Integer closingStatus  = thing.GetClosingStatus();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GenerateQuoteDocuments
 title: NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
 intellisense: NSQuoteAgent.GenerateQuoteDocuments
 keywords: NSQuoteAgent, GenerateQuoteDocuments
 so.topic: reference
 ---
+
+# NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
 
 Generate all the documents required to send the Quote as an email to the prospect - or an Order Confirmation; it just depends on the template id's for the lines doc and mail body. Quote version status is not changed by this method.
 

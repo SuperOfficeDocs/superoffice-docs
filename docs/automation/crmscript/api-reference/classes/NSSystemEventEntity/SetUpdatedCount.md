@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSystemEventEntity_SetUpdatedCount
 title: SetUpdatedCount(Integer updatedCount)
 intellisense: NSSystemEventEntity.SetUpdatedCount
 keywords: NSSystemEventEntity, GetUpdatedCount
 so.topic: reference
 ---
+
+# SetUpdatedCount(Integer updatedCount)
 
 Number of updates made to this record
 

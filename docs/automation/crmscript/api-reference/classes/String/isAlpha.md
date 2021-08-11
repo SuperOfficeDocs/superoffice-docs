@@ -6,11 +6,9 @@ keywords: isAlpha()
 so.topic: reference
 ---
 
+# String.isAlpha()
 
 Determine if the string contains only alphabetic characters.
 
-
-
 * **Returns:** Return true if the string only contains alphabetic characters.
-
 

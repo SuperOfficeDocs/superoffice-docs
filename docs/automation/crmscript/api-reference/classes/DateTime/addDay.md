@@ -7,16 +7,13 @@ keywords: addDay(Integer)
 so.topic: reference
 ---
 
+# DateTime.addDay(Integer num)
+
 Adds num days to the date and returns datetime object.
-
-
 
 ## Parameters
 
-
  - num: the number of days to add.
 
-
 Returns a copy of the datetime after adding the wanted days
-
 

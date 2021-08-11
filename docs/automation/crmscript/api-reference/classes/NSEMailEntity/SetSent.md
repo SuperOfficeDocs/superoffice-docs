@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_SetSent
 title: SetSent(DateTime sent)
 intellisense: NSEMailEntity.SetSent
 keywords: NSEMailEntity, GetSent
 so.topic: reference
 ---
+
+# SetSent(DateTime sent)
 
 When was the e-mail sent
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChangedDataItem_SetRecordId
 title: SetRecordId(Integer recordId)
 intellisense: NSChangedDataItem.SetRecordId
 keywords: NSChangedDataItem, GetRecordId
 so.topic: reference
 ---
+
+# SetRecordId(Integer recordId)
 
 Id of record, should never be 0
 

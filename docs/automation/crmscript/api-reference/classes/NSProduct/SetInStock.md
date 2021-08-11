@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetInStock
 title: SetInStock(Float inStock)
 intellisense: NSProduct.SetInStock
 keywords: NSProduct, GetInStock
 so.topic: reference
 ---
+
+# SetInStock(Float inStock)
 
 Negative numbers will be interpreted as how many is ordered. Might not be available.
 

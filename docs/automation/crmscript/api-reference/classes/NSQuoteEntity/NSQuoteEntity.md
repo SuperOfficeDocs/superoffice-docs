@@ -1,9 +1,11 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteEntity
 title: NSQuoteEntity
 intellisense: Void.NSQuoteEntity
 keywords: NSQuoteEntity
 so.topic: reference
 ---
+
+# NSQuoteEntity
 
 Quote methods

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRights
 title: Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
 intellisense: NSUserAgent.FindRolesWithFunctionalRights
 keywords: NSUserAgent, FindRolesWithFunctionalRights
 so.topic: reference
 ---
+
+# Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
 
 Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights. 
 

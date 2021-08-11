@@ -1,4 +1,5 @@
 ---
+title: String getProgramDocument()
 description: String getProgramDocument()
 intellisense: Void.getProgramDocument
 langref: 1
@@ -6,11 +7,8 @@ keywords: getProgramDocument()
 so.topic: reference
 ---
 
+# String getProgramDocument()
 
-Returns the url of the program module specified after getProgram.
+Returns the URL of the program module specified after getProgram.
 
-
-
-* **Returns:** The url for the given program.
-
-
+* **Returns:** The URL for the given program.

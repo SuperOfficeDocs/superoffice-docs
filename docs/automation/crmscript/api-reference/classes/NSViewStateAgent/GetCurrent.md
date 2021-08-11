@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSViewStateAgent_GetCurrent
 title: NSHistory GetCurrent(String historyName)
 intellisense: NSViewStateAgent.GetCurrent
 keywords: NSViewStateAgent, GetCurrent
 so.topic: reference
 ---
+
+# NSHistory GetCurrent(String historyName)
 
 Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
 

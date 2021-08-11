@@ -6,6 +6,5 @@ keywords: SetBranchName(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetBranchName(String p_0)
 

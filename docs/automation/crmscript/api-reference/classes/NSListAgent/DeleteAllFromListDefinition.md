@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteAllFromListDefinition
 title: Void DeleteAllFromListDefinition(Integer udListDefinitionId)
 intellisense: NSListAgent.DeleteAllFromListDefinition
 keywords: NSListAgent, DeleteAllFromListDefinition
 so.topic: reference
 ---
+
+# Void DeleteAllFromListDefinition(Integer udListDefinitionId)
 
 Marks all items in the list deleted
 

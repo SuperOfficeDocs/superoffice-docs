@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_SetAssignmentStatus
 title: SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAlarmData.SetAssignmentStatus
 keywords: NSAlarmData, GetAssignmentStatus
 so.topic: reference
 ---
+
+# SetAssignmentStatus(Integer assignmentStatus)
 
 Status if this appointment is in the process of being assigned to someone else
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteList
 title: NSQuoteListItem[] GetQuoteList(String quoteListType)
 intellisense: NSQuoteAgent.GetQuoteList
 keywords: NSQuoteAgent, GetQuoteList
 so.topic: reference
 ---
+
+# NSQuoteListItem[] GetQuoteList(String quoteListType)
 
 Gets a named list from the connector Return array of QuoteListItems. Return NULL if the given list is not supported.
 

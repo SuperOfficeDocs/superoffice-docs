@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_DeleteTempFile
 title: Void DeleteTempFile(String filename)
 intellisense: NSDocumentAgent.DeleteTempFile
 keywords: NSDocumentAgent, DeleteTempFile
 so.topic: reference
 ---
+
+# Void DeleteTempFile(String filename)
 
 Delete a temporary file created with CreateTempFile.
 

@@ -5,3 +5,5 @@ intellisense: Void.MacroReturnValue
 sortOrder: 496
 so.topic: reference
 ---
+
+# MacroReturnValue

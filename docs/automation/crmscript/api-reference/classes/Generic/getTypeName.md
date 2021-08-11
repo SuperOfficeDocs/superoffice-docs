@@ -8,6 +8,7 @@ keywords: getTypeName(Generic)
 so.topic: reference
 ---
 
+# Generic.getTypeName(Generic generic)
 
 Returns the type name of any variable (will automatically be up-casted to generic).
 

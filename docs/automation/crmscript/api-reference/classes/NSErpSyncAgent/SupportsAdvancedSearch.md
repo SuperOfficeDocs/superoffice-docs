@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_SupportsAdvancedSearch
 title: Bool SupportsAdvancedSearch(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.SupportsAdvancedSearch
 keywords: NSErpSyncAgent, SupportsAdvancedSearch
 so.topic: reference
 ---
+
+# Bool SupportsAdvancedSearch(Integer erpConnectionId, Integer erpActorType)
 
 Indicates if the connection supports advanced search for the given erp actor
 

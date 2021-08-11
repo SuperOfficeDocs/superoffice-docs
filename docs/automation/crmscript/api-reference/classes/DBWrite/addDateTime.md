@@ -7,12 +7,10 @@ keywords: addDateTime(String,DateTime)
 so.topic: reference
 ---
 
+# DBWrite.addDateTime(String name, DateTime value)
 
 Add a DateTime column to write in the table.
 
-
-
 * **name:** The name of the column.
 * **value:** The value to write.
-
 

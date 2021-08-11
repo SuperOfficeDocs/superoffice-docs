@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetSource
 title: NSSource GetSource(Integer sourceId);
 intellisense: NSListAgent.GetSource
 keywords: NSListAgent, GetSource
 so.topic: reference
 ---
+
+# NSSource GetSource(Integer sourceId);
 
 Gets a NSSource object.
 

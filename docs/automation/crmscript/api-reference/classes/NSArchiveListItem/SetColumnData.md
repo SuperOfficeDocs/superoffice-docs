@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchivelistitem_setcolumndata
 title: SetColumnData()
 description: CRMScript method in the NSArchiveListItem class that sets columnData

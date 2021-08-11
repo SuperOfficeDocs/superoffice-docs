@@ -6,7 +6,7 @@ keywords: getMonStop()
 so.topic: reference
 ---
 
+# WeekSchedule.getMonStop()
 
 This function returns the end time (object) of "active" mode for Monday.
-
 

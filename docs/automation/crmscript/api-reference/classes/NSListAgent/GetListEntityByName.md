@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetListEntityByName
 title: NSListEntity GetListEntityByName(String name)
 intellisense: NSListAgent.GetListEntityByName
 keywords: NSListAgent, GetListEntityByName
 so.topic: reference
 ---
+
+# NSListEntity GetListEntityByName(String name)
 
 Gets a NSListEntity resolved by the provided name.
 

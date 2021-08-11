@@ -6,4 +6,6 @@ keywords: NSListItem
 so.topic: reference
 ---
 
+# NSListItem
+
 Lightweight generic list item - similar to NSMDOListItem but without child items and stuff

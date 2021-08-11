@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity
 title: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity);
 intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
 keywords: NSDocumentAgent, SaveSuggestedDocumentEntity
 so.topic: reference
 ---
+
+# NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity);
 	  
 Updates the existing NSSuggestedDocumentEntity or creates a new NSSuggestedDocumentEntity if the id parameter is 0
 	  

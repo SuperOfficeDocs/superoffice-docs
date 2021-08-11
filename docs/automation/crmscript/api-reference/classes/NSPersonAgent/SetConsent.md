@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_SetConsent
 title: Void SetConsent(Integer personId, String purpose, String source, String legalBase, String comment)
 intellisense: NSPersonAgent.SetConsent
 keywords: NSPersonAgent, SetConsent
 so.topic: reference
 ---
+
+# Void SetConsent(Integer personId, String purpose, String source, String legalBase, String comment)
 
 Set a specified type of consent on the person.
 

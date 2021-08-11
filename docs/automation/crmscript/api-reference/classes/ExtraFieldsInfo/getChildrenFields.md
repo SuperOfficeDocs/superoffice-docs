@@ -7,6 +7,8 @@ keywords: getChildrenFields(Integer,Integer)
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getChildrenFields(Integer type, Integer extraTableTarget)
+
 This function loads extra fields of the type given in the first parameter. If the type is an extra table relation, the second pointer is the id of the extra table it points to.
 
 Unless type is 20 (extratable) the second parameter won't do anything.
@@ -35,5 +37,4 @@ Link                        = 23
 Category relation     = 24
 Priority relation        = 25
 FAQ relation             = 26
-
 

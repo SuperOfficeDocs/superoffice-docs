@@ -7,7 +7,7 @@ keywords: GetLocalizedAddress()
 so.topic: reference
 ---
 
+# NSAddress.GetLocalizedAddress()
 
 NSLocalizedField[] is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.
-
 

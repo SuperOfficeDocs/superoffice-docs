@@ -6,7 +6,7 @@ keywords: GetDescription()
 so.topic: reference
 ---
 
+# NSRecurrenceDate.GetDescription()
 
 Any description, such as red letter day info, or marked dates
-
 

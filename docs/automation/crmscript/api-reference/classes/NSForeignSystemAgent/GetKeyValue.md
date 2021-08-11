@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetKeyValue
 title: String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKeyValue
 keywords: NSForeignSystemAgent, GetKeyValue
 so.topic: reference
 ---
+
+# String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 
 Gets the string value of a NSForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.
 

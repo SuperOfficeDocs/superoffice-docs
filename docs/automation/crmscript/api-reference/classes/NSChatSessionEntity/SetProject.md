@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_SetProject
 title: SetProject(NSProject project)
 intellisense: NSChatSessionEntity.SetProject
 keywords: NSChatSessionEntity, GetProject
 so.topic: reference
 ---
+
+# SetProject(NSProject project)
 
 Project the session is connectedto - could be empty if we don't know exactly.
 

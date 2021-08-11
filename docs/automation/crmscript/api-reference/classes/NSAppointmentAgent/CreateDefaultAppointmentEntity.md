@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntity
 title: NSAppointmentEntity CreateDefaultAppointmentEntity()
 intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntity
 keywords: NSAppointmentAgent, CreateDefaultAppointmentEntity
 so.topic: reference
 ---
+
+# NSAppointmentEntity CreateDefaultAppointmentEntity()
 	  
 Set default values into a new NSAppointmentEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

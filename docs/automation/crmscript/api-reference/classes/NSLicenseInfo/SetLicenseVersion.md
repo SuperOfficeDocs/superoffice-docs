@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseInfo_SetLicenseVersion
 title: SetLicenseVersion(String licenseVersion)
 intellisense: NSLicenseInfo.SetLicenseVersion
 keywords: NSLicenseInfo, GetLicenseVersion
 so.topic: reference
 ---
+
+# SetLicenseVersion(String licenseVersion)
 
 The url that will provide keycodes for all modules owned by this owner
 

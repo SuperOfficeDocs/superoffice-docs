@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_UpdateRow
 title: Void UpdateRow(String tableName, Integer id, StringDictionary values)
 intellisense: NSDatabaseTableAgent.UpdateRow
 keywords: NSDatabaseTableAgent, UpdateRow
 so.topic: reference
 ---
+
+# Void UpdateRow(String tableName, Integer id, StringDictionary values)
 
 Update a row in a table
 

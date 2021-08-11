@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetSources
 title: NSSource[] GetSources()
 intellisense: NSListAgent.GetSources
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetSources
 so.topic: reference
 ---
 
-Returns all sources
+# NSSource[] GetSources()
 
+Returns all sources
 
 **Returns:** NSSource[]
 

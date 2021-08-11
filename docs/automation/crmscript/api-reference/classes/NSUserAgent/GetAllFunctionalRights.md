@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetAllFunctionalRights
 title: NSSelectableMDOListItem[] GetAllFunctionalRights(Integer roleType)
 intellisense: NSUserAgent.GetAllFunctionalRights
 keywords: NSUserAgent, GetAllFunctionalRights
 so.topic: reference
 ---
+
+# NSSelectableMDOListItem[] GetAllFunctionalRights(Integer roleType)
 
 Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0' 
 

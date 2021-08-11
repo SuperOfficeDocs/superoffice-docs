@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetTemplateStreamFromId
 title: NSStream GetTemplateStreamFromId(Integer templateId, String uiCulture)
 intellisense: NSDocumentAgent.GetTemplateStreamFromId
 keywords: NSDocumentAgent, GetTemplateStreamFromId
 so.topic: reference
 ---
+
+# NSStream GetTemplateStreamFromId(Integer templateId, String uiCulture)
 
 Retrieve a stream to a document template based on its id
 

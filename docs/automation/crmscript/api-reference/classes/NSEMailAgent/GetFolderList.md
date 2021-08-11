@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetFolderList
 title: String[] GetFolderList(NSEMailConnectionInfo connectionInfo, Bool includeItemCount)
 intellisense: NSEMailAgent.GetFolderList
 keywords: NSEMailAgent, GetFolderList
 so.topic: reference
 ---
+
+# String[] GetFolderList(NSEMailConnectionInfo connectionInfo, Bool includeItemCount)
 
 Retrieve all folders for the mail account. String is separated in sections by the paragraph character.  First section contains the folder delimeter char. Next is folder name. Additional sections may be unread and total items.
 

@@ -6,14 +6,13 @@ sortOrder: 206
 so.topic: reference
 ---
 
+# DateTime
+
 A class for representing date and time as objects.
 Constructor can take a DateTime, and returns a DateTime.
 The default datetime is now.
 
-
-
 ## Example
-
 
     DateTime d;
     

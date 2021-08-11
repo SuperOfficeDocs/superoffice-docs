@@ -7,6 +7,7 @@ keywords: moveToYearEnd()
 so.topic: reference
 ---
 
-This method will move the current DateTime to the last second in the current year. Returns a reference to itself.
+# DateTime.moveToYearEnd()
 
+This method will move the current DateTime to the last second in the current year. Returns a reference to itself.
 

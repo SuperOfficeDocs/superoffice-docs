@@ -7,6 +7,8 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# AppointmentSlicer.getValue(String field)
+
 Returns the value for the given field for the appointment pointed to by the internal iterator.
 
 ## Available field values

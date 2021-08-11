@@ -7,11 +7,9 @@ keywords: GetArrayOfQuoteLines()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetArrayOfQuoteLines()
 
 The QuoteLines this alternative consists of.
 
-
-
 * **Returns:** QuoteLine[]
-
 

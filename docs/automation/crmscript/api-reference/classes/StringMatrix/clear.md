@@ -6,7 +6,7 @@ keywords: clear()
 so.topic: reference
 ---
 
+# StringMatrix.clear()
 
 Clear the whole matrix.
-
 

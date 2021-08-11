@@ -6,7 +6,7 @@ keywords: xmlEncode()
 so.topic: reference
 ---
 
+# String.xmlEncode()
 
 * **Returns:** xml-encoded version of the string
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetRating
 title: NSRating GetRating(Integer ratingId);
 intellisense: NSListAgent.GetRating
 keywords: NSListAgent, GetRating
 so.topic: reference
 ---
+
+# NSRating GetRating(Integer ratingId);
 
 Gets a NSRating object.
 

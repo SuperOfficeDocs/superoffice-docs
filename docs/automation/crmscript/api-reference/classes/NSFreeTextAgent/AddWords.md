@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeTextAgent_AddWords
 title: Void AddWords(String stopWords)
 intellisense: NSFreeTextAgent.AddWords
 keywords: NSFreeTextAgent, AddWords
 so.topic: reference
 ---
+
+# Void AddWords(String stopWords)
 
 Adds the words in the string to the stop word list
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelHeight
 title: SetLabelHeight(Integer labelHeight)
 intellisense: NSUserDefinedFieldInfo.SetLabelHeight
 keywords: NSUserDefinedFieldInfo, GetLabelHeight
 so.topic: reference
 ---
+
+# SetLabelHeight(Integer labelHeight)
 
 label height in pixels, 0 = 'enough' (from font)
 

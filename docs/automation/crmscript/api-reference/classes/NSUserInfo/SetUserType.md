@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSUserInfo_SetUserType
 title: SetUserType(Integer userType)
 intellisense: NSUserInfo.SetUserType
@@ -6,7 +6,7 @@ keywords: NSUserInfo, GetUserType
 so.topic: reference
 ---
 
-
+# SetUserType(Integer userType)
 
 **Parameter:** 
  - **userType** Integer

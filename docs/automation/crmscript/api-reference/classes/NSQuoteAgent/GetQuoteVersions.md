@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteVersions
 title: NSQuoteVersion[] GetQuoteVersions(Integer quoteId)
 intellisense: NSQuoteAgent.GetQuoteVersions
 keywords: NSQuoteAgent, GetQuoteVersions
 so.topic: reference
 ---
+
+# NSQuoteVersion[] GetQuoteVersions(Integer quoteId)
 
 Get all quote versions for a sale
 

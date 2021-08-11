@@ -6,10 +6,9 @@ keywords: EndWriteStream(String,String,String,String,String,String,String)
 so.topic: reference
 ---
 
+# NSTrayAppAgent.EndWriteStream(String p_0, String p_1, String p_2, String p_3, String p_4, String p_5, String p_6)
 
 Called when finished writing a stream.
-
-
 
 * **streamId:** Unique identifier of the stream.
 * **parentModuleName:** Module name of the client module that initiated the request.
@@ -19,5 +18,4 @@ Called when finished writing a stream.
 * **communicationModuleVersion:** Module version of the client communication module that initiated the request. This is sent to make sure the correct version of the communication server module is loaded.
 * **communicationModuleData:** Serialized data from the communiction client module that initiated this operation.
 * **Returns:** Return an empty string, or a error message if something went wrong.
-
 

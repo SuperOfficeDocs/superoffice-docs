@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetReopenDate
 title: SetReopenDate(DateTime reopenDate)
 intellisense: NSSaleEntity.SetReopenDate
 keywords: NSSaleEntity, GetReopenDate
 so.topic: reference
 ---
+
+# SetReopenDate(DateTime reopenDate)
 
 Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate.
 

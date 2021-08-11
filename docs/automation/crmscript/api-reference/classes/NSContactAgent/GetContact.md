@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_GetContact
 title: NSContact GetContact(Integer contactId);
 intellisense: NSContactAgent.GetContact
 keywords: NSContactAgent, GetContact
 so.topic: reference
 ---
+
+# NSContact GetContact(Integer contactId);
 
 Gets a NSContact object.
 

@@ -6,6 +6,5 @@ keywords: GetUserType()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetUserType()
 

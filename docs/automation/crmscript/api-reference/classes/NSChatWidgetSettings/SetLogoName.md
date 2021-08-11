@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_SetLogoName
 title: SetLogoName(String logoName)
 intellisense: NSChatWidgetSettings.SetLogoName
 keywords: NSChatWidgetSettings, GetLogoName
 so.topic: reference
 ---
+
+# SetLogoName(String logoName)
 
 filename/description of logo (from blob)
 

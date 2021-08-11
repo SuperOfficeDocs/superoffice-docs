@@ -6,10 +6,9 @@ keywords: addJoinCriteria(String,String,String,String,Integer)
 so.topic: reference
 ---
 
+# SearchEngine.addJoinCriteria(String p_0, String p_1, String p_2, String p_3, Integer p_4)
 
 This method doesn't work with NetServer.
 
-
 You need to bypass NetServer (see the method bypassNetServer) if you need to use this.
-
 

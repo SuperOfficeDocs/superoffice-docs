@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsreplicationagent_getarealist
 title: NSArea[] GetAreaList()
 description: CRMScript method in the NSReplicationAgent class that gets an array of NSArea objects

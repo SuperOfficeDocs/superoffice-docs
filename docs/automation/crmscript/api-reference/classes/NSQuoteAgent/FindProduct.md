@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_FindProduct
 title: NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
 intellisense: NSQuoteAgent.FindProduct
 keywords: NSQuoteAgent, FindProduct
 so.topic: reference
 ---
+
+# NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
 
 Gets a product, from the ProductProvider
 

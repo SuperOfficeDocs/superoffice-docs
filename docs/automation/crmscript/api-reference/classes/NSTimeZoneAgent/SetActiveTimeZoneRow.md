@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZoneRow
 title: Void SetActiveTimeZoneRow(Integer id, Bool active)
 intellisense: NSTimeZoneAgent.SetActiveTimeZoneRow
 keywords: NSTimeZoneAgent, SetActiveTimeZoneRow
 so.topic: reference
 ---
+
+# Void SetActiveTimeZoneRow(Integer id, Bool active)
 
 Set active state of singe row in the TZLocation table
 

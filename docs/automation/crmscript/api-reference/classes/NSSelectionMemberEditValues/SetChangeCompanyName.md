@@ -6,7 +6,7 @@ keywords: SetChangeCompanyName(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyName(Bool p_0)
 
 If true, the name of the company will change.
-
 

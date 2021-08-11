@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SetExternalUserInfo
 title: Void SetExternalUserInfo(Integer associateId, String userName, String password, Bool isActive, Integer roleId, Integer externalUserInfoModification)
 intellisense: NSUserAgent.SetExternalUserInfo
 keywords: NSUserAgent, SetExternalUserInfo
 so.topic: reference
 ---
+
+# Void SetExternalUserInfo(Integer associateId, String userName, String password, Bool isActive, Integer roleId, Integer externalUserInfoModification)
 
 Modifies an external user. Changes external users information according to the flags set in  externalUserInfoModification.
 

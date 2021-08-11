@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_ChangeFieldType
 title: NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
 intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
 keywords: NSUserDefinedFieldInfoAgent, ChangeFieldType
 so.topic: reference
 ---
+
+# NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 

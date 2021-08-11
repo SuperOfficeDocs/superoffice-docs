@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_SetTheme
 title: SetTheme(Integer theme)
 intellisense: NSChatWidgetSettings.SetTheme
 keywords: NSChatWidgetSettings, GetTheme
 so.topic: reference
 ---
+
+# SetTheme(Integer theme)
 
 Predefined themes for the chat widget
 

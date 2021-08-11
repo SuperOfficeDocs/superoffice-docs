@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveConfigurationWithContext
 title: NSArchiveConfiguration GetArchiveConfigurationWithContext(String guiName, String providerName, String context)
 intellisense: NSArchiveAgent.GetArchiveConfigurationWithContext
 keywords: NSArchiveAgent, GetArchiveConfigurationWithContext
 so.topic: reference
 ---
+
+# NSArchiveConfiguration GetArchiveConfigurationWithContext(String guiName, String providerName, String context)
 
 Get the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
 

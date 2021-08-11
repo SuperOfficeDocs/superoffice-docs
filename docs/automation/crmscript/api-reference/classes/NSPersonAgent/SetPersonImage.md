@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_SetPersonImage
 title: Void SetPersonImage(Integer personId, NSImage image)
 intellisense: NSPersonAgent.SetPersonImage
 keywords: NSPersonAgent, SetPersonImage
 so.topic: reference
 ---
+
+# Void SetPersonImage(Integer personId, NSImage image)
 
 Stores the person image that is displayed in the CRM application.
 

@@ -6,7 +6,7 @@ keywords: GetCompanyBusiness()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetCompanyBusiness()
 
 Contains new value for company business.
-
 

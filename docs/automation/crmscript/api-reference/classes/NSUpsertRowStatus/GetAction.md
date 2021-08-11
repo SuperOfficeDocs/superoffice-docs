@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUpsertRowStatus_GetAction
 title: Integer GetAction()
 intellisense: NSUpsertRowStatus.GetAction
 keywords: NSUpsertRowStatus, GetAction
 so.topic: reference
 ---
+
+# Integer GetAction()
 
 Actiona taken for row
 
@@ -20,5 +22,4 @@ Actiona taken for row
 NSUpsertRowStatus thing;
 Integer action  = thing.GetAction();
 ```
-
 

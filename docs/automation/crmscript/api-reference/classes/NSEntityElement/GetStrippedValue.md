@@ -7,6 +7,5 @@ keywords: GetStrippedValue()
 so.topic: reference
 ---
 
-
-
+# NSEntityElement.GetStrippedValue()
 

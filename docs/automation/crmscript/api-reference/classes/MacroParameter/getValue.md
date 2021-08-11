@@ -7,7 +7,7 @@ keywords: getValue()
 so.topic: reference
 ---
 
+# MacroParameter.getValue()
 
 If the parameter is a fixed value, this function will return that value.
-
 

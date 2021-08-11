@@ -6,6 +6,5 @@ keywords: GetAddressType()
 so.topic: reference
 ---
 
-
-
+# NSLocalizedField.GetAddressType()
 

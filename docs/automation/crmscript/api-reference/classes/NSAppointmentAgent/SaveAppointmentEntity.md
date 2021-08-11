@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsappointmentagent_saveappointmententity
 title: NSAppointmentEntity SaveAppointmentEntity()
 description: CRMScript method in the NSAppointmentAgent class that saves an appointment

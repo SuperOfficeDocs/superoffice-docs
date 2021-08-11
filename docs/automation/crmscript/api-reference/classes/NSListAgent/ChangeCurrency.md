@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_ChangeCurrency
 title: Float ChangeCurrency(Float amount, String fromCurrency, String toCurrency)
 intellisense: NSListAgent.ChangeCurrency
 keywords: NSListAgent, ChangeCurrency
 so.topic: reference
 ---
+
+# Float ChangeCurrency(Float amount, String fromCurrency, String toCurrency)
 
 Recalculates the amount to the new currency.
 

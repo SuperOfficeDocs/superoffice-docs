@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_DeleteForeignKey
 title: Void DeleteForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.DeleteForeignKey
 keywords: NSForeignSystemAgent, DeleteForeignKey
 so.topic: reference
 ---
+
+# Void DeleteForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
 
 Deletes all specified occurrences of a key, belonging to the ForeignApp and NSForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
 

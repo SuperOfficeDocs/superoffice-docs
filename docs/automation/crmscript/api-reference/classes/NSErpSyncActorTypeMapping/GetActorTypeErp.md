@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeErp
 title: NSErpActorType GetActorTypeErp()
 intellisense: NSErpSyncActorTypeMapping.GetActorTypeErp
 keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference
 ---
+
+# NSErpActorType GetActorTypeErp()
 
 The actor type (ERP side)
 
@@ -23,5 +25,4 @@ The actor type (ERP side)
 NSErpSyncActorTypeMapping thing;
 NSErpActorType actorTypeErp  = thing.GetActorTypeErp();
 ```
-
 

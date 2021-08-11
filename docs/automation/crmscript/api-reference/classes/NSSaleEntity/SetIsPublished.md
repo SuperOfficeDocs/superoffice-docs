@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nssaleentity_setispublished
 title: SetIsPublished()
 description: CRMScript method in the NSSaleEntity class that sets the visibility of the entity

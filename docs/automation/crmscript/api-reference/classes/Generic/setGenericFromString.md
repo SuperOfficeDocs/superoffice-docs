@@ -8,6 +8,7 @@ keywords: setGenericFromString(Generic,String)
 so.topic: reference
 ---
 
+# Generic.setGenericFromString(Generic generic, String value)
 
 Sets the value of a variable (any variable will automatically be up-casted to a Generic) from a string.
 

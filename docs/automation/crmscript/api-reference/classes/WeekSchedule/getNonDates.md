@@ -6,7 +6,7 @@ keywords: getNonDates()
 so.topic: reference
 ---
 
+# WeekSchedule.getNonDates()
 
 This function returns the dates that are closed, comma separated.
-
 

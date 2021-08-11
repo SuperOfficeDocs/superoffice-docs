@@ -7,12 +7,10 @@ keywords: SetStringDescription(String)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetStringDescription(String p_0)
 
 The sales description
 
-
-
 * **StringDescription:** String
 * **Returns:** String
-
 

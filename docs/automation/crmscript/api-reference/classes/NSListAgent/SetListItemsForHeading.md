@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetListItemsForHeading
 title: Void SetListItemsForHeading(Integer udListDefinitionId, Integer headingId, Integer[] listItemIds, Bool enable)
 intellisense: NSListAgent.SetListItemsForHeading
 keywords: NSListAgent, SetListItemsForHeading
 so.topic: reference
 ---
+
+# Void SetListItemsForHeading(Integer udListDefinitionId, Integer headingId, Integer[] listItemIds, Bool enable)
 
 Update listItems that will be visible for this usergroup
 

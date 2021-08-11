@@ -7,6 +7,5 @@ keywords: readBatch(String,Integer,Integer,Integer,Integer)
 so.topic: reference
 ---
 
-
-
+# DbConverter.readBatch(String p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4)
 

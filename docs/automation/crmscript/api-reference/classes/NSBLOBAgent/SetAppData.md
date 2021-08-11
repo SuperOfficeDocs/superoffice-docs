@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_SetAppData
 title: Void SetAppData(String key, String data)
 intellisense: NSBLOBAgent.SetAppData
 keywords: NSBLOBAgent, SetAppData
 so.topic: reference
 ---
+
+# Void SetAppData(String key, String data)
 
 Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetProductType
 title: NSProductType GetProductType(Integer productTypeId);
 intellisense: NSListAgent.GetProductType
 keywords: NSListAgent, GetProductType
 so.topic: reference
 ---
+
+# NSProductType GetProductType(Integer productTypeId);
 
 Gets a NSProductType object.
 

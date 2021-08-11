@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSystemEventEntity_GetScope
 title: Integer GetScope()
 intellisense: NSSystemEventEntity.GetScope
 keywords: NSSystemEventEntity, GetScope
 so.topic: reference
 ---
+
+# Integer GetScope()
 
 1 = system-wide, 2= database, 3 = group, 4 = user
 
@@ -20,5 +22,4 @@ so.topic: reference
 NSSystemEventEntity thing;
 Integer scope  = thing.GetScope();
 ```
-
 

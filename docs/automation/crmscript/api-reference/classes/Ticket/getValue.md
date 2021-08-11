@@ -6,21 +6,17 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# Ticket.getValue(String colName)
 
 Get the value of given column name as a String
 
-
-
-
 ## Parameters
-
 
  - colName: The name of the wanted column.
 
 ## Values
 
 Possible values are the extrafields on the ticket and the following:
-
 
  - id
  - title
@@ -49,7 +45,5 @@ Possible values are the extrafields on the ticket and the following:
  - firstReadByUser
  - firstReadByOwner
 
-
 Returns a string representation of the wanted value
-
 

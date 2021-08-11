@@ -6,22 +6,15 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# User.getValue(String colName)
 
 Gets the value of a given column.
 
-
-
-
 ## Parameters
-
 
  - String with column name
 
-
-
-
 ## Values
-
 
  - id: Integer, The primary key (auto-incremented)
  - loginname: String, The unique loginname for this user.
@@ -45,7 +38,5 @@ Gets the value of a given column.
  - ownerCompany: Integer, the contact id of the owning company of the users' connected person entity.
  - x_* The extrafield with the given database field name.
 
-
 Returns a string with value in given column
-
 

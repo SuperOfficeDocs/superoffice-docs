@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_SetHTMLBody
 title: SetHTMLBody(String hTMLBody)
 intellisense: NSEMailEntity.SetHTMLBody
 keywords: NSEMailEntity, GetHTMLBody
 so.topic: reference
 ---
+
+# SetHTMLBody(String hTMLBody)
 
 Body formatted in HTML
 

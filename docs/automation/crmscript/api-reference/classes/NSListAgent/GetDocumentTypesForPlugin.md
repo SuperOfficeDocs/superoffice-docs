@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetDocumentTypesForPlugin
 title: StringDictionary GetDocumentTypesForPlugin(Integer pluginId)
 intellisense: NSListAgent.GetDocumentTypesForPlugin
 keywords: NSListAgent, GetDocumentTypesForPlugin
 so.topic: reference
 ---
+
+# StringDictionary GetDocumentTypesForPlugin(Integer pluginId)
 
 Get a list of document types supported by a given document plugin. Use the document template type when creating a new template.
 

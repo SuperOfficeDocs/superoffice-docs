@@ -6,7 +6,7 @@ keywords: GetValueLength()
 so.topic: reference
 ---
 
+# NSLocalizedField.GetValueLength()
 
 Database length of the value
-
 

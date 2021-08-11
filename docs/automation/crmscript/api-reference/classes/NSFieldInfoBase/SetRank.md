@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoBase_SetRank
 title: SetRank(Integer rank)
 intellisense: NSFieldInfoBase.SetRank
 keywords: NSFieldInfoBase, GetRank
 so.topic: reference
 ---
+
+# SetRank(Integer rank)
 
 Tab order, ranking within the custom fields.
 

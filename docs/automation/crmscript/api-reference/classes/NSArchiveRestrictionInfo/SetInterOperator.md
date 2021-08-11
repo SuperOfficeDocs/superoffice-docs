@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchiverestrictioninfo_setinteroperator
 title: SetInterOperator(Integer interOperator)
 description: CRMScript method in the NSArchiveRestrictionInfo class that sets the inter-restriction operator

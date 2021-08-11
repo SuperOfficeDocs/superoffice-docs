@@ -6,7 +6,7 @@ keywords: GetTotal()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetTotal()
 
 Total number of members.
-
 

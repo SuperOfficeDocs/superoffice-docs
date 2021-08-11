@@ -7,7 +7,7 @@ keywords: setLabel(String)
 so.topic: reference
 ---
 
+# MacroParameter.setLabel(String p_0)
 
 This function will set the label of the parameter when displayed in form.
-
 

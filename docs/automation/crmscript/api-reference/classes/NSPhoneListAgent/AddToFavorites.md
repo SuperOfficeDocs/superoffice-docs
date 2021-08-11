@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListAgent_AddToFavorites
 title: Integer AddToFavorites(Integer contactId)
 intellisense: NSPhoneListAgent.AddToFavorites
 keywords: NSPhoneListAgent, AddToFavorites
 so.topic: reference
 ---
+
+# Integer AddToFavorites(Integer contactId)
 
 Adds a new contact to the history/favorites. Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.
 

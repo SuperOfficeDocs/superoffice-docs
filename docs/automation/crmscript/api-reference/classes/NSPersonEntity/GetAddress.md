@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nspersonentity_getaddress
 title: NSAddress GetAddress()
 description: CRMScript method in the NSPersonEntity class that retrieves a formatted address

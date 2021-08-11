@@ -7,6 +7,7 @@ keywords: SetIsActive(Bool)
 so.topic: reference
 ---
 
-Indicating if a rule is current active, and should included in the duplicate detection
+# NSDuplicateRule.SetIsActive(Bool p_0)
 
+Indicating if a rule is current active, and should included in the duplicate detection
 

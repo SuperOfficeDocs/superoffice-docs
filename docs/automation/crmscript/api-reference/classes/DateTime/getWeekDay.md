@@ -7,6 +7,7 @@ keywords: getWeekDay()
 so.topic: reference
 ---
 
-Returns the weekDay as an Integer. 0 is Monday, ... 6 is Sunday
+# DateTime.getWeekDay()
 
+Returns the weekDay as an Integer. 0 is Monday, ... 6 is Sunday
 

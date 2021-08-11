@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMDOAgent_GetList
 title: NSMDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
 intellisense: NSMDOAgent.GetList
 keywords: NSMDOAgent, GetList
 so.topic: reference
 ---
+
+# NSMDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
 
 Method to get a MDO list.
 

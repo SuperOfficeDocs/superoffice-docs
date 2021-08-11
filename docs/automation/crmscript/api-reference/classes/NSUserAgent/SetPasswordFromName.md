@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SetPasswordFromName
 title: Bool SetPasswordFromName(String associateName, String password)
 intellisense: NSUserAgent.SetPasswordFromName
 keywords: NSUserAgent, SetPasswordFromName
 so.topic: reference
 ---
+
+# Bool SetPasswordFromName(String associateName, String password)
 
 Change password for a user.
 

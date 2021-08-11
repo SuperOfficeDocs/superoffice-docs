@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMassOperationResult_SetSuccess
 title: SetSuccess(Bool success)
 intellisense: NSMassOperationResult.SetSuccess
 keywords: NSMassOperationResult, GetSuccess
 so.topic: reference
 ---
+
+# SetSuccess(Bool success)
 
 Did the operation succeed
 

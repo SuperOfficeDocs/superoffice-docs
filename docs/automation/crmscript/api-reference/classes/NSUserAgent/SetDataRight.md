@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SetDataRight
 title: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
 intellisense: NSUserAgent.SetDataRight
 keywords: NSUserAgent, SetDataRight
 so.topic: reference
 ---
+
+# Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
 
 Set one specific data right at the given position. An exception will be thrown if non existing position is specified.
 

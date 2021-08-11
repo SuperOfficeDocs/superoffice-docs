@@ -7,6 +7,5 @@ keywords: GetReason()
 so.topic: reference
 ---
 
-
-
+# NSFieldRight.GetReason()
 

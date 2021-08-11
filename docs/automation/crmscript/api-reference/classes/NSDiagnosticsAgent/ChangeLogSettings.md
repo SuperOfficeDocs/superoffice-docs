@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDiagnosticsAgent_ChangeLogSettings
 title: Void ChangeLogSettings(Bool logWarning, Bool logInformation, Bool logSuccessAudit, Bool logFailureAudit, Bool logToEventLog, Bool logToSuperOffice, Bool logToFile, Bool logToTrace)
 intellisense: NSDiagnosticsAgent.ChangeLogSettings
 keywords: NSDiagnosticsAgent, ChangeLogSettings
 so.topic: reference
 ---
+
+# Void ChangeLogSettings(Bool logWarning, Bool logInformation, Bool logSuccessAudit, Bool logFailureAudit, Bool logToEventLog, Bool logToSuperOffice, Bool logToFile, Bool logToTrace)
 
 Change NetServer log settings.
 

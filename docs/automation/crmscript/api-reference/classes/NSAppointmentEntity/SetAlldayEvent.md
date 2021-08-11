@@ -7,7 +7,7 @@ keywords: SetAlldayEvent(Bool)
 so.topic: reference
 ---
 
+# NSAppointmentEntity.SetAlldayEvent(Bool p_0)
 
 True if this is an all day event.
-
 

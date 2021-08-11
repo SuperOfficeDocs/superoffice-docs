@@ -7,11 +7,9 @@ keywords: GetStandardBool()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStandardBool()
 
 bool is a special case, it is normally saved as ushort
 
-
-
 * **Returns:** Bool
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketStartupData_GetTableRights
 title: Integer[] GetTableRights()
 intellisense: NSPocketStartupData.GetTableRights
 keywords: NSPocketStartupData, GetTableRights
 so.topic: reference
 ---
+
+# Integer[] GetTableRights()
 
 List of tablerights for logged in user, in the same order as the Tables array parameter
 
@@ -35,5 +37,4 @@ List of tablerights for logged in user, in the same order as the Tables array pa
 NSPocketStartupData thing;
 Integer[] tableRights  = thing.GetTableRights();
 ```
-
 

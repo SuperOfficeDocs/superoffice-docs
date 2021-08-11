@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_DeleteTemporaryKeysOfDomain
 title: Void DeleteTemporaryKeysOfDomain(Integer domain, Integer personId)
 intellisense: NSPersonAgent.DeleteTemporaryKeysOfDomain
 keywords: NSPersonAgent, DeleteTemporaryKeysOfDomain
 so.topic: reference
 ---
+
+# Void DeleteTemporaryKeysOfDomain(Integer domain, Integer personId)
 
 Delete all temporary keys for a given domain and person
 

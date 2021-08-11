@@ -7,23 +7,16 @@ keywords: addHeader(String,String)
 so.topic: reference
 ---
 
+# HTTP.addHeader(String p_name, String p_value)
 
 Adds a new header. The new header will be placed after other existing headers.
 
-
-
-
 ## Parameters
-
 
  - p\_name: name of header
  - p\_value: value of header
 
-
-
-
 ## Example
-
 
     HTTP h;
     
@@ -35,5 +28,4 @@ Adds a new header. The new header will be placed after other existing headers.
     print(h.getErrorMessage());
     else
     print(String(b));
-
 

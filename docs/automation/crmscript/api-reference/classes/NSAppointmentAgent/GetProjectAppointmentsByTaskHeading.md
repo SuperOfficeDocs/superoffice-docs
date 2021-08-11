@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetProjectAppointmentsByTaskHeading
 title: NSAppointment[] GetProjectAppointmentsByTaskHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetProjectAppointmentsByTaskHeading
 keywords: NSAppointmentAgent, GetProjectAppointmentsByTaskHeading
 so.topic: reference
 ---
+
+# NSAppointment[] GetProjectAppointmentsByTaskHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetSelectionUnionType
 title: SetSelectionUnionType(Integer selectionUnionType)
 intellisense: NSSelectionEntity.SetSelectionUnionType
 keywords: NSSelectionEntity, GetSelectionUnionType
 so.topic: reference
 ---
+
+# SetSelectionUnionType(Integer selectionUnionType)
 
 How to combine the two selections when SelectionType = Combined.
 

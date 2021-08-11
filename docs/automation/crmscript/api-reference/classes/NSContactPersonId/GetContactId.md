@@ -7,7 +7,7 @@ keywords: GetContactId()
 so.topic: reference
 ---
 
+# NSContactPersonId.GetContactId()
 
 A contact id.
-
 

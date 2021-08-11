@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetActiveDate
 title: SetActiveDate(DateTime activeDate)
 intellisense: NSAppointment.SetActiveDate
 keywords: NSAppointment, GetActiveDate
 so.topic: reference
 ---
+
+# SetActiveDate(DateTime activeDate)
 
 The date to be used for searching & showing
 

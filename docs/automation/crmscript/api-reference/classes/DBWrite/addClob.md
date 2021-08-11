@@ -7,12 +7,10 @@ keywords: addClob(String,String)
 so.topic: reference
 ---
 
+# DBWrite.addClob(String name, String value)
 
 Add a CLOB column to write in the table.
 
-
-
 * **name:** The name of the column.
 * **value:** The value to write.
-
 

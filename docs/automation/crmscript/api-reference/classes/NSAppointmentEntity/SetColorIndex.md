@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetColorIndex
 title: SetColorIndex(Integer colorIndex)
 intellisense: NSAppointmentEntity.SetColorIndex
 keywords: NSAppointmentEntity, GetColorIndex
 so.topic: reference
 ---
+
+# SetColorIndex(Integer colorIndex)
 
 Appointment colour, used only in Japanese versions. Western versions take colour from Task
 

@@ -8,6 +8,7 @@ keywords: getTypeDimensions(Generic)
 so.topic: reference
 ---
 
+# Generic.getTypeDimensions(Generic generic)
 
 Get the number of array dimensions for any variable (will automatically be up-casted to a Generic).
 

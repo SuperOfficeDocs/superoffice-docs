@@ -7,6 +7,5 @@ keywords: GetOwnerDescription()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetOwnerDescription()
 

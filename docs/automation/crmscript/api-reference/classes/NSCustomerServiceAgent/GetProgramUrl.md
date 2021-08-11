@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_GetProgramUrl
 title: String GetProgramUrl(String programName, Bool external)
 intellisense: NSCustomerServiceAgent.GetProgramUrl
 keywords: NSCustomerServiceAgent, GetProgramUrl
 so.topic: reference
 ---
+
+# String GetProgramUrl(String programName, Bool external)
 
 This method will convert a module name into a Service URL.
 

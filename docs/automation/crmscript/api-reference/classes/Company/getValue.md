@@ -7,17 +7,15 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# Company.getValue(String colName)
+
 Gets a String with the value of a given column.
 
-
-
 ## Parameters
-
 
  - String colName
 
 ## Possible colNames
-
 
  - id: Integer, The primary key (auto-incremented)
  - primContact: Integer, The id of the customer who is the primary contact for this company customer.id
@@ -36,13 +34,9 @@ Gets a String with the value of a given column.
  - domain: String, A display version of the company\_domain table for this company.
  - x_* The extrafield with the given database field name.
 
-
 Returns a string value of the given column.
 
-
-
 ## Example
-
 
     Company c;
     
@@ -51,5 +45,4 @@ Returns a string value of the given column.
     print(b.toString());
     
     print(c.getValue("name"));
-
 

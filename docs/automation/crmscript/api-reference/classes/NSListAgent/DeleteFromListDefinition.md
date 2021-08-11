@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteFromListDefinition
 title: Void DeleteFromListDefinition(Integer id, Integer udListDefinitionId)
 intellisense: NSListAgent.DeleteFromListDefinition
 keywords: NSListAgent, DeleteFromListDefinition
 so.topic: reference
 ---
+
+# Void DeleteFromListDefinition(Integer id, Integer udListDefinitionId)
 
 Delete a list item from the specified list defintion
 

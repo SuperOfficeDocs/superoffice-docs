@@ -6,7 +6,7 @@ keywords: GetName()
 so.topic: reference
 ---
 
+# NSLocalizedField.GetName()
 
 Name of the value field
-
 

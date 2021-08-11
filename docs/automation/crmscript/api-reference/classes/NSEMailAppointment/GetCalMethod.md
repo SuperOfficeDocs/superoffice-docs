@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAppointment_GetCalMethod
 title: Integer GetCalMethod()
 intellisense: NSEMailAppointment.GetCalMethod
 keywords: NSEMailAppointment, GetCalMethod
 so.topic: reference
 ---
+
+# Integer GetCalMethod()
 
 Method field stored in ICS file.
 
@@ -24,5 +26,4 @@ Method field stored in ICS file.
 NSEMailAppointment thing;
 Integer calMethod  = thing.GetCalMethod();
 ```
-
 

@@ -6,7 +6,7 @@ keywords: SetValidEmailAddresses(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetValidEmailAddresses(Integer p_0)
 
 Number of members with a valid email address.
-
 

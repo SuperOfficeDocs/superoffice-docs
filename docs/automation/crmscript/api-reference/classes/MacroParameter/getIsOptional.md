@@ -7,6 +7,7 @@ keywords: getIsOptional()
 so.topic: reference
 ---
 
-This function returns true if the value is optional, and false if it is compulsory.
+# MacroParameter.getIsOptional()
 
+This function returns true if the value is optional, and false if it is compulsory.
 

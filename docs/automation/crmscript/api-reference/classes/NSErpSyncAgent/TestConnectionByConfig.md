@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nserpsyncagent_testconnectionbyconfig
 title: Bool TestConnectionByConfig()
 description: CRMScript method in the NSErpSyncAgent class that tests to see if the given connection has a valid connection to its connector.

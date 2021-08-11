@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_SaveSystemEventEntity
 title: NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity);
 intellisense: NSConfigurationAgent.SaveSystemEventEntity
 keywords: NSConfigurationAgent, SaveSystemEventEntity
 so.topic: reference
 ---
+
+# NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity);
 	  
 Updates the existing NSSystemEventEntity or creates a new NSSystemEventEntity if the id parameter is 0
 	  

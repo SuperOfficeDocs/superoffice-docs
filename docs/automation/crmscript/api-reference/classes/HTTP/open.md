@@ -7,20 +7,15 @@ keywords: open(String)
 so.topic: reference
 ---
 
+# HTTP.open(String p_url)
+
 This function opens an url and returns the result as a Byte array.
-
-
 
 ## Parameters
 
-
  - p\_url: The url to open. http://.....
 
-
-
-
 ## Example
-
 
     HTTP h;
     
@@ -30,5 +25,4 @@ This function opens an url and returns the result as a Byte array.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

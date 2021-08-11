@@ -6,15 +6,11 @@ keywords: setSunStart(Time)
 so.topic: reference
 ---
 
+# WeekSchedule.setSunStart(Time t)
 
 This function sets the start time (object) of "active" mode for Sunday.
 
-
-
-
 ## Parameters
 
-
  - time: a time object set to desired start time
-
 

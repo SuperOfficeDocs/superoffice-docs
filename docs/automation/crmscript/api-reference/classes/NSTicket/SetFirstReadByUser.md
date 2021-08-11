@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicket_SetFirstReadByUser
 title: SetFirstReadByUser(DateTime firstReadByUser)
 intellisense: NSTicket.SetFirstReadByUser
 keywords: NSTicket, GetFirstReadByUser
 so.topic: reference
 ---
+
+# SetFirstReadByUser(DateTime firstReadByUser)
 
 The datetime for when the ticket first was read by a user.
 

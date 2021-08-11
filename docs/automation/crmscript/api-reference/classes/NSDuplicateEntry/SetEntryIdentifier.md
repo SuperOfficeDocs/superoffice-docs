@@ -7,6 +7,7 @@ keywords: SetEntryIdentifier(String)
 so.topic: reference
 ---
 
-String identifier for entry. Typically used to identify an entry in an external system.
+# NSDuplicateEntry.SetEntryIdentifier(String p_0)
 
+String identifier for entry. Typically used to identify an entry in an external system.
 

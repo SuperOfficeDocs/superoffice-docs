@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemName
 title: SetErpListItemName(String erpListItemName)
 intellisense: NSErpCrmListItemMapping.SetErpListItemName
 keywords: NSErpCrmListItemMapping, GetErpListItemName
 so.topic: reference
 ---
+
+# SetErpListItemName(String erpListItemName)
 
 One Erp listItem id
 

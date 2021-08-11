@@ -7,12 +7,10 @@ keywords: SetArrayOfQuoteLines(NSQuoteLine[])
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetArrayOfQuoteLines(NSQuoteLine[] p_0)
 
 The QuoteLines this alternative consists of.
 
-
-
 * **ArrayOfQuoteLines:** QuoteLine[]
 * **Returns:** QuoteLine[]
-
 

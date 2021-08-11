@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSIncomingMessage_SetPlugin
 title: SetPlugin(String plugin)
 intellisense: NSIncomingMessage.SetPlugin
 keywords: NSIncomingMessage, GetPlugin
 so.topic: reference
 ---
+
+# SetPlugin(String plugin)
 
 Name of plugin
 

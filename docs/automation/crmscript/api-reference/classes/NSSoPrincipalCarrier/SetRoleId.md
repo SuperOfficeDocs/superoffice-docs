@@ -6,6 +6,5 @@ keywords: SetRoleId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetRoleId(Integer p_0)
 

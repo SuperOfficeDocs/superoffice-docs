@@ -6,4 +6,6 @@ keywords: NSTicketCategoryList
 so.topic: reference
 ---
 
+# NSTicketCategoryList
+
 NSTicketCategory is used for setting ticket categories, and can be user defined

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoDecimal_SetDefaultValue
 title: SetDefaultValue(Float defaultValue)
 intellisense: NSFieldInfoDecimal.SetDefaultValue
 keywords: NSFieldInfoDecimal, GetDefaultValue
 so.topic: reference
 ---
+
+# SetDefaultValue(Float defaultValue)
 
 Default decimal (double precision) value
 

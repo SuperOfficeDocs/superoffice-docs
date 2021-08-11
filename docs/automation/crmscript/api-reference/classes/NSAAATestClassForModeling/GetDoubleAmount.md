@@ -7,11 +7,9 @@ keywords: GetDoubleAmount()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetDoubleAmount()
 
 Total sale amount
 
-
-
 * **Returns:** Float
-
 

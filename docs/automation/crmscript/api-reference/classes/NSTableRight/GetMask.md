@@ -6,6 +6,5 @@ keywords: GetMask()
 so.topic: reference
 ---
 
-
-
+# NSTableRight.GetMask()
 

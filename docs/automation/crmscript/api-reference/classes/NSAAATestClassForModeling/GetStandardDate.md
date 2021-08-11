@@ -7,7 +7,7 @@ keywords: GetStandardDate()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStandardDate()
 
 * **Returns:** DateTime
-
 

@@ -7,6 +7,7 @@ keywords: addString(String,String)
 so.topic: reference
 ---
 
-Adds a string value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty. The value does not need to be escaped, it will be escaped by JSONBuilder.
+# JSONBuilder.addString(String key, String value)
 
+Adds a string value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty. The value does not need to be escaped, it will be escaped by JSONBuilder.
 

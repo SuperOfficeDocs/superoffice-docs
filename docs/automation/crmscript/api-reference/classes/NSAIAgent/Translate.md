@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAIAgent_Translate
 title: String Translate(String text, String targetLanguage)
 intellisense: NSAIAgent.Translate
 keywords: NSAIAgent, Translate
 so.topic: reference
 ---
+
+# String Translate(String text, String targetLanguage)
 
 Translate a text from one language to another. Language of the text is automatically detected.
 

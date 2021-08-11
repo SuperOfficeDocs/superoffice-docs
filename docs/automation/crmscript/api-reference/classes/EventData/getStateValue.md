@@ -7,6 +7,7 @@ keywords: getStateValue(String)
 so.topic: reference
 ---
 
-This method returns the value of a specified state field (i.e. custom field).
+# EventData.getStateValue(String stateValue)
 
+This method returns the value of a specified state field (i.e. custom field).
 

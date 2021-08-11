@@ -6,7 +6,7 @@ keywords: toByteArray()
 so.topic: reference
 ---
 
+# String.toByteArray()
 
 * **Returns:** An array of bytes (the string is converted to ISO-8859-1)
-
 

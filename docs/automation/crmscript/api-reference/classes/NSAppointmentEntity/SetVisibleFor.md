@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetVisibleFor
 title: SetVisibleFor(NSVisibleFor[] visibleFor)
 intellisense: NSAppointmentEntity.SetVisibleFor
 keywords: NSAppointmentEntity, SetVisibleFor
 so.topic: reference
 ---
+
+# SetVisibleFor(NSVisibleFor[] visibleFor)
 
 Set the usergroups and/or users the NSAppointmentEntity item is visible for.
 

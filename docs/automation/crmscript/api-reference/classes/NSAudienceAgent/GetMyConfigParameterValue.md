@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceAgent_GetMyConfigParameterValue
 title: String GetMyConfigParameterValue(String parameterName)
 intellisense: NSAudienceAgent.GetMyConfigParameterValue
 keywords: NSAudienceAgent, GetMyConfigParameterValue
 so.topic: reference
 ---
+
+# String GetMyConfigParameterValue(String parameterName)
 
 Gets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 

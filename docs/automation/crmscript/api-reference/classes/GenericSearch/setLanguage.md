@@ -7,6 +7,7 @@ keywords: setLanguage(Integer)
 so.topic: reference
 ---
 
+# GenericSearch.setLanguage(Integer languageId)
 
 Set what language to use when showing display fields.
 
@@ -19,7 +20,5 @@ Swedish = 3
 Danish = 4
 Dutch = 5
 
-
 * **languageId:** What language to use.
-
 

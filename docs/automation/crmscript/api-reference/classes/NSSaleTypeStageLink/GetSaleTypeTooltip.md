@@ -6,6 +6,5 @@ keywords: GetSaleTypeTooltip()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetSaleTypeTooltip()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetReasonStalledList
 title: NSReasonStalled[] GetReasonStalledList(Integer[]  reasonStalledIds);
 intellisense: NSListAgent.GetReasonStalledList
 keywords: NSListAgent, GetReasonStalledList
 so.topic: reference
 ---
+
+# NSReasonStalled[] GetReasonStalledList(Integer[]  reasonStalledIds);
 
 Gets a vector of ReasonStalled objects.
 

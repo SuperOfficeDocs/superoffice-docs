@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveRestrictionInfo_GetInterOperator
 title: Integer GetInterOperator()
 intellisense: NSArchiveRestrictionInfo.GetInterOperator
 keywords: NSArchiveRestrictionInfo, GetInterOperator
 so.topic: reference
 ---
+
+# Integer GetInterOperator()
 
 Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And
 
@@ -18,5 +20,4 @@ Get or set the inter-restriction operator that describes how this restriction is
 NSArchiveRestrictionInfo thing;
 Integer interOperator  = thing.GetInterOperator();
 ```
-
 

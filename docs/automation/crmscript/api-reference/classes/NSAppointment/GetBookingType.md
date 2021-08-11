@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_GetBookingType
 title: Integer GetBookingType()
 intellisense: NSAppointment.GetBookingType
 keywords: NSAppointment, GetBookingType
 so.topic: reference
 ---
+
+# Integer GetBookingType()
 
 The type of booking the appointment represents
 
@@ -19,5 +21,4 @@ The type of booking the appointment represents
 NSAppointment thing;
 Integer bookingType  = thing.GetBookingType();
 ```
-
 

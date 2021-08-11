@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveConsentPurpose
 title: NSConsentPurpose SaveConsentPurpose(NSConsentPurpose consentPurpose)
 intellisense: NSListAgent.SaveConsentPurpose
 keywords: NSListAgent, SaveConsentPurpose
 so.topic: reference
 ---
+
+# NSConsentPurpose SaveConsentPurpose(NSConsentPurpose consentPurpose)
 
 Save a NSConsentPurpose object
 

@@ -6,7 +6,7 @@ keywords: GetChangeCompanyDepartment()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetChangeCompanyDepartment()
 
 If true, the department of the company will change.
-
 

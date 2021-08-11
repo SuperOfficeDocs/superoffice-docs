@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetConsentPurposeList
 title: NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
 intellisense: NSListAgent.GetConsentPurposeList
 keywords: NSListAgent, GetConsentPurposeList
 so.topic: reference
 ---
+
+# NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
 
 Gets a vector of NSConsentPurpose objects.
 

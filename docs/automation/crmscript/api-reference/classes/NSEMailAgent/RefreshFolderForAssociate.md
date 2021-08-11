@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_RefreshFolderForAssociate
 title: String RefreshFolderForAssociate(String[] folders)
 intellisense: NSEMailAgent.RefreshFolderForAssociate
 keywords: NSEMailAgent, RefreshFolderForAssociate
 so.topic: reference
 ---
+
+# String RefreshFolderForAssociate(String[] folders)
 
 Get all emails in folder(s) from current associate
 

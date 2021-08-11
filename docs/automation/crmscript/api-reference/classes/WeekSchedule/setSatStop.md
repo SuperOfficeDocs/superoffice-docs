@@ -6,15 +6,11 @@ keywords: setSatStop(Time)
 so.topic: reference
 ---
 
+# WeekSchedule.setSatStop(Time t)
 
 This function sets the end time (object) of "active" mode for Saturday.
 
-
-
-
 ## Parameters
 
-
  - time: a time object set to desired end time
-
 

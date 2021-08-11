@@ -7,6 +7,5 @@ keywords: GetG()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetG()
 

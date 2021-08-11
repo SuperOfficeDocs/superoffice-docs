@@ -1,4 +1,5 @@
 ---
+title: String getProgramStat()
 description: String getProgramStat()
 intellisense: Void.getProgramStat
 langref: 1
@@ -6,11 +7,8 @@ keywords: getProgramStat()
 so.topic: reference
 ---
 
+# String getProgramStat()
 
-Returns the url of the program module specified after getProgram.
+Returns the URL of the program module specified after getProgram.
 
-
-
-* **Returns:** The url for the given program.
-
-
+* **Returns:** The URL for the given program.

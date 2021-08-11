@@ -7,12 +7,10 @@ keywords: SetDefaultValue(Integer)
 so.topic: reference
 ---
 
+# NSFieldInfoDynamicLink.SetDefaultValue(Integer p_0)
 
 Default attachment id value
 
-
-
 * **DefaultValue:** Integer
 * **Returns:** Void
-
 

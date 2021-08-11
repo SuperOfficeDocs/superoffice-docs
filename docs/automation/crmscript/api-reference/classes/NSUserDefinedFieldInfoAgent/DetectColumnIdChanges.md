@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectColumnIdChanges
 title: Bool DetectColumnIdChanges(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges
 keywords: NSUserDefinedFieldInfoAgent, DetectColumnIdChanges
 so.topic: reference
 ---
+
+# Bool DetectColumnIdChanges(Integer ownerType)
 
 Detect columnid changes to the admin version (for determining publish warning)
 

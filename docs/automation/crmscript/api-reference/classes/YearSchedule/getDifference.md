@@ -6,19 +6,14 @@ keywords: getDifference(DateTime,DateTime)
 so.topic: reference
 ---
 
+# YearSchedule.getDifference(DateTime from, DateTime to)
 
 Get difference between two given times. The function returns a timespan.
 
-
-
-
 ## Parameters
-
 
  - from: Count from this date
  - to: Count to this date
 
-
 Counting will skip inactive periodes, defined by the different weekschedules that may be crossed.
-
 

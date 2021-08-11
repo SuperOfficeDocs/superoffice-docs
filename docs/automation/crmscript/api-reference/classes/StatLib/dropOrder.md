@@ -6,6 +6,7 @@ keywords: dropOrder()
 so.topic: reference
 ---
 
-Calling this function will make the StatLib instance skip sorting the results in the groups.
+# StatLib.dropOrder()
 
+Calling this function will make the StatLib instance skip sorting the results in the groups.
 

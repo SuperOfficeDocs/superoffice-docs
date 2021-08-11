@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_DeleteForeignAppEntity
 title: Void DeleteForeignAppEntity(Integer foreignAppEntity);
 intellisense: NSForeignSystemAgent.DeleteForeignAppEntity
 keywords: NSForeignSystemAgent, DeleteForeignAppEntity
 so.topic: reference
 ---
+
+# Void DeleteForeignAppEntity(Integer foreignAppEntity);
 
 Deletes the NSForeignAppEntity
   

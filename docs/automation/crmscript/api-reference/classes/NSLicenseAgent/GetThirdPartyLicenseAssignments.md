@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_GetThirdPartyLicenseAssignments
 title: NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer associateId, String moduleOwner)
 intellisense: NSLicenseAgent.GetThirdPartyLicenseAssignments
 keywords: NSLicenseAgent, GetThirdPartyLicenseAssignments
 so.topic: reference
 ---
+
+# NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer associateId, String moduleOwner)
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 

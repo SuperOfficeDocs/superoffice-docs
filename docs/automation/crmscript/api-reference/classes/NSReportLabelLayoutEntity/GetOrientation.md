@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportLabelLayoutEntity_GetOrientation
 title: Integer GetOrientation()
 intellisense: NSReportLabelLayoutEntity.GetOrientation
 keywords: NSReportLabelLayoutEntity, GetOrientation
 so.topic: reference
 ---
+
+# Integer GetOrientation()
 
 Paper orientation: 1=portrait, 2=landscape
 
@@ -18,5 +20,4 @@ Paper orientation: 1=portrait, 2=landscape
 NSReportLabelLayoutEntity thing;
 Integer orientation  = thing.GetOrientation();
 ```
-
 

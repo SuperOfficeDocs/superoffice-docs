@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMDOAgent_GetListItem
 title: NSMDOListItem GetListItem(String listName, Integer id)
 intellisense: NSMDOAgent.GetListItem
 keywords: NSMDOAgent, GetListItem
 so.topic: reference
 ---
+
+# NSMDOListItem GetListItem(String listName, Integer id)
 
 Returns a single list item
 

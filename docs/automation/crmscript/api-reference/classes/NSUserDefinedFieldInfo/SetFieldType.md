@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldType
 title: SetFieldType(Integer fieldType)
 intellisense: NSUserDefinedFieldInfo.SetFieldType
 keywords: NSUserDefinedFieldInfo, GetFieldType
 so.topic: reference
 ---
+
+# SetFieldType(Integer fieldType)
 
 Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox
 

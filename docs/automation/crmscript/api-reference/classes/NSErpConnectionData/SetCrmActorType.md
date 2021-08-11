@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnectionData_SetCrmActorType
 title: SetCrmActorType(Integer crmActorType)
 intellisense: NSErpConnectionData.SetCrmActorType
 keywords: NSErpConnectionData, GetCrmActorType
 so.topic: reference
 ---
+
+# SetCrmActorType(Integer crmActorType)
 
 The crm actor type which these fields belongs to
 

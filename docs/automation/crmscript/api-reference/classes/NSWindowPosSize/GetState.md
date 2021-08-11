@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWindowPosSize_GetState
 title: Integer GetState()
 intellisense: NSWindowPosSize.GetState
 keywords: NSWindowPosSize, GetState
 so.topic: reference
 ---
+
+# Integer GetState()
 
 Normal = 0, Maximized = 1, Minimized = 2
 
@@ -18,5 +20,4 @@ Normal = 0, Maximized = 1, Minimized = 2
 NSWindowPosSize thing;
 Integer state  = thing.GetState();
 ```
-
 

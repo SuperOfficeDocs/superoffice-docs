@@ -6,6 +6,5 @@ keywords: GetRoleId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetRoleId()
 

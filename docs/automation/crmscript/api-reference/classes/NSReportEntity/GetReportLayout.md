@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportEntity_GetReportLayout
 title: Integer GetReportLayout()
 intellisense: NSReportEntity.GetReportLayout
 keywords: NSReportEntity, GetReportLayout
 so.topic: reference
 ---
+
+# Integer GetReportLayout()
 
 The layout of the report.
 
@@ -24,5 +26,4 @@ The layout of the report.
 NSReportEntity thing;
 Integer reportLayout  = thing.GetReportLayout();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMDOAgent_GetSimpleList
 title: NSMDOListItem[] GetSimpleList(String name)
 intellisense: NSMDOAgent.GetSimpleList
 keywords: NSMDOAgent, GetSimpleList
 so.topic: reference
 ---
+
+# NSMDOListItem[] GetSimpleList(String name)
 
 Method returns a simple flat MDO List.
 

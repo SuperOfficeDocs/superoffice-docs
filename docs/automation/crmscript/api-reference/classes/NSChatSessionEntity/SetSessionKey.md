@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_SetSessionKey
 title: SetSessionKey(String sessionKey)
 intellisense: NSChatSessionEntity.SetSessionKey
 keywords: NSChatSessionEntity, GetSessionKey
 so.topic: reference
 ---
+
+# SetSessionKey(String sessionKey)
 
 Key used to authenticate the session.
 

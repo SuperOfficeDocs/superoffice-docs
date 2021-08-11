@@ -7,11 +7,9 @@ keywords: GetStringCurrencyName()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStringCurrencyName()
 
 Currency the sale was made in.
 
-
-
 * **Returns:** String
-
 

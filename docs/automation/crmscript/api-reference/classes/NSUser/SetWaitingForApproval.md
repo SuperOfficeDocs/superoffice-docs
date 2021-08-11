@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUser_SetWaitingForApproval
 title: SetWaitingForApproval(Bool waitingForApproval)
 intellisense: NSUser.SetWaitingForApproval
 keywords: NSUser, GetWaitingForApproval
 so.topic: reference
 ---
+
+# SetWaitingForApproval(Bool waitingForApproval)
 
 The user is waiting for an administrator to approve/grant her/him access.
 

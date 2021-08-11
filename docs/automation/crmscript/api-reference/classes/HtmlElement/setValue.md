@@ -7,6 +7,8 @@ keywords: setValue(String)
 so.topic: reference
 ---
 
+# HtmlElement.setValue(String value)
+
 ### Void setValue(String value)
 
 Sets the value of a specific element.

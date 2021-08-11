@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_RenameDocument
 title: String RenameDocument(Integer documentId, String newFilename)
 intellisense: NSDocumentAgent.RenameDocument
 keywords: NSDocumentAgent, RenameDocument
 so.topic: reference
 ---
+
+# String RenameDocument(Integer documentId, String newFilename)
 
 Rename the physical document, i.e., change the file name or equivalent concept in the document archive.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZonesByFilter
 title: Void SetActiveTimeZonesByFilter(String filter, Bool active)
 intellisense: NSTimeZoneAgent.SetActiveTimeZonesByFilter
 keywords: NSTimeZoneAgent, SetActiveTimeZonesByFilter
 so.topic: reference
 ---
+
+# Void SetActiveTimeZonesByFilter(String filter, Bool active)
 
 Toggles active state of a single row in the TZLocation table
 

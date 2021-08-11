@@ -7,12 +7,10 @@ keywords: SetStandardBool(Bool)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetStandardBool(Bool p_0)
 
 bool is a special case, it is normally saved as ushort
 
-
-
 * **StandardBool:** Bool
 * **Returns:** Bool
-
 

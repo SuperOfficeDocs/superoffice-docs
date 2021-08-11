@@ -7,12 +7,11 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Attachment.setValue(String name, String value)
 
 Set a value on the attachment object. Returns the value to assign.
 
-
 The current implementation supports the following values for the name parameter.
-
 
 - id: the attachment id
 - contentType: content descriptor
@@ -25,12 +24,7 @@ The current implementation supports the following values for the name parameter.
 - dbiLastModified
 - dbiLastSyncronized
 
-
-
-
 ## Parameters
 
-
  - name: Name of the parameter to write
-
 

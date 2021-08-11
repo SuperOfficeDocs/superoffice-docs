@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTaskListItem_GetDirection
 title: Integer GetDirection()
 intellisense: NSTaskListItem.GetDirection
 keywords: NSTaskListItem, GetDirection
 so.topic: reference
 ---
+
+# Integer GetDirection()
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
@@ -19,5 +21,4 @@ so.topic: reference
 NSTaskListItem thing;
 Integer direction  = thing.GetDirection();
 ```
-
 

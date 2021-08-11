@@ -6,6 +6,7 @@ sortOrder: 422
 so.topic: reference
 ---
 
+# Integer
 
 A class for representing integers as objects.
 Constructor can take an integer, and returns integer.

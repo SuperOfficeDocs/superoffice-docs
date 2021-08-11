@@ -6,6 +6,5 @@ keywords: GetProbId()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetProbId()
 

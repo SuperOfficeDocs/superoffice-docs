@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_GetType
 title: Integer GetType()
 intellisense: NSUserDefinedFieldInfo.GetType
 keywords: NSUserDefinedFieldInfo, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it's an enum
 
@@ -24,5 +26,4 @@ ID of owning table (contact, person, project) - this is not the actual tableNumb
 NSUserDefinedFieldInfo thing;
 Integer type  = thing.GetType();
 ```
-
 

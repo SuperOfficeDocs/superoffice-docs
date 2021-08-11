@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_GetUserDefinedFields
 title: Map GetUserDefinedFields()
 intellisense: NSSaleEntity.GetUserDefinedFields
 keywords: NSSaleEntity, GetUserDefinedFields
 so.topic: reference
 ---
+
+# Map GetUserDefinedFields()
 
 Get the user-defined fields on the SaleEntity as a map.
 

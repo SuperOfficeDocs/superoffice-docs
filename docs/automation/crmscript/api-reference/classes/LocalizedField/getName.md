@@ -7,6 +7,5 @@ keywords: getName()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getName()
 

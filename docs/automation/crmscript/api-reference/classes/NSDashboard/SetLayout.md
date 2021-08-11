@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboard_SetLayout
 title: SetLayout(Integer layout)
 intellisense: NSDashboard.SetLayout
 keywords: NSDashboard, GetLayout
 so.topic: reference
 ---
+
+# SetLayout(Integer layout)
 
 The dashboard layout, how the tiles are organized on the screen
 

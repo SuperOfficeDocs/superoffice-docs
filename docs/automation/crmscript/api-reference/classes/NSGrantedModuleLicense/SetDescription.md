@@ -7,6 +7,5 @@ keywords: SetDescription(String)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetDescription(String p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetChatImageWithSize
 title: NSImage GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetChatImageWithSize
 keywords: NSBLOBAgent, GetChatImageWithSize
 so.topic: reference
 ---
+
+# NSImage GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
 
 Returns the chat image that is displayed in chat with a specified maximum size.
 

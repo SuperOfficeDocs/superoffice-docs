@@ -7,20 +7,15 @@ keywords: openAsStream(String)
 so.topic: reference
 ---
 
+# HTTP.openAsStream(String p_url)
+
 This function opens an url and returns the result as a NSStream.
-
-
 
 ## Parameters
 
-
  - p\_url: The url to open. http://.....
 
-
-
-
 ## Example
-
 
     HTTP h;
     
@@ -30,5 +25,4 @@ This function opens an url and returns the result as a NSStream.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

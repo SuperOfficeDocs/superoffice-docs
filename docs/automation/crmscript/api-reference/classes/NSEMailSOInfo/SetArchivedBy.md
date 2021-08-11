@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailSOInfo_SetArchivedBy
 title: SetArchivedBy(Integer archivedBy)
 intellisense: NSEMailSOInfo.SetArchivedBy
 keywords: NSEMailSOInfo, GetArchivedBy
 so.topic: reference
 ---
+
+# SetArchivedBy(Integer archivedBy)
 
 The associate who archived this email
 

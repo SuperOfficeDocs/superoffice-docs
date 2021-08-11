@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nspersonagent_getaddressbycountry
 title: GetAddressByCountry()
 description: CRMScript method in the NSPersonAgent class that gets the person's localized address

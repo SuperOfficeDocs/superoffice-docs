@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_SavePreference
 title: Void SavePreference(NSPreference preference)
 intellisense: NSPreferenceAgent.SavePreference
 keywords: NSPreferenceAgent, SavePreference
 so.topic: reference
 ---
+
+# Void SavePreference(NSPreference preference)
 
 Save this preference
 

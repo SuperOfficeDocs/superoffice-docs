@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetLanguageInfo
 title: NSLanguageInfo GetLanguageInfo(Integer languageInfoId);
 intellisense: NSListAgent.GetLanguageInfo
 keywords: NSListAgent, GetLanguageInfo
 so.topic: reference
 ---
+
+# NSLanguageInfo GetLanguageInfo(Integer languageInfoId);
 
 Gets a NSLanguageInfo object.
 

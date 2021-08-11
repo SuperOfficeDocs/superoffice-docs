@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetName
 title: SetName(String name)
 intellisense: NSProduct.SetName
 keywords: NSProduct, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The name to use in the user interface.
 

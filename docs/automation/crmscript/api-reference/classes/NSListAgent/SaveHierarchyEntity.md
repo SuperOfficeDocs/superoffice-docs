@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveHierarchyEntity
 title: NSHierarchyEntity SaveHierarchyEntity(NSHierarchyEntity hierarchyEntity);
 intellisense: NSListAgent.SaveHierarchyEntity
 keywords: NSListAgent, SaveHierarchyEntity
 so.topic: reference
 ---
+
+# NSHierarchyEntity SaveHierarchyEntity(NSHierarchyEntity hierarchyEntity);
 	  
 Updates the existing NSHierarchyEntity or creates a new NSHierarchyEntity if the id parameter is 0
 	  

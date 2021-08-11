@@ -4,3 +4,5 @@ title: NSTableRight
 intellisense: Void.NSTableRight
 so.topic: reference
 ---
+
+# NSTableRight

@@ -7,6 +7,5 @@ keywords: GetLicenseType()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetLicenseType()
 

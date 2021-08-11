@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetEmarketingStrictMode
 title: Void SetEmarketingStrictMode(Bool enable)
 intellisense: NSListAgent.SetEmarketingStrictMode
 keywords: NSListAgent, SetEmarketingStrictMode
 so.topic: reference
 ---
+
+# Void SetEmarketingStrictMode(Bool enable)
 
 Turn on the Emarketing strict mode, which will enable full GDPR rules concerning Emarketing consents and subscriptions
 

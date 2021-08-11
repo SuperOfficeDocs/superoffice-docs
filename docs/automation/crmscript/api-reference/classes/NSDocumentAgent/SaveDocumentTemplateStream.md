@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SaveDocumentTemplateStream
 title: NSTemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, NSStream content, String languageCode, Integer pluginId)
 intellisense: NSDocumentAgent.SaveDocumentTemplateStream
 keywords: NSDocumentAgent, SaveDocumentTemplateStream
 so.topic: reference
 ---
+
+# NSTemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, NSStream content, String languageCode, Integer pluginId)
 
 Saves content in stream to document template file
 

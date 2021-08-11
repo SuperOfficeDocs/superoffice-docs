@@ -6,6 +6,5 @@ keywords: GetCategoryId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetCategoryId()
 

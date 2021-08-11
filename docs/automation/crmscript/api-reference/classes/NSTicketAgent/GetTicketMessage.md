@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_GetTicketMessage
 title: NSTicketMessage GetTicketMessage(Integer ticketMessageId);
 intellisense: NSTicketAgent.GetTicketMessage
 keywords: NSTicketAgent, GetTicketMessage
 so.topic: reference
 ---
+
+# NSTicketMessage GetTicketMessage(Integer ticketMessageId);
 
 Gets a NSTicketMessage object.
 

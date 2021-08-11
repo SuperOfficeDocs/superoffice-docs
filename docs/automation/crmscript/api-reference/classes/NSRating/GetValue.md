@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRating_GetValue
 title: String GetValue()
 intellisense: NSRating.GetValue
 keywords: NSRating, GetValue
 so.topic: reference
 ---
+
+# String GetValue()
 
 Get the name of the NSRating.
 

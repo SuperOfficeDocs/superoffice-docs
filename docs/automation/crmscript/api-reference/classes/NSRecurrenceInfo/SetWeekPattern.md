@@ -6,6 +6,5 @@ keywords: SetWeekPattern(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetWeekPattern(Integer p_0)
 

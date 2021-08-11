@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent
 title: NSContactAgent
 intellisense: Void.NSContactAgent
 keywords: NSContactAgent
 so.topic: reference
 ---
+
+# NSContactAgent
 
 Contact (company) data services.
 

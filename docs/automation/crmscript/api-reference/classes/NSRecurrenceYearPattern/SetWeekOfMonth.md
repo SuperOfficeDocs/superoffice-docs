@@ -6,6 +6,5 @@ keywords: SetWeekOfMonth(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceYearPattern.SetWeekOfMonth(Integer p_0)
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSVisibleFor_SetVisibility
 title: SetVisibility(Integer visibility)
 intellisense: NSVisibleFor.SetVisibility
@@ -6,7 +6,7 @@ keywords: NSVisibleFor, GetVisibility
 so.topic: reference
 ---
 
-
+# SetVisibility(Integer visibility)
 
 **Parameter:** 
  - **visibility** Integer

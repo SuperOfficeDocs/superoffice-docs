@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent
 title: NSListAgent
 intellisense: Void.NSListAgent
 keywords: NSListAgent
 so.topic: reference
 ---
+
+# NSListAgent
 
 Collection of all services that works with Lists. These are typical lists of data shown in dropdown list, checkbox lists, etc.
 

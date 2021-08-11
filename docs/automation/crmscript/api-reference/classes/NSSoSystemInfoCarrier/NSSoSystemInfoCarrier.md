@@ -4,3 +4,5 @@ title: NSSoSystemInfoCarrier
 intellisense: Void.NSSoSystemInfoCarrier
 so.topic: reference
 ---
+
+# NSSoSystemInfoCarrier

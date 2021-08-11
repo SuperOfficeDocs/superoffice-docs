@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseInfo_SetSignature
 title: SetSignature(String signature)
 intellisense: NSLicenseInfo.SetSignature
 keywords: NSLicenseInfo, GetSignature
 so.topic: reference
 ---
+
+# SetSignature(String signature)
 
 Signature of all non-zero-amount moduleLicense rows referring to this owner
 

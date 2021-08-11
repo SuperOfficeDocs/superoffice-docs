@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_GetCompleted
 title: Integer GetCompleted()
 intellisense: NSAppointmentEntity.GetCompleted
 keywords: NSAppointmentEntity, GetCompleted
 so.topic: reference
 ---
+
+# Integer GetCompleted()
 
 Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.
 
@@ -19,5 +21,4 @@ Appointment Completed state. This property is the part of the Status property th
 NSAppointmentEntity thing;
 Integer completed  = thing.GetCompleted();
 ```
-
 

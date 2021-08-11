@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_DeclineInvitationFromEmailItem
 title: Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
 intellisense: NSAppointmentAgent.DeclineInvitationFromEmailItem
 keywords: NSAppointmentAgent, DeclineInvitationFromEmailItem
 so.topic: reference
 ---
+
+# Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
 
 Declining an appointment invitation where no tentative appointments have been created.
 

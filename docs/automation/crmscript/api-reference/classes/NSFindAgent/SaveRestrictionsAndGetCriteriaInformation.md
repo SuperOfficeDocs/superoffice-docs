@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionsAndGetCriteriaInformation
 title: NSCriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] restrictions, String[] staticColumns)
 intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation
 keywords: NSFindAgent, SaveRestrictionsAndGetCriteriaInformation
 so.topic: reference
 ---
+
+# NSCriteriaInformation SaveRestrictionsAndGetCriteriaInformation(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] restrictions, String[] staticColumns)
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
 

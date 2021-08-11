@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ToggleErpConnectionActive
 title: String[] ToggleErpConnectionActive(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.ToggleErpConnectionActive
 keywords: NSErpSyncAgent, ToggleErpConnectionActive
 so.topic: reference
 ---
+
+# String[] ToggleErpConnectionActive(Integer erpConnectionId)
 
 Toggles the Active state of the connection
 

@@ -6,7 +6,7 @@ keywords: GetCompanyOurContact()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetCompanyOurContact()
 
 Contains new value for company, our contact.
-
 

@@ -6,6 +6,5 @@ keywords: GetDisplayName()
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.GetDisplayName()
 

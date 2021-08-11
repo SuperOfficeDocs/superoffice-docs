@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoBase_SetDescription
 title: SetDescription(String description)
 intellisense: NSFieldInfoBase.SetDescription
 keywords: NSFieldInfoBase, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Optional tooltip text for this field
 

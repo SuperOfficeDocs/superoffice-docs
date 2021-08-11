@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveHeadingFromName
 title: NSHeadingEntity SaveHeadingFromName(String name, NSHeadingEntity entity)
 intellisense: NSListAgent.SaveHeadingFromName
 keywords: NSListAgent, SaveHeadingFromName
 so.topic: reference
 ---
+
+# NSHeadingEntity SaveHeadingFromName(String name, NSHeadingEntity entity)
 
 Save new heading for list resolved by the provided name.
 

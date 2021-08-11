@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCheckLicenseStatusResult_SetUrl
 title: SetUrl(String url)
 intellisense: NSCheckLicenseStatusResult.SetUrl
 keywords: NSCheckLicenseStatusResult, GetUrl
 so.topic: reference
 ---
+
+# SetUrl(String url)
 
 Url to show to the user.  This is relevant when LinkType is 60.
 

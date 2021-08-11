@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPriority_GetTooltip
 title: String GetTooltip()
 intellisense: NSPriority.GetTooltip
 keywords: NSPriority, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the Priority list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the Priority list item.
 NSPriority thing;
 String descr = thing.GetTooltip();
 ```
-
 

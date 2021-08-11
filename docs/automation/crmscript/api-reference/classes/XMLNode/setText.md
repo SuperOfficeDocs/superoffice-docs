@@ -6,18 +6,13 @@ keywords: setText(String)
 so.topic: reference
 ---
 
+# XMLNode.setText(String text)
+
 Set the text between two tags.
-
-
 
 ## Parameters
 
-
  - text: The text between two tags
-
-
-
-
 
 ## Example
     
@@ -27,5 +22,4 @@ Set the text between two tags.
     xml.setText("Example text");
     
     print(xml.getText());
-
 

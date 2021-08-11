@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_SaveForeignKey
 title: NSForeignKey SaveForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.SaveForeignKey
 keywords: NSForeignSystemAgent, SaveForeignKey
 so.topic: reference
 ---
+
+# NSForeignKey SaveForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
 
 Saves a key belonging to the ForeignApp and NSForeignDevice specified.
 

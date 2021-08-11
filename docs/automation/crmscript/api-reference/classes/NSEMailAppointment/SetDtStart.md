@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAppointment_SetDtStart
 title: SetDtStart(DateTime dtStart)
 intellisense: NSEMailAppointment.SetDtStart
 keywords: NSEMailAppointment, GetDtStart
 so.topic: reference
 ---
+
+# SetDtStart(DateTime dtStart)
 
 Start date/time in ICS file.
 

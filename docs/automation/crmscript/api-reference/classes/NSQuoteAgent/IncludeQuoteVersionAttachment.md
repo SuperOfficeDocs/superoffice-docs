@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_IncludeQuoteVersionAttachment
 title: Bool IncludeQuoteVersionAttachment(Integer quoteVersionId, Integer documentId, Bool include)
 intellisense: NSQuoteAgent.IncludeQuoteVersionAttachment
 keywords: NSQuoteAgent, IncludeQuoteVersionAttachment
 so.topic: reference
 ---
+
+# Bool IncludeQuoteVersionAttachment(Integer quoteVersionId, Integer documentId, Bool include)
 
 Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions
 

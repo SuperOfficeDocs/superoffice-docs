@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketNotificationMessage_SetDate
 title: SetDate(DateTime date)
 intellisense: NSPocketNotificationMessage.SetDate
 keywords: NSPocketNotificationMessage, GetDate
 so.topic: reference
 ---
+
+# SetDate(DateTime date)
 
 If the message is about some event happening at a specific date and time
 

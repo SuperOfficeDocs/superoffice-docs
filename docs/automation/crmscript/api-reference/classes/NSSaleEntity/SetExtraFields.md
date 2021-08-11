@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetExtraFields
 title: SetExtraFields(Map extras)
 intellisense: NSSaleEntity.SetExtraFields
 keywords: NSSaleEntity, SetExtraFields
 so.topic: reference
 ---
+
+# SetExtraFields(Map extras)
 
 Set the extra field values on SaleEntity with a map.
 

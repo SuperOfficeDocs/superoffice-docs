@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish
 title: Integer Publish(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.Publish
 keywords: NSUserDefinedFieldInfoAgent, Publish
 so.topic: reference
 ---
+
+# Integer Publish(Integer ownerType)
 
 Publish changed Udef fields for the given owner type
 

@@ -6,13 +6,11 @@ keywords: setCell(Integer,Integer,String)
 so.topic: reference
 ---
 
+# StringMatrix.setCell(Integer row, Integer column, String value)
 
 Sets the value of the specified cell.
-
-
 
 * **row:** The row
 * **column:** The column
 * **value:** The value to set in the specified cell.
-
 

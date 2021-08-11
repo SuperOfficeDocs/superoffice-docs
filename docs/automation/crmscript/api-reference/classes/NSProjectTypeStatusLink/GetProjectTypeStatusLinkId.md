@@ -6,6 +6,5 @@ keywords: GetProjectTypeStatusLinkId()
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
 

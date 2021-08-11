@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTaskListItem_SetDefaultVideomeetingStatus
 title: SetDefaultVideomeetingStatus(Integer defaultVideomeetingStatus)
 intellisense: NSTaskListItem.SetDefaultVideomeetingStatus
 keywords: NSTaskListItem, GetDefaultVideomeetingStatus
 so.topic: reference
 ---
+
+# SetDefaultVideomeetingStatus(Integer defaultVideomeetingStatus)
 
 Default video-meeting status for meetings created in SuperOffice CRM.
 

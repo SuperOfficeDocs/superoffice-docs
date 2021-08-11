@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectionSummary
 title: NSErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer erpSyncConnectionId)
 intellisense: NSErpSyncAgent.GetErpSyncConnectionSummary
 keywords: NSErpSyncAgent, GetErpSyncConnectionSummary
 so.topic: reference
 ---
+
+# NSErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer erpSyncConnectionId)
 
 Get a summary of the current ErpSync configuration/setup
 

@@ -7,6 +7,8 @@ keywords: eof()
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.eof()
+
 This function checks if there are no more fields in the result.
 
 ## Usage
@@ -19,5 +21,4 @@ A common usage is in the condition section in a for-loop:
     {
       // do something with information from efi
     }
-
 

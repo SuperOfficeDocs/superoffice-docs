@@ -6,14 +6,11 @@ keywords: setMin(Integer)
 so.topic: reference
 ---
 
+# Time.setMin(Integer min)
+
 This functipn sets the minutes of the time.
 
-
 * **Minutes:** to set
-
-
-
-
 
 ## Example
     
@@ -23,5 +20,4 @@ This functipn sets the minutes of the time.
     t.setSec(30);
     
     10:15:30
-
 

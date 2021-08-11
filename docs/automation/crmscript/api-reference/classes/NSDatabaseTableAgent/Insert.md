@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_Insert
 title: NSMassOperationResult Insert(String tableName, String[] columns, String[] data)
 intellisense: NSDatabaseTableAgent.Insert
 keywords: NSDatabaseTableAgent, Insert
 so.topic: reference
 ---
+
+# NSMassOperationResult Insert(String tableName, String[] columns, String[] data)
 
 Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
 

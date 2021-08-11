@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_GetCautionWarning
 title: NSAppointmentCautionWarning GetCautionWarning()
 intellisense: NSAppointmentEntity.GetCautionWarning
 keywords: NSAppointmentEntity, GetCautionWarning
 so.topic: reference
 ---
+
+# NSAppointmentCautionWarning GetCautionWarning()
 
 Status field to indicate appointments that have some sort of problem
 
@@ -21,5 +23,4 @@ Status field to indicate appointments that have some sort of problem
 NSAppointmentEntity thing;
 NSAppointmentCautionWarning cautionWarning  = thing.GetCautionWarning();
 ```
-
 

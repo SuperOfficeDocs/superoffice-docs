@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembersFromSearch
 title: Integer RemoveContactSelectionMembersFromSearch(Integer selectionId, String storageKey)
 intellisense: NSSelectionAgent.RemoveContactSelectionMembersFromSearch
 keywords: NSSelectionAgent, RemoveContactSelectionMembersFromSearch
 so.topic: reference
 ---
+
+# Integer RemoveContactSelectionMembersFromSearch(Integer selectionId, String storageKey)
 
 Removes members from the selection using the search result.
 

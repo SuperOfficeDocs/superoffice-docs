@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateVariablesParameters_SetProductKey
 title: SetProductKey(String productKey)
 intellisense: NSTemplateVariablesParameters.SetProductKey
 keywords: NSTemplateVariablesParameters, GetProductKey
 so.topic: reference
 ---
+
+# SetProductKey(String productKey)
 
 Product key
 

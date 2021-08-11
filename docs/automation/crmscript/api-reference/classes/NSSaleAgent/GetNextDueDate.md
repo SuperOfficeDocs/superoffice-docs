@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_GetNextDueDate
 title: DateTime GetNextDueDate(Integer saleId)
 intellisense: NSSaleAgent.GetNextDueDate
 keywords: NSSaleAgent, GetNextDueDate
 so.topic: reference
 ---
+
+# DateTime GetNextDueDate(Integer saleId)
 
 Gets the next due date for a sale. The next due date is the next future appointment that is not completed.
 

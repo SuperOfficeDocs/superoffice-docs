@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPriority_GetId
 title: Integer GetId()
 intellisense: NSPriority.GetId
 keywords: NSPriority, GetId
 so.topic: reference
 ---
+
+# Integer GetId()
 
 Get the primary key (id) for the Priority
 

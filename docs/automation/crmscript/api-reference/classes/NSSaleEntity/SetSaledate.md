@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetSaledate
 title: SetSaledate(DateTime saledate)
 intellisense: NSSaleEntity.SetSaledate
 keywords: NSSaleEntity, GetSaledate
 so.topic: reference
 ---
+
+# SetSaledate(DateTime saledate)
 
 (expected / lost / won) sales date
 

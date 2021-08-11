@@ -7,6 +7,8 @@ keywords: setDisabled(Bool)
 so.topic: reference
 ---
 
+# HtmlElement.setDisabled(Bool disable)
+
 ### Void setDisabled(Bool invisible)
 
 Toggles whether the element is visible or invisible. Commonly used in combination with role-based access.

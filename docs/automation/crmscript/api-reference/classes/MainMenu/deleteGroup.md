@@ -7,6 +7,8 @@ keywords: deleteGroup(Integer)
 so.topic: reference
 ---
 
+# MainMenu.deleteGroup(Integer index)
+
 ### Void deleteGroup(Integer position)
 
 Removes the group at the given index from the main menu.

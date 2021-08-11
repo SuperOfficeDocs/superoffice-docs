@@ -7,21 +7,16 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Message.setValue(String colName, String value)
+
 Sets the value of column colName to the given value
 
-
-
 ## Parameters
-
 
  - String column name of the value
  - String value that should be stored in the column
 
-
-
-
 ## Possible columns
-
 
  - id: Integer, The primary key (auto-incremented)
  - ticketId: Integer, The ticket this message is a child of.
@@ -36,5 +31,4 @@ Sets the value of column colName to the given value
  - body: String, The textbody for the message.
  - bodyHtml: String, The html body for the message (if any).
  - emailHeader: String, The email header is saved in this field as raw text
-
 

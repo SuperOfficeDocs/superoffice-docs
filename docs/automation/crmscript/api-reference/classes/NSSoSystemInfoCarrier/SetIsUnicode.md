@@ -6,6 +6,5 @@ keywords: SetIsUnicode(Bool)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetIsUnicode(Bool p_0)
 

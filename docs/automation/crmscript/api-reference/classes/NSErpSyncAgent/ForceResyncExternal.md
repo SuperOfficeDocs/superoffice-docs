@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternal
 title: NSPluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternal
 keywords: NSErpSyncAgent, ForceResyncExternal
 so.topic: reference
 ---
+
+# NSPluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 
 Force resync from CRM or given Erp connection to all other connections, using external keys
 

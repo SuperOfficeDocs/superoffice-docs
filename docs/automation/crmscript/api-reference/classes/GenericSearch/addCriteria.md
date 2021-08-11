@@ -7,12 +7,11 @@ keywords: addCriteria(String,String,String,String,Integer)
 so.topic: reference
 ---
 
+# GenericSearch.addCriteria(String field, String operator, String value, String andOr, Integer concatLevel)
 
 Add search criteria to the search.
 The concatLevel which specifies how this criteria will be concatenated with the rest of the query (parenthesis level).
 A higher concatLevel gives a "(", and a lower concatlevel gives a ")".
-
-
 
 * **field:** The name of the field to select
 * **operator:** The operator for the criteria, possible values:
@@ -42,5 +41,4 @@ A higher concatLevel gives a "(", and a lower concatlevel gives a ")".
   Possible values:
   OperatorAnd, OperatorOr, OperatorNotAnd, OperatorNotOr
 * **concatLevel:** A number to use for combining criterias inside brackets. If the criterias has the same concatLevel, the end up inside the same brackets
-
 

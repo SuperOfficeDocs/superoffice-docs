@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetCheckoutState
 title: NSCheckoutInfo GetCheckoutState(Integer documentId)
 intellisense: NSDocumentAgent.GetCheckoutState
 keywords: NSDocumentAgent, GetCheckoutState
 so.topic: reference
 ---
+
+# NSCheckoutInfo GetCheckoutState(Integer documentId)
 
 Get the current checkout state for a document, relative to the user perforing the call.
 

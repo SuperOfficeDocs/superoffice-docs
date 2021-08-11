@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatOpeningHours_SetWedEnabled
 title: SetWedEnabled(Bool wedEnabled)
 intellisense: NSChatOpeningHours.SetWedEnabled
 keywords: NSChatOpeningHours, GetWedEnabled
 so.topic: reference
 ---
+
+# SetWedEnabled(Bool wedEnabled)
 
 Whether open on Wednesdays.
 

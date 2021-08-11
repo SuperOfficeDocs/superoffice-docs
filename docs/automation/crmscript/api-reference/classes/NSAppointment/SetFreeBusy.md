@@ -7,7 +7,7 @@ keywords: SetFreeBusy(Integer)
 so.topic: reference
 ---
 
+# NSAppointment.SetFreeBusy(Integer p_0)
 
 What kind of time is this: 0 = Busy, 1 = Free
-
 

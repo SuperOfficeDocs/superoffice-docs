@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEMailEnvelopes
 title: NSEMailEnvelope[] GetEMailEnvelopes(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds)
 intellisense: NSEMailAgent.GetEMailEnvelopes
 keywords: NSEMailAgent, GetEMailEnvelopes
 so.topic: reference
 ---
+
+# NSEMailEnvelope[] GetEMailEnvelopes(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds)
 
 Retrieve a set of e-mail envelopes
 

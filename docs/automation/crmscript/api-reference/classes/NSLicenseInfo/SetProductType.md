@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseInfo_SetProductType
 title: SetProductType(String productType)
 intellisense: NSLicenseInfo.SetProductType
 keywords: NSLicenseInfo, GetProductType
 so.topic: reference
 ---
+
+# SetProductType(String productType)
 
 Type of product
 

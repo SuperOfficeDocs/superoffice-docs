@@ -6,6 +6,7 @@ sortOrder: 129
 so.topic: reference
 ---
 
+# Bool
 
 A class for representing Booleans as objects.
 Constructor can take a Bool, and returns a Bool.

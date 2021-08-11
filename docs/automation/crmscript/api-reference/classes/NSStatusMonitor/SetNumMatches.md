@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSStatusMonitor_SetNumMatches
 title: SetNumMatches(Integer numMatches)
 intellisense: NSStatusMonitor.SetNumMatches
 keywords: NSStatusMonitor, GetNumMatches
 so.topic: reference
 ---
+
+# SetNumMatches(Integer numMatches)
 
 Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1
 

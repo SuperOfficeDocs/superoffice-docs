@@ -7,11 +7,9 @@ keywords: GetUshortProbability()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetUshortProbability()
 
 Actual probability, may differ from the one in the list
 
-
-
 * **Returns:** Integer
-
 

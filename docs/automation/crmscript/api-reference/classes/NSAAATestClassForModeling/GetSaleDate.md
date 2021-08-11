@@ -7,11 +7,9 @@ keywords: GetSaleDate()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetSaleDate()
 
 (expected | lost | won) sales date
 
-
-
 * **Returns:** DateTime
-
 

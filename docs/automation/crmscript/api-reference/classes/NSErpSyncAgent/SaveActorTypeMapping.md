@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_SaveActorTypeMapping
 title: NSErpSyncActorTypeMapping SaveActorTypeMapping(NSErpSyncActorTypeMapping mapping)
 intellisense: NSErpSyncAgent.SaveActorTypeMapping
 keywords: NSErpSyncAgent, SaveActorTypeMapping
 so.topic: reference
 ---
+
+# NSErpSyncActorTypeMapping SaveActorTypeMapping(NSErpSyncActorTypeMapping mapping)
 
 Save mappings for a connection/actor
 

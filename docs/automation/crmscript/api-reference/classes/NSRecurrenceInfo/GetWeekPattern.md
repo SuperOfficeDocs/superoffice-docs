@@ -6,6 +6,5 @@ keywords: GetWeekPattern()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetWeekPattern()
 

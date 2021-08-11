@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteListEntityByName
 title: Void DeleteListEntityByName(String name)
 intellisense: NSListAgent.DeleteListEntityByName
 keywords: NSListAgent, DeleteListEntityByName
 so.topic: reference
 ---
+
+# Void DeleteListEntityByName(String name)
 
 Delete a NSListEntity resolved by the provided name.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerLanguage_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSCustomerLanguage.SetTooltip
 keywords: NSCustomerLanguage, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSCustomerLanguage list item.
 

@@ -6,11 +6,9 @@ keywords: setSearchEngine(SearchEngine)
 so.topic: reference
 ---
 
+# StatLib.setSearchEngine(SearchEngine se)
 
 Use the given SearchEngine entry as query (instead of SQL string).
 
-
-
 * **gs:** The SearchEngine entry to use.
-
 

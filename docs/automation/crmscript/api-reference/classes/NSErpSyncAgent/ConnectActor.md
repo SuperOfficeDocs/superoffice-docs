@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ConnectActor
 title: Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType, NSErpSyncFieldValue[] fieldValues)
 intellisense: NSErpSyncAgent.ConnectActor
 keywords: NSErpSyncAgent, ConnectActor
 so.topic: reference
 ---
+
+# Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType, NSErpSyncFieldValue[] fieldValues)
 
 Create a link between Erp and Crm and set default values
 

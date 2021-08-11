@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_SetTile
 title: NSDashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
 intellisense: NSDashboardAgent.SetTile
 keywords: NSDashboardAgent, SetTile
 so.topic: reference
 ---
+
+# NSDashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
 
 Sets tile in the given dashboard position
 

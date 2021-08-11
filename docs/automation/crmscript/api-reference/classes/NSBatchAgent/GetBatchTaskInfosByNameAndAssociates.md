@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByNameAndAssociates
 title: NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String name, Integer[] associateIds)
 intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates
 keywords: NSBatchAgent, GetBatchTaskInfosByNameAndAssociates
 so.topic: reference
 ---
+
+# NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String name, Integer[] associateIds)
 
 Get an array of NSBatchTaskInfo for the provided associate id's and batch task definition name.
 

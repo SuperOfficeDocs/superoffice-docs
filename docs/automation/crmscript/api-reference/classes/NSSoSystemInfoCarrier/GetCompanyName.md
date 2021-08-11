@@ -6,6 +6,5 @@ keywords: GetCompanyName()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetCompanyName()
 

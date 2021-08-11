@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany
 title: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
 intellisense: NSNavigatorAgent.GetNavigatorCompany
 keywords: NSNavigatorAgent, GetNavigatorCompany
 so.topic: reference
 ---
+
+# NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
 
 Gets a NSNavigatorCompany object.
 

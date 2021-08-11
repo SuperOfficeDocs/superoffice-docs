@@ -7,12 +7,10 @@ keywords: EnumInput(Integer)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.EnumInput(Integer p_0)
 
 Test enum input
 
-
-
 * **enumArgument:** Some enum argument
 * **Returns:** A void return
-
 

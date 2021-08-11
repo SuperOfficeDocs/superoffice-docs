@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEventData_SetBlockExecution
 title: SetBlockExecution(Bool blockExecution)
 intellisense: NSEventData.SetBlockExecution
 keywords: NSEventData, GetBlockExecution
 so.topic: reference
 ---
+
+# SetBlockExecution(Bool blockExecution)
 
 Whether the context should stop what it is doing, e.g. saving a sale
 

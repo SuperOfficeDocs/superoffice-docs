@@ -6,6 +6,5 @@ keywords: SetPagers(NSEntityElement[])
 so.topic: reference
 ---
 
-
-
+# NSPersonEntity.SetPagers(NSEntityElement[] p_0)
 

@@ -5,5 +5,6 @@ intellisense: Void.NSTrayAppAgent
 so.topic: reference
 ---
 
+# NSTrayAppAgent
 
 Interface for the TrayApp Agent

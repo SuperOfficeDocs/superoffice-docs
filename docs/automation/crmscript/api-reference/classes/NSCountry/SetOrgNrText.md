@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCountry_SetOrgNrText
 title: SetOrgNrText(String orgNrText)
 intellisense: NSCountry.SetOrgNrText
 keywords: NSCountry, GetOrgNrText
 so.topic: reference
 ---
+
+# SetOrgNrText(String orgNrText)
 
 Lead text for organisation field
 

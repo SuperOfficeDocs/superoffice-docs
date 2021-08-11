@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteLines
 title: NSQuoteLine[] GetQuoteLines(Integer quoteAlternativeId)
 intellisense: NSQuoteAgent.GetQuoteLines
 keywords: NSQuoteAgent, GetQuoteLines
 so.topic: reference
 ---
+
+# NSQuoteLine[] GetQuoteLines(Integer quoteAlternativeId)
 
 Get all QuoteLines from an alternative
 

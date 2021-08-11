@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectMember_SetProjectmemberId
 title: SetProjectmemberId(Integer projectmemberId)
 intellisense: NSProjectMember.SetProjectmemberId
 keywords: NSProjectMember, GetProjectmemberId
 so.topic: reference
 ---
+
+# SetProjectmemberId(Integer projectmemberId)
 
 Primary key
 

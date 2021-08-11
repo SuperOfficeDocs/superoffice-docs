@@ -7,6 +7,7 @@ keywords: getMDay()
 so.topic: reference
 ---
 
-Returns the day part of the DateTime (day in month) as an integer.
+# DateTime.getMDay()
 
+Returns the day part of the DateTime (day in month) as an integer.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSmsConfig_SetDefaultSmsCountry
 title: SetDefaultSmsCountry(String defaultSmsCountry)
 intellisense: NSSmsConfig.SetDefaultSmsCountry
 keywords: NSSmsConfig, GetDefaultSmsCountry
 so.topic: reference
 ---
+
+# SetDefaultSmsCountry(String defaultSmsCountry)
 
 Phone prefix, will default to the current users HomeCountryId.
 

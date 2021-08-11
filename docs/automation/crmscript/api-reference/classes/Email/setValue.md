@@ -7,12 +7,11 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Email.setValue(String name, String value)
+
 Sets the value of the given field in the email instance.
 
-
-
 ## Available fields
-
 
  - from: The from address.
  - to: The recipient.
@@ -25,19 +24,12 @@ Sets the value of the given field in the email instance.
  - bodyHtml: The HTML formated body of the email.
  - ticketId: The ticketId, only used with sms.
 
-
-
     From version 8.1 any other header value may also be added, eg. setValue("X-Foo", "42");
-    
 
 For multiple recipients, call setValue multiple times, once for each recipient.
 
-
-
 ## Parameters
-
 
  - name: The name of the field.
  - value: The value to set.
-
 

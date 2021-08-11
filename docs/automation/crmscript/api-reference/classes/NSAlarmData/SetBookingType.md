@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_SetBookingType
 title: SetBookingType(Integer bookingType)
 intellisense: NSAlarmData.SetBookingType
 keywords: NSAlarmData, GetBookingType
 so.topic: reference
 ---
+
+# SetBookingType(Integer bookingType)
 
 The type of booking the appointment represents
 

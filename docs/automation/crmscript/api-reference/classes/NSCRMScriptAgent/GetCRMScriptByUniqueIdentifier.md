@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_GetCRMScriptByUniqueIdentifier
 title: Script GetCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptAgent.GetCRMScriptByUniqueIdentifier
 keywords: NSCRMScriptAgent, GetCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
+
+# Script GetCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 
 Get information about a script from a unique identifier
 

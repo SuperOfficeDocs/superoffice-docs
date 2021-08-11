@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembersFromIds
 title: Void RemoveContactSelectionMembersFromIds(Integer selectionId, Integer[] selectionMembersIds)
 intellisense: NSSelectionAgent.RemoveContactSelectionMembersFromIds
 keywords: NSSelectionAgent, RemoveContactSelectionMembersFromIds
 so.topic: reference
 ---
+
+# Void RemoveContactSelectionMembersFromIds(Integer selectionId, Integer[] selectionMembersIds)
 
 Removes members from the selection using a collection a selectionmember id's. Members can only be removed from single selection.
 

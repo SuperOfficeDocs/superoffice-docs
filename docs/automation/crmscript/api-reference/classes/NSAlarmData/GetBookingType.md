@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_GetBookingType
 title: Integer GetBookingType()
 intellisense: NSAlarmData.GetBookingType
 keywords: NSAlarmData, GetBookingType
 so.topic: reference
 ---
+
+# Integer GetBookingType()
 
 The type of booking the appointment represents
 
@@ -19,5 +21,4 @@ The type of booking the appointment represents
 NSAlarmData thing;
 Integer bookingType  = thing.GetBookingType();
 ```
-
 

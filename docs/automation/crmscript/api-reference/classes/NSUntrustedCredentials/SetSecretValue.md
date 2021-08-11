@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUntrustedCredentials_SetSecretValue
 title: SetSecretValue(String secretValue)
 intellisense: NSUntrustedCredentials.SetSecretValue
 keywords: NSUntrustedCredentials, GetSecretValue
 so.topic: reference
 ---
+
+# SetSecretValue(String secretValue)
 
 Data stored encrypted in the db. Typically a password. Max 70 characters.
 

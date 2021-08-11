@@ -7,10 +7,11 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# EabEntry.setValue(String p_0, String p_1)
+
 Sets the value of the given field in the EabEntry instance.
 
 ## Available fields
-
 
  - name
  - email
@@ -22,20 +23,12 @@ Sets the value of the given field in the EabEntry instance.
  - dbi\_last_modified
  - dbi\_delete
 
-
-
-
 ## Parameters
-
 
  - p0: The name of the field.
  - p1: The value to set.
 
-
-
-
 ## Example
-
 
     EabEntry eab;
     
@@ -44,5 +37,4 @@ Sets the value of the given field in the EabEntry instance.
     
     eab.setValue("name", "test");
     print(eab.getValue("name"));
-
 

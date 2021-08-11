@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactActivity_SetAction
 title: SetAction(Integer action)
 intellisense: NSContactActivity.SetAction
 keywords: NSContactActivity, GetAction
 so.topic: reference
 ---
+
+# SetAction(Integer action)
 
 The activity that has occured on this contact.
 

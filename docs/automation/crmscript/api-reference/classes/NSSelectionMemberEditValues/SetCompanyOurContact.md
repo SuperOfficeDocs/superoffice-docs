@@ -6,7 +6,7 @@ keywords: SetCompanyOurContact(Integer)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyOurContact(Integer p_0)
 
 Contains new value for company, our contact.
-
 

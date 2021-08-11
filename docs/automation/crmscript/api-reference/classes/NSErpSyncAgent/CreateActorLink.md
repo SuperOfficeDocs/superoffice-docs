@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_CreateActorLink
 title: Bool CreateActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType)
 intellisense: NSErpSyncAgent.CreateActorLink
 keywords: NSErpSyncAgent, CreateActorLink
 so.topic: reference
 ---
+
+# Bool CreateActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType)
 
 Link a crm entity to an erp entity
 

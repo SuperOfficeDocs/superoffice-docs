@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAssociate_SetPersonId
 title: SetPersonId(Integer personId)
 intellisense: NSAssociate.SetPersonId
 keywords: NSAssociate, GetPersonId
 so.topic: reference
 ---
+
+# SetPersonId(Integer personId)
 
 Owning person record
 

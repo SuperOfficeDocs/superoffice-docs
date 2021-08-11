@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSStatisticsDataSet_SetDescription
 title: SetDescription(String description)
 intellisense: NSStatisticsDataSet.SetDescription
 keywords: NSStatisticsDataSet, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Tooltip for data value
 

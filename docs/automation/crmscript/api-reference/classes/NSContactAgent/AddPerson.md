@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_AddPerson
 title: NSPersonEntity AddPerson(Integer contactId, NSPersonEntity newPersonEntity)
 intellisense: NSContactAgent.AddPerson
 keywords: NSContactAgent, AddPerson
 so.topic: reference
 ---
+
+# NSPersonEntity AddPerson(Integer contactId, NSPersonEntity newPersonEntity)
 
 Add a person to the given contact
 

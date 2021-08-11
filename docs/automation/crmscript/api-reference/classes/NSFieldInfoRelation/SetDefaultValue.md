@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoRelation_SetDefaultValue
 title: SetDefaultValue(Integer defaultValue)
 intellisense: NSFieldInfoRelation.SetDefaultValue
 keywords: NSFieldInfoRelation, GetDefaultValue
 so.topic: reference
 ---
+
+# SetDefaultValue(Integer defaultValue)
 
 Default record id.
 

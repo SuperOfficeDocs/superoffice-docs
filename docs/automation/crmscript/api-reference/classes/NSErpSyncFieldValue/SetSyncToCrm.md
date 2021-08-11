@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncFieldValue_SetSyncToCrm
 title: SetSyncToCrm(Bool syncToCrm)
 intellisense: NSErpSyncFieldValue.SetSyncToCrm
 keywords: NSErpSyncFieldValue, GetSyncToCrm
 so.topic: reference
 ---
+
+# SetSyncToCrm(Bool syncToCrm)
 
 Should value changes in ERP be automatically transferred to CRM
 

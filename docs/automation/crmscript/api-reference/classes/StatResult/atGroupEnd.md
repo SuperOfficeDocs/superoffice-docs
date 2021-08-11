@@ -6,12 +6,10 @@ keywords: atGroupEnd(Integer)
 so.topic: reference
 ---
 
+# StatResult.atGroupEnd(Integer column)
 
 Check if the current row is the last row for a given group.
 
-
-
 * **column:** The column which identifies the group.
 * **Returns:** True if we're at the last row for this group, otherwise False.
-
 

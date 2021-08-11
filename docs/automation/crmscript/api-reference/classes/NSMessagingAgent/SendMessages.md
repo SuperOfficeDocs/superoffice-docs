@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMessagingAgent_SendMessages
 title: NSMessageDeliveryStatus[] SendMessages(String plugin, NSOutgoingMessage[] outgoingMessages)
 intellisense: NSMessagingAgent.SendMessages
 keywords: NSMessagingAgent, SendMessages
 so.topic: reference
 ---
+
+# NSMessageDeliveryStatus[] SendMessages(String plugin, NSOutgoingMessage[] outgoingMessages)
 
 Send an array of messages
 

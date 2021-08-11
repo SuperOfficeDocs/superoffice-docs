@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetRefreshedPageConfiguration
 title: String GetRefreshedPageConfiguration(String application, String instance, String page)
 intellisense: NSConfigurationAgent.GetRefreshedPageConfiguration
 keywords: NSConfigurationAgent, GetRefreshedPageConfiguration
 so.topic: reference
 ---
+
+# String GetRefreshedPageConfiguration(String application, String instance, String page)
 
 Get the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.
 

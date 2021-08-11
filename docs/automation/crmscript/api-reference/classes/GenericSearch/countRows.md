@@ -7,11 +7,9 @@ keywords: countRows()
 so.topic: reference
 ---
 
+# GenericSearch.countRows()
 
 Returns the number of rows in the resultset
 
-
-
 * **Returns:** the number of rows in the resultset
-
 

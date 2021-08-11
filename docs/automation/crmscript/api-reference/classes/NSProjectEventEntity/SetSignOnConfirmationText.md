@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEventEntity_SetSignOnConfirmationText
 title: SetSignOnConfirmationText(String signOnConfirmationText)
 intellisense: NSProjectEventEntity.SetSignOnConfirmationText
 keywords: NSProjectEventEntity, GetSignOnConfirmationText
 so.topic: reference
 ---
+
+# SetSignOnConfirmationText(String signOnConfirmationText)
 
 Text shown as confirmation text before accepting sign on.
 

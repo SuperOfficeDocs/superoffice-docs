@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleStakeholder_SetEmailId
 title: SetEmailId(Integer emailId)
 intellisense: NSSaleStakeholder.SetEmailId
 keywords: NSSaleStakeholder, GetEmailId
 so.topic: reference
 ---
+
+# SetEmailId(Integer emailId)
 
 E-mail address id - Primary key
 

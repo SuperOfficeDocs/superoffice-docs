@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_PlaceOrder
 title: NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
 intellisense: NSQuoteAgent.PlaceOrder
 keywords: NSQuoteAgent, PlaceOrder
 so.topic: reference
 ---
+
+# NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
 
 Place an order in the ERP system.
 

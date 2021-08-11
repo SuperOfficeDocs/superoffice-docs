@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceEntity_SetName
 title: SetName(String name)
 intellisense: NSResourceEntity.SetName
 keywords: NSResourceEntity, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 Initials, also login name, possibly database user name
 

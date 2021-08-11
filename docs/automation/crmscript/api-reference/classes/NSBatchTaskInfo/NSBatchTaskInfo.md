@@ -6,4 +6,6 @@ keywords: NSBatchTaskInfo
 so.topic: reference
 ---
 
+# NSBatchTaskInfo
+
 NSBatchTaskInfo contains information about one batch task.

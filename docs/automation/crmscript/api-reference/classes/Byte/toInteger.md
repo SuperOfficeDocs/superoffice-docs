@@ -7,6 +7,7 @@ keywords: toInteger()
 so.topic: reference
 ---
 
-Returns the value of a byte as an integer.
+# Byte.toInteger()
 
+Returns the value of a byte as an integer.
 

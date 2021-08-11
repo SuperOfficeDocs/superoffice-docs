@@ -6,7 +6,7 @@ keywords: toLower()
 so.topic: reference
 ---
 
+# String.toLower()
 
 * **Returns:** The lower case representation of the string
-
 

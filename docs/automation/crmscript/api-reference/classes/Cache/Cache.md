@@ -5,3 +5,5 @@ intellisense: Void.Cache
 sortOrder: 140
 so.topic: reference
 ---
+
+# Cache

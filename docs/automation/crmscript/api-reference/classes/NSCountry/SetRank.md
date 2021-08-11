@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCountry_SetRank
 title: SetRank(Integer rank)
 intellisense: NSCountry.SetRank
 keywords: NSCountry, GetRank
 so.topic: reference
 ---
+
+# SetRank(Integer rank)
 
 The rank of the country
 

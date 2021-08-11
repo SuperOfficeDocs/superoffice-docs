@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetVisibleForUserGroups
 title: NSSelectableMDOListItem[] GetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId)
 intellisense: NSListAgent.GetVisibleForUserGroups
 keywords: NSListAgent, GetVisibleForUserGroups
 so.topic: reference
 ---
+
+# NSSelectableMDOListItem[] GetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId)
 
 List of User groups that this list item is visible for
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLocalizedText_SetLanguageId
 title: SetLanguageId(Integer languageId)
 intellisense: NSLocalizedText.SetLanguageId
 keywords: NSLocalizedText, GetLanguageId
 so.topic: reference
 ---
+
+# SetLanguageId(Integer languageId)
 
 Language id as LCID value
 

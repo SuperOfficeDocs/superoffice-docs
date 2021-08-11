@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketCategoryEntity_GetFlags
 title: TicketCategoryFlags GetFlags()
 intellisense: NSTicketCategoryEntity.GetFlags
 keywords: NSTicketCategoryEntity, GetFlags
 so.topic: reference
 ---
+
+# TicketCategoryFlags GetFlags()
 
 A bitmask representing flags for this category.
 
@@ -26,5 +28,4 @@ A bitmask representing flags for this category.
 NSTicketCategoryEntity thing;
 TicketCategoryFlags flags  = thing.GetFlags();
 ```
-
 

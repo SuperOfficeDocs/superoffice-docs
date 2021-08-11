@@ -6,6 +6,5 @@ keywords: SetReason(String)
 so.topic: reference
 ---
 
-
-
+# NSTableRight.SetReason(String p_0)
 

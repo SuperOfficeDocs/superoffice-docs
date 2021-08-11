@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetInvitationStatus
 title: SetInvitationStatus(Integer invitationStatus)
 intellisense: NSAppointment.SetInvitationStatus
 keywords: NSAppointment, GetInvitationStatus
 so.topic: reference
 ---
+
+# SetInvitationStatus(Integer invitationStatus)
 
 Status if this appointment represents an invitation
 

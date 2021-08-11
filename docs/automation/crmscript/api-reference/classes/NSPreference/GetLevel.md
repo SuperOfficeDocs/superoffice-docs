@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreference_GetLevel
 title: Integer GetLevel()
 intellisense: NSPreference.GetLevel
 keywords: NSPreference, GetLevel
 so.topic: reference
 ---
+
+# Integer GetLevel()
 
 NSPreference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.
 
@@ -22,5 +24,4 @@ NSPreference level, using the standard enumerated type. Undefined is returned fo
 NSPreference thing;
 Integer level  = thing.GetLevel();
 ```
-
 

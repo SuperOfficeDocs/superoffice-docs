@@ -6,10 +6,9 @@ keywords: isNumber()
 so.topic: reference
 ---
 
+# String.isNumber()
+
 Method should return true if it is possible to convert string to integer. If string begins with number it is possible to convert until illegal character occurs.
-
-
-
 
 ## Example
     //Returns true
@@ -20,10 +19,6 @@ Method should return true if it is possible to convert string to integer. If str
     printLine(String("nok123").isNumber().toString());
     //Returns true, conversion to Integer will return 12
     printLine(String("12nok3").isNumber().toString());
-    
-
-
 
 * **Returns:** True if string can be converted to an integer, false otherwise.
-
 

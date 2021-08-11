@@ -6,6 +6,5 @@ keywords: GetDatabaseType()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDatabaseType()
 

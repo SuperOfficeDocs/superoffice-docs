@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_CreateNewFromTemplate
 title: NSDashboardTile CreateNewFromTemplate(Integer dashboardTileId, String caption, String description, Integer selectionId, NSVisibleFor[] visibleFor)
 intellisense: NSDashboardAgent.CreateNewFromTemplate
 keywords: NSDashboardAgent, CreateNewFromTemplate
 so.topic: reference
 ---
+
+# NSDashboardTile CreateNewFromTemplate(Integer dashboardTileId, String caption, String description, Integer selectionId, NSVisibleFor[] visibleFor)
 
 Create new tile from another tile used as template
 

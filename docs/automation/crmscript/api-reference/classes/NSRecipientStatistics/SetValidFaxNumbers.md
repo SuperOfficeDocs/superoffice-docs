@@ -6,7 +6,7 @@ keywords: SetValidFaxNumbers(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetValidFaxNumbers(Integer p_0)
 
 Number of members with a valid fax number.
-
 

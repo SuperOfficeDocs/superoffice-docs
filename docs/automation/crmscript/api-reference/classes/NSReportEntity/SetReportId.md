@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportEntity_SetReportId
 title: SetReportId(Integer reportId)
 intellisense: NSReportEntity.SetReportId
 keywords: NSReportEntity, GetReportId
 so.topic: reference
 ---
+
+# SetReportId(Integer reportId)
 
 The id of the report. 
 

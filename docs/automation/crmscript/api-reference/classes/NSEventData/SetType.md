@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEventData_SetType
 title: SetType(Integer type)
 intellisense: NSEventData.SetType
 keywords: NSEventData, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 The type of event we are triggered by
 

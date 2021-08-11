@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_DeleteQuoteAlternative
 title: Void DeleteQuoteAlternative(Integer quoteAlternativeId)
 intellisense: NSQuoteAgent.DeleteQuoteAlternative
 keywords: NSQuoteAgent, DeleteQuoteAlternative
 so.topic: reference
 ---
+
+# Void DeleteQuoteAlternative(Integer quoteAlternativeId)
 
 Delete a quote alternative
 

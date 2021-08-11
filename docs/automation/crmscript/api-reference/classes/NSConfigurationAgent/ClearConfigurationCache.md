@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_ClearConfigurationCache
 title: Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
 intellisense: NSConfigurationAgent.ClearConfigurationCache
 keywords: NSConfigurationAgent, ClearConfigurationCache
 so.topic: reference
 ---
+
+# Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
 
 Configuration XML's may be expensive to build and parse, and are therefore cached to the database. <para/>Cahcing is per application/instance/associate, and can be turned off through the config file. <para/>If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.<para/>Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.
 

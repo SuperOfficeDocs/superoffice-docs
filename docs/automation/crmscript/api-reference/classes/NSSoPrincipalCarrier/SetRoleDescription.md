@@ -6,6 +6,5 @@ keywords: SetRoleDescription(String)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetRoleDescription(String p_0)
 

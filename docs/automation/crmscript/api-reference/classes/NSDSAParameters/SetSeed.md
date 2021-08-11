@@ -7,6 +7,5 @@ keywords: SetSeed(NSBinary)
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.SetSeed(NSBinary p_0)
 

@@ -6,6 +6,5 @@ keywords: SetCategoryId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetCategoryId(Integer p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType
 title: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
 intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
 keywords: NSUserAgent, CreateDefaultRoleEntityFromType
 so.topic: reference
 ---
+
+# NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
 
 Create a new role entity of the specified role type. The role type cannot be changed after the entity is created.
 

@@ -6,6 +6,5 @@ keywords: GetIsPerson()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetIsPerson()
 

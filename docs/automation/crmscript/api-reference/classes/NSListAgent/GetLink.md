@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetLink
 title: NSLink GetLink(Integer linkId);
 intellisense: NSListAgent.GetLink
 keywords: NSListAgent, GetLink
 so.topic: reference
 ---
+
+# NSLink GetLink(Integer linkId);
 
 Gets a NSLink object.
 

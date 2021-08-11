@@ -6,8 +6,8 @@ keywords: caseEndsWith(String)
 so.topic: reference
 ---
 
+# String.caseEndsWith(String s)
 
 * **s:** The text the string may end with
 * **Returns:** True if the the string object ends with the string given as parameter, regardless of case.
-
 

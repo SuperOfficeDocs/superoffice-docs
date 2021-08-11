@@ -7,6 +7,8 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# EabEntry.getValue(String p_0)
+
 Get the value of the given field in the EabEntry instance.
 
 ## Available fields
@@ -21,20 +23,12 @@ Get the value of the given field in the EabEntry instance.
  - dbi\_last_modified
  - dbi\_delete
 
-
-
-
 ## Parameters
-
 
  - p0: The name of the field.
  - String: The value of the field.
 
-
-
-
 ## Example
-
 
     EabEntry eab;
     
@@ -43,5 +37,4 @@ Get the value of the given field in the EabEntry instance.
     
     eab.setValue("name", "test");
     print(eab.getValue("name"));
-
 

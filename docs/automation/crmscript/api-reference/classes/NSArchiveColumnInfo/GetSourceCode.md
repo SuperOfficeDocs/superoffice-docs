@@ -7,6 +7,5 @@ keywords: GetSourceCode()
 so.topic: reference
 ---
 
-
-
+# NSArchiveColumnInfo.GetSourceCode()
 

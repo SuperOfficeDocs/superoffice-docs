@@ -6,6 +6,5 @@ keywords: GetProjStatusTooltip()
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.GetProjStatusTooltip()
 

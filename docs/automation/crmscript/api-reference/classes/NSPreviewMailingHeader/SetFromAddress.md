@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewMailingHeader_SetFromAddress
 title: SetFromAddress(String fromAddress)
 intellisense: NSPreviewMailingHeader.SetFromAddress
 keywords: NSPreviewMailingHeader, GetFromAddress
 so.topic: reference
 ---
+
+# SetFromAddress(String fromAddress)
 
 Email address to put in the From header of the messages
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRelationDefinitionEntity_GetDestination
 title: Integer GetDestination()
 intellisense: NSRelationDefinitionEntity.GetDestination
 keywords: NSRelationDefinitionEntity, GetDestination
 so.topic: reference
 ---
+
+# Integer GetDestination()
 
 The destination of the relation
 
@@ -19,5 +21,4 @@ The destination of the relation
 NSRelationDefinitionEntity thing;
 Integer destination  = thing.GetDestination();
 ```
-
 

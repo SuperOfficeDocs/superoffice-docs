@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_date
-title: Date
+title: Date()
 description: CRMScript Date constructor
 intellisense: Void.Date
 langref: 1

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_GetCustomFields
 title: Map GetCustomFields()
 intellisense: NSTicketEntity.GetCustomFields
 keywords: NSTicketEntity, GetCustomFields
 so.topic: reference
 ---
+
+# Map GetCustomFields()
 
 Get the user-defined + extra fields on a TicketEntity as a map.
 

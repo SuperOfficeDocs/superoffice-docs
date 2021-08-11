@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_AddBounceWithCount
 title: Void AddBounceWithCount(String emailAddress, Integer counts)
 intellisense: NSPersonAgent.AddBounceWithCount
 keywords: NSPersonAgent, AddBounceWithCount
 so.topic: reference
 ---
+
+# Void AddBounceWithCount(String emailAddress, Integer counts)
 
 Add a number of bounce counts on the email address if it exists
 

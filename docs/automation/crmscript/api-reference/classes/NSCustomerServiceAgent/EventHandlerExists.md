@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_EventHandlerExists
 title: Bool EventHandlerExists(Integer eventHandlerType)
 intellisense: NSCustomerServiceAgent.EventHandlerExists
 keywords: NSCustomerServiceAgent, EventHandlerExists
 so.topic: reference
 ---
+
+# Bool EventHandlerExists(Integer eventHandlerType)
 
 Check if an eventhandler exists for a given enum
 

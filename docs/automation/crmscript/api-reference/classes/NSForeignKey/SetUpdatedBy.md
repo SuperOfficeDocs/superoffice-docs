@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignKey_SetUpdatedBy
 title: SetUpdatedBy(String updatedBy)
 intellisense: NSForeignKey.SetUpdatedBy
 keywords: NSForeignKey, GetUpdatedBy
 so.topic: reference
 ---
+
+# SetUpdatedBy(String updatedBy)
 
 Name of the person that last updated the foreign key
 

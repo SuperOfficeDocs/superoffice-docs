@@ -7,10 +7,9 @@ keywords: getMonth()
 so.topic: reference
 ---
 
+# Date.getMonth()
+
 This function will return the month as a number between 1 and 12.
-
-
-
 
 ## Example
     
@@ -19,5 +18,4 @@ This function will return the month as a number between 1 and 12.
     
     String s = d.getMonth().toString();
     print(s); 7
-
 

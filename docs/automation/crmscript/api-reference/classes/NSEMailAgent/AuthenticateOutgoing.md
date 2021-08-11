@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_AuthenticateOutgoing
 title: Bool AuthenticateOutgoing(NSEMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.AuthenticateOutgoing
 keywords: NSEMailAgent, AuthenticateOutgoing
 so.topic: reference
 ---
+
+# Bool AuthenticateOutgoing(NSEMailConnectionInfo connectionInfo)
 
 Authenticate against a mail server to send items with
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportLabelLayoutEntity_SetLeftMargin
 title: SetLeftMargin(Integer leftMargin)
 intellisense: NSReportLabelLayoutEntity.SetLeftMargin
 keywords: NSReportLabelLayoutEntity, GetLeftMargin
 so.topic: reference
 ---
+
+# SetLeftMargin(Integer leftMargin)
 
 Left margin in twips
 

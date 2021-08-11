@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfoList
 title: NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeStandard)
 intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
 keywords: NSUserDefinedFieldInfoAgent, GetCustomFieldInfoList
 so.topic: reference
 ---
+
+# NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeStandard)
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 

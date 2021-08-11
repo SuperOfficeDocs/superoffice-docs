@@ -7,6 +7,5 @@ keywords: getAddressType()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getAddressType()
 

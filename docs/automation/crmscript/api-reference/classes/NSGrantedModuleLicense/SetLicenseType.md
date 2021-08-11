@@ -7,6 +7,5 @@ keywords: SetLicenseType(Integer)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetLicenseType(Integer p_0)
 

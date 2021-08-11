@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_DeleteChatTopicUserAgent
 title: Void DeleteChatTopicUserAgent(Integer chatTopicId, String username)
 intellisense: NSChatAgent.DeleteChatTopicUserAgent
 keywords: NSChatAgent, DeleteChatTopicUserAgent
 so.topic: reference
 ---
+
+# Void DeleteChatTopicUserAgent(Integer chatTopicId, String username)
 
 Remove a user from a topic
 

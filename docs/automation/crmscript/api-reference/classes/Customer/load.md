@@ -7,25 +7,19 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# Customer.load(Integer id)
+
 Loads the customer with the given id.
-
-
 
 ## Parameters
 
-
  - id: The id of the customer to load.
-
 
 Returns true if the customer exists, otherwise false.
 
-
-
 ## Example
-
 
     Customer c;
     
     print(c.load(3));
-
 

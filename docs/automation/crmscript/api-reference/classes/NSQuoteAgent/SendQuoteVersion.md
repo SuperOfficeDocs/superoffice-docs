@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_SendQuoteVersion
 title: NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
 intellisense: NSQuoteAgent.SendQuoteVersion
 keywords: NSQuoteAgent, SendQuoteVersion
 so.topic: reference
 ---
+
+# NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
 
 Send the quote to the user's customer. More parameters to be added later...
 

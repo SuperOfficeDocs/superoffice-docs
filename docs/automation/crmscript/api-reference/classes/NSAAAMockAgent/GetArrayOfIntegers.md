@@ -7,11 +7,9 @@ keywords: GetArrayOfIntegers()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetArrayOfIntegers()
 
 Gets some ints
 
-
-
 * **Returns:** Some ints
-
 

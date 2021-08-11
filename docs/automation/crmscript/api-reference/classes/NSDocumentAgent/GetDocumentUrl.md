@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetDocumentUrl
 title: String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
 intellisense: NSDocumentAgent.GetDocumentUrl
 keywords: NSDocumentAgent, GetDocumentUrl
 so.topic: reference
 ---
+
+# String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
 
 Get a URL referring to the given document content.<para/>This URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.<para/>The returned string is a fully qualified URL.<para/>Not all documents and document plugins support this feature.
 

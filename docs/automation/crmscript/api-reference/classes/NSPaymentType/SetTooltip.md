@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPaymentType_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSPaymentType.SetTooltip
 keywords: NSPaymentType, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSPaymentType list item.
 

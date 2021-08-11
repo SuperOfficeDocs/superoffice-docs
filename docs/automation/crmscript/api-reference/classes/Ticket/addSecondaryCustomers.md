@@ -6,9 +6,9 @@ keywords: addSecondaryCustomers(Vector)
 so.topic: reference
 ---
 
+# Ticket.addSecondaryCustomers(Vector ids)
+
 Add seconday customers to the ticket.
 
-
 * **ids:** A Vector of Strings containing the customerIds to add as secondary customers on the ticket
-
 

@@ -6,6 +6,5 @@ keywords: SetEjAccessLevel(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetEjAccessLevel(Integer p_0)
 

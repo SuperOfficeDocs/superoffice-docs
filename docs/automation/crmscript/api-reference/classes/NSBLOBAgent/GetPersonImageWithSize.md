@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetPersonImageWithSize
 title: NSImage GetPersonImageWithSize(Integer personId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetPersonImageWithSize
 keywords: NSBLOBAgent, GetPersonImageWithSize
 so.topic: reference
 ---
+
+# NSImage GetPersonImageWithSize(Integer personId, Integer width, Integer height)
 
 Returns the person image that is displayed in the CRM application with a specified maximum size.
 

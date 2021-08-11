@@ -6,6 +6,7 @@ keywords: toHours()
 so.topic: reference
 ---
 
-This function will return the timespan as a number of hours. A one day timespan will return 24.
+# TimeSpan.toHours()
 
+This function will return the timespan as a number of hours. A one day timespan will return 24.
 

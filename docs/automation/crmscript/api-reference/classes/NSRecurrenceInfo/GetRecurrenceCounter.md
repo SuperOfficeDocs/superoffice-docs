@@ -6,6 +6,5 @@ keywords: GetRecurrenceCounter()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetRecurrenceCounter()
 

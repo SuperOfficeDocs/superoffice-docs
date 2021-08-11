@@ -6,6 +6,5 @@ keywords: GetIsOnTravel()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetIsOnTravel()
 

@@ -6,7 +6,7 @@ keywords: SetCompanyNumber(String)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyNumber(String p_0)
 
 Contains new value for the company number.
-
 

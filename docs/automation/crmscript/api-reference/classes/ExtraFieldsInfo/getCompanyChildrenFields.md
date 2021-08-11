@@ -7,6 +7,7 @@ keywords: getCompanyChildrenFields()
 so.topic: reference
 ---
 
-This is a helper function for getting company relation fields. It is equivalent to calling getChildrenFields(17, 0)
+# ExtraFieldsInfo.getCompanyChildrenFields()
 
+This is a helper function for getting company relation fields. It is equivalent to calling getChildrenFields(17, 0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetProjectMemberAppointmentsByType
 title: NSAppointment[] GetProjectMemberAppointmentsByType(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
 intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByType
 keywords: NSAppointmentAgent, GetProjectMemberAppointmentsByType
 so.topic: reference
 ---
+
+# NSAppointment[] GetProjectMemberAppointmentsByType(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
 
 Method that returns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the projects where the person specified is member.
 

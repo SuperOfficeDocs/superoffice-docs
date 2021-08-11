@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_SaveChatPresence
 title: Void SaveChatPresence(NSChatPresence[] chatPresence)
 intellisense: NSChatAgent.SaveChatPresence
 keywords: NSChatAgent, SaveChatPresence
 so.topic: reference
 ---
+
+# Void SaveChatPresence(NSChatPresence[] chatPresence)
 
 Save the chat presence for specified users
 

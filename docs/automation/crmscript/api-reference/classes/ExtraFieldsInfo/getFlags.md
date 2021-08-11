@@ -7,6 +7,8 @@ keywords: getFlags()
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getFlags()
+
 Returns the flags for the current extra field.
 
 These can be accessed by wrapping the returned Integer in a FHBitSet.

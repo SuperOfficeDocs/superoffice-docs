@@ -6,6 +6,5 @@ keywords: GetBuildLabel()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetBuildLabel()
 

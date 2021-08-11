@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_ReadRow
 title: NSTableRecord ReadRow(String tableName, Integer id)
 intellisense: NSDatabaseTableAgent.ReadRow
 keywords: NSDatabaseTableAgent, ReadRow
 so.topic: reference
 ---
+
+# NSTableRecord ReadRow(String tableName, Integer id)
 
 Read a row from a table
 

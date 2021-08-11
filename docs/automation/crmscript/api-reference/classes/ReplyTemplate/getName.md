@@ -6,6 +6,7 @@ keywords: getName()
 so.topic: reference
 ---
 
-Returns the name of the Reply Template
+# ReplyTemplate.getName()
 
+Returns the name of the Reply Template
 

@@ -6,6 +6,5 @@ keywords: GetStream()
 so.topic: reference
 ---
 
-
-
+# NSStream.GetStream()
 

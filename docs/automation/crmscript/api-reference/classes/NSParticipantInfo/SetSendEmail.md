@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSParticipantInfo_SetSendEmail
 title: SetSendEmail(Bool sendEmail)
 intellisense: NSParticipantInfo.SetSendEmail
 keywords: NSParticipantInfo, GetSendEmail
 so.topic: reference
 ---
+
+# SetSendEmail(Bool sendEmail)
 
 True if the participant has been sent an email or should be sent an email
 

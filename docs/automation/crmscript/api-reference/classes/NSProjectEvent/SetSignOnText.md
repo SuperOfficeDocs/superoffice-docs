@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEvent_SetSignOnText
 title: SetSignOnText(String signOnText)
 intellisense: NSProjectEvent.SetSignOnText
 keywords: NSProjectEvent, GetSignOnText
 so.topic: reference
 ---
+
+# SetSignOnText(String signOnText)
 
 Default text for the activity created when signing on.
 

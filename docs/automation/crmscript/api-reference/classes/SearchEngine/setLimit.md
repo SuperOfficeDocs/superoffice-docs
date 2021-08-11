@@ -6,11 +6,9 @@ keywords: setLimit(Integer)
 so.topic: reference
 ---
 
+# SearchEngine.setLimit(Integer number)
 
 Set the limit of number of rows to recieve in the resultset
 
-
-
 * **number:** The limit of the rows to recieve in the resultset
-
 

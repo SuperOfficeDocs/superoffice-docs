@@ -6,7 +6,7 @@ keywords: GetOwnerTableId()
 so.topic: reference
 ---
 
+# NSUserDefinedFieldInfo.GetOwnerTableId()
 
 ID of owning table (contact, person, project)
-
 

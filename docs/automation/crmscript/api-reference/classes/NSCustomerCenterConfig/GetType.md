@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerCenterConfig_GetType
 title: Integer GetType()
 intellisense: NSCustomerCenterConfig.GetType
 keywords: NSCustomerCenterConfig, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 What kind of data is in this row
 
@@ -17,5 +19,4 @@ What kind of data is in this row
 NSCustomerCenterConfig thing;
 Integer type  = thing.GetType();
 ```
-
 

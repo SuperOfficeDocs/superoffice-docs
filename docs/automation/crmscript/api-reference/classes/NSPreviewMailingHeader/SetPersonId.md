@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewMailingHeader_SetPersonId
 title: SetPersonId(Integer personId)
 intellisense: NSPreviewMailingHeader.SetPersonId
 keywords: NSPreviewMailingHeader, GetPersonId
 so.topic: reference
 ---
+
+# SetPersonId(Integer personId)
 
 Primary key
 

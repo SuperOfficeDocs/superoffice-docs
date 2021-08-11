@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProject_SetProjectNumber
 title: SetProjectNumber(String projectNumber)
 intellisense: NSProject.SetProjectNumber
 keywords: NSProject, GetProjectNumber
 so.topic: reference
 ---
+
+# SetProjectNumber(String projectNumber)
 
 Automatically generated number
 

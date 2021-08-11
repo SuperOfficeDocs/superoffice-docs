@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSummaryItem_SetFirstMessage
 title: SetFirstMessage(String firstMessage)
 intellisense: NSChatSummaryItem.SetFirstMessage
 keywords: NSChatSummaryItem, GetFirstMessage
 so.topic: reference
 ---
+
+# SetFirstMessage(String firstMessage)
 
 A copy of the first message in the chat session
 

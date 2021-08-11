@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsprojectentity_setispublished
 title: SetIsPublished()
 description: CRMScript method in the NSProjectEntity class that sets the visibility of a ProjectEntity

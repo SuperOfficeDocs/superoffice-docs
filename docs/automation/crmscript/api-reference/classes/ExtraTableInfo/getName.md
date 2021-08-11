@@ -7,6 +7,7 @@ keywords: getName()
 so.topic: reference
 ---
 
-This method will return the textual name of the extra table.
+# ExtraTableInfo.getName()
 
+This method will return the textual name of the extra table.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProductCategory_SetValue
 title: SetValue(String value)
 intellisense: NSProductCategory.SetValue
 keywords: NSProductCategory, SetValue
 so.topic: reference
 ---
+
+# SetValue(String value)
 
 Set the name of the NSProductCategory item.
 

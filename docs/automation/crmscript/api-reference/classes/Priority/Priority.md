@@ -5,5 +5,6 @@ intellisense: Void.Priority
 so.topic: reference
 ---
 
+# Priority
 
 This class contains methods which is used to handle priorities.

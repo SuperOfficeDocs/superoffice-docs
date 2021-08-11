@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetKeyOnDeviceIdentifier
 title: NSForeignKey GetKeyOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKeyOnDeviceIdentifier
 keywords: NSForeignSystemAgent, GetKeyOnDeviceIdentifier
 so.topic: reference
 ---
+
+# NSForeignKey GetKeyOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
 
 Returning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldValueInfo_SetValues
 title: SetValues(String[] values)
 intellisense: NSFieldValueInfo.SetValues
 keywords: NSFieldValueInfo, GetValues
 so.topic: reference
 ---
+
+# SetValues(String[] values)
 
 The values to be set on this field on this bulkupdate
 

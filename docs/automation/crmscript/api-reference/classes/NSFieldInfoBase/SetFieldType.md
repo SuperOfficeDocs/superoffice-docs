@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoBase_SetFieldType
 title: SetFieldType(Integer fieldType)
 intellisense: NSFieldInfoBase.SetFieldType
 keywords: NSFieldInfoBase, GetFieldType
 so.topic: reference
 ---
+
+# SetFieldType(Integer fieldType)
 
 What sort of data does this field contain. 1 = int, 2 = short text, ...
 

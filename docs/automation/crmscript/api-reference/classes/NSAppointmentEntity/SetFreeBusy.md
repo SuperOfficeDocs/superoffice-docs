@@ -7,7 +7,7 @@ keywords: SetFreeBusy(Bool)
 so.topic: reference
 ---
 
+# NSAppointmentEntity.SetFreeBusy(Bool p_0)
 
 What kind of time is this. False is Busy. True is Free.
-
 

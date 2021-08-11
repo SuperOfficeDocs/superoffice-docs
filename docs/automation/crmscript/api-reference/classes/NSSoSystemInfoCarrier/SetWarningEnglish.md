@@ -6,6 +6,5 @@ keywords: SetWarningEnglish(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetWarningEnglish(String p_0)
 

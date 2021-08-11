@@ -6,6 +6,5 @@ keywords: SetAssociateId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetAssociateId(Integer p_0)
 

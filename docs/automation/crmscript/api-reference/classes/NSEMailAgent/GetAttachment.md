@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetAttachment
 title: NSEMailAttachment GetAttachment(NSEMailConnectionInfo connectionInfo, Integer messageServerId, String attachmentId)
 intellisense: NSEMailAgent.GetAttachment
 keywords: NSEMailAgent, GetAttachment
 so.topic: reference
 ---
+
+# NSEMailAttachment GetAttachment(NSEMailConnectionInfo connectionInfo, Integer messageServerId, String attachmentId)
 
 Retrieve an attachment from an e-mail
 

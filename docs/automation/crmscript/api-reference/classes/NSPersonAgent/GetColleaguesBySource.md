@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetColleaguesBySource
 title: NSPerson[] GetColleaguesBySource(Integer sourceType, Integer count)
 intellisense: NSPersonAgent.GetColleaguesBySource
 keywords: NSPersonAgent, GetColleaguesBySource
 so.topic: reference
 ---
+
+# NSPerson[] GetColleaguesBySource(Integer sourceType, Integer count)
 
 Gets the persons working in the same company as the logged on user. The list of person could be retrieved from the history list, the diary view list, or from all sources.
 

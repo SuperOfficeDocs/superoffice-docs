@@ -7,6 +7,5 @@ keywords: GetIsHidden()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetIsHidden()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSyncUserAccount_SetAssociateId
 title: SetAssociateId(Integer associateId)
 intellisense: NSSyncUserAccount.SetAssociateId
 keywords: NSSyncUserAccount, GetAssociateId
 so.topic: reference
 ---
+
+# SetAssociateId(Integer associateId)
 
 Id of the associate who owns this account
 

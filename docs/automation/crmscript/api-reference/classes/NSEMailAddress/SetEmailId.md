@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAddress_SetEmailId
 title: SetEmailId(Integer emailId)
 intellisense: NSEMailAddress.SetEmailId
 keywords: NSEMailAddress, GetEmailId
 so.topic: reference
 ---
+
+# SetEmailId(Integer emailId)
 
 Primary key
 

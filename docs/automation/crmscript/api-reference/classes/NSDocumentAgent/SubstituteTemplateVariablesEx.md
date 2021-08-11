@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesEx
 title: String SubstituteTemplateVariablesEx(NSTemplateVariablesParameters parameters)
 intellisense: NSDocumentAgent.SubstituteTemplateVariablesEx
 keywords: NSDocumentAgent, SubstituteTemplateVariablesEx
 so.topic: reference
 ---
+
+# String SubstituteTemplateVariablesEx(NSTemplateVariablesParameters parameters)
 
 Parse the source string, and replace any template variable tags with their values, based on the identities, custom values and entities specified in the other parameters.
 

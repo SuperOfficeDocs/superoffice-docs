@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_GetRecipientStatistics
 title: NSRecipientStatistics GetRecipientStatistics(Integer selectionId)
 intellisense: NSSelectionAgent.GetRecipientStatistics
 keywords: NSSelectionAgent, GetRecipientStatistics
 so.topic: reference
 ---
+
+# NSRecipientStatistics GetRecipientStatistics(Integer selectionId)
 
 Returns a NSRecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 

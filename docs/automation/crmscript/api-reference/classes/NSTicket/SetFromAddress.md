@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicket_SetFromAddress
 title: SetFromAddress(String fromAddress)
 intellisense: NSTicket.SetFromAddress
 keywords: NSTicket, GetFromAddress
 so.topic: reference
 ---
+
+# SetFromAddress(String fromAddress)
 
 The from-address used when this ticket got created, e.g. by email
 

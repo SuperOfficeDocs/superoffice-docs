@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_SetColumnWidths
 title: Void SetColumnWidths(String guiName, String[] columnWidths)
 intellisense: NSArchiveAgent.SetColumnWidths
 keywords: NSArchiveAgent, SetColumnWidths
 so.topic: reference
 ---
+
+# Void SetColumnWidths(String guiName, String[] columnWidths)
 
 Set the column widths for the given set of columns and GUI name. 
 

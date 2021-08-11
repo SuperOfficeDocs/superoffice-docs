@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetDescription
 title: SetDescription(String description)
 intellisense: NSAppointment.SetDescription
 keywords: NSAppointment, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 The appointment's textbox; holds a descriptive text about the appointment. Filled out by the user.
 

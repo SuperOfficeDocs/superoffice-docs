@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_ValidateScriptByIncludeId
 title: NSCRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
 intellisense: NSCRMScriptAgent.ValidateScriptByIncludeId
 keywords: NSCRMScriptAgent, ValidateScriptByIncludeId
 so.topic: reference
 ---
+
+# NSCRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
 
 Validate a CRMScript. This will check that the syntax is correct
 

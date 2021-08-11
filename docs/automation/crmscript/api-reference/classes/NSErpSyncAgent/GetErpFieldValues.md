@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetErpFieldValues
 title: String[] GetErpFieldValues(Integer erpConnectionId, Integer crmActorType, Integer entityId, String[] fieldKeys)
 intellisense: NSErpSyncAgent.GetErpFieldValues
 keywords: NSErpSyncAgent, GetErpFieldValues
 so.topic: reference
 ---
+
+# String[] GetErpFieldValues(Integer erpConnectionId, Integer crmActorType, Integer entityId, String[] fieldKeys)
 
 Get the values for the specified fields from the ERP connection
 

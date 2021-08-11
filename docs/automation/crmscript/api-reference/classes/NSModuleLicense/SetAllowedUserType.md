@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSModuleLicense_SetAllowedUserType
 title: SetAllowedUserType(Integer allowedUserType)
 intellisense: NSModuleLicense.SetAllowedUserType
 keywords: NSModuleLicense, GetAllowedUserType
 so.topic: reference
 ---
+
+# SetAllowedUserType(Integer allowedUserType)
 
 Allowed associate type for user licenses: internal(0), external(4). 
 

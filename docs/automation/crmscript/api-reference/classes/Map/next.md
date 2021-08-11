@@ -7,8 +7,9 @@ keywords: next()
 so.topic: reference
 ---
 
+# Map.next()
+
 Move internal iterator to next position.
 
 Returns false if `eof()`, otherwise true.
-
 

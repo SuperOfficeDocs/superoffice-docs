@@ -6,11 +6,9 @@ keywords: toTime()
 so.topic: reference
 ---
 
+# String.toTime()
 
 Returns a time object from a string.
 
-
-
 * **Returns:** The time value of a string.
-
 

@@ -6,6 +6,5 @@ keywords: GetDescription()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDescription()
 

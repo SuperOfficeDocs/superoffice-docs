@@ -7,12 +7,9 @@ keywords: getMDay()
 so.topic: reference
 ---
 
+# Date.getMDay()
 
 This function will return the day of month.
-
-
-
-
 
 ## Example
     
@@ -20,5 +17,4 @@ This function will return the day of month.
     print(d.toString()); 2015-07-10
     
     String s = d.getMDay().toString(); 10
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnection_SetDeleted
 title: SetDeleted(Bool deleted)
 intellisense: NSErpConnection.SetDeleted
 keywords: NSErpConnection, GetDeleted
 so.topic: reference
 ---
+
+# SetDeleted(Bool deleted)
 
 If true, the connection has been deleted and should not be shown to the users.
 

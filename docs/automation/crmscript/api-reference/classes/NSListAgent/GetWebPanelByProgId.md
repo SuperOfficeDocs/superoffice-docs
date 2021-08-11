@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetWebPanelByProgId
 title: NSWebPanelEntity GetWebPanelByProgId(String progId)
 intellisense: NSListAgent.GetWebPanelByProgId
 keywords: NSListAgent, GetWebPanelByProgId
 so.topic: reference
 ---
+
+# NSWebPanelEntity GetWebPanelByProgId(String progId)
 
 Get a web panel using the ProgId key that was specified when it was created
 

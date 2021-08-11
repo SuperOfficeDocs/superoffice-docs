@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_SetCalReplyStatus
 title: SetCalReplyStatus(Integer calReplyStatus)
 intellisense: NSEMailEntity.SetCalReplyStatus
 keywords: NSEMailEntity, GetCalReplyStatus
 so.topic: reference
 ---
+
+# SetCalReplyStatus(Integer calReplyStatus)
 
 Reply status stored in calendar data for the ical method is REPLY
 

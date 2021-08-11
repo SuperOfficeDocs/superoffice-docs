@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_ToggleActivity
 title: Integer ToggleActivity(String activityIdentifier)
 intellisense: NSAppointmentAgent.ToggleActivity
 keywords: NSAppointmentAgent, ToggleActivity
 so.topic: reference
 ---
+
+# Integer ToggleActivity(String activityIdentifier)
 
 Toggle the completed status for an activity. Activity may be sale, document or appointment. The changes are saved immediately. 
 

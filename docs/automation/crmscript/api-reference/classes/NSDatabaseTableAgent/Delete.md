@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_Delete
 title: NSMassOperationResult Delete(String tableName, Integer[] iDs)
 intellisense: NSDatabaseTableAgent.Delete
 keywords: NSDatabaseTableAgent, Delete
 so.topic: reference
 ---
+
+# NSMassOperationResult Delete(String tableName, Integer[] iDs)
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_CreateDocumentStream
 title: NSStream CreateDocumentStream(NSDocumentEntity documentEntity, Bool overwriteExistingData)
 intellisense: NSDocumentAgent.CreateDocumentStream
 keywords: NSDocumentAgent, CreateDocumentStream
 so.topic: reference
 ---
+
+# NSStream CreateDocumentStream(NSDocumentEntity documentEntity, Bool overwriteExistingData)
 
 Creates a new NSStream that can be used to store the document in the file archive.
 

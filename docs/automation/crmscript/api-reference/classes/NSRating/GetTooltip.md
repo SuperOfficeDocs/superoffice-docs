@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRating_GetTooltip
 title: String GetTooltip()
 intellisense: NSRating.GetTooltip
 keywords: NSRating, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSRating list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSRating list item.
 NSRating thing;
 String descr = thing.GetTooltip();
 ```
-
 

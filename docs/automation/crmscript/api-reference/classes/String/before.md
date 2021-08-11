@@ -6,8 +6,8 @@ keywords: before(String)
 so.topic: reference
 ---
 
+# String.before(String searchText)
 
 * **searchText:** The text to search for
 * **Returns:** The part of the string preceeding the search text
-
 

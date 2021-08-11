@@ -7,6 +7,7 @@ keywords: toString()
 so.topic: reference
 ---
 
-This function returns a string representation of the date, in ISO format.
+# Date.toString()
 
+This function returns a string representation of the date, in ISO format.
 

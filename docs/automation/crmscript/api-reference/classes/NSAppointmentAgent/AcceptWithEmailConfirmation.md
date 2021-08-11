@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_AcceptWithEmailConfirmation
 title: Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.AcceptWithEmailConfirmation
 keywords: NSAppointmentAgent, AcceptWithEmailConfirmation
 so.topic: reference
 ---
+
+# Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
 
 Accepting an appointment invitation and send an email confirmation to the meeting organizer.
 

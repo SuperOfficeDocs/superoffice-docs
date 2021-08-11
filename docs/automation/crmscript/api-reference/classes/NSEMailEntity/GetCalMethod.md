@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_GetCalMethod
 title: Integer GetCalMethod()
 intellisense: NSEMailEntity.GetCalMethod
 keywords: NSEMailEntity, GetCalMethod
 so.topic: reference
 ---
+
+# Integer GetCalMethod()
 
 Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc.
 
@@ -24,5 +26,4 @@ Method stored in the associated iCal appointment. Indicates if the iCal data is 
 NSEMailEntity thing;
 Integer calMethod  = thing.GetCalMethod();
 ```
-
 

@@ -7,22 +7,15 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# ExtraTable.getValue(String field)
 
 This function returns the value of the given field for the currently loaded entry.
 
-
-
-
 ## Parameters
-
 
  - field: The name of the extra table field - e.g. "x\_myfield"
 
-
-
-
 ## Example
-
 
     ExtraTable ex;
     
@@ -30,5 +23,4 @@ This function returns the value of the given field for the currently loaded entr
     print(b.toString());
     
     print(ex.getValue("x_table"));
-
 

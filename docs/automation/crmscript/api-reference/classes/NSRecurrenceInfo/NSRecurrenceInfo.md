@@ -4,3 +4,5 @@ title: NSRecurrenceInfo
 intellisense: Void.NSRecurrenceInfo
 so.topic: reference
 ---
+
+# NSRecurrenceInfo

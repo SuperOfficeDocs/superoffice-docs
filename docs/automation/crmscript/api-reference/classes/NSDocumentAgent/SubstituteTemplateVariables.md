@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariables
 title: String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
 intellisense: NSDocumentAgent.SubstituteTemplateVariables
 keywords: NSDocumentAgent, SubstituteTemplateVariables
 so.topic: reference
 ---
+
+# String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 

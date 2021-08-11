@@ -6,14 +6,11 @@ keywords: setSec(Integer)
 so.topic: reference
 ---
 
+# Time.setSec(Integer sec)
+
 This function sets the seconds of the time.
 
-
 * **Seconds:** to set
-
-
-
-
 
 ## Example
     
@@ -23,5 +20,4 @@ This function sets the seconds of the time.
     t.setSec(30);
     
     10:15:30
-
 

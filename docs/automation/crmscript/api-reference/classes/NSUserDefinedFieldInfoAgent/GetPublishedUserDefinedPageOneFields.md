@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
 title: NSUserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
 keywords: NSUserDefinedFieldInfoAgent, GetPublishedUserDefinedPageOneFields
 so.topic: reference
 ---
+
+# NSUserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
 
 Get a list of page one fields for given Udef type and current user group
 

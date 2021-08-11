@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetProjectEventList
 title: NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds);
 intellisense: NSProjectAgent.GetProjectEventList
 keywords: NSProjectAgent, GetProjectEventList
 so.topic: reference
 ---
+
+# NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds);
 
 Gets a vector of NSProjectEvent objects.
 

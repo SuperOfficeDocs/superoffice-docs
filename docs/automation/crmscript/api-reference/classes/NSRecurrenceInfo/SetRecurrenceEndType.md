@@ -6,6 +6,5 @@ keywords: SetRecurrenceEndType(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetRecurrenceEndType(Integer p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_IsNumberValid
 title: Bool IsNumberValid(Integer contactId, String number)
 intellisense: NSProjectAgent.IsNumberValid
 keywords: NSProjectAgent, IsNumberValid
 so.topic: reference
 ---
+
+# Bool IsNumberValid(Integer contactId, String number)
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 

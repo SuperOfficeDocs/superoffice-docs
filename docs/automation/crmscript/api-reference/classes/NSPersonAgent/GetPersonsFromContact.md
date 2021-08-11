@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetPersonsFromContact
 title: NSPerson[] GetPersonsFromContact(Integer contactId)
 intellisense: NSPersonAgent.GetPersonsFromContact
 keywords: NSPersonAgent, GetPersonsFromContact
 so.topic: reference
 ---
+
+# NSPerson[] GetPersonsFromContact(Integer contactId)
 
 Returns all the persons belonging to a contact.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_SetOrigin
 title: SetOrigin(TicketOrigin origin)
 intellisense: NSTicketEntity.SetOrigin
 keywords: NSTicketEntity, GetOrigin
 so.topic: reference
 ---
+
+# SetOrigin(TicketOrigin origin)
 
 What is the origin of this ticket
 

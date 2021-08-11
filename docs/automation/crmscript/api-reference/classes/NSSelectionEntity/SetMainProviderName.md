@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetMainProviderName
 title: SetMainProviderName(String mainProviderName)
 intellisense: NSSelectionEntity.SetMainProviderName
 keywords: NSSelectionEntity, GetMainProviderName
 so.topic: reference
 ---
+
+# SetMainProviderName(String mainProviderName)
 
 The name of the Archive Provider that will deliver the content of the archive - the actual entity rows
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration
 title: NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
 intellisense: NSQuoteAgent.GetQuoteLineConfiguration
 keywords: NSQuoteAgent, GetQuoteLineConfiguration
 so.topic: reference
 ---
+
+# NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
 
 Returns the configuration field with the given id
 

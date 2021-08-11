@@ -7,6 +7,7 @@ keywords: addBoolean(String,Bool)
 so.topic: reference
 ---
 
-Adds a boolean value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty.
+# JSONBuilder.addBoolean(String key, Bool value)
 
+Adds a boolean value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_GetRestrictionGroup
 title: NSArchiveRestrictionGroup GetRestrictionGroup(String storageType, String providerName, String storageKey, Integer rank, String context)
 intellisense: NSFindAgent.GetRestrictionGroup
 keywords: NSFindAgent, GetRestrictionGroup
 so.topic: reference
 ---
+
+# NSArchiveRestrictionGroup GetRestrictionGroup(String storageType, String providerName, String storageKey, Integer rank, String context)
 
 Return the restriction group with given rank or a blank carrier.
 

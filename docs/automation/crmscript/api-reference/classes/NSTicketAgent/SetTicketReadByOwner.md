@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SetTicketReadByOwner
 title: NSTicketEntity SetTicketReadByOwner(Integer ticketEntityId, Integer readStatus, Bool checkEscalating)
 intellisense: NSTicketAgent.SetTicketReadByOwner
 keywords: NSTicketAgent, SetTicketReadByOwner
 so.topic: reference
 ---
+
+# NSTicketEntity SetTicketReadByOwner(Integer ticketEntityId, Integer readStatus, Bool checkEscalating)
 
 Set the ReadByOwner status for a ticket. It will only have an effect if the calling user is the same as the owner of the ticket
 

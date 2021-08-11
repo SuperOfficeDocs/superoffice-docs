@@ -7,6 +7,5 @@ keywords: SetSourceCode(String)
 so.topic: reference
 ---
 
-
-
+# NSArchiveColumnInfo.SetSourceCode(String p_0)
 

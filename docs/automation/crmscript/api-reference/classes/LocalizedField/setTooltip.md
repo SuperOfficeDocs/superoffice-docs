@@ -7,6 +7,5 @@ keywords: setTooltip(String)
 so.topic: reference
 ---
 
-
-
+# LocalizedField.setTooltip(String p_value)
 

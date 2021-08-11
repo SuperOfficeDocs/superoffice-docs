@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetThuStop
 title: SetThuStop(DateTime thuStop)
 intellisense: NSTicketPriorityEntity.SetThuStop
 keywords: NSTicketPriorityEntity, GetThuStop
 so.topic: reference
 ---
+
+# SetThuStop(DateTime thuStop)
 
 The work hour stop for Thursdays. Note that only the time part of the DateTime is used
 

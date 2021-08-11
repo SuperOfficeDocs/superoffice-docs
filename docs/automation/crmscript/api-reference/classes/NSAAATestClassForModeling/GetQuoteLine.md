@@ -7,11 +7,9 @@ keywords: GetQuoteLine()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetQuoteLine()
 
 A quoteline object
 
-
-
 * **Returns:** QuoteLine
-
 

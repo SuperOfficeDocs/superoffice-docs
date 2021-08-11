@@ -7,13 +7,11 @@ keywords: setDebugMode(Bool)
 so.topic: reference
 ---
 
+# HTTP.setDebugMode(Bool)
+
 Turn on debug mode to record debug output and get the output by calling `getDebug()`.
-
-
 
 ## Parameters
 
-
 - Bool - true to turn debug on, false to turn it off
-
 

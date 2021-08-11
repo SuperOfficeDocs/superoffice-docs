@@ -7,6 +7,5 @@ keywords: GetY()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetY()
 

@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_macroparameter
-title: MacroParameter
+title: MacroParameter MacroParameter()
 description: CRMScript MacroParameter constructor
 intellisense: Void.MacroParameter
 langref: 1

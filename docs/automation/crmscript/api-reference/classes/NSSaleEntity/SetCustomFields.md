@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetCustomFields
 title: SetCustomFields(Map udefs)
 intellisense: NSSaleEntity.SetCustomFields
 keywords: NSSaleEntity, SetCustomFields
 so.topic: reference
 ---
+
+# SetCustomFields(Map udefs)
 
 Set the user-defined and extra fields on a SaleEntity with a map.
 

@@ -7,8 +7,8 @@ keywords: SetSomeEnum(Integer)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetSomeEnum(Integer p_0)
 
 * **SomeEnum:** Integer
 * **Returns:** Void
-
 

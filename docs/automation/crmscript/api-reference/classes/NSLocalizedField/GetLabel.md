@@ -6,7 +6,7 @@ keywords: GetLabel()
 so.topic: reference
 ---
 
+# NSLocalizedField.GetLabel()
 
 The label of the field
-
 

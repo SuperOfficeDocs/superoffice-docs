@@ -7,7 +7,7 @@ keywords: readBinary()
 so.topic: reference
 ---
 
+# File.readBinary()
 
 * **Returns:** Reads the file and returns binary data in a Byte array
-
 

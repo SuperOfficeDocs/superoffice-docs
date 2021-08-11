@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetRole
 title: NSRole GetRole(Integer roleId);
 intellisense: NSUserAgent.GetRole
 keywords: NSUserAgent, GetRole
 so.topic: reference
 ---
+
+# NSRole GetRole(Integer roleId);
 
 Gets a NSRole object.
 

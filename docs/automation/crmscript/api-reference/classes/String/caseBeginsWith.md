@@ -6,9 +6,9 @@ keywords: caseBeginsWith(String)
 so.topic: reference
 ---
 
+# String.caseBeginsWith(String s)
 
 * **s:** The text the string may begin with
 * **Returns:** True if the the string object begins with the string given as parameter,
 regardless of case.
-
 

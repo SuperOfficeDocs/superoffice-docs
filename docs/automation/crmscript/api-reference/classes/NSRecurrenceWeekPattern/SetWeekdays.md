@@ -6,6 +6,5 @@ keywords: SetWeekdays(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceWeekPattern.SetWeekdays(Integer p_0)
 

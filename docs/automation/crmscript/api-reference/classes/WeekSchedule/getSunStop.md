@@ -6,7 +6,7 @@ keywords: getSunStop()
 so.topic: reference
 ---
 
+# WeekSchedule.getSunStop()
 
 This function returns the end time (object) of "active" mode for Sunday.
-
 

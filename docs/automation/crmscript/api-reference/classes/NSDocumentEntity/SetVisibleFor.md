@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetVisibleFor
 title: SetVisibleFor(NSVisibleFor[] visibleFor)
 intellisense: NSDocumentEntity.SetVisibleFor
 keywords: NSDocumentEntity, SetVisibleFor
 so.topic: reference
 ---
+
+# SetVisibleFor(NSVisibleFor[] visibleFor)
 
 Set the usergroups and/or users the NSDocumentEntity item is visible for.
 

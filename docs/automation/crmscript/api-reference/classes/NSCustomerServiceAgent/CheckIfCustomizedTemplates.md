@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_CheckIfCustomizedTemplates
 title: Bool CheckIfCustomizedTemplates()
 intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
@@ -6,8 +6,9 @@ keywords: NSCustomerServiceAgent, CheckIfCustomizedTemplates
 so.topic: reference
 ---
 
-Checks whether the core html templates are customized
+# Bool CheckIfCustomizedTemplates()
 
+Checks whether the core html templates are customized
 
 **Returns:** Bool
 

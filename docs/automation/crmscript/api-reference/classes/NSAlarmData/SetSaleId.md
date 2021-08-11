@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_SetSaleId
 title: SetSaleId(Integer saleId)
 intellisense: NSAlarmData.SetSaleId
 keywords: NSAlarmData, GetSaleId
 so.topic: reference
 ---
+
+# SetSaleId(Integer saleId)
 
 Owning sale, if any (may be 0)
 

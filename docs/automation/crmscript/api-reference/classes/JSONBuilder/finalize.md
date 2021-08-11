@@ -7,6 +7,7 @@ keywords: finalize()
 so.topic: reference
 ---
 
-Pops all levels out to the root. You can call this function instead of multiple `popLevel()` if you are at then end of your structure.
+# JSONBuilder.finalize()
 
+Pops all levels out to the root. You can call this function instead of multiple `popLevel()` if you are at then end of your structure.
 

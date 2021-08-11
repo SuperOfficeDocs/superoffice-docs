@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncDefaultValue_SetFieldType
 title: SetFieldType(NSFieldMetadataType fieldType)
 intellisense: NSErpSyncDefaultValue.SetFieldType
 keywords: NSErpSyncDefaultValue, GetFieldType
 so.topic: reference
 ---
+
+# SetFieldType(NSFieldMetadataType fieldType)
 
 Field type
 

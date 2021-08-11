@@ -6,6 +6,5 @@ keywords: GetBranchName()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetBranchName()
 

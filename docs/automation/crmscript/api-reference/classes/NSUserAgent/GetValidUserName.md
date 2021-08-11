@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetValidUserName
 title: String GetValidUserName(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.GetValidUserName
@@ -6,6 +6,7 @@ keywords: NSUserAgent, GetValidUserName
 so.topic: reference
 ---
 
+# String GetValidUserName(Integer associateId, Integer type, Integer personId, String userName)
 
 **Parameters:**
  - **associateId** 

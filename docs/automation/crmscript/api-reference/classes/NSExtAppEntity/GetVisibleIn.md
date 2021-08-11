@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_GetVisibleIn
 title: Integer GetVisibleIn()
 intellisense: NSExtAppEntity.GetVisibleIn
 keywords: NSExtAppEntity, GetVisibleIn
 so.topic: reference
 ---
+
+# Integer GetVisibleIn()
 
 The application is visible in
 
@@ -86,5 +88,4 @@ The application is visible in
 NSExtAppEntity thing;
 Integer visibleIn  = thing.GetVisibleIn();
 ```
-
 

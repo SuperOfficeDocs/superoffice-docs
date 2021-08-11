@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsdocumenttemplate_setdirection
 title: SetDirection()
 description: CRMScript method in the NSDocumentTemplate class that sets the direction of a document template

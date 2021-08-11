@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSParticipantInfo_SetEmailId
 title: SetEmailId(Integer emailId)
 intellisense: NSParticipantInfo.SetEmailId
 keywords: NSParticipantInfo, GetEmailId
 so.topic: reference
 ---
+
+# SetEmailId(Integer emailId)
 
 The email id of the email belonging to the appointment record belonging to this person
 

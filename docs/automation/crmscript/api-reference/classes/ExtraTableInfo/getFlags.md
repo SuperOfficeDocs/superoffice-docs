@@ -7,11 +7,12 @@ keywords: getFlags()
 so.topic: reference
 ---
 
+# ExtraTableInfo.getFlags()
+
 Will return the flags for this extra table.
 
 ## Flags
 
 FlagHidden: 0
 FlagDeleted: 8
-
 

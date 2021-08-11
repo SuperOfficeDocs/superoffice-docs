@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSentryAgent_GetNewTableRight
 title: NSTableRight GetNewTableRight(String tableName)
 intellisense: NSSentryAgent.GetNewTableRight
 keywords: NSSentryAgent, GetNewTableRight
 so.topic: reference
 ---
+
+# NSTableRight GetNewTableRight(String tableName)
 
 Returns a NSTableRight for a new row based on tableName parameter.
 

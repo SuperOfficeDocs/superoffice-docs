@@ -8,6 +8,7 @@ keywords: GenericToTimeSpan(Generic)
 so.topic: reference
 ---
 
+# Generic.GenericToTimeSpan(Generic generic)
 
 Explicit downcast from a generic to a TimeSpan. If the generic does not represent the correct type, an exception is thrown. Together with `getTypeName()`, this function can be used to get an explicit typed variable.
 

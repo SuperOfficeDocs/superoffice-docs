@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_SetBlobStream
 title: Void SetBlobStream(Integer blobEntityId, NSStream stream)
 intellisense: NSBLOBAgent.SetBlobStream
 keywords: NSBLOBAgent, SetBlobStream
 so.topic: reference
 ---
+
+# Void SetBlobStream(Integer blobEntityId, NSStream stream)
 
 Store a binary object from it's stream
 

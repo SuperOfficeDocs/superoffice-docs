@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_Merge
 title: Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime moveAfterDate, Bool deleteSource, Bool replaceEmptyFieldsOnDestination)
 intellisense: NSPersonAgent.Merge
 keywords: NSPersonAgent, Merge
 so.topic: reference
 ---
+
+# Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime moveAfterDate, Bool deleteSource, Bool replaceEmptyFieldsOnDestination)
 
 Merge two persons. The destination person will remain. You must specify the date after which activities will be moved along with the person.
 

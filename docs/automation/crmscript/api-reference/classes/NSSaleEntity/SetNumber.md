@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetNumber
 title: SetNumber(String number)
 intellisense: NSSaleEntity.SetNumber
 keywords: NSSaleEntity, GetNumber
 so.topic: reference
 ---
+
+# SetNumber(String number)
 
 Alphanumeric user field
 

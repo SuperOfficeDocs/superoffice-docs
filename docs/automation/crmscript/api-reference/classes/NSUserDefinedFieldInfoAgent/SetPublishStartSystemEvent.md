@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPublishStartSystemEvent
 title: Void SetPublishStartSystemEvent(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
 keywords: NSUserDefinedFieldInfoAgent, SetPublishStartSystemEvent
 so.topic: reference
 ---
+
+# Void SetPublishStartSystemEvent(Integer ownerType)
 
 Set the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SaveTicketMessageEntity
 title: NSTicketMessageEntity SaveTicketMessageEntity(NSTicketMessageEntity ticketMessageEntity);
 intellisense: NSTicketAgent.SaveTicketMessageEntity
 keywords: NSTicketAgent, SaveTicketMessageEntity
 so.topic: reference
 ---
+
+# NSTicketMessageEntity SaveTicketMessageEntity(NSTicketMessageEntity ticketMessageEntity);
 	  
 Updates the existing NSTicketMessageEntity or creates a new NSTicketMessageEntity if the id parameter is 0
 	  

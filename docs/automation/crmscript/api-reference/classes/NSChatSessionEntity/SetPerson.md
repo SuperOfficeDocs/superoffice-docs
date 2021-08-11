@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_SetPerson
 title: SetPerson(NSPerson person)
 intellisense: NSChatSessionEntity.SetPerson
 keywords: NSChatSessionEntity, GetPerson
 so.topic: reference
 ---
+
+# SetPerson(NSPerson person)
 
 Customer person in this session - could be empty if we don't know exactly.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetTicketChangedPriority
 title: SetTicketChangedPriority(Integer ticketChangedPriority)
 intellisense: NSTicketPriorityEntity.SetTicketChangedPriority
 keywords: NSTicketPriorityEntity, GetTicketChangedPriority
 so.topic: reference
 ---
+
+# SetTicketChangedPriority(Integer ticketChangedPriority)
 
 This field indicates what to do with the escalation chain when the request is changed into this priority
 

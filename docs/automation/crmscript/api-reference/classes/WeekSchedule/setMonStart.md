@@ -6,15 +6,11 @@ keywords: setMonStart(Time)
 so.topic: reference
 ---
 
+# WeekSchedule.setMonStart(Time t)
 
 This function sets the start time (object) of "active" mode for Monday.
 
-
-
-
 ## Parameters
 
-
  - time: a time object set to desired start time
-
 

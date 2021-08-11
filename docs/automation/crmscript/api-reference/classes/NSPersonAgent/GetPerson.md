@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetPerson
 title: NSPerson GetPerson(Integer personId);
 intellisense: NSPersonAgent.GetPerson
 keywords: NSPersonAgent, GetPerson
 so.topic: reference
 ---
+
+# NSPerson GetPerson(Integer personId);
 
 Gets a NSPerson object.
 

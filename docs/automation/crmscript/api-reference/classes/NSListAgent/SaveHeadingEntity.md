@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveHeadingEntity
 title: NSHeadingEntity SaveHeadingEntity(NSHeadingEntity headingEntity);
 intellisense: NSListAgent.SaveHeadingEntity
 keywords: NSListAgent, SaveHeadingEntity
 so.topic: reference
 ---
+
+# NSHeadingEntity SaveHeadingEntity(NSHeadingEntity headingEntity);
 	  
 Updates the existing NSHeadingEntity or creates a new NSHeadingEntity if the id parameter is 0
 	  

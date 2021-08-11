@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetLocalizedTextList
 title: NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
 intellisense: NSListAgent.GetLocalizedTextList
 keywords: NSListAgent, GetLocalizedTextList
 so.topic: reference
 ---
+
+# NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
 
 Gets a vector of NSLocalizedText objects.
 

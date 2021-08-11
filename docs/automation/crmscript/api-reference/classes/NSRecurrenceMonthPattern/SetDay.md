@@ -6,6 +6,5 @@ keywords: SetDay(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceMonthPattern.SetDay(Integer p_0)
 

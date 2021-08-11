@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSActivitySummary_SetNumFreeActivities
 title: SetNumFreeActivities(Integer numFreeActivities)
 intellisense: NSActivitySummary.SetNumFreeActivities
 keywords: NSActivitySummary, GetNumFreeActivities
 so.topic: reference
 ---
+
+# SetNumFreeActivities(Integer numFreeActivities)
 
 Number of activites of the type 'free'. Sales and documents are not activites in this case, only diary appointments and tasks.
 

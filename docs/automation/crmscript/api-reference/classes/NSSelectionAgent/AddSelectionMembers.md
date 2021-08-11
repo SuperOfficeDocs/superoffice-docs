@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_AddSelectionMembers
 title: Integer AddSelectionMembers(Integer selectionId, Integer[] ids)
 intellisense: NSSelectionAgent.AddSelectionMembers
 keywords: NSSelectionAgent, AddSelectionMembers
 so.topic: reference
 ---
+
+# Integer AddSelectionMembers(Integer selectionId, Integer[] ids)
 
 Add selection members to a static selection of type others than contacts.
 

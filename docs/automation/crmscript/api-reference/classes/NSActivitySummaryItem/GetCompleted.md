@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSActivitySummaryItem_GetCompleted
 title: Integer GetCompleted()
 intellisense: NSActivitySummaryItem.GetCompleted
 keywords: NSActivitySummaryItem, GetCompleted
 so.topic: reference
 ---
+
+# Integer GetCompleted()
 
 The Completed state. NotStarted(1) or Completed(3)
 
@@ -19,5 +21,4 @@ The Completed state. NotStarted(1) or Completed(3)
 NSActivitySummaryItem thing;
 Integer completed  = thing.GetCompleted();
 ```
-
 

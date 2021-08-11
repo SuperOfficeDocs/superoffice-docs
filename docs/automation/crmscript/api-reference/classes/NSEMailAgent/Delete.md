@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_Delete
 title: Void Delete(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds, String moveToFolder)
 intellisense: NSEMailAgent.Delete
 keywords: NSEMailAgent, Delete
 so.topic: reference
 ---
+
+# Void Delete(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds, String moveToFolder)
 
 Delete specified mail items
 

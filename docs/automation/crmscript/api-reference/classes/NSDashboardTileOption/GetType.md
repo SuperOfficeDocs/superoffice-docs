@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardTileOption_GetType
 title: Integer GetType()
 intellisense: NSDashboardTileOption.GetType
 keywords: NSDashboardTileOption, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The type of option - integer, list, boolean (checkbox) etc.
 
@@ -20,5 +22,4 @@ The type of option - integer, list, boolean (checkbox) etc.
 NSDashboardTileOption thing;
 Integer type  = thing.GetType();
 ```
-
 

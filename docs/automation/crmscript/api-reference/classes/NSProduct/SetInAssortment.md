@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetInAssortment
 title: SetInAssortment(Bool inAssortment)
 intellisense: NSProduct.SetInAssortment
 keywords: NSProduct, GetInAssortment
 so.topic: reference
 ---
+
+# SetInAssortment(Bool inAssortment)
 
 True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.
 

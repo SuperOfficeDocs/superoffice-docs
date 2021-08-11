@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCommandInfo_GetReturnType
 title: Integer GetReturnType()
 intellisense: NSCommandInfo.GetReturnType
 keywords: NSCommandInfo, GetReturnType
 so.topic: reference
 ---
+
+# Integer GetReturnType()
 
 Declaration of what kind of return type the execution of this command will give.
 
@@ -21,5 +23,4 @@ Declaration of what kind of return type the execution of this command will give.
 NSCommandInfo thing;
 Integer returnType  = thing.GetReturnType();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReturnInfo_SetType
 title: SetType(Integer type)
 intellisense: NSReturnInfo.SetType
 keywords: NSReturnInfo, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 How is the return value to be understood by the caller
 

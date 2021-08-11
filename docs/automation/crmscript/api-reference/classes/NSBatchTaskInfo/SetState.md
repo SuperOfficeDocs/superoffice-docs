@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_SetState
 title: SetState(Integer state)
 intellisense: NSBatchTaskInfo.SetState
 keywords: NSBatchTaskInfo, GetState
 so.topic: reference
 ---
+
+# SetState(Integer state)
 
 BatchTaskState of the task.
 

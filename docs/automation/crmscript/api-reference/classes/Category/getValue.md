@@ -7,6 +7,8 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# Category.getValue(String field)
+
 Retrieves the value of the given field in the category.
 
 ## Available fields

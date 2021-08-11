@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetType
 title: SetType(Integer type)
 intellisense: NSDocumentEntity.SetType
 keywords: NSDocumentEntity, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 Is this a normal document or a mail-merge or report?
 

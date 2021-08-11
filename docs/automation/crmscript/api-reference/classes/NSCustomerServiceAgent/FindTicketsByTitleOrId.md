@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_FindTicketsByTitleOrId
 title: NSTicketInfo[] FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
 intellisense: NSCustomerServiceAgent.FindTicketsByTitleOrId
 keywords: NSCustomerServiceAgent, FindTicketsByTitleOrId
 so.topic: reference
 ---
+
+# NSTicketInfo[] FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
 
 This method wil search for tickets matching title or id
 

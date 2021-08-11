@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCsSessionKey_SetLoginId
 title: SetLoginId(Integer loginId)
 intellisense: NSCsSessionKey.SetLoginId
 keywords: NSCsSessionKey, GetLoginId
 so.topic: reference
 ---
+
+# SetLoginId(Integer loginId)
 
 The id of the login row
 

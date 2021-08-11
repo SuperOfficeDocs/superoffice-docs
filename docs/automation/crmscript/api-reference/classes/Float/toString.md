@@ -7,13 +7,11 @@ keywords: toString(Integer)
 so.topic: reference
 ---
 
+# Float.toString(Integer decimals)
+
 Returns a string representation of the Float, with "decimals" number of decimals
-
-
 
 ## Parameters
 
-
  - decimals: number of decimals
-
 

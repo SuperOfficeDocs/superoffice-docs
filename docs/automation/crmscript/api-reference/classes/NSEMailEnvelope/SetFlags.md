@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEnvelope_SetFlags
 title: SetFlags(Integer flags)
 intellisense: NSEMailEnvelope.SetFlags
 keywords: NSEMailEnvelope, GetFlags
 so.topic: reference
 ---
+
+# SetFlags(Integer flags)
 
 Flag status of this mail (unread, replied, deleted )
 

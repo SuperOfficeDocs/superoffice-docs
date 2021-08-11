@@ -6,11 +6,9 @@ keywords: deleteRow(Integer)
 so.topic: reference
 ---
 
+# StringMatrix.deleteRow(Integer row)
 
 Delete a row from the matrix.
 
-
-
 * **row:** The zero-based index of the row to delete.
-
 

@@ -7,6 +7,5 @@ keywords: GetDescription()
 so.topic: reference
 ---
 
-
-
+# NSEntityElement.GetDescription()
 

@@ -4,3 +4,5 @@ title: NSSoPrincipalCarrier
 intellisense: Void.NSSoPrincipalCarrier
 so.topic: reference
 ---
+
+# NSSoPrincipalCarrier

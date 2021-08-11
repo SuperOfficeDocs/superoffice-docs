@@ -6,6 +6,5 @@ keywords: SetTimeSpan(String)
 so.topic: reference
 ---
 
-
-
+# NSTimeSpan.SetTimeSpan(String p_0)
 

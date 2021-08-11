@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectableMDOListItem_SetSelected
 title: SetSelected(Bool selected)
 intellisense: NSSelectableMDOListItem.SetSelected
 keywords: NSSelectableMDOListItem, GetSelected
 so.topic: reference
 ---
+
+# SetSelected(Bool selected)
 
 True if the ListItem is selected
 

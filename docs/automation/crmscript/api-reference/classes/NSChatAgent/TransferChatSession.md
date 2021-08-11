@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_TransferChatSession
 title: NSChatSessionEntity TransferChatSession(Integer chatSessionId, String toAssociate)
 intellisense: NSChatAgent.TransferChatSession
 keywords: NSChatAgent, TransferChatSession
 so.topic: reference
 ---
+
+# NSChatSessionEntity TransferChatSession(Integer chatSessionId, String toAssociate)
 
 Request to send the session to another user. If the session does not belong to the user, nothing happens.
 

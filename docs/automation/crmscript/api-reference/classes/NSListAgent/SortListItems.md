@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SortListItems
 title: Void SortListItems(Integer udListDefinitionId, String cultureName)
 intellisense: NSListAgent.SortListItems
 keywords: NSListAgent, SortListItems
 so.topic: reference
 ---
+
+# Void SortListItems(Integer udListDefinitionId, String cultureName)
 
 Sort the list items in a given list alphabetically
 

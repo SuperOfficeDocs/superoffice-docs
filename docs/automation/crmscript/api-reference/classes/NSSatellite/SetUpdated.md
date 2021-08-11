@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSatellite_SetUpdated
 title: SetUpdated(DateTime updated)
 intellisense: NSSatellite.SetUpdated
 keywords: NSSatellite, GetUpdated
 so.topic: reference
 ---
+
+# SetUpdated(DateTime updated)
 
 Last updated when
 

@@ -7,6 +7,5 @@ keywords: GetJ()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetJ()
 

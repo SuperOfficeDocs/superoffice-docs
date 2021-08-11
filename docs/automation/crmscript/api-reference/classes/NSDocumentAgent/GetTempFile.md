@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetTempFile
 title: NSStream GetTempFile(String filename)
 intellisense: NSDocumentAgent.GetTempFile
 keywords: NSDocumentAgent, GetTempFile
 so.topic: reference
 ---
+
+# NSStream GetTempFile(String filename)
 
 Get data stream for temporary file created with CreateTempFile.
 

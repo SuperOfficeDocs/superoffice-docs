@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_GetDashboard
 title: NSDashboard GetDashboard(Integer dashboardId);
 intellisense: NSDashboardAgent.GetDashboard
 keywords: NSDashboardAgent, GetDashboard
 so.topic: reference
 ---
+
+# NSDashboard GetDashboard(Integer dashboardId);
 
 Gets a NSDashboard object.
 

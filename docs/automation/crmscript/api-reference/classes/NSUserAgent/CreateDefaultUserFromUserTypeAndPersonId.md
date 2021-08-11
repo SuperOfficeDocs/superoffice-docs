@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndPersonId
 title: NSUser CreateDefaultUserFromUserTypeAndPersonId(Integer userType, Integer personId)
 intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId
 keywords: NSUserAgent, CreateDefaultUserFromUserTypeAndPersonId
 so.topic: reference
 ---
+
+# NSUser CreateDefaultUserFromUserTypeAndPersonId(Integer userType, Integer personId)
 
 Create default NSUser providing the associate type and person id.  System and Anonymous users can be created without an exsisting person and permits person id to be 0.
 

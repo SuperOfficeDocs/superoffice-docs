@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersion_SetState
 title: SetState(Integer state)
 intellisense: NSQuoteVersion.SetState
 keywords: NSQuoteVersion, GetState
 so.topic: reference
 ---
+
+# SetState(Integer state)
 
 Current state of this quote version.
 

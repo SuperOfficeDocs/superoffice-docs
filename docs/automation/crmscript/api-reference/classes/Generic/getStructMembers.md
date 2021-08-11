@@ -8,6 +8,7 @@ keywords: getStructMembers(String)
 so.topic: reference
 ---
 
+# Generic.getStructMembers(String name)
 
 Get a list of the struct members (variables, not functions) of a struct given its name.
 

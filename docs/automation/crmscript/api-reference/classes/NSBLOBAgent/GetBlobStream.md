@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetBlobStream
 title: NSStream GetBlobStream(Integer blobEntityId)
 intellisense: NSBLOBAgent.GetBlobStream
 keywords: NSBLOBAgent, GetBlobStream
 so.topic: reference
 ---
+
+# NSStream GetBlobStream(Integer blobEntityId)
 
 Get the binary object as a stream
 

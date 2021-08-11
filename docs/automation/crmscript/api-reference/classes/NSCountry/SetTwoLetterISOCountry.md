@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCountry_SetTwoLetterISOCountry
 title: SetTwoLetterISOCountry(String twoLetterISOCountry)
 intellisense: NSCountry.SetTwoLetterISOCountry
 keywords: NSCountry, GetTwoLetterISOCountry
 so.topic: reference
 ---
+
+# SetTwoLetterISOCountry(String twoLetterISOCountry)
 
 Two-letter country-code according to ISO3166 
 

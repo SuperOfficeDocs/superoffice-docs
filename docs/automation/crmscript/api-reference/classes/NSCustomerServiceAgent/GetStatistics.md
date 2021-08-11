@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nscustomerserviceagent_getstatistics
 title: NSStatisticsDataSet[] GetStatistics()
 description: CRMScript method in the NSCustomerServiceAgent class that returns the calculated results for the required statistics for the Service Status page

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteLine_SetExtraInfo
 title: SetExtraInfo(NSProductExtraDataField[] extraInfo)
 intellisense: NSQuoteLine.SetExtraInfo
 keywords: NSQuoteLine, GetExtraInfo
 so.topic: reference
 ---
+
+# SetExtraInfo(NSProductExtraDataField[] extraInfo)
 
 Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension
 

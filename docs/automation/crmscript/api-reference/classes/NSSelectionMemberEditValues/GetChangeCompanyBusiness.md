@@ -6,7 +6,7 @@ keywords: GetChangeCompanyBusiness()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetChangeCompanyBusiness()
 
 If true, the business of the company will change.
-
 

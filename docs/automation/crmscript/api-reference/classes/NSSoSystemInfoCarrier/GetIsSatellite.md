@@ -6,6 +6,5 @@ keywords: GetIsSatellite()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetIsSatellite()
 

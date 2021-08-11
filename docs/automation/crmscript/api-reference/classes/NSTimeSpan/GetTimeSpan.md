@@ -6,6 +6,5 @@ keywords: GetTimeSpan()
 so.topic: reference
 ---
 
-
-
+# NSTimeSpan.GetTimeSpan()
 

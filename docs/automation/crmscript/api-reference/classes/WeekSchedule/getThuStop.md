@@ -6,7 +6,7 @@ keywords: getThuStop()
 so.topic: reference
 ---
 
+# WeekSchedule.getThuStop()
 
 This function returns the end time (object) of "active" mode for Thursday.
-
 

@@ -7,12 +7,10 @@ keywords: addString(String,String)
 so.topic: reference
 ---
 
+# DBWrite.addString(String name, String value)
 
 Add a String column to write in the table.
 
-
-
 * **name:** The name of the column.
 * **value:** The value to write.
-
 

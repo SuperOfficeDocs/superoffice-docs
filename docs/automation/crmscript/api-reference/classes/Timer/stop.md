@@ -6,6 +6,7 @@ keywords: stop()
 so.topic: reference
 ---
 
-This function will stop the timer.
+# Timer.stop()
 
+This function will stop the timer.
 

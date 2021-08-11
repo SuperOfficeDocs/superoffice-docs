@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionGroups
 title: NSArchiveRestrictionGroup[] SaveRestrictionGroups(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup[] restrictionGroups, String context)
 intellisense: NSFindAgent.SaveRestrictionGroups
 keywords: NSFindAgent, SaveRestrictionGroups
 so.topic: reference
 ---
+
+# NSArchiveRestrictionGroup[] SaveRestrictionGroups(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup[] restrictionGroups, String context)
 
 Save and rerank an array of restriction groups, returning the possibly modified array.
 

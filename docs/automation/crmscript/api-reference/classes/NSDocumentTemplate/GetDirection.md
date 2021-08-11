@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplate_GetDirection
 title: NSDocTmplDirection GetDirection()
 intellisense: NSDocumentTemplate.GetDirection
 keywords: NSDocumentTemplate, GetDirection
 so.topic: reference
 ---
+
+# NSDocTmplDirection GetDirection()
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
@@ -19,5 +21,4 @@ so.topic: reference
 NSDocumentTemplate thing;
 NSDocTmplDirection direction  = thing.GetDirection();
 ```
-
 

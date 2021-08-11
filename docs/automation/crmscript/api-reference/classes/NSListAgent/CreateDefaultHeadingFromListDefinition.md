@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_CreateDefaultHeadingFromListDefinition
 title: NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
 intellisense: NSListAgent.CreateDefaultHeadingFromListDefinition
 keywords: NSListAgent, CreateDefaultHeadingFromListDefinition
 so.topic: reference
 ---
+
+# NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
 
 Get a heading for the specified list defintion
 

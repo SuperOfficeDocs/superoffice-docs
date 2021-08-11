@@ -7,6 +7,5 @@ keywords: SetName(String)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetName(String p_0)
 

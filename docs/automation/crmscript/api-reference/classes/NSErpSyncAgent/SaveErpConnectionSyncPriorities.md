@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities
 title: Bool SaveErpConnectionSyncPriorities(Integer[] erpConnectionIds)
 intellisense: NSErpSyncAgent.SaveErpConnectionSyncPriorities
 keywords: NSErpSyncAgent, SaveErpConnectionSyncPriorities
 so.topic: reference
 ---
+
+# Bool SaveErpConnectionSyncPriorities(Integer[] erpConnectionIds)
 
 Takes an array of the ErpConnection ids and saves these as ordered sync priorities
 

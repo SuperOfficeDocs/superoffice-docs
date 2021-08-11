@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors
 title: Void SetRankOnStatusMonitors(String type, Integer[] itemsIds)
 intellisense: NSSaintAgent.SetRankOnStatusMonitors
 keywords: NSSaintAgent, SetRankOnStatusMonitors
 so.topic: reference
 ---
+
+# Void SetRankOnStatusMonitors(String type, Integer[] itemsIds)
 
 Set rank order on status monitors
 

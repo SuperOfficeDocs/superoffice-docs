@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetDocumentStream
 title: NSStream GetDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetDocumentStream
 keywords: NSDocumentAgent, GetDocumentStream
 so.topic: reference
 ---
+
+# NSStream GetDocumentStream(Integer documentId)
 
 Get the document content as a stream
 

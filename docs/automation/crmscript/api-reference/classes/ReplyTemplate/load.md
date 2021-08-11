@@ -6,19 +6,15 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# ReplyTemplate.load(Integer id)
+
 This function loads a reply template to the object.
-
-
 
 ## Parameters
 
-
  - Reply Template ID
 
-
 Returns true if Reply Template with given ID loaded successfully
-
-
 
 ## Languages
 
@@ -28,5 +24,4 @@ German = 2,
 Swedish = 3,
 Danish = 4,
 Dutch = 5,
-
 

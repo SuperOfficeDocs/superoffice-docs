@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_SetName
 title: SetName(String name)
 intellisense: NSDocumentTemplateEntity.SetName
 keywords: NSDocumentTemplateEntity, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The template list item
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteLine_SetExtraField2
 title: SetExtraField2(String extraField2)
 intellisense: NSQuoteLine.SetExtraField2
 keywords: NSQuoteLine, GetExtraField2
 so.topic: reference
 ---
+
+# SetExtraField2(String extraField2)
 
 This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
 

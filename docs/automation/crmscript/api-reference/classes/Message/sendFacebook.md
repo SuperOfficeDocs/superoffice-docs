@@ -7,6 +7,5 @@ keywords: sendFacebook()
 so.topic: reference
 ---
 
-
-
+# Message.sendFacebook()
 

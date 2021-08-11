@@ -7,11 +7,9 @@ keywords: setPricePrUnit(Float)
 so.topic: reference
 ---
 
+# InvoiceEntry.setPricePrUnit(Float price)
 
 This method will set the price per unit for the current InvoiceEntry object with the given price.
 
-
-
 * **price:** The price per unit
-
 

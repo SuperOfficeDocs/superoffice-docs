@@ -7,25 +7,21 @@ keywords: checkTableRights(String)
 so.topic: reference
 ---
 
+# Company.checkTableRights(String tableRight)
+
 Use this function to see if the current user has access to this company.
 
 tableRight might be:
-
 
 - select
 - update
 - insert
 
-
-
-
 ## Example
-
 
     Company c;
     
     c.load(3);
     Bool b = c.checkTableRights("select");
     print(b.toString());
-
 

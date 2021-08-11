@@ -6,18 +6,15 @@ keywords: toJSON(Integer)
 so.topic: reference
 ---
 
-Creates a string containing XML nodes formated as a JSON document. Child nodes are also included.
+# XMLNode.toJSON(Integer indent)
 
+Creates a string containing XML nodes formated as a JSON document. Child nodes are also included.
 
 * **Indent:** the text with a given number of spaces.
 * **Returns:** XMLNodes converted to JSON
 
-
 The XMLNode parameter "type" is used to describe the datatype of the JSON nodes.
 Legal types are: object, array, string, number, bool and null.
-
-
-
 
 ## Example
     
@@ -35,16 +32,11 @@ Legal types are: object, array, string, number, bool and null.
     xml.addChild(xFoo);
     
     print(xml.toString(0));
-    
-
-
 
 ## Returns
-
 
     {
       "menu": "truls",
       "foo": 1.23456
     }
-
 

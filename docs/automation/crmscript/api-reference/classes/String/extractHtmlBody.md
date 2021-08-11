@@ -6,10 +6,9 @@ keywords: extractHtmlBody(Bool)
 so.topic: reference
 ---
 
+# String.extractHtmlBody(Bool convertBodyToDiv)
 
 Extracts the body content of a string containing a html document.
 
-
 If the convertBodyToDiv parameter is true, the body tag will be replaced with a div tag.
-
 

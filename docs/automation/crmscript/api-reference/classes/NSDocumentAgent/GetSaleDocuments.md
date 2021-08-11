@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetSaleDocuments
 title: NSDocument[] GetSaleDocuments(Integer saleId)
 intellisense: NSDocumentAgent.GetSaleDocuments
 keywords: NSDocumentAgent, GetSaleDocuments
 so.topic: reference
 ---
+
+# NSDocument[] GetSaleDocuments(Integer saleId)
 
 Get all documents that are linked to the sale. I.e. the documents that are listed in the sale dialog.
 

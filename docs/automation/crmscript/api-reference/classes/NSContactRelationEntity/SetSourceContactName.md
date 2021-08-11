@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactRelationEntity_SetSourceContactName
 title: SetSourceContactName(String sourceContactName)
 intellisense: NSContactRelationEntity.SetSourceContactName
 keywords: NSContactRelationEntity, GetSourceContactName
 so.topic: reference
 ---
+
+# SetSourceContactName(String sourceContactName)
 
 Name of the source contact.
 

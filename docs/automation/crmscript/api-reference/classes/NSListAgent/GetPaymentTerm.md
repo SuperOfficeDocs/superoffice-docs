@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetPaymentTerm
 title: NSPaymentTerm GetPaymentTerm(Integer paymentTermId);
 intellisense: NSListAgent.GetPaymentTerm
 keywords: NSListAgent, GetPaymentTerm
 so.topic: reference
 ---
+
+# NSPaymentTerm GetPaymentTerm(Integer paymentTermId);
 
 Gets a NSPaymentTerm object.
 

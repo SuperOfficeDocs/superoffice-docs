@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_runprogram
-title: runProgram
+title: String runProgram()
 description: CRMScript function that executes a command and returns the output (stdout)
 intellisense: Void.runProgram
 langref: 1

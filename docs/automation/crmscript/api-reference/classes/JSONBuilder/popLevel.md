@@ -7,6 +7,7 @@ keywords: popLevel()
 so.topic: reference
 ---
 
-Pops a level (i.e. closes an array or an object) in the JSONBuilder. Look at the root example for this class.
+# JSONBuilder.popLevel()
 
+Pops a level (i.e. closes an array or an object) in the JSONBuilder. Look at the root example for this class.
 

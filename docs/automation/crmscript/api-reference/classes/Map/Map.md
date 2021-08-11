@@ -6,6 +6,7 @@ sortOrder: 522
 so.topic: reference
 ---
 
+# Map
 
 The Map class represents a collection of key-value pairs. Both key and value are strings.
 

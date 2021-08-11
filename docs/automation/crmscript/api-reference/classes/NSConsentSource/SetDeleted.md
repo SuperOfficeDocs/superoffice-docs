@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConsentSource_SetDeleted
 title: SetDeleted(Bool deleted)
 intellisense: NSConsentSource.SetDeleted
 keywords: NSConsentSource, GetDeleted
 so.topic: reference
 ---
+
+# SetDeleted(Bool deleted)
 
 true if the NSConsentSource is deleted
 

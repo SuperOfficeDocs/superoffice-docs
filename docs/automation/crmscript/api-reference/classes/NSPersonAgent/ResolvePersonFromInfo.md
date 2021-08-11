@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_ResolvePersonFromInfo
 title: NSResolvedPerson ResolvePersonFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails)
 intellisense: NSPersonAgent.ResolvePersonFromInfo
 keywords: NSPersonAgent, ResolvePersonFromInfo
 so.topic: reference
 ---
+
+# NSResolvedPerson ResolvePersonFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails)
 
 Get a person from the provided information. If the person does not exist, it will be created on demand.
 

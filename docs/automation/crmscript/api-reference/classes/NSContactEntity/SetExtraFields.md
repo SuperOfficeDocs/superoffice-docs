@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactEntity_SetExtraFields
 title: SetExtraFields(Map extras)
 intellisense: NSContactEntity.SetExtraFields
 keywords: NSContactEntity, SetExtraFields
 so.topic: reference
 ---
+
+# SetExtraFields(Map extras)
 
 Set the extra field values on NSContactEntity with a map.
 

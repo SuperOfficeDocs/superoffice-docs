@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListEntity_SetRank
 title: SetRank(Integer rank)
 intellisense: NSListEntity.SetRank
 keywords: NSListEntity, GetRank
 so.topic: reference
 ---
+
+# SetRank(Integer rank)
 
 The rank of the list
 

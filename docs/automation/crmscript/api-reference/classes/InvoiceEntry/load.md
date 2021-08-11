@@ -7,9 +7,9 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# InvoiceEntry.load(Integer id)
+
 This method will load an existing InvoiceEntry object.
 
-
 * **id:** The id of the invoice entry to be loaded
-
 

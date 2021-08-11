@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReason_GetTooltip
 title: String GetTooltip()
 intellisense: NSReason.GetTooltip
 keywords: NSReason, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSReason list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSReason list item.
 NSReason thing;
 String descr = thing.GetTooltip();
 ```
-
 

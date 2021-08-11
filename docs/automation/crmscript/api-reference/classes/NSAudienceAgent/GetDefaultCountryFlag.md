@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag
 title: NSImage GetDefaultCountryFlag(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultCountryFlag
 keywords: NSAudienceAgent, GetDefaultCountryFlag
 so.topic: reference
 ---
+
+# NSImage GetDefaultCountryFlag(String layoutName)
 
 Returns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.
 

@@ -7,6 +7,7 @@ keywords: getIsFixedValue()
 so.topic: reference
 ---
 
-This function returns true if the value is fixed, and false if it is read from another task or the environment.
+# MacroParameter.getIsFixedValue()
 
+This function returns true if the value is fixed, and false if it is read from another task or the environment.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeCompany
 title: Integer GetSearchModeCompany()
 intellisense: NSPhoneListPreferences.GetSearchModeCompany
 keywords: NSPhoneListPreferences, GetSearchModeCompany
 so.topic: reference
 ---
+
+# Integer GetSearchModeCompany()
 
 The Company name search type, e.g. BeginsWith, Contains, Endswith, Matches
 
@@ -19,5 +21,4 @@ The Company name search type, e.g. BeginsWith, Contains, Endswith, Matches
 NSPhoneListPreferences thing;
 Integer searchModeCompany  = thing.GetSearchModeCompany();
 ```
-
 

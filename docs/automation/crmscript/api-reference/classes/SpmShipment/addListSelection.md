@@ -6,15 +6,11 @@ keywords: addListSelection(Integer)
 so.topic: reference
 ---
 
+# SpmShipment.addListSelection(Integer p_0)
 
 Adds a selection list to shipment.
 
-
-
-
 ## Parameters
 
-
  - p0: id, id of selection list to add
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetPersonTasks
 title: NSAppointment[] GetPersonTasks(Integer personId, Integer count)
 intellisense: NSAppointmentAgent.GetPersonTasks
 keywords: NSAppointmentAgent, GetPersonTasks
 so.topic: reference
 ---
+
+# NSAppointment[] GetPersonTasks(Integer personId, Integer count)
 
 Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
 

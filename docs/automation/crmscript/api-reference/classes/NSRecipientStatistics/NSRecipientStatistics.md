@@ -5,5 +5,6 @@ intellisense: Void.NSRecipientStatistics
 so.topic: reference
 ---
 
+# NSRecipientStatistics
 
 Carrier object for RecipientStatistics.

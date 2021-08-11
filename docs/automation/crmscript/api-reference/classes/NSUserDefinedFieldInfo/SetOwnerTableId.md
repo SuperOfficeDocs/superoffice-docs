@@ -6,7 +6,7 @@ keywords: SetOwnerTableId(Integer)
 so.topic: reference
 ---
 
+# NSUserDefinedFieldInfo.SetOwnerTableId(Integer p_0)
 
 ID of owning table (contact, person, project)
-
 

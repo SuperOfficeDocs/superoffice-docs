@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetTaskType
 title: SetTaskType(Integer taskType)
 intellisense: NSAppointment.SetTaskType
 keywords: NSAppointment, GetTaskType
 so.topic: reference
 ---
+
+# SetTaskType(Integer taskType)
 
 The different task types of the appointment, if the activity is an appointment, task, phone. See the different types of appointments in the database manual.
 

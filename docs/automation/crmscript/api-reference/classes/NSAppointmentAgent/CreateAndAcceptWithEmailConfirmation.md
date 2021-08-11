@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_CreateAndAcceptWithEmailConfirmation
 title: Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
 intellisense: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation
 keywords: NSAppointmentAgent, CreateAndAcceptWithEmailConfirmation
 so.topic: reference
 ---
+
+# Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
 
 Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.
 

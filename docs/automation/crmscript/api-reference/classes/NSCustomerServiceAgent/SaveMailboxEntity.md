@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_SaveMailboxEntity
 title: NSMailboxEntity SaveMailboxEntity(NSMailboxEntity mailboxEntity);
 intellisense: NSCustomerServiceAgent.SaveMailboxEntity
 keywords: NSCustomerServiceAgent, SaveMailboxEntity
 so.topic: reference
 ---
+
+# NSMailboxEntity SaveMailboxEntity(NSMailboxEntity mailboxEntity);
 	  
 Updates the existing NSMailboxEntity or creates a new NSMailboxEntity if the id parameter is 0
 	  

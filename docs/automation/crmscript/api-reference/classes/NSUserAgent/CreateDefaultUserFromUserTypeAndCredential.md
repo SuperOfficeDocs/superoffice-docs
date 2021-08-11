@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndCredential
 title: NSUser CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
 intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential
 keywords: NSUserAgent, CreateDefaultUserFromUserTypeAndCredential
 so.topic: reference
 ---
+
+# NSUser CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
 
 Creates a NSPersonEntity with default values based on the contactId and credentials.
 

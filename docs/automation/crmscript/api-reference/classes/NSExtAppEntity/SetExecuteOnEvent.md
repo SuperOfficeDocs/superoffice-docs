@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_SetExecuteOnEvent
 title: SetExecuteOnEvent(NSExecuteOnEvent executeOnEvent)
 intellisense: NSExtAppEntity.SetExecuteOnEvent
 keywords: NSExtAppEntity, GetExecuteOnEvent
 so.topic: reference
 ---
+
+# SetExecuteOnEvent(NSExecuteOnEvent executeOnEvent)
 
 Events that cause automatic execution of this app
 

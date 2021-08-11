@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_SaveAllCustomerCenterConfigs
 title: Void SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[] custConfigs)
 intellisense: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs
 keywords: NSCustomerServiceAgent, SaveAllCustomerCenterConfigs
 so.topic: reference
 ---
+
+# Void SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[] custConfigs)
 
 Save an array of NSCustomerCenterConfig entities to the database
 

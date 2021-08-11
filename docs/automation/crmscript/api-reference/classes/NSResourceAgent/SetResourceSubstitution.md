@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceAgent_SetResourceSubstitution
 title: Void SetResourceSubstitution(String resourceName, String resourceValues, String culture, Bool isActive)
 intellisense: NSResourceAgent.SetResourceSubstitution
 keywords: NSResourceAgent, SetResourceSubstitution
 so.topic: reference
 ---
+
+# Void SetResourceSubstitution(String resourceName, String resourceValues, String culture, Bool isActive)
 
 Create or update a resource substitution
 

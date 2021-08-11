@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_RegenerateStatusMonitor
 title: Void RegenerateStatusMonitor(Integer statusMonitorId)
 intellisense: NSSaintAgent.RegenerateStatusMonitor
 keywords: NSSaintAgent, RegenerateStatusMonitor
 so.topic: reference
 ---
+
+# Void RegenerateStatusMonitor(Integer statusMonitorId)
 
 Regenerate the given status monitor
 

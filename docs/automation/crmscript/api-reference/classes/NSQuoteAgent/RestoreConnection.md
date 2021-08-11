@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_RestoreConnection
 title: Void RestoreConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.RestoreConnection
 keywords: NSQuoteAgent, RestoreConnection
 so.topic: reference
 ---
+
+# Void RestoreConnection(Integer quoteConnectionId)
 
 Restores a connection marked as deleted.
 

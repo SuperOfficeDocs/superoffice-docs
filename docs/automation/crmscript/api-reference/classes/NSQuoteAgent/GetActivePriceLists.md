@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetActivePriceLists
 title: NSPriceList[] GetActivePriceLists(Integer quoteConnectionId, String currency)
 intellisense: NSQuoteAgent.GetActivePriceLists
 keywords: NSQuoteAgent, GetActivePriceLists
 so.topic: reference
 ---
+
+# NSPriceList[] GetActivePriceLists(Integer quoteConnectionId, String currency)
 
 Gets the available active PriceLists in a specific currency. Will return empty array if there is no PriceList with the stated currency available.
 

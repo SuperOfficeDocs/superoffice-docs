@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAssociate_SetRank
 title: SetRank(Integer rank)
 intellisense: NSAssociate.SetRank
 keywords: NSAssociate, GetRank
 so.topic: reference
 ---
+
+# SetRank(Integer rank)
 
 Rank order 
 

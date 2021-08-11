@@ -7,11 +7,9 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
-
+# Customer.setValue(String field, String value)
    
 **Sets the given field with the given value. The following fields are available:**   
-
-
 
  - name or display\_name: The name of the customer.
  - firstname
@@ -51,20 +49,12 @@ so.topic: reference
  - x_* The extrafield with the given database field name.
  - [extra field] The extrafield with the given name (e.g. "Country").
 
-
-
-
 ## Parameters
-
 
  - field: The field to set.
  - value: The value to set.
 
-
-
-
 ## Example
-
 
     Customer c;
     
@@ -74,5 +64,4 @@ so.topic: reference
     
     c.setValue("name", "Test");
     print(c.getValue("name"));
-
 

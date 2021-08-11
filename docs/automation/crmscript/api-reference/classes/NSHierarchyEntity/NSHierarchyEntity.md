@@ -1,9 +1,11 @@
-﻿---
+---
 uid: crmscript_ref_NSHierarchyEntity
 title: NSHierarchyEntity
 intellisense: Void.NSHierarchyEntity
 keywords: NSHierarchyEntity
 so.topic: reference
 ---
+
+# NSHierarchyEntity
 
 Folder structures

@@ -6,7 +6,7 @@ keywords: SetContactJobTitle(String)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetContactJobTitle(String p_0)
 
 Contains new value for the contact VAT number.
-
 

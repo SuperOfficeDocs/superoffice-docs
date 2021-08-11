@@ -6,12 +6,10 @@ keywords: SetDisplayName(String)
 so.topic: reference
 ---
 
+# NSUser.SetDisplayName(String p_0)
 
 The unique display name for this user. Used in Service as an alias, similar to Name/Initials.
 
-
-
 * **DisplayName:** String
 * **Returns:** String
-
 

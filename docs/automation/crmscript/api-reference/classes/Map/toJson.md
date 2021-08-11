@@ -7,7 +7,7 @@ keywords: toJson()
 so.topic: reference
 ---
 
+# Map.toJson()
 
 Returns the Map represented as jSon String. {"key": "value", "foo": "bar"}
-
 

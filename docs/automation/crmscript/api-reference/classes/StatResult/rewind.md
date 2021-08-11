@@ -6,7 +6,7 @@ keywords: rewind()
 so.topic: reference
 ---
 
+# StatResult.rewind()
 
 Rewinds the internal iterator.
-
 

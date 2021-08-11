@@ -7,10 +7,11 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# Attachment.getValue(String name)
+
 Get a value from the attachment class. Returns the value as a string.
 
 The current implementation supports the following values as the name parameter.
-
 
  - id: the attachment id
  - contentType: content descriptor
@@ -23,12 +24,7 @@ The current implementation supports the following values as the name parameter.
  - dbiLastModified
  - dbiLastSyncronized
 
-
-
-
 ## Parameters
 
-
  - name: Value to receive
-
 

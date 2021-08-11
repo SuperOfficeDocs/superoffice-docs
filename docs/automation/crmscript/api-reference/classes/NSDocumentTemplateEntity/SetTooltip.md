@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSDocumentTemplateEntity.SetTooltip
 keywords: NSDocumentTemplateEntity, GetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Tooltip or other description
 

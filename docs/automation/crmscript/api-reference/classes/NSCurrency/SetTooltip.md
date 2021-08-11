@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCurrency_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSCurrency.SetTooltip
 keywords: NSCurrency, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSCurrency list item.
 

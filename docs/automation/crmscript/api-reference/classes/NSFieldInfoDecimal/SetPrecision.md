@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoDecimal_SetPrecision
 title: SetPrecision(Integer precision)
 intellisense: NSFieldInfoDecimal.SetPrecision
 keywords: NSFieldInfoDecimal, GetPrecision
 so.topic: reference
 ---
+
+# SetPrecision(Integer precision)
 
 How many decimals to display
 

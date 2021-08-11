@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetSaleId
 title: SetSaleId(Integer saleId)
 intellisense: NSAppointment.SetSaleId
 keywords: NSAppointment, GetSaleId
 so.topic: reference
 ---
+
+# SetSaleId(Integer saleId)
 
 Owning sale, if any (may be 0)
 

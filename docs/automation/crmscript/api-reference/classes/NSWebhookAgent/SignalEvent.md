@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebhookAgent_SignalEvent
 title: Void SignalEvent(String eventName, Integer primaryKey, StringObjectDictionary data)
 intellisense: NSWebhookAgent.SignalEvent
 keywords: NSWebhookAgent, SignalEvent
 so.topic: reference
 ---
+
+# Void SignalEvent(String eventName, Integer primaryKey, StringObjectDictionary data)
 
 Signal webhooks that an event has occurred. All webhooks listening for the event will be notified.
 

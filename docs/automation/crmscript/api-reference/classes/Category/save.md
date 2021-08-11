@@ -7,8 +7,9 @@ keywords: save()
 so.topic: reference
 ---
 
+# Category.save()
+
 Saves the category and returns its id.
 
 Returns the id of the saved category.
-
 

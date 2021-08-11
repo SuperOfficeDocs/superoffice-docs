@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchivecolumninfo_setcanrestrictby
 title: SetCanRestrictBy(Bool canRestrictBy)
 description: CRMScript method in the NSArchiveColumnInfo class that sets whether the column can be used as an restriction

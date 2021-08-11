@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPosition_GetValue
 title: String GetValue()
 intellisense: NSPosition.GetValue
 keywords: NSPosition, GetValue
 so.topic: reference
 ---
+
+# String GetValue()
 
 Get the name of the NSPosition.
 

@@ -6,7 +6,7 @@ keywords: update()
 so.topic: reference
 ---
 
+# SearchEngine.update()
 
 Use this function after `addData()` which sets the values that will be modified, and `addCriteria()` which do a restriction on the items to modify.
-
 

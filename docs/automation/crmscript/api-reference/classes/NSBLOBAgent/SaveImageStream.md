@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_SaveImageStream
 title: Integer SaveImageStream(Integer type, NSImage image, String description)
 intellisense: NSBLOBAgent.SaveImageStream
 keywords: NSBLOBAgent, SaveImageStream
 so.topic: reference
 ---
+
+# Integer SaveImageStream(Integer type, NSImage image, String description)
 
 Stores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
 

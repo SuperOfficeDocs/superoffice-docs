@@ -4,3 +4,5 @@ title: NSProvidedCredential
 intellisense: Void.NSProvidedCredential
 so.topic: reference
 ---
+
+# NSProvidedCredential

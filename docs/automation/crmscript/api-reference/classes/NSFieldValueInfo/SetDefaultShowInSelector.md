@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldValueInfo_SetDefaultShowInSelector
 title: SetDefaultShowInSelector(Bool defaultShowInSelector)
 intellisense: NSFieldValueInfo.SetDefaultShowInSelector
 keywords: NSFieldValueInfo, GetDefaultShowInSelector
 so.topic: reference
 ---
+
+# SetDefaultShowInSelector(Bool defaultShowInSelector)
 
 Default show in selector?
 

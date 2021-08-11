@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetChartKey
 title: SetChartKey(String chartKey)
 intellisense: NSSelectionEntity.SetChartKey
 keywords: NSSelectionEntity, GetChartKey
 so.topic: reference
 ---
+
+# SetChartKey(String chartKey)
 
 ID/key of the last-used chart tile on this selection
 

@@ -6,6 +6,5 @@ keywords: GetWarningEnglish()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetWarningEnglish()
 

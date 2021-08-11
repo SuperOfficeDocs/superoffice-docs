@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_AddDeviceByIdentifier
 title: NSForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.AddDeviceByIdentifier
 keywords: NSForeignSystemAgent, AddDeviceByIdentifier
 so.topic: reference
 ---
+
+# NSForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
 
 Adds a new NSForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 

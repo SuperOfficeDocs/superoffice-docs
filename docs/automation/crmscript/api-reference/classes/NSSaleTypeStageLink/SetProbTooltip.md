@@ -6,6 +6,5 @@ keywords: SetProbTooltip(String)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetProbTooltip(String p_0)
 

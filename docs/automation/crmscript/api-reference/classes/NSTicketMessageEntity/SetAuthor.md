@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketMessageEntity_SetAuthor
 title: SetAuthor(String author)
 intellisense: NSTicketMessageEntity.SetAuthor
 keywords: NSTicketMessageEntity, GetAuthor
 so.topic: reference
 ---
+
+# SetAuthor(String author)
 
 A string representing the author of the message. Could be a user&apos;s name, or a persons email address.
 

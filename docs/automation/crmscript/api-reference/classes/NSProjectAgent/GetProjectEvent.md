@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetProjectEvent
 title: NSProjectEvent GetProjectEvent(Integer projectEventId);
 intellisense: NSProjectAgent.GetProjectEvent
 keywords: NSProjectAgent, GetProjectEvent
 so.topic: reference
 ---
+
+# NSProjectEvent GetProjectEvent(Integer projectEventId);
 
 Gets a NSProjectEvent object.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEventData_GetType
 title: Integer GetType()
 intellisense: NSEventData.GetType
 keywords: NSEventData, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The type of event we are triggered by
 
@@ -112,5 +114,4 @@ The type of event we are triggered by
 NSEventData thing;
 Integer type  = thing.GetType();
 ```
-
 

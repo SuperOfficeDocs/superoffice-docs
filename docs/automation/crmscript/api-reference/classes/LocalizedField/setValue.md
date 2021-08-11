@@ -7,6 +7,5 @@ keywords: setValue(String)
 so.topic: reference
 ---
 
-
-
+# LocalizedField.setValue(String p_value)
 

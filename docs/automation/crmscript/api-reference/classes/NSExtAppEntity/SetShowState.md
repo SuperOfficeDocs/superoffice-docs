@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_SetShowState
 title: SetShowState(Integer showState)
 intellisense: NSExtAppEntity.SetShowState
 keywords: NSExtAppEntity, GetShowState
 so.topic: reference
 ---
+
+# SetShowState(Integer showState)
 
 The application is shown in which state Minimized, Maximized or Restored
 

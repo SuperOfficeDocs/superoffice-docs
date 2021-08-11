@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentSyncData_SetStartDate
 title: SetStartDate(DateTime startDate)
 intellisense: NSAppointmentSyncData.SetStartDate
 keywords: NSAppointmentSyncData, GetStartDate
 so.topic: reference
 ---
+
+# SetStartDate(DateTime startDate)
 
 date + start time planned
 

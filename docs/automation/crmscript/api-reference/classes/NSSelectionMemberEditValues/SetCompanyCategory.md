@@ -6,7 +6,7 @@ keywords: SetCompanyCategory(Integer)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyCategory(Integer p_0)
 
 Contains new value for the company category.
-
 

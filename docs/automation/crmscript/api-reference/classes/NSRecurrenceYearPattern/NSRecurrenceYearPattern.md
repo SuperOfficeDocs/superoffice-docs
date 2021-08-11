@@ -4,3 +4,5 @@ title: NSRecurrenceYearPattern
 intellisense: Void.NSRecurrenceYearPattern
 so.topic: reference
 ---
+
+# NSRecurrenceYearPattern

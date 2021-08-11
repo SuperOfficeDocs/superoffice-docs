@@ -6,9 +6,9 @@ keywords: setGroup(Bool)
 so.topic: reference
 ---
 
+# SearchEngine.setGroup(Bool set)
+
 Set or remove  a group-clause to all of the fields in the query (added by the `addField()`-function).
 
-
 * **set:** true if you want to set the groupby-clause, false to remove a groupBy-clause
-
 

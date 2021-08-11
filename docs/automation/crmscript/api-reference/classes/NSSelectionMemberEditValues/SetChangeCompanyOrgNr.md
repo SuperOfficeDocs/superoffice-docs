@@ -6,7 +6,7 @@ keywords: SetChangeCompanyOrgNr(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool p_0)
 
 If true, the VAT number  of the company will change.
-
 

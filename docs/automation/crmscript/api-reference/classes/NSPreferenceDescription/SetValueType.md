@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceDescription_SetValueType
 title: SetValueType(Integer valueType)
 intellisense: NSPreferenceDescription.SetValueType
 keywords: NSPreferenceDescription, GetValueType
 so.topic: reference
 ---
+
+# SetValueType(Integer valueType)
 
 1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID
 

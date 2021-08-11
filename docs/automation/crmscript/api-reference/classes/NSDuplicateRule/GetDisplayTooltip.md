@@ -7,6 +7,7 @@ keywords: GetDisplayTooltip()
 so.topic: reference
 ---
 
-Description of the rule
+# NSDuplicateRule.GetDisplayTooltip()
 
+Description of the rule
 

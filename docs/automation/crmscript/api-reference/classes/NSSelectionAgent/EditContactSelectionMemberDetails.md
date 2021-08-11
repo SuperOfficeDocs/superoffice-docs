@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_EditContactSelectionMemberDetails
 title: Void EditContactSelectionMemberDetails(Integer selectionId, NSSelectionMemberEditValues selectionMemberEditValues)
 intellisense: NSSelectionAgent.EditContactSelectionMemberDetails
 keywords: NSSelectionAgent, EditContactSelectionMemberDetails
 so.topic: reference
 ---
+
+# Void EditContactSelectionMemberDetails(Integer selectionId, NSSelectionMemberEditValues selectionMemberEditValues)
 
 Edit company and contact details in a selection based on contents in selectionMemberEditValues.
 

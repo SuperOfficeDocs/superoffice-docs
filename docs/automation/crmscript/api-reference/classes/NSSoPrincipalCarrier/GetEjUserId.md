@@ -6,6 +6,5 @@ keywords: GetEjUserId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetEjUserId()
 

@@ -7,8 +7,8 @@ keywords: SetStandardDate(DateTime)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetStandardDate(DateTime p_0)
 
 * **StandardDate:** DateTime
 * **Returns:** DateTime
-
 

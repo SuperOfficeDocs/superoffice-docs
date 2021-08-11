@@ -6,6 +6,5 @@ keywords: GetYearPattern()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetYearPattern()
 

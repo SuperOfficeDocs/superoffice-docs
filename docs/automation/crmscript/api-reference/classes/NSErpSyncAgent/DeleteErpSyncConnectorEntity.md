@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_DeleteErpSyncConnectorEntity
 title: DeleteErpSyncConnectorEntity(Integer erpSyncConnectorEntity);
 intellisense: NSErpSyncAgent.DeleteErpSyncConnectorEntity
 keywords: NSErpSyncAgent, DeleteErpSyncConnectorEntity
 so.topic: reference
 ---
+
+# DeleteErpSyncConnectorEntity(Integer erpSyncConnectorEntity);
 
 Deletes the NSErpSyncConnectorEntity
   

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectTypeEntity_SetProjectDuration
 title: SetProjectDuration(Integer projectDuration)
 intellisense: NSProjectTypeEntity.SetProjectDuration
 keywords: NSProjectTypeEntity, GetProjectDuration
 so.topic: reference
 ---
+
+# SetProjectDuration(Integer projectDuration)
 
 Expected duration of project, in given units
 

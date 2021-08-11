@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateVariablesParameters_SetEncoding
 title: SetEncoding(Integer encoding)
 intellisense: NSTemplateVariablesParameters.SetEncoding
 keywords: NSTemplateVariablesParameters, GetEncoding
 so.topic: reference
 ---
+
+# SetEncoding(Integer encoding)
 
 Encoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.
 

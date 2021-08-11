@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetConsentPerson
 title: NSConsentPerson GetConsentPerson(Integer consentPersonId);
 intellisense: NSPersonAgent.GetConsentPerson
 keywords: NSPersonAgent, GetConsentPerson
 so.topic: reference
 ---
+
+# NSConsentPerson GetConsentPerson(Integer consentPersonId);
 
 Gets a NSConsentPerson object.
 

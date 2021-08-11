@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetProjectMemberDocuments
 title: NSDocument[] GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetProjectMemberDocuments
 keywords: NSDocumentAgent, GetProjectMemberDocuments
 so.topic: reference
 ---
+
+# NSDocument[] GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 
 Method that returns a specified number of document appointments within a time range. The document appointments belong to the project member specified. 
 

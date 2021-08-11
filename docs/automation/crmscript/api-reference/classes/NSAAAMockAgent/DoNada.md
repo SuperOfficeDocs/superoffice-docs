@@ -7,11 +7,9 @@ keywords: DoNada()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.DoNada()
 
 Test void return
 
-
-
 * **Returns:** A void return
-
 

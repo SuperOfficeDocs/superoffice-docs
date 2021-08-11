@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStreamFromId
 title: NSStream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
 intellisense: NSDocumentAgent.GetSanitizedTemplateStreamFromId
 keywords: NSDocumentAgent, GetSanitizedTemplateStreamFromId
 so.topic: reference
 ---
+
+# NSStream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
 
 Retrieve a stream to a document template based on its id. Sanitizes the contents if possible.
 

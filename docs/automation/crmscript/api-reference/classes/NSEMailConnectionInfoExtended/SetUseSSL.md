@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailConnectionInfoExtended_SetUseSSL
 title: SetUseSSL(Bool useSSL)
 intellisense: NSEMailConnectionInfoExtended.SetUseSSL
 keywords: NSEMailConnectionInfoExtended, GetUseSSL
 so.topic: reference
 ---
+
+# SetUseSSL(Bool useSSL)
 
 Use a secure connection with the server
 

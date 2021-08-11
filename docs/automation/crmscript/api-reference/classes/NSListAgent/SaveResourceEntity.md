@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveResourceEntity
 title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity);
 intellisense: NSListAgent.SaveResourceEntity
 keywords: NSListAgent, SaveResourceEntity
 so.topic: reference
 ---
+
+# NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity);
 	  
 Updates the existing NSResourceEntity or creates a new NSResourceEntity if the id parameter is 0
 	  

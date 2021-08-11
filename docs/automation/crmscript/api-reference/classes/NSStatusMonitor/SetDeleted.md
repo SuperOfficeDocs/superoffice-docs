@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSStatusMonitor_SetDeleted
 title: SetDeleted(Bool deleted)
 intellisense: NSStatusMonitor.SetDeleted
 keywords: NSStatusMonitor, GetDeleted
 so.topic: reference
 ---
+
+# SetDeleted(Bool deleted)
 
 Deleted flag, 1 if this record is deleted (never from the database)
 

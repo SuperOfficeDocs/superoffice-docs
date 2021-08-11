@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetUIDFromAppointmentId
 title: String GetUIDFromAppointmentId(Integer appointmentId, Bool useMotherId)
 intellisense: NSAppointmentAgent.GetUIDFromAppointmentId
 keywords: NSAppointmentAgent, GetUIDFromAppointmentId
 so.topic: reference
 ---
+
+# String GetUIDFromAppointmentId(Integer appointmentId, Bool useMotherId)
 
 Get the UID associated with the appointment id in the Invitation table.
 

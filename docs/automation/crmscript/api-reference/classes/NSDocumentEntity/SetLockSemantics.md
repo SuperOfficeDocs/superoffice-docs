@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetLockSemantics
 title: SetLockSemantics(Integer lockSemantics)
 intellisense: NSDocumentEntity.SetLockSemantics
@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, GetLockSemantics
 so.topic: reference
 ---
 
-
+# SetLockSemantics(Integer lockSemantics)
 
 **Parameter:** 
  - **lockSemantics** Integer

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetPersonSummary
 title: NSPersonSummary GetPersonSummary(Integer personId, Integer limit)
 intellisense: NSPersonAgent.GetPersonSummary
 keywords: NSPersonAgent, GetPersonSummary
 so.topic: reference
 ---
+
+# NSPersonSummary GetPersonSummary(Integer personId, Integer limit)
 
 Get summary of person and recent activity.
 

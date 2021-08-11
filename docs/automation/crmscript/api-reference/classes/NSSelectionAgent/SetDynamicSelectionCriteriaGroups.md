@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteriaGroups
 title: NSArchiveRestrictionGroup[] SetDynamicSelectionCriteriaGroups(Integer selectionId, NSArchiveRestrictionGroup[] criteria)
 intellisense: NSSelectionAgent.SetDynamicSelectionCriteriaGroups
 keywords: NSSelectionAgent, SetDynamicSelectionCriteriaGroups
 so.topic: reference
 ---
+
+# NSArchiveRestrictionGroup[] SetDynamicSelectionCriteriaGroups(Integer selectionId, NSArchiveRestrictionGroup[] criteria)
 
 Update the criteria for this dynamic selection. Replaces existing criteria with the new values. This call supports multiple criteria groups.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_PopulateRestrictions
 title: NSArchiveRestrictionInfo[] PopulateRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
 intellisense: NSFindAgent.PopulateRestrictions
 keywords: NSFindAgent, PopulateRestrictions
 so.topic: reference
 ---
+
+# NSArchiveRestrictionInfo[] PopulateRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
 
 Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the NSArchiveRestrictionInfo structure. This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
 

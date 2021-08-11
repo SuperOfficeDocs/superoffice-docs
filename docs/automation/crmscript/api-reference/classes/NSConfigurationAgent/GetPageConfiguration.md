@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetPageConfiguration
 title: String GetPageConfiguration(String application, String instance, String page)
 intellisense: NSConfigurationAgent.GetPageConfiguration
 keywords: NSConfigurationAgent, GetPageConfiguration
 so.topic: reference
 ---
+
+# String GetPageConfiguration(String application, String instance, String page)
 
 Get the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied.
 

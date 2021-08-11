@@ -7,13 +7,11 @@ keywords: getParameter(String)
 so.topic: reference
 ---
 
+# DbiControl.getParameter(String name)
+
 This function returns the value of the given parameter.
-
-
 
 ## Parameters
 
-
  - name: Name of the parameter you want the value of
-
 

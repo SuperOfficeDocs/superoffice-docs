@@ -7,11 +7,9 @@ keywords: GetDouble()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetDouble()
 
 Gets some double number.
 
-
-
 * **Returns:** Some double number
-
 

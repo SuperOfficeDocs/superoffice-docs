@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRelationToOwner_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSRelationToOwner.SetTooltip
 keywords: NSRelationToOwner, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSRelationToOwner list item.
 

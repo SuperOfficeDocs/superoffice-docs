@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_GetStatusMonitors
 title: NSStatusMonitor[] GetStatusMonitors(Integer id, String type)
 intellisense: NSSaintAgent.GetStatusMonitors
 keywords: NSSaintAgent, GetStatusMonitors
 so.topic: reference
 ---
+
+# NSStatusMonitor[] GetStatusMonitors(Integer id, String type)
 
 Get all active status monitors for a specified target
 

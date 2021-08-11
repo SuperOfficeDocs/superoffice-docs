@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_GetCriteriaInformationWithContext
 title: NSCriteriaInformation GetCriteriaInformationWithContext(String storageType, String providerName, String storageKey, String[] staticColumns, String context)
 intellisense: NSFindAgent.GetCriteriaInformationWithContext
 keywords: NSFindAgent, GetCriteriaInformationWithContext
 so.topic: reference
 ---
+
+# NSCriteriaInformation GetCriteriaInformationWithContext(String storageType, String providerName, String storageKey, String[] staticColumns, String context)
 
 Get criteria information from a set of saved criteria. The result contains the restrictions in two forms: fully populated NSArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
 

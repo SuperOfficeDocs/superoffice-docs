@@ -6,7 +6,7 @@ keywords: GetDate()
 so.topic: reference
 ---
 
+# NSRecurrenceDate.GetDate()
 
 The date of the recurring appointment.
-
 

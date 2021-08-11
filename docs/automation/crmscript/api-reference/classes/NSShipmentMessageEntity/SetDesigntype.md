@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSShipmentMessageEntity_SetDesigntype
 title: SetDesigntype(Integer designtype)
 intellisense: NSShipmentMessageEntity.SetDesigntype
 keywords: NSShipmentMessageEntity, GetDesigntype
 so.topic: reference
 ---
+
+# SetDesigntype(Integer designtype)
 
 Enum containing the type of the design
 

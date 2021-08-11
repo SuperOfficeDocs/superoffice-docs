@@ -6,6 +6,5 @@ keywords: SetCompanyName(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetCompanyName(String p_0)
 

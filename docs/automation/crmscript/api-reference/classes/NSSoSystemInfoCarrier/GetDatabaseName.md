@@ -6,6 +6,5 @@ keywords: GetDatabaseName()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDatabaseName()
 

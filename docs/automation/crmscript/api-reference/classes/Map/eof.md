@@ -7,7 +7,7 @@ keywords: eof()
 so.topic: reference
 ---
 
+# Map.eof()
 
 * **Returns:** True if the internal iterator is past the end of the map, otherwise False.
-
 

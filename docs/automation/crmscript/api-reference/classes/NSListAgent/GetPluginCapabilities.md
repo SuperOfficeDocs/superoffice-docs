@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetPluginCapabilities
 title: StringDictionary GetPluginCapabilities(Integer pluginId)
 intellisense: NSListAgent.GetPluginCapabilities
 keywords: NSListAgent, GetPluginCapabilities
 so.topic: reference
 ---
+
+# StringDictionary GetPluginCapabilities(Integer pluginId)
 
 Get a list of plugin-dependent capabilities for a given document archive plugin.<br/>A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.
 

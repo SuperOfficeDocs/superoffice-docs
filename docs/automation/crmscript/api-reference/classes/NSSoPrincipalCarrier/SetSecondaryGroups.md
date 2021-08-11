@@ -6,6 +6,5 @@ keywords: SetSecondaryGroups(Integer[])
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetSecondaryGroups(Integer[] p_0)
 

@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_xmlnode
-title: XMLNode
+title: XMLNode()
 description: CRMScript XMLNode constructor
 intellisense: Void.XMLNode
 langref: 1

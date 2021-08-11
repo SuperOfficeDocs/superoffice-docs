@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetRatingList
 title: NSRating[] GetRatingList(Integer[]  ratingIds);
 intellisense: NSListAgent.GetRatingList
 keywords: NSListAgent, GetRatingList
 so.topic: reference
 ---
+
+# NSRating[] GetRatingList(Integer[]  ratingIds);
 
 Gets a vector of NSRating objects.
 

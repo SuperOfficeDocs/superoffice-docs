@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLanguageInfo_SetIsBuiltIn
 title: SetIsBuiltIn(Bool isBuiltIn)
 intellisense: NSLanguageInfo.SetIsBuiltIn
 keywords: NSLanguageInfo, GetIsBuiltIn
 so.topic: reference
 ---
+
+# SetIsBuiltIn(Bool isBuiltIn)
 
 Has this row been inserted by SuperOffice priming data
 

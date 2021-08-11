@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveHeadingFromListDefinition
 title: NSHeadingEntity SaveHeadingFromListDefinition(Integer id, NSHeadingEntity entity)
 intellisense: NSListAgent.SaveHeadingFromListDefinition
 keywords: NSListAgent, SaveHeadingFromListDefinition
 so.topic: reference
 ---
+
+# NSHeadingEntity SaveHeadingFromListDefinition(Integer id, NSHeadingEntity entity)
 
 Save new heading for list resolved by the provided id.
 

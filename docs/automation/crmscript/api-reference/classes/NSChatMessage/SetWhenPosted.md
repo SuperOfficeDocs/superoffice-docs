@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatMessage_SetWhenPosted
 title: SetWhenPosted(DateTime whenPosted)
 intellisense: NSChatMessage.SetWhenPosted
 keywords: NSChatMessage, GetWhenPosted
 so.topic: reference
 ---
+
+# SetWhenPosted(DateTime whenPosted)
 
 When the message was posted (UTC timestamp).
 

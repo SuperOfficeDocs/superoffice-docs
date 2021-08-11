@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_SetStartCount
 title: SetStartCount(Integer startCount)
 intellisense: NSBatchTaskInfo.SetStartCount
 keywords: NSBatchTaskInfo, GetStartCount
 so.topic: reference
 ---
+
+# SetStartCount(Integer startCount)
 
 Maps to the startcount field in the batchtask table.
 

@@ -6,6 +6,5 @@ keywords: GetRecurrenceId()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetRecurrenceId()
 

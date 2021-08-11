@@ -6,11 +6,9 @@ keywords: save()
 so.topic: reference
 ---
 
+# User.save()
 
 Saves a user object to the database, returns the id of the user as an Integer.
 
-
-
 * **Returns:** Integer, user id
-
 

@@ -7,14 +7,12 @@ keywords: getData(String)
 so.topic: reference
 ---
 
+# Cache.getData(String p_0)
+
 This function will return data from a cached table.
-
-
 
 ## Parameters
 
-
  - p\_db: The database
  - p\_tableId: The table to return
-
 

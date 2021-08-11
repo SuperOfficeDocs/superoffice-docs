@@ -6,5 +6,6 @@ sortOrder: 458
 so.topic: reference
 ---
 
+# License
 
 Deprecated in 7.1.

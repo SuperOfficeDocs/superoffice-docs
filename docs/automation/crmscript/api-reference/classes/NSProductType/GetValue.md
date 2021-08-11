@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProductType_GetValue
 title: String GetValue()
 intellisense: NSProductType.GetValue
 keywords: NSProductType, GetValue
 so.topic: reference
 ---
+
+# String GetValue()
 
 Get the name of the NSProductType.
 

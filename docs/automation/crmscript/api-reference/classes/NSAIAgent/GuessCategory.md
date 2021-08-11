@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAIAgent_GuessCategory
 title: Integer GuessCategory(Integer ticketId)
 intellisense: NSAIAgent.GuessCategory
 keywords: NSAIAgent, GuessCategory
 so.topic: reference
 ---
+
+# Integer GuessCategory(Integer ticketId)
 
 Given a ticket's id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket
 

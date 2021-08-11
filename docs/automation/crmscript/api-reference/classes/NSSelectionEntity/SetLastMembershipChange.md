@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetLastMembershipChange
 title: SetLastMembershipChange(DateTime lastMembershipChange)
 intellisense: NSSelectionEntity.SetLastMembershipChange
 keywords: NSSelectionEntity, GetLastMembershipChange
 so.topic: reference
 ---
+
+# SetLastMembershipChange(DateTime lastMembershipChange)
 
 The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm
 

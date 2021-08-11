@@ -6,6 +6,5 @@ keywords: GetRecurrenceEndType()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetRecurrenceEndType()
 

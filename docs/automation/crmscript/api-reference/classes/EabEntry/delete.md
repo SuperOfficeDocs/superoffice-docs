@@ -7,6 +7,7 @@ keywords: delete()
 so.topic: reference
 ---
 
-This method will delete the current address book entry from the database.
+# EabEntry.delete()
 
+This method will delete the current address book entry from the database.
 

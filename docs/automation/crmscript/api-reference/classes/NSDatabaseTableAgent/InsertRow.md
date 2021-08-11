@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_InsertRow
 title: Integer InsertRow(String tableName, StringDictionary values)
 intellisense: NSDatabaseTableAgent.InsertRow
 keywords: NSDatabaseTableAgent, InsertRow
 so.topic: reference
 ---
+
+# Integer InsertRow(String tableName, StringDictionary values)
 
 Insert a row into a table
 

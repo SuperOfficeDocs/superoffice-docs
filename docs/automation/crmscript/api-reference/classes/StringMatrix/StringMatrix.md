@@ -5,5 +5,6 @@ intellisense: Void.StringMatrix
 so.topic: reference
 ---
 
+# StringMatrix
 
 Two-dimensional string array.

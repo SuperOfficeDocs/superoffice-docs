@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailboxEntity_SetPassword
 title: SetPassword(String password)
 intellisense: NSMailboxEntity.SetPassword
 keywords: NSMailboxEntity, GetPassword
 so.topic: reference
 ---
+
+# SetPassword(String password)
 
 The password used to log into the mail account. This is hidden when reading
 

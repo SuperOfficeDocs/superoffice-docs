@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactSummary_SetSales
 title: SetSales(NSSaleSummaryItem[] sales)
 intellisense: NSContactSummary.SetSales
 keywords: NSContactSummary, GetSales
 so.topic: reference
 ---
+
+# SetSales(NSSaleSummaryItem[] sales)
 
 Recent sales on contact
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_Merge
 title: Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
 intellisense: NSContactAgent.Merge
 keywords: NSContactAgent, Merge
 so.topic: reference
 ---
+
+# Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
 
 Merge two contacts. The destination contact will remain.
 

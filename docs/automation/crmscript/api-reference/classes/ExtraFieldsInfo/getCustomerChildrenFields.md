@@ -7,6 +7,7 @@ keywords: getCustomerChildrenFields()
 so.topic: reference
 ---
 
-This is a helper function for getting customer relation fields. It is equivalent to calling getChildrenFields(16, 0)
+# ExtraFieldsInfo.getCustomerChildrenFields()
 
+This is a helper function for getting customer relation fields. It is equivalent to calling getChildrenFields(16, 0)
 

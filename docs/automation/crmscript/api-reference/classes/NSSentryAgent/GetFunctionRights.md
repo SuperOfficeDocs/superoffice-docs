@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSSentryAgent_GetFunctionRights
 title: String[] GetFunctionRights()
 intellisense: NSSentryAgent.GetFunctionRights
@@ -6,8 +6,9 @@ keywords: NSSentryAgent, GetFunctionRights
 so.topic: reference
 ---
 
-Get a string array of all functions rights for the role of the current associate.
+# String[] GetFunctionRights()
 
+Get a string array of all functions rights for the role of the current associate.
 
 **Returns:** String[]
 

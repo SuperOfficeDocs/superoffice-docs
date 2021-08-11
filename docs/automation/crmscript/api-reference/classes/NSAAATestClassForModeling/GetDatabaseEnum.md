@@ -7,7 +7,7 @@ keywords: GetDatabaseEnum()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetDatabaseEnum()
 
 * **Returns:** Integer
-
 

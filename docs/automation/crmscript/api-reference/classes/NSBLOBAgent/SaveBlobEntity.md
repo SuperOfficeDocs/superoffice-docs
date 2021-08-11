@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsblobagent_saveblobentity
 title: NSBlobEntity SaveBlobEntity()
 description: CRMScript method in the NSBLOBAgent class that creates or updates an NSBlobEntity

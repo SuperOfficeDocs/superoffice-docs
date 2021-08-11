@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormSubmissionEntity_SetStatus
 title: SetStatus(Integer status)
 intellisense: NSFormSubmissionEntity.SetStatus
 keywords: NSFormSubmissionEntity, GetStatus
 so.topic: reference
 ---
+
+# SetStatus(Integer status)
 
 What is the status of this submission
 

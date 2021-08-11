@@ -7,12 +7,10 @@ keywords: SetDoubleAmount(Float)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetDoubleAmount(Float p_0)
 
 Total sale amount
 
-
-
 * **DoubleAmount:** Float
 * **Returns:** Float
-
 

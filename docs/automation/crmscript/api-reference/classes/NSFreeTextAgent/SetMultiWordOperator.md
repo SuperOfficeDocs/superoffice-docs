@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeTextAgent_SetMultiWordOperator
 title: Void SetMultiWordOperator(Integer freeTextOperator)
 intellisense: NSFreeTextAgent.SetMultiWordOperator
 keywords: NSFreeTextAgent, SetMultiWordOperator
 so.topic: reference
 ---
+
+# Void SetMultiWordOperator(Integer freeTextOperator)
 
 Sets the operator used when matching multiple words
 

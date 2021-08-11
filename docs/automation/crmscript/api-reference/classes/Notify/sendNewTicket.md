@@ -6,15 +6,11 @@ keywords: sendNewTicket(Integer)
 so.topic: reference
 ---
 
+# Notify.sendNewTicket(Integer ticketId)
 
 This method will send a notification about a new request according to the user's notify configuration.
 
-
-
-
 ## Parameters
 
-
  - ticketId: the id of the ticket to notify about
-
 

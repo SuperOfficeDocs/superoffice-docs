@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsaudienceagent_saveaudiencelayoutentity
 title: NSAudienceLayoutEntity SaveAudienceLayoutEntity()
 description: CRMScript method in the NSAudienceAgent class that creates or updates an NSAudienceLayoutEntity

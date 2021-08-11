@@ -6,12 +6,10 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# SpmCustomerList.load(Integer id)
 
 Load an existing customer list.
 
-
-
 * **id:** Id of the list to load
 * **Returns:** true if successfull, false otherwise
-
 

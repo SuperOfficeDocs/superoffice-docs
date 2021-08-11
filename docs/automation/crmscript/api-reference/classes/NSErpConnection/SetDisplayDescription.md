@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnection_SetDisplayDescription
 title: SetDisplayDescription(String displayDescription)
 intellisense: NSErpConnection.SetDisplayDescription
 keywords: NSErpConnection, GetDisplayDescription
 so.topic: reference
 ---
+
+# SetDisplayDescription(String displayDescription)
 
 Tooltip/description shown to user; multi-language support
 

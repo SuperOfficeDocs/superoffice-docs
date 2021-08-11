@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardTile_GetType
 title: Integer GetType()
 intellisense: NSDashboardTile.GetType
 keywords: NSDashboardTile, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The tile type, what kind of tile this is
 
@@ -20,5 +22,4 @@ The tile type, what kind of tile this is
 NSDashboardTile thing;
 Integer type  = thing.GetType();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPerson_SetContactFullName
 title: SetContactFullName(String contactFullName)
 intellisense: NSPerson.SetContactFullName
 keywords: NSPerson, GetContactFullName
 so.topic: reference
 ---
+
+# SetContactFullName(String contactFullName)
 
 Company full name + department
 

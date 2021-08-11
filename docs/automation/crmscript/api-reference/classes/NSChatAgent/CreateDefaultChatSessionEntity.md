@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_CreateDefaultChatSessionEntity
 title: NSChatSessionEntity CreateDefaultChatSessionEntity()
 intellisense: NSChatAgent.CreateDefaultChatSessionEntity
 keywords: NSChatAgent, CreateDefaultChatSessionEntity
 so.topic: reference
 ---
+
+# NSChatSessionEntity CreateDefaultChatSessionEntity()
 	  
 Set default values into a new NSChatSessionEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

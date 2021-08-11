@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_ValidateQuoteVersion
 title: NSQuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
 intellisense: NSQuoteAgent.ValidateQuoteVersion
 keywords: NSQuoteAgent, ValidateQuoteVersion
 so.topic: reference
 ---
+
+# NSQuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
 
 When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT. ValidateQuoteVersion shall be called when the user presses the validate button, presses the send button or closes the quote dialog. RecalculateQuoteAlternative should typically validate all alternatives, set values in extrafields, and set the state in the version.
 

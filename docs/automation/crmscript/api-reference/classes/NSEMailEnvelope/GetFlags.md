@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEnvelope_GetFlags
 title: Integer GetFlags()
 intellisense: NSEMailEnvelope.GetFlags
 keywords: NSEMailEnvelope, GetFlags
 so.topic: reference
 ---
+
+# Integer GetFlags()
 
 Flag status of this mail (unread, replied, deleted )
 
@@ -22,5 +24,4 @@ Flag status of this mail (unread, replied, deleted )
 NSEMailEnvelope thing;
 Integer flags  = thing.GetFlags();
 ```
-
 

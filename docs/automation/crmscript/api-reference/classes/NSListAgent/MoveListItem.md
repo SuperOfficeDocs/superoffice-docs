@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_MoveListItem
 title: Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer direction)
 intellisense: NSListAgent.MoveListItem
 keywords: NSListAgent, MoveListItem
 so.topic: reference
 ---
+
+# Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer direction)
 
 Move a list item up or down in the list based on rank
 

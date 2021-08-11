@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetSuggestedAppointment
 title: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId);
 intellisense: NSAppointmentAgent.GetSuggestedAppointment
 keywords: NSAppointmentAgent, GetSuggestedAppointment
 so.topic: reference
 ---
+
+# NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId);
 
 Gets a NSSuggestedAppointment object.
 

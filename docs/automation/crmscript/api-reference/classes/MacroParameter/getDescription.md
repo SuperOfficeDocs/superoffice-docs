@@ -7,8 +7,9 @@ keywords: getDescription()
 so.topic: reference
 ---
 
+# MacroParameter.getDescription()
+
 This function returns a longer description of the parameter.
 
 Can for instance be used as help in a form.
-
 

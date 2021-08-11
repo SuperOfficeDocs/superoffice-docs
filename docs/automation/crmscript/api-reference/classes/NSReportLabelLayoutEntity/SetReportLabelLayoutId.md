@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportLabelLayoutEntity_SetReportLabelLayoutId
 title: SetReportLabelLayoutId(Integer reportLabelLayoutId)
 intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
 keywords: NSReportLabelLayoutEntity, GetReportLabelLayoutId
 so.topic: reference
 ---
+
+# SetReportLabelLayoutId(Integer reportLabelLayoutId)
 
 Primary key
 

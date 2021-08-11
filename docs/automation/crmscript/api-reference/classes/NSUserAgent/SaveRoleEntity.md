@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SaveRoleEntity
 title: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity);
 intellisense: NSUserAgent.SaveRoleEntity
 keywords: NSUserAgent, SaveRoleEntity
 so.topic: reference
 ---
+
+# NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity);
 	  
 Updates the existing NSRoleEntity or creates a new NSRoleEntity if the id parameter is 0
 	  

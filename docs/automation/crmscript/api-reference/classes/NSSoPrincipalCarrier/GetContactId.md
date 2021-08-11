@@ -6,6 +6,5 @@ keywords: GetContactId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetContactId()
 

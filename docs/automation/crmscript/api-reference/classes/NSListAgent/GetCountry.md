@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetCountry
 title: NSCountry GetCountry(Integer countryId);
 intellisense: NSListAgent.GetCountry
 keywords: NSListAgent, GetCountry
 so.topic: reference
 ---
+
+# NSCountry GetCountry(Integer countryId);
 
 Gets a NSCountry object.
 

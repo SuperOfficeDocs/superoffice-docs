@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_AssignThirdPartyLicenses
 title: NSModuleLicenseLink[] AssignThirdPartyLicenses(Integer associateId, String moduleOwner, String[] moduleLicenseNames)
 intellisense: NSLicenseAgent.AssignThirdPartyLicenses
 keywords: NSLicenseAgent, AssignThirdPartyLicenses
 so.topic: reference
 ---
+
+# NSModuleLicenseLink[] AssignThirdPartyLicenses(Integer associateId, String moduleOwner, String[] moduleLicenseNames)
 
 Assign third party licenses
 

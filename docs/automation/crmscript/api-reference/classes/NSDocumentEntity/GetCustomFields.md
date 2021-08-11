@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_GetCustomFields
 title: Map GetCustomFields()
 intellisense: NSDocumentEntity.GetCustomFields
 keywords: NSDocumentEntity, GetCustomFields
 so.topic: reference
 ---
+
+# Map GetCustomFields()
 
 Get the user-defined + extra fields on a NSDocumentEntity as a map.
 

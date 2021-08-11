@@ -6,7 +6,7 @@ keywords: GetChangeContactJobTitle()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetChangeContactJobTitle()
 
 If true, the VAT number  of the contact will change.
-
 

@@ -7,6 +7,5 @@ keywords: SetOwnerDescription(String)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetOwnerDescription(String p_0)
 

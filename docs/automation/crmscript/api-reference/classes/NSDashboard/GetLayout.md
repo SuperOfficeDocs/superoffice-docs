@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboard_GetLayout
 title: Integer GetLayout()
 intellisense: NSDashboard.GetLayout
 keywords: NSDashboard, GetLayout
 so.topic: reference
 ---
+
+# Integer GetLayout()
 
 The dashboard layout, how the tiles are organized on the screen
 
@@ -22,5 +24,4 @@ The dashboard layout, how the tiles are organized on the screen
 NSDashboard thing;
 Integer layout  = thing.GetLayout();
 ```
-
 

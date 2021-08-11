@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_time
-title: Time
+title: Time()
 description: CRMScript Time constructor
 intellisense: Void.Time
 langref: 1

@@ -7,15 +7,11 @@ keywords: setName(String)
 so.topic: reference
 ---
 
+# MacroReturnValue.setName(String p_0)
 
 This function sets the name of the macro return value.
 
-
-
-
 ## Parameters
 
-
  - p0: the name
-
 

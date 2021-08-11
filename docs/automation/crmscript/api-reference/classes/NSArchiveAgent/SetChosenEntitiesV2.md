@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_SetChosenEntitiesV2
 title: Void SetChosenEntitiesV2(String guiName, String providerName, String context, String ownerKeys, String[] entities)
 intellisense: NSArchiveAgent.SetChosenEntitiesV2
 keywords: NSArchiveAgent, SetChosenEntitiesV2
 so.topic: reference
 ---
+
+# Void SetChosenEntitiesV2(String guiName, String providerName, String context, String ownerKeys, String[] entities)
 
 Set the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.
 

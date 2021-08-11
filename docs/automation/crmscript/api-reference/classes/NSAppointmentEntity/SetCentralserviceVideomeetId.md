@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetCentralserviceVideomeetId
 title: SetCentralserviceVideomeetId(String centralserviceVideomeetId)
 intellisense: NSAppointmentEntity.SetCentralserviceVideomeetId
 keywords: NSAppointmentEntity, GetCentralserviceVideomeetId
 so.topic: reference
 ---
+
+# SetCentralserviceVideomeetId(String centralserviceVideomeetId)
 
 GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.
 

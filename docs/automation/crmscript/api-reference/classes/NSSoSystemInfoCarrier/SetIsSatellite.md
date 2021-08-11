@@ -6,6 +6,5 @@ keywords: SetIsSatellite(Bool)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetIsSatellite(Bool p_0)
 

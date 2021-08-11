@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetDataRights
 title: StringDictionary GetDataRights(Integer roleId, String tableName)
 intellisense: NSUserAgent.GetDataRights
 keywords: NSUserAgent, GetDataRights
 so.topic: reference
 ---
+
+# StringDictionary GetDataRights(Integer roleId, String tableName)
 
 Read specific a set of data rights at the given row in the rights matrix. An exception will be thrown if non existing position is specified.
 

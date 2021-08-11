@@ -7,6 +7,5 @@ keywords: GetName()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetName()
 

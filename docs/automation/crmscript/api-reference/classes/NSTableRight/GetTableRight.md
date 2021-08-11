@@ -6,6 +6,5 @@ keywords: GetTableRight()
 so.topic: reference
 ---
 
-
-
+# NSTableRight.GetTableRight()
 

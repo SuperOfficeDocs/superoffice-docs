@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsconfigurationagent_getwindowpossizelist
 title: NSWindowPosSize[] GetWindowPosSizeList()
 description: CRMScript method in the NSConfigurationAgent class that retrieves a list of NSWindowPosSize objects

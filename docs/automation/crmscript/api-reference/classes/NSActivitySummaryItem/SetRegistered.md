@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSActivitySummaryItem_SetRegistered
 title: SetRegistered(DateTime registered)
 intellisense: NSActivitySummaryItem.SetRegistered
 keywords: NSActivitySummaryItem, GetRegistered
 so.topic: reference
 ---
+
+# SetRegistered(DateTime registered)
 
 Registered date
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCommandInfo_SetReturnType
 title: SetReturnType(Integer returnType)
 intellisense: NSCommandInfo.SetReturnType
 keywords: NSCommandInfo, GetReturnType
 so.topic: reference
 ---
+
+# SetReturnType(Integer returnType)
 
 Declaration of what kind of return type the execution of this command will give.
 

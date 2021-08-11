@@ -7,14 +7,11 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# InvoiceEntry.setValue(String field, String value)
 
 This method will set a field of the current InvoiceEntry object with the given value.
 
-
-
-
 ## Available fields
-
 
  - messageId the id of the message which this invoice entry is connected to
  - description a description of the invoice entry
@@ -25,13 +22,8 @@ This method will set a field of the current InvoiceEntry object with the given v
  - discountMoney discount in money
  - date the date of the invoice entry
 
-
-
-
 ## Parameters
-
 
  - field: on of the above field
  - value: the value of the specified field
-
 

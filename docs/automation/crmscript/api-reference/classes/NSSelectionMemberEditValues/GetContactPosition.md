@@ -6,7 +6,7 @@ keywords: GetContactPosition()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetContactPosition()
 
 Contains new value for the contact position.
-
 

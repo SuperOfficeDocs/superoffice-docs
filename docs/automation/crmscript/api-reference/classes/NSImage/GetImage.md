@@ -7,6 +7,5 @@ keywords: GetImage()
 so.topic: reference
 ---
 
-
-
+# NSImage.GetImage()
 

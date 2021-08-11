@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_GetCalReplyStatus
 title: Integer GetCalReplyStatus()
 intellisense: NSEMailEntity.GetCalReplyStatus
 keywords: NSEMailEntity, GetCalReplyStatus
 so.topic: reference
 ---
+
+# Integer GetCalReplyStatus()
 
 Reply status stored in calendar data for the ical method is REPLY
 
@@ -19,5 +21,4 @@ Reply status stored in calendar data for the ical method is REPLY
 NSEMailEntity thing;
 Integer calReplyStatus  = thing.GetCalReplyStatus();
 ```
-
 

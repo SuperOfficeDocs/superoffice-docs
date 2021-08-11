@@ -7,6 +7,7 @@ keywords: eof()
 so.topic: reference
 ---
 
-This function will return true if the internal iterator is past the appointments for the chosen day, otherwise False.
+# AppointmentSlicer.eof()
 
+This function will return true if the internal iterator is past the appointments for the chosen day, otherwise False.
 

@@ -6,6 +6,5 @@ keywords: SetContactId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetContactId(Integer p_0)
 

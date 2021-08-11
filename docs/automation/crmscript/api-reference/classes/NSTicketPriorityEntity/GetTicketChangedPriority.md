@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_GetTicketChangedPriority
 title: Integer GetTicketChangedPriority()
 intellisense: NSTicketPriorityEntity.GetTicketChangedPriority
 keywords: NSTicketPriorityEntity, GetTicketChangedPriority
 so.topic: reference
 ---
+
+# Integer GetTicketChangedPriority()
 
 This field indicates what to do with the escalation chain when the request is changed into this priority
 
@@ -19,5 +21,4 @@ This field indicates what to do with the escalation chain when the request is ch
 NSTicketPriorityEntity thing;
 Integer ticketChangedPriority  = thing.GetTicketChangedPriority();
 ```
-
 

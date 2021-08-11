@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetCode
 title: SetCode(String code)
 intellisense: NSProduct.SetCode
 keywords: NSProduct, GetCode
 so.topic: reference
 ---
+
+# SetCode(String code)
 
 The product code / article number in the product supplier system.
 

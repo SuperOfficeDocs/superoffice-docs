@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_SetInvitationDocType
 title: SetInvitationDocType(NSDocTmplInvitationType invitationDocType)
 intellisense: NSDocumentTemplateEntity.SetInvitationDocType
 keywords: NSDocumentTemplateEntity, GetInvitationDocType
 so.topic: reference
 ---
+
+# SetInvitationDocType(NSDocTmplInvitationType invitationDocType)
 
 Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3
 

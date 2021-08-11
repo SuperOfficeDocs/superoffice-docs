@@ -6,6 +6,5 @@ keywords: GetEMailAddress()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetEMailAddress()
 

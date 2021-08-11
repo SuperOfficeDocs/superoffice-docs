@@ -1,4 +1,5 @@
 ---
+title: XMLNode parseJSON2(String jsonDocument)
 description: XMLNode parseJSON2(String jsonDocument)
 intellisense: Void.parseJSON2
 langref: 1
@@ -6,12 +7,11 @@ keywords: parseJSON2(String)
 so.topic: reference
 ---
 
-Parse an JSON document and generate a tree of XMLNode's.
+# XMLNode parseJSON2(String jsonDocument)
 
-
+Parse a JSON document and generate a tree of XMLNode's.
 
 ## Example
-
 
     String jsonString = "{\"menu\": {\"liste\": [ \"1\", \"2\", \"3\", true, 123, 1.23 ],\"id\": \"file\",\"value\": \"File\",\"tall\": 1.234567,\"sant\": true,\"usant\": false,\"tom\": null,\"popup\": {\"menuitem\": [{\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},{\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}]}}}";
     
@@ -21,7 +21,6 @@ Parse an JSON document and generate a tree of XMLNode's.
     /*
 
 For example the following JSON document:
-
 
     {"menu": {
       "liste": [ "1", "2", "3", true, 123, 1.23 ],
@@ -39,7 +38,6 @@ For example the following JSON document:
         ]
       }
     }}
-    
 
 **Is converted to:**
 
@@ -78,5 +76,3 @@ For example the following JSON document:
   \</menu>
 \</root>
 */
-
-

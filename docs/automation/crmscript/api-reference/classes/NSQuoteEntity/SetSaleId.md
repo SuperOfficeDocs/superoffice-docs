@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteEntity_SetSaleId
 title: SetSaleId(Integer saleId)
 intellisense: NSQuoteEntity.SetSaleId
 keywords: NSQuoteEntity, GetSaleId
 so.topic: reference
 ---
+
+# SetSaleId(Integer saleId)
 
 The foreign key to the corresponding sale
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_GetContactSummary
 title: NSContactSummary GetContactSummary(Integer contactId, Integer limit)
 intellisense: NSContactAgent.GetContactSummary
 keywords: NSContactAgent, GetContactSummary
 so.topic: reference
 ---
+
+# NSContactSummary GetContactSummary(Integer contactId, Integer limit)
 
 Get summary of contact and its recent activity.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForDevice
 title: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
 intellisense: NSPocketAgent.SetPushNotificationTagsForDevice
 keywords: NSPocketAgent, SetPushNotificationTagsForDevice
 so.topic: reference
 ---
+
+# Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
 
 Specify what kind of notification events a device should receive push notifications for
 

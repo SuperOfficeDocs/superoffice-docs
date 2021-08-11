@@ -6,6 +6,5 @@ keywords: SetEjUserStatus(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetEjUserStatus(Integer p_0)
 

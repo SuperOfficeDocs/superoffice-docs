@@ -6,10 +6,9 @@ keywords: setName(String)
 so.topic: reference
 ---
 
+# XMLNode.setName(String name)
+
 Sets the tag name of the node.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ Sets the tag name of the node.
     xml.setParameter("type", "object");
     
     print(xml.getName());
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CreateQuoteLineFromProduct
 title: NSQuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, NSProduct product)
 intellisense: NSQuoteAgent.CreateQuoteLineFromProduct
 keywords: NSQuoteAgent, CreateQuoteLineFromProduct
 so.topic: reference
 ---
+
+# NSQuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, NSProduct product)
 
 Create a quoteline based on a product.
 

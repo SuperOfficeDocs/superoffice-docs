@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsusergroup_setdeleted
 title: SetDeleted()
 description: CRMScript method in the NSUserGroup class that marks a user group

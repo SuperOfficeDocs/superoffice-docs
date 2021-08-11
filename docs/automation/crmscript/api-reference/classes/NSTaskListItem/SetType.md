@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTaskListItem_SetType
 title: SetType(Integer type)
 intellisense: NSTaskListItem.SetType
 keywords: NSTaskListItem, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 

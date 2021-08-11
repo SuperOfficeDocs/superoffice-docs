@@ -6,21 +6,16 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# User.setValue(String column, String Value)
+
 Sets a value in a given column.
 
-
-
 ## Parameters
-
 
  - String with column name
  - String with value to set
 
-
-
-
 ## Values
-
 
  - id: Integer, The primary key (auto-incremented)
  - loginname: String, The unique loginname for this user.
@@ -57,7 +52,6 @@ Sets a value in a given column.
  - role: Integer, the role for this user.
  - x_* The extrafield with the given database field name.
 
-
 The different notify masks: (Indicated by bit enums)
 NewTicket                      = 1,
 NewTicketMessage      = 2,
@@ -68,9 +62,6 @@ TicketActivated             = 4,
     TicketTakeOver             = 6,
     Hotlist                             = 9,  // only used as a filter (ejuser)
     Custom                           = 10
-    
-
-
 
 ## Access flags
 
@@ -100,10 +91,6 @@ TicketActivated             = 4,
         AccessReadSelections         = 21,
         AccessEditSelections         = 22,
         AccessPostToFacebook         = 23,
-    
-    
-
-
 
 ## User flags
 
@@ -133,5 +120,4 @@ None                            = 0,
     KeepFormattingOnPaste           = 23,
     DisplayCheckboxLeft             = 24,
     ShowMessagesAsPlainText         = 25,
-
 

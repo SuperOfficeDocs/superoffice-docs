@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SaveDocumentEntity
 title: NSDocumentEntity SaveDocumentEntity(NSDocumentEntity documentEntity);
 intellisense: NSDocumentAgent.SaveDocumentEntity
 keywords: NSDocumentAgent, SaveDocumentEntity
 so.topic: reference
 ---
+
+# NSDocumentEntity SaveDocumentEntity(NSDocumentEntity documentEntity);
 	  
 Updates the existing NSDocumentEntity or creates a new NSDocumentEntity if the id parameter is 0
 	  

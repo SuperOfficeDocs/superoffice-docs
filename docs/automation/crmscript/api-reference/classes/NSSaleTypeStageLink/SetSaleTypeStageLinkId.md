@@ -6,6 +6,5 @@ keywords: SetSaleTypeStageLinkId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer p_0)
 

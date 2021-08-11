@@ -7,24 +7,20 @@ keywords: checkFieldRights(String,String)
 so.topic: reference
 ---
 
+# Company.checkFieldRights(String field, String fieldRight)
+
 Use this function to see if the current user has access to the field.
 
 fieldRight might be:
 
-
  - read
  - write
 
-
-
-
 ## Example
-
 
     Company c;
     
     c.load(3);
     Bool b = c.checkFieldRights("contact", "read");
     print(b.toString());
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactActivity_SetActionId
 title: SetActionId(Integer actionId)
 intellisense: NSContactActivity.SetActionId
 keywords: NSContactActivity, GetActionId
 so.topic: reference
 ---
+
+# SetActionId(Integer actionId)
 
 Id of the last element an activity was found on. I.e. AppointmentId, ContactId, or PersonId
 

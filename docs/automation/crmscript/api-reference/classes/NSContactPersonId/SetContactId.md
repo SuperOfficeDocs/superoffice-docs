@@ -7,7 +7,7 @@ keywords: SetContactId(Integer)
 so.topic: reference
 ---
 
+# NSContactPersonId.SetContactId(Integer p_0)
 
 A contact id.
-
 

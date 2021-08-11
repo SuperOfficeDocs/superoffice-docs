@@ -6,7 +6,7 @@ keywords: SetDate(DateTime)
 so.topic: reference
 ---
 
+# NSRecurrenceDate.SetDate(DateTime p_0)
 
 The date of the recurring appointment.
-
 

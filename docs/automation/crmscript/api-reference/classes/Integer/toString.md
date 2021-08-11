@@ -7,6 +7,7 @@ keywords: toString()
 so.topic: reference
 ---
 
-This function returns a string representation of the Integer.
+# Integer.toString()
 
+This function returns a string representation of the Integer.
 

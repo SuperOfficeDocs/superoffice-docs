@@ -7,11 +7,9 @@ keywords: setLimit(Integer)
 so.topic: reference
 ---
 
+# GenericSearch.setLimit(Integer limit)
 
 Set a limit of the number of rows that will be returned in the resultset
 
-
-
 * **limit:** The maximum number of rows to be returned in the resultset
-
 

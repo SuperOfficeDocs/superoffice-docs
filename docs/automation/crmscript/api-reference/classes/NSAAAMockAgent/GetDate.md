@@ -7,11 +7,9 @@ keywords: GetDate()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetDate()
 
 Gets some date
 
-
-
 * **Returns:** Some date
-
 

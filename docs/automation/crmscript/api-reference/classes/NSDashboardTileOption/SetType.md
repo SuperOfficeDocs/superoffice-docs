@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardTileOption_SetType
 title: SetType(Integer type)
 intellisense: NSDashboardTileOption.SetType
 keywords: NSDashboardTileOption, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 The type of option - integer, list, boolean (checkbox) etc.
 

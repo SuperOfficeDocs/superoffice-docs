@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetProject
 title: NSProject GetProject(Integer projectId);
 intellisense: NSProjectAgent.GetProject
 keywords: NSProjectAgent, GetProject
 so.topic: reference
 ---
+
+# NSProject GetProject(Integer projectId);
 
 Gets a NSProject object.
 

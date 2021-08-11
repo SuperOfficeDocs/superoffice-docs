@@ -7,8 +7,9 @@ keywords: abs()
 so.topic: reference
 ---
 
+# Integer.abs()
+
 This function returns the absolute value of the integer.
 
 Integers 20 and -20 will both return 20.
-
 

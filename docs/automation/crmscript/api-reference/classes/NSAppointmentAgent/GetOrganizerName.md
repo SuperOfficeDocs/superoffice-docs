@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetOrganizerName
 title: String GetOrganizerName(Integer motherAppointmentId)
 intellisense: NSAppointmentAgent.GetOrganizerName
 keywords: NSAppointmentAgent, GetOrganizerName
 so.topic: reference
 ---
+
+# String GetOrganizerName(Integer motherAppointmentId)
 
 Lookup the name / email of an event-organizer
 

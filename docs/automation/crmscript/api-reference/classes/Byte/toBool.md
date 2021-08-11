@@ -7,14 +7,12 @@ keywords: toBool()
 so.topic: reference
 ---
 
+# Byte.toBool()
 
 Returns a boolean value of the Byte.
-
-
 
     If(value != 0)
       return true;
     else
       return false;
-
 

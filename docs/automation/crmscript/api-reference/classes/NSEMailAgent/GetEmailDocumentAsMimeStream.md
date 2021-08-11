@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEmailDocumentAsMimeStream
 title: NSStream GetEmailDocumentAsMimeStream(Integer documentId)
 intellisense: NSEMailAgent.GetEmailDocumentAsMimeStream
 keywords: NSEMailAgent, GetEmailDocumentAsMimeStream
 so.topic: reference
 ---
+
+# NSStream GetEmailDocumentAsMimeStream(Integer documentId)
 
 Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
 

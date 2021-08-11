@@ -6,6 +6,5 @@ keywords: GetFileVersion()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetFileVersion()
 

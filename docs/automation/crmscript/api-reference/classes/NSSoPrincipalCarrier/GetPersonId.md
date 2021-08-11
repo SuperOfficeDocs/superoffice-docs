@@ -6,6 +6,5 @@ keywords: GetPersonId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetPersonId()
 

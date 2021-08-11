@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_ValidateSaleEntity
 title: StringDictionary ValidateSaleEntity(NSSaleEntity saleEntity)
 intellisense: NSSaleAgent.ValidateSaleEntity
 keywords: NSSaleAgent, ValidateSaleEntity
 so.topic: reference
 ---
+
+# StringDictionary ValidateSaleEntity(NSSaleEntity saleEntity)
 
 Check that entity is ready for saving, return error messages by field.
 

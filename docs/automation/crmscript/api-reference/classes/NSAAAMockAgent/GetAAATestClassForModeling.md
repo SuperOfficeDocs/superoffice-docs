@@ -7,12 +7,10 @@ keywords: GetAAATestClassForModeling(Integer)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetAAATestClassForModeling(Integer p_0)
 
 Gets a AAATestClassForModeling object.
 
-
-
 * **aAATestClassForModelingId:** The identifier of the AAATestClassForModeling object
 * **Returns:** AAATestClassForModeling
-
 

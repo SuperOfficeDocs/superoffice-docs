@@ -7,11 +7,9 @@ keywords: GetArrayOfBytes()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetArrayOfBytes()
 
 Gets some bytes
 
-
-
 * **Returns:** Some bytes
-
 

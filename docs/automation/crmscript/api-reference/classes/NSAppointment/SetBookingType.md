@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetBookingType
 title: SetBookingType(Integer bookingType)
 intellisense: NSAppointment.SetBookingType
 keywords: NSAppointment, GetBookingType
 so.topic: reference
 ---
+
+# SetBookingType(Integer bookingType)
 
 The type of booking the appointment represents
 

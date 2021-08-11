@@ -7,9 +7,9 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# License.getValue(String name)
 
 Deprecated in 7.1.
-
 
 Extract a value from the license key.
 
@@ -23,7 +23,5 @@ companyId - Id of the company owning the key. (Only relevant internal use)
 expire - Expire date
 key - The license key as a text string.
 
-
 * **name:** Name of the value to extract.
-
 

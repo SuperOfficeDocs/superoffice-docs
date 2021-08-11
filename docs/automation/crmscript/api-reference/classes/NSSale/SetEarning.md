@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSale_SetEarning
 title: SetEarning(Float earning)
 intellisense: NSSale.SetEarning
 keywords: NSSale, GetEarning
 so.topic: reference
 ---
+
+# SetEarning(Float earning)
 
 Earning on sale
 

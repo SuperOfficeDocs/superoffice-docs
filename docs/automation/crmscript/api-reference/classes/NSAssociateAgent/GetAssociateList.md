@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsassociateagent_getassociatelist
 title: NSAssociate[] GetAssociateList()
 description: CRMScript method in the NSAssociateAgent class that retrieves a list of associates

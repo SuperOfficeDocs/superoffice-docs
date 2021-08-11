@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_Find
 title: NSFindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.Find
 keywords: NSFindAgent, Find
 so.topic: reference
 ---
+
+# NSFindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
 
 Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.<para/>The other variants of the Find method allow you greater control over the individual aspects of the process.
 

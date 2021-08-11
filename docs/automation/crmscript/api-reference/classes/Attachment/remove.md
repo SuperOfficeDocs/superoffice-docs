@@ -7,7 +7,7 @@ keywords: remove()
 so.topic: reference
 ---
 
+# Attachment.remove()
 
 Deletes the attachment record from the database and the attachment file from disk.
-
 

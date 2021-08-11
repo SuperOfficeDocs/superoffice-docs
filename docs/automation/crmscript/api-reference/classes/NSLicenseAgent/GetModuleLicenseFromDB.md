@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_GetModuleLicenseFromDB
 title: NSModuleLicense GetModuleLicenseFromDB(String ownerName, String moduleName)
 intellisense: NSLicenseAgent.GetModuleLicenseFromDB
 keywords: NSLicenseAgent, GetModuleLicenseFromDB
 so.topic: reference
 ---
+
+# NSModuleLicense GetModuleLicenseFromDB(String ownerName, String moduleName)
 
 Get license information for one particular license module.
 

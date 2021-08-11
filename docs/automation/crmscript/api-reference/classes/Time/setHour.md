@@ -6,16 +6,11 @@ keywords: setHour(Integer)
 so.topic: reference
 ---
 
+# Time.setHour(Integer hour)
 
 Thsi function ssets the hour of the time.
 
-
-
 * **Hour:** to set
-
-
-
-
 
 ## Example
     
@@ -25,5 +20,4 @@ Thsi function ssets the hour of the time.
     t.setSec(30);
     
     10:15:30
-
 

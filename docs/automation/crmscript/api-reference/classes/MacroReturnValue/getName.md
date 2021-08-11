@@ -7,7 +7,7 @@ keywords: getName()
 so.topic: reference
 ---
 
+# MacroReturnValue.getName()
 
 This function returns the name of the macro return value.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncActorSummary_GetActorType
 title: Integer GetActorType()
 intellisense: NSErpSyncActorSummary.GetActorType
 keywords: NSErpSyncActorSummary, GetActorType
 so.topic: reference
 ---
+
+# Integer GetActorType()
 
 Actor type
 
@@ -23,5 +25,4 @@ Actor type
 NSErpSyncActorSummary thing;
 Integer actorType  = thing.GetActorType();
 ```
-
 

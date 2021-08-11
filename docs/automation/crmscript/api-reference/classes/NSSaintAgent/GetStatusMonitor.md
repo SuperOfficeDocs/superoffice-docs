@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_GetStatusMonitor
 title: NSStatusMonitor GetStatusMonitor(Integer id)
 intellisense: NSSaintAgent.GetStatusMonitor
 keywords: NSSaintAgent, GetStatusMonitor
 so.topic: reference
 ---
+
+# NSStatusMonitor GetStatusMonitor(Integer id)
 
 Get a single status monitor based on its identity
 

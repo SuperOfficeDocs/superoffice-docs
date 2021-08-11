@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebPanelEntity_SetVisibleIn
 title: SetVisibleIn(Integer visibleIn)
 intellisense: NSWebPanelEntity.SetVisibleIn
 keywords: NSWebPanelEntity, GetVisibleIn
 so.topic: reference
 ---
+
+# SetVisibleIn(Integer visibleIn)
 
 The webpanel is visible in
 

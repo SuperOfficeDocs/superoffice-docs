@@ -6,6 +6,5 @@ keywords: GetAccumulatedNextCheckDate()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
 

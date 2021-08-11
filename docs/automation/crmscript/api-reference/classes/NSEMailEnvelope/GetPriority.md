@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEnvelope_GetPriority
 title: Integer GetPriority()
 intellisense: NSEMailEnvelope.GetPriority
 keywords: NSEMailEnvelope, GetPriority
 so.topic: reference
 ---
+
+# Integer GetPriority()
 
 Importance of the e-mail
 
@@ -21,5 +23,4 @@ Importance of the e-mail
 NSEMailEnvelope thing;
 Integer priority  = thing.GetPriority();
 ```
-
 

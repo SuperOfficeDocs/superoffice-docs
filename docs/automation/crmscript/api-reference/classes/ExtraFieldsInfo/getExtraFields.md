@@ -7,15 +7,13 @@ keywords: getExtraFields(String)
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getExtraFields(String p_0)
+
 This method will get extrafields related to the given table. Using this method will make it possible to access the information in the extrafields by using the other functions in the class.
-
-
-
 
 ## Example
     
     ExtraFieldsInfo e;
     
     e.getExtraFields("person");
-
 

@@ -7,8 +7,9 @@ keywords: GetName()
 so.topic: reference
 ---
 
+# NSDuplicateRule.GetName()
+
 Identifying name for rule
 
     	///
-
 

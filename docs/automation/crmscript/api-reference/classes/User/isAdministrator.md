@@ -6,6 +6,7 @@ keywords: isAdministrator()
 so.topic: reference
 ---
 
-Returns true if the user is an administrator, false if not.
+# User.isAdministrator()
 
+Returns true if the user is an administrator, false if not.
 

@@ -6,6 +6,5 @@ keywords: GetOnSattelite()
 so.topic: reference
 ---
 
-
-
+# NSWebPanelEntity.GetOnSattelite()
 

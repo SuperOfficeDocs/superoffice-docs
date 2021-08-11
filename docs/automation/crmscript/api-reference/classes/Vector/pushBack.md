@@ -6,11 +6,9 @@ keywords: pushBack(String)
 so.topic: reference
 ---
 
+# Vector.pushBack(String element)
 
 This method will push a string object to the end of the vector.
 
-
-
 * **element:** The string object to push on the vector
-
 

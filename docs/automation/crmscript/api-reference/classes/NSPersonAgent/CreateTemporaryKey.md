@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_CreateTemporaryKey
 title: String CreateTemporaryKey(Integer domain, Integer targetId, Integer personId, DateTime expires)
 intellisense: NSPersonAgent.CreateTemporaryKey
 keywords: NSPersonAgent, CreateTemporaryKey
 so.topic: reference
 ---
+
+# String CreateTemporaryKey(Integer domain, Integer targetId, Integer personId, DateTime expires)
 
 Create a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
 

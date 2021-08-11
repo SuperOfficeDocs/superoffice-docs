@@ -6,6 +6,5 @@ keywords: GetEjAccessLevel()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetEjAccessLevel()
 

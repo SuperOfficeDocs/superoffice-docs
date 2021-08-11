@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_GetUpcomingSales
 title: NSSale[] GetUpcomingSales(Integer weightedAmountLimit, Integer count)
 intellisense: NSSaleAgent.GetUpcomingSales
 keywords: NSSaleAgent, GetUpcomingSales
 so.topic: reference
 ---
+
+# NSSale[] GetUpcomingSales(Integer weightedAmountLimit, Integer count)
 
 Returns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.
 

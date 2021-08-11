@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetCategoryList
 title: NSCategory[] GetCategoryList(Integer[]  categoryIds);
 intellisense: NSListAgent.GetCategoryList
 keywords: NSListAgent, GetCategoryList
 so.topic: reference
 ---
+
+# NSCategory[] GetCategoryList(Integer[]  categoryIds);
 
 Gets a vector of NSCategory objects.
 

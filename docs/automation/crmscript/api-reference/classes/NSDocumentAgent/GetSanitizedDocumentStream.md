@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetSanitizedDocumentStream
 title: NSStream GetSanitizedDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetSanitizedDocumentStream
 keywords: NSDocumentAgent, GetSanitizedDocumentStream
 so.topic: reference
 ---
+
+# NSStream GetSanitizedDocumentStream(Integer documentId)
 
 Get the document content as a stream. Retrieves a sanitized version if possible
 

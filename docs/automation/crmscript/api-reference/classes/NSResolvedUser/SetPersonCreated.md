@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResolvedUser_SetPersonCreated
 title: SetPersonCreated(Bool personCreated)
 intellisense: NSResolvedUser.SetPersonCreated
 keywords: NSResolvedUser, GetPersonCreated
 so.topic: reference
 ---
+
+# SetPersonCreated(Bool personCreated)
 
 Indicates if the resolved person was created or not.
 

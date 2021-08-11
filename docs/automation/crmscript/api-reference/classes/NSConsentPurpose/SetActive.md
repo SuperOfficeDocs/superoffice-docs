@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConsentPurpose_SetActive
 title: SetActive(Integer active)
 intellisense: NSConsentPurpose.SetActive
 keywords: NSConsentPurpose, GetActive
 so.topic: reference
 ---
+
+# SetActive(Integer active)
 
 Is the consent purpose active or not
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_GetDataWithSelection
 title: NSTileData[] GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
 intellisense: NSDashboardAgent.GetDataWithSelection
 keywords: NSDashboardAgent, GetDataWithSelection
 so.topic: reference
 ---
+
+# NSTileData[] GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
 
 Get data for this tile
 

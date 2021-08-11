@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetKeyByValueAndIdentifier
 title: NSForeignKey GetKeyByValueAndIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String keyValue, String tableName)
 intellisense: NSForeignSystemAgent.GetKeyByValueAndIdentifier
 keywords: NSForeignSystemAgent, GetKeyByValueAndIdentifier
 so.topic: reference
 ---
+
+# NSForeignKey GetKeyByValueAndIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String keyValue, String tableName)
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 

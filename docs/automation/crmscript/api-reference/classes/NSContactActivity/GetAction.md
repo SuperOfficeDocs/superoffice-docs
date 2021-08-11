@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactActivity_GetAction
 title: Integer GetAction()
 intellisense: NSContactActivity.GetAction
 keywords: NSContactActivity, GetAction
 so.topic: reference
 ---
+
+# Integer GetAction()
 
 The activity that has occured on this contact.
 
@@ -24,5 +26,4 @@ The activity that has occured on this contact.
 NSContactActivity thing;
 Integer action  = thing.GetAction();
 ```
-
 

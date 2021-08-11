@@ -6,8 +6,8 @@ keywords: getNumColumns(Integer)
 so.topic: reference
 ---
 
+# StringMatrix.getNumColumns(Integer row)
 
 * **The:** row to count the cells in
 * **Returns:** The numbers of columns (cells) in the given row.
-
 

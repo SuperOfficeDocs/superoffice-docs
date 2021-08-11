@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_GetSelectionUnionType
 title: Integer GetSelectionUnionType()
 intellisense: NSSelectionEntity.GetSelectionUnionType
 keywords: NSSelectionEntity, GetSelectionUnionType
 so.topic: reference
 ---
+
+# Integer GetSelectionUnionType()
 
 How to combine the two selections when SelectionType = Combined.
 
@@ -21,5 +23,4 @@ How to combine the two selections when SelectionType = Combined.
 NSSelectionEntity thing;
 Integer selectionUnionType  = thing.GetSelectionUnionType();
 ```
-
 

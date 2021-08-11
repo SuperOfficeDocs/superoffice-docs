@@ -7,11 +7,9 @@ keywords: addWhereId(Integer)
 so.topic: reference
 ---
 
+# DBWrite.addWhereId(Integer id)
 
 Set the value of the id of the entry to write to.
 
-
-
 * **id:** The id of the row to write to.
-
 

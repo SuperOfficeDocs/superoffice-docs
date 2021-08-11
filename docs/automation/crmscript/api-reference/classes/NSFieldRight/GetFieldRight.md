@@ -7,6 +7,5 @@ keywords: GetFieldRight()
 so.topic: reference
 ---
 
-
-
+# NSFieldRight.GetFieldRight()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatMessage_SetType
 title: SetType(NSChatMessageType type)
 intellisense: NSChatMessage.SetType
 keywords: NSChatMessage, GetType
 so.topic: reference
 ---
+
+# SetType(NSChatMessageType type)
 
 The type of the message.
 

@@ -6,11 +6,9 @@ keywords: getOwnerSms()
 so.topic: reference
 ---
 
+# Ticket.getOwnerSms()
 
 This function returns the cellphone number of the owner of the ticket
 
-
-
 * **Returns:** The cellphone number of the owner of the ticket as a String.
-
 

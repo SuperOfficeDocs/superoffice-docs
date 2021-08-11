@@ -6,6 +6,5 @@ keywords: SetProjStatusTooltip(String)
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.SetProjStatusTooltip(String p_0)
 

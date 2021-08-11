@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAmountClassEntity_SetAmountFrom
 title: SetAmountFrom(Float amountFrom)
 intellisense: NSAmountClassEntity.SetAmountFrom
 keywords: NSAmountClassEntity, GetAmountFrom
 so.topic: reference
 ---
+
+# SetAmountFrom(Float amountFrom)
 
 Lower limit of this amount class
 

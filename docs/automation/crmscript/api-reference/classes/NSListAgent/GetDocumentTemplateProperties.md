@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nslistagent_getdocumenttemplateproperties
 title: StringDictionary GetDocumentTemplateProperties()
 description: CRMScript method in the NSListAgent class that retrieves a list of key-value pairs of document template properties

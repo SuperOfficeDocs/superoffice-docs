@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SetPassword
 title: Bool SetPassword(Integer associateId, String password)
 intellisense: NSUserAgent.SetPassword
 keywords: NSUserAgent, SetPassword
 so.topic: reference
 ---
+
+# Bool SetPassword(Integer associateId, String password)
 
 Change password for a user.
 

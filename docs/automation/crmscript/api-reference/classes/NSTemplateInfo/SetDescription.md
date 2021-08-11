@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateInfo_SetDescription
 title: SetDescription(String description)
 intellisense: NSTemplateInfo.SetDescription
 keywords: NSTemplateInfo, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Document description, shown as a tooltip or in some extended description area
 

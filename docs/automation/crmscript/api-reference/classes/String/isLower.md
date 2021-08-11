@@ -6,11 +6,9 @@ keywords: isLower()
 so.topic: reference
 ---
 
+# String.isLower()
 
 Determine if the string contains only lowercase characters.
 
-
-
 * **Returns:** Return true if the string only contains lowercase characters.
-
 

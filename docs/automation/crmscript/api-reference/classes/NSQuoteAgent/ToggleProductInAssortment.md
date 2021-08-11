@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment
 title: Void ToggleProductInAssortment(Integer productId)
 intellisense: NSQuoteAgent.ToggleProductInAssortment
 keywords: NSQuoteAgent, ToggleProductInAssortment
 so.topic: reference
 ---
+
+# Void ToggleProductInAssortment(Integer productId)
 
 Toggles if the prdouct is in assortment or not
 

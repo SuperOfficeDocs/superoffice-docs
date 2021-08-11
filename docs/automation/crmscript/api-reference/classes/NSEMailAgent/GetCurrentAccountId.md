@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetCurrentAccountId
 title: Integer GetCurrentAccountId()
 intellisense: NSEMailAgent.GetCurrentAccountId
@@ -6,8 +6,9 @@ keywords: NSEMailAgent, GetCurrentAccountId
 so.topic: reference
 ---
 
-Get current accountId (last logged into should normally be current) for logged in associate
+# Integer GetCurrentAccountId()
 
+Get current accountId (last logged into should normally be current) for logged in associate
 
 **Returns:** Integer
 

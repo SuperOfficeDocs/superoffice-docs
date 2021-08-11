@@ -6,6 +6,5 @@ keywords: GetProbName()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetProbName()
 

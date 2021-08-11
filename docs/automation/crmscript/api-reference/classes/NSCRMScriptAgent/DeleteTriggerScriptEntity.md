@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_DeleteTriggerScriptEntity
 title: DeleteTriggerScriptEntity(Integer triggerScriptEntity);
 intellisense: NSCRMScriptAgent.DeleteTriggerScriptEntity
 keywords: NSCRMScriptAgent, DeleteTriggerScriptEntity
 so.topic: reference
 ---
+
+# DeleteTriggerScriptEntity(Integer triggerScriptEntity);
 
 Deletes the NSTriggerScriptEntity
   

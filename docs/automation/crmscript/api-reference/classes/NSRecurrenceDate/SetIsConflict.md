@@ -6,7 +6,7 @@ keywords: SetIsConflict(Bool)
 so.topic: reference
 ---
 
+# NSRecurrenceDate.SetIsConflict(Bool p_0)
 
 True if this date creates a conflict.
-
 

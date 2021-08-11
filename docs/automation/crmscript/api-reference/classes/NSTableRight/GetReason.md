@@ -6,6 +6,5 @@ keywords: GetReason()
 so.topic: reference
 ---
 
-
-
+# NSTableRight.GetReason()
 

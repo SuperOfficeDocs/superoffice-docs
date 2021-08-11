@@ -6,14 +6,11 @@ sortOrder: 170
 so.topic: reference
 ---
 
+# Customer
 
 Class for representing a customer.
 
-
-
-
 ## Example
-
 
     Customer c;
     

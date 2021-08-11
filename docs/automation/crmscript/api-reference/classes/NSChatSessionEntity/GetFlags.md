@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_GetFlags
 title: NSChatSessionFlags GetFlags()
 intellisense: NSChatSessionEntity.GetFlags
 keywords: NSChatSessionEntity, GetFlags
 so.topic: reference
 ---
+
+# NSChatSessionFlags GetFlags()
 
 Various flags for the chat session
 
@@ -17,5 +19,4 @@ Various flags for the chat session
 NSChatSessionEntity thing;
 NSChatSessionFlags flags  = thing.GetFlags();
 ```
-
 

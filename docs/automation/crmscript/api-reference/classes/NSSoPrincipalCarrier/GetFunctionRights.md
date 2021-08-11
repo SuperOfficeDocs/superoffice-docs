@@ -6,6 +6,5 @@ keywords: GetFunctionRights()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetFunctionRights()
 

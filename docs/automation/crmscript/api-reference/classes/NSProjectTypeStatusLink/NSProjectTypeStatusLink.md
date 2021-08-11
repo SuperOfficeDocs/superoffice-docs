@@ -4,3 +4,5 @@ title: NSProjectTypeStatusLink
 intellisense: Void.NSProjectTypeStatusLink
 so.topic: reference
 ---
+
+# NSProjectTypeStatusLink

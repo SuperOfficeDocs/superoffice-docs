@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportEntity_SetPublished
 title: SetPublished(Bool published)
 intellisense: NSReportEntity.SetPublished
 keywords: NSReportEntity, GetPublished
 so.topic: reference
 ---
+
+# SetPublished(Bool published)
 
 Is the report published?
 

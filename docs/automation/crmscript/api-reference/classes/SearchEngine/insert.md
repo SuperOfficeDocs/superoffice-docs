@@ -6,11 +6,9 @@ keywords: insert()
 so.topic: reference
 ---
 
+# SearchEngine.insert()
 
 After adding the values of the fields, call this function to actually do the insert in the database. Returns the resulting id of the insert.
 
-
-
 * **Returns:** The id of the newly added item
-
 

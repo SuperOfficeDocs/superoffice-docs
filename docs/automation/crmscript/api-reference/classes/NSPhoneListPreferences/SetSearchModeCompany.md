@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeCompany
 title: SetSearchModeCompany(Integer searchModeCompany)
 intellisense: NSPhoneListPreferences.SetSearchModeCompany
 keywords: NSPhoneListPreferences, GetSearchModeCompany
 so.topic: reference
 ---
+
+# SetSearchModeCompany(Integer searchModeCompany)
 
 The Company name search type, e.g. BeginsWith, Contains, Endswith, Matches
 

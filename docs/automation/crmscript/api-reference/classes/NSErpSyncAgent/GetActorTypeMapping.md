@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetActorTypeMapping
 title: NSErpSyncActorTypeMapping GetActorTypeMapping(Integer erpConnectionId, Integer actorType)
 intellisense: NSErpSyncAgent.GetActorTypeMapping
 keywords: NSErpSyncAgent, GetActorTypeMapping
 so.topic: reference
 ---
+
+# NSErpSyncActorTypeMapping GetActorTypeMapping(Integer erpConnectionId, Integer actorType)
 
 Get the current mappings for one connection/actor; connection+actor type = unique key
 

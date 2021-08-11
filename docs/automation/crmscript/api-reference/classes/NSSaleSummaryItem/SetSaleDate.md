@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleSummaryItem_SetSaleDate
 title: SetSaleDate(DateTime saleDate)
 intellisense: NSSaleSummaryItem.SetSaleDate
 keywords: NSSaleSummaryItem, GetSaleDate
 so.topic: reference
 ---
+
+# SetSaleDate(DateTime saleDate)
 
 Expected sales date
 

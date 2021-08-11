@@ -7,6 +7,7 @@ keywords: moveToWeekStart()
 so.topic: reference
 ---
 
-This method will move the current DateTime back to 00:00:00 on monday in the current week. Returns a reference to itself.
+# DateTime.moveToWeekStart()
 
+This method will move the current DateTime back to 00:00:00 on monday in the current week. Returns a reference to itself.
 

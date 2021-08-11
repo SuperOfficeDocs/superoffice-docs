@@ -7,6 +7,5 @@ keywords: GetParenthesis()
 so.topic: reference
 ---
 
-
-
+# NSArchiveRestrictionInfo.GetParenthesis()
 

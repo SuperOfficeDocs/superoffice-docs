@@ -6,7 +6,7 @@ keywords: SetTooltip(String)
 so.topic: reference
 ---
 
+# NSLocalizedField.SetTooltip(String p_0)
 
 The tooltip
-
 

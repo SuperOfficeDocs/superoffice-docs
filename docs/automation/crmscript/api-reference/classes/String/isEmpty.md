@@ -6,7 +6,7 @@ keywords: isEmpty()
 so.topic: reference
 ---
 
+# String.isEmpty()
 
 * **Returns:** True if the String is empty ("") or NULL/NUL/NIL, that is it contains no characters.
-
 

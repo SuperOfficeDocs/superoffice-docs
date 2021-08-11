@@ -7,6 +7,7 @@ keywords: GetDisplayName()
 so.topic: reference
 ---
 
-Short name of rule to display to user
+# NSDuplicateRule.GetDisplayName()
 
+Short name of rule to display to user
 

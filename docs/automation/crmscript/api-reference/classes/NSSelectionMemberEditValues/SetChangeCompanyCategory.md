@@ -6,7 +6,7 @@ keywords: SetChangeCompanyCategory(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool p_0)
 
 If true, the category of the company will be changed.
-
 

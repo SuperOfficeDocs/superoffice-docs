@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetOurRef
 title: SetOurRef(String ourRef)
 intellisense: NSDocumentEntity.SetOurRef
 keywords: NSDocumentEntity, GetOurRef
 so.topic: reference
 ---
+
+# SetOurRef(String ourRef)
 
 Our reference, searchable field from freetext search
 

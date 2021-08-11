@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetExtAppEntity
 title: NSExtAppEntity GetExtAppEntity(Integer extAppEntityId);
 intellisense: NSListAgent.GetExtAppEntity
 keywords: NSListAgent, GetExtAppEntity
 so.topic: reference
 ---
+
+# NSExtAppEntity GetExtAppEntity(Integer extAppEntityId);
 
 Gets a NSExtAppEntity object.
 

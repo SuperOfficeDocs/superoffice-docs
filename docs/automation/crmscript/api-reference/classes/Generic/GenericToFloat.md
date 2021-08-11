@@ -8,6 +8,7 @@ keywords: GenericToFloat(Generic)
 so.topic: reference
 ---
 
+# Generic.GenericToFloat(Generic generic)
 
 Explicit downcast from a generic to a Float. If the generic does not represent the correct type, an exception is thrown. Together with `getTypeName()`, this function can be used to get an explicit typed variable.
 

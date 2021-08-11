@@ -6,6 +6,5 @@ keywords: SetContactOwner(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetContactOwner(Integer p_0)
 

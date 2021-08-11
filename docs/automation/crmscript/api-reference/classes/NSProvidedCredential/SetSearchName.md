@@ -6,6 +6,5 @@ keywords: SetSearchName(String)
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.SetSearchName(String p_0)
 

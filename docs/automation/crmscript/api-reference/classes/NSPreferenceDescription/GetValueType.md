@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceDescription_GetValueType
 title: Integer GetValueType()
 intellisense: NSPreferenceDescription.GetValueType
 keywords: NSPreferenceDescription, GetValueType
 so.topic: reference
 ---
+
+# Integer GetValueType()
 
 1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID
 
@@ -31,5 +33,4 @@ so.topic: reference
 NSPreferenceDescription thing;
 Integer valueType  = thing.GetValueType();
 ```
-
 

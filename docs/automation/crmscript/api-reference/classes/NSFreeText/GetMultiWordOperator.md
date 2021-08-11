@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeText_GetMultiWordOperator
 title: Integer GetMultiWordOperator()
 intellisense: NSFreeText.GetMultiWordOperator
 keywords: NSFreeText, GetMultiWordOperator
 so.topic: reference
 ---
+
+# Integer GetMultiWordOperator()
 
 Starts with, contains or exact match
 
@@ -18,5 +20,4 @@ Starts with, contains or exact match
 NSFreeText thing;
 Integer multiWordOperator  = thing.GetMultiWordOperator();
 ```
-
 

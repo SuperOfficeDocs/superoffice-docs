@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetProductImage
 title: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
 intellisense: NSQuoteAgent.GetProductImage
 keywords: NSQuoteAgent, GetProductImage
 so.topic: reference
 ---
+
+# String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
 
 Gets an image connected to a product, from the ProductProvider
 

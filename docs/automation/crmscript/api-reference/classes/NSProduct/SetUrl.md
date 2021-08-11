@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetUrl
 title: SetUrl(String url)
 intellisense: NSProduct.SetUrl
 keywords: NSProduct, GetUrl
 so.topic: reference
 ---
+
+# SetUrl(String url)
 
 URL to product information web page.
 

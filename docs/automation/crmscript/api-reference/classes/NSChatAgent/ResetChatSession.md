@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_ResetChatSession
 title: NSChatSessionEntity ResetChatSession(Integer chatSessionId)
 intellisense: NSChatAgent.ResetChatSession
 keywords: NSChatAgent, ResetChatSession
 so.topic: reference
 ---
+
+# NSChatSessionEntity ResetChatSession(Integer chatSessionId)
 
 Reset chat session, put it back on the queue for pickup. Used by bots to hand off a session to human
 

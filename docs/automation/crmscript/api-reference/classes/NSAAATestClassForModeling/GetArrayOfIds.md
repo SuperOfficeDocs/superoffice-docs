@@ -7,7 +7,7 @@ keywords: GetArrayOfIds()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetArrayOfIds()
 
 * **Returns:** IntegerArray
-
 

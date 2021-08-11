@@ -1,4 +1,5 @@
 ---
+title: Integer[] getSelectionIds(Integer p0)
 description: Integer[] getSelectionIds(Integer p0)
 intellisense: Void.getSelectionIds
 langref: 1
@@ -6,12 +7,9 @@ keywords: getSelectionIds(Integer)
 so.topic: reference
 ---
 
+# Integer[] getSelectionIds(Integer p0)
 
-Returns the ids of the objects in the selection with given id.
+Returns the IDs of the objects in the selection with the given ID.
 
-
-
-* **The** id of the selection
-* **Returns:** The ids of the objects in the selection
-
-
+* **The** ID of the selection
+* **Returns:** The IDs of the objects in the selection

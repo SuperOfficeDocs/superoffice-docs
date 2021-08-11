@@ -7,14 +7,12 @@ keywords: addDay(Integer)
 so.topic: reference
 ---
 
+# Date.addDay(Integer num)
+
 This function will add the given number of days to currentl set date. The function returns a date object.
 The original object will be modified, and a copy is returned.
 
-
-
 ## Parameters
 
-
  - num: Number of days to add/subtract(if negative num)
-
 

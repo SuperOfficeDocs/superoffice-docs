@@ -6,6 +6,7 @@ keywords: toDays()
 so.topic: reference
 ---
 
-This function will return the timespan as a number of days. A one year timespan will return 365.
+# TimeSpan.toDays()
 
+This function will return the timespan as a number of days. A one year timespan will return 365.
 

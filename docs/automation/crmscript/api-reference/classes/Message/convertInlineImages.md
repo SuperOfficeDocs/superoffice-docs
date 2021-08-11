@@ -7,7 +7,7 @@ keywords: convertInlineImages()
 so.topic: reference
 ---
 
+# Message.convertInlineImages()
 
 Convert any inline images in the message from (cid: to normal http).
-
 

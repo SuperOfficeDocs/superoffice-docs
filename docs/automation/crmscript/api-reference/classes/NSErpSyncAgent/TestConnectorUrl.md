@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_TestConnectorUrl
 title: Integer TestConnectorUrl(String url)
 intellisense: NSErpSyncAgent.TestConnectorUrl
 keywords: NSErpSyncAgent, TestConnectorUrl
 so.topic: reference
 ---
+
+# Integer TestConnectorUrl(String url)
 
 Test if connector urls anwers
 

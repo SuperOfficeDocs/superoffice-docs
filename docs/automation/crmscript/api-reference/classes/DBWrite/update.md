@@ -7,7 +7,7 @@ keywords: update()
 so.topic: reference
 ---
 
+# DBWrite.update()
 
 Execute update-query with the specified columns and values.
-
 

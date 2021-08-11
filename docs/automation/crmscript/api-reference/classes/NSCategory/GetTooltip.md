@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCategory_GetTooltip
 title: String GetTooltip()
 intellisense: NSCategory.GetTooltip
 keywords: NSCategory, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSCategory list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSCategory list item.
 NSCategory thing;
 String descr = thing.GetTooltip();
 ```
-
 

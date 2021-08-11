@@ -5,3 +5,5 @@ intellisense: Void.NSImage
 sortOrder: 3948
 so.topic: reference
 ---
+
+# NSImage

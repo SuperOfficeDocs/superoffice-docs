@@ -6,14 +6,11 @@ sortOrder: 442
 so.topic: reference
 ---
 
+# JSONBuilder
 
 The JSONBuilder class simplifies building JSON hierarchies. The result will be a string in correct JSON format, with string values properly escaped. This class is useful e.g. in combination with the HTTP class to make REST-calls.
 
-
-
-
 ## Example
-
 
     JSONBuilder jb;
     jb.pushObject("");

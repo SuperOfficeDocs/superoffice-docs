@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleTypeEntity_GetDurationUnit
 title: Integer GetDurationUnit()
 intellisense: NSSaleTypeEntity.GetDurationUnit
 keywords: NSSaleTypeEntity, GetDurationUnit
 so.topic: reference
 ---
+
+# Integer GetDurationUnit()
 
 Units for the duration (day, week, whatever)
 
@@ -28,5 +30,4 @@ Units for the duration (day, week, whatever)
 NSSaleTypeEntity thing;
 Integer durationUnit  = thing.GetDurationUnit();
 ```
-
 

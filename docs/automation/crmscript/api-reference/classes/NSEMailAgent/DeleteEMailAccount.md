@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_DeleteEMailAccount
 title: DeleteEMailAccount(Integer eMailAccount);
 intellisense: NSEMailAgent.DeleteEMailAccount
 keywords: NSEMailAgent, DeleteEMailAccount
 so.topic: reference
 ---
+
+# DeleteEMailAccount(Integer eMailAccount);
 
 Deletes the NSEMailAccount
   

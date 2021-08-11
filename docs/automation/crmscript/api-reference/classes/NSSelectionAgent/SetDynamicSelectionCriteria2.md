@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria2
 title: NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria2(Integer selectionId, String filter)
 intellisense: NSSelectionAgent.SetDynamicSelectionCriteria2
 keywords: NSSelectionAgent, SetDynamicSelectionCriteria2
 so.topic: reference
 ---
+
+# NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria2(Integer selectionId, String filter)
 
 Update the criteria for this dynamic selection using string. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
 

@@ -7,6 +7,7 @@ keywords: addInteger(String,Integer)
 so.topic: reference
 ---
 
-Adds an integer value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty.
+# JSONBuilder.addInteger(String key, Integer value)
 
+Adds an integer value to the current scope. If the current scope is an object, you must supply a key. If the current scope is an array, key must be empty.
 

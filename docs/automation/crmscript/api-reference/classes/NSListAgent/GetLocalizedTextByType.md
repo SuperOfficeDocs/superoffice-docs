@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetLocalizedTextByType
 title: NSLocalizedText GetLocalizedTextByType(Integer textType, Integer resourceId, Integer languageId)
 intellisense: NSListAgent.GetLocalizedTextByType
 keywords: NSListAgent, GetLocalizedTextByType
 so.topic: reference
 ---
+
+# NSLocalizedText GetLocalizedTextByType(Integer textType, Integer resourceId, Integer languageId)
 
 Returns a localized text based on the resource id for the selected language.
 

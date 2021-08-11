@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteDocumentTemplateLanguage
 title: Void DeleteDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
 intellisense: NSListAgent.DeleteDocumentTemplateLanguage
 keywords: NSListAgent, DeleteDocumentTemplateLanguage
 so.topic: reference
 ---
+
+# Void DeleteDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
 
 Deletes language variant of the document template
 

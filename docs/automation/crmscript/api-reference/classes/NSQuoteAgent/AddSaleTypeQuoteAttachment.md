@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_AddSaleTypeQuoteAttachment
 title: Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
 intellisense: NSQuoteAgent.AddSaleTypeQuoteAttachment
 keywords: NSQuoteAgent, AddSaleTypeQuoteAttachment
 so.topic: reference
 ---
+
+# Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
 
 Adds a new quote attachment document to a sale type
 

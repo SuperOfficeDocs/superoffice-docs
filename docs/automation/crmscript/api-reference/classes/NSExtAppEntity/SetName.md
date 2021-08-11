@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_SetName
 title: SetName(String name)
 intellisense: NSExtAppEntity.SetName
 keywords: NSExtAppEntity, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The name of the web panel
 

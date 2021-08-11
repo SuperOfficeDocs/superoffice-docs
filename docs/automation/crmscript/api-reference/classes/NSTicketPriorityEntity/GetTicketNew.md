@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_GetTicketNew
 title: Integer GetTicketNew()
 intellisense: NSTicketPriorityEntity.GetTicketNew
 keywords: NSTicketPriorityEntity, GetTicketNew
 so.topic: reference
 ---
+
+# Integer GetTicketNew()
 
 This field indicates what to do with the escalation chain when a new request is registered
 
@@ -19,5 +21,4 @@ This field indicates what to do with the escalation chain when a new request is 
 NSTicketPriorityEntity thing;
 Integer ticketNew  = thing.GetTicketNew();
 ```
-
 

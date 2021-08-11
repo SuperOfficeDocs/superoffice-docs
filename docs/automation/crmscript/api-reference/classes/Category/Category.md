@@ -6,14 +6,11 @@ sortOrder: 149
 so.topic: reference
 ---
 
+# Category
 
 Class used for accessing and changing a ticket category.
 
-
-
-
 ## Example
-
 
     Category c;
     

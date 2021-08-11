@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSImportAgent_CreateDefaultImportLine
 title: NSImportLine CreateDefaultImportLine(Integer countColumns)
 intellisense: NSImportAgent.CreateDefaultImportLine
 keywords: NSImportAgent, CreateDefaultImportLine
 so.topic: reference
 ---
+
+# NSImportLine CreateDefaultImportLine(Integer countColumns)
 
 Create a new empty import row with x count of values
 

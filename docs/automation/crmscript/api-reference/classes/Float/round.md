@@ -7,23 +7,18 @@ keywords: round()
 so.topic: reference
 ---
 
+# Float.round()
+
 Returns the integer round of the float
 
-
-
 ## Example
-
 
     Float f = Float("13.79");
     
     Integer i = f.round();
     print(i.toString());
-    
-
-
 
 **Output:**
 
 "14"
-
 

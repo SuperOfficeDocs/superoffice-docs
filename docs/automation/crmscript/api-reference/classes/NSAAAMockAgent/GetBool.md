@@ -7,11 +7,9 @@ keywords: GetBool()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetBool()
 
 Gets some bool value
 
-
-
 * **Returns:** Some bool value
-
 

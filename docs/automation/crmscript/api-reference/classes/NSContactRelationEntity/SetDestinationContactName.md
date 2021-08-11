@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactRelationEntity_SetDestinationContactName
 title: SetDestinationContactName(String destinationContactName)
 intellisense: NSContactRelationEntity.SetDestinationContactName
 keywords: NSContactRelationEntity, GetDestinationContactName
 so.topic: reference
 ---
+
+# SetDestinationContactName(String destinationContactName)
 
 Name of the destination contact.
 

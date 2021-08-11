@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebPanelEntity_GetVisibleIn
 title: Integer GetVisibleIn()
 intellisense: NSWebPanelEntity.GetVisibleIn
 keywords: NSWebPanelEntity, GetVisibleIn
 so.topic: reference
 ---
+
+# Integer GetVisibleIn()
 
 The webpanel is visible in
 
@@ -86,5 +88,4 @@ The webpanel is visible in
 NSWebPanelEntity thing;
 Integer visibleIn  = thing.GetVisibleIn();
 ```
-
 

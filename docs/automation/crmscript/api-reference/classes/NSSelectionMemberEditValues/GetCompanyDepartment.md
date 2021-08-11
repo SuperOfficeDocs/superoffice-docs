@@ -6,7 +6,7 @@ keywords: GetCompanyDepartment()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetCompanyDepartment()
 
 Contains new value for the company department.
-
 

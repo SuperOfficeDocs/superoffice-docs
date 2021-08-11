@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceDescription_GetMaxLevel
 title: Integer GetMaxLevel()
 intellisense: NSPreferenceDescription.GetMaxLevel
 keywords: NSPreferenceDescription, GetMaxLevel
 so.topic: reference
 ---
+
+# Integer GetMaxLevel()
 
 Lowest allowed setting level, set by user, but not lower than sysMaxLevel
 
@@ -22,5 +24,4 @@ Lowest allowed setting level, set by user, but not lower than sysMaxLevel
 NSPreferenceDescription thing;
 Integer maxLevel  = thing.GetMaxLevel();
 ```
-
 

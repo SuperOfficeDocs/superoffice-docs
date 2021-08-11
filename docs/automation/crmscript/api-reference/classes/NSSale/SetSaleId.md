@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSale_SetSaleId
 title: SetSaleId(Integer saleId)
 intellisense: NSSale.SetSaleId
 keywords: NSSale, GetSaleId
 so.topic: reference
 ---
+
+# SetSaleId(Integer saleId)
 
 Primary key
 

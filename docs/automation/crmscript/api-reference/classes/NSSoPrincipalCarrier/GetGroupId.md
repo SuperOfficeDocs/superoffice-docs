@@ -6,6 +6,5 @@ keywords: GetGroupId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetGroupId()
 

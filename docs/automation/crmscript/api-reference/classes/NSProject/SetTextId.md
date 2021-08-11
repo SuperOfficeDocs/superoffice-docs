@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProject_SetTextId
 title: SetTextId(Integer textId)
 intellisense: NSProject.SetTextId
 keywords: NSProject, GetTextId
 so.topic: reference
 ---
+
+# SetTextId(Integer textId)
 
 The id of the description
 

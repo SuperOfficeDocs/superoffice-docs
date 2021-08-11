@@ -6,8 +6,8 @@ keywords: findLast(String)
 so.topic: reference
 ---
 
+# String.findLast(String p_0)
 
 * **p0::** The string to match
 * **Returns:** The position of the last occurence of the string to match
-
 

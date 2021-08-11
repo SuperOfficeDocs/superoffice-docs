@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConsentPerson_SetComment
 title: SetComment(String comment)
 intellisense: NSConsentPerson.SetComment
 keywords: NSConsentPerson, GetComment
 so.topic: reference
 ---
+
+# SetComment(String comment)
 
 Comment regarding this specific consent
 

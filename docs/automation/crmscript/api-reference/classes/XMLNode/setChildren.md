@@ -6,18 +6,13 @@ keywords: setChildren(XMLNode[])
 so.topic: reference
 ---
 
+# XMLNode.setChildren(XMLNode[] children)
+
 Set an array of XMLNodes as the children of the current node.
-
-
 
 ## Parameters
 
-
  - children: Array of child nodes.
-
-
-
-
 
 ## Example
     
@@ -37,5 +32,4 @@ Set an array of XMLNodes as the children of the current node.
     array[0] = xMenu;
     array[1] = xFoo;
     xml.setChildren(array);
-
 

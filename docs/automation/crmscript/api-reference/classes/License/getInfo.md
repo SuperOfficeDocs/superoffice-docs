@@ -7,13 +7,11 @@ keywords: getInfo()
 so.topic: reference
 ---
 
+# License.getInfo()
 
 Deprecated in 7.1.
 
-
 Get info about license key. Check if its legal and print hostname and modules.
 
-
 * **Returns:** Info.
-
 

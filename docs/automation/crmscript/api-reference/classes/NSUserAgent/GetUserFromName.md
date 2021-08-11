@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetUserFromName
 title: NSUser GetUserFromName(String userName)
 intellisense: NSUserAgent.GetUserFromName
 keywords: NSUserAgent, GetUserFromName
 so.topic: reference
 ---
+
+# NSUser GetUserFromName(String userName)
 
 Get a user, with lookup based on user name.
 

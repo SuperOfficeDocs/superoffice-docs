@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebPanelEntity_GetUrlEncoding
 title: Integer GetUrlEncoding()
 intellisense: NSWebPanelEntity.GetUrlEncoding
 keywords: NSWebPanelEntity, GetUrlEncoding
 so.topic: reference
 ---
+
+# Integer GetUrlEncoding()
 
 The encoding of the URL
 
@@ -19,5 +21,4 @@ The encoding of the URL
 NSWebPanelEntity thing;
 Integer urlEncoding  = thing.GetUrlEncoding();
 ```
-
 

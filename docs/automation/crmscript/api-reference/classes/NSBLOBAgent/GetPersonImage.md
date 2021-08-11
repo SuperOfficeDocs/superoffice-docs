@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetPersonImage
 title: NSImage GetPersonImage(Integer personId)
 intellisense: NSBLOBAgent.GetPersonImage
 keywords: NSBLOBAgent, GetPersonImage
 so.topic: reference
 ---
+
+# NSImage GetPersonImage(Integer personId)
 
 Returns the person image that is displayed in the CRM application.
 

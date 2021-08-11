@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_UndoCheckoutDocument
 title: NSReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
 intellisense: NSDocumentAgent.UndoCheckoutDocument
 keywords: NSDocumentAgent, UndoCheckoutDocument
 so.topic: reference
 ---
+
+# NSReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
 
 Undo (abandon) a checkout
 

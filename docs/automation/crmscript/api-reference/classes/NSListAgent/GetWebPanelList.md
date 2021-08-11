@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetWebPanelList
 title: NSWebPanelEntity[] GetWebPanelList()
 intellisense: NSListAgent.GetWebPanelList
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetWebPanelList
 so.topic: reference
 ---
 
-Return a list of all web panels. 
+# NSWebPanelEntity[] GetWebPanelList()
 
+Return a list of all web panels. 
 
 **Returns:** NSWebPanelEntity[]
 

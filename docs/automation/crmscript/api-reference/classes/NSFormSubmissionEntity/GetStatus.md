@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormSubmissionEntity_GetStatus
 title: Integer GetStatus()
 intellisense: NSFormSubmissionEntity.GetStatus
 keywords: NSFormSubmissionEntity, GetStatus
 so.topic: reference
 ---
+
+# Integer GetStatus()
 
 What is the status of this submission
 
@@ -21,5 +23,4 @@ What is the status of this submission
 NSFormSubmissionEntity thing;
 Integer status  = thing.GetStatus();
 ```
-
 

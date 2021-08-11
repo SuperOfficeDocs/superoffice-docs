@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SendTicketMessage
 title: Void SendTicketMessage(Integer ticketMessageEntityId, String[] to, String[] cc, String[] bcc, String subject, Integer replyTemplateId, String gdprSource)
 intellisense: NSTicketAgent.SendTicketMessage
 keywords: NSTicketAgent, SendTicketMessage
 so.topic: reference
 ---
+
+# Void SendTicketMessage(Integer ticketMessageEntityId, String[] to, String[] cc, String[] bcc, String subject, Integer replyTemplateId, String gdprSource)
 
 Send a message to recipients, e.g. by email or sms
 

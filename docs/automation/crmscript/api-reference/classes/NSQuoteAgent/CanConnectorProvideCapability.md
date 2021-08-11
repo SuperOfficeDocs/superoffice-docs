@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability
 title: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
 intellisense: NSQuoteAgent.CanConnectorProvideCapability
 keywords: NSQuoteAgent, CanConnectorProvideCapability
 so.topic: reference
 ---
+
+# Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
 
 Can the connector provide the capability
 

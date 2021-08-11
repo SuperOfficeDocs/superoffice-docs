@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_GetRecentSales
 title: NSSale[] GetRecentSales(Integer amountLimit, Integer count)
 intellisense: NSSaleAgent.GetRecentSales
 keywords: NSSaleAgent, GetRecentSales
 so.topic: reference
 ---
+
+# NSSale[] GetRecentSales(Integer amountLimit, Integer count)
 
 Returns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
 

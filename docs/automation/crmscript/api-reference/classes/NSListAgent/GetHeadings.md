@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetHeadings
 title: NSSelectableMDOListItem[] GetHeadings(Integer udListDefinitionId, Integer listItemId, Bool showDeleted)
 intellisense: NSListAgent.GetHeadings
 keywords: NSListAgent, GetHeadings
 so.topic: reference
 ---
+
+# NSSelectableMDOListItem[] GetHeadings(Integer udListDefinitionId, Integer listItemId, Bool showDeleted)
 
 Gets a selectable MDO list of the headings for this list item
 

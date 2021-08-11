@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsbatchtaskinfo_setparameterobject
 title: SetParameterObject()
 description: CRMScript method in the NSBatchTaskInfo class that serializes a StringDictionary to a binary blob and saves it in the BinaryObject table

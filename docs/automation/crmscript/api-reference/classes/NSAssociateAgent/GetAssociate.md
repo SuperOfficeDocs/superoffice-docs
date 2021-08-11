@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAssociateAgent_GetAssociate
 title: NSAssociate GetAssociate(Integer associateId);
 intellisense: NSAssociateAgent.GetAssociate
 keywords: NSAssociateAgent, GetAssociate
 so.topic: reference
 ---
+
+# NSAssociate GetAssociate(Integer associateId);
 
 Gets a NSAssociate object.
 

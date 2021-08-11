@@ -7,6 +7,7 @@ keywords: getMonth()
 so.topic: reference
 ---
 
-Returns the month part of the DateTime as an integer.
+# DateTime.getMonth()
 
+Returns the month part of the DateTime as an integer.
 

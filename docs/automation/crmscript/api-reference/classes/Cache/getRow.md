@@ -7,6 +7,7 @@ keywords: getRow()
 so.topic: reference
 ---
 
-Returns a row of fields.
+# Cache.getRow()
 
+Returns a row of fields.
 

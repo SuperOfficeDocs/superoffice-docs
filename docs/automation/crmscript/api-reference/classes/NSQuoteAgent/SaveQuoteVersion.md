@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_SaveQuoteVersion
 title: NSQuoteVersion SaveQuoteVersion(NSQuoteVersion quoteVersion)
 intellisense: NSQuoteAgent.SaveQuoteVersion
 keywords: NSQuoteAgent, SaveQuoteVersion
 so.topic: reference
 ---
+
+# NSQuoteVersion SaveQuoteVersion(NSQuoteVersion quoteVersion)
 
 Saves a quote version
 

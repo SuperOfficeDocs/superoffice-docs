@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetAssignmentStatus
 title: SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAppointment.SetAssignmentStatus
 keywords: NSAppointment, GetAssignmentStatus
 so.topic: reference
 ---
+
+# SetAssignmentStatus(Integer assignmentStatus)
 
 Status if this appointment is in the process of being assigned to someone else
 

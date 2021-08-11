@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketDeviceInfo_GetPlatform
 title: Integer GetPlatform()
 intellisense: NSPocketDeviceInfo.GetPlatform
 keywords: NSPocketDeviceInfo, GetPlatform
 so.topic: reference
 ---
+
+# Integer GetPlatform()
 
 What platform does this device belong to
 
@@ -21,5 +23,4 @@ What platform does this device belong to
 NSPocketDeviceInfo thing;
 Integer platform  = thing.GetPlatform();
 ```
-
 

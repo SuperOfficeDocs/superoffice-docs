@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier
 title: SetDeviceIdentifier(String deviceIdentifier)
 intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
 keywords: NSPocketDeviceInfo, GetDeviceIdentifier
 so.topic: reference
 ---
+
+# SetDeviceIdentifier(String deviceIdentifier)
 
 A unique identifier of this device. This value should always be the same for the same device
 

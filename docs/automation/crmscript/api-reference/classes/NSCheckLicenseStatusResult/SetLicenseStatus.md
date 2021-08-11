@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCheckLicenseStatusResult_SetLicenseStatus
 title: SetLicenseStatus(Integer licenseStatus)
 intellisense: NSCheckLicenseStatusResult.SetLicenseStatus
 keywords: NSCheckLicenseStatusResult, GetLicenseStatus
 so.topic: reference
 ---
+
+# SetLicenseStatus(Integer licenseStatus)
 
 Result of CheckLicenseStatus 
 

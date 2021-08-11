@@ -6,7 +6,7 @@ keywords: GetChangeCompanyOurContact()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetChangeCompanyOurContact()
 
 If true, the our contact of the company will change.
-
 

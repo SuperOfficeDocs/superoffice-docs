@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_SendConsentConfirmationEmail
 title: Void SendConsentConfirmationEmail(Integer personId, String emailAddress, Integer emailTemplateId, Integer cultureLcidId, String subject)
 intellisense: NSPersonAgent.SendConsentConfirmationEmail
 keywords: NSPersonAgent, SendConsentConfirmationEmail
 so.topic: reference
 ---
+
+# Void SendConsentConfirmationEmail(Integer personId, String emailAddress, Integer emailTemplateId, Integer cultureLcidId, String subject)
 
 Send confirmation email to the provided person, email address (id), using the document template
 

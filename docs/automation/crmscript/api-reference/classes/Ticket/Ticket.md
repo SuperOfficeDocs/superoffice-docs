@@ -5,14 +5,11 @@ intellisense: Void.Ticket
 so.topic: reference
 ---
 
+# Ticket
 
 Class for representing an eJournal Ticket.
 
-
-
-
 ## Example
-
 
     Ticket t;
     

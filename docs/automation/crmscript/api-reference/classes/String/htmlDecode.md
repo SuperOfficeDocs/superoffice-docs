@@ -6,11 +6,9 @@ keywords: htmlDecode()
 so.topic: reference
 ---
 
+# String.htmlDecode()
 
 Html decode the string.
 
-
-
 * **Returns:** An html decoded version of the String.
-
 

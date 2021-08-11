@@ -7,6 +7,7 @@ keywords: size()
 so.topic: reference
 ---
 
-Returns the number of elements in the map.
+# Map.size()
 
+Returns the number of elements in the map.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetCategory
 title: NSCategory GetCategory(Integer categoryId);
 intellisense: NSListAgent.GetCategory
 keywords: NSListAgent, GetCategory
 so.topic: reference
 ---
+
+# NSCategory GetCategory(Integer categoryId);
 
 Gets a NSCategory object.
 

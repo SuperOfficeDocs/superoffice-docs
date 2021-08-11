@@ -6,6 +6,5 @@ keywords: SetCredentialId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.SetCredentialId(Integer p_0)
 

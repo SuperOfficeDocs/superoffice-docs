@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_ValidateDocumentEntity
 title: StringDictionary ValidateDocumentEntity(NSDocumentEntity documentEntity)
 intellisense: NSDocumentAgent.ValidateDocumentEntity
 keywords: NSDocumentAgent, ValidateDocumentEntity
 so.topic: reference
 ---
+
+# StringDictionary ValidateDocumentEntity(NSDocumentEntity documentEntity)
 
 Check that entity is ready for saving, return error messages by field.
 

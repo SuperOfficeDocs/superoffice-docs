@@ -6,7 +6,7 @@ keywords: SetChangeContactPosition(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeContactPosition(Bool p_0)
 
 If true, the position of the contact will change.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_SetProjectImage
 title: Void SetProjectImage(Integer projectId, NSImage image)
 intellisense: NSProjectAgent.SetProjectImage
 keywords: NSProjectAgent, SetProjectImage
 so.topic: reference
 ---
+
+# Void SetProjectImage(Integer projectId, NSImage image)
 
 Stores the project image that is displayed in the CRM application.
 

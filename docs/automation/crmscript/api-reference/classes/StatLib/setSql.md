@@ -6,11 +6,9 @@ keywords: setSql(String)
 so.topic: reference
 ---
 
+# StatLib.setSql(String sqlStatement)
 
 Sets the query for the instance.
 
-
-
 * **sqlStatement:** The SQL query to execute for the instance.
-
 

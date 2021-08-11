@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceAgent_GetConfigParameter
 title: NSAudienceConfigParameter GetConfigParameter(String layoutName, String parameterName)
 intellisense: NSAudienceAgent.GetConfigParameter
 keywords: NSAudienceAgent, GetConfigParameter
 so.topic: reference
 ---
+
+# NSAudienceConfigParameter GetConfigParameter(String layoutName, String parameterName)
 
 Gets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSHistoryRequest_SetRequestForNewRecord
 title: SetRequestForNewRecord(Bool requestForNewRecord)
 intellisense: NSHistoryRequest.SetRequestForNewRecord
 keywords: NSHistoryRequest, GetRequestForNewRecord
 so.topic: reference
 ---
+
+# SetRequestForNewRecord(Bool requestForNewRecord)
 
 Are we requesting insert rights? If true, then EntityorParentId is taken to mean parent id
 

@@ -6,11 +6,9 @@ keywords: toInteger()
 so.topic: reference
 ---
 
+# String.toInteger()
 
 Returns an integer from a string representation of a number.
 
-
-
 * **Returns:** The integer value of a string.
-
 

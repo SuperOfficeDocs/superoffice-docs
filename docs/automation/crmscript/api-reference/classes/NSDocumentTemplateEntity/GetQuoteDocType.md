@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_GetQuoteDocType
 title: NSDocTmplQuoteType GetQuoteDocType()
 intellisense: NSDocumentTemplateEntity.GetQuoteDocType
 keywords: NSDocumentTemplateEntity, GetQuoteDocType
 so.topic: reference
 ---
+
+# NSDocTmplQuoteType GetQuoteDocType()
 
 The role this document plays in the Quote system, if any
 
@@ -21,5 +23,4 @@ The role this document plays in the Quote system, if any
 NSDocumentTemplateEntity thing;
 NSDocTmplQuoteType quoteDocType  = thing.GetQuoteDocType();
 ```
-
 

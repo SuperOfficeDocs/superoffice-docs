@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnectionData_SetErpActorType
 title: SetErpActorType(Integer erpActorType)
 intellisense: NSErpConnectionData.SetErpActorType
 keywords: NSErpConnectionData, GetErpActorType
 so.topic: reference
 ---
+
+# SetErpActorType(Integer erpActorType)
 
 The erp actor type which these fields belongs to
 

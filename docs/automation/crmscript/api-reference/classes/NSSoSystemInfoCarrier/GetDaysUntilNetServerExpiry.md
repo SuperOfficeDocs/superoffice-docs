@@ -6,6 +6,5 @@ keywords: GetDaysUntilNetServerExpiry()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
 

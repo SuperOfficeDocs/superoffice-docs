@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_UpdateQuoteVersionPrices
 title: NSQuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
 intellisense: NSQuoteAgent.UpdateQuoteVersionPrices
 keywords: NSQuoteAgent, UpdateQuoteVersionPrices
 so.topic: reference
 ---
+
+# NSQuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
 
 Update price on the all the quotelines for each alternative in the current quote version
 

@@ -7,16 +7,13 @@ keywords: findFromDomain(String)
 so.topic: reference
 ---
 
+# Company.findFromDomain(String domain)
+
 Find and load company object given a domain.
-
-
 
 ## Parameters
 
-
  - domain of the company
 
-
 Returns a boolean of the load result, true if successfully loaded.
-
 

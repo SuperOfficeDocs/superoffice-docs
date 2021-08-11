@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_UnassignThirdPartyLicenses
 title: NSModuleLicenseLink[] UnassignThirdPartyLicenses(Integer associateId, String moduleOwner, String[] moduleLicenseNames)
 intellisense: NSLicenseAgent.UnassignThirdPartyLicenses
 keywords: NSLicenseAgent, UnassignThirdPartyLicenses
 so.topic: reference
 ---
+
+# NSModuleLicenseLink[] UnassignThirdPartyLicenses(Integer associateId, String moduleOwner, String[] moduleLicenseNames)
 
 Unassign (remove) third party licenses
 

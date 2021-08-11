@@ -7,7 +7,7 @@ keywords: close()
 so.topic: reference
 ---
 
+# File.close()
 
 This function closes the file, the File object is then ready for `open()`-ing a new file
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetArchiveListByColumns2
 title: NSArchiveListItem[] GetArchiveListByColumns2(String providerName, String columns, String sortOrder, String restrictions, String entities, Integer page, Integer pageSize)
 intellisense: NSArchiveAgent.GetArchiveListByColumns2
 keywords: NSArchiveAgent, GetArchiveListByColumns2
 so.topic: reference
 ---
+
+# NSArchiveListItem[] GetArchiveListByColumns2(String providerName, String columns, String sortOrder, String restrictions, String entities, Integer page, Integer pageSize)
 
 Get a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.
 

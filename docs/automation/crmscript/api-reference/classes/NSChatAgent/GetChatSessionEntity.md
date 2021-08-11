@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_GetChatSessionEntity
 title: NSChatSessionEntity GetChatSessionEntity(Integer chatSessionEntityId);
 intellisense: NSChatAgent.GetChatSessionEntity
 keywords: NSChatAgent, GetChatSessionEntity
 so.topic: reference
 ---
+
+# NSChatSessionEntity GetChatSessionEntity(Integer chatSessionEntityId);
 
 Gets a NSChatSessionEntity object.
 

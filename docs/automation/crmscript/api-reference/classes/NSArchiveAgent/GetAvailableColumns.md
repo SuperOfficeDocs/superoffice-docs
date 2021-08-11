@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetAvailableColumns
 title: NSArchiveColumnInfo[] GetAvailableColumns(String providerName, String context)
 intellisense: NSArchiveAgent.GetAvailableColumns
 keywords: NSArchiveAgent, GetAvailableColumns
 so.topic: reference
 ---
+
+# NSArchiveColumnInfo[] GetAvailableColumns(String providerName, String context)
 
 Return list of all columns supported by an archive provider. See also GetArchiveConfiguration.
 

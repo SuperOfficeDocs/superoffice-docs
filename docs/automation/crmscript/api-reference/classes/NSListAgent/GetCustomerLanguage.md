@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetCustomerLanguage
 title: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
 intellisense: NSListAgent.GetCustomerLanguage
 keywords: NSListAgent, GetCustomerLanguage
 so.topic: reference
 ---
+
+# NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
 
 Gets a NSCustomerLanguage object.
 

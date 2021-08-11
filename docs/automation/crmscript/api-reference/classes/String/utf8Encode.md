@@ -6,10 +6,9 @@ keywords: utf8Encode()
 so.topic: reference
 ---
 
+# String.utf8Encode()
 
 * **Returns:** The UTF-8 representation of the string
 
-
 The characters are coded using the utf-8 format, and the string returned consists of only ascii characters, encoding the unicode characters (outside ASCII/Latin-1) in utf-8 format.
-
 

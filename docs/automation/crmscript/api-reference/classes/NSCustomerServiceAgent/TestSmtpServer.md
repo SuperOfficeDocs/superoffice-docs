@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_TestSmtpServer
 title: NSSmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
 intellisense: NSCustomerServiceAgent.TestSmtpServer
 keywords: NSCustomerServiceAgent, TestSmtpServer
 so.topic: reference
 ---
+
+# NSSmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
 
 This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account
 

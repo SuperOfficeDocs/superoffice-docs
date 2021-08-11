@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_GetModuleLicenseHistoryFromLicenseServer
 title: String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo licenseInfo, NSExtendedModuleLicense moduleLicense)
 intellisense: NSLicenseAgent.GetModuleLicenseHistoryFromLicenseServer
 keywords: NSLicenseAgent, GetModuleLicenseHistoryFromLicenseServer
 so.topic: reference
 ---
+
+# String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo licenseInfo, NSExtendedModuleLicense moduleLicense)
 
 Get details about a license from the license server.
 

@@ -7,7 +7,7 @@ keywords: GetEntryName()
 so.topic: reference
 ---
 
+# NSDuplicateEntry.GetEntryName()
 
 Name of duplicate entry
-
 

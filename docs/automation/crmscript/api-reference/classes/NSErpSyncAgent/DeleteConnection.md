@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_DeleteConnection
 title: Void DeleteConnection(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.DeleteConnection
 keywords: NSErpSyncAgent, DeleteConnection
 so.topic: reference
 ---
+
+# Void DeleteConnection(Integer erpConnectionId)
 
 Deletes a connection from the database.
 

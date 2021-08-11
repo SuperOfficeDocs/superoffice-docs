@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SaveUserFromName
 title: NSUser SaveUserFromName(String userName, NSUser user)
 intellisense: NSUserAgent.SaveUserFromName
 keywords: NSUserAgent, SaveUserFromName
 so.topic: reference
 ---
+
+# NSUser SaveUserFromName(String userName, NSUser user)
 
 Save a user, with lookup based on the user name.
 

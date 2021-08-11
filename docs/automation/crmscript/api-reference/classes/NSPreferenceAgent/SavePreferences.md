@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_SavePreferences
 title: Void SavePreferences(NSPreference[] preferences)
 intellisense: NSPreferenceAgent.SavePreferences
 keywords: NSPreferenceAgent, SavePreferences
 so.topic: reference
 ---
+
+# Void SavePreferences(NSPreference[] preferences)
 
 Save this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
 

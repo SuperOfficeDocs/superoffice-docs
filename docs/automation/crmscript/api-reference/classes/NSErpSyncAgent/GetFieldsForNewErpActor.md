@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetFieldsForNewErpActor
 title: NSFieldMetadata[] GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetFieldsForNewErpActor
 keywords: NSErpSyncAgent, GetFieldsForNewErpActor
 so.topic: reference
 ---
+
+# NSFieldMetadata[] GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
 
 Get the fields that must be filled out when creating a new ERP actor
 

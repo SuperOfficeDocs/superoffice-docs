@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_GetSalesFromContact
 title: NSSale[] GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
 intellisense: NSSaleAgent.GetSalesFromContact
 keywords: NSSaleAgent, GetSalesFromContact
 so.topic: reference
 ---
+
+# NSSale[] GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
 
 Returns all sales for the contact provided.
 

@@ -7,6 +7,5 @@ keywords: GetSortOrder()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetSortOrder()
 

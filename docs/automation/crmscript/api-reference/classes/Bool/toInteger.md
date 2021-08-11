@@ -7,7 +7,7 @@ keywords: toInteger()
 so.topic: reference
 ---
 
+# Bool.toInteger()
 
 Returns an integer representation of the bool value. False equals 0 and true equals 1.
-
 

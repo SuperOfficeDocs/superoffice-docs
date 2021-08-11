@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReasonStalled_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSReasonStalled.SetTooltip
 keywords: NSReasonStalled, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the ReasonStalled list item.
 

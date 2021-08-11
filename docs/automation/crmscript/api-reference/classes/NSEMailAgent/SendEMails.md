@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_SendEMails
 title: NSEMailEntity[] SendEMails(NSEMailConnectionInfo outgoingConnectionInfo, NSEMailEntity[] emails, NSEMailConnectionInfo sentItemsConnectionInfo)
 intellisense: NSEMailAgent.SendEMails
 keywords: NSEMailAgent, SendEMails
 so.topic: reference
 ---
+
+# NSEMailEntity[] SendEMails(NSEMailConnectionInfo outgoingConnectionInfo, NSEMailEntity[] emails, NSEMailConnectionInfo sentItemsConnectionInfo)
 
 Send the provided e-mails
 

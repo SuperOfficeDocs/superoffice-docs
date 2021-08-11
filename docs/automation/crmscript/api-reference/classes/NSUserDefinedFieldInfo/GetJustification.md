@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_GetJustification
 title: UdefJustification GetJustification()
 intellisense: NSUserDefinedFieldInfo.GetJustification
 keywords: NSUserDefinedFieldInfo, GetJustification
 so.topic: reference
 ---
+
+# UdefJustification GetJustification()
 
 Justification - 0 = default, left, right, center
 
@@ -19,5 +21,4 @@ Justification - 0 = default, left, right, center
 NSUserDefinedFieldInfo thing;
 UdefJustification justification  = thing.GetJustification();
 ```
-
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nscontactentity_setaddress
 title: SetAddress()
 description: CRMScript method in the NSContactEntity class that sets a contact's address

@@ -7,12 +7,11 @@ keywords: post(String)
 so.topic: reference
 ---
 
+# HTTP.post(String p_0)
+
 Supports both http and https. Returns the result in a byte array.
 
-
-
 ## Example
-
 
     HTTP h;
     
@@ -25,5 +24,4 @@ Supports both http and https. Returns the result in a byte array.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

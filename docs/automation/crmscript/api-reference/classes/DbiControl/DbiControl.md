@@ -6,5 +6,6 @@ sortOrder: 251
 so.topic: reference
 ---
 
+# DbiControl
 
 This class is used for communicating with DBI agents - to share data with external systems.

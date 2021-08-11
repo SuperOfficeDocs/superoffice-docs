@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonEntity_SetCustomFields
 title: SetCustomFields(Map udefs)
 intellisense: NSPersonEntity.SetCustomFields
 keywords: NSPersonEntity, SetCustomFields
 so.topic: reference
 ---
+
+# SetCustomFields(Map udefs)
 
 Set the user-defined and extra fields on a NSPersonEntity with a map.
 

@@ -7,12 +7,13 @@ keywords: getFieldName()
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getFieldName()
+
 This function returns the field name of the current field.
 
 ## Example
 
 This code prints all field names of extra fields:
-
 
     ExtraFieldsInfo e;
     
@@ -22,5 +23,4 @@ This code prints all field names of extra fields:
       print(e.getFieldName());
       e.next();
     }
-
 

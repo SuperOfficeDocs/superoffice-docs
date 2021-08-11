@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_SetSeen
 title: Void SetSeen(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.SetSeen
 keywords: NSAppointmentAgent, SetSeen
 so.topic: reference
 ---
+
+# Void SetSeen(Integer appointmentId, Integer updateMode)
 
 Sets an appointment invitiation to seen.
 

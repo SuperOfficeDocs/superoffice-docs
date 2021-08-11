@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_SetNumMessages
 title: SetNumMessages(Integer numMessages)
 intellisense: NSTicketEntity.SetNumMessages
 keywords: NSTicketEntity, GetNumMessages
 so.topic: reference
 ---
+
+# SetNumMessages(Integer numMessages)
 
 The total number of messages for this request.
 

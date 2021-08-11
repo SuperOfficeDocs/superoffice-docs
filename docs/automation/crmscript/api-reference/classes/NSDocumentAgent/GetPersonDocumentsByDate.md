@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByDate
 title: NSDocument[] GetPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetPersonDocumentsByDate
 keywords: NSDocumentAgent, GetPersonDocumentsByDate
 so.topic: reference
 ---
+
+# NSDocument[] GetPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 
 Method that returns a specified number of document appointments within a time range. The document appointments belong to the person specified. 
 

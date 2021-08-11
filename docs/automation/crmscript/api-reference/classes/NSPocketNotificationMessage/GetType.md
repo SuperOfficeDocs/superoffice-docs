@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketNotificationMessage_GetType
 title: Integer GetType()
 intellisense: NSPocketNotificationMessage.GetType
 keywords: NSPocketNotificationMessage, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The type of notification this is
 
@@ -20,5 +22,4 @@ The type of notification this is
 NSPocketNotificationMessage thing;
 Integer type  = thing.GetType();
 ```
-
 

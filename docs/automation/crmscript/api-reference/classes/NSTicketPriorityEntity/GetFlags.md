@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_GetFlags
 title: Integer GetFlags()
 intellisense: NSTicketPriorityEntity.GetFlags
 keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference
 ---
+
+# Integer GetFlags()
 
 A bitmask of flags.
 
@@ -19,5 +21,4 @@ A bitmask of flags.
 NSTicketPriorityEntity thing;
 Integer flags  = thing.GetFlags();
 ```
-
 

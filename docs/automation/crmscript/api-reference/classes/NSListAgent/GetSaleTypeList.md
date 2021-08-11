@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetSaleTypeList
 title: NSSaleType[] GetSaleTypeList(Integer[]  saleTypeIds);
 intellisense: NSListAgent.GetSaleTypeList
 keywords: NSListAgent, GetSaleTypeList
 so.topic: reference
 ---
+
+# NSSaleType[] GetSaleTypeList(Integer[]  saleTypeIds);
 
 Gets a vector of NSSaleType objects.
 

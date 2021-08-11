@@ -7,11 +7,9 @@ keywords: GetArrayOfDoubles()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetArrayOfDoubles()
 
 Gets some doubles
 
-
-
 * **Returns:** Some doubles
-
 

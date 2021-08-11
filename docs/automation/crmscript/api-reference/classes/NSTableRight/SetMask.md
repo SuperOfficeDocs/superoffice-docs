@@ -6,6 +6,5 @@ keywords: SetMask(Integer)
 so.topic: reference
 ---
 
-
-
+# NSTableRight.SetMask(Integer p_0)
 

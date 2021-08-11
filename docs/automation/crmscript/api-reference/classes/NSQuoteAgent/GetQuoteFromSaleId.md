@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteFromSaleId
 title: NSQuote GetQuoteFromSaleId(Integer saleId)
 intellisense: NSQuoteAgent.GetQuoteFromSaleId
 keywords: NSQuoteAgent, GetQuoteFromSaleId
 so.topic: reference
 ---
+
+# NSQuote GetQuoteFromSaleId(Integer saleId)
 
 Get a NSQuote for a sale
 

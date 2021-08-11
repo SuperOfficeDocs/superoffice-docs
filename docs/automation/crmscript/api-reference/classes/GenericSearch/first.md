@@ -7,9 +7,9 @@ keywords: first()
 so.topic: reference
 ---
 
+# GenericSearch.first()
+
 Set the resultpointer to point at the first row in the resultset
 
-
 * **Returns:** false if the resultset is empty, else true
-
 

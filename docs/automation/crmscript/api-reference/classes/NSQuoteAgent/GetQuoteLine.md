@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteLine
 title: NSQuoteLine GetQuoteLine(Integer quoteLineId)
 intellisense: NSQuoteAgent.GetQuoteLine
 keywords: NSQuoteAgent, GetQuoteLine
 so.topic: reference
 ---
+
+# NSQuoteLine GetQuoteLine(Integer quoteLineId)
 
 Get QuoteLine from database
 

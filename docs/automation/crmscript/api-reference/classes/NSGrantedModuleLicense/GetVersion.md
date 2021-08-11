@@ -7,6 +7,5 @@ keywords: GetVersion()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetVersion()
 

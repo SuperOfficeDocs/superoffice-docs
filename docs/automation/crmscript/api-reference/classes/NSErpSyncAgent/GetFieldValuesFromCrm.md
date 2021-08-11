@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetFieldValuesFromCrm
 title: NSErpSyncFieldValue[] GetFieldValuesFromCrm(Integer recordId, Integer actorTypeCrm)
 intellisense: NSErpSyncAgent.GetFieldValuesFromCrm
 keywords: NSErpSyncAgent, GetFieldValuesFromCrm
 so.topic: reference
 ---
+
+# NSErpSyncFieldValue[] GetFieldValuesFromCrm(Integer recordId, Integer actorTypeCrm)
 
 Get Crm Field values
 

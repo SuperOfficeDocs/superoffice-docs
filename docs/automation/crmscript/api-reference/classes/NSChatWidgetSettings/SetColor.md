@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_SetColor
 title: SetColor(String color)
 intellisense: NSChatWidgetSettings.SetColor
 keywords: NSChatWidgetSettings, GetColor
 so.topic: reference
 ---
+
+# SetColor(String color)
 
 The base color of the widget
 

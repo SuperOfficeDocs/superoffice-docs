@@ -6,7 +6,7 @@ keywords: GetCompanyCode()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetCompanyCode()
 
 Contains new value for the company code.
-
 

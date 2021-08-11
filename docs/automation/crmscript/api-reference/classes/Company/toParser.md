@@ -7,17 +7,13 @@ keywords: toParser(Parser)
 so.topic: reference
 ---
 
+# Company.toParser(Parser parser)
+
 This function puts a lot of fields into the input parser.
-
-
 
 ## Parameters
 
-
  - Parser parser: The parser to put the field-value-pairs to.
-
-
-
 
 ## Fields that will be loaded
 
@@ -32,5 +28,4 @@ This function puts a lot of fields into the input parser.
  - company.primaryContact.id: The id of the customer that is this company's primary contact
  - company.primaryContact.email: The email address of the customer that is this company's primary contact
  - company.extraFieldName: The name of the extrafield, (not x\_fieldname)
-
 

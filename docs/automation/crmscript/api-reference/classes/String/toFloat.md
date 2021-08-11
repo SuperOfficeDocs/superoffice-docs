@@ -6,20 +6,14 @@ keywords: toFloat()
 so.topic: reference
 ---
 
+# String.toFloat()
 
 Returns a float from a string representation of a number.
 
-
-
 * **Returns:** The float value of a string.
-
-
-
-
 
 ## Example
     
     String s = "150,3";
     s.toFloat();
-
 

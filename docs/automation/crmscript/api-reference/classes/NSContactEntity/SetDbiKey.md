@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactEntity_SetDbiKey
 title: SetDbiKey(String dbiKey)
 intellisense: NSContactEntity.SetDbiKey
 keywords: NSContactEntity, GetDbiKey
 so.topic: reference
 ---
+
+# SetDbiKey(String dbiKey)
 
 The primary key for the integrated entry in the external datasource.
 

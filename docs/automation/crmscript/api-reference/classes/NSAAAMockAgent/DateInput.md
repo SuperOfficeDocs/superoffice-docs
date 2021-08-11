@@ -7,12 +7,10 @@ keywords: DateInput(DateTime)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.DateInput(DateTime p_0)
 
 Test date input
 
-
-
 * **dateArgument:** Some date argument
 * **Returns:** A void return
-
 

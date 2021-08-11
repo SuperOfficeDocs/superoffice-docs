@@ -7,6 +7,7 @@ keywords: setStateValue(String,String)
 so.topic: reference
 ---
 
-This method sets a state value that can be accessed later, also by other EventData objects in the same script (i.e. custom value).
+# EventData.setStateValue(String stateName, String val)
 
+This method sets a state value that can be accessed later, also by other EventData objects in the same script (i.e. custom value).
 

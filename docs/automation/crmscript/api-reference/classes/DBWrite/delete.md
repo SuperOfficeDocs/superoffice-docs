@@ -7,7 +7,7 @@ keywords: delete()
 so.topic: reference
 ---
 
+# DBWrite.delete()
 
 Delete the specified row in the specified table.
-
 

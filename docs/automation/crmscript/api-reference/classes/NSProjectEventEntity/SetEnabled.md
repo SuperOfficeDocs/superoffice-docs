@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEventEntity_SetEnabled
 title: SetEnabled(Bool enabled)
 intellisense: NSProjectEventEntity.SetEnabled
 keywords: NSProjectEventEntity, GetEnabled
 so.topic: reference
 ---
+
+# SetEnabled(Bool enabled)
 
 Is the event enabled
 

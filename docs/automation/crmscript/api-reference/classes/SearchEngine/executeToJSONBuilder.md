@@ -6,15 +6,13 @@ keywords: executeToJSONBuilder(JSONBuilder,String,String)
 so.topic: reference
 ---
 
+# SearchEngine.executeToJSONBuilder(JSONBuilder jb, String fields, String arrayName)
 
 Execute the SearchEngine to a JSONBuilder.
-
 
 The fields string can contain a comma-separated list of label:fieldType elements, allowing you to better control the resulting json. The label is the name the field gets in the json object. The fieldType can be "Integer", "Float", "Bool", or "String" (default). The json object member will be formatted accordingly, e.g. a Bool will be "true" or "false", while Integer/Float will become unquoted numbers.
 
 The arrayName will become the name of the array in the JSONBuilder. This is useful if you want this query to populate an array in a JSONBuilder already containing other stuff.
-
-
 
 ## Example
 
@@ -28,5 +26,4 @@ The arrayName will become the name of the array in the JSONBuilder. This is usef
     se.executeToJSONBuilder(jb, "id:Integer,heading:String,amount:Float", "sales");
     jb.popLevel();
     printLine(jb.getString());
-
 

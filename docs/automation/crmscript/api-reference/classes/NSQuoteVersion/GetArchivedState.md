@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersion_GetArchivedState
 title: Integer GetArchivedState()
 intellisense: NSQuoteVersion.GetArchivedState
 keywords: NSQuoteVersion, GetArchivedState
 so.topic: reference
 ---
+
+# Integer GetArchivedState()
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
 
@@ -25,5 +27,4 @@ State that this quote version had, right before it was changed to Archived; in t
 NSQuoteVersion thing;
 Integer archivedState  = thing.GetArchivedState();
 ```
-
 

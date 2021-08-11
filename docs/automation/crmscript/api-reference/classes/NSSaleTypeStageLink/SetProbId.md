@@ -6,6 +6,5 @@ keywords: SetProbId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetProbId(Integer p_0)
 

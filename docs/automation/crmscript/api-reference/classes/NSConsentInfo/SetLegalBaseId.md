@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConsentInfo_SetLegalBaseId
 title: SetLegalBaseId(Integer legalBaseId)
 intellisense: NSConsentInfo.SetLegalBaseId
 keywords: NSConsentInfo, GetLegalBaseId
 so.topic: reference
 ---
+
+# SetLegalBaseId(Integer legalBaseId)
 
 Primary key for the NSLegalBase associated with this consent
 

@@ -7,6 +7,7 @@ keywords: moveToHourEnd()
 so.topic: reference
 ---
 
-Moves the datetime to the end of the current hour. Returns a reference to itself.
+# DateTime.moveToHourEnd()
 
+Moves the datetime to the end of the current hour. Returns a reference to itself.
 

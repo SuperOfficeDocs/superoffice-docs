@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetKey
 title: NSForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKey
 keywords: NSForeignSystemAgent, GetKey
 so.topic: reference
 ---
+
+# NSForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 
 Returning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.
 

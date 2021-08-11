@@ -6,12 +6,11 @@ sortOrder: 155
 so.topic: reference
 ---
 
+# Company
+
 Class for representing a company
 
-
-
 ## Example
-
 
     Company c;
     

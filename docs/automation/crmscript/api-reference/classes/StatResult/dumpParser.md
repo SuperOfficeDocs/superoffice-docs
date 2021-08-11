@@ -6,10 +6,9 @@ keywords: dumpParser()
 so.topic: reference
 ---
 
+# StatResult.dumpParser()
 
 * **Returns:** A string with everything in the StatResult parser listed.
 
-
 Mainly used for debugging and development, useful as it will show you every variable in the StatResult parser.
-
 

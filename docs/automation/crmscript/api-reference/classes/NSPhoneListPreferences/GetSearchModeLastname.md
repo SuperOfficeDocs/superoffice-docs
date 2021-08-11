@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeLastname
 title: Integer GetSearchModeLastname()
 intellisense: NSPhoneListPreferences.GetSearchModeLastname
 keywords: NSPhoneListPreferences, GetSearchModeLastname
 so.topic: reference
 ---
+
+# Integer GetSearchModeLastname()
 
 The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches
 
@@ -19,5 +21,4 @@ The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches
 NSPhoneListPreferences thing;
 Integer searchModeLastname  = thing.GetSearchModeLastname();
 ```
-
 

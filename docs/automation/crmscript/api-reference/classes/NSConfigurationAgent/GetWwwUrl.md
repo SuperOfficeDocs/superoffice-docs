@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetWwwUrl
 title: String GetWwwUrl(String client)
 intellisense: NSConfigurationAgent.GetWwwUrl
 keywords: NSConfigurationAgent, GetWwwUrl
 so.topic: reference
 ---
+
+# String GetWwwUrl(String client)
 
 Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.
 

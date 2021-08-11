@@ -5,3 +5,5 @@ intellisense: Void.NSCarrier
 sortOrder: 1484
 so.topic: reference
 ---
+
+# NSCarrier

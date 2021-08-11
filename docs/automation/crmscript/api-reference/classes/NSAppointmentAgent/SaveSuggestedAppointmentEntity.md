@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_SaveSuggestedAppointmentEntity
 title: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity);
 intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
 keywords: NSAppointmentAgent, SaveSuggestedAppointmentEntity
 so.topic: reference
 ---
+
+# NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity);
 	  
 Updates the existing NSSuggestedAppointmentEntity or creates a new NSSuggestedAppointmentEntity if the id parameter is 0
 	  

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplate_GetRecordType
 title: NSDocTmplType GetRecordType()
 intellisense: NSDocumentTemplate.GetRecordType
 keywords: NSDocumentTemplate, GetRecordType
 so.topic: reference
 ---
+
+# NSDocTmplType GetRecordType()
 
 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 
@@ -25,5 +27,4 @@ so.topic: reference
 NSDocumentTemplate thing;
 NSDocTmplType recordType  = thing.GetRecordType();
 ```
-
 

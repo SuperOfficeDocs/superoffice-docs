@@ -6,10 +6,9 @@ keywords: ReadStreamPart(String,String,String,String,Integer)
 so.topic: reference
 ---
 
+# NSTrayAppAgent.ReadStreamPart(String p_0, String p_1, String p_2, String p_3, Integer p_4)
 
 Read and return a part of a stream.
-
-
 
 * **streamId:** Unique identifier of the stream.
 * **communicationModuleName:** Module name of the client communication module that initiated the request. This is sent to make sure the correct version of the communication server module is loaded.
@@ -17,5 +16,4 @@ Read and return a part of a stream.
 * **communicationModuleData:** Serialized data from the communiction client module that initiated this operation.
 * **offset:** The position in the file to start reading.
 * **Returns:** Returns a StreamData object serialized to a string.
-
 

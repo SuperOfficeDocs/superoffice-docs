@@ -6,11 +6,9 @@ keywords: setName(String)
 so.topic: reference
 ---
 
+# StatLib.setName(String name)
 
 Sets the name for the instance. The name is used to prefix the result in the Parser.
 
-
-
 * **name:** The name for the instance.
-
 

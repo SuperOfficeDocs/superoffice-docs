@@ -7,6 +7,7 @@ keywords: moveToYearStart()
 so.topic: reference
 ---
 
-This method will move the current DateTime to the first second in the current year. Returns a reference to itself.
+# DateTime.moveToYearStart()
 
+This method will move the current DateTime to the first second in the current year. Returns a reference to itself.
 

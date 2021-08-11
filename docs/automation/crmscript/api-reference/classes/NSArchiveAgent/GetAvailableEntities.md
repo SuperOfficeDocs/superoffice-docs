@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetAvailableEntities
 title: NSMDOListItem[] GetAvailableEntities(String providerName, String context)
 intellisense: NSArchiveAgent.GetAvailableEntities
 keywords: NSArchiveAgent, GetAvailableEntities
 so.topic: reference
 ---
+
+# NSMDOListItem[] GetAvailableEntities(String providerName, String context)
 
 Return list of all entities supported by an archive provider. See also GetArchiveConfiguration.
 

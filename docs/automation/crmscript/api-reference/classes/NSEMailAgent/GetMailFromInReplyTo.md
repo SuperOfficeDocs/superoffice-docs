@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetMailFromInReplyTo
 title: NSEMailEntity GetMailFromInReplyTo(String messageId)
 intellisense: NSEMailAgent.GetMailFromInReplyTo
 keywords: NSEMailAgent, GetMailFromInReplyTo
 so.topic: reference
 ---
+
+# NSEMailEntity GetMailFromInReplyTo(String messageId)
 
 Get email from db based on In-Reply-To Message Id
 

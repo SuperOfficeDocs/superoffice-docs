@@ -6,6 +6,5 @@ keywords: GetCycle()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceDayPattern.GetCycle()
 

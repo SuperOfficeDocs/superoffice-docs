@@ -7,7 +7,7 @@ keywords: SetAlldayEvent(Integer)
 so.topic: reference
 ---
 
+# NSAppointment.SetAlldayEvent(Integer p_0)
 
 Is this an all day event: 0 = No, 1 = Yes
-
 

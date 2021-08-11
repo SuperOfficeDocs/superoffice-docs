@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSVisibleFor_GetVisibility
 title: Integer GetVisibility()
 intellisense: NSVisibleFor.GetVisibility
@@ -6,7 +6,7 @@ keywords: NSVisibleFor, GetVisibility
 so.topic: reference
 ---
 
-
+# Integer GetVisibility()
 
 **Returns:** Integer
 
@@ -18,5 +18,4 @@ so.topic: reference
 NSVisibleFor thing;
 Integer visibility  = thing.GetVisibility();
 ```
-
 

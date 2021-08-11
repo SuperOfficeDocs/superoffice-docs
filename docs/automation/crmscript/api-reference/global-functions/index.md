@@ -1,7 +1,8 @@
 ---
+title: Global functions
 description: Global functions
+so.topic: reference
 ---
-
 
 # Global functions
 

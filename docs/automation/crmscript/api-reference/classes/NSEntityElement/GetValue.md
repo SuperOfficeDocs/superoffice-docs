@@ -7,6 +7,5 @@ keywords: GetValue()
 so.topic: reference
 ---
 
-
-
+# NSEntityElement.GetValue()
 

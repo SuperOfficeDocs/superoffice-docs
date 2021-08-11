@@ -6,7 +6,7 @@ keywords: GetNoAddresses()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetNoAddresses()
 
 Number of members with an invalid address.
-
 

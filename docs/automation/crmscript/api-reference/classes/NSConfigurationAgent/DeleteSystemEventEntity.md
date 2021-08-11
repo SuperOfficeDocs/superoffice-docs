@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_DeleteSystemEventEntity
 title: DeleteSystemEventEntity(Integer systemEventEntity);
 intellisense: NSConfigurationAgent.DeleteSystemEventEntity
 keywords: NSConfigurationAgent, DeleteSystemEventEntity
 so.topic: reference
 ---
+
+# DeleteSystemEventEntity(Integer systemEventEntity);
 
 Deletes the NSSystemEventEntity
   

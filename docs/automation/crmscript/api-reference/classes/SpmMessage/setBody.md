@@ -6,11 +6,9 @@ keywords: setBody(String)
 so.topic: reference
 ---
 
+# SpmMessage.setBody(String body)
 
 Set the body version of the SpmMessage object (will correspond to the text/plain version in the outgoing email).
 
-
-
 * **body:** The plain text version of the body
-
 

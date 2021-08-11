@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleStakeholder_SetPersonId
 title: SetPersonId(Integer personId)
 intellisense: NSSaleStakeholder.SetPersonId
 keywords: NSSaleStakeholder, GetPersonId
 so.topic: reference
 ---
+
+# SetPersonId(Integer personId)
 
 Person id - Primary key
 

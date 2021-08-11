@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_UploadAttachment
 title: Void UploadAttachment(Integer attachmentId, NSStream content)
 intellisense: NSTicketAgent.UploadAttachment
 keywords: NSTicketAgent, UploadAttachment
 so.topic: reference
 ---
+
+# Void UploadAttachment(Integer attachmentId, NSStream content)
 
 Upload an attachment and return the attachment id
 

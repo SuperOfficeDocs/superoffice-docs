@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetCustomFields
 title: SetCustomFields(Map udefs)
 intellisense: NSDocumentEntity.SetCustomFields
 keywords: NSDocumentEntity, SetCustomFields
 so.topic: reference
 ---
+
+# SetCustomFields(Map udefs)
 
 Set the user-defined and extra fields on a NSDocumentEntity with a map.
 

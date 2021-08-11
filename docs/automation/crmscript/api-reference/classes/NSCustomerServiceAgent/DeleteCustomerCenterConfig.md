@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_DeleteCustomerCenterConfig
 title: DeleteCustomerCenterConfig(Integer customerCenterConfig);
 intellisense: NSCustomerServiceAgent.DeleteCustomerCenterConfig
 keywords: NSCustomerServiceAgent, DeleteCustomerCenterConfig
 so.topic: reference
 ---
+
+# DeleteCustomerCenterConfig(Integer customerCenterConfig);
 
 Deletes the NSCustomerCenterConfig
   

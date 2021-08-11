@@ -7,6 +7,8 @@ keywords: getValue(String)
 so.topic: reference
 ---
 
+# Customer.getValue(String colName)
+
 Returns the value of the given field of the customer.
 
 ## Available fields
@@ -35,11 +37,7 @@ Returns the value of the given field of the customer.
  - x_*: The extrafield with the given database field name.
 [extra field] The extrafield with the given name (e.g. "Country").
 
-
-
-
 ## Example
-
 
     Customer c;
     
@@ -49,5 +47,4 @@ Returns the value of the given field of the customer.
     
     c.setValue("name", "Test");
     print(c.getValue("name"));
-
 

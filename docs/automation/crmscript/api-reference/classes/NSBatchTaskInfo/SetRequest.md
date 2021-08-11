@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_SetRequest
 title: SetRequest(String request)
 intellisense: NSBatchTaskInfo.SetRequest
 keywords: NSBatchTaskInfo, GetRequest
 so.topic: reference
 ---
+
+# SetRequest(String request)
 
 Maps to the request field in the batchtask table.
 

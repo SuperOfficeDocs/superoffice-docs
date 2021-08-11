@@ -5,5 +5,6 @@ intellisense: Void.XMLNode
 so.topic: reference
 ---
 
+# XMLNode
 
 This class represents a XML DOM structure.

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CopySuperOfficePriceList
 title: NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
 intellisense: NSQuoteAgent.CopySuperOfficePriceList
 keywords: NSQuoteAgent, CopySuperOfficePriceList
 so.topic: reference
 ---
+
+# NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
 
 Create a copy of a PriceList in the SuperOffice database
 

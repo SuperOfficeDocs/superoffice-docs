@@ -7,6 +7,7 @@ keywords: SetSoPrimaryKey(Integer)
 so.topic: reference
 ---
 
-Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems.
+# NSDuplicateEntry.SetSoPrimaryKey(Integer p_0)
 
+Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems.
 

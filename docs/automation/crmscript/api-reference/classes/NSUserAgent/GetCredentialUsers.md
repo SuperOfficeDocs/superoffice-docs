@@ -6,12 +6,10 @@ keywords: GetCredentialUsers(String,String)
 so.topic: reference
 ---
 
+# NSUserAgent.GetCredentialUsers(String p_0, String p_1)
 
 Get credential users within a user group
 
-
-
 * **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
 * **groupName:** Name of user group needed to discover the users.
-
 

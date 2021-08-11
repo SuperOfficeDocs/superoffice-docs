@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncFieldMapping_SetListReference
 title: SetListReference(String listReference)
 intellisense: NSErpSyncFieldMapping.SetListReference
 keywords: NSErpSyncFieldMapping, GetListReference
 so.topic: reference
 ---
+
+# SetListReference(String listReference)
 
 Field is read-only, for lookup in gui
 

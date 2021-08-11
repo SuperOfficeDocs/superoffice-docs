@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSNumberAllocationAgent
 title: NSNumberAllocationAgent
 intellisense: Void.NSNumberAllocationAgent
 keywords: NSNumberAllocationAgent
 so.topic: reference
 ---
+
+# NSNumberAllocationAgent
 
 This agent can be used to manage number allocation
 

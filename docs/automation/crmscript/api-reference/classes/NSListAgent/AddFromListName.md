@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_AddFromListName
 title: NSListItemEntity AddFromListName(String udListDefinitionName, NSListItemEntity item)
 intellisense: NSListAgent.AddFromListName
 keywords: NSListAgent, AddFromListName
 so.topic: reference
 ---
+
+# NSListItemEntity AddFromListName(String udListDefinitionName, NSListItemEntity item)
 
 Save a new list item for the specified list defintion
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetPositionList
 title: NSPosition[] GetPositionList(Integer[]  positionIds);
 intellisense: NSListAgent.GetPositionList
 keywords: NSListAgent, GetPositionList
 so.topic: reference
 ---
+
+# NSPosition[] GetPositionList(Integer[]  positionIds);
 
 Gets a vector of NSPosition objects.
 

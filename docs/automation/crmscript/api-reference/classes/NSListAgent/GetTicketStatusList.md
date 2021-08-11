@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetTicketStatusList
 title: NSTicketStatusEntity[] GetTicketStatusList(Integer[]  ticketStatusEntityIds);
 intellisense: NSListAgent.GetTicketStatusList
 keywords: NSListAgent, GetTicketStatusList
 so.topic: reference
 ---
+
+# NSTicketStatusEntity[] GetTicketStatusList(Integer[]  ticketStatusEntityIds);
 
 Gets a vector of NSTicketStatusEntity objects.
 

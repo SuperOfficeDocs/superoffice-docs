@@ -6,12 +6,11 @@ sortOrder: 430
 so.topic: reference
 ---
 
+# InvoiceEntry
+
 This class represent invoice entries. You will be able to create new or modify existing invoice entries with this class.
 
-
-
 ## Example
-
 
     InvoiceEntry i;
     

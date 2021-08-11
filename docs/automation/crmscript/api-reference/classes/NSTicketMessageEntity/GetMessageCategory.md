@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketMessageEntity_GetMessageCategory
 title: TicketMessageCategory GetMessageCategory()
 intellisense: NSTicketMessageEntity.GetMessageCategory
 keywords: NSTicketMessageEntity, GetMessageCategory
 so.topic: reference
 ---
+
+# TicketMessageCategory GetMessageCategory()
 
 Defines what kind of message this is.
 
@@ -18,5 +20,4 @@ Defines what kind of message this is.
 NSTicketMessageEntity thing;
 TicketMessageCategory messageCategory  = thing.GetMessageCategory();
 ```
-
 

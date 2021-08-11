@@ -7,11 +7,9 @@ keywords: GetArrayOfStrings()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetArrayOfStrings()
 
 Gets some strings
 
-
-
 * **Returns:** Some strings
-
 

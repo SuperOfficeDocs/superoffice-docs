@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_CreateTicketFromMailData
 title: NSTicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
 intellisense: NSCustomerServiceAgent.CreateTicketFromMailData
 keywords: NSCustomerServiceAgent, CreateTicketFromMailData
 so.topic: reference
 ---
+
+# NSTicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
 
 This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data
 

@@ -5,12 +5,11 @@ intellisense: Void.ReplyTemplate
 so.topic: reference
 ---
 
+# ReplyTemplate
+
 This class represents a reply template.
 
-
-
 ## Example
-
 
     ReplyTemplate rt;
     

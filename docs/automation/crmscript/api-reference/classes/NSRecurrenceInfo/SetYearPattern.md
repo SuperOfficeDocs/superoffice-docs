@@ -6,6 +6,5 @@ keywords: SetYearPattern(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetYearPattern(Integer p_0)
 

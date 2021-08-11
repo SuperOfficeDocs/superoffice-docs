@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_CreateDefaultSaleStakeholder
 title: NSSaleStakeholder CreateDefaultSaleStakeholder()
 intellisense: NSSaleAgent.CreateDefaultSaleStakeholder
 keywords: NSSaleAgent, CreateDefaultSaleStakeholder
 so.topic: reference
 ---
+
+# NSSaleStakeholder CreateDefaultSaleStakeholder()
 	  
 Set default values into a new NSSaleStakeholder.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

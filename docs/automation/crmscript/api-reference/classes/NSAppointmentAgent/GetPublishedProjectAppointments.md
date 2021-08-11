@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments
 title: NSAppointment[] GetPublishedProjectAppointments(Integer projectId)
 intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
 keywords: NSAppointmentAgent, GetPublishedProjectAppointments
 so.topic: reference
 ---
+
+# NSAppointment[] GetPublishedProjectAppointments(Integer projectId)
 
 Get published appointments by project id.
 

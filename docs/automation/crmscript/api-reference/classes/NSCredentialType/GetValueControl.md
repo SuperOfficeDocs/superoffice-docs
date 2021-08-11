@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCredentialType_GetValueControl
 title: Integer GetValueControl()
 intellisense: NSCredentialType.GetValueControl
 keywords: NSCredentialType, GetValueControl
 so.topic: reference
 ---
+
+# Integer GetValueControl()
 
 Type of control used to display the value.
 
@@ -20,5 +22,4 @@ Type of control used to display the value.
 NSCredentialType thing;
 Integer valueControl  = thing.GetValueControl();
 ```
-
 

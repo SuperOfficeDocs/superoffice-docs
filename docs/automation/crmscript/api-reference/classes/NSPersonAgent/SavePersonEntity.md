@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nspersonagent_savepersonentity
 title: NSPersonEntity SavePersonEntity()
 description: CRMScript method in the Attachment class that creates or updates an NSPersonEntity

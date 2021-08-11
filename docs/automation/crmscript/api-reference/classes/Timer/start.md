@@ -6,6 +6,7 @@ keywords: start()
 so.topic: reference
 ---
 
-This function will start the timer.
+# Timer.start()
 
+This function will start the timer.
 

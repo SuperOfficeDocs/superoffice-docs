@@ -7,14 +7,13 @@ keywords: makeSalutation()
 so.topic: reference
 ---
 
+# Customer.makeSalutation()
+
 Create a salutation greeting the customer. Can be used in the beginning of a document or email.
 
 Returns salutation string.
 
-
-
 ## Example
-
 
     Customer c;
     
@@ -26,5 +25,4 @@ Returns salutation string.
     c.setValue("salutation", "Welcome to SuperOffice");
     
     c.makeSalutation();
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactActivity_SetAssociateFullName
 title: SetAssociateFullName(String associateFullName)
 intellisense: NSContactActivity.SetAssociateFullName
 keywords: NSContactActivity, GetAssociateFullName
 so.topic: reference
 ---
+
+# SetAssociateFullName(String associateFullName)
 
 The contact's owner
 

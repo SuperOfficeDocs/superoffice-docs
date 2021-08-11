@@ -7,11 +7,9 @@ keywords: addTable(String)
 so.topic: reference
 ---
 
+# DBWrite.addTable(String tableName)
 
 Adds a table to be written to. Can only be one.
 
-
-
 * **tableName:** The name of the table, e.g. "ticket".
-
 

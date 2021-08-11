@@ -6,11 +6,9 @@ keywords: isUpper()
 so.topic: reference
 ---
 
+# String.isUpper()
 
 Determine if the string contains only uppercase characters.
 
-
-
 * **Returns:** Return true if the string only contains uppercase characters.
-
 

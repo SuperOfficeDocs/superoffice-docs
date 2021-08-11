@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_Merge
 title: Void Merge(Integer sourceProjectId, Integer destinationProjectId, Bool replaceEmptyFieldsOnDestination)
 intellisense: NSProjectAgent.Merge
 keywords: NSProjectAgent, Merge
 so.topic: reference
 ---
+
+# Void Merge(Integer sourceProjectId, Integer destinationProjectId, Bool replaceEmptyFieldsOnDestination)
 
 Merge two projects into one, removing the source project in the process
 

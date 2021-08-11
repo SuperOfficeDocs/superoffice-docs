@@ -7,6 +7,5 @@ keywords: GetFieldType()
 so.topic: reference
 ---
 
-
-
+# NSFieldProperty.GetFieldType()
 

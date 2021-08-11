@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCurrency_SetId
 title: SetId(Integer id)
 intellisense: NSCurrency.SetId
 keywords: NSCurrency, SetId
 so.topic: reference
 ---
+
+# SetId(Integer id)
 
 Set the primary key (id) for the NSCurrency
 

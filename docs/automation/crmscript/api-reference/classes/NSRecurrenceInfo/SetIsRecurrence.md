@@ -6,6 +6,5 @@ keywords: SetIsRecurrence(Bool)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetIsRecurrence(Bool p_0)
 

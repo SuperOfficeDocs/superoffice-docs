@@ -7,9 +7,9 @@ keywords: getFormattedAddress()
 so.topic: reference
 ---
 
+# Company.getFormattedAddress()
+
 Gets the formatted company address.
 
-
     Returns an NSLocalizedField[][] Address.
-
 

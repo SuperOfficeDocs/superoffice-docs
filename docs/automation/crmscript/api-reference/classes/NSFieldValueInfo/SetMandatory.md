@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldValueInfo_SetMandatory
 title: SetMandatory(Bool mandatory)
 intellisense: NSFieldValueInfo.SetMandatory
 keywords: NSFieldValueInfo, GetMandatory
 so.topic: reference
 ---
+
+# SetMandatory(Bool mandatory)
 
 True if this is a mandatory field
 

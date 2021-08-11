@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatTopicEntity_SetLastAccept
 title: SetLastAccept(DateTime lastAccept)
 intellisense: NSChatTopicEntity.SetLastAccept
 keywords: NSChatTopicEntity, GetLastAccept
 so.topic: reference
 ---
+
+# SetLastAccept(DateTime lastAccept)
 
 The last time a session was accepted from the inside for this topic.
 

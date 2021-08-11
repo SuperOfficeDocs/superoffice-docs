@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetConsentSources
 title: NSConsentSource[] GetConsentSources()
 intellisense: NSListAgent.GetConsentSources
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetConsentSources
 so.topic: reference
 ---
 
-Returns all defined Sources.
+# NSConsentSource[] GetConsentSources()
 
+Returns all defined Sources.
 
 **Returns:** NSConsentSource[]
 

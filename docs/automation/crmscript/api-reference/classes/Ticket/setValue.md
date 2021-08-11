@@ -6,15 +6,12 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Ticket.setValue(String colName, String value)
 
 Sets column colName to the given value.
 Obs: For this to actually affect the ticket, you will have to use the function `save()` after you have set all the values you want.
 
-
-
-
 ## Parameters
-
 
  - colName
  - value: A String representation of the value to set
@@ -47,5 +44,4 @@ Possible values are the extrafields on the ticket and the following:
  - dbiKey
  - dbiLastModified
  - dbiLastSyncronized
-
 

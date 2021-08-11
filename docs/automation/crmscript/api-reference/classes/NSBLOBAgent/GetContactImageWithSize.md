@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetContactImageWithSize
 title: NSImage GetContactImageWithSize(Integer contactId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetContactImageWithSize
 keywords: NSBLOBAgent, GetContactImageWithSize
 so.topic: reference
 ---
+
+# NSImage GetContactImageWithSize(Integer contactId, Integer width, Integer height)
 
 Returns the contact image that is displayed in the CRM application with a specified maximum size.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveAllFromListDefinition
 title: NSListItemEntity[] SaveAllFromListDefinition(Integer udListDefinitionId, NSListItemEntity[] items)
 intellisense: NSListAgent.SaveAllFromListDefinition
 keywords: NSListAgent, SaveAllFromListDefinition
 so.topic: reference
 ---
+
+# NSListItemEntity[] SaveAllFromListDefinition(Integer udListDefinitionId, NSListItemEntity[] items)
 
 Save all list items for the specified list defintion
 

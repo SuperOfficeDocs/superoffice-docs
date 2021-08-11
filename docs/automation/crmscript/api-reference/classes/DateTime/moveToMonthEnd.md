@@ -7,6 +7,7 @@ keywords: moveToMonthEnd()
 so.topic: reference
 ---
 
-This method will move the current DateTime to the last second of the current month. Returns a reference to itself.
+# DateTime.moveToMonthEnd()
 
+This method will move the current DateTime to the last second of the current month. Returns a reference to itself.
 

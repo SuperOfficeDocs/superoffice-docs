@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebhook_SetRegistered
 title: SetRegistered(DateTime registered)
 intellisense: NSWebhook.SetRegistered
 keywords: NSWebhook, GetRegistered
 so.topic: reference
 ---
+
+# SetRegistered(DateTime registered)
 
 Registered when
 

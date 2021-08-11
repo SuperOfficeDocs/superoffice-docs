@@ -7,6 +7,8 @@ keywords: ArrayBoolInput(Boolean[])
 so.topic: reference
 ---
 
+# NSAAAMockAgent.ArrayBoolInput(Bool[] p_0)
+
 Test bool array input
 
 * **boolArrayArgument:** Some bool array argument

@@ -6,6 +6,5 @@ keywords: GetType()
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.GetType()
 

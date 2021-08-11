@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetCrmActorType
 title: Integer GetCrmActorType(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetCrmActorType
 keywords: NSErpSyncAgent, GetCrmActorType
 so.topic: reference
 ---
+
+# Integer GetCrmActorType(Integer erpConnectionId, Integer erpActorType)
 
 Retrieves the NSCrmActorType that are mapped to a specific ErpActorType for this connection
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetListItemsForHeadingFromListName
 title: Void SetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId, Integer[] listItemIds, Bool enable)
 intellisense: NSListAgent.SetListItemsForHeadingFromListName
 keywords: NSListAgent, SetListItemsForHeadingFromListName
 so.topic: reference
 ---
+
+# Void SetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId, Integer[] listItemIds, Bool enable)
 
 Update listItems under this heading
 

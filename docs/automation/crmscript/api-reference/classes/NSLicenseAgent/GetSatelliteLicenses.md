@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses
 title: NSLicenseOwner[] GetSatelliteLicenses(Integer satelliteId)
 intellisense: NSLicenseAgent.GetSatelliteLicenses
 keywords: NSLicenseAgent, GetSatelliteLicenses
 so.topic: reference
 ---
+
+# NSLicenseOwner[] GetSatelliteLicenses(Integer satelliteId)
 
 Obtain information about satellite module licenses
 

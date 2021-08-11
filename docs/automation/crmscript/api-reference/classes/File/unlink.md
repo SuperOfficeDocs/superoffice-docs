@@ -7,6 +7,7 @@ keywords: unlink()
 so.topic: reference
 ---
 
-This function will delete the file.
+# File.unlink()
 
+This function will delete the file.
 

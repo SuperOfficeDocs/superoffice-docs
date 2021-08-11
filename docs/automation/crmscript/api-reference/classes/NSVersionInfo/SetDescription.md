@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSVersionInfo_SetDescription
 title: SetDescription(String description)
 intellisense: NSVersionInfo.SetDescription
 keywords: NSVersionInfo, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Arbitrary description string
 

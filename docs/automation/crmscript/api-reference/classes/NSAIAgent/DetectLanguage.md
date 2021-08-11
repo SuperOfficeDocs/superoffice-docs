@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAIAgent_DetectLanguage
 title: String DetectLanguage(String text)
 intellisense: NSAIAgent.DetectLanguage
 keywords: NSAIAgent, DetectLanguage
 so.topic: reference
 ---
+
+# String DetectLanguage(String text)
 
 Given a (reasonably short) text, detect the language it is written in
 

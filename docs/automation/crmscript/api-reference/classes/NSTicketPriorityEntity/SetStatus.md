@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetStatus
 title: SetStatus(Integer status)
 intellisense: NSTicketPriorityEntity.SetStatus
 keywords: NSTicketPriorityEntity, GetStatus
 so.topic: reference
 ---
+
+# SetStatus(Integer status)
 
 The status (normal/deleted) of the priority.
 

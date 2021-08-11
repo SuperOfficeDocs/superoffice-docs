@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseInfo_SetModuleLicenses
 title: SetModuleLicenses(NSModuleLicense[] moduleLicenses)
 intellisense: NSLicenseInfo.SetModuleLicenses
 keywords: NSLicenseInfo, GetModuleLicenses
 so.topic: reference
 ---
+
+# SetModuleLicenses(NSModuleLicense[] moduleLicenses)
 
 The module licenses.
 

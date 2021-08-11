@@ -6,7 +6,7 @@ keywords: GetTooltip()
 so.topic: reference
 ---
 
+# NSLocalizedField.GetTooltip()
 
 The tooltip
-
 

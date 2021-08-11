@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nssaleagent_savesaleentity
 title: NSSaleEntity SaveSaleEntity()
 description: CRMScript method in the NSSaleAgent class that creates or updates an NSSaleEntity

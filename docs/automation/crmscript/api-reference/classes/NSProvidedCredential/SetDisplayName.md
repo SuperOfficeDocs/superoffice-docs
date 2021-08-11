@@ -6,6 +6,5 @@ keywords: SetDisplayName(String)
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.SetDisplayName(String p_0)
 

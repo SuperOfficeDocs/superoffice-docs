@@ -6,11 +6,9 @@ keywords: isValidEmail()
 so.topic: reference
 ---
 
+# String.isValidEmail()
 
 Checks if the string is a valid email address.
 
-
-
 * **Returns:** True if the string is a valid email address.
-
 

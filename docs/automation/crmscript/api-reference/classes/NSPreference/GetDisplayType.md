@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreference_GetDisplayType
 title: Integer GetDisplayType()
 intellisense: NSPreference.GetDisplayType
 keywords: NSPreference, GetDisplayType
 so.topic: reference
 ---
+
+# Integer GetDisplayType()
 
 Display type, populated when asked for. 
 
@@ -31,5 +33,4 @@ Display type, populated when asked for.
 NSPreference thing;
 Integer displayType  = thing.GetDisplayType();
 ```
-
 

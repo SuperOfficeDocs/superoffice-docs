@@ -6,11 +6,9 @@ keywords: urlEncode()
 so.topic: reference
 ---
 
+# String.urlEncode()
 
 Url-encode the string.
 
-
-
 * **Returns:** An url encoded version of the String.
-
 

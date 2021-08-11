@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_GetTriggerScriptByUniqueId
 title: NSTriggerScriptEntity GetTriggerScriptByUniqueId(String triggerScriptUniqueId)
 intellisense: NSCRMScriptAgent.GetTriggerScriptByUniqueId
 keywords: NSCRMScriptAgent, GetTriggerScriptByUniqueId
 so.topic: reference
 ---
+
+# NSTriggerScriptEntity GetTriggerScriptByUniqueId(String triggerScriptUniqueId)
 
 Get a trigger CRMScript.
 

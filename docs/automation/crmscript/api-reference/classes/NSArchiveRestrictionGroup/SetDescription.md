@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveRestrictionGroup_SetDescription
 title: SetDescription(String description)
 intellisense: NSArchiveRestrictionGroup.SetDescription
 keywords: NSArchiveRestrictionGroup, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Description of group
 

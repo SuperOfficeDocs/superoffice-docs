@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCredited_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSCredited.SetTooltip
 keywords: NSCredited, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSCredited list item.
 

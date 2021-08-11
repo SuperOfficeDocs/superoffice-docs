@@ -1,4 +1,5 @@
 ---
+title: String getExternalProgramAdmin()
 description: String getExternalProgramAdmin()
 intellisense: Void.getExternalProgramAdmin
 langref: 1
@@ -6,9 +7,8 @@ keywords: getExternalProgramAdmin()
 so.topic: reference
 ---
 
-Returns the external url of the program module specified after getProgram.
+# String getExternalProgramAdmin()
 
+Returns the external URL of the program module specified after getProgram.
 
-* **Returns:** The external url for the given program.
-
-
+* **Returns:** The external URL for the given program.

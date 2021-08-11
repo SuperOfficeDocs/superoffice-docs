@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplate_SetRecordType
 title: SetRecordType(NSDocTmplType recordType)
 intellisense: NSDocumentTemplate.SetRecordType
 keywords: NSDocumentTemplate, GetRecordType
 so.topic: reference
 ---
+
+# SetRecordType(NSDocTmplType recordType)
 
 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
 

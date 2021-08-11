@@ -7,11 +7,9 @@ keywords: GetStringTitle()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStringTitle()
 
 Sale heading (short description?)
 
-
-
 * **Returns:** String
-
 

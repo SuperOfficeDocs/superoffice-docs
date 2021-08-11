@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTaskListItem_GetColorIndex
 title: Integer GetColorIndex()
 intellisense: NSTaskListItem.GetColorIndex
 keywords: NSTaskListItem, GetColorIndex
 so.topic: reference
 ---
+
+# Integer GetColorIndex()
 
 JAP
 
@@ -40,5 +42,4 @@ JAP
 NSTaskListItem thing;
 Integer colorIndex  = thing.GetColorIndex();
 ```
-
 

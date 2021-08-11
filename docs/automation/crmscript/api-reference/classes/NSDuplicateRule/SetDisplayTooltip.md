@@ -7,6 +7,7 @@ keywords: SetDisplayTooltip(String)
 so.topic: reference
 ---
 
-Description of the rule
+# NSDuplicateRule.SetDisplayTooltip(String p_0)
 
+Description of the rule
 

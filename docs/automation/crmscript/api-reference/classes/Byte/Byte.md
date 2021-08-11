@@ -6,5 +6,6 @@ sortOrder: 133
 so.topic: reference
 ---
 
+# Byte
 
 This class represents a byte.

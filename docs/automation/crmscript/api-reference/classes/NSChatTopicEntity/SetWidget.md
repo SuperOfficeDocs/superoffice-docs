@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatTopicEntity_SetWidget
 title: SetWidget(ChatWidgetSettings widget)
 intellisense: NSChatTopicEntity.SetWidget
 keywords: NSChatTopicEntity, GetWidget
 so.topic: reference
 ---
+
+# SetWidget(ChatWidgetSettings widget)
 
 Settings for the chat widget
 

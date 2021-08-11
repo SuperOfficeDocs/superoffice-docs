@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_GetSelectionForFind
 title: NSSelectionForFind GetSelectionForFind(String entityName, Integer typicalSearchId)
 intellisense: NSSelectionAgent.GetSelectionForFind
 keywords: NSSelectionAgent, GetSelectionForFind
 so.topic: reference
 ---
+
+# NSSelectionForFind GetSelectionForFind(String entityName, Integer typicalSearchId)
 
 Obtain a selection for the given entity, for the current user, of type WorkingSetForFind. Optionally populate criteria from the TypicalSearches system
 

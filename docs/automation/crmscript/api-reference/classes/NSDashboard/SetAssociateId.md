@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboard_SetAssociateId
 title: SetAssociateId(Integer associateId)
 intellisense: NSDashboard.SetAssociateId
 keywords: NSDashboard, GetAssociateId
 so.topic: reference
 ---
+
+# SetAssociateId(Integer associateId)
 
 Id of the associate who owns this dashboard
 

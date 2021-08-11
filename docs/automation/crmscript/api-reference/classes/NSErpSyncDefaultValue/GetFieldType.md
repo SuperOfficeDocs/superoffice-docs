@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncDefaultValue_GetFieldType
 title: NSFieldMetadataType GetFieldType()
 intellisense: NSErpSyncDefaultValue.GetFieldType
 keywords: NSErpSyncDefaultValue, GetFieldType
 so.topic: reference
 ---
+
+# NSFieldMetadataType GetFieldType()
 
 Field type
 
@@ -23,5 +25,4 @@ Field type
 NSErpSyncDefaultValue thing;
 NSFieldMetadataType fieldType  = thing.GetFieldType();
 ```
-
 

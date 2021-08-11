@@ -6,4 +6,6 @@ keywords: NSFavourite
 so.topic: reference
 ---
 
+# NSFavourite
+
 NSFavourite carrier.

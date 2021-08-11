@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCurrencyEntity_SetUnits
 title: SetUnits(Float units)
 intellisense: NSCurrencyEntity.SetUnits
 keywords: NSCurrencyEntity, GetUnits
 so.topic: reference
 ---
+
+# SetUnits(Float units)
 
 Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)
 

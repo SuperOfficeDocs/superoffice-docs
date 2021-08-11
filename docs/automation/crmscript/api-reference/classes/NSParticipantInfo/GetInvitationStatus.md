@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSParticipantInfo_GetInvitationStatus
 title: Integer GetInvitationStatus()
 intellisense: NSParticipantInfo.GetInvitationStatus
 keywords: NSParticipantInfo, GetInvitationStatus
 so.topic: reference
 ---
+
+# Integer GetInvitationStatus()
 
 The participant status for the appointment
 
@@ -25,5 +27,4 @@ The participant status for the appointment
 NSParticipantInfo thing;
 Integer invitationStatus  = thing.GetInvitationStatus();
 ```
-
 

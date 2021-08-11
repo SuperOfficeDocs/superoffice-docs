@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetAllForeignKeysOnEntity
 title: StringDictionary GetAllForeignKeysOnEntity(String entityType, Integer entityId)
 intellisense: NSForeignSystemAgent.GetAllForeignKeysOnEntity
 keywords: NSForeignSystemAgent, GetAllForeignKeysOnEntity
 so.topic: reference
 ---
+
+# StringDictionary GetAllForeignKeysOnEntity(String entityType, Integer entityId)
 
 Get a list of foreignkeys ('app.device.key') and their values ('123') that belong to the specified entity.
 

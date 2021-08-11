@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSAddressSyncData_GetAddressType
 title: Integer GetAddressType()
 intellisense: NSAddressSyncData.GetAddressType
@@ -6,7 +6,7 @@ keywords: NSAddressSyncData, GetAddressType
 so.topic: reference
 ---
 
-
+# Integer GetAddressType()
 
 **Returns:** Integer
 
@@ -21,5 +21,4 @@ so.topic: reference
 NSAddressSyncData thing;
 Integer addressType  = thing.GetAddressType();
 ```
-
 

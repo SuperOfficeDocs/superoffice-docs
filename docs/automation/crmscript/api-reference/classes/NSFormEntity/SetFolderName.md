@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormEntity_SetFolderName
 title: SetFolderName(String folderName)
 intellisense: NSFormEntity.SetFolderName
 keywords: NSFormEntity, GetFolderName
 so.topic: reference
 ---
+
+# SetFolderName(String folderName)
 
 The name of the folder for this form
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEntity_SetCalMethod
 title: SetCalMethod(Integer calMethod)
 intellisense: NSEMailEntity.SetCalMethod
 keywords: NSEMailEntity, GetCalMethod
 so.topic: reference
 ---
+
+# SetCalMethod(Integer calMethod)
 
 Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc.
 

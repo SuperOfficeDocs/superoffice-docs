@@ -7,12 +7,11 @@ keywords: getAsStream(String)
 so.topic: reference
 ---
 
+# HTTP.getAsStream(String p_0)
+
 Supports both http and https. Returns the result in a NSStream.
 
-
-
 ## Example
-
 
     HTTP h;
     
@@ -25,5 +24,4 @@ Supports both http and https. Returns the result in a NSStream.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

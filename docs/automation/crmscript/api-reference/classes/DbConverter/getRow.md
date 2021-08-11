@@ -7,6 +7,7 @@ keywords: getRow()
 so.topic: reference
 ---
 
-Returns entire row of fields.
+# DbConverter.getRow()
 
+Returns entire row of fields.
 

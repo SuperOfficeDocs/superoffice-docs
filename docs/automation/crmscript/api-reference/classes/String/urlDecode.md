@@ -6,11 +6,9 @@ keywords: urlDecode()
 so.topic: reference
 ---
 
+# String.urlDecode()
 
 Url-decode the string.
 
-
-
 * **Returns:** An url decoded version of the String.
-
 

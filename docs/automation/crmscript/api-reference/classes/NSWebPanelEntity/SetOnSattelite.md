@@ -6,6 +6,5 @@ keywords: SetOnSattelite(Bool)
 so.topic: reference
 ---
 
-
-
+# NSWebPanelEntity.SetOnSattelite(Bool p_0)
 

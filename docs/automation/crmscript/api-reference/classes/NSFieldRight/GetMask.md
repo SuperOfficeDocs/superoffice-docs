@@ -7,6 +7,5 @@ keywords: GetMask()
 so.topic: reference
 ---
 
-
-
+# NSFieldRight.GetMask()
 

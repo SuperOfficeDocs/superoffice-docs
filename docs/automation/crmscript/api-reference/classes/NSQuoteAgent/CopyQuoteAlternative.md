@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CopyQuoteAlternative
 title: NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
 intellisense: NSQuoteAgent.CopyQuoteAlternative
 keywords: NSQuoteAgent, CopyQuoteAlternative
 so.topic: reference
 ---
+
+# NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
 
 Copy a quote alternative from the same sale and adds it to a version.
 

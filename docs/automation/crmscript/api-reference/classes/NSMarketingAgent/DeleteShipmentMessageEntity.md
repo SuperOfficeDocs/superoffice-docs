@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMarketingAgent_DeleteShipmentMessageEntity
 title: DeleteShipmentMessageEntity(Integer shipmentMessageEntity);
 intellisense: NSMarketingAgent.DeleteShipmentMessageEntity
 keywords: NSMarketingAgent, DeleteShipmentMessageEntity
 so.topic: reference
 ---
+
+# DeleteShipmentMessageEntity(Integer shipmentMessageEntity);
 
 Deletes the NSShipmentMessageEntity
   

@@ -7,7 +7,7 @@ keywords: GetStandardInt()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStandardInt()
 
 * **Returns:** Integer
-
 

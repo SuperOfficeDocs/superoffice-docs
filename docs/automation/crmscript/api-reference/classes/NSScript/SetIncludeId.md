@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSScript_SetIncludeId
 title: SetIncludeId(String includeId)
 intellisense: NSScript.SetIncludeId
 keywords: NSScript, GetIncludeId
 so.topic: reference
 ---
+
+# SetIncludeId(String includeId)
 
 A unique name used for including this script in another
 

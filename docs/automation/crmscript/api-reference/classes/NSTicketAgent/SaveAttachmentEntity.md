@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SaveAttachmentEntity
 title: NSAttachmentEntity SaveAttachmentEntity(NSAttachmentEntity attachmentEntity);
 intellisense: NSTicketAgent.SaveAttachmentEntity
 keywords: NSTicketAgent, SaveAttachmentEntity
 so.topic: reference
 ---
+
+# NSAttachmentEntity SaveAttachmentEntity(NSAttachmentEntity attachmentEntity);
 	  
 Updates the existing NSAttachmentEntity or creates a new NSAttachmentEntity if the id parameter is 0
 	  

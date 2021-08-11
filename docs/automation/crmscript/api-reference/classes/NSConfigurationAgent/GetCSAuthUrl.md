@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetCSAuthUrl
 title: String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
 intellisense: NSConfigurationAgent.GetCSAuthUrl
 keywords: NSConfigurationAgent, GetCSAuthUrl
 so.topic: reference
 ---
+
+# String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
 
 Will generate an url to the emarketing module
 

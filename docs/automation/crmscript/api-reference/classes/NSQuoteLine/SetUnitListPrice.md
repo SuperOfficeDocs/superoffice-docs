@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteLine_SetUnitListPrice
 title: SetUnitListPrice(Float unitListPrice)
 intellisense: NSQuoteLine.SetUnitListPrice
 keywords: NSQuoteLine, GetUnitListPrice
 so.topic: reference
 ---
+
+# SetUnitListPrice(Float unitListPrice)
 
 The standard list price; as given by ERP Connector, OR overridden by user
 

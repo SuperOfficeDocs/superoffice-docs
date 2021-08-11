@@ -6,6 +6,5 @@ keywords: GetWarningResource()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetWarningResource()
 

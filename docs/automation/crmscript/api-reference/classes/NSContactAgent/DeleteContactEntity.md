@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_DeleteContactEntity
 title: DeleteContactEntity(Integer contactEntity);
 intellisense: NSContactAgent.DeleteContactEntity
 keywords: NSContactAgent, DeleteContactEntity
 so.topic: reference
 ---
+
+# DeleteContactEntity(Integer contactEntity);
 
 Deletes the NSContactEntity
   

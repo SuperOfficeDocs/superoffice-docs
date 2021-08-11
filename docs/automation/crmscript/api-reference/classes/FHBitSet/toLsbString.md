@@ -7,12 +7,9 @@ keywords: toLsbString()
 so.topic: reference
 ---
 
+# FHBitSet.toLsbString()
 
 This function returns a LSB (Least Significant Byte first) string representation of the bitset.
-
-
-
-
 
 ## Example
     

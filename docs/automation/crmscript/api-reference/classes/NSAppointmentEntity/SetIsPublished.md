@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsappointmententity_setispublished
 title: SetIsPublished(Bool isPublished)
 description: CRMScript method in the NSAppointmentEntity class that sets the isPublished property of the appointment

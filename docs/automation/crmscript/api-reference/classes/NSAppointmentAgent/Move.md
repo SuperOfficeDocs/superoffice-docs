@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_Move
 title: NSAppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
 intellisense: NSAppointmentAgent.Move
 keywords: NSAppointmentAgent, Move
 so.topic: reference
 ---
+
+# NSAppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
 
 Moving a booking to another start time.
 

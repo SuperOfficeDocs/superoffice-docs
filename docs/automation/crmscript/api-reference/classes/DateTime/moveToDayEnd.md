@@ -7,6 +7,7 @@ keywords: moveToDayEnd()
 so.topic: reference
 ---
 
-Moves the datetime to the end of the day. That is 23:59:59. Returns a reference to itself.
+# DateTime.moveToDayEnd()
 
+Moves the datetime to the end of the day. That is 23:59:59. Returns a reference to itself.
 

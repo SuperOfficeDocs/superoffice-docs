@@ -6,6 +6,7 @@ keywords: getMin()
 so.topic: reference
 ---
 
-This function will return the minute field of the timespan as an integer.
+# TimeSpan.getMin()
 
+This function will return the minute field of the timespan as an integer.
 

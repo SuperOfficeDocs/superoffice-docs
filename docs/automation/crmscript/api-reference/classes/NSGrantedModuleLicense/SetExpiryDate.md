@@ -7,6 +7,5 @@ keywords: SetExpiryDate(DateTime)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetExpiryDate(DateTime p_0)
 

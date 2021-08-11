@@ -7,6 +7,8 @@ keywords: getName()
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getName()
+
 This function returns the descriptive name (not the database name) of the current field.
 
 ## Example
@@ -21,5 +23,4 @@ This code prints all names of extra fields:
       print(e.getName());
       e.next();
     }
-
 

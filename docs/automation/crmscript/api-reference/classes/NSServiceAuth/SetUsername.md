@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSServiceAuth_SetUsername
 title: SetUsername(String username)
 intellisense: NSServiceAuth.SetUsername
 keywords: NSServiceAuth, GetUsername
 so.topic: reference
 ---
+
+# SetUsername(String username)
 
 The username
 

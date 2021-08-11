@@ -6,11 +6,9 @@ keywords: setSubject(String)
 so.topic: reference
 ---
 
+# SpmMessage.setSubject(String subject)
 
 Here you set the subject of the SpmMessage object which will corespond to the subject in the outgoing email.
 
-
-
 * **subject:** the subject of the SpmMessage object
-
 

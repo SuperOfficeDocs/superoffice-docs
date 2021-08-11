@@ -7,6 +7,5 @@ keywords: SetParenthesis(Integer)
 so.topic: reference
 ---
 
-
-
+# NSArchiveRestrictionInfo.SetParenthesis(Integer p_0)
 

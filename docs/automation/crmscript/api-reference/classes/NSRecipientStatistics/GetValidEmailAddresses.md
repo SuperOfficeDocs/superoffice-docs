@@ -6,7 +6,7 @@ keywords: GetValidEmailAddresses()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetValidEmailAddresses()
 
 Number of members with a valid email address.
-
 

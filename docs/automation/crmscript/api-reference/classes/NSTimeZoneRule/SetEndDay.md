@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTimeZoneRule_SetEndDay
 title: SetEndDay(Integer endDay)
 intellisense: NSTimeZoneRule.SetEndDay
 keywords: NSTimeZoneRule, GetEndDay
 so.topic: reference
 ---
+
+# SetEndDay(Integer endDay)
 
 Custom DST end day, if 0 then parse startRule
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersionButtonState_SetAction
 title: SetAction(Integer action)
 intellisense: NSQuoteVersionButtonState.SetAction
 keywords: NSQuoteVersionButtonState, GetAction
 so.topic: reference
 ---
+
+# SetAction(Integer action)
 
 Action for the button
 

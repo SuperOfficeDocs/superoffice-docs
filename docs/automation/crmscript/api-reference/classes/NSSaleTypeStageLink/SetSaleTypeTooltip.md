@@ -6,6 +6,5 @@ keywords: SetSaleTypeTooltip(String)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetSaleTypeTooltip(String p_0)
 

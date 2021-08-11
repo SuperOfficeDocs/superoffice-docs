@@ -7,10 +7,9 @@ keywords: getWeekDay()
 so.topic: reference
 ---
 
+# Date.getWeekDay()
+
 This function will return the ISO week day (Monday is 0).
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ This function will return the ISO week day (Monday is 0).
     
     String s = d.getWeekDay().toString();
     print(s); 4
-
 

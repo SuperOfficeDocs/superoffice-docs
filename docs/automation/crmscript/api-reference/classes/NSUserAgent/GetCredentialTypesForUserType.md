@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetCredentialTypesForUserType
 title: NSCredentialType[] GetCredentialTypesForUserType(Integer userType)
 intellisense: NSUserAgent.GetCredentialTypesForUserType
 keywords: NSUserAgent, GetCredentialTypesForUserType
 so.topic: reference
 ---
+
+# NSCredentialType[] GetCredentialTypesForUserType(Integer userType)
 
 Get available credential types that can be used for the specified user type.
 

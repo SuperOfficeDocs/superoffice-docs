@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_Accept
 title: Void Accept(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.Accept
 keywords: NSAppointmentAgent, Accept
 so.topic: reference
 ---
+
+# Void Accept(Integer appointmentId, Integer updateMode)
 
 Accepting an appointment invitation.
 

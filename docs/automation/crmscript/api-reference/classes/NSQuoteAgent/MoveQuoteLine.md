@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_MoveQuoteLine
 title: Void MoveQuoteLine(Integer quoteLineId, Bool direction)
 intellisense: NSQuoteAgent.MoveQuoteLine
 keywords: NSQuoteAgent, MoveQuoteLine
 so.topic: reference
 ---
+
+# Void MoveQuoteLine(Integer quoteLineId, Bool direction)
 
 Move quote line rank up/down
 

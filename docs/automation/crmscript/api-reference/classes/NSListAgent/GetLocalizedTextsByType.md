@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nslistagent_getlocalizedtextsbytype
 title: NSLocalizedText[] GetLocalizedTextsByType()
 description: CRMScript method in the NSListAgent class that gets localized text by their type

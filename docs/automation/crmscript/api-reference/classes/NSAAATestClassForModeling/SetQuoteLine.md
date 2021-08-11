@@ -7,12 +7,10 @@ keywords: SetQuoteLine(NSQuoteLine)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetQuoteLine(NSQuoteLine p_0)
 
 A quoteline object
 
-
-
 * **QuoteLine:** QuoteLine
 * **Returns:** QuoteLine
-
 

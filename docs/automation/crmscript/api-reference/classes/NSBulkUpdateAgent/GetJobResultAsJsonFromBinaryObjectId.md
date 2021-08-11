@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
 title: String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
 intellisense: NSBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
 keywords: NSBulkUpdateAgent, GetJobResultAsJsonFromBinaryObjectId
 so.topic: reference
 ---
+
+# String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
 
 Get result of the batchupdate job
 

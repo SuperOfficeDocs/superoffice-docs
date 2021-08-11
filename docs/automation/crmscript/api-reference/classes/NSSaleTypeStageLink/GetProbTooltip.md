@@ -6,6 +6,5 @@ keywords: GetProbTooltip()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetProbTooltip()
 

@@ -6,15 +6,11 @@ keywords: addListTicketSelection(Integer)
 so.topic: reference
 ---
 
+# SpmShipment.addListTicketSelection(Integer p_0)
 
 Adds a ticket selection list to shipment.
 
-
-
-
 ## Parameters
 
-
  - p0: id, id of list to add
-
 

@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_makepassword
-title: makePassword
+title: String makePassword()
 description: CRMScript function used to create a random password of length p, with the given seed characters
 intellisense: Void.makePassword
 langref: 1

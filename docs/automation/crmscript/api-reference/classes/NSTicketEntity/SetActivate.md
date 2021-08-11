@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_SetActivate
 title: SetActivate(DateTime activate)
 intellisense: NSTicketEntity.SetActivate
 keywords: NSTicketEntity, GetActivate
 so.topic: reference
 ---
+
+# SetActivate(DateTime activate)
 
 When the ticket should be activated, if it is postponed.
 

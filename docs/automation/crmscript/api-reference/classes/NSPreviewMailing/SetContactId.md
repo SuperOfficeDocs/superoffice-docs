@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewMailing_SetContactId
 title: SetContactId(Integer contactId)
 intellisense: NSPreviewMailing.SetContactId
 keywords: NSPreviewMailing, GetContactId
 so.topic: reference
 ---
+
+# SetContactId(Integer contactId)
 
 Owning contact ID
 

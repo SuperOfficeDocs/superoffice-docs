@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_SetSearchCompany
 title: SetSearchCompany(Bool searchCompany)
 intellisense: NSPhoneListPreferences.SetSearchCompany
 keywords: NSPhoneListPreferences, GetSearchCompany
 so.topic: reference
 ---
+
+# SetSearchCompany(Bool searchCompany)
 
 True if you want to search for Companies by their name.
 

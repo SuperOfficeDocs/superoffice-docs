@@ -7,6 +7,7 @@ keywords: eof()
 so.topic: reference
 ---
 
-Returns true if the resultpointer has reached the end of result set, or false otherwise.
+# GenericSearch.eof()
 
+Returns true if the resultpointer has reached the end of result set, or false otherwise.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_GetAssignmentStatus
 title: Integer GetAssignmentStatus()
 intellisense: NSAppointment.GetAssignmentStatus
 keywords: NSAppointment, GetAssignmentStatus
 so.topic: reference
 ---
+
+# Integer GetAssignmentStatus()
 
 Status if this appointment is in the process of being assigned to someone else
 
@@ -20,5 +22,4 @@ Status if this appointment is in the process of being assigned to someone else
 NSAppointment thing;
 Integer assignmentStatus  = thing.GetAssignmentStatus();
 ```
-
 

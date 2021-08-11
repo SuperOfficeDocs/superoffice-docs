@@ -6,6 +6,5 @@ keywords: SetFullName(String)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetFullName(String p_0)
 

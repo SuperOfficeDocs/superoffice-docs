@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_SetWhenRequested
 title: SetWhenRequested(DateTime whenRequested)
 intellisense: NSChatSessionEntity.SetWhenRequested
 keywords: NSChatSessionEntity, GetWhenRequested
 so.topic: reference
 ---
+
+# SetWhenRequested(DateTime whenRequested)
 
 When the session was requested by the customer.
 

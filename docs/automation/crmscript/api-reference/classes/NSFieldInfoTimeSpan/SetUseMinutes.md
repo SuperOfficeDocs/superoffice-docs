@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoTimeSpan_SetUseMinutes
 title: SetUseMinutes(Bool useMinutes)
 intellisense: NSFieldInfoTimeSpan.SetUseMinutes
 keywords: NSFieldInfoTimeSpan, GetUseMinutes
 so.topic: reference
 ---
+
+# SetUseMinutes(Bool useMinutes)
 
 Should the time-span be counted in minutes?
 

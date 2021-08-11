@@ -7,6 +7,7 @@ keywords: deleteItem(Integer,Integer)
 so.topic: reference
 ---
 
+# MainMenu.deleteItem(Integer group, Integer index)
 
 ### Void deleteItem(Integer group, Integer index)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetNextMilestone
 title: NSAppointment GetNextMilestone(Integer projectId)
 intellisense: NSProjectAgent.GetNextMilestone
 keywords: NSProjectAgent, GetNextMilestone
 so.topic: reference
 ---
+
+# NSAppointment GetNextMilestone(Integer projectId)
 
 Next upcoming milestone appointment
 

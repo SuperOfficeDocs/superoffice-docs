@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebhook_SetState
 title: SetState(Integer state)
 intellisense: NSWebhook.SetState
 keywords: NSWebhook, GetState
 so.topic: reference
 ---
+
+# SetState(Integer state)
 
 Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
 

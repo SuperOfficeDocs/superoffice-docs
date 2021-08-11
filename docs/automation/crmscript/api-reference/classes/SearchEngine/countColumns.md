@@ -6,7 +6,7 @@ keywords: countColumns()
 so.topic: reference
 ---
 
+# SearchEngine.countColumns()
 
 * **Returns:** Integer, the count of columns (selected fields) in the SearchEngine query
-
 

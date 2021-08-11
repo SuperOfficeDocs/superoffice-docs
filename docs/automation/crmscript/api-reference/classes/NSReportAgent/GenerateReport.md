@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportAgent_GenerateReport
 title: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, NSArchiveRestrictionInfo[] restrictions)
 intellisense: NSReportAgent.GenerateReport
 keywords: NSReportAgent, GenerateReport
 so.topic: reference
 ---
+
+# String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, NSArchiveRestrictionInfo[] restrictions)
 
 Generates the report in PDF format
 

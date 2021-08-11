@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_ChangePersonImage
 title: Void ChangePersonImage(Integer personId, Integer blobId)
 intellisense: NSBLOBAgent.ChangePersonImage
@@ -6,7 +6,7 @@ keywords: NSBLOBAgent, ChangePersonImage
 so.topic: reference
 ---
 
-
+# Void ChangePersonImage(Integer personId, Integer blobId)
 
 **Parameters:**
  - **personId** The person the image is linked to

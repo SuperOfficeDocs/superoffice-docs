@@ -7,6 +7,7 @@ keywords: toBool()
 so.topic: reference
 ---
 
-Returns the value of the element as a Bool.
+# HtmlElement.toBool()
 
+Returns the value of the element as a Bool.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_GetDashboardTile
 title: NSDashboardTile GetDashboardTile(Integer dashboardTileId);
 intellisense: NSDashboardAgent.GetDashboardTile
 keywords: NSDashboardAgent, GetDashboardTile
 so.topic: reference
 ---
+
+# NSDashboardTile GetDashboardTile(Integer dashboardTileId);
 
 Gets a NSDashboardTile object.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_UpdateChatTopicUserAgents
 title: NSChatTopicAgent[] UpdateChatTopicUserAgents(Integer chatTopicId, NSChatTopicAgent[] useragents)
 intellisense: NSChatAgent.UpdateChatTopicUserAgents
 keywords: NSChatAgent, UpdateChatTopicUserAgents
 so.topic: reference
 ---
+
+# NSChatTopicAgent[] UpdateChatTopicUserAgents(Integer chatTopicId, NSChatTopicAgent[] useragents)
 
 Update users roles in a chat topic
 

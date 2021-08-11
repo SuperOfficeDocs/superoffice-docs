@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_RecalculateQuoteLine
 title: NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
 intellisense: NSQuoteAgent.RecalculateQuoteLine
 keywords: NSQuoteAgent, RecalculateQuoteLine
 so.topic: reference
 ---
+
+# NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
 
 When the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT. Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
 

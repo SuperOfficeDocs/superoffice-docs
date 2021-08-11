@@ -6,7 +6,7 @@ keywords: getMonStart()
 so.topic: reference
 ---
 
+# WeekSchedule.getMonStart()
 
 This function returns the start time (object) of "active" mode for Monday.
-
 

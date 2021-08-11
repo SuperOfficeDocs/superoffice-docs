@@ -7,7 +7,7 @@ keywords: getDescription()
 so.topic: reference
 ---
 
+# MacroReturnValue.getDescription()
 
 This function returns the description of the macro return value.
-
 

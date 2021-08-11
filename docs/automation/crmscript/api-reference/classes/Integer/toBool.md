@@ -7,10 +7,9 @@ keywords: toBool()
 so.topic: reference
 ---
 
+# Integer.toBool()
+
 Returns false if the integer is zero, otherwise true.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ Returns false if the integer is zero, otherwise true.
     print(i.toBool().toString());
     
     Prints true.
-
 

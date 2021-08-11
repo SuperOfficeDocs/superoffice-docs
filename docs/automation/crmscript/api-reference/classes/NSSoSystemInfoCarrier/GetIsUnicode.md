@@ -6,6 +6,5 @@ keywords: GetIsUnicode()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetIsUnicode()
 

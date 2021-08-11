@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedPreviewAttachmentFromId
 title: NSEMailAttachment GetUnsanitizedPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
 intellisense: NSEMailAgent.GetUnsanitizedPreviewAttachmentFromId
 keywords: NSEMailAgent, GetUnsanitizedPreviewAttachmentFromId
 so.topic: reference
 ---
+
+# NSEMailAttachment GetUnsanitizedPreviewAttachmentFromId(Integer mailItemId, String attachmentId, String attachmentType, String attachmentFilename)
 
 Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview. The returned data is not sanitized.
 

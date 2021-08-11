@@ -6,7 +6,7 @@ keywords: GetNoFaxOrEmails()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetNoFaxOrEmails()
 
 Number of members with no fax or email address.
-
 

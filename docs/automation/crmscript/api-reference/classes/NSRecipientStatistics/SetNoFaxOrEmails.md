@@ -6,7 +6,7 @@ keywords: SetNoFaxOrEmails(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetNoFaxOrEmails(Integer p_0)
 
 Number of members with no fax or email address.
-
 

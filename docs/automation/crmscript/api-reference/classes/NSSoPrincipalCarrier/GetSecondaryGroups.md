@@ -6,6 +6,5 @@ keywords: GetSecondaryGroups()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetSecondaryGroups()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketCategoryEntity_SetFlags
 title: SetFlags(TicketCategoryFlags flags)
 intellisense: NSTicketCategoryEntity.SetFlags
 keywords: NSTicketCategoryEntity, GetFlags
 so.topic: reference
 ---
+
+# SetFlags(TicketCategoryFlags flags)
 
 A bitmask representing flags for this category.
 

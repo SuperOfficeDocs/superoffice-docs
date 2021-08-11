@@ -6,6 +6,5 @@ keywords: GetSearchName()
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.GetSearchName()
 

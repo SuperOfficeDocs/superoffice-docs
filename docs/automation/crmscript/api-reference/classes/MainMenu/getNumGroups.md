@@ -7,7 +7,6 @@ keywords: getNumGroups()
 so.topic: reference
 ---
 
-
 # Integer getNumGroups()
 
 Returns the current number of groups in the main menu.

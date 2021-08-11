@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_GetType
 title: Integer GetType()
 intellisense: NSDocumentEntity.GetType
 keywords: NSDocumentEntity, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 Is this a normal document or a mail-merge or report?
 
@@ -25,5 +27,4 @@ Is this a normal document or a mail-merge or report?
 NSDocumentEntity thing;
 Integer type  = thing.GetType();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCredited_GetTooltip
 title: String GetTooltip()
 intellisense: NSCredited.GetTooltip
 keywords: NSCredited, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSCredited list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSCredited list item.
 NSCredited thing;
 String descr = thing.GetTooltip();
 ```
-
 

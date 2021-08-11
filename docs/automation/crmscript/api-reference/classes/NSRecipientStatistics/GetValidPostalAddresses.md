@@ -6,7 +6,7 @@ keywords: GetValidPostalAddresses()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetValidPostalAddresses()
 
 Number of members with a valid postal address.
-
 

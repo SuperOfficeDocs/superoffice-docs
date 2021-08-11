@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEMailSOInfo
 title: NSEMailSOInfo GetEMailSOInfo(Integer eMailSOInfoId);
 intellisense: NSEMailAgent.GetEMailSOInfo
 keywords: NSEMailAgent, GetEMailSOInfo
 so.topic: reference
 ---
+
+# NSEMailSOInfo GetEMailSOInfo(Integer eMailSOInfoId);
 
 Gets a NSEMailSOInfo object.
 

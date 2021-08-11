@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailMergeSettings_SetRemovePersonInterest
 title: SetRemovePersonInterest(Integer removePersonInterest)
 intellisense: NSMailMergeSettings.SetRemovePersonInterest
 keywords: NSMailMergeSettings, GetRemovePersonInterest
 so.topic: reference
 ---
+
+# SetRemovePersonInterest(Integer removePersonInterest)
 
 Remove this person interest on each person recipient.
 

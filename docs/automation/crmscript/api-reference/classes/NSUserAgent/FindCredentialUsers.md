@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_FindCredentialUsers
 title: NSCredentialsGroupUsers FindCredentialUsers(String type, String searchString)
 intellisense: NSUserAgent.FindCredentialUsers
 keywords: NSUserAgent, FindCredentialUsers
 so.topic: reference
 ---
+
+# NSCredentialsGroupUsers FindCredentialUsers(String type, String searchString)
 
 Find users matching the partial name.
 

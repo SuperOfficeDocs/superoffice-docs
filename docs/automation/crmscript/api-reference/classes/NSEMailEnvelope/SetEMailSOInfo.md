@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailEnvelope_SetEMailSOInfo
 title: SetEMailSOInfo(NSEMailSOInfo eMailSOInfo)
 intellisense: NSEMailEnvelope.SetEMailSOInfo
 keywords: NSEMailEnvelope, GetEMailSOInfo
 so.topic: reference
 ---
+
+# SetEMailSOInfo(NSEMailSOInfo eMailSOInfo)
 
 Glue between SuperOffice data and an e-mail.
 

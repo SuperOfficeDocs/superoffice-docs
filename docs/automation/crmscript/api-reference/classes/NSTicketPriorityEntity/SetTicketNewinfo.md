@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetTicketNewinfo
 title: SetTicketNewinfo(Integer ticketNewinfo)
 intellisense: NSTicketPriorityEntity.SetTicketNewinfo
 keywords: NSTicketPriorityEntity, GetTicketNewinfo
 so.topic: reference
 ---
+
+# SetTicketNewinfo(Integer ticketNewinfo)
 
 This field indicates what to do with the escalation chain when the request gets new info
 

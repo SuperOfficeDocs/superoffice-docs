@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus
 title: NSErpSyncEngineStatus ChangeEngineStatus(Bool run)
 intellisense: NSErpSyncAgent.ChangeEngineStatus
 keywords: NSErpSyncAgent, ChangeEngineStatus
 so.topic: reference
 ---
+
+# NSErpSyncEngineStatus ChangeEngineStatus(Bool run)
 
 Change the current running/stopped status of the Sync engine
 

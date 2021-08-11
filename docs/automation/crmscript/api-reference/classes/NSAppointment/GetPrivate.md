@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_GetPrivate
 title: AppointmentPrivate GetPrivate()
 intellisense: NSAppointment.GetPrivate
 keywords: NSAppointment, GetPrivate
 so.topic: reference
 ---
+
+# AppointmentPrivate GetPrivate()
 
 Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status
 
@@ -18,5 +20,4 @@ Obsolete, but still maintained field for appointment privacy; denormalization of
 NSAppointment thing;
 AppointmentPrivate private  = thing.GetPrivate();
 ```
-
 

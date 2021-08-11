@@ -6,7 +6,7 @@ keywords: GetValue()
 so.topic: reference
 ---
 
+# NSLocalizedField.GetValue()
 
 The field's value
-
 

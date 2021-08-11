@@ -6,6 +6,5 @@ keywords: GetBuildType()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetBuildType()
 

@@ -6,6 +6,7 @@ keywords: delete()
 so.topic: reference
 ---
 
-After adding criterias, call this to delete the items that was selected by the query
+# SearchEngine.delete()
 
+After adding criterias, call this to delete the items that was selected by the query
 

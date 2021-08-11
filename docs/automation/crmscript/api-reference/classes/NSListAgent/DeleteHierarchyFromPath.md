@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteHierarchyFromPath
 title: Void DeleteHierarchyFromPath(Integer domain, String path)
 intellisense: NSListAgent.DeleteHierarchyFromPath
 keywords: NSListAgent, DeleteHierarchyFromPath
 so.topic: reference
 ---
+
+# Void DeleteHierarchyFromPath(Integer domain, String path)
 
 Remove a hierarchy item and its children from a path
 

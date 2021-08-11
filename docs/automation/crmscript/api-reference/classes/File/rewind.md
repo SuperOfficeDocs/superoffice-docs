@@ -7,7 +7,7 @@ keywords: rewind()
 so.topic: reference
 ---
 
+# File.rewind()
 
 This function will set the current file pointer to the beginning of the file.
-
 

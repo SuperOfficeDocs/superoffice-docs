@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CreateAndSaveQuote
 title: NSQuoteEntity CreateAndSaveQuote(Integer saleId, Integer connectionId, String firstAlternativeName)
 intellisense: NSQuoteAgent.CreateAndSaveQuote
 keywords: NSQuoteAgent, CreateAndSaveQuote
 so.topic: reference
 ---
+
+# NSQuoteEntity CreateAndSaveQuote(Integer saleId, Integer connectionId, String firstAlternativeName)
 
 Creates a new quote on a sale.
 

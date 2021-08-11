@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetQuantityUnit
 title: SetQuantityUnit(String quantityUnit)
 intellisense: NSProduct.SetQuantityUnit
 keywords: NSProduct, GetQuantityUnit
 so.topic: reference
 ---
+
+# SetQuantityUnit(String quantityUnit)
 
 What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different
 

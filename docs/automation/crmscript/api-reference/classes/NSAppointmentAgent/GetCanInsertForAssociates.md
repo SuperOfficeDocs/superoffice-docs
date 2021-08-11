@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsappointmentagent_getcaninsertforassociates
 title: Bool[] GetCanInsertForAssociates()
 intellisense: NSAppointmentAgent.GetCanInsertForAssociates

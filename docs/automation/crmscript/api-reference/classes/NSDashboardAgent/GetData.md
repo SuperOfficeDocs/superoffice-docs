@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_GetData
 title: NSTileData[] GetData(Integer dashboardTileId, String restrictions)
 intellisense: NSDashboardAgent.GetData
 keywords: NSDashboardAgent, GetData
 so.topic: reference
 ---
+
+# NSTileData[] GetData(Integer dashboardTileId, String restrictions)
 
 Get data for this tile
 

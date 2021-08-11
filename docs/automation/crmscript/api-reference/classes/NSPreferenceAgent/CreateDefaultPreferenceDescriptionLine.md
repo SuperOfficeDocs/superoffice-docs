@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescriptionLine
 title: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
 intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine
 keywords: NSPreferenceAgent, CreateDefaultPreferenceDescriptionLine
 so.topic: reference
 ---
+
+# NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
 	  
 Set default values into a new NSPreferenceDescriptionLine.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

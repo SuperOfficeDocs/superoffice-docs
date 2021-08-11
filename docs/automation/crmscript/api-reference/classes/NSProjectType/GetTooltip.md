@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectType_GetTooltip
 title: String GetTooltip()
 intellisense: NSProjectType.GetTooltip
 keywords: NSProjectType, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSProjectType list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSProjectType list item.
 NSProjectType thing;
 String descr = thing.GetTooltip();
 ```
-
 

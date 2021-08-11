@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_CheckSymmetricEncryption
 title: String CheckSymmetricEncryption(String encryptedString)
 intellisense: NSCustomerServiceAgent.CheckSymmetricEncryption
 keywords: NSCustomerServiceAgent, CheckSymmetricEncryption
 so.topic: reference
 ---
+
+# String CheckSymmetricEncryption(String encryptedString)
 
 Do a test to check that we are using the same encryption keys
 

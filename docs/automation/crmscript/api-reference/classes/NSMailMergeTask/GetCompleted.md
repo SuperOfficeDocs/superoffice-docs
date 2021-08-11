@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailMergeTask_GetCompleted
 title: Integer GetCompleted()
 intellisense: NSMailMergeTask.GetCompleted
 keywords: NSMailMergeTask, GetCompleted
 so.topic: reference
 ---
+
+# Integer GetCompleted()
 
 Completed status for task
 
@@ -19,5 +21,4 @@ Completed status for task
 NSMailMergeTask thing;
 Integer completed  = thing.GetCompleted();
 ```
-
 

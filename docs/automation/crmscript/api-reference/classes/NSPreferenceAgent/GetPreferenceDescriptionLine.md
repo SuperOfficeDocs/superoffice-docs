@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferenceDescriptionLine
 title: NSPreferenceDescriptionLine GetPreferenceDescriptionLine(Integer preferenceDescriptionLineId);
 intellisense: NSPreferenceAgent.GetPreferenceDescriptionLine
 keywords: NSPreferenceAgent, GetPreferenceDescriptionLine
 so.topic: reference
 ---
+
+# NSPreferenceDescriptionLine GetPreferenceDescriptionLine(Integer preferenceDescriptionLineId);
 
 Gets a NSPreferenceDescriptionLine object.
 

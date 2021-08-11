@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_Reject
 title: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
 intellisense: NSAppointmentAgent.Reject
 keywords: NSAppointmentAgent, Reject
 so.topic: reference
 ---
+
+# Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
 
 Rejecting an appointment invitation
 

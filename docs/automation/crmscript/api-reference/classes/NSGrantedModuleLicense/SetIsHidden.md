@@ -7,6 +7,5 @@ keywords: SetIsHidden(Bool)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetIsHidden(Bool p_0)
 

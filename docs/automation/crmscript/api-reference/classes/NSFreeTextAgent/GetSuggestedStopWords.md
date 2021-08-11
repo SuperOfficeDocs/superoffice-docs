@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeTextAgent_GetSuggestedStopWords
 title: NSMDOListItem[] GetSuggestedStopWords(Integer countWords)
 intellisense: NSFreeTextAgent.GetSuggestedStopWords
 keywords: NSFreeTextAgent, GetSuggestedStopWords
 so.topic: reference
 ---
+
+# NSMDOListItem[] GetSuggestedStopWords(Integer countWords)
 
 Returns the top used words in the freetext index table, sorted as most used first
 

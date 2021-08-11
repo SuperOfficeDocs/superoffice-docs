@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_CreateNewEntry
 title: Integer CreateNewEntry(NSDuplicateEntry duplicate)
 intellisense: NSProjectAgent.CreateNewEntry
 keywords: NSProjectAgent, CreateNewEntry
 so.topic: reference
 ---
+
+# Integer CreateNewEntry(NSDuplicateEntry duplicate)
 
 Creates a new project based on external duplicate
 

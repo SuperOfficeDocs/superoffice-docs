@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailboxEntity_GetServerType
 title: Integer GetServerType()
 intellisense: NSMailboxEntity.GetServerType
 keywords: NSMailboxEntity, GetServerType
 so.topic: reference
 ---
+
+# Integer GetServerType()
 
 Enum indicating the protocol to use (POP/IMAP).
 
@@ -25,5 +27,4 @@ Enum indicating the protocol to use (POP/IMAP).
 NSMailboxEntity thing;
 Integer serverType  = thing.GetServerType();
 ```
-
 

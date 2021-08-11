@@ -6,6 +6,5 @@ keywords: SetDescription(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetDescription(String p_0)
 

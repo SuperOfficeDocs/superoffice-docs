@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactEntity_SetUserDefinedFields
 title: SetUserDefinedFields(Map udefs)
 intellisense: NSContactEntity.SetUserDefinedFields
 keywords: NSContactEntity, SetUserDefinedFields
 so.topic: reference
 ---
+
+# SetUserDefinedFields(Map udefs)
 
 Set the user-defined fields on the NSContactEntity as a map.
 

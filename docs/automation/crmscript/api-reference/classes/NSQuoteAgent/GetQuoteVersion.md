@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetQuoteVersion
 title: NSQuoteVersion GetQuoteVersion(Integer quoteVersionId)
 intellisense: NSQuoteAgent.GetQuoteVersion
 keywords: NSQuoteAgent, GetQuoteVersion
 so.topic: reference
 ---
+
+# NSQuoteVersion GetQuoteVersion(Integer quoteVersionId)
 
 Get a NSQuoteVersion
 

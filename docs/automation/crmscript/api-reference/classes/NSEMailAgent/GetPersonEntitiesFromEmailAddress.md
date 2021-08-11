@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress
 title: NSPersonEntity[] GetPersonEntitiesFromEmailAddress(String emailAddress)
 intellisense: NSEMailAgent.GetPersonEntitiesFromEmailAddress
 keywords: NSEMailAgent, GetPersonEntitiesFromEmailAddress
 so.topic: reference
 ---
+
+# NSPersonEntity[] GetPersonEntitiesFromEmailAddress(String emailAddress)
 
 Get all persons and contacts with the given email address
 

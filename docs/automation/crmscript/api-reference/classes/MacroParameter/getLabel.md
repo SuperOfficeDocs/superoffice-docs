@@ -7,6 +7,7 @@ keywords: getLabel()
 so.topic: reference
 ---
 
-This function returns the label for the parameter when displayed in a form.
+# MacroParameter.getLabel()
 
+This function returns the label for the parameter when displayed in a form.
 

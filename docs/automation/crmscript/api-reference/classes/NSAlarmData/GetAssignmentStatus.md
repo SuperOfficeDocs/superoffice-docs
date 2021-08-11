@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_GetAssignmentStatus
 title: Integer GetAssignmentStatus()
 intellisense: NSAlarmData.GetAssignmentStatus
 keywords: NSAlarmData, GetAssignmentStatus
 so.topic: reference
 ---
+
+# Integer GetAssignmentStatus()
 
 Status if this appointment is in the process of being assigned to someone else
 
@@ -20,5 +22,4 @@ Status if this appointment is in the process of being assigned to someone else
 NSAlarmData thing;
 Integer assignmentStatus  = thing.GetAssignmentStatus();
 ```
-
 

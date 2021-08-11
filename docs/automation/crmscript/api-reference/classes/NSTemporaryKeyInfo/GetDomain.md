@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemporaryKeyInfo_GetDomain
 title: Integer GetDomain()
 intellisense: NSTemporaryKeyInfo.GetDomain
 keywords: NSTemporaryKeyInfo, GetDomain
 so.topic: reference
 ---
+
+# Integer GetDomain()
 
 The domain for this key. Unknown if key is not valid.
 
@@ -22,5 +24,4 @@ The domain for this key. Unknown if key is not valid.
 NSTemporaryKeyInfo thing;
 Integer domain  = thing.GetDomain();
 ```
-
 

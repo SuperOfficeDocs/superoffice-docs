@@ -7,11 +7,9 @@ keywords: GetQuoteLine()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetQuoteLine()
 
 Gets some QuoteLine
 
-
-
 * **Returns:** Some QuoteLine
-
 

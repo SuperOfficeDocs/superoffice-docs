@@ -6,13 +6,11 @@ keywords: loadFromAgentAndKey(Integer,String)
 so.topic: reference
 ---
 
+# User.loadFromAgentAndKey(Integer id, String Key)
 
 Loads a user from an Agent with userId and the Agent's key.
-
-
 
 * **Integer:** id of the user
 * **String:** key of the agent
 * **Returns:** Bool of load result, True if loaded successfully
-
 

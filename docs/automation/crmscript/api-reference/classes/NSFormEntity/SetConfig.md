@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormEntity_SetConfig
 title: SetConfig(String config)
 intellisense: NSFormEntity.SetConfig
 keywords: NSFormEntity, GetConfig
 so.topic: reference
 ---
+
+# SetConfig(String config)
 
 The JSON-formatted config of this form
 

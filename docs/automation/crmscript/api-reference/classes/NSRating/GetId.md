@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRating_GetId
 title: Integer GetId()
 intellisense: NSRating.GetId
 keywords: NSRating, GetId
 so.topic: reference
 ---
+
+# Integer GetId()
 
 Get the primary key (id) for the NSRating
 

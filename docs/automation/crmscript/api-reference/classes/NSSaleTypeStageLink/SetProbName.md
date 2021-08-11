@@ -6,6 +6,5 @@ keywords: SetProbName(String)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetProbName(String p_0)
 

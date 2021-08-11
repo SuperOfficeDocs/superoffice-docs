@@ -7,10 +7,11 @@ keywords: setType(String)
 so.topic: reference
 ---
 
+# MacroParameter.setType(String p_0)
+
 This function will set the type of the parameter.
 
 ## Available types
-
 
  - AnchorLine
  - InfoFields
@@ -34,5 +35,4 @@ This function will set the type of the parameter.
  - WhereChart
  - ListRecipients
  - EntityCard
-
 

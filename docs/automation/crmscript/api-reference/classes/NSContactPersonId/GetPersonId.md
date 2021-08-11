@@ -7,7 +7,7 @@ keywords: GetPersonId()
 so.topic: reference
 ---
 
+# NSContactPersonId.GetPersonId()
 
 A person id.
-
 

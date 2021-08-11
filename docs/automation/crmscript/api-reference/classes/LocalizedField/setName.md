@@ -7,6 +7,5 @@ keywords: setName(String)
 so.topic: reference
 ---
 
-
-
+# LocalizedField.setName(String p_name)
 

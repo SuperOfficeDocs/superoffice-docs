@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMassOperationResult_SetDeletes
 title: SetDeletes(Integer deletes)
 intellisense: NSMassOperationResult.SetDeletes
 keywords: NSMassOperationResult, GetDeletes
 so.topic: reference
 ---
+
+# SetDeletes(Integer deletes)
 
 Number of rows deleted / zeroed
 

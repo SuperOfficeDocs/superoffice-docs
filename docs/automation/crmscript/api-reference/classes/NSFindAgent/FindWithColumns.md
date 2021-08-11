@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_FindWithColumns
 title: NSFindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, NSArchiveOrderByInfo[] orderBy)
 intellisense: NSFindAgent.FindWithColumns
 keywords: NSFindAgent, FindWithColumns
 so.topic: reference
 ---
+
+# NSFindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, NSArchiveOrderByInfo[] orderBy)
 
 Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters.
 

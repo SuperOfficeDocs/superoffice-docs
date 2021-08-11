@@ -7,6 +7,7 @@ keywords: SetDisplayName(String)
 so.topic: reference
 ---
 
-Short name of rule to display to user
+# NSDuplicateRule.SetDisplayName(String p_0)
 
+Short name of rule to display to user
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_GetType
 title: Integer GetType()
 intellisense: NSAppointmentEntity.GetType
 keywords: NSAppointmentEntity, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual.
 
@@ -25,5 +27,4 @@ The different types of appointment, if the appointment is supposed to be shown i
 NSAppointmentEntity thing;
 Integer type  = thing.GetType();
 ```
-
 

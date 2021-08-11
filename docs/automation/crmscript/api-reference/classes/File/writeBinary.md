@@ -7,9 +7,9 @@ keywords: writeBinary(Byte[])
 so.topic: reference
 ---
 
+# File.writeBinary(Byte[] data)
+
 Write binary data to file.
 
-
 * **data:** Data in a Byte array that you want to write to the file.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProviderInfo_SetSupportsConfig
 title: SetSupportsConfig(Bool supportsConfig)
 intellisense: NSProviderInfo.SetSupportsConfig
 keywords: NSProviderInfo, GetSupportsConfig
 so.topic: reference
 ---
+
+# SetSupportsConfig(Bool supportsConfig)
 
 True if it supports the config parameters to the sending methods
 

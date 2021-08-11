@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersion_GetState
 title: Integer GetState()
 intellisense: NSQuoteVersion.GetState
 keywords: NSQuoteVersion, GetState
 so.topic: reference
 ---
+
+# Integer GetState()
 
 Current state of this quote version.
 
@@ -25,5 +27,4 @@ Current state of this quote version.
 NSQuoteVersion thing;
 Integer state  = thing.GetState();
 ```
-
 

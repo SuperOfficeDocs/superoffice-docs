@@ -6,6 +6,5 @@ keywords: GetDatabaseContextIdentifier()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
 

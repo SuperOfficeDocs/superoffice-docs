@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveCountry
 title: NSCountry SaveCountry(NSCountry country)
 intellisense: NSListAgent.SaveCountry
 keywords: NSListAgent, SaveCountry
 so.topic: reference
 ---
+
+# NSCountry SaveCountry(NSCountry country)
 
 Saves a country
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_GetOrigin
 title: TicketOrigin GetOrigin()
 intellisense: NSTicketEntity.GetOrigin
 keywords: NSTicketEntity, GetOrigin
 so.topic: reference
 ---
+
+# TicketOrigin GetOrigin()
 
 What is the origin of this ticket
 
@@ -28,5 +30,4 @@ What is the origin of this ticket
 NSTicketEntity thing;
 TicketOrigin origin  = thing.GetOrigin();
 ```
-
 

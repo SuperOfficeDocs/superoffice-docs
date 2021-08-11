@@ -6,11 +6,9 @@ keywords: next()
 so.topic: reference
 ---
 
+# StatResult.next()
 
 Move internal iterator to next element.
 
-
-
 * **Returns:** `eof()` after move.
-
 

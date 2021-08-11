@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormEntity_GetType
 title: Integer GetType()
 intellisense: NSFormEntity.GetType
 keywords: NSFormEntity, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 What kind of form is this? Indicates if this is a normal form or a template
 
@@ -17,5 +19,4 @@ What kind of form is this? Indicates if this is a normal form or a template
 NSFormEntity thing;
 Integer type  = thing.GetType();
 ```
-
 

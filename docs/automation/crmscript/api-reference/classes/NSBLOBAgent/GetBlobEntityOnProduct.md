@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct
 title: NSBlobEntity GetBlobEntityOnProduct(Integer productId)
 intellisense: NSBLOBAgent.GetBlobEntityOnProduct
 keywords: NSBLOBAgent, GetBlobEntityOnProduct
 so.topic: reference
 ---
+
+# NSBlobEntity GetBlobEntityOnProduct(Integer productId)
 
 Gets the blob entity that represents the product image binary object.
 

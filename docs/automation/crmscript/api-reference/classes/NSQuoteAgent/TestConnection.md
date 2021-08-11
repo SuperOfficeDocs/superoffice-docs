@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsquoteagent_testconnection
 title: NSPluginResponse TestConnection()
 description: CRMScript method in the NSQuoteAgent class

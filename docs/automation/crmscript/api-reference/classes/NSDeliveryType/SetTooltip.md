@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDeliveryType_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSDeliveryType.SetTooltip
 keywords: NSDeliveryType, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the DeliveryType list item.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchivecolumninfo_setcanorderby
 title: SetCanOrderBy(Bool canOrderBy)
 description: CRMScript method in the NSArchiveColumnInfo class that sets the CanOrderBy property

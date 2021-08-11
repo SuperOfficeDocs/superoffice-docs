@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnection_SetAssociateAccessIds
 title: SetAssociateAccessIds(Integer[] associateAccessIds)
 intellisense: NSErpConnection.SetAssociateAccessIds
 keywords: NSErpConnection, GetAssociateAccessIds
 so.topic: reference
 ---
+
+# SetAssociateAccessIds(Integer[] associateAccessIds)
 
 Array of ids containing associates that will have access to this connection.
 

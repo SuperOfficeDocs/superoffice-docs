@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_EmptyFolder
 title: Void EmptyFolder(NSEMailConnectionInfo connectionInfo, String moveToFolder)
 intellisense: NSEMailAgent.EmptyFolder
 keywords: NSEMailAgent, EmptyFolder
 so.topic: reference
 ---
+
+# Void EmptyFolder(NSEMailConnectionInfo connectionInfo, String moveToFolder)
 
 Delete all items in folder specified in the connection object
 

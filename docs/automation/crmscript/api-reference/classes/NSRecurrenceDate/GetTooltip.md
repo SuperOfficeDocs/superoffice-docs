@@ -6,7 +6,7 @@ keywords: GetTooltip()
 so.topic: reference
 ---
 
+# NSRecurrenceDate.GetTooltip()
 
 Tooltip describing any conflicts.
-
 

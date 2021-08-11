@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_SaveFromSectionAndKey
 title: NSPreferenceDescription SaveFromSectionAndKey(String section, String key, NSPreferenceDescription preferenceDescription)
 intellisense: NSPreferenceAgent.SaveFromSectionAndKey
 keywords: NSPreferenceAgent, SaveFromSectionAndKey
 so.topic: reference
 ---
+
+# NSPreferenceDescription SaveFromSectionAndKey(String section, String key, NSPreferenceDescription preferenceDescription)
 
 Update a NSPreferenceDescription based on the section and key
 

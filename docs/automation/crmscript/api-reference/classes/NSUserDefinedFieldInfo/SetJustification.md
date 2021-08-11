@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_SetJustification
 title: SetJustification(UdefJustification justification)
 intellisense: NSUserDefinedFieldInfo.SetJustification
 keywords: NSUserDefinedFieldInfo, GetJustification
 so.topic: reference
 ---
+
+# SetJustification(UdefJustification justification)
 
 Justification - 0 = default, left, right, center
 

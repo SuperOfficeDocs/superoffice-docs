@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCurrency_GetTooltip
 title: String GetTooltip()
 intellisense: NSCurrency.GetTooltip
 keywords: NSCurrency, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSCurrency list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSCurrency list item.
 NSCurrency thing;
 String descr = thing.GetTooltip();
 ```
-
 

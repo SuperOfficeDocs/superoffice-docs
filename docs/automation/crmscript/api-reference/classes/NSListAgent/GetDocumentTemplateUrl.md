@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetDocumentTemplateUrl
 title: String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUrl, String languageCode)
 intellisense: NSListAgent.GetDocumentTemplateUrl
 keywords: NSListAgent, GetDocumentTemplateUrl
 so.topic: reference
 ---
+
+# String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUrl, String languageCode)
 
 Get a url to the document template
 

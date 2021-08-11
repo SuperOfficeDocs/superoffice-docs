@@ -6,6 +6,5 @@ keywords: GetMonthPattern()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetMonthPattern()
 

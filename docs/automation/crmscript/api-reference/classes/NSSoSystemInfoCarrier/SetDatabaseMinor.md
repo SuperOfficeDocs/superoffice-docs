@@ -6,6 +6,5 @@ keywords: SetDatabaseMinor(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetDatabaseMinor(String p_0)
 

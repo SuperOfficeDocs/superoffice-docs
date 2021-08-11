@@ -7,14 +7,12 @@ keywords: LotsAStandardParameters(Bool,Integer,DateTime,String)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.LotsAStandardParameters(Bool p_0, Integer p_1, DateTime p_2, String p_3)
 
 Sending various parameters
-
-
 
 * **boolArgument:** Some bool argument
 * **integerArgument:** Some integer argument
 * **dateTimeArgument:** Some DateTime argument
 * **stringArgument:** Some string argument
-
 

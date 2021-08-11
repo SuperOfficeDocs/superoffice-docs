@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_GetInvitationStatus
 title: Integer GetInvitationStatus()
 intellisense: NSAppointment.GetInvitationStatus
 keywords: NSAppointment, GetInvitationStatus
 so.topic: reference
 ---
+
+# Integer GetInvitationStatus()
 
 Status if this appointment represents an invitation
 
@@ -25,5 +27,4 @@ Status if this appointment represents an invitation
 NSAppointment thing;
 Integer invitationStatus  = thing.GetInvitationStatus();
 ```
-
 

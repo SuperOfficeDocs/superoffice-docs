@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_GetBestSoLanguageForTemplate
 title: String GetBestSoLanguageForTemplate(Integer personId, Integer templateId)
 intellisense: NSPersonAgent.GetBestSoLanguageForTemplate
 keywords: NSPersonAgent, GetBestSoLanguageForTemplate
 so.topic: reference
 ---
+
+# String GetBestSoLanguageForTemplate(Integer personId, Integer templateId)
 
 Get the best language for this person on this template
 

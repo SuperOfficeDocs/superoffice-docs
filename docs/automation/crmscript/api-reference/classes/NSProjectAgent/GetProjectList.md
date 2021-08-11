@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetProjectList
 title: NSProject[] GetProjectList(Integer[]  projectIds);
 intellisense: NSProjectAgent.GetProjectList
 keywords: NSProjectAgent, GetProjectList
 so.topic: reference
 ---
+
+# NSProject[] GetProjectList(Integer[]  projectIds);
 
 Gets a vector of Project objects.
 

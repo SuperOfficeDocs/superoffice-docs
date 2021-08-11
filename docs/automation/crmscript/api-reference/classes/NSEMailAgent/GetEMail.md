@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEMail
 title: NSEMailEntity GetEMail(Integer id, Bool includeAttachments)
 intellisense: NSEMailAgent.GetEMail
 keywords: NSEMailAgent, GetEMail
 so.topic: reference
 ---
+
+# NSEMailEntity GetEMail(Integer id, Bool includeAttachments)
 
 Get en e-mail based on its primary key in the DB
 

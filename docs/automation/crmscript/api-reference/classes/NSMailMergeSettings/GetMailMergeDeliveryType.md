@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailMergeSettings_GetMailMergeDeliveryType
 title: Integer GetMailMergeDeliveryType()
 intellisense: NSMailMergeSettings.GetMailMergeDeliveryType
 keywords: NSMailMergeSettings, GetMailMergeDeliveryType
 so.topic: reference
 ---
+
+# Integer GetMailMergeDeliveryType()
 
 How the merged document is delivered to the recipients.
 
@@ -22,5 +24,4 @@ How the merged document is delivered to the recipients.
 NSMailMergeSettings thing;
 Integer mailMergeDeliveryType  = thing.GetMailMergeDeliveryType();
 ```
-
 

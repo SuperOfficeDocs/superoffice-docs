@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteria
 title: NSArchiveRestrictionInfo[] GetDynamicSelectionCriteria(Integer selectionId)
 intellisense: NSSelectionAgent.GetDynamicSelectionCriteria
 keywords: NSSelectionAgent, GetDynamicSelectionCriteria
 so.topic: reference
 ---
+
+# NSArchiveRestrictionInfo[] GetDynamicSelectionCriteria(Integer selectionId)
 
 Get the criteria for this dynamic selection.
 

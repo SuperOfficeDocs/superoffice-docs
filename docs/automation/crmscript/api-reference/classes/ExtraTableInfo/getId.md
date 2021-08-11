@@ -7,6 +7,7 @@ keywords: getId()
 so.topic: reference
 ---
 
-This function returns the id of the extratable as an Integer
+# ExtraTableInfo.getId()
 
+This function returns the id of the extratable as an Integer
 

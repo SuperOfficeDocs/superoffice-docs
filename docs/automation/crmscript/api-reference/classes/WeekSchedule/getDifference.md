@@ -6,10 +6,9 @@ keywords: getDifference(DateTime,DateTime)
 so.topic: reference
 ---
 
-
+# WeekSchedule.getDifference(DateTime start, DateTime stop)
    
 **Parameters:**   
  - start: The start of time to count
  - stop: The stop time for counting
-
 

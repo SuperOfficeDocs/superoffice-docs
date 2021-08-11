@@ -7,7 +7,7 @@ keywords: GetSoPrimaryKey()
 so.topic: reference
 ---
 
+# NSDuplicateEntry.GetSoPrimaryKey()
 
 Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems.
-
 

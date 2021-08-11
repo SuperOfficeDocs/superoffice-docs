@@ -6,6 +6,7 @@ keywords: getYear()
 so.topic: reference
 ---
 
-This function will return the year field of the timespan as an integer.
+# TimeSpan.getYear()
 
+This function will return the year field of the timespan as an integer.
 

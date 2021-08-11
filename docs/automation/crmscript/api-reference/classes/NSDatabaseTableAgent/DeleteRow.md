@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_DeleteRow
 title: Void DeleteRow(String tableName, Integer id)
 intellisense: NSDatabaseTableAgent.DeleteRow
 keywords: NSDatabaseTableAgent, DeleteRow
 so.topic: reference
 ---
+
+# Void DeleteRow(String tableName, Integer id)
 
 Delete a row from a table
 

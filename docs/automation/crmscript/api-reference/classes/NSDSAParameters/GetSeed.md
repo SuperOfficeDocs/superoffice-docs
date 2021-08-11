@@ -7,6 +7,5 @@ keywords: GetSeed()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetSeed()
 

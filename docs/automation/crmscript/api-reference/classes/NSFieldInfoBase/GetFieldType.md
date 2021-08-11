@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoBase_GetFieldType
 title: Integer GetFieldType()
 intellisense: NSFieldInfoBase.GetFieldType
 keywords: NSFieldInfoBase, GetFieldType
 so.topic: reference
 ---
+
+# Integer GetFieldType()
 
 What sort of data does this field contain. 1 = int, 2 = short text, ...
 
@@ -31,5 +33,4 @@ What sort of data does this field contain. 1 = int, 2 = short text, ...
 NSFieldInfoBase thing;
 Integer fieldType  = thing.GetFieldType();
 ```
-
 

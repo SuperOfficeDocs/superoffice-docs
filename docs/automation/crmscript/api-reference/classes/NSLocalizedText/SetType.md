@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLocalizedText_SetType
 title: SetType(Integer type)
 intellisense: NSLocalizedText.SetType
 keywords: NSLocalizedText, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 The type of the text string, e.g. Field label, Udef label, etc.
 

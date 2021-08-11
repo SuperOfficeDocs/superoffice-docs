@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SaveUser
 title: NSUser SaveUser(NSUser user);
 intellisense: NSUserAgent.SaveUser
 keywords: NSUserAgent, SaveUser
 so.topic: reference
 ---
+
+# NSUser SaveUser(NSUser user);
 	  
 Updates the existing NSUser or creates a new NSUser if the id parameter is 0
 	  

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsquoteagent_getconnectionconfigfields
 title: StringDictionary GetConnectionConfigFields()
 description: CRMScript method in the NSQuoteAgent class

@@ -7,6 +7,7 @@ keywords: getYear()
 so.topic: reference
 ---
 
-Returns the year part of the DateTime as an integer.
+# DateTime.getYear()
 
+Returns the year part of the DateTime as an integer.
 

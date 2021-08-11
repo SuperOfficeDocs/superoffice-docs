@@ -7,11 +7,9 @@ keywords: GetInteger()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetInteger()
 
 Gets some number. C# int -> C++ long
 
-
-
 * **Returns:** Some number
-
 

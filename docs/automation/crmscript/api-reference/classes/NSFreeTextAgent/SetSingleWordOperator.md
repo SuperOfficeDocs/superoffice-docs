@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeTextAgent_SetSingleWordOperator
 title: Void SetSingleWordOperator(Integer freeTextOperator)
 intellisense: NSFreeTextAgent.SetSingleWordOperator
 keywords: NSFreeTextAgent, SetSingleWordOperator
 so.topic: reference
 ---
+
+# Void SetSingleWordOperator(Integer freeTextOperator)
 
 Sets the operator used when matching single words
 

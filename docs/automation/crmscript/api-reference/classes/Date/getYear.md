@@ -7,10 +7,9 @@ keywords: getYear()
 so.topic: reference
 ---
 
+# Date.getYear()
+
 This function will return the year of this date.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ This function will return the year of this date.
     
     String s = d.getYear().toString();
     print(s); 2014
-
 

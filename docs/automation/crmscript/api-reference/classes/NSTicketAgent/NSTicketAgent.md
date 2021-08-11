@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent
 title: NSTicketAgent
 intellisense: Void.NSTicketAgent
 keywords: NSTicketAgent
 so.topic: reference
 ---
+
+# NSTicketAgent
 
 Agent used for Ticket functions
 

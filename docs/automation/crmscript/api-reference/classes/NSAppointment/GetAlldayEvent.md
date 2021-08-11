@@ -7,7 +7,7 @@ keywords: GetAlldayEvent()
 so.topic: reference
 ---
 
+# NSAppointment.GetAlldayEvent()
 
 Is this an all day event: 0 = No, 1 = Yes
-
 

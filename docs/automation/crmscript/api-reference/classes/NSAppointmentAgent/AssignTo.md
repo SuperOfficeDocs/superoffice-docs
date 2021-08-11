@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_AssignTo
 title: NSAppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
 intellisense: NSAppointmentAgent.AssignTo
 keywords: NSAppointmentAgent, AssignTo
 so.topic: reference
 ---
+
+# NSAppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
 
 Assigning an appointment to another person.
 

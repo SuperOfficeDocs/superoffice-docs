@@ -6,7 +6,7 @@ keywords: SetCompanyCountry(Integer)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyCountry(Integer p_0)
 
 Contains new value for the company country.
-
 

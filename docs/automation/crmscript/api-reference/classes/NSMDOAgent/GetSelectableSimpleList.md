@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMDOAgent_GetSelectableSimpleList
 title: NSSelectableMDOListItem[] GetSelectableSimpleList(String name)
 intellisense: NSMDOAgent.GetSelectableSimpleList
 keywords: NSMDOAgent, GetSelectableSimpleList
 so.topic: reference
 ---
+
+# NSSelectableMDOListItem[] GetSelectableSimpleList(String name)
 
 Method returns a flat Selectable MDO List.
 

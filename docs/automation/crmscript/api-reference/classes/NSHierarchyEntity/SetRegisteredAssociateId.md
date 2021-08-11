@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSHierarchyEntity_SetRegisteredAssociateId
 title: SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSHierarchyEntity.SetRegisteredAssociateId
 keywords: NSHierarchyEntity, GetRegisteredAssociateId
 so.topic: reference
 ---
+
+# SetRegisteredAssociateId(Integer registeredAssociateId)
 
 Registered by whom
 

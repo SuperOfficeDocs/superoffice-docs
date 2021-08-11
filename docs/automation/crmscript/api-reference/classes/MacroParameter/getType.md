@@ -7,12 +7,13 @@ keywords: getType()
 so.topic: reference
 ---
 
+# MacroParameter.getType()
+
 This function returns the type of the parameter.
 
 It is used for displaying correct control in form.
 
 ## Available types
-
 
  - AnchorLine
  - InfoFields
@@ -36,5 +37,4 @@ It is used for displaying correct control in form.
  - WhereChart
  - ListRecipients
  - EntityCard
-
 

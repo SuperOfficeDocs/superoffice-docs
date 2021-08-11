@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nserpsyncagent_createerpactorfromcrm
 title: Bool CreateErpActorFromCrm()
 description: CRMScript method in the NSErpSyncAgent class that creates an ErpActor from a CRM entity.

@@ -6,7 +6,7 @@ keywords: SetTotal(Integer)
 so.topic: reference
 ---
 
+# NSRecipientStatistics.SetTotal(Integer p_0)
 
 Total number of members.
-
 

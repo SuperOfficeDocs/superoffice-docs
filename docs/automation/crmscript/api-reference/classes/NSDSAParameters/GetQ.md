@@ -7,6 +7,5 @@ keywords: GetQ()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetQ()
 

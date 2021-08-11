@@ -6,6 +6,5 @@ keywords: getFieldsJSON()
 so.topic: reference
 ---
 
-
-
+# SearchEngine.getFieldsJSON()
 

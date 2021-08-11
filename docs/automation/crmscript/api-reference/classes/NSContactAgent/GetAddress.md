@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nscontactagent_getaddress
 title: NSAddress GetAddress(Integer contactId)
 description: CRMScript method in the NSContactAgent class that gets a contact's localized address

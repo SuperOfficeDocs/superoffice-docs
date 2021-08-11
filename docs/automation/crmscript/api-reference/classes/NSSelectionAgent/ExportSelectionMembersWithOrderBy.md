@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_ExportSelectionMembersWithOrderBy
 title: Byte[] ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
 intellisense: NSSelectionAgent.ExportSelectionMembersWithOrderBy
 keywords: NSSelectionAgent, ExportSelectionMembersWithOrderBy
 so.topic: reference
 ---
+
+# Byte[] ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
 
 ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.
 

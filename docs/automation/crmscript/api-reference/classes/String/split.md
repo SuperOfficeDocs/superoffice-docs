@@ -6,10 +6,10 @@ keywords: split(String)
 so.topic: reference
 ---
 
-Split a string into an array of strings
+# String.split(String delimiter)
 
+Split a string into an array of strings
 
 * **delimiter:** The value used to split the string
 * **Returns:** Array of substrings
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveRestrictionGroup_SetName
 title: SetName(String name)
 intellisense: NSArchiveRestrictionGroup.SetName
 keywords: NSArchiveRestrictionGroup, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The name of this criteria group
 

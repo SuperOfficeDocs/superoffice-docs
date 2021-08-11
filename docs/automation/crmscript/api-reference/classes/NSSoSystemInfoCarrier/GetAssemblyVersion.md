@@ -6,6 +6,5 @@ keywords: GetAssemblyVersion()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetAssemblyVersion()
 

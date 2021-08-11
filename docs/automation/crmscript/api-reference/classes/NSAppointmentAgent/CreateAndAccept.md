@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_CreateAndAccept
 title: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
 intellisense: NSAppointmentAgent.CreateAndAccept
 keywords: NSAppointmentAgent, CreateAndAccept
 so.topic: reference
 ---
+
+# Void CreateAndAccept(Integer emailItemId, Integer updateMode)
 
 Creating an appointment from an emailItem invitation and accepting it.
 

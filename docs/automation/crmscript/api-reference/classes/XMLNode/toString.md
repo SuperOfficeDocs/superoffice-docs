@@ -6,13 +6,11 @@ keywords: toString(Integer)
 so.topic: reference
 ---
 
+# XMLNode.toString(Integer indent)
+
 Creates a string containing the XMLNode as a formated as a string. Child nodes are also included.
-
-
 
 ## Parameters
 
-
  - indent: the text with a given number of spaces.
-
 

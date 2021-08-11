@@ -6,6 +6,5 @@ keywords: SetIsOnTravel(Bool)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetIsOnTravel(Bool p_0)
 

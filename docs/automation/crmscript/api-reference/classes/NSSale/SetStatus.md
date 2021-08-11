@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSale_SetStatus
 title: SetStatus(Integer status)
 intellisense: NSSale.SetStatus
 keywords: NSSale, GetStatus
 so.topic: reference
 ---
+
+# SetStatus(Integer status)
 
 The sale's status, indicating wether the sale is open, sold or lost.
 

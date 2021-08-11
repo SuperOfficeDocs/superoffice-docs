@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetProjectStatus
 title: NSProjectStatus GetProjectStatus(Integer projectStatusId);
 intellisense: NSListAgent.GetProjectStatus
 keywords: NSListAgent, GetProjectStatus
 so.topic: reference
 ---
+
+# NSProjectStatus GetProjectStatus(Integer projectStatusId);
 
 Gets a NSProjectStatus object.
 

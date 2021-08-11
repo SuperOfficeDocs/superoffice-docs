@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetAppointmentHaveParticipantsWithEmail
 title: Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
 intellisense: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail
 keywords: NSAppointmentAgent, GetAppointmentHaveParticipantsWithEmail
 so.topic: reference
 ---
+
+# Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
 
 GetAppointmentHaveParticipantsWithEmail will check if any of the participants is marked to receive emails on this appointment. If no participants are defined, false will be returned.
 

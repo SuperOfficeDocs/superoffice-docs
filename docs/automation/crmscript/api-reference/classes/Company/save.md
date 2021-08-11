@@ -7,8 +7,9 @@ keywords: save()
 so.topic: reference
 ---
 
+# Company.save()
+
 Saves the object and returns its id.
 
 Returns integer of the company id.
-
 

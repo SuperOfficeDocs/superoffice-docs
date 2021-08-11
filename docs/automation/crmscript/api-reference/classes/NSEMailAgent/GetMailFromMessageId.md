@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetMailFromMessageId
 title: NSEMailEntity GetMailFromMessageId(String messageId)
 intellisense: NSEMailAgent.GetMailFromMessageId
 keywords: NSEMailAgent, GetMailFromMessageId
 so.topic: reference
 ---
+
+# NSEMailEntity GetMailFromMessageId(String messageId)
 
 Get email from db based on Message Id
 

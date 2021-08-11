@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_SaveCredential
 title: Bool SaveCredential(Integer userId, NSCredential credential)
 intellisense: NSUserAgent.SaveCredential
 keywords: NSUserAgent, SaveCredential
 so.topic: reference
 ---
+
+# Bool SaveCredential(Integer userId, NSCredential credential)
 
 Save (adds/replaces) current credential of the same type for the user.
 

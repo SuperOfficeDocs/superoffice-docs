@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetAmountClassEntity
 title: NSAmountClassEntity GetAmountClassEntity(Integer amountClassEntityId);
 intellisense: NSListAgent.GetAmountClassEntity
 keywords: NSListAgent, GetAmountClassEntity
 so.topic: reference
 ---
+
+# NSAmountClassEntity GetAmountClassEntity(Integer amountClassEntityId);
 
 Gets a NSAmountClassEntity object.
 

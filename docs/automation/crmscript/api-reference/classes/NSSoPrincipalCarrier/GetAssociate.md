@@ -6,6 +6,5 @@ keywords: GetAssociate()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetAssociate()
 

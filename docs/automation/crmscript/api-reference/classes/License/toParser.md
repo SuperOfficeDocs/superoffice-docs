@@ -7,13 +7,11 @@ keywords: toParser(Parser)
 so.topic: reference
 ---
 
+# License.toParser(Parser parser)
 
 Deprecated in 7.1.
 
-
 This function will fill a Parser object with License values.
 
-
 * **parser:** The Parser instance to populate with values.
-
 

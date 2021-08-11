@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_ChangePersonRank
 title: Integer ChangePersonRank(Integer personId, Bool moveUp)
 intellisense: NSPersonAgent.ChangePersonRank
 keywords: NSPersonAgent, ChangePersonRank
 so.topic: reference
 ---
+
+# Integer ChangePersonRank(Integer personId, Bool moveUp)
 
 Move one person up or down in the ranking in the Person Archive, if possible.<para/>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).<para/>This method corresponds to the move up/move down functions in the person archive in the contact panel.<para/>This method always affects two records.
 

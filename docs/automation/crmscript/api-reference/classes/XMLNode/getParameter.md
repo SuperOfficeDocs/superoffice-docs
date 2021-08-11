@@ -6,18 +6,13 @@ keywords: getParameter(String)
 so.topic: reference
 ---
 
+# XMLNode.getParameter(String name)
+
 Get a parameter (attribute) from the node with a given name.
-
-
 
 ## Parameters
 
-
  - name: the key to get value of
-
-
-
-
 
 ## Example
     
@@ -28,5 +23,4 @@ Get a parameter (attribute) from the node with a given name.
     print(xml.getParameter("type"));
     
     Prints "object".
-
 

@@ -6,7 +6,7 @@ keywords: SetCompanyBusiness(Integer)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyBusiness(Integer p_0)
 
 Contains new value for company business.
-
 

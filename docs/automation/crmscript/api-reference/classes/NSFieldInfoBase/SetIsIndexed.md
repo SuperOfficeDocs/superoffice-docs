@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoBase_SetIsIndexed
 title: SetIsIndexed(Bool isIndexed)
 intellisense: NSFieldInfoBase.SetIsIndexed
 keywords: NSFieldInfoBase, GetIsIndexed
 so.topic: reference
 ---
+
+# SetIsIndexed(Bool isIndexed)
 
 Is this field indexed? 0 if no, index no. if yes
 

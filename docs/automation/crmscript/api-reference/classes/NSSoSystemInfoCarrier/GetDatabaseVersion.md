@@ -6,6 +6,5 @@ keywords: GetDatabaseVersion()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDatabaseVersion()
 

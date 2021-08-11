@@ -6,14 +6,11 @@ sortOrder: 539
 so.topic: reference
 ---
 
+# Message
 
 Class for representing an eJournal ticket message.
 
-
-
-
 ## Example
-
 
     Message m;
     

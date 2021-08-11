@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetOutputFromBatch
 title: NSStream GetOutputFromBatch(Integer batchTaskId)
 intellisense: NSBLOBAgent.GetOutputFromBatch
 keywords: NSBLOBAgent, GetOutputFromBatch
 so.topic: reference
 ---
+
+# NSStream GetOutputFromBatch(Integer batchTaskId)
 
 Get the output of a batchtask as a stream
 

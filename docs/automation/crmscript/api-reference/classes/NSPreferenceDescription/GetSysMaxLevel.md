@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceDescription_GetSysMaxLevel
 title: Integer GetSysMaxLevel()
 intellisense: NSPreferenceDescription.GetSysMaxLevel
 keywords: NSPreferenceDescription, GetSysMaxLevel
 so.topic: reference
 ---
+
+# Integer GetSysMaxLevel()
 
 Lowest allowed setting level, set by SuperOffice
 
@@ -22,5 +24,4 @@ Lowest allowed setting level, set by SuperOffice
 NSPreferenceDescription thing;
 Integer sysMaxLevel  = thing.GetSysMaxLevel();
 ```
-
 

@@ -7,11 +7,9 @@ keywords: setActiveDate(Date)
 so.topic: reference
 ---
 
+# AppointmentSlicer.setActiveDate(Date d)
 
 Sets the internal iterator to the given date.
 
-
-
  - d: The date to set the internal iterator to.
-
 

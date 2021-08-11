@@ -6,20 +6,13 @@ keywords: addChild(XMLNode)
 so.topic: reference
 ---
 
+# XMLNode.addChild(XMLNode node)
 
 Add one node as a child node of the current node.
 
-
-
-
 ## Parameters
 
-
  - node: The node to be added
-
-
-
-
 
 ## Example
     
@@ -31,5 +24,4 @@ Add one node as a child node of the current node.
     XMLNode xMenu = XMLNode("menu");
     xMenu.setParameter("type", "string");
     xml.addChild(xMenu);
-
 

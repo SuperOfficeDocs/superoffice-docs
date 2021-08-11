@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetFlags
 title: SetFlags(Integer flags)
 intellisense: NSTicketPriorityEntity.SetFlags
 keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference
 ---
+
+# SetFlags(Integer flags)
 
 A bitmask of flags.
 

@@ -7,6 +7,5 @@ keywords: SetY(NSBinary)
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.SetY(NSBinary p_0)
 

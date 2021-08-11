@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketAgent_GetPushNotificationTagsForDevice
 title: String GetPushNotificationTagsForDevice(String deviceIdentifier)
 intellisense: NSPocketAgent.GetPushNotificationTagsForDevice
 keywords: NSPocketAgent, GetPushNotificationTagsForDevice
 so.topic: reference
 ---
+
+# String GetPushNotificationTagsForDevice(String deviceIdentifier)
 
 Retrieve current tag value for a device
 

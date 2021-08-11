@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_RejectWithEmailConfirmation
 title: Void RejectWithEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode)
 intellisense: NSAppointmentAgent.RejectWithEmailConfirmation
 keywords: NSAppointmentAgent, RejectWithEmailConfirmation
 so.topic: reference
 ---
+
+# Void RejectWithEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode)
 
 Rejecting an appointment invitation and send an email confirmation to the meeting organizer.
 

@@ -6,6 +6,7 @@ sortOrder: 354
 so.topic: reference
 ---
 
+# Float
 
 A class for representing floating point numbers as objects.
 Constructor can take a Float, and returns a Float.

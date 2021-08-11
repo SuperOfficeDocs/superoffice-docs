@@ -7,6 +7,5 @@ keywords: SetTableRight(NSTableRight)
 so.topic: reference
 ---
 
-
-
+# NSCarrier.SetTableRight(NSTableRight p_0)
 

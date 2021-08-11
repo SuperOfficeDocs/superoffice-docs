@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemporaryKeyInfo_SetDomain
 title: SetDomain(Integer domain)
 intellisense: NSTemporaryKeyInfo.SetDomain
 keywords: NSTemporaryKeyInfo, GetDomain
 so.topic: reference
 ---
+
+# SetDomain(Integer domain)
 
 The domain for this key. Unknown if key is not valid.
 

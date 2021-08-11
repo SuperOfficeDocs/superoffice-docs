@@ -6,6 +6,5 @@ keywords: SetBusinessId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetBusinessId(Integer p_0)
 

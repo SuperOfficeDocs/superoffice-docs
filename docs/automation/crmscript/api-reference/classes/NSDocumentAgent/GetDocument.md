@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetDocument
 title: NSDocument GetDocument(Integer documentId);
 intellisense: NSDocumentAgent.GetDocument
 keywords: NSDocumentAgent, GetDocument
 so.topic: reference
 ---
+
+# NSDocument GetDocument(Integer documentId);
 
 Gets a NSDocument object.
 

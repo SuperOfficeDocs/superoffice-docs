@@ -7,6 +7,7 @@ keywords: send()
 so.topic: reference
 ---
 
-Sends the email.
+# Email.send()
 
+Sends the email.
 

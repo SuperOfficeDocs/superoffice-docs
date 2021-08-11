@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCheckoutInfo_GetState
 title: Integer GetState()
 intellisense: NSCheckoutInfo.GetState
 keywords: NSCheckoutInfo, GetState
 so.topic: reference
 ---
+
+# Integer GetState()
 
 Checkout state
 
@@ -19,5 +21,4 @@ Checkout state
 NSCheckoutInfo thing;
 Integer state  = thing.GetState();
 ```
-
 

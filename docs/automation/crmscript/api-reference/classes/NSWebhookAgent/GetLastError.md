@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebhookAgent_GetLastError
 title: String GetLastError(Integer webhookId)
 intellisense: NSWebhookAgent.GetLastError
 keywords: NSWebhookAgent, GetLastError
 so.topic: reference
 ---
+
+# String GetLastError(Integer webhookId)
 
 Return the most recent error message received when calling this webhook.
 

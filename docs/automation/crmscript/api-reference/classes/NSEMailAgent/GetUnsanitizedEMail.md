@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedEMail
 title: NSEMailEntity GetUnsanitizedEMail(Integer id, Bool includeAttachments)
 intellisense: NSEMailAgent.GetUnsanitizedEMail
 keywords: NSEMailAgent, GetUnsanitizedEMail
 so.topic: reference
 ---
+
+# NSEMailEntity GetUnsanitizedEMail(Integer id, Bool includeAttachments)
 
 Get en e-mail based on its primary key in the DB. The returned value is not sanitized.
 

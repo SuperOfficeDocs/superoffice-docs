@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_SetAppointmentType
 title: SetAppointmentType(Integer appointmentType)
 intellisense: NSAlarmData.SetAppointmentType
 keywords: NSAlarmData, GetAppointmentType
 so.topic: reference
 ---
+
+# SetAppointmentType(Integer appointmentType)
 
 where=no start time,note,docin, docout 
 

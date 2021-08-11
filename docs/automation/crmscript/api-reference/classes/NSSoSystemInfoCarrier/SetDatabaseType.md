@@ -6,6 +6,5 @@ keywords: SetDatabaseType(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetDatabaseType(String p_0)
 

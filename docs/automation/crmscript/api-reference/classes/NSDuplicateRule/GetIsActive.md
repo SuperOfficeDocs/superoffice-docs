@@ -7,6 +7,7 @@ keywords: GetIsActive()
 so.topic: reference
 ---
 
-Indicating if a rule is current active, and should included in the duplicate detection
+# NSDuplicateRule.GetIsActive()
 
+Indicating if a rule is current active, and should included in the duplicate detection
 

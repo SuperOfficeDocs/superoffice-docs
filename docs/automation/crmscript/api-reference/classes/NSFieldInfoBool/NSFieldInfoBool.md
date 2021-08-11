@@ -6,4 +6,6 @@ keywords: NSFieldInfoBool
 so.topic: reference
 ---
 
+# NSFieldInfoBool
+
 Bool custom database field. Typically rendered as a checkbox.

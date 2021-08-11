@@ -6,11 +6,9 @@ keywords: setFrom(String)
 so.topic: reference
 ---
 
+# SpmShipment.setFrom(String from)
 
 This method sets the from address of the outgoing email. This should be an email address which is imported by eJournal unless you have other reasons to do so.
 
-
-
 * **from:** A string denoting the from address
-
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsappointmentagent_getappointmentlist
 title: NSAppointment[] GetAppointmentList()
 description: CRMScript method in the NSAppointmentAgent class that retrieves an array of NSAppointment objects

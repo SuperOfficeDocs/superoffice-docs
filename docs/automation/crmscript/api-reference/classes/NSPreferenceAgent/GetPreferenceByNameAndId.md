@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferenceByNameAndId
 title: NSPreference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
 intellisense: NSPreferenceAgent.GetPreferenceByNameAndId
 keywords: NSPreferenceAgent, GetPreferenceByNameAndId
 so.topic: reference
 ---
+
+# NSPreference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
 
 Get a preference by name and owner id.
 

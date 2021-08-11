@@ -5,9 +5,9 @@ intellisense: Void.Parser
 so.topic: reference
 ---
 
+# Parser
 
 The Parser class is a template engine. A Parser instance can set template variable values, then parse a formatted string containing template variable placeholders to replace their values.
-
 
 ## Example
     

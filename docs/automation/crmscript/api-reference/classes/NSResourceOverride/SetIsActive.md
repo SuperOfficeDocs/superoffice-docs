@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceOverride_SetIsActive
 title: SetIsActive(Bool isActive)
 intellisense: NSResourceOverride.SetIsActive
 keywords: NSResourceOverride, GetIsActive
 so.topic: reference
 ---
+
+# SetIsActive(Bool isActive)
 
 Is this override active
 

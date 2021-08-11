@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByAssociatesAndState
 title: NSBatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(Integer[] associateIds, Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState
 keywords: NSBatchAgent, GetBatchTaskInfosByAssociatesAndState
 so.topic: reference
 ---
+
+# NSBatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(Integer[] associateIds, Integer state)
 
 Get an array of NSBatchTaskInfo for the provided associate id's and batch task state.
 

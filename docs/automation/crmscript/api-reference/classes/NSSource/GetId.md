@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSource_GetId
 title: Integer GetId()
 intellisense: NSSource.GetId
 keywords: NSSource, GetId
 so.topic: reference
 ---
+
+# Integer GetId()
 
 Get the primary key (id) for the Source
 

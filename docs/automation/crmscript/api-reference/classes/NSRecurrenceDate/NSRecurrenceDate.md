@@ -5,5 +5,6 @@ intellisense: Void.NSRecurrenceDate
 so.topic: reference
 ---
 
+# NSRecurrenceDate
 
 Carrier object for RecurrenceDate.

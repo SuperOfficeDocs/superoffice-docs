@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_ExecuteScriptAsEventByUniqueId
 title: NSEventData ExecuteScriptAsEventByUniqueId(String cRMScriptUniqueId, NSEventData eventData)
 intellisense: NSCRMScriptAgent.ExecuteScriptAsEventByUniqueId
 keywords: NSCRMScriptAgent, ExecuteScriptAsEventByUniqueId
 so.topic: reference
 ---
+
+# NSEventData ExecuteScriptAsEventByUniqueId(String cRMScriptUniqueId, NSEventData eventData)
 
 Execute a CRMScript with event data as input. Returns event data with output variable values.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFields
 title: Bool RemoveStoredFields(String tableName, String context)
 intellisense: NSBulkUpdateAgent.RemoveStoredFields
 keywords: NSBulkUpdateAgent, RemoveStoredFields
 so.topic: reference
 ---
+
+# Bool RemoveStoredFields(String tableName, String context)
 
 Remove the stored settings of the bulk update for this table from this context
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_ToggleQuoteVersionAttachmentIncluded
 title: Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
 intellisense: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded
 keywords: NSQuoteAgent, ToggleQuoteVersionAttachmentIncluded
 so.topic: reference
 ---
+
+# Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
 
 Toggle the 'included' state of a quote version attachment
 

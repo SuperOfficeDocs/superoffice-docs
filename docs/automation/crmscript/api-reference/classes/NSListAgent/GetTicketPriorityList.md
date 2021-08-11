@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetTicketPriorityList
 title: NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
 intellisense: NSListAgent.GetTicketPriorityList
 keywords: NSListAgent, GetTicketPriorityList
 so.topic: reference
 ---
+
+# NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
 
 Gets a vector of NSTicketPriority objects.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfo
 title: NSFieldInfoBase GetCustomFieldInfo(String tableName, String fieldName)
 intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfo
 keywords: NSUserDefinedFieldInfoAgent, GetCustomFieldInfo
 so.topic: reference
 ---
+
+# NSFieldInfoBase GetCustomFieldInfo(String tableName, String fieldName)
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 

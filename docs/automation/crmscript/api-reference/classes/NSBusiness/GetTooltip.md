@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBusiness_GetTooltip
 title: String GetTooltip()
 intellisense: NSBusiness.GetTooltip
 keywords: NSBusiness, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSBusiness list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSBusiness list item.
 NSBusiness thing;
 String descr = thing.GetTooltip();
 ```
-
 

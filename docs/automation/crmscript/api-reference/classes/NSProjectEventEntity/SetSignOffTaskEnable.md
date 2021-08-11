@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEventEntity_SetSignOffTaskEnable
 title: SetSignOffTaskEnable(Bool signOffTaskEnable)
 intellisense: NSProjectEventEntity.SetSignOffTaskEnable
 keywords: NSProjectEventEntity, GetSignOffTaskEnable
 so.topic: reference
 ---
+
+# SetSignOffTaskEnable(Bool signOffTaskEnable)
 
 If not 0, a task should be created when the external user Signs Off an event
 

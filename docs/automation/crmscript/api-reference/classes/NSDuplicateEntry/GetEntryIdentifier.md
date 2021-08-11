@@ -7,7 +7,7 @@ keywords: GetEntryIdentifier()
 so.topic: reference
 ---
 
+# NSDuplicateEntry.GetEntryIdentifier()
 
 String identifier for entry. Typically used to identify an entry in an external system.
-
 

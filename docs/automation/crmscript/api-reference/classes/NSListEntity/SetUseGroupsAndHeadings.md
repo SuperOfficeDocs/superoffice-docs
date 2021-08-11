@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListEntity_SetUseGroupsAndHeadings
 title: SetUseGroupsAndHeadings(Bool useGroupsAndHeadings)
 intellisense: NSListEntity.SetUseGroupsAndHeadings
 keywords: NSListEntity, GetUseGroupsAndHeadings
 so.topic: reference
 ---
+
+# SetUseGroupsAndHeadings(Bool useGroupsAndHeadings)
 
 Indicates if this list should use groups and headings
 

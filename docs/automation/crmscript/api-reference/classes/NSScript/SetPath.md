@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSScript_SetPath
 title: SetPath(String path)
 intellisense: NSScript.SetPath
 keywords: NSScript, GetPath
 so.topic: reference
 ---
+
+# SetPath(String path)
 
 Path to script in the hierarchy.
 

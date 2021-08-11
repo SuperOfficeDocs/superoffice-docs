@@ -7,11 +7,9 @@ keywords: GetChoices()
 so.topic: reference
 ---
 
+# NSFieldInfoLongText.GetChoices()
 
 List of items to choose from. Null = not a dropdown list.
 
-
-
 * **Returns:** StringArray
-
 

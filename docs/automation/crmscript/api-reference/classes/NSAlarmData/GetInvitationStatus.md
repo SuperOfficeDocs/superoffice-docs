@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_GetInvitationStatus
 title: Integer GetInvitationStatus()
 intellisense: NSAlarmData.GetInvitationStatus
 keywords: NSAlarmData, GetInvitationStatus
 so.topic: reference
 ---
+
+# Integer GetInvitationStatus()
 
 Status if this appointment represents an invitation
 
@@ -25,5 +27,4 @@ Status if this appointment represents an invitation
 NSAlarmData thing;
 Integer invitationStatus  = thing.GetInvitationStatus();
 ```
-
 

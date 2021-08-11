@@ -6,4 +6,6 @@ keywords: NSForeignDevice
 so.topic: reference
 ---
 
+# NSForeignDevice
+
 Saves a foreign device belonging to the NSForeignDevice and application name specified.

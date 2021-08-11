@@ -6,7 +6,7 @@ keywords: GetChangeCompanyCountry()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetChangeCompanyCountry()
 
 If true, the country of the company will change.
-
 

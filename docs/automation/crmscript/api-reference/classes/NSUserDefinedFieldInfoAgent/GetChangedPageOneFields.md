@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetChangedPageOneFields
 title: Bool[] GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields
 keywords: NSUserDefinedFieldInfoAgent, GetChangedPageOneFields
 so.topic: reference
 ---
+
+# Bool[] GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
 
 Gets which page one fields have changed from the current version
 

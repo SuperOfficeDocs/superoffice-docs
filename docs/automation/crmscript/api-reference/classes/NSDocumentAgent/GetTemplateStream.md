@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetTemplateStream
 title: NSStream GetTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
 intellisense: NSDocumentAgent.GetTemplateStream
 keywords: NSDocumentAgent, GetTemplateStream
 so.topic: reference
 ---
+
+# NSStream GetTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
 
 Retrieve a stream to a mail template based on its name
 

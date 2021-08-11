@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_CreateAppointmentForUID
 title: NSAppointmentEntity CreateAppointmentForUID(NSAppointmentEntity appointmentEntity, String uID)
 intellisense: NSAppointmentAgent.CreateAppointmentForUID
 keywords: NSAppointmentAgent, CreateAppointmentForUID
 so.topic: reference
 ---
+
+# NSAppointmentEntity CreateAppointmentForUID(NSAppointmentEntity appointmentEntity, String uID)
 
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 

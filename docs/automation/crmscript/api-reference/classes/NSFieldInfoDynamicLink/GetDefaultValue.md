@@ -7,11 +7,9 @@ keywords: GetDefaultValue()
 so.topic: reference
 ---
 
+# NSFieldInfoDynamicLink.GetDefaultValue()
 
 Default attachment id value
 
-
-
 * **Returns:** Integer
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSServiceAuth_SetPort
 title: SetPort(Integer port)
 intellisense: NSServiceAuth.SetPort
 keywords: NSServiceAuth, GetPort
 so.topic: reference
 ---
+
+# SetPort(Integer port)
 
 The server port
 

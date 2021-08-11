@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPerson_SetFormalName
 title: SetFormalName(String formalName)
 intellisense: NSPerson.SetFormalName
 keywords: NSPerson, GetFormalName
 so.topic: reference
 ---
+
+# SetFormalName(String formalName)
 
 Get formal name for a person, as used in labels. (Full name + person title + academic title)
 

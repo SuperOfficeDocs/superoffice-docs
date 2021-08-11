@@ -6,11 +6,9 @@ keywords: getLength()
 so.topic: reference
 ---
 
+# String.getLength()
 
 Returns the length of the string.
 
-
-
 * **Returns:** The length of the string in characters.
-
 

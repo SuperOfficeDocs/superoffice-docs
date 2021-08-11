@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetSortOrder
 title: SetSortOrder(Integer sortOrder)
 intellisense: NSTicketPriorityEntity.SetSortOrder
 keywords: NSTicketPriorityEntity, GetSortOrder
 so.topic: reference
 ---
+
+# SetSortOrder(Integer sortOrder)
 
 Indicates the sort order for this priority. 1 is first, 100 is last
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardTile_SetType
 title: SetType(Integer type)
 intellisense: NSDashboardTile.SetType
 keywords: NSDashboardTile, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 The tile type, what kind of tile this is
 

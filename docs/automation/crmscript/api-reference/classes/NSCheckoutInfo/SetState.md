@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCheckoutInfo_SetState
 title: SetState(Integer state)
 intellisense: NSCheckoutInfo.SetState
 keywords: NSCheckoutInfo, GetState
 so.topic: reference
 ---
+
+# SetState(Integer state)
 
 Checkout state
 

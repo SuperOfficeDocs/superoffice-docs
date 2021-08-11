@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_ValidateProjectEntity
 title: StringDictionary ValidateProjectEntity(ProjectEntity projectEntity)
 intellisense: NSProjectAgent.ValidateProjectEntity
 keywords: NSProjectAgent, ValidateProjectEntity
 so.topic: reference
 ---
+
+# StringDictionary ValidateProjectEntity(ProjectEntity projectEntity)
 
 Check that entity is ready for saving, return error messages by field.
 

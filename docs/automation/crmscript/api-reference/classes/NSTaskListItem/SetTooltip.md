@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTaskListItem_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSTaskListItem.SetTooltip
 keywords: NSTaskListItem, GetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Tooltip or other description
 

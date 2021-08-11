@@ -7,21 +7,16 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# HTTP.setValue(String p_cgiVariable, String p_value)
+
 This function add a cgi variable and its according value to the HTTP request.
 
-
-
 ## Parameters
-
 
  - p\_cgiVariable: The variable to set
  - p\_value: The value
 
-
-
-
 ## Example
-
 
     HTTP h;
     
@@ -34,5 +29,4 @@ This function add a cgi variable and its according value to the HTTP request.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

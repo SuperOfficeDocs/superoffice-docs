@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_HasMXRecord
 title: Bool HasMXRecord(String mailDomain)
 intellisense: NSEMailAgent.HasMXRecord
 keywords: NSEMailAgent, HasMXRecord
 so.topic: reference
 ---
+
+# Bool HasMXRecord(String mailDomain)
 
 Return true if there is one or more MX records in DNS for the given mail domain
 

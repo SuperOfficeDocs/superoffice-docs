@@ -7,20 +7,16 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Company.setValue(String column, String value)
 
 Sets a value in a column of a company.
 
-
-
-
 ## Parameters
-
 
  - String column name
  - String value that should be stored
 
 ## Possible column names
-
 
  - id: Integer, The primary key (auto-incremented)
  - primContact: Integer, The id of the customer who is the primary contact for this company customer.id
@@ -44,11 +40,7 @@ Sets a value in a column of a company.
  - extLastCached: DateTime, When the cached entry was last updated.
  - domain: String, A display version of the company\_domain table for this company.
 
-
-
-
 ## Example
-
 
     Company c;
     
@@ -58,5 +50,4 @@ Sets a value in a column of a company.
     
     c.setValue("name", "Test");
     print(c.getValue("name"));
-
 

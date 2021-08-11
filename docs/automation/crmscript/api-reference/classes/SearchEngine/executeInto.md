@@ -6,9 +6,9 @@ keywords: executeInto(StringMatrix)
 so.topic: reference
 ---
 
+# SearchEngine.executeInto(StringMatrix matrix)
+
 Execute the query and returns the result in the matrix.
 
-
 * **matrix:** The matrix to fill with the resultset
-
 

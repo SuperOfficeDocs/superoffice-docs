@@ -7,9 +7,9 @@ keywords: getDate()
 so.topic: reference
 ---
 
+# DateTime.getDate()
+
 This function returns the date-part, (day of month, month and year) of the object as a variable of type Date.
 
-
 Returns the date part of the DateTime.
-
 

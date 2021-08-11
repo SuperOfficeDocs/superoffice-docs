@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_SetPersonId
 title: SetPersonId(Integer personId)
 intellisense: NSAlarmData.SetPersonId
 keywords: NSAlarmData, GetPersonId
 so.topic: reference
 ---
+
+# SetPersonId(Integer personId)
 
 Person ID of person the appointment is with, may be 0
 

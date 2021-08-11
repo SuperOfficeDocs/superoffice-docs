@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates
 title: NSDuplicateEntry[] GetNameDepartmentDuplicates(String name, String department)
 intellisense: NSContactAgent.GetNameDepartmentDuplicates
 keywords: NSContactAgent, GetNameDepartmentDuplicates
 so.topic: reference
 ---
+
+# NSDuplicateEntry[] GetNameDepartmentDuplicates(String name, String department)
 
 Get duplicates based on the contact name and department
 

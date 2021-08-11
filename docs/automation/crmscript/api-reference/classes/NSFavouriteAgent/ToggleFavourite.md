@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFavouriteAgent_ToggleFavourite
 title: Bool ToggleFavourite(String tableName, Integer recordId, Integer associateId, String extraInfo)
 intellisense: NSFavouriteAgent.ToggleFavourite
 keywords: NSFavouriteAgent, ToggleFavourite
 so.topic: reference
 ---
+
+# Bool ToggleFavourite(String tableName, Integer recordId, Integer associateId, String extraInfo)
 
 Toggle a record in a table as a favourite for an associate
 

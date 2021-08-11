@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields
 title: StringDictionary GetErpConnectionConfigFields()
 description: CRMScript method in the NSErpSyncAgent class that returns the config fields for the connection

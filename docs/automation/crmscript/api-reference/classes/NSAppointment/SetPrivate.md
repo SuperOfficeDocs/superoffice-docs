@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointment_SetPrivate
 title: SetPrivate(AppointmentPrivate private)
 intellisense: NSAppointment.SetPrivate
 keywords: NSAppointment, GetPrivate
 so.topic: reference
 ---
+
+# SetPrivate(AppointmentPrivate private)
 
 Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status
 

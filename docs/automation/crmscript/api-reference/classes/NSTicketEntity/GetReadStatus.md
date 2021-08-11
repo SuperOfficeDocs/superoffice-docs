@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_GetReadStatus
 title: Integer GetReadStatus()
 intellisense: NSTicketEntity.GetReadStatus
 keywords: NSTicketEntity, GetReadStatus
 so.topic: reference
 ---
+
+# Integer GetReadStatus()
 
 Whether the owner has read the ticket or not (red, yellow, green).
 
@@ -19,5 +21,4 @@ Whether the owner has read the ticket or not (red, yellow, green).
 NSTicketEntity thing;
 Integer readStatus  = thing.GetReadStatus();
 ```
-
 

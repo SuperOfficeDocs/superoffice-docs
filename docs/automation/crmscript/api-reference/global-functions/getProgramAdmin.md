@@ -1,4 +1,5 @@
 ---
+title: String getProgramAdmin()
 description: String getProgramAdmin()
 intellisense: Void.getProgramAdmin
 langref: 1
@@ -6,9 +7,8 @@ keywords: getProgramAdmin()
 so.topic: reference
 ---
 
-Returns the url of the program module specified after getProgram.
+# String getProgramAdmin()
 
+Returns the URL of the program module specified after getProgram.
 
-* **Returns:** The url for the given program.
-
-
+* **Returns:** The URL for the given program.

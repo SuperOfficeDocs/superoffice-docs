@@ -6,6 +6,5 @@ keywords: GetCredentialId()
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.GetCredentialId()
 

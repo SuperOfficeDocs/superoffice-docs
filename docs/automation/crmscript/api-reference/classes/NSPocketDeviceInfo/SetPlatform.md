@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketDeviceInfo_SetPlatform
 title: SetPlatform(Integer platform)
 intellisense: NSPocketDeviceInfo.SetPlatform
 keywords: NSPocketDeviceInfo, GetPlatform
 so.topic: reference
 ---
+
+# SetPlatform(Integer platform)
 
 What platform does this device belong to
 

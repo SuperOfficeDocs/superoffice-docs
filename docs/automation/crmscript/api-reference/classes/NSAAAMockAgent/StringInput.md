@@ -7,12 +7,10 @@ keywords: StringInput(String)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.StringInput(String p_0)
 
 Test string input
 
-
-
 * **stringArgument:** Some string argument
 * **Returns:** A void return
-
 

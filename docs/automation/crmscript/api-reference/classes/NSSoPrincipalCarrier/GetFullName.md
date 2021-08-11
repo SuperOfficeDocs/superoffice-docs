@@ -6,6 +6,5 @@ keywords: GetFullName()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetFullName()
 

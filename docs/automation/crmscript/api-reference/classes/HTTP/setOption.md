@@ -7,12 +7,11 @@ keywords: setOption(String,String)
 so.topic: reference
 ---
 
+# HTTP.setOption(String p_name, String p_value)
 
 Option function.
 
-
 Possible values for p\_name and p\_value:
-
 
  - "verifyPeer" - p\_value: bool - verify the peer's SSL sertificate
  - <b>"verifyHost"</b> - p\_value: bool - verify the certificate's name against the host
@@ -31,11 +30,7 @@ Possible values for p\_name and p\_value:
     "none"
 - "parametersUTF8" - p\_value: bool. From version 8.2R3. This option makes the parameters be encoded as UTF-8. Normally this is what you want, but to not break any old uses, this is an optional option.
 
-
-
-
 ## Example
-
 
     HTTP h;
     
@@ -50,7 +45,6 @@ Possible values for p\_name and p\_value:
       print(h.getErrorMessage());
     else
       print(String(b));
-    
 
 /* Here is an example for creating an issue in JIRA, hosted by Atlassian*/
 
@@ -76,5 +70,4 @@ Possible values for p\_name and p\_value:
     h.addHeader("Content-Type", "application/json");
     h.setOption("parameters", json);
     print(String(h.post("https://theInstance.atlassian.net/rest/api/2/issue/")));
-
 

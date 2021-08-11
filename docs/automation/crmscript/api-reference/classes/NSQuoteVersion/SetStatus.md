@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersion_SetStatus
 title: SetStatus(Integer status)
 intellisense: NSQuoteVersion.SetStatus
 keywords: NSQuoteVersion, GetStatus
 so.topic: reference
 ---
+
+# SetStatus(Integer status)
 
 If there was a problem with for instance calculation, this field is set to warning or error.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchiverestrictioninfo_setisactive
 title: SetIsActive(Bool isActive)
 description: CRMScript method in the NSArchiveRestrictionInfo class that activates or deactivates a restriction

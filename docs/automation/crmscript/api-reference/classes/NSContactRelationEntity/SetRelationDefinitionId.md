@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactRelationEntity_SetRelationDefinitionId
 title: SetRelationDefinitionId(Integer relationDefinitionId)
 intellisense: NSContactRelationEntity.SetRelationDefinitionId
 keywords: NSContactRelationEntity, GetRelationDefinitionId
 so.topic: reference
 ---
+
+# SetRelationDefinitionId(Integer relationDefinitionId)
 
 Reference to definition
 

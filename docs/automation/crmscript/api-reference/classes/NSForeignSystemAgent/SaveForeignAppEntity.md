@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsforeignsystemagent_saveforeignappentity
 title: NSForeignAppEntity SaveForeignAppEntity()
 description: CRMScript method in the NSForeignSystemAgent class that creates or updates an NSForeignAppEntity

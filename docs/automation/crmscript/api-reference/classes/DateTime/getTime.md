@@ -7,10 +7,9 @@ keywords: getTime()
 so.topic: reference
 ---
 
+# DateTime.getTime()
+
 This function returns the time-part of the datetime as a Time-object.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ This function returns the time-part of the datetime as a Time-object.
     
     String s = d.getTime().toString();
     print(s);
-
 

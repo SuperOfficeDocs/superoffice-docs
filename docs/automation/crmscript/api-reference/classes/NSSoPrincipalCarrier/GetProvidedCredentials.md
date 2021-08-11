@@ -6,6 +6,5 @@ keywords: GetProvidedCredentials()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetProvidedCredentials()
 

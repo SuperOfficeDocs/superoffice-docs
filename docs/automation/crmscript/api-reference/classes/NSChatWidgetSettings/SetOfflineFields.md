@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_SetOfflineFields
 title: SetOfflineFields(NSWidgetRequiredFields offlineFields)
 intellisense: NSChatWidgetSettings.SetOfflineFields
 keywords: NSChatWidgetSettings, GetOfflineFields
 so.topic: reference
 ---
+
+# SetOfflineFields(NSWidgetRequiredFields offlineFields)
 
 Required field when creating ticket in offline mode
 

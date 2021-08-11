@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectUnpublishedChanges
 title: Bool DetectUnpublishedChanges(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges
 keywords: NSUserDefinedFieldInfoAgent, DetectUnpublishedChanges
 so.topic: reference
 ---
+
+# Bool DetectUnpublishedChanges(Integer ownerType)
 
 Detect changes to the admin version (unpublished)
 

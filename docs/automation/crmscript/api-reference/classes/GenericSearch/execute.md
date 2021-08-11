@@ -7,7 +7,7 @@ keywords: execute()
 so.topic: reference
 ---
 
+# GenericSearch.execute()
 
 Execute the query.
-
 

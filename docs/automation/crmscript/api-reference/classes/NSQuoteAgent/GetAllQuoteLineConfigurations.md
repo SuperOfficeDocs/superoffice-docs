@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetAllQuoteLineConfigurations
 title: NSQuoteLineConfiguration[] GetAllQuoteLineConfigurations()
 intellisense: NSQuoteAgent.GetAllQuoteLineConfigurations
@@ -6,8 +6,9 @@ keywords: NSQuoteAgent, GetAllQuoteLineConfigurations
 so.topic: reference
 ---
 
-Returns all the configuration fields
+# NSQuoteLineConfiguration[] GetAllQuoteLineConfigurations()
 
+Returns all the configuration fields
 
 **Returns:** NSQuoteLineConfiguration[]
 

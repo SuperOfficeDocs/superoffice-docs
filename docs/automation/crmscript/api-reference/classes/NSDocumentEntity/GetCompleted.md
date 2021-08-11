@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_GetCompleted
 title: Integer GetCompleted()
 intellisense: NSDocumentEntity.GetCompleted
 keywords: NSDocumentEntity, GetCompleted
 so.topic: reference
 ---
+
+# Integer GetCompleted()
 
 Document Completed state. This is the part of the Status property. 
 
@@ -19,5 +21,4 @@ Document Completed state. This is the part of the Status property.
 NSDocumentEntity thing;
 Integer completed  = thing.GetCompleted();
 ```
-
 

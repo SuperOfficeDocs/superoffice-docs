@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebPanelEntity_SetIcon
 title: SetIcon(Integer icon)
 intellisense: NSWebPanelEntity.SetIcon
 keywords: NSWebPanelEntity, GetIcon
 so.topic: reference
 ---
+
+# SetIcon(Integer icon)
 
 The icon of the webpanel
 

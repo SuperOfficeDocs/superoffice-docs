@@ -7,7 +7,7 @@ keywords: toInteger()
 so.topic: reference
 ---
 
+# FHBitSet.toInteger()
 
 This function returns the bitset as an integer.
-
 

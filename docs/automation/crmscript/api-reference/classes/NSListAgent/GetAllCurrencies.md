@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetAllCurrencies
 title: NSCurrencyEntity[] GetAllCurrencies(Bool includeDeleted)
 intellisense: NSListAgent.GetAllCurrencies
 keywords: NSListAgent, GetAllCurrencies
 so.topic: reference
 ---
+
+# NSCurrencyEntity[] GetAllCurrencies(Bool includeDeleted)
 
 Returns all currencies
 

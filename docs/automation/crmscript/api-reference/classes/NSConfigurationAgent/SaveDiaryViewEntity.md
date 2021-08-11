@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsconfigurationagent_savediaryviewentity
 title: NSDiaryViewEntity SaveDiaryViewEntity()
 description: CRMScript method in the NSConfigurationAgent class that creates or updates an NSDiaryViewEntity

@@ -7,23 +7,17 @@ keywords: toParser(Parser)
 so.topic: reference
 ---
 
+# Message.toParser(Parser parser)
 
 This function loads many fields of the message to the input parser.
 
-
-
-
 ## Parameters
-
 
  - Parser parser. The parser that the message values is loaded into.
 
-
 The fields will be loaded as: message.value
 
-
 ## Fields that are loaded
-
 
  - message.id, The id of the message
  - message.slevelInteger, The security level of the message Internal = 1, External = 2
@@ -38,5 +32,4 @@ The fields will be loaded as: message.value
  - message.header, The message header
  - message.mailSorter, If this message is a recieved mail, the this is the name of the mail filter that took it.
  - message.x\_myextrafield, The value of the extrafield
-
 

@@ -6,10 +6,9 @@ keywords: sendMessages(String,StringMatrix,Bool,String,Integer,String)
 so.topic: reference
 ---
 
+# Ticket.sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
 
 Will send the given messages just like the forward ticket functionality in the GUI. The forwarded messages are separated by a line, and the comment is placed on top of the mail.
-
-
 
 * **subject:** The mail subject, maybe ticket.title.
 * **recipients:** String matrix with recepients
@@ -19,15 +18,10 @@ Will send the given messages just like the forward ticket functionality in the G
 * **comment:** A comment that will be above the forwarded messages.
 * **Returns:** True if success
 
-
-
-
 ## Format
 
 The recepients string matrix is formatted like this:
 
 To | John Doe \<john.doe@john.doe>
 Cc | jane Doe \<jane.doe@jane.doe>
-
-
 

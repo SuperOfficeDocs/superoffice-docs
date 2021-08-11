@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetProductImage
 title: NSImage GetProductImage(Integer productId)
 intellisense: NSBLOBAgent.GetProductImage
 keywords: NSBLOBAgent, GetProductImage
 so.topic: reference
 ---
+
+# NSImage GetProductImage(Integer productId)
 
 Returns the product image (rank=1) that is displayed in the CRM application.
 

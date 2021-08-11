@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_AcceptRejected
 title: NSAppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.AcceptRejected
 keywords: NSAppointmentAgent, AcceptRejected
 so.topic: reference
 ---
+
+# NSAppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
 
 Accept that an invited participant has rejected your invitation or assignment.
 

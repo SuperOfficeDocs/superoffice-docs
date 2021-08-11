@@ -6,6 +6,5 @@ keywords: GetIsRecurrence()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetIsRecurrence()
 

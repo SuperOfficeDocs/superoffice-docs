@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetCRMUrl
 title: String GetCRMUrl(String soProtocol, String currents, Bool frameless)
 intellisense: NSConfigurationAgent.GetCRMUrl
 keywords: NSConfigurationAgent, GetCRMUrl
 so.topic: reference
 ---
+
+# String GetCRMUrl(String soProtocol, String currents, Bool frameless)
 
 Returns a valid url based in the soprotocol provided
 

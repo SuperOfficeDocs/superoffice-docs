@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReturnInfo_GetType
 title: Integer GetType()
 intellisense: NSReturnInfo.GetType
 keywords: NSReturnInfo, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 How is the return value to be understood by the caller
 
@@ -21,5 +23,4 @@ How is the return value to be understood by the caller
 NSReturnInfo thing;
 Integer type  = thing.GetType();
 ```
-
 

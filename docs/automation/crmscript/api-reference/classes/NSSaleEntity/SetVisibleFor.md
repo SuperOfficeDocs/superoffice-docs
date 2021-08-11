@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetVisibleFor
 title: SetVisibleFor(NSVisibleFor[] visibleFor)
 intellisense: NSSaleEntity.SetVisibleFor
 keywords: NSSaleEntity, SetVisibleFor
 so.topic: reference
 ---
+
+# SetVisibleFor(NSVisibleFor[] visibleFor)
 
 Set the usergroups and/or users the SaleEntity item is visible for.
 

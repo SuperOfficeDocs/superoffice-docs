@@ -6,11 +6,9 @@ keywords: size()
 so.topic: reference
 ---
 
+# Vector.size()
 
 Returns the size of the vector.
 
-
-
 * **Returns:** the size of the vector
-
 

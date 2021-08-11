@@ -6,10 +6,9 @@ keywords: getText()
 so.topic: reference
 ---
 
+# XMLNode.getText()
+
 Get the text between two tags. For example \<TAG>Returns this text\</TAG>
-
-
-
 
 ## Example
     
@@ -19,5 +18,4 @@ Get the text between two tags. For example \<TAG>Returns this text\</TAG>
     xml.setText("Example text");
     
     print(xml.getText());
-
 

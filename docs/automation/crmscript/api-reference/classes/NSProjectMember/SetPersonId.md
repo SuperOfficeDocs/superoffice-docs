@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectMember_SetPersonId
 title: SetPersonId(Integer personId)
 intellisense: NSProjectMember.SetPersonId
 keywords: NSProjectMember, GetPersonId
 so.topic: reference
 ---
+
+# SetPersonId(Integer personId)
 
 The person's id - primary key
 

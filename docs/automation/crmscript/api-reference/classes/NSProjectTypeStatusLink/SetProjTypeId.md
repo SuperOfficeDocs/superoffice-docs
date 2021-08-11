@@ -6,6 +6,5 @@ keywords: SetProjTypeId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.SetProjTypeId(Integer p_0)
 

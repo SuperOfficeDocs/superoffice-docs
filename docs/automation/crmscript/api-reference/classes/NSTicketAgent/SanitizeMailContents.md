@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SanitizeMailContents
 title: String[] SanitizeMailContents(String[] contents)
 intellisense: NSTicketAgent.SanitizeMailContents
 keywords: NSTicketAgent, SanitizeMailContents
 so.topic: reference
 ---
+
+# String[] SanitizeMailContents(String[] contents)
 
 Remove harmful HTML tags and attributes from an email
 

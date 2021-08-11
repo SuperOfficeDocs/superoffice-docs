@@ -6,6 +6,7 @@ keywords: getDay()
 so.topic: reference
 ---
 
-This function will return the day field of the timespan as an integer.
+# TimeSpan.getDay()
 
+This function will return the day field of the timespan as an integer.
 

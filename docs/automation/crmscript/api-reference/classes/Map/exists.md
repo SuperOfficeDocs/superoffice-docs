@@ -7,18 +7,13 @@ keywords: exists(String)
 so.topic: reference
 ---
 
+# Map.exists(String key)
 
 Checks if the given key exists in the map.
 
-
-
-
 ## Parameters
-
 
  - key: The key to check
 
-
 Returns true if the key exists in the map.
-
 

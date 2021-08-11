@@ -7,11 +7,9 @@ keywords: GetStringDescription()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStringDescription()
 
 The sales description
 
-
-
 * **Returns:** String
-
 

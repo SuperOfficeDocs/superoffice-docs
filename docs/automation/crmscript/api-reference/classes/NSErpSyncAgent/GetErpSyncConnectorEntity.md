@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectorEntity
 title: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId);
 intellisense: NSErpSyncAgent.GetErpSyncConnectorEntity
 keywords: NSErpSyncAgent, GetErpSyncConnectorEntity
 so.topic: reference
 ---
+
+# NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId);
 
 Gets a NSErpSyncConnectorEntity object.
 

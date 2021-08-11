@@ -7,12 +7,10 @@ keywords: SetChoices(String[])
 so.topic: reference
 ---
 
+# NSFieldInfoLongText.SetChoices(String[] p_0)
 
 List of items to choose from. Null = not a dropdown list.
 
-
-
 * **Choices:** StringArray
 * **Returns:** StringArray
-
 

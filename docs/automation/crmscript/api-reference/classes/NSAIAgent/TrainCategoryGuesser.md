@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAIAgent_TrainCategoryGuesser
 title: String TrainCategoryGuesser(Integer selectionId, Integer maxItems, Integer maxTextLength)
 intellisense: NSAIAgent.TrainCategoryGuesser
 keywords: NSAIAgent, TrainCategoryGuesser
 so.topic: reference
 ---
+
+# String TrainCategoryGuesser(Integer selectionId, Integer maxItems, Integer maxTextLength)
 
 The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
 

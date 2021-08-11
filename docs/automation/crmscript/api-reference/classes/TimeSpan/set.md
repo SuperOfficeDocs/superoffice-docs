@@ -6,19 +6,15 @@ keywords: set(Integer,Integer,Integer,Integer,Integer)
 so.topic: reference
 ---
 
+# TimeSpan.set(Integer years, Integer days, Integer hours, Integer minutes, Integer seconds)
 
 This function is used to initialize a timespan object.
 
-
-
-
 ## Parameters
-
 
  - years: Number of years
  - days: Number of days
  - hours: Number of hours
  - minutes: Number of minutes
  - seconds: Number of seconds
-
 

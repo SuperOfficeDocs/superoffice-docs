@@ -6,6 +6,5 @@ keywords: SetLicense(NSLicenseInfo)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo p_0)
 

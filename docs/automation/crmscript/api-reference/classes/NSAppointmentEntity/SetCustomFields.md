@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetCustomFields
 title: SetCustomFields(Map udefs)
 intellisense: NSAppointmentEntity.SetCustomFields
 keywords: NSAppointmentEntity, SetCustomFields
 so.topic: reference
 ---
+
+# SetCustomFields(Map udefs)
 
 Set the user-defined and extra fields on a NSAppointmentEntity with a map.
 

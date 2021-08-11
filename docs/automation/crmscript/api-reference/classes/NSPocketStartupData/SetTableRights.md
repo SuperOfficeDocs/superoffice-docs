@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketStartupData_SetTableRights
 title: SetTableRights(Integer[] tableRights)
 intellisense: NSPocketStartupData.SetTableRights
 keywords: NSPocketStartupData, GetTableRights
 so.topic: reference
 ---
+
+# SetTableRights(Integer[] tableRights)
 
 List of tablerights for logged in user, in the same order as the Tables array parameter
 

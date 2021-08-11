@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_SaveEmailToTmpDocument
 title: String SaveEmailToTmpDocument(NSEMailEntity email, Integer folderId, Bool stripAttachments)
 intellisense: NSEMailAgent.SaveEmailToTmpDocument
 keywords: NSEMailAgent, SaveEmailToTmpDocument
 so.topic: reference
 ---
+
+# String SaveEmailToTmpDocument(NSEMailEntity email, Integer folderId, Bool stripAttachments)
 
 Save the Email as a tmp document ready to archive
 

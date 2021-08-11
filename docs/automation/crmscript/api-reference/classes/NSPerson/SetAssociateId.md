@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPerson_SetAssociateId
 title: SetAssociateId(Integer associateId)
 intellisense: NSPerson.SetAssociateId
 keywords: NSPerson, GetAssociateId
 so.topic: reference
 ---
+
+# SetAssociateId(Integer associateId)
 
 Id of the item's owner (Associate id)
 

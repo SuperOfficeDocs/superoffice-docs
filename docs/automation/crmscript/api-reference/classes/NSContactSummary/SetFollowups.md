@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactSummary_SetFollowups
 title: SetFollowups(NSActivitySummaryItem[] followups)
 intellisense: NSContactSummary.SetFollowups
 keywords: NSContactSummary, GetFollowups
 so.topic: reference
 ---
+
+# SetFollowups(NSActivitySummaryItem[] followups)
 
 Recent follow-ups on contact
 

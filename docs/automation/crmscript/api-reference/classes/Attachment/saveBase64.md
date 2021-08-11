@@ -7,13 +7,11 @@ keywords: saveBase64(String)
 so.topic: reference
 ---
 
+# Attachment.saveBase64(String p_0)
+
 This function creates a filename and saves a base64 coded attachment to disk. Returns the actual number of bytes written to disk.
-
-
 
 ## Parameters
 
-
  - p0: The base 64 encoded string to save.
-
 

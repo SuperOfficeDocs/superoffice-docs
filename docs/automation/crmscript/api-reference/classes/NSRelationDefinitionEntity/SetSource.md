@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRelationDefinitionEntity_SetSource
 title: SetSource(Integer source)
 intellisense: NSRelationDefinitionEntity.SetSource
 keywords: NSRelationDefinitionEntity, GetSource
 so.topic: reference
 ---
+
+# SetSource(Integer source)
 
 The source of the relation
 

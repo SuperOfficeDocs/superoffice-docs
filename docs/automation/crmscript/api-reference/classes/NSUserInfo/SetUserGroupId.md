@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserInfo_SetUserGroupId
 title: SetUserGroupId(Integer userGroupId)
 intellisense: NSUserInfo.SetUserGroupId
 keywords: NSUserInfo, GetUserGroupId
 so.topic: reference
 ---
+
+# SetUserGroupId(Integer userGroupId)
 
 Primary group membership, see UserGroupLink for secondary memberships
 

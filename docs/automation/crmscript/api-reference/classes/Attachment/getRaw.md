@@ -7,10 +7,9 @@ keywords: getRaw()
 so.topic: reference
 ---
 
+# Attachment.getRaw()
 
 Get the whole attachment as a String without any special encoding.
 
-
 Returns raw attachment as a String.
-
 

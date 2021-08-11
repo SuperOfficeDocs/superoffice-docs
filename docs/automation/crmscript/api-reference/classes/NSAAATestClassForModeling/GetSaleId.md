@@ -7,11 +7,9 @@ keywords: GetSaleId()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetSaleId()
 
 Primary key
 
-
-
 * **Returns:** Integer
-
 

@@ -6,14 +6,11 @@ sortOrder: 115
 so.topic: reference
 ---
 
+# Attachment
 
 This class is used to handle eJournal attachments.
 
-
-
-
 ## Example
-
 
     Attachment a;
     

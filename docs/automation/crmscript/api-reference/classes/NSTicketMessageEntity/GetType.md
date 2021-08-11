@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketMessageEntity_GetType
 title: TicketMessageType GetType()
 intellisense: NSTicketMessageEntity.GetType
 keywords: NSTicketMessageEntity, GetType
 so.topic: reference
 ---
+
+# TicketMessageType GetType()
 
 The type of the message (plaintext/html).
 
@@ -18,5 +20,4 @@ The type of the message (plaintext/html).
 NSTicketMessageEntity thing;
 TicketMessageType type  = thing.GetType();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCommandInfo_SetDisplayTooltip
 title: SetDisplayTooltip(String displayTooltip)
 intellisense: NSCommandInfo.SetDisplayTooltip
 keywords: NSCommandInfo, GetDisplayTooltip
 so.topic: reference
 ---
+
+# SetDisplayTooltip(String displayTooltip)
 
 Tooltip string associate with the command - can be a literal or a tooltip hint.
 

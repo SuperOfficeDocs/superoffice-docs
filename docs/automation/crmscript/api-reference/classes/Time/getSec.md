@@ -6,10 +6,9 @@ keywords: getSec()
 so.topic: reference
 ---
 
+# Time.getSec()
+
 This function returns the seconds of the time as an Integer.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ This function returns the seconds of the time as an Integer.
     t.setMin(15);
     t.setSec(30);
     Integer i = t.getSec();
-
 

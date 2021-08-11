@@ -7,6 +7,5 @@ keywords: GetFieldProperties()
 so.topic: reference
 ---
 
-
-
+# NSCarrier.GetFieldProperties()
 

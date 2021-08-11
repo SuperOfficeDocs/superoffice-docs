@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_GetChatTranscript
 title: String GetChatTranscript(Integer chatSessionId, Bool html)
 intellisense: NSChatAgent.GetChatTranscript
 keywords: NSChatAgent, GetChatTranscript
 so.topic: reference
 ---
+
+# String GetChatTranscript(Integer chatSessionId, Bool html)
 
 Get the chat transcript, formatted as plain text or html
 

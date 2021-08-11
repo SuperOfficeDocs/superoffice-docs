@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_DeleteDocumentEntity
 title: DeleteDocumentEntity(Integer documentEntity);
 intellisense: NSDocumentAgent.DeleteDocumentEntity
 keywords: NSDocumentAgent, DeleteDocumentEntity
 so.topic: reference
 ---
+
+# DeleteDocumentEntity(Integer documentEntity);
 
 Deletes the NSDocumentEntity
   

@@ -7,6 +7,5 @@ keywords: SetImage(Byte[])
 so.topic: reference
 ---
 
-
-
+# NSImage.SetImage(Byte[] p_0)
 

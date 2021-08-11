@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSale_GetStatus
 title: Integer GetStatus()
 intellisense: NSSale.GetStatus
 keywords: NSSale, GetStatus
 so.topic: reference
 ---
+
+# Integer GetStatus()
 
 The sale's status, indicating wether the sale is open, sold or lost.
 
@@ -21,5 +23,4 @@ The sale's status, indicating wether the sale is open, sold or lost.
 NSSale thing;
 Integer status  = thing.GetStatus();
 ```
-
 

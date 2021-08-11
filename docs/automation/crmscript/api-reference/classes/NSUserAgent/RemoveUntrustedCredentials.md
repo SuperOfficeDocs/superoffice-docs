@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_RemoveUntrustedCredentials
 title: Void RemoveUntrustedCredentials(String type, String publicValue)
 intellisense: NSUserAgent.RemoveUntrustedCredentials
 keywords: NSUserAgent, RemoveUntrustedCredentials
 so.topic: reference
 ---
+
+# Void RemoveUntrustedCredentials(String type, String publicValue)
 
 Remove a credentials entry for authenticated user.
 

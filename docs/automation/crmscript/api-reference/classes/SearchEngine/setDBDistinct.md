@@ -6,7 +6,7 @@ keywords: setDBDistinct(Bool)
 so.topic: reference
 ---
 
+# SearchEngine.setDBDistinct(Bool p_0)
 
 Force SearchEngine to use a distinct in the query.
-
 

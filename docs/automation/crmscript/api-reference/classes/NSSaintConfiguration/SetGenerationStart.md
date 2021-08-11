@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintConfiguration_SetGenerationStart
 title: SetGenerationStart(DateTime generationStart)
 intellisense: NSSaintConfiguration.SetGenerationStart
 keywords: NSSaintConfiguration, GetGenerationStart
 so.topic: reference
 ---
+
+# SetGenerationStart(DateTime generationStart)
 
 When was the last regeneration started
 

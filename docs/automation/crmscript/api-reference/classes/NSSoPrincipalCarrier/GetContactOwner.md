@@ -6,6 +6,5 @@ keywords: GetContactOwner()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetContactOwner()
 

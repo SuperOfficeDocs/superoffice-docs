@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDeliveryTerm_GetValue
 title: String GetValue()
 intellisense: NSDeliveryTerm.GetValue
 keywords: NSDeliveryTerm, GetValue
 so.topic: reference
 ---
+
+# String GetValue()
 
 Get the name of the NSDeliveryTerm.
 

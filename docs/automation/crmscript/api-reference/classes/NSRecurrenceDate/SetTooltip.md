@@ -6,7 +6,7 @@ keywords: SetTooltip(String)
 so.topic: reference
 ---
 
+# NSRecurrenceDate.SetTooltip(String p_0)
 
 Tooltip describing any conflicts.
-
 

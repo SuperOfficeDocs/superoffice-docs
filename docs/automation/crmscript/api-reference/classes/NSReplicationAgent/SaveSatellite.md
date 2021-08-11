@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsreplicationagent_savesatellite
 title: NSSatellite SaveSatellite()
 description: CRMScript method in the NSReplicationAgent class that creates or updates a satellite

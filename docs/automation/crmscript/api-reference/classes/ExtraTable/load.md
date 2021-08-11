@@ -7,26 +7,20 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# ExtraTable.load(Integer id)
+
 Loads the extra table entry with the given id
-
-
 
 ## Parameters
 
-
  - id: Id of the extra table entry you want to load.
-
 
 Returns true if the entry was found and loaded.
 
-
-
 ## Example
-
 
     ExtraTable ex;
     
     Bool b = ex.load(2);
     print(b.toString());
-
 

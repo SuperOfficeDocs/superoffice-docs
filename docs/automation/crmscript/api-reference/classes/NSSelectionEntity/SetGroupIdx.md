@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetGroupIdx
 title: SetGroupIdx(Integer groupIdx)
 intellisense: NSSelectionEntity.SetGroupIdx
 keywords: NSSelectionEntity, GetGroupIdx
 so.topic: reference
 ---
+
+# SetGroupIdx(Integer groupIdx)
 
 Original primary user group of associate
 

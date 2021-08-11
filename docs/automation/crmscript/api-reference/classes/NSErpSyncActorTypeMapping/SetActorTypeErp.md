@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeErp
 title: SetActorTypeErp(NSErpActorType actorTypeErp)
 intellisense: NSErpSyncActorTypeMapping.SetActorTypeErp
 keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference
 ---
+
+# SetActorTypeErp(NSErpActorType actorTypeErp)
 
 The actor type (ERP side)
 

@@ -7,12 +7,9 @@ keywords: getTableName()
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getTableName()
 
 This function returns the name of the table the current field belongs to.
-
-
-
-
 
 ## Example
     
@@ -22,5 +19,4 @@ This function returns the name of the table the current field belongs to.
     print(e.TableName());
     
     Will print "person".
-
 

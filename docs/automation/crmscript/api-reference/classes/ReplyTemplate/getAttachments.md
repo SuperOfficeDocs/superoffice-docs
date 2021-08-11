@@ -6,6 +6,7 @@ keywords: getAttachments(Integer)
 so.topic: reference
 ---
 
-Get all attachment id's belonging to a reply template.
+# ReplyTemplate.getAttachments(Integer p_lang)
 
+Get all attachment id's belonging to a reply template.
 

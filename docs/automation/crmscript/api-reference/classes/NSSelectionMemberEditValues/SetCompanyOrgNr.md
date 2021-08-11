@@ -6,7 +6,7 @@ keywords: SetCompanyOrgNr(String)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyOrgNr(String p_0)
 
 Contains new value for the company VAT number.
-
 

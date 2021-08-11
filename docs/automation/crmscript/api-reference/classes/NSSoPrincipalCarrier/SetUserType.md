@@ -6,6 +6,5 @@ keywords: SetUserType(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetUserType(Integer p_0)
 

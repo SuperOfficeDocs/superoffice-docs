@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_AddLicenseFromFile
 title: NSExtendedLicenseInfo AddLicenseFromFile(String fileContent)
 intellisense: NSLicenseAgent.AddLicenseFromFile
 keywords: NSLicenseAgent, AddLicenseFromFile
 so.topic: reference
 ---
+
+# NSExtendedLicenseInfo AddLicenseFromFile(String fileContent)
 
 Load and activate a new license from file/string if the new license is valid.
 

@@ -7,6 +7,7 @@ keywords: toInteger()
 so.topic: reference
 ---
 
-Returns the element value as an integer.
+# HtmlElement.toInteger()
 
+Returns the element value as an integer.
 

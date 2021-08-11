@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_NormalizeRanks
 title: Bool NormalizeRanks(Integer contactId)
 intellisense: NSPersonAgent.NormalizeRanks
 keywords: NSPersonAgent, NormalizeRanks
 so.topic: reference
 ---
+
+# Bool NormalizeRanks(Integer contactId)
 
 Nomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.
 

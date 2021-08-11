@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveSaleStageEntity
 title: NSSaleStageEntity SaveSaleStageEntity(NSSaleStageEntity saleStageEntity);
 intellisense: NSListAgent.SaveSaleStageEntity
 keywords: NSListAgent, SaveSaleStageEntity
 so.topic: reference
 ---
+
+# NSSaleStageEntity SaveSaleStageEntity(NSSaleStageEntity saleStageEntity);
 	  
 Updates the existing NSSaleStageEntity or creates a new NSSaleStageEntity if the id parameter is 0
 	  

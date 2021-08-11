@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSUserInfo_GetUserType
 title: Integer GetUserType()
 intellisense: NSUserInfo.GetUserType
@@ -6,7 +6,7 @@ keywords: NSUserInfo, GetUserType
 so.topic: reference
 ---
 
-
+# Integer GetUserType()
 
 **Returns:** Integer
 
@@ -21,5 +21,4 @@ so.topic: reference
 NSUserInfo thing;
 Integer userType  = thing.GetUserType();
 ```
-
 

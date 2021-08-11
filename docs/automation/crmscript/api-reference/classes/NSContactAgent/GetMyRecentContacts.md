@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_GetMyRecentContacts
 title: NSContact[] GetMyRecentContacts(Integer sourceType)
 intellisense: NSContactAgent.GetMyRecentContacts
 keywords: NSContactAgent, GetMyRecentContacts
 so.topic: reference
 ---
+
+# NSContact[] GetMyRecentContacts(Integer sourceType)
 
 Method that returns a set of initial contacts. This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
 

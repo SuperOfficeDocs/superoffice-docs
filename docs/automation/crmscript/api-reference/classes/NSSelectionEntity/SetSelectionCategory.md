@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionEntity_SetSelectionCategory
 title: SetSelectionCategory(SelectionCategory selectionCategory)
 intellisense: NSSelectionEntity.SetSelectionCategory
 keywords: NSSelectionEntity, GetSelectionCategory
 so.topic: reference
 ---
+
+# SetSelectionCategory(SelectionCategory selectionCategory)
 
 Selection category type (list item)
 

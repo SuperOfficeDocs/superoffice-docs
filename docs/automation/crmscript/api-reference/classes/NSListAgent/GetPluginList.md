@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetPluginList
 title: StringDictionary GetPluginList()
 intellisense: NSListAgent.GetPluginList
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetPluginList
 so.topic: reference
 ---
 
-Get a list of installed document plugins
+# StringDictionary GetPluginList()
 
+Get a list of installed document plugins
 
 **Returns:** StringDictionary
 

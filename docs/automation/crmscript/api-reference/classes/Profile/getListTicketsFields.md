@@ -6,6 +6,7 @@ keywords: getListTicketsFields(Integer)
 so.topic: reference
 ---
 
+# Profile.getListTicketsFields(Integer p_user)
 
     String[] getListTicketsFields(Integer p_user)
     
@@ -20,7 +21,6 @@ The returned array is on the following form:
 headerField, databaseField, chop, headerField, databaseField, chop, ....
 
 ## Example for use in the constuction script for the Screen Element DataTable
-
 
     Map config = getScreenElementConfig(screenElementIndex);
     Profile p;
@@ -38,14 +38,11 @@ headerField, databaseField, chop, headerField, databaseField, chop, ....
       c++;
     }
     config.insert("fields.length", c.toString());
-    
 
 When using this function with a DataTable, it is important to add a criteria for which language the user has:
-
 
     config.insert("criteria.0.field", "ticket.ticket_status.(ticket_status_lang->ticket_status).language");
     config.insert("criteria.0.operator", "OperatorEquals");
     config.insert("criteria.0.value", getVariable("userLang"));
     config.insert("criteria.length", "1");
-
 

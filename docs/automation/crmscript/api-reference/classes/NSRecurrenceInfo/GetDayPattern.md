@@ -6,6 +6,5 @@ keywords: GetDayPattern()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetDayPattern()
 

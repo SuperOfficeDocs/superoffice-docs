@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_GetLockSemantics
 title: Integer GetLockSemantics()
 intellisense: NSDocumentEntity.GetLockSemantics
@@ -6,7 +6,7 @@ keywords: NSDocumentEntity, GetLockSemantics
 so.topic: reference
 ---
 
-
+# Integer GetLockSemantics()
 
 **Returns:** Integer
 
@@ -18,5 +18,4 @@ so.topic: reference
 NSDocumentEntity thing;
 Integer lockSemantics  = thing.GetLockSemantics();
 ```
-
 

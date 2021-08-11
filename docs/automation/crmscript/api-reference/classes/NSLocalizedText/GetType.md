@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLocalizedText_GetType
 title: Integer GetType()
 intellisense: NSLocalizedText.GetType
 keywords: NSLocalizedText, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 The type of the text string, e.g. Field label, Udef label, etc.
 
@@ -33,5 +35,4 @@ The type of the text string, e.g. Field label, Udef label, etc.
 NSLocalizedText thing;
 Integer type  = thing.GetType();
 ```
-
 

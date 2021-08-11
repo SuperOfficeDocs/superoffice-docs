@@ -7,6 +7,7 @@ keywords: hasError()
 so.topic: reference
 ---
 
-Returns true if there was an error in the environment, false if not.
+# HTTP.hasError()
 
+Returns true if there was an error in the environment, false if not.
 

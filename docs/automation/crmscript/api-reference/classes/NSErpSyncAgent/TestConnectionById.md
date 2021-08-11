@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_TestConnectionById
 title: Bool TestConnectionById(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.TestConnectionById
 keywords: NSErpSyncAgent, TestConnectionById
 so.topic: reference
 ---
+
+# Bool TestConnectionById(Integer erpConnectionId)
 
 Tests to see if we can establish a connection with the given config fields
 

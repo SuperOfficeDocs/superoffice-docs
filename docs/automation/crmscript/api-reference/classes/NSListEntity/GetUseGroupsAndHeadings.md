@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListEntity_GetUseGroupsAndHeadings
 title: Bool GetUseGroupsAndHeadings()
 intellisense: NSListEntity.GetUseGroupsAndHeadings
@@ -6,14 +6,14 @@ keywords: NSListEntity, GetUseGroupsAndHeadings
 so.topic: reference
 ---
 
+# Bool GetUseGroupsAndHeadings()
+
 Indicates if this list should use groups and headings
 
 **Returns:** Bool
-
 
 ```crmscript
 NSListEntity thing;
 Bool useGroupsAndHeadings  = thing.GetUseGroupsAndHeadings();
 ```
-
 

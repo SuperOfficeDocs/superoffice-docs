@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetPreference
 title: NSPreference GetPreference(Integer id)
 intellisense: NSPreferenceAgent.GetPreference
 keywords: NSPreferenceAgent, GetPreference
 so.topic: reference
 ---
+
+# NSPreference GetPreference(Integer id)
 
 Get a preference by id
 

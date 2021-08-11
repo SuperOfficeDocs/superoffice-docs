@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveTicketCategoryEntity
 title: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity);
 intellisense: NSListAgent.SaveTicketCategoryEntity
 keywords: NSListAgent, SaveTicketCategoryEntity
 so.topic: reference
 ---
+
+# NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity);
 	  
 Updates the existing NSTicketCategoryEntity or creates a new NSTicketCategoryEntity if the id parameter is 0
 	  

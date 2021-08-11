@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_SavePrivacyReport
 title: Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
 intellisense: NSDocumentAgent.SavePrivacyReport
 keywords: NSDocumentAgent, SavePrivacyReport
 so.topic: reference
 ---
+
+# Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
 
 Generates a Pdf from HTML and makes a document
 

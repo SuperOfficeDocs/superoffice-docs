@@ -6,6 +6,5 @@ keywords: SetCompanyId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetCompanyId(Integer p_0)
 

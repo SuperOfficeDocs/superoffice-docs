@@ -7,6 +7,5 @@ keywords: GetCounter()
 so.topic: reference
 ---
 
-
-
+# NSDSAParameters.GetCounter()
 

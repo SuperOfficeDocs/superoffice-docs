@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRole_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSRole.SetTooltip
 keywords: NSRole, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the Role list item.
 

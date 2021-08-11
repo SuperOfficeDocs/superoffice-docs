@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_SaveProduct
 title: NSProduct SaveProduct(NSProduct product);
 intellisense: NSQuoteAgent.SaveProduct
 keywords: NSQuoteAgent, SaveProduct
 so.topic: reference
 ---
+
+# NSProduct SaveProduct(NSProduct product);
 	  
 Updates the existing NSProduct or creates a new NSProduct if the id parameter is 0
 	  

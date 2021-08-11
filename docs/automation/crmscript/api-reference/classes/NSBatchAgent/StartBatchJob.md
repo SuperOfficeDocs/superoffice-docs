@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchAgent_StartBatchJob
 title: Integer StartBatchJob(NSBatchTaskInfo batchTaskInfo)
 intellisense: NSBatchAgent.StartBatchJob
 keywords: NSBatchAgent, StartBatchJob
 so.topic: reference
 ---
+
+# Integer StartBatchJob(NSBatchTaskInfo batchTaskInfo)
 
 Start a batch job based on NSBatchTaskInfo.
 

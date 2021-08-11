@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_SetType
 title: SetType(Integer type)
 intellisense: NSUserDefinedFieldInfo.SetType
 keywords: NSUserDefinedFieldInfo, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it's an enum
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_IsPublishEventActive
 title: Bool IsPublishEventActive(Integer type)
 intellisense: NSUserDefinedFieldInfoAgent.IsPublishEventActive
 keywords: NSUserDefinedFieldInfoAgent, IsPublishEventActive
 so.topic: reference
 ---
+
+# Bool IsPublishEventActive(Integer type)
 
 Check if the publish event is active for the given type
 

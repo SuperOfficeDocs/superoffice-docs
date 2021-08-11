@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSViewStateAgent_GetHistoriesByNames
 title: NSHistory[] GetHistoriesByNames(String[] historyNames)
 intellisense: NSViewStateAgent.GetHistoriesByNames
 keywords: NSViewStateAgent, GetHistoriesByNames
 so.topic: reference
 ---
+
+# NSHistory[] GetHistoriesByNames(String[] historyNames)
 
 Returns the named history lists that belong to the currently logged in user
 

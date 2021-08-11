@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsarchivecolumninfo_setisvisible
 title: SetIsVisible(Bool isVisible)
 description: CRMScript method in the NSArchiveColumnInfo class that sets the visibility of the column

@@ -6,14 +6,11 @@ sortOrder: 396
 so.topic: reference
 ---
 
+# HTTP
 
 Class used to retrieve the result of an url
 
-
-
-
 ## Example
-
 
     HTTP h;
     

@@ -6,6 +6,5 @@ keywords: GetCountryId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetCountryId()
 

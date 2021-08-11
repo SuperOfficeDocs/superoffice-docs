@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersionValidated_SetErrorCode
 title: SetErrorCode(String errorCode)
 intellisense: NSQuoteVersionValidated.SetErrorCode
 keywords: NSQuoteVersionValidated, GetErrorCode
 so.topic: reference
 ---
+
+# SetErrorCode(String errorCode)
 
 An error code, if available.
 

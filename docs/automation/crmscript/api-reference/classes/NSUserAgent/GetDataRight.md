@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetDataRight
 title: String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
 intellisense: NSUserAgent.GetDataRight
 keywords: NSUserAgent, GetDataRight
 so.topic: reference
 ---
+
+# String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
 
 Read one specific data right at the given position. An exception will be thrown if non existing position is specified.
 

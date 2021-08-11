@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_SetTicketRead
 title: SetTicketRead(Integer ticketRead)
 intellisense: NSTicketPriorityEntity.SetTicketRead
 keywords: NSTicketPriorityEntity, GetTicketRead
 so.topic: reference
 ---
+
+# SetTicketRead(Integer ticketRead)
 
 This field indicates what to do with the escalation chain when the request is read
 

@@ -7,6 +7,7 @@ keywords: moveToMonthStart()
 so.topic: reference
 ---
 
-This method will move the current DateTime to the first second in the current month. Returns a reference to itself.
+# DateTime.moveToMonthStart()
 
+This method will move the current DateTime to the first second in the current month. Returns a reference to itself.
 

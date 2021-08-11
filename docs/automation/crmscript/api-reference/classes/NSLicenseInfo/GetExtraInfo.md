@@ -6,6 +6,5 @@ keywords: GetExtraInfo()
 so.topic: reference
 ---
 
-
-
+# NSLicenseInfo.GetExtraInfo()
 

@@ -7,6 +7,5 @@ keywords: getTooltip()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getTooltip()
 

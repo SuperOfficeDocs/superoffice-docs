@@ -6,6 +6,7 @@ keywords: toSeconds()
 so.topic: reference
 ---
 
-This function will return the timespan as a number of seconds. A one minute timespan will return 60.
+# TimeSpan.toSeconds()
 
+This function will return the timespan as a number of seconds. A one minute timespan will return 60.
 

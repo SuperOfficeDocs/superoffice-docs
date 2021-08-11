@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEMailAccount
 title: NSEMailAccount GetEMailAccount(Integer eMailAccountId);
 intellisense: NSEMailAgent.GetEMailAccount
 keywords: NSEMailAgent, GetEMailAccount
 so.topic: reference
 ---
+
+# NSEMailAccount GetEMailAccount(Integer eMailAccountId);
 
 Gets a NSEMailAccount object.
 

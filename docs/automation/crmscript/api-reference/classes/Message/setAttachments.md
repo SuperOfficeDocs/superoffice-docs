@@ -7,18 +7,13 @@ keywords: setAttachments(Vector)
 so.topic: reference
 ---
 
+# Message.setAttachments(Vector ids)
 
 This function connects the attachments to the message.
 
-
-
-
 ## Parameters
-
 
  - Vector ids The ids of the attachements
 
-
 NB! You must do a message.save before your do a message.setAttachments
-
 

@@ -7,7 +7,7 @@ keywords: GetAlldayEvent()
 so.topic: reference
 ---
 
+# NSAppointmentEntity.GetAlldayEvent()
 
 True if this is an all day event.
-
 

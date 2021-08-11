@@ -6,12 +6,10 @@ keywords: parseSOMultiLanguageString(Integer)
 so.topic: reference
 ---
 
+# String.parseSOMultiLanguageString(Integer p_0)
 
 Returns the string part of the specified culture from the multi language string.
 These strings are typically used in SuperOffice list and description data.
-
-
-
 
 ## Example
 
@@ -19,10 +17,7 @@ String from PrefDesc table:
 
 US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"
 
-
-
 ## Parameters
-
 
  - language - the follwoing languages are available:
    - Norwegian = 0
@@ -37,5 +32,4 @@ US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"
    - Czech = 9
    - Finnish = 10
    - Polish = 11
-
 

@@ -7,15 +7,13 @@ keywords: update(String,Map,Map)
 so.topic: reference
 ---
 
+# DbConverter.update(String p_0, Map p_1, Map p_2)
+
 This function will update a table row, that's already integrated with CRM. It only updates rows that aren't integrated.
 
-
-
 ## Parameters
-
 
  - p0: p\_table, the table
  - p1:  p\_row, the row data, converted and massaged to fit into the NetServer schema
  - p2: p\_fieldMapping
-
 

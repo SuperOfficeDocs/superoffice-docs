@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormEntity_SetType
 title: SetType(Integer type)
 intellisense: NSFormEntity.SetType
 keywords: NSFormEntity, GetType
 so.topic: reference
 ---
+
+# SetType(Integer type)
 
 What kind of form is this? Indicates if this is a normal form or a template
 

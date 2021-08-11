@@ -6,6 +6,5 @@ keywords: SetPersonId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetPersonId(Integer p_0)
 

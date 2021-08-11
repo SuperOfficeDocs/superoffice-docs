@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_GetDefaultDesiredColumnsFromRestrictions
 title: NSArchiveColumnInfo[] GetDefaultDesiredColumnsFromRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
 intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions
 keywords: NSFindAgent, GetDefaultDesiredColumnsFromRestrictions
 so.topic: reference
 ---
+
+# NSArchiveColumnInfo[] GetDefaultDesiredColumnsFromRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
 
 Calculate the default desired columns, i.e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
 

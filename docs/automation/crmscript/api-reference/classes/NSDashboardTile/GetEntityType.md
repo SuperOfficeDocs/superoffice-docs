@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardTile_GetEntityType
 title: Integer GetEntityType()
 intellisense: NSDashboardTile.GetEntityType
 keywords: NSDashboardTile, GetEntityType
 so.topic: reference
 ---
+
+# Integer GetEntityType()
 
 The tile entity type
 
@@ -24,5 +26,4 @@ The tile entity type
 NSDashboardTile thing;
 Integer entityType  = thing.GetEntityType();
 ```
-
 

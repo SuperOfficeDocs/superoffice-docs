@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_SetContext
 title: SetContext(String context)
 intellisense: NSBatchTaskInfo.SetContext
 keywords: NSBatchTaskInfo, GetContext
 so.topic: reference
 ---
+
+# SetContext(String context)
 
 Context for the executing task.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_DeleteTicketStatusEntity
 title: DeleteTicketStatusEntity(Integer ticketStatusEntity);
 intellisense: NSListAgent.DeleteTicketStatusEntity
 keywords: NSListAgent, DeleteTicketStatusEntity
 so.topic: reference
 ---
+
+# DeleteTicketStatusEntity(Integer ticketStatusEntity);
 
 Deletes the NSTicketStatusEntity
   

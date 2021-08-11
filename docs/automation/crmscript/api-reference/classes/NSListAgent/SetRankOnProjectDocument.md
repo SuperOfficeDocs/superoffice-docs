@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetRankOnProjectDocument
 title: Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, Integer[] itemsIds)
 intellisense: NSListAgent.SetRankOnProjectDocument
 keywords: NSListAgent, SetRankOnProjectDocument
 so.topic: reference
 ---
+
+# Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, Integer[] itemsIds)
 
 Set rank order on project document
 

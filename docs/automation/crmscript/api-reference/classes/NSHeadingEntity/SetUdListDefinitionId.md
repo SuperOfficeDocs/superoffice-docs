@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSHeadingEntity_SetUdListDefinitionId
 title: SetUdListDefinitionId(Integer udListDefinitionId)
 intellisense: NSHeadingEntity.SetUdListDefinitionId
 keywords: NSHeadingEntity, GetUdListDefinitionId
 so.topic: reference
 ---
+
+# SetUdListDefinitionId(Integer udListDefinitionId)
 
 The id of the list which this heading belongs to
 

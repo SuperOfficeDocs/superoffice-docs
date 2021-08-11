@@ -6,7 +6,7 @@ keywords: GetBlockEmarketing()
 so.topic: reference
 ---
 
+# NSPersonEntity.GetBlockEmarketing()
 
 Do not send E-marketing materials to this person
-
 

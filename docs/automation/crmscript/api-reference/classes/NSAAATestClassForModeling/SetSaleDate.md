@@ -7,12 +7,10 @@ keywords: SetSaleDate(DateTime)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetSaleDate(DateTime p_0)
 
 (expected | lost | won) sales date
 
-
-
 * **SaleDate:** DateTime
 * **Returns:** DateTime
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncDefaultValue_SetAccess
 title: SetAccess(NSFieldAccess access)
 intellisense: NSErpSyncDefaultValue.SetAccess
 keywords: NSErpSyncDefaultValue, GetAccess
 so.topic: reference
 ---
+
+# SetAccess(NSFieldAccess access)
 
 Access restrictions for the field
 

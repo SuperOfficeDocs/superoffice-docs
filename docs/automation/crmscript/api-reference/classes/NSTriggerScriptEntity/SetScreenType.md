@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTriggerScriptEntity_SetScreenType
 title: SetScreenType(Integer screenType)
 intellisense: NSTriggerScriptEntity.SetScreenType
 keywords: NSTriggerScriptEntity, GetScreenType
 so.topic: reference
 ---
+
+# SetScreenType(Integer screenType)
 
 Event id that triggers script.  See EventHandlerType enum.
 

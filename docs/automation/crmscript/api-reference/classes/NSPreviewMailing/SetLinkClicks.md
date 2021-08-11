@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewMailing_SetLinkClicks
 title: SetLinkClicks(Integer linkClicks)
 intellisense: NSPreviewMailing.SetLinkClicks
 keywords: NSPreviewMailing, GetLinkClicks
 so.topic: reference
 ---
+
+# SetLinkClicks(Integer linkClicks)
 
 The number of links clicked in the mailing.
 

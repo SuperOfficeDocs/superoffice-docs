@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetMySyncAppointments
 title: AppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
 intellisense: NSAppointmentAgent.GetMySyncAppointments
 keywords: NSAppointmentAgent, GetMySyncAppointments
 so.topic: reference
 ---
+
+# AppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
 
 Method that returns a specified number of appointments within a time range. The appointments belong to the currently logged on user.
 

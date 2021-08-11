@@ -6,12 +6,9 @@ keywords: getName()
 so.topic: reference
 ---
 
+# XMLNode.getName()
 
 Gets the name of the xml tag.
-
-
-
-
 
 ## Example
     
@@ -22,5 +19,4 @@ Gets the name of the xml tag.
     print(xml.getName());
     
     Prints "Root".
-
 

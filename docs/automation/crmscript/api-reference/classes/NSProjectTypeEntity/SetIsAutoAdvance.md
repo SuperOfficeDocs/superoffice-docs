@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectTypeEntity_SetIsAutoAdvance
 title: SetIsAutoAdvance(Bool isAutoAdvance)
 intellisense: NSProjectTypeEntity.SetIsAutoAdvance
 keywords: NSProjectTypeEntity, GetIsAutoAdvance
 so.topic: reference
 ---
+
+# SetIsAutoAdvance(Bool isAutoAdvance)
 
 Does the project status advance automatically, when the last guided activity in a status is completed?
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFormSubmissionEntity_SetContactId
 title: SetContactId(Integer contactId)
 intellisense: NSFormSubmissionEntity.SetContactId
 keywords: NSFormSubmissionEntity, GetContactId
 so.topic: reference
 ---
+
+# SetContactId(Integer contactId)
 
 The optional id of the contact of the person who submitted.
 

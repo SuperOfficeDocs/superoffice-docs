@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPosition_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSPosition.SetTooltip
 keywords: NSPosition, SetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 Set the tooltip description for the NSPosition list item.
 

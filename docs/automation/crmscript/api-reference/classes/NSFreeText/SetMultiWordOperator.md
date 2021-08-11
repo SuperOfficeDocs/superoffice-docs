@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeText_SetMultiWordOperator
 title: SetMultiWordOperator(Integer multiWordOperator)
 intellisense: NSFreeText.SetMultiWordOperator
 keywords: NSFreeText, GetMultiWordOperator
 so.topic: reference
 ---
+
+# SetMultiWordOperator(Integer multiWordOperator)
 
 Starts with, contains or exact match
 

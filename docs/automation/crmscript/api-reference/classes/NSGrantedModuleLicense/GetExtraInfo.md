@@ -7,6 +7,5 @@ keywords: GetExtraInfo()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetExtraInfo()
 

@@ -7,10 +7,9 @@ keywords: setSourcePath(String)
 so.topic: reference
 ---
 
+# MacroParameter.setSourcePath(String p_0)
 
 This function can set the parameter's source path.
 
-
 Examples of source paths: "loadTicket.id", "_environment.entryId"
-
 

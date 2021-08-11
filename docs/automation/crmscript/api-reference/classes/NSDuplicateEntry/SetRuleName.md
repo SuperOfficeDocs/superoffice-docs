@@ -7,8 +7,9 @@ keywords: SetRuleName(String)
 so.topic: reference
 ---
 
+# NSDuplicateEntry.SetRuleName(String p_0)
+
 Identifying name for rule
 
     	///
-
 

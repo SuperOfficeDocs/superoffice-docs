@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatOpeningHours_SetMonStart
 title: SetMonStart(TimeSpan monStart)
 intellisense: NSChatOpeningHours.SetMonStart
 keywords: NSChatOpeningHours, GetMonStart
 so.topic: reference
 ---
+
+# SetMonStart(TimeSpan monStart)
 
 When opening hours start on Mondays. Only time-part is used.
 

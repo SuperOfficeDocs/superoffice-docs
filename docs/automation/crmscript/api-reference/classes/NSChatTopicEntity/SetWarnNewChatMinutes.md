@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatTopicEntity_SetWarnNewChatMinutes
 title: SetWarnNewChatMinutes(Integer warnNewChatMinutes)
 intellisense: NSChatTopicEntity.SetWarnNewChatMinutes
 keywords: NSChatTopicEntity, GetWarnNewChatMinutes
 so.topic: reference
 ---
+
+# SetWarnNewChatMinutes(Integer warnNewChatMinutes)
 
 Contains the user notify time in minutes
 

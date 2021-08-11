@@ -6,17 +6,13 @@ keywords: getPlainBody(Integer)
 so.topic: reference
 ---
 
+# ReplyTemplate.getPlainBody(Integer language)
+
 Returns the Reply template plain text body, in the language given by language
-
-
 
 ## Parameters
 
-
  - language as an integer, see below
-
-
-
 
 ## Languages
 
@@ -26,5 +22,4 @@ German = 2,
 Swedish = 3,
 Danish = 4,
 Dutch = 5,
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_HasNewMail
 title: Bool HasNewMail(Integer mailItemId, Integer folderId)
 intellisense: NSEMailAgent.HasNewMail
 keywords: NSEMailAgent, HasNewMail
 so.topic: reference
 ---
+
+# Bool HasNewMail(Integer mailItemId, Integer folderId)
 
 Fast check for new mail in the database
 

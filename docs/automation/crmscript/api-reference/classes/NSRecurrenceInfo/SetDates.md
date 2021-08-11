@@ -6,6 +6,5 @@ keywords: SetDates(NSRecurrenceDate[])
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetDates(NSRecurrenceDate[] p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersion_SetSentDate
 title: SetSentDate(DateTime sentDate)
 intellisense: NSQuoteVersion.SetSentDate
 keywords: NSQuoteVersion, GetSentDate
 so.topic: reference
 ---
+
+# SetSentDate(DateTime sentDate)
 
 The date the version was sent to the customer.
 

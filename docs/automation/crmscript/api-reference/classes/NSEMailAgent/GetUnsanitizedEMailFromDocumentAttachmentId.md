@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetUnsanitizedEMailFromDocumentAttachmentId
 title: NSEMailEntity GetUnsanitizedEMailFromDocumentAttachmentId(Integer docId, String[] attachmentIds, Bool includeAttachments)
 intellisense: NSEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
 keywords: NSEMailAgent, GetUnsanitizedEMailFromDocumentAttachmentId
 so.topic: reference
 ---
+
+# NSEMailEntity GetUnsanitizedEMailFromDocumentAttachmentId(Integer docId, String[] attachmentIds, Bool includeAttachments)
 
 Get an e-mail based on an email in the archive system and attachment id. The returned value is not sanitized.
 

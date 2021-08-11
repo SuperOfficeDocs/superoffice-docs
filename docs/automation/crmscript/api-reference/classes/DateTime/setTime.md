@@ -7,13 +7,11 @@ keywords: setTime(Time)
 so.topic: reference
 ---
 
+# DateTime.setTime(Time theTime)
+
 Sets the time-part of the datetime
-
-
 
 ## Parameters
 
-
  - theTime: the time to set
-
 

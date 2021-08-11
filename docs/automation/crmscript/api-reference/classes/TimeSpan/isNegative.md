@@ -6,6 +6,7 @@ keywords: isNegative()
 so.topic: reference
 ---
 
-The return value is true if this is a negative timespan, othewise false.
+# TimeSpan.isNegative()
 
+The return value is true if this is a negative timespan, othewise false.
 

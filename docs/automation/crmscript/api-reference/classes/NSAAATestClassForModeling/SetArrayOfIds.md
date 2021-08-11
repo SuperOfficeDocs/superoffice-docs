@@ -7,8 +7,8 @@ keywords: SetArrayOfIds(Integer[])
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetArrayOfIds(Integer[] p_0)
 
 * **ArrayOfIds:** IntegerArray
 * **Returns:** Void
-
 

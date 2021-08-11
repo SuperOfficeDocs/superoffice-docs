@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_SaveStatusMonitor
 title: NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor);
 intellisense: NSSaintAgent.SaveStatusMonitor
 keywords: NSSaintAgent, SaveStatusMonitor
 so.topic: reference
 ---
+
+# NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor);
 	  
 Updates the existing NSStatusMonitor or creates a new NSStatusMonitor if the id parameter is 0
 	  

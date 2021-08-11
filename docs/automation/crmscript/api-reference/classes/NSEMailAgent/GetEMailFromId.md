@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsemailagent_getemailfromid
 title: NSEMailEntity GetEMailFromId()
 description: CRMScript method in the NSEMailAgent class that gets an email based on its unique ID

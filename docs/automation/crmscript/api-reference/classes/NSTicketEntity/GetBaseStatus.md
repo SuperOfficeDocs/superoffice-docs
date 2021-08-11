@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_GetBaseStatus
 title: Integer GetBaseStatus()
 intellisense: NSTicketEntity.GetBaseStatus
 keywords: NSTicketEntity, GetBaseStatus
 so.topic: reference
 ---
+
+# Integer GetBaseStatus()
 
 The status of the ticket. I.e. active/closed/postponed/deleted
 
@@ -21,5 +23,4 @@ The status of the ticket. I.e. active/closed/postponed/deleted
 NSTicketEntity thing;
 Integer baseStatus  = thing.GetBaseStatus();
 ```
-
 

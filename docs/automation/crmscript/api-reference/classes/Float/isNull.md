@@ -7,10 +7,9 @@ keywords: isNull()
 so.topic: reference
 ---
 
+# Float.isNull()
 
 Returns true if the float is NULL/NUL/NIL
 
-
 A NULL/NUL/NIL Float is different from zero, in that it is conceptually without a value. However, when a null Float  is used naively, ejScript is usually forgiving and interprets it as zero.
-
 

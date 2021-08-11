@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSHistoryRequest_SetEntityOrParentId
 title: SetEntityOrParentId(Integer entityOrParentId)
 intellisense: NSHistoryRequest.SetEntityOrParentId
 keywords: NSHistoryRequest, GetEntityOrParentId
 so.topic: reference
 ---
+
+# SetEntityOrParentId(Integer entityOrParentId)
 
 ID of entity to get history for, or parent entity id if requesting insert rights for an entity that has a parent
 

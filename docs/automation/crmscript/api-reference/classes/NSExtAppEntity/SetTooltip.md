@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSExtAppEntity.SetTooltip
 keywords: NSExtAppEntity, GetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 The tooltip of the web panel
 

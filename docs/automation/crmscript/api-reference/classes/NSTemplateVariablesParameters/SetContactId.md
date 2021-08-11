@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateVariablesParameters_SetContactId
 title: SetContactId(Integer contactId)
 intellisense: NSTemplateVariablesParameters.SetContactId
 keywords: NSTemplateVariablesParameters, GetContactId
 so.topic: reference
 ---
+
+# SetContactId(Integer contactId)
 
 Identifier for a contact
 

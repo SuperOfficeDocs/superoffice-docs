@@ -7,13 +7,11 @@ keywords: legalKey()
 so.topic: reference
 ---
 
+# License.legalKey()
 
 Deprecated in 7.1.
 
-
 Determines if a license key is legal or not.
 
-
 * **Returns:** true if the key is legal.
-
 

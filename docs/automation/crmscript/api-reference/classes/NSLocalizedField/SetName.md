@@ -6,7 +6,7 @@ keywords: SetName(String)
 so.topic: reference
 ---
 
+# NSLocalizedField.SetName(String p_0)
 
 Name of the value field
-
 

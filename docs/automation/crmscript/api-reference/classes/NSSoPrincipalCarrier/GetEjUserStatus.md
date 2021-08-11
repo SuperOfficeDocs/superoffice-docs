@@ -6,6 +6,5 @@ keywords: GetEjUserStatus()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetEjUserStatus()
 

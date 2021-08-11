@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCountry_SetThreeLetterISOCountry
 title: SetThreeLetterISOCountry(String threeLetterISOCountry)
 intellisense: NSCountry.SetThreeLetterISOCountry
 keywords: NSCountry, GetThreeLetterISOCountry
 so.topic: reference
 ---
+
+# SetThreeLetterISOCountry(String threeLetterISOCountry)
 
 Three-letter country-code according to ISO3166 
 

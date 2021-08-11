@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketPriorityEntity_GetTicketClosed
 title: Integer GetTicketClosed()
 intellisense: NSTicketPriorityEntity.GetTicketClosed
 keywords: NSTicketPriorityEntity, GetTicketClosed
 so.topic: reference
 ---
+
+# Integer GetTicketClosed()
 
 This field indicates what to do with the escalation chain when the request is closed
 
@@ -19,5 +21,4 @@ This field indicates what to do with the escalation chain when the request is cl
 NSTicketPriorityEntity thing;
 Integer ticketClosed  = thing.GetTicketClosed();
 ```
-
 

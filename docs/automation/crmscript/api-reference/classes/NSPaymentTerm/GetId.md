@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPaymentTerm_GetId
 title: Integer GetId()
 intellisense: NSPaymentTerm.GetId
 keywords: NSPaymentTerm, GetId
 so.topic: reference
 ---
+
+# Integer GetId()
 
 Get the primary key (id) for the NSPaymentTerm
 

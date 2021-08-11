@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_CreateDefaultByContactId
 title: NSPersonEntity CreateDefaultByContactId(Integer contactId)
 intellisense: NSPersonAgent.CreateDefaultByContactId
 keywords: NSPersonAgent, CreateDefaultByContactId
 so.topic: reference
 ---
+
+# NSPersonEntity CreateDefaultByContactId(Integer contactId)
 
 Creates a NSPersonEntity with default values based on the contactId.
 

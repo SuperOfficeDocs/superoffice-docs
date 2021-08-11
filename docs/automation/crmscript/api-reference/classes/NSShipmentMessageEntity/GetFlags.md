@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSShipmentMessageEntity_GetFlags
 title: Integer GetFlags()
 intellisense: NSShipmentMessageEntity.GetFlags
 keywords: NSShipmentMessageEntity, GetFlags
 so.topic: reference
 ---
+
+# Integer GetFlags()
 
 Identifies if HTML or plain message is included in message.
 
@@ -20,5 +22,4 @@ Identifies if HTML or plain message is included in message.
 NSShipmentMessageEntity thing;
 Integer flags  = thing.GetFlags();
 ```
-
 

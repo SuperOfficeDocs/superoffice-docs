@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_GetSize
 title: Integer GetSize()
 intellisense: NSChatWidgetSettings.GetSize
 keywords: NSChatWidgetSettings, GetSize
 so.topic: reference
 ---
+
+# Integer GetSize()
 
 Chat widget size: normal or large.
 
@@ -17,5 +19,4 @@ Chat widget size: normal or large.
 NSChatWidgetSettings thing;
 Integer size  = thing.GetSize();
 ```
-
 

@@ -6,7 +6,7 @@ keywords: SetChangeCompanyBusiness(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool p_0)
 
 If true, the business of the company will change.
-
 

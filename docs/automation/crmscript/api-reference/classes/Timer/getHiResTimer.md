@@ -6,6 +6,7 @@ keywords: getHiResTimer()
 so.topic: reference
 ---
 
-Get a high resolution timer in seconds.
+# Timer.getHiResTimer()
 
+Get a high resolution timer in seconds.
 

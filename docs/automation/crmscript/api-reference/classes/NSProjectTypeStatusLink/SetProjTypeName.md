@@ -6,6 +6,5 @@ keywords: SetProjTypeName(String)
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.SetProjTypeName(String p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveColumnInfo_SetRestrictionType
 title: SetRestrictionType(String restrictionType)
 intellisense: NSArchiveColumnInfo.SetRestrictionType
 keywords: NSArchiveColumnInfo, GetRestrictionType
 so.topic: reference
 ---
+
+# SetRestrictionType(String restrictionType)
 
 The data type of the restriction; use this to retrieve the legal operators for the restriction.
 

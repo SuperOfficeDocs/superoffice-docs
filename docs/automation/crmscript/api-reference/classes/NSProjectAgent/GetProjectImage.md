@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetProjectImage
 title: NSImage GetProjectImage(Integer projectId)
 intellisense: NSProjectAgent.GetProjectImage
 keywords: NSProjectAgent, GetProjectImage
 so.topic: reference
 ---
+
+# NSImage GetProjectImage(Integer projectId)
 
 Returns the project image that is displayed in the CRM application.
 

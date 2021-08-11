@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSentryAgent_GetTableRightByOwnership
 title: NSTableRight GetTableRightByOwnership(String tableName, Integer contactGroupId, Integer contactAssociateId)
 intellisense: NSSentryAgent.GetTableRightByOwnership
 keywords: NSSentryAgent, GetTableRightByOwnership
 so.topic: reference
 ---
+
+# NSTableRight GetTableRightByOwnership(String tableName, Integer contactGroupId, Integer contactAssociateId)
 
 Return the NSTableRight from the relationship between the current user and the given user and group.
 

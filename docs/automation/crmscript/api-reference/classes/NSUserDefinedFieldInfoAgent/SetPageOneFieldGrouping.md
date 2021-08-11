@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPageOneFieldGrouping
 title: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
 intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
 keywords: NSUserDefinedFieldInfoAgent, SetPageOneFieldGrouping
 so.topic: reference
 ---
+
+# Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
 
 Sets the Page One Field grouping for a specific entity
 

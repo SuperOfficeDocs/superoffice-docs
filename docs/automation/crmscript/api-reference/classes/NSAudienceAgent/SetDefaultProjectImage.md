@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceAgent_SetDefaultProjectImage
 title: Void SetDefaultProjectImage(String layoutName, NSImage image)
 intellisense: NSAudienceAgent.SetDefaultProjectImage
 keywords: NSAudienceAgent, SetDefaultProjectImage
 so.topic: reference
 ---
+
+# Void SetDefaultProjectImage(String layoutName, NSImage image)
 
 Stores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.
 

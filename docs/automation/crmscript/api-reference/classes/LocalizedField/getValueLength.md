@@ -7,6 +7,5 @@ keywords: getValueLength()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getValueLength()
 

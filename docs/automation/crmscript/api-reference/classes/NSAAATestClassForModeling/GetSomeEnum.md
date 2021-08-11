@@ -7,7 +7,7 @@ keywords: GetSomeEnum()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetSomeEnum()
 
 * **Returns:** Integer
-
 

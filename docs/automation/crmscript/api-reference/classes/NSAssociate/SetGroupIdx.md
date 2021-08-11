@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAssociate_SetGroupIdx
 title: SetGroupIdx(Integer groupIdx)
 intellisense: NSAssociate.SetGroupIdx
 keywords: NSAssociate, GetGroupIdx
 so.topic: reference
 ---
+
+# SetGroupIdx(Integer groupIdx)
 
 Primary group membership, see UserGroupLink for secondary memberships
 

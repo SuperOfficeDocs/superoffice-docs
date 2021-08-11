@@ -7,7 +7,7 @@ keywords: logout()
 so.topic: reference
 ---
 
+# Customer.logout()
 
 Logs out a customer.
-
 

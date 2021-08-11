@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSImportLine_GetOperation
 title: Integer GetOperation()
 intellisense: NSImportLine.GetOperation
 keywords: NSImportLine, GetOperation
 so.topic: reference
 ---
+
+# Integer GetOperation()
 
 Which operation will be used? This is a read-only property
 
@@ -27,5 +29,4 @@ Which operation will be used? This is a read-only property
 NSImportLine thing;
 Integer operation  = thing.GetOperation();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketInfo_SetTicketId
 title: SetTicketId(Integer ticketId)
 intellisense: NSTicketInfo.SetTicketId
 keywords: NSTicketInfo, GetTicketId
 so.topic: reference
 ---
+
+# SetTicketId(Integer ticketId)
 
 The id of the created ticket
 

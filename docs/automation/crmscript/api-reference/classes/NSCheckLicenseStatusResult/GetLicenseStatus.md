@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
 title: Integer GetLicenseStatus()
 intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
 keywords: NSCheckLicenseStatusResult, GetLicenseStatus
 so.topic: reference
 ---
+
+# Integer GetLicenseStatus()
 
 Result of CheckLicenseStatus 
 
@@ -23,5 +25,4 @@ Result of CheckLicenseStatus
 NSCheckLicenseStatusResult thing;
 Integer licenseStatus  = thing.GetLicenseStatus();
 ```
-
 

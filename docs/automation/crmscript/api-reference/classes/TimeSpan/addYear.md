@@ -6,15 +6,11 @@ keywords: addYear(Integer)
 so.topic: reference
 ---
 
+# TimeSpan.addYear(Integer num)
 
 This function will add the given number of years to the currently set timespan.
 
-
-
-
 ## Parameters
 
-
  - num: Number of years to add to the timespan
-
 

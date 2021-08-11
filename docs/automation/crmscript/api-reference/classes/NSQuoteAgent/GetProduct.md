@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetProduct
 title: NSProduct GetProduct(Integer quoteConnectionId, String eRPProductKey)
 intellisense: NSQuoteAgent.GetProduct
 keywords: NSQuoteAgent, GetProduct
 so.topic: reference
 ---
+
+# NSProduct GetProduct(Integer quoteConnectionId, String eRPProductKey)
 
 Get a product with the given key
 

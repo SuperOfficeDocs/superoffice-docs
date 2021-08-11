@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_DeleteTicketMessageEntity
 title: Void DeleteTicketMessageEntity(Integer ticketMessageEntityId)
 intellisense: NSTicketAgent.DeleteTicketMessageEntity
 keywords: NSTicketAgent, DeleteTicketMessageEntity
 so.topic: reference
 ---
+
+# Void DeleteTicketMessageEntity(Integer ticketMessageEntityId)
 
 Delete a ticket message
 

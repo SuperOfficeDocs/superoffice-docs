@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleSummary_SetOpenWeightedOwnCurrency
 title: SetOpenWeightedOwnCurrency(Float openWeightedOwnCurrency)
 intellisense: NSSaleSummary.SetOpenWeightedOwnCurrency
 keywords: NSSaleSummary, GetOpenWeightedOwnCurrency
 so.topic: reference
 ---
+
+# SetOpenWeightedOwnCurrency(Float openWeightedOwnCurrency)
 
 Weighted sum for all open within the period in default currency for the current user
 

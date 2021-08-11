@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateVariablesParameters_SetSelectionId
 title: SetSelectionId(Integer selectionId)
 intellisense: NSTemplateVariablesParameters.SetSelectionId
 keywords: NSTemplateVariablesParameters, GetSelectionId
 so.topic: reference
 ---
+
+# SetSelectionId(Integer selectionId)
 
 Identifier for a selection
 

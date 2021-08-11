@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldInfoDate_SetIsDefaultNow
 title: SetIsDefaultNow(Bool isDefaultNow)
 intellisense: NSFieldInfoDate.SetIsDefaultNow
 keywords: NSFieldInfoDate, GetIsDefaultNow
 so.topic: reference
 ---
+
+# SetIsDefaultNow(Bool isDefaultNow)
 
 Should the current date be the default?
 

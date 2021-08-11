@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInProjectStage
 title: String[] GetDocumentTemplateUsedInProjectStage(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateUsedInProjectStage
 keywords: NSListAgent, GetDocumentTemplateUsedInProjectStage
 so.topic: reference
 ---
+
+# String[] GetDocumentTemplateUsedInProjectStage(Integer documentTemplateId)
 
 Get a String array of names in project guide that this template is used in
 

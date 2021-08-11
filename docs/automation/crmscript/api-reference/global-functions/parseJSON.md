@@ -1,4 +1,5 @@
 ---
+title: XMLNode parseJSON(String jsonDocument)
 description: XMLNode parseJSON(String jsonDocument)
 intellisense: Void.parseJSON
 langref: 1
@@ -6,16 +7,13 @@ keywords: parseJSON(String)
 so.topic: reference
 ---
 
+# XMLNode parseJSON(String jsonDocument)
 
-Parse an JSON document and generate a tree of XMLNode's.
-
+Parse a JSON document and generate a tree of XMLNode's.
 
 NOTE: This function has a bug. Empty arrays will still return one child. We recommend using `parseJSON2()` instead where this bug has been fixed. Except for the fix, the function is identical. It is available from 8.4R03.
 
-
-
 ## Example
-
 
     String jsonString = "{\"menu\": {\"liste\": [ \"1\", \"2\", \"3\", true, 123, 1.23 ],\"id\": \"file\",\"value\": \"File\",\"tall\": 1.234567,\"sant\": true,\"usant\": false,\"tom\": null,\"popup\": {\"menuitem\": [{\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},{\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}]}}}";
     
@@ -25,7 +23,6 @@ NOTE: This function has a bug. Empty arrays will still return one child. We reco
     /*
 
 For example the following JSON document:
-
 
     {"menu": {
       "liste": [ "1", "2", "3", true, 123, 1.23 ],
@@ -43,7 +40,6 @@ For example the following JSON document:
         ]
       }
     }}
-    
 
 **Is converted to:**
 
@@ -82,5 +78,3 @@ For example the following JSON document:
   \</menu>
 \</root>
 */
-
-

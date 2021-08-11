@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEntity_GetExtraFields
 title: Map GetExtraFields()
 intellisense: NSProjectEntity.GetExtraFields
 keywords: NSProjectEntity, GetExtraFields
 so.topic: reference
 ---
+
+# Map GetExtraFields()
 
 Get the extra fields on ProjectEntity as a map.
 

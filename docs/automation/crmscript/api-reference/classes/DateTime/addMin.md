@@ -7,16 +7,13 @@ keywords: addMin(Integer)
 so.topic: reference
 ---
 
+# DateTime.addMin(Integer num)
+
 Adds num minutes to the time and returns the datetime.
-
-
 
 ## Parameters
 
-
  - num: the number of minutes to add.
 
-
 Returns a copy of the datetime after adding the wanted minutes
-
 

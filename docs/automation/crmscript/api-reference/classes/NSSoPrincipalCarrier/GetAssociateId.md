@@ -6,6 +6,5 @@ keywords: GetAssociateId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetAssociateId()
 

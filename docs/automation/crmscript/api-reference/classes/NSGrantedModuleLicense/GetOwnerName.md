@@ -7,6 +7,5 @@ keywords: GetOwnerName()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetOwnerName()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailAddress
 title: NSEMailAddress CreateDefaultEMailAddress()
 intellisense: NSEMailAgent.CreateDefaultEMailAddress
 keywords: NSEMailAgent, CreateDefaultEMailAddress
 so.topic: reference
 ---
+
+# NSEMailAddress CreateDefaultEMailAddress()
 	  
 Set default values into a new NSEMailAddress.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

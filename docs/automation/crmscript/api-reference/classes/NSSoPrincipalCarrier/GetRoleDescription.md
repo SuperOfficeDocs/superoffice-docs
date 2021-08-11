@@ -6,6 +6,5 @@ keywords: GetRoleDescription()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetRoleDescription()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSuggestedAppointment_SetDuration
 title: SetDuration(Integer duration)
 intellisense: NSSuggestedAppointment.SetDuration
 keywords: NSSuggestedAppointment, GetDuration
 so.topic: reference
 ---
+
+# SetDuration(Integer duration)
 
 Duration in minutes of suggested appointment
 

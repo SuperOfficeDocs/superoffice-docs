@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetDeviceByName
 title: NSForeignDevice GetDeviceByName(String applicationName, String deviceName)
 intellisense: NSForeignSystemAgent.GetDeviceByName
 keywords: NSForeignSystemAgent, GetDeviceByName
 so.topic: reference
 ---
+
+# NSForeignDevice GetDeviceByName(String applicationName, String deviceName)
 
 Gets a NSForeignDevice with deviceName that belongs to the application with applicationName.
 

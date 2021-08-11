@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentPreview_SetName
 title: SetName(String name)
 intellisense: NSDocumentPreview.SetName
 keywords: NSDocumentPreview, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The documents name
 

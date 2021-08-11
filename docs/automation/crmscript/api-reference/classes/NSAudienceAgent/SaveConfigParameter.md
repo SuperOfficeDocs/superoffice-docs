@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceAgent_SaveConfigParameter
 title: NSAudienceConfigParameter SaveConfigParameter(String layoutName, NSAudienceConfigParameter configParameter)
 intellisense: NSAudienceAgent.SaveConfigParameter
 keywords: NSAudienceAgent, SaveConfigParameter
 so.topic: reference
 ---
+
+# NSAudienceConfigParameter SaveConfigParameter(String layoutName, NSAudienceConfigParameter configParameter)
 
 Saves an Audience configuration parameter belonging to a Audience layout
 

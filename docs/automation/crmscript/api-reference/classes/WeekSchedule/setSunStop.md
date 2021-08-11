@@ -6,15 +6,11 @@ keywords: setSunStop(Time)
 so.topic: reference
 ---
 
+# WeekSchedule.setSunStop(Time t)
 
 This function sets the end time (object) of "active" mode for Sunday.
 
-
-
-
 ## Parameters
 
-
  - time: a time object set to desired end time
-
 

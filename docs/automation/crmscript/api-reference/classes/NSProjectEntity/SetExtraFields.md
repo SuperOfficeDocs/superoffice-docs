@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectEntity_SetExtraFields
 title: SetExtraFields(Map extras)
 intellisense: NSProjectEntity.SetExtraFields
 keywords: NSProjectEntity, SetExtraFields
 so.topic: reference
 ---
+
+# SetExtraFields(Map extras)
 
 Set the extra field values on ProjectEntity with a map.
 

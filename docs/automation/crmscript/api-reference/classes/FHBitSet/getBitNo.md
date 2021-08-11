@@ -7,13 +7,11 @@ keywords: getBitNo(Integer)
 so.topic: reference
 ---
 
+# FHBitSet.getBitNo(Integer number)
+
 This function returns true if a specified bit is set, false if not.
-
-
 
 ## Parameters
 
-
  - number: Bit number to check (0-31)
-
 

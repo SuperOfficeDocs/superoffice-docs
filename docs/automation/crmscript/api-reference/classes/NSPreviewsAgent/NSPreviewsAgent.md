@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewsAgent
 title: NSPreviewsAgent
 intellisense: Void.NSPreviewsAgent
 keywords: NSPreviewsAgent
 so.topic: reference
 ---
+
+# NSPreviewsAgent
 
 Get preview strings from a hint
 

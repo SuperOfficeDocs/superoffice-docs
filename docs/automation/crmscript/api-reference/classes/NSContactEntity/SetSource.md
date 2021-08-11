@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactEntity_SetSource
 title: SetSource(Integer source)
 intellisense: NSContactEntity.SetSource
 keywords: NSContactEntity, GetSource
 so.topic: reference
 ---
+
+# SetSource(Integer source)
 
 How did we get this contact? For future integration needs
 

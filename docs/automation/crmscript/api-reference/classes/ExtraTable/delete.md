@@ -7,6 +7,7 @@ keywords: delete()
 so.topic: reference
 ---
 
-This function deletes the loaded object.
+# ExtraTable.delete()
 
+This function deletes the loaded object.
 

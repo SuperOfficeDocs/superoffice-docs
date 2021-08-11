@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuotePublishDocuments_SetQuotedProductsId
 title: SetQuotedProductsId(Integer quotedProductsId)
 intellisense: NSQuotePublishDocuments.SetQuotedProductsId
 keywords: NSQuotePublishDocuments, GetQuotedProductsId
 so.topic: reference
 ---
+
+# SetQuotedProductsId(Integer quotedProductsId)
 
 Quoted products (quote lines or confirmation lines) document, as PDF
 

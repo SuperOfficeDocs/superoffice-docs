@@ -6,11 +6,9 @@ keywords: delete()
 so.topic: reference
 ---
 
+# SpmStaticList.delete()
 
 This method will delete a static list. If the list is in use by a shipment, the list will not be deleted.
 
-
-
 * **Returns:** Indicates if the list was actually deleted or not
-
 

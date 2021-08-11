@@ -7,7 +7,7 @@ keywords: clear()
 so.topic: reference
 ---
 
+# AppointmentSlicer.clear()
 
 Clears all the added appointments from the instance.
-
 

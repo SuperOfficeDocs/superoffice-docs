@@ -6,13 +6,11 @@ keywords: substitute(String,String)
 so.topic: reference
 ---
 
+# String.substitute(String src, String dest)
 
 Replace a substring with a new substring. All occurences will be replaced.
-
-
 
 * **src:** Substring to search for.
 * **dest:** Substring to replace/substitute with.
 * **Returns:** The substituted string
-
 

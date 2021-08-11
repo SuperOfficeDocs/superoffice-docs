@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatAgent_RejectChatSessionTransfer
 title: NSChatSessionEntity RejectChatSessionTransfer(Integer chatSessionId)
 intellisense: NSChatAgent.RejectChatSessionTransfer
 keywords: NSChatAgent, RejectChatSessionTransfer
 so.topic: reference
 ---
+
+# NSChatSessionEntity RejectChatSessionTransfer(Integer chatSessionId)
 
 Do not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.
 

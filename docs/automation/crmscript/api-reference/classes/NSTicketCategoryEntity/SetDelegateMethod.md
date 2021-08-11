@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketCategoryEntity_SetDelegateMethod
 title: SetDelegateMethod(Integer delegateMethod)
 intellisense: NSTicketCategoryEntity.SetDelegateMethod
 keywords: NSTicketCategoryEntity, GetDelegateMethod
 so.topic: reference
 ---
+
+# SetDelegateMethod(Integer delegateMethod)
 
 An integer indicating the delegation method for this category.
 

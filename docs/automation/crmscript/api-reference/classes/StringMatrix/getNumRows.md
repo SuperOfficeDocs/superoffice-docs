@@ -6,7 +6,7 @@ keywords: getNumRows()
 so.topic: reference
 ---
 
+# StringMatrix.getNumRows()
 
 * **Returns:** The number of rows in the matrix.
-
 

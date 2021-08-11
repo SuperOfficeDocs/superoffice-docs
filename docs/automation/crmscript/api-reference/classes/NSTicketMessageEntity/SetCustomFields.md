@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketMessageEntity_SetCustomFields
 title: SetCustomFields(Map udefs)
 intellisense: NSTicketMessageEntity.SetCustomFields
 keywords: NSTicketMessageEntity, SetCustomFields
 so.topic: reference
 ---
+
+# SetCustomFields(Map udefs)
 
 Set the user-defined and extra fields on a TicketMessageEntity with a map.
 

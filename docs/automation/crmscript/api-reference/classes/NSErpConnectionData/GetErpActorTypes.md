@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnectionData_GetErpActorTypes
 title: NSErpActorType[] GetErpActorTypes()
 intellisense: NSErpConnectionData.GetErpActorTypes
 keywords: NSErpConnectionData, GetErpActorTypes
 so.topic: reference
 ---
+
+# NSErpActorType[] GetErpActorTypes()
 
 Contains all mapped NSErpActorType for this NSCrmActorType
 
@@ -23,5 +25,4 @@ Contains all mapped NSErpActorType for this NSCrmActorType
 NSErpConnectionData thing;
 NSErpActorType[] erpActorTypes  = thing.GetErpActorTypes();
 ```
-
 

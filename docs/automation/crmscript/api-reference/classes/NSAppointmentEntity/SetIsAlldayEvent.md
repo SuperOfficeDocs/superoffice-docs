@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetIsAlldayEvent
 title: SetIsAlldayEvent(Bool isAlldayEvent)
 intellisense: NSAppointmentEntity.SetIsAlldayEvent
 keywords: NSAppointmentEntity, GetIsAlldayEvent
 so.topic: reference
 ---
+
+# SetIsAlldayEvent(Bool isAlldayEvent)
 
 True if all day event
 

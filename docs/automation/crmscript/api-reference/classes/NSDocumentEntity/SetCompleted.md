@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetCompleted
 title: SetCompleted(Integer completed)
 intellisense: NSDocumentEntity.SetCompleted
 keywords: NSDocumentEntity, GetCompleted
 so.topic: reference
 ---
+
+# SetCompleted(Integer completed)
 
 Document Completed state. This is the part of the Status property. 
 

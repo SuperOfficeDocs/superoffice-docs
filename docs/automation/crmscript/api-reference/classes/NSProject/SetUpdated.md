@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProject_SetUpdated
 title: SetUpdated(DateTime updated)
 intellisense: NSProject.SetUpdated
 keywords: NSProject, GetUpdated
 so.topic: reference
 ---
+
+# SetUpdated(DateTime updated)
 
 Last updated date
 

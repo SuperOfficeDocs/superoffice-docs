@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleAgent_DeleteSaleStakeholder
 title: DeleteSaleStakeholder(Integer saleStakeholder);
 intellisense: NSSaleAgent.DeleteSaleStakeholder
 keywords: NSSaleAgent, DeleteSaleStakeholder
 so.topic: reference
 ---
+
+# DeleteSaleStakeholder(Integer saleStakeholder);
 
 Deletes the NSSaleStakeholder
   

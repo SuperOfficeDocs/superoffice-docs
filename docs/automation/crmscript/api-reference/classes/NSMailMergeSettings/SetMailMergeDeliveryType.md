@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailMergeSettings_SetMailMergeDeliveryType
 title: SetMailMergeDeliveryType(Integer mailMergeDeliveryType)
 intellisense: NSMailMergeSettings.SetMailMergeDeliveryType
 keywords: NSMailMergeSettings, GetMailMergeDeliveryType
 so.topic: reference
 ---
+
+# SetMailMergeDeliveryType(Integer mailMergeDeliveryType)
 
 How the merged document is delivered to the recipients.
 

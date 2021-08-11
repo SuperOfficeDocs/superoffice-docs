@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSale_SetSaleTypeName
 title: SetSaleTypeName(String saleTypeName)
 intellisense: NSSale.SetSaleTypeName
 keywords: NSSale, GetSaleTypeName
 so.topic: reference
 ---
+
+# SetSaleTypeName(String saleTypeName)
 
 The sale's type name
 

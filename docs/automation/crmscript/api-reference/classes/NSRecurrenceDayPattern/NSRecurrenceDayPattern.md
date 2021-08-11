@@ -4,3 +4,5 @@ title: NSRecurrenceDayPattern
 intellisense: Void.NSRecurrenceDayPattern
 so.topic: reference
 ---
+
+# NSRecurrenceDayPattern

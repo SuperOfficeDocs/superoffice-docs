@@ -7,6 +7,5 @@ keywords: SetMask(Integer)
 so.topic: reference
 ---
 
-
-
+# NSFieldRight.SetMask(Integer p_0)
 

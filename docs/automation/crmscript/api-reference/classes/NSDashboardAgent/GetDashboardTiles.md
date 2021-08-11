@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_GetDashboardTiles
 title: NSDashboardTile[] GetDashboardTiles(Integer[] dashboardTileIds)
 intellisense: NSDashboardAgent.GetDashboardTiles
 keywords: NSDashboardAgent, GetDashboardTiles
 so.topic: reference
 ---
+
+# NSDashboardTile[] GetDashboardTiles(Integer[] dashboardTileIds)
 
 Gets an array of dashboard tiles for the provided ids
 

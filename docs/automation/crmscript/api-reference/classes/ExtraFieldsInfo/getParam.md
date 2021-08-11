@@ -7,6 +7,8 @@ keywords: getParam(String)
 so.topic: reference
 ---
 
+# ExtraFieldsInfo.getParam(String p_0)
+
 This function returns the value of the given parameter.
 
 ## Parameters
@@ -38,5 +40,4 @@ The following parameters are available for the various field types:
     - <b>"useHours"</b>
     - <b>"useMinutes"</b>
     - <b>"fields"</b> - number of fields
-
 

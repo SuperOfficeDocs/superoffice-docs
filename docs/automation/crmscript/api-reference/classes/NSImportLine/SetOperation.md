@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSImportLine_SetOperation
 title: SetOperation(Integer operation)
 intellisense: NSImportLine.SetOperation
 keywords: NSImportLine, GetOperation
 so.topic: reference
 ---
+
+# SetOperation(Integer operation)
 
 Which operation will be used? This is a read-only property
 

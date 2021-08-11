@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSViewStateAgent_DeleteHistory
 title: Void DeleteHistory(String historyName, Integer id)
 intellisense: NSViewStateAgent.DeleteHistory
 keywords: NSViewStateAgent, DeleteHistory
 so.topic: reference
 ---
+
+# Void DeleteHistory(String historyName, Integer id)
 
 Deletes the history element
 

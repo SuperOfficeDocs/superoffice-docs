@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAudienceConfigParameter_SetValue
 title: SetValue(String value)
 intellisense: NSAudienceConfigParameter.SetValue
 keywords: NSAudienceConfigParameter, GetValue
 so.topic: reference
 ---
+
+# SetValue(String value)
 
 The value of the configuration parameter
 

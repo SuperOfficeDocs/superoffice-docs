@@ -5,3 +5,5 @@ intellisense: Void.MacroParameter
 sortOrder: 476
 so.topic: reference
 ---
+
+# MacroParameter

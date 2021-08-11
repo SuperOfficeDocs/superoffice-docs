@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTypicalSearch_SetSource
 title: SetSource(String source)
 intellisense: NSTypicalSearch.SetSource
 keywords: NSTypicalSearch, GetSource
 so.topic: reference
 ---
+
+# SetSource(String source)
 
 Name of organisation that sources and maintains this TypicalSearch. Allows for both SuperOffice and partners to maintain sets of typical searches without conflict
 

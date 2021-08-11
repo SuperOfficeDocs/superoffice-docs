@@ -6,13 +6,11 @@ keywords: getCell(Integer,Integer)
 so.topic: reference
 ---
 
+# StringMatrix.getCell(Integer row, Integer column)
 
 Returns the value for a given cell.
-
-
 
 * **row:** The zero-based index of the row.
 * **column:** The zero-based index of the column.
 * **Returns:** The value of the cell at the specified position.
-
 

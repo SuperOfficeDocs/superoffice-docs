@@ -6,7 +6,7 @@ keywords: GetCompanyCountry()
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.GetCompanyCountry()
 
 Contains new value for the company country.
-
 

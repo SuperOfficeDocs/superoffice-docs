@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportAgent_CreateFavorite
 title: NSReportEntity CreateFavorite(Integer sourceId, String name, String description)
 intellisense: NSReportAgent.CreateFavorite
 keywords: NSReportAgent, CreateFavorite
 so.topic: reference
 ---
+
+# NSReportEntity CreateFavorite(Integer sourceId, String name, String description)
 
 Creates the report as favorite. The sourceId is the key to the report that the favorite is based on.
 

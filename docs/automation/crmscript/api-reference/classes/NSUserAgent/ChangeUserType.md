@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_ChangeUserType
 title: NSUser ChangeUserType(NSUser user, Integer userType)
 intellisense: NSUserAgent.ChangeUserType
 keywords: NSUserAgent, ChangeUserType
 so.topic: reference
 ---
+
+# NSUser ChangeUserType(NSUser user, Integer userType)
 
 Get a user from the user name.
 

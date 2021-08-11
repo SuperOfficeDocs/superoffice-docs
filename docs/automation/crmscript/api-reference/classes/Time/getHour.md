@@ -6,10 +6,9 @@ keywords: getHour()
 so.topic: reference
 ---
 
+# Time.getHour()
+
 This function returns the hours of the time as an Integer.
-
-
-
 
 ## Example
     
@@ -18,5 +17,4 @@ This function returns the hours of the time as an Integer.
     t.setMin(15);
     t.setSec(30);
     Integer i = t.getHour();
-
 

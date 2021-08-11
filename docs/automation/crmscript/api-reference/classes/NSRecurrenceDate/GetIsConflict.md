@@ -6,7 +6,7 @@ keywords: GetIsConflict()
 so.topic: reference
 ---
 
+# NSRecurrenceDate.GetIsConflict()
 
 True if this date creates a conflict.
-
 

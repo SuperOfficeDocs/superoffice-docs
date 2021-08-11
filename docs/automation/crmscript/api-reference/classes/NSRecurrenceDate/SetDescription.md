@@ -6,7 +6,7 @@ keywords: SetDescription(String)
 so.topic: reference
 ---
 
+# NSRecurrenceDate.SetDescription(String p_0)
 
 Any description, such as red letter day info, or marked dates
-
 

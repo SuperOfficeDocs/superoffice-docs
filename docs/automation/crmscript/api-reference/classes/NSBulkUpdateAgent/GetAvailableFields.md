@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields
 title: NSFieldValueInfo[] GetAvailableFields(String tablename)
 intellisense: NSBulkUpdateAgent.GetAvailableFields
 keywords: NSBulkUpdateAgent, GetAvailableFields
 so.topic: reference
 ---
+
+# NSFieldValueInfo[] GetAvailableFields(String tablename)
 
 Get all available fields for a given tablename/entity
 

@@ -6,12 +6,11 @@ sortOrder: 316
 so.topic: reference
 ---
 
+# ExtraTable
+
 A class to access eJournal extra tables - create, edit and delete entries.
 
-
-
 ## Example
-
 
     ExtraTable e;
     

@@ -7,6 +7,5 @@ keywords: GetWgs84Latitude()
 so.topic: reference
 ---
 
-
-
+# NSAddress.GetWgs84Latitude()
 

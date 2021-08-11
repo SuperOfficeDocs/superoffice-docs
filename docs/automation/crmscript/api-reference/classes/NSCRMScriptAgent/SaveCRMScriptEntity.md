@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptEntity
 title: NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity cRMScriptEntity);
 intellisense: NSCRMScriptAgent.SaveCRMScriptEntity
 keywords: NSCRMScriptAgent, SaveCRMScriptEntity
 so.topic: reference
 ---
+
+# NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity cRMScriptEntity);
 	  
 Updates the existing NSCRMScriptEntity or creates a new NSCRMScriptEntity if the id parameter is 0
 	  

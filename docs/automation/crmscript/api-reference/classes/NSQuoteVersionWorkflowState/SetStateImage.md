@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteVersionWorkflowState_SetStateImage
 title: SetStateImage(NSQuoteVersionButtonState stateImage)
 intellisense: NSQuoteVersionWorkflowState.SetStateImage
 keywords: NSQuoteVersionWorkflowState, GetStateImage
 so.topic: reference
 ---
+
+# SetStateImage(NSQuoteVersionButtonState stateImage)
 
 Information about the state image for the current quote version.
 

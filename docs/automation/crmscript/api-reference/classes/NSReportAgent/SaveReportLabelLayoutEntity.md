@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsreportagent_savereportlabellayoutentity
 title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity()
 description: CRMScript method in the NSReportAgent class that creates or updates an NSReportLabelLayoutEntity

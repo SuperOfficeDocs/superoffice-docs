@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetOwnerCompanysCurrency
 title: NSCurrency GetOwnerCompanysCurrency()
 intellisense: NSListAgent.GetOwnerCompanysCurrency
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetOwnerCompanysCurrency
 so.topic: reference
 ---
 
-Get the currency of the user's owner company
+# NSCurrency GetOwnerCompanysCurrency()
 
+Get the currency of the user's owner company
 
 **Returns:** NSCurrency
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStream
 title: NSStream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
 intellisense: NSDocumentAgent.GetSanitizedTemplateStream
 keywords: NSDocumentAgent, GetSanitizedTemplateStream
 so.topic: reference
 ---
+
+# NSStream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
 
 Retrieve a stream to a mail template based on its name. Sanitizes the contents if possible.
 

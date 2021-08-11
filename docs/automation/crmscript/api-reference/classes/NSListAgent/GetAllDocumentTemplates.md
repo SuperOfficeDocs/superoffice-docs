@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetAllDocumentTemplates
 title: NSDocumentTemplateEntity[] GetAllDocumentTemplates(Bool includeDeleted)
 intellisense: NSListAgent.GetAllDocumentTemplates
 keywords: NSListAgent, GetAllDocumentTemplates
 so.topic: reference
 ---
+
+# NSDocumentTemplateEntity[] GetAllDocumentTemplates(Bool includeDeleted)
 
 Returns all templates
 

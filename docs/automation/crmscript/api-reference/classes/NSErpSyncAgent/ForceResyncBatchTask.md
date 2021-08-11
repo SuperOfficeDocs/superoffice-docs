@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncBatchTask
 title: Void ForceResyncBatchTask(Integer erpConnectionId, Integer[] internalKeyIds)
 intellisense: NSErpSyncAgent.ForceResyncBatchTask
 keywords: NSErpSyncAgent, ForceResyncBatchTask
 so.topic: reference
 ---
+
+# Void ForceResyncBatchTask(Integer erpConnectionId, Integer[] internalKeyIds)
 
 Start batch task to force resync from CRM or given Erp connection to all other connections
 

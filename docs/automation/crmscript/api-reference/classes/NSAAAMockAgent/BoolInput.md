@@ -7,12 +7,10 @@ keywords: BoolInput(Bool)
 so.topic: reference
 ---
 
+# NSAAAMockAgent.BoolInput(Bool p_0)
 
 Test bool input
 
-
-
 * **boolArgument:** Some bool argument
 * **Returns:** A void return
-
 

@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_string
-title: String
+title: String()
 description: CRMScript String constructor
 intellisense: Void.String
 langref: 1

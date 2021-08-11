@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebPanelEntity_SetUrlEncoding
 title: SetUrlEncoding(Integer urlEncoding)
 intellisense: NSWebPanelEntity.SetUrlEncoding
 keywords: NSWebPanelEntity, GetUrlEncoding
 so.topic: reference
 ---
+
+# SetUrlEncoding(Integer urlEncoding)
 
 The encoding of the URL
 

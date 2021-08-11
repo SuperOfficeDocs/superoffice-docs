@@ -6,8 +6,8 @@ keywords: keepChars(String)
 so.topic: reference
 ---
 
+# String.keepChars(String charsToKeep)
 
 * **charsToKeep:** A string of characters to keep
 * **Returns:** String stripped from all other characters
-
 

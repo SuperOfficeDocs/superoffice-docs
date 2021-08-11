@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPluginUrlResponse_SetUrl
 title: SetUrl(String url)
 intellisense: NSPluginUrlResponse.SetUrl
 keywords: NSPluginUrlResponse, GetUrl
 so.topic: reference
 ---
+
+# SetUrl(String url)
 
 Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url.
 

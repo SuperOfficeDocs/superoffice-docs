@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetSupplierCode
 title: SetSupplierCode(String supplierCode)
 intellisense: NSProduct.SetSupplierCode
 keywords: NSProduct, GetSupplierCode
 so.topic: reference
 ---
+
+# SetSupplierCode(String supplierCode)
 
 Suppliers part code/number or other key-like field
 

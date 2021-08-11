@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetListItemsForUserGroupFromListName
 title: Void SetListItemsForUserGroupFromListName(String udListDefinitionName, Integer usergroupId, Integer[] listItemsID, Bool enable)
 intellisense: NSListAgent.SetListItemsForUserGroupFromListName
 keywords: NSListAgent, SetListItemsForUserGroupFromListName
 so.topic: reference
 ---
+
+# Void SetListItemsForUserGroupFromListName(String udListDefinitionName, Integer usergroupId, Integer[] listItemsID, Bool enable)
 
 Update listItems that will be visible for this usergroup
 

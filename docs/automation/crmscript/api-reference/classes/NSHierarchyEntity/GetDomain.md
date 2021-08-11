@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSHierarchyEntity_GetDomain
 title: Integer GetDomain()
 intellisense: NSHierarchyEntity.GetDomain
 keywords: NSHierarchyEntity, GetDomain
 so.topic: reference
 ---
+
+# Integer GetDomain()
 
 Domain seperating the different hierarchy
 
@@ -24,5 +26,4 @@ Domain seperating the different hierarchy
 NSHierarchyEntity thing;
 Integer domain  = thing.GetDomain();
 ```
-
 

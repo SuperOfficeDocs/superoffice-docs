@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_DeleteChatSessions
 title: Void DeleteChatSessions(Integer[] ids)
 intellisense: NSCustomerServiceAgent.DeleteChatSessions
 keywords: NSCustomerServiceAgent, DeleteChatSessions
 so.topic: reference
 ---
+
+# Void DeleteChatSessions(Integer[] ids)
 
 Deletes the specified chat sessions.
 

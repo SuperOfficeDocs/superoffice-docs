@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketEntity_SetExtraFields
 title: SetExtraFields(Map extras)
 intellisense: NSTicketEntity.SetExtraFields
 keywords: NSTicketEntity, SetExtraFields
 so.topic: reference
 ---
+
+# SetExtraFields(Map extras)
 
 Set the extra field values on TicketEntity with a map.
 

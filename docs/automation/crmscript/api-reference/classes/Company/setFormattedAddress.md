@@ -7,15 +7,11 @@ keywords: setFormattedAddress(NSLocalizedField[][])
 so.topic: reference
 ---
 
+# Company.setFormattedAddress(NSLocalizedField[][] p_0)
 
 Sets the formatted address for a company
 
-
-
-
 ## Parameters
 
-
  - p0: The new address
-
 

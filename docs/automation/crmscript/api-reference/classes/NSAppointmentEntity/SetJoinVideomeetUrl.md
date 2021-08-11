@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetJoinVideomeetUrl
 title: SetJoinVideomeetUrl(String joinVideomeetUrl)
 intellisense: NSAppointmentEntity.SetJoinVideomeetUrl
 keywords: NSAppointmentEntity, GetJoinVideomeetUrl
 so.topic: reference
 ---
+
+# SetJoinVideomeetUrl(String joinVideomeetUrl)
 
 Blank when not a video meeting. Filled with Join Meeting URL when created.
 

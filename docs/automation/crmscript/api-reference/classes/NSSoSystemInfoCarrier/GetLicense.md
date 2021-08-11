@@ -6,6 +6,5 @@ keywords: GetLicense()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetLicense()
 

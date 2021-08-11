@@ -6,6 +6,5 @@ keywords: SetAssemblyVersion(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetAssemblyVersion(String p_0)
 

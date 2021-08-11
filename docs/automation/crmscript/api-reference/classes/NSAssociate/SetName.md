@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAssociate_SetName
 title: SetName(String name)
 intellisense: NSAssociate.SetName
 keywords: NSAssociate, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 Initials, also login name, possibly database user name
 

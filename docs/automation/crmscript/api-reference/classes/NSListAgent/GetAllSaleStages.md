@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetAllSaleStages
 title: NSSaleStageEntity[] GetAllSaleStages(Bool includeDeleted)
 intellisense: NSListAgent.GetAllSaleStages
 keywords: NSListAgent, GetAllSaleStages
 so.topic: reference
 ---
+
+# NSSaleStageEntity[] GetAllSaleStages(Bool includeDeleted)
 
 Returns all ratings
 

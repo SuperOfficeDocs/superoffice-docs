@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_SessionIsValid
 title: Bool SessionIsValid(String csSessionKey)
 intellisense: NSCustomerServiceAgent.SessionIsValid
 keywords: NSCustomerServiceAgent, SessionIsValid
 so.topic: reference
 ---
+
+# Bool SessionIsValid(String csSessionKey)
 
 Check if a CS session is valid
 

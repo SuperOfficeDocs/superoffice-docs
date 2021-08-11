@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveOrderByInfo_GetDirection
 title: Integer GetDirection()
 intellisense: NSArchiveOrderByInfo.GetDirection
 keywords: NSArchiveOrderByInfo, GetDirection
 so.topic: reference
 ---
+
+# Integer GetDirection()
 
 Direction to order.
 
@@ -17,5 +19,4 @@ Direction to order.
 NSArchiveOrderByInfo thing;
 Integer direction  = thing.GetDirection();
 ```
-
 

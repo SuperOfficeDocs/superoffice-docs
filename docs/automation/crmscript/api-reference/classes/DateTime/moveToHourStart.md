@@ -7,6 +7,7 @@ keywords: moveToHourStart()
 so.topic: reference
 ---
 
-Moves the datetime to the start of the current hour. Returns a reference to itself.
+# DateTime.moveToHourStart()
 
+Moves the datetime to the start of the current hour. Returns a reference to itself.
 

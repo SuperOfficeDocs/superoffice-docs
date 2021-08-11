@@ -6,6 +6,5 @@ keywords: SetLicenses(NSGrantedModuleLicense[])
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[] p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserType
 title: NSUser CreateDefaultUserFromUserType(Integer userType)
 intellisense: NSUserAgent.CreateDefaultUserFromUserType
 keywords: NSUserAgent, CreateDefaultUserFromUserType
 so.topic: reference
 ---
+
+# NSUser CreateDefaultUserFromUserType(Integer userType)
 
 Create default NSUser providing the user type.  Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
 

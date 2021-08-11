@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportEntity_GetReportCategory
 title: Integer GetReportCategory()
 intellisense: NSReportEntity.GetReportCategory
 keywords: NSReportEntity, GetReportCategory
 so.topic: reference
 ---
+
+# Integer GetReportCategory()
 
 The category of the report.
 
@@ -25,5 +27,4 @@ The category of the report.
 NSReportEntity thing;
 Integer reportCategory  = thing.GetReportCategory();
 ```
-
 

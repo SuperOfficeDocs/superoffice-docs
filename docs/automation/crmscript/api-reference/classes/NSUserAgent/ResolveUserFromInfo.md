@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_ResolveUserFromInfo
 title: NSResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, NSCredential credential)
 intellisense: NSUserAgent.ResolveUserFromInfo
 keywords: NSUserAgent, ResolveUserFromInfo
 so.topic: reference
 ---
+
+# NSResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, NSCredential credential)
 
 Get a user from the provided information. If the user or associated person does not exist, it will be created on demand.
 

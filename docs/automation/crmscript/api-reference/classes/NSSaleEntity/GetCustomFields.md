@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_GetCustomFields
 title: Map GetCustomFields()
 intellisense: NSSaleEntity.GetCustomFields
 keywords: NSSaleEntity, GetCustomFields
 so.topic: reference
 ---
+
+# Map GetCustomFields()
 
 Get the user-defined + extra fields on a SaleEntity as a map.
 

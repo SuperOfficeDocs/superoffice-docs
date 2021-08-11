@@ -6,15 +6,11 @@ keywords: setMonStop(Time)
 so.topic: reference
 ---
 
+# WeekSchedule.setMonStop(Time t)
 
 This function sets the end time (object) of "active" mode for Monday.
 
-
-
-
 ## Parameters
 
-
  - time: a time object set to desired end time
-
 

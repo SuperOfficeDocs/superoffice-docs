@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_ChangeProductImage
 title: Void ChangeProductImage(Integer productId, Integer blobId)
 intellisense: NSBLOBAgent.ChangeProductImage
@@ -6,7 +6,7 @@ keywords: NSBLOBAgent, ChangeProductImage
 so.topic: reference
 ---
 
-
+# Void ChangeProductImage(Integer productId, Integer blobId)
 
 **Parameters:**
  - **productId** The product the image is linked to

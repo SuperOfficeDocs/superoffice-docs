@@ -6,6 +6,5 @@ keywords: GetProbability()
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.GetProbability()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteContext_SetCRMQuoteLine
 title: SetCRMQuoteLine(NSQuoteLine cRMQuoteLine)
 intellisense: NSQuoteContext.SetCRMQuoteLine
 keywords: NSQuoteContext, GetCRMQuoteLine
 so.topic: reference
 ---
+
+# SetCRMQuoteLine(NSQuoteLine cRMQuoteLine)
 
 The relevant or current quote line of the quote in the CRM system, if applicable.
 

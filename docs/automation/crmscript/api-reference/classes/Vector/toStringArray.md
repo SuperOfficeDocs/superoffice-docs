@@ -6,11 +6,9 @@ keywords: toStringArray()
 so.topic: reference
 ---
 
+# Vector.toStringArray()
 
 Convert a vector to a string array.
 
-
-
 * **Returns:** Vector as a String[]
-
 

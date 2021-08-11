@@ -6,12 +6,10 @@ keywords: escape(String)
 so.topic: reference
 ---
 
+# String.escape(String chars)
 
 Escape special characters of a string. Special characters are given as a parameter.
 
-
-
 * **chars:** Special characters which will be escaped with a backslash
 * **Returns:** The escaped coded string
-
 

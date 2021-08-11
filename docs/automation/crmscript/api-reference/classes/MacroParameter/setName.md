@@ -7,7 +7,7 @@ keywords: setName(String)
 so.topic: reference
 ---
 
+# MacroParameter.setName(String p_0)
 
 This function will set the name of the parameter, which is used for accessing it.
-
 

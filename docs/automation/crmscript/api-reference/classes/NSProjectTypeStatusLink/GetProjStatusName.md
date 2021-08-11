@@ -6,6 +6,5 @@ keywords: GetProjStatusName()
 so.topic: reference
 ---
 
-
-
+# NSProjectTypeStatusLink.GetProjStatusName()
 

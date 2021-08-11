@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactAgent_GetContactList
 title: NSContact[] GetContactList(Integer[]  contactIds);
 intellisense: NSContactAgent.GetContactList
 keywords: NSContactAgent, GetContactList
 so.topic: reference
 ---
+
+# NSContact[] GetContactList(Integer[]  contactIds);
 
 Gets a vector of Contact objects.
 

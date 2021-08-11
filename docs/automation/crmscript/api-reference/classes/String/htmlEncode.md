@@ -6,7 +6,7 @@ keywords: htmlEncode()
 so.topic: reference
 ---
 
+# String.htmlEncode()
 
 Returns html-encoded version of the string.
-
 

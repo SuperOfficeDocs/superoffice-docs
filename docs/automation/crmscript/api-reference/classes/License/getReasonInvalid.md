@@ -7,13 +7,11 @@ keywords: getReasonInvalid()
 so.topic: reference
 ---
 
+# License.getReasonInvalid()
 
 Deprecated in 7.1.
 
-
 Check if the license key is valid and returns the reason as a string.
 
-
 * **Returns:** reason why not valid or null string if valid
-
 

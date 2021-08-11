@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetAllInDomain
 title: NSHierarchyEntity[] GetAllInDomain(Integer domain, Bool children)
 intellisense: NSListAgent.GetAllInDomain
 keywords: NSListAgent, GetAllInDomain
 so.topic: reference
 ---
+
+# NSHierarchyEntity[] GetAllInDomain(Integer domain, Bool children)
 
 Get all items in a domain
 

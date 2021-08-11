@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GenerateNewPasswordForExternalUser
 title: String GenerateNewPasswordForExternalUser(String associateName)
 intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
 keywords: NSUserAgent, GenerateNewPasswordForExternalUser
 so.topic: reference
 ---
+
+# String GenerateNewPasswordForExternalUser(String associateName)
 
 Generates a new password for an external user.
 

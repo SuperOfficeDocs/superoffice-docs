@@ -6,6 +6,5 @@ keywords: SetProvidedCredentials(NSProvidedCredential[])
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[] p_0)
 

@@ -7,10 +7,11 @@ keywords: setBitNo(Integer,Bool)
 so.topic: reference
 ---
 
+# FHBitSet.setBitNo(Integer number, Bool val)
+
 This function sets a specific bit.
 
 ## Parameters
-
 
  - number: Index of the bit to set
  - val: Value to set this bit to - (True/False - 1/0)
@@ -23,7 +24,6 @@ This function sets a specific bit.
     fh.set(0);
     fh.setBitNo(15, b);
     print(fh.toLsbString());
-    
 
 **Output:**
 

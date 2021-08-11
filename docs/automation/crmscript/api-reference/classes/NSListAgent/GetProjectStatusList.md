@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetProjectStatusList
 title: NSProjectStatus[] GetProjectStatusList(Integer[]  projectStatusIds);
 intellisense: NSListAgent.GetProjectStatusList
 keywords: NSListAgent, GetProjectStatusList
 so.topic: reference
 ---
+
+# NSProjectStatus[] GetProjectStatusList(Integer[]  projectStatusIds);
 
 Gets a vector of NSProjectStatus objects.
 

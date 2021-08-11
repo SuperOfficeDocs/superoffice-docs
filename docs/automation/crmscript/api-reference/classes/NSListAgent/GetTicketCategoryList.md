@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetTicketCategoryList
 title: NSTicketCategoryEntity[] GetTicketCategoryList(Integer[]  ticketCategoryEntityIds);
 intellisense: NSListAgent.GetTicketCategoryList
 keywords: NSListAgent, GetTicketCategoryList
 so.topic: reference
 ---
+
+# NSTicketCategoryEntity[] GetTicketCategoryList(Integer[]  ticketCategoryEntityIds);
 
 Gets a vector of NSTicketCategoryEntity objects.
 

@@ -6,11 +6,9 @@ keywords: setName(String)
 so.topic: reference
 ---
 
+# SpmCustomerList.setName(String name)
 
 Set the name of the list. This is only used in the GUI when viewing the lists.
 
-
-
 * **name:** The name of the list
-
 

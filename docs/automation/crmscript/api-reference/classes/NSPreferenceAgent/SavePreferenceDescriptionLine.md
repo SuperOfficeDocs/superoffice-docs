@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_SavePreferenceDescriptionLine
 title: NSPreferenceDescriptionLine SavePreferenceDescriptionLine(NSPreferenceDescriptionLine preferenceDescriptionLine);
 intellisense: NSPreferenceAgent.SavePreferenceDescriptionLine
 keywords: NSPreferenceAgent, SavePreferenceDescriptionLine
 so.topic: reference
 ---
+
+# NSPreferenceDescriptionLine SavePreferenceDescriptionLine(NSPreferenceDescriptionLine preferenceDescriptionLine);
 	  
 Updates the existing NSPreferenceDescriptionLine or creates a new NSPreferenceDescriptionLine if the id parameter is 0
 	  

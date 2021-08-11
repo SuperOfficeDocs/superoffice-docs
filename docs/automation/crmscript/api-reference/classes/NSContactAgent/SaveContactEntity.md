@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nscontactagent_savecontactentity
 title: NSContactEntity SaveContactEntity()
 description: CRMScript method in the NSContactAgent class that creates or updates an NSContactEntity

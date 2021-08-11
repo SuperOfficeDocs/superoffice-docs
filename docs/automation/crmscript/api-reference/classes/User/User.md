@@ -5,14 +5,11 @@ intellisense: Void.User
 so.topic: reference
 ---
 
+# User
 
 Class for representing a user.
 
-
-
-
 ## Example
-
 
     User u;
     

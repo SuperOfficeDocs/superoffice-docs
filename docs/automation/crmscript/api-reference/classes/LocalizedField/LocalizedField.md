@@ -6,14 +6,11 @@ sortOrder: 465
 so.topic: reference
 ---
 
+# LocalizedField
 
 A class for representing fields (Used by Company::set/getAddress() functions).
 
-
-
-
 ## Example
-
 
     Company c;
     c.load(someId);

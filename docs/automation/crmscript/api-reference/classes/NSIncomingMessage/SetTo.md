@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSIncomingMessage_SetTo
 title: SetTo(String to)
 intellisense: NSIncomingMessage.SetTo
 keywords: NSIncomingMessage, GetTo
 so.topic: reference
 ---
+
+# SetTo(String to)
 
 Address of the recipient. This can be in the form of phone number or email.
 

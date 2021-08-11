@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPluginResponse_SetUserExplanation
 title: SetUserExplanation(String userExplanation)
 intellisense: NSPluginResponse.SetUserExplanation
 keywords: NSPluginResponse, GetUserExplanation
 so.topic: reference
 ---
+
+# SetUserExplanation(String userExplanation)
 
 A localized explanation to the answer.
 

@@ -6,6 +6,5 @@ keywords: SetType(String)
 so.topic: reference
 ---
 
-
-
+# NSProvidedCredential.SetType(String p_0)
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_DeleteServiceAuth
 title: DeleteServiceAuth(Integer serviceAuth);
 intellisense: NSUserAgent.DeleteServiceAuth
 keywords: NSUserAgent, DeleteServiceAuth
 so.topic: reference
 ---
+
+# DeleteServiceAuth(Integer serviceAuth);
 
 Deletes the NSServiceAuth
   

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfoAgent_Revert
 title: Void Revert(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.Revert
 keywords: NSUserDefinedFieldInfoAgent, Revert
 so.topic: reference
 ---
+
+# Void Revert(Integer ownerType)
 
 Revert changed Udef fields for the given owner type - all unpublished changes will be lost
 

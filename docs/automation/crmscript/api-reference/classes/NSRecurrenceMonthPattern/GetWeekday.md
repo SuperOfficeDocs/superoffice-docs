@@ -6,6 +6,5 @@ keywords: GetWeekday()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceMonthPattern.GetWeekday()
 

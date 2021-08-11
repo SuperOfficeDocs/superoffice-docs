@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProduct_SetProductId
 title: SetProductId(Integer productId)
 intellisense: NSProduct.SetProductId
 keywords: NSProduct, GetProductId
 so.topic: reference
 ---
+
+# SetProductId(Integer productId)
 
 Primary key
 

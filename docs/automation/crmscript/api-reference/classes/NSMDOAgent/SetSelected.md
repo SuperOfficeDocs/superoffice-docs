@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMDOAgent_SetSelected
 title: NSSelectableMDOListItem[] SetSelected(String name, String additionalInfo, NSSelectableMDOListItem[] selectableMDOList)
 intellisense: NSMDOAgent.SetSelected
 keywords: NSMDOAgent, SetSelected
 so.topic: reference
 ---
+
+# NSSelectableMDOListItem[] SetSelected(String name, String additionalInfo, NSSelectableMDOListItem[] selectableMDOList)
 
 Saves the selected values as selected by their given list representation.
 

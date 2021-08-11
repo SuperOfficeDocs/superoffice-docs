@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_Move
 title: Void Move(Integer personId, Integer destinationContactId, DateTime moveAfterDate)
 intellisense: NSPersonAgent.Move
 keywords: NSPersonAgent, Move
 so.topic: reference
 ---
+
+# Void Move(Integer personId, Integer destinationContactId, DateTime moveAfterDate)
 
 Move a person to a specified contact. You must specify the date after which activities will be moved along with the person.
 

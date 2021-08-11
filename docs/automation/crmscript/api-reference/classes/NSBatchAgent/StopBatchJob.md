@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchAgent_StopBatchJob
 title: Bool StopBatchJob(Integer id)
 intellisense: NSBatchAgent.StopBatchJob
 keywords: NSBatchAgent, StopBatchJob
 so.topic: reference
 ---
+
+# Bool StopBatchJob(Integer id)
 
 Stop a batch job based on Id.
 

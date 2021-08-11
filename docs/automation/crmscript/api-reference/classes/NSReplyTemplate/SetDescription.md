@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReplyTemplate_SetDescription
 title: SetDescription(String description)
 intellisense: NSReplyTemplate.SetDescription
 keywords: NSReplyTemplate, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 The description for this reply template.
 

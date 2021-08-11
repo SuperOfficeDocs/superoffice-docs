@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketCategoryEntity_GetDelegateMethod
 title: Integer GetDelegateMethod()
 intellisense: NSTicketCategoryEntity.GetDelegateMethod
 keywords: NSTicketCategoryEntity, GetDelegateMethod
 so.topic: reference
 ---
+
+# Integer GetDelegateMethod()
 
 An integer indicating the delegation method for this category.
 
@@ -20,5 +22,4 @@ An integer indicating the delegation method for this category.
 NSTicketCategoryEntity thing;
 Integer delegateMethod  = thing.GetDelegateMethod();
 ```
-
 

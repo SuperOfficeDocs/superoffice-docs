@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSImportLine_GetType
 title: Integer GetType()
 intellisense: NSImportLine.GetType
 keywords: NSImportLine, GetType
 so.topic: reference
 ---
+
+# Integer GetType()
 
 Which entity type will be created? This is a read-only property
 
@@ -19,5 +21,4 @@ Which entity type will be created? This is a read-only property
 NSImportLine thing;
 Integer type  = thing.GetType();
 ```
-
 

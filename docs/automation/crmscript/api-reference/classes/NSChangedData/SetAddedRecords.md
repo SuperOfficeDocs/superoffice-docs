@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChangedData_SetAddedRecords
 title: SetAddedRecords(NSChangedDataItem[] addedRecords)
 intellisense: NSChangedData.SetAddedRecords
 keywords: NSChangedData, GetAddedRecords
 so.topic: reference
 ---
+
+# SetAddedRecords(NSChangedDataItem[] addedRecords)
 
 Ids of added records.
 

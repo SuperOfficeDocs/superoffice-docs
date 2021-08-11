@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAppointment_SetCalMethod
 title: SetCalMethod(Integer calMethod)
 intellisense: NSEMailAppointment.SetCalMethod
 keywords: NSEMailAppointment, GetCalMethod
 so.topic: reference
 ---
+
+# SetCalMethod(Integer calMethod)
 
 Method field stored in ICS file.
 

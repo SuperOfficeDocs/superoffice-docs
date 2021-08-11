@@ -7,6 +7,5 @@ keywords: GetTableRight()
 so.topic: reference
 ---
 
-
-
+# NSCarrier.GetTableRight()
 

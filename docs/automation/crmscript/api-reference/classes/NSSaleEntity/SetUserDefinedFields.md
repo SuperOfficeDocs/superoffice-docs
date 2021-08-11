@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaleEntity_SetUserDefinedFields
 title: SetUserDefinedFields(Map udefs)
 intellisense: NSSaleEntity.SetUserDefinedFields
 keywords: NSSaleEntity, SetUserDefinedFields
 so.topic: reference
 ---
+
+# SetUserDefinedFields(Map udefs)
 
 Set the user-defined fields on the SaleEntity as a map.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeLastname
 title: SetSearchModeLastname(Integer searchModeLastname)
 intellisense: NSPhoneListPreferences.SetSearchModeLastname
 keywords: NSPhoneListPreferences, GetSearchModeLastname
 so.topic: reference
 ---
+
+# SetSearchModeLastname(Integer searchModeLastname)
 
 The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches
 

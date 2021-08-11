@@ -7,6 +7,5 @@ keywords: getLabel()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getLabel()
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncActorSummary_SetActorType
 title: SetActorType(Integer actorType)
 intellisense: NSErpSyncActorSummary.SetActorType
 keywords: NSErpSyncActorSummary, GetActorType
 so.topic: reference
 ---
+
+# SetActorType(Integer actorType)
 
 Actor type
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsselectionagent_saveselectionentity
 title: NSSelectionEntity SaveSelectionEntity()
 description: CRMScript method in the NSSelectionAgent class that creates or updates an NSSelectionEntity

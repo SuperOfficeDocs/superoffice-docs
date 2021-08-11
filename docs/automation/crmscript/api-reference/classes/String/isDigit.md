@@ -6,11 +6,9 @@ keywords: isDigit()
 so.topic: reference
 ---
 
+# String.isDigit()
 
 Determine if the string contains only numeric characters. [0-9]
 
-
-
 * **Returns:** Return true if the string only contains numeric characters. [0-9]
-
 

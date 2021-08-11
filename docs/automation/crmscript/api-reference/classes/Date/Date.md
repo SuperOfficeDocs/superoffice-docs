@@ -6,14 +6,13 @@ sortOrder: 194
 so.topic: reference
 ---
 
+# Date
+
 A class for representing dates as objects.
 Constructor can take a Date, and returns a Date.
 The default date is now.
 
-
-
 ## Example
-
 
     Date d;
     

@@ -7,7 +7,8 @@ keywords: getResponseHeaders()
 so.topic: reference
 ---
 
+# HTTP.getResponseHeaders()
+
 This function will get a map of all the headers from the HTTP response headers after making a HTTP call.
 Note that the key is in lower case regardless of what was returned by the response. The value will keep the case.
-
 

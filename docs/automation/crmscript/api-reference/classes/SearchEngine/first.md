@@ -6,11 +6,9 @@ keywords: first()
 so.topic: reference
 ---
 
+# SearchEngine.first()
 
 Set the rowpointer to the first item of the resultset
 
-
-
 * **Returns:** false if the resultset is empty, else false
-
 

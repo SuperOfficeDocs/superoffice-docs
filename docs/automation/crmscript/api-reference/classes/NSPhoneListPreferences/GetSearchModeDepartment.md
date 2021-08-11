@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeDepartment
 title: Integer GetSearchModeDepartment()
 intellisense: NSPhoneListPreferences.GetSearchModeDepartment
 keywords: NSPhoneListPreferences, GetSearchModeDepartment
 so.topic: reference
 ---
+
+# Integer GetSearchModeDepartment()
 
 The Department search type, e.g. BeginsWith, Contains, Endswith, Matches
 
@@ -19,5 +21,4 @@ The Department search type, e.g. BeginsWith, Contains, Endswith, Matches
 NSPhoneListPreferences thing;
 Integer searchModeDepartment  = thing.GetSearchModeDepartment();
 ```
-
 

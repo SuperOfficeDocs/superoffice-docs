@@ -1,6 +1,6 @@
 ---
 uid: crmscript_global_datetime
-title: DateTime
+title: DateTime()
 description: CRMScript DateTime constructor
 intellisense: Void.DateTime
 langref: 1

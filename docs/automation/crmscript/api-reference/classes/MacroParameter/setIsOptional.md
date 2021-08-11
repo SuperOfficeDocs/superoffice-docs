@@ -7,7 +7,7 @@ keywords: setIsOptional(Bool)
 so.topic: reference
 ---
 
+# MacroParameter.setIsOptional(Bool p_0)
 
 This function sets whether or not the parameter is optional. The function takes a bool.
-
 

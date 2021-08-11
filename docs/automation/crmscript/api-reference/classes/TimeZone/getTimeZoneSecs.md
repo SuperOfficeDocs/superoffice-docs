@@ -6,7 +6,7 @@ keywords: getTimeZoneSecs()
 so.topic: reference
 ---
 
+# TimeZone.getTimeZoneSecs()
 
 * **Returns:** Difference from GMT in seconds.
-
 

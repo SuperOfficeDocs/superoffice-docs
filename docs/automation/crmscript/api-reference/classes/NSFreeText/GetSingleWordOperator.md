@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeText_GetSingleWordOperator
 title: Integer GetSingleWordOperator()
 intellisense: NSFreeText.GetSingleWordOperator
 keywords: NSFreeText, GetSingleWordOperator
 so.topic: reference
 ---
+
+# Integer GetSingleWordOperator()
 
 Starts with, contains or exact match
 
@@ -18,5 +20,4 @@ Starts with, contains or exact match
 NSFreeText thing;
 Integer singleWordOperator  = thing.GetSingleWordOperator();
 ```
-
 

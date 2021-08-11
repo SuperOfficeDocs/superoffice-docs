@@ -6,6 +6,5 @@ keywords: SetTableRight(Integer)
 so.topic: reference
 ---
 
-
-
+# NSTableRight.SetTableRight(Integer p_0)
 

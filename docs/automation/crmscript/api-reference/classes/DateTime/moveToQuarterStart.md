@@ -7,6 +7,7 @@ keywords: moveToQuarterStart()
 so.topic: reference
 ---
 
-Moves the datetime to the start of current quarter. That is 1. of January, 1. of April, 1. of july or 1. of October. Returns a reference to itself.
+# DateTime.moveToQuarterStart()
 
+Moves the datetime to the start of current quarter. That is 1. of January, 1. of April, 1. of july or 1. of October. Returns a reference to itself.
 

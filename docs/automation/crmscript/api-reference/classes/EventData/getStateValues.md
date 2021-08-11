@@ -7,6 +7,7 @@ keywords: getStateValues()
 so.topic: reference
 ---
 
-This method returns a Map containing all state values of the EventData object (i.e. custom values).
+# EventData.getStateValues()
 
+This method returns a Map containing all state values of the EventData object (i.e. custom values).
 

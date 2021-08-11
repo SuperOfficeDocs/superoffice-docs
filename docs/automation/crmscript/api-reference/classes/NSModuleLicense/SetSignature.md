@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSModuleLicense_SetSignature
 title: SetSignature(String signature)
 intellisense: NSModuleLicense.SetSignature
 keywords: NSModuleLicense, GetSignature
 so.topic: reference
 ---
+
+# SetSignature(String signature)
 
 Signature that verifies that this row is correctly transferred from SuperLicense
 

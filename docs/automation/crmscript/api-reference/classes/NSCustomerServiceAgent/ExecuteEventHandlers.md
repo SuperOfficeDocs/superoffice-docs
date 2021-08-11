@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCustomerServiceAgent_ExecuteEventHandlers
 title: NSEventData ExecuteEventHandlers(NSEventData eventData)
 intellisense: NSCustomerServiceAgent.ExecuteEventHandlers
 keywords: NSCustomerServiceAgent, ExecuteEventHandlers
 so.topic: reference
 ---
+
+# NSEventData ExecuteEventHandlers(NSEventData eventData)
 
 This method will execute event handlers in CRMScript for a given event.
 

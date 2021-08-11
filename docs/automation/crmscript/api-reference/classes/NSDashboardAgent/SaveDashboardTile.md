@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDashboardAgent_SaveDashboardTile
 title: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile);
 intellisense: NSDashboardAgent.SaveDashboardTile
 keywords: NSDashboardAgent, SaveDashboardTile
 so.topic: reference
 ---
+
+# NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile);
 	  
 Updates the existing NSDashboardTile or creates a new NSDashboardTile if the id parameter is 0
 	  

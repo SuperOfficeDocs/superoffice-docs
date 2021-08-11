@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContact_SetIsOwnerContact
 title: SetIsOwnerContact(Bool isOwnerContact)
 intellisense: NSContact.SetIsOwnerContact
 keywords: NSContact, GetIsOwnerContact
 so.topic: reference
 ---
+
+# SetIsOwnerContact(Bool isOwnerContact)
 
 Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users.
 

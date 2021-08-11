@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_SetHasAlarm
 title: SetHasAlarm(Bool hasAlarm)
 intellisense: NSAppointmentEntity.SetHasAlarm
 keywords: NSAppointmentEntity, GetHasAlarm
 so.topic: reference
 ---
+
+# SetHasAlarm(Bool hasAlarm)
 
 Does this appointment have an alarm
 

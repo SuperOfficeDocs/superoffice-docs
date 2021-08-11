@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetWindowPosSizesOnAssociateId
 title: NSWindowPosSize[] GetWindowPosSizesOnAssociateId(Integer associateId)
 intellisense: NSConfigurationAgent.GetWindowPosSizesOnAssociateId
 keywords: NSConfigurationAgent, GetWindowPosSizesOnAssociateId
 so.topic: reference
 ---
+
+# NSWindowPosSize[] GetWindowPosSizesOnAssociateId(Integer associateId)
 
 Gets the window and dialog position and size settings belonging to the specified associate
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPocketStartupData_SetCustomData
 title: SetCustomData(String customData)
 intellisense: NSPocketStartupData.SetCustomData
 keywords: NSPocketStartupData, GetCustomData
 so.topic: reference
 ---
+
+# SetCustomData(String customData)
 
 Custom data for Pocket, in JSON format
 

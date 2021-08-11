@@ -7,12 +7,11 @@ keywords: getErrorMessage()
 so.topic: reference
 ---
 
+# HTTP.getErrorMessage()
+
 Returns the last error message.
 
-
-
 ## Example
-
 
     HTTP h;
     
@@ -26,5 +25,4 @@ Returns the last error message.
       print(h.getErrorMessage());
     else
       print(String(b));
-
 

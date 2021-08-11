@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_GetContactDocumentsByTemplateTypes
 title: NSDocument[] GetContactDocumentsByTemplateTypes(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
 intellisense: NSDocumentAgent.GetContactDocumentsByTemplateTypes
 keywords: NSDocumentAgent, GetContactDocumentsByTemplateTypes
 so.topic: reference
 ---
+
+# NSDocument[] GetContactDocumentsByTemplateTypes(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the contact specified. 
 

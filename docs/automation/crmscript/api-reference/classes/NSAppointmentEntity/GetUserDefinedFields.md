@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentEntity_GetUserDefinedFields
 title: Map GetUserDefinedFields()
 intellisense: NSAppointmentEntity.GetUserDefinedFields
 keywords: NSAppointmentEntity, GetUserDefinedFields
 so.topic: reference
 ---
+
+# Map GetUserDefinedFields()
 
 Get the user-defined fields on the NSAppointmentEntity as a map.
 

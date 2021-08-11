@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SetVisibleForUserGroup
 title: Void SetVisibleForUserGroup(Integer udListDefinitionId, Integer listItemId, Integer[] userGroupId, Bool enable)
 intellisense: NSListAgent.SetVisibleForUserGroup
 keywords: NSListAgent, SetVisibleForUserGroup
 so.topic: reference
 ---
+
+# Void SetVisibleForUserGroup(Integer udListDefinitionId, Integer listItemId, Integer[] userGroupId, Bool enable)
 
 Set a group which this list item should be visible for
 

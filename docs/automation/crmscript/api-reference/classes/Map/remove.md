@@ -7,13 +7,11 @@ keywords: remove(String)
 so.topic: reference
 ---
 
+# Map.remove(String key)
+
 Will remove the element with the given key.
-
-
 
 ## Parameters
 
-
  - key: the key matching the element to remove
-
 

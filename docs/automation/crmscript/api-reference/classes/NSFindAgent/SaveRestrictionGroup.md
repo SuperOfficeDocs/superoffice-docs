@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_SaveRestrictionGroup
 title: Void SaveRestrictionGroup(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup restrictionGroup, String context)
 intellisense: NSFindAgent.SaveRestrictionGroup
 keywords: NSFindAgent, SaveRestrictionGroup
 so.topic: reference
 ---
+
+# Void SaveRestrictionGroup(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup restrictionGroup, String context)
 
 Save an array of restrictions as a restriction group for later use as search criteria (including as dynamic selection and Find). 
 

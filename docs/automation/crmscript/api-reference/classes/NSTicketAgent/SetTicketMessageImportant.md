@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketAgent_SetTicketMessageImportant
 title: Void SetTicketMessageImportant(Integer ticketMessageId, Bool important)
 intellisense: NSTicketAgent.SetTicketMessageImportant
 keywords: NSTicketAgent, SetTicketMessageImportant
 so.topic: reference
 ---
+
+# Void SetTicketMessageImportant(Integer ticketMessageId, Bool important)
 
 Set the important flag on or off for a ticket message
 

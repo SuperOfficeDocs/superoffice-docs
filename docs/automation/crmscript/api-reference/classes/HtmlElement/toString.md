@@ -7,6 +7,7 @@ keywords: toString()
 so.topic: reference
 ---
 
-Returns the value of the element as a String.
+# HtmlElement.toString()
 
+Returns the value of the element as a String.
 

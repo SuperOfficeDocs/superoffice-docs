@@ -8,6 +8,7 @@ keywords: GenericToDateTime(Generic)
 so.topic: reference
 ---
 
+# Generic.GenericToDateTime(Generic generic)
 
 Explicit downcast from a generic to a DateTime. If the generic does not represent the correct type, an exception is thrown. Together with `getTypeName()`, this function can be used to get an explicit typed variable.
 

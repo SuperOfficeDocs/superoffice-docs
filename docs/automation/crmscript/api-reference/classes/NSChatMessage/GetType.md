@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatMessage_GetType
 title: NSChatMessageType GetType()
 intellisense: NSChatMessage.GetType
 keywords: NSChatMessage, GetType
 so.topic: reference
 ---
+
+# NSChatMessageType GetType()
 
 The type of the message.
 
@@ -19,5 +21,4 @@ The type of the message.
 NSChatMessage thing;
 NSChatMessageType type  = thing.GetType();
 ```
-
 

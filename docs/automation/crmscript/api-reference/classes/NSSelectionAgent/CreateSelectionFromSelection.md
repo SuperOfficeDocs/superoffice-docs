@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_CreateSelectionFromSelection
 title: NSSelectionEntity CreateSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
 intellisense: NSSelectionAgent.CreateSelectionFromSelection
 keywords: NSSelectionAgent, CreateSelectionFromSelection
 so.topic: reference
 ---
+
+# NSSelectionEntity CreateSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
 
 Creates a new selection based on selection members from an existing selection.
 

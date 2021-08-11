@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactEntity_SetUrls
 title: SetUrls(NSEntityElement[] urls)
 intellisense: NSContactEntity.SetUrls
 keywords: NSContactEntity, GetUrls
 so.topic: reference
 ---
+
+# SetUrls(NSEntityElement[] urls)
 
 The contact's internet adresses
 

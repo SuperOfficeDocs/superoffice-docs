@@ -6,6 +6,7 @@ keywords: getChildren()
 so.topic: reference
 ---
 
-Returns an array of the current node's children.
+# XMLNode.getChildren()
 
+Returns an array of the current node's children.
 

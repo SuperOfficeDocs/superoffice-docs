@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromShadowSelection
 title: NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
 intellisense: NSSelectionAgent.CreateContactSelectionFromShadowSelection
 keywords: NSSelectionAgent, CreateContactSelectionFromShadowSelection
 so.topic: reference
 ---
+
+# NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
 
 Creates a new contact selection based on contact selection members from an existing shadow sale, appointment, project or document selection. The new selection will always be static even if the original selection is dynamic.
 

@@ -6,14 +6,13 @@ sortOrder: 340
 so.topic: reference
 ---
 
+# File
+
 This represents a file.
 
 Use open before you call any other methods.
 
-
-
 ## Example
-
 
     File f;
     

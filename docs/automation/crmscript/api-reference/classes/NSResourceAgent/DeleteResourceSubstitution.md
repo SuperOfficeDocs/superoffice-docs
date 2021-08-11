@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceAgent_DeleteResourceSubstitution
 title: Void DeleteResourceSubstitution(String resourceName, String culture)
 intellisense: NSResourceAgent.DeleteResourceSubstitution
 keywords: NSResourceAgent, DeleteResourceSubstitution
 so.topic: reference
 ---
+
+# Void DeleteResourceSubstitution(String resourceName, String culture)
 
 Permanentely delete a resource substitution for one or more cultures
 

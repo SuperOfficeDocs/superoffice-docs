@@ -7,11 +7,9 @@ keywords: GetString()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetString()
 
 Gets some string
 
-
-
 * **Returns:** Some string
-
 

@@ -6,7 +6,7 @@ keywords: SetChangeCompanyOurContact(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool p_0)
 
 If true, the our contact of the company will change.
-
 

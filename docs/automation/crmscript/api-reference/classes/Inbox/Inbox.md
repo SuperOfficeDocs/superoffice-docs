@@ -6,4 +6,6 @@ sortOrder: 419
 so.topic: reference
 ---
 
+# Inbox
+
 A class for managing the inbox.

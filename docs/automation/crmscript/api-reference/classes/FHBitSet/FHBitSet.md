@@ -6,14 +6,11 @@ sortOrder: 332
 so.topic: reference
 ---
 
+# FHBitSet
 
 This class is used to represent and manipulate a 32 bit bitset.
 
-
-
-
 ## Example
-
 
     FHBitSet fh;
     

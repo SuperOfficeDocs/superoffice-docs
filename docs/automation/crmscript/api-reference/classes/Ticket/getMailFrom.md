@@ -6,11 +6,9 @@ keywords: getMailFrom()
 so.topic: reference
 ---
 
+# Ticket.getMailFrom()
 
 This function determines and returns the most appropriate from-address, when sending a mail-message on a ticket.
 
-
-
 * **Returns:** The most appropriate from-address specified on with address, the ticket has arrived on, the category, etc
-
 

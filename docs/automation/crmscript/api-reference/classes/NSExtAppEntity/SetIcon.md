@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExtAppEntity_SetIcon
 title: SetIcon(Integer icon)
 intellisense: NSExtAppEntity.SetIcon
 keywords: NSExtAppEntity, GetIcon
 so.topic: reference
 ---
+
+# SetIcon(Integer icon)
 
 The id of the icon of the external app
 

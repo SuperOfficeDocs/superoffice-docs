@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSLicenseAgent_ChangeSerialNumber
 title: NSLicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
 intellisense: NSLicenseAgent.ChangeSerialNumber
 keywords: NSLicenseAgent, ChangeSerialNumber
 so.topic: reference
 ---
+
+# NSLicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
 
 Change the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.
 

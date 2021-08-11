@@ -7,11 +7,9 @@ keywords: GetArrayOfQuoteLines()
 so.topic: reference
 ---
 
+# NSAAAMockAgent.GetArrayOfQuoteLines()
 
 Gets some QuoteLines
 
-
-
 * **Returns:** Some QuoteLines
-
 

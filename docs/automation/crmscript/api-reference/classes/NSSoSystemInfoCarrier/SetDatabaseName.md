@@ -6,6 +6,5 @@ keywords: SetDatabaseName(String)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetDatabaseName(String p_0)
 

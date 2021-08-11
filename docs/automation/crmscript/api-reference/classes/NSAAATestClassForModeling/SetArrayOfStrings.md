@@ -7,8 +7,8 @@ keywords: SetArrayOfStrings(String[])
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetArrayOfStrings(String[] p_0)
 
 * **ArrayOfStrings:** String[]
 * **Returns:** String[]
-
 

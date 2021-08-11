@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptAgent_ValidateScript
 title: NSCRMScriptResult ValidateScript(Integer cRMScriptId)
 intellisense: NSCRMScriptAgent.ValidateScript
 keywords: NSCRMScriptAgent, ValidateScript
 so.topic: reference
 ---
+
+# NSCRMScriptResult ValidateScript(Integer cRMScriptId)
 
 Validate a CRMScript. This will check that the syntax is correct
 

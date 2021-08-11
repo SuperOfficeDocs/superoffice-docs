@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveAmountClassEntity
 title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
 intellisense: NSListAgent.SaveAmountClassEntity
 keywords: NSListAgent, SaveAmountClassEntity
 so.topic: reference
 ---
+
+# NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
 	  
 Updates the existing NSAmountClassEntity or creates a new NSAmountClassEntity if the id parameter is 0
 	  

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetProjectImageWithSize
 title: NSImage GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetProjectImageWithSize
 keywords: NSBLOBAgent, GetProjectImageWithSize
 so.topic: reference
 ---
+
+# NSImage GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
 
 Returns the project image that is displayed in the CRM application with a specified maximum size.
 

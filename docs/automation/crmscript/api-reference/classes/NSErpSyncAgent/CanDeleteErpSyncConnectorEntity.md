@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_CanDeleteErpSyncConnectorEntity
 title: Integer CanDeleteErpSyncConnectorEntity(Integer erpSyncConnectorId)
 intellisense: NSErpSyncAgent.CanDeleteErpSyncConnectorEntity
 keywords: NSErpSyncAgent, CanDeleteErpSyncConnectorEntity
 so.topic: reference
 ---
+
+# Integer CanDeleteErpSyncConnectorEntity(Integer erpSyncConnectorId)
 
 Can we delete the connector?
 

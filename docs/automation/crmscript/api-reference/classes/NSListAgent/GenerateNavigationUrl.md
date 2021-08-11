@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GenerateNavigationUrl
 title: String GenerateNavigationUrl(Integer visibleIn, String windowName)
 intellisense: NSListAgent.GenerateNavigationUrl
 keywords: NSListAgent, GenerateNavigationUrl
 so.topic: reference
 ---
+
+# String GenerateNavigationUrl(Integer visibleIn, String windowName)
 
 This methods generates the navigation URL to be used to navigate to the panel
 

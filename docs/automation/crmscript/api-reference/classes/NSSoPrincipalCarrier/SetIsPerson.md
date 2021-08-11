@@ -6,6 +6,5 @@ keywords: SetIsPerson(Bool)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetIsPerson(Bool p_0)
 

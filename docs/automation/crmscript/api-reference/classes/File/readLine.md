@@ -7,7 +7,7 @@ keywords: readLine()
 so.topic: reference
 ---
 
+# File.readLine()
 
 * **Returns:** The next line from the file or a null string if no more data in the file.
-
 

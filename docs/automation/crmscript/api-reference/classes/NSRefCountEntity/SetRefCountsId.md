@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRefCountEntity_SetRefCountsId
 title: SetRefCountsId(Integer refCountsId)
 intellisense: NSRefCountEntity.SetRefCountsId
 keywords: NSRefCountEntity, GetRefCountsId
 so.topic: reference
 ---
+
+# SetRefCountsId(Integer refCountsId)
 
 Primary key
 

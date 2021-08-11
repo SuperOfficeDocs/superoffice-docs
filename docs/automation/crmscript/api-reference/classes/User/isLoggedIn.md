@@ -6,9 +6,9 @@ keywords: isLoggedIn(Integer)
 so.topic: reference
 ---
 
+# User.isLoggedIn(Integer origin)
+
 Check if a user is logged in or not.
 
-
 * **origin:** 2 = web pages, 1 = soap interface
-
 

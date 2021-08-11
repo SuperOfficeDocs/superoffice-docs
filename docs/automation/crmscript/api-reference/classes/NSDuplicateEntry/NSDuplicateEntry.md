@@ -6,5 +6,6 @@ sortOrder: 2720
 so.topic: reference
 ---
 
+# NSDuplicateEntry
 
 Carrier object for NSDuplicateEntry.

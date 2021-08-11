@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectStatus_GetValue
 title: String GetValue()
 intellisense: NSProjectStatus.GetValue
 keywords: NSProjectStatus, GetValue
 so.topic: reference
 ---
+
+# String GetValue()
 
 Get the name of the NSProjectStatus.
 

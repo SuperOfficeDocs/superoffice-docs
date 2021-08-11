@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplate_GetQuoteDocType
 title: NSDocTmplQuoteType GetQuoteDocType()
 intellisense: NSDocumentTemplate.GetQuoteDocType
 keywords: NSDocumentTemplate, GetQuoteDocType
 so.topic: reference
 ---
+
+# NSDocTmplQuoteType GetQuoteDocType()
 
 What type of quote document is this.
 
@@ -21,5 +23,4 @@ What type of quote document is this.
 NSDocumentTemplate thing;
 NSDocTmplQuoteType quoteDocType  = thing.GetQuoteDocType();
 ```
-
 

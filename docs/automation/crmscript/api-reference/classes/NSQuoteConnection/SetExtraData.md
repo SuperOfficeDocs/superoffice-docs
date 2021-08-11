@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteConnection_SetExtraData
 title: SetExtraData(String extraData)
 intellisense: NSQuoteConnection.SetExtraData
 keywords: NSQuoteConnection, GetExtraData
 so.topic: reference
 ---
+
+# SetExtraData(String extraData)
 
 Optional extra data, in XML format, for configuring the connector. Connector-specific!
 

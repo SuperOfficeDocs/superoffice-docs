@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldMetadata_SetAccess
 title: SetAccess(Integer access)
 intellisense: NSFieldMetadata.SetAccess
 keywords: NSFieldMetadata, GetAccess
 so.topic: reference
 ---
+
+# SetAccess(Integer access)
 
 Access restrictions on the field
 

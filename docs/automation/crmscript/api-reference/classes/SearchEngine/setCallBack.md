@@ -6,9 +6,9 @@ keywords: setCallBack(String)
 so.topic: reference
 ---
 
+# SearchEngine.setCallBack(String functionName)
+
 Set an ejscript function as a callback that will be used to convert the values before they are displayed in the grid.
 
-
 * **functionName:** Name of ejscript function.
-
 

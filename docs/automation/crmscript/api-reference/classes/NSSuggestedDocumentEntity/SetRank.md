@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSuggestedDocumentEntity_SetRank
 title: SetRank(Integer rank)
 intellisense: NSSuggestedDocumentEntity.SetRank
 keywords: NSSuggestedDocumentEntity, GetRank
 so.topic: reference
 ---
+
+# SetRank(Integer rank)
 
 Rank, controls rank of non-instantiated items in Guide
 

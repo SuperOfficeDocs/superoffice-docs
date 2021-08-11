@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetPreferencesWithDisplayValues
 title: NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] specifications)
 intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
 keywords: NSPreferenceAgent, GetPreferencesWithDisplayValues
 so.topic: reference
 ---
+
+# NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] specifications)
 
 Get one or more preferences based on a set of specifications<br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
 

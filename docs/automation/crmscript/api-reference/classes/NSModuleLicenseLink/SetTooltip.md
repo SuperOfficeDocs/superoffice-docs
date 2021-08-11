@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSModuleLicenseLink_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSModuleLicenseLink.SetTooltip
 keywords: NSModuleLicenseLink, GetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 The tooltip to be shown in some gui with details on the module license
 

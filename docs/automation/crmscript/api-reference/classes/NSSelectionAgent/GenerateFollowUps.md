@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_GenerateFollowUps
 title: Void GenerateFollowUps(Integer selectionId, NSAppointmentEntity appointmentEntity, Integer associateId, Bool saveOnContactOwner, Bool uniqueContact)
 intellisense: NSSelectionAgent.GenerateFollowUps
 keywords: NSSelectionAgent, GenerateFollowUps
 so.topic: reference
 ---
+
+# Void GenerateFollowUps(Integer selectionId, NSAppointmentEntity appointmentEntity, Integer associateId, Bool saveOnContactOwner, Bool uniqueContact)
 
 Generate follow-ups for members in the selection.
 

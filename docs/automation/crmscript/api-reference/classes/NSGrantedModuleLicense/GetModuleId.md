@@ -7,6 +7,5 @@ keywords: GetModuleId()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetModuleId()
 

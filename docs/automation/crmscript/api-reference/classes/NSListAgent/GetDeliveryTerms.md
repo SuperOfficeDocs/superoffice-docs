@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetDeliveryTerms
 title: NSDeliveryTerm[] GetDeliveryTerms()
 intellisense: NSListAgent.GetDeliveryTerms
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetDeliveryTerms
 so.topic: reference
 ---
 
-Returns all DeliveryTerms in SuperOffice db.
+# NSDeliveryTerm[] GetDeliveryTerms()
 
+Returns all DeliveryTerms in SuperOffice db.
 
 **Returns:** NSDeliveryTerm[]
 

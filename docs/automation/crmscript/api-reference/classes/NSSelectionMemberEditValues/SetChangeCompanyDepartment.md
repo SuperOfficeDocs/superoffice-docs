@@ -6,7 +6,7 @@ keywords: SetChangeCompanyDepartment(Bool)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool p_0)
 
 If true, the department of the company will change.
-
 

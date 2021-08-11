@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuotePublishDocuments_SetToFullName
 title: SetToFullName(String toFullName)
 intellisense: NSQuotePublishDocuments.SetToFullName
 keywords: NSQuotePublishDocuments, GetToFullName
 so.topic: reference
 ---
+
+# SetToFullName(String toFullName)
 
 The full name of the recipient, taken from the sale's person
 

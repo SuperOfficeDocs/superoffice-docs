@@ -7,12 +7,10 @@ keywords: SetUshortProbability(Integer)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetUshortProbability(Integer p_0)
 
 Actual probability, may differ from the one in the list
 
-
-
 * **UshortProbability:** Integer
 * **Returns:** Void
-
 

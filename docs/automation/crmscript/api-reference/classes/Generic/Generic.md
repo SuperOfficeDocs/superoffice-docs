@@ -6,6 +6,7 @@ sortOrder: 360
 so.topic: reference
 ---
 
+# Generic
 
 A base class for representing all other intrinsic datatypes. Any variable can be up-casted to Generic.
 

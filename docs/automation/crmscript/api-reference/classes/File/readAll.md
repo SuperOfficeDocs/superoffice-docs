@@ -7,7 +7,7 @@ keywords: readAll()
 so.topic: reference
 ---
 
+# File.readAll()
 
 * **Returns:** All text from the file.
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetFromListDefinition
 title: NSListItemEntity GetFromListDefinition(Integer id, Integer udListDefinitionId)
 intellisense: NSListAgent.GetFromListDefinition
 keywords: NSListAgent, GetFromListDefinition
 so.topic: reference
 ---
+
+# NSListItemEntity GetFromListDefinition(Integer id, Integer udListDefinitionId)
 
 Get a list item for the specified list defintion
 

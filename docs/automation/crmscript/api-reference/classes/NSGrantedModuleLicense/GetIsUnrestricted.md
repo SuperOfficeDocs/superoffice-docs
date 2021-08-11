@@ -7,6 +7,5 @@ keywords: GetIsUnrestricted()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetIsUnrestricted()
 

@@ -7,21 +7,16 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# ExtraTable.setValue(String fieldname, String value)
+
 This function sets the value of a given field if it exists.
 
-
-
 ## Parameters
-
 
  - fieldname: Name of field to set
  - value: A string representation of the value to be assigned to the field.
 
-
-
-
 ## Example
-
 
     ExtraTable ex;
     
@@ -30,5 +25,4 @@ This function sets the value of a given field if it exists.
     
     ex.setValue("name", "Test");
     print(ex.getValue("x_table"));
-
 

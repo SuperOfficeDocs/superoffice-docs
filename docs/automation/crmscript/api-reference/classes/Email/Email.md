@@ -6,12 +6,11 @@ sortOrder: 280
 so.topic: reference
 ---
 
+# Email
+
 Class for representing and sending emails.
 
-
-
 ## Example
-
 
     Email e;
     

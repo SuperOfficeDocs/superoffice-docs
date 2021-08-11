@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpConnectionData_GetCrmActorType
 title: Integer GetCrmActorType()
 intellisense: NSErpConnectionData.GetCrmActorType
 keywords: NSErpConnectionData, GetCrmActorType
 so.topic: reference
 ---
+
+# Integer GetCrmActorType()
 
 The crm actor type which these fields belongs to
 
@@ -20,5 +22,4 @@ The crm actor type which these fields belongs to
 NSErpConnectionData thing;
 Integer crmActorType  = thing.GetCrmActorType();
 ```
-
 

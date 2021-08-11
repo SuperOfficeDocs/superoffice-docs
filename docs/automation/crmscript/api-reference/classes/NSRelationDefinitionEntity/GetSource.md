@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSRelationDefinitionEntity_GetSource
 title: Integer GetSource()
 intellisense: NSRelationDefinitionEntity.GetSource
 keywords: NSRelationDefinitionEntity, GetSource
 so.topic: reference
 ---
+
+# Integer GetSource()
 
 The source of the relation
 
@@ -19,5 +21,4 @@ The source of the relation
 NSRelationDefinitionEntity thing;
 Integer source  = thing.GetSource();
 ```
-
 

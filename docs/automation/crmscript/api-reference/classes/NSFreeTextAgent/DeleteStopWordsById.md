@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFreeTextAgent_DeleteStopWordsById
 title: Void DeleteStopWordsById(Integer[] stopWordIds)
 intellisense: NSFreeTextAgent.DeleteStopWordsById
 keywords: NSFreeTextAgent, DeleteStopWordsById
 so.topic: reference
 ---
+
+# Void DeleteStopWordsById(Integer[] stopWordIds)
 
 Delete the stop words with these ids
 

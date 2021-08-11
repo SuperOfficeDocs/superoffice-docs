@@ -6,7 +6,7 @@ keywords: SetContactPosition(Integer)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetContactPosition(Integer p_0)
 
 Contains new value for the contact position.
-
 

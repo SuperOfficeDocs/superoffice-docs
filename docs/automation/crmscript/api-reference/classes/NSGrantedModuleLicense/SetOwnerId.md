@@ -7,6 +7,5 @@ keywords: SetOwnerId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.SetOwnerId(Integer p_0)
 

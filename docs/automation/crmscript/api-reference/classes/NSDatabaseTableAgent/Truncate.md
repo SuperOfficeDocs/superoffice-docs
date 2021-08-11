@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDatabaseTableAgent_Truncate
 title: NSMassOperationResult Truncate(String tableName)
 intellisense: NSDatabaseTableAgent.Truncate
 keywords: NSDatabaseTableAgent, Truncate
 so.topic: reference
 ---
+
+# NSMassOperationResult Truncate(String tableName)
 
 Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 

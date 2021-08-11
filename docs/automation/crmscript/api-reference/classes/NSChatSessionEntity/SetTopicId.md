@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatSessionEntity_SetTopicId
 title: SetTopicId(Integer topicId)
 intellisense: NSChatSessionEntity.SetTopicId
 keywords: NSChatSessionEntity, GetTopicId
 so.topic: reference
 ---
+
+# SetTopicId(Integer topicId)
 
 The reference to the associated chat topic.
 

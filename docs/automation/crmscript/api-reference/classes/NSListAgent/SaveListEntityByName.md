@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_SaveListEntityByName
 title: NSListEntity SaveListEntityByName(String name, NSListEntity listEntity)
 intellisense: NSListAgent.SaveListEntityByName
 keywords: NSListAgent, SaveListEntityByName
 so.topic: reference
 ---
+
+# NSListEntity SaveListEntityByName(String name, NSListEntity listEntity)
 
 Save a NSListEntity resolved by the provided name.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_HasConsent
 title: Bool HasConsent(Integer personId, String purpose)
 intellisense: NSPersonAgent.HasConsent
 keywords: NSPersonAgent, HasConsent
 so.topic: reference
 ---
+
+# Bool HasConsent(Integer personId, String purpose)
 
 Check if consent has been given by a specified person, for a specific purpose. Withdraw consents return FALSE.
 

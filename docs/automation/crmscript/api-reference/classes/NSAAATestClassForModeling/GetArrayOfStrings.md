@@ -7,7 +7,7 @@ keywords: GetArrayOfStrings()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetArrayOfStrings()
 
 * **Returns:** String[]
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetDepartment
 title: NSDepartment GetDepartment(Integer departmentId);
 intellisense: NSListAgent.GetDepartment
 keywords: NSListAgent, GetDepartment
 so.topic: reference
 ---
+
+# NSDepartment GetDepartment(Integer departmentId);
 
 Gets a NSDepartment object.
 

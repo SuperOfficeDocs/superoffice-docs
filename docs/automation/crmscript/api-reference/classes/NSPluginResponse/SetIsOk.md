@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPluginResponse_SetIsOk
 title: SetIsOk(Bool isOk)
 intellisense: NSPluginResponse.SetIsOk
 keywords: NSPluginResponse, GetIsOk
 so.topic: reference
 ---
+
+# SetIsOk(Bool isOk)
 
 Answer to the question / An indication if the operation went well.
 

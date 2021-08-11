@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBulkUpdateAgent_GetStoredFields
 title: NSFieldValueInfo[] GetStoredFields(String tablename, String context)
 intellisense: NSBulkUpdateAgent.GetStoredFields
 keywords: NSBulkUpdateAgent, GetStoredFields
 so.topic: reference
 ---
+
+# NSFieldValueInfo[] GetStoredFields(String tablename, String context)
 
 Get all stored fields for a given tablename/entity and context
 

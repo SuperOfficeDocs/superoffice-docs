@@ -7,6 +7,7 @@ keywords: SetEntryName(String)
 so.topic: reference
 ---
 
-Name of duplicate entry
+# NSDuplicateEntry.SetEntryName(String p_0)
 
+Name of duplicate entry
 

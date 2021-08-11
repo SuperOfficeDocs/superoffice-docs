@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentTemplateEntity_SetIncludeSignature
 title: SetIncludeSignature(Bool includeSignature)
 intellisense: NSDocumentTemplateEntity.SetIncludeSignature
 keywords: NSDocumentTemplateEntity, GetIncludeSignature
 so.topic: reference
 ---
+
+# SetIncludeSignature(Bool includeSignature)
 
 True if the email signature should be added in bottom of mail if this an email template
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSystemEventEntity_SetEta
 title: SetEta(DateTime eta)
 intellisense: NSSystemEventEntity.SetEta
 keywords: NSSystemEventEntity, GetEta
 so.topic: reference
 ---
+
+# SetEta(DateTime eta)
 
 Estimated Time of Arrival, i.e., when will this event finish?
 

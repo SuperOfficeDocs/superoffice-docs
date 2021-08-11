@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSChatWidgetSettings_SetFont
 title: SetFont(String font)
 intellisense: NSChatWidgetSettings.SetFont
 keywords: NSChatWidgetSettings, GetFont
 so.topic: reference
 ---
+
+# SetFont(String font)
 
 The font used in the widget
 

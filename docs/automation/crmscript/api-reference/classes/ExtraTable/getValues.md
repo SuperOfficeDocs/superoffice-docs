@@ -7,7 +7,7 @@ keywords: getValues()
 so.topic: reference
 ---
 
+# ExtraTable.getValues()
 
 This function returns all the fields and values of the extraTable row as a Map.
-
 

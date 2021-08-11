@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveAgent_GetProviderNames
 title: String[] GetProviderNames()
 intellisense: NSArchiveAgent.GetProviderNames
@@ -6,8 +6,9 @@ keywords: NSArchiveAgent, GetProviderNames
 so.topic: reference
 ---
 
-Return list of all archive provider names
+# String[] GetProviderNames()
 
+Return list of all archive provider names
 
 **Returns:** Array of all archive provider names. 
 

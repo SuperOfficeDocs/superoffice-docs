@@ -6,6 +6,5 @@ keywords: SetFunctionRights(String[])
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetFunctionRights(String[] p_0)
 

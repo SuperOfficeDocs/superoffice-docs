@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetTicketStatusEntity
 title: NSTicketStatusEntity GetTicketStatusEntity(Integer ticketStatusEntityId);
 intellisense: NSListAgent.GetTicketStatusEntity
 keywords: NSListAgent, GetTicketStatusEntity
 so.topic: reference
 ---
+
+# NSTicketStatusEntity GetTicketStatusEntity(Integer ticketStatusEntityId);
 
 Gets a NSTicketStatusEntity object.
 

@@ -7,12 +7,10 @@ keywords: ArrayQuoteLineInput(NSQuoteLine[])
 so.topic: reference
 ---
 
+# NSAAAMockAgent.ArrayQuoteLineInput(NSQuoteLine[] p_0)
 
 Test QuoteLine array input
 
-
-
 * **quoteLineArrayArgument:** Some QuoteLine array argument
 * **Returns:** A void return
-
 

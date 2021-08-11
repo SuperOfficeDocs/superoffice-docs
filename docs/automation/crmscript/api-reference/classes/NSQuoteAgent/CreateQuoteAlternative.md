@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_CreateQuoteAlternative
 title: NSQuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
 intellisense: NSQuoteAgent.CreateQuoteAlternative
 keywords: NSQuoteAgent, CreateQuoteAlternative
 so.topic: reference
 ---
+
+# NSQuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
 
 Create a new quote alternative on a version.
 

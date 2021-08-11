@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsprojectagent_saveprojectevententity
 title: NSProjectEventEntity SaveProjectEventEntity()
 description: CRMScript method in the Attachment class that creates or updates an NSProjectEventEntity

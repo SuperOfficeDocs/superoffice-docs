@@ -6,6 +6,5 @@ keywords: SetExtraInfo(String)
 so.topic: reference
 ---
 
-
-
+# NSLicenseInfo.SetExtraInfo(String p_0)
 

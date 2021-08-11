@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListItemEntity_SetTooltip
 title: SetTooltip(String tooltip)
 intellisense: NSListItemEntity.SetTooltip
 keywords: NSListItemEntity, GetTooltip
 so.topic: reference
 ---
+
+# SetTooltip(String tooltip)
 
 The tooltip of the list item
 

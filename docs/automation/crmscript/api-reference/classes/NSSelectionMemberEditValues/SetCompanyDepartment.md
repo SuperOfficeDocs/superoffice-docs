@@ -6,7 +6,7 @@ keywords: SetCompanyDepartment(String)
 so.topic: reference
 ---
 
+# NSSelectionMemberEditValues.SetCompanyDepartment(String p_0)
 
 Contains new value for the company department.
-
 

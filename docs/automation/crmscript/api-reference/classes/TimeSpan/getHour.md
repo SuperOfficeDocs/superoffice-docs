@@ -6,6 +6,7 @@ keywords: getHour()
 so.topic: reference
 ---
 
-This function will return the hour field of the timespan as an integer.
+# TimeSpan.getHour()
 
+This function will return the hour field of the timespan as an integer.
 

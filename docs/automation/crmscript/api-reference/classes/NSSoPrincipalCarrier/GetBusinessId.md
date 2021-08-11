@@ -6,6 +6,5 @@ keywords: GetBusinessId()
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.GetBusinessId()
 

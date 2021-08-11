@@ -6,7 +6,7 @@ keywords: addRow()
 so.topic: reference
 ---
 
+# StringMatrix.addRow()
 
 Add a row to the matrix.
-
 

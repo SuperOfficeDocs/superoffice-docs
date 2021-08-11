@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetCreditedList
 title: NSCredited[] GetCreditedList(Integer[]  creditedIds);
 intellisense: NSListAgent.GetCreditedList
 keywords: NSListAgent, GetCreditedList
 so.topic: reference
 ---
+
+# NSCredited[] GetCreditedList(Integer[]  creditedIds);
 
 Gets a vector of NSCredited objects.
 

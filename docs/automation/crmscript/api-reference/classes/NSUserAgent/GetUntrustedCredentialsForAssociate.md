@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetUntrustedCredentialsForAssociate
 title: NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer associateId, String type)
 intellisense: NSUserAgent.GetUntrustedCredentialsForAssociate
 keywords: NSUserAgent, GetUntrustedCredentialsForAssociate
 so.topic: reference
 ---
+
+# NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer associateId, String type)
 
 Get a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.
 

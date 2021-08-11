@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldMetadata_SetFieldType
 title: SetFieldType(Integer fieldType)
 intellisense: NSFieldMetadata.SetFieldType
 keywords: NSFieldMetadata, GetFieldType
 so.topic: reference
 ---
+
+# SetFieldType(Integer fieldType)
 
 String, int, decimal, etc.
 

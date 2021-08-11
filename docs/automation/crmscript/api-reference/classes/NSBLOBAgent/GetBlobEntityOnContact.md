@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnContact
 title: NSBlobEntity GetBlobEntityOnContact(Integer contactId)
 intellisense: NSBLOBAgent.GetBlobEntityOnContact
 keywords: NSBLOBAgent, GetBlobEntityOnContact
 so.topic: reference
 ---
+
+# NSBlobEntity GetBlobEntityOnContact(Integer contactId)
 
 Gets the blob entity that represents the contact image binary object.
 

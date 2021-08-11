@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMarketingAgent_SaveShipmentMessageEntity
 title: NSShipmentMessageEntity SaveShipmentMessageEntity(NSShipmentMessageEntity shipmentMessageEntity);
 intellisense: NSMarketingAgent.SaveShipmentMessageEntity
 keywords: NSMarketingAgent, SaveShipmentMessageEntity
 so.topic: reference
 ---
+
+# NSShipmentMessageEntity SaveShipmentMessageEntity(NSShipmentMessageEntity shipmentMessageEntity);
 	  
 Updates the existing NSShipmentMessageEntity or creates a new NSShipmentMessageEntity if the id parameter is 0
 	  

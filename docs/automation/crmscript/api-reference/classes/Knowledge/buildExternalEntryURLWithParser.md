@@ -7,12 +7,12 @@ keywords: buildExternalEntryURLWithParser(Integer,Parser)
 so.topic: reference
 ---
 
+# Knowledge.buildExternalEntryURLWithParser(Integer kbId, Parser parser)
+
 This function builds an url to the customer center to view a knowledgebase entry.
 The function fetch the baseUrl from the registry table with reg\_id 61. Then it parses the url with the input parser, and returns the url.
-
 
 * **Integer:** kbId, The id of the knowledgebase entry to link to.
 * **Parser:** parser, The parser to use to parse the url
 * **Returns:** the url to the knowledgebase entry.
-
 

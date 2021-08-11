@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceAgent_GetTabOrder
 title: NSTabOrder GetTabOrder(String tabName)
 intellisense: NSPreferenceAgent.GetTabOrder
 keywords: NSPreferenceAgent, GetTabOrder
 so.topic: reference
 ---
+
+# NSTabOrder GetTabOrder(String tabName)
 
 Gets the tab order.
 

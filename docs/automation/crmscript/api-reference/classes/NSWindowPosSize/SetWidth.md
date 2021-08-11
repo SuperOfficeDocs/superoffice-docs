@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWindowPosSize_SetWidth
 title: SetWidth(Integer width)
 intellisense: NSWindowPosSize.SetWidth
 keywords: NSWindowPosSize, GetWidth
 so.topic: reference
 ---
+
+# SetWidth(Integer width)
 
 The width of the widget
 

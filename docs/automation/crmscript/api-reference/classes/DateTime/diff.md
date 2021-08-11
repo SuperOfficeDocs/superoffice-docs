@@ -7,18 +7,13 @@ keywords: diff(DateTime)
 so.topic: reference
 ---
 
+# DateTime.diff(DateTime otherDateTime)
 
 Returns the difference in number of seconds between the input-parameter and the object
 
-
-
-
 ## Parameters
-
 
  - otherDateTime: The datetime to subtract
 
-
 Returns the number of seconds between the datetime and the input datetime. The number is negative if the input datetime is the greatest.
-
 

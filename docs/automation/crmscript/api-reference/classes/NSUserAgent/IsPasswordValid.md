@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_IsPasswordValid
 title: Bool IsPasswordValid(Integer associateId, Integer type, Integer personId, String password)
 intellisense: NSUserAgent.IsPasswordValid
@@ -6,7 +6,7 @@ keywords: NSUserAgent, IsPasswordValid
 so.topic: reference
 ---
 
-
+# Bool IsPasswordValid(Integer associateId, Integer type, Integer personId, String password)
 
 **Parameters:**
  - **associateId** 

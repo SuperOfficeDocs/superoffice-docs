@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity
 title: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId);
 intellisense: NSForeignSystemAgent.GetForeignAppEntity
 keywords: NSForeignSystemAgent, GetForeignAppEntity
 so.topic: reference
 ---
+
+# NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId);
 
 Gets a NSForeignAppEntity object.
 

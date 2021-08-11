@@ -6,6 +6,5 @@ keywords: SetBuildType(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.SetBuildType(Integer p_0)
 

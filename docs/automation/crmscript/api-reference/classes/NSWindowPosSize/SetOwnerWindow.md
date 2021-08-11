@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWindowPosSize_SetOwnerWindow
 title: SetOwnerWindow(String ownerWindow)
 intellisense: NSWindowPosSize.SetOwnerWindow
 keywords: NSWindowPosSize, GetOwnerWindow
 so.topic: reference
 ---
+
+# SetOwnerWindow(String ownerWindow)
 
 The dialog, panel or whatever that owns this record
 

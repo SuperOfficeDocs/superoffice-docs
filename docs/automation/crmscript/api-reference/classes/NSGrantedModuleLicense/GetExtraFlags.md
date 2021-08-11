@@ -7,6 +7,5 @@ keywords: GetExtraFlags()
 so.topic: reference
 ---
 
-
-
+# NSGrantedModuleLicense.GetExtraFlags()
 

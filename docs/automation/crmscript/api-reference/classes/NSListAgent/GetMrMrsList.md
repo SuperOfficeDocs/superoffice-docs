@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetMrMrsList
 title: NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
 intellisense: NSListAgent.GetMrMrsList
 keywords: NSListAgent, GetMrMrsList
 so.topic: reference
 ---
+
+# NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
 
 Gets a vector of NSMrMrs objects.
 

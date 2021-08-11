@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetApplicationKeys
 title: NSForeignKey[] GetApplicationKeys(String applicationName)
 intellisense: NSForeignSystemAgent.GetApplicationKeys
 keywords: NSForeignSystemAgent, GetApplicationKeys
 so.topic: reference
 ---
+
+# NSForeignKey[] GetApplicationKeys(String applicationName)
 
 Returns all ForeignKeys that belong to an application.
 

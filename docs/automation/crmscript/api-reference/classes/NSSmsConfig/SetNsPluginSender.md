@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSmsConfig_SetNsPluginSender
 title: SetNsPluginSender(String nsPluginSender)
 intellisense: NSSmsConfig.SetNsPluginSender
 keywords: NSSmsConfig, GetNsPluginSender
 so.topic: reference
 ---
+
+# SetNsPluginSender(String nsPluginSender)
 
 The sender of the SMS messages. This text will appear on the recipient's mobile phone.
 

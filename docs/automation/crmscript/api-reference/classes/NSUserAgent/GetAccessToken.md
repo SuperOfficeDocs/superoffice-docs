@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_GetAccessToken
 title: String GetAccessToken(String appToken, Bool includeCsSession)
 intellisense: NSUserAgent.GetAccessToken
 keywords: NSUserAgent, GetAccessToken
 so.topic: reference
 ---
+
+# String GetAccessToken(String appToken, Bool includeCsSession)
 
 Get an access token based on the current user's session.
 

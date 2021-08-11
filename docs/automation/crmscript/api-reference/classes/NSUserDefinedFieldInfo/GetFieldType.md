@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldType
 title: Integer GetFieldType()
 intellisense: NSUserDefinedFieldInfo.GetFieldType
 keywords: NSUserDefinedFieldInfo, GetFieldType
 so.topic: reference
 ---
+
+# Integer GetFieldType()
 
 Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox
 
@@ -23,5 +25,4 @@ Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox
 NSUserDefinedFieldInfo thing;
 Integer fieldType  = thing.GetFieldType();
 ```
-
 

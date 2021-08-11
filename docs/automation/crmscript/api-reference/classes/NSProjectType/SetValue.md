@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectType_SetValue
 title: SetValue(String value)
 intellisense: NSProjectType.SetValue
 keywords: NSProjectType, SetValue
 so.topic: reference
 ---
+
+# SetValue(String value)
 
 Set the name of the NSProjectType item.
 

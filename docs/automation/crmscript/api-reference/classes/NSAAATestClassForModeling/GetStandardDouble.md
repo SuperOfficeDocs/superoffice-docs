@@ -7,7 +7,7 @@ keywords: GetStandardDouble()
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.GetStandardDouble()
 
 * **Returns:** Float
-
 

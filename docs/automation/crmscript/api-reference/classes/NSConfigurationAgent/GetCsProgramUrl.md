@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetCsProgramUrl
 title: String GetCsProgramUrl(String language, String programName, String action, String extraParameters)
 intellisense: NSConfigurationAgent.GetCsProgramUrl
 keywords: NSConfigurationAgent, GetCsProgramUrl
 so.topic: reference
 ---
+
+# String GetCsProgramUrl(String language, String programName, String action, String extraParameters)
 
 This method will convert a module name into a CS URL.
 

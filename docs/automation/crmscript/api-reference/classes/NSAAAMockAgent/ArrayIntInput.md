@@ -7,12 +7,10 @@ keywords: ArrayIntInput(Integer[])
 so.topic: reference
 ---
 
+# NSAAAMockAgent.ArrayIntInput(Integer[] p_0)
 
 Test integer array input
 
-
-
 * **intArrayArgument:** Some integer array argument
 * **Returns:** A void return
-
 

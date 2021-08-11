@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCommandInfo_SetName
 title: SetName(String name)
 intellisense: NSCommandInfo.SetName
 keywords: NSCommandInfo, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 The programmatic name of the command, uniquely identifying this command for the document plugin.
 

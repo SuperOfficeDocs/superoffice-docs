@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
 title: NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(String applicationName, String deviceName, String deviceIdentifier, String tableName)
 intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
 keywords: NSForeignSystemAgent, GetDeviceKeysOnDeviceIdentifierTable
 so.topic: reference
 ---
+
+# NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(String applicationName, String deviceName, String deviceIdentifier, String tableName)
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
 

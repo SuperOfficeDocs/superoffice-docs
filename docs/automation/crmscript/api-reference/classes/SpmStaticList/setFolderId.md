@@ -6,11 +6,9 @@ keywords: setFolderId(Integer)
 so.topic: reference
 ---
 
+# SpmStaticList.setFolderId(Integer folderId)
 
 This method will set folder id for a static list.
 
-
-
 * **folderId:** The id of the folder for this list
-
 

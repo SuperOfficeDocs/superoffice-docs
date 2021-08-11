@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSResourceAgent_GetResourceSubstitutions
 title: NSResourceOverride[] GetResourceSubstitutions(String[] resourceNames, String culture, Bool activeOnly)
 intellisense: NSResourceAgent.GetResourceSubstitutions
 keywords: NSResourceAgent, GetResourceSubstitutions
 so.topic: reference
 ---
+
+# NSResourceOverride[] GetResourceSubstitutions(String[] resourceNames, String culture, Bool activeOnly)
 
 Get substitutions for some or all resources for one culture
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldMetadata_GetFieldType
 title: Integer GetFieldType()
 intellisense: NSFieldMetadata.GetFieldType
 keywords: NSFieldMetadata, GetFieldType
 so.topic: reference
 ---
+
+# Integer GetFieldType()
 
 String, int, decimal, etc.
 
@@ -23,5 +25,4 @@ String, int, decimal, etc.
 NSFieldMetadata thing;
 Integer fieldType  = thing.GetFieldType();
 ```
-
 

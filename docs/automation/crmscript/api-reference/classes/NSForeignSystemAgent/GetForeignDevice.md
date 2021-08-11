@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSForeignSystemAgent_GetForeignDevice
 title: NSForeignDevice GetForeignDevice(Integer foreignDeviceId);
 intellisense: NSForeignSystemAgent.GetForeignDevice
 keywords: NSForeignSystemAgent, GetForeignDevice
 so.topic: reference
 ---
+
+# NSForeignDevice GetForeignDevice(Integer foreignDeviceId);
 
 Gets a NSForeignDevice object.
 

@@ -6,6 +6,5 @@ keywords: GetDescriptionStyleHint()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceDate.GetDescriptionStyleHint()
 

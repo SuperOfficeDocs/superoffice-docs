@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSWebhook_GetState
 title: Integer GetState()
 intellisense: NSWebhook.GetState
 keywords: NSWebhook, GetState
 so.topic: reference
 ---
+
+# Integer GetState()
 
 Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
 
@@ -19,5 +21,4 @@ Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooM
 NSWebhook thing;
 Integer state  = thing.GetState();
 ```
-
 

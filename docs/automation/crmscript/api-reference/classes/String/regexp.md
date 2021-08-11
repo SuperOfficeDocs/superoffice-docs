@@ -6,13 +6,12 @@ keywords: regexp(String)
 so.topic: reference
 ---
 
+# String.regexp(String pattern)
 
 Uses regexp pattern on the String object. Support for subexpressions are also present.
 The regexp is caseinsensitiv.
 
-
 ## Example
-
 
     String s;
     s="blabla 1234-4567-7890-1111 asdfasdfasdf";
@@ -21,14 +20,10 @@ The regexp is caseinsensitiv.
     {
       print("Result: " + res[i] + "\n");
     }
-    
-
-
 
 ## Interpretation of the returned array
 
 No matches will result an array with 0 length.
 res[0] will point to the entire matched string.
 res[1 ... n-1] will point to the matches of the subexpressions.
-
 

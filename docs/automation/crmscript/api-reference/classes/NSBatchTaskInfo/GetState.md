@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_GetState
 title: Integer GetState()
 intellisense: NSBatchTaskInfo.GetState
 keywords: NSBatchTaskInfo, GetState
 so.topic: reference
 ---
+
+# Integer GetState()
 
 BatchTaskState of the task.
 
@@ -23,5 +25,4 @@ BatchTaskState of the task.
 NSBatchTaskInfo thing;
 Integer state  = thing.GetState();
 ```
-
 

@@ -6,6 +6,5 @@ keywords: SetStartDate(DateTime)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.SetStartDate(DateTime p_0)
 

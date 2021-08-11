@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPersonAgent_SetPersonRank
 title: Bool SetPersonRank(Integer personId, Integer desiredRank)
 intellisense: NSPersonAgent.SetPersonRank
 keywords: NSPersonAgent, SetPersonRank
 so.topic: reference
 ---
+
+# Bool SetPersonRank(Integer personId, Integer desiredRank)
 
 Directly set the rank field of a person record, adjusting all other person records under the same contact as needed.<para/>This call may affect multiple records, potentially all person records belonging to one contact.<para/>You must have write access for to affected records for this method to succeed.
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_AuthenticateIncoming
 title: Bool AuthenticateIncoming(NSEMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.AuthenticateIncoming
 keywords: NSEMailAgent, AuthenticateIncoming
 so.topic: reference
 ---
+
+# Bool AuthenticateIncoming(NSEMailConnectionInfo connectionInfo)
 
 Authenticate against a mail-server to retrieve e-mails from
 

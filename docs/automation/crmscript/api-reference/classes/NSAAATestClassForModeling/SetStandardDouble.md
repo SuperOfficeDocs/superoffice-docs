@@ -7,8 +7,8 @@ keywords: SetStandardDouble(Float)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetStandardDouble(Float p_0)
 
 * **StandardDouble:** Float
 * **Returns:** Float
-
 

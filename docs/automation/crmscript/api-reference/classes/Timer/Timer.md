@@ -5,8 +5,7 @@ intellisense: Void.Timer
 so.topic: reference
 ---
 
-
-
+# Timer
 
 ## Example
     
@@ -14,9 +13,6 @@ so.topic: reference
     timer.start();
     
     // code you want to time
-    
-    
-    
     
     timer.stop();
     Float timeTaken = timer.getSeconds();

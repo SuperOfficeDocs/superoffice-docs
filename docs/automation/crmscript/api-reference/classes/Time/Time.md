@@ -5,6 +5,7 @@ intellisense: Void.Time
 so.topic: reference
 ---
 
+# Time
 
 A class for representing time as objects.
 Constructor can take a Time, and returns a Time.

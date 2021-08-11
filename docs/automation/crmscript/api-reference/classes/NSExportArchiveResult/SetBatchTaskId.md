@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSExportArchiveResult_SetBatchTaskId
 title: SetBatchTaskId(Integer batchTaskId)
 intellisense: NSExportArchiveResult.SetBatchTaskId
 keywords: NSExportArchiveResult, GetBatchTaskId
 so.topic: reference
 ---
+
+# SetBatchTaskId(Integer batchTaskId)
 
 Id of the BatchTask created. <=0 if no BatchTask was created.
 

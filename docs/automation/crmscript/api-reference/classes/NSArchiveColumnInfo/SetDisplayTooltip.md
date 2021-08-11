@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSArchiveColumnInfo_SetDisplayTooltip
 title: SetDisplayTooltip(String displayTooltip)
 intellisense: NSArchiveColumnInfo.SetDisplayTooltip
 keywords: NSArchiveColumnInfo, GetDisplayTooltip
 so.topic: reference
 ---
+
+# SetDisplayTooltip(String displayTooltip)
 
 The column tooltip, used in the column list and in the column headings
 

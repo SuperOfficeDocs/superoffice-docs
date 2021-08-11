@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeCrm
 title: NSCrmActorType GetActorTypeCrm()
 intellisense: NSErpSyncActorTypeMapping.GetActorTypeCrm
 keywords: NSErpSyncActorTypeMapping, GetActorTypeCrm
 so.topic: reference
 ---
+
+# NSCrmActorType GetActorTypeCrm()
 
 The actor type (CRM side)
 
@@ -20,5 +22,4 @@ The actor type (CRM side)
 NSErpSyncActorTypeMapping thing;
 NSCrmActorType actorTypeCrm  = thing.GetActorTypeCrm();
 ```
-
 

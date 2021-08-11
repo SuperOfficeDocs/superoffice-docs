@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDeliveryType_GetTooltip
 title: String GetTooltip()
 intellisense: NSDeliveryType.GetTooltip
 keywords: NSDeliveryType, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the DeliveryType list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the DeliveryType list item.
 NSDeliveryType thing;
 String descr = thing.GetTooltip();
 ```
-
 

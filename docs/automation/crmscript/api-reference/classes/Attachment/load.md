@@ -7,18 +7,13 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
+# Attachment.load(Integer id)
 
 Load in eJournal attachment from disk.
 
-
-
-
 ## Parameters
-
 
  - Attachment id
 
-
 Returns true if load was successful, false if not.
-
 

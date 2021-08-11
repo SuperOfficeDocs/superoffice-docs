@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSShipmentMessageEntity_SetFlags
 title: SetFlags(Integer flags)
 intellisense: NSShipmentMessageEntity.SetFlags
 keywords: NSShipmentMessageEntity, GetFlags
 so.topic: reference
 ---
+
+# SetFlags(Integer flags)
 
 Identifies if HTML or plain message is included in message.
 

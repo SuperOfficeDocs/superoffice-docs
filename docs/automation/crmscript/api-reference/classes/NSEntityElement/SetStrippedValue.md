@@ -7,6 +7,5 @@ keywords: SetStrippedValue(String)
 so.topic: reference
 ---
 
-
-
+# NSEntityElement.SetStrippedValue(String p_0)
 

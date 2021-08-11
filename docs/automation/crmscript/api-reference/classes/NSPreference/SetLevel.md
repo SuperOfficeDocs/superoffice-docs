@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreference_SetLevel
 title: SetLevel(Integer level)
 intellisense: NSPreference.SetLevel
 keywords: NSPreference, GetLevel
 so.topic: reference
 ---
+
+# SetLevel(Integer level)
 
 NSPreference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.
 

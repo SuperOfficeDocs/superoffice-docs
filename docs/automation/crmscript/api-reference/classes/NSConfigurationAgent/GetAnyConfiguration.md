@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSConfigurationAgent_GetAnyConfiguration
 title: String GetAnyConfiguration(String application, String instance, String item, String type)
 intellisense: NSConfigurationAgent.GetAnyConfiguration
 keywords: NSConfigurationAgent, GetAnyConfiguration
 so.topic: reference
 ---
+
+# String GetAnyConfiguration(String application, String instance, String item, String type)
 
 Get one defined configuration fragment, with full reference resolution and parsing applied. This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.
 

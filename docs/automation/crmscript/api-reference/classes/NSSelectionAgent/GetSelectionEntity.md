@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_GetSelectionEntity
 title: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
 intellisense: NSSelectionAgent.GetSelectionEntity
 keywords: NSSelectionAgent, GetSelectionEntity
 so.topic: reference
 ---
+
+# NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
 
 Gets a NSSelectionEntity object.
 

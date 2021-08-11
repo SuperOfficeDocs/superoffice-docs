@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSProjectAgent_GetPublishedProjects
 title: NSProject[] GetPublishedProjects(Integer[] projectIds)
 intellisense: NSProjectAgent.GetPublishedProjects
 keywords: NSProjectAgent, GetPublishedProjects
 so.topic: reference
 ---
+
+# NSProject[] GetPublishedProjects(Integer[] projectIds)
 
 Get published projects by project ids.
 

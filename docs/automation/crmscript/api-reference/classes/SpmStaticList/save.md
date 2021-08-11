@@ -6,11 +6,9 @@ keywords: save()
 so.topic: reference
 ---
 
+# SpmStaticList.save()
 
 This method will save the list and the recipients.
 
-
-
 * **Returns:** The id of the SpmStaticList object
-
 

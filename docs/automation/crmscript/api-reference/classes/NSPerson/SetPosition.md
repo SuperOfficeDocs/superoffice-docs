@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPerson_SetPosition
 title: SetPosition(String position)
 intellisense: NSPerson.SetPosition
 keywords: NSPerson, GetPosition
 so.topic: reference
 ---
+
+# SetPosition(String position)
 
 The position. This is a predefined SuperOffice value, different from Title
 

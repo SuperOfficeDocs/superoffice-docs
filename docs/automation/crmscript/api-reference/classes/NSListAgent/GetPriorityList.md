@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetPriorityList
 title: NSPriority[] GetPriorityList(Integer[]  priorityIds);
 intellisense: NSListAgent.GetPriorityList
 keywords: NSListAgent, GetPriorityList
 so.topic: reference
 ---
+
+# NSPriority[] GetPriorityList(Integer[]  priorityIds);
 
 Gets a vector of Priority objects.
 

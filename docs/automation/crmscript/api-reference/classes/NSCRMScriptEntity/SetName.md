@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCRMScriptEntity_SetName
 title: SetName(String name)
 intellisense: NSCRMScriptEntity.SetName
 keywords: NSCRMScriptEntity, GetName
 so.topic: reference
 ---
+
+# SetName(String name)
 
 A description of this script
 

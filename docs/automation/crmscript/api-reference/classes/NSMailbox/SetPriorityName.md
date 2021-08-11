@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSMailbox_SetPriorityName
 title: SetPriorityName(String priorityName)
 intellisense: NSMailbox.SetPriorityName
 keywords: NSMailbox, GetPriorityName
 so.topic: reference
 ---
+
+# SetPriorityName(String priorityName)
 
 The name of the priority that the mailbox is connected to
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDiaryViewEntity_SetTzLocationId
 title: SetTzLocationId(Integer tzLocationId)
 intellisense: NSDiaryViewEntity.SetTzLocationId
 keywords: NSDiaryViewEntity, GetTzLocationId
 so.topic: reference
 ---
+
+# SetTzLocationId(Integer tzLocationId)
 
 Default timezone location for this view
 

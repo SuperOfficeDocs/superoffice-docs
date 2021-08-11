@@ -6,7 +6,7 @@ keywords: getFriStop()
 so.topic: reference
 ---
 
+# WeekSchedule.getFriStop()
 
 This function returns the end time (object) of "active" mode for Friday.
-
 

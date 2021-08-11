@@ -6,11 +6,9 @@ keywords: setStringMatrix(StringMatrix)
 so.topic: reference
 ---
 
+# StatLib.setStringMatrix(StringMatrix sm)
 
 Use the given StringMatrix entry as query (instead of SQL string).
 
-
-
 * **sm:** The StringMatrix entry to use.
-
 

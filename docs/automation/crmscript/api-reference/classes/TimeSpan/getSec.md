@@ -6,6 +6,7 @@ keywords: getSec()
 so.topic: reference
 ---
 
-This function will return the seconds field of the timespan as an integer.
+# TimeSpan.getSec()
 
+This function will return the seconds field of the timespan as an integer.
 

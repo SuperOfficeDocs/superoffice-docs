@@ -7,10 +7,9 @@ keywords: getObject()
 so.topic: reference
 ---
 
+# DbiControl.getObject()
 
 When fetching data from external system, this function is called repedly.
 
-
 Returns a map of fields and values for the currently fetched object
-
 

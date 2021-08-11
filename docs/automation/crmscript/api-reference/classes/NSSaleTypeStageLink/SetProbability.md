@@ -6,6 +6,5 @@ keywords: SetProbability(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSaleTypeStageLink.SetProbability(Integer p_0)
 

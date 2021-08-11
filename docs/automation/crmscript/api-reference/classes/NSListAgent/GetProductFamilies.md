@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetProductFamilies
 title: NSProductFamily[] GetProductFamilies()
 intellisense: NSListAgent.GetProductFamilies
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetProductFamilies
 so.topic: reference
 ---
 
-Returns all NSProductFamily in SuperOffice list.
+# NSProductFamily[] GetProductFamilies()
 
+Returns all NSProductFamily in SuperOffice list.
 
 **Returns:** NSProductFamily[]
 

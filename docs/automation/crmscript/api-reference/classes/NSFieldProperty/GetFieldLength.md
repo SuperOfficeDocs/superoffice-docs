@@ -7,6 +7,5 @@ keywords: GetFieldLength()
 so.topic: reference
 ---
 
-
-
+# NSFieldProperty.GetFieldLength()
 

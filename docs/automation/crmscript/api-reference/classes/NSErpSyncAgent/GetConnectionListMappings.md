@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings
 title: NSErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetConnectionListMappings
 keywords: NSErpSyncAgent, GetConnectionListMappings
 so.topic: reference
 ---
+
+# NSErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
 
 Returns the listmappings for the specified connection.
 

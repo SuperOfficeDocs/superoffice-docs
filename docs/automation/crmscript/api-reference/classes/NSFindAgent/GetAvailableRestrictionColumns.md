@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFindAgent_GetAvailableRestrictionColumns
 title: String[] GetAvailableRestrictionColumns(String storageType, String providerName)
 intellisense: NSFindAgent.GetAvailableRestrictionColumns
 keywords: NSFindAgent, GetAvailableRestrictionColumns
 so.topic: reference
 ---
+
+# String[] GetAvailableRestrictionColumns(String storageType, String providerName)
 
 Get a list of the column names corresponding to available restrictions for a certain archive provider and restriction storage provider. Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.
 

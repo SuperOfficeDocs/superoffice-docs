@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetNextSuggestedAppointmentBySale
 title: SuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
 intellisense: NSAppointmentAgent.GetNextSuggestedAppointmentBySale
 keywords: NSAppointmentAgent, GetNextSuggestedAppointmentBySale
 so.topic: reference
 ---
+
+# SuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
 
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 

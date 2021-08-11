@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSelectionAgent_AddRemoveContactSelectionMemberInterests
 title: Void AddRemoveContactSelectionMemberInterests(Integer selectionId, Integer[] addCompanyInterests, Integer[] removeCompanyInterests, Integer[] addContactInterests, Integer[] removeContactInterests)
 intellisense: NSSelectionAgent.AddRemoveContactSelectionMemberInterests
 keywords: NSSelectionAgent, AddRemoveContactSelectionMemberInterests
 so.topic: reference
 ---
+
+# Void AddRemoveContactSelectionMemberInterests(Integer selectionId, Integer[] addCompanyInterests, Integer[] removeCompanyInterests, Integer[] addContactInterests, Integer[] removeContactInterests)
 
 Adds or removes interests on companies and persons in a selection.
 

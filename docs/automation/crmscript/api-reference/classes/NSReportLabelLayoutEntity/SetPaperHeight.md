@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSReportLabelLayoutEntity_SetPaperHeight
 title: SetPaperHeight(Integer paperHeight)
 intellisense: NSReportLabelLayoutEntity.SetPaperHeight
 keywords: NSReportLabelLayoutEntity, GetPaperHeight
 so.topic: reference
 ---
+
+# SetPaperHeight(Integer paperHeight)
 
 Paper height in twips
 

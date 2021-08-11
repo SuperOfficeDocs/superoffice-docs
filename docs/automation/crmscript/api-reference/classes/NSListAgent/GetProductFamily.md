@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetProductFamily
 title: NSProductFamily GetProductFamily(Integer productFamilyId);
 intellisense: NSListAgent.GetProductFamily
 keywords: NSListAgent, GetProductFamily
 so.topic: reference
 ---
+
+# NSProductFamily GetProductFamily(Integer productFamilyId);
 
 Gets a NSProductFamily object.
 

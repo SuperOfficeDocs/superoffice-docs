@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSFieldMetadata_GetAccess
 title: Integer GetAccess()
 intellisense: NSFieldMetadata.GetAccess
 keywords: NSFieldMetadata, GetAccess
 so.topic: reference
 ---
+
+# Integer GetAccess()
 
 Access restrictions on the field
 
@@ -18,5 +20,4 @@ Access restrictions on the field
 NSFieldMetadata thing;
 Integer access  = thing.GetAccess();
 ```
-
 

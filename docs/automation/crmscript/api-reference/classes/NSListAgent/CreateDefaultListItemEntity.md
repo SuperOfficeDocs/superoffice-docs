@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_CreateDefaultListItemEntity
 title: NSListItemEntity CreateDefaultListItemEntity()
 intellisense: NSListAgent.CreateDefaultListItemEntity
 keywords: NSListAgent, CreateDefaultListItemEntity
 so.topic: reference
 ---
+
+# NSListItemEntity CreateDefaultListItemEntity()
 	  
 Set default values into a new NSListItemEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance

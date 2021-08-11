@@ -6,6 +6,5 @@ keywords: GetDatabaseMinor()
 so.topic: reference
 ---
 
-
-
+# NSSoSystemInfoCarrier.GetDatabaseMinor()
 

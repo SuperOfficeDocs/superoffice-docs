@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBLOBAgent_GetAppData
 title: String GetAppData(String key)
 intellisense: NSBLOBAgent.GetAppData
 keywords: NSBLOBAgent, GetAppData
 so.topic: reference
 ---
+
+# String GetAppData(String key)
 
 Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any
 

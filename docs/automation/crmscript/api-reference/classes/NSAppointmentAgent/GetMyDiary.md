@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAppointmentAgent_GetMyDiary
 title: NSAppointment[] GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSAppointmentAgent.GetMyDiary
 keywords: NSAppointmentAgent, GetMyDiary
 so.topic: reference
 ---
+
+# NSAppointment[] GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
 
 Method that returns a specified number of appointments within a time range. It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
 

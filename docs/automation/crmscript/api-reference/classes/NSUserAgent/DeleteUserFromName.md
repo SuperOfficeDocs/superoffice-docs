@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSUserAgent_DeleteUserFromName
 title: Void DeleteUserFromName(String userName)
 intellisense: NSUserAgent.DeleteUserFromName
 keywords: NSUserAgent, DeleteUserFromName
 so.topic: reference
 ---
+
+# Void DeleteUserFromName(String userName)
 
 Delete a user, with lookup based on the user name.
 

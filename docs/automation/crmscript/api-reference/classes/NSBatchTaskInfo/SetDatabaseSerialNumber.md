@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSBatchTaskInfo_SetDatabaseSerialNumber
 title: SetDatabaseSerialNumber(String databaseSerialNumber)
 intellisense: NSBatchTaskInfo.SetDatabaseSerialNumber
 keywords: NSBatchTaskInfo, GetDatabaseSerialNumber
 so.topic: reference
 ---
+
+# SetDatabaseSerialNumber(String databaseSerialNumber)
 
 Serial number of the database the task is to run on.
 

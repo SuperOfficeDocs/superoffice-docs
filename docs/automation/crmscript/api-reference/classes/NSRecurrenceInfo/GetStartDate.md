@@ -6,6 +6,5 @@ keywords: GetStartDate()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceInfo.GetStartDate()
 

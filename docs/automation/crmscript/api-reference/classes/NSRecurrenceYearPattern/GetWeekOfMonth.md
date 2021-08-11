@@ -6,6 +6,5 @@ keywords: GetWeekOfMonth()
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceYearPattern.GetWeekOfMonth()
 

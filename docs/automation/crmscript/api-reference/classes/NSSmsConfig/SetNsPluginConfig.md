@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSmsConfig_SetNsPluginConfig
 title: SetNsPluginConfig(StringDictionary nsPluginConfig)
 intellisense: NSSmsConfig.SetNsPluginConfig
 keywords: NSSmsConfig, GetNsPluginConfig
 so.topic: reference
 ---
+
+# SetNsPluginConfig(StringDictionary nsPluginConfig)
 
 Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password.
 

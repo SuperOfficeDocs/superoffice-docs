@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSAlarmData_GetAppointmentType
 title: Integer GetAppointmentType()
 intellisense: NSAlarmData.GetAppointmentType
 keywords: NSAlarmData, GetAppointmentType
 so.topic: reference
 ---
+
+# Integer GetAppointmentType()
 
 where=no start time,note,docin, docout 
 
@@ -25,5 +27,4 @@ where=no start time,note,docin, docout
 NSAlarmData thing;
 Integer appointmentType  = thing.GetAppointmentType();
 ```
-
 

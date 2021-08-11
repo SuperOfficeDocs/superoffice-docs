@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreviewMailingHeader_GetStatus
 title: ShipmentStatus GetStatus()
 intellisense: NSPreviewMailingHeader.GetStatus
 keywords: NSPreviewMailingHeader, GetStatus
 so.topic: reference
 ---
+
+# ShipmentStatus GetStatus()
 
 Sending/stopped/failed etc.
 
@@ -29,5 +31,4 @@ Sending/stopped/failed etc.
 NSPreviewMailingHeader thing;
 ShipmentStatus status  = thing.GetStatus();
 ```
-
 

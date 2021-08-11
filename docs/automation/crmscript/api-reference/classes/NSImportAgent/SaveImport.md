@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSImportAgent_SaveImport
 title: Integer[] SaveImport(NSImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
 intellisense: NSImportAgent.SaveImport
 keywords: NSImportAgent, SaveImport
 so.topic: reference
 ---
+
+# Integer[] SaveImport(NSImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
 
 Do the actual import
 

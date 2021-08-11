@@ -7,8 +7,8 @@ keywords: SetDatabaseEnum(Integer)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetDatabaseEnum(Integer p_0)
 
 * **DatabaseEnum:** Integer
 * **Returns:** Void
-
 

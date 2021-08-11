@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSQuoteAgent_GetOrderConfirmation
 title: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
 intellisense: NSQuoteAgent.GetOrderConfirmation
 keywords: NSQuoteAgent, GetOrderConfirmation
 so.topic: reference
 ---
+
+# String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
 
 Get a base64-encoded data stream that is just the order confirmation document, for the given quote version; no permanent document is created or stored anywhere; the result is a PDF
 

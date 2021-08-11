@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternalNoBlankValues
 title: NSPluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternalNoBlankValues
 keywords: NSErpSyncAgent, ForceResyncExternalNoBlankValues
 so.topic: reference
 ---
+
+# NSPluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
 
 Force resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don't want blank values to overwrite non-blank values. Useful on import.
 

@@ -6,6 +6,5 @@ keywords: SetCycle(Integer)
 so.topic: reference
 ---
 
-
-
+# NSRecurrenceDayPattern.SetCycle(Integer p_0)
 

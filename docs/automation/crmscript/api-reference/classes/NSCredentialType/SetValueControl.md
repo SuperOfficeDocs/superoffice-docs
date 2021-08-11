@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSCredentialType_SetValueControl
 title: SetValueControl(Integer valueControl)
 intellisense: NSCredentialType.SetValueControl
 keywords: NSCredentialType, GetValueControl
 so.topic: reference
 ---
+
+# SetValueControl(Integer valueControl)
 
 Type of control used to display the value.
 

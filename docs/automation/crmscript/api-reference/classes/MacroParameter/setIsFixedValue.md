@@ -7,7 +7,7 @@ keywords: setIsFixedValue(Bool)
 so.topic: reference
 ---
 
+# MacroParameter.setIsFixedValue(Bool p_0)
 
 This function sets whether or not the parameter is a fixed value. The function takes a bool.
-
 

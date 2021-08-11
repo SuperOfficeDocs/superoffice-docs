@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsquoteagent_saveconnectionconfigfields
 title: StringDictionary SaveConnectionConfigFields()
 description: CRMScript method in the NSQuoteAgent class

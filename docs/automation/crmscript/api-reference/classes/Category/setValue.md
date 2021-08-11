@@ -7,6 +7,8 @@ keywords: setValue(String,String)
 so.topic: reference
 ---
 
+# Category.setValue(String name, String value)
+
 Sets the value of the given field for the category.
 
 ## Available fields

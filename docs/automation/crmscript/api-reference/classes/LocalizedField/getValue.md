@@ -7,6 +7,5 @@ keywords: getValue()
 so.topic: reference
 ---
 
-
-
+# LocalizedField.getValue()
 

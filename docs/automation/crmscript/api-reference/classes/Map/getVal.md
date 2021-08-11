@@ -7,7 +7,7 @@ keywords: getVal()
 so.topic: reference
 ---
 
+# Map.getVal()
 
 Returns the value pointed to by the internal iterator.
-
 

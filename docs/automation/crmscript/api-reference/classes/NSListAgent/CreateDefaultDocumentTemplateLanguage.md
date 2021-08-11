@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateLanguage
 title: Void CreateDefaultDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
 intellisense: NSListAgent.CreateDefaultDocumentTemplateLanguage
 keywords: NSListAgent, CreateDefaultDocumentTemplateLanguage
 so.topic: reference
 ---
+
+# Void CreateDefaultDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
 
 Create a new document template language based on an existing template
 

@@ -7,7 +7,7 @@ keywords: flush()
 so.topic: reference
 ---
 
+# File.flush()
 
 Flush will empty the output buffer, writing the data to the file.
-
 

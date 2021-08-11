@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSSaintAgent_RegenerateCounters
 title: NSBatchTaskInfo RegenerateCounters(Bool runAsBatch)
 intellisense: NSSaintAgent.RegenerateCounters
 keywords: NSSaintAgent, RegenerateCounters
 so.topic: reference
 ---
+
+# NSBatchTaskInfo RegenerateCounters(Bool runAsBatch)
 
 Regenerate the Saint counters - this can take several minutes
 

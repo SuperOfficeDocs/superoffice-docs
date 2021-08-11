@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPosition_GetTooltip
 title: String GetTooltip()
 intellisense: NSPosition.GetTooltip
 keywords: NSPosition, GetTooltip
 so.topic: reference
 ---
+
+# String GetTooltip()
 
 Get the tooltip description for the NSPosition list item.
 
@@ -14,5 +16,4 @@ Get the tooltip description for the NSPosition list item.
 NSPosition thing;
 String descr = thing.GetTooltip();
 ```
-
 

@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentEntity_SetSnum
 title: SetSnum(Integer snum)
 intellisense: NSDocumentEntity.SetSnum
 keywords: NSDocumentEntity, GetSnum
 so.topic: reference
 ---
+
+# SetSnum(Integer snum)
 
 The sequence number allocated from refcount on used template when creating the document
 

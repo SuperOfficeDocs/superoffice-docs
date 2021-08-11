@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSContactRelationEntity_SetSourceContactId
 title: SetSourceContactId(Integer sourceContactId)
 intellisense: NSContactRelationEntity.SetSourceContactId
 keywords: NSContactRelationEntity, GetSourceContactId
 so.topic: reference
 ---
+
+# SetSourceContactId(Integer sourceContactId)
 
 Id of the source contact. The value is mandatory.
 

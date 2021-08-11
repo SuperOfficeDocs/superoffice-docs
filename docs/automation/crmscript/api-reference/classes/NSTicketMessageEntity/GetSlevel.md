@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTicketMessageEntity_GetSlevel
 title: TicketSecurityLevel GetSlevel()
 intellisense: NSTicketMessageEntity.GetSlevel
 keywords: NSTicketMessageEntity, GetSlevel
 so.topic: reference
 ---
+
+# TicketSecurityLevel GetSlevel()
 
 The securitylevel of the message.
 
@@ -18,5 +20,4 @@ The securitylevel of the message.
 NSTicketMessageEntity thing;
 TicketSecurityLevel slevel  = thing.GetSlevel();
 ```
-
 

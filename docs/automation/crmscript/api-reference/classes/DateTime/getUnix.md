@@ -7,6 +7,7 @@ keywords: getUnix()
 so.topic: reference
 ---
 
-Returns the number of seconds since 01.01.1970 00:00:00
+# DateTime.getUnix()
 
+Returns the number of seconds since 01.01.1970 00:00:00
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_class_nsquoteagent_getconfigurationfields
 title: NSFieldMetadataDictionary GetConfigurationFields()
 description: CRMScript method in the NSQuoteAgent class

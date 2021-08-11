@@ -6,7 +6,7 @@ keywords: GetValidFaxNumbers()
 so.topic: reference
 ---
 
+# NSRecipientStatistics.GetValidFaxNumbers()
 
 Number of members with a valid fax number.
-
 

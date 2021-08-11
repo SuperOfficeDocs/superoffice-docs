@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSServiceAuth_SetAuthType
 title: SetAuthType(String authType)
 intellisense: NSServiceAuth.SetAuthType
 keywords: NSServiceAuth, GetAuthType
 so.topic: reference
 ---
+
+# SetAuthType(String authType)
 
 The type of authentication, plain-text, OAuth...
 

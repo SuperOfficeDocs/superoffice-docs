@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSPreferenceDescription_SetDescription
 title: SetDescription(String description)
 intellisense: NSPreferenceDescription.SetDescription
 keywords: NSPreferenceDescription, GetDescription
 so.topic: reference
 ---
+
+# SetDescription(String description)
 
 Description of preference, multi-language parsed
 

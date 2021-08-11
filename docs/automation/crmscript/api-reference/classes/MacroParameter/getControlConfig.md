@@ -7,6 +7,7 @@ keywords: getControlConfig()
 so.topic: reference
 ---
 
-Get the optional control configuration values that influence how the input control behaves.
+# MacroParameter.getControlConfig()
 
+Get the optional control configuration values that influence how the input control behaves.
 

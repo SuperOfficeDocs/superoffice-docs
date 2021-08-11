@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailSOInfo_SetArchivedAt
 title: SetArchivedAt(DateTime archivedAt)
 intellisense: NSEMailSOInfo.SetArchivedAt
 keywords: NSEMailSOInfo, GetArchivedAt
 so.topic: reference
 ---
+
+# SetArchivedAt(DateTime archivedAt)
 
 The datetime when this email was archived
 

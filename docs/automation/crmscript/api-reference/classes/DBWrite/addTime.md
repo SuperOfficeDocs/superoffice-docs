@@ -7,12 +7,10 @@ keywords: addTime(String,Time)
 so.topic: reference
 ---
 
+# DBWrite.addTime(String name, Time value)
 
 Add a Time column to write in the table.
 
-
-
 * **name:** The name of the column.
 * **value:** The value to write.
-
 

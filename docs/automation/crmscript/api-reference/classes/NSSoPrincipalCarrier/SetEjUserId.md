@@ -6,6 +6,5 @@ keywords: SetEjUserId(Integer)
 so.topic: reference
 ---
 
-
-
+# NSSoPrincipalCarrier.SetEjUserId(Integer p_0)
 

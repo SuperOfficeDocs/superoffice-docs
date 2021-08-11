@@ -6,10 +6,10 @@ keywords: load(Integer)
 so.topic: reference
 ---
 
-Load ticket with given id into this object, return true if successful, false otherwise.
+# Ticket.load(Integer id)
 
+Load ticket with given id into this object, return true if successful, false otherwise.
 
 * **the:** id of the ticket to load
 * **Returns:** true if ticket found and loaded, else false
-
 

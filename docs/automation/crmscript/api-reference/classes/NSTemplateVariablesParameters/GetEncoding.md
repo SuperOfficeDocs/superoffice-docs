@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSTemplateVariablesParameters_GetEncoding
 title: Integer GetEncoding()
 intellisense: NSTemplateVariablesParameters.GetEncoding
 keywords: NSTemplateVariablesParameters, GetEncoding
 so.topic: reference
 ---
+
+# Integer GetEncoding()
 
 Encoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.
 
@@ -29,5 +31,4 @@ Encoding of source string. Non-text formats such as MsWord or Excel should be Ba
 NSTemplateVariablesParameters thing;
 Integer encoding  = thing.GetEncoding();
 ```
-
 

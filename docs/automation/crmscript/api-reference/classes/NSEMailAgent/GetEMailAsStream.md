@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSEMailAgent_GetEMailAsStream
 title: NSStream GetEMailAsStream(NSEMailConnectionInfo connectionInfo, Integer messageServerId, Bool stripAttachments)
 intellisense: NSEMailAgent.GetEMailAsStream
 keywords: NSEMailAgent, GetEMailAsStream
 so.topic: reference
 ---
+
+# NSStream GetEMailAsStream(NSEMailConnectionInfo connectionInfo, Integer messageServerId, Bool stripAttachments)
 
 Retrieve an e-mail optionally stripping attachments as a stream
 

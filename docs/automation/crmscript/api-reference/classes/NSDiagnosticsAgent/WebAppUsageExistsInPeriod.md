@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDiagnosticsAgent_WebAppUsageExistsInPeriod
 title: Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
 intellisense: NSDiagnosticsAgent.WebAppUsageExistsInPeriod
 keywords: NSDiagnosticsAgent, WebAppUsageExistsInPeriod
 so.topic: reference
 ---
+
+# Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
 
 Returns true if viewState has been clicked at least once since FromDate, if asscoiateId < 0 or FromDate is DateTime.MinValue no restriction given for those parameters
 

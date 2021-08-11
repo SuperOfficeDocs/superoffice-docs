@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetLegalBase
 title: NSLegalBase GetLegalBase(Integer legalBaseId);
 intellisense: NSListAgent.GetLegalBase
 keywords: NSListAgent, GetLegalBase
 so.topic: reference
 ---
+
+# NSLegalBase GetLegalBase(Integer legalBaseId);
 
 Gets a NSLegalBase object.
 

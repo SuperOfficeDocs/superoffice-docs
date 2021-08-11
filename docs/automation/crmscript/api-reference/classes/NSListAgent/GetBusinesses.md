@@ -1,4 +1,4 @@
-﻿---
+---
 uid: crmscript_ref_NSListAgent_GetBusinesses
 title: NSBusiness[] GetBusinesses()
 intellisense: NSListAgent.GetBusinesses
@@ -6,8 +6,9 @@ keywords: NSListAgent, GetBusinesses
 so.topic: reference
 ---
 
-Returns all available businesses that a contact could have.
+# NSBusiness[] GetBusinesses()
 
+Returns all available businesses that a contact could have.
 
 **Returns:** NSBusiness[]
 

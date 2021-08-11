@@ -1,10 +1,12 @@
-﻿---
+---
 uid: crmscript_ref_NSDocumentAgent_ExecuteDocumentCommand
 title: NSReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, String[] allowedReturnTypes, String command, String[] additionalData)
 intellisense: NSDocumentAgent.ExecuteDocumentCommand
 keywords: NSDocumentAgent, ExecuteDocumentCommand
 so.topic: reference
 ---
+
+# NSReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, String[] allowedReturnTypes, String command, String[] additionalData)
 
 Execute a custom command on a particular document, optionally a particular version
 

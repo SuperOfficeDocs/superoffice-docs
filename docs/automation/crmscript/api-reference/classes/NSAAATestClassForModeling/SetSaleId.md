@@ -7,12 +7,10 @@ keywords: SetSaleId(Integer)
 so.topic: reference
 ---
 
+# NSAAATestClassForModeling.SetSaleId(Integer p_0)
 
 Primary key
 
-
-
 * **SaleId:** Integer
 * **Returns:** Void
-
 

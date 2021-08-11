@@ -7,7 +7,7 @@ keywords: clear()
 so.topic: reference
 ---
 
+# Map.clear()
 
 Will clear the map, so there are no elements in it.
-
 
