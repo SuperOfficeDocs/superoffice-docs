@@ -23,6 +23,10 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 * You are able to authenticate with the customer's domain. For Azure AD, Global Admin or Application Administrator is required.
 
+>[!NOTE]
+>**How does IdP registration impact existing users?**<br> A 'user-transition' (SuperOffice password -> Google/Microsoft authentication) for all existing users, on first log in after IdP registration is completed: users has to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+<br>No use of "SO password" any longer, but user is sent to Google/Microsoft for authentication on login to CRM Online.
+
 ## Start IdP registration
 
 1. Go to [https://id.superoffice.com/identityprovider/register][2]
