@@ -51,7 +51,7 @@ After the installation is completed both Mail Link and Windows client are instal
 
 ## Related info
 
-* [Prepare windows client computer][5]
+* [Prepare Windows client computer][5]
 * [Tested client OSes][1]
 * [Tested browsers][2]
 * [Tested Microsoft SQL Server versions][3]

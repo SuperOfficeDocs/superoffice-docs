@@ -1,7 +1,7 @@
 ---
-title: Configure
+title: Configure Web Reporter
 uid: config_web_reporter
-description: Configure Reporter
+description: Configure Web Reporter
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,7 +9,7 @@ so.envir: onsite
 so.client: web
 ---
 
-# Configure Reporter
+# Configure Web Reporter
 
 After the configuration of the application, the Reporter configuration should start automatically.
 
@@ -54,6 +54,6 @@ The latter will be the case for workgroups or other situations where a domain co
 [2]: troubleshooting.md
 
 <!-- Referenced images -->
-[img1]: media/sixwebreportconfig1.jpg
-[img2]: media/sixwebreportconfig2.jpg
-[img3]: media/sixwebreportconfig3.jpg
+[img1]: media/reporter1.png
+[img2]: media/reporter2.png
+[img3]: media/reporter3.png
