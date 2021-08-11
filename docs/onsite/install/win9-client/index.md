@@ -28,7 +28,7 @@ It will default install to *C:\Program Files (x86)\SuperOffice*. The default loc
 
 ![x -screenshot][img1]
 
-If you choose **Customize**, you may choose where you want to install it and also choose to install additional programs.
+If you choose **Customize**, you may choose where you want to install it and also choose to install additional options.
 
 ![x -screenshot][img2]
 
