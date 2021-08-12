@@ -19,18 +19,16 @@ so.client: online
 
 **Solution:** The user should try to log out of SuperOffice Online and then log in again to get a valid Customer ID.
 
-
 ## 404 OOPS. Something went wrong!
 
 **Problem:** Authentication towards the video provider.
 
 ![image761z.png -screenshot][img2]
 
-**Solution:** To resolve this, the [user has to remove the video-meetings configuration][1] in SuperOffice.
+**Solution:** To resolve this, the [user has to remove the video-meetings configuration in SuperOffice][1].
 
 <!-- Referenced links -->
-[1]: remove-config-for-user.md
-
+[1]: howto/disconnect-user.md
 
 <!-- Referenced images -->
 [img1]: media/imagen1s5.png

@@ -2,63 +2,30 @@ items:
 - name: Pre-requisites
   href: index.md
   expanded: true
-- name: Vendors
-  expanded: true
-  items:
-  - name: Zoom
-    href: zoom/index.md
-  - name: Webex
-    href: webex/index.md
-  - name: Google
-    href: google-meet/index.md
-  - name: Microsoft Teams
-    href: ms-teams/index.md
-  - name: Jitsi
-    href: jitsi/index.md
-- name: Use
-  expanded: true
+- name: Google
+  href: google-meet/index.md
+- name: Jitsi
+  href: jitsi/index.md
+- name: Microsoft Teams
+  href: ms-teams/index.md
+- name: Webex
+  href: webex/index.md
+- name: Zoom
+  href: zoom/index.md
+- name: Howto
+  expanded: false
   items:
   - name: Create video meeting
-    href: create-video-meeting.md
+    href: howto/create.md
   - name: Join video meeting
-    href: join-video-meeting.md
-- name: Config
-  expanded: true
-  items: 
-  - name: Configure video meetings
-    href: configure-video-meetings.md
+    href: howto/join.md
+  - name: Configure email invitations
+    href: howto/configure-email-invitations.md
   - name: Connect provider
-    href: connect-provider.md
+    href: howto/connect-provider.md
   - name: Disconnect provider
-    href: disconnect-provider.md
+    href: howto/disconnect-provider.md
   - name: Remove configuration for users
-    href: remove-config-for-user.md
-- name: Authenticate
-  expanded: true
-  items:
-  - name: Zoom
-    href: zoom/auth.md
-  - name: Webex
-    href: webex/auth.md
-  - name: Google
-    href: google-meet/auth.md
-  - name: Microsoft Teams
-    href: ms-teams/auth.md
-  - name: Jitsi
-    href: jitsi/auth.md
+    href: howto/disconnect-user.md
 - name: Troubleshooting
   href: troubleshooting.md
-  items:
-  - name: Remove access for Video Meeting App in Google
-    href: google-meet/remove-access-for-app.md
-- name: Uninstall
-  expanded: true
-  items:
-  - name: Zoom
-    href: zoom/uninstall.md
-  - name: Webex
-    href: webex/uninstall.md
-  - name: Google
-    href: google-meet/uninstall.md
-  - name: Microsoft Teams
-    href: ms-teams/uninstall.md

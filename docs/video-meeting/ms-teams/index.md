@@ -2,7 +2,7 @@
 title: Video Meetings for SuperOffice - Microsoft Teams
 uid: video_meetings_msteams
 description: Getting started with Video Meetings for SuperOffice - Microsoft Teams
-so.date: 06.21.2021
+so.date: 08.12.2021
 keywords: video meeting, Microsoft Teams
 so.topic: howto
 so.envir: cloud
@@ -20,6 +20,11 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 * You need an MS365 admin account to grant access during setup
 * MS365 account
 
+> [!NOTE]
+> If you try to authenticate without an MS365 Admin account, a message will tell you to log in with an admin account:
+
+![imagewf14i.png -screenshot][img1]
+
 [!include[ALT](../includes/req-email-config.md)]
 
 ## How to connect to video provider
@@ -28,7 +33,20 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Microsoft Teams as the provider.
-5. [Authenticate and authorize Microsoft Teams][6].
+5. Authenticate and authorize Microsoft Teams:
+    1. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
+
+    2. Please accept the integration on behalf of your organization, by setting the checkbox:
+
+        ![imagelm6ei.png -screenshot][img2]
+
+    3. After authentication and confirmation are completed, you'll be redirected back to SuperOffice Video Meetings settings.
+
+        ![image0z9pi.png -screenshot][img3]
+
+        Teams Meetings provider does not have any additional configuration settings.
+
+        If it says "Connected to Teams. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 6. Return to the SuperOffice **Video meetings** tab and verify that the configuration is active.
 
 ## How to use Video Meetings
@@ -36,21 +54,48 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 * [Create a video meeting][2]
 * [Join a video meeting][3]
 
-## How to remove video meetings configuration for users
+## Troubleshooting
 
-* [How to remove video-meetings configuration for users][1]
+### Something went wrong
+
+[!include[Fix something went wrong message](../includes/something-went-wrong.md)]
+
+### 404
+
+If you (the user) experience difficulties with creating and starting video meetings, remove the video-meetings configuration in SuperOffice.
+
+[!include[How to remove video-meetings configuration for user step-by-step](../includes/re-auth-steps.md)]
 
 ## How to disconnect video provider
 
-* [Disconnect video provider][4]
-* [Uninstall video provider][5]
+First, disconnect the Microsoft Teams service provider in SuperOffice Settings and Maintenance:
+
+[!include[How to disconnect video provider step-by-step](../includes/disconnect-provider-steps.md)]
+
+Then, **uninstall** the Microsoft Teams video meeting service:
+
+1. Sign in to your Microsoft 365 administrator account and navigate to **Settings > Integrated apps**.
+
+    ![imagehz5oq.png -screenshot][img4]
+
+2. Click the link for **Azure Active Directory**
+
+3. Open enterprise applications, and find the SuperOffice VideoMeetings app in the list, click to open it.
+
+4. Go to **Properties**.
+
+5. Click the **Delete** button for the *VideoMeeings* app.
+
+    ![imageo2a0p.png -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: ../remove-config-for-user.md
-[2]: ../create-video-meeting.md
-[3]: ../join-video-meeting.md
-[4]: ../disconnect-provider.md
-[5]: uninstall.md
-[6]: auth.md
+[1]: https://meetings.superoffice.com/meet/DisconnectUser
+[2]: ../howto/create.md
+[3]: ../howto/join.md
 
 <!-- Referenced images -->
+[img1]: media/imagewf14i.png
+[img2]: media/imagelm6ei.png
+[img3]: media/image0z9pi.png
+[img4]: media/imagehz5oq.png
+[img5]: media/imageo2a0p.png
