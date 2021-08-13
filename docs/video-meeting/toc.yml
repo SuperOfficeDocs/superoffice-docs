@@ -1,5 +1,5 @@
 items:
-- name: Pre-requisites
+- name: Introduction
   href: index.md
   expanded: true
 - name: Google

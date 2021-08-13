@@ -33,8 +33,15 @@ This article describes how to connect, configure, use and disconnect Jitsi.
 
 ## How to use Video Meetings
 
-* [Create a video meeting][2]
-* [Join a video meeting][3]
+### Create a video meeting
+
+[!include[How to create a video meeting](../includes/create-steps.md)]
+
+[!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
+
+### Join a video meeting
+
+[!include[How to join a video meeting](../includes/join-options.md)]
 
 ## How to disconnect video provider
 
@@ -43,7 +50,5 @@ This article describes how to connect, configure, use and disconnect Jitsi.
 There is nothing to uninstall or remove.
 
 <!-- Referenced links -->
-[2]: ../howto/create.md
-[3]: ../howto/join.md
 
 <!-- Referenced images -->

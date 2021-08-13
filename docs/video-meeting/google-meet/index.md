@@ -18,7 +18,7 @@ This article describes how to connect, configure, use and disconnect Google Meet
 * You need a SuperOffice admin account during setup
 * A Google account (Gmail or Google Workspace)
 
-[!include[ALT](../includes/req-email-config.md)]
+[!include[You must configure email invitations](../includes/req-email-config.md)]
 
 ## How to connect to video provider
 
@@ -44,8 +44,15 @@ This article describes how to connect, configure, use and disconnect Google Meet
 
 ## How to use Video Meetings
 
-* [Create a video meeting][2]
-* [Join a video meeting][3]
+### Create a video meeting
+
+[!include[How to create a video meeting](../includes/create-steps.md)]
+
+[!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
+
+### Join a video meeting
+
+[!include[How to join a video meeting](../includes/join-options.md)]
 
 ## Troubleshooting
 
@@ -105,8 +112,6 @@ Then, **uninstall** the Google Meet video meeting service:
 
 <!-- Referenced links -->
 [1]: https://meetings.superoffice.com/meet/DisconnectUser
-[2]: ../howto/create.md
-[3]: ../howto/join.md
 [4]: https://myaccount.google.com/security
 [5]: https://myaccount.google.com/permissions
 [6]: https://meetings.superoffice.com/Error/GoogleAuthenticationFailure

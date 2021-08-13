@@ -51,8 +51,15 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 
 ## How to use Video Meetings
 
-* [Create a video meeting][2]
-* [Join a video meeting][3]
+### Create a video meeting
+
+[!include[How to create a video meeting](../includes/create-steps.md)]
+
+[!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
+
+### Join a video meeting
+
+[!include[How to join a video meeting](../includes/join-options.md)]
 
 ## Troubleshooting
 
@@ -90,8 +97,6 @@ Then, **uninstall** the Microsoft Teams video meeting service:
 
 <!-- Referenced links -->
 [1]: https://meetings.superoffice.com/meet/DisconnectUser
-[2]: ../howto/create.md
-[3]: ../howto/join.md
 
 <!-- Referenced images -->
 [img1]: media/imagewf14i.png

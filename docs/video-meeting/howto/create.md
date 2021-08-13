@@ -3,7 +3,7 @@ title: Create a video meeting
 uid: create_video_meeting
 description: How to create a video meeting
 author: {github-id}
-so.date: 06.21.2021
+so.date: 13.08.2021
 keywords: video meeting
 so.topic: howto
 so.envir: cloud
@@ -18,8 +18,7 @@ You can easily set up a video meeting when [creating a follow-up][1].
 
 2. Click ![inactive -screenshot][img1] next to the meeting type (for instance Business meeting). The icon changes to ![active -screenshot][img2] and a video meeting link is added.
 
-    > [!NOTE]
-    > The first time you select the video icon (![inactive -screenshot][img1]), a new window will open. Here you need to sign in to authenticate your user in the video meeting service defined by your administrator.
+    [!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
 
 3. Complete the information in the dialog as described in the [Dialog for follow-ups][2].
 
