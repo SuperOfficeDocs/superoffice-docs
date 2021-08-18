@@ -24,7 +24,7 @@ so.client: online
 
     ![imagezo47s.png -screenshot][img3]
 
-5. You will be **forwarded to the providers' authentication portal** to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
+5. You will be **forwarded to the provider's authentication portal** to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
 6. Verify configurations is active in SuperOffice. For example, "Your SuperOffice installation is configured with the following meeting service ..."
 

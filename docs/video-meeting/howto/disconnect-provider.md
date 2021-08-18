@@ -12,7 +12,7 @@ so.client: online
 
 # How to disconnect video provider
 
-**To disconnect the video meeting service from SuperOffice:**
+To disconnect the video meeting service from SuperOffice:
 
 [!include[How to disconnect video provider step-by-step](../includes/disconnect-provider-steps.md)]
 
