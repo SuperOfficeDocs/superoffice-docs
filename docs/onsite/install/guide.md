@@ -19,9 +19,9 @@ so.envir: onsite
 3. [Prepare for Service][3]
 4. [Install SuperOffice Win Server][4]
 5. [Install Windows client][5] (optional)
-6. [Install SuperOffice Web][6]
-7. [Install NetServer Web services][7] (optional)
-8. [Install Service][8]
+6. [Install Service][8]
+7. [Install SuperOffice Web][6]
+
 
 <!-- Referenced links -->
 [1]: server/prepare.md

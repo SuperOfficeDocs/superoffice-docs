@@ -82,7 +82,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 20. Click **Finish"** to finalize the installation.
 
-[Previous][11] | [Next (Netserver)][12] | [Next (Service)][14] | [Back to guide][13]
+[Previous][11] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: ../guide.md
@@ -93,7 +93,6 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [7]: ../../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
 [9]: ../../reporter/config.md
-[11]: ../server/index.md
-[12]: ../netserver/index.md
+[11]: ../../../service/install/index.md
 [13]: ../guide.md
-[14]: ../../../service/install/index.md
+

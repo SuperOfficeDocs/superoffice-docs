@@ -173,13 +173,14 @@ You are now ready to log in and use Service by opening your client browser and g
 
 ***
 
-[Previous][14] | [Back to guide][13]
+[Previous][15] | [Next][14] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: HTTPs://community.superoffice.com/en/product-releases/
 [2]: manual-steps.md
 [13]: ../../onsite/install/guide.md
-[14]: ../../onsite/install/netserver/index.md
+[14]: ../../onsite/install/web-client/index.md
+[15]: ../../onsite/install/server/index.md
 
 <!-- Referenced images -->
 [img1]: media/image.png
