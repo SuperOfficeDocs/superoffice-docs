@@ -13,7 +13,7 @@ so.client:
 
 1. Prepare the program files folder
 
-    This is where the server software will be installed. By default, we put this in *c:\program files\SuperOffice\SuperOffice Server*. Here you will find the tools for database maintenance (*Dbsetup.exe*) and create and edit the install files (*SoCreateMST.exe*).
+    This is where the server software will be installed. By default, we put this in *C:\Program Files\SuperOffice\SuperOffice Server*. Here you will find the tools for database maintenance (*Dbsetup.exe*) and create and edit the install files (*SoCreateMST.exe*).
 
     In *SuperOffice Server* we also create a subfolder called *Client*, which must be available for all users who want to install the Win client. We recommend you share the Client folder and not the SuperOffice Server folder.
 

@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# Prepare web server
+# Prepare Web server
 
 SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be installed on the same server as the NetServer web services are installed.
 

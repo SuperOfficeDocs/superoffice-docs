@@ -65,4 +65,4 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 [11]: ../../../service/install/prepare.md
 [12]: ../web-client/index.md
 [13]: ../guide.md
-[14]: ../win-client/prepare-client.md
+[14]: ../win-client/index.md
