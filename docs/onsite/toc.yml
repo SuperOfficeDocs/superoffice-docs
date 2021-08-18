@@ -80,13 +80,13 @@ items:
           items:
           - name: Considerations for WebTools and Ribbons
             href: install/server/deploy-on-citrix.md
-    - name: Install SuperOffice 8 Win client
+    - name: Install SuperOffice Win client
       href: install/win-client/index.md
       items:
       - name: Prepare client PC
         href: install/win-client/prepare-client.md
-    - name: Install SuperOffice 9 Win client
-      href: install/win9-client/index.md        
+      - name: Install Win 8 client
+        href: install/win-client/win8-client.md       
     - name: Install SuperOffice Web
       href: install/web-client/index.md
       items:

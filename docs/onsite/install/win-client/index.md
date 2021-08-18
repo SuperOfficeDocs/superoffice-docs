@@ -1,7 +1,7 @@
 ---
-title: Install SuperOffice 8 Windows client
+title: Install SuperOffice 9 Windows client
 uid: install_win_client
-description: Install SuperOffice 8 Windows client
+description: Install SuperOffice 9 Windows client
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,25 +9,18 @@ so.envir: onsite
 so.client: win
 ---
 
-# Install SuperOffice 8 Windows client
+# Install SuperOffice 9 Windows client
 
-From SuperOffice 8 the SuperOffice Windows Client is an app, which you need to be assigned rights to in the *Settings and Maintenance > User* section of SuperOffice Web.
+From SuperOffice 9 the SuperOffice Windows client is not available. The SuperOffice9.exe installer contains SuperOffice Admin client, Reporter Studio and Travel Gateway.
 
 The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
-[!include[Warning legacy](../../includes/warn-win-client-discontinued.md)]
-
-## MSI Installer
-
-MSI installer contains SuperOffice Windows client, MailLink, Ribbons, Travel Gateway and Mail Gateway.
-
-It copies installation files, adds registry settings, and program shortcuts.
 
 ## Installer
 
 All installation tasks are performed by the installer found in the folder *SuperOffice Server\Client*.
 
-To install the client run the MSI Installer SuperOffice8.exe found in the *SuperOffice Server\Client* folder.
+To install the client run the MSI Installer SuperOffice9.exe found in the *SuperOffice Server\Client* folder.
 
 Note: If you want to use Oracle you need to install the Oracle client drivers on each client first. Oracle 10g may run on the Microsoft version of the Oracle driver.
 
@@ -35,19 +28,22 @@ It will default install to *C:\Program Files (x86)\SuperOffice*. The default loc
 
 ![x -screenshot][img1]
 
-If you choose **Customize**, you may choose where you want to install it and also choose to install additional programs.
+If you choose **Customize**, you may choose where you want to install it and also choose to install additional options.
 
 ![x -screenshot][img2]
 
 An **Advanced** installation will give you the option to select additional features and will display the installation wizard for each component.
 
-Both Mail Link and Windows client Advanced installation have Typical and Custom installation types. Custom installation for Windows client allows you to select which languages and additional features will be installed.
+SuperOffice Admin client installation has Typical and Custom installation types. Custom installation allows you to select which languages will be installed.
 
 ![x -screenshot][img3]
 
-After the installation is completed both Mail Link and Windows client are installed.
+After the installation is completed all components are installed.
 
 ![x -screenshot][img4]
+
+> [!TIP]
+> If you want to run Travel Gateway as a service, you need to install the service manually.
 
 ## Related info
 
@@ -72,7 +68,7 @@ After the installation is completed both Mail Link and Windows client are instal
 [13]: ../guide.md
 
 <!-- Referenced images -->
-[img1]: media/crm-8-win-install1.png
-[img2]: media/crm-8-win-install2.png
-[img3]: media/crm-8-win-install3.png
-[img4]: media/crm-8-win-install4.png
+[img1]: media/crm-9-win-install1.png
+[img2]: media/crm-9-win-install2.png
+[img3]: media/crm-9-win-install3.png
+[img4]: media/crm-9-win-install4.png
