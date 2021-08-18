@@ -20,7 +20,7 @@ so.envir: onsite
 4. [Install SuperOffice Win Server][4]
 5. [Install Windows client][5] (optional)
 6. [Install SuperOffice Web][6]
-7. [Install NetServer web services][7] (optional)
+7. [Install NetServer Web services][7] (optional)
 8. [Install Service][8]
 
 <!-- Referenced links -->

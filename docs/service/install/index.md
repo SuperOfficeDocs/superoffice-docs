@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-## Install Service
+# Install Service
 
 From SuperOffice 8 you also need to install Service, which is used by mailings inside both Sales & Marketing and Service.
 

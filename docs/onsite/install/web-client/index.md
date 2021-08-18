@@ -82,7 +82,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 20. Click **Finish"** to finalize the installation.
 
-[Previous][11] | [Next][12] | [Back to guide][13]
+[Previous][11] | [Next (Netserver)][12] | [Next (Service)][14] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: ../guide.md
@@ -96,3 +96,4 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [11]: ../server/index.md
 [12]: ../netserver/index.md
 [13]: ../guide.md
+[14]: ../../../service/install/index.md

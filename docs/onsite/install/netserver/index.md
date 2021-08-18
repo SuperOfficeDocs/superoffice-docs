@@ -9,7 +9,7 @@ so.envir: onsite
 so.client: web
 ---
 
-# Install NetServer / web services
+# Install NetServer / Web services
 
 NetServer is always installed, but for some scenarios, we recommend it is installed as remote web services.
 
