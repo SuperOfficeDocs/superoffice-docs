@@ -22,7 +22,7 @@ This article describes how to connect, configure, use and disconnect Google Meet
 
 ## How to connect to video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Google Meet as the provider.

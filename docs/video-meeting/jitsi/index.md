@@ -21,15 +21,15 @@ This article describes how to connect, configure, use and disconnect Jitsi.
 
 ## How to connect to video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Jitsi as the provider.
-5. If it says "Connected to Jitsi Meet. Logged in as xxx and connected to custxxxx", you may close this browser window - to go back to SuperOffice "Settings and maintenance" to confirm the setup.
+5. If it says "Connected to Jitsi Meet. Logged in as xxx and connected to custxxxx", you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 6. Return to the SuperOffice **Video meetings** tab and verify that the configuration is active.
 
 > [!NOTE]
-> There is no authenticate or validation, or need to confirm to connect it to SuperOffice. This provider does not have any additional configuration settings.
+> There is no authentication or validation, or need to confirm to connect it to SuperOffice. This provider does not have any additional configuration settings.
 
 ## How to use Video Meetings
 
