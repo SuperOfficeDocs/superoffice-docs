@@ -29,12 +29,12 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 
 ## How to connect to video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Microsoft Teams as the provider.
 5. Authenticate and authorize Microsoft Teams:
-    1. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
+    1. You will be forwarded to the provider's authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
     2. Please accept the integration on behalf of your organization, by setting the checkbox:
 

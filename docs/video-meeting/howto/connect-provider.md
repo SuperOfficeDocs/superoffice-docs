@@ -12,9 +12,7 @@ so.client: online
 
 # How to connect to a video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
-
-    ![imagekb02n.png -screenshot][img1]
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 
 2. Choose the **Video meetings** tab.
 
@@ -35,6 +33,5 @@ You may now start using Video Meetings in SuperOffice​!
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/imageq058q.png
 [img2]: media/imagekb02n.png
 [img3]: media/imageaos3n.png

@@ -12,7 +12,7 @@ so.client: online
 
 # Join a video meeting
 
-There are several ways in which you can join a video meeting in SuperOffice:
+There are several ways you can join a video meeting in SuperOffice:
 
 * Click **Join meeting** in the **Follow-up** dialog (appointment).
 * Click **Join meeting** in the side panel.

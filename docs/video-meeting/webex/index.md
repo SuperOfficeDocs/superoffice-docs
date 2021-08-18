@@ -22,7 +22,7 @@ This article describes how to connect, configure, use and disconnect Webex.
 
 ## How to connect to video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Cisco Webex as the provider.
@@ -37,7 +37,7 @@ This article describes how to connect, configure, use and disconnect Webex.
 
         ![imageb11q.png -screenshot][img1]
 
-    2. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
+    2. You will be forwarded to the provider's authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
         ![imaget1zxp.png -screenshot][img2]
 
