@@ -60,5 +60,5 @@ ServerSetup can be installed silently without using the user interface. All func
 
 <!-- Referenced links-->
 [11]: ../../../service/install/prepare.md
-[12]: ../web-client/index.md
+[12]: ../../../service/install/index.md
 [13]: ../guide.md
