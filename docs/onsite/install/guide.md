@@ -17,12 +17,12 @@ so.envir: onsite
 1. [Prepare CRM server][1]
 2. [Prepare database][10]
 3. [Prepare IIS Web server][9]
-5. [Prepare for Service][3]
-1. [Prepare Windows client computer][2] (optional)
-1. [Install SuperOffice Win Server][4]
-1. [Install Windows client][5] (optional)
-1. [Install Service][8]
-1. [Install SuperOffice Web][6]
+4. [Prepare for Service][3]
+5. [Prepare Windows client computer][2] (optional)
+6. [Install SuperOffice Win Server][4]
+7. [Install Windows client][5] (optional)
+8. [Install Service][8]
+9. [Install SuperOffice Web][6]
 
 
 <!-- Referenced links -->
