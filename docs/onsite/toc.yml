@@ -109,7 +109,7 @@ items:
         href: upgrade/75-to-8/netserver.md
       - name: Windows client
         href: upgrade/75-to-8/win-client.md
-    - name: To version 8.1
+    - name: To version 8.1 and newer
       href: upgrade/to-81/index.md
       items:
       - name: Using old Service domain

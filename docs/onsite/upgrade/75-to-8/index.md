@@ -9,7 +9,7 @@ so.envir: onsite
 so.client: web,win
 ---
 
-# Upgrade from 7.x to 8
+# Upgrade from 7.x to 8.0
 
 | Current setup | Which guide to use |
 |---------------|--------------------|
@@ -17,7 +17,7 @@ so.client: web,win
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | Upgrade Win + Web or Web |
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service, and/or<br> SuperOffice 7.5 Windows clients | Upgrade CS or CS + Windows client |
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | Upgrade Win + Web + CS or Web + CS |
-| SuperOffice 7.0 or 7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
+| SuperOffice 7.0 or 7.1 Server | Upgrade SuperOffice 7.0 or 7.1 |
 
 > [!NOTE]
 > SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server 7 is not needed for SuperOffice 8. Uninstall Pocket Server 7 after the upgrade if it is installed.
@@ -89,7 +89,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 4. [Upgrade SuperOffice 7 CS to SuperOffice 8 Service][6]
 5. [Upgrade Web][3]
 
-## Upgrade 7.0 or 7.1 SuperOffice
+## Upgrade SuperOffice 7.0 or 7.1 
 
 **For:**
 
@@ -98,7 +98,7 @@ SuperOffice 7.0 or 7.1 Server
 **Actions:**
 
 1. You must upgrade to SuperOffice 7.5 first!
-2. Then complete the upgrade to 8.
+2. Then complete the upgrade to 8.0
 
 <!-- Referenced links -->
 [1]: crm-server.md
