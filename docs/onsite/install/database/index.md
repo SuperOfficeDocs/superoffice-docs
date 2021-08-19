@@ -51,4 +51,4 @@ The more powerful the SQL Server computer is, the faster SuperOffice CRM will pe
 [11]: ../iis/index.md
 [12]: ../server/prepare.md
 [13]: ../guide.md
-[14]: ../win-client/prepare-client.md
+
