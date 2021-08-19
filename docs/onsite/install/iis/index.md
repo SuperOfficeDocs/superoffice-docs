@@ -71,8 +71,8 @@ Plus any authentication methods that you wish to use.
 
 <!-- Referenced links -->
 [1]: ../../requirements/iis.md
-[11]: ../server/prepare.md
-[12]: ../database/index.md
+[11]: ../database/index.md
+[12]: ../../../service/install/prepare.md
 [13]: ../guide.md
 
 <!-- Referenced images -->

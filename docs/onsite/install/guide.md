@@ -15,12 +15,14 @@ so.envir: onsite
 > You need a running SuperOffice CRM Server before you install the other clients.  
 
 1. [Prepare CRM server][1]
-2. [Prepare Windows client computer][2] (optional)
-3. [Prepare for Service][3]
-4. [Install SuperOffice Win Server][4]
-5. [Install Windows client][5] (optional)
-6. [Install Service][8]
-7. [Install SuperOffice Web][6]
+2. [Prepare database][10]
+3. [Prepare IIS Web server][9]
+5. [Prepare for Service][3]
+1. [Prepare Windows client computer][2] (optional)
+1. [Install SuperOffice Win Server][4]
+1. [Install Windows client][5] (optional)
+1. [Install Service][8]
+1. [Install SuperOffice Web][6]
 
 
 <!-- Referenced links -->
@@ -32,3 +34,5 @@ so.envir: onsite
 [6]: web-client/index.md
 [7]: netserver/index.md
 [8]: ../../service/install/index.md
+[9]: iis/index.md
+[10]: database/index.md
