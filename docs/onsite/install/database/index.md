@@ -41,7 +41,7 @@ The more powerful the SQL Server computer is, the faster SuperOffice CRM will pe
 
 ***
 
-[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
+[Previous][12] | [Next][11] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: ../../compatibility/index.md
@@ -49,6 +49,6 @@ The more powerful the SQL Server computer is, the faster SuperOffice CRM will pe
 [5]: create-oracle-db.md
 [6]: create-ms-sql-server-db.md
 [11]: ../iis/index.md
-[12]: ../../../service/install/prepare.md
+[12]: ../server/prepare.md
 [13]: ../guide.md
-[14]: ../win-client/prepare-client.md
+

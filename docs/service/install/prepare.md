@@ -59,11 +59,12 @@ In MSSQL, create a user, which has **dbowner** access (and not sysadmin access
 
 ***
 
-[Previous][11] | [Next][12] | [Back to guide][13]
+[Previous][11] | [Next (Web)][12] | [Next (Win)][14] |  [Back to guide][13]
 
 <!-- Referenced links -->
-[11]: ../../onsite/install/database/index.md
+[11]: ../../onsite/install/iis/index.md
 [12]: ../../onsite/install/server/index.md
 [13]: ../../onsite/install/guide.md
+[14]: ../../onsite/install/win-client/prepare-client.md
 
 <!-- Referenced images -->

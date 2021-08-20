@@ -133,10 +133,10 @@ Please refer to the manufacturers' web pages for more information.
 
 ***
 
-[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
+[Previous][12] | [Next][11] | [Back to guide][13]
 
 <!-- Referenced links -->
 [11]: ../iis/index.md
-[12]: ../../../service/install/prepare.md
+[12]: ../server/prepare.md
 [13]: ../guide.md
-[14]: ../win-client/prepare-client.md
+

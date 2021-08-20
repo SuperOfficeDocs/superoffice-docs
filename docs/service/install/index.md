@@ -19,7 +19,7 @@ A typical first-time installation of SuperOffice Customer Service on Windows 201
 
 We assume you have already run the general SuperOffice CRM server setup to create a database primed with necessary startup data in the language of your choice.
 
-You need to have a working SuperOffice web services installation before you proceed with the installation of Service as *ejTermsetup.exe* requires it. Both Service and SuperOffice web services must be of the same version and run on the same domain from our [release 8.1][1].
+You need to have a working SuperOffice web services installation before you proceed with the installation of Service as *ejTermsetup.exe* requires it. Both Service and SuperOffice web services must be of the same version and run on the same domain from our SuperOffice 8.1.
 
 ## Run the installer
 
@@ -176,7 +176,6 @@ You are now ready to log in and use Service by opening your client browser and g
 [Previous][15] | [Next][14] | [Back to guide][13]
 
 <!-- Referenced links -->
-[1]: HTTPs://community.superoffice.com/en/product-releases/
 [2]: manual-steps.md
 [13]: ../../onsite/install/guide.md
 [14]: ../../onsite/install/web-client/index.md

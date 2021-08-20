@@ -109,7 +109,7 @@ To stop this from happening you have to activate a registry key named **UseBorde
 <!-- workitem=11900 -->
 [2]: deploy-on-citrix.md
 [11]: ../../../service/install/prepare.md
-[12]: ../web-client/index.md
+[12]: ../../../service/install/index.md
 [13]: ../guide.md
 
 <!-- Referenced links -->
