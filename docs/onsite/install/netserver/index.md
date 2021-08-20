@@ -13,6 +13,8 @@ so.client: web
 
 NetServer is always installed, but for some scenarios, we recommend it is installed as remote web services.
 
+> [!NOTE]
+> This page describes separate installation of SuperOffice NetServer / Web services. For full installation of SuperOffice Web, please [follow the install guide][2]. 
 ## Before you begin
 
 * Download the Web installer package
@@ -59,4 +61,4 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 
 <!-- Referenced links -->
 [1]: ../../reporter/config.md
-
+[2]: ../web-client/index.md
