@@ -95,7 +95,7 @@ If you (the user) experience difficulties with creating and starting video meeti
 <!-- Referenced links -->
 [1]: https://meetings.superoffice.com/meet/DisconnectUser
 [4]: https://admin.webex.com
-[8]: ../configure-email-invitations.md
+[8]: ../howto/configure-email-invitations.md
 
 <!-- Referenced images -->
 [img1]: media/imageb11q.png
