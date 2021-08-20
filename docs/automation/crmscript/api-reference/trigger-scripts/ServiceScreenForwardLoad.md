@@ -9,12 +9,13 @@ keywords:
 # ServiceScreenForwardLoad (509)
 
 Runs for `HtmlPage.forward` event.
-
+Called when screen is constructed, useful for setting default values into HTML elements
 ## Input values
-
-* `button` = HtmlSubmitButton element value
-* `x.value` = element x value
-* `x.displayValue` = element x display value
+|Variable|Description|
+|---|---|
+| `button` | HtmlSubmitButton element value|
+| `x.value` | element x value|
+| `x.displayValue` | element x display value|
 
 All HTML elements in the screen are added to the input values.
 

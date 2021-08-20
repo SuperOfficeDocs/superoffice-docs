@@ -9,9 +9,10 @@ keywords:
 # TicketReopenedFromCustomerCenter (121)
 
 ## Input values
-
-* `entryId` = ticket ID
-* `ticketId` = ticket ID
+|Variable|Description|
+|---|---|
+| `entryId` | ticket ID|
+| `ticketId` | ticket ID|
 
 ## Sample code
 

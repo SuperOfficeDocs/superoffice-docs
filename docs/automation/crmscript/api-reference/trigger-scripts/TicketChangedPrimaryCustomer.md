@@ -11,13 +11,14 @@ keywords:
 Runs when a ticket is saved and the customer ID changes.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `cust_id.old` = old value
-* `cust_id.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `cust_id.old` | old value|
+| `cust_id.new` | new value|
 
 ## Sample code
 

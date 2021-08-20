@@ -11,13 +11,14 @@ keywords:
 Runs when a ticket is saved and the status changed to postponed.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `ticketStatus.old` = old value
-* `ticketStatus.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID|
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `ticketStatus.old` | old value|
+| `ticketStatus.new` | new value|
 
 ## Ticket status
 

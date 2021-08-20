@@ -8,19 +8,16 @@ keywords:
 
 # SalesBeforeSaveAppointment (1001)
 
-Called before an appointment is saved.
+Called before an appointment is saved. EventData contains all variables passed by datahandler in Sales client.
 
 ## Input values
 
-* `IsNew` = the appointment new?
-* `Location` = location
-* `suggestedappointment_id` = suggested appointment ID
-* `project_id` = the project ID
-* `sale_id` = the sale ID
+[!include[AppointmentEntity input values](includes/appointment-var.md)]
 
 ## Sample code
 
 ```crmscript
 #setLanguageLevel 3;
-String param1 = getVariable("ticketId");
+EventData ed = getEventData();
+String param1 = ed.getInputValue("AppointmentEntity.AppointmentId");
 ```

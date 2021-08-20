@@ -11,16 +11,17 @@ keywords:
 Runs after scheduled task failed
 
 ## Input values
-
-* `entryId` = scheduled task ID
-* `retries` = schedule number of retries
-* `disabled` = schedule disabled ?
-* `errorMessage` = error message string
-* `nextExecution` = next scheduled start (datetime)
-* `executionTime` = int
-* `scriptId` = script ID to execute
-* `scriptName` = name of script
-* `scriptIncludeId` = unique ID of script
+|Variable|Description|
+|---|---|
+| `entryId` | scheduled task ID|
+| `retries` | schedule number of retries|
+| `disabled` | schedule disabled ?|
+| `errorMessage` | error message string|
+| `nextExecution` | next scheduled start (datetime)|
+| `executionTime` | int|
+| `scriptId` | script ID to execute|
+| `scriptName` | name of script|
+| `scriptIncludeId` | unique ID of script|
 
 ## Sample code
 

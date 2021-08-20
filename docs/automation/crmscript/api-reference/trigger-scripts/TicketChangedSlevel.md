@@ -11,13 +11,14 @@ keywords:
 Runs when a ticket is saved and the security level changed.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `slevel.old` = old value
-* `slevel.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID|
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `slevel.old` | old value|
+| `slevel.new` | new value|
 
 ## Sample code
 

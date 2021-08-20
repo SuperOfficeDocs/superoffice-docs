@@ -12,9 +12,10 @@ Called when session changes status.
 Equivalent to webhook 'chatsession.changed'
 
 ## Input values
-
-* `chatSession.id` = the session ID
-* `chatSession.status` = new status
+|Variable|Description|
+|---|---|
+|`chatSession.id` | the session ID|
+| `chatSession.status`| new status|
 
 ## Status values
 

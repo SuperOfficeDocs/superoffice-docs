@@ -11,13 +11,14 @@ keywords:
 Runs when a ticket is saved and the ticket category changes ID.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `category.old` = old value
-* `category.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID|
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `category.old` | old value|
+| `category.new` | new value|
 
 ## Sample code
 

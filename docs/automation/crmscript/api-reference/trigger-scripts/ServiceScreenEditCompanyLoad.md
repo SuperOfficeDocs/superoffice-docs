@@ -9,12 +9,14 @@ keywords:
 # ServiceScreenEditCompanyLoad (508)
 
 Runs for `HtmlPage.lang_ticket_newCompany` screen.
+Called when screen is constructed, useful for setting default values into HTML elements
 
 ## Input values
-
-* `button` = HtmlSubmitButton element value
-* `x.value` = element x value
-* `x.displayValue` = element x display value
+|Variable|Description|
+|---|---|
+| `button` | HtmlSubmitButton element value|
+| `x.value` | element x value|
+| `x.displayValue` | element x display value|
 
 All HTML elements in the screen are added to the input values.
 

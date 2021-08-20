@@ -11,10 +11,11 @@ keywords:
 Called for all messages added to a ticket, followed by call to either `TicketInternalMessageAdded` or `TicketExternalMessageAdded` trigger.
 
 ## Input values
-
-* `entryId` = the ticket ID
-* `ticketId` = the ticket ID
-* `messageId` = the ticket message ID
+|Variable|Description|
+|---|---|
+| `entryId` | the ticket ID|
+| `ticketId` | the ticket ID|
+| `messageId` | the ticket message ID|
 
 ## Sample code
 

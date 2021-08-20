@@ -8,16 +8,17 @@ keywords:
 
 # TicketChangedTicketStatus (144)
 
-Runs when a ticket is saved and status changed.
+Runs when a ticket is saved and status changed. If user-defined statuses are present in solution available values will differ from below.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `ticketStatus.old` = old value
-* `ticketStatus.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID|
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `ticketStatus.old` | old value|
+| `ticketStatus.new` | new value|
 
 ## Ticket status
 

@@ -9,8 +9,9 @@ keywords:
 # CustomerSetSubscriptions (302)
 
 ## Input values
-
-* `personId` = person ID
+|Variable|Description|
+|---|---|
+| `personId` | person ID|
 
 ## Sample code
 

@@ -14,35 +14,37 @@ There are several variables available in this context.
 * To set a variable: `setVariable("xxx", <value>)`, where \<value> is a valid value for the field you are trying to set.
 
 ## Input values
-
-* `subject` = message subject
-* `body` = message body
-* `bodyHtml` = message html body
-* `author` = message sender
-* `ticketId` = request ID
-* `ticketExists` = 1 if this is a mail on an existing request, else 0 (0/1)
-* `sendAutoReply` = 1 if there will be sent an auto reply, else 0 (0/1)
-* `whyNoAutoReply` = why? message
-* `toTrashcan` = 1 if this mail will be sent to trashcan, else 0 (0/1)
-* `toBeDeleted` = 1 if this mail will be deleted, else 0 (0/1)
-* `fromEjournal` = 1 if the mail is from another AIM Server, else 0 (0/1)
-* `isBounce` = 1 if this is a bounce, else 0 (0/1)
-* `mailboxId` = The ID of the mailbox that the mail came in to
-* `smtpId` = smtp message ID
-* `mailBackup` = raw message text
-* `filterId` = ID
-* `to` = message to header
-* `from` = message from header
+|Variable|Description|
+|---|---|
+| `subject` | message subject|
+| `body` | message body|
+| `bodyHtml` | message html body|
+| `author` | message sender|
+| `ticketId`| request ID|
+| `ticketExists` | 1 if this is a mail on an existing request, else 0 (0/1)|
+| `sendAutoReply` | 1 if there will be sent an auto reply, else 0 (0/1)|
+| `whyNoAutoReply` | why? message|
+| `toTrashcan` | 1 if this mail will be sent to trashcan, else 0 (0/1)|
+| `toBeDeleted` | 1 if this mail will be deleted, else 0 (0/1)|
+| `fromEjournal` | 1 if the mail is from another AIM Server, else 0 (0/1)|
+| `isBounce` | 1 if this is a bounce, else 0 (0/1)|
+| `mailboxId` | The ID of the mailbox that the mail came in to|
+| `smtpId` | smtp message ID|
+| `mailBackup` | raw message text|
+| `filterId` | ID|
+| `to` | message to header|
+| `from` | message from header|
 
 ## Output values
-
-* `subject` = message subject
-* `author` = message sender
-* `ticketExists` = request found? (0/1)
-* `sendAutoReply` = should send reply? (0/1)
-* `whyNoAutoReply` = why? message
-* `toTrashcan` = 0/1
-* `toBeDeleted` = 0/1
+|Variable|Description|
+|---|---|
+| `subject` | message subject|
+| `author` | message sender|
+| `ticketExists`| request found? (0/1)|
+| `sendAutoReply` | should send reply? (0/1)|
+| `whyNoAutoReply` | why? message|
+| `toTrashcan` | 0/1|
+| `toBeDeleted` | 0/1|
 
 If you load a ticket object with the given ticket ID, it is not recommended to change the values of this ticket. Later the ticket will be saved, and the values you have saved on the ticket might be overwritten. Thereby you should only modify the variables listed above.
 

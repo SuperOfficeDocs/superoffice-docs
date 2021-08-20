@@ -11,8 +11,9 @@ keywords:
 Called when a DBI task fails to execute successfully.
 
 ## Input values
-
-* `entryId` = the dbi agent schedule ID
+|Variable|Description|
+|---|---|
+| `entryId` | the dbi agent schedule ID|
 
 ## Sample code
 

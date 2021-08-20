@@ -11,17 +11,18 @@ keywords:
 Runs when a ticket is saved and priority changed.
 
 ## Input values
-
-* `entryId` = request ID
-* `ticketId` = request ID
-* `personId` = customer (person) ID
-* `contactId` = company (contact) ID
-* `priority.old` = old value
-* `priority.new` = new value
+|Variable|Description|
+|---|---|
+| `entryId` | request ID|
+| `ticketId` | request ID|
+| `personId` | customer (person) ID|
+| `contactId` | company (contact) ID|
+| `priority.old` | old value|
+| `priority.new` | new value|
 
 ## Sample code
 
 ```crmscript
 #setLanguageLevel 3;
-String param1 = getVariable("customerId");
+String param1 = getVariable("ticketId");
 ```

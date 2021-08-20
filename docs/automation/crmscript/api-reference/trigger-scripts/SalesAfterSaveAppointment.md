@@ -8,20 +8,16 @@ keywords:
 
 # SalesAfterSaveAppointment (1101)
 
-Called after an appointment is saved.
+Called after an appointment is saved. EventData contains all variables passed by datahandler in Sales client. It is also possible to create and pass custom variables from BeforeSave event trigger.
 
 ## Input values
 
-* `IsNew` = the appointment new?
-* `Location` = location
-* `suggestedappointment_id` = suggested appointment ID
-* `project_id` = the project ID
-* `sale_id` = the sale ID
-* `VideoJoinUrl` = url to join video meeting
+[!include[AppointmentEntity input values](includes/appointment-var.md)]
 
 ## Sample code
 
 ```crmscript
 #setLanguageLevel 3;
-String param1 = getVariable("ticketId");
+EventData ed = getEventData();
+String param1 = ed.getInputValue("AppointmentEntity.AppointmentId");
 ```

@@ -8,21 +8,20 @@ keywords:
 
 # SalesAfterSaveStakeholder (1102)
 
-Called after a sale stakeholder is saved.
+Called after a sale stakeholder is saved. EventData contains all variables passed by datahandler in Sales client.
 
 ## Input values
 
-* `NewMembers` = "§" separated rows, each containing '|' separated columns: ID, contact ID, contact name, person ID, stakeholder role ID
-* `ContactPersonList` = list of persons
-* `CurrentContactName` = name string
-* `CurrentContactId` = contact ID
-* `CurrentEntityName` = sale
-* `SelectedId` = highlighted ID
-* `ExtraInfo`
+[!include[Stakeholder input values](includes/stakeholder-var.md)]
 
 ## Sample code
 
 ```crmscript
 #setLanguageLevel 3;
-String param1 = getVariable("SelectedId");
+EventData ed = getEventData();
+String[] param1 = ed.getInputValue("NewMembers").split("§");
+for(Integer i = 0; i < param1.length(); i++)
+{
+//Do something with each new member
+}
 ```

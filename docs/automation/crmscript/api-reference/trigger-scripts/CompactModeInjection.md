@@ -12,7 +12,10 @@ keywords:
 
 none
 
-Output string to inject into parser as `injection` variable.
+## Output values:
+|Variable|Description|
+|---|---|
+| `injection`|Output string to inject into parser as variable|
 
 ## Sample code
 
