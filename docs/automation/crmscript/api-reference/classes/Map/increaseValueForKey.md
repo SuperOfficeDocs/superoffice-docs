@@ -22,7 +22,7 @@ Increments the value of the given key by the amount specified. You can pass the 
 | Parameter | Type | Description |
 |---|---|---|
 | key | String | The key for which to update the value |
-| increment | Integer OR<or>Float | The amount to add to the current value |
+| increment | Integer OR<or> Float | The amount to add to the current value |
 
 ## Example
 
