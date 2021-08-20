@@ -17,7 +17,7 @@ so.client: online
 
 * You need a SuperOffice admin account during setup
 
-* An account at the video provider, for example, Zoom Pro
+* An account at the video provider
 
 * To be able to send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice MailLink.
 
@@ -31,11 +31,13 @@ so.client: online
 
 ## Getting started
 
-* [How to configure video meetings in SuperOffice][4]
+* [How to configure email invitations][4]
 * [How to connect to the video provider][5]
 * [How to create a video meeting][1]
 * [How to join a video meeting][2]
 * [How to disconnect a video provider][3]
+* [How to disconnect a user][6]
+* [Troubleshooting][7]
 
 <a href="../assets/downloads/video-meetings-in-superoffice---quick-start-v2.pdf" download>Download our Quick Start Guide – Video Meetings in SuperOffice​</a>
 
@@ -48,17 +50,19 @@ so.client: online
 
 The Video Meeting URL will be added to the **Location** field if it is left blank.
 
-With SuperOffice Mail Link, the Video Meeting URL is added to the appointment text automatically ("Join meeting: ...")
+With SuperOffice Mail Link, the Video Meeting URL is added to the appointment text automatically ("Join meeting: ...").
 With SuperOffice Inbox, you need to update the invitation template.
 
 ![imageloql6.png -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: create-video-meeting.md
-[2]: join-video-meeting.md
-[3]: disconnect-provider.md
-[4]: configure-video-meetings.md
-[5]: connect-provider.md
+[1]: howto/create.md
+[2]: howto/join.md
+[3]: howto/disconnect-provider.md
+[4]: howto/configure-email-invitations.md
+[5]: howto/connect-provider.md
+[6]: howto/disconnect-user.md
+[7]: troubleshooting.md
 
 <!-- Referenced images -->
 [img1]: media/image99xdi.png

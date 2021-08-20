@@ -2,7 +2,7 @@
 title: Video Meetings for SuperOffice - Jitsi
 uid: video_meetings_jitsi
 description: Getting started with Video Meetings for SuperOffice - Jitsi
-so.date: 06.21.2021
+so.date: 08.12.2021
 keywords: video meeting, Jitsi
 so.topic: howto
 so.envir: cloud
@@ -21,28 +21,34 @@ This article describes how to connect, configure, use and disconnect Jitsi.
 
 ## How to connect to video provider
 
-1. Open SuperOffice **Settings and maintenance** (admin) and go to the **Preferences** section.
+1. Open SuperOffice **Settings and maintenance** and go to the **Preferences** section.
 2. Choose the **Video meetings** tab.
 3. Click **Configure** to start the configuration process.
 4. Select Jitsi as the provider.
-5. [Authenticate and authorize Jitsi][6].
+5. If it says "Connected to Jitsi Meet. Logged in as xxx and connected to custxxxx", you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 6. Return to the SuperOffice **Video meetings** tab and verify that the configuration is active.
+
+> [!NOTE]
+> There is no authentication or validation, or need to confirm to connect it to SuperOffice. This provider does not have any additional configuration settings.
 
 ## How to use Video Meetings
 
-* [Create a video meeting][2]
-* [Join a video meeting][3]
+### Create a video meeting
+
+[!include[How to create a video meeting](../includes/create-steps.md)]
+
+[!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
+
+### Join a video meeting
+
+[!include[How to join a video meeting](../includes/join-options.md)]
 
 ## How to disconnect video provider
 
-* [Disconnect video provider][4]
-* There is nothing to uninstall or remove
+[!include[How to disconnect video provider step-by-step](../includes/disconnect-provider-steps.md)]
+
+There is nothing to uninstall or remove.
 
 <!-- Referenced links -->
-[2]: ../create-video-meeting.md
-[3]: ../join-video-meeting.md
-[4]: ../disconnect-provider.md
-[5]: uninstall.md
-[6]: auth.md
 
 <!-- Referenced images -->
