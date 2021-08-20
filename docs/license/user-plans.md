@@ -13,6 +13,8 @@ so.client: online
 
 You can choose from 5 user plans based on different roles in your company. Find the correct plans to base your application on.
 
+User plans are identified by the `ExtraFlags` field being 1 on their module license records, and the `"set="` in their `ExtraInfo` field.
+
 ## Standard CRM
 
 For those who need [basic CRM][1].
@@ -75,6 +77,7 @@ The contract period is for 12 months. After the first 12 months, they are automa
 Customers can combine plans that best fit their needs. They can also add or change user plans later on.
 
 You should keep this flexibility in mind when integrating with specific features and deciding your pricing model.
+
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/crm/core-features/
