@@ -102,9 +102,9 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 * String [getNavigateTo()][13]
 * Void [setNavigateTo(String url)][14]
 <!-- Referenced links -->
-[1]: ../../../user-interface/docs/service-ui/screen-events.md
-[2]: ../../../user-interface/docs/soprotocol/index.md
-[3]: ../../../user-interface/docs/service-ui/url-parameters.md
+[1]: ../../../../../user-interface/docs/service-ui/screen-events.md
+[2]: ../../../../../user-interface/docs/soprotocol/index.md
+[3]: ../../../../../user-interface/docs/service-ui/url-parameters.md
 [4]: gettype.md
 [5]: getinputvalue.md
 [6]: getinputvalues.md

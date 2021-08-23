@@ -15,4 +15,4 @@ Returns the element type. For example, HtmlAnchorLine or HtmlGrid.
 > Look up specific elements in the [bLogic screen element][1] reference.
 
 <!-- Referenced links -->
-[1]: ../../../user-interface/docs/service-ui/blogic-screen-elements/index.md
+[1]: ../../../../../user-interface/docs/service-ui/blogic-screen-elements/index.md

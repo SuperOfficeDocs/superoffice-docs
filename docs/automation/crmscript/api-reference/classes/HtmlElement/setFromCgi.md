@@ -12,4 +12,4 @@ so.topic: reference
 Called when the element should find its values from the CGI variables. Commonly used for [screens containing forms][1].
 
 <!-- Referenced links -->
-[1]: ../../../user-interface/docs/service-ui/custom-screens/form-elements.md
+[1]: ../../../../../user-interface/docs/service-ui/custom-screens/form-elements.md
