@@ -19,4 +19,4 @@ There can be many scripts hooked to the same event - in which case they are run 
 [Reference][1]
 
 <!-- Referenced links -->
-[1]:  ../../../../crmscript/docs/trigger-scripts/ChatAfterSaveNewMessage.md
+[1]:  ../../../../crmscript/docs/api-reference/trigger-scripts/index.md

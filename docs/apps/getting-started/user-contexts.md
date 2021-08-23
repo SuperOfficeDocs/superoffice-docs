@@ -30,7 +30,7 @@ Applications are **not allowed to directly ask users for their credentials**, a
 
 ## System user (non-interactive)
 
-All applications that run as background tasks, without user interaction, must receive a [system user token][2] and use the [system-user flow][3] for interacting with our web services. None of the [OpenID Connect flows][4] are supported.
+All applications that run as background tasks, without user interaction, must receive a [system user token][2] and use the [system-user flow][2] for interacting with our web services. None of the [OpenID Connect flows][4] are supported.
 
 The system user has unlimited access to the [tenant][6] and is not restricted by functional rights or data rights.
 
@@ -45,8 +45,7 @@ See also [application models terminology][6] and the [system user MVC example][7
 
 <!-- Referenced links -->
 [1]: ../../identity-management/federated-auth.md
-[2]: ../../../../data-access/docs/authentication/online/auth-application/index.md#system-user-tokens
-[3]: ../../../../data-access/docs/authentication/online/auth-application/index.md
+[2]: ../../../../data-access/docs/authentication/online/auth-application/index.md
 [4]: ../../../../data-access/docs/authentication/online/index.md
 [6]: ../terminology.md
 [7]: ../../../../data-access/docs/tutorials/minimal-csharp-app/overview.md

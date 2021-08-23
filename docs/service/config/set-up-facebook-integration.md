@@ -135,15 +135,15 @@ If you need more information about setting up HTTPS for your callback URL, check
 [8]: https://www.digicert.com/ssl-certificate-installation.htm
 
 <!-- Referenced images -->
-[img1]: media/facebookpageid.png
-[img2]: media/facebookservicenewfbapp.png
-[img3]: media/facebookserviceproperties.png
-[img4]: media/2managepages.jpg
-[img5]: media/facebookreply.png
-[img6]: media/facebooknewappid.png
-[img7]: media/facebookappsettings.png
-[img8]: media/facebookaddplatform.png
-[img9]: media/facebookwebsite.png
-[img10]: media/facebookregisterurl.png
-[img11]: media/facebookappreview.png
-[img12]: media/facebookappidandsecret.png
+[img1]: ../media/facebookpageid.png
+[img2]: ../media/facebookservicenewfbapp.png
+[img3]: ../media/facebookserviceproperties.png
+[img4]: ../media/2managepages.jpg
+[img5]: ../media/facebookreply.png
+[img6]: ../media/facebooknewappid.png
+[img7]: ../media/facebookappsettings.png
+[img8]: ../media/facebookaddplatform.png
+[img9]: ../media/facebookwebsite.png
+[img10]: ../media/facebookregisterurl.png
+[img11]: ../media/facebookappreview.png
+[img12]: ../media/facebookappidandsecret.png

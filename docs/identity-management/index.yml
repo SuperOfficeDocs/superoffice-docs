@@ -127,7 +127,7 @@ additionalContent:
       # Card
       - title: Credentials
         links:
-        - url: ../../../data-access/docs/authentication/credentials-table.md
+        - url: ../../../database/docs/tables/credentials-table.md
           text: The credentials database table
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

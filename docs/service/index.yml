@@ -155,7 +155,7 @@ additionalContent:
       # Card
       - title: Integrations
         links:
-        - url: set-up-facebook-integration.md
+        - url: config/set-up-facebook-integration.md
           text: Set up Facebook integration
         - url: ../marketing/forms/recaptcha.md
           text: Google reCaptcha in forms
