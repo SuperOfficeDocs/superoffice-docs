@@ -88,7 +88,7 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 ***
 
 <!-- Referenced links -->
-[1]: index.md#system-user-tokens
+[1]: index.md
 [2]: ../validate-security-tokens.md
 [4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
 [5]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core

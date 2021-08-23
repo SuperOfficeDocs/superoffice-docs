@@ -48,7 +48,7 @@ The preferred way to use a system user token is demonstrated in the [System Cons
 <!-- Referenced links -->
 [1]: ../../authentication/online/auth-application/sign-system-user-token.md
 [2]: ../../authentication/online/validate-security-tokens.md
-[3]: ../../authentication/online/auth-application/index.md#system-user-tokens
+[3]: ../../authentication/online/auth-application/index.md
 [4]: system-user-service-console.md
 
 <!-- Referenced images -->

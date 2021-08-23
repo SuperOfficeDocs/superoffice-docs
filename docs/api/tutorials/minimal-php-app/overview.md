@@ -50,7 +50,7 @@ Each application must also validate each token received by SuperId when exchangi
 The host running this example must have the [public certificates installed][2] for this example to work.
 
 <!-- Referenced links -->
-[1]: ../../authentication/online/auth-application/index.md#system-user-tokens
+[1]: ../../authentication/online/auth-application/index.md
 [2]: ../../authentication/online/certificates/configure.md
 
 <!-- Referenced images -->
