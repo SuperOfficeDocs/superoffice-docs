@@ -98,7 +98,7 @@ It might look something like this:
 [3]: form-elements.md
 [4]: ../blogic-screen-elements/index.md
 [5]: blogic-query-syntax.md
-[6]: ../../../../crmscript/docs/api-reference/classes/htmlelement/htmlelement.md
+[6]: ../../../../crmscript/docs/api-reference/classes/htmlelement/index.md
 [7]: ../../../../crmscript/docs/searchengine/se-select.md
 [8]: ../../../../crmscript/docs/searchengine/se-run.md
 [9]: ../../../../crmscript/docs/searchengine/se-results.md
