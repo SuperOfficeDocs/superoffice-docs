@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Eichmann, Friesen and Swaniawski",
-    "ToolTip": "Aut at aperiam.",
+    "Id": 157,
+    "Name": "Bailey, Brown and Kris",
+    "ToolTip": "Voluptate excepturi atque debitis voluptatem ratione.",
     "Deleted": false,
-    "Rank": 651,
+    "Rank": 857,
     "Type": "repudiandae",
-    "ColorBlock": 22,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2019-09-08T09:41:00.3613816+02:00",
+    "ColorBlock": 635,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2007-03-18T15:05:43.4345102+01:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Carter, Hickle and Cormier",
-        "ToolTip": "Repellat debitis modi enim ratione eligendi.",
+        "Id": 238,
+        "Name": "Schuster, Tremblay and Emmerich",
+        "ToolTip": "Officia saepe aspernatur laboriosam.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "consectetur",
-        "ColorBlock": 539,
-        "IconHint": "deserunt",
+        "Rank": 595,
+        "Type": "quam",
+        "ColorBlock": 301,
+        "IconHint": "consequuntur",
         "Selected": true,
-        "LastChanged": "2003-12-16T09:41:00.3613816+01:00",
+        "LastChanged": "1995-09-09T15:05:43.4345102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Minnie Labadie",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Jude Bogisich",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 145
+            "FieldType": "System.String",
+            "FieldLength": 235
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Guiseppe Fritsch",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Crystal Gibson II",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

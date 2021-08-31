@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/AddAttachments
+title: AddAttachments
 id: v1TicketAgent_AddAttachments
 ---
 
-# POST Agents/Ticket/AddAttachments
+# AddAttachments
 
 ```http
 POST /api/v1/Agents/Ticket/AddAttachments

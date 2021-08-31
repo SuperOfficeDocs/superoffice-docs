@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllCurrencies
+title: GetAllCurrencies
 id: v1ListAgent_GetAllCurrencies
 ---
 
-# POST Agents/List/GetAllCurrencies
+# GetAllCurrencies
 
 ```http
 POST /api/v1/Agents/List/GetAllCurrencies
@@ -79,7 +79,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 843,
-    "Name": "Harris LLC",
-    "Tooltip": "voluptatem",
-    "Rank": 606,
-    "Rate": 21029.14,
-    "Units": 14761.14,
-    "Deleted": false,
+    "CurrencyId": 279,
+    "Name": "Huels-Hettinger",
+    "Tooltip": "nisi",
+    "Rank": 270,
+    "Rate": 29221.415999999997,
+    "Units": 2563.612,
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldLength": 285
       }
     }
   }

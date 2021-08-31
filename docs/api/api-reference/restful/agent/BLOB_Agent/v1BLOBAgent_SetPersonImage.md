@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/SetPersonImage
+title: SetPersonImage
 id: v1BLOBAgent_SetPersonImage
 ---
 
-# POST Agents/BLOB/SetPersonImage
+# SetPersonImage
 
 ```http
 POST /api/v1/Agents/BLOB/SetPersonImage

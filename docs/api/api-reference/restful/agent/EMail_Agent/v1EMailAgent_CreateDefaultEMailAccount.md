@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailAccount
+title: CreateDefaultEMailAccount
 id: v1EMailAgent_CreateDefaultEMailAccount
 ---
 
-# POST Agents/EMail/CreateDefaultEMailAccount
+# CreateDefaultEMailAccount
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,16 +77,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 571,
-  "EMailAddress": "quae",
-  "AssociateId": 518,
+  "EMailAccountId": 720,
+  "EMailAddress": "doloribus",
+  "AssociateId": 425,
   "IncomingCredentials": {
-    "ServiceAuthId": 395,
-    "Server": "aut",
-    "Port": 596,
-    "AuthType": "vel",
-    "Username": "qui",
-    "Password": "laborum",
+    "ServiceAuthId": 291,
+    "Server": "expedita",
+    "Port": 489,
+    "AuthType": "itaque",
+    "Username": "deleniti",
+    "Password": "aliquid",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 638
+      }
+    }
+  },
+  "OutgoingCredentials": {
+    "ServiceAuthId": 81,
+    "Server": "placeat",
+    "Port": 370,
+    "AuthType": "dignissimos",
+    "Username": "nihil",
+    "Password": "cum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,32 +114,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 979
       }
     }
   },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 934,
-    "Server": "numquam",
-    "Port": 944,
-    "AuthType": "saepe",
-    "Username": "occaecati",
-    "Password": "recusandae",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "harness integrated supply-chains"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 240
-      }
-    }
-  },
-  "AccountStatus": 921,
-  "ErrorCount": 566,
-  "ErrorReason": "",
+  "AccountStatus": 782,
+  "ErrorCount": 50,
+  "ErrorReason": "repurpose web-enabled methodologies",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

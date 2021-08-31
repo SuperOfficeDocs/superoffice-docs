@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Bailey LLC",
-    "ToolTip": "Et neque.",
-    "Deleted": false,
-    "Rank": 800,
-    "Type": "harum",
-    "ColorBlock": 732,
-    "IconHint": "voluptatem",
+    "Id": 745,
+    "Name": "Satterfield-Ebert",
+    "ToolTip": "Est est quis.",
+    "Deleted": true,
+    "Rank": 548,
+    "Type": "rem",
+    "ColorBlock": 6,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2004-02-29T09:40:59.5226628+01:00",
+    "LastChanged": "2011-10-23T15:05:42.5696348+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Bode, Bahringer and Gutkowski",
-        "ToolTip": "Error aut ratione placeat accusamus.",
+        "Id": 783,
+        "Name": "Weber-D'Amore",
+        "ToolTip": "Laborum quibusdam cumque asperiores id in error.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "dolores",
-        "ColorBlock": 587,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2001-07-11T09:40:59.5226628+02:00",
+        "Rank": 750,
+        "Type": "beatae",
+        "ColorBlock": 130,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2002-09-16T15:05:42.5706351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
+        "ExtraInfo": "est",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Gladys Nitzsche",
+        "FullName": "Berniece Pacocha",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,16 +121,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 373
+            "FieldType": "System.Int32",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Ms. Delilah Renner",
+    "ExtraInfo": "corporis",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Murl Wyman",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,10 +139,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "engineer 24/7 schemas"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

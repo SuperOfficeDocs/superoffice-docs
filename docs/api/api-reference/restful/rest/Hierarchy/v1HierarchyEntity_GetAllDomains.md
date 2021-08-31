@@ -49,7 +49,7 @@ Response body: array
 GET /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "adipisci",
-  "delectus"
+  "quia",
+  "quis"
 ]
 ```

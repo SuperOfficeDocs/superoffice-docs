@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Hane, Bashirian and Bosco",
-    "ToolTip": "Nam hic impedit.",
-    "Deleted": false,
-    "Rank": 370,
-    "Type": "itaque",
-    "ColorBlock": 613,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2006-12-08T09:41:00.2463617+01:00",
+    "Id": 789,
+    "Name": "Beier-Padberg",
+    "ToolTip": "Iure voluptatem dolore tempora ea ab.",
+    "Deleted": true,
+    "Rank": 515,
+    "Type": "dolorum",
+    "ColorBlock": 571,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2004-04-10T15:05:43.3205459+02:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Murazik Inc and Sons",
-        "ToolTip": "Sunt temporibus dolor.",
-        "Deleted": true,
-        "Rank": 879,
-        "Type": "incidunt",
-        "ColorBlock": 634,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "1997-08-09T09:41:00.2463617+02:00",
+        "Id": 451,
+        "Name": "Mayert-Rodriguez",
+        "ToolTip": "Sunt qui omnis qui voluptatem quis sequi.",
+        "Deleted": false,
+        "Rank": 945,
+        "Type": "corrupti",
+        "ColorBlock": 264,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2014-03-18T15:05:43.3215135+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "hic",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "David Hauck I"
+        "FullName": "Mrs. Jesse Okuneva"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Brenda Kihn"
+    "ExtraInfo": "vitae",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Armando Haley"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Brown-Bins",
-    "ToolTip": "Ipsa animi consequuntur aut vero.",
+    "Id": 726,
+    "Name": "Keebler-Harvey",
+    "ToolTip": "Iste iste omnis quo qui dolor iste.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "explicabo",
-    "ColorBlock": 42,
-    "IconHint": "nam",
-    "Selected": true,
-    "LastChanged": "2006-04-28T09:41:00.2473661+02:00",
+    "Rank": 690,
+    "Type": "numquam",
+    "ColorBlock": 587,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1994-06-28T15:05:43.3225398+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Zboncak, Bosco and Hagenes",
-        "ToolTip": "Perferendis dolore laboriosam eum.",
+        "Id": 481,
+        "Name": "Gleichner-Heaney",
+        "ToolTip": "Qui ea et.",
         "Deleted": false,
-        "Rank": 849,
-        "Type": "voluptatem",
-        "ColorBlock": 640,
-        "IconHint": "deleniti",
-        "Selected": false,
-        "LastChanged": "2012-03-23T09:41:00.2473661+01:00",
+        "Rank": 197,
+        "Type": "quo",
+        "ColorBlock": 464,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2011-07-21T15:05:43.3225398+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
+        "ExtraInfo": "at",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Tyrell Boyer Sr.",
+        "FullName": "Eloy Conroy",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,19 +183,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldType": "System.String",
+            "FieldLength": 776
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quae",
+    "ExtraInfo": "magni",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Polly O'Conner",
+    "FullName": "Sincere Cruickshank DVM",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "orchestrate turn-key web services"
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

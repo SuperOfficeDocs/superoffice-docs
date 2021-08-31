@@ -115,26 +115,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 12,
-  "Name": "Larkin, Murray and Waelchi",
-  "Tooltip": "distinctio",
+  "WebPanelId": 840,
+  "Name": "Rippin-Kling",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 202,
+  "Rank": 579,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Abbott, Gerlach and Schaefer",
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Reichel-Monahan",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 313
+  "ProgId": "nemo",
+  "Icon": 587
 }
 ```
 
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 613,
-  "Name": "Wunsch-Wilkinson",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 702,
+  "WebPanelId": 430,
+  "Name": "Heller, Lemke and Deckow",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 206,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Crooks-Nolan",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Witting-Casper",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 757,
+  "ProgId": "officiis",
+  "Icon": 899,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,10 +171,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "seize efficient web-readiness"
       },
       "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldLength": 634
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWwwUrl
+title: GetWwwUrl
 id: v1ConfigurationAgent_GetWwwUrl
 ---
 
-# POST Agents/Configuration/GetWwwUrl
+# GetWwwUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrl
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Client": "quas"
+  "Client": "esse"
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetInstalledLanguages
+title: GetInstalledLanguages
 id: v1ListAgent_GetInstalledLanguages
 ---
 
-# POST Agents/List/GetInstalledLanguages
+# GetInstalledLanguages
 
 ```http
 POST /api/v1/Agents/List/GetInstalledLanguages
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -79,12 +79,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 479,
-    "LCID": 587,
-    "EnglishName": "Hauck, Terry and Abernathy",
-    "NativeName": "Boyle LLC",
-    "ThreeLetterISOLanguageName": "Trantow Group",
-    "TwoLetterISOLanguageName": "Kunze Inc and Sons",
+    "LanguageInfoId": 709,
+    "LCID": 973,
+    "EnglishName": "Ullrich, Runolfsson and Klein",
+    "NativeName": "Schulist-West",
+    "ThreeLetterISOLanguageName": "Tromp Group",
+    "TwoLetterISOLanguageName": "Kihn, Durgan and Watsica",
     "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 128
       }
     }
   }

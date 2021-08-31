@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Hyatt-Barrows",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "Rank": 122,
+  "Id": 220,
+  "Name": "Murray Inc and Sons",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 346,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": true,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "nulla",
+  "Id": 290,
+  "Name": "Beier-Lakin",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 447,
+  "Rank": 803,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "exploit intuitive relationships"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 746
     }
   }
 }

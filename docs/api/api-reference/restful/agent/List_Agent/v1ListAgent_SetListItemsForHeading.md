@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetListItemsForHeading
+title: SetListItemsForHeading
 id: v1ListAgent_SetListItemsForHeading
 ---
 
-# POST Agents/List/SetListItemsForHeading
+# SetListItemsForHeading
 
 ```http
 POST /api/v1/Agents/List/SetListItemsForHeading

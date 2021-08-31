@@ -2,12 +2,18 @@
 title: ForeignApp
 ---
 
+# ForeignApp
+
 ```http
 /api/v1/ForeignApp
 ```
 
 
 
+
+* [PUT ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp_PUT.md)
+
+* [POST ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp.md)
 
 * [GET ForeignApp/default](v1ForeignAppEntity_DefaultForeignAppEntity.md)
 
@@ -52,7 +58,3 @@ title: ForeignApp
 * [GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}](v1ForeignAppEntity_GetKeyByValue.md)
 
 * [GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}](v1ForeignAppEntity_GetKeyByValueAndIdentifier.md)
-
-* [PUT ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp_PUT.md)
-
-* [POST ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp.md)

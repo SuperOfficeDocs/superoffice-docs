@@ -2,6 +2,8 @@
 title: List_ProductType
 ---
 
+# List_ProductType
+
 ```http
 /api/v1/List/ProductType
 ```

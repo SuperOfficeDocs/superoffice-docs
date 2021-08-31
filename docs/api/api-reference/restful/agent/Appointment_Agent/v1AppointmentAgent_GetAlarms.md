@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAlarms
+title: GetAlarms
 id: v1AppointmentAgent_GetAlarms
 ---
 
-# POST Agents/Appointment/GetAlarms
+# GetAlarms
 
 ```http
 POST /api/v1/Agents/Appointment/GetAlarms
@@ -78,13 +78,13 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": true,
   "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 43
+  "DefaultAlarmLeadTimeInMinutes": 811
 }
 ```
 
@@ -95,28 +95,29 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 20,
-      "StartTime": "2009-01-13T16:48:28.3464489+01:00",
-      "EndDate": "2003-08-14T16:48:28.3464489+02:00",
-      "AlarmTime": "2015-05-29T16:48:28.3464489+02:00",
-      "PersonId": 143,
-      "PersonFullName": "Ben Marks",
-      "ContactName": "VonRueden, Rohan and Jacobson",
-      "ProjectId": 279,
-      "ProjectName": "Batz, Lowe and Mante",
-      "AppointmentText": "in",
-      "SaleId": 471,
-      "SaleName": "Grimes Group",
-      "Location": "ipsum",
+      "AppointmentId": 540,
+      "StartTime": "2009-04-04T14:58:02.8995578+02:00",
+      "EndDate": "2002-05-12T14:58:02.8995578+02:00",
+      "AlarmTime": "2014-05-24T14:58:02.8995578+02:00",
+      "PersonId": 171,
+      "PersonFullName": "Kellen Botsford",
+      "ContactName": "Stiedemann-Grimes",
+      "ProjectId": 155,
+      "ProjectName": "Hilpert, Ferry and O'Keefe",
+      "AppointmentText": "ea",
+      "SaleId": 955,
+      "SaleName": "Schuster-Morar",
+      "Location": "sequi",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 615,
+      "ContactId": 201,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Tremblay, Rippin and Durgan",
-      "TaskName": "Harber-Mayer",
+      "FormalName": "Wisozk-Johnston",
+      "TaskName": "Hirthe-Reichel",
       "ContactDepartment": "",
-      "ContactFullName": "Royce Ritchie",
+      "ContactFullName": "Tabitha Halvorson",
+      "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -125,13 +126,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldLength": 821
         }
       }
     }
   ],
-  "PollingInterval": 543,
-  "SilentAfter": 285,
+  "PollingInterval": 45,
+  "SilentAfter": 654,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldLength": 274
     }
   }
 }

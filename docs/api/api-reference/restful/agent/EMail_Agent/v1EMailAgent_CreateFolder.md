@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateFolder
+title: CreateFolder
 id: v1EMailAgent_CreateFolder
 ---
 
-# POST Agents/EMail/CreateFolder
+# CreateFolder
 
 ```http
 POST /api/v1/Agents/EMail/CreateFolder

@@ -1,15 +1,15 @@
 ---
-title: POST Agents/CRMScript/ExecuteScript
+title: ExecuteScript
 id: v1CRMScriptAgent_ExecuteScript
 ---
 
-# POST Agents/CRMScript/ExecuteScript
+# ExecuteScript
 
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScript
 ```
 
-Execute a CRMScript with parameters
+Execute a CRMScript with parameters, returning printed output value.
 
 
 
@@ -71,14 +71,14 @@ Response body: string
 POST /api/v1/Agents/CRMScript/ExecuteScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 434,
+  "CRMScriptId": 524,
   "Parameters": {
-    "Parameters1": "delectus",
-    "Parameters2": "nobis"
+    "Parameters1": "enim",
+    "Parameters2": "quidem"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"magni"
+"eum"
 ```

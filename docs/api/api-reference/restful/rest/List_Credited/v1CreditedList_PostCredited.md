@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Johnston-Schulist",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "UdListDefinitionId": 6,
-  "Rank": 169
+  "Id": 313,
+  "Name": "McDermott LLC",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "UdListDefinitionId": 320,
+  "Rank": 56
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 923,
-  "Name": "Tremblay Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 568,
+  "Name": "Johnson-Deckow",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 850,
-  "Rank": 78,
+  "UdListDefinitionId": 649,
+  "Rank": 297,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 528
     }
   }
 }

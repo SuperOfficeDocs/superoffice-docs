@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Database/GetStepsInDatabase
+title: GetStepsInDatabase
 id: v1DatabaseAgent_GetStepsInDatabase
 ---
 
-# POST Agents/Database/GetStepsInDatabase
+# GetStepsInDatabase
 
 ```http
 POST /api/v1/Agents/Database/GetStepsInDatabase
@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Batz Inc and Sons",
-    "StepNumber": 456,
+    "Name": "Dickinson, Hermann and Lebsack",
+    "StepNumber": 490,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   },
   {
-    "Name": "Batz Inc and Sons",
-    "StepNumber": 456,
+    "Name": "Dickinson, Hermann and Lebsack",
+    "StepNumber": 490,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

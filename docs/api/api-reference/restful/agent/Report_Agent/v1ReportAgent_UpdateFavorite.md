@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/UpdateFavorite
+title: UpdateFavorite
 id: v1ReportAgent_UpdateFavorite
 ---
 
-# POST Agents/Report/UpdateFavorite
+# UpdateFavorite
 
 ```http
 POST /api/v1/Agents/Report/UpdateFavorite
@@ -81,18 +81,18 @@ Response body: object
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ReportEntity": {
-    "ReportId": 546,
+    "ReportId": 746,
     "ReportCategory": "All",
-    "Description": "Pre-emptive non-volatile infrastructure",
+    "Description": "Customizable optimal synergy",
     "ReportLayout": "CalendarMonth",
-    "Name": "Little-Williamson",
-    "AssociateId": 673,
-    "TemplateId": 216,
+    "Name": "Hessel-Lowe",
+    "AssociateId": 568,
+    "TemplateId": 681,
     "Published": false
   }
 }
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 403,
+  "ReportId": 861,
   "ReportCategory": "All",
-  "Description": "Extended responsive help-desk",
+  "Description": "Phased secondary knowledge base",
   "ReportLayout": "CalendarMonth",
-  "Name": "Langworth, Prohaska and Mertz",
-  "AssociateId": 514,
-  "TemplateId": 333,
+  "Name": "Lockman-McCullough",
+  "AssociateId": 226,
+  "TemplateId": 831,
   "Published": false,
   "TableRight": {
     "Mask": "Delete",
@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "repurpose 24/365 deliverables"
       },
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

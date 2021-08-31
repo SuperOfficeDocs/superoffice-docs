@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/SetActivityStatus
+title: SetActivityStatus
 id: v1AppointmentAgent_SetActivityStatus
 ---
 
-# POST Agents/Appointment/SetActivityStatus
+# SetActivityStatus
 
 ```http
 POST /api/v1/Agents/Appointment/SetActivityStatus

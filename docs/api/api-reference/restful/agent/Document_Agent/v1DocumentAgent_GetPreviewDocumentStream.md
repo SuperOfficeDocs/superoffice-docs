@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPreviewDocumentStream
+title: GetPreviewDocumentStream
 id: v1DocumentAgent_GetPreviewDocumentStream
 ---
 
-# POST Agents/Document/GetPreviewDocumentStream
+# GetPreviewDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 988
+  "DocumentId": 375
 }
 ```
 
@@ -94,9 +94,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfannerstill LLC",
-  "Type": "quis",
-  "Size": 420,
+  "Name": "Schmeler, Rosenbaum and Lemke",
+  "Type": "nihil",
+  "Size": 876,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

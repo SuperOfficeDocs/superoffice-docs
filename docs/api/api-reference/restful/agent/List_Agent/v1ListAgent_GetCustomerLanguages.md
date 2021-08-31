@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCustomerLanguages
+title: GetCustomerLanguages
 id: v1ListAgent_GetCustomerLanguages
 ---
 
-# POST Agents/List/GetCustomerLanguages
+# GetCustomerLanguages
 
 ```http
 POST /api/v1/Agents/List/GetCustomerLanguages
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCustomerLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -75,12 +75,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Value": "delectus",
-    "Tooltip": "reiciendis",
+    "Id": 120,
+    "Value": "voluptatem",
+    "Tooltip": "et",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate scalable mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 936
       }
     }
   },
   {
-    "Id": 998,
-    "Value": "delectus",
-    "Tooltip": "reiciendis",
+    "Id": 120,
+    "Value": "voluptatem",
+    "Tooltip": "et",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate scalable mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 936
       }
     }
   }

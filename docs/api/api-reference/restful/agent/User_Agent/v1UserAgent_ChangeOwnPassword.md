@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ChangeOwnPassword
+title: ChangeOwnPassword
 id: v1UserAgent_ChangeOwnPassword
 ---
 
-# POST Agents/User/ChangeOwnPassword
+# ChangeOwnPassword
 
 ```http
 POST /api/v1/Agents/User/ChangeOwnPassword
@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "cum",
-  "NewPassword": "et"
+  "OldPassword": "sint",
+  "NewPassword": "sed"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

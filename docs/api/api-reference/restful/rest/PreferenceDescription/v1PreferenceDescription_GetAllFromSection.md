@@ -84,24 +84,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 580,
-    "Section": "ab",
-    "Key": "harum",
-    "Name": "Okuneva Group",
+    "PrefDescId": 349,
+    "Section": "sint",
+    "Key": "quia",
+    "Name": "Erdman, Tillman and Frami",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Synergized impactful attitude",
+    "Description": "Enhanced contextually-based adapter",
     "IsBuiltin": true,
-    "TableName": "McCullough, Volkman and Shields",
-    "UserDefinedListId": 966,
-    "Rank": 668,
-    "SubGroup": "fugiat",
-    "MinLevel": 771,
-    "MaxValue": 238,
-    "MinValue": 49,
-    "RequiredLicense": "nam",
+    "TableName": "DuBuque, Mayer and Corwin",
+    "UserDefinedListId": 99,
+    "Rank": 949,
+    "SubGroup": "at",
+    "MinLevel": 921,
+    "MaxValue": 740,
+    "MinValue": 82,
+    "RequiredLicense": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 780
       }
     }
   }

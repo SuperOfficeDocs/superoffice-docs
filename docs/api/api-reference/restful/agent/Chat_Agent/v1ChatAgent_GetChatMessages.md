@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/GetChatMessages
+title: GetChatMessages
 id: v1ChatAgent_GetChatMessages
 ---
 
-# POST Agents/Chat/GetChatMessages
+# GetChatMessages
 
 ```http
 POST /api/v1/Agents/Chat/GetChatMessages
@@ -80,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 126,
-  "After": 949
+  "ChatSessionId": 329,
+  "After": 165
 }
 ```
 
@@ -95,15 +95,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 60,
-    "ChatSessionId": 40,
+    "ChatMessageId": 579,
+    "ChatSessionId": 416,
     "Type": "Invalid",
-    "Message": "voluptas",
+    "Message": "inventore",
     "Author": "voluptas",
-    "ReadByCustomer": 312,
+    "ReadByCustomer": 431,
     "SpecialType": "Block",
-    "SpecialParam": "voluptatem",
-    "WhenPosted": "1995-09-21T16:48:29.0019242+02:00"
+    "SpecialParam": "reiciendis",
+    "WhenPosted": "2019-12-24T14:58:03.5212805+01:00"
   }
 ]
 ```

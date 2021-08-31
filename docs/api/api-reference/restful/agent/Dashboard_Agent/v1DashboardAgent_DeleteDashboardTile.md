@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/DeleteDashboardTile
+title: DeleteDashboardTile
 id: v1DashboardAgent_DeleteDashboardTile
 ---
 
-# POST Agents/Dashboard/DeleteDashboardTile
+# DeleteDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/DeleteDashboardTile
@@ -24,7 +24,7 @@ Deletes the DashboardTile
 | DashboardTileId | int32 | **Required** The id of the DashboardTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=572
+POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=847
 ```
 
 

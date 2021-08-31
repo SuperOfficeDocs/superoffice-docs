@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetCheckoutState
+title: GetCheckoutState
 id: v1DocumentAgent_GetCheckoutState
 ---
 
-# POST Agents/Document/GetCheckoutState
+# GetCheckoutState
 
 ```http
 POST /api/v1/Agents/Document/GetCheckoutState
@@ -73,11 +73,11 @@ Response body: object
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 231
+  "DocumentId": 916
 }
 ```
 
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 102,
-  "Name": "Zulauf Inc and Sons"
+  "AssociateId": 12,
+  "Name": "Fahey Inc and Sons"
 }
 ```

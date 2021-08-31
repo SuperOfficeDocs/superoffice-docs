@@ -103,20 +103,20 @@ Response body: object
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 504,
-  "Name": "Waters, Rempel and Braun",
+  "ScreenChooserId": 11,
+  "Name": "Schaden, Stamm and Hamill",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ex",
-  "Source": "dolores",
-  "Registered": "2019-08-31T09:40:59.9040661+02:00",
-  "RegisteredAssociateId": 99,
-  "Updated": "2011-11-03T09:40:59.9040661+01:00",
-  "UpdatedAssociateId": 66
+  "UniqueIdentifier": "harum",
+  "Source": "et",
+  "Registered": "2009-11-01T15:05:42.9586326+01:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2013-10-18T15:05:42.9586326+02:00",
+  "UpdatedAssociateId": 859
 }
 ```
 
@@ -125,16 +125,16 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 268,
-  "Name": "Roob LLC",
+  "ScreenChooserId": 254,
+  "Name": "Rolfson LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "iure",
-  "Source": "vitae",
-  "Registered": "2009-07-20T09:40:59.905064+02:00",
-  "RegisteredAssociateId": 776,
-  "Updated": "2009-07-13T09:40:59.905064+02:00",
-  "UpdatedAssociateId": 469,
+  "UniqueIdentifier": "minus",
+  "Source": "explicabo",
+  "Registered": "2000-11-04T15:05:42.9596323+01:00",
+  "RegisteredAssociateId": 949,
+  "Updated": "1995-10-12T15:05:42.9596323+02:00",
+  "UpdatedAssociateId": 99,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,15 +143,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark killer web-readiness"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 720
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

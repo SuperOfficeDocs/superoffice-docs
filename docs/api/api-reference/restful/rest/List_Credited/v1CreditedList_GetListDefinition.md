@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 667,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 342,
+  "Name": "Funk LLC",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 369,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reinvent sexy experiences"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   },
   "_Links": {

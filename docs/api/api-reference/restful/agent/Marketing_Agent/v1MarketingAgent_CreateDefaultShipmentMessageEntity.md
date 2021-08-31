@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/CreateDefaultShipmentMessageEntity
+title: CreateDefaultShipmentMessageEntity
 id: v1MarketingAgent_CreateDefaultShipmentMessageEntity
 ---
 
-# POST Agents/Marketing/CreateDefaultShipmentMessageEntity
+# CreateDefaultShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -87,27 +87,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 854,
-  "PlainMessage": "quaerat",
-  "HtmlMessage": "labore",
-  "SmsMessage": "aut",
-  "Description": "Open-source interactive throughput",
-  "Subject": "qui",
-  "FolderId": 544,
-  "HeaderField": "doloribus",
-  "Design": "aut",
+  "ShipmentMessageId": 279,
+  "PlainMessage": "exercitationem",
+  "HtmlMessage": "recusandae",
+  "SmsMessage": "rem",
+  "Description": "Synergized non-volatile monitoring",
+  "Subject": "omnis",
+  "FolderId": 645,
+  "HeaderField": "corrupti",
+  "Design": "odio",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Automated maximized hierarchy",
-  "AccessKey": "debitis",
-  "DocumentMessage": 778,
-  "Registered": "1996-10-13T16:48:29.9539245+02:00",
-  "RegisteredAssociateId": 282,
-  "Updated": "2004-09-05T16:48:29.9539245+02:00",
-  "UpdatedAssociateId": 709,
-  "UpdatedCount": 34,
+  "LongDescription": "Profound scalable methodology",
+  "AccessKey": "tempore",
+  "DocumentMessage": 700,
+  "Registered": "1997-03-02T14:58:04.4944653+01:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "2011-08-04T14:58:04.4944653+02:00",
+  "UpdatedAssociateId": 821,
+  "UpdatedCount": 183,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "integrate frictionless deliverables"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 658
     }
   }
 }

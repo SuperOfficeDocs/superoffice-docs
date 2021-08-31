@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Breitenberg-Daugherty",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "UdListDefinitionId": 800,
-    "Rank": 186
+    "Id": 15,
+    "Name": "Mayer-Morissette",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "UdListDefinitionId": 798,
+    "Rank": 821
   },
   {
-    "Id": 866,
-    "Name": "Breitenberg-Daugherty",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "UdListDefinitionId": 800,
-    "Rank": 186
+    "Id": 15,
+    "Name": "Mayer-Morissette",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "UdListDefinitionId": 798,
+    "Rank": 821
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Mayer Inc and Sons",
-    "Tooltip": "qui",
+    "Id": 639,
+    "Name": "Rippin-Connelly",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "UdListDefinitionId": 32,
-    "Rank": 724,
+    "UdListDefinitionId": 539,
+    "Rank": 289,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldType": "System.Int32",
+        "FieldLength": 392
       }
     }
   }

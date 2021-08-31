@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
+title: SaveUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
 ---
 
-# POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
+# SaveUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -134,44 +134,44 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 556,
-  "ColumnId": 414,
-  "FieldDefault": "sapiente",
-  "FieldHeight": 278,
-  "FieldLabel": "alias",
-  "FieldLeft": 667,
-  "FieldTop": 564,
+  "UDefFieldId": 289,
+  "ColumnId": 98,
+  "FieldDefault": "beatae",
+  "FieldHeight": 252,
+  "FieldLabel": "et",
+  "FieldLeft": 431,
+  "FieldTop": 956,
   "FieldType": "Checkbox",
-  "FieldWidth": 535,
-  "FormatMask": "debitis",
+  "FieldWidth": 810,
+  "FormatMask": "amet",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 493,
-  "LabelLeft": 927,
-  "LabelTop": 317,
-  "LabelWidth": 416,
-  "LastVersionId": 364,
-  "ListTableId": 24,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 753,
+  "LabelLeft": 512,
+  "LabelTop": 864,
+  "LabelWidth": 335,
+  "LastVersionId": 392,
+  "ListTableId": 607,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 827,
-  "ProgId": "consequuntur",
+  "Page1LineNo": 781,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 923,
-  "TextLength": 796,
-  "Tooltip": "eius",
-  "UdefIdentity": 789,
-  "UDListDefinitionId": 842,
+  "ShortLabel": "repellendus",
+  "TabOrder": 835,
+  "TextLength": 88,
+  "Tooltip": "dolore",
+  "UdefIdentity": 177,
+  "UDListDefinitionId": 568,
   "Justification": "Center",
-  "Version": 117,
-  "TemplateVariableName": "Kautzer-Heaney",
+  "Version": 121,
+  "TemplateVariableName": "Langworth, Feest and Hermann",
   "HasBeenPublished": true,
-  "MdoListName": "Paucek, Ward and Schulist"
+  "MdoListName": "Doyle, Terry and Treutel"
 }
 ```
 
@@ -180,40 +180,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 764,
-  "ColumnId": 46,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 396,
-  "FieldLabel": "aut",
-  "FieldLeft": 665,
-  "FieldTop": 912,
+  "UDefFieldId": 659,
+  "ColumnId": 669,
+  "FieldDefault": "culpa",
+  "FieldHeight": 824,
+  "FieldLabel": "numquam",
+  "FieldLeft": 524,
+  "FieldTop": 649,
   "FieldType": "Checkbox",
-  "FieldWidth": 563,
-  "FormatMask": "nobis",
+  "FieldWidth": 147,
+  "FormatMask": "odit",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 44,
-  "LabelLeft": 215,
-  "LabelTop": 770,
-  "LabelWidth": 557,
-  "LastVersionId": 247,
-  "ListTableId": 735,
-  "IsMandatory": true,
+  "LabelHeight": 145,
+  "LabelLeft": 734,
+  "LabelTop": 869,
+  "LabelWidth": 242,
+  "LastVersionId": 266,
+  "ListTableId": 17,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 238,
-  "ProgId": "earum",
+  "Page1LineNo": 462,
+  "ProgId": "odit",
   "IsReadOnly": true,
-  "ShortLabel": "quis",
-  "TabOrder": 488,
-  "TextLength": 73,
-  "Tooltip": "fuga",
-  "UdefIdentity": 958,
-  "UDListDefinitionId": 308,
+  "ShortLabel": "natus",
+  "TabOrder": 465,
+  "TextLength": 973,
+  "Tooltip": "velit",
+  "UdefIdentity": 359,
+  "UDListDefinitionId": 531,
   "Justification": "Center",
-  "Version": 375,
-  "TemplateVariableName": "Emmerich Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Goodwin Inc and Sons",
+  "Version": 538,
+  "TemplateVariableName": "Kirlin LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Satterfield Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -222,10 +222,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "extend plug-and-play architectures"
       },
       "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldLength": 474
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetSelectionShadowMembersArchiveRows
+title: GetSelectionShadowMembersArchiveRows
 id: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
 ---
 
-# POST Agents/Selection/GetSelectionShadowMembersArchiveRows
+# GetSelectionShadowMembersArchiveRows
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 672,
-  "Select": "sit"
+  "SelectionId": 589,
+  "Select": "et"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nader Group",
-    "PrimaryKey": 662,
+    "EntityName": "Ziemann-Wuckert",
+    "PrimaryKey": 514,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sit",
-        "TooltipHint": "iste",
-        "LinkHint": "aperiam"
+        "DisplayValue": "placeat",
+        "TooltipHint": "minus",
+        "LinkHint": "minima"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "porro",
+    "LinkHint": "aut",
+    "StyleHint": "fugit",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,10 +112,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "exploit efficient action-items"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   }

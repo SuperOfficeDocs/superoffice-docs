@@ -122,45 +122,47 @@ Response body: object
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maiores",
+    "path": "qui",
     "value": {
       "value1": {
-        "PrimaryKey": 8696,
+        "PrimaryKey": 7501,
         "EntityName": "sale",
-        "saleId": 8696,
-        "contactId": 3632,
-        "name": "Kulas-Heller"
+        "saleId": 7501,
+        "contactId": 7810,
+        "name": "Parker-Upton"
       },
       "value2": {
-        "PrimaryKey": 9308,
-        "EntityName": "person",
-        "personId": 9308,
-        "fullName": "Rae Miller"
+        "PrimaryKey": 6472,
+        "EntityName": "sale",
+        "saleId": 6472,
+        "contactId": 7993,
+        "name": "Ortiz, Dach and Carter"
       }
     }
   },
   {
     "op": "add",
-    "path": "maiores",
+    "path": "qui",
     "value": {
       "value1": {
-        "PrimaryKey": 8696,
+        "PrimaryKey": 7501,
         "EntityName": "sale",
-        "saleId": 8696,
-        "contactId": 3632,
-        "name": "Kulas-Heller"
+        "saleId": 7501,
+        "contactId": 7810,
+        "name": "Parker-Upton"
       },
       "value2": {
-        "PrimaryKey": 9308,
-        "EntityName": "person",
-        "personId": 9308,
-        "fullName": "Rae Miller"
+        "PrimaryKey": 6472,
+        "EntityName": "sale",
+        "saleId": 6472,
+        "contactId": 7993,
+        "name": "Ortiz, Dach and Carter"
       }
     }
   }
@@ -172,16 +174,16 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 402,
-  "Name": "Raynor-Satterfield",
+  "ScreenChooserId": 193,
+  "Name": "Raynor Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "adipisci",
-  "Registered": "2016-11-17T09:40:59.9060665+01:00",
-  "RegisteredAssociateId": 128,
-  "Updated": "2008-09-05T09:40:59.9060665+02:00",
-  "UpdatedAssociateId": 728,
+  "UniqueIdentifier": "molestiae",
+  "Source": "iure",
+  "Registered": "2009-06-27T15:05:42.9616322+02:00",
+  "RegisteredAssociateId": 252,
+  "Updated": "2015-02-27T15:05:42.9616322+01:00",
+  "UpdatedAssociateId": 564,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -193,7 +195,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldLength": 19
     }
   },
   "_Links": {

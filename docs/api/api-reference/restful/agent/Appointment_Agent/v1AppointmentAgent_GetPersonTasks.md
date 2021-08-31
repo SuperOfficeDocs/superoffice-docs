@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPersonTasks
+title: GetPersonTasks
 id: v1AppointmentAgent_GetPersonTasks
 ---
 
-# POST Agents/Appointment/GetPersonTasks
+# GetPersonTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonTasks
@@ -122,12 +122,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 147,
-  "Count": 995
+  "PersonId": 518,
+  "Count": 919
 }
 ```
 
@@ -137,53 +137,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 478,
-    "StartDate": "2005-01-29T16:48:28.4334203+01:00",
-    "EndDate": "2014-03-12T16:48:28.4334203+01:00",
+    "AppointmentId": 678,
+    "StartDate": "2016-02-24T14:58:03.0515383+01:00",
+    "EndDate": "2007-11-11T14:58:03.0515383+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Mohammad Lemke MD",
-    "ContactName": "McGlynn-Keebler",
-    "Description": "Focused scalable emulation",
-    "PersonFullName": "Bianka Bechtelar",
-    "PersonId": 621,
-    "ContactId": 141,
+    "Task": "qui",
+    "AssociateFullName": "Destini Hudson DDS",
+    "ContactName": "Fay, Berge and Crona",
+    "Description": "Universal non-volatile portal",
+    "PersonFullName": "Mike Weissnat",
+    "PersonId": 885,
+    "ContactId": 637,
     "ProjectId": 656,
-    "ProjectName": "Volkman, Eichmann and Batz",
+    "ProjectName": "Larson-Gottlieb",
     "IsPublished": true,
-    "AssociateId": 768,
-    "ColorIndex": 132,
+    "AssociateId": 319,
+    "ColorIndex": 910,
     "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 929,
-    "PriorityName": "Tillman, Maggio and Carroll",
+    "PriorityId": 624,
+    "PriorityName": "Feil, Monahan and Treutel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1999-10-30T16:48:28.4334203+02:00",
+    "ActiveDate": "2006-07-28T14:58:03.0525384+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-11-16T16:48:28.4334203+01:00",
-    "RecurringEndDate": "2012-11-22T16:48:28.4334203+01:00",
-    "MotherId": 715,
-    "AssignedBy": 457,
-    "AssignedByFullName": "Ray Ferry",
+    "RecurringStartDate": "2002-06-01T14:58:03.0525384+02:00",
+    "RecurringEndDate": "2004-05-06T14:58:03.0525384+02:00",
+    "MotherId": 314,
+    "AssignedBy": 206,
+    "AssignedByFullName": "Ms. Talon Bauch",
     "RejectReason": "",
-    "Location": "nisi",
-    "AlarmLeadTime": "voluptas",
-    "SaleId": 682,
-    "SaleName": "Medhurst-Boyer",
-    "AssociateName": "Bogisich, Jones and Kutch",
-    "CreatedDate": "2010-03-05T16:48:28.4344187+01:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Joana Hansen",
-    "CreatedByAssociateId": 993,
+    "Location": "illo",
+    "AlarmLeadTime": "ut",
+    "SaleId": 897,
+    "SaleName": "Wolf-Reinger",
+    "AssociateName": "Schimmel LLC",
+    "CreatedDate": "2014-03-19T14:58:03.0525384+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Lysanne Considine",
+    "CreatedByAssociateId": 366,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldLength": 954
       }
     }
   }

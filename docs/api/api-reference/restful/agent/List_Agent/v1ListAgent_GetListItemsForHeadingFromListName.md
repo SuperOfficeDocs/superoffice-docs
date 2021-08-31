@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetListItemsForHeadingFromListName
+title: GetListItemsForHeadingFromListName
 id: v1ListAgent_GetListItemsForHeadingFromListName
 ---
 
-# POST Agents/List/GetListItemsForHeadingFromListName
+# GetListItemsForHeadingFromListName
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kuhic, Grady and McClure",
-  "HeadingId": 956
+  "UdListDefinitionName": "Jacobson LLC",
+  "HeadingId": 311
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Streich-Hayes",
-    "ToolTip": "Rerum quibusdam vel eveniet.",
+    "Id": 597,
+    "Name": "Abshire Inc and Sons",
+    "ToolTip": "Vitae id provident mollitia voluptatem.",
     "Deleted": true,
-    "Rank": 343,
-    "Type": "laborum",
-    "ColorBlock": 972,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2010-07-02T16:48:29.8939231+02:00",
+    "Rank": 161,
+    "Type": "quod",
+    "ColorBlock": 614,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2003-05-28T14:58:04.4314727+02:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Cruickshank, Deckow and Jast",
-        "ToolTip": "Ut quo.",
+        "Id": 849,
+        "Name": "Weber, Funk and Johnson",
+        "ToolTip": "Quis id quod molestiae qui voluptatum.",
         "Deleted": false,
-        "Rank": 774,
-        "Type": "et",
-        "ColorBlock": 947,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2014-08-13T16:48:29.8939231+02:00",
+        "Rank": 647,
+        "Type": "consequuntur",
+        "ColorBlock": 962,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2011-07-03T14:58:04.4324649+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "aut",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mayra Spinka DDS",
+        "FullName": "Toney Kerluke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -140,16 +140,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 241
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "et",
+    "ExtraInfo": "odit",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Jody Thompson",
+    "FullName": "Haley Gorczany",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -158,10 +158,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "whiteboard viral convergence"
         },
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 615
       }
     }
   }

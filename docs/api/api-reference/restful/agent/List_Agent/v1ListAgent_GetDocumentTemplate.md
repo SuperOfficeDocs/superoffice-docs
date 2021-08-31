@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplate
+title: GetDocumentTemplate
 id: v1ListAgent_GetDocumentTemplate
 ---
 
-# POST Agents/List/GetDocumentTemplate
+# GetDocumentTemplate
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplate
@@ -25,7 +25,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=251
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=793
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -81,7 +81,7 @@ Response body: object
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -89,16 +89,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 432,
-  "Name": "Williamson-Connelly",
-  "Tooltip": "consequatur",
-  "SaveInDb": 127,
-  "Filename": "rerum",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 377,
+  "Name": "Borer-Becker",
+  "Tooltip": "et",
+  "SaveInDb": 146,
+  "Filename": "quod",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": 297,
+  "Deleted": 675,
   "Direction": "Incoming",
-  "AutoeventId": 31,
+  "AutoeventId": 242,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": {
     "Mask": "Delete",
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 565
     }
   }
 }

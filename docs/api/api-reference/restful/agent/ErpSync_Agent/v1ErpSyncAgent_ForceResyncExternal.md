@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ForceResyncExternal
+title: ForceResyncExternal
 id: v1ErpSyncAgent_ForceResyncExternal
 ---
 
-# POST Agents/ErpSync/ForceResyncExternal
+# ForceResyncExternal
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncExternal
@@ -86,15 +86,15 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ForceResyncExternal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 147,
+  "ErpConnectionId": 475,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "quis",
-    "rerum"
+    "blanditiis",
+    "pariatur"
   ]
 }
 ```
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "reprehenderit",
-  "TechExplanation": "neque",
-  "ErrorCode": "harum",
+  "UserExplanation": "impedit",
+  "TechExplanation": "vel",
+  "ErrorCode": "neque",
   "Changes": {
     "AddedRecords": [
       {},
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 508
       }
     }
   },
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetDashboards
+title: GetDashboards
 id: v1DashboardAgent_GetDashboards
 ---
 
-# POST Agents/Dashboard/GetDashboards
+# GetDashboards
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboards
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 189
+  "AssociateId": 767
 }
 ```
 
@@ -91,22 +91,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 10,
-    "AssociateId": 511,
-    "Caption": "dolor",
+    "DashboardId": 710,
+    "AssociateId": 192,
+    "Caption": "impedit",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 379,
-        "Caption": "ut",
-        "Description": "Proactive maximized open architecture",
-        "ChartName": "Watsica Inc and Sons",
-        "ChartId": "impedit",
+        "DashboardTileId": 507,
+        "Caption": "quis",
+        "Description": "Enhanced zero defect superstructure",
+        "ChartName": "Marks Group",
+        "ChartId": "odio",
         "IsDefault": false,
-        "AssociateId": 299,
-        "GroupId": 684,
-        "SelectionId": 534,
-        "Config": "nihil",
+        "AssociateId": 150,
+        "GroupId": 434,
+        "SelectionId": 963,
+        "Config": "commodi",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldType": "System.String",
+            "FieldLength": 846
           }
         }
       }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldType": "System.String",
+        "FieldLength": 342
       }
     }
   }

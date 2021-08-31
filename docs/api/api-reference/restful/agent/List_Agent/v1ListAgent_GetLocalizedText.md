@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLocalizedText
+title: GetLocalizedText
 id: v1ListAgent_GetLocalizedText
 ---
 
-# POST Agents/List/GetLocalizedText
+# GetLocalizedText
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedText
@@ -25,7 +25,7 @@ Gets a LocalizedText object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=207
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=170
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/List/GetLocalizedText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 639,
-  "ResourceId": 872,
-  "Text": "explicabo",
+  "LanguageId": 156,
+  "ResourceId": 792,
+  "Text": "ut",
   "Type": "Column",
-  "LocalizedTextId": 858,
+  "LocalizedTextId": 25,
   "IsBuiltIn": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 650
     }
   }
 }

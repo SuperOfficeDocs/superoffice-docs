@@ -89,14 +89,14 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 504,
-  "AssociateId": 277,
-  "Block": "voluptas",
-  "Registered": "2009-12-04T09:40:59.7530679+01:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "2008-05-29T09:40:59.7530679+02:00",
-  "UpdatedAssociateId": 429,
-  "UpdatedCount": 850,
+  "ShipmentMessageBlockId": 30,
+  "AssociateId": 358,
+  "Block": "necessitatibus",
+  "Registered": "2011-02-18T15:05:42.7566623+01:00",
+  "RegisteredAssociateId": 348,
+  "Updated": "2008-03-11T15:05:42.7566623+01:00",
+  "UpdatedAssociateId": 35,
+  "UpdatedCount": 538,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 717
     }
   },
   "_Links": {

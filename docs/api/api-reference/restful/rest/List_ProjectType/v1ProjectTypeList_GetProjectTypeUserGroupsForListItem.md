@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Cormier Group",
-    "ToolTip": "Perferendis accusantium at.",
-    "Deleted": false,
-    "Rank": 682,
-    "Type": "qui",
-    "ColorBlock": 259,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2004-09-01T09:41:00.6513819+02:00",
+    "Id": 799,
+    "Name": "Brakus-Bernhard",
+    "ToolTip": "Nesciunt id dolor dignissimos fugiat.",
+    "Deleted": true,
+    "Rank": 90,
+    "Type": "ut",
+    "ColorBlock": 214,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2000-07-11T15:05:43.7111117+02:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Consequatur fugit nihil.",
+        "Id": 229,
+        "Name": "Kreiger, Dach and Schaefer",
+        "ToolTip": "Aut quae magnam modi sunt quia.",
         "Deleted": true,
-        "Rank": 297,
-        "Type": "officiis",
-        "ColorBlock": 324,
-        "IconHint": "tempora",
+        "Rank": 481,
+        "Type": "consequatur",
+        "ColorBlock": 550,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2002-07-16T09:41:00.6513819+02:00",
+        "LastChanged": "2018-02-13T15:05:43.7111117+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Wilton Crona Jr.",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Stephon Wintheiser",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 86
+            "FieldLength": 441
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Elyse Gusikowski IV",
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Emmitt Hudson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldLength": 780
       }
     }
   }

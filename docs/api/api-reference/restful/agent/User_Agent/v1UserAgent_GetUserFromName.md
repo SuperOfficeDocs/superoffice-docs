@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetUserFromName
+title: GetUserFromName
 id: v1UserAgent_GetUserFromName
 ---
 
-# POST Agents/User/GetUserFromName
+# GetUserFromName
 
 ```http
 POST /api/v1/Agents/User/GetUserFromName
@@ -104,11 +104,11 @@ Response body: object
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Keeling, Vandervort and Strosin"
+  "UserName": "Friesen-Klocko"
 }
 ```
 
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 378,
-  "Name": "Lynch-Schowalter",
-  "Rank": 873,
-  "Tooltip": "neque",
+  "AssociateId": 628,
+  "Name": "Gislason Inc and Sons",
+  "Rank": 429,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Grady-Daniel",
-      "Description": "Exclusive actuating artificial intelligence",
+      "Name": "Cremin-Klocko",
+      "Description": "Re-engineered foreground projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,240 +133,6 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 696
-        }
-      }
-    },
-    {
-      "Name": "Grady-Daniel",
-      "Description": "Exclusive actuating artificial intelligence",
-      "RestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "UnrestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 696
-        }
-      }
-    }
-  ],
-  "Role": {
-    "Id": 720,
-    "Value": "vel",
-    "Tooltip": "aut",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 797
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "doloremque",
-    "Tooltip": "et",
-    "Id": 241,
-    "Rank": 954,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "deliver rich ROI"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 100
-      }
-    }
-  },
-  "OtherGroups": [
-    {
-      "Value": "maiores",
-      "Tooltip": "enim",
-      "Id": 947,
-      "Rank": 198,
-      "Deleted": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 547
-        }
-      }
-    }
-  ],
-  "Person": {
-    "Position": "odit",
-    "PersonId": 957,
-    "Mrmrs": "consequatur",
-    "Firstname": "Jaren",
-    "Lastname": "Hansen",
-    "MiddleName": "Blanda, Hoeger and Collins",
-    "Title": "libero",
-    "Description": "Upgradable disintermediate data-warehouse",
-    "Email": "cordia_batz@bashirianreichel.name",
-    "FullName": "Jeffrey Streich",
-    "DirectPhone": "(678)630-8775",
-    "FormalName": "Blanda, O'Reilly and Herzog",
-    "CountryId": 608,
-    "ContactId": 720,
-    "ContactName": "Heaney, Stehr and Hintz",
-    "Retired": 647,
-    "Rank": 930,
-    "ActiveInterests": 360,
-    "ContactDepartment": "",
-    "ContactCountryId": 846,
-    "ContactOrgNr": "562993",
-    "FaxPhone": "380-750-1244",
-    "MobilePhone": "(584)384-3303",
-    "ContactPhone": "245-457-4178",
-    "AssociateName": "Runolfsson, Koelpin and Stroman",
-    "AssociateId": 575,
-    "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "vel",
-    "Kanalname": "ut",
-    "Post1": "aliquam",
-    "Post2": "consectetur",
-    "Post3": "qui",
-    "EmailName": "harmon@barton.uk",
-    "ContactFullName": "Kenna Fisher",
-    "ActiveErpLinks": 118,
-    "TicketPriorityId": 398,
-    "SupportLanguageId": 408,
-    "SupportAssociateId": 739,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 638
-      }
-    }
-  },
-  "Deleted": true,
-  "Lastlogin": "1994-02-15T16:48:30.9849338+01:00",
-  "Lastlogout": "2005-11-13T16:48:30.9849338+01:00",
-  "EjUserId": 391,
-  "RequestSignature": "delectus",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
-  "Credentials": [
-    {
-      "Type": {},
-      "Value": "inventore",
-      "DisplayValue": "vel",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 96
-        }
-      }
-    },
-    {
-      "Type": {},
-      "Value": "inventore",
-      "DisplayValue": "vel",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 96
-        }
-      }
-    }
-  ],
-  "UserName": "Johnson Group",
-  "TicketCategories": [
-    {
-      "Id": 926,
-      "Name": "Bode, Dickinson and Adams",
-      "ToolTip": "Aliquid incidunt omnis rerum ut.",
-      "Deleted": false,
-      "Rank": 646,
-      "Type": "labore",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "itaque",
-      "ColorBlock": 7,
-      "ExtraInfo": "ducimus",
-      "StyleHint": "consequuntur",
-      "FullName": "Letha Mosciski",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 947
-        }
-      }
-    }
-  ],
-  "NickName": "Nolan Inc and Sons",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "voluptates"
-  },
-  "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "et"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Considine-Jaskolski",
-      "DisplayName": "Kiehn, Schimmel and Rosenbaum",
-      "Description": "Streamlined dedicated forecast",
-      "ToolTip": "Eum aut.",
-      "Actions": "Implicit",
-      "ActionData": "labore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -375,7 +141,241 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldLength": 858
+        }
+      }
+    },
+    {
+      "Name": "Cremin-Klocko",
+      "Description": "Re-engineered foreground projection",
+      "RestrictedModuleLicenses": [
+        {},
+        {}
+      ],
+      "UnrestrictedModuleLicenses": [
+        {},
+        {}
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 858
+        }
+      }
+    }
+  ],
+  "Role": {
+    "Id": 708,
+    "Value": "dolorem",
+    "Tooltip": "ex",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "harness out-of-the-box infomediaries"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 905
+      }
+    }
+  },
+  "UserGroup": {
+    "Value": "rerum",
+    "Tooltip": "ea",
+    "Id": 663,
+    "Rank": 107,
+    "Deleted": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 652
+      }
+    }
+  },
+  "OtherGroups": [
+    {
+      "Value": "sed",
+      "Tooltip": "sed",
+      "Id": 103,
+      "Rank": 260,
+      "Deleted": false,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 172
+        }
+      }
+    }
+  ],
+  "Person": {
+    "Position": "sapiente",
+    "PersonId": 353,
+    "Mrmrs": "enim",
+    "Firstname": "Arielle",
+    "Lastname": "Crooks",
+    "MiddleName": "Pacocha, Roob and Kiehn",
+    "Title": "dolores",
+    "Description": "Organized bi-directional alliance",
+    "Email": "caroline@millsking.info",
+    "FullName": "Donny Haley III",
+    "DirectPhone": "1-000-555-4450 x075",
+    "FormalName": "Ortiz Inc and Sons",
+    "CountryId": 895,
+    "ContactId": 453,
+    "ContactName": "Kozey-Windler",
+    "Retired": 972,
+    "Rank": 222,
+    "ActiveInterests": 566,
+    "ContactDepartment": "",
+    "ContactCountryId": 118,
+    "ContactOrgNr": "1419905",
+    "FaxPhone": "602.851.5517 x800",
+    "MobilePhone": "(002)857-5276 x850",
+    "ContactPhone": "(464)867-7878 x07056",
+    "AssociateName": "Moen-Koelpin",
+    "AssociateId": 854,
+    "UsePersonAddress": true,
+    "ContactFax": "quos",
+    "Kanafname": "qui",
+    "Kanalname": "itaque",
+    "Post1": "blanditiis",
+    "Post2": "natus",
+    "Post3": "alias",
+    "EmailName": "petra@keeling.co.uk",
+    "ContactFullName": "Dasia Miller Sr.",
+    "ActiveErpLinks": 270,
+    "TicketPriorityId": 384,
+    "SupportLanguageId": 939,
+    "SupportAssociateId": 760,
+    "CategoryName": "VIP Customer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 214
+      }
+    }
+  },
+  "Deleted": true,
+  "Lastlogin": "2009-07-08T14:58:05.4416229+02:00",
+  "Lastlogout": "2002-05-25T14:58:05.4416229+02:00",
+  "EjUserId": 547,
+  "RequestSignature": "maiores",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
+  "Credentials": [
+    {
+      "Type": {},
+      "Value": "voluptates",
+      "DisplayValue": "libero",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 713
+        }
+      }
+    },
+    {
+      "Type": {},
+      "Value": "voluptates",
+      "DisplayValue": "libero",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 713
+        }
+      }
+    }
+  ],
+  "UserName": "Johnson Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 253,
+      "Name": "Emmerich-Morar",
+      "ToolTip": "Dicta tempora non quia nisi ipsum voluptates.",
+      "Deleted": false,
+      "Rank": 47,
+      "Type": "ut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "qui",
+      "ColorBlock": 128,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "corporis",
+      "FullName": "Erin Daniel",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 908
+        }
+      }
+    }
+  ],
+  "NickName": "Lockman LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "animi",
+    "ExtraFields2": "dicta"
+  },
+  "CustomFields": {
+    "CustomFields1": "qui",
+    "CustomFields2": "saepe"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Klein LLC",
+      "DisplayName": "Langworth LLC",
+      "Description": "Seamless full-range policy",
+      "ToolTip": "Sunt quaerat.",
+      "Actions": "Implicit",
+      "ActionData": "sed",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 653
         }
       }
     }
@@ -391,7 +391,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldLength": 277
     }
   }
 }

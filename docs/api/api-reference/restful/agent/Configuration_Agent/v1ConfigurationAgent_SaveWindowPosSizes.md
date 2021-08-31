@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/SaveWindowPosSizes
+title: SaveWindowPosSizes
 id: v1ConfigurationAgent_SaveWindowPosSizes
 ---
 
-# POST Agents/Configuration/SaveWindowPosSizes
+# SaveWindowPosSizes
 
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
@@ -83,23 +83,23 @@ Response body: array
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "rerum",
-      "PersonId": 102,
-      "AssociateId": 796,
-      "ExtraId": 111,
-      "ExtraInfo": "est",
-      "Height": 419,
-      "LeftX": 408,
+      "OwnerWindow": "nostrum",
+      "PersonId": 267,
+      "AssociateId": 106,
+      "ExtraId": 782,
+      "ExtraInfo": "et",
+      "Height": 252,
+      "LeftX": 820,
       "State": "Maximized",
-      "UpperY": 177,
-      "Width": 575,
-      "WindowPosSizeId": 171
+      "UpperY": 841,
+      "Width": 510,
+      "WindowPosSizeId": 886
     }
   ]
 }
@@ -111,17 +111,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptas",
-    "PersonId": 729,
-    "AssociateId": 220,
-    "ExtraId": 594,
-    "ExtraInfo": "fuga",
-    "Height": 401,
-    "LeftX": 919,
+    "OwnerWindow": "quia",
+    "PersonId": 788,
+    "AssociateId": 610,
+    "ExtraId": 201,
+    "ExtraInfo": "ducimus",
+    "Height": 756,
+    "LeftX": 456,
     "State": "Maximized",
-    "UpperY": 599,
-    "Width": 753,
-    "WindowPosSizeId": 623,
+    "UpperY": 527,
+    "Width": 713,
+    "WindowPosSizeId": 738,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 507
       }
     }
   }

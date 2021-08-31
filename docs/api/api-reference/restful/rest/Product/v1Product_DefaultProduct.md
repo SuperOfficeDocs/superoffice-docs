@@ -92,7 +92,7 @@ Response body: object
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 1001,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "et",
-  "Name": "Fay-Dicki",
-  "Description": "Open-source local groupware",
-  "Code": "consequatur",
-  "PriceUnit": "voluptates",
-  "QuantityUnit": "consequatur",
+  "ProductId": 733,
+  "ERPProductKey": "eum",
+  "ERPPriceListKey": "ea",
+  "Name": "Waelchi, Roberts and Bartell",
+  "Description": "Fundamental mobile model",
+  "Code": "optio",
+  "PriceUnit": "et",
+  "QuantityUnit": "corrupti",
   "IsSubscription": false,
-  "SubscriptionUnit": "nesciunt",
-  "DefaultSubscriptionQuantity": 905.726,
-  "ItemNumber": "535312",
+  "SubscriptionUnit": "earum",
+  "DefaultSubscriptionQuantity": 9242.166,
+  "ItemNumber": "1023353",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "ea",
-  "VAT": 9486.618,
-  "VATInfo": "voluptas",
-  "UnitCost": 30186.688,
-  "UnitMinimumPrice": 24586.23,
-  "UnitListPrice": 15710.742,
+  "ProductFamilyKey": "sunt",
+  "ProductTypeKey": "assumenda",
+  "VAT": 29403.188,
+  "VATInfo": "doloribus",
+  "UnitCost": 7919.6179999999995,
+  "UnitMinimumPrice": 12128.58,
+  "UnitListPrice": 15644.928,
   "InAssortment": false,
-  "Supplier": "esse",
-  "SupplierCode": "corrupti",
-  "Rights": "nostrum",
-  "Rule": "necessitatibus",
+  "Supplier": "eum",
+  "SupplierCode": "ut",
+  "Rights": "natus",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Gibson, Wolff and Dicki",
-      "Value": "sequi",
+      "Name": "Crooks-Haley",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 306
         }
       }
     },
     {
-      "Name": "Gibson, Wolff and Dicki",
-      "Value": "sequi",
+      "Name": "Crooks-Haley",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -155,30 +155,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 306
         }
       }
     }
   ],
-  "RawExtraInfo": "corporis",
-  "ExtraField1": "pariatur",
-  "ExtraField2": "quasi",
-  "ExtraField3": "ut",
-  "ExtraField4": "quis",
-  "ExtraField5": "laborum",
-  "InStock": 19537.356,
+  "RawExtraInfo": "fugiat",
+  "ExtraField1": "ab",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "natus",
+  "ExtraField4": "aut",
+  "ExtraField5": "nisi",
+  "InStock": 11580.13,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "extend impactful schemas"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "morph seamless eyeballs"
       },
       "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldLength": 511
     }
   }
 }

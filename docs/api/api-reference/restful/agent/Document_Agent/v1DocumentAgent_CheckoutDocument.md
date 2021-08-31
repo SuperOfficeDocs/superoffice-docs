@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CheckoutDocument
+title: CheckoutDocument
 id: v1DocumentAgent_CheckoutDocument
 ---
 
-# POST Agents/Document/CheckoutDocument
+# CheckoutDocument
 
 ```http
 POST /api/v1/Agents/Document/CheckoutDocument
@@ -81,10 +81,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 849,
+  "DocumentId": 631,
   "AllowedReturnTypes": [
-    "qui",
-    "illum"
+    "ad",
+    "eos"
   ]
 }
 ```
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "maiores",
-  "VersionId": "id",
-  "Success": true,
+  "ExternalReference": "repellendus",
+  "VersionId": "qui",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "reiciendis",
-  "AdditionalInfo": "velit"
+  "Value": "illum",
+  "AdditionalInfo": "vel"
 }
 ```

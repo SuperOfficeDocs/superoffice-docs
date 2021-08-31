@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetCSRegistryValue
+title: GetCSRegistryValue
 id: v1ConfigurationAgent_GetCSRegistryValue
 ---
 
-# POST Agents/Configuration/GetCSRegistryValue
+# GetCSRegistryValue
 
 ```http
 POST /api/v1/Agents/Configuration/GetCSRegistryValue
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCSRegistryValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Entry": 522
+  "Entry": 238
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsum"
+"dolorem"
 ```

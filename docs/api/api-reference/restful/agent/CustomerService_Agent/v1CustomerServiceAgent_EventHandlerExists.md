@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/EventHandlerExists
+title: EventHandlerExists
 id: v1CustomerServiceAgent_EventHandlerExists
 ---
 
-# POST Agents/CustomerService/EventHandlerExists
+# EventHandlerExists
 
 ```http
 POST /api/v1/Agents/CustomerService/EventHandlerExists
@@ -68,7 +68,7 @@ Response body: bool
 POST /api/v1/Agents/CustomerService/EventHandlerExists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

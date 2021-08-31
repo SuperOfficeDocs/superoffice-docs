@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CreateDefaultTaskListItem
+title: CreateDefaultTaskListItem
 id: v1AppointmentAgent_CreateDefaultTaskListItem
 ---
 
-# POST Agents/Appointment/CreateDefaultTaskListItem
+# CreateDefaultTaskListItem
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
@@ -67,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -75,14 +75,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 194,
-  "Value": "rerum",
+  "TaskListItemId": 961,
+  "Value": "est",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "magni",
+  "Tooltip": "ut",
   "Deleted": false,
-  "IntentId": 845,
-  "Rank": 285,
+  "IntentId": 113,
+  "Rank": 55,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
   "IsDefaultPublished": true,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

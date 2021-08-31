@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfo
+title: GetBatchTaskInfo
 id: v1BatchAgent_GetBatchTaskInfo
 ---
 
-# POST Agents/Batch/GetBatchTaskInfo
+# GetBatchTaskInfo
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
@@ -88,6 +88,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -97,11 +98,11 @@ Response body: object
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189
+  "Id": 882
 }
 ```
 
@@ -110,29 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Kreiger, Veum and Wehner",
-  "AssociateId": 195,
-  "DetailsTable": 793,
-  "DetailsRecord": 777,
-  "IsSystemTask": false,
+  "Id": 773,
+  "Name": "Reichel-Bergstrom",
+  "AssociateId": 7,
+  "DetailsTable": 36,
+  "DetailsRecord": 792,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "amet"
+    "ParameterObject1": "a",
+    "ParameterObject2": "eius"
   },
-  "LastStarted": "1994-09-18T16:48:28.7781984+02:00",
-  "Created": "2015-12-23T16:48:28.7781984+01:00",
-  "StartCount": 516,
-  "DatabaseSerialNumber": "1158690",
-  "Context": "et",
-  "Result": "non",
+  "LastStarted": "2020-04-17T14:58:03.2682419+02:00",
+  "Created": "2019-10-01T14:58:03.2682419+02:00",
+  "StartCount": 132,
+  "DatabaseSerialNumber": "976242",
+  "Context": "quod",
+  "Result": "consequatur",
   "State": "All",
-  "Description": "Team-oriented dynamic conglomeration",
-  "Response": "aut",
-  "Request": "non",
-  "ProgressDescription": "Synergistic 24/7 pricing structure",
-  "ProgressPercent": 757,
+  "Description": "Enhanced asynchronous definition",
+  "Response": "voluptatibus",
+  "Request": "veritatis",
+  "ProgressDescription": "Universal actuating neural-net",
+  "ProgressPercent": 167,
+  "FileName": "Tillman-Bauch",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -144,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldLength": 556
     }
   }
 }

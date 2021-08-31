@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictionsColumns
+title: FindFromRestrictionsColumns
 id: v1FindAgent_FindFromRestrictionsColumns
 ---
 
-# POST Agents/Find/FindFromRestrictionsColumns
+# FindFromRestrictionsColumns
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
@@ -15,83 +15,26 @@ Execute a Find operation and return a page of results.
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -167,21 +110,21 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Waters Group",
-      "Operator": "mollitia",
+      "Name": "Swaniawski-Gottlieb",
+      "Operator": "eaque",
       "Values": [
-        "similique",
-        "aut"
+        "et",
+        "est"
       ],
       "DisplayValues": [
-        "labore",
-        "dolorem"
+        "eveniet",
+        "et"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -189,18 +132,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 157,
+      "InterParenthesis": 943,
       "InterOperator": "And",
-      "UniqueHash": 700
+      "UniqueHash": 414
     }
   ],
-  "ProviderName": "Franecki-Oberbrunner",
+  "ProviderName": "Bayer Group",
   "DesiredColumns": [
-    "qui",
-    "omnis"
+    "vitae",
+    "maxime"
   ],
-  "PageSize": 829,
-  "PageNumber": 940
+  "PageSize": 721,
+  "PageNumber": 748
 }
 ```
 
@@ -211,34 +154,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Will LLC",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "voluptas",
-      "CanOrderBy": false,
-      "Name": "Weimann, Schoen and Prosacco",
-      "CanRestrictBy": false,
-      "RestrictionType": "perferendis",
-      "RestrictionListName": "Zboncak LLC",
-      "IsVisible": false,
-      "ExtraInfo": "autem",
-      "Width": "et",
-      "IconHint": "necessitatibus",
-      "HeadingIconHint": "dolore"
+      "DisplayName": "Beatty Inc and Sons",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "assumenda",
+      "CanOrderBy": true,
+      "Name": "Glover Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "ratione",
+      "RestrictionListName": "Klocko Group",
+      "IsVisible": true,
+      "ExtraInfo": "provident",
+      "Width": "rerum",
+      "IconHint": "maiores",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Harris, Schuppe and Boehm",
-      "PrimaryKey": 450,
+      "EntityName": "Monahan Inc and Sons",
+      "PrimaryKey": 982,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "cumque",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "est",
+          "TooltipHint": "rerum",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "quae",
-      "StyleHint": "voluptate",
+      "LinkHint": "architecto",
+      "StyleHint": "est",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -246,13 +189,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
   ],
-  "RowCount": 502,
+  "RowCount": 419,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -261,10 +204,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "grow robust technologies"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

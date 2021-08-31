@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "McDermott Inc and Sons",
-    "ToolTip": "Tenetur neque.",
-    "Deleted": false,
-    "Rank": 910,
-    "Type": "accusamus",
-    "ColorBlock": 425,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2003-07-02T09:41:00.7403875+02:00",
+    "Id": 747,
+    "Name": "Huel, Bartell and Funk",
+    "ToolTip": "Corrupti et placeat.",
+    "Deleted": true,
+    "Rank": 202,
+    "Type": "minima",
+    "ColorBlock": 262,
+    "IconHint": "commodi",
+    "Selected": false,
+    "LastChanged": "2000-06-19T15:05:43.8001168+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Feest Group",
-        "ToolTip": "Eius tempora.",
+        "Id": 461,
+        "Name": "Witting, Stoltenberg and Jewess",
+        "ToolTip": "Quia vel quod aut voluptates sed non.",
         "Deleted": true,
-        "Rank": 242,
-        "Type": "laboriosam",
-        "ColorBlock": 979,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "1999-11-02T09:41:00.7403875+01:00",
+        "Rank": 650,
+        "Type": "eius",
+        "ColorBlock": 612,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2011-11-03T15:05:43.8001168+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Muriel Franecki",
+        "ExtraInfo": "iste",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Caleigh Emard",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 21
+            "FieldType": "System.Int32",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Malcolm Langosh",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Ressie Kessler",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 424
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

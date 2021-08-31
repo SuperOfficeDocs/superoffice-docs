@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "Hudson-Runte",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "UdListDefinitionId": 102,
-  "Rank": 645
+  "Id": 139,
+  "Name": "Witting, McLaughlin and Mosciski",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "UdListDefinitionId": 221,
+  "Rank": 188
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Bailey-Jast",
-  "Tooltip": "consequatur",
+  "Id": 900,
+  "Name": "Grady-Price",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 725,
-  "Rank": 19,
+  "UdListDefinitionId": 189,
+  "Rank": 965,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 615
     }
   }
 }

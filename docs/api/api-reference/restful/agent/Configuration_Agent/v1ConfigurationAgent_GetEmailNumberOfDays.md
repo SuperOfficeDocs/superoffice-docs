@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetEmailNumberOfDays
+title: GetEmailNumberOfDays
 id: v1ConfigurationAgent_GetEmailNumberOfDays
 ---
 
-# POST Agents/Configuration/GetEmailNumberOfDays
+# GetEmailNumberOfDays
 
 ```http
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
@@ -59,12 +59,12 @@ Response body: int32
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-296
+437
 ```

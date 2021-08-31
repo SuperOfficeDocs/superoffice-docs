@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
+title: SaveRestrictionsAndGetCriteriaInformation
 id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
 ---
 
-# POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
+# SaveRestrictionsAndGetCriteriaInformation
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
@@ -85,39 +85,39 @@ Response body: object
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Kuphal-Willms",
-  "StorageKey": "dolores",
+  "StorageType": "eum",
+  "ProviderName": "Stroman-Adams",
+  "StorageKey": "repellendus",
   "Restrictions": [
     {
-      "Name": "Friesen, Mante and Reinger",
-      "Operator": "placeat",
+      "Name": "Johnston LLC",
+      "Operator": "minima",
       "Values": [
-        "et",
-        "enim"
-      ],
-      "DisplayValues": [
-        "consequatur",
+        "illo",
         "officiis"
       ],
+      "DisplayValues": [
+        "facere",
+        "qui"
+      ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 793,
+      "InterParenthesis": 950,
       "InterOperator": "And",
-      "UniqueHash": 559
+      "UniqueHash": 971
     }
   ],
   "StaticColumns": [
-    "beatae",
-    "omnis"
+    "hic",
+    "nobis"
   ]
 }
 ```
@@ -129,57 +129,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Casper, Swift and Doyle",
-      "Operator": "assumenda",
+      "Name": "Weber Inc and Sons",
+      "Operator": "nam",
       "Values": [
-        "vel",
-        "illum"
+        "et",
+        "error"
       ],
       "DisplayValues": [
-        "asperiores",
-        "sit"
+        "quasi",
+        "voluptatum"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 622,
+      "InterParenthesis": 439,
       "InterOperator": "And",
-      "UniqueHash": 746
+      "UniqueHash": 260
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Zieme, Kassulke and Bayer",
-      "DisplayTooltip": "eos",
-      "DisplayType": "totam",
-      "CanOrderBy": false,
-      "Name": "Fay, Nader and Walker",
-      "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Dicki-Barton",
-      "IsVisible": false,
-      "ExtraInfo": "esse",
-      "Width": "sequi",
-      "IconHint": "eveniet",
-      "HeadingIconHint": "repellat"
+      "DisplayName": "Ferry Inc and Sons",
+      "DisplayTooltip": "enim",
+      "DisplayType": "laudantium",
+      "CanOrderBy": true,
+      "Name": "Jakubowski Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "saepe",
+      "RestrictionListName": "Thompson Group",
+      "IsVisible": true,
+      "ExtraInfo": "sequi",
+      "Width": "odit",
+      "IconHint": "vel",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stanton, Welch and Gorczany",
-      "PrimaryKey": 906,
+      "EntityName": "Hermiston Group",
+      "PrimaryKey": 96,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "aperiam"
+          "DisplayValue": "quo",
+          "TooltipHint": "et",
+          "LinkHint": "corporis"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "eum",
+      "LinkHint": "dolores",
+      "StyleHint": "minus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -187,26 +187,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Deckow-Thompson",
-      "Description": "Proactive zero administration leverage",
-      "Rank": 509,
+      "Name": "Ernser Group",
+      "Description": "Versatile 24/7 interface",
+      "Rank": 613,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Deckow-Thompson",
-      "Description": "Proactive zero administration leverage",
-      "Rank": 509,
+      "Name": "Ernser Group",
+      "Description": "Versatile 24/7 interface",
+      "Rank": 613,
       "Restrictions": [
         {},
         {}
@@ -223,8 +223,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailFolder
+title: CreateDefaultEMailFolder
 id: v1EMailAgent_CreateDefaultEMailFolder
 ---
 
-# POST Agents/EMail/CreateDefaultEMailFolder
+# CreateDefaultEMailFolder
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
@@ -76,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "DuBuque-Rowe",
-  "Delimiter": "quis",
-  "Flags": "excepturi",
-  "TotalItems": 146,
-  "UnreadItems": 299,
-  "Subscribed": false,
-  "EmailFolderId": 779,
+  "Name": "Huels, Lindgren and Rowe",
+  "Delimiter": "quas",
+  "Flags": "officiis",
+  "TotalItems": 831,
+  "UnreadItems": 350,
+  "Subscribed": true,
+  "EmailFolderId": 217,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

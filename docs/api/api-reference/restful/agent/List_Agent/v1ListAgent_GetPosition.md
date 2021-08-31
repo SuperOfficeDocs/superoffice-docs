@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetPosition
+title: GetPosition
 id: v1ListAgent_GetPosition
 ---
 
-# POST Agents/List/GetPosition
+# GetPosition
 
 ```http
 POST /api/v1/Agents/List/GetPosition
@@ -25,7 +25,7 @@ Gets a Position object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPosition?positionId=778
+POST /api/v1/Agents/List/GetPosition?positionId=2
 POST /api/v1/Agents/List/GetPosition?$select=name,department,category/id
 ```
 
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Value": "rerum",
-  "Tooltip": "facilis",
+  "Id": 300,
+  "Value": "neque",
+  "Tooltip": "ipsum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

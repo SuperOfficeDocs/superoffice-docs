@@ -28,7 +28,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 ```
 
 
@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -82,15 +82,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Cole Group",
-    "Tooltip": "recusandae",
+    "Id": 740,
+    "Name": "Auer, Keeling and Davis",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 439,
-    "Rank": 955,
+    "UdListDefinitionId": 736,
+    "Rank": 928,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "mesh out-of-the-box solutions"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldType": "System.String",
+        "FieldLength": 319
       }
     }
   }

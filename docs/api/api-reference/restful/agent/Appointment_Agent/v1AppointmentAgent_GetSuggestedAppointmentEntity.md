@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetSuggestedAppointmentEntity
+title: GetSuggestedAppointmentEntity
 id: v1AppointmentAgent_GetSuggestedAppointmentEntity
 ---
 
-# POST Agents/Appointment/GetSuggestedAppointmentEntity
+# GetSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
@@ -25,7 +25,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=377
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=483
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 870,
-  "Name": "Fadel-Kunde",
-  "Tooltip": "accusantium",
-  "Rank": 382,
+  "SuggestedAppointmentId": 419,
+  "Name": "Williamson, Hudson and Yost",
+  "Tooltip": "maxime",
+  "Rank": 559,
   "Deleted": false,
-  "DaysFuture": 547,
-  "Duration": "voluptatem",
-  "AutoSuggest": true,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "sit",
+  "DaysFuture": 459,
+  "Duration": "et",
+  "AutoSuggest": false,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "non",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 710,
-    "ProjTypeId": 732,
-    "ProjTypeName": "Keeling Group",
-    "ProjTypeTooltip": "et",
-    "ProjStatusId": 213,
-    "ProjStatusName": "Lindgren LLC",
-    "ProjStatusTooltip": "qui",
+    "ProjectTypeStatusLinkId": 625,
+    "ProjTypeId": 267,
+    "ProjTypeName": "Gleason Inc and Sons",
+    "ProjTypeTooltip": "quae",
+    "ProjStatusId": 51,
+    "ProjStatusName": "Feil-Gibson",
+    "ProjStatusTooltip": "id",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -114,20 +114,20 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 670,
-    "SaleTypeId": 806,
-    "SaleTypeName": "Kunde, Williamson and Rogahn",
-    "SaleTypeTooltip": "et",
-    "ProbId": 195,
-    "ProbName": "Kilback-O'Kon",
-    "ProbTooltip": "numquam",
-    "Probability": 837,
+    "SaleTypeStageLinkId": 617,
+    "SaleTypeId": 684,
+    "SaleTypeName": "Marvin Inc and Sons",
+    "SaleTypeTooltip": "vel",
+    "ProbId": 235,
+    "ProbName": "Schinner Group",
+    "ProbTooltip": "ab",
+    "Probability": 760,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldLength": 565
       }
     }
   },
   "Type": {
-    "Id": 280,
-    "Value": "natus",
-    "Tooltip": "optio",
+    "Id": 585,
+    "Value": "rerum",
+    "Tooltip": "nobis",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldLength": 570
       }
     }
   },
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bogisich Group",
-    "DisplayName": "Ankunding Inc and Sons",
-    "Description": "Digitized interactive customer loyalty",
-    "ShortLabel": "sequi",
+    "FieldName": "Bashirian, Kemmer and Tillman",
+    "DisplayName": "Abernathy-Hettinger",
+    "Description": "Cross-platform methodical database",
+    "ShortLabel": "dolores",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 474,
-    "TemplateVariableName": "Quitzon LLC"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 18,
+    "TemplateVariableName": "Murazik Group"
   }
 ]
 ```

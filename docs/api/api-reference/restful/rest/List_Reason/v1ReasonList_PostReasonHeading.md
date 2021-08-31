@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 244,
-  "Name": "Schinner-Berge",
-  "Tooltip": "ex",
+  "HeadingId": 511,
+  "Name": "Rosenbaum, Metz and Funk",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 373,
-  "UdListDefinitionId": 86
+  "Rank": 527,
+  "UdListDefinitionId": 166
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 681,
-  "Name": "Conroy-Jacobs",
-  "Tooltip": "quasi",
+  "HeadingId": 345,
+  "Name": "Rau LLC",
+  "Tooltip": "asperiores",
   "Deleted": true,
-  "Rank": 578,
-  "UdListDefinitionId": 182,
+  "Rank": 126,
+  "UdListDefinitionId": 145,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 705
     }
   }
 }

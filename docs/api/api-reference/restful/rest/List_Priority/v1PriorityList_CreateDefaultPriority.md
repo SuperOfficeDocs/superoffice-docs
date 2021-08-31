@@ -72,24 +72,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 198,
-  "Name": "Runte-Pacocha",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 542,
-  "Rank": 228,
+  "Id": 401,
+  "Name": "Torphy Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 529,
+  "Rank": 323,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "e-enable turn-key synergies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "orchestrate customized applications"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   }
 }

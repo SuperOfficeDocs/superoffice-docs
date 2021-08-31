@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,16 +91,16 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Lakin-Schulist",
-  "Tooltip": "atque",
+  "Id": 691,
+  "Name": "Lebsack-O'Keefe",
+  "Tooltip": "odio",
   "Deleted": true,
-  "Rank": 284,
+  "Rank": 749,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   },
   "_Links": {

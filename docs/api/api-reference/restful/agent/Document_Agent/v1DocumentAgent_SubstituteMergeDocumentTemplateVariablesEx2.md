@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
+title: SubstituteMergeDocumentTemplateVariablesEx2
 id: v1DocumentAgent_SubstituteMergeDocumentTemplateVariablesEx2
 ---
 
-# POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
+# SubstituteMergeDocumentTemplateVariablesEx2
 
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
@@ -76,21 +76,21 @@ Response body:
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 787,
-  "ContactId": 23,
-  "PersonId": 187,
-  "ProjectId": 533,
-  "SelectionId": 771,
-  "AppointmentId": 781,
-  "DocumentId": 909,
-  "SaleId": 354,
+  "MergeDocumentId": 290,
+  "ContactId": 638,
+  "PersonId": 653,
+  "ProjectId": 45,
+  "SelectionId": 87,
+  "AppointmentId": 620,
+  "DocumentId": 987,
+  "SaleId": 351,
   "CustomTags": {
-    "CustomTags1": "voluptatem",
-    "CustomTags2": "qui"
+    "CustomTags1": "illum",
+    "CustomTags2": "velit"
   }
 }
 ```

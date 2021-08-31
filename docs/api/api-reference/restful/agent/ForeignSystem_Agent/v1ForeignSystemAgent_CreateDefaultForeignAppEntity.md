@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
+title: CreateDefaultForeignAppEntity
 id: v1ForeignSystemAgent_CreateDefaultForeignAppEntity
 ---
 
-# POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
+# CreateDefaultForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -69,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 429,
-  "Name": "Thiel, Hills and Nolan",
-  "CreatedDate": "2018-06-08T16:48:29.6969313+02:00",
-  "UpdatedDate": "2000-02-10T16:48:29.6969313+01:00",
+  "ForeignAppId": 162,
+  "Name": "Simonis-Trantow",
+  "CreatedDate": "2000-04-30T14:58:04.29046+02:00",
+  "UpdatedDate": "2016-06-17T14:58:04.29046+02:00",
   "CreatedBy": {
-    "AssociateId": 250,
-    "Name": "Fay-Hickle",
-    "PersonId": 299,
-    "Rank": 359,
-    "Tooltip": "sit",
+    "AssociateId": 149,
+    "Name": "Beahan-Ratke",
+    "PersonId": 783,
+    "Rank": 528,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 414,
-    "FullName": "Claudia McGlynn",
-    "FormalName": "Mohr, Hettinger and Runolfsdottir",
-    "Deleted": false,
-    "EjUserId": 132,
-    "UserName": "Champlin Group",
+    "GroupIdx": 588,
+    "FullName": "Willa Ondricka",
+    "FormalName": "Block-Pagac",
+    "Deleted": true,
+    "EjUserId": 650,
+    "UserName": "Medhurst, Sauer and Steuber",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -94,46 +94,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 182
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 710,
-    "Name": "Frami, Parisian and Romaguera",
-    "PersonId": 499,
-    "Rank": 450,
-    "Tooltip": "eius",
+    "AssociateId": 69,
+    "Name": "Bartell-Boehm",
+    "PersonId": 570,
+    "Rank": 586,
+    "Tooltip": "officiis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 404,
-    "FullName": "Ms. Vella Gibson",
-    "FormalName": "Robel-Willms",
+    "GroupIdx": 790,
+    "FullName": "Eldora Nitzsche",
+    "FormalName": "Skiles Inc and Sons",
     "Deleted": false,
-    "EjUserId": 29,
-    "UserName": "Rutherford Group",
+    "EjUserId": 698,
+    "UserName": "Koss Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose sexy metrics"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 827,
-      "Name": "Weimann Group",
-      "CreatedDate": "2003-06-24T16:48:29.6979327+02:00",
-      "UpdatedDate": "2008-06-18T16:48:29.6979327+02:00",
-      "AssociateFullName": "Mrs. Maeve Daniel",
-      "CreatedBy": "labore",
-      "UpdatedBy": "architecto",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 126,
+      "ForeignDeviceId": 182,
+      "Name": "Denesik LLC",
+      "CreatedDate": "2013-09-05T14:58:04.29046+02:00",
+      "UpdatedDate": "1999-07-22T14:58:04.29046+02:00",
+      "AssociateFullName": "Ms. Lea Klocko",
+      "CreatedBy": "pariatur",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "ea",
+      "ForeignAppId": 790,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 161
         }
       }
     }
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldLength": 153
     }
   }
 }

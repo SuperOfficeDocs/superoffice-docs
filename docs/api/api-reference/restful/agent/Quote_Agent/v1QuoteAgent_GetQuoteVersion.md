@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteVersion
+title: GetQuoteVersion
 id: v1QuoteAgent_GetQuoteVersion
 ---
 
-# POST Agents/Quote/GetQuoteVersion
+# GetQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersion
@@ -118,7 +118,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 579
+  "QuoteVersionId": 608
 }
 ```
 
@@ -127,67 +127,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 279,
-  "ERPQuoteVersionKey": "id",
-  "QuoteId": 212,
-  "Description": "Pre-emptive zero tolerance capability",
-  "Number": "1233294",
+  "QuoteVersionId": 585,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 82,
+  "Description": "Profit-focused non-volatile definition",
+  "Number": "49669",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 631,
-  "SentDate": "2006-01-26T16:48:30.4179077+01:00",
-  "FollowupId": 553,
-  "ExpirationDate": "2002-01-09T16:48:30.4179077+01:00",
-  "DeliveryCountryId": 58,
+  "LikelyQuoteAlternativeId": 833,
+  "SentDate": "2003-06-29T14:58:04.9374601+02:00",
+  "FollowupId": 978,
+  "ExpirationDate": "2007-12-16T14:58:04.9374601+01:00",
+  "DeliveryCountryId": 500,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 436,
+  "InvoiceCountryId": 917,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "aliquid",
-  "ERPPaymentTypeKey": "magni",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "reiciendis",
-  "Rank": 29,
-  "ApprovedBy": 475,
-  "ApprovedText": "impedit",
-  "ApprovedRegisteredBy": 754,
-  "ApprovedRegisteredDate": "2014-11-14T16:48:30.4179077+01:00",
-  "ExtraField1": "eligendi",
-  "ExtraField2": "odit",
-  "ExtraField3": "sed",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "rem",
-  "LastRecalculated": "2013-11-17T16:48:30.4179077+01:00",
-  "Updated": "2001-12-30T16:48:30.4179077+01:00",
-  "UpdatedAssociateId": 681,
-  "Registered": "2009-10-31T16:48:30.4179077+01:00",
-  "RegisteredAssociateId": 131,
+  "ERPPaymentTermsKey": "aut",
+  "ERPPaymentTypeKey": "qui",
+  "ERPDeliveryTermsKey": "quo",
+  "ERPDeliveryTypeKey": "officiis",
+  "Rank": 359,
+  "ApprovedBy": 434,
+  "ApprovedText": "minima",
+  "ApprovedRegisteredBy": 983,
+  "ApprovedRegisteredDate": "2000-07-28T14:58:04.9374601+02:00",
+  "ExtraField1": "itaque",
+  "ExtraField2": "facilis",
+  "ExtraField3": "eos",
+  "ExtraField4": "nemo",
+  "ExtraField5": "enim",
+  "LastRecalculated": "2004-05-20T14:58:04.9374601+02:00",
+  "Updated": "2001-08-21T14:58:04.9374601+02:00",
+  "UpdatedAssociateId": 689,
+  "Registered": "2015-12-30T14:58:04.9374601+01:00",
+  "RegisteredAssociateId": 643,
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 248,
-      "ERPQuoteAlternativeKey": "nobis",
-      "QuoteVersionId": 63,
-      "Name": "Gutkowski-Hilpert",
-      "Description": "Visionary analyzing encryption",
+      "QuoteAlternativeId": 336,
+      "ERPQuoteAlternativeKey": "labore",
+      "QuoteVersionId": 541,
+      "Name": "Bosco, Marquardt and Smith",
+      "Description": "Upgradable multi-state ability",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 15914.452,
-      "ERPDiscountAmount": 22571.068,
-      "DiscountPercent": 21790.701999999997,
-      "DiscountAmount": 11260.462,
+      "Reason": "reintermediate interactive schemas",
+      "ERPDiscountPercent": 16080.554,
+      "ERPDiscountAmount": 26993.142,
+      "DiscountPercent": 1914.874,
+      "DiscountAmount": 11539.387999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "in",
-      "VAT": 13711.25,
-      "EarningPercent": 26930.462,
-      "EarningAmount": 6562.596,
-      "SubTotal": 29785.536,
-      "TotalPrice": 10395.478,
-      "ExtraField1": "beatae",
-      "ExtraField2": "eum",
-      "ExtraField3": "et",
-      "ExtraField4": "qui",
-      "ExtraField5": "pariatur",
+      "VATInfo": "at",
+      "VAT": 13463.663999999999,
+      "EarningPercent": 1676.69,
+      "EarningAmount": 18785.196,
+      "SubTotal": 5710.148,
+      "TotalPrice": 16400.221999999998,
+      "ExtraField1": "excepturi",
+      "ExtraField2": "accusantium",
+      "ExtraField3": "ut",
+      "ExtraField4": "distinctio",
+      "ExtraField5": "id",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldType": "System.String",
+          "FieldLength": 102
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   }
 }

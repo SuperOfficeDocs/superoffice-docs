@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetFromSectionAndKey
+title: GetFromSectionAndKey
 id: v1PreferenceAgent_GetFromSectionAndKey
 ---
 
-# POST Agents/Preference/GetFromSectionAndKey
+# GetFromSectionAndKey
 
 ```http
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
@@ -96,12 +96,12 @@ Response body: object
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "repudiandae",
-  "Key": "laudantium"
+  "Section": "doloremque",
+  "Key": "recusandae"
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 942,
-  "Section": "mollitia",
-  "Key": "sapiente",
-  "Name": "McDermott, Medhurst and Kreiger",
+  "PrefDescId": 412,
+  "Section": "neque",
+  "Key": "atque",
+  "Name": "Bauch, Kunze and Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked contextually-based customer loyalty",
+  "Description": "Reverse-engineered scalable challenge",
   "IsBuiltin": false,
-  "TableName": "Boehm-Ryan",
-  "UserDefinedListId": 405,
-  "Rank": 392,
-  "SubGroup": "delectus",
-  "MinLevel": 858,
-  "MaxValue": 373,
-  "MinValue": 723,
-  "RequiredLicense": "aut",
+  "TableName": "Schmeler, Legros and Treutel",
+  "UserDefinedListId": 813,
+  "Rank": 988,
+  "SubGroup": "illum",
+  "MinLevel": 939,
+  "MaxValue": 470,
+  "MinValue": 288,
+  "RequiredLicense": "corporis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

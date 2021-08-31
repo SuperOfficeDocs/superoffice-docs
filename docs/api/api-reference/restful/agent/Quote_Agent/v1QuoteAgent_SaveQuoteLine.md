@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteLine
+title: SaveQuoteLine
 id: v1QuoteAgent_SaveQuoteLine
 ---
 
-# POST Agents/Quote/SaveQuoteLine
+# SaveQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLine
@@ -126,63 +126,63 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": {
-    "QuoteLineId": 681,
-    "ERPQuoteLineKey": "facilis",
-    "QuoteAlternativeId": 670,
-    "ERPProductKey": "magni",
+    "QuoteLineId": 886,
+    "ERPQuoteLineKey": "laudantium",
+    "QuoteAlternativeId": 121,
+    "ERPProductKey": "et",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 10069.542,
-    "DeliveredQuantity": 16218.449999999999,
-    "Rank": 310,
-    "Name": "Brekke, Kassulke and Orn",
-    "Description": "Centralized clear-thinking system engine",
-    "Code": "quae",
-    "QuantityUnit": "officiis",
-    "PriceUnit": "tempore",
-    "ItemNumber": "783371",
+    "Quantity": 20809.76,
+    "DeliveredQuantity": 122.226,
+    "Rank": 390,
+    "Name": "Schinner Inc and Sons",
+    "Description": "Decentralized content-based hierarchy",
+    "Code": "qui",
+    "QuantityUnit": "ea",
+    "PriceUnit": "omnis",
+    "ItemNumber": "885357",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quasi",
-    "ProductTypeKey": "et",
-    "Supplier": "vero",
+    "ProductFamilyKey": "est",
+    "ProductTypeKey": "similique",
+    "Supplier": "a",
     "SupplierCode": "est",
-    "Thumbnail": "reprehenderit",
-    "VATInfo": "vero",
-    "VAT": 27234.46,
-    "UnitCost": 5409.284,
-    "UnitMinimumPrice": 27425.634,
-    "UnitListPrice": 10809.166,
+    "Thumbnail": "ut",
+    "VATInfo": "dolores",
+    "VAT": 15836.101999999999,
+    "UnitCost": 11793.242,
+    "UnitMinimumPrice": 25056.329999999998,
+    "UnitListPrice": 4205.8279999999995,
     "ExtraInfo": [
       {},
       {}
     ],
-    "RawExtraInfo": "nobis",
-    "IsSubscription": true,
-    "SubscriptionUnit": "non",
-    "SubscriptionQuantity": 12705.235999999999,
-    "SubscriptionStart": "2003-05-31T16:48:30.3989349+02:00",
-    "ERPDiscountPercent": 17114.774,
-    "ERPDiscountAmount": 13413.52,
-    "DiscountPercent": 2814.332,
-    "DiscountAmount": 15886.246,
+    "RawExtraInfo": "maiores",
+    "IsSubscription": false,
+    "SubscriptionUnit": "animi",
+    "SubscriptionQuantity": 11642.81,
+    "SubscriptionStart": "1997-08-01T14:58:04.977465+02:00",
+    "ERPDiscountPercent": 10169.83,
+    "ERPDiscountAmount": 26767.494,
+    "DiscountPercent": 8095.1219999999994,
+    "DiscountAmount": 22426.904,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 9837.626,
-    "EarningAmount": 25303.915999999997,
-    "SubTotal": 11746.232,
-    "TotalPrice": 30453.077999999998,
-    "Rights": "at",
-    "Rule": "rerum",
-    "ExtraField1": "blanditiis",
-    "ExtraField2": "qui",
-    "ExtraField3": "eum",
-    "ExtraField4": "ad",
-    "ExtraField5": "nemo"
+    "EarningPercent": 1682.9579999999999,
+    "EarningAmount": 21762.496,
+    "SubTotal": 12197.528,
+    "TotalPrice": 13366.51,
+    "Rights": "nostrum",
+    "Rule": "doloremque",
+    "ExtraField1": "dolor",
+    "ExtraField2": "quae",
+    "ExtraField3": "dignissimos",
+    "ExtraField4": "voluptates",
+    "ExtraField5": "quod"
   }
 }
 ```
@@ -192,37 +192,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 419,
-  "ERPQuoteLineKey": "facere",
-  "QuoteAlternativeId": 461,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 458,
+  "ERPQuoteLineKey": "soluta",
+  "QuoteAlternativeId": 763,
+  "ERPProductKey": "tempore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 21900.392,
-  "DeliveredQuantity": 26544.98,
-  "Rank": 153,
-  "Name": "Christiansen-Romaguera",
-  "Description": "Switchable reciprocal access",
-  "Code": "occaecati",
-  "QuantityUnit": "dolore",
-  "PriceUnit": "sed",
-  "ItemNumber": "274548",
+  "Quantity": 28754.45,
+  "DeliveredQuantity": 31086.146,
+  "Rank": 54,
+  "Name": "Kuhlman Group",
+  "Description": "Customer-focused object-oriented utilisation",
+  "Code": "sed",
+  "QuantityUnit": "ut",
+  "PriceUnit": "in",
+  "ItemNumber": "618269",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "est",
-  "Supplier": "occaecati",
-  "SupplierCode": "est",
-  "Thumbnail": "in",
-  "VATInfo": "accusantium",
-  "VAT": 27131.038,
-  "UnitCost": 18271.22,
-  "UnitMinimumPrice": 9815.688,
-  "UnitListPrice": 26369.476,
+  "ProductFamilyKey": "nemo",
+  "ProductTypeKey": "voluptatem",
+  "Supplier": "possimus",
+  "SupplierCode": "perferendis",
+  "Thumbnail": "ratione",
+  "VATInfo": "in",
+  "VAT": 25401.07,
+  "UnitCost": 1407.166,
+  "UnitMinimumPrice": 24880.826,
+  "UnitListPrice": 25435.543999999998,
   "ExtraInfo": [
     {
-      "Name": "Boyle-Medhurst",
-      "Value": "occaecati",
+      "Name": "Gibson-Cronin",
+      "Value": "voluptate",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -231,14 +231,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 994
         }
       }
     },
     {
-      "Name": "Boyle-Medhurst",
-      "Value": "occaecati",
+      "Name": "Gibson-Cronin",
+      "Value": "voluptate",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -247,33 +247,33 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 994
         }
       }
     }
   ],
-  "RawExtraInfo": "vitae",
+  "RawExtraInfo": "voluptas",
   "IsSubscription": false,
-  "SubscriptionUnit": "molestiae",
-  "SubscriptionQuantity": 2864.476,
-  "SubscriptionStart": "2003-02-10T16:48:30.3999348+01:00",
-  "ERPDiscountPercent": 8712.52,
-  "ERPDiscountAmount": 27974.084,
-  "DiscountPercent": 5080.214,
-  "DiscountAmount": 7621.888,
+  "SubscriptionUnit": "voluptatibus",
+  "SubscriptionQuantity": 200.576,
+  "SubscriptionStart": "2005-05-10T14:58:04.9794652+02:00",
+  "ERPDiscountPercent": 7092.242,
+  "ERPDiscountAmount": 22652.552,
+  "DiscountPercent": 11379.554,
+  "DiscountAmount": 5775.9619999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5095.884,
-  "EarningAmount": 10235.644,
-  "SubTotal": 25128.412,
-  "TotalPrice": 24827.548,
-  "Rights": "ex",
-  "Rule": "possimus",
-  "ExtraField1": "eum",
-  "ExtraField2": "vitae",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "animi",
-  "ExtraField5": "fugit",
+  "EarningPercent": 28055.568,
+  "EarningAmount": 7317.8899999999994,
+  "SubTotal": 27723.363999999998,
+  "TotalPrice": 6377.69,
+  "Rights": "quo",
+  "Rule": "quia",
+  "ExtraField1": "sit",
+  "ExtraField2": "nostrum",
+  "ExtraField3": "non",
+  "ExtraField4": "minus",
+  "ExtraField5": "repellendus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 841
     }
   }
 }

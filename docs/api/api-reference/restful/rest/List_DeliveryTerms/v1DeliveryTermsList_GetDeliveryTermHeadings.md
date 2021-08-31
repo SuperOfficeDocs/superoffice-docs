@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,24 +68,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 463,
-    "Name": "Goodwin-Hammes",
-    "Tooltip": "earum",
+    "HeadingId": 427,
+    "Name": "Parisian-Spencer",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "Rank": 366,
-    "UdListDefinitionId": 309,
+    "Rank": 606,
+    "UdListDefinitionId": 561,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "incentivize viral technologies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "syndicate cutting-edge paradigms"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldLength": 119
       }
     }
   }

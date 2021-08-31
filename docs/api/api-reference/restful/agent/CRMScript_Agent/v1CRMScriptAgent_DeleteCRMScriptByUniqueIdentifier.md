@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
+title: DeleteCRMScriptByUniqueIdentifier
 id: v1CRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
 ---
 
-# POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
+# DeleteCRMScriptByUniqueIdentifier
 
 ```http
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier

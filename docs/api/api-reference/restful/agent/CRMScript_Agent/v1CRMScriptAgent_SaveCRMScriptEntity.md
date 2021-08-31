@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/SaveCRMScriptEntity
+title: SaveCRMScriptEntity
 id: v1CRMScriptAgent_SaveCRMScriptEntity
 ---
 
-# POST Agents/CRMScript/SaveCRMScriptEntity
+# SaveCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
@@ -94,17 +94,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 409,
-  "UniqueIdentifier": "quia",
-  "Name": "Murazik Group",
-  "Description": "Face to face homogeneous solution",
-  "IncludeId": "est",
-  "HierarchyId": 737,
-  "Source": "odio",
-  "Registered": "1997-09-26T16:48:29.2078946+02:00",
-  "RegisteredAssociateId": 131,
-  "Updated": "2016-03-11T16:48:29.2078946+01:00",
-  "UpdatedAssociateId": 266
+  "EjscriptId": 530,
+  "UniqueIdentifier": "ipsum",
+  "Name": "Oberbrunner LLC",
+  "Description": "Vision-oriented local synergy",
+  "IncludeId": "explicabo",
+  "HierarchyId": 454,
+  "Source": "quis",
+  "Registered": "2013-01-19T14:58:03.736461+01:00",
+  "RegisteredAssociateId": 243,
+  "Updated": "2014-01-14T14:58:03.736461+01:00",
+  "UpdatedAssociateId": 958
 }
 ```
 
@@ -113,20 +113,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 895,
-  "UniqueIdentifier": "est",
-  "Name": "Kerluke-Leuschke",
-  "Description": "Intuitive non-volatile matrix",
-  "IncludeId": "id",
-  "HierarchyId": 278,
+  "EjscriptId": 604,
+  "UniqueIdentifier": "corporis",
+  "Name": "Spinka, Waelchi and Gutkowski",
+  "Description": "Customer-focused explicit success",
+  "IncludeId": "optio",
+  "HierarchyId": 918,
   "Source": "quod",
-  "Registered": "2016-04-13T16:48:29.2078946+02:00",
-  "RegisteredAssociateId": 337,
-  "Updated": "2012-11-03T16:48:29.2078946+01:00",
-  "UpdatedAssociateId": 446,
+  "Registered": "2016-05-31T14:58:03.7374597+02:00",
+  "RegisteredAssociateId": 486,
+  "Updated": "2003-08-07T14:58:03.7374597+02:00",
+  "UpdatedAssociateId": 581,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "unleash ubiquitous e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldLength": 11
     }
   }
 }

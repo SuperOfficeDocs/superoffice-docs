@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Walker-Feest",
-    "ToolTip": "Reprehenderit nihil at voluptatem.",
+    "Id": 244,
+    "Name": "Funk-Schultz",
+    "ToolTip": "Consequatur aut et minus dignissimos.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "quidem",
-    "ColorBlock": 29,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "1998-03-24T09:41:00.5473819+01:00",
+    "Rank": 636,
+    "Type": "odit",
+    "ColorBlock": 104,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2021-01-17T15:05:43.6160797+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Jaskolski-Schowalter",
-        "ToolTip": "Sit minima illum deserunt voluptatibus animi explicabo.",
-        "Deleted": true,
-        "Rank": 237,
-        "Type": "et",
-        "ColorBlock": 87,
-        "IconHint": "sed",
+        "Id": 592,
+        "Name": "Considine, Sauer and Leannon",
+        "ToolTip": "Dolores reprehenderit.",
+        "Deleted": false,
+        "Rank": 984,
+        "Type": "adipisci",
+        "ColorBlock": 658,
+        "IconHint": "impedit",
         "Selected": true,
-        "LastChanged": "2006-12-11T09:41:00.5473819+01:00",
+        "LastChanged": "2001-12-16T15:05:43.6160797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Maynard Pfannerstill III",
+        "ExtraInfo": "aut",
+        "StyleHint": "vero",
+        "Hidden": true,
+        "FullName": "Celestine Pagac",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Verda Oberbrunner",
+    "ExtraInfo": "in",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Kassandra Boyle",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 928
       }
     }
   }

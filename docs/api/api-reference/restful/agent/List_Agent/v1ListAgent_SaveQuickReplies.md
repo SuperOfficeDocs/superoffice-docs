@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveQuickReplies
+title: SaveQuickReplies
 id: v1ListAgent_SaveQuickReplies
 ---
 
-# POST Agents/List/SaveQuickReplies
+# SaveQuickReplies
 
 ```http
 POST /api/v1/Agents/List/SaveQuickReplies

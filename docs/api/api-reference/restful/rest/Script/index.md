@@ -2,6 +2,8 @@
 title: Script
 ---
 
+# Script
+
 ```http
 /api/v1/Script
 ```

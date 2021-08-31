@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 724,
-    "Name": "Hegmann Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 6,
-    "UdListDefinitionId": 511,
+    "HeadingId": 229,
+    "Name": "Schamberger-Zieme",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 257,
+    "UdListDefinitionId": 47,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldLength": 530
       }
     }
   }

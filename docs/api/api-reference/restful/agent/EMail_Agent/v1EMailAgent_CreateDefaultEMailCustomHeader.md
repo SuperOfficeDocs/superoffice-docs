@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailCustomHeader
+title: CreateDefaultEMailCustomHeader
 id: v1EMailAgent_CreateDefaultEMailCustomHeader
 ---
 
-# POST Agents/EMail/CreateDefaultEMailCustomHeader
+# CreateDefaultEMailCustomHeader
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
@@ -67,10 +67,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoppe, Schaefer and Daugherty",
+  "Name": "Wolf-Hegmann",
   "Values": [
-    "soluta",
-    "suscipit"
+    "omnis",
+    "dolore"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

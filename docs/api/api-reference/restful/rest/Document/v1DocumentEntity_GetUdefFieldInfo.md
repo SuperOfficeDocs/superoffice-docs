@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 472,
-  "ColumnId": 515,
-  "FieldDefault": "ut",
-  "FieldHeight": 892,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 320,
-  "FieldTop": 713,
+  "UDefFieldId": 368,
+  "ColumnId": 972,
+  "FieldDefault": "eum",
+  "FieldHeight": 41,
+  "FieldLabel": "a",
+  "FieldLeft": 13,
+  "FieldTop": 279,
   "FieldType": "Checkbox",
-  "FieldWidth": 732,
-  "FormatMask": "omnis",
+  "FieldWidth": 350,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 43,
-  "LabelLeft": 724,
-  "LabelTop": 984,
-  "LabelWidth": 746,
-  "LastVersionId": 522,
-  "ListTableId": 223,
+  "LabelHeight": 478,
+  "LabelLeft": 638,
+  "LabelTop": 649,
+  "LabelWidth": 928,
+  "LastVersionId": 952,
+  "ListTableId": 322,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 99,
-  "ProgId": "tenetur",
-  "IsReadOnly": true,
-  "ShortLabel": "cum",
-  "TabOrder": 224,
-  "TextLength": 709,
-  "Tooltip": "et",
-  "UdefIdentity": 258,
-  "UDListDefinitionId": 870,
+  "Page1LineNo": 446,
+  "ProgId": "enim",
+  "IsReadOnly": false,
+  "ShortLabel": "hic",
+  "TabOrder": 25,
+  "TextLength": 583,
+  "Tooltip": "voluptatum",
+  "UdefIdentity": 894,
+  "UDListDefinitionId": 692,
   "Justification": "Center",
-  "Version": 497,
-  "TemplateVariableName": "Ullrich, O'Keefe and Willms",
+  "Version": 339,
+  "TemplateVariableName": "Okuneva Group",
   "HasBeenPublished": false,
-  "MdoListName": "Jaskolski-Wilderman",
+  "MdoListName": "Beier-Flatley",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

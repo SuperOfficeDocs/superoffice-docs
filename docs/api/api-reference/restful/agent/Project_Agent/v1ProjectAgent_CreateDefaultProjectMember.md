@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/CreateDefaultProjectMember
+title: CreateDefaultProjectMember
 id: v1ProjectAgent_CreateDefaultProjectMember
 ---
 
-# POST Agents/Project/CreateDefaultProjectMember
+# CreateDefaultProjectMember
 
 ```http
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 674,
-  "ContactId": 35,
-  "ProjectId": 243,
-  "ContactName": "Walter-Casper",
+  "ProjectmemberId": 774,
+  "ContactId": 808,
+  "ProjectId": 752,
+  "ContactName": "Jacobson, Smitham and Ziemann",
   "ContactDepartment": "",
-  "ProjectName": "Yost-Wyman",
-  "EmailId": 689,
-  "EmailAddress": "micaela@mitchell.name",
+  "ProjectName": "Erdman Group",
+  "EmailId": 233,
+  "EmailAddress": "virgie_schneider@leuschkedurgan.name",
   "CountryId": 256,
-  "Firstname": "Johnson",
-  "MiddleName": "Kuhlman-Jakubowski",
-  "Lastname": "Bode",
-  "PersonId": 804,
-  "Mrmrs": "ducimus",
-  "ProjectMemberTypeName": "Leuschke LLC",
-  "Phone": "1-848-075-3462",
-  "PhoneId": 979,
-  "ProjectMemberTypeId": 961,
-  "EmailAddressName": "gretchen.beahan@oconnell.name",
-  "Comment": "ipsa",
-  "FullName": "Ben Deckow",
+  "Firstname": "Cesar",
+  "MiddleName": "Ryan, Jacobi and Ondricka",
+  "Lastname": "Murazik",
+  "PersonId": 383,
+  "Mrmrs": "at",
+  "ProjectMemberTypeName": "Kiehn Group",
+  "Phone": "702-421-0730 x366",
+  "PhoneId": 621,
+  "ProjectMemberTypeId": 759,
+  "EmailAddressName": "raina_leffler@mohr.info",
+  "Comment": "minima",
+  "FullName": "Courtney Morar",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "expedite viral bandwidth"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

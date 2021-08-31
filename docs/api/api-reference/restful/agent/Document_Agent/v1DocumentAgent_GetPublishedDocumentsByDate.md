@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPublishedDocumentsByDate
+title: GetPublishedDocumentsByDate
 id: v1DocumentAgent_GetPublishedDocumentsByDate
 ---
 
-# POST Agents/Document/GetPublishedDocumentsByDate
+# GetPublishedDocumentsByDate
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 928,
+  "PersonId": 227,
   "IncludeProjectDocuments": false,
-  "StartTime": "2010-01-21T16:48:29.2808945+01:00",
-  "EndTime": "2003-12-30T16:48:29.2808945+01:00",
-  "Count": 480
+  "StartTime": "2016-08-01T14:58:03.8064319+02:00",
+  "EndTime": "2018-02-10T14:58:03.8064319+01:00",
+  "Count": 786
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 715,
-    "Attention": "reprehenderit",
-    "Header": "et",
-    "Name": "Pollich Inc and Sons",
-    "OurRef": "voluptas",
-    "YourRef": "molestias",
-    "Description": "Synchronised encompassing policy",
-    "DocumentTemplate": "dolore",
+    "DocumentId": 304,
+    "Attention": "amet",
+    "Header": "aliquid",
+    "Name": "Reynolds-Blanda",
+    "OurRef": "eos",
+    "YourRef": "odit",
+    "Description": "Optional asynchronous project",
+    "DocumentTemplate": "molestiae",
     "IsPublished": false,
-    "PersonId": 29,
-    "PersonFullName": "Cory Gleichner V",
-    "AssociateFullName": "Brody Casper",
-    "ContactId": 708,
-    "ContactName": "Sipes LLC",
-    "ProjectId": 534,
-    "ProjectName": "Abernathy, Schulist and Kassulke",
-    "AssociateId": 57,
-    "Snum": 469,
+    "PersonId": 217,
+    "PersonFullName": "Lonnie Hauck",
+    "AssociateFullName": "Vicenta Dooley",
+    "ContactId": 555,
+    "ContactName": "Kassulke, Turner and Heller",
+    "ProjectId": 240,
+    "ProjectName": "Torphy Group",
+    "AssociateId": 914,
+    "Snum": 484,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

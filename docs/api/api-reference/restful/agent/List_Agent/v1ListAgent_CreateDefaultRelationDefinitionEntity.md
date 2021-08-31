@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultRelationDefinitionEntity
+title: CreateDefaultRelationDefinitionEntity
 id: v1ListAgent_CreateDefaultRelationDefinitionEntity
 ---
 
-# POST Agents/List/CreateDefaultRelationDefinitionEntity
+# CreateDefaultRelationDefinitionEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 340,
-  "Name": "Adams, Conroy and Kris",
-  "Tooltip": "aperiam",
-  "PassiveText": "facilis",
+  "ReldefId": 415,
+  "Name": "Dicki-Bogan",
+  "Tooltip": "cupiditate",
+  "PassiveText": "laborum",
   "Deleted": true,
-  "Rank": 157,
+  "Rank": 848,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 803
     }
   }
 }

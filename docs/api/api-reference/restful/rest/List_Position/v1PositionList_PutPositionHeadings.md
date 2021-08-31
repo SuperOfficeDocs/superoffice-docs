@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 521,
-    "Name": "Mills Group",
-    "Tooltip": "qui",
+    "HeadingId": 273,
+    "Name": "Schumm, Lubowitz and Wilderman",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 475,
-    "UdListDefinitionId": 873
+    "Rank": 865,
+    "UdListDefinitionId": 556
   },
   {
-    "HeadingId": 521,
-    "Name": "Mills Group",
-    "Tooltip": "qui",
+    "HeadingId": 273,
+    "Name": "Schumm, Lubowitz and Wilderman",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 475,
-    "UdListDefinitionId": 873
+    "Rank": 865,
+    "UdListDefinitionId": 556
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 922,
-    "Name": "Predovic-Lockman",
-    "Tooltip": "in",
+    "HeadingId": 215,
+    "Name": "Witting Group",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 751,
-    "UdListDefinitionId": 676,
+    "Rank": 870,
+    "UdListDefinitionId": 975,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 613
       }
     }
   }

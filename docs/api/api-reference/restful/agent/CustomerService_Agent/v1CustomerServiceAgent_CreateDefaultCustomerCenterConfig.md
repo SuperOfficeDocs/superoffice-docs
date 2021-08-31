@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
+title: CreateDefaultCustomerCenterConfig
 id: v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig
 ---
 
-# POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
+# CreateDefaultCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 374,
+  "CustConfigId": 845,
   "Type": "Options",
-  "Config": "quia",
-  "CustLangId": 978,
-  "Registered": "2007-07-09T16:48:29.2198943+02:00",
-  "RegisteredAssociateId": 102,
-  "Updated": "2019-04-22T16:48:29.2198943+02:00",
-  "UpdatedAssociateId": 229,
+  "Config": "nostrum",
+  "CustLangId": 323,
+  "Registered": "1994-12-15T14:58:03.7524323+01:00",
+  "RegisteredAssociateId": 164,
+  "Updated": "2018-02-06T14:58:03.7524323+01:00",
+  "UpdatedAssociateId": 52,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,10 +90,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "disintermediate compelling e-commerce"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 273
     }
   }
 }

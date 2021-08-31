@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCategoryList
+title: GetCategoryList
 id: v1ListAgent_GetCategoryList
 ---
 
-# POST Agents/List/GetCategoryList
+# GetCategoryList
 
 ```http
 POST /api/v1/Agents/List/GetCategoryList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Value": "aperiam",
-    "Tooltip": "quia",
+    "Id": 942,
+    "Value": "expedita",
+    "Tooltip": "corporis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldLength": 529
       }
     }
   },
   {
-    "Id": 824,
-    "Value": "aperiam",
-    "Tooltip": "quia",
+    "Id": 942,
+    "Value": "expedita",
+    "Tooltip": "corporis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldLength": 529
       }
     }
   }

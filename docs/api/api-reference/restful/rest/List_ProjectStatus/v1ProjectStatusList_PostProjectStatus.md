@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "Name": "Larson, Connelly and O'Kon",
-  "Tooltip": "nemo",
+  "Id": 899,
+  "Name": "Schmeler LLC",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "UdListDefinitionId": 829,
-  "Rank": 79
+  "UdListDefinitionId": 277,
+  "Rank": 369
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686,
-  "Name": "Becker Inc and Sons",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "UdListDefinitionId": 943,
-  "Rank": 897,
+  "Id": 282,
+  "Name": "Leffler-Davis",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "UdListDefinitionId": 937,
+  "Rank": 457,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldLength": 123
     }
   }
 }

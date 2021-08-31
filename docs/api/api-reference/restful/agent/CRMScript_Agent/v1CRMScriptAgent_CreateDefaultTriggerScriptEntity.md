@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
+title: CreateDefaultTriggerScriptEntity
 id: v1CRMScriptAgent_CreateDefaultTriggerScriptEntity
 ---
 
-# POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
+# CreateDefaultTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 259,
-  "Name": "Goldner Group",
+  "ScreenChooserId": 721,
+  "Name": "Rice-Spencer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "tempore",
-  "Source": "quae",
-  "Registered": "1994-02-13T16:48:29.2088944+01:00",
-  "RegisteredAssociateId": 373,
-  "Updated": "1994-09-22T16:48:29.2088944+02:00",
-  "UpdatedAssociateId": 986,
+  "Enabled": false,
+  "UniqueIdentifier": "repellendus",
+  "Source": "nostrum",
+  "Registered": "2009-06-11T14:58:03.7384605+02:00",
+  "RegisteredAssociateId": 77,
+  "Updated": "2000-05-28T14:58:03.7384605+02:00",
+  "UpdatedAssociateId": 225,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldLength": 773
     }
   }
 }

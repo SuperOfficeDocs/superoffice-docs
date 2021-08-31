@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,36 +82,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Simonis, Bernier and Weber",
-    "ToolTip": "Nisi similique ipsa occaecati amet fugiat.",
-    "Deleted": true,
-    "Rank": 470,
-    "Type": "dolorem",
-    "ColorBlock": 450,
-    "IconHint": "aut",
+    "Id": 478,
+    "Name": "Mueller-Waelchi",
+    "ToolTip": "Dolorem maxime.",
+    "Deleted": false,
+    "Rank": 984,
+    "Type": "et",
+    "ColorBlock": 875,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2016-12-21T09:41:00.1303661+01:00",
+    "LastChanged": "2017-04-01T15:05:43.2098985+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "D'Amore LLC",
-        "ToolTip": "Quia ratione.",
+        "Id": 296,
+        "Name": "Donnelly Group",
+        "ToolTip": "Et inventore iusto dicta.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "qui",
-        "ColorBlock": 242,
-        "IconHint": "quasi",
+        "Rank": 711,
+        "Type": "ipsum",
+        "ColorBlock": 155,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2004-08-26T09:41:00.1303661+02:00",
+        "LastChanged": "1997-03-28T15:05:43.2098985+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "debitis",
         "Hidden": true,
-        "FullName": "Carleton Gislason",
+        "FullName": "Rasheed Quitzon Sr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -120,15 +120,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "commodi",
+    "ExtraInfo": "amet",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Glenna Macejkovic",
+    "FullName": "Nathen O'Reilly",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldType": "System.String",
+        "FieldLength": 459
       }
     }
   }

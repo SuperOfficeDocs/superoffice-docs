@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=iste
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=perspiciatis
 ```
 
 
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Waters, Orn and McCullough",
-    "ToolTip": "Ipsum dignissimos expedita sapiente.",
+    "Id": 521,
+    "Name": "Rippin, Gutkowski and Towne",
+    "ToolTip": "Facilis enim exercitationem fuga eaque sunt magni.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "qui",
+    "Rank": 298,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 352,
-        "Name": "Jenkins-Durgan",
-        "ToolTip": "Architecto assumenda veniam voluptatem veniam rerum consequatur.",
+        "Id": 672,
+        "Name": "Rutherford, Parisian and Stroman",
+        "ToolTip": "Vero iusto dolores.",
         "Deleted": true,
-        "Rank": 279,
-        "Type": "non",
+        "Rank": 111,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 195,
-        "ExtraInfo": "vitae",
-        "StyleHint": "libero",
-        "FullName": "Lillie Williamson",
+        "IconHint": "dignissimos",
+        "ColorBlock": 99,
+        "ExtraInfo": "autem",
+        "StyleHint": "voluptatem",
+        "FullName": "Ibrahim Douglas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "deploy out-of-the-box convergence"
+              "Reason": "integrate bleeding-edge platforms"
             },
             "FieldType": "System.String",
-            "FieldLength": 252
+            "FieldLength": 760
           }
         }
       }
     ],
-    "IconHint": "eius",
-    "ColorBlock": 17,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "quos",
-    "FullName": "Emmitt Nader",
+    "IconHint": "consequatur",
+    "ColorBlock": 539,
+    "ExtraInfo": "cumque",
+    "StyleHint": "exercitationem",
+    "FullName": "Mac Morar",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 231
+        "FieldLength": 193
       }
     }
   }

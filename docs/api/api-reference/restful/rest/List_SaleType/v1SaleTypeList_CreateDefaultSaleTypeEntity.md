@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -84,47 +84,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 708,
-  "Name": "Beier Group",
-  "Tooltip": "quidem",
-  "Rank": 725,
+  "SaleTypeId": 313,
+  "Name": "Johnson Inc and Sons",
+  "Tooltip": "reiciendis",
+  "Rank": 38,
   "DurationUnit": "Century",
-  "SaleDuration": 64,
-  "SaleTypeCatId": 630,
+  "SaleDuration": 290,
+  "SaleTypeCatId": 478,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 614,
-  "QuoteLinesTemplate": 680,
-  "ConfirmationLinesTemplate": 445,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 728,
+  "QuoteLinesTemplate": 463,
+  "ConfirmationLinesTemplate": 641,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 772,
-  "MinEarningPercent": 467,
-  "GroupQuoteLinesBy": 936,
-  "SortGroupLinesBy": 83,
+  "MaxDiscountPercent": 737,
+  "MinEarningPercent": 247,
+  "GroupQuoteLinesBy": 767,
+  "SortGroupLinesBy": 522,
   "Stages": [
     {
-      "Id": 731,
-      "Name": "Hodkiewicz-Altenwerth",
-      "ToolTip": "Velit unde.",
+      "Id": 43,
+      "Name": "Schimmel LLC",
+      "ToolTip": "Ut odio esse aspernatur dolor et.",
       "Deleted": false,
-      "Rank": 337,
-      "Type": "enim",
-      "ColorBlock": 465,
-      "IconHint": "iste",
+      "Rank": 527,
+      "Type": "repellat",
+      "ColorBlock": 310,
+      "IconHint": "voluptas",
       "Selected": true,
-      "LastChanged": "2019-11-24T09:41:00.7303893+01:00",
+      "LastChanged": "2005-04-08T15:05:43.7891177+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "dolorem",
-      "Hidden": true,
-      "FullName": "Ms. Eveline Effertz",
+      "ExtraInfo": "magni",
+      "StyleHint": "laboriosam",
+      "Hidden": false,
+      "FullName": "Friedrich Conroy",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   }
 }

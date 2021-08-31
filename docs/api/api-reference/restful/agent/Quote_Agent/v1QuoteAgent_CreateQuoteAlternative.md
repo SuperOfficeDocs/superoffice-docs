@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateQuoteAlternative
+title: CreateQuoteAlternative
 id: v1QuoteAgent_CreateQuoteAlternative
 ---
 
-# POST Agents/Quote/CreateQuoteAlternative
+# CreateQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
@@ -102,13 +102,13 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 631,
-  "QuoteAlternativeName": "Lind, Mueller and Daniel",
-  "QuoteAlternativeDescription": "Focused client-server workforce"
+  "QuoteVersionId": 422,
+  "QuoteAlternativeName": "Spinka-Volkman",
+  "QuoteAlternativeDescription": "De-engineered fresh-thinking neural-net"
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 78,
-  "ERPQuoteAlternativeKey": "distinctio",
-  "QuoteVersionId": 579,
-  "Name": "Stark Inc and Sons",
-  "Description": "Digitized context-sensitive help-desk",
+  "QuoteAlternativeId": 124,
+  "ERPQuoteAlternativeKey": "reprehenderit",
+  "QuoteVersionId": 520,
+  "Name": "Leffler, Schowalter and Wuckert",
+  "Description": "Fully-configurable composite interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10686.94,
-  "ERPDiscountAmount": 29183.807999999997,
-  "DiscountPercent": 10339.065999999999,
-  "DiscountAmount": 2817.466,
+  "ERPDiscountPercent": 7408.776,
+  "ERPDiscountAmount": 7493.3939999999993,
+  "DiscountPercent": 23182.198,
+  "DiscountAmount": 2419.448,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "provident",
-  "VAT": 24470.272,
-  "EarningPercent": 28707.44,
-  "EarningAmount": 26664.072,
-  "SubTotal": 11799.51,
-  "TotalPrice": 20201.764,
-  "ExtraField1": "eos",
-  "ExtraField2": "dicta",
-  "ExtraField3": "sit",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "laudantium",
+  "VATInfo": "omnis",
+  "VAT": 1720.566,
+  "EarningPercent": 4961.1219999999994,
+  "EarningAmount": 29820.01,
+  "SubTotal": 29882.69,
+  "TotalPrice": 19835.086,
+  "ExtraField1": "cupiditate",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "officiis",
+  "ExtraField4": "quo",
+  "ExtraField5": "ab",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 30
     }
   }
 }

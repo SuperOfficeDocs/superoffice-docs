@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Shields-Thompson",
-  "Tooltip": "id",
+  "Id": 97,
+  "Name": "Sporer Inc and Sons",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 857,
+  "UdListDefinitionId": 231,
+  "Rank": 322,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

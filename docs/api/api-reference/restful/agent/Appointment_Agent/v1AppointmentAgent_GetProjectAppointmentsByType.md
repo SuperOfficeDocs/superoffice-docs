@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectAppointmentsByType
+title: GetProjectAppointmentsByType
 id: v1AppointmentAgent_GetProjectAppointmentsByType
 ---
 
-# POST Agents/Appointment/GetProjectAppointmentsByType
+# GetProjectAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
@@ -125,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 331,
-  "StartTime": "2019-02-08T16:48:28.4394186+01:00",
-  "EndTime": "1997-09-05T16:48:28.4394186+02:00",
-  "Count": 379,
+  "ProjectId": 105,
+  "StartTime": "2000-03-08T14:58:03.0575383+01:00",
+  "EndTime": "2021-03-30T14:58:03.0575383+02:00",
+  "Count": 469,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 191,
-    "StartDate": "2014-09-01T16:48:28.4404369+02:00",
-    "EndDate": "2019-05-18T16:48:28.4404369+02:00",
+    "AppointmentId": 401,
+    "StartDate": "2004-11-26T14:58:03.0585384+01:00",
+    "EndDate": "2007-01-15T14:58:03.0585384+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Rolando Fay",
-    "ContactName": "Dickens, Lindgren and Lesch",
-    "Description": "Optimized neutral system engine",
-    "PersonFullName": "Anjali Abernathy",
-    "PersonId": 440,
-    "ContactId": 873,
-    "ProjectId": 961,
-    "ProjectName": "Reinger-Lowe",
-    "IsPublished": false,
-    "AssociateId": 352,
-    "ColorIndex": 181,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "fugiat",
+    "AssociateFullName": "Katheryn Steuber DVM",
+    "ContactName": "Heidenreich-Padberg",
+    "Description": "Extended tangible knowledge user",
+    "PersonFullName": "Alvera Labadie",
+    "PersonId": 851,
+    "ContactId": 389,
+    "ProjectId": 42,
+    "ProjectName": "Denesik, Howell and Smith",
+    "IsPublished": true,
+    "AssociateId": 606,
+    "ColorIndex": 778,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 523,
-    "PriorityName": "Leannon, Bayer and Carter",
+    "PriorityId": 684,
+    "PriorityName": "Schultz-Pagac",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2011-10-31T16:48:28.4414501+01:00",
+    "ActiveDate": "2005-05-21T14:58:03.0585384+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-07-03T16:48:28.4414501+02:00",
-    "RecurringEndDate": "2016-12-11T16:48:28.4414501+01:00",
-    "MotherId": 161,
-    "AssignedBy": 740,
-    "AssignedByFullName": "Mr. Albin Sipes",
+    "RecurringStartDate": "2017-07-24T14:58:03.0585384+02:00",
+    "RecurringEndDate": "2016-04-01T14:58:03.0585384+02:00",
+    "MotherId": 481,
+    "AssignedBy": 528,
+    "AssignedByFullName": "Oscar Hilll",
     "RejectReason": "",
-    "Location": "laboriosam",
-    "AlarmLeadTime": "a",
-    "SaleId": 789,
-    "SaleName": "Ruecker Group",
-    "AssociateName": "Morissette, Bahringer and Luettgen",
-    "CreatedDate": "2020-07-04T16:48:28.4414501+02:00",
-    "CreatedBy": "vel",
-    "CreatedByFullName": "Selena Cummerata",
-    "CreatedByAssociateId": 536,
+    "Location": "fuga",
+    "AlarmLeadTime": "ut",
+    "SaleId": 961,
+    "SaleName": "Murphy-Rutherford",
+    "AssociateName": "Krajcik LLC",
+    "CreatedDate": "1998-02-28T14:58:03.0595381+01:00",
+    "CreatedBy": "possimus",
+    "CreatedByFullName": "Dr. Nasir Hyatt",
+    "CreatedByAssociateId": 460,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldType": "System.String",
+        "FieldLength": 653
       }
     }
   }

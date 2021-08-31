@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Frami Group",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 172,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 840,
+  "Name": "Batz-Schneider",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "Rank": 65,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": false
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 75,
-  "Name": "Beatty, Aufderhar and Hessel",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 494,
+  "Id": 40,
+  "Name": "Larkin, VonRueden and West",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 590,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "hic",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 590
     }
   }
 }

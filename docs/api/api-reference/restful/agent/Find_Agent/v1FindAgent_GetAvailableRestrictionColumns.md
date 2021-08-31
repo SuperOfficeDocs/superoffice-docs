@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetAvailableRestrictionColumns
+title: GetAvailableRestrictionColumns
 id: v1FindAgent_GetAvailableRestrictionColumns
 ---
 
-# POST Agents/Find/GetAvailableRestrictionColumns
+# GetAvailableRestrictionColumns
 
 ```http
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
@@ -69,12 +69,12 @@ Response body: array
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "a",
-  "ProviderName": "Bosco, Runolfsdottir and Kutch"
+  "StorageType": "quia",
+  "ProviderName": "Bradtke-Langworth"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "vero",
-  "saepe"
+  "est",
+  "voluptas"
 ]
 ```

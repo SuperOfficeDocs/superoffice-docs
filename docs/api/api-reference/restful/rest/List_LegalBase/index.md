@@ -2,6 +2,8 @@
 title: List_LegalBase
 ---
 
+# List_LegalBase
+
 ```http
 /api/v1/List/LegalBase
 ```

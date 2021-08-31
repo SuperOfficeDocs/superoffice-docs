@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetSmsConfig
+title: GetSmsConfig
 id: v1CustomerServiceAgent_GetSmsConfig
 ---
 
-# POST Agents/CustomerService/GetSmsConfig
+# GetSmsConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/GetSmsConfig
@@ -81,11 +81,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "eligendi",
-  "NsPluginSender": "aliquid",
+  "NetServerSmsProvider": "assumenda",
+  "NsPluginSender": "omnis",
   "NsPluginConfig": {
-    "NsPluginConfig1": "neque",
-    "NsPluginConfig2": "est"
+    "NsPluginConfig1": "sit",
+    "NsPluginConfig2": "quis"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 871
     }
   }
 }

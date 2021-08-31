@@ -1,9 +1,9 @@
 ---
-title: POST Agents/DatabaseTable/DeleteRow
+title: DeleteRow
 id: v1DatabaseTableAgent_DeleteRow
 ---
 
-# POST Agents/DatabaseTable/DeleteRow
+# DeleteRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/DeleteRow

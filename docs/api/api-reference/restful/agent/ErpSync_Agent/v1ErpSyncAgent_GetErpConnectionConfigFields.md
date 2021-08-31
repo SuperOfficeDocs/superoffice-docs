@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetErpConnectionConfigFields
+title: GetErpConnectionConfigFields
 id: v1ErpSyncAgent_GetErpConnectionConfigFields
 ---
 
-# POST Agents/ErpSync/GetErpConnectionConfigFields
+# GetErpConnectionConfigFields
 
 ```http
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 381
+  "ErpConnectionId": 556
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quis",
-  "2": "consequuntur"
+  "1": "atque",
+  "2": "amet"
 }
 ```

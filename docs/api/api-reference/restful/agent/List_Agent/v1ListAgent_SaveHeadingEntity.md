@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingEntity
+title: SaveHeadingEntity
 id: v1ListAgent_SaveHeadingEntity
 ---
 
-# POST Agents/List/SaveHeadingEntity
+# SaveHeadingEntity
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingEntity
@@ -82,12 +82,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 519,
-  "Name": "Pagac, Cruickshank and Koss",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 422,
-  "UdListDefinitionId": 836
+  "HeadingId": 236,
+  "Name": "Olson-Schuppe",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "Rank": 330,
+  "UdListDefinitionId": 348
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 387,
-  "Name": "Larson-Torphy",
-  "Tooltip": "est",
+  "HeadingId": 585,
+  "Name": "Keeling, Gerlach and Murray",
+  "Tooltip": "magnam",
   "Deleted": true,
-  "Rank": 943,
-  "UdListDefinitionId": 390,
+  "Rank": 995,
+  "UdListDefinitionId": 140,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   }
 }

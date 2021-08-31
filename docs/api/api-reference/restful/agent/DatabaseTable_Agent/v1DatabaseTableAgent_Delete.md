@@ -1,15 +1,15 @@
 ---
-title: POST Agents/DatabaseTable/Delete
+title: Delete
 id: v1DatabaseTableAgent_Delete
 ---
 
-# POST Agents/DatabaseTable/Delete
+# Delete
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete
 ```
 
-Delete rows, by primary key
+Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
 
 
@@ -72,10 +72,11 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | Did the operation succeed |
-| Message | string | Any message from the method; blank if success |
+| Message | string | Any message from the method, including timing data |
 | Inserts | int32 | Number of rows inserted |
 | Updates | int32 | Number of rows updated |
-| Deletes | int32 | Number of rows deleted |
+| Deletes | int32 | Number of rows deleted / zeroed |
+| RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -85,14 +86,14 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Shanahan, Rutherford and Greenholt",
+  "TableName": "O'Kon, Tillman and Auer",
   "IDs": [
-    946,
-    474
+    158,
+    65
   ]
 }
 ```
@@ -102,11 +103,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "et",
-  "Inserts": 81,
-  "Updates": 156,
-  "Deletes": 158,
+  "Success": true,
+  "Message": "incidunt",
+  "Inserts": 729,
+  "Updates": 906,
+  "Deletes": 900,
+  "RowStatus": [
+    {
+      "PrimaryKey": 644,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "dolorem",
+        "neque"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 67
+        }
+      }
+    },
+    {
+      "PrimaryKey": 644,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "dolorem",
+        "neque"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 67
+        }
+      }
+    }
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +156,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "seize scalable vortals"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

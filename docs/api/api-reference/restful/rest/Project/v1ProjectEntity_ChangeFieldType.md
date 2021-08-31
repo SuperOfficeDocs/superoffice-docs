@@ -29,7 +29,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -116,43 +116,43 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 571,
-  "ColumnId": 800,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 218,
-  "FieldLabel": "non",
-  "FieldLeft": 334,
-  "FieldTop": 41,
+  "UDefFieldId": 71,
+  "ColumnId": 79,
+  "FieldDefault": "qui",
+  "FieldHeight": 673,
+  "FieldLabel": "veritatis",
+  "FieldLeft": 852,
+  "FieldTop": 952,
   "FieldType": "Checkbox",
-  "FieldWidth": 331,
-  "FormatMask": "quasi",
+  "FieldWidth": 983,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 700,
-  "LabelLeft": 476,
-  "LabelTop": 497,
-  "LabelWidth": 546,
-  "LastVersionId": 819,
-  "ListTableId": 198,
+  "LabelHeight": 319,
+  "LabelLeft": 772,
+  "LabelTop": 366,
+  "LabelWidth": 840,
+  "LastVersionId": 725,
+  "ListTableId": 426,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 926,
-  "ProgId": "sequi",
+  "Page1LineNo": 92,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "similique",
-  "TabOrder": 574,
-  "TextLength": 709,
-  "Tooltip": "atque",
-  "UdefIdentity": 396,
-  "UDListDefinitionId": 302,
+  "ShortLabel": "mollitia",
+  "TabOrder": 167,
+  "TextLength": 536,
+  "Tooltip": "deleniti",
+  "UdefIdentity": 569,
+  "UDListDefinitionId": 721,
   "Justification": "Center",
-  "Version": 639,
-  "TemplateVariableName": "Legros LLC",
+  "Version": 615,
+  "TemplateVariableName": "Lang-Christiansen",
   "HasBeenPublished": true,
-  "MdoListName": "Hauck Group",
+  "MdoListName": "Dach, Schulist and Pouros",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "cultivate ubiquitous paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 229
     }
   }
 }

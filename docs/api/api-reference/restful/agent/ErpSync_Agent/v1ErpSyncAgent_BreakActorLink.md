@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/BreakActorLink
+title: BreakActorLink
 id: v1ErpSyncAgent_BreakActorLink
 ---
 
-# POST Agents/ErpSync/BreakActorLink
+# BreakActorLink
 
 ```http
 POST /api/v1/Agents/ErpSync/BreakActorLink
@@ -72,12 +72,12 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/BreakActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 88,
-  "CrmRecordId": 579,
+  "ErpConnectionId": 844,
+  "CrmRecordId": 276,
   "CrmActorType": "Contact"
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

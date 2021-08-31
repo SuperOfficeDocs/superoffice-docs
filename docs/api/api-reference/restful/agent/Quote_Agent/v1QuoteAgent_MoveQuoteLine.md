@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/MoveQuoteLine
+title: MoveQuoteLine
 id: v1QuoteAgent_MoveQuoteLine
 ---
 
-# POST Agents/Quote/MoveQuoteLine
+# MoveQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/MoveQuoteLine

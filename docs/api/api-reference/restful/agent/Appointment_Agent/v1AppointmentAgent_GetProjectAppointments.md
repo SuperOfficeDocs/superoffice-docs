@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectAppointments
+title: GetProjectAppointments
 id: v1AppointmentAgent_GetProjectAppointments
 ---
 
-# POST Agents/Appointment/GetProjectAppointments
+# GetProjectAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointments
@@ -124,14 +124,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 466,
-  "StartTime": "2000-06-27T16:48:28.4364619+02:00",
-  "EndTime": "2016-09-04T16:48:28.4364619+02:00",
-  "Count": 420
+  "ProjectId": 795,
+  "StartTime": "2012-05-17T14:58:03.0545381+02:00",
+  "EndTime": "2007-10-17T14:58:03.0545381+02:00",
+  "Count": 675
 }
 ```
 
@@ -141,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 360,
-    "StartDate": "1998-08-15T16:48:28.438455+02:00",
-    "EndDate": "2014-08-20T16:48:28.438455+02:00",
+    "AppointmentId": 774,
+    "StartDate": "2017-02-04T14:58:03.0565384+01:00",
+    "EndDate": "1995-04-24T14:58:03.0565384+02:00",
     "Type": "BookingForChecklist",
-    "Task": "itaque",
-    "AssociateFullName": "Jovanny Deckow",
-    "ContactName": "Larson, Jewess and Terry",
-    "Description": "Quality-focused attitude-oriented instruction set",
-    "PersonFullName": "Mckayla Thompson",
-    "PersonId": 585,
-    "ContactId": 175,
-    "ProjectId": 608,
-    "ProjectName": "Runolfsdottir, Parker and Simonis",
+    "Task": "aut",
+    "AssociateFullName": "Colt Bode",
+    "ContactName": "Dooley Inc and Sons",
+    "Description": "Up-sized modular throughput",
+    "PersonFullName": "Lenora Treutel",
+    "PersonId": 833,
+    "ContactId": 875,
+    "ProjectId": 699,
+    "ProjectName": "Kuphal, Harvey and Bergnaum",
     "IsPublished": true,
-    "AssociateId": 283,
-    "ColorIndex": 723,
-    "IsFree": false,
+    "AssociateId": 882,
+    "ColorIndex": 205,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 385,
-    "PriorityName": "Kessler, Hickle and Boyer",
+    "PriorityId": 855,
+    "PriorityName": "Ruecker-Block",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2019-02-09T16:48:28.438455+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-06-08T14:58:03.0565384+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1995-02-22T16:48:28.438455+01:00",
-    "RecurringEndDate": "2003-08-07T16:48:28.438455+02:00",
-    "MotherId": 16,
-    "AssignedBy": 966,
-    "AssignedByFullName": "Junior Ratke",
+    "RecurringStartDate": "2015-08-18T14:58:03.0565384+02:00",
+    "RecurringEndDate": "2019-01-13T14:58:03.0565384+01:00",
+    "MotherId": 189,
+    "AssignedBy": 576,
+    "AssignedByFullName": "Lue Konopelski",
     "RejectReason": "",
-    "Location": "voluptatum",
-    "AlarmLeadTime": "enim",
-    "SaleId": 681,
-    "SaleName": "Schmidt Inc and Sons",
-    "AssociateName": "Crist-Johnston",
-    "CreatedDate": "2007-10-02T16:48:28.4394186+02:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Christina Roob MD",
-    "CreatedByAssociateId": 238,
+    "Location": "hic",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 768,
+    "SaleName": "Abbott, Lakin and Cronin",
+    "AssociateName": "Windler Inc and Sons",
+    "CreatedDate": "2009-12-30T14:58:03.0575383+01:00",
+    "CreatedBy": "accusamus",
+    "CreatedByFullName": "Vivienne Mayert",
+    "CreatedByAssociateId": 848,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldLength": 932
       }
     }
   }

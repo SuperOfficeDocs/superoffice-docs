@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Hackett Group",
-    "ToolTip": "Aspernatur soluta qui asperiores voluptatem.",
+    "Id": 307,
+    "Name": "Kirlin, Franecki and Gottlieb",
+    "ToolTip": "Totam voluptas.",
     "Deleted": true,
-    "Rank": 646,
-    "Type": "expedita",
-    "ColorBlock": 241,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2009-01-16T09:41:00.6563815+01:00",
+    "Rank": 403,
+    "Type": "omnis",
+    "ColorBlock": 264,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2001-01-17T15:05:43.7160821+01:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Auer, Ortiz and Marquardt",
-        "ToolTip": "Rerum cum delectus enim quod dicta est.",
+        "Id": 888,
+        "Name": "Tillman-Satterfield",
+        "ToolTip": "Nihil non excepturi optio deleniti autem vel.",
         "Deleted": true,
-        "Rank": 600,
-        "Type": "debitis",
-        "ColorBlock": 880,
-        "IconHint": "eveniet",
+        "Rank": 523,
+        "Type": "libero",
+        "ColorBlock": 953,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2001-02-14T09:41:00.6563815+01:00",
+        "LastChanged": "1996-12-20T15:05:43.7171131+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Shaun Beer",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Dale Wolf",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldType": "System.String",
+            "FieldLength": 195
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Miss Heloise Ratke",
+    "ExtraInfo": "facere",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Jedidiah Fisher",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "brand revolutionary metrics"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 110
       }
     }
   }

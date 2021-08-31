@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteAllFromListDefinition
+title: DeleteAllFromListDefinition
 id: v1ListAgent_DeleteAllFromListDefinition
 ---
 
-# POST Agents/List/DeleteAllFromListDefinition
+# DeleteAllFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/DeleteAllFromListDefinition

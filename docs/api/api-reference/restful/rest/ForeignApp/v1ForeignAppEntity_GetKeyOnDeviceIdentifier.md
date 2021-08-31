@@ -71,23 +71,23 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Jun 1994 09:40:59 G6T
+Last-Modified: Sat, 02 Jul 2005 15:05:42 G7T
 
 {
-  "Key": "voluptatibus",
-  "Value": "at",
-  "RecordId": 351,
-  "CreatedDate": "2019-09-23T09:40:59.2236628+02:00",
-  "UpdatedDate": "1994-06-28T09:40:59.2236628+02:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "nihil",
-  "TableName": "Balistreri LLC",
+  "Key": "dolorum",
+  "Value": "doloribus",
+  "RecordId": 1001,
+  "CreatedDate": "2005-05-08T15:05:42.2446727+02:00",
+  "UpdatedDate": "2005-07-02T15:05:42.2446727+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "ut",
+  "TableName": "Kemmer-Dickinson",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,10 +96,10 @@ Last-Modified: Tue, 28 Jun 1994 09:40:59 G6T
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "transition end-to-end experiences"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 132
     }
   }
 }

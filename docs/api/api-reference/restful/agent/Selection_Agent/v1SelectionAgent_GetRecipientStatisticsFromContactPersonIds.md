@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
+title: GetRecipientStatisticsFromContactPersonIds
 id: v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds
 ---
 
-# POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
+# GetRecipientStatisticsFromContactPersonIds
 
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
@@ -82,18 +82,18 @@ Response body: object
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 900,
-      "ContactId": 44
+      "PersonId": 647,
+      "ContactId": 281
     },
     {
-      "PersonId": 900,
-      "ContactId": 44
+      "PersonId": 647,
+      "ContactId": 281
     }
   ]
 }
@@ -104,12 +104,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 523,
-  "ValidPostalAddresses": 750,
-  "ValidEmailAddresses": 37,
-  "ValidFaxNumbers": 266,
-  "NoAddresses": 546,
-  "NoFaxOrEmails": 19,
+  "Total": 73,
+  "ValidPostalAddresses": 916,
+  "ValidEmailAddresses": 467,
+  "ValidFaxNumbers": 466,
+  "NoAddresses": 102,
+  "NoFaxOrEmails": 829,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 520
     }
   }
 }

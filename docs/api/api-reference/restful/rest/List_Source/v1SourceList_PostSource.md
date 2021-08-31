@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "Name": "Boyle, Bailey and Stokes",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "UdListDefinitionId": 788,
-  "Rank": 6
+  "Id": 37,
+  "Name": "Frami-Ernser",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 465,
+  "Rank": 226
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Olson, Runolfsson and McCullough",
-  "Tooltip": "hic",
+  "Id": 109,
+  "Name": "Kemmer-Kuhic",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 544,
-  "Rank": 434,
+  "UdListDefinitionId": 360,
+  "Rank": 922,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "syndicate ubiquitous content"
       },
       "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldLength": 422
     }
   }
 }

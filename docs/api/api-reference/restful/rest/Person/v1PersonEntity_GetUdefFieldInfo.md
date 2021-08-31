@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 644,
-  "ColumnId": 714,
-  "FieldDefault": "suscipit",
-  "FieldHeight": 554,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 179,
-  "FieldTop": 111,
+  "UDefFieldId": 922,
+  "ColumnId": 13,
+  "FieldDefault": "aut",
+  "FieldHeight": 364,
+  "FieldLabel": "totam",
+  "FieldLeft": 516,
+  "FieldTop": 712,
   "FieldType": "Checkbox",
-  "FieldWidth": 850,
-  "FormatMask": "quidem",
+  "FieldWidth": 104,
+  "FormatMask": "omnis",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 982,
-  "LabelLeft": 489,
-  "LabelTop": 353,
-  "LabelWidth": 631,
-  "LastVersionId": 273,
-  "ListTableId": 57,
-  "IsMandatory": true,
+  "LabelHeight": 334,
+  "LabelLeft": 515,
+  "LabelTop": 287,
+  "LabelWidth": 37,
+  "LastVersionId": 896,
+  "ListTableId": 225,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 281,
-  "ProgId": "commodi",
+  "Page1LineNo": 508,
+  "ProgId": "ullam",
   "IsReadOnly": true,
-  "ShortLabel": "beatae",
-  "TabOrder": 725,
-  "TextLength": 762,
-  "Tooltip": "placeat",
-  "UdefIdentity": 113,
-  "UDListDefinitionId": 851,
+  "ShortLabel": "dolorem",
+  "TabOrder": 963,
+  "TextLength": 902,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 776,
+  "UDListDefinitionId": 21,
   "Justification": "Center",
-  "Version": 606,
-  "TemplateVariableName": "Grady, Torphy and Mills",
-  "HasBeenPublished": true,
-  "MdoListName": "Schiller Inc and Sons",
+  "Version": 604,
+  "TemplateVariableName": "Deckow LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Dicki-Morissette",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/TestSmtpServer
+title: TestSmtpServer
 id: v1CustomerServiceAgent_TestSmtpServer
 ---
 
-# POST Agents/CustomerService/TestSmtpServer
+# TestSmtpServer
 
 ```http
 POST /api/v1/Agents/CustomerService/TestSmtpServer
@@ -81,12 +81,12 @@ Response body: object
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "voluptatem",
-  "From": "maiores",
+  "SmtpUri": "consequuntur",
+  "From": "corporis",
   "UseStoredPassword": false
 }
 ```
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldLength": 703
     }
   }
 }

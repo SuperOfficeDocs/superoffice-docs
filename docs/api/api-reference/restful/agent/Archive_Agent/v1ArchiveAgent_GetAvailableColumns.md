@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetAvailableColumns
+title: GetAvailableColumns
 id: v1ArchiveAgent_GetAvailableColumns
 ---
 
-# POST Agents/Archive/GetAvailableColumns
+# GetAvailableColumns
 
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns
@@ -84,12 +84,12 @@ Response body: array
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dach Group",
-  "Context": "perferendis"
+  "ProviderName": "Koelpin-Fay",
+  "Context": "ut"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Grant, Daniel and Stracke",
-    "DisplayTooltip": "fugit",
-    "DisplayType": "consectetur",
-    "CanOrderBy": false,
-    "Name": "Block-Stroman",
+    "DisplayName": "Emmerich, Nolan and Boyer",
+    "DisplayTooltip": "aperiam",
+    "DisplayType": "et",
+    "CanOrderBy": true,
+    "Name": "Carter, Roberts and Towne",
     "CanRestrictBy": false,
-    "RestrictionType": "qui",
-    "RestrictionListName": "Smitham-Howe",
-    "IsVisible": true,
-    "ExtraInfo": "corporis",
-    "Width": "voluptas",
-    "IconHint": "incidunt",
-    "HeadingIconHint": "magnam"
+    "RestrictionType": "exercitationem",
+    "RestrictionListName": "Stiedemann-Farrell",
+    "IsVisible": false,
+    "ExtraInfo": "non",
+    "Width": "quia",
+    "IconHint": "corporis",
+    "HeadingIconHint": "perspiciatis"
   }
 ]
 ```

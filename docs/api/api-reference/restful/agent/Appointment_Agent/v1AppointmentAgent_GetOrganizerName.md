@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetOrganizerName
+title: GetOrganizerName
 id: v1AppointmentAgent_GetOrganizerName
 ---
 
-# POST Agents/Appointment/GetOrganizerName
+# GetOrganizerName
 
 ```http
 POST /api/v1/Agents/Appointment/GetOrganizerName
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 982
+  "MotherAppointmentId": 470
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hessel Inc and Sons"
+"Ziemann Inc and Sons"
 ```

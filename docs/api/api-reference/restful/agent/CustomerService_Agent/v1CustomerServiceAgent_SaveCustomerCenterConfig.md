@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/SaveCustomerCenterConfig
+title: SaveCustomerCenterConfig
 id: v1CustomerServiceAgent_SaveCustomerCenterConfig
 ---
 
-# POST Agents/CustomerService/SaveCustomerCenterConfig
+# SaveCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
@@ -86,14 +86,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 595,
+  "CustConfigId": 767,
   "Type": "Options",
-  "Config": "blanditiis",
-  "CustLangId": 754,
-  "Registered": "2017-10-14T16:48:29.2198943+02:00",
-  "RegisteredAssociateId": 763,
-  "Updated": "2005-09-01T16:48:29.2198943+02:00",
-  "UpdatedAssociateId": 898
+  "Config": "id",
+  "CustLangId": 615,
+  "Registered": "2003-11-26T14:58:03.7524323+01:00",
+  "RegisteredAssociateId": 837,
+  "Updated": "1995-08-16T14:58:03.7524323+02:00",
+  "UpdatedAssociateId": 179
 }
 ```
 
@@ -102,17 +102,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 630,
+  "CustConfigId": 279,
   "Type": "Options",
-  "Config": "est",
-  "CustLangId": 636,
-  "Registered": "2003-01-16T16:48:29.2198943+01:00",
-  "RegisteredAssociateId": 56,
-  "Updated": "2006-12-01T16:48:29.2198943+01:00",
-  "UpdatedAssociateId": 405,
+  "Config": "debitis",
+  "CustLangId": 432,
+  "Registered": "1997-11-03T14:58:03.75346+01:00",
+  "RegisteredAssociateId": 350,
+  "Updated": "2005-04-27T14:58:03.75346+02:00",
+  "UpdatedAssociateId": 93,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "incentivize B2C functionalities"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

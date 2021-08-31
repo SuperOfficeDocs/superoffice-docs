@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/SaveStatusMonitorPeriods
+title: SaveStatusMonitorPeriods
 id: v1SaintAgent_SaveStatusMonitorPeriods
 ---
 
-# POST Agents/Saint/SaveStatusMonitorPeriods
+# SaveStatusMonitorPeriods
 
 ```http
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 459,
-  "Period2": 965,
-  "Period3": 411
+  "Period1": 831,
+  "Period2": 566,
+  "Period3": 6
 }
 ```
 
@@ -87,9 +87,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 309,
-  "Period2": 468,
-  "Period3": 569,
+  "Period1": 431,
+  "Period2": 746,
+  "Period3": 884,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 386
     }
   }
 }

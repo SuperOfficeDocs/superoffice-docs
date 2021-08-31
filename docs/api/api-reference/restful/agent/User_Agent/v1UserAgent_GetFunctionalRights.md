@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetFunctionalRights
+title: GetFunctionalRights
 id: v1UserAgent_GetFunctionalRights
 ---
 
-# POST Agents/User/GetFunctionalRights
+# GetFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/GetFunctionalRights
@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 787
+  "RoleId": 166
 }
 ```
 
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Hudson, Johns and Volkman",
-    "ToolTip": "Sint ullam dolor.",
+    "Id": 47,
+    "Name": "Blanda, Armstrong and Kuhlman",
+    "ToolTip": "Molestiae quibusdam.",
     "Deleted": false,
-    "Rank": 945,
+    "Rank": 82,
     "Type": "delectus",
-    "ColorBlock": 150,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "1999-08-02T16:48:30.9669339+02:00",
+    "ColorBlock": 597,
+    "IconHint": "consequuntur",
+    "Selected": false,
+    "LastChanged": "1999-02-05T14:58:05.572065+01:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Collier-Marvin",
-        "ToolTip": "Magnam sint quis quam iusto velit.",
-        "Deleted": true,
-        "Rank": 655,
-        "Type": "cum",
-        "ColorBlock": 470,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2017-11-21T16:48:30.9669339+01:00",
+        "Id": 941,
+        "Name": "Streich Inc and Sons",
+        "ToolTip": "Suscipit qui.",
+        "Deleted": false,
+        "Rank": 900,
+        "Type": "corrupti",
+        "ColorBlock": 72,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "1998-07-05T14:58:05.572065+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Maude Herman",
+        "ExtraInfo": "facilis",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Fae Walsh",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,15 +142,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "in",
+    "ExtraInfo": "aut",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Yadira Connelly",
+    "FullName": "Maci Schaden",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

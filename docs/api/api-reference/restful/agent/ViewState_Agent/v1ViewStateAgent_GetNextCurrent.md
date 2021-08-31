@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetNextCurrent
+title: GetNextCurrent
 id: v1ViewStateAgent_GetNextCurrent
 ---
 
-# POST Agents/ViewState/GetNextCurrent
+# GetNextCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/GetNextCurrent
@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Cremin Inc and Sons",
-  "Id": 329
+  "HistoryName": "Durgan-Blanda",
+  "Id": 125
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 657,
-  "Id": 731,
-  "HistoryName": "Kulas Inc and Sons",
-  "HistoryId": 95,
-  "AssociateId": 192,
-  "Name": "Satterfield-Rosenbaum",
-  "ItemInfo": "occaecati",
+  "Rank": 828,
+  "Id": 783,
+  "HistoryName": "Gislason, Kertzmann and Becker",
+  "HistoryId": 292,
+  "AssociateId": 43,
+  "Name": "Green Group",
+  "ItemInfo": "omnis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 181
     }
   }
 }

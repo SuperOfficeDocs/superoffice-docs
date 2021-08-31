@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Heathcote Group",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "UdListDefinitionId": 967,
-  "Rank": 443,
+  "Id": 66,
+  "Name": "Runolfsson, Emard and Braun",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 327,
+  "Rank": 706,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "synergize efficient e-services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

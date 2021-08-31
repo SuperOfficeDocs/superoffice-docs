@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfosByState
+title: GetBatchTaskInfosByState
 id: v1BatchAgent_GetBatchTaskInfosByState
 ---
 
-# POST Agents/Batch/GetBatchTaskInfosByState
+# GetBatchTaskInfosByState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
@@ -83,6 +83,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -92,7 +93,7 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,29 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Hand, Schroeder and Douglas",
-    "AssociateId": 725,
-    "DetailsTable": 63,
-    "DetailsRecord": 245,
+    "Id": 122,
+    "Name": "VonRueden-Harris",
+    "AssociateId": 542,
+    "DetailsTable": 497,
+    "DetailsRecord": 999,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "voluptas"
+      "ParameterObject1": "doloribus",
+      "ParameterObject2": "debitis"
     },
-    "LastStarted": "2014-03-27T16:48:28.7791986+01:00",
-    "Created": "2016-09-30T16:48:28.7791986+02:00",
-    "StartCount": 428,
-    "DatabaseSerialNumber": "1128437",
-    "Context": "sed",
-    "Result": "sed",
+    "LastStarted": "1997-08-23T14:58:03.2712428+02:00",
+    "Created": "2009-07-31T14:58:03.2712428+02:00",
+    "StartCount": 722,
+    "DatabaseSerialNumber": "483643",
+    "Context": "est",
+    "Result": "quam",
     "State": "All",
-    "Description": "Synergistic stable website",
-    "Response": "cumque",
-    "Request": "perferendis",
-    "ProgressDescription": "User-centric local product",
-    "ProgressPercent": 715,
+    "Description": "Re-contextualized methodical algorithm",
+    "Response": "est",
+    "Request": "maxime",
+    "ProgressDescription": "Decentralized optimizing flexibility",
+    "ProgressPercent": 887,
+    "FileName": "Schoen, Champlin and Wehner",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

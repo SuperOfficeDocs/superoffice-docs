@@ -77,7 +77,7 @@ Response body: object
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -85,23 +85,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 351,
-  "Name": "Turner, Botsford and Lockman",
-  "CurrencyId": 499,
-  "EnglishName": "Bosco, Bechtelar and Erdman",
+  "CountryId": 698,
+  "Name": "Schuster Group",
+  "CurrencyId": 187,
+  "EnglishName": "Ortiz-Smith",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ergonomic impactful project",
-  "OrgNrText": "744638",
-  "InterAreaPrefix": "eos",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "in",
-  "DomainName": "Hamill, Batz and Von",
-  "AddressLayoutId": 756,
-  "DomesticAddressLayoutId": 347,
-  "ForeignAddressLayoutId": 847,
-  "Rank": 745,
-  "Tooltip": "quod",
+  "ImageDescription": "Operative upward-trending task-force",
+  "OrgNrText": "860151",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "quia",
+  "ZipPrefix": "corrupti",
+  "DomainName": "Denesik, Roob and Prosacco",
+  "AddressLayoutId": 547,
+  "DomesticAddressLayoutId": 71,
+  "ForeignAddressLayoutId": 326,
+  "Rank": 375,
+  "Tooltip": "veniam",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldLength": 140
     }
   }
 }

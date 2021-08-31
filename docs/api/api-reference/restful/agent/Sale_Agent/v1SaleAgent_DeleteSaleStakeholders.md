@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/DeleteSaleStakeholders
+title: DeleteSaleStakeholders
 id: v1SaleAgent_DeleteSaleStakeholders
 ---
 
-# POST Agents/Sale/DeleteSaleStakeholders
+# DeleteSaleStakeholders
 
 ```http
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders

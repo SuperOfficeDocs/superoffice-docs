@@ -66,31 +66,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 775,
-  "Name": "Bosco, Bogisich and Connelly",
-  "TZLocationCode": "molestiae",
-  "TZLocationCities": "natus",
-  "IsoNumber": 139,
+  "TZLocationID": 327,
+  "Name": "O'Keefe Group",
+  "TZLocationCode": "voluptas",
+  "TZLocationCities": "quo",
+  "IsoNumber": 549,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 850,
-      "StartMonth": 789,
-      "EndDay": 763,
-      "EndMonth": 341,
-      "TZOffset": 120,
-      "StartRulePattern": "libero",
-      "EndRulePattern": "qui"
+      "StartDay": 800,
+      "StartMonth": 59,
+      "EndDay": 873,
+      "EndMonth": 224,
+      "TZOffset": 860,
+      "StartRulePattern": "reiciendis",
+      "EndRulePattern": "aut"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 486,
-      "StartMonth": 960,
-      "EndDay": 784,
-      "EndMonth": 63,
-      "TZOffset": 544,
-      "StartRulePattern": "architecto",
-      "EndRulePattern": "fugit"
+      "StartDay": 433,
+      "StartMonth": 312,
+      "EndDay": 92,
+      "EndMonth": 269,
+      "TZOffset": 563,
+      "StartRulePattern": "laborum",
+      "EndRulePattern": "nisi"
     }
   }
 }

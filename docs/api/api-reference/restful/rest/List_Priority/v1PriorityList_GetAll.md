@@ -24,7 +24,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=False
+GET /api/v1/List/Priority/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Block, Mayer and Ankunding",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "UdListDefinitionId": 789,
-    "Rank": 146,
+    "Id": 911,
+    "Name": "Boyer, Watsica and White",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 145,
+    "Rank": 499,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "orchestrate leading-edge e-business"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 503
+        "FieldLength": 966
       }
     }
   }

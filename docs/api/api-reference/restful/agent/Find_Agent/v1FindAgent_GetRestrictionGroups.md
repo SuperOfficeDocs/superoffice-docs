@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetRestrictionGroups
+title: GetRestrictionGroups
 id: v1FindAgent_GetRestrictionGroups
 ---
 
-# POST Agents/Find/GetRestrictionGroups
+# GetRestrictionGroups
 
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroups
@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Hoeger-Powlowski",
-  "StorageKey": "repellendus",
-  "Context": "optio"
+  "StorageType": "odio",
+  "ProviderName": "Boyle, Jaskolski and Gorczany",
+  "StorageKey": "libero",
+  "Context": "sit"
 }
 ```
 
@@ -94,20 +94,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hegmann Group",
-    "Description": "Right-sized motivating complexity",
-    "Rank": 191,
+    "Name": "Kessler Inc and Sons",
+    "Description": "Right-sized 3rd generation projection",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Wunsch Group",
-        "Operator": "nulla",
+        "Name": "Rice Inc and Sons",
+        "Operator": "nihil",
         "Values": [
-          "architecto",
-          "nemo"
+          "ex",
+          "ut"
         ],
         "DisplayValues": [
-          "cumque",
-          "delectus"
+          "nisi",
+          "quia"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -115,27 +115,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 684,
+        "InterParenthesis": 167,
         "InterOperator": "And",
-        "UniqueHash": 852
+        "UniqueHash": 161
       }
     ]
   },
   {
-    "Name": "Hegmann Group",
-    "Description": "Right-sized motivating complexity",
-    "Rank": 191,
+    "Name": "Kessler Inc and Sons",
+    "Description": "Right-sized 3rd generation projection",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Wunsch Group",
-        "Operator": "nulla",
+        "Name": "Rice Inc and Sons",
+        "Operator": "nihil",
         "Values": [
-          "architecto",
-          "nemo"
+          "ex",
+          "ut"
         ],
         "DisplayValues": [
-          "cumque",
-          "delectus"
+          "nisi",
+          "quia"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -143,9 +143,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 684,
+        "InterParenthesis": 167,
         "InterOperator": "And",
-        "UniqueHash": 852
+        "UniqueHash": 161
       }
     ]
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetDefaultOrderBy
+title: GetDefaultOrderBy
 id: v1FindAgent_GetDefaultOrderBy
 ---
 
-# POST Agents/Find/GetDefaultOrderBy
+# GetDefaultOrderBy
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderBy
@@ -74,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Runolfsson-Herzog",
-  "StorageKey": "dolorem"
+  "StorageType": "officia",
+  "ProviderName": "Rolfson, Aufderhar and Gerhold",
+  "StorageKey": "voluptas"
 }
 ```
 
@@ -90,11 +90,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hoeger, Stracke and Bogisich",
+    "Name": "Leannon, McLaughlin and West",
     "Direction": "ASC"
   },
   {
-    "Name": "Hoeger, Stracke and Bogisich",
+    "Name": "Leannon, McLaughlin and West",
     "Direction": "ASC"
   }
 ]

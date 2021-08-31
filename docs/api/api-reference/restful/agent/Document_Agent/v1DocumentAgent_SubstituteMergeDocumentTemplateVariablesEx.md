@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx
+title: SubstituteMergeDocumentTemplateVariablesEx
 id: v1DocumentAgent_SubstituteMergeDocumentTemplateVariablesEx
 ---
 
-# POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx
+# SubstituteMergeDocumentTemplateVariablesEx
 
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx
@@ -77,25 +77,25 @@ Response body:
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 546,
-  "ContactId": 112,
-  "PersonId": 912,
-  "ProjectId": 609,
-  "SelectionId": 180,
-  "AppointmentId": 461,
-  "DocumentId": 955,
-  "SaleId": 322,
+  "MergeDocumentId": 969,
+  "ContactId": 743,
+  "PersonId": 951,
+  "ProjectId": 307,
+  "SelectionId": 930,
+  "AppointmentId": 333,
+  "DocumentId": 135,
+  "SaleId": 129,
   "CustomTags": [
-    "qui",
-    "eos"
+    "laboriosam",
+    "enim"
   ],
   "CustomValues": [
-    "dicta",
-    "commodi"
+    "dolores",
+    "deleniti"
   ]
 }
 ```

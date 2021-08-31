@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetApplicationKeys
+title: GetApplicationKeys
 id: v1ForeignSystemAgent_GetApplicationKeys
 ---
 
-# POST Agents/ForeignSystem/GetApplicationKeys
+# GetApplicationKeys
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dibbert, Gutkowski and Kohler"
+  "ApplicationName": "Koelpin Group"
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "enim",
-    "Value": "dolor",
-    "RecordId": 16,
-    "CreatedDate": "1997-04-06T16:48:29.7199313+02:00",
-    "UpdatedDate": "2012-12-31T16:48:29.7199313+01:00",
-    "UpdatedBy": "repellendus",
-    "CreatedBy": "totam",
-    "TableName": "Block, Jones and Mosciski",
+    "Key": "quisquam",
+    "Value": "vel",
+    "RecordId": 797,
+    "CreatedDate": "1997-01-18T14:58:04.3144604+01:00",
+    "UpdatedDate": "1998-07-19T14:58:04.3144604+02:00",
+    "UpdatedBy": "exercitationem",
+    "CreatedBy": "veritatis",
+    "TableName": "McCullough, Murphy and Brakus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 959
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetSanitizedTemplateStreamFromId
+title: GetSanitizedTemplateStreamFromId
 id: v1DocumentAgent_GetSanitizedTemplateStreamFromId
 ---
 
-# POST Agents/Document/GetSanitizedTemplateStreamFromId
+# GetSanitizedTemplateStreamFromId
 
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
@@ -69,12 +69,12 @@ Response body:
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 639,
-  "UiCulture": "ad"
+  "TemplateId": 687,
+  "UiCulture": "ex"
 }
 ```
 

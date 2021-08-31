@@ -78,7 +78,7 @@ Response body: object
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 365,
-  "ParentId": 45,
-  "Name": "Bashirian-Trantow",
-  "Fullname": "et",
-  "CategoryMaster": 769,
+  "TicketCategoryId": 758,
+  "ParentId": 797,
+  "Name": "Jacobs Inc and Sons",
+  "Fullname": "labore",
+  "CategoryMaster": 365,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Koch Group",
+  "ExternalName": "Marks, Jerde and Gislason",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 31,
-  "ReplyTemplate": 567,
-  "NotificationEmail": "carlos@stracke.com",
+  "AssignmentLag": 800,
+  "ReplyTemplate": 998,
+  "NotificationEmail": "laurel_goldner@dietrich.biz",
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "nam",
+    "CustomFields2": "sed"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

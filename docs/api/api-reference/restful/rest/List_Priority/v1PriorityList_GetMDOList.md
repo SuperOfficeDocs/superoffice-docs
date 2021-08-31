@@ -25,8 +25,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=ea
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=explicabo
 ```
 
 
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Leffler-Kiehn",
-    "ToolTip": "Modi assumenda quia minus.",
+    "Id": 85,
+    "Name": "Gusikowski, Boehm and Witting",
+    "ToolTip": "Voluptatum et quo dolorum.",
     "Deleted": true,
-    "Rank": 601,
-    "Type": "voluptas",
+    "Rank": 120,
+    "Type": "esse",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Kassulke, Leuschke and Cruickshank",
-        "ToolTip": "Alias sit labore mollitia aperiam repudiandae natus.",
-        "Deleted": true,
-        "Rank": 318,
-        "Type": "cupiditate",
+        "Id": 858,
+        "Name": "Kirlin Inc and Sons",
+        "ToolTip": "Expedita non qui id id nihil.",
+        "Deleted": false,
+        "Rank": 761,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 315,
-        "ExtraInfo": "ea",
-        "StyleHint": "accusamus",
-        "FullName": "Iva Nicolas",
+        "IconHint": "dolores",
+        "ColorBlock": 948,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "omnis",
+        "FullName": "Rhea Mills",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "benchmark magnetic schemas"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 492
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 706,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "quis",
-    "FullName": "Fritz Ebert",
+    "IconHint": "quisquam",
+    "ColorBlock": 678,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "cupiditate",
+    "FullName": "Tianna Weimann I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldLength": 197
       }
     }
   }

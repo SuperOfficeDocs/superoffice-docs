@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveResourceEntity
+title: SaveResourceEntity
 id: v1ListAgent_SaveResourceEntity
 ---
 
-# POST Agents/List/SaveResourceEntity
+# SaveResourceEntity
 
 ```http
 POST /api/v1/Agents/List/SaveResourceEntity
@@ -80,17 +80,17 @@ Response body: object
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 417,
-  "Name": "Reilly, Cruickshank and Greenfelder",
-  "Rank": 902,
-  "Tooltip": "animi",
+  "ResourceId": 251,
+  "Name": "Morar-Smitham",
+  "Rank": 844,
+  "Tooltip": "aut",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "et"
+  "IsLocation": true,
+  "LocationAddress": "laboriosam"
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 45,
-  "Name": "Becker, Farrell and Beer",
-  "Rank": 106,
-  "Tooltip": "expedita",
+  "ResourceId": 15,
+  "Name": "Hessel-Huel",
+  "Rank": 709,
+  "Tooltip": "veniam",
   "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "iure",
+  "IsLocation": true,
+  "LocationAddress": "quo",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

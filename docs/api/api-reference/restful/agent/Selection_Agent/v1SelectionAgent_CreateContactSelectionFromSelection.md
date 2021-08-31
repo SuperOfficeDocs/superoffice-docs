@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/CreateContactSelectionFromSelection
+title: CreateContactSelectionFromSelection
 id: v1SelectionAgent_CreateContactSelectionFromSelection
 ---
 
-# POST Agents/Selection/CreateContactSelectionFromSelection
+# CreateContactSelectionFromSelection
 
 ```http
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 526,
-  "Name": "Stamm Group",
+  "SelectionId": 364,
+  "Name": "Schmitt, Koch and Goldner",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable full-range portal",
-  "Postit": "est",
+  "Description": "Automated hybrid alliance",
+  "Postit": "fugiat",
   "Associate": {
-    "AssociateId": 282,
-    "Name": "Schumm, Champlin and Kessler",
-    "PersonId": 859,
-    "Rank": 568,
-    "Tooltip": "accusamus",
+    "AssociateId": 636,
+    "Name": "Morar, Kautzer and Hodkiewicz",
+    "PersonId": 970,
+    "Rank": 4,
+    "Tooltip": "facilis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 331,
-    "FullName": "Eva Daniel",
-    "FormalName": "Osinski-Stokes",
-    "Deleted": true,
-    "EjUserId": 563,
-    "UserName": "Krajcik-Schroeder",
+    "GroupIdx": 568,
+    "FullName": "Antwon Ernser",
+    "FormalName": "O'Hara LLC",
+    "Deleted": false,
+    "EjUserId": 109,
+    "UserName": "Paucek, Kris and Padberg",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -154,24 +154,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 293
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 407,
-    "Name": "Morissette-Orn",
-    "PersonId": 760,
-    "Rank": 828,
-    "Tooltip": "voluptatem",
+    "AssociateId": 47,
+    "Name": "Hodkiewicz, Farrell and Hand",
+    "PersonId": 412,
+    "Rank": 232,
+    "Tooltip": "nulla",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 18,
-    "FullName": "Dillan Kirlin",
-    "FormalName": "Ward-Gerlach",
+    "GroupIdx": 172,
+    "FullName": "Raymundo Nicolas",
+    "FormalName": "Kuvalis-Medhurst",
     "Deleted": true,
-    "EjUserId": 300,
-    "UserName": "Crist-Heaney",
+    "EjUserId": 620,
+    "UserName": "Ledner, Stroman and Altenwerth",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -180,23 +180,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 44
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 41,
-    "Name": "Miller Inc and Sons",
-    "PersonId": 469,
-    "Rank": 637,
-    "Tooltip": "eveniet",
+    "AssociateId": 149,
+    "Name": "Gottlieb LLC",
+    "PersonId": 978,
+    "Rank": 405,
+    "Tooltip": "a",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 453,
-    "FullName": "Jaylen Douglas PhD",
-    "FormalName": "Kunde-Block",
+    "GroupIdx": 267,
+    "FullName": "Deborah Yundt",
+    "FormalName": "Schuster, Hirthe and Reichert",
     "Deleted": true,
-    "EjUserId": 481,
-    "UserName": "Medhurst Group",
+    "EjUserId": 759,
+    "UserName": "Hamill Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -204,93 +204,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   },
   "SelectionCategory": {
-    "Id": 864,
-    "Value": "architecto",
-    "Tooltip": "libero",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 720
-      }
-    }
-  },
-  "GroupIdx": 645,
-  "IncludePerson": 223,
-  "MemberCount": 52,
-  "Name": "Hoeger-Reilly",
-  "PostitTextId": 368,
-  "CreatedDate": "2020-05-11T16:48:30.6709074+02:00",
-  "SelectionId": 51,
-  "SoundEx": "omnis",
-  "Source": 293,
-  "TextId": 450,
-  "UpdatedDate": "1994-11-11T16:48:30.6709074+01:00",
-  "UpdatedCount": 660,
-  "Visibility": 266,
-  "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 476,
-  "TargetTableName": "Breitenberg Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 997,
-  "RightSelectionId": 149,
-  "SelectionUnionType": "Intersect",
-  "MainProviderName": "Senger, Robel and Sauer",
-  "ShadowProviderName": "Ortiz LLC",
-  "ChartKey": "eos",
-  "LastLoaded": "2013-09-12T16:48:30.6709074+02:00",
-  "LastLoadedBy": 29,
-  "LastLoadedByAssociate": {
-    "AssociateId": 379,
-    "Name": "Moen Inc and Sons",
-    "PersonId": 902,
-    "Rank": 12,
-    "Tooltip": "iusto",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 416,
-    "FullName": "Hattie Jerde",
-    "FormalName": "Stroman, Hauck and Oberbrunner",
-    "Deleted": false,
-    "EjUserId": 523,
-    "UserName": "Bednar LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 291
-      }
-    }
-  },
-  "LastMembershipChange": "2013-11-28T16:48:30.6709074+01:00",
-  "LastMembershipChangeBy": 489,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 110,
-    "Name": "Haley, Braun and Homenick",
-    "PersonId": 238,
-    "Rank": 317,
-    "Tooltip": "accusamus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 208,
-    "FullName": "Mrs. Keaton Carter",
-    "FormalName": "Bruen-Jakubowski",
-    "Deleted": true,
-    "EjUserId": 807,
-    "UserName": "Harris-Pouros",
+    "Id": 48,
+    "Value": "dolor",
+    "Tooltip": "nobis",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -299,18 +221,96 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 84
       }
     }
   },
-  "MainHeading": "quos",
-  "MemberTabHeading": "nobis",
-  "MailingsProviderName": "Roberts-Hahn",
+  "GroupIdx": 250,
+  "IncludePerson": 569,
+  "MemberCount": 451,
+  "Name": "Koepp Inc and Sons",
+  "PostitTextId": 680,
+  "CreatedDate": "2009-07-29T14:58:05.2986325+02:00",
+  "SelectionId": 242,
+  "SoundEx": "quia",
+  "Source": 630,
+  "TextId": 86,
+  "UpdatedDate": "2002-05-19T14:58:05.2986325+02:00",
+  "UpdatedCount": 492,
+  "Visibility": 289,
+  "SelectionType": "Combined",
+  "CompanyUnique": true,
+  "TargetTableNumber": 648,
+  "TargetTableName": "Will, Daugherty and Dooley",
+  "Completed": false,
+  "LeftSelectionId": 143,
+  "RightSelectionId": 359,
+  "SelectionUnionType": "Intersect",
+  "MainProviderName": "Buckridge, McClure and Beatty",
+  "ShadowProviderName": "Mraz, Rowe and Marquardt",
+  "ChartKey": "ad",
+  "LastLoaded": "1994-08-11T14:58:05.2986325+02:00",
+  "LastLoadedBy": 294,
+  "LastLoadedByAssociate": {
+    "AssociateId": 152,
+    "Name": "Rogahn-Rice",
+    "PersonId": 891,
+    "Rank": 480,
+    "Tooltip": "sapiente",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 690,
+    "FullName": "Chadd Feest",
+    "FormalName": "Nolan, Cassin and Bernier",
+    "Deleted": true,
+    "EjUserId": 654,
+    "UserName": "Brekke Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 143
+      }
+    }
+  },
+  "LastMembershipChange": "2012-01-29T14:58:05.2986325+01:00",
+  "LastMembershipChangeBy": 9,
+  "LastMembershipChangeByAssociate": {
+    "AssociateId": 326,
+    "Name": "Parisian Inc and Sons",
+    "PersonId": 525,
+    "Rank": 827,
+    "Tooltip": "vitae",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 446,
+    "FullName": "Emily Weber",
+    "FormalName": "Stanton-Borer",
+    "Deleted": true,
+    "EjUserId": 408,
+    "UserName": "Carroll, Wolf and Nicolas",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 937
+      }
+    }
+  },
+  "MainHeading": "et",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Rogahn Inc and Sons",
   "VisibleFor": [
     {
-      "VisibleId": 330,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "aut",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -318,15 +318,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 944
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     },
     {
-      "VisibleId": 330,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "aut",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -334,8 +334,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 944
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     }
@@ -350,8 +350,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

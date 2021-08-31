@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultListEntity
+title: CreateDefaultListEntity
 id: v1ListAgent_CreateDefaultListEntity
 ---
 
-# POST Agents/List/CreateDefaultListEntity
+# CreateDefaultListEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultListEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Lemke, Bernhard and Senger",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 497,
-  "IsCustomList": false,
+  "Id": 69,
+  "Name": "Rolfson, Leannon and Schmitt",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 561,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "leverage innovative bandwidth"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldLength": 723
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetKey
+title: GetKey
 id: v1ForeignSystemAgent_GetKey
 ---
 
-# POST Agents/ForeignSystem/GetKey
+# GetKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKey
@@ -85,15 +85,15 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "D'Amore, Corwin and Jacobs",
-  "DeviceName": "Wisoky LLC",
-  "KeyName": "White Inc and Sons",
-  "TableName": "Flatley, Carroll and Armstrong",
-  "RecordId": 115
+  "ApplicationName": "Von Inc and Sons",
+  "DeviceName": "Bartoletti LLC",
+  "KeyName": "Leannon, Yost and Leffler",
+  "TableName": "Deckow, Mohr and Jenkins",
+  "RecordId": 381
 }
 ```
 
@@ -102,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ad",
-  "Value": "occaecati",
-  "RecordId": 425,
-  "CreatedDate": "2007-10-26T16:48:29.7109244+02:00",
-  "UpdatedDate": "2020-05-01T16:48:29.7109244+02:00",
-  "UpdatedBy": "iusto",
-  "CreatedBy": "autem",
-  "TableName": "Schuppe-Leannon",
+  "Key": "quasi",
+  "Value": "suscipit",
+  "RecordId": 835,
+  "CreatedDate": "2008-03-30T14:58:04.3054599+02:00",
+  "UpdatedDate": "2019-11-19T14:58:04.3054599+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "consequatur",
+  "TableName": "Bins LLC",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "visualize 24/7 e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enable impactful communities"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 716
     }
   }
 }

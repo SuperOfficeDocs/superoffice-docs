@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/CreateDefaultPreference
+title: CreateDefaultPreference
 id: v1PreferenceAgent_CreateDefaultPreference
 ---
 
-# POST Agents/Preference/CreateDefaultPreference
+# CreateDefaultPreference
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreference
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -78,30 +78,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "omnis",
+  "RawValue": "vero",
   "Specification": {
-    "Section": "non",
-    "Key": "sunt",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 85
-      }
-    }
-  },
-  "DisplayValue": "molestiae",
-  "DisplayTooltip": "molestias",
-  "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 672,
-    "TabName": "Satterfield-Langworth",
-    "Order": "officiis",
-    "AssociateId": 914,
+    "Section": "fuga",
+    "Key": "quidem",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -110,14 +90,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 148
       }
     }
   },
-  "TargetId": 315,
-  "PrefDescId": 873,
-  "TableName": "O'Kon LLC",
-  "UserPreferenceId": 487,
+  "DisplayValue": "non",
+  "DisplayTooltip": "temporibus",
+  "DisplayType": "Bool",
+  "TabOrder": {
+    "TabOrderId": 228,
+    "TabName": "Johnson, Romaguera and Beahan",
+    "Order": "eveniet",
+    "AssociateId": 508,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 473
+      }
+    }
+  },
+  "TargetId": 640,
+  "PrefDescId": 765,
+  "TableName": "Dickinson Group",
+  "UserPreferenceId": 787,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -126,10 +126,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "envisioneer front-end applications"
       },
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

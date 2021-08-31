@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/ExportSelectionMembersWithOrderBy
+title: ExportSelectionMembersWithOrderBy
 id: v1SelectionAgent_ExportSelectionMembersWithOrderBy
 ---
 
-# POST Agents/Selection/ExportSelectionMembersWithOrderBy
+# ExportSelectionMembersWithOrderBy
 
 ```http
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
@@ -71,14 +71,14 @@ Response body:
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 350,
-  "TemplateName": "Orn, Ernser and Nolan",
-  "UseContacts": true,
-  "OrderBy": "excepturi"
+  "SelectionId": 601,
+  "TemplateName": "Aufderhar LLC",
+  "UseContacts": false,
+  "OrderBy": "maiores"
 }
 ```
 

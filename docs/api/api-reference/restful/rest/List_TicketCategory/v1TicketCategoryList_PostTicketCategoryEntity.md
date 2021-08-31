@@ -96,30 +96,30 @@ Response body: object
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 299,
-  "ParentId": 321,
-  "Name": "Treutel-Labadie",
-  "Fullname": "et",
-  "CategoryMaster": 608,
+  "TicketCategoryId": 574,
+  "ParentId": 414,
+  "Name": "Lueilwitz-Ortiz",
+  "Fullname": "aut",
+  "CategoryMaster": 782,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Green-Durgan",
+  "ExternalName": "Carter-Pouros",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 164,
-  "ReplyTemplate": 628,
-  "NotificationEmail": "madelynn@walsh.com",
+  "AssignmentLag": 489,
+  "ReplyTemplate": 498,
+  "NotificationEmail": "karli_ritchie@jerde.us",
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "quia"
+    "CustomFields1": "ut",
+    "CustomFields2": "in"
   }
 }
 ```
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 895,
-  "ParentId": 95,
-  "Name": "Fadel-Jenkins",
-  "Fullname": "sit",
-  "CategoryMaster": 305,
+  "TicketCategoryId": 272,
+  "ParentId": 367,
+  "Name": "Steuber LLC",
+  "Fullname": "hic",
+  "CategoryMaster": 160,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Nienow-Wyman",
+  "ExternalName": "Metz, Moen and Hyatt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 534,
-  "ReplyTemplate": 793,
-  "NotificationEmail": "bradly.kreiger@parker.biz",
+  "AssignmentLag": 143,
+  "ReplyTemplate": 549,
+  "NotificationEmail": "milton@goodwinarmstrong.us",
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "nobis",
+    "CustomFields2": "corrupti"
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "whiteboard vertical infrastructures"
+    "Reason": "reintermediate vertical supply-chains"
   },
   "FieldProperties": {
     "fieldName": {
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 235
     }
   }
 }

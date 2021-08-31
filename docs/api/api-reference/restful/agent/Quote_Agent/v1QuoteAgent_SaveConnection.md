@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveConnection
+title: SaveConnection
 id: v1QuoteAgent_SaveConnection
 ---
 
-# POST Agents/Quote/SaveConnection
+# SaveConnection
 
 ```http
 POST /api/v1/Agents/Quote/SaveConnection
@@ -92,19 +92,19 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Connection": {
-    "QuoteConnectionId": 933,
-    "ERPName": "Braun-Sporer",
-    "DisplayName": "Lebsack-Schroeder",
-    "DisplayDescription": "Face to face fresh-thinking budgetary management",
-    "Rank": 994,
-    "ConnectorName": "Casper-Durgan",
-    "ErpConnectionId": 589,
-    "ExtraData": "officia",
+    "QuoteConnectionId": 21,
+    "ERPName": "Bailey-Maggio",
+    "DisplayName": "Morissette, Langworth and Labadie",
+    "DisplayDescription": "Front-line background array",
+    "Rank": 667,
+    "ConnectorName": "Rempel, Funk and Collier",
+    "ErpConnectionId": 534,
+    "ExtraData": "neque",
     "IsAvailable": true,
     "InitializeResponse": {},
     "PriceLists": [
@@ -114,12 +114,12 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      245,
-      213
+      946,
+      479
     ],
     "AssociateAccessIds": [
-      136,
-      218
+      500,
+      179
     ]
   }
 }
@@ -130,20 +130,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 199,
-  "ERPName": "Durgan, Schulist and Christiansen",
-  "DisplayName": "Swaniawski, Armstrong and Walter",
-  "DisplayDescription": "Quality-focused fault-tolerant website",
-  "Rank": 70,
-  "ConnectorName": "Halvorson-Brown",
-  "ErpConnectionId": 608,
-  "ExtraData": "occaecati",
+  "QuoteConnectionId": 774,
+  "ERPName": "Nienow Inc and Sons",
+  "DisplayName": "Hirthe, Bailey and Heller",
+  "DisplayDescription": "Self-enabling discrete help-desk",
+  "Rank": 516,
+  "ConnectorName": "Torp, Jakubowski and Schuster",
+  "ErpConnectionId": 791,
+  "ExtraData": "velit",
   "IsAvailable": true,
   "InitializeResponse": {
     "IsOk": false,
-    "UserExplanation": "optio",
-    "TechExplanation": "numquam",
-    "ErrorCode": "consequuntur",
+    "UserExplanation": "repudiandae",
+    "TechExplanation": "mollitia",
+    "ErrorCode": "nisi",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -152,23 +152,23 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 737,
-      "ERPPriceListKey": "voluptas",
-      "QuoteConnectionId": 665,
-      "Name": "Kemmer, Schinner and Wiegand",
-      "Description": "Universal value-added solution",
-      "Currency": "quas",
-      "CurrencyName": "Pfeffer, Huels and Williamson",
-      "ValidFrom": "2007-11-18T16:48:30.3859348+01:00",
-      "ValidTo": "2015-03-15T16:48:30.3859348+01:00",
-      "IsActive": false,
+      "PriceListId": 252,
+      "ERPPriceListKey": "molestias",
+      "QuoteConnectionId": 114,
+      "Name": "Dicki LLC",
+      "Description": "User-centric responsive focus group",
+      "Currency": "rerum",
+      "CurrencyName": "Kihn-Howe",
+      "ValidFrom": "2019-09-22T14:58:04.9654339+02:00",
+      "ValidTo": "2013-01-02T14:58:04.9654339+01:00",
+      "IsActive": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -177,20 +177,20 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldLength": 508
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    726,
-    600
+    931,
+    282
   ],
   "AssociateAccessIds": [
-    227,
-    717
+    464,
+    425
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 466
     }
   }
 }

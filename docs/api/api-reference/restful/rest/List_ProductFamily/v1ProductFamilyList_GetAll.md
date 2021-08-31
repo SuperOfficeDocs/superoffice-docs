@@ -24,7 +24,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Keebler, Sauer and Stracke",
-    "Tooltip": "harum",
-    "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 624,
+    "Id": 64,
+    "Name": "Quitzon, Simonis and Luettgen",
+    "Tooltip": "non",
+    "Deleted": true,
+    "UdListDefinitionId": 365,
+    "Rank": 104,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 912
       }
     }
   }

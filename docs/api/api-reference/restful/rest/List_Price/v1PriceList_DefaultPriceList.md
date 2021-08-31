@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 700,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 455,
-  "Name": "Collier, King and Huels",
-  "Description": "Pre-emptive exuding time-frame",
-  "Currency": "fugiat",
-  "CurrencyName": "Terry, Mraz and Smith",
-  "ValidFrom": "1996-10-20T09:41:00.516382+02:00",
-  "ValidTo": "1998-06-23T09:41:00.516382+02:00",
+  "PriceListId": 728,
+  "ERPPriceListKey": "optio",
+  "QuoteConnectionId": 507,
+  "Name": "Gerlach, Rau and Russel",
+  "Description": "Re-contextualized clear-thinking moratorium",
+  "Currency": "qui",
+  "CurrencyName": "Greenfelder-Hintz",
+  "ValidFrom": "2011-09-16T15:05:43.5850797+02:00",
+  "ValidTo": "1999-07-15T15:05:43.5850797+02:00",
   "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldLength": 206
     }
   }
 }

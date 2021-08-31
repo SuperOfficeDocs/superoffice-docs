@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetPersonSummary
+title: GetPersonSummary
 id: v1PersonAgent_GetPersonSummary
 ---
 
-# POST Agents/Person/GetPersonSummary
+# GetPersonSummary
 
 ```http
 POST /api/v1/Agents/Person/GetPersonSummary
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Person/GetPersonSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 797,
-  "Limit": 70
+  "PersonId": 271,
+  "Limit": 132
 }
 ```
 
@@ -97,45 +97,45 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": {
-    "Position": "ut",
-    "PersonId": 591,
-    "Mrmrs": "et",
-    "Firstname": "Hazel",
-    "Lastname": "Trantow",
-    "MiddleName": "Frami-Kemmer",
-    "Title": "tempore",
-    "Description": "Balanced composite database",
-    "Email": "agnes@bednarmorar.us",
-    "FullName": "Jerrod Nienow",
-    "DirectPhone": "(637)046-1854 x31231",
-    "FormalName": "Waters, Fritsch and Schuster",
-    "CountryId": 633,
-    "ContactId": 900,
-    "ContactName": "Schamberger-Lakin",
-    "Retired": 753,
-    "Rank": 742,
-    "ActiveInterests": 461,
-    "ContactDepartment": "engineer mission-critical methodologies",
-    "ContactCountryId": 739,
-    "ContactOrgNr": "1598222",
-    "FaxPhone": "(005)760-6368",
-    "MobilePhone": "687-833-6081 x53262",
-    "ContactPhone": "(144)525-3162",
-    "AssociateName": "Collins-Mann",
-    "AssociateId": 219,
+    "Position": "autem",
+    "PersonId": 553,
+    "Mrmrs": "non",
+    "Firstname": "Elnora",
+    "Lastname": "Herman",
+    "MiddleName": "Franecki Inc and Sons",
+    "Title": "nemo",
+    "Description": "Multi-channelled holistic migration",
+    "Email": "antwan@hermistonboehm.info",
+    "FullName": "Liliane Cassin V",
+    "DirectPhone": "(507)318-2443 x00343",
+    "FormalName": "Jaskolski, Mohr and Von",
+    "CountryId": 544,
+    "ContactId": 788,
+    "ContactName": "Donnelly Group",
+    "Retired": 139,
+    "Rank": 493,
+    "ActiveInterests": 807,
+    "ContactDepartment": "",
+    "ContactCountryId": 205,
+    "ContactOrgNr": "368214",
+    "FaxPhone": "736-247-0488 x823",
+    "MobilePhone": "276.060.1005 x87261",
+    "ContactPhone": "(221)520-7025 x435",
+    "AssociateName": "Bode, Williamson and McGlynn",
+    "AssociateId": 147,
     "UsePersonAddress": true,
-    "ContactFax": "id",
-    "Kanafname": "ut",
-    "Kanalname": "dolore",
-    "Post1": "at",
-    "Post2": "veritatis",
-    "Post3": "soluta",
-    "EmailName": "gerard_hermann@huels.ca",
-    "ContactFullName": "Donny Grimes",
-    "ActiveErpLinks": 595,
-    "TicketPriorityId": 175,
-    "SupportLanguageId": 609,
-    "SupportAssociateId": 691,
+    "ContactFax": "sed",
+    "Kanafname": "molestiae",
+    "Kanalname": "numquam",
+    "Post1": "ut",
+    "Post2": "ex",
+    "Post3": "deserunt",
+    "EmailName": "garrick@reillymueller.co.uk",
+    "ContactFullName": "Michele Frami",
+    "ActiveErpLinks": 17,
+    "TicketPriorityId": 633,
+    "SupportLanguageId": 853,
+    "SupportAssociateId": 213,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -145,83 +145,83 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldLength": 281
       }
     }
   },
   "Tickets": [
     {
-      "TicketId": 441,
-      "TicketStatus": 750,
-      "Title": "culpa",
-      "Registered": "2000-03-19T16:48:30.1989346+01:00"
+      "TicketId": 523,
+      "TicketStatus": 943,
+      "Title": "fugit",
+      "Registered": "2009-10-22T14:58:04.5814657+02:00"
     },
     {
-      "TicketId": 441,
-      "TicketStatus": 750,
-      "Title": "culpa",
-      "Registered": "2000-03-19T16:48:30.1989346+01:00"
+      "TicketId": 523,
+      "TicketStatus": 943,
+      "Title": "fugit",
+      "Registered": "2009-10-22T14:58:04.5814657+02:00"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 360,
-      "DocumentId": 742,
-      "Date": "2000-01-14T16:48:30.1989346+01:00",
-      "Description": "Streamlined didactic middleware",
+      "AppointmentId": 180,
+      "DocumentId": 364,
+      "Date": "2017-02-01T14:58:04.5814657+01:00",
+      "Description": "Total actuating hardware",
       "Completed": "Completed",
-      "Registered": "2006-04-10T16:48:30.1989346+02:00"
+      "Registered": "2001-05-22T14:58:04.5814657+02:00"
     },
     {
-      "AppointmentId": 360,
-      "DocumentId": 742,
-      "Date": "2000-01-14T16:48:30.1989346+01:00",
-      "Description": "Streamlined didactic middleware",
+      "AppointmentId": 180,
+      "DocumentId": 364,
+      "Date": "2017-02-01T14:58:04.5814657+01:00",
+      "Description": "Total actuating hardware",
       "Completed": "Completed",
-      "Registered": "2006-04-10T16:48:30.1989346+02:00"
+      "Registered": "2001-05-22T14:58:04.5814657+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 310,
-      "DocumentId": 921,
-      "Date": "2009-08-15T16:48:30.1989346+02:00",
-      "Description": "Secured 5th generation time-frame",
+      "AppointmentId": 761,
+      "DocumentId": 745,
+      "Date": "2004-06-25T14:58:04.5814657+02:00",
+      "Description": "Versatile background algorithm",
       "Completed": "Completed",
-      "Registered": "2000-12-14T16:48:30.1989346+01:00"
+      "Registered": "2019-08-03T14:58:04.5814657+02:00"
     },
     {
-      "AppointmentId": 310,
-      "DocumentId": 921,
-      "Date": "2009-08-15T16:48:30.1989346+02:00",
-      "Description": "Secured 5th generation time-frame",
+      "AppointmentId": 761,
+      "DocumentId": 745,
+      "Date": "2004-06-25T14:58:04.5814657+02:00",
+      "Description": "Versatile background algorithm",
       "Completed": "Completed",
-      "Registered": "2000-12-14T16:48:30.1989346+01:00"
+      "Registered": "2019-08-03T14:58:04.5814657+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 588,
-      "SaleDate": "2001-10-08T16:48:30.1989346+02:00",
-      "Probability": 218,
-      "Heading": "nemo",
-      "Amount": 9684.06,
-      "Currency": "voluptates",
-      "AmountInBaseCurrency": 17478.318,
+      "SaleId": 458,
+      "SaleDate": "1995-11-06T14:58:04.5814657+01:00",
+      "Probability": 896,
+      "Heading": "asperiores",
+      "Amount": 29475.27,
+      "Currency": "et",
+      "AmountInBaseCurrency": 6738.0999999999995,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2001-02-13T16:48:30.1989346+01:00"
+      "Registered": "2016-05-30T14:58:04.5814657+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 525,
-      "Name": "Waters-Strosin",
-      "CompanyName": "Swaniawski, Zieme and Hegmann",
-      "FirstMessage": "qui",
-      "LastMessage": "corporis",
-      "WhenRequested": "2009-07-07T16:48:30.1999349+02:00",
-      "WhenEnded": "2000-09-02T16:48:30.1999349+02:00"
+      "ChatSessionId": 989,
+      "Name": "Jenkins-Hermann",
+      "CompanyName": "Wuckert-Donnelly",
+      "FirstMessage": "iste",
+      "LastMessage": "a",
+      "WhenRequested": "2014-07-04T14:58:04.5814657+02:00",
+      "WhenEnded": "2017-05-16T14:58:04.5814657+02:00"
     }
   ]
 }

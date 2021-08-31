@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetForeignDevice
+title: GetForeignDevice
 id: v1ForeignSystemAgent_GetForeignDevice
 ---
 
-# POST Agents/ForeignSystem/GetForeignDevice
+# GetForeignDevice
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=215
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=729
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -87,15 +87,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 286,
-  "Name": "Towne, Hansen and Treutel",
-  "CreatedDate": "2017-12-28T16:48:29.7169289+01:00",
-  "UpdatedDate": "2003-09-11T16:48:29.7169289+02:00",
-  "AssociateFullName": "Valentina Eichmann",
-  "CreatedBy": "aut",
-  "UpdatedBy": "beatae",
-  "DeviceIdentifier": "ab",
-  "ForeignAppId": 254,
+  "ForeignDeviceId": 96,
+  "Name": "Nienow-Schuppe",
+  "CreatedDate": "2006-04-09T14:58:04.3104636+02:00",
+  "UpdatedDate": "1997-07-01T14:58:04.3104636+02:00",
+  "AssociateFullName": "Craig Maggio",
+  "CreatedBy": "porro",
+  "UpdatedBy": "totam",
+  "DeviceIdentifier": "expedita",
+  "ForeignAppId": 152,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldLength": 509
     }
   }
 }

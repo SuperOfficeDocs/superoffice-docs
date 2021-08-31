@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SaveRoleEntity
+title: SaveRoleEntity
 id: v1UserAgent_SaveRoleEntity
 ---
 
-# POST Agents/User/SaveRoleEntity
+# SaveRoleEntity
 
 ```http
 POST /api/v1/Agents/User/SaveRoleEntity
@@ -88,46 +88,46 @@ Response body: object
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 929,
-  "Name": "Dickinson-Steuber",
-  "Tooltip": "nam",
+  "RoleId": 177,
+  "Name": "Erdman Group",
+  "Tooltip": "dicta",
   "RoleType": "Anonymous",
-  "Deleted": 64,
-  "Rank": 183,
-  "Created": "2004-06-29T16:48:30.8869069+02:00",
-  "UseCategories": 467,
+  "Deleted": 62,
+  "Rank": 216,
+  "Created": "2001-12-31T14:58:05.5400545+01:00",
+  "UseCategories": 666,
   "CreatedBy": {
-    "AssociateId": 840,
-    "Name": "Bednar LLC",
-    "PersonId": 577,
-    "Rank": 470,
-    "Tooltip": "earum",
+    "AssociateId": 623,
+    "Name": "Ondricka, Kreiger and Simonis",
+    "PersonId": 273,
+    "Rank": 722,
+    "Tooltip": "ea",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 949,
-    "FullName": "Dr. Johnathan Kuvalis",
-    "FormalName": "McKenzie, Kohler and Davis",
-    "Deleted": true,
-    "EjUserId": 881,
-    "UserName": "Hand Group"
-  },
-  "Updated": "2014-10-24T16:48:30.8869069+02:00",
-  "UpdatedBy": {
-    "AssociateId": 501,
-    "Name": "Stehr-Brakus",
-    "PersonId": 597,
-    "Rank": 571,
-    "Tooltip": "pariatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 518,
-    "FullName": "Okey Williamson",
-    "FormalName": "Von Group",
+    "GroupIdx": 35,
+    "FullName": "Jeff Fadel",
+    "FormalName": "Dickinson-Moore",
     "Deleted": false,
-    "EjUserId": 898,
-    "UserName": "Ondricka-Stiedemann"
+    "EjUserId": 319,
+    "UserName": "Casper-Rosenbaum"
+  },
+  "Updated": "2016-07-04T14:58:05.5400545+02:00",
+  "UpdatedBy": {
+    "AssociateId": 729,
+    "Name": "Lueilwitz, Jast and Pfeffer",
+    "PersonId": 36,
+    "Rank": 909,
+    "Tooltip": "dolores",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 380,
+    "FullName": "Tess Eichmann Sr.",
+    "FormalName": "Rodriguez LLC",
+    "Deleted": false,
+    "EjUserId": 689,
+    "UserName": "Conroy LLC"
   },
   "DataRights": {
     "ColumnsInfo": [
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "soluta",
-          "Description": "Future-proofed bandwidth-monitored architecture",
+          "Value": "dolorum",
+          "Description": "Synergized tertiary methodology",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -153,16 +153,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.Int32",
-              "FieldLength": 516
+              "FieldType": "System.String",
+              "FieldLength": 673
             }
           }
         }
       ],
       [
         {
-          "Value": "qui",
-          "Description": "Configurable 3rd generation methodology",
+          "Value": "est",
+          "Description": "Extended systemic algorithm",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 658
+              "FieldLength": 111
             }
           }
         }
@@ -189,53 +189,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 978,
-  "Name": "Roob LLC",
-  "Tooltip": "perspiciatis",
+  "RoleId": 900,
+  "Name": "Hickle, Boehm and Gleason",
+  "Tooltip": "quis",
   "RoleType": "Anonymous",
-  "Deleted": 321,
-  "Rank": 499,
-  "Created": "2020-11-23T16:48:30.8889301+01:00",
-  "UseCategories": 806,
+  "Deleted": 89,
+  "Rank": 709,
+  "Created": "2000-06-04T14:58:05.5420582+02:00",
+  "UseCategories": 271,
   "CreatedBy": {
-    "AssociateId": 407,
-    "Name": "Gottlieb-Gusikowski",
-    "PersonId": 63,
-    "Rank": 788,
-    "Tooltip": "quia",
+    "AssociateId": 499,
+    "Name": "Hilpert, Jacobi and Toy",
+    "PersonId": 844,
+    "Rank": 320,
+    "Tooltip": "at",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 202,
-    "FullName": "Deshaun Carter",
-    "FormalName": "Waelchi-Rath",
-    "Deleted": true,
-    "EjUserId": 284,
-    "UserName": "Hoppe-Wunsch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 665
-      }
-    }
-  },
-  "Updated": "1994-09-14T16:48:30.8889301+02:00",
-  "UpdatedBy": {
-    "AssociateId": 263,
-    "Name": "Strosin-Lakin",
-    "PersonId": 660,
-    "Rank": 908,
-    "Tooltip": "ratione",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 608,
-    "FullName": "Edmond Beahan",
-    "FormalName": "Considine LLC",
+    "GroupIdx": 295,
+    "FullName": "Dr. Rowland Murphy",
+    "FormalName": "Kuhn, O'Conner and Kuphal",
     "Deleted": false,
-    "EjUserId": 785,
-    "UserName": "Von LLC",
+    "EjUserId": 151,
+    "UserName": "Volkman LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -244,7 +218,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldLength": 997
+      }
+    }
+  },
+  "Updated": "2019-02-25T14:58:05.5430542+01:00",
+  "UpdatedBy": {
+    "AssociateId": 908,
+    "Name": "Kautzer, Kerluke and Strosin",
+    "PersonId": 848,
+    "Rank": 772,
+    "Tooltip": "itaque",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 197,
+    "FullName": "Dr. Golden Pfeffer",
+    "FormalName": "Herman-Braun",
+    "Deleted": true,
+    "EjUserId": 40,
+    "UserName": "Wiegand-Kerluke",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   },
@@ -260,28 +260,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "eaque",
-          "Description": "Pre-emptive solution-oriented hardware",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": "synthesize dynamic content"
-              },
-              "FieldType": "System.String",
-              "FieldLength": 543
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "nam",
-          "Description": "Virtual dedicated extranet",
+          "Value": "sapiente",
+          "Description": "Networked zero defect emulation",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -292,8 +272,28 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.Int32",
-              "FieldLength": 598
+              "FieldType": "System.String",
+              "FieldLength": 576
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "consequatur",
+          "Description": "Synchronised grid-enabled knowledge user",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 227
             }
           }
         }
@@ -307,7 +307,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldLength": 147
       }
     }
   },
@@ -321,8 +321,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

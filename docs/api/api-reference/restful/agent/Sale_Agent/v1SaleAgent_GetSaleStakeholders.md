@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSaleStakeholders
+title: GetSaleStakeholders
 id: v1SaleAgent_GetSaleStakeholders
 ---
 
-# POST Agents/Sale/GetSaleStakeholders
+# GetSaleStakeholders
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholders
@@ -91,11 +91,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 387
+  "SaleId": 292
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Robel, Brakus and Fisher",
-    "Comment": "qui",
-    "StakeholderRoleId": 266,
-    "CountryId": 307,
-    "PersonId": 616,
-    "EmailDescription": "maeve_langosh@rice.biz",
-    "EmailId": 517,
-    "EmailAddress": "john_jewess@nicolasschuster.name",
-    "PhoneId": 760,
-    "ContactName": "Douglas, Considine and Weissnat",
-    "ContactId": 60,
-    "SaleId": 913,
-    "Mrmrs": "eveniet",
-    "Firstname": "Amiya",
-    "MiddleName": "Russel LLC",
-    "Lastname": "Goldner",
-    "SaleStakeholderId": 843,
-    "Rank": 133,
-    "Phone": "870.386.2635",
+    "StakeholderRoleName": "Spinka-Hintz",
+    "Comment": "in",
+    "StakeholderRoleId": 855,
+    "CountryId": 523,
+    "PersonId": 882,
+    "EmailDescription": "buddy.west@kihnohara.co.uk",
+    "EmailId": 646,
+    "EmailAddress": "kody@waelchi.info",
+    "PhoneId": 882,
+    "ContactName": "Rau-Little",
+    "ContactId": 812,
+    "SaleId": 959,
+    "Mrmrs": "molestiae",
+    "Firstname": "Hilbert",
+    "MiddleName": "Schoen Group",
+    "Lastname": "Bartoletti",
+    "SaleStakeholderId": 333,
+    "Rank": 552,
+    "Phone": "838.373.8011",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,10 +132,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "brand killer experiences"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldLength": 483
       }
     }
   }

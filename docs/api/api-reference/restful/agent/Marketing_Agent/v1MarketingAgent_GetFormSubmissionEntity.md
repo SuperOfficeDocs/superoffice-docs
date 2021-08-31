@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetFormSubmissionEntity
+title: GetFormSubmissionEntity
 id: v1MarketingAgent_GetFormSubmissionEntity
 ---
 
-# POST Agents/Marketing/GetFormSubmissionEntity
+# GetFormSubmissionEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=883
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=735
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 140,
-  "FormId": 390,
-  "WhenSubmitted": "2009-12-15T16:48:29.9569241+01:00",
-  "ContactId": 360,
-  "PersonId": 2,
-  "EmailAddress": "tamara@larsonlegros.ca",
-  "ResponseShipmentAddrId": 937,
-  "Response": "non",
+  "FormSubmissionId": 378,
+  "FormId": 62,
+  "WhenSubmitted": "2002-06-22T14:58:04.4984653+02:00",
+  "ContactId": 483,
+  "PersonId": 864,
+  "EmailAddress": "ophelia@kemmer.com",
+  "ResponseShipmentAddrId": 264,
+  "Response": "distinctio",
   "Status": "EmailVerification",
-  "ProcessingLog": "eius",
+  "ProcessingLog": "corrupti",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

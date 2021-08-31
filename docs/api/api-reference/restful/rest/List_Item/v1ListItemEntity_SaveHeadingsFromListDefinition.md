@@ -78,25 +78,25 @@ Response body: array
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 765,
-    "Name": "Veum LLC",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 307
+    "HeadingId": 315,
+    "Name": "Prosacco Group",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 604,
+    "UdListDefinitionId": 87
   },
   {
-    "HeadingId": 765,
-    "Name": "Veum LLC",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 307
+    "HeadingId": 315,
+    "Name": "Prosacco Group",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 604,
+    "UdListDefinitionId": 87
   }
 ]
 ```
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 160,
-    "Name": "O'Connell, Schmitt and O'Connell",
-    "Tooltip": "dolore",
+    "HeadingId": 176,
+    "Name": "Hane, Wilderman and Berge",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 785,
-    "UdListDefinitionId": 75,
+    "Rank": 738,
+    "UdListDefinitionId": 101,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldLength": 511
       }
     }
   }

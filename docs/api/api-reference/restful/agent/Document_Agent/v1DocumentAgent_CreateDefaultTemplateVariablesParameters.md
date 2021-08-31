@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CreateDefaultTemplateVariablesParameters
+title: CreateDefaultTemplateVariablesParameters
 id: v1DocumentAgent_CreateDefaultTemplateVariablesParameters
 ---
 
-# POST Agents/Document/CreateDefaultTemplateVariablesParameters
+# CreateDefaultTemplateVariablesParameters
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "qui",
+  "SourceInput": "totam",
   "Encoding": "Html",
-  "CultureName": "en",
-  "ContactId": 531,
-  "PersonId": 417,
-  "ProjectId": 875,
-  "SelectionId": 129,
-  "AppointmentId": 946,
-  "DocumentId": 967,
-  "SaleId": 437,
-  "QuoteLineId": 287,
-  "QuoteAlternativeId": 513,
-  "ProductKey": "sed",
+  "CultureName": "sv",
+  "ContactId": 842,
+  "PersonId": 600,
+  "ProjectId": 285,
+  "SelectionId": 763,
+  "AppointmentId": 904,
+  "DocumentId": 18,
+  "SaleId": 258,
+  "QuoteLineId": 416,
+  "QuoteAlternativeId": 521,
+  "ProductKey": "voluptatum",
   "CustomTags": [
     [
       {}
@@ -103,26 +103,26 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "DocumentEntity": {
-    "DocumentId": 515,
+    "DocumentId": 49,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "doloribus",
-    "Header": "consequatur",
-    "Name": "Pagac Group",
-    "OurRef": "qui",
-    "YourRef": "est",
-    "CreatedDate": "2017-09-16T16:48:29.3778937+02:00",
-    "UpdatedDate": "2002-09-12T16:48:29.3778937+02:00",
-    "Description": "Multi-tiered scalable projection",
+    "Attention": "voluptate",
+    "Header": "reiciendis",
+    "Name": "Funk-Wunsch",
+    "OurRef": "alias",
+    "YourRef": "deleniti",
+    "CreatedDate": "2007-08-31T14:58:03.9514603+02:00",
+    "UpdatedDate": "2014-09-15T14:58:03.9514603+02:00",
+    "Description": "Intuitive neutral artificial intelligence",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "1994-12-07T16:48:29.3778937+01:00",
-    "ExternalRef": "asperiores",
+    "Date": "2018-03-25T14:58:03.9514603+02:00",
+    "ExternalRef": "perferendis",
     "Completed": "Completed",
-    "ActiveLinks": 270,
+    "ActiveLinks": 159,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -130,24 +130,24 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 633,
-    "Snum": 876,
+    "SuggestedDocumentId": 865,
+    "Snum": 691,
     "UserDefinedFields": {
-      "SuperOffice:1": "Mr. Jackeline Pacocha",
-      "SuperOffice:2": "1065850189"
+      "SuperOffice:1": "Tess Brown",
+      "SuperOffice:2": "False"
     },
     "ExtraFields": {
-      "ExtraFields1": "earum",
-      "ExtraFields2": "architecto"
+      "ExtraFields1": "quam",
+      "ExtraFields2": "ea"
     },
     "CustomFields": {
-      "CustomFields1": "corrupti",
-      "CustomFields2": "mollitia"
+      "CustomFields1": "consequatur",
+      "CustomFields2": "corrupti"
     },
-    "PublishEventDate": "2017-01-04T16:48:29.3788937+01:00",
-    "PublishTo": "1994-08-26T16:48:29.3788937+02:00",
-    "PublishFrom": "2005-06-16T16:48:29.3788937+02:00",
-    "IsPublished": false,
+    "PublishEventDate": "2004-08-24T14:58:03.9514603+02:00",
+    "PublishTo": "2017-01-07T14:58:03.9514603+01:00",
+    "PublishFrom": "2002-03-26T14:58:03.9514603+01:00",
+    "IsPublished": true,
     "VisibleFor": [
       {},
       {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 317
       }
     }
   },
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

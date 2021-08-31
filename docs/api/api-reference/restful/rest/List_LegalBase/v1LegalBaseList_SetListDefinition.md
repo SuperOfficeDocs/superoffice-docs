@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Hodkiewicz-Wiegand",
-  "Tooltip": "ut",
+  "Id": 444,
+  "Name": "Greenfelder-Swift",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 501,
-  "IsCustomList": true,
+  "Rank": 72,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "mollitia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "O'Connell-Durgan",
-  "Tooltip": "quia",
+  "Id": 171,
+  "Name": "Klocko LLC",
+  "Tooltip": "explicabo",
   "Deleted": true,
-  "Rank": 318,
+  "Rank": 167,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldLength": 309
     }
   }
 }

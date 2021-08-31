@@ -89,53 +89,53 @@ Response body: object
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 212,
-  "Name": "O'Kon Inc and Sons",
-  "CreatedDate": "2002-07-20T09:40:59.2036628+02:00",
-  "UpdatedDate": "1999-01-17T09:40:59.2036628+01:00",
+  "ForeignAppId": 389,
+  "Name": "Glover, Schultz and Considine",
+  "CreatedDate": "2006-02-06T15:05:42.1856353+01:00",
+  "UpdatedDate": "2006-07-06T15:05:42.1856353+02:00",
   "CreatedBy": {
-    "AssociateId": 572,
-    "Name": "Block-Bruen",
-    "PersonId": 895,
-    "Rank": 220,
-    "Tooltip": "quis",
+    "AssociateId": 62,
+    "Name": "Hahn, Nader and Bergnaum",
+    "PersonId": 529,
+    "Rank": 2,
+    "Tooltip": "suscipit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 512,
-    "FullName": "Vladimir Cormier",
-    "FormalName": "Stroman-Kessler",
+    "GroupIdx": 310,
+    "FullName": "Beryl Keebler I",
+    "FormalName": "Ernser, Shields and Veum",
     "Deleted": false,
-    "EjUserId": 42,
-    "UserName": "Nitzsche, Greenfelder and Moen"
+    "EjUserId": 154,
+    "UserName": "Lindgren Inc and Sons"
   },
   "UpdatedBy": {
-    "AssociateId": 974,
-    "Name": "Johnston LLC",
-    "PersonId": 324,
-    "Rank": 240,
-    "Tooltip": "itaque",
+    "AssociateId": 600,
+    "Name": "Block, Williamson and Doyle",
+    "PersonId": 889,
+    "Rank": 154,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 673,
-    "FullName": "Guillermo Larkin",
-    "FormalName": "Anderson, Mertz and Adams",
+    "GroupIdx": 609,
+    "FullName": "Lambert Yost",
+    "FormalName": "Turcotte Inc and Sons",
     "Deleted": true,
-    "EjUserId": 811,
-    "UserName": "Johnston-Schaefer"
+    "EjUserId": 235,
+    "UserName": "Runolfsson Inc and Sons"
   },
   "Devices": [
     {
-      "ForeignDeviceId": 623,
-      "Name": "Turcotte-Frami",
-      "CreatedDate": "1994-09-26T09:40:59.2046632+02:00",
-      "UpdatedDate": "2000-03-09T09:40:59.2046632+01:00",
-      "AssociateFullName": "Lexus Goyette Jr.",
-      "CreatedBy": "delectus",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "ex",
-      "ForeignAppId": 898
+      "ForeignDeviceId": 778,
+      "Name": "Dooley-Runte",
+      "CreatedDate": "2020-05-08T15:05:42.1866355+02:00",
+      "UpdatedDate": "1994-08-08T15:05:42.1866355+02:00",
+      "AssociateFullName": "Roberto Jacobs DDS",
+      "CreatedBy": "ut",
+      "UpdatedBy": "architecto",
+      "DeviceIdentifier": "ipsa",
+      "ForeignAppId": 59
     }
   ]
 }
@@ -146,23 +146,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 964,
-  "Name": "Ward LLC",
-  "CreatedDate": "1999-09-01T09:40:59.2066626+02:00",
-  "UpdatedDate": "2006-09-24T09:40:59.2066626+02:00",
+  "ForeignAppId": 702,
+  "Name": "Zieme LLC",
+  "CreatedDate": "2017-06-22T15:05:42.1876352+02:00",
+  "UpdatedDate": "2001-09-25T15:05:42.1876352+02:00",
   "CreatedBy": {
-    "AssociateId": 395,
-    "Name": "Gaylord Group",
-    "PersonId": 300,
-    "Rank": 542,
-    "Tooltip": "vitae",
+    "AssociateId": 725,
+    "Name": "Hodkiewicz-Lebsack",
+    "PersonId": 571,
+    "Rank": 670,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 203,
-    "FullName": "Kaitlyn Effertz",
-    "FormalName": "Ryan-Hartmann",
-    "Deleted": true,
-    "EjUserId": 245,
-    "UserName": "Willms, Pouros and Swift",
+    "GroupIdx": 959,
+    "FullName": "Wilson Dach I",
+    "FormalName": "McDermott LLC",
+    "Deleted": false,
+    "EjUserId": 527,
+    "UserName": "Wisoky, Bauch and Nitzsche",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -171,23 +171,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldLength": 50
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 805,
-    "Name": "Greenfelder Inc and Sons",
-    "PersonId": 456,
-    "Rank": 243,
-    "Tooltip": "aut",
+    "AssociateId": 992,
+    "Name": "Beahan, Volkman and Gutmann",
+    "PersonId": 507,
+    "Rank": 964,
+    "Tooltip": "deserunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 571,
-    "FullName": "Jed Davis",
-    "FormalName": "Kreiger-Ziemann",
+    "GroupIdx": 505,
+    "FullName": "Alexandrine Hahn",
+    "FormalName": "Jerde-Luettgen",
     "Deleted": true,
-    "EjUserId": 895,
-    "UserName": "Padberg, Williamson and Breitenberg",
+    "EjUserId": 325,
+    "UserName": "Gutkowski, Lebsack and Buckridge",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -196,21 +196,21 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 323
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 498,
-      "Name": "Smith, Larson and Mills",
-      "CreatedDate": "2003-07-10T09:40:59.2066626+02:00",
-      "UpdatedDate": "1997-02-14T09:40:59.2066626+01:00",
-      "AssociateFullName": "Myra Schulist",
-      "CreatedBy": "veniam",
-      "UpdatedBy": "tempore",
-      "DeviceIdentifier": "labore",
-      "ForeignAppId": 942,
+      "ForeignDeviceId": 763,
+      "Name": "Stoltenberg, Schaefer and Littel",
+      "CreatedDate": "2020-06-29T15:05:42.1886342+02:00",
+      "UpdatedDate": "2004-09-11T15:05:42.1886342+02:00",
+      "AssociateFullName": "Hollie Leffler",
+      "CreatedBy": "non",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "mollitia",
+      "ForeignAppId": 927,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 66
+          "FieldType": "System.Int32",
+          "FieldLength": 520
         }
       }
     }
@@ -235,12 +235,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 531
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

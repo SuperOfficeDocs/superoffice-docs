@@ -63,7 +63,7 @@ Response body: object
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,65 +74,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": false,
   "New": {
-    "CompanyName": "Flatley-Lueilwitz",
+    "CompanyName": "Simonis, Bode and Quitzon",
     "SerialNr": "1010000006",
-    "OwnerName": "Ritchie LLC",
-    "OwnerDescription": "Phased attitude-oriented alliance",
-    "NextCheckDate": "2000-08-05T09:40:59.9330649+02:00",
-    "MaintenanceDate": "2011-05-12T09:40:59.9330649+02:00",
-    "AdminWarningDate": "1999-08-27T09:40:59.9330649+02:00",
-    "ExpiryDate": "2000-11-16T09:40:59.9330649+01:00",
-    "GraceDate": "2013-04-18T09:40:59.9330649+02:00",
-    "ExtraFlags": 647,
-    "ExtraInfo": "soluta",
+    "OwnerName": "Gusikowski-Kovacek",
+    "OwnerDescription": "Object-based regional firmware",
+    "NextCheckDate": "2016-08-31T15:05:43.0056631+02:00",
+    "MaintenanceDate": "2005-05-11T15:05:43.0056631+02:00",
+    "AdminWarningDate": "2018-05-20T15:05:43.0056631+02:00",
+    "ExpiryDate": "2018-01-01T15:05:43.0056631+01:00",
+    "GraceDate": "2015-08-25T15:05:43.0056631+02:00",
+    "ExtraFlags": 442,
+    "ExtraInfo": "odio",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "corrupti",
-    "DeploymentType": 122,
-    "ProductType": "est",
-    "ProductDescription": "Team-oriented transitional monitoring",
+    "LicenseVersion": "et",
+    "DeploymentType": 128,
+    "ProductType": "porro",
+    "ProductDescription": "Reactive needs-based hierarchy",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "nihil"
+    "Signature": "at"
   },
   "Current": {
-    "CompanyName": "Yundt Group",
+    "CompanyName": "Schaden Group",
     "SerialNr": "1010000006",
-    "OwnerName": "Schiller Group",
-    "OwnerDescription": "Enhanced stable hierarchy",
-    "NextCheckDate": "2009-02-10T09:40:59.9330649+01:00",
-    "MaintenanceDate": "2009-07-02T09:40:59.9330649+02:00",
-    "AdminWarningDate": "2016-10-07T09:40:59.9330649+02:00",
-    "ExpiryDate": "2003-01-30T09:40:59.9330649+01:00",
-    "GraceDate": "1997-12-08T09:40:59.9330649+01:00",
-    "ExtraFlags": 942,
-    "ExtraInfo": "delectus",
+    "OwnerName": "Hermiston-Walker",
+    "OwnerDescription": "Configurable leading edge intranet",
+    "NextCheckDate": "1996-07-22T15:05:43.0056631+02:00",
+    "MaintenanceDate": "1995-03-28T15:05:43.0056631+02:00",
+    "AdminWarningDate": "2014-06-16T15:05:43.0056631+02:00",
+    "ExpiryDate": "2010-07-29T15:05:43.0056631+02:00",
+    "GraceDate": "1997-02-07T15:05:43.0056631+01:00",
+    "ExtraFlags": 660,
+    "ExtraInfo": "unde",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "voluptatum",
-    "DeploymentType": 169,
-    "ProductType": "quia",
-    "ProductDescription": "Polarised exuding portal",
+    "LicenseVersion": "quia",
+    "DeploymentType": 184,
+    "ProductType": "ullam",
+    "ProductDescription": "Focused needs-based challenge",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "unde"
+    "Signature": "at"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 839,
-      "NumberOfLicensesFree": 631,
-      "NumberOfLicensesAdded": 365,
-      "NumberOfLicensesNewTotal": 648,
-      "NumberOfLicensesNewFree": 461,
-      "NumberOfLicensesTotal": 187
+      "NumberOfLicensesInUse": 524,
+      "NumberOfLicensesFree": 115,
+      "NumberOfLicensesAdded": 372,
+      "NumberOfLicensesNewTotal": 23,
+      "NumberOfLicensesNewFree": 184,
+      "NumberOfLicensesTotal": 855
     }
   ],
-  "AccumulatedNextCheckDate": "1995-11-23T09:40:59.9330649+01:00"
+  "AccumulatedNextCheckDate": "2004-09-27T15:05:43.0056631+02:00"
 }
 ```

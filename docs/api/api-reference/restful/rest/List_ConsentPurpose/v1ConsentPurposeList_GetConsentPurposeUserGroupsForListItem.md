@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Pagac-Conn",
-    "ToolTip": "Libero quia deserunt alias et natus.",
+    "Id": 921,
+    "Name": "Abshire Inc and Sons",
+    "ToolTip": "Minima quasi eveniet est qui molestiae.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "similique",
-    "ColorBlock": 893,
-    "IconHint": "quis",
+    "Rank": 990,
+    "Type": "non",
+    "ColorBlock": 436,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2008-08-21T09:41:00.2643663+02:00",
+    "LastChanged": "2019-07-01T15:05:43.3385401+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Bogisich Group",
-        "ToolTip": "Sit autem.",
+        "Id": 105,
+        "Name": "Stracke, Tillman and Renner",
+        "ToolTip": "Consequatur exercitationem non iste.",
         "Deleted": false,
-        "Rank": 48,
-        "Type": "est",
-        "ColorBlock": 949,
-        "IconHint": "minima",
+        "Rank": 945,
+        "Type": "non",
+        "ColorBlock": 693,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2009-10-28T09:41:00.2643663+01:00",
+        "LastChanged": "2009-11-15T15:05:43.3385401+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Cordia Wintheiser",
+        "ExtraInfo": "eum",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Bernhard Hermiston",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 671
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Felicita Altenwerth",
+    "ExtraInfo": "vero",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Bonnie Grimes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 633
       }
     }
   }

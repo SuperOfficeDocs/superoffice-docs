@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetWebPanelEntity
+title: GetWebPanelEntity
 id: v1ListAgent_GetWebPanelEntity
 ---
 
-# POST Agents/List/GetWebPanelEntity
+# GetWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelEntity
@@ -25,7 +25,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=317
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=894
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ Response body: object
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 186,
-  "Name": "Hettinger-Turcotte",
-  "Tooltip": "molestiae",
+  "WebPanelId": 355,
+  "Name": "Braun-Heidenreich",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 303,
+  "Rank": 843,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Emard Inc and Sons",
+  "WindowName": "Robel, Auer and Greenholt",
   "Url": "http://www.example.com/",
-  "ProgId": "ab",
-  "Icon": 584,
+  "ProgId": "ipsam",
+  "Icon": 824,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "harness dot-com e-tailers"
   },
   "FieldProperties": {
     "fieldName": {
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldLength": 259
     }
   }
 }

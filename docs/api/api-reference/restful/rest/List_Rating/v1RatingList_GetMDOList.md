@@ -25,8 +25,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=officiis
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=temporibus
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Swaniawski, Kub and Keebler",
-    "ToolTip": "Iste quasi dolorem ea et rerum.",
+    "Id": 956,
+    "Name": "Stamm-Effertz",
+    "ToolTip": "Modi rerum quas.",
     "Deleted": true,
-    "Rank": 287,
-    "Type": "ratione",
+    "Rank": 861,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Ankunding, Parisian and Steuber",
-        "ToolTip": "Quo laboriosam consequatur qui sapiente iure.",
+        "Id": 954,
+        "Name": "Pfannerstill, Weber and Gleichner",
+        "ToolTip": "Voluptatem omnis ut asperiores consequatur eum.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "iste",
+        "Rank": 954,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 593,
+        "IconHint": "non",
+        "ColorBlock": 178,
         "ExtraInfo": "velit",
-        "StyleHint": "at",
-        "FullName": "Brielle Reichert",
+        "StyleHint": "excepturi",
+        "FullName": "Felipa DuBuque",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 258
+            "FieldType": "System.String",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 941,
-    "ExtraInfo": "illo",
-    "StyleHint": "non",
-    "FullName": "Hobart Weimann",
+    "IconHint": "sapiente",
+    "ColorBlock": 107,
+    "ExtraInfo": "rerum",
+    "StyleHint": "sapiente",
+    "FullName": "Tiana Turcotte",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldLength": 21
       }
     }
   }

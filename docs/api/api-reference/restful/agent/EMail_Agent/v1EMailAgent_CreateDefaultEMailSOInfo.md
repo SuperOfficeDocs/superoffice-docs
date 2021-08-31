@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailSOInfo
+title: CreateDefaultEMailSOInfo
 id: v1EMailAgent_CreateDefaultEMailSOInfo
 ---
 
-# POST Agents/EMail/CreateDefaultEMailSOInfo
+# CreateDefaultEMailSOInfo
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 527,
-  "AppointmentId": 874,
-  "ProjectId": 279,
-  "SaleId": 718,
-  "Archived": true,
-  "ArchivedAt": "1994-06-08T16:48:29.5609243+02:00",
-  "ArchivedBy": 627,
-  "ArchivedDisplayName": "Hayes-VonRueden",
+  "DocumentId": 14,
+  "AppointmentId": 546,
+  "ProjectId": 273,
+  "SaleId": 94,
+  "Archived": false,
+  "ArchivedAt": "2015-12-10T14:58:04.1794601+01:00",
+  "ArchivedBy": 214,
+  "ArchivedDisplayName": "Hahn LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 935
     }
   }
 }

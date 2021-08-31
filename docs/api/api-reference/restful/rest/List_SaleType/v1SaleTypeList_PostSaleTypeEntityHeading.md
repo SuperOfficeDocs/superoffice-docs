@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 444,
-  "Name": "Wunsch, Keebler and Monahan",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 87,
-  "UdListDefinitionId": 316
+  "HeadingId": 846,
+  "Name": "Halvorson-Reinger",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 507,
+  "UdListDefinitionId": 39
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 86,
-  "Name": "Becker Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 426,
+  "Name": "Goodwin Inc and Sons",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 1001,
-  "UdListDefinitionId": 873,
+  "Rank": 21,
+  "UdListDefinitionId": 67,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 800
     }
   }
 }

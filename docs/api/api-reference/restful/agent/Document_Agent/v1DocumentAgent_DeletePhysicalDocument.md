@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/DeletePhysicalDocument
+title: DeletePhysicalDocument
 id: v1DocumentAgent_DeletePhysicalDocument
 ---
 
-# POST Agents/Document/DeletePhysicalDocument
+# DeletePhysicalDocument
 
 ```http
 POST /api/v1/Agents/Document/DeletePhysicalDocument
@@ -77,14 +77,14 @@ Response body: object
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 901,
+  "DocumentId": 55,
   "AllowedReturnType": [
     "aut",
-    "perspiciatis"
+    "eum"
   ]
 }
 ```
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nobis",
-  "VersionId": "nulla",
+  "ExternalReference": "aspernatur",
+  "VersionId": "labore",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "quasi",
-  "AdditionalInfo": "sed"
+  "Value": "sint",
+  "AdditionalInfo": "possimus"
 }
 ```

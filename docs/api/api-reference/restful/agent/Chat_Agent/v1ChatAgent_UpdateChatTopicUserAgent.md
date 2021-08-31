@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/UpdateChatTopicUserAgent
+title: UpdateChatTopicUserAgent
 id: v1ChatAgent_UpdateChatTopicUserAgent
 ---
 
-# POST Agents/Chat/UpdateChatTopicUserAgent
+# UpdateChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 569,
-  "Username": "earum",
+  "ChatTopicId": 453,
+  "Username": "sit",
   "Useragent": {
-    "TopicId": 487,
+    "TopicId": 457,
     "User": {},
-    "CanListen": false,
-    "CanRespond": true,
-    "CanManage": true,
-    "CanNotify": true
+    "CanListen": true,
+    "CanRespond": false,
+    "CanManage": false,
+    "CanNotify": false
   }
 }
 ```
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 139,
+  "TopicId": 340,
   "User": {
-    "AssociateId": 270,
-    "Name": "Lebsack-Lynch",
-    "PersonId": 22,
-    "Rank": 333,
-    "Tooltip": "aliquid",
+    "AssociateId": 214,
+    "Name": "Runolfsdottir, Heller and Upton",
+    "PersonId": 483,
+    "Rank": 276,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 837,
-    "FullName": "Ms. Art Dach",
-    "FormalName": "Olson-Pfannerstill",
-    "Deleted": false,
-    "EjUserId": 216,
-    "UserName": "Smitham LLC",
+    "GroupIdx": 9,
+    "FullName": "Ms. Idell Carter",
+    "FormalName": "Rohan, Cormier and Greenholt",
+    "Deleted": true,
+    "EjUserId": 472,
+    "UserName": "Fay Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 77
       }
     }
   },
   "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
+  "CanManage": false,
   "CanNotify": true
 }
 ```

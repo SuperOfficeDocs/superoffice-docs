@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreferenceByNameAndId
+title: GetPreferenceByNameAndId
 id: v1PreferenceAgent_GetPreferenceByNameAndId
 ---
 
-# POST Agents/Preference/GetPreferenceByNameAndId
+# GetPreferenceByNameAndId
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
@@ -91,14 +91,14 @@ Response body: object
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "minus",
-  "PrefKey": "et",
+  "PrefSection": "unde",
+  "PrefKey": "quam",
   "PrefLevel": "Database",
-  "OwnerId": 45
+  "OwnerId": 802
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dicta",
+  "RawValue": "exercitationem",
   "Specification": {
-    "Section": "repudiandae",
-    "Key": "fuga",
+    "Section": "id",
+    "Key": "quam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "redefine back-end ROI"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 942
       }
     }
   },
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "eos",
+  "DisplayValue": "tempore",
+  "DisplayTooltip": "inventore",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 601,
-    "TabName": "Mayer-Romaguera",
-    "Order": "qui",
-    "AssociateId": 372,
+    "TabOrderId": 1000,
+    "TabName": "Beahan-Murazik",
+    "Order": "odio",
+    "AssociateId": 910,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -140,14 +140,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldLength": 132
       }
     }
   },
-  "TargetId": 366,
-  "PrefDescId": 25,
-  "TableName": "Murphy, Rath and Braun",
-  "UserPreferenceId": 545,
+  "TargetId": 422,
+  "PrefDescId": 745,
+  "TableName": "Rippin-Gutkowski",
+  "UserPreferenceId": 257,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 152
     }
   }
 }

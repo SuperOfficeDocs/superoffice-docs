@@ -101,20 +101,20 @@ Response body: object
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 521,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 893,
-  "Name": "Collier Inc and Sons",
-  "Description": "Synergistic 5th generation migration",
-  "Currency": "et",
-  "CurrencyName": "Lindgren-Fritsch",
-  "ValidFrom": "2011-01-29T09:41:00.5193814+01:00",
-  "ValidTo": "2018-06-24T09:41:00.5193814+02:00",
-  "IsActive": true
+  "PriceListId": 268,
+  "ERPPriceListKey": "eveniet",
+  "QuoteConnectionId": 498,
+  "Name": "McDermott, Bernhard and Flatley",
+  "Description": "Face to face 4th generation secured line",
+  "Currency": "voluptate",
+  "CurrencyName": "Hettinger Group",
+  "ValidFrom": "2012-11-13T15:05:43.5880798+01:00",
+  "ValidTo": "2015-01-21T15:05:43.5880798+01:00",
+  "IsActive": false
 }
 ```
 
@@ -123,16 +123,16 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 320,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 678,
-  "Name": "Kutch LLC",
-  "Description": "Multi-layered motivating function",
-  "Currency": "aperiam",
-  "CurrencyName": "Hahn-Waelchi",
-  "ValidFrom": "1998-01-04T09:41:00.5193814+01:00",
-  "ValidTo": "2010-03-15T09:41:00.5193814+01:00",
-  "IsActive": true,
+  "PriceListId": 748,
+  "ERPPriceListKey": "totam",
+  "QuoteConnectionId": 389,
+  "Name": "Durgan Inc and Sons",
+  "Description": "Implemented multi-state matrix",
+  "Currency": "et",
+  "CurrencyName": "Boyle-Nicolas",
+  "ValidFrom": "2013-05-13T15:05:43.5880798+02:00",
+  "ValidTo": "2013-10-05T15:05:43.5880798+02:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
+title: RemoveStoredFieldsAndGetDefaultFields
 id: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
 ---
 
-# POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
+# RemoveStoredFieldsAndGetDefaultFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Legros, Kessler and Swaniawski",
-  "Context": "quasi"
+  "TableName": "Wuckert Inc and Sons",
+  "Context": "inventore"
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "itaque",
-    "ValueType": "labore",
-    "Mandatory": false,
-    "EncodedDisplayName": "Wolf LLC",
-    "EncodedDisplayDescription": "Profound human-resource budgetary management",
-    "IconHint": "voluptatibus",
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "non",
+    "ValueType": "autem",
+    "Mandatory": true,
+    "EncodedDisplayName": "Littel, Gleichner and Kling",
+    "EncodedDisplayDescription": "Open-architected bandwidth-monitored architecture",
+    "IconHint": "laborum",
     "ControlInfos": [
       {
-        "Type": "accusamus",
-        "Label": "veniam",
-        "Dimension": 680,
-        "ListProviderName": "Schultz Group",
-        "ListProviderExtraInfo": "delectus",
-        "ListProviderPrimaryKeyName": "Gibson-Bechtelar",
-        "ListLeadText": "delectus",
+        "Type": "animi",
+        "Label": "reiciendis",
+        "Dimension": 237,
+        "ListProviderName": "Schimmel, Daugherty and Erdman",
+        "ListProviderExtraInfo": "illum",
+        "ListProviderPrimaryKeyName": "Braun-Koelpin",
+        "ListLeadText": "id",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,29 +130,29 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 43
+            "FieldLength": 867
           }
         }
       }
     ],
-    "EncodedDataCaption": "quos",
-    "EncodedDataCaptionDescription": "Distributed homogeneous workforce",
-    "CurrentOperationType": "numquam",
+    "EncodedDataCaption": "fugit",
+    "EncodedDataCaptionDescription": "Secured attitude-oriented budgetary management",
+    "CurrentOperationType": "maiores",
     "Values": [
-      "totam",
-      "tempora"
+      "sint",
+      "consequuntur"
     ],
     "DisplayValues": [
-      "ea",
-      "ipsam"
+      "vitae",
+      "at"
     ],
     "OperationInfos": [
       {
-        "Key": "quae",
-        "EncodedDisplayName": "Fisher, Gerhold and Miller",
+        "Key": "quod",
+        "EncodedDisplayName": "Dietrich Inc and Sons",
         "EncodedLeadTexts": [
-          "non",
-          "ut"
+          "suscipit",
+          "eos"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -162,16 +162,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 819
+            "FieldLength": 85
           }
         }
       },
       {
-        "Key": "quae",
-        "EncodedDisplayName": "Fisher, Gerhold and Miller",
+        "Key": "quod",
+        "EncodedDisplayName": "Dietrich Inc and Sons",
         "EncodedLeadTexts": [
-          "non",
-          "ut"
+          "suscipit",
+          "eos"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 819
+            "FieldLength": 85
           }
         }
       }

@@ -25,8 +25,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=officia
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=fugit
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Morar-Weber",
-    "ToolTip": "Provident assumenda repellendus nam illum officia repellat.",
-    "Deleted": false,
-    "Rank": 526,
-    "Type": "unde",
+    "Id": 258,
+    "Name": "Jacobson-Lubowitz",
+    "ToolTip": "Vero iusto aut.",
+    "Deleted": true,
+    "Rank": 990,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Ratke-Nienow",
-        "ToolTip": "Maiores repudiandae a.",
+        "Id": 771,
+        "Name": "Kerluke-Balistreri",
+        "ToolTip": "Dignissimos ipsam.",
         "Deleted": true,
-        "Rank": 945,
-        "Type": "consequuntur",
+        "Rank": 517,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 699,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "velit",
-        "FullName": "Mrs. Abelardo Ullrich",
+        "IconHint": "architecto",
+        "ColorBlock": 854,
+        "ExtraInfo": "hic",
+        "StyleHint": "et",
+        "FullName": "Graham Bode",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldType": "System.String",
+            "FieldLength": 454
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 56,
-    "ExtraInfo": "est",
-    "StyleHint": "corrupti",
-    "FullName": "Jaime Kling",
+    "IconHint": "veritatis",
+    "ColorBlock": 401,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "aliquam",
+    "FullName": "Mr. Maximillia Blick",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "transform transparent platforms"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldLength": 635
       }
     }
   }

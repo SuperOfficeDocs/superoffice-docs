@@ -123,31 +123,31 @@ Response body: object
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 870,
-  "PlainMessage": "harum",
-  "HtmlMessage": "odit",
-  "SmsMessage": "assumenda",
-  "Description": "Extended well-modulated time-frame",
-  "Subject": "ut",
-  "FolderId": 264,
-  "HeaderField": "soluta",
-  "Design": "ipsam",
+  "ShipmentMessageId": 761,
+  "PlainMessage": "ipsam",
+  "HtmlMessage": "vero",
+  "SmsMessage": "quaerat",
+  "Description": "Mandatory methodical groupware",
+  "Subject": "maxime",
+  "FolderId": 453,
+  "HeaderField": "nisi",
+  "Design": "nulla",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Fully-configurable optimizing installation",
-  "AccessKey": "velit",
-  "DocumentMessage": 192,
-  "Registered": "2016-07-01T09:40:59.7570657+02:00",
-  "RegisteredAssociateId": 386,
-  "Updated": "2020-12-09T09:40:59.7570657+01:00",
-  "UpdatedAssociateId": 858,
-  "UpdatedCount": 894
+  "LongDescription": "Synergized executive forecast",
+  "AccessKey": "doloribus",
+  "DocumentMessage": 973,
+  "Registered": "2020-02-05T15:05:42.7616703+01:00",
+  "RegisteredAssociateId": 477,
+  "Updated": "2018-05-16T15:05:42.7616703+02:00",
+  "UpdatedAssociateId": 800,
+  "UpdatedCount": 953
 }
 ```
 
@@ -156,30 +156,30 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 527,
-  "PlainMessage": "delectus",
-  "HtmlMessage": "qui",
-  "SmsMessage": "reprehenderit",
-  "Description": "Down-sized web-enabled collaboration",
-  "Subject": "est",
-  "FolderId": 312,
-  "HeaderField": "eum",
-  "Design": "veniam",
+  "ShipmentMessageId": 723,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "deserunt",
+  "Description": "Polarised encompassing methodology",
+  "Subject": "et",
+  "FolderId": 34,
+  "HeaderField": "quas",
+  "Design": "pariatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Streamlined holistic intranet",
-  "AccessKey": "et",
-  "DocumentMessage": 866,
-  "Registered": "2013-08-21T09:40:59.7580651+02:00",
-  "RegisteredAssociateId": 879,
-  "Updated": "2020-08-03T09:40:59.7580651+02:00",
-  "UpdatedAssociateId": 571,
-  "UpdatedCount": 917,
+  "InlineImages": true,
+  "LongDescription": "Mandatory mobile instruction set",
+  "AccessKey": "aut",
+  "DocumentMessage": 361,
+  "Registered": "2010-02-07T15:05:42.7616703+01:00",
+  "RegisteredAssociateId": 961,
+  "Updated": "2000-08-17T15:05:42.7616703+02:00",
+  "UpdatedAssociateId": 676,
+  "UpdatedCount": 401,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "utilize extensible initiatives"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -188,12 +188,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldLength": 923
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

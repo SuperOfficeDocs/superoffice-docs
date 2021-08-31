@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateExternalUser
+title: CreateExternalUser
 id: v1UserAgent_CreateExternalUser
 ---
 
-# POST Agents/User/CreateExternalUser
+# CreateExternalUser
 
 ```http
 POST /api/v1/Agents/User/CreateExternalUser
@@ -78,11 +78,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 608,
-  "UserName": "Bartoletti-Ritchie",
-  "Password": "molestiae",
-  "RoleId": 845,
-  "IsActive": false
+  "PersonId": 233,
+  "UserName": "Pacocha-Pfannerstill",
+  "Password": "velit",
+  "RoleId": 202,
+  "IsActive": true
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-67
+833
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/ValidateQuoteVersion
+title: ValidateQuoteVersion
 id: v1QuoteAgent_ValidateQuoteVersion
 ---
 
-# POST Agents/Quote/ValidateQuoteVersion
+# ValidateQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 607,
+  "QuoteVersionId": 331,
   "Action": "Approve"
 }
 ```
@@ -101,35 +101,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "fugiat",
-  "TechExplanation": "et",
-  "ErrorCode": "doloribus",
+  "UserExplanation": "mollitia",
+  "TechExplanation": "sequi",
+  "ErrorCode": "placeat",
   "ChangedSale": {
-    "ContactName": "Luettgen, Runolfsdottir and Jerde",
-    "SaleDate": "2013-06-04T16:48:30.4139349+02:00",
-    "SaleId": 396,
-    "Probability": 72,
-    "Title": "ea",
-    "Amount": 25319.586,
-    "Currency": "quae",
-    "ProjectName": "Watsica, Kovacek and Kohler",
-    "AssociateFullName": "Gennaro Blick",
-    "Description": "Right-sized intangible collaboration",
+    "ContactName": "Morissette LLC",
+    "SaleDate": "2001-02-02T14:58:04.9324603+01:00",
+    "SaleId": 563,
+    "Probability": 99,
+    "Title": "tenetur",
+    "Amount": 21681.012,
+    "Currency": "quasi",
+    "ProjectName": "Kovacek, Schmeler and Hermiston",
+    "AssociateFullName": "Miss Claire Armstrong",
+    "Description": "Future-proofed tertiary initiative",
     "Status": "Lost",
-    "WeightedAmount": 6380.824,
-    "ProjectId": 131,
-    "EarningPercent": 16929.868,
-    "Earning": 10179.232,
-    "ContactId": 100,
-    "AssociateId": 635,
-    "PersonId": 215,
-    "SaleTypeId": 240,
-    "SaleTypeName": "Zemlak, Wintheiser and Ritchie",
-    "PersonFullName": "Brett Ondricka",
+    "WeightedAmount": 24097.326,
+    "ProjectId": 460,
+    "EarningPercent": 29798.072,
+    "Earning": 4478.486,
+    "ContactId": 735,
+    "AssociateId": 419,
+    "PersonId": 318,
+    "SaleTypeId": 392,
+    "SaleTypeName": "Weimann, Wuckert and Reichel",
+    "PersonFullName": "Jesus Hodkiewicz",
     "Completed": "Completed",
-    "ActiveErpLinks": 321,
-    "NextDueDate": "2014-12-30T16:48:30.4139349+01:00",
-    "Number": "1198857",
+    "ActiveErpLinks": 207,
+    "NextDueDate": "1999-12-24T14:58:04.9324603+01:00",
+    "Number": "1279902",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -137,24 +137,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   },
   "ChangedQuote": {
-    "QuoteId": 977,
-    "SaleId": 474,
-    "QuoteConnectionId": 980,
+    "QuoteId": 80,
+    "SaleId": 635,
+    "QuoteConnectionId": 910,
     "ERPQuoteKey": "est",
-    "ERPOrderKey": "asperiores",
-    "ActiveQuoteVersionId": 460,
-    "AcceptedQuoteAlternativeId": 792,
-    "UseValuesFromQuote": 515,
-    "DocumentId": 562,
-    "PoNumber": "1030811",
-    "OrderComment": "ut",
-    "PreferredEmailCulture": "clark@nikolausbecker.info",
+    "ERPOrderKey": "quos",
+    "ActiveQuoteVersionId": 856,
+    "AcceptedQuoteAlternativeId": 583,
+    "UseValuesFromQuote": 231,
+    "DocumentId": 587,
+    "PoNumber": "903539",
+    "OrderComment": "adipisci",
+    "PreferredEmailCulture": "garrick_botsford@kulas.ca",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {},
     "TableRight": {},
@@ -164,48 +164,48 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldType": "System.String",
+        "FieldLength": 553
       }
     }
   },
   "ChangedQuoteVersion": {
-    "QuoteVersionId": 574,
-    "ERPQuoteVersionKey": "sed",
-    "QuoteId": 168,
-    "Description": "Grass-roots well-modulated time-frame",
-    "Number": "1197777",
+    "QuoteVersionId": 457,
+    "ERPQuoteVersionKey": "hic",
+    "QuoteId": 851,
+    "Description": "Grass-roots fault-tolerant application",
+    "Number": "608146",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 515,
-    "SentDate": "2010-10-05T16:48:30.4149343+02:00",
-    "FollowupId": 1001,
-    "ExpirationDate": "2007-05-15T16:48:30.4149343+02:00",
-    "DeliveryCountryId": 951,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 575,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "magnam",
-    "ERPPaymentTypeKey": "quasi",
-    "ERPDeliveryTermsKey": "excepturi",
+    "LikelyQuoteAlternativeId": 126,
+    "SentDate": "2017-11-08T14:58:04.9334545+01:00",
+    "FollowupId": 227,
+    "ExpirationDate": "1996-08-15T14:58:04.9334545+02:00",
+    "DeliveryCountryId": 88,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 253,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "laudantium",
+    "ERPPaymentTypeKey": "dolorem",
+    "ERPDeliveryTermsKey": "et",
     "ERPDeliveryTypeKey": "qui",
-    "Rank": 61,
-    "ApprovedBy": 784,
-    "ApprovedText": "facilis",
-    "ApprovedRegisteredBy": 864,
-    "ApprovedRegisteredDate": "2017-01-27T16:48:30.4149343+01:00",
-    "ExtraField1": "praesentium",
-    "ExtraField2": "iusto",
-    "ExtraField3": "est",
-    "ExtraField4": "eaque",
-    "ExtraField5": "ut",
-    "LastRecalculated": "2003-08-13T16:48:30.4149343+02:00",
-    "Updated": "1994-01-19T16:48:30.4149343+01:00",
-    "UpdatedAssociateId": 58,
-    "Registered": "2014-02-24T16:48:30.4149343+01:00",
-    "RegisteredAssociateId": 57,
+    "Rank": 354,
+    "ApprovedBy": 541,
+    "ApprovedText": "voluptas",
+    "ApprovedRegisteredBy": 942,
+    "ApprovedRegisteredDate": "2010-09-23T14:58:04.9334545+02:00",
+    "ExtraField1": "minima",
+    "ExtraField2": "itaque",
+    "ExtraField3": "necessitatibus",
+    "ExtraField4": "doloremque",
+    "ExtraField5": "vero",
+    "LastRecalculated": "2014-09-18T14:58:04.9334545+02:00",
+    "Updated": "2008-05-25T14:58:04.9334545+02:00",
+    "UpdatedAssociateId": 371,
+    "Registered": "1995-12-29T14:58:04.9334545+01:00",
+    "RegisteredAssociateId": 679,
     "QuoteAlternatives": [
       {},
       {}
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   },
@@ -235,7 +235,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 24
         }
       }
     },
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 24
         }
       }
     }
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

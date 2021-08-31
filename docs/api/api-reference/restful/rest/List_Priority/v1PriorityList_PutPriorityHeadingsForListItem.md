@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Metz, Wunsch and Lakin",
-    "ToolTip": "Omnis illo.",
-    "Deleted": false,
-    "Rank": 454,
-    "Type": "inventore",
-    "ColorBlock": 330,
-    "IconHint": "voluptas",
+    "Id": 76,
+    "Name": "Green-Sawayn",
+    "ToolTip": "Voluptas quidem dolorum iure quos.",
+    "Deleted": true,
+    "Rank": 911,
+    "Type": "deserunt",
+    "ColorBlock": 765,
+    "IconHint": "adipisci",
     "Selected": true,
-    "LastChanged": "2017-10-22T09:41:00.5323817+02:00",
+    "LastChanged": "2012-07-03T15:05:43.6020797+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Herzog-Koepp",
-        "ToolTip": "Exercitationem odio sed.",
-        "Deleted": false,
-        "Rank": 348,
-        "Type": "qui",
-        "ColorBlock": 128,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "1995-05-03T09:41:00.5323817+02:00",
+        "Id": 802,
+        "Name": "Lind LLC",
+        "ToolTip": "Consequatur tempora voluptatem laborum et et fugit.",
+        "Deleted": true,
+        "Rank": 976,
+        "Type": "distinctio",
+        "ColorBlock": 194,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2012-12-05T15:05:43.6020797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Mr. Karen Graham"
+        "FullName": "Otto Roob"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Aurelio Klein"
+    "ExtraInfo": "quas",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Margie Lemke"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Dickinson Group",
-    "ToolTip": "Sunt sit deserunt quae qui.",
+    "Id": 501,
+    "Name": "Cremin, Schmitt and McLaughlin",
+    "ToolTip": "Omnis iusto quia.",
     "Deleted": true,
-    "Rank": 242,
-    "Type": "cumque",
-    "ColorBlock": 362,
-    "IconHint": "tempora",
+    "Rank": 134,
+    "Type": "similique",
+    "ColorBlock": 529,
+    "IconHint": "iure",
     "Selected": true,
-    "LastChanged": "1998-12-09T09:41:00.5343816+01:00",
+    "LastChanged": "1995-10-14T15:05:43.6030796+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Kuhlman, Quitzon and Donnelly",
-        "ToolTip": "Aut mollitia.",
-        "Deleted": true,
-        "Rank": 727,
-        "Type": "non",
-        "ColorBlock": 325,
-        "IconHint": "odio",
+        "Id": 579,
+        "Name": "Fritsch LLC",
+        "ToolTip": "Voluptas debitis natus maiores eligendi at.",
+        "Deleted": false,
+        "Rank": 194,
+        "Type": "est",
+        "ColorBlock": 280,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2009-03-17T09:41:00.5343816+01:00",
+        "LastChanged": "2004-09-26T15:05:43.6030796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Ayla Feeney",
+        "ExtraInfo": "dolores",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Immanuel Ledner I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "monetize sexy experiences"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldType": "System.Int32",
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Zechariah Ward",
+    "ExtraInfo": "atque",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Elton Walsh Jr.",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 130
       }
     }
   }

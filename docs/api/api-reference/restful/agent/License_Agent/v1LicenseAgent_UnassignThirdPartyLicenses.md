@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/UnassignThirdPartyLicenses
+title: UnassignThirdPartyLicenses
 id: v1LicenseAgent_UnassignThirdPartyLicenses
 ---
 
-# POST Agents/License/UnassignThirdPartyLicenses
+# UnassignThirdPartyLicenses
 
 ```http
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
@@ -91,11 +91,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 963,
-  "ModuleOwner": "consectetur",
+  "AssociateId": 390,
+  "ModuleOwner": "pariatur",
   "ModuleLicenseNames": [
-    "Willms, Lockman and Kirlin",
-    "Fahey, Kiehn and Hartmann"
+    "Osinski, Cummerata and Braun",
+    "Hyatt Group"
   ]
 }
 ```
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 3,
-    "Tooltip": "et",
+    "Total": 169,
+    "Tooltip": "assumenda",
     "CanAssign": false,
-    "Free": 106,
-    "InUse": 919,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 325,
-    "Name": "Connelly-Larkin",
-    "Description": "Multi-tiered 6th generation open system",
-    "PrerequisiteModuleName": "Dare Inc and Sons",
-    "SortOrder": 621,
+    "Free": 380,
+    "InUse": 755,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 53,
+    "Name": "Murphy Group",
+    "Description": "Multi-tiered even-keeled database",
+    "PrerequisiteModuleName": "Skiles, McLaughlin and Emard",
+    "SortOrder": 350,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "morph impactful users"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "strategize customized supply-chains"
         },
-        "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldType": "System.Int32",
+        "FieldLength": 146
       }
     }
   }

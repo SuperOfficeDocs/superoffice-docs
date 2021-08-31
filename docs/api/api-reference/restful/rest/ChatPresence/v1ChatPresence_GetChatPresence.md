@@ -58,7 +58,7 @@ Response body: array
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -67,13 +67,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 291,
-    "DisplayName": "Upton, Balistreri and Effertz",
-    "OngoingChats": 957,
+    "UserId": 248,
+    "DisplayName": "Connelly Inc and Sons",
+    "OngoingChats": 995,
     "Present": true,
     "ChatTopics": [
-      207,
-      208
+      648,
+      179
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

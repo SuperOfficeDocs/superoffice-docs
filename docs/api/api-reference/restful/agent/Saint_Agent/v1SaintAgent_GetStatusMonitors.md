@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/GetStatusMonitors
+title: GetStatusMonitors
 id: v1SaintAgent_GetStatusMonitors
 ---
 
-# POST Agents/Saint/GetStatusMonitors
+# GetStatusMonitors
 
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitors
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Type": "aliquid"
+  "Id": 485,
+  "Type": "dolorem"
 }
 ```
 
@@ -103,21 +103,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 72,
-    "Rank": 985,
-    "DefaultTask": 398,
-    "DefaultTaskText": "repellat",
+    "OwnerTable": 730,
+    "Rank": 200,
+    "DefaultTask": 233,
+    "DefaultTaskText": "et",
     "IsVisual": true,
-    "LastGenerated": "1997-05-07T16:48:30.5039406+02:00",
-    "Description": "Organic scalable product",
-    "Name": "Kassulke Group",
-    "StatusMonitorId": 477,
-    "PictureId": 167,
+    "LastGenerated": "2015-05-22T14:58:05.105636+02:00",
+    "Description": "Configurable leading edge help-desk",
+    "Name": "Yost, Stark and Hand",
+    "StatusMonitorId": 577,
+    "PictureId": 227,
     "NeedsUpdate": true,
     "Deleted": false,
-    "NumMatches": 684,
-    "NumNeedUpdate": 761,
-    "GenerationStart": "2017-12-23T16:48:30.5039406+01:00",
+    "NumMatches": 14,
+    "NumNeedUpdate": 844,
+    "GenerationStart": "2014-03-10T14:58:05.105636+01:00",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetNewMail
+title: GetNewMail
 id: v1EMailAgent_GetNewMail
 ---
 
-# POST Agents/EMail/GetNewMail
+# GetNewMail
 
 ```http
 POST /api/v1/Agents/EMail/GetNewMail
@@ -84,13 +84,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    915,
-    909
+    897,
+    733
   ]
 }
 ```
@@ -101,74 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 660,
-    "MessageId": "voluptas",
-    "Subject": "molestias",
+    "ServerId": 411,
+    "MessageId": "ex",
+    "Subject": "suscipit",
     "From": {
-      "ContactId": 743,
-      "ContactName": "Schimmel Group",
-      "PersonId": 126,
-      "PersonName": "Bosco Group",
-      "AssociateId": 797,
-      "Address": "non",
-      "EmailId": 36,
+      "ContactId": 984,
+      "ContactName": "Schuppe, Schiller and Reichert",
+      "PersonId": 446,
+      "PersonName": "Breitenberg-Bergstrom",
+      "AssociateId": 124,
+      "Address": "asperiores",
+      "EmailId": 421,
       "DuplicatePersonIds": [
-        151,
-        999
+        952,
+        905
       ],
-      "Name": "Huel, Dare and Buckridge",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 824
-        }
-      }
-    },
-    "To": [
-      {
-        "ContactId": 826,
-        "ContactName": "Ankunding-Beier",
-        "PersonId": 608,
-        "PersonName": "Schulist, Jewess and Harris",
-        "AssociateId": 824,
-        "Address": "facere",
-        "EmailId": 96,
-        "DuplicatePersonIds": [
-          800,
-          2
-        ],
-        "Name": "Baumbach-Barton",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 790
-          }
-        }
-      }
-    ],
-    "Sent": "2013-04-30T16:48:29.5239239+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 747,
-    "EMailSOInfo": {
-      "DocumentId": 409,
-      "AppointmentId": 560,
-      "ProjectId": 484,
-      "SaleId": 462,
-      "Archived": true,
-      "ArchivedAt": "2010-09-20T16:48:29.5239239+02:00",
-      "ArchivedBy": 878,
-      "ArchivedDisplayName": "Gerlach, Jenkins and Rogahn",
+      "Name": "Trantow, Kiehn and King",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -177,7 +125,59 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 375
+        }
+      }
+    },
+    "To": [
+      {
+        "ContactId": 239,
+        "ContactName": "Wunsch-O'Reilly",
+        "PersonId": 238,
+        "PersonName": "Cassin, Boehm and Rath",
+        "AssociateId": 797,
+        "Address": "qui",
+        "EmailId": 535,
+        "DuplicatePersonIds": [
+          968,
+          306
+        ],
+        "Name": "Jerde, Hyatt and Lockman",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 549
+          }
+        }
+      }
+    ],
+    "Sent": "2008-05-16T14:58:04.0694658+02:00",
+    "Priority": "High",
+    "Flags": "Answered",
+    "Size": 824,
+    "EMailSOInfo": {
+      "DocumentId": 517,
+      "AppointmentId": 993,
+      "ProjectId": 906,
+      "SaleId": 955,
+      "Archived": false,
+      "ArchivedAt": "2004-11-29T14:58:04.0694658+01:00",
+      "ArchivedBy": 468,
+      "ArchivedDisplayName": "Funk-Robel",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 942
         }
       }
     },
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

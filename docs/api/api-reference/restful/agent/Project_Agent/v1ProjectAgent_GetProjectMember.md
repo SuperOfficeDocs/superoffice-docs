@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectMember
+title: GetProjectMember
 id: v1ProjectAgent_GetProjectMember
 ---
 
-# POST Agents/Project/GetProjectMember
+# GetProjectMember
 
 ```http
 POST /api/v1/Agents/Project/GetProjectMember
@@ -25,7 +25,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=641
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=425
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -99,30 +99,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 644,
-  "ContactId": 463,
-  "ProjectId": 381,
-  "ContactName": "Gleichner, Glover and Fay",
+  "ProjectmemberId": 315,
+  "ContactId": 913,
+  "ProjectId": 310,
+  "ContactName": "Jenkins Group",
   "ContactDepartment": "",
-  "ProjectName": "Schmitt, Grady and Kutch",
-  "EmailId": 125,
-  "EmailAddress": "chelsey_ledner@davis.uk",
-  "CountryId": 294,
-  "Firstname": "Delphine",
-  "MiddleName": "Langosh-Pollich",
-  "Lastname": "Goldner",
-  "PersonId": 570,
-  "Mrmrs": "non",
-  "ProjectMemberTypeName": "Doyle Group",
-  "Phone": "(003)862-5444 x8501",
-  "PhoneId": 762,
-  "ProjectMemberTypeId": 825,
-  "EmailAddressName": "moshe_ohara@cummings.com",
-  "Comment": "culpa",
-  "FullName": "Eileen Huel",
+  "ProjectName": "Lockman-Aufderhar",
+  "EmailId": 240,
+  "EmailAddress": "buster.wisozk@kunde.name",
+  "CountryId": 536,
+  "Firstname": "Ramona",
+  "MiddleName": "Rohan LLC",
+  "Lastname": "Hand",
+  "PersonId": 34,
+  "Mrmrs": "doloremque",
+  "ProjectMemberTypeName": "Dare-Kihn",
+  "Phone": "1-600-502-2332",
+  "PhoneId": 311,
+  "ProjectMemberTypeId": 53,
+  "EmailAddressName": "gerardo.fisher@cummingsmedhurst.co.uk",
+  "Comment": "maiores",
+  "FullName": "Syble Luettgen",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "whiteboard e-business portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldLength": 569
     }
   }
 }

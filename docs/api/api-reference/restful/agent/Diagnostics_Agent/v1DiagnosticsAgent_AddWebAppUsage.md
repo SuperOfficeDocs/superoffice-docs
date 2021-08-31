@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/AddWebAppUsage
+title: AddWebAppUsage
 id: v1DiagnosticsAgent_AddWebAppUsage
 ---
 
-# POST Agents/Diagnostics/AddWebAppUsage
+# AddWebAppUsage
 
 ```http
 POST /api/v1/Agents/Diagnostics/AddWebAppUsage

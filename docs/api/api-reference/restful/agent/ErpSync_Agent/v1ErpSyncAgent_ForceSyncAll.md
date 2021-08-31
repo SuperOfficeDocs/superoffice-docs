@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ForceSyncAll
+title: ForceSyncAll
 id: v1ErpSyncAgent_ForceSyncAll
 ---
 
-# POST Agents/ErpSync/ForceSyncAll
+# ForceSyncAll
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceSyncAll
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ForceSyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "quia",
-  "TechExplanation": "aspernatur",
-  "ErrorCode": "libero",
+  "IsOk": true,
+  "UserExplanation": "expedita",
+  "TechExplanation": "culpa",
+  "ErrorCode": "nulla",
   "Changes": {
     "AddedRecords": [
       {},
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldLength": 955
       }
     }
   },
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

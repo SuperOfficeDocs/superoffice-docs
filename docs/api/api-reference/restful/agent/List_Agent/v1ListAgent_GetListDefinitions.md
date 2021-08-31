@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetListDefinitions
+title: GetListDefinitions
 id: v1ListAgent_GetListDefinitions
 ---
 
-# POST Agents/List/GetListDefinitions
+# GetListDefinitions
 
 ```http
 POST /api/v1/Agents/List/GetListDefinitions
@@ -82,7 +82,7 @@ Response body: array
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Deckow, Hamill and Heidenreich",
-    "Tooltip": "quis",
+    "Id": 145,
+    "Name": "Runolfsson Group",
+    "Tooltip": "ducimus",
     "Deleted": true,
-    "Rank": 963,
+    "Rank": 421,
     "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "itaque",
-    "InUseByUserDefinedFields": false,
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": false,
+    "ListType": "quas",
+    "InUseByUserDefinedFields": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

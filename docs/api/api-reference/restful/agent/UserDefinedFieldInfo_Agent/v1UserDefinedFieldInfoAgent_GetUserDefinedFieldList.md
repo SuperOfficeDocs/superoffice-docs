@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
+title: GetUserDefinedFieldList
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
+# GetUserDefinedFieldList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -120,40 +120,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 375,
-    "ColumnId": 410,
-    "FieldDefault": "et",
-    "FieldHeight": 255,
-    "FieldLabel": "qui",
-    "FieldLeft": 933,
-    "FieldTop": 508,
+    "UDefFieldId": 747,
+    "ColumnId": 386,
+    "FieldDefault": "perspiciatis",
+    "FieldHeight": 650,
+    "FieldLabel": "ab",
+    "FieldLeft": 213,
+    "FieldTop": 160,
     "FieldType": "Checkbox",
-    "FieldWidth": 986,
-    "FormatMask": "at",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 518,
-    "LabelLeft": 271,
-    "LabelTop": 182,
-    "LabelWidth": 441,
-    "LastVersionId": 142,
-    "ListTableId": 741,
-    "IsMandatory": true,
+    "FieldWidth": 730,
+    "FormatMask": "voluptas",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 740,
+    "LabelLeft": 694,
+    "LabelTop": 73,
+    "LabelWidth": 993,
+    "LastVersionId": 605,
+    "ListTableId": 820,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 864,
-    "ProgId": "aperiam",
+    "Page1LineNo": 737,
+    "ProgId": "commodi",
     "IsReadOnly": false,
     "ShortLabel": "quia",
-    "TabOrder": 663,
-    "TextLength": 236,
-    "Tooltip": "quo",
-    "UdefIdentity": 366,
-    "UDListDefinitionId": 609,
+    "TabOrder": 767,
+    "TextLength": 180,
+    "Tooltip": "eos",
+    "UdefIdentity": 535,
+    "UDListDefinitionId": 452,
     "Justification": "Center",
-    "Version": 752,
-    "TemplateVariableName": "Mitchell LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Will-Howell",
+    "Version": 169,
+    "TemplateVariableName": "Hagenes-Mueller",
+    "HasBeenPublished": false,
+    "MdoListName": "Murray, Johnston and Beer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 300
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/DeleteForeignAppEntity
+title: DeleteForeignAppEntity
 id: v1ForeignSystemAgent_DeleteForeignAppEntity
 ---
 
-# POST Agents/ForeignSystem/DeleteForeignAppEntity
+# DeleteForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity
@@ -24,7 +24,7 @@ Deletes the ForeignAppEntity
 | ForeignAppEntityId | int32 | **Required** The id of the ForeignAppEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?ForeignAppEntityId=172
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?ForeignAppEntityId=701
 ```
 
 

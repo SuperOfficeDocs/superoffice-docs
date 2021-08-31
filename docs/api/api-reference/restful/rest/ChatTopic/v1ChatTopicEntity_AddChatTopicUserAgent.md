@@ -80,27 +80,27 @@ Response body: object
 POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 446,
+  "TopicId": 371,
   "User": {
-    "AssociateId": 24,
-    "Name": "Cronin, Reinger and Wiegand",
-    "PersonId": 60,
-    "Rank": 993,
-    "Tooltip": "beatae",
+    "AssociateId": 574,
+    "Name": "Renner Group",
+    "PersonId": 32,
+    "Rank": 253,
+    "Tooltip": "ducimus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 890,
-    "FullName": "Garth Dibbert",
-    "FormalName": "Larson, Homenick and Hartmann",
+    "GroupIdx": 690,
+    "FullName": "Palma Veum",
+    "FormalName": "Rodriguez, Konopelski and Ratke",
     "Deleted": true,
-    "EjUserId": 521,
-    "UserName": "Ebert-Davis"
+    "EjUserId": 761,
+    "UserName": "Bayer-Schumm"
   },
   "CanListen": true,
-  "CanRespond": true,
+  "CanRespond": false,
   "CanManage": false,
   "CanNotify": true
 }
@@ -111,20 +111,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 997,
+  "TopicId": 45,
   "User": {
-    "AssociateId": 948,
-    "Name": "Simonis-Nicolas",
-    "PersonId": 550,
-    "Rank": 939,
-    "Tooltip": "et",
+    "AssociateId": 981,
+    "Name": "Lang-Veum",
+    "PersonId": 448,
+    "Rank": 985,
+    "Tooltip": "facere",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 654,
-    "FullName": "Jocelyn Brekke",
-    "FormalName": "Vandervort-Konopelski",
-    "Deleted": true,
-    "EjUserId": 615,
-    "UserName": "Marvin LLC",
+    "GroupIdx": 978,
+    "FullName": "Justina Emmerich",
+    "FormalName": "Feeney Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 407,
+    "UserName": "Nader, McKenzie and Carter",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 77
       }
     }
   },

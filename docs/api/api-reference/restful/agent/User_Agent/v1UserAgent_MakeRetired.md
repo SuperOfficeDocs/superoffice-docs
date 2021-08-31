@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/MakeRetired
+title: MakeRetired
 id: v1UserAgent_MakeRetired
 ---
 
-# POST Agents/User/MakeRetired
+# MakeRetired
 
 ```http
 POST /api/v1/Agents/User/MakeRetired

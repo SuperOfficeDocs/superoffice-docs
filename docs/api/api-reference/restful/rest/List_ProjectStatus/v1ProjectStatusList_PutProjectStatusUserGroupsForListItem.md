@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Strosin LLC",
-    "ToolTip": "Repudiandae fugiat fugit laborum.",
-    "Deleted": false,
-    "Rank": 954,
-    "Type": "expedita",
-    "ColorBlock": 228,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2019-12-04T09:41:00.6363894+01:00",
+    "Id": 894,
+    "Name": "Hessel Inc and Sons",
+    "ToolTip": "Cupiditate quia et error cumque perferendis.",
+    "Deleted": true,
+    "Rank": 799,
+    "Type": "qui",
+    "ColorBlock": 286,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2021-01-03T15:05:43.6951117+01:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Quigley, Haley and Runte",
-        "ToolTip": "Quo doloremque consequatur itaque et et.",
+        "Id": 7,
+        "Name": "Roberts-Cassin",
+        "ToolTip": "Voluptatem aut earum fugit quo sapiente.",
         "Deleted": false,
-        "Rank": 403,
-        "Type": "mollitia",
-        "ColorBlock": 412,
-        "IconHint": "nam",
+        "Rank": 618,
+        "Type": "accusamus",
+        "ColorBlock": 132,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-08-09T09:41:00.6363894+02:00",
+        "LastChanged": "2018-09-29T15:05:43.6951117+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "sit",
+        "ExtraInfo": "quia",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Lolita Beahan"
+        "FullName": "Ms. Demetris Lehner"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Garrison Rowe"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "General Huel"
   }
 ]
 ```
@@ -146,56 +146,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Fahey-Harber",
-    "ToolTip": "Fuga accusamus nam qui est illum velit.",
-    "Deleted": false,
-    "Rank": 667,
-    "Type": "repellat",
-    "ColorBlock": 39,
-    "IconHint": "et",
+    "Id": 91,
+    "Name": "Goodwin-Beer",
+    "ToolTip": "Excepturi dolorum suscipit reiciendis dolor.",
+    "Deleted": true,
+    "Rank": 368,
+    "Type": "ut",
+    "ColorBlock": 569,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2017-07-12T09:41:00.638387+02:00",
+    "LastChanged": "2009-07-18T15:05:43.6971125+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Botsford, Littel and Pfeffer",
-        "ToolTip": "Et rem dicta mollitia distinctio incidunt nulla.",
+        "Id": 356,
+        "Name": "Toy-Legros",
+        "ToolTip": "Quos sunt odio aut ut omnis quasi.",
         "Deleted": false,
-        "Rank": 526,
-        "Type": "maxime",
+        "Rank": 858,
+        "Type": "esse",
         "ColorBlock": 805,
-        "IconHint": "ratione",
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2007-06-04T09:41:00.638387+02:00",
+        "LastChanged": "1996-02-24T15:05:43.6971125+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "tempore",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Jedediah Rosenbaum",
+        "FullName": "Myles Kessler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "incubate strategic bandwidth"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldType": "System.String",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "labore",
-    "Hidden": true,
-    "FullName": "Adrianna Crona",
+    "ExtraInfo": "expedita",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Kennith Armstrong",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "e-enable cross-platform communities"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldType": "System.Int32",
+        "FieldLength": 358
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/MoveAllTickets
+title: MoveAllTickets
 id: v1ListAgent_MoveAllTickets
 ---
 
-# POST Agents/List/MoveAllTickets
+# MoveAllTickets
 
 ```http
 POST /api/v1/Agents/List/MoveAllTickets

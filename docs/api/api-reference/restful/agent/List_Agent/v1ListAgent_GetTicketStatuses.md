@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketStatuses
+title: GetTicketStatuses
 id: v1ListAgent_GetTicketStatuses
 ---
 
-# POST Agents/List/GetTicketStatuses
+# GetTicketStatuses
 
 ```http
 POST /api/v1/Agents/List/GetTicketStatuses
@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 144,
-    "Name": "Cummings Group",
+    "TicketStatusId": 440,
+    "Name": "Parisian-Harber",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -90,10 +90,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "seize B2B content"
         },
         "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldLength": 375
       }
     }
   }

@@ -24,7 +24,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=False
+GET /api/v1/List/ReasonSold/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Pfannerstill-Bruen",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 276,
-    "Rank": 648,
+    "Id": 840,
+    "Name": "Padberg, Koss and Kozey",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "UdListDefinitionId": 243,
+    "Rank": 830,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "revolutionize rich eyeballs"
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldType": "System.Int32",
+        "FieldLength": 873
       }
     }
   }

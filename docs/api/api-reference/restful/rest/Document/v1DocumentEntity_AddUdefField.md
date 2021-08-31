@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 479,
-  "ColumnId": 333,
-  "FieldDefault": "non",
-  "FieldHeight": 859,
-  "FieldLabel": "expedita",
-  "FieldLeft": 821,
-  "FieldTop": 777,
+  "UDefFieldId": 852,
+  "ColumnId": 222,
+  "FieldDefault": "odit",
+  "FieldHeight": 955,
+  "FieldLabel": "qui",
+  "FieldLeft": 167,
+  "FieldTop": 447,
   "FieldType": "Checkbox",
-  "FieldWidth": 266,
-  "FormatMask": "officiis",
-  "HideLabel": true,
+  "FieldWidth": 874,
+  "FormatMask": "eius",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 575,
-  "LabelLeft": 384,
-  "LabelTop": 171,
-  "LabelWidth": 436,
-  "LastVersionId": 837,
-  "ListTableId": 41,
+  "LabelHeight": 244,
+  "LabelLeft": 577,
+  "LabelTop": 304,
+  "LabelWidth": 485,
+  "LastVersionId": 749,
+  "ListTableId": 527,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 148,
-  "ProgId": "officia",
+  "Page1LineNo": 987,
+  "ProgId": "commodi",
   "IsReadOnly": true,
-  "ShortLabel": "non",
-  "TabOrder": 268,
-  "TextLength": 54,
-  "Tooltip": "aliquid",
-  "UdefIdentity": 275,
-  "UDListDefinitionId": 282,
+  "ShortLabel": "sed",
+  "TabOrder": 134,
+  "TextLength": 873,
+  "Tooltip": "inventore",
+  "UdefIdentity": 308,
+  "UDListDefinitionId": 983,
   "Justification": "Center",
-  "Version": 313,
-  "TemplateVariableName": "Herzog-Adams",
+  "Version": 921,
+  "TemplateVariableName": "Lubowitz Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Spinka-Zulauf",
+  "MdoListName": "Schaden, Lesch and Cole",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,10 +152,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "transition next-generation supply-chains"
       },
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   }
 }

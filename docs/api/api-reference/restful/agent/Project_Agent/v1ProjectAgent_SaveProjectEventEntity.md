@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/SaveProjectEventEntity
+title: SaveProjectEventEntity
 id: v1ProjectAgent_SaveProjectEventEntity
 ---
 
-# POST Agents/Project/SaveProjectEventEntity
+# SaveProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/SaveProjectEventEntity
@@ -126,102 +126,102 @@ Response body: object
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "temporibus",
-  "SignOffText": "dolores",
-  "SignOnConfirmationText": "qui",
-  "SignOnText": "est",
-  "EventDate": "2006-06-04T16:48:30.3309359+02:00",
-  "Enabled": false,
-  "CreatedDate": "2012-01-30T16:48:30.3309359+01:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "ratione",
+  "SignOffText": "id",
+  "SignOnConfirmationText": "voluptates",
+  "SignOnText": "soluta",
+  "EventDate": "2015-05-02T14:58:04.8944656+02:00",
+  "Enabled": true,
+  "CreatedDate": "2011-05-04T14:58:04.8944656+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 875,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 355,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 955,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "1994-09-06T16:48:30.3309359+02:00",
+  "SignOnTaskId": 984,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "1996-03-01T14:58:04.8944656+01:00",
   "CreatedBy": {
-    "AssociateId": 77,
-    "Name": "Collier LLC",
-    "PersonId": 859,
-    "Rank": 77,
-    "Tooltip": "non",
+    "AssociateId": 35,
+    "Name": "Kozey-Pollich",
+    "PersonId": 328,
+    "Rank": 378,
+    "Tooltip": "voluptatum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 599,
-    "FullName": "Emilio Leffler",
-    "FormalName": "Zemlak-Franecki",
+    "GroupIdx": 547,
+    "FullName": "Shirley Balistreri",
+    "FormalName": "McDermott, Goodwin and Gislason",
     "Deleted": false,
-    "EjUserId": 676,
-    "UserName": "Franecki LLC"
+    "EjUserId": 378,
+    "UserName": "Metz, Robel and Kassulke"
   },
   "UpdatedBy": {
-    "AssociateId": 351,
-    "Name": "Hartmann-Smitham",
-    "PersonId": 288,
-    "Rank": 660,
-    "Tooltip": "atque",
+    "AssociateId": 54,
+    "Name": "Orn-Sauer",
+    "PersonId": 971,
+    "Rank": 671,
+    "Tooltip": "porro",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 883,
-    "FullName": "Kevin Bergnaum",
-    "FormalName": "Lang-O'Kon",
-    "Deleted": false,
-    "EjUserId": 278,
-    "UserName": "Mayer, Brekke and Auer"
+    "GroupIdx": 823,
+    "FullName": "Anita Murazik",
+    "FormalName": "Hoeger, Gottlieb and Lebsack",
+    "Deleted": true,
+    "EjUserId": 298,
+    "UserName": "Pfannerstill-Leffler"
   },
-  "ProjectId": 945,
-  "Id": 354,
-  "PublishFrom": "2020-10-15T16:48:30.3319348+02:00",
+  "ProjectId": 491,
+  "Id": 704,
+  "PublishFrom": "2018-03-08T14:58:04.8954672+01:00",
   "PublishType": "External",
-  "PublishTo": "2006-07-02T16:48:30.3319348+02:00",
+  "PublishTo": "2019-12-10T14:58:04.8954672+01:00",
   "VisibleForCategories": [
     {
-      "Id": 882,
-      "Name": "Daniel Inc and Sons",
-      "ToolTip": "Fugit nihil est rerum quibusdam qui.",
-      "Deleted": false,
-      "Rank": 418,
-      "Type": "ducimus",
+      "Id": 486,
+      "Name": "Moen Group",
+      "ToolTip": "Nostrum aut nihil.",
+      "Deleted": true,
+      "Rank": 660,
+      "Type": "impedit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "porro",
-      "ColorBlock": 129,
-      "ExtraInfo": "laudantium",
-      "StyleHint": "atque",
-      "FullName": "Tatyana Hyatt"
+      "IconHint": "voluptates",
+      "ColorBlock": 830,
+      "ExtraInfo": "et",
+      "StyleHint": "laborum",
+      "FullName": "Leanne Tillman"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 555,
-      "Name": "Kemmer, Harber and Keeling",
-      "ToolTip": "Dolorem perspiciatis sed molestias modi voluptate et.",
+      "Id": 487,
+      "Name": "Kunde, Gutkowski and Hand",
+      "ToolTip": "Cupiditate ab delectus et velit id.",
       "Deleted": false,
-      "Rank": 459,
-      "Type": "eum",
+      "Rank": 578,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 44,
-      "ExtraInfo": "corporis",
-      "StyleHint": "distinctio",
-      "FullName": "Dannie Fadel"
+      "IconHint": "est",
+      "ColorBlock": 619,
+      "ExtraInfo": "tempora",
+      "StyleHint": "non",
+      "FullName": "Jenifer Lakin"
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 675
+  "ProjectEventId": 517
 }
 ```
 
@@ -230,35 +230,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "rerum",
-  "SignOffText": "aut",
-  "SignOnConfirmationText": "earum",
-  "SignOnText": "a",
-  "EventDate": "2021-03-19T16:48:30.3349379+01:00",
-  "Enabled": false,
-  "CreatedDate": "2005-06-18T16:48:30.3349379+02:00",
+  "SignOffConfirmationText": "minima",
+  "SignOffText": "corrupti",
+  "SignOnConfirmationText": "voluptas",
+  "SignOnText": "et",
+  "EventDate": "2006-09-30T14:58:04.898465+02:00",
+  "Enabled": true,
+  "CreatedDate": "1998-10-06T14:58:04.898465+02:00",
   "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 121,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 473,
+  "SignOffTaskId": 246,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 937,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-12-04T16:48:30.3349379+01:00",
+  "UpdatedDate": "2009-03-22T14:58:04.898465+01:00",
   "CreatedBy": {
-    "AssociateId": 427,
-    "Name": "Bernhard, Trantow and Jacobs",
-    "PersonId": 931,
-    "Rank": 603,
-    "Tooltip": "expedita",
+    "AssociateId": 246,
+    "Name": "Wuckert-Cole",
+    "PersonId": 426,
+    "Rank": 407,
+    "Tooltip": "odit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 98,
-    "FullName": "Christina Kutch",
-    "FormalName": "Schumm, Waters and Cartwright",
+    "GroupIdx": 238,
+    "FullName": "Ms. Otho Block",
+    "FormalName": "Volkman-Pacocha",
     "Deleted": true,
-    "EjUserId": 278,
-    "UserName": "Koepp, Gutkowski and Gerhold",
+    "EjUserId": 258,
+    "UserName": "Dare-Schamberger",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -266,88 +266,58 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 796,
-    "Name": "Hegmann-Mertz",
-    "PersonId": 570,
-    "Rank": 256,
-    "Tooltip": "voluptates",
+    "AssociateId": 74,
+    "Name": "Walker-Pouros",
+    "PersonId": 88,
+    "Rank": 801,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 124,
-    "FullName": "Russ Hayes",
-    "FormalName": "Gutkowski, Nienow and Pacocha",
+    "GroupIdx": 392,
+    "FullName": "Rubie Bergnaum",
+    "FormalName": "Pfannerstill, Rogahn and Beier",
     "Deleted": true,
-    "EjUserId": 348,
-    "UserName": "Corkery-Rice",
+    "EjUserId": 298,
+    "UserName": "Tremblay Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "repurpose sexy bandwidth"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   },
-  "ProjectId": 421,
-  "Id": 962,
-  "PublishFrom": "2005-12-07T16:48:30.335934+01:00",
+  "ProjectId": 456,
+  "Id": 179,
+  "PublishFrom": "2010-03-03T14:58:04.898465+01:00",
   "PublishType": "External",
-  "PublishTo": "2005-01-09T16:48:30.335934+01:00",
+  "PublishTo": "2020-12-05T14:58:04.898465+01:00",
   "VisibleForCategories": [
     {
-      "Id": 392,
-      "Name": "Auer, Ward and Friesen",
-      "ToolTip": "Et aut.",
-      "Deleted": false,
-      "Rank": 338,
-      "Type": "repellat",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "unde",
-      "ColorBlock": 518,
-      "ExtraInfo": "sint",
-      "StyleHint": "nam",
-      "FullName": "Bailey O'Reilly",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 635
-        }
-      }
-    }
-  ],
-  "VisibleForPersonInterests": [
-    {
-      "Id": 405,
-      "Name": "Ondricka-Skiles",
-      "ToolTip": "Aliquid aut provident.",
+      "Id": 335,
+      "Name": "Denesik, Hahn and Cormier",
+      "ToolTip": "Hic consequatur iure.",
       "Deleted": true,
-      "Rank": 162,
-      "Type": "eaque",
+      "Rank": 616,
+      "Type": "consectetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorum",
-      "ColorBlock": 175,
-      "ExtraInfo": "esse",
-      "StyleHint": "vitae",
-      "FullName": "Vincent Huel",
+      "IconHint": "eos",
+      "ColorBlock": 431,
+      "ExtraInfo": "aperiam",
+      "StyleHint": "est",
+      "FullName": "Travon Prohaska",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -356,28 +326,58 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldLength": 122
         }
       }
     }
   ],
-  "IsPublished": false,
+  "VisibleForPersonInterests": [
+    {
+      "Id": 871,
+      "Name": "Feil, Eichmann and Thompson",
+      "ToolTip": "Eaque ducimus earum error maxime.",
+      "Deleted": true,
+      "Rank": 82,
+      "Type": "dicta",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "natus",
+      "ColorBlock": 552,
+      "ExtraInfo": "sit",
+      "StyleHint": "voluptas",
+      "FullName": "Modesto Conroy",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 399
+        }
+      }
+    }
+  ],
+  "IsPublished": true,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 101,
+  "ProjectEventId": 97,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "enable plug-and-play mindshare"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "utilize ubiquitous metrics"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

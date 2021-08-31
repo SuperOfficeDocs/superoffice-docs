@@ -72,15 +72,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Feeney-Reinger",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "UdListDefinitionId": 704,
-  "Rank": 403,
+  "Id": 756,
+  "Name": "Kris, Hermann and Marks",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "UdListDefinitionId": 764,
+  "Rank": 920,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "generate mission-critical networks"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldLength": 845
     }
   }
 }

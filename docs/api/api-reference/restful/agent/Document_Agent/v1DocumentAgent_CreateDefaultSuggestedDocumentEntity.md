@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CreateDefaultSuggestedDocumentEntity
+title: CreateDefaultSuggestedDocumentEntity
 id: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
 ---
 
-# POST Agents/Document/CreateDefaultSuggestedDocumentEntity
+# CreateDefaultSuggestedDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -73,25 +73,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 927,
-  "Name": "Davis LLC",
-  "Tooltip": "eos",
-  "Rank": 712,
-  "DoctmplId": 838,
-  "Header": "dolor",
-  "OurRef": "et",
+  "SuggestedDocumentId": 737,
+  "Name": "Friesen-Kuhlman",
+  "Tooltip": "officiis",
+  "Rank": 622,
+  "DoctmplId": 973,
+  "Header": "quod",
+  "OurRef": "itaque",
   "Deleted": true,
   "DocTmpl": {
-    "DocumentTemplateId": 586,
-    "Name": "Wintheiser-Larkin",
-    "Tooltip": "reiciendis",
-    "SaveInDb": 525,
-    "Filename": "molestias",
-    "DefaultOref": "sint",
+    "DocumentTemplateId": 638,
+    "Name": "Rolfson Group",
+    "Tooltip": "ut",
+    "SaveInDb": 90,
+    "Filename": "ipsa",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
-    "Deleted": 985,
+    "Deleted": 131,
     "Direction": "Incoming",
-    "AutoeventId": 275,
+    "AutoeventId": 169,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -101,39 +101,18 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldLength": 250
       }
     }
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 213,
-    "ProjTypeId": 659,
-    "ProjTypeName": "Stiedemann, Funk and Hane",
-    "ProjTypeTooltip": "delectus",
-    "ProjStatusId": 807,
-    "ProjStatusName": "Wuckert-Lindgren",
-    "ProjStatusTooltip": "voluptatibus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "syndicate one-to-one infrastructures"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 35
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 270,
-    "SaleTypeId": 419,
-    "SaleTypeName": "O'Reilly Inc and Sons",
-    "SaleTypeTooltip": "nobis",
-    "ProbId": 438,
-    "ProbName": "Schmitt Inc and Sons",
-    "ProbTooltip": "est",
-    "Probability": 812,
+    "ProjectTypeStatusLinkId": 130,
+    "ProjTypeId": 453,
+    "ProjTypeName": "Kuhn-Hilpert",
+    "ProjTypeTooltip": "quaerat",
+    "ProjStatusId": 240,
+    "ProjStatusName": "Senger, Dietrich and Fay",
+    "ProjStatusTooltip": "voluptatum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -142,7 +121,28 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 75
+      }
+    }
+  },
+  "SaleTypeStageLink": {
+    "SaleTypeStageLinkId": 273,
+    "SaleTypeId": 538,
+    "SaleTypeName": "Walker-Pouros",
+    "SaleTypeTooltip": "facere",
+    "ProbId": 422,
+    "ProbName": "Welch, Kirlin and Ryan",
+    "ProbTooltip": "quia",
+    "Probability": 369,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   },
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldLength": 194
     }
   }
 }

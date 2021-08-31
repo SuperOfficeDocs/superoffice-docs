@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingFromListDefinition
+title: SaveHeadingFromListDefinition
 id: v1ListAgent_SaveHeadingFromListDefinition
 ---
 
-# POST Agents/List/SaveHeadingFromListDefinition
+# SaveHeadingFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
+  "Id": 325,
   "Entity": {
-    "HeadingId": 440,
-    "Name": "Lind-Reilly",
-    "Tooltip": "at",
+    "HeadingId": 695,
+    "Name": "Treutel Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 758,
-    "UdListDefinitionId": 311
+    "Rank": 993,
+    "UdListDefinitionId": 371
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 855,
-  "Name": "Rosenbaum-Crona",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 765,
-  "UdListDefinitionId": 982,
+  "HeadingId": 611,
+  "Name": "Cormier LLC",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "Rank": 868,
+  "UdListDefinitionId": 716,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldLength": 332
     }
   }
 }

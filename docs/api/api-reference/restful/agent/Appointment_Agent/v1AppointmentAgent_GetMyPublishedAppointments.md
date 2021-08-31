@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetMyPublishedAppointments
+title: GetMyPublishedAppointments
 id: v1AppointmentAgent_GetMyPublishedAppointments
 ---
 
-# POST Agents/Appointment/GetMyPublishedAppointments
+# GetMyPublishedAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
@@ -112,7 +112,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -121,53 +121,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 658,
-    "StartDate": "2003-11-16T16:48:28.4844492+01:00",
-    "EndDate": "1997-11-01T16:48:28.4844492+01:00",
+    "AppointmentId": 884,
+    "StartDate": "1997-09-01T14:58:02.8795731+02:00",
+    "EndDate": "2010-03-14T14:58:02.8795731+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Miss Laurence VonRueden",
-    "ContactName": "Dach Group",
-    "Description": "Vision-oriented solution-oriented intranet",
-    "PersonFullName": "Dorcas Hilll",
-    "PersonId": 930,
-    "ContactId": 739,
-    "ProjectId": 722,
-    "ProjectName": "Carter, O'Reilly and Toy",
+    "Task": "minima",
+    "AssociateFullName": "Esther Christiansen",
+    "ContactName": "Marquardt, Koss and Walsh",
+    "Description": "Compatible explicit moratorium",
+    "PersonFullName": "Madge Wintheiser",
+    "PersonId": 411,
+    "ContactId": 709,
+    "ProjectId": 297,
+    "ProjectName": "Hammes, Walsh and Goldner",
     "IsPublished": true,
-    "AssociateId": 47,
-    "ColorIndex": 855,
+    "AssociateId": 360,
+    "ColorIndex": 244,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 369,
-    "PriorityName": "Armstrong Group",
+    "PriorityId": 474,
+    "PriorityName": "Macejkovic, West and Hudson",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-10-09T16:48:28.4844492+02:00",
+    "ActiveDate": "1997-09-10T14:58:02.8805755+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-03-03T16:48:28.4844492+01:00",
-    "RecurringEndDate": "1999-10-04T16:48:28.4844492+02:00",
-    "MotherId": 580,
-    "AssignedBy": 594,
-    "AssignedByFullName": "Matilda Hudson",
+    "RecurringStartDate": "2009-12-11T14:58:02.8805755+01:00",
+    "RecurringEndDate": "2017-06-29T14:58:02.8805755+02:00",
+    "MotherId": 125,
+    "AssignedBy": 66,
+    "AssignedByFullName": "Mrs. Winston McGlynn",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "minima",
-    "SaleId": 410,
-    "SaleName": "Adams-Shields",
-    "AssociateName": "Cole, Brekke and Ziemann",
-    "CreatedDate": "2005-06-28T16:48:28.4844492+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Jarred Lind",
-    "CreatedByAssociateId": 465,
+    "Location": "temporibus",
+    "AlarmLeadTime": "magni",
+    "SaleId": 475,
+    "SaleName": "Koss Group",
+    "AssociateName": "Gerhold-Kirlin",
+    "CreatedDate": "2012-12-24T14:58:02.8805755+01:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Rowland Roberts PhD",
+    "CreatedByAssociateId": 182,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 932
       }
     }
   }

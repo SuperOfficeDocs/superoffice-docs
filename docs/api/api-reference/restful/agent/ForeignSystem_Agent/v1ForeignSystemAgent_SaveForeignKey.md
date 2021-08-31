@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/SaveForeignKey
+title: SaveForeignKey
 id: v1ForeignSystemAgent_SaveForeignKey
 ---
 
-# POST Agents/ForeignSystem/SaveForeignKey
+# SaveForeignKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": {
-    "Key": "iste",
-    "Value": "animi",
-    "RecordId": 394,
-    "CreatedDate": "2017-07-01T16:48:29.713924+02:00",
-    "UpdatedDate": "2013-04-08T16:48:29.713924+02:00",
-    "UpdatedBy": "commodi",
-    "CreatedBy": "tempora",
-    "TableName": "Kub, Balistreri and Carter"
+    "Key": "quibusdam",
+    "Value": "consequatur",
+    "RecordId": 718,
+    "CreatedDate": "2001-05-31T14:58:04.3084602+02:00",
+    "UpdatedDate": "2009-05-31T14:58:04.3084602+02:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "omnis",
+    "TableName": "Franecki Inc and Sons"
   },
-  "ApplicationName": "White Inc and Sons",
-  "DeviceName": "Hintz-Schmidt",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Jewess, Wunsch and Schuster",
+  "DeviceName": "Kuhn Inc and Sons",
+  "DeviceIdentifier": "nesciunt"
 }
 ```
 
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "et",
-  "RecordId": 970,
-  "CreatedDate": "1995-12-14T16:48:29.713924+01:00",
-  "UpdatedDate": "2003-05-02T16:48:29.713924+02:00",
-  "UpdatedBy": "facere",
-  "CreatedBy": "voluptatibus",
-  "TableName": "Auer, Brown and Green",
+  "Key": "repudiandae",
+  "Value": "aperiam",
+  "RecordId": 653,
+  "CreatedDate": "2012-04-03T14:58:04.3084602+02:00",
+  "UpdatedDate": "2013-04-15T14:58:04.3084602+02:00",
+  "UpdatedBy": "ex",
+  "CreatedBy": "et",
+  "TableName": "Nienow LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 713
     }
   }
 }

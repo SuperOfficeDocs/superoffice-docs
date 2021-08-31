@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Boyer-Flatley",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "UdListDefinitionId": 380,
-  "Rank": 831,
+  "Id": 582,
+  "Name": "Spinka LLC",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "UdListDefinitionId": 696,
+  "Rank": 229,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

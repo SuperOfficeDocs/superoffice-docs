@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetFormEntity
+title: GetFormEntity
 id: v1MarketingAgent_GetFormEntity
 ---
 
-# POST Agents/Marketing/GetFormEntity
+# GetFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetFormEntity
@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=599
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=103
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 964,
-  "FormKey": "id",
-  "Name": "Reilly-Turcotte",
-  "Description": "Monitored background workforce",
-  "Config": "magni",
-  "FolderId": 390,
-  "ScriptId": 227,
-  "ResponseShipmentId": 156,
-  "Active": true,
-  "Expires": "2020-07-23T16:48:29.9569241+02:00",
-  "MaxSubmits": 619,
+  "FormId": 662,
+  "FormKey": "voluptatibus",
+  "Name": "Rodriguez-Stark",
+  "Description": "Business-focused dynamic focus group",
+  "Config": "quas",
+  "FolderId": 598,
+  "ScriptId": 898,
+  "ResponseShipmentId": 48,
+  "Active": false,
+  "Expires": "2017-01-28T14:58:04.4974652+01:00",
+  "MaxSubmits": 989,
   "Type": "Normal",
-  "Recipe": "cupiditate",
-  "GroupId": 16,
+  "Recipe": "quia",
+  "GroupId": 717,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2008-12-16T16:48:29.9569241+01:00",
-  "RegisteredAssociateId": 868,
-  "Updated": "2016-01-03T16:48:29.9569241+01:00",
-  "UpdatedAssociateId": 700,
-  "UpdatedCount": 881,
-  "FolderName": "Reilly, Berge and Zboncak",
+  "Registered": "2009-11-12T14:58:04.4974652+01:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "1999-01-22T14:58:04.4974652+01:00",
+  "UpdatedAssociateId": 679,
+  "UpdatedCount": 835,
+  "FolderName": "Jenkins Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

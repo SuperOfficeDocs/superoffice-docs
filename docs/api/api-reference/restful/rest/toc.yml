@@ -152,6 +152,8 @@ items:
     href: ChatTopic/v1ChatTopicEntity_GetChatTopicEntity.md
   - name: GET ChatTopic/{id}/IsOpen
     href: ChatTopic/v1ChatTopicEntity_IsWithinOpeningHours.md
+  - name: GET ChatTopic/{id}/Sessions
+    href: ChatTopic/v1ChatTopicEntity_Sessions.md
   - name: GET ChatTopic/{id}/UserAgent
     href: ChatTopic/v1ChatTopicEntity_GetChatTopicUserAgentList.md
   - name: GET ChatTopic/{id}/UserAgent/{username}
@@ -166,10 +168,14 @@ items:
     href: ChatTopic/v1ChatTopicEntity_PatchChatTopicEntity.md
   - name: POST ChatTopic
     href: ChatTopic/v1ChatTopicEntity_PostChatTopicEntity.md
+  - name: POST ChatTopic/{id}/Sessions
+    href: ChatTopic/v1ChatTopicEntity_CreateChatSessionForTopic.md
   - name: POST ChatTopic/{id}/UserAgent
     href: ChatTopic/v1ChatTopicEntity_AddChatTopicUserAgent.md
   - name: PUT ChatTopic/{id}
     href: ChatTopic/v1ChatTopicEntity_PutChatTopicEntity.md
+  - name: PUT ChatTopic/{id}/UserAgent
+    href: ChatTopic/v1ChatTopicEntity_UpdateChatTopicUserAgents.md
   - name: PUT ChatTopic/{id}/UserAgent/{username}
     href: ChatTopic/v1ChatTopicEntity_UpdateChatTopicUserAgent.md
 - name: Contact
@@ -289,6 +295,8 @@ items:
     href: CRMScript/v1CRMScriptEntity_GetCRMScriptEntity.md
   - name: GET CRMScript/{id}/Validate
     href: CRMScript/v1CRMScriptEntity_ValidateScript.md
+  - name: GET CRMScript/{id}/Validate
+    href: CRMScript/v1CRMScriptEntity_ValidateScriptByUniqueId.md
   - name: GET CRMScript/default
     href: CRMScript/v1CRMScriptEntity_DefaultCRMScriptEntity.md
   - name: PATCH CRMScript/{id}
@@ -297,8 +305,29 @@ items:
     href: CRMScript/v1CRMScriptEntity_PostCRMScriptEntity.md
   - name: POST CRMScript/{id}/Execute
     href: CRMScript/v1CRMScriptEntity_ExecuteScript.md
+  - name: POST CRMScript/{id}/Execute
+    href: CRMScript/v1CRMScriptEntity_ExecuteScriptByUniqueId.md
+  - name: POST CRMScript/{id}/ExecuteAsEvent
+    href: CRMScript/v1CRMScriptEntity_ExecuteScriptAsEvent.md
+  - name: POST CRMScript/{id}/ExecuteAsEvent
+    href: CRMScript/v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId.md
   - name: PUT CRMScript/{id}
     href: CRMScript/v1CRMScriptEntity_PutCRMScriptEntity.md
+- name: Dash
+  href: Dash/index.md
+  items:
+  - name: DEL Dash/{id}
+    href: Dash/v1Dash_DeleteDash.md
+  - name: GET Dash/{id}
+    href: Dash/v1Dash_GetDash.md
+  - name: GET Dash/default
+    href: Dash/v1Dash_DefaultDash.md
+  - name: PATCH Dash/{id}
+    href: Dash/v1Dash_PatchDash.md
+  - name: POST Dash
+    href: Dash/v1Dash_PostDash.md
+  - name: PUT Dash/{id}
+    href: Dash/v1Dash_PutDash.md
 - name: Dashboard
   href: Dashboard/index.md
   items:
@@ -329,6 +358,51 @@ items:
     href: DashboardTile/v1DashboardTile_PostDashboardTile.md
   - name: PUT DashboardTile/{id}
     href: DashboardTile/v1DashboardTile_PutDashboardTile.md
+- name: DashTheme
+  href: DashTheme/index.md
+  items:
+  - name: DEL DashTheme/{id}
+    href: DashTheme/v1DashTheme_DeleteDashTheme.md
+  - name: GET DashTheme/{id}
+    href: DashTheme/v1DashTheme_GetDashTheme.md
+  - name: GET DashTheme/default
+    href: DashTheme/v1DashTheme_DefaultDashTheme.md
+  - name: PATCH DashTheme/{id}
+    href: DashTheme/v1DashTheme_PatchDashTheme.md
+  - name: POST DashTheme
+    href: DashTheme/v1DashTheme_PostDashTheme.md
+  - name: PUT DashTheme/{id}
+    href: DashTheme/v1DashTheme_PutDashTheme.md
+- name: DashTile
+  href: DashTile/index.md
+  items:
+  - name: DEL DashTile/{id}
+    href: DashTile/v1DashTile_DeleteDashTile.md
+  - name: GET DashTile/{id}
+    href: DashTile/v1DashTile_GetDashTile.md
+  - name: GET DashTile/default
+    href: DashTile/v1DashTile_DefaultDashTile.md
+  - name: PATCH DashTile/{id}
+    href: DashTile/v1DashTile_PatchDashTile.md
+  - name: POST DashTile
+    href: DashTile/v1DashTile_PostDashTile.md
+  - name: PUT DashTile/{id}
+    href: DashTile/v1DashTile_PutDashTile.md
+- name: DashTileDefinition
+  href: DashTileDefinition/index.md
+  items:
+  - name: DEL DashTileDefinition/{id}
+    href: DashTileDefinition/v1DashTileDefinition_DeleteDashTileDefinition.md
+  - name: GET DashTileDefinition/{id}
+    href: DashTileDefinition/v1DashTileDefinition_GetDashTileDefinition.md
+  - name: GET DashTileDefinition/default
+    href: DashTileDefinition/v1DashTileDefinition_DefaultDashTileDefinition.md
+  - name: PATCH DashTileDefinition/{id}
+    href: DashTileDefinition/v1DashTileDefinition_PatchDashTileDefinition.md
+  - name: POST DashTileDefinition
+    href: DashTileDefinition/v1DashTileDefinition_PostDashTileDefinition.md
+  - name: PUT DashTileDefinition/{id}
+    href: DashTileDefinition/v1DashTileDefinition_PutDashTileDefinition.md
 - name: Document
   href: Document/index.md
   items:
@@ -350,6 +424,8 @@ items:
     href: Document/v1DocumentEntity_GetDocumentStream.md
   - name: GET Document/{id}/ForeignKey
     href: Document/v1DocumentEntity_GetAllForeignKeysOnEntity.md
+  - name: GET Document/{id}/Length
+    href: Document/v1DocumentEntity_GetDocumentLength.md
   - name: GET Document/{id}/Links
     href: Document/v1DocumentEntity_Links.md
   - name: GET Document/{id}/Lock
@@ -2118,6 +2194,21 @@ items:
     href: PreferenceDescription/v1PreferenceDescription_PutPreferenceDescription.md
   - name: PUT PreferenceDescription/{section}/{key}
     href: PreferenceDescription/v1PreferenceDescription_SaveFromSectionAndKey.md
+- name: PreferenceDescriptionLine
+  href: PreferenceDescriptionLine/index.md
+  items:
+  - name: DEL PreferenceDescriptionLine/{id}
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_DeletePreferenceDescriptionLine.md
+  - name: GET PreferenceDescriptionLine/{id}
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_GetPreferenceDescriptionLine.md
+  - name: GET PreferenceDescriptionLine/default
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md
+  - name: PATCH PreferenceDescriptionLine/{id}
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine.md
+  - name: POST PreferenceDescriptionLine
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_PostPreferenceDescriptionLine.md
+  - name: PUT PreferenceDescriptionLine/{id}
+    href: PreferenceDescriptionLine/v1PreferenceDescriptionLine_PutPreferenceDescriptionLine.md
 - name: Product
   href: Product/index.md
   items:
@@ -2519,6 +2610,8 @@ items:
     href: Ticket/v1TicketEntity_GetAll.md
   - name: GET Ticket/{id}
     href: Ticket/v1TicketEntity_GetTicketEntity.md
+  - name: GET Ticket/{id}/Attachments
+    href: Ticket/v1TicketEntity_GetTicketAttachments.md
   - name: GET Ticket/{id}/ForeignKey
     href: Ticket/v1TicketEntity_GetAllForeignKeysOnEntity.md
   - name: GET Ticket/{id}/Messages

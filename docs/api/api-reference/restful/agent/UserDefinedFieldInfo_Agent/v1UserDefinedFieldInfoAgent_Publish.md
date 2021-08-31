@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/Publish
+title: Publish
 id: v1UserDefinedFieldInfoAgent_Publish
 ---
 
-# POST Agents/UserDefinedFieldInfo/Publish
+# Publish
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/Publish
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-349
+166
 ```

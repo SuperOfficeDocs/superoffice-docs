@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveAmountClassEntity
+title: SaveAmountClassEntity
 id: v1ListAgent_SaveAmountClassEntity
 ---
 
-# POST Agents/List/SaveAmountClassEntity
+# SaveAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/SaveAmountClassEntity
@@ -78,18 +78,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 970,
-  "Name": "Corwin LLC",
-  "Tooltip": "sequi",
-  "Rank": 4,
-  "AmountFrom": 23257.414,
-  "AmountTo": 29575.557999999997,
+  "AmountClassId": 567,
+  "Name": "Kirlin, Goldner and Schulist",
+  "Tooltip": "iure",
+  "Rank": 810,
+  "AmountFrom": 22339.152,
+  "AmountTo": 3513.214,
   "Deleted": false,
-  "CurrencyId": 53
+  "CurrencyId": 612
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 300,
-  "Name": "Collins, Bailey and Zulauf",
-  "Tooltip": "maxime",
-  "Rank": 228,
-  "AmountFrom": 25087.67,
-  "AmountTo": 19208.286,
-  "Deleted": true,
-  "CurrencyId": 67,
+  "AmountClassId": 784,
+  "Name": "Stehr, Koelpin and Rolfson",
+  "Tooltip": "excepturi",
+  "Rank": 41,
+  "AmountFrom": 28998.902,
+  "AmountTo": 10972.134,
+  "Deleted": false,
+  "CurrencyId": 826,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "expedite bricks-and-clicks synergies"
+        "Reason": "grow 24/7 convergence"
       },
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

@@ -92,49 +92,49 @@ Response body: object
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 457,
-  "BlobSize": 49,
-  "Description": "Public-key local parallelism",
-  "ExtraInfo": "quas",
-  "IsEncrypted": true,
+  "BlobId": 417,
+  "BlobSize": 378,
+  "Description": "Sharable global circuit",
+  "ExtraInfo": "dolor",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 972,
-  "CreatedDate": "2018-05-30T09:40:58.8523797+02:00",
-  "UpdatedDate": "2016-04-25T09:40:58.8523797+02:00",
+  "MimeType": "non",
+  "OriginalSize": 416,
+  "CreatedDate": "2003-09-09T15:05:41.8080056+02:00",
+  "UpdatedDate": "1998-04-03T15:05:41.8080056+02:00",
   "CreatedBy": {
-    "AssociateId": 857,
-    "Name": "Greenholt Group",
-    "PersonId": 443,
-    "Rank": 174,
-    "Tooltip": "dolores",
+    "AssociateId": 483,
+    "Name": "Mante Inc and Sons",
+    "PersonId": 563,
+    "Rank": 893,
+    "Tooltip": "odit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 846,
-    "FullName": "Della Conroy",
-    "FormalName": "Ondricka LLC",
+    "GroupIdx": 415,
+    "FullName": "Alfonzo Heidenreich",
+    "FormalName": "Borer LLC",
     "Deleted": false,
-    "EjUserId": 735,
-    "UserName": "Cruickshank, Prosacco and Boyer"
+    "EjUserId": 642,
+    "UserName": "Mertz, Heidenreich and Lebsack"
   },
   "UpdatedBy": {
-    "AssociateId": 990,
-    "Name": "Mann-Thiel",
-    "PersonId": 609,
-    "Rank": 776,
-    "Tooltip": "rerum",
+    "AssociateId": 79,
+    "Name": "Hane, Beahan and Prosacco",
+    "PersonId": 484,
+    "Rank": 669,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 754,
-    "FullName": "Warren Monahan",
-    "FormalName": "Zboncak-Hamill",
+    "GroupIdx": 885,
+    "FullName": "Abner Schroeder",
+    "FormalName": "Weimann, Conn and Orn",
     "Deleted": true,
-    "EjUserId": 235,
-    "UserName": "Hammes-Heaney"
+    "EjUserId": 311,
+    "UserName": "Jacobs, Carter and Connelly"
   },
-  "ConceptualType": "voluptates"
+  "ConceptualType": "mollitia"
 }
 ```
 
@@ -143,54 +143,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 736,
-  "BlobSize": 934,
-  "Description": "Integrated homogeneous ability",
-  "ExtraInfo": "nemo",
-  "IsEncrypted": false,
+  "BlobId": 881,
+  "BlobSize": 752,
+  "Description": "Polarised client-driven strategy",
+  "ExtraInfo": "sit",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "qui",
-  "OriginalSize": 961,
-  "CreatedDate": "2009-06-17T09:40:58.8543757+02:00",
-  "UpdatedDate": "2005-06-09T09:40:58.8543757+02:00",
+  "MimeType": "molestiae",
+  "OriginalSize": 485,
+  "CreatedDate": "2006-10-10T15:05:41.8220321+02:00",
+  "UpdatedDate": "2014-08-10T15:05:41.8220321+02:00",
   "CreatedBy": {
-    "AssociateId": 822,
-    "Name": "Daugherty, Ziemann and Schinner",
-    "PersonId": 785,
-    "Rank": 403,
-    "Tooltip": "asperiores",
+    "AssociateId": 891,
+    "Name": "Parker, Wehner and Bins",
+    "PersonId": 54,
+    "Rank": 205,
+    "Tooltip": "qui",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 905,
-    "FullName": "Gregorio Ruecker",
-    "FormalName": "Klocko, Kreiger and Monahan",
-    "Deleted": false,
-    "EjUserId": 467,
-    "UserName": "Kris, Blanda and Botsford",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 190
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 780,
-    "Name": "Bashirian Inc and Sons",
-    "PersonId": 565,
-    "Rank": 691,
-    "Tooltip": "in",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 573,
-    "FullName": "Lexie Goldner",
-    "FormalName": "Wehner, Shields and Mayert",
+    "GroupIdx": 179,
+    "FullName": "Dustin Blanda",
+    "FormalName": "Kris-Green",
     "Deleted": true,
-    "EjUserId": 440,
-    "UserName": "Upton-Runte",
+    "EjUserId": 724,
+    "UserName": "Ullrich, Leuschke and Hagenes",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -199,14 +174,39 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldLength": 889
       }
     }
   },
-  "ConceptualType": "laboriosam",
+  "UpdatedBy": {
+    "AssociateId": 578,
+    "Name": "Hyatt, Will and Ebert",
+    "PersonId": 177,
+    "Rank": 783,
+    "Tooltip": "iusto",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 194,
+    "FullName": "Jeanne Huels",
+    "FormalName": "Hermann-Wyman",
+    "Deleted": false,
+    "EjUserId": 615,
+    "UserName": "Breitenberg LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 763
+      }
+    }
+  },
+  "ConceptualType": "aliquid",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "unleash ubiquitous functionalities"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 167
     }
   }
 }

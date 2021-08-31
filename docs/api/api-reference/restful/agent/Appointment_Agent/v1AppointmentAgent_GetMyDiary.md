@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetMyDiary
+title: GetMyDiary
 id: v1AppointmentAgent_GetMyDiary
 ---
 
-# POST Agents/Appointment/GetMyDiary
+# GetMyDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyDiary
@@ -123,13 +123,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2018-09-07T16:48:28.4254508+02:00",
-  "EndTime": "2000-05-14T16:48:28.4254508+02:00",
-  "Count": 381
+  "StartTime": "2006-01-14T14:58:03.0435384+01:00",
+  "EndTime": "2010-01-06T14:58:03.0435384+01:00",
+  "Count": 812
 }
 ```
 
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 435,
-    "StartDate": "2006-12-15T16:48:28.4264487+01:00",
-    "EndDate": "1999-02-12T16:48:28.4264487+01:00",
+    "AppointmentId": 473,
+    "StartDate": "2019-03-16T14:58:03.0445384+01:00",
+    "EndDate": "2008-11-01T14:58:03.0445384+01:00",
     "Type": "BookingForChecklist",
-    "Task": "labore",
-    "AssociateFullName": "Stan Murphy MD",
-    "ContactName": "Schiller Group",
-    "Description": "Horizontal transitional hierarchy",
-    "PersonFullName": "Marcelina Denesik",
-    "PersonId": 686,
-    "ContactId": 935,
-    "ProjectId": 786,
-    "ProjectName": "Moore Group",
+    "Task": "ipsa",
+    "AssociateFullName": "Garnet DuBuque",
+    "ContactName": "Abbott, Tremblay and Batz",
+    "Description": "Persistent full-range forecast",
+    "PersonFullName": "Marlen Altenwerth",
+    "PersonId": 149,
+    "ContactId": 777,
+    "ProjectId": 481,
+    "ProjectName": "Botsford Group",
     "IsPublished": true,
-    "AssociateId": 415,
-    "ColorIndex": 300,
+    "AssociateId": 77,
+    "ColorIndex": 870,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 309,
-    "PriorityName": "Tremblay, Smith and Heaney",
+    "PriorityId": 225,
+    "PriorityName": "Gislason LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2013-04-12T16:48:28.4264487+02:00",
+    "ActiveDate": "2001-08-02T14:58:03.0455383+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-03-05T16:48:28.4264487+01:00",
-    "RecurringEndDate": "1999-12-04T16:48:28.4264487+01:00",
-    "MotherId": 84,
-    "AssignedBy": 604,
-    "AssignedByFullName": "Rowan Thompson",
-    "RejectReason": "",
-    "Location": "corporis",
-    "AlarmLeadTime": "qui",
-    "SaleId": 608,
-    "SaleName": "Weissnat, Harvey and Osinski",
-    "AssociateName": "Trantow LLC",
-    "CreatedDate": "2017-07-30T16:48:28.4274487+02:00",
-    "CreatedBy": "architecto",
-    "CreatedByFullName": "Mrs. Coleman Ritchie",
-    "CreatedByAssociateId": 714,
+    "RecurringStartDate": "2007-03-06T14:58:03.0455383+01:00",
+    "RecurringEndDate": "2003-11-10T14:58:03.0455383+01:00",
+    "MotherId": 61,
+    "AssignedBy": 490,
+    "AssignedByFullName": "Loraine Walter",
+    "RejectReason": "evolve rich networks",
+    "Location": "nulla",
+    "AlarmLeadTime": "delectus",
+    "SaleId": 421,
+    "SaleName": "Bradtke, Weimann and O'Kon",
+    "AssociateName": "Skiles, Hansen and Beer",
+    "CreatedDate": "2000-03-30T14:58:03.0455383+02:00",
+    "CreatedBy": "dolorum",
+    "CreatedByFullName": "Harrison Bayer",
+    "CreatedByAssociateId": 574,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldLength": 23
       }
     }
   }

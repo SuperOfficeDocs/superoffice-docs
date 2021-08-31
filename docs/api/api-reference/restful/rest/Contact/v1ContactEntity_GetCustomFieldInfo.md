@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Trantow, Hamill and Halvorson",
-  "DisplayName": "Jast-Hills",
-  "Description": "Virtual content-based instruction set",
-  "ShortLabel": "deserunt",
+  "FieldName": "Welch Group",
+  "DisplayName": "White Inc and Sons",
+  "Description": "Enterprise-wide optimal function",
+  "ShortLabel": "aut",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
+  "HideField": false,
+  "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 204,
-  "TemplateVariableName": "Gusikowski LLC"
+  "Rank": 636,
+  "TemplateVariableName": "Brown-Bode"
 }
 ```

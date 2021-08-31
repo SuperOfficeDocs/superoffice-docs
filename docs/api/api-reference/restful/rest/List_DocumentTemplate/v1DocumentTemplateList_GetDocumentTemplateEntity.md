@@ -88,7 +88,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 42,
-  "Name": "Kuvalis, Flatley and Sanford",
-  "Tooltip": "illo",
-  "SaveInDb": 604,
-  "Filename": "laudantium",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 682,
+  "Name": "Douglas, Heller and Runolfsdottir",
+  "Tooltip": "vitae",
+  "SaveInDb": 387,
+  "Filename": "ea",
+  "DefaultOref": "reiciendis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 455,
-  "IntentId": 362,
+  "AutoeventId": 198,
+  "IntentId": 599,
   "IsDefaultPublished": false,
-  "Rank": 520,
-  "LoadTemplateFromPlugin": 415,
-  "MimeType": "sit",
+  "Rank": 649,
+  "LoadTemplateFromPlugin": 682,
+  "MimeType": "saepe",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 433,
+  "DocumentTypeKey": 8,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eve@feeneywuckert.uk",
+  "EmailSubject": "idell@prohaska.com",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "gaylord@oreilly.uk",
+  "SenderEmailAddress": "alana.trantow@hellerbergnaum.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldLength": 679
     }
   }
 }

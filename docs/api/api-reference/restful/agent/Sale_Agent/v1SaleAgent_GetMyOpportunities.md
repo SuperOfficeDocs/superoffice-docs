@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetMyOpportunities
+title: GetMyOpportunities
 id: v1SaleAgent_GetMyOpportunities
 ---
 
-# POST Agents/Sale/GetMyOpportunities
+# GetMyOpportunities
 
 ```http
 POST /api/v1/Agents/Sale/GetMyOpportunities
@@ -101,7 +101,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 2
+  "Count": 122
 }
 ```
 
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Keebler Inc and Sons",
-    "SaleDate": "2006-11-10T16:48:30.61794+01:00",
-    "SaleId": 603,
-    "Probability": 977,
-    "Title": "quis",
-    "Amount": 28842.201999999997,
-    "Currency": "explicabo",
-    "ProjectName": "Mitchell LLC",
-    "AssociateFullName": "Violette Ledner",
-    "Description": "Implemented methodical support",
+    "ContactName": "Bergnaum-Weimann",
+    "SaleDate": "2016-10-11T14:58:05.1856289+02:00",
+    "SaleId": 961,
+    "Probability": 397,
+    "Title": "sint",
+    "Amount": 26620.196,
+    "Currency": "quo",
+    "ProjectName": "O'Hara, Glover and Keebler",
+    "AssociateFullName": "Margaretta Considine",
+    "Description": "Re-contextualized optimal project",
     "Status": "Lost",
-    "WeightedAmount": 18854.144,
-    "ProjectId": 746,
-    "EarningPercent": 24692.786,
-    "Earning": 14137.474,
-    "ContactId": 662,
-    "AssociateId": 430,
-    "PersonId": 697,
-    "SaleTypeId": 915,
-    "SaleTypeName": "O'Kon, Mayer and Anderson",
-    "PersonFullName": "Samantha O'Conner",
+    "WeightedAmount": 21091.82,
+    "ProjectId": 524,
+    "EarningPercent": 20104.61,
+    "Earning": 19220.822,
+    "ContactId": 832,
+    "AssociateId": 820,
+    "PersonId": 935,
+    "SaleTypeId": 425,
+    "SaleTypeName": "Hansen-Douglas",
+    "PersonFullName": "Kameron Luettgen",
     "Completed": "Completed",
-    "ActiveErpLinks": 830,
-    "NextDueDate": "2019-10-18T16:48:30.6189404+02:00",
-    "Number": "568722",
+    "ActiveErpLinks": 611,
+    "NextDueDate": "2003-02-05T14:58:05.1856289+01:00",
+    "Number": "1138148",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 896
       }
     }
   }

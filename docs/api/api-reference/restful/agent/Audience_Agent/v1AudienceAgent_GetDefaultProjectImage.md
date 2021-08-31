@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetDefaultProjectImage
+title: GetDefaultProjectImage
 id: v1AudienceAgent_GetDefaultProjectImage
 ---
 
-# POST Agents/Audience/GetDefaultProjectImage
+# GetDefaultProjectImage
 
 ```http
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Reinger, Rice and Zboncak"
+  "LayoutName": "Kovacek, Braun and Hoppe"
 }
 ```
 

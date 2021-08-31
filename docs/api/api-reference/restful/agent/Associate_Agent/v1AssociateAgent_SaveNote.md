@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/SaveNote
+title: SaveNote
 id: v1AssociateAgent_SaveNote
 ---
 
-# POST Agents/Associate/SaveNote
+# SaveNote
 
 ```http
 POST /api/v1/Agents/Associate/SaveNote

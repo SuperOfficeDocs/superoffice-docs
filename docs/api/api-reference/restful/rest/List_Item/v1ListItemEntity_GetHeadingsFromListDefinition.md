@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -73,12 +73,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Little Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 442,
+    "Name": "Mraz, Roberts and Bechtelar",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 422,
+    "Rank": 208,
+    "UdListDefinitionId": 525,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "benchmark vertical functionalities"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 953
       }
     }
   }

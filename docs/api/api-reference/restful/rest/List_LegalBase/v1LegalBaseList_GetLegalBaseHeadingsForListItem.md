@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Macejkovic LLC",
-    "ToolTip": "Dignissimos sint impedit quos.",
+    "Id": 72,
+    "Name": "Reichel, Terry and Roberts",
+    "ToolTip": "Animi dolore esse.",
     "Deleted": true,
-    "Rank": 562,
-    "Type": "aperiam",
-    "ColorBlock": 470,
-    "IconHint": "veniam",
+    "Rank": 248,
+    "Type": "et",
+    "ColorBlock": 499,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2003-08-02T09:41:00.4473815+02:00",
+    "LastChanged": "1999-03-12T15:05:43.5100796+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Cartwright-Wilkinson",
-        "ToolTip": "Assumenda non ad.",
+        "Id": 910,
+        "Name": "Ritchie, Wunsch and Swaniawski",
+        "ToolTip": "Dolor ducimus illo neque error dolorem nostrum.",
         "Deleted": true,
-        "Rank": 216,
-        "Type": "excepturi",
-        "ColorBlock": 623,
-        "IconHint": "quae",
+        "Rank": 286,
+        "Type": "consequatur",
+        "ColorBlock": 132,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2007-02-22T09:41:00.4473815+01:00",
+        "LastChanged": "2014-02-07T15:05:43.5100796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Ardella Nader",
+        "ExtraInfo": "qui",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Miss Lionel Smitham",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "transform granular schemas"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "qui",
+    "ExtraInfo": "magnam",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Zack Schimmel",
+    "FullName": "Elfrieda Eichmann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "matrix robust supply-chains"
         },
         "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldLength": 522
       }
     }
   }

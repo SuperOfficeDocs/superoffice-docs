@@ -2,6 +2,8 @@
 title: ShipmentMessage
 ---
 
+# ShipmentMessage
+
 ```http
 /api/v1/ShipmentMessage
 ```

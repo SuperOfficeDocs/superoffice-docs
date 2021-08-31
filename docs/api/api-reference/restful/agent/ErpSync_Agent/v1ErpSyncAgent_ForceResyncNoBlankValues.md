@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ForceResyncNoBlankValues
+title: ForceResyncNoBlankValues
 id: v1ErpSyncAgent_ForceResyncNoBlankValues
 ---
 
-# POST Agents/ErpSync/ForceResyncNoBlankValues
+# ForceResyncNoBlankValues
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncNoBlankValues
@@ -86,14 +86,14 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ForceResyncNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 246,
+  "ErpConnectionId": 17,
   "InternalKeyIds": [
-    428,
-    173
+    445,
+    399
   ]
 }
 ```
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "et",
-  "TechExplanation": "dolorum",
-  "ErrorCode": "consectetur",
+  "UserExplanation": "dolor",
+  "TechExplanation": "autem",
+  "ErrorCode": "dolor",
   "Changes": {
     "AddedRecords": [
       {},
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldType": "System.String",
+        "FieldLength": 668
       }
     }
   },
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 82
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetUntrustedCredentials
+title: GetUntrustedCredentials
 id: v1UserAgent_GetUntrustedCredentials
 ---
 
-# POST Agents/User/GetUntrustedCredentials
+# GetUntrustedCredentials
 
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentials
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "necessitatibus"
+  "Type": "nulla"
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2002-07-27T16:48:30.9949334+02:00",
-    "ValidTo": "2015-10-01T16:48:30.9949334+02:00",
-    "Comment": "hic",
-    "SecretValue": "voluptatem",
-    "PublicValue": "eum",
+    "ValidFrom": "2007-02-04T14:58:05.4522936+01:00",
+    "ValidTo": "2012-11-19T14:58:05.4522936+01:00",
+    "Comment": "aut",
+    "SecretValue": "mollitia",
+    "PublicValue": "delectus",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "embrace holistic deliverables"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldType": "System.Int32",
+        "FieldLength": 271
       }
     }
   }

@@ -74,6 +74,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -83,7 +84,7 @@ Response body: object
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -92,31 +93,32 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 605,
-  "Name": "Osinski, Nikolaus and Wehner",
-  "AssociateId": 650,
-  "DetailsTable": 714,
-  "DetailsRecord": 683,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Name": "Haag-Christiansen",
+  "AssociateId": 261,
+  "DetailsTable": 216,
+  "DetailsRecord": 901,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "facilis",
-    "ParameterObject2": "voluptas"
+    "ParameterObject1": "ratione",
+    "ParameterObject2": "expedita"
   },
-  "LastStarted": "1997-03-08T09:40:59.9130689+01:00",
-  "Created": "1994-09-17T09:40:59.9130689+02:00",
-  "StartCount": 14,
-  "DatabaseSerialNumber": "71044",
-  "Context": "earum",
-  "Result": "dolor",
+  "LastStarted": "2004-08-07T15:05:42.9686323+02:00",
+  "Created": "1995-05-29T15:05:42.9686323+02:00",
+  "StartCount": 309,
+  "DatabaseSerialNumber": "905831",
+  "Context": "eligendi",
+  "Result": "rerum",
   "State": "All",
-  "Description": "Total background database",
-  "Response": "beatae",
-  "Request": "nihil",
-  "ProgressDescription": "Grass-roots global forecast",
-  "ProgressPercent": 779,
+  "Description": "Intuitive explicit alliance",
+  "Response": "velit",
+  "Request": "est",
+  "ProgressDescription": "Mandatory user-facing monitoring",
+  "ProgressPercent": 970,
+  "FileName": "Hoppe, Lind and Hane",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "utilize viral e-markets"
+    "Reason": "synthesize enterprise synergies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -125,7 +127,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldLength": 727
     }
   }
 }

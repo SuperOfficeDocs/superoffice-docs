@@ -25,7 +25,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?flat=True
 GET /api/v1/List/Category/MDOItems?query=omnis
 ```
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Beatty-Carroll",
-    "ToolTip": "Quos qui sed ducimus beatae autem dolores.",
+    "Id": 786,
+    "Name": "Trantow LLC",
+    "ToolTip": "Ut veritatis qui voluptatum sed sed.",
     "Deleted": false,
-    "Rank": 852,
-    "Type": "molestias",
+    "Rank": 437,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Heller-Miller",
-        "ToolTip": "Rem modi blanditiis dolores officiis magnam.",
+        "Id": 707,
+        "Name": "Heller Group",
+        "ToolTip": "Voluptas dolorem rerum aut sit quis.",
         "Deleted": false,
-        "Rank": 480,
-        "Type": "sint",
+        "Rank": 673,
+        "Type": "itaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 292,
-        "ExtraInfo": "sint",
-        "StyleHint": "cumque",
-        "FullName": "Addison Bergstrom",
+        "IconHint": "ut",
+        "ColorBlock": 536,
+        "ExtraInfo": "ut",
+        "StyleHint": "sed",
+        "FullName": "Ransom Roob MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldLength": 720
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 761,
-    "ExtraInfo": "rerum",
-    "StyleHint": "fuga",
-    "FullName": "Devante Carter",
+    "IconHint": "rerum",
+    "ColorBlock": 633,
+    "ExtraInfo": "aut",
+    "StyleHint": "veritatis",
+    "FullName": "Bart Jaskolski",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 23
       }
     }
   }

@@ -92,49 +92,49 @@ Response body: object
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 909,
-  "BlobSize": 907,
-  "Description": "Monitored scalable capacity",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 714,
+  "BlobSize": 791,
+  "Description": "Horizontal composite complexity",
+  "ExtraInfo": "repellat",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "similique",
-  "OriginalSize": 900,
-  "CreatedDate": "2008-01-30T09:40:59.9670645+01:00",
-  "UpdatedDate": "2013-10-13T09:40:59.9670645+02:00",
+  "MimeType": "nisi",
+  "OriginalSize": 179,
+  "CreatedDate": "2014-12-25T15:05:43.047633+01:00",
+  "UpdatedDate": "1998-07-29T15:05:43.047633+02:00",
   "CreatedBy": {
-    "AssociateId": 566,
-    "Name": "Mann-Purdy",
-    "PersonId": 993,
-    "Rank": 22,
-    "Tooltip": "corporis",
+    "AssociateId": 344,
+    "Name": "Beahan, Adams and Prohaska",
+    "PersonId": 590,
+    "Rank": 934,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 189,
-    "FullName": "Soledad Jewess",
-    "FormalName": "Ruecker, Champlin and O'Reilly",
-    "Deleted": false,
-    "EjUserId": 135,
-    "UserName": "Lowe LLC"
+    "GroupIdx": 784,
+    "FullName": "Lawrence Mueller",
+    "FormalName": "Ryan Group",
+    "Deleted": true,
+    "EjUserId": 510,
+    "UserName": "Breitenberg, Turcotte and Borer"
   },
   "UpdatedBy": {
-    "AssociateId": 554,
-    "Name": "Muller, Berge and Maggio",
-    "PersonId": 41,
-    "Rank": 289,
-    "Tooltip": "omnis",
+    "AssociateId": 925,
+    "Name": "Pagac Group",
+    "PersonId": 269,
+    "Rank": 540,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 140,
-    "FullName": "Tania Russel",
-    "FormalName": "Wisoky Group",
-    "Deleted": false,
-    "EjUserId": 11,
-    "UserName": "Sipes-Gerlach"
+    "GroupIdx": 253,
+    "FullName": "Dewitt Renner",
+    "FormalName": "Reichert, Sawayn and Walsh",
+    "Deleted": true,
+    "EjUserId": 258,
+    "UserName": "Lakin, Jones and Farrell"
   },
-  "ConceptualType": "voluptatem"
+  "ConceptualType": "autem"
 }
 ```
 
@@ -143,29 +143,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 380,
-  "BlobSize": 174,
-  "Description": "Distributed scalable protocol",
-  "ExtraInfo": "esse",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dignissimos",
-  "OriginalSize": 543,
-  "CreatedDate": "1997-10-27T09:40:59.968066+01:00",
-  "UpdatedDate": "2010-10-04T09:40:59.968066+02:00",
+  "BlobId": 465,
+  "BlobSize": 514,
+  "Description": "Cloned non-volatile encryption",
+  "ExtraInfo": "molestias",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "corrupti",
+  "OriginalSize": 663,
+  "CreatedDate": "2006-07-19T15:05:43.0486662+02:00",
+  "UpdatedDate": "2020-07-01T15:05:43.0486662+02:00",
   "CreatedBy": {
-    "AssociateId": 336,
-    "Name": "Franecki Group",
-    "PersonId": 637,
-    "Rank": 665,
-    "Tooltip": "eum",
+    "AssociateId": 632,
+    "Name": "Heathcote Group",
+    "PersonId": 129,
+    "Rank": 682,
+    "Tooltip": "quidem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 124,
-    "FullName": "Catherine Yost",
-    "FormalName": "Becker Group",
+    "GroupIdx": 172,
+    "FullName": "Colby Cruickshank",
+    "FormalName": "McClure-Schaden",
     "Deleted": true,
-    "EjUserId": 612,
-    "UserName": "Jenkins Inc and Sons",
+    "EjUserId": 599,
+    "UserName": "Kozey-Witting",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -173,49 +173,49 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 427,
-    "Name": "Reichert, Jerde and Rohan",
-    "PersonId": 236,
-    "Rank": 808,
-    "Tooltip": "deserunt",
+    "AssociateId": 250,
+    "Name": "Flatley-Herman",
+    "PersonId": 454,
+    "Rank": 288,
+    "Tooltip": "non",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 50,
-    "FullName": "Glenda Mitchell",
-    "FormalName": "Volkman Group",
-    "Deleted": true,
-    "EjUserId": 72,
-    "UserName": "Nolan, Cassin and Feest",
+    "GroupIdx": 243,
+    "FullName": "Karina Crona",
+    "FormalName": "Beatty, Aufderhar and Shields",
+    "Deleted": false,
+    "EjUserId": 914,
+    "UserName": "Braun, Gerlach and Bauch",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "cultivate visionary web-readiness"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 73
       }
     }
   },
-  "ConceptualType": "dignissimos",
+  "ConceptualType": "et",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "transition B2C solutions"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "strategize sticky applications"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 426
     }
   }
 }

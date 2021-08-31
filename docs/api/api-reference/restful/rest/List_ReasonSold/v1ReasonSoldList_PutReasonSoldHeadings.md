@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Emmerich Inc and Sons",
-    "Tooltip": "quas",
-    "Deleted": true,
-    "Rank": 946,
-    "UdListDefinitionId": 348
+    "HeadingId": 311,
+    "Name": "Rempel-Ortiz",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 775,
+    "UdListDefinitionId": 871
   },
   {
-    "HeadingId": 683,
-    "Name": "Emmerich Inc and Sons",
-    "Tooltip": "quas",
-    "Deleted": true,
-    "Rank": 946,
-    "UdListDefinitionId": 348
+    "HeadingId": 311,
+    "Name": "Rempel-Ortiz",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 775,
+    "UdListDefinitionId": 871
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 843,
-    "Name": "O'Hara-Rempel",
-    "Tooltip": "rerum",
+    "HeadingId": 534,
+    "Name": "Greenholt LLC",
+    "Tooltip": "ipsam",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 246,
+    "Rank": 466,
+    "UdListDefinitionId": 864,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   }

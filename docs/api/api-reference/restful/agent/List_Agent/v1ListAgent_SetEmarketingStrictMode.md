@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetEmarketingStrictMode
+title: SetEmarketingStrictMode
 id: v1ListAgent_SetEmarketingStrictMode
 ---
 
-# POST Agents/List/SetEmarketingStrictMode
+# SetEmarketingStrictMode
 
 ```http
 POST /api/v1/Agents/List/SetEmarketingStrictMode

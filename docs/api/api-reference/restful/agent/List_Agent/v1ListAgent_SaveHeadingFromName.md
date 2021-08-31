@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingFromName
+title: SaveHeadingFromName
 id: v1ListAgent_SaveHeadingFromName
 ---
 
-# POST Agents/List/SaveHeadingFromName
+# SaveHeadingFromName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromName
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wyman-Franecki",
+  "Name": "Witting-Zemlak",
   "Entity": {
     "HeadingId": 868,
-    "Name": "White-Gerlach",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 701
+    "Name": "Ziemann-Ward",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "Rank": 724,
+    "UdListDefinitionId": 574
   }
 }
 ```
@@ -105,15 +105,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 485,
-  "Name": "Orn Group",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "Rank": 270,
-  "UdListDefinitionId": 295,
+  "HeadingId": 591,
+  "Name": "Torp Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 285,
+  "UdListDefinitionId": 954,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reintermediate dot-com synergies"
+    "Reason": "morph killer e-services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 601
     }
   }
 }

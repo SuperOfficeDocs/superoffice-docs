@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "Name": "Treutel, Raynor and Howell",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 835,
-  "Rank": 8,
+  "Id": 290,
+  "Name": "Wyman Inc and Sons",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "UdListDefinitionId": 838,
+  "Rank": 672,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "strategize rich systems"
       },
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

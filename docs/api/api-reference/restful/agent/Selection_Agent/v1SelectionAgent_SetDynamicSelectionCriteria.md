@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/SetDynamicSelectionCriteria
+title: SetDynamicSelectionCriteria
 id: v1SelectionAgent_SetDynamicSelectionCriteria
 ---
 
-# POST Agents/Selection/SetDynamicSelectionCriteria
+# SetDynamicSelectionCriteria
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
@@ -85,28 +85,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 438,
+  "SelectionId": 576,
   "Criteria": [
     {
-      "Name": "Klocko-Purdy",
-      "Operator": "ullam",
+      "Name": "Fisher-Torphy",
+      "Operator": "dolorem",
       "Values": [
-        "rem",
-        "quaerat"
+        "expedita",
+        "et"
       ],
       "DisplayValues": [
-        "deleniti",
-        "autem"
+        "in",
+        "suscipit"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 9,
+      "InterParenthesis": 250,
       "InterOperator": "And",
-      "UniqueHash": 88
+      "UniqueHash": 637
     }
   ]
 }
@@ -118,58 +118,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bayer-McLaughlin",
-    "Operator": "quae",
+    "Name": "Jerde Inc and Sons",
+    "Operator": "magnam",
     "Values": [
-      "placeat",
-      "doloremque"
+      "rem",
+      "animi"
     ],
     "DisplayValues": [
-      "mollitia",
-      "rerum"
+      "blanditiis",
+      "in"
     ],
     "ColumnInfo": {
-      "DisplayName": "Littel-Schowalter",
-      "DisplayTooltip": "in",
-      "DisplayType": "et",
+      "DisplayName": "Larkin-Dooley",
+      "DisplayTooltip": "aspernatur",
+      "DisplayType": "magni",
       "CanOrderBy": false,
-      "Name": "Rippin, Kuhn and Bauch",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Kerluke, Bernier and Conn",
+      "Name": "Feeney LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "tempora",
+      "RestrictionListName": "Johns-Johnston",
       "IsVisible": false,
-      "ExtraInfo": "maxime",
-      "Width": "quaerat",
-      "IconHint": "similique",
-      "HeadingIconHint": "quibusdam"
+      "ExtraInfo": "laudantium",
+      "Width": "corporis",
+      "IconHint": "mollitia",
+      "HeadingIconHint": "ipsum"
     },
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Turcotte, Runolfsdottir and Sporer",
-        "Operator": "quia",
+        "Name": "Bode-Heidenreich",
+        "Operator": "dolorem",
         "Values": [
-          "quae",
-          "ut"
+          "aut",
+          "blanditiis"
         ],
         "DisplayValues": [
-          "quo",
-          "nobis"
+          "iure",
+          "nesciunt"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 100,
+        "InterParenthesis": 103,
         "InterOperator": "And",
-        "UniqueHash": 891
+        "UniqueHash": 182
       }
     ],
-    "InterParenthesis": 941,
+    "InterParenthesis": 623,
     "InterOperator": "And",
-    "UniqueHash": 481
+    "UniqueHash": 13
   }
 ]
 ```

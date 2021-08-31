@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectMemberDocuments
+title: GetProjectMemberDocuments
 id: v1DocumentAgent_GetProjectMemberDocuments
 ---
 
-# POST Agents/Document/GetProjectMemberDocuments
+# GetProjectMemberDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
@@ -93,14 +93,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 169,
-  "StartTime": "2001-04-27T16:48:29.3348949+02:00",
-  "EndTime": "1998-09-19T16:48:29.3348949+02:00",
-  "Count": 228
+  "PersonId": 994,
+  "StartTime": "2015-05-17T14:58:03.8204657+02:00",
+  "EndTime": "2007-07-08T14:58:03.8204657+02:00",
+  "Count": 709
 }
 ```
 
@@ -110,24 +110,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 242,
-    "Attention": "illo",
-    "Header": "voluptas",
-    "Name": "Goyette, Purdy and Wyman",
-    "OurRef": "accusantium",
-    "YourRef": "non",
-    "Description": "Open-source dynamic groupware",
-    "DocumentTemplate": "voluptatum",
+    "DocumentId": 901,
+    "Attention": "sapiente",
+    "Header": "quidem",
+    "Name": "Metz, Hermiston and Yundt",
+    "OurRef": "occaecati",
+    "YourRef": "veniam",
+    "Description": "Optional demand-driven interface",
+    "DocumentTemplate": "impedit",
     "IsPublished": true,
-    "PersonId": 69,
-    "PersonFullName": "Wilburn Hirthe",
-    "AssociateFullName": "Josefina Purdy",
-    "ContactId": 557,
-    "ContactName": "Hayes-Senger",
-    "ProjectId": 667,
-    "ProjectName": "Borer Group",
-    "AssociateId": 104,
-    "Snum": 484,
+    "PersonId": 908,
+    "PersonFullName": "Sylvester Kessler",
+    "AssociateFullName": "Calista Fay",
+    "ContactId": 875,
+    "ContactName": "VonRueden, Heaney and Jaskolski",
+    "ProjectId": 361,
+    "ProjectName": "Durgan-Hudson",
+    "AssociateId": 544,
+    "Snum": 906,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldType": "System.Int32",
+        "FieldLength": 5
       }
     }
   }

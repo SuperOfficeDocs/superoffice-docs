@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetPerson
+title: GetPerson
 id: v1PersonAgent_GetPerson
 ---
 
-# POST Agents/Person/GetPerson
+# GetPerson
 
 ```http
 POST /api/v1/Agents/Person/GetPerson
@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=701
+POST /api/v1/Agents/Person/GetPerson?personId=322
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ Response body: object
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -114,45 +114,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "qui",
-  "PersonId": 926,
-  "Mrmrs": "error",
-  "Firstname": "Lucie",
-  "Lastname": "Wilderman",
-  "MiddleName": "Balistreri-Auer",
-  "Title": "nobis",
-  "Description": "Programmable 4th generation leverage",
-  "Email": "jordyn_ziemann@ankunding.ca",
-  "FullName": "Stefanie Raynor",
-  "DirectPhone": "454-053-2383 x080",
-  "FormalName": "Kshlerin, Schuppe and Blanda",
-  "CountryId": 213,
-  "ContactId": 350,
-  "ContactName": "Rohan-Runolfsdottir",
-  "Retired": 846,
-  "Rank": 667,
-  "ActiveInterests": 626,
+  "Position": "quasi",
+  "PersonId": 96,
+  "Mrmrs": "a",
+  "Firstname": "Duncan",
+  "Lastname": "Schamberger",
+  "MiddleName": "Buckridge-Quitzon",
+  "Title": "aut",
+  "Description": "Compatible solution-oriented migration",
+  "Email": "elsa.mueller@murphyweber.co.uk",
+  "FullName": "Lavonne Graham",
+  "DirectPhone": "824.023.7007",
+  "FormalName": "Collier-Bailey",
+  "CountryId": 702,
+  "ContactId": 12,
+  "ContactName": "Crist, Oberbrunner and Wisoky",
+  "Retired": 804,
+  "Rank": 310,
+  "ActiveInterests": 364,
   "ContactDepartment": "",
-  "ContactCountryId": 299,
-  "ContactOrgNr": "1647106",
-  "FaxPhone": "1-858-413-4212",
-  "MobilePhone": "250.307.1644 x2425",
-  "ContactPhone": "(773)013-4543 x0460",
-  "AssociateName": "Shanahan-Bogan",
-  "AssociateId": 91,
-  "UsePersonAddress": false,
-  "ContactFax": "eos",
-  "Kanafname": "incidunt",
-  "Kanalname": "quod",
-  "Post1": "aperiam",
-  "Post2": "et",
-  "Post3": "fugit",
-  "EmailName": "sherwood.metz@stammbreitenberg.com",
-  "ContactFullName": "Nayeli Windler",
-  "ActiveErpLinks": 594,
-  "TicketPriorityId": 992,
-  "SupportLanguageId": 999,
-  "SupportAssociateId": 322,
+  "ContactCountryId": 115,
+  "ContactOrgNr": "825338",
+  "FaxPhone": "378-406-8725 x626",
+  "MobilePhone": "640-835-5508",
+  "ContactPhone": "1-540-523-2184 x21334",
+  "AssociateName": "Turner Group",
+  "AssociateId": 292,
+  "UsePersonAddress": true,
+  "ContactFax": "et",
+  "Kanafname": "culpa",
+  "Kanalname": "ut",
+  "Post1": "vel",
+  "Post2": "dolor",
+  "Post3": "impedit",
+  "EmailName": "laurine@dibbertsmitham.com",
+  "ContactFullName": "Camila Hilpert",
+  "ActiveErpLinks": 60,
+  "TicketPriorityId": 782,
+  "SupportLanguageId": 747,
+  "SupportAssociateId": 415,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 753
     }
   }
 }

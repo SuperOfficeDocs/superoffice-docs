@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/FindRolesWithFunctionalRights
+title: FindRolesWithFunctionalRights
 id: v1UserAgent_FindRolesWithFunctionalRights
 ---
 
-# POST Agents/User/FindRolesWithFunctionalRights
+# FindRolesWithFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
@@ -71,13 +71,13 @@ Response body: array
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Considine-Littel",
-    "Gerlach-Ledner"
+    "Gislason LLC",
+    "Hansen-Ziemann"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  332,
-  210
+  377,
+  691
 ]
 ```

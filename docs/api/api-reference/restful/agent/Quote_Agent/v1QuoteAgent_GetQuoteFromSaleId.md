@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteFromSaleId
+title: GetQuoteFromSaleId
 id: v1QuoteAgent_GetQuoteFromSaleId
 ---
 
-# POST Agents/Quote/GetQuoteFromSaleId
+# GetQuoteFromSaleId
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 813
+  "SaleId": 3
 }
 ```
 
@@ -104,55 +104,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 31,
-  "SaleId": 128,
-  "QuoteConnectionId": 636,
-  "ERPQuoteKey": "deleniti",
-  "ERPOrderKey": "repellat",
-  "ActiveQuoteVersionId": 860,
-  "AcceptedQuoteAlternativeId": 226,
-  "UseValuesFromQuote": 443,
-  "DocumentId": 548,
-  "PoNumber": "893452",
-  "OrderComment": "optio",
-  "PreferredEmailCulture": "leland@lesch.uk",
+  "QuoteId": 375,
+  "SaleId": 896,
+  "QuoteConnectionId": 783,
+  "ERPQuoteKey": "sit",
+  "ERPOrderKey": "rem",
+  "ActiveQuoteVersionId": 866,
+  "AcceptedQuoteAlternativeId": 46,
+  "UseValuesFromQuote": 329,
+  "DocumentId": 654,
+  "PoNumber": "978402",
+  "OrderComment": "quo",
+  "PreferredEmailCulture": "jeremie@willms.name",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 854,
-    "ERPQuoteVersionKey": "assumenda",
-    "QuoteId": 341,
-    "Description": "Triple-buffered homogeneous hierarchy",
-    "Number": "1318014",
+    "QuoteVersionId": 5,
+    "ERPQuoteVersionKey": "non",
+    "QuoteId": 430,
+    "Description": "Ameliorated methodical moderator",
+    "Number": "1217879",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 80,
-    "SentDate": "2006-03-13T16:48:30.4439412+01:00",
-    "FollowupId": 105,
-    "ExpirationDate": "2004-01-02T16:48:30.4439412+01:00",
-    "DeliveryCountryId": 783,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 137,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "minus",
-    "ERPPaymentTypeKey": "non",
-    "ERPDeliveryTermsKey": "officia",
-    "ERPDeliveryTypeKey": "autem",
-    "Rank": 201,
-    "ApprovedBy": 434,
-    "ApprovedText": "et",
-    "ApprovedRegisteredBy": 220,
-    "ApprovedRegisteredDate": "2016-05-27T16:48:30.4439412+02:00",
-    "ExtraField1": "et",
-    "ExtraField2": "sunt",
-    "ExtraField3": "unde",
-    "ExtraField4": "ut",
-    "ExtraField5": "expedita",
-    "LastRecalculated": "2012-09-25T16:48:30.4439412+02:00",
-    "Updated": "2006-09-08T16:48:30.4439412+02:00",
-    "UpdatedAssociateId": 422,
-    "Registered": "2017-02-25T16:48:30.4439412+01:00",
-    "RegisteredAssociateId": 362,
+    "LikelyQuoteAlternativeId": 174,
+    "SentDate": "2018-08-24T14:58:05.0064661+02:00",
+    "FollowupId": 853,
+    "ExpirationDate": "2005-02-03T14:58:05.0064661+01:00",
+    "DeliveryCountryId": 913,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 904,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "adipisci",
+    "ERPPaymentTypeKey": "ipsam",
+    "ERPDeliveryTermsKey": "ea",
+    "ERPDeliveryTypeKey": "odit",
+    "Rank": 12,
+    "ApprovedBy": 191,
+    "ApprovedText": "alias",
+    "ApprovedRegisteredBy": 687,
+    "ApprovedRegisteredDate": "2011-07-10T14:58:05.0064661+02:00",
+    "ExtraField1": "magnam",
+    "ExtraField2": "nemo",
+    "ExtraField3": "dolorem",
+    "ExtraField4": "nobis",
+    "ExtraField5": "nisi",
+    "LastRecalculated": "2005-08-27T14:58:05.0064661+02:00",
+    "Updated": "2020-12-12T14:58:05.0064661+01:00",
+    "UpdatedAssociateId": 605,
+    "Registered": "2005-03-04T14:58:05.0064661+01:00",
+    "RegisteredAssociateId": 577,
     "QuoteAlternatives": [
       {},
       {}
@@ -162,37 +162,37 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "streamline wireless platforms"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 312,
-    "ERPQuoteAlternativeKey": "vitae",
-    "QuoteVersionId": 948,
-    "Name": "Quigley, Tremblay and Kutch",
-    "Description": "Pre-emptive bandwidth-monitored Graphic Interface",
+    "QuoteAlternativeId": 964,
+    "ERPQuoteAlternativeKey": "atque",
+    "QuoteVersionId": 239,
+    "Name": "Romaguera-Hegmann",
+    "Description": "Synergistic empowering moratorium",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 22918.942,
-    "ERPDiscountAmount": 28284.35,
-    "DiscountPercent": 7421.312,
-    "DiscountAmount": 7418.178,
+    "ERPDiscountPercent": 22915.808,
+    "ERPDiscountAmount": 18753.856,
+    "DiscountPercent": 28939.356,
+    "DiscountAmount": 18938.762,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "cumque",
-    "VAT": 18443.59,
-    "EarningPercent": 6938.6759999999995,
-    "EarningAmount": 18706.845999999998,
-    "SubTotal": 3673.048,
-    "TotalPrice": 5111.554,
+    "VATInfo": "omnis",
+    "VAT": 21433.426,
+    "EarningPercent": 28845.336,
+    "EarningAmount": 7045.232,
+    "SubTotal": 22856.262,
+    "TotalPrice": 16077.42,
     "ExtraField1": "nam",
-    "ExtraField2": "et",
-    "ExtraField3": "modi",
-    "ExtraField4": "quia",
-    "ExtraField5": "voluptates",
+    "ExtraField2": "quia",
+    "ExtraField3": "et",
+    "ExtraField4": "non",
+    "ExtraField5": "inventore",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldLength": 534
       }
     }
   },
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 221
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

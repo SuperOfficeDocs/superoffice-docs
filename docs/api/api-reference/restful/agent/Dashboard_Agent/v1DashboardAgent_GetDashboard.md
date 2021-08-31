@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetDashboard
+title: GetDashboard
 id: v1DashboardAgent_GetDashboard
 ---
 
-# POST Agents/Dashboard/GetDashboard
+# GetDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboard
@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=178
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=57
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,22 +83,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 684,
-  "AssociateId": 364,
-  "Caption": "blanditiis",
+  "DashboardId": 1000,
+  "AssociateId": 573,
+  "Caption": "dignissimos",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 730,
-      "Caption": "est",
-      "Description": "Switchable content-based analyzer",
-      "ChartName": "Schaden, Anderson and Runolfsdottir",
-      "ChartId": "nisi",
+      "DashboardTileId": 814,
+      "Caption": "ab",
+      "Description": "Streamlined responsive capability",
+      "ChartName": "Grimes, Koepp and Kiehn",
+      "ChartId": "libero",
       "IsDefault": false,
-      "AssociateId": 316,
-      "GroupId": 758,
-      "SelectionId": 555,
-      "Config": "et",
+      "AssociateId": 722,
+      "GroupId": 612,
+      "SelectionId": 314,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "strategize synergistic paradigms"
+            "Reason": "architect dynamic interfaces"
           },
           "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldLength": 481
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 835
     }
   }
 }

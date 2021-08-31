@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceByName
+title: GetDeviceByName
 id: v1ForeignSystemAgent_GetDeviceByName
 ---
 
-# POST Agents/ForeignSystem/GetDeviceByName
+# GetDeviceByName
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
@@ -87,12 +87,12 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hessel-Franecki",
-  "DeviceName": "Bednar Inc and Sons"
+  "ApplicationName": "Kris, Kohler and Jacobs",
+  "DeviceName": "O'Conner-Hayes"
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 291,
-  "Name": "Mohr, Bartell and Runte",
-  "CreatedDate": "1998-01-02T16:48:29.7069252+01:00",
-  "UpdatedDate": "2001-09-07T16:48:29.7069252+02:00",
-  "AssociateFullName": "Elva Carter",
-  "CreatedBy": "quis",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "animi",
-  "ForeignAppId": 687,
+  "ForeignDeviceId": 35,
+  "Name": "Simonis-Senger",
+  "CreatedDate": "1996-04-12T14:58:04.3014597+02:00",
+  "UpdatedDate": "2012-12-24T14:58:04.3014597+01:00",
+  "AssociateFullName": "Alaina Klocko",
+  "CreatedBy": "et",
+  "UpdatedBy": "praesentium",
+  "DeviceIdentifier": "nisi",
+  "ForeignAppId": 968,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

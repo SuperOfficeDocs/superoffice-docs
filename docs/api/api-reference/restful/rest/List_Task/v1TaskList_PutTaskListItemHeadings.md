@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 208,
-    "Name": "Padberg-Boehm",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 402
+    "HeadingId": 202,
+    "Name": "Considine-Stehr",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "Rank": 85,
+    "UdListDefinitionId": 584
   },
   {
-    "HeadingId": 208,
-    "Name": "Padberg-Boehm",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 402
+    "HeadingId": 202,
+    "Name": "Considine-Stehr",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "Rank": 85,
+    "UdListDefinitionId": 584
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Gutmann, Roberts and Ziemann",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 526,
-    "UdListDefinitionId": 159,
+    "HeadingId": 901,
+    "Name": "Sawayn-Murazik",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 223,
+    "UdListDefinitionId": 684,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 752
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
+title: ValidateTriggerScriptByUniqueId
 id: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
 ---
 
-# POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
+# ValidateTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "officia"
+  "TriggerScriptUniqueId": "veritatis"
 }
 ```
 
@@ -95,8 +95,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "sunt",
+  "Valid": false,
+  "ErrorMessage": "aut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

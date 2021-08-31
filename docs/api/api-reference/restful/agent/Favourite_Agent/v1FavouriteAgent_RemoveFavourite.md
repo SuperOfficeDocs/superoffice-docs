@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Favourite/RemoveFavourite
+title: RemoveFavourite
 id: v1FavouriteAgent_RemoveFavourite
 ---
 
-# POST Agents/Favourite/RemoveFavourite
+# RemoveFavourite
 
 ```http
 POST /api/v1/Agents/Favourite/RemoveFavourite

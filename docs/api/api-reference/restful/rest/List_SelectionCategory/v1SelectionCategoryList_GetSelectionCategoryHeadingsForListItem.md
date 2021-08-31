@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Hartmann, Bauch and Aufderhar",
-    "ToolTip": "Id in dolores voluptatem.",
-    "Deleted": false,
-    "Rank": 628,
-    "Type": "quisquam",
-    "ColorBlock": 453,
-    "IconHint": "sequi",
+    "Id": 210,
+    "Name": "Schulist LLC",
+    "ToolTip": "Quod ratione incidunt.",
+    "Deleted": true,
+    "Rank": 933,
+    "Type": "voluptatum",
+    "ColorBlock": 515,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2017-11-28T09:41:00.7553868+01:00",
+    "LastChanged": "2014-09-19T15:05:43.8171183+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Mitchell, Buckridge and Terry",
-        "ToolTip": "Ut sit voluptatum molestiae assumenda.",
-        "Deleted": false,
-        "Rank": 769,
-        "Type": "eveniet",
-        "ColorBlock": 612,
-        "IconHint": "cupiditate",
+        "Id": 713,
+        "Name": "Padberg Inc and Sons",
+        "ToolTip": "Ut sint aliquid nihil accusamus aut.",
+        "Deleted": true,
+        "Rank": 228,
+        "Type": "rerum",
+        "ColorBlock": 839,
+        "IconHint": "voluptates",
         "Selected": true,
-        "LastChanged": "1995-10-16T09:41:00.7553868+02:00",
+        "LastChanged": "2021-03-21T15:05:43.8171183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "facere",
+        "ExtraInfo": "odit",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Cara Legros",
+        "FullName": "Mrs. Ashleigh Marvin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,18 +129,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "enim",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Jade Hirthe",
+    "FullName": "Eleanora Gulgowski",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "embrace intuitive mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 894
       }
     }
   }

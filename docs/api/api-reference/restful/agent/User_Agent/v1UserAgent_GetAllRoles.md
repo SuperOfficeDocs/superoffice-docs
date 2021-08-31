@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetAllRoles
+title: GetAllRoles
 id: v1UserAgent_GetAllRoles
 ---
 
-# POST Agents/User/GetAllRoles
+# GetAllRoles
 
 ```http
 POST /api/v1/Agents/User/GetAllRoles
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Hessel Group",
-    "ToolTip": "Accusamus provident voluptatum natus mollitia.",
+    "Id": 515,
+    "Name": "Nader-Schoen",
+    "ToolTip": "Illum at deserunt consequatur ipsum.",
     "Deleted": true,
-    "Rank": 270,
-    "Type": "quisquam",
-    "ColorBlock": 518,
-    "IconHint": "et",
+    "Rank": 668,
+    "Type": "nisi",
+    "ColorBlock": 834,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2007-08-22T16:48:30.9129401+02:00",
+    "LastChanged": "2007-03-07T14:58:05.5680598+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Brekke LLC",
-        "ToolTip": "Et dolorem saepe suscipit.",
+        "Id": 957,
+        "Name": "Mueller-Carroll",
+        "ToolTip": "Aut ratione cum ratione.",
         "Deleted": false,
-        "Rank": 182,
-        "Type": "pariatur",
-        "ColorBlock": 119,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2002-12-09T16:48:30.9129401+01:00",
+        "Rank": 564,
+        "Type": "aut",
+        "ColorBlock": 826,
+        "IconHint": "odit",
+        "Selected": true,
+        "LastChanged": "2012-09-21T14:58:05.5680598+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ea",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Jasmin Leuschke",
+        "FullName": "Kurtis Kulas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,16 +141,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldType": "System.String",
+            "FieldLength": 614
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Kellie Nitzsche",
+    "ExtraInfo": "architecto",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Sibyl Hamill",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -159,10 +159,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "repurpose open-source schemas"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 223
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SaveSuggestedDocumentEntity
+title: SaveSuggestedDocumentEntity
 id: v1DocumentAgent_SaveSuggestedDocumentEntity
 ---
 
-# POST Agents/Document/SaveSuggestedDocumentEntity
+# SaveSuggestedDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
@@ -84,49 +84,49 @@ Response body: object
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 973,
-  "Name": "Abernathy Group",
-  "Tooltip": "doloremque",
-  "Rank": 496,
-  "DoctmplId": 480,
-  "Header": "saepe",
-  "OurRef": "labore",
-  "Deleted": true,
+  "SuggestedDocumentId": 220,
+  "Name": "Gleason, Carroll and O'Conner",
+  "Tooltip": "libero",
+  "Rank": 732,
+  "DoctmplId": 729,
+  "Header": "ullam",
+  "OurRef": "quia",
+  "Deleted": false,
   "DocTmpl": {
-    "DocumentTemplateId": 193,
-    "Name": "Stokes, Walter and Leffler",
-    "Tooltip": "vero",
-    "SaveInDb": 809,
-    "Filename": "molestias",
-    "DefaultOref": "laborum",
+    "DocumentTemplateId": 215,
+    "Name": "Wiegand, Mayer and Haley",
+    "Tooltip": "aut",
+    "SaveInDb": 886,
+    "Filename": "et",
+    "DefaultOref": "sit",
     "RecordType": "Appointment",
-    "Deleted": 406,
+    "Deleted": 28,
     "Direction": "Incoming",
-    "AutoeventId": 618,
+    "AutoeventId": 717,
     "QuoteDocType": "ConfirmationLines"
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 477,
-    "ProjTypeId": 854,
-    "ProjTypeName": "Grant-Pouros",
-    "ProjTypeTooltip": "laudantium",
-    "ProjStatusId": 772,
-    "ProjStatusName": "Gislason Inc and Sons",
-    "ProjStatusTooltip": "numquam"
+    "ProjectTypeStatusLinkId": 897,
+    "ProjTypeId": 673,
+    "ProjTypeName": "Kozey, Lind and Kshlerin",
+    "ProjTypeTooltip": "illo",
+    "ProjStatusId": 64,
+    "ProjStatusName": "Bayer, Effertz and West",
+    "ProjStatusTooltip": "sapiente"
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 794,
-    "SaleTypeId": 869,
-    "SaleTypeName": "Kuphal, Von and Gutmann",
-    "SaleTypeTooltip": "odio",
-    "ProbId": 32,
-    "ProbName": "Yost, Braun and Hamill",
-    "ProbTooltip": "fugiat",
-    "Probability": 301
+    "SaleTypeStageLinkId": 90,
+    "SaleTypeId": 427,
+    "SaleTypeName": "Larson LLC",
+    "SaleTypeTooltip": "quia",
+    "ProbId": 67,
+    "ProbName": "Harris Group",
+    "ProbTooltip": "at",
+    "Probability": 469
   }
 }
 ```
@@ -136,25 +136,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 911,
-  "Name": "Bernhard Inc and Sons",
-  "Tooltip": "adipisci",
-  "Rank": 696,
-  "DoctmplId": 289,
-  "Header": "consectetur",
-  "OurRef": "harum",
-  "Deleted": true,
+  "SuggestedDocumentId": 485,
+  "Name": "Denesik LLC",
+  "Tooltip": "itaque",
+  "Rank": 500,
+  "DoctmplId": 544,
+  "Header": "deleniti",
+  "OurRef": "voluptatum",
+  "Deleted": false,
   "DocTmpl": {
-    "DocumentTemplateId": 101,
-    "Name": "Kutch, Trantow and Waters",
-    "Tooltip": "qui",
-    "SaveInDb": 634,
-    "Filename": "voluptatem",
-    "DefaultOref": "aliquam",
+    "DocumentTemplateId": 216,
+    "Name": "Gleichner-Pagac",
+    "Tooltip": "laudantium",
+    "SaveInDb": 838,
+    "Filename": "dolor",
+    "DefaultOref": "culpa",
     "RecordType": "Appointment",
-    "Deleted": 601,
+    "Deleted": 568,
     "Direction": "Incoming",
-    "AutoeventId": 57,
+    "AutoeventId": 863,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -163,49 +163,49 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 464,
-    "ProjTypeId": 177,
-    "ProjTypeName": "Rice Inc and Sons",
-    "ProjTypeTooltip": "veniam",
-    "ProjStatusId": 858,
-    "ProjStatusName": "Schroeder, Nicolas and Mraz",
-    "ProjStatusTooltip": "qui",
+    "ProjectTypeStatusLinkId": 157,
+    "ProjTypeId": 890,
+    "ProjTypeName": "Pfeffer LLC",
+    "ProjTypeTooltip": "numquam",
+    "ProjStatusId": 335,
+    "ProjStatusName": "Erdman, Olson and Dach",
+    "ProjStatusTooltip": "nostrum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "e-enable virtual schemas"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldLength": 865
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 977,
-    "SaleTypeId": 973,
-    "SaleTypeName": "Toy, Durgan and Medhurst",
-    "SaleTypeTooltip": "incidunt",
-    "ProbId": 489,
-    "ProbName": "Mayert-Bins",
-    "ProbTooltip": "quidem",
-    "Probability": 530,
+    "SaleTypeStageLinkId": 979,
+    "SaleTypeId": 964,
+    "SaleTypeName": "Wehner Group",
+    "SaleTypeTooltip": "id",
+    "ProbId": 331,
+    "ProbName": "Nikolaus, Nicolas and Hauck",
+    "ProbTooltip": "exercitationem",
+    "Probability": 428,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "innovate revolutionary infrastructures"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 997
+        "FieldType": "System.Int32",
+        "FieldLength": 169
       }
     }
   },
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

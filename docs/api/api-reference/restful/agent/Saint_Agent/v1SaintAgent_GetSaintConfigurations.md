@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/GetSaintConfigurations
+title: GetSaintConfigurations
 id: v1SaintAgent_GetSaintConfigurations
 ---
 
-# POST Agents/Saint/GetSaintConfigurations
+# GetSaintConfigurations
 
 ```http
 POST /api/v1/Agents/Saint/GetSaintConfigurations
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/Saint/GetSaintConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -80,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 262,
-    "Enabled": true,
-    "Period1": 878,
-    "Period2": 506,
-    "Period3": 804,
-    "GenerationStart": "2018-07-28T16:48:30.5069479+02:00",
-    "GenerationEnd": "2014-10-10T16:48:30.5069479+02:00",
-    "RowsGenerated": 911,
+    "OwnerTable": 418,
+    "Enabled": false,
+    "Period1": 745,
+    "Period2": 875,
+    "Period3": 988,
+    "GenerationStart": "2011-12-21T14:58:05.1086289+01:00",
+    "GenerationEnd": "2006-05-01T14:58:05.1086289+02:00",
+    "RowsGenerated": 916,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "embrace sticky functionalities"
     },
     "FieldProperties": {
       "fieldName": {
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldLength": 500
       }
     }
   }

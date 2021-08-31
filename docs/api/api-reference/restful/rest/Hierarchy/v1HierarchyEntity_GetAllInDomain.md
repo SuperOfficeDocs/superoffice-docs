@@ -28,7 +28,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -86,26 +86,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 820,
+    "HierarchyId": 877,
     "Domain": "Dashboards",
-    "Name": "Sauer Group",
-    "Fullname": "ut",
-    "ParentId": 1000,
+    "Name": "Koss, Mann and Predovic",
+    "Fullname": "consequuntur",
+    "ParentId": 953,
     "Children": [
       {
-        "HierarchyId": 274,
+        "HierarchyId": 963,
         "Domain": "Dashboards",
-        "Name": "Emard-Lind",
-        "Fullname": "rerum",
-        "ParentId": 664,
+        "Name": "Ritchie-Padberg",
+        "Fullname": "dolores",
+        "ParentId": 599,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2007-04-09T09:40:59.238663+02:00",
-        "RegisteredAssociateId": 606,
-        "Updated": "1996-04-03T09:40:59.238663+02:00",
-        "UpdatedAssociateId": 925,
+        "Registered": "2021-03-21T15:05:42.2556678+01:00",
+        "RegisteredAssociateId": 847,
+        "Updated": "2013-02-23T15:05:42.2556678+01:00",
+        "UpdatedAssociateId": 166,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -114,15 +114,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 307
           }
         }
       }
     ],
-    "Registered": "2001-03-08T09:40:59.238663+01:00",
-    "RegisteredAssociateId": 566,
-    "Updated": "2003-01-21T09:40:59.238663+01:00",
-    "UpdatedAssociateId": 790,
+    "Registered": "2012-08-04T15:05:42.2556678+02:00",
+    "RegisteredAssociateId": 403,
+    "Updated": "1995-10-21T15:05:42.2556678+02:00",
+    "UpdatedAssociateId": 276,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -131,10 +131,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "innovate killer solutions"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldType": "System.String",
+        "FieldLength": 860
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/CreateDefaultMailMergeSettings
+title: CreateDefaultMailMergeSettings
 id: v1SelectionAgent_CreateDefaultMailMergeSettings
 ---
 
-# POST Agents/Selection/CreateDefaultMailMergeSettings
+# CreateDefaultMailMergeSettings
 
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 178,
-  "DocumentId": 745,
+  "SelectionId": 133,
+  "DocumentId": 783,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "dolorum",
-  "AlwaysUseCustomAttention": false,
+  "CustomAttention": "magnam",
+  "AlwaysUseCustomAttention": true,
   "SaveDocument": true,
-  "CustomMailBody": "ullam",
+  "CustomMailBody": "alias",
   "TaskEntity": {
-    "ProjectId": 392,
-    "TypeId": 986,
-    "StartDate": "1996-02-03T16:48:30.6499073+01:00",
-    "Duration": 463,
-    "Description": "Diverse solution-oriented collaboration",
-    "PriorityId": 573,
+    "ProjectId": 467,
+    "TypeId": 652,
+    "StartDate": "2008-06-05T14:58:05.2186292+02:00",
+    "Duration": 455,
+    "Description": "Synchronised needs-based orchestration",
+    "PriorityId": 891,
     "VisibleFor": {},
     "Completed": "Completed",
-    "OwnerAssociateId": 552,
+    "OwnerAssociateId": 338,
     "SingleEntryOnEachCompany": true,
-    "SaleId": 827,
+    "SaleId": 248,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -114,23 +114,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 17
       }
     }
   },
-  "AddCompanyInterest": 189,
-  "AddPersonInterest": 309,
-  "RemoveCompanyInterest": 680,
-  "RemovePersonInterest": 207,
-  "IncludeNoMailingsRecipient": true,
-  "TestOnly": false,
-  "ProjectId": 688,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "dolores",
-  "ExtraInfo": "earum",
-  "Synchronous": false,
-  "IsTemporarySelection": false,
+  "AddCompanyInterest": 146,
+  "AddPersonInterest": 187,
+  "RemoveCompanyInterest": 528,
+  "RemovePersonInterest": 861,
+  "IncludeNoMailingsRecipient": false,
+  "TestOnly": true,
+  "ProjectId": 477,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "ex",
+  "ExtraInfo": "dolorum",
+  "Synchronous": true,
+  "IsTemporarySelection": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/NumberAllocation/DeleteRefCountEntity
+title: DeleteRefCountEntity
 id: v1NumberAllocationAgent_DeleteRefCountEntity
 ---
 
-# POST Agents/NumberAllocation/DeleteRefCountEntity
+# DeleteRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity
@@ -24,7 +24,7 @@ Deletes the RefCountEntity
 | RefCountEntityId | int32 | **Required** The id of the RefCountEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?RefCountEntityId=287
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?RefCountEntityId=624
 ```
 
 

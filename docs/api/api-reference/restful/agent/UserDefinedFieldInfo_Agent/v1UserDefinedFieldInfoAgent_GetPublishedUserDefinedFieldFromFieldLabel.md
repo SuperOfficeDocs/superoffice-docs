@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
+title: GetPublishedUserDefinedFieldFromFieldLabel
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
+# GetPublishedUserDefinedFieldFromFieldLabel
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
@@ -112,11 +112,11 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "et",
+  "FieldLabel": "qui",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 549,
-  "ColumnId": 420,
-  "FieldDefault": "nihil",
-  "FieldHeight": 650,
-  "FieldLabel": "vel",
-  "FieldLeft": 444,
-  "FieldTop": 619,
+  "UDefFieldId": 579,
+  "ColumnId": 963,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 874,
+  "FieldLabel": "nihil",
+  "FieldLeft": 640,
+  "FieldTop": 593,
   "FieldType": "Checkbox",
-  "FieldWidth": 806,
-  "FormatMask": "quisquam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 885,
-  "LabelLeft": 444,
-  "LabelTop": 855,
-  "LabelWidth": 25,
-  "LastVersionId": 425,
-  "ListTableId": 716,
+  "FieldWidth": 191,
+  "FormatMask": "assumenda",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 490,
+  "LabelLeft": 311,
+  "LabelTop": 879,
+  "LabelWidth": 323,
+  "LastVersionId": 927,
+  "ListTableId": 69,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 949,
-  "ProgId": "vero",
-  "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 278,
-  "TextLength": 448,
-  "Tooltip": "autem",
-  "UdefIdentity": 781,
-  "UDListDefinitionId": 39,
+  "Page1LineNo": 594,
+  "ProgId": "eaque",
+  "IsReadOnly": true,
+  "ShortLabel": "temporibus",
+  "TabOrder": 596,
+  "TextLength": 460,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 875,
+  "UDListDefinitionId": 416,
   "Justification": "Center",
-  "Version": 411,
-  "TemplateVariableName": "Gislason Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Braun-Powlowski",
+  "Version": 8,
+  "TemplateVariableName": "Wisozk-Rodriguez",
+  "HasBeenPublished": true,
+  "MdoListName": "Schmeler LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/AddHierarchyToPath
+title: AddHierarchyToPath
 id: v1ListAgent_AddHierarchyToPath
 ---
 
-# POST Agents/List/AddHierarchyToPath
+# AddHierarchyToPath
 
 ```http
 POST /api/v1/Agents/List/AddHierarchyToPath
@@ -89,13 +89,13 @@ Response body: object
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "recusandae",
-  "Name": "Stanton LLC"
+  "Path": "iure",
+  "Name": "Bailey Group"
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 159,
+  "HierarchyId": 709,
   "Domain": "Dashboards",
-  "Name": "Langosh, Dicki and Schumm",
-  "Fullname": "optio",
-  "ParentId": 417,
+  "Name": "Kohler Inc and Sons",
+  "Fullname": "sed",
+  "ParentId": 750,
   "Children": [
     {
-      "HierarchyId": 978,
+      "HierarchyId": 75,
       "Domain": "Dashboards",
-      "Name": "Smith, Heathcote and Beier",
-      "Fullname": "ea",
-      "ParentId": 487,
+      "Name": "Simonis, Ruecker and Upton",
+      "Fullname": "beatae",
+      "ParentId": 287,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-02-27T16:48:29.8099291+01:00",
-      "RegisteredAssociateId": 502,
-      "Updated": "1996-04-22T16:48:29.8099291+02:00",
-      "UpdatedAssociateId": 143,
+      "Registered": "2015-10-29T14:58:04.4074656+01:00",
+      "RegisteredAssociateId": 68,
+      "Updated": "2013-01-24T14:58:04.4074656+01:00",
+      "UpdatedAssociateId": 917,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,15 +132,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Registered": "1996-10-31T16:48:29.8099291+01:00",
-  "RegisteredAssociateId": 330,
-  "Updated": "1994-12-12T16:48:29.8099291+01:00",
-  "UpdatedAssociateId": 301,
+  "Registered": "1998-08-19T14:58:04.4074656+02:00",
+  "RegisteredAssociateId": 668,
+  "Updated": "2015-04-18T14:58:04.4074656+02:00",
+  "UpdatedAssociateId": 647,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 500
     }
   }
 }

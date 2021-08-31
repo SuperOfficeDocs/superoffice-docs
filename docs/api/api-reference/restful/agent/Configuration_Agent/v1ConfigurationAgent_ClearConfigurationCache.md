@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/ClearConfigurationCache
+title: ClearConfigurationCache
 id: v1ConfigurationAgent_ClearConfigurationCache
 ---
 
-# POST Agents/Configuration/ClearConfigurationCache
+# ClearConfigurationCache
 
 ```http
 POST /api/v1/Agents/Configuration/ClearConfigurationCache

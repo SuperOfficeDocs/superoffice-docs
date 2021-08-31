@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProjectStatusList
+title: GetProjectStatusList
 id: v1ListAgent_GetProjectStatusList
 ---
 
-# POST Agents/List/GetProjectStatusList
+# GetProjectStatusList
 
 ```http
 POST /api/v1/Agents/List/GetProjectStatusList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Value": "error",
-    "Tooltip": "soluta",
+    "Id": 538,
+    "Value": "et",
+    "Tooltip": "possimus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   },
   {
-    "Id": 679,
-    "Value": "error",
-    "Tooltip": "soluta",
+    "Id": 538,
+    "Value": "et",
+    "Tooltip": "possimus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

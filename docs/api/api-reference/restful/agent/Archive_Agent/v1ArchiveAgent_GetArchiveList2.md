@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveList2
+title: GetArchiveList2
 id: v1ArchiveAgent_GetArchiveList2
 ---
 
-# POST Agents/Archive/GetArchiveList2
+# GetArchiveList2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList2
@@ -14,32 +14,7 @@ Get a page of data for an archive using a restriction string.
 The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -238,17 +169,17 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Pouros, Emmerich and Towne",
-  "ProviderName": "Auer LLC",
-  "SortOrder": "error",
-  "Restriction": "dolor",
-  "Entities": "debitis",
-  "Page": 755,
-  "PageSize": 34
+  "GuiName": "Ernser, Balistreri and Stroman",
+  "ProviderName": "Schmidt LLC",
+  "SortOrder": "facilis",
+  "Restriction": "sed",
+  "Entities": "recusandae",
+  "Page": 396,
+  "PageSize": 470
 }
 ```
 
@@ -258,17 +189,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Douglas, Cummerata and Lubowitz",
-    "PrimaryKey": 462,
+    "EntityName": "Berge-Wolff",
+    "PrimaryKey": 763,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nisi",
-        "TooltipHint": "corporis",
-        "LinkHint": "dolores"
+        "DisplayValue": "molestiae",
+        "TooltipHint": "accusamus",
+        "LinkHint": "aut"
       }
     },
-    "LinkHint": "voluptates",
-    "StyleHint": "magni",
+    "LinkHint": "id",
+    "StyleHint": "dolor",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -279,8 +210,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldType": "System.String",
+        "FieldLength": 490
       }
     }
   }

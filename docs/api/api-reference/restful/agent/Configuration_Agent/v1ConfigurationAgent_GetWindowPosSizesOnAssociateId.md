@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWindowPosSizesOnAssociateId
+title: GetWindowPosSizesOnAssociateId
 id: v1ConfigurationAgent_GetWindowPosSizesOnAssociateId
 ---
 
-# POST Agents/Configuration/GetWindowPosSizesOnAssociateId
+# GetWindowPosSizesOnAssociateId
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
@@ -83,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 252
+  "AssociateId": 493
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptatem",
-    "PersonId": 104,
-    "AssociateId": 694,
-    "ExtraId": 114,
-    "ExtraInfo": "blanditiis",
-    "Height": 607,
-    "LeftX": 886,
+    "OwnerWindow": "ad",
+    "PersonId": 900,
+    "AssociateId": 467,
+    "ExtraId": 887,
+    "ExtraInfo": "ducimus",
+    "Height": 888,
+    "LeftX": 92,
     "State": "Maximized",
-    "UpperY": 600,
-    "Width": 798,
-    "WindowPosSizeId": 166,
+    "UpperY": 738,
+    "Width": 577,
+    "WindowPosSizeId": 834,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "facilitate robust vortals"
+      "Reason": "embrace sexy deliverables"
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldLength": 432
       }
     }
   }

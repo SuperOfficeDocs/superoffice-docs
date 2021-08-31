@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetContactDocumentsByTemplateType
+title: GetContactDocumentsByTemplateType
 id: v1DocumentAgent_GetContactDocumentsByTemplateType
 ---
 
-# POST Agents/Document/GetContactDocumentsByTemplateType
+# GetContactDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 162,
-  "StartTime": "2018-03-25T16:48:29.2828945+02:00",
-  "EndTime": "2016-02-15T16:48:29.2828945+01:00",
-  "Count": 235,
-  "DocumentTemplateId": 847
+  "ContactId": 423,
+  "StartTime": "2016-06-18T14:58:03.809465+02:00",
+  "EndTime": "2006-01-10T14:58:03.809465+01:00",
+  "Count": 293,
+  "DocumentTemplateId": 491
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 615,
-    "Attention": "perferendis",
-    "Header": "a",
-    "Name": "Gislason, Leuschke and Gleichner",
-    "OurRef": "voluptates",
-    "YourRef": "eum",
-    "Description": "Visionary eco-centric open architecture",
-    "DocumentTemplate": "autem",
-    "IsPublished": false,
-    "PersonId": 948,
-    "PersonFullName": "Dr. Jacinthe Romaguera",
-    "AssociateFullName": "Oda Klocko",
-    "ContactId": 858,
-    "ContactName": "Frami, Blanda and Leuschke",
-    "ProjectId": 463,
-    "ProjectName": "Kulas-Halvorson",
-    "AssociateId": 155,
-    "Snum": 679,
+    "DocumentId": 631,
+    "Attention": "non",
+    "Header": "aut",
+    "Name": "Wiza-Sanford",
+    "OurRef": "animi",
+    "YourRef": "non",
+    "Description": "Phased leading edge array",
+    "DocumentTemplate": "eum",
+    "IsPublished": true,
+    "PersonId": 846,
+    "PersonFullName": "Myrtice Simonis III",
+    "AssociateFullName": "Mrs. Fausto Nicolas",
+    "ContactId": 663,
+    "ContactName": "Collins-Lynch",
+    "ProjectId": 822,
+    "ProjectName": "Dach, Gulgowski and Kiehn",
+    "AssociateId": 328,
+    "Snum": 682,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,10 +138,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "transform magnetic portals"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 214
       }
     }
   }

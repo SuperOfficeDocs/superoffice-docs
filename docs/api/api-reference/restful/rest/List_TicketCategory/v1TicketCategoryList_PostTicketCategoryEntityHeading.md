@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 888,
-  "Name": "Schulist LLC",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 290,
-  "UdListDefinitionId": 441
+  "HeadingId": 198,
+  "Name": "Rippin-Flatley",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "Rank": 984,
+  "UdListDefinitionId": 982
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 331,
-  "Name": "Borer Group",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 937,
-  "UdListDefinitionId": 166,
+  "HeadingId": 772,
+  "Name": "Brekke Group",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 368,
+  "UdListDefinitionId": 519,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "optimize holistic niches"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   }
 }

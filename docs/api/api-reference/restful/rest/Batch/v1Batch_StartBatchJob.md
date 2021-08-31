@@ -58,6 +58,7 @@ Use BatchTaskInfo to describe the new batch job.
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 
 
 ## Response: int32
@@ -81,29 +82,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "Tromp, Bode and Armstrong",
-  "AssociateId": 903,
-  "DetailsTable": 741,
-  "DetailsRecord": 524,
-  "IsSystemTask": false,
+  "Id": 120,
+  "Name": "Ondricka, Murazik and Walsh",
+  "AssociateId": 304,
+  "DetailsTable": 900,
+  "DetailsRecord": 960,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "est"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "laboriosam"
   },
-  "LastStarted": "1994-05-03T09:40:59.9120662+02:00",
-  "Created": "2009-11-23T09:40:59.9120662+01:00",
-  "StartCount": 341,
-  "DatabaseSerialNumber": "1063490",
-  "Context": "quaerat",
-  "Result": "quia",
+  "LastStarted": "2003-03-22T15:05:42.9676325+01:00",
+  "Created": "1999-06-10T15:05:42.9676325+02:00",
+  "StartCount": 896,
+  "DatabaseSerialNumber": "233424",
+  "Context": "magni",
+  "Result": "veniam",
   "State": "All",
-  "Description": "Quality-focused web-enabled attitude",
-  "Response": "incidunt",
-  "Request": "nemo",
-  "ProgressDescription": "User-centric methodical hub",
-  "ProgressPercent": 91
+  "Description": "Business-focused discrete paradigm",
+  "Response": "dolorem",
+  "Request": "non",
+  "ProgressDescription": "Assimilated incremental superstructure",
+  "ProgressPercent": 888,
+  "FileName": "Klocko, Koelpin and Wolff"
 }
 ```
 
@@ -111,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-236
+302
 ```

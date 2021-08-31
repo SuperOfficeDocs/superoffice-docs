@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -76,11 +76,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 868,
-  "Name": "Lynch-Hudson",
+  "TicketStatusId": 91,
+  "Name": "Fadel, Gislason and Cruickshank",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 150
     }
   }
 }

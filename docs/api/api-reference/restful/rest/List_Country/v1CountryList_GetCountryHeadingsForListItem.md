@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Kuphal-VonRueden",
-    "ToolTip": "Sunt distinctio ut laboriosam sint ea consequuntur.",
+    "Id": 693,
+    "Name": "Johnston LLC",
+    "ToolTip": "Deserunt repellat veritatis quia est ut consectetur.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "molestiae",
-    "ColorBlock": 373,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "2000-12-06T09:41:00.3053667+01:00",
+    "Rank": 87,
+    "Type": "consequuntur",
+    "ColorBlock": 552,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2013-02-17T15:05:43.3755104+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Harris, Friesen and Marks",
-        "ToolTip": "Dolores nam aut voluptatem.",
+        "Id": 573,
+        "Name": "Schowalter, Ratke and Runolfsson",
+        "ToolTip": "Id ipsum quo sunt.",
         "Deleted": true,
-        "Rank": 985,
-        "Type": "quam",
-        "ColorBlock": 666,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2004-02-21T09:41:00.3053667+01:00",
+        "Rank": 654,
+        "Type": "ut",
+        "ColorBlock": 235,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2015-08-22T15:05:43.3765102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Deion Spinka",
+        "ExtraInfo": "ut",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Royce Harris",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldLength": 386
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Marc Hahn MD",
+    "ExtraInfo": "qui",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Phyllis Bruen",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 65
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/SetDynamicSelectionCriteriaGroups
+title: SetDynamicSelectionCriteriaGroups
 id: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
 ---
 
-# POST Agents/Selection/SetDynamicSelectionCriteriaGroups
+# SetDynamicSelectionCriteriaGroups
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -75,25 +75,25 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 611,
+  "SelectionId": 914,
   "Criteria": [
     {
-      "Name": "Macejkovic LLC",
-      "Description": "Focused needs-based architecture",
-      "Rank": 903,
+      "Name": "Lubowitz, Beatty and Feil",
+      "Description": "Expanded global open architecture",
+      "Rank": 603,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Macejkovic LLC",
-      "Description": "Focused needs-based architecture",
-      "Rank": 903,
+      "Name": "Lubowitz, Beatty and Feil",
+      "Description": "Expanded global open architecture",
+      "Rank": 603,
       "Restrictions": [
         {},
         {}
@@ -109,20 +109,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prohaska-Parisian",
-    "Description": "User-friendly solution-oriented help-desk",
-    "Rank": 354,
+    "Name": "Jacobs-Schiller",
+    "Description": "Total optimal throughput",
+    "Rank": 391,
     "Restrictions": [
       {
-        "Name": "Welch, Upton and Bradtke",
-        "Operator": "illum",
+        "Name": "Bins, Hartmann and Raynor",
+        "Operator": "ut",
         "Values": [
-          "maxime",
-          "est"
+          "enim",
+          "vel"
         ],
         "DisplayValues": [
-          "aut",
-          "et"
+          "sunt",
+          "officiis"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -130,27 +130,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 782,
+        "InterParenthesis": 8,
         "InterOperator": "And",
-        "UniqueHash": 985
+        "UniqueHash": 629
       }
     ]
   },
   {
-    "Name": "Prohaska-Parisian",
-    "Description": "User-friendly solution-oriented help-desk",
-    "Rank": 354,
+    "Name": "Jacobs-Schiller",
+    "Description": "Total optimal throughput",
+    "Rank": 391,
     "Restrictions": [
       {
-        "Name": "Welch, Upton and Bradtke",
-        "Operator": "illum",
+        "Name": "Bins, Hartmann and Raynor",
+        "Operator": "ut",
         "Values": [
-          "maxime",
-          "est"
+          "enim",
+          "vel"
         ],
         "DisplayValues": [
-          "aut",
-          "et"
+          "sunt",
+          "officiis"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -158,9 +158,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 782,
+        "InterParenthesis": 8,
         "InterOperator": "And",
-        "UniqueHash": 985
+        "UniqueHash": 629
       }
     ]
   }

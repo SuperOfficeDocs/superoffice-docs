@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Brakus, Jerde and Stroman",
-    "Tooltip": "pariatur",
+    "HeadingId": 43,
+    "Name": "King Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 542,
-    "UdListDefinitionId": 838
+    "Rank": 725,
+    "UdListDefinitionId": 998
   },
   {
-    "HeadingId": 604,
-    "Name": "Brakus, Jerde and Stroman",
-    "Tooltip": "pariatur",
+    "HeadingId": 43,
+    "Name": "King Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 542,
-    "UdListDefinitionId": 838
+    "Rank": 725,
+    "UdListDefinitionId": 998
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 245,
-    "Name": "Botsford-Lesch",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 990,
-    "UdListDefinitionId": 33,
+    "HeadingId": 699,
+    "Name": "Wintheiser, Hilll and Schneider",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 880,
+    "UdListDefinitionId": 840,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

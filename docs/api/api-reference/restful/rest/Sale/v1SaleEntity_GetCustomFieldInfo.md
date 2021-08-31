@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Mills-Kilback",
-  "DisplayName": "Brown-Goodwin",
-  "Description": "Robust client-server adapter",
-  "ShortLabel": "ut",
-  "HideLabel": true,
-  "HideField": false,
+  "FieldName": "Wyman Group",
+  "DisplayName": "Kertzmann Inc and Sons",
+  "Description": "Public-key 4th generation contingency",
+  "ShortLabel": "autem",
+  "HideLabel": false,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 539,
-  "TemplateVariableName": "Barrows, Nolan and Oberbrunner"
+  "Rank": 471,
+  "TemplateVariableName": "Casper-Reilly"
 }
 ```

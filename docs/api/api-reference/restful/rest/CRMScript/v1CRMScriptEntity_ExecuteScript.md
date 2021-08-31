@@ -9,7 +9,7 @@ id: v1CRMScriptEntity_ExecuteScript
 POST /api/v1/CRMScript/{cRMScriptId}/Execute
 ```
 
-Execute a CRMScript with parameters
+Execute a CRMScript with parameters, returning printed output value.
 
 
 
@@ -61,12 +61,12 @@ Response body: string
 POST /api/v1/CRMScript/{cRMScriptId}/Execute
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iste"
+"et"
 ```

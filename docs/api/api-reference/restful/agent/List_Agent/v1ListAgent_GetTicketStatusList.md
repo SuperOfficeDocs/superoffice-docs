@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketStatusList
+title: GetTicketStatusList
 id: v1ListAgent_GetTicketStatusList
 ---
 
-# POST Agents/List/GetTicketStatusList
+# GetTicketStatusList
 
 ```http
 POST /api/v1/Agents/List/GetTicketStatusList
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -83,14 +83,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 551,
-    "Name": "Ratke, Strosin and Pouros",
+    "TicketStatusId": 432,
+    "Name": "Donnelly Group",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "revolutionize transparent relationships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldType": "System.String",
+        "FieldLength": 990
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketPriority
+title: GetTicketPriority
 id: v1ListAgent_GetTicketPriority
 ---
 
-# POST Agents/List/GetTicketPriority
+# GetTicketPriority
 
 ```http
 POST /api/v1/Agents/List/GetTicketPriority
@@ -25,7 +25,7 @@ Gets a TicketPriority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=327
+POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=818
 POST /api/v1/Agents/List/GetTicketPriority?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Value": "ea",
-  "Tooltip": "aut",
+  "Id": 385,
+  "Value": "dolorum",
+  "Tooltip": "sapiente",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 297
     }
   }
 }

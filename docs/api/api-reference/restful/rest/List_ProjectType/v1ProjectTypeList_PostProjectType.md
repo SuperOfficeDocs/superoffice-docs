@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Grady-Marks",
-  "Tooltip": "laudantium",
+  "Id": 122,
+  "Name": "Goldner LLC",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 958
+  "UdListDefinitionId": 876,
+  "Rank": 130
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Monahan-Robel",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 100,
-  "Rank": 927,
+  "Id": 80,
+  "Name": "Gleichner Inc and Sons",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "UdListDefinitionId": 469,
+  "Rank": 807,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

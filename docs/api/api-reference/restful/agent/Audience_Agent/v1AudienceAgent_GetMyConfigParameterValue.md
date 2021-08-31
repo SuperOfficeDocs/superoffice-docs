@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetMyConfigParameterValue
+title: GetMyConfigParameterValue
 id: v1AudienceAgent_GetMyConfigParameterValue
 ---
 
-# POST Agents/Audience/GetMyConfigParameterValue
+# GetMyConfigParameterValue
 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameterValue
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Audience/GetMyConfigParameterValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hahn, Dicki and Wiegand"
+  "ParameterName": "Rutherford LLC"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"voluptas"
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveConfiguration
+title: GetArchiveConfiguration
 id: v1ArchiveAgent_GetArchiveConfiguration
 ---
 
-# POST Agents/Archive/GetArchiveConfiguration
+# GetArchiveConfiguration
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Williamson-McCullough",
-  "ProviderName": "Ullrich LLC"
+  "GuiName": "Simonis LLC",
+  "ProviderName": "Tillman Inc and Sons"
 }
 ```
 
@@ -98,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Berge, Bogisich and Kuhlman",
-      "DisplayTooltip": "et",
-      "DisplayType": "sit",
+      "DisplayName": "Raynor-Kuhlman",
+      "DisplayTooltip": "natus",
+      "DisplayType": "minima",
       "CanOrderBy": false,
-      "Name": "Jacobi LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Hamill-Johnston",
+      "Name": "Balistreri-Aufderhar",
+      "CanRestrictBy": true,
+      "RestrictionType": "sit",
+      "RestrictionListName": "Lakin-Funk",
       "IsVisible": false,
-      "ExtraInfo": "suscipit",
-      "Width": "quae",
-      "IconHint": "exercitationem",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "voluptatum",
+      "Width": "sed",
+      "IconHint": "impedit",
+      "HeadingIconHint": "nam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 318,
-      "Name": "Schumm, Nikolaus and Spinka",
-      "ToolTip": "Non accusamus.",
+      "Id": 217,
+      "Name": "Schmeler, McGlynn and Schneider",
+      "ToolTip": "Quae necessitatibus quia.",
       "Deleted": false,
-      "Rank": 218,
-      "Type": "quis",
-      "ColorBlock": 182,
-      "IconHint": "quo",
-      "Selected": false,
-      "LastChanged": "1999-03-06T16:48:28.7224189+01:00",
+      "Rank": 319,
+      "Type": "nemo",
+      "ColorBlock": 137,
+      "IconHint": "sed",
+      "Selected": true,
+      "LastChanged": "2008-07-18T14:58:03.2215706+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "architecto",
-      "StyleHint": "porro",
-      "Hidden": true,
-      "FullName": "Dandre Hudson",
+      "ExtraInfo": "minima",
+      "StyleHint": "autem",
+      "Hidden": false,
+      "FullName": "Juvenal Turcotte",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -141,22 +141,22 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 26
+          "FieldLength": 291
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Sawayn Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Sawayn Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "minus",
+  "OwnerKeys": "officia",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 744
     }
   }
 }

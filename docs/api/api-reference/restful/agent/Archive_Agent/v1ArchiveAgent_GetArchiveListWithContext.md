@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListWithContext
+title: GetArchiveListWithContext
 id: v1ArchiveAgent_GetArchiveListWithContext
 ---
 
-# POST Agents/Archive/GetArchiveListWithContext
+# GetArchiveListWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
@@ -15,83 +15,26 @@ The columns returned will be those set as chosen columns, using either the SetCh
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -167,52 +110,52 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dicki, Spinka and Mayert",
-  "ProviderName": "Witting Inc and Sons",
+  "GuiName": "Kuhlman-Hirthe",
+  "ProviderName": "Homenick Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Walter-D'Amore",
+      "Name": "Quitzon Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Walter-D'Amore",
+      "Name": "Quitzon Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Prohaska, Bartell and Treutel",
-      "Operator": "iusto",
+      "Name": "Hilpert, Rempel and Shields",
+      "Operator": "vel",
       "Values": [
-        "est",
-        "aut"
+        "distinctio",
+        "dolore"
       ],
       "DisplayValues": [
-        "et",
-        "et"
+        "eos",
+        "soluta"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 415,
+      "InterParenthesis": 34,
       "InterOperator": "And",
-      "UniqueHash": 1000
+      "UniqueHash": 952
     }
   ],
   "Entities": [
-    "libero",
-    "dolorum"
+    "dignissimos",
+    "molestiae"
   ],
-  "Page": 985,
-  "PageSize": 833,
-  "Context": "eius"
+  "Page": 405,
+  "PageSize": 823,
+  "Context": "ea"
 }
 ```
 
@@ -222,17 +165,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ratke LLC",
-    "PrimaryKey": 559,
+    "EntityName": "Pouros Inc and Sons",
+    "PrimaryKey": 353,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ex",
-        "TooltipHint": "quas",
-        "LinkHint": "sit"
+        "DisplayValue": "qui",
+        "TooltipHint": "nobis",
+        "LinkHint": "debitis"
       }
     },
-    "LinkHint": "velit",
-    "StyleHint": "consectetur",
+    "LinkHint": "et",
+    "StyleHint": "aspernatur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -241,10 +184,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "drive strategic content"
         },
-        "FieldType": "System.String",
-        "FieldLength": 79
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

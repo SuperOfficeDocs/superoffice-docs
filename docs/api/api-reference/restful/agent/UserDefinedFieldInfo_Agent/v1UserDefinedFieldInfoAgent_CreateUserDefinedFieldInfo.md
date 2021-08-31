@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
+title: CreateUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
 ---
 
-# POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
+# CreateUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 270,
-  "ColumnId": 660,
-  "FieldDefault": "repellendus",
-  "FieldHeight": 547,
-  "FieldLabel": "laboriosam",
-  "FieldLeft": 664,
-  "FieldTop": 332,
+  "UDefFieldId": 51,
+  "ColumnId": 768,
+  "FieldDefault": "et",
+  "FieldHeight": 483,
+  "FieldLabel": "ut",
+  "FieldLeft": 220,
+  "FieldTop": 300,
   "FieldType": "Checkbox",
-  "FieldWidth": 417,
-  "FormatMask": "labore",
+  "FieldWidth": 366,
+  "FormatMask": "accusamus",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 835,
-  "LabelLeft": 537,
-  "LabelTop": 698,
-  "LabelWidth": 371,
-  "LastVersionId": 514,
-  "ListTableId": 683,
+  "LabelHeight": 128,
+  "LabelLeft": 956,
+  "LabelTop": 775,
+  "LabelWidth": 254,
+  "LastVersionId": 300,
+  "ListTableId": 707,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 968,
-  "ProgId": "hic",
-  "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 915,
-  "TextLength": 528,
-  "Tooltip": "illum",
-  "UdefIdentity": 530,
-  "UDListDefinitionId": 973,
+  "Page1LineNo": 468,
+  "ProgId": "ea",
+  "IsReadOnly": true,
+  "ShortLabel": "modi",
+  "TabOrder": 538,
+  "TextLength": 497,
+  "Tooltip": "amet",
+  "UdefIdentity": 723,
+  "UDListDefinitionId": 271,
   "Justification": "Center",
-  "Version": 258,
-  "TemplateVariableName": "Kuvalis, Lebsack and Larson",
-  "HasBeenPublished": false,
-  "MdoListName": "Denesik, Boehm and O'Connell",
+  "Version": 918,
+  "TemplateVariableName": "Padberg, Crooks and Friesen",
+  "HasBeenPublished": true,
+  "MdoListName": "Harber-Hand",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldLength": 251
     }
   }
 }

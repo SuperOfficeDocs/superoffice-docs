@@ -119,43 +119,45 @@ Response body: object
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "quis",
     "value": {
       "value1": {
-        "PrimaryKey": 1419,
+        "PrimaryKey": 4385,
         "EntityName": "person",
-        "personId": 1419,
-        "fullName": "Delbert Senger"
+        "personId": 4385,
+        "fullName": "Devan Bruen MD"
       },
       "value2": {
-        "PrimaryKey": 8597,
-        "EntityName": "person",
-        "personId": 8597,
-        "fullName": "Dewayne Kunze"
+        "PrimaryKey": 3116,
+        "EntityName": "sale",
+        "saleId": 3116,
+        "contactId": 1083,
+        "name": "Brekke-Kiehn"
       }
     }
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "quis",
     "value": {
       "value1": {
-        "PrimaryKey": 1419,
+        "PrimaryKey": 4385,
         "EntityName": "person",
-        "personId": 1419,
-        "fullName": "Delbert Senger"
+        "personId": 4385,
+        "fullName": "Devan Bruen MD"
       },
       "value2": {
-        "PrimaryKey": 8597,
-        "EntityName": "person",
-        "personId": 8597,
-        "fullName": "Dewayne Kunze"
+        "PrimaryKey": 3116,
+        "EntityName": "sale",
+        "saleId": 3116,
+        "contactId": 1083,
+        "name": "Brekke-Kiehn"
       }
     }
   }
@@ -167,15 +169,15 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Hills, Mills and Jakubowski",
-  "Tooltip": "est",
+  "Id": 419,
+  "Name": "Schultz-Dibbert",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 427,
+  "Rank": 882,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -185,10 +187,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "repurpose ubiquitous ROI"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 350
     }
   },
   "_Links": {

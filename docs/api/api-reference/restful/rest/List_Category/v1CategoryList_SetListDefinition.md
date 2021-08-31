@@ -93,15 +93,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Lowe Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 751,
+  "Id": 407,
+  "Name": "Dietrich LLC",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 240,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Reichel-Bogisich",
-  "Tooltip": "veritatis",
+  "Id": 64,
+  "Name": "Windler, Ratke and Monahan",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 463,
+  "Rank": 60,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rem",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldLength": 750
     }
   }
 }

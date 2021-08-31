@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ValidateArchiveColumnConfig
+title: ValidateArchiveColumnConfig
 id: v1ErpSyncAgent_ValidateArchiveColumnConfig
 ---
 
-# POST Agents/ErpSync/ValidateArchiveColumnConfig
+# ValidateArchiveColumnConfig
 
 ```http
 POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
+title: GetJobResultAsJsonFromBinaryObjectId
 id: v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
 ---
 
-# POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
+# GetJobResultAsJsonFromBinaryObjectId
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Waters LLC",
-  "BinaryObjectId": 693
+  "TableName": "Stehr Group",
+  "BinaryObjectId": 808
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"a"
+"omnis"
 ```

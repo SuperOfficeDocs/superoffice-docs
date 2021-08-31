@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Farrell Group",
-  "Tooltip": "necessitatibus",
+  "Id": 506,
+  "Name": "Reilly, Kemmer and Dickens",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 883,
-  "Rank": 107
+  "UdListDefinitionId": 601,
+  "Rank": 956
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 468,
-  "Name": "Predovic, Roberts and Murazik",
-  "Tooltip": "nemo",
+  "Id": 284,
+  "Name": "Blick-Pollich",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "UdListDefinitionId": 257,
-  "Rank": 423,
+  "UdListDefinitionId": 465,
+  "Rank": 288,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "leverage real-time e-business"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldLength": 541
     }
   }
 }

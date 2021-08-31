@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetPhones
+title: GetPhones
 id: v1PersonAgent_GetPhones
 ---
 
-# POST Agents/Person/GetPhones
+# GetPhones
 
 ```http
 POST /api/v1/Agents/Person/GetPhones
@@ -75,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 344
+  "PersonId": 423
 }
 ```
 
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "rerum",
-    "StrippedValue": "enim",
-    "Description": "Open-architected modular core",
+    "Value": "quaerat",
+    "StrippedValue": "sequi",
+    "Description": "Optimized attitude-oriented capability",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "recontextualize distributed convergence"
     },
     "FieldProperties": {
       "fieldName": {
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   },
   {
-    "Value": "rerum",
-    "StrippedValue": "enim",
-    "Description": "Open-architected modular core",
+    "Value": "quaerat",
+    "StrippedValue": "sequi",
+    "Description": "Optimized attitude-oriented capability",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "recontextualize distributed convergence"
     },
     "FieldProperties": {
       "fieldName": {
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

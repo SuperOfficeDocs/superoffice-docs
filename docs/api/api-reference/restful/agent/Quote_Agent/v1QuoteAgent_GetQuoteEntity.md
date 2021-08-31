@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteEntity
+title: GetQuoteEntity
 id: v1QuoteAgent_GetQuoteEntity
 ---
 
-# POST Agents/Quote/GetQuoteEntity
+# GetQuoteEntity
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntity
@@ -90,11 +90,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 354
+  "QuoteId": 760
 }
 ```
 
@@ -103,56 +103,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 412,
-  "SaleId": 413,
-  "QuoteConnectionId": 780,
-  "ERPQuoteKey": "commodi",
-  "ERPOrderKey": "vel",
-  "ActiveQuoteVersionId": 703,
-  "AcceptedQuoteAlternativeId": 744,
-  "UseValuesFromQuote": 857,
-  "DocumentId": 226,
-  "PoNumber": "1444365",
-  "OrderComment": "expedita",
-  "PreferredEmailCulture": "era@buckridgebergstrom.com",
+  "QuoteId": 151,
+  "SaleId": 174,
+  "QuoteConnectionId": 638,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "veritatis",
+  "ActiveQuoteVersionId": 76,
+  "AcceptedQuoteAlternativeId": 61,
+  "UseValuesFromQuote": 509,
+  "DocumentId": 65,
+  "PoNumber": "1671644",
+  "OrderComment": "illum",
+  "PreferredEmailCulture": "maribel.eichmann@runolfsdottirbreitenberg.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 796,
-      "ERPQuoteVersionKey": "aliquam",
-      "QuoteId": 826,
-      "Description": "Distributed executive local area network",
-      "Number": "765028",
+      "QuoteVersionId": 364,
+      "ERPQuoteVersionKey": "voluptatibus",
+      "QuoteId": 219,
+      "Description": "Customer-focused didactic instruction set",
+      "Number": "1337429",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 849,
-      "SentDate": "2007-09-02T16:48:30.4489411+02:00",
-      "FollowupId": 252,
-      "ExpirationDate": "2011-05-28T16:48:30.4489411+02:00",
-      "DeliveryCountryId": 414,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 601,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "nobis",
-      "ERPPaymentTypeKey": "nihil",
-      "ERPDeliveryTermsKey": "ad",
-      "ERPDeliveryTypeKey": "rerum",
-      "Rank": 326,
-      "ApprovedBy": 386,
-      "ApprovedText": "odit",
-      "ApprovedRegisteredBy": 628,
-      "ApprovedRegisteredDate": "2004-05-20T16:48:30.4489411+02:00",
-      "ExtraField1": "cupiditate",
-      "ExtraField2": "dolorem",
-      "ExtraField3": "et",
-      "ExtraField4": "natus",
-      "ExtraField5": "eveniet",
-      "LastRecalculated": "2013-11-01T16:48:30.4489411+01:00",
-      "Updated": "2000-03-19T16:48:30.4489411+01:00",
-      "UpdatedAssociateId": 108,
-      "Registered": "2016-10-25T16:48:30.4489411+02:00",
-      "RegisteredAssociateId": 819,
+      "LikelyQuoteAlternativeId": 732,
+      "SentDate": "2014-07-13T14:58:05.0094681+02:00",
+      "FollowupId": 551,
+      "ExpirationDate": "2019-07-01T14:58:05.0094681+02:00",
+      "DeliveryCountryId": 966,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 443,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "aspernatur",
+      "ERPPaymentTypeKey": "vel",
+      "ERPDeliveryTermsKey": "vero",
+      "ERPDeliveryTypeKey": "debitis",
+      "Rank": 773,
+      "ApprovedBy": 697,
+      "ApprovedText": "ipsa",
+      "ApprovedRegisteredBy": 376,
+      "ApprovedRegisteredDate": "2014-02-28T14:58:05.0094681+01:00",
+      "ExtraField1": "quia",
+      "ExtraField2": "et",
+      "ExtraField3": "perspiciatis",
+      "ExtraField4": "sunt",
+      "ExtraField5": "ut",
+      "LastRecalculated": "2006-04-25T14:58:05.0094681+02:00",
+      "Updated": "2015-01-29T14:58:05.0094681+01:00",
+      "UpdatedAssociateId": 235,
+      "Registered": "2010-03-27T14:58:05.0094681+01:00",
+      "RegisteredAssociateId": 884,
       "QuoteAlternatives": [
         {},
         {}
@@ -162,10 +162,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "redefine web-enabled infrastructures"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldLength": 667
         }
       }
     }
@@ -178,10 +178,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "maximize cross-media applications"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

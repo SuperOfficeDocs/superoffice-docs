@@ -129,35 +129,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 498,
-  "Name": "Huel, Gorczany and Hoeger",
+  "TicketPriorityId": 845,
+  "Name": "O'Keefe-Wilderman",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 786,
+  "SortOrder": 528,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 940,
-  "MonStart": "2018-07-01T09:41:00.8543962+02:00",
-  "MonStop": "2015-05-07T09:41:00.8543962+02:00",
-  "TueStart": "2013-02-27T09:41:00.8543962+01:00",
-  "TueStop": "2007-09-19T09:41:00.8543962+02:00",
-  "WedStart": "2020-10-07T09:41:00.8543962+02:00",
-  "WedStop": "2016-04-09T09:41:00.8543962+02:00",
-  "ThuStart": "2011-09-25T09:41:00.8543962+02:00",
-  "ThuStop": "1996-10-19T09:41:00.8543962+02:00",
-  "FriStart": "2017-10-19T09:41:00.8543962+02:00",
-  "FriStop": "1995-10-15T09:41:00.8543962+02:00",
-  "SatStart": "2019-01-19T09:41:00.8543962+01:00",
-  "SatStop": "2015-06-23T09:41:00.8543962+02:00",
-  "SunStart": "2016-03-26T09:41:00.8543962+01:00",
-  "SunStop": "1999-01-10T09:41:00.8543962+01:00",
+  "Deadline": 914,
+  "MonStart": "2015-08-05T15:05:43.9141233+02:00",
+  "MonStop": "2019-05-05T15:05:43.9141233+02:00",
+  "TueStart": "1998-11-09T15:05:43.9141233+01:00",
+  "TueStop": "2018-08-30T15:05:43.9141233+02:00",
+  "WedStart": "2015-07-05T15:05:43.9141233+02:00",
+  "WedStop": "2013-02-22T15:05:43.9141233+01:00",
+  "ThuStart": "2014-09-02T15:05:43.9141233+02:00",
+  "ThuStop": "1997-07-25T15:05:43.9141233+02:00",
+  "FriStart": "2013-11-03T15:05:43.9141233+01:00",
+  "FriStop": "2005-04-24T15:05:43.9141233+02:00",
+  "SatStart": "2021-03-10T15:05:43.9141233+01:00",
+  "SatStop": "2015-08-10T15:05:43.9141233+02:00",
+  "SunStart": "2002-08-19T15:05:43.9141233+02:00",
+  "SunStop": "2000-01-29T15:05:43.9141233+01:00",
   "NonDates": [
-    "qui",
-    "autem"
+    "perspiciatis",
+    "et"
   ]
 }
 ```
@@ -167,35 +167,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 30,
-  "Name": "Friesen Group",
+  "TicketPriorityId": 635,
+  "Name": "Luettgen-Stiedemann",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 408,
+  "SortOrder": 954,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 387,
-  "MonStart": "1995-02-24T09:41:00.8553876+01:00",
-  "MonStop": "2015-05-08T09:41:00.8553876+02:00",
-  "TueStart": "1994-04-02T09:41:00.8553876+02:00",
-  "TueStop": "2014-12-17T09:41:00.8553876+01:00",
-  "WedStart": "2007-12-01T09:41:00.8553876+01:00",
-  "WedStop": "2020-02-06T09:41:00.8553876+01:00",
-  "ThuStart": "2017-05-08T09:41:00.8553876+02:00",
-  "ThuStop": "1994-10-17T09:41:00.8553876+02:00",
-  "FriStart": "1999-05-01T09:41:00.8553876+02:00",
-  "FriStop": "1999-03-01T09:41:00.8553876+01:00",
-  "SatStart": "2013-11-10T09:41:00.8553876+01:00",
-  "SatStop": "2010-09-12T09:41:00.8553876+02:00",
-  "SunStart": "2017-07-20T09:41:00.8553876+02:00",
-  "SunStop": "2015-03-17T09:41:00.8553876+01:00",
+  "Deadline": 686,
+  "MonStart": "2014-09-07T15:05:43.9150898+02:00",
+  "MonStop": "2002-05-06T15:05:43.9150898+02:00",
+  "TueStart": "2006-02-06T15:05:43.9150898+01:00",
+  "TueStop": "1994-08-04T15:05:43.9150898+02:00",
+  "WedStart": "2017-11-18T15:05:43.9150898+01:00",
+  "WedStop": "1998-06-10T15:05:43.9150898+02:00",
+  "ThuStart": "1994-06-16T15:05:43.9150898+02:00",
+  "ThuStop": "2014-05-27T15:05:43.9150898+02:00",
+  "FriStart": "2014-12-12T15:05:43.9150898+01:00",
+  "FriStop": "1997-07-05T15:05:43.9150898+02:00",
+  "SatStart": "2002-02-04T15:05:43.9150898+01:00",
+  "SatStop": "2001-01-09T15:05:43.9150898+01:00",
+  "SunStart": "2020-11-11T15:05:43.9150898+01:00",
+  "SunStop": "2006-11-01T15:05:43.9150898+01:00",
   "NonDates": [
-    "sequi",
-    "sed"
+    "officia",
+    "aut"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldLength": 154
     }
   }
 }

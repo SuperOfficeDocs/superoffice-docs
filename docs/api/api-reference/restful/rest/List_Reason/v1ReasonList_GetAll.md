@@ -24,7 +24,7 @@ Gets all the Reason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Reason/Items?includeDeleted=False
+GET /api/v1/List/Reason/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Dare-Hermann",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 831,
-    "Rank": 327,
+    "Id": 529,
+    "Name": "McKenzie LLC",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 417,
+    "Rank": 602,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "aggregate customized markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 479
       }
     }
   }

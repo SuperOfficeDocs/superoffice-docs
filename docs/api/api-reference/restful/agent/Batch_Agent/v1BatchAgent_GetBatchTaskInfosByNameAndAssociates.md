@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
+title: GetBatchTaskInfosByNameAndAssociates
 id: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
 ---
 
-# POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
+# GetBatchTaskInfosByNameAndAssociates
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -84,6 +84,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -93,14 +94,14 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Emmerich, Ledner and Cummerata",
+  "Name": "Conroy, Hills and Jakubowski",
   "AssociateIds": [
-    95,
-    288
+    711,
+    182
   ]
 }
 ```
@@ -111,29 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Shanahan LLC",
-    "AssociateId": 546,
-    "DetailsTable": 335,
-    "DetailsRecord": 60,
+    "Id": 998,
+    "Name": "Kemmer, Emmerich and Ritchie",
+    "AssociateId": 126,
+    "DetailsTable": 719,
+    "DetailsRecord": 46,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "blanditiis"
+      "ParameterObject1": "ullam",
+      "ParameterObject2": "cumque"
     },
-    "LastStarted": "2020-01-24T16:48:28.7822015+01:00",
-    "Created": "2003-11-15T16:48:28.7822015+01:00",
-    "StartCount": 839,
-    "DatabaseSerialNumber": "651902",
-    "Context": "nobis",
+    "LastStarted": "1994-09-28T14:58:03.2732414+02:00",
+    "Created": "1994-06-07T14:58:03.2732414+02:00",
+    "StartCount": 19,
+    "DatabaseSerialNumber": "383822",
+    "Context": "molestiae",
     "Result": "aut",
     "State": "All",
-    "Description": "Total discrete hardware",
-    "Response": "voluptates",
-    "Request": "et",
-    "ProgressDescription": "Team-oriented uniform application",
-    "ProgressPercent": 366,
+    "Description": "Cross-group clear-thinking benchmark",
+    "Response": "explicabo",
+    "Request": "omnis",
+    "ProgressDescription": "Exclusive multi-tasking help-desk",
+    "ProgressPercent": 934,
+    "FileName": "Langworth-Lowe",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -145,7 +147,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldLength": 139
       }
     }
   }

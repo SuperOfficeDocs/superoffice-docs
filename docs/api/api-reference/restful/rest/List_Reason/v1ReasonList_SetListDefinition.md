@@ -93,16 +93,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Cartwright Inc and Sons",
-  "Tooltip": "et",
+  "Id": 471,
+  "Name": "Gleason, Stoltenberg and Kulas",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 130,
+  "Rank": 294,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": true
+  "ListType": "fugiat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 525,
-  "Name": "Fay LLC",
-  "Tooltip": "nesciunt",
+  "Id": 58,
+  "Name": "Satterfield-Leffler",
+  "Tooltip": "aliquid",
   "Deleted": true,
-  "Rank": 264,
-  "IsCustomList": false,
+  "Rank": 453,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

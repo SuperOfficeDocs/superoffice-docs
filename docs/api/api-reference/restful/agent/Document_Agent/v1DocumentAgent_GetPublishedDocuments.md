@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPublishedDocuments
+title: GetPublishedDocuments
 id: v1DocumentAgent_GetPublishedDocuments
 ---
 
-# POST Agents/Document/GetPublishedDocuments
+# GetPublishedDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocuments
@@ -90,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    821,
-    848
+    827,
+    900
   ]
 }
 ```
@@ -107,24 +107,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 957,
-    "Attention": "non",
-    "Header": "ut",
-    "Name": "Haag Group",
-    "OurRef": "quo",
-    "YourRef": "esse",
-    "Description": "Front-line even-keeled architecture",
-    "DocumentTemplate": "enim",
-    "IsPublished": false,
-    "PersonId": 176,
-    "PersonFullName": "Mrs. Etha Smith",
-    "AssociateFullName": "Abdul Hyatt",
-    "ContactId": 113,
-    "ContactName": "Gislason, Krajcik and Hodkiewicz",
-    "ProjectId": 172,
-    "ProjectName": "Brekke Group",
-    "AssociateId": 785,
-    "Snum": 171,
+    "DocumentId": 632,
+    "Attention": "id",
+    "Header": "nam",
+    "Name": "Goldner, Friesen and Crooks",
+    "OurRef": "ad",
+    "YourRef": "voluptatem",
+    "Description": "Ergonomic web-enabled approach",
+    "DocumentTemplate": "quia",
+    "IsPublished": true,
+    "PersonId": 284,
+    "PersonFullName": "Miss Veda Will",
+    "AssociateFullName": "Dashawn Wisozk",
+    "ContactId": 62,
+    "ContactName": "Green, Kuvalis and Crooks",
+    "ProjectId": 260,
+    "ProjectName": "Paucek LLC",
+    "AssociateId": 813,
+    "Snum": 518,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 314
       }
     }
   }

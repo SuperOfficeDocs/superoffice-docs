@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfosByNameAndState
+title: GetBatchTaskInfosByNameAndState
 id: v1BatchAgent_GetBatchTaskInfosByNameAndState
 ---
 
-# POST Agents/Batch/GetBatchTaskInfosByNameAndState
+# GetBatchTaskInfosByNameAndState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
@@ -84,6 +84,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -93,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koch, Lebsack and Hartmann",
+  "Name": "Flatley-Fay",
   "State": "All"
 }
 ```
@@ -108,29 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Price LLC",
-    "AssociateId": 304,
-    "DetailsTable": 575,
-    "DetailsRecord": 344,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 787,
+    "Name": "Hoppe, Sanford and Parisian",
+    "AssociateId": 601,
+    "DetailsTable": 700,
+    "DetailsRecord": 438,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "esse",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "et",
+      "ParameterObject2": "consectetur"
     },
-    "LastStarted": "2011-02-20T16:48:28.7822015+01:00",
-    "Created": "2003-06-26T16:48:28.7822015+02:00",
-    "StartCount": 914,
-    "DatabaseSerialNumber": "329079",
-    "Context": "sapiente",
-    "Result": "dolores",
+    "LastStarted": "2016-09-05T14:58:03.2732414+02:00",
+    "Created": "2005-12-02T14:58:03.2732414+01:00",
+    "StartCount": 512,
+    "DatabaseSerialNumber": "378552",
+    "Context": "aut",
+    "Result": "aut",
     "State": "All",
-    "Description": "Public-key analyzing migration",
-    "Response": "excepturi",
-    "Request": "laboriosam",
-    "ProgressDescription": "Ameliorated reciprocal collaboration",
-    "ProgressPercent": 580,
+    "Description": "Synergistic upward-trending groupware",
+    "Response": "aliquid",
+    "Request": "aspernatur",
+    "ProgressDescription": "Assimilated asynchronous portal",
+    "ProgressPercent": 504,
+    "FileName": "Monahan-Simonis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,8 +143,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

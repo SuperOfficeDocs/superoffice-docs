@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,29 +81,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Botsford, Casper and Feil",
-    "ToolTip": "Amet id repudiandae aperiam laborum sint.",
-    "Deleted": true,
-    "Rank": 932,
-    "Type": "sed",
+    "Id": 502,
+    "Name": "Friesen Group",
+    "ToolTip": "Laboriosam corrupti delectus.",
+    "Deleted": false,
+    "Rank": 614,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Zboncak, Wisoky and Roberts",
-        "ToolTip": "Mollitia recusandae qui.",
+        "Id": 804,
+        "Name": "Schultz, Mitchell and Ebert",
+        "ToolTip": "Rerum molestiae dolorem est molestiae ratione labore.",
         "Deleted": true,
-        "Rank": 305,
-        "Type": "voluptatibus",
+        "Rank": 559,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 804,
-        "ExtraInfo": "similique",
-        "StyleHint": "repellendus",
-        "FullName": "Joanne Reinger",
+        "IconHint": "velit",
+        "ColorBlock": 256,
+        "ExtraInfo": "laborum",
+        "StyleHint": "dolor",
+        "FullName": "Vernice Tremblay",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -111,17 +111,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 852
+            "FieldType": "System.Int32",
+            "FieldLength": 403
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 88,
-    "ExtraInfo": "quam",
-    "StyleHint": "aut",
-    "FullName": "Myrna Volkman",
+    "IconHint": "voluptas",
+    "ColorBlock": 452,
+    "ExtraInfo": "in",
+    "StyleHint": "molestiae",
+    "FullName": "Deron Wisozk",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -130,10 +130,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate holistic eyeballs"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 591
       }
     }
   }

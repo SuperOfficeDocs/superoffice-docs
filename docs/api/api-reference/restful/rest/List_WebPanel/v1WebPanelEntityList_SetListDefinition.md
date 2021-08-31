@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Yundt Group",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "Rank": 724,
+  "Id": 959,
+  "Name": "Bogan-Conroy",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "Rank": 392,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Cormier-Wintheiser",
-  "Tooltip": "tempora",
+  "Id": 369,
+  "Name": "Weber-Gibson",
+  "Tooltip": "id",
   "Deleted": true,
-  "Rank": 422,
-  "IsCustomList": true,
+  "Rank": 458,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "in",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

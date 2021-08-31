@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Haley, Cole and Schaefer",
-    "ToolTip": "Nostrum laudantium voluptatem magnam molestiae non nobis.",
+    "Id": 434,
+    "Name": "Erdman Inc and Sons",
+    "ToolTip": "Saepe non officia.",
     "Deleted": false,
-    "Rank": 426,
-    "Type": "perferendis",
-    "ColorBlock": 645,
-    "IconHint": "vero",
+    "Rank": 824,
+    "Type": "illo",
+    "ColorBlock": 25,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1997-05-28T09:41:00.1943337+02:00",
+    "LastChanged": "1998-12-29T15:05:43.2715497+01:00",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Macejkovic-Carroll",
-        "ToolTip": "Molestiae incidunt qui accusantium laboriosam et.",
-        "Deleted": true,
-        "Rank": 157,
-        "Type": "minus",
-        "ColorBlock": 447,
-        "IconHint": "dolores",
+        "Id": 631,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Sit dignissimos provident blanditiis qui sed et.",
+        "Deleted": false,
+        "Rank": 443,
+        "Type": "ratione",
+        "ColorBlock": 954,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2002-09-27T09:41:00.1943337+02:00",
+        "LastChanged": "2006-02-03T15:05:43.2715497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Elissa Turcotte"
+        "FullName": "Jennifer Crooks"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Armani Quitzon"
+    "ExtraInfo": "non",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Melyna Pouros"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Hackett-Hyatt",
-    "ToolTip": "Consequatur in omnis aliquam doloribus dignissimos.",
-    "Deleted": false,
-    "Rank": 288,
-    "Type": "necessitatibus",
-    "ColorBlock": 426,
-    "IconHint": "dignissimos",
+    "Id": 883,
+    "Name": "Gerhold-Collins",
+    "ToolTip": "Aut quia dolorem omnis quam.",
+    "Deleted": true,
+    "Rank": 344,
+    "Type": "possimus",
+    "ColorBlock": 929,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2004-07-22T09:41:00.1963745+02:00",
+    "LastChanged": "2017-04-05T15:05:43.2735394+02:00",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Murphy, Heidenreich and Littel",
-        "ToolTip": "Atque ut magnam quaerat quia ad quis.",
+        "Id": 244,
+        "Name": "Kiehn Group",
+        "ToolTip": "Ullam culpa explicabo expedita minus porro.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "non",
-        "ColorBlock": 707,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "2002-08-09T09:41:00.1963745+02:00",
+        "Rank": 800,
+        "Type": "sint",
+        "ColorBlock": 483,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2019-02-09T15:05:43.2735394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Tito Pouros",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Mr. Winifred Kihn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldType": "System.String",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "sed",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Sharon Osinski",
+    "FullName": "Rogelio Walker",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 320
       }
     }
   }

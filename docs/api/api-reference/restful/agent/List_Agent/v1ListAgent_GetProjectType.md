@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProjectType
+title: GetProjectType
 id: v1ListAgent_GetProjectType
 ---
 
-# POST Agents/List/GetProjectType
+# GetProjectType
 
 ```http
 POST /api/v1/Agents/List/GetProjectType
@@ -25,7 +25,7 @@ Gets a ProjectType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectType?projectTypeId=676
+POST /api/v1/Agents/List/GetProjectType?projectTypeId=823
 POST /api/v1/Agents/List/GetProjectType?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Value": "voluptatum",
-  "Tooltip": "ea",
+  "Id": 86,
+  "Value": "voluptas",
+  "Tooltip": "sunt",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 250
     }
   }
 }

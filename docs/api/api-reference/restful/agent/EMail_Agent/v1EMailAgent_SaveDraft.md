@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SaveDraft
+title: SaveDraft
 id: v1EMailAgent_SaveDraft
 ---
 
-# POST Agents/EMail/SaveDraft
+# SaveDraft
 
 ```http
 POST /api/v1/Agents/EMail/SaveDraft
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "est",
-    "HTMLBody": "nihil",
+    "Subject": "laudantium",
+    "HTMLBody": "ab",
     "From": {},
-    "Sent": "1997-05-10T16:48:29.5329242+02:00",
-    "Size": 412,
+    "Sent": "2013-12-06T14:58:04.0794657+01:00",
+    "Size": 299,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "nihil",
-    "PlainBody": "iste",
+    "MessageID": "neque",
+    "PlainBody": "non",
     "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 863,
+    "ServerId": 293,
     "Attachments": [
       {},
       {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Collins-Harris",
-    "EmailItemId": 402,
-    "AccountId": 224,
-    "ReceivedAt": "2006-12-10T16:48:29.5329242+01:00",
+    "FolderName": "Cremin-Vandervort",
+    "EmailItemId": 87,
+    "AccountId": 189,
+    "ReceivedAt": "2015-12-29T14:58:04.0794657+01:00",
     "InReplyTo": {},
-    "RepliedAt": "2021-02-05T16:48:29.5329242+01:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2002-07-25T14:58:04.0794657+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   }
@@ -162,18 +162,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 289,
-      "ContactName": "Fadel, Beer and Larson",
-      "PersonId": 922,
-      "PersonName": "Buckridge-Dietrich",
-      "AssociateId": 885,
+      "ContactId": 508,
+      "ContactName": "Smith-Oberbrunner",
+      "PersonId": 290,
+      "PersonName": "Rodriguez-Zulauf",
+      "AssociateId": 839,
       "Address": "est",
-      "EmailId": 852,
+      "EmailId": 288,
       "DuplicatePersonIds": [
-        183,
-        364
+        141,
+        224
       ],
-      "Name": "Will-Hansen",
+      "Name": "Wisoky Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -182,25 +182,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 460
+          "FieldLength": 447
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 823,
-      "ContactName": "Waters, Rohan and Oberbrunner",
-      "PersonId": 275,
-      "PersonName": "Kovacek Group",
-      "AssociateId": 337,
-      "Address": "quia",
-      "EmailId": 230,
+      "ContactId": 742,
+      "ContactName": "Block-Keeling",
+      "PersonId": 716,
+      "PersonName": "Kilback Group",
+      "AssociateId": 667,
+      "Address": "sunt",
+      "EmailId": 629,
       "DuplicatePersonIds": [
-        959,
-        288
+        305,
+        592
       ],
-      "Name": "Koch-O'Connell",
+      "Name": "Hansen Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -209,104 +209,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldLength": 587
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 299,
-      "ContactName": "Wisoky Group",
-      "PersonId": 915,
-      "PersonName": "Wiegand Inc and Sons",
-      "AssociateId": 736,
-      "Address": "sequi",
-      "EmailId": 831,
+      "ContactId": 654,
+      "ContactName": "Mills-Hilpert",
+      "PersonId": 557,
+      "PersonName": "Moore LLC",
+      "AssociateId": 807,
+      "Address": "qui",
+      "EmailId": 941,
       "DuplicatePersonIds": [
-        1000,
-        485
+        927,
+        768
       ],
-      "Name": "Russel Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 187
-        }
-      }
-    }
-  ],
-  "Subject": "iure",
-  "HTMLBody": "tenetur",
-  "From": {
-    "ContactId": 407,
-    "ContactName": "Kiehn-Streich",
-    "PersonId": 319,
-    "PersonName": "Boehm Group",
-    "AssociateId": 980,
-    "Address": "qui",
-    "EmailId": 785,
-    "DuplicatePersonIds": [
-      874,
-      361
-    ],
-    "Name": "Leannon, Kihn and Miller",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 960
-      }
-    }
-  },
-  "Sent": "1999-04-06T16:48:29.5349247+02:00",
-  "Size": 388,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "cupiditate",
-  "PlainBody": "expedita",
-  "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 813,
-    "AppointmentId": 241,
-    "ProjectId": 822,
-    "SaleId": 510,
-    "Archived": false,
-    "ArchivedAt": "2007-05-04T16:48:29.5349247+02:00",
-    "ArchivedBy": 386,
-    "ArchivedDisplayName": "Toy-Bernier",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 399
-      }
-    }
-  },
-  "ServerId": 988,
-  "Attachments": [
-    {
-      "Description": "Intuitive optimizing firmware",
-      "Filename": "quod",
-      "Size": 3,
-      "Type": "possimus",
-      "Encoding": "ducimus",
-      "Id": "inventore",
-      "Disposition": "earum",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Rosenbaum, Effertz and Marvin",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -315,67 +236,26 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 174
         }
       }
     }
   ],
-  "CustomHeaderList": [
-    {
-      "Name": "VonRueden, Lindgren and Bechtelar",
-      "Values": [
-        "dolor",
-        "veritatis"
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 520
-        }
-      }
-    },
-    {
-      "Name": "VonRueden, Lindgren and Bechtelar",
-      "Values": [
-        "dolor",
-        "veritatis"
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 520
-        }
-      }
-    }
-  ],
-  "FolderName": "Rowe, Yundt and Prosacco",
-  "EmailItemId": 974,
-  "AccountId": 903,
-  "ReceivedAt": "2015-10-04T16:48:29.5349247+02:00",
-  "InReplyTo": {
-    "ServerId": 590,
-    "MessageId": "eligendi",
-    "Subject": "atque",
-    "From": {},
-    "To": [
-      {},
-      {}
+  "Subject": "architecto",
+  "HTMLBody": "quo",
+  "From": {
+    "ContactId": 634,
+    "ContactName": "Nienow Inc and Sons",
+    "PersonId": 827,
+    "PersonName": "Rohan, Stokes and Bogisich",
+    "AssociateId": 222,
+    "Address": "veritatis",
+    "EmailId": 161,
+    "DuplicatePersonIds": [
+      797,
+      836
     ],
-    "Sent": "2013-12-08T16:48:29.5349247+01:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 452,
-    "EMailSOInfo": {},
+    "Name": "Stokes Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -384,12 +264,132 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 826
       }
     }
   },
-  "RepliedAt": "2001-07-17T16:48:29.5349247+02:00",
-  "HasCalendarData": false,
+  "Sent": "2015-08-02T14:58:04.0814649+02:00",
+  "Size": 571,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "culpa",
+  "PlainBody": "deleniti",
+  "IsSent": false,
+  "EMailSOInfo": {
+    "DocumentId": 528,
+    "AppointmentId": 715,
+    "ProjectId": 721,
+    "SaleId": 640,
+    "Archived": false,
+    "ArchivedAt": "2021-04-30T14:58:04.0814649+02:00",
+    "ArchivedBy": 522,
+    "ArchivedDisplayName": "Stiedemann Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 284
+      }
+    }
+  },
+  "ServerId": 153,
+  "Attachments": [
+    {
+      "Description": "Inverse hybrid implementation",
+      "Filename": "enim",
+      "Size": 386,
+      "Type": "ut",
+      "Encoding": "consequatur",
+      "Id": "quasi",
+      "Disposition": "accusantium",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 610
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Wiegand-Hegmann",
+      "Values": [
+        "sequi",
+        "beatae"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 501
+        }
+      }
+    },
+    {
+      "Name": "Wiegand-Hegmann",
+      "Values": [
+        "sequi",
+        "beatae"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 501
+        }
+      }
+    }
+  ],
+  "FolderName": "Corkery LLC",
+  "EmailItemId": 289,
+  "AccountId": 578,
+  "ReceivedAt": "2011-03-01T14:58:04.0824658+01:00",
+  "InReplyTo": {
+    "ServerId": 78,
+    "MessageId": "dolorem",
+    "Subject": "reprehenderit",
+    "From": {},
+    "To": [
+      {},
+      {}
+    ],
+    "Sent": "2009-08-22T14:58:04.0824658+02:00",
+    "Priority": "High",
+    "Flags": "Answered",
+    "Size": 833,
+    "EMailSOInfo": {},
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 168
+      }
+    }
+  },
+  "RepliedAt": "2002-03-21T14:58:04.0824658+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
@@ -403,7 +403,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 156
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCategories
+title: GetCategories
 id: v1ListAgent_GetCategories
 ---
 
-# POST Agents/List/GetCategories
+# GetCategories
 
 ```http
 POST /api/v1/Agents/List/GetCategories
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Value": "earum",
-    "Tooltip": "cupiditate",
+    "Id": 536,
+    "Value": "atque",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "deploy compelling solutions"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 235
       }
     }
   },
   {
-    "Id": 139,
-    "Value": "earum",
-    "Tooltip": "cupiditate",
+    "Id": 536,
+    "Value": "atque",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "deploy compelling solutions"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 235
       }
     }
   }

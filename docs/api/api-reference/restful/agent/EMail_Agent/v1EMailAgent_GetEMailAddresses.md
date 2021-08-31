@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailAddresses
+title: GetEMailAddresses
 id: v1EMailAgent_GetEMailAddresses
 ---
 
-# POST Agents/EMail/GetEMailAddresses
+# GetEMailAddresses
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAddresses
@@ -83,13 +83,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    451,
-    583
+    607,
+    851
   ]
 }
 ```
@@ -100,21 +100,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 976,
-    "ContactName": "Mertz, Schmidt and Schmeler",
-    "PersonId": 636,
-    "PersonName": "Mayer-Denesik",
-    "AssociateId": 286,
-    "Address": "cumque",
-    "EmailId": 401,
+    "ContactId": 998,
+    "ContactName": "Wuckert Inc and Sons",
+    "PersonId": 390,
+    "PersonName": "Armstrong Group",
+    "AssociateId": 311,
+    "Address": "earum",
+    "EmailId": 713,
     "DuplicatePersonIds": [
-      262,
-      886
+      313,
+      494
     ],
-    "Name": "Dickinson, Reynolds and Conroy",
+    "Name": "Spencer, Beier and Wilderman",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "envisioneer efficient initiatives"
     },
     "FieldProperties": {
       "fieldName": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 652
       }
     }
   }

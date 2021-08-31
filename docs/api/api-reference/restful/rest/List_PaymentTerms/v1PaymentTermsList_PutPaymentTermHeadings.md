@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 238,
-    "Name": "DuBuque-Fay",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 912,
-    "UdListDefinitionId": 220
+    "HeadingId": 911,
+    "Name": "McKenzie Inc and Sons",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 662,
+    "UdListDefinitionId": 214
   },
   {
-    "HeadingId": 238,
-    "Name": "DuBuque-Fay",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 912,
-    "UdListDefinitionId": 220
+    "HeadingId": 911,
+    "Name": "McKenzie Inc and Sons",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 662,
+    "UdListDefinitionId": 214
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 37,
-    "Name": "Graham Inc and Sons",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 478,
-    "UdListDefinitionId": 820,
+    "HeadingId": 495,
+    "Name": "Marquardt-Erdman",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "Rank": 556,
+    "UdListDefinitionId": 740,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldLength": 376
       }
     }
   }

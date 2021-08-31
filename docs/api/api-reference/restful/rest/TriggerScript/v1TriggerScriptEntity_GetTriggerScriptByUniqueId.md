@@ -74,7 +74,7 @@ Response body: object
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 670,
-  "Name": "Schaefer, Murazik and Tromp",
+  "ScreenChooserId": 690,
+  "Name": "Smith, Dooley and Donnelly",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "aut",
-  "Registered": "2014-10-07T09:40:59.9070658+02:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "2016-03-19T09:40:59.9070658+01:00",
-  "UpdatedAssociateId": 937,
+  "UniqueIdentifier": "nobis",
+  "Source": "eveniet",
+  "Registered": "2003-12-05T15:05:42.9626322+01:00",
+  "RegisteredAssociateId": 737,
+  "Updated": "2017-01-09T15:05:42.9626322+01:00",
+  "UpdatedAssociateId": 395,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "target synergistic architectures"
   },
   "FieldProperties": {
     "fieldName": {
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 160
     }
   }
 }

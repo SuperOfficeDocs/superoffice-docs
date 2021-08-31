@@ -121,41 +121,39 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "vel",
     "value": {
       "value1": {
-        "PrimaryKey": 3941,
+        "PrimaryKey": 1503,
         "EntityName": "sale",
-        "saleId": 3941,
-        "contactId": 7042,
-        "name": "Pfannerstill, Reynolds and Yost"
+        "saleId": 1503,
+        "contactId": 6696,
+        "name": "O'Conner-Hoppe"
       },
       "value2": {
-        "PrimaryKey": 4072,
-        "EntityName": "sale",
-        "saleId": 4072,
-        "contactId": 7738,
-        "name": "Carter, Farrell and Bergnaum"
+        "PrimaryKey": 4986,
+        "EntityName": "person",
+        "personId": 4986,
+        "fullName": "Eliza Lehner"
       }
     }
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "vel",
     "value": {
       "value1": {
-        "PrimaryKey": 3941,
+        "PrimaryKey": 1503,
         "EntityName": "sale",
-        "saleId": 3941,
-        "contactId": 7042,
-        "name": "Pfannerstill, Reynolds and Yost"
+        "saleId": 1503,
+        "contactId": 6696,
+        "name": "O'Conner-Hoppe"
       },
       "value2": {
-        "PrimaryKey": 4072,
-        "EntityName": "sale",
-        "saleId": 4072,
-        "contactId": 7738,
-        "name": "Carter, Farrell and Bergnaum"
+        "PrimaryKey": 4986,
+        "EntityName": "person",
+        "personId": 4986,
+        "fullName": "Eliza Lehner"
       }
     }
   }
@@ -167,48 +165,23 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 222,
-  "Name": "Gerlach Inc and Sons",
-  "CreatedDate": "2003-05-29T09:40:59.214663+02:00",
-  "UpdatedDate": "2008-06-21T09:40:59.214663+02:00",
+  "ForeignAppId": 217,
+  "Name": "Bechtelar, Trantow and Rath",
+  "CreatedDate": "2018-07-30T15:05:42.2346693+02:00",
+  "UpdatedDate": "2006-05-20T15:05:42.2346693+02:00",
   "CreatedBy": {
-    "AssociateId": 750,
-    "Name": "Schowalter Inc and Sons",
-    "PersonId": 976,
-    "Rank": 756,
-    "Tooltip": "quia",
+    "AssociateId": 982,
+    "Name": "Douglas-Treutel",
+    "PersonId": 722,
+    "Rank": 833,
+    "Tooltip": "voluptatum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 686,
-    "FullName": "Vernice Graham",
-    "FormalName": "Rogahn-Ratke",
-    "Deleted": true,
-    "EjUserId": 545,
-    "UserName": "Dibbert Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "leverage user-centric ROI"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 845
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 123,
-    "Name": "Wiegand-Douglas",
-    "PersonId": 716,
-    "Rank": 169,
-    "Tooltip": "consequuntur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 545,
-    "FullName": "Hallie Schultz",
-    "FormalName": "Smitham, Kris and Wolf",
-    "Deleted": true,
-    "EjUserId": 841,
-    "UserName": "Goyette, Labadie and Stanton",
+    "GroupIdx": 890,
+    "FullName": "Ayla Dickens",
+    "FormalName": "Pfannerstill, Kovacek and Parisian",
+    "Deleted": false,
+    "EjUserId": 885,
+    "UserName": "Ward-Leannon",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -217,30 +190,55 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 490
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 740,
+    "Name": "Bogisich-Klocko",
+    "PersonId": 542,
+    "Rank": 949,
+    "Tooltip": "commodi",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 625,
+    "FullName": "Emery Koch",
+    "FormalName": "Herman, Gutmann and Fay",
+    "Deleted": true,
+    "EjUserId": 290,
+    "UserName": "Kreiger Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 845,
-      "Name": "Murazik Inc and Sons",
-      "CreatedDate": "2001-07-15T09:40:59.216663+02:00",
-      "UpdatedDate": "2020-02-07T09:40:59.216663+01:00",
-      "AssociateFullName": "Amely Mosciski",
-      "CreatedBy": "porro",
-      "UpdatedBy": "sed",
-      "DeviceIdentifier": "dolorum",
-      "ForeignAppId": 84,
+      "ForeignDeviceId": 830,
+      "Name": "Murphy-Klocko",
+      "CreatedDate": "2008-04-25T15:05:42.2356622+02:00",
+      "UpdatedDate": "2007-12-12T15:05:42.2356622+01:00",
+      "AssociateFullName": "Darius Botsford",
+      "CreatedBy": "iure",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 824,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "whiteboard dynamic e-services"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldType": "System.String",
+          "FieldLength": 366
         }
       }
     }
@@ -255,13 +253,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

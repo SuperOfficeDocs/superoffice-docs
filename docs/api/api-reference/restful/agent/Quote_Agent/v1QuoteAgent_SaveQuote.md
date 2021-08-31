@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuote
+title: SaveQuote
 id: v1QuoteAgent_SaveQuote
 ---
 
-# POST Agents/Quote/SaveQuote
+# SaveQuote
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuote
@@ -91,23 +91,23 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Quote": {
-    "QuoteId": 607,
-    "SaleId": 194,
-    "QuoteConnectionId": 80,
-    "ERPQuoteKey": "et",
+    "QuoteId": 209,
+    "SaleId": 920,
+    "QuoteConnectionId": 639,
+    "ERPQuoteKey": "aut",
     "ERPOrderKey": "omnis",
-    "ActiveQuoteVersionId": 524,
-    "AcceptedQuoteAlternativeId": 240,
-    "UseValuesFromQuote": 140,
-    "DocumentId": 683,
-    "PoNumber": "1524637",
-    "OrderComment": "autem",
-    "PreferredEmailCulture": "maggie@zboncak.ca",
+    "ActiveQuoteVersionId": 983,
+    "AcceptedQuoteAlternativeId": 818,
+    "UseValuesFromQuote": 75,
+    "DocumentId": 863,
+    "PoNumber": "1271922",
+    "OrderComment": "exercitationem",
+    "PreferredEmailCulture": "kelvin.russel@flatleyrobel.ca",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {}
   }
@@ -119,55 +119,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 130,
-  "SaleId": 985,
-  "QuoteConnectionId": 950,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "autem",
-  "ActiveQuoteVersionId": 932,
-  "AcceptedQuoteAlternativeId": 362,
-  "UseValuesFromQuote": 904,
-  "DocumentId": 812,
-  "PoNumber": "86368",
-  "OrderComment": "nulla",
-  "PreferredEmailCulture": "gennaro.boyer@mann.us",
+  "QuoteId": 695,
+  "SaleId": 899,
+  "QuoteConnectionId": 560,
+  "ERPQuoteKey": "est",
+  "ERPOrderKey": "rerum",
+  "ActiveQuoteVersionId": 36,
+  "AcceptedQuoteAlternativeId": 928,
+  "UseValuesFromQuote": 420,
+  "DocumentId": 973,
+  "PoNumber": "1540037",
+  "OrderComment": "tenetur",
+  "PreferredEmailCulture": "rafael_sauer@mcdermott.info",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 341,
-    "ERPQuoteVersionKey": "magni",
-    "QuoteId": 389,
-    "Description": "Right-sized multi-state focus group",
-    "Number": "1435538",
+    "QuoteVersionId": 569,
+    "ERPQuoteVersionKey": "odio",
+    "QuoteId": 917,
+    "Description": "Multi-channelled multi-state attitude",
+    "Number": "1406088",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 384,
-    "SentDate": "2020-01-11T16:48:30.4399398+01:00",
-    "FollowupId": 367,
-    "ExpirationDate": "2014-04-23T16:48:30.4399398+02:00",
-    "DeliveryCountryId": 132,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 952,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "amet",
-    "ERPPaymentTypeKey": "maxime",
-    "ERPDeliveryTermsKey": "eos",
-    "ERPDeliveryTypeKey": "sint",
-    "Rank": 442,
-    "ApprovedBy": 276,
-    "ApprovedText": "accusamus",
-    "ApprovedRegisteredBy": 661,
-    "ApprovedRegisteredDate": "2004-07-24T16:48:30.4399398+02:00",
-    "ExtraField1": "magni",
-    "ExtraField2": "aperiam",
-    "ExtraField3": "voluptatem",
-    "ExtraField4": "doloremque",
-    "ExtraField5": "asperiores",
-    "LastRecalculated": "2020-10-09T16:48:30.4399398+02:00",
-    "Updated": "1995-02-18T16:48:30.4399398+01:00",
-    "UpdatedAssociateId": 402,
-    "Registered": "2012-01-14T16:48:30.4399398+01:00",
-    "RegisteredAssociateId": 948,
+    "LikelyQuoteAlternativeId": 107,
+    "SentDate": "2020-11-28T14:58:05.0024659+01:00",
+    "FollowupId": 159,
+    "ExpirationDate": "1997-05-24T14:58:05.0024659+02:00",
+    "DeliveryCountryId": 308,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 715,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "qui",
+    "ERPPaymentTypeKey": "dolorem",
+    "ERPDeliveryTermsKey": "accusamus",
+    "ERPDeliveryTypeKey": "est",
+    "Rank": 151,
+    "ApprovedBy": 129,
+    "ApprovedText": "commodi",
+    "ApprovedRegisteredBy": 24,
+    "ApprovedRegisteredDate": "1994-07-17T14:58:05.0024659+02:00",
+    "ExtraField1": "quis",
+    "ExtraField2": "quos",
+    "ExtraField3": "consequatur",
+    "ExtraField4": "molestiae",
+    "ExtraField5": "consectetur",
+    "LastRecalculated": "2011-03-03T14:58:05.0024659+01:00",
+    "Updated": "2003-05-31T14:58:05.0024659+02:00",
+    "UpdatedAssociateId": 824,
+    "Registered": "2000-04-24T14:58:05.0024659+02:00",
+    "RegisteredAssociateId": 551,
     "QuoteAlternatives": [
       {},
       {}
@@ -177,37 +177,37 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower granular e-services"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 618,
-    "ERPQuoteAlternativeKey": "sunt",
-    "QuoteVersionId": 802,
-    "Name": "Connelly, Hauck and Kautzer",
-    "Description": "Diverse value-added core",
+    "QuoteAlternativeId": 480,
+    "ERPQuoteAlternativeKey": "eum",
+    "QuoteVersionId": 764,
+    "Name": "Grant Group",
+    "Description": "Optimized composite Graphic Interface",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 7317.8899999999994,
-    "ERPDiscountAmount": 14645.181999999999,
-    "DiscountPercent": 3071.3199999999997,
-    "DiscountAmount": 360.40999999999997,
+    "ERPDiscountPercent": 11501.779999999999,
+    "ERPDiscountAmount": 8220.482,
+    "DiscountPercent": 3607.234,
+    "DiscountAmount": 22091.566,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "quaerat",
-    "VAT": 26930.462,
-    "EarningPercent": 16343.81,
-    "EarningAmount": 22828.056,
-    "SubTotal": 7421.312,
-    "TotalPrice": 14441.472,
-    "ExtraField1": "similique",
-    "ExtraField2": "dolorem",
-    "ExtraField3": "natus",
-    "ExtraField4": "natus",
-    "ExtraField5": "sint",
+    "VATInfo": "vel",
+    "VAT": 16506.778,
+    "EarningPercent": 28309.422,
+    "EarningAmount": 26266.054,
+    "SubTotal": 26009.066,
+    "TotalPrice": 9173.2179999999989,
+    "ExtraField1": "dignissimos",
+    "ExtraField2": "quae",
+    "ExtraField3": "aspernatur",
+    "ExtraField4": "sit",
+    "ExtraField5": "maxime",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   },
@@ -231,7 +231,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 31
     }
   }
 }

@@ -2,6 +2,8 @@
 title: List_Credited
 ---
 
+# List_Credited
+
 ```http
 /api/v1/List/Credited
 ```

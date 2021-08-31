@@ -92,18 +92,18 @@ Response body: object
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 30,
-  "AssociateId": 689,
-  "Block": "voluptas",
-  "Registered": "2002-07-23T09:40:59.752031+02:00",
-  "RegisteredAssociateId": 645,
-  "Updated": "2017-06-27T09:40:59.752031+02:00",
-  "UpdatedAssociateId": 263,
-  "UpdatedCount": 177
+  "ShipmentMessageBlockId": 985,
+  "AssociateId": 282,
+  "Block": "est",
+  "Registered": "2005-03-25T15:05:42.7556624+01:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "1996-08-10T15:05:42.7556624+02:00",
+  "UpdatedAssociateId": 147,
+  "UpdatedCount": 437
 }
 ```
 
@@ -112,14 +112,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 868,
-  "AssociateId": 636,
-  "Block": "harum",
-  "Registered": "1996-07-12T09:40:59.752031+02:00",
-  "RegisteredAssociateId": 43,
-  "Updated": "2009-04-08T09:40:59.752031+02:00",
-  "UpdatedAssociateId": 314,
-  "UpdatedCount": 107,
+  "ShipmentMessageBlockId": 309,
+  "AssociateId": 185,
+  "Block": "et",
+  "Registered": "1994-07-12T15:05:42.7566623+02:00",
+  "RegisteredAssociateId": 689,
+  "Updated": "1997-05-31T15:05:42.7566623+02:00",
+  "UpdatedAssociateId": 129,
+  "UpdatedCount": 66,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "integrate global models"
       },
       "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldLength": 823
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

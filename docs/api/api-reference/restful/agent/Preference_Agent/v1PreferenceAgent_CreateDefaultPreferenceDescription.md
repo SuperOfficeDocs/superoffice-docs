@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/CreateDefaultPreferenceDescription
+title: CreateDefaultPreferenceDescription
 id: v1PreferenceAgent_CreateDefaultPreferenceDescription
 ---
 
-# POST Agents/Preference/CreateDefaultPreferenceDescription
+# CreateDefaultPreferenceDescription
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 24,
-  "Section": "porro",
-  "Key": "ab",
-  "Name": "Will, Windler and Hickle",
+  "PrefDescId": 617,
+  "Section": "impedit",
+  "Key": "id",
+  "Name": "Jones, Treutel and Bogan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering coherent system engine",
-  "IsBuiltin": false,
-  "TableName": "Metz LLC",
-  "UserDefinedListId": 294,
-  "Rank": 238,
-  "SubGroup": "quam",
-  "MinLevel": 790,
-  "MaxValue": 394,
-  "MinValue": 293,
-  "RequiredLicense": "nisi",
+  "Description": "Persistent system-worthy paradigm",
+  "IsBuiltin": true,
+  "TableName": "Lang, O'Hara and Rohan",
+  "UserDefinedListId": 939,
+  "Rank": 999,
+  "SubGroup": "quaerat",
+  "MinLevel": 893,
+  "MaxValue": 300,
+  "MinValue": 230,
+  "RequiredLicense": "enim",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldLength": 135
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPersonAppointments
+title: GetPersonAppointments
 id: v1AppointmentAgent_GetPersonAppointments
 ---
 
-# POST Agents/Appointment/GetPersonAppointments
+# GetPersonAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointments
@@ -129,11 +129,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 222,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2002-11-03T16:48:28.4234505+01:00",
-  "EndTime": "1997-03-08T16:48:28.4234505+01:00",
-  "Count": 602
+  "PersonId": 411,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2012-08-21T14:58:03.0415384+02:00",
+  "EndTime": "2020-07-27T14:58:03.0415384+02:00",
+  "Count": 281
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 696,
-    "StartDate": "2019-09-13T16:48:28.4244493+02:00",
-    "EndDate": "2008-05-11T16:48:28.4244493+02:00",
+    "AppointmentId": 847,
+    "StartDate": "1994-05-02T14:58:03.0425385+02:00",
+    "EndDate": "2007-10-31T14:58:03.0425385+01:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Bria Hintz",
-    "ContactName": "Strosin-Huels",
-    "Description": "Innovative fault-tolerant product",
-    "PersonFullName": "Melyna Hilpert",
-    "PersonId": 938,
-    "ContactId": 481,
-    "ProjectId": 725,
-    "ProjectName": "Aufderhar, Gulgowski and Ullrich",
+    "Task": "maiores",
+    "AssociateFullName": "Chyna Vandervort",
+    "ContactName": "Powlowski-Rippin",
+    "Description": "Advanced optimizing service-desk",
+    "PersonFullName": "Shirley Mohr",
+    "PersonId": 62,
+    "ContactId": 545,
+    "ProjectId": 3,
+    "ProjectName": "O'Keefe-Effertz",
     "IsPublished": true,
-    "AssociateId": 778,
-    "ColorIndex": 597,
+    "AssociateId": 779,
+    "ColorIndex": 892,
     "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 859,
-    "PriorityName": "Lindgren, Koss and Moore",
+    "PriorityId": 279,
+    "PriorityName": "Prosacco-Douglas",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2007-02-25T16:48:28.4244493+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "1999-05-23T14:58:03.0425385+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-11-05T16:48:28.4244493+01:00",
-    "RecurringEndDate": "2015-04-27T16:48:28.4244493+02:00",
-    "MotherId": 801,
-    "AssignedBy": 47,
-    "AssignedByFullName": "Everett Walker",
+    "RecurringStartDate": "2002-02-19T14:58:03.0435384+01:00",
+    "RecurringEndDate": "1995-03-18T14:58:03.0435384+01:00",
+    "MotherId": 78,
+    "AssignedBy": 232,
+    "AssignedByFullName": "Willow Graham",
     "RejectReason": "",
-    "Location": "aperiam",
-    "AlarmLeadTime": "modi",
-    "SaleId": 213,
-    "SaleName": "Daugherty Group",
-    "AssociateName": "White LLC",
-    "CreatedDate": "2006-07-07T16:48:28.4244493+02:00",
-    "CreatedBy": "pariatur",
-    "CreatedByFullName": "Eugene Gutmann",
-    "CreatedByAssociateId": 331,
+    "Location": "qui",
+    "AlarmLeadTime": "nisi",
+    "SaleId": 294,
+    "SaleName": "Roberts-Boyer",
+    "AssociateName": "VonRueden Inc and Sons",
+    "CreatedDate": "2005-05-30T14:58:03.0435384+02:00",
+    "CreatedBy": "ullam",
+    "CreatedByFullName": "Karl Shields",
+    "CreatedByAssociateId": 709,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldLength": 707
       }
     }
   }

@@ -53,7 +53,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -61,7 +61,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "qui",
-  "2": "repellendus"
+  "1": "rerum",
+  "2": "architecto"
 }
 ```

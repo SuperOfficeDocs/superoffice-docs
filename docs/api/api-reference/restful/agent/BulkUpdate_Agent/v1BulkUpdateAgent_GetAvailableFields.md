@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/GetAvailableFields
+title: GetAvailableFields
 id: v1BulkUpdateAgent_GetAvailableFields
 ---
 
-# POST Agents/BulkUpdate/GetAvailableFields
+# GetAvailableFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
@@ -103,53 +103,53 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "quo",
-    "ValueType": "laboriosam",
-    "Mandatory": false,
-    "EncodedDisplayName": "Leuschke-Schimmel",
-    "EncodedDisplayDescription": "Triple-buffered mobile customer loyalty",
-    "IconHint": "consectetur",
+    "DefaultShowInSelector": true,
+    "IsActive": false,
+    "Key": "accusamus",
+    "ValueType": "earum",
+    "Mandatory": true,
+    "EncodedDisplayName": "Marks Group",
+    "EncodedDisplayDescription": "Devolved coherent contingency",
+    "IconHint": "non",
     "ControlInfos": [
       {
-        "Type": "quia",
-        "Label": "ut",
-        "Dimension": 49,
-        "ListProviderName": "Heathcote-Farrell",
-        "ListProviderExtraInfo": "quos",
-        "ListProviderPrimaryKeyName": "Raynor-Hills",
-        "ListLeadText": "consequatur",
+        "Type": "adipisci",
+        "Label": "qui",
+        "Dimension": 123,
+        "ListProviderName": "Towne Inc and Sons",
+        "ListProviderExtraInfo": "voluptatum",
+        "ListProviderPrimaryKeyName": "Berge, Stiedemann and Mosciski",
+        "ListLeadText": "voluptas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "harness granular interfaces"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 843
           }
         }
       }
     ],
-    "EncodedDataCaption": "quod",
-    "EncodedDataCaptionDescription": "Switchable value-added portal",
-    "CurrentOperationType": "consequatur",
+    "EncodedDataCaption": "incidunt",
+    "EncodedDataCaptionDescription": "Customer-focused static utilisation",
+    "CurrentOperationType": "quia",
     "Values": [
-      "laudantium",
-      "autem"
+      "et",
+      "nisi"
     ],
     "DisplayValues": [
-      "saepe",
-      "rerum"
+      "vitae",
+      "et"
     ],
     "OperationInfos": [
       {
-        "Key": "est",
-        "EncodedDisplayName": "Fahey, Kuhic and Hilpert",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Hansen-Beer",
         "EncodedLeadTexts": [
-          "ut",
+          "eos",
           "ut"
         ],
         "TableRight": {},
@@ -160,15 +160,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 96
           }
         }
       },
       {
-        "Key": "est",
-        "EncodedDisplayName": "Fahey, Kuhic and Hilpert",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Hansen-Beer",
         "EncodedLeadTexts": [
-          "ut",
+          "eos",
           "ut"
         ],
         "TableRight": {},
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 96
           }
         }
       }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/FindRolesWithFunctionalRight
+title: FindRolesWithFunctionalRight
 id: v1UserAgent_FindRolesWithFunctionalRight
 ---
 
-# POST Agents/User/FindRolesWithFunctionalRight
+# FindRolesWithFunctionalRight
 
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Gislason Inc and Sons"
+  "FunctionalRightName": "Batz Inc and Sons"
 }
 ```
 
@@ -101,29 +101,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Turner-D'Amore",
-    "ToolTip": "Ipsum quis consequatur velit sit et.",
-    "Deleted": true,
-    "Rank": 492,
-    "Type": "pariatur",
+    "Id": 530,
+    "Name": "Cummerata, Franecki and Cormier",
+    "ToolTip": "Excepturi non quibusdam non.",
+    "Deleted": false,
+    "Rank": 135,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 215,
-        "Name": "Rippin LLC",
-        "ToolTip": "Maiores molestiae.",
-        "Deleted": false,
-        "Rank": 762,
-        "Type": "velit",
+        "Id": 95,
+        "Name": "Ondricka-Huels",
+        "ToolTip": "Amet voluptatem neque saepe eum temporibus voluptatem.",
+        "Deleted": true,
+        "Rank": 246,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "possimus",
-        "ColorBlock": 266,
-        "ExtraInfo": "at",
-        "StyleHint": "suscipit",
-        "FullName": "Adam Koss",
+        "IconHint": "qui",
+        "ColorBlock": 870,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "dolorum",
+        "FullName": "Maynard Jaskolski",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -131,17 +131,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldType": "System.String",
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 769,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "quasi",
-    "FullName": "Mauricio Volkman",
+    "IconHint": "autem",
+    "ColorBlock": 79,
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
+    "FullName": "Nina Skiles",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 1000
       }
     }
   }

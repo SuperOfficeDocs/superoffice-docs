@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectAppointmentsByTasks
+title: GetProjectAppointmentsByTasks
 id: v1AppointmentAgent_GetProjectAppointmentsByTasks
 ---
 
-# POST Agents/Appointment/GetProjectAppointmentsByTasks
+# GetProjectAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
@@ -125,17 +125,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 30,
-  "StartTime": "2007-03-06T16:48:28.4594562+01:00",
-  "EndTime": "2017-09-02T16:48:28.4594562+02:00",
-  "Count": 343,
+  "ProjectId": 254,
+  "StartTime": "2006-01-07T14:58:02.8555731+01:00",
+  "EndTime": "1994-04-20T14:58:02.8555731+02:00",
+  "Count": 907,
   "TaskIds": [
-    536,
-    217
+    703,
+    467
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 819,
-    "StartDate": "2006-02-21T16:48:28.4604485+01:00",
-    "EndDate": "2017-03-04T16:48:28.4604485+01:00",
+    "AppointmentId": 375,
+    "StartDate": "2004-02-21T14:58:02.8565399+01:00",
+    "EndDate": "2013-10-28T14:58:02.8565399+01:00",
     "Type": "BookingForChecklist",
-    "Task": "deserunt",
-    "AssociateFullName": "Enid Bergnaum",
-    "ContactName": "Schneider, Sanford and Denesik",
-    "Description": "Assimilated neutral database",
-    "PersonFullName": "Myrtle Okuneva",
-    "PersonId": 172,
-    "ContactId": 679,
-    "ProjectId": 752,
-    "ProjectName": "Padberg, Hane and Bode",
+    "Task": "ut",
+    "AssociateFullName": "Clarissa Keebler",
+    "ContactName": "Bogisich, Buckridge and Satterfield",
+    "Description": "Diverse neutral product",
+    "PersonFullName": "Orlo Luettgen",
+    "PersonId": 897,
+    "ContactId": 651,
+    "ProjectId": 875,
+    "ProjectName": "Kunze-Davis",
     "IsPublished": false,
-    "AssociateId": 378,
-    "ColorIndex": 950,
+    "AssociateId": 705,
+    "ColorIndex": 442,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 739,
-    "PriorityName": "Fay, Pagac and Rogahn",
+    "PriorityId": 507,
+    "PriorityName": "Hirthe, Klocko and Swaniawski",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-03-23T16:48:28.461419+01:00",
+    "ActiveDate": "2017-03-15T14:58:02.8575734+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-09-29T16:48:28.461419+02:00",
-    "RecurringEndDate": "1997-04-10T16:48:28.461419+02:00",
-    "MotherId": 702,
-    "AssignedBy": 560,
-    "AssignedByFullName": "Bessie Hodkiewicz",
+    "RecurringStartDate": "2008-10-03T14:58:02.8575734+02:00",
+    "RecurringEndDate": "2017-12-26T14:58:02.8575734+01:00",
+    "MotherId": 217,
+    "AssignedBy": 938,
+    "AssignedByFullName": "Daisy Goldner DVM",
     "RejectReason": "",
-    "Location": "rem",
-    "AlarmLeadTime": "assumenda",
-    "SaleId": 605,
-    "SaleName": "Hintz Inc and Sons",
-    "AssociateName": "Cormier-Simonis",
-    "CreatedDate": "2008-12-25T16:48:28.461419+01:00",
-    "CreatedBy": "totam",
-    "CreatedByFullName": "Lafayette Bartell",
-    "CreatedByAssociateId": 442,
+    "Location": "temporibus",
+    "AlarmLeadTime": "est",
+    "SaleId": 838,
+    "SaleName": "Hyatt-Toy",
+    "AssociateName": "D'Amore, Mohr and Balistreri",
+    "CreatedDate": "1999-01-27T14:58:02.8575734+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Mr. Lilyan Cummings",
+    "CreatedByAssociateId": 488,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 307
       }
     }
   }

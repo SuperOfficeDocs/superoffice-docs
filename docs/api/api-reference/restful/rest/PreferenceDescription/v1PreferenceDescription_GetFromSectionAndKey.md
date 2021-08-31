@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -89,27 +89,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 926,
-  "Section": "cum",
-  "Key": "voluptatem",
-  "Name": "Koepp, Hagenes and Jerde",
+  "PrefDescId": 319,
+  "Section": "magnam",
+  "Key": "rem",
+  "Name": "Schmidt Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered systematic core",
-  "IsBuiltin": false,
-  "TableName": "Rohan, Kovacek and Legros",
-  "UserDefinedListId": 391,
-  "Rank": 484,
-  "SubGroup": "minus",
-  "MinLevel": 94,
-  "MaxValue": 930,
-  "MinValue": 86,
-  "RequiredLicense": "optio",
+  "Description": "Enterprise-wide coherent hierarchy",
+  "IsBuiltin": true,
+  "TableName": "Jerde LLC",
+  "UserDefinedListId": 302,
+  "Rank": 14,
+  "SubGroup": "tenetur",
+  "MinLevel": 67,
+  "MaxValue": 741,
+  "MinValue": 827,
+  "RequiredLicense": "quis",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "embrace granular systems"
   },
   "FieldProperties": {
     "fieldName": {
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 861
     }
   }
 }

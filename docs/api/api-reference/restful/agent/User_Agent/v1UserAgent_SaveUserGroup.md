@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SaveUserGroup
+title: SaveUserGroup
 id: v1UserAgent_SaveUserGroup
 ---
 
-# POST Agents/User/SaveUserGroup
+# SaveUserGroup
 
 ```http
 POST /api/v1/Agents/User/SaveUserGroup
@@ -85,16 +85,16 @@ Response body: object
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroup": {
-    "Value": "et",
-    "Tooltip": "laboriosam",
-    "Id": 84,
-    "Rank": 482,
-    "Deleted": true
+    "Value": "libero",
+    "Tooltip": "labore",
+    "Id": 629,
+    "Rank": 552,
+    "Deleted": false
   }
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "repudiandae",
-  "Tooltip": "dolorem",
-  "Id": 116,
-  "Rank": 532,
-  "Deleted": false,
+  "Value": "minus",
+  "Tooltip": "autem",
+  "Id": 995,
+  "Rank": 852,
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

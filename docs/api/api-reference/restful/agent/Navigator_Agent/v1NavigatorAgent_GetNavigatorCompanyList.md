@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Navigator/GetNavigatorCompanyList
+title: GetNavigatorCompanyList
 id: v1NavigatorAgent_GetNavigatorCompanyList
 ---
 
-# POST Agents/Navigator/GetNavigatorCompanyList
+# GetNavigatorCompanyList
 
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Value": "dolore",
-    "Tooltip": "velit",
+    "Id": 695,
+    "Value": "consequatur",
+    "Tooltip": "ut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldLength": 49
       }
     }
   },
   {
-    "Id": 784,
-    "Value": "dolore",
-    "Tooltip": "velit",
+    "Id": 695,
+    "Value": "consequatur",
+    "Tooltip": "ut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldLength": 49
       }
     }
   }

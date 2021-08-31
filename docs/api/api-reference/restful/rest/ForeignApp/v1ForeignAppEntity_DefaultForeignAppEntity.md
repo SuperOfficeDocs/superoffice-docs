@@ -61,32 +61,32 @@ Response body: object
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Feb 1995 09:40:59 G2T
+Last-Modified: Wed, 04 May 1994 15:05:42 G5T
 
 {
-  "ForeignAppId": 535,
-  "Name": "Sawayn-Volkman",
-  "CreatedDate": "2001-12-10T09:40:59.2016629+01:00",
-  "UpdatedDate": "1995-02-28T09:40:59.2016629+01:00",
+  "ForeignAppId": 111,
+  "Name": "Schuppe-Grant",
+  "CreatedDate": "2019-04-28T15:05:42.1836354+02:00",
+  "UpdatedDate": "1994-05-04T15:05:42.1836354+02:00",
   "CreatedBy": {
-    "AssociateId": 355,
-    "Name": "Stokes Inc and Sons",
-    "PersonId": 925,
-    "Rank": 115,
-    "Tooltip": "quod",
+    "AssociateId": 706,
+    "Name": "Kilback, Shields and Douglas",
+    "PersonId": 923,
+    "Rank": 877,
+    "Tooltip": "reiciendis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 853,
-    "FullName": "Aileen Kreiger",
-    "FormalName": "Baumbach Group",
-    "Deleted": true,
-    "EjUserId": 22,
-    "UserName": "Goodwin-Leuschke",
+    "GroupIdx": 539,
+    "FullName": "Joey Fisher",
+    "FormalName": "Reilly, Reichert and Rowe",
+    "Deleted": false,
+    "EjUserId": 400,
+    "UserName": "Grant LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,23 +95,23 @@ Last-Modified: Tue, 28 Feb 1995 09:40:59 G2T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 111
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 325,
-    "Name": "Zboncak, Satterfield and Kris",
-    "PersonId": 37,
-    "Rank": 930,
-    "Tooltip": "alias",
+    "AssociateId": 391,
+    "Name": "Murphy Group",
+    "PersonId": 230,
+    "Rank": 841,
+    "Tooltip": "exercitationem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 84,
-    "FullName": "Abe Lubowitz Jr.",
-    "FormalName": "Dare Group",
-    "Deleted": true,
-    "EjUserId": 585,
-    "UserName": "Homenick-Reilly",
+    "GroupIdx": 381,
+    "FullName": "Domenico Satterfield",
+    "FormalName": "Murray, Rowe and Lind",
+    "Deleted": false,
+    "EjUserId": 370,
+    "UserName": "Bruen Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -120,21 +120,21 @@ Last-Modified: Tue, 28 Feb 1995 09:40:59 G2T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 732
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 517,
-      "Name": "Jenkins-Murphy",
-      "CreatedDate": "2021-01-11T09:40:59.2026627+01:00",
-      "UpdatedDate": "2000-11-16T09:40:59.2026627+01:00",
-      "AssociateFullName": "Lawrence Gaylord",
-      "CreatedBy": "sapiente",
-      "UpdatedBy": "illum",
-      "DeviceIdentifier": "at",
-      "ForeignAppId": 482,
+      "ForeignDeviceId": 688,
+      "Name": "Jewess, Brown and Bartoletti",
+      "CreatedDate": "2005-05-22T15:05:42.1836354+02:00",
+      "UpdatedDate": "2018-08-13T15:05:42.1836354+02:00",
+      "AssociateFullName": "Jean Hayes",
+      "CreatedBy": "officiis",
+      "UpdatedBy": "laudantium",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 620,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -142,8 +142,8 @@ Last-Modified: Tue, 28 Feb 1995 09:40:59 G2T
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldType": "System.Int32",
+          "FieldLength": 778
         }
       }
     }
@@ -156,10 +156,10 @@ Last-Modified: Tue, 28 Feb 1995 09:40:59 G2T
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "expedite user-centric applications"
       },
       "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldLength": 343
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailAddress
+title: CreateDefaultEMailAddress
 id: v1EMailAgent_CreateDefaultEMailAddress
 ---
 
-# POST Agents/EMail/CreateDefaultEMailAddress
+# CreateDefaultEMailAddress
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 865,
-  "ContactName": "Kuhn, Wisozk and Schiller",
-  "PersonId": 789,
-  "PersonName": "Schuster-Wyman",
-  "AssociateId": 523,
-  "Address": "quibusdam",
-  "EmailId": 392,
+  "ContactId": 58,
+  "ContactName": "Huels LLC",
+  "PersonId": 366,
+  "PersonName": "Cormier LLC",
+  "AssociateId": 131,
+  "Address": "aut",
+  "EmailId": 183,
   "DuplicatePersonIds": [
-    584,
-    743
+    995,
+    803
   ],
-  "Name": "Stanton, Fahey and Boyer",
+  "Name": "Ebert-Huels",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldLength": 554
     }
   }
 }

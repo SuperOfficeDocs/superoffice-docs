@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/GetAttachmentEntity
+title: GetAttachmentEntity
 id: v1TicketAgent_GetAttachmentEntity
 ---
 
-# POST Agents/Ticket/GetAttachmentEntity
+# GetAttachmentEntity
 
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
@@ -25,7 +25,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=526
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=998
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -65,6 +65,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,10 +84,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 422,
-  "Name": "Purdy, Walter and Armstrong",
+  "AttachmentId": 186,
+  "Name": "Osinski-Haley",
   "ContentType": "et",
-  "AttSize": 70,
+  "AttSize": 629,
+  "InlineImage": true,
+  "ContentId": "quidem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "aggregate sexy communities"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/DatabaseTable/UpdateRow
+title: UpdateRow
 id: v1DatabaseTableAgent_UpdateRow
 ---
 
-# POST Agents/DatabaseTable/UpdateRow
+# UpdateRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/UpdateRow

@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 598,
+  "Id": 998,
+  "Name": "Williamson, Gutkowski and Hammes",
+  "Tooltip": "beatae",
+  "Deleted": true,
+  "Rank": 835,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Terry Inc and Sons",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 114,
+  "Id": 869,
+  "Name": "McGlynn Group",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 555,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "odit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "modi",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "deliver mission-critical schemas"
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldLength": 363
     }
   }
 }

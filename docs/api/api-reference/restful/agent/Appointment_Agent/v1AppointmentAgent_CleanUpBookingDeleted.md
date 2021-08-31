@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CleanUpBookingDeleted
+title: CleanUpBookingDeleted
 id: v1AppointmentAgent_CleanUpBookingDeleted
 ---
 
-# POST Agents/Appointment/CleanUpBookingDeleted
+# CleanUpBookingDeleted
 
 ```http
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
@@ -68,13 +68,13 @@ Response body: int32
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    362,
-    787
+    958,
+    800
   ]
 }
 ```
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-727
+736
 ```

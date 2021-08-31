@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Russel Group",
-    "DisplayName": "Hartmann-Wolff",
-    "Description": "Down-sized neutral interface",
-    "ShortLabel": "qui",
+    "FieldName": "Botsford Inc and Sons",
+    "DisplayName": "Emard-Roberts",
+    "Description": "Cross-group leading edge hub",
+    "ShortLabel": "aut",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 523,
-    "TemplateVariableName": "Pacocha, Roberts and Bashirian"
+    "IsExternal": false,
+    "Rank": 426,
+    "TemplateVariableName": "Mante, Botsford and Ziemann"
   }
 ]
 ```

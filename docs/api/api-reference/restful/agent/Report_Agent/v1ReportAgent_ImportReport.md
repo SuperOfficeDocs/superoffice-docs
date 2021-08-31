@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/ImportReport
+title: ImportReport
 id: v1ReportAgent_ImportReport
 ---
 
-# POST Agents/Report/ImportReport
+# ImportReport
 
 ```http
 POST /api/v1/Agents/Report/ImportReport
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Report": "ut"
+  "Report": "impedit"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-259
+143
 ```

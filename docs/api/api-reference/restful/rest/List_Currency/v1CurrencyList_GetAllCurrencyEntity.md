@@ -24,7 +24,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ Response body: array
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 678,
-    "Name": "Purdy, Volkman and Collier",
-    "Tooltip": "eius",
-    "Rank": 168,
-    "Rate": 19355.584,
-    "Units": 25517.028,
-    "Deleted": false,
+    "CurrencyId": 62,
+    "Name": "Kilback Inc and Sons",
+    "Tooltip": "omnis",
+    "Rank": 606,
+    "Rate": 28227.938,
+    "Units": 24630.106,
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incentivize enterprise paradigms"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 539
       }
     }
   }

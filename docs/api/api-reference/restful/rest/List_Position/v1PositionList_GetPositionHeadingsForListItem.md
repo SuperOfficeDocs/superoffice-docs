@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Weimann LLC",
-    "ToolTip": "Tenetur nemo molestias in sint.",
+    "Id": 934,
+    "Name": "Satterfield Group",
+    "ToolTip": "Consequatur nesciunt.",
     "Deleted": false,
-    "Rank": 738,
-    "Type": "qui",
-    "ColorBlock": 365,
-    "IconHint": "ab",
+    "Rank": 993,
+    "Type": "est",
+    "ColorBlock": 312,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "1997-11-14T09:41:00.5113827+01:00",
+    "LastChanged": "2005-10-19T15:05:43.5800797+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Bruen-Olson",
-        "ToolTip": "Et autem enim cupiditate sunt officiis.",
-        "Deleted": true,
-        "Rank": 129,
-        "Type": "dolor",
-        "ColorBlock": 992,
-        "IconHint": "distinctio",
+        "Id": 206,
+        "Name": "Terry, Mills and Hammes",
+        "ToolTip": "Maxime laborum.",
+        "Deleted": false,
+        "Rank": 238,
+        "Type": "ea",
+        "ColorBlock": 420,
+        "IconHint": "maiores",
         "Selected": true,
-        "LastChanged": "1994-01-02T09:41:00.5113827+01:00",
+        "LastChanged": "2019-12-17T15:05:43.5800797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "eaque",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Sabryna Waters",
+        "FullName": "Maureen Johnston",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldType": "System.String",
+            "FieldLength": 863
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "nam",
     "Hidden": true,
-    "FullName": "Delphia Connelly",
+    "FullName": "Kamryn Schulist",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

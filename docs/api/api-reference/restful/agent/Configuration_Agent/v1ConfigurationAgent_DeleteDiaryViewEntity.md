@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/DeleteDiaryViewEntity
+title: DeleteDiaryViewEntity
 id: v1ConfigurationAgent_DeleteDiaryViewEntity
 ---
 
-# POST Agents/Configuration/DeleteDiaryViewEntity
+# DeleteDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity
@@ -24,7 +24,7 @@ Deletes the DiaryViewEntity
 | DiaryViewEntityId | int32 | **Required** The id of the DiaryViewEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?DiaryViewEntityId=222
+POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?DiaryViewEntityId=938
 ```
 
 

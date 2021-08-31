@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CreateSession
+title: CreateSession
 id: v1CustomerServiceAgent_CreateSession
 ---
 
-# POST Agents/CustomerService/CreateSession
+# CreateSession
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateSession
@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "dolor"
+  "RemoteIp": "sit"
 }
 ```
 
@@ -89,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "LoginId": 714,
-  "UserId": 273,
+  "Key": "voluptas",
+  "LoginId": 548,
+  "UserId": 336,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 954
     }
   }
 }

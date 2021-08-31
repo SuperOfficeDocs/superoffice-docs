@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetCriteriaInformation
+title: GetCriteriaInformation
 id: v1FindAgent_GetCriteriaInformation
 ---
 
-# POST Agents/Find/GetCriteriaInformation
+# GetCriteriaInformation
 
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformation
@@ -88,12 +88,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Steuber, Lueilwitz and McLaughlin",
-  "StorageKey": "est",
+  "StorageType": "iusto",
+  "ProviderName": "Schimmel-McGlynn",
+  "StorageKey": "dolor",
   "StaticColumns": [
-    "minus",
-    "ut"
+    "ut",
+    "dolore"
   ]
 }
 ```
@@ -105,57 +105,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hammes LLC",
-      "Operator": "quis",
+      "Name": "Harris Inc and Sons",
+      "Operator": "eum",
       "Values": [
-        "magnam",
-        "qui"
+        "delectus",
+        "et"
       ],
       "DisplayValues": [
-        "voluptas",
-        "accusamus"
+        "blanditiis",
+        "nesciunt"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 879,
+      "InterParenthesis": 577,
       "InterOperator": "And",
-      "UniqueHash": 583
+      "UniqueHash": 642
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Pfannerstill Inc and Sons",
-      "DisplayTooltip": "autem",
-      "DisplayType": "ut",
+      "DisplayName": "Wuckert, Pouros and Walker",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "tenetur",
       "CanOrderBy": true,
-      "Name": "Brekke-Murphy",
+      "Name": "Feil-Goyette",
       "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Gutmann, Friesen and Upton",
-      "IsVisible": true,
-      "ExtraInfo": "vero",
-      "Width": "dicta",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "quas"
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Jast-Hodkiewicz",
+      "IsVisible": false,
+      "ExtraInfo": "quia",
+      "Width": "est",
+      "IconHint": "ex",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Beahan Inc and Sons",
-      "PrimaryKey": 272,
+      "EntityName": "Johnson-Klocko",
+      "PrimaryKey": 800,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "nam",
-          "LinkHint": "molestiae"
+          "DisplayValue": "molestias",
+          "TooltipHint": "eligendi",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "ea",
-      "StyleHint": "quis",
+      "LinkHint": "unde",
+      "StyleHint": "eaque",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -164,25 +164,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldLength": 732
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Waelchi-Jacobs",
-      "Description": "Object-based local middleware",
-      "Rank": 374,
+      "Name": "Bechtelar Inc and Sons",
+      "Description": "Implemented static portal",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waelchi-Jacobs",
-      "Description": "Object-based local middleware",
-      "Rank": 374,
+      "Name": "Bechtelar Inc and Sons",
+      "Description": "Implemented static portal",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
+title: CreateDefaultShipmentMessageBlockEntity
 id: v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity
 ---
 
-# POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
+# CreateDefaultShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 44,
-  "AssociateId": 862,
-  "Block": "ipsa",
-  "Registered": "2009-02-13T16:48:29.9559247+01:00",
-  "RegisteredAssociateId": 309,
-  "Updated": "1993-11-08T16:48:29.9559247+01:00",
-  "UpdatedAssociateId": 362,
-  "UpdatedCount": 753,
+  "ShipmentMessageBlockId": 20,
+  "AssociateId": 681,
+  "Block": "qui",
+  "Registered": "1994-05-29T14:58:04.4964654+02:00",
+  "RegisteredAssociateId": 952,
+  "Updated": "2011-03-21T14:58:04.4964654+01:00",
+  "UpdatedAssociateId": 815,
+  "UpdatedCount": 949,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 992
     }
   }
 }

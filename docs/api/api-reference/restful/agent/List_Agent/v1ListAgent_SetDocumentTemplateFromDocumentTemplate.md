@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetDocumentTemplateFromDocumentTemplate
+title: SetDocumentTemplateFromDocumentTemplate
 id: v1ListAgent_SetDocumentTemplateFromDocumentTemplate
 ---
 
-# POST Agents/List/SetDocumentTemplateFromDocumentTemplate
+# SetDocumentTemplateFromDocumentTemplate
 
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
@@ -107,32 +107,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 549,
+  "SourceDocumentTemplateId": 906,
   "DocumentTemplateEntity": {
-    "DocumentTemplateId": 874,
-    "Name": "Bartell Group",
-    "Tooltip": "qui",
-    "SaveInDb": 251,
+    "DocumentTemplateId": 119,
+    "Name": "Johnson, Nicolas and Feil",
+    "Tooltip": "eum",
+    "SaveInDb": 832,
     "Filename": "est",
-    "DefaultOref": "eius",
+    "DefaultOref": "deleniti",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 229,
-    "IntentId": 191,
-    "IsDefaultPublished": true,
-    "Rank": 474,
-    "LoadTemplateFromPlugin": 441,
-    "MimeType": "et",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 292,
+    "AutoeventId": 20,
+    "IntentId": 905,
+    "IsDefaultPublished": false,
+    "Rank": 138,
+    "LoadTemplateFromPlugin": 590,
+    "MimeType": "facere",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 201,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "letha@rohan.uk",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "alfred.hilpert@pacocha.uk",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jaren.prohaska@mraz.co.uk",
+    "SenderEmailAddress": "stephanie@grady.com",
     "InvitationDocType": "Cancelled"
   }
 }
@@ -143,30 +143,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 508,
-  "Name": "Nitzsche, Lesch and Graham",
-  "Tooltip": "necessitatibus",
-  "SaveInDb": 597,
-  "Filename": "occaecati",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 974,
+  "Name": "Mraz-Walker",
+  "Tooltip": "odio",
+  "SaveInDb": 773,
+  "Filename": "eos",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 744,
-  "IntentId": 21,
+  "AutoeventId": 8,
+  "IntentId": 162,
   "IsDefaultPublished": false,
-  "Rank": 347,
-  "LoadTemplateFromPlugin": 959,
-  "MimeType": "voluptatum",
+  "Rank": 905,
+  "LoadTemplateFromPlugin": 561,
+  "MimeType": "iste",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 858,
+  "DocumentTypeKey": 253,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "reid_roberts@leffler.us",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "aron.koss@vonruedenfranecki.info",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "camden@schambergerrunolfsdottir.uk",
+  "SenderEmailAddress": "nicholaus@murray.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 4
     }
   }
 }

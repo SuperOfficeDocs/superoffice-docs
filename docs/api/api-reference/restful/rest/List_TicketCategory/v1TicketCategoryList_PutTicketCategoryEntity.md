@@ -101,30 +101,30 @@ Response body: object
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 649,
-  "ParentId": 939,
-  "Name": "McGlynn Inc and Sons",
-  "Fullname": "at",
-  "CategoryMaster": 355,
+  "TicketCategoryId": 24,
+  "ParentId": 575,
+  "Name": "Watsica LLC",
+  "Fullname": "laboriosam",
+  "CategoryMaster": 529,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fay-Berge",
+  "ExternalName": "Erdman, Reinger and D'Amore",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 726,
-  "ReplyTemplate": 917,
-  "NotificationEmail": "zachery.mcglynn@ortizhagenes.us",
+  "AssignmentLag": 907,
+  "ReplyTemplate": 912,
+  "NotificationEmail": "ethel_hirthe@stoltenbergjaskolski.name",
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "est",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "tempora"
+    "CustomFields1": "ab",
+    "CustomFields2": "aliquam"
   }
 }
 ```
@@ -134,26 +134,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 214,
-  "ParentId": 727,
-  "Name": "Kuhn Group",
-  "Fullname": "dolorem",
-  "CategoryMaster": 96,
+  "TicketCategoryId": 823,
+  "ParentId": 53,
+  "Name": "Abbott, Gleason and Spinka",
+  "Fullname": "quia",
+  "CategoryMaster": 972,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Marks, Runolfsdottir and Bosco",
+  "ExternalName": "Larkin Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 1000,
-  "ReplyTemplate": 566,
-  "NotificationEmail": "ally.padberg@stracketremblay.biz",
+  "AssignmentLag": 773,
+  "ReplyTemplate": 18,
+  "NotificationEmail": "hosea_mertz@ryan.biz",
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "autem"
+    "CustomFields1": "eos",
+    "CustomFields2": "quia"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 361
     }
   }
 }

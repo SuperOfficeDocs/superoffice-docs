@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Heidenreich Group",
-    "ToolTip": "Nam labore id.",
+    "Id": 703,
+    "Name": "Kilback Inc and Sons",
+    "ToolTip": "Molestiae rerum facilis reiciendis adipisci doloremque nihil.",
     "Deleted": true,
-    "Rank": 283,
-    "Type": "numquam",
-    "ColorBlock": 387,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2011-06-07T09:41:00.345382+02:00",
+    "Rank": 294,
+    "Type": "quis",
+    "ColorBlock": 637,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "1995-05-08T15:05:43.4175102+02:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Bailey LLC",
-        "ToolTip": "Sint similique id.",
-        "Deleted": false,
-        "Rank": 110,
-        "Type": "expedita",
-        "ColorBlock": 959,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2002-02-24T09:41:00.345382+01:00",
+        "Id": 912,
+        "Name": "Bashirian-Feeney",
+        "ToolTip": "Sequi reiciendis enim itaque distinctio sapiente quia.",
+        "Deleted": true,
+        "Rank": 963,
+        "Type": "quibusdam",
+        "ColorBlock": 329,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2012-07-07T15:05:43.4175102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Barbara Jenkins",
+        "ExtraInfo": "unde",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Arely Little",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldType": "System.String",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Suzanne Schiller",
+    "ExtraInfo": "autem",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Dora Upton",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldLength": 927
       }
     }
   }

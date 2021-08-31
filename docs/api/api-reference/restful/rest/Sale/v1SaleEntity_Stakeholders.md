@@ -72,14 +72,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=sit
-GET /api/v1/Sale/{id}/Stakeholders?$top=691
-GET /api/v1/Sale/{id}/Stakeholders?$skip=857
+GET /api/v1/Sale/{id}/Stakeholders?$entities=sed
+GET /api/v1/Sale/{id}/Stakeholders?$top=528
+GET /api/v1/Sale/{id}/Stakeholders?$skip=108
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=a
+GET /api/v1/Sale/{id}/Stakeholders?$context=dolorum
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
-GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=True
+GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=False
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 ```
 
@@ -121,7 +121,7 @@ Response body: object
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cumque",
+  "odata.nextLink": "vel",
   "value": [
     {
-      "PrimaryKey": 4834,
-      "EntityName": "sale",
-      "saleId": 4834,
-      "contactId": 8776,
-      "name": "Reichel-Bradtke"
+      "PrimaryKey": 9636,
+      "EntityName": "person",
+      "personId": 9636,
+      "fullName": "Emile Bailey"
     },
     {
-      "PrimaryKey": 693,
-      "EntityName": "sale",
-      "saleId": 693,
-      "contactId": 631,
-      "name": "Lebsack-Hammes"
+      "PrimaryKey": 7732,
+      "EntityName": "person",
+      "personId": 7732,
+      "fullName": "Rylan Olson"
     }
   ]
 }

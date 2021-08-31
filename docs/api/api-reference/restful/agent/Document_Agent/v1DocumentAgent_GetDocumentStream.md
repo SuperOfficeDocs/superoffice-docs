@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetDocumentStream
+title: GetDocumentStream
 id: v1DocumentAgent_GetDocumentStream
 ---
 
-# POST Agents/Document/GetDocumentStream
+# GetDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentStream
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Document/GetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 738
+  "DocumentId": 315
 }
 ```
 

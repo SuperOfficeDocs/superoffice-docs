@@ -2,6 +2,8 @@
 title: TriggerScript
 ---
 
+# TriggerScript
+
 ```http
 /api/v1/TriggerScript
 ```

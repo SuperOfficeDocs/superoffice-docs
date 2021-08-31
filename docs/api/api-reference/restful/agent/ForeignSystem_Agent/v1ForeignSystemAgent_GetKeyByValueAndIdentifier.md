@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
+title: GetKeyByValueAndIdentifier
 id: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
 ---
 
-# POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
+# GetKeyByValueAndIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
@@ -86,16 +86,16 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Turner, Hirthe and Price",
-  "DeviceName": "Kiehn-Hills",
-  "DeviceIdentifier": "et",
-  "KeyName": "Roob-McClure",
-  "KeyValue": "non",
-  "TableName": "Schaden Group"
+  "ApplicationName": "Lynch-Windler",
+  "DeviceName": "Rau-Osinski",
+  "DeviceIdentifier": "deserunt",
+  "KeyName": "Cole Inc and Sons",
+  "KeyValue": "fuga",
+  "TableName": "Hackett-Hahn"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "consequatur",
-  "RecordId": 422,
-  "CreatedDate": "2003-10-04T16:48:29.7159239+02:00",
-  "UpdatedDate": "2013-01-29T16:48:29.7159239+01:00",
+  "Key": "exercitationem",
+  "Value": "est",
+  "RecordId": 188,
+  "CreatedDate": "1995-11-16T14:58:04.3104636+01:00",
+  "UpdatedDate": "2007-09-10T14:58:04.3104636+02:00",
   "UpdatedBy": "eos",
-  "CreatedBy": "quibusdam",
-  "TableName": "Sanford, Marks and Kunze",
+  "CreatedBy": "in",
+  "TableName": "Buckridge, Conn and Stehr",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

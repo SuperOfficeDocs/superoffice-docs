@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Larson, Rodriguez and Willms",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 479
+    "Id": 218,
+    "Name": "Swaniawski, Berge and Rogahn",
+    "Tooltip": "saepe",
+    "Deleted": true,
+    "UdListDefinitionId": 110,
+    "Rank": 7
   },
   {
-    "Id": 320,
-    "Name": "Larson, Rodriguez and Willms",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 479
+    "Id": 218,
+    "Name": "Swaniawski, Berge and Rogahn",
+    "Tooltip": "saepe",
+    "Deleted": true,
+    "UdListDefinitionId": 110,
+    "Rank": 7
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Bahringer Group",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "UdListDefinitionId": 749,
-    "Rank": 58,
+    "Id": 419,
+    "Name": "Hoppe-Mertz",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 867,
+    "Rank": 566,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "streamline frictionless content"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 88
       }
     }
   }

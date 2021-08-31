@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Deckow, Torphy and Bogan",
-    "ToolTip": "Officia suscipit perferendis qui vel corrupti.",
-    "Deleted": true,
-    "Rank": 875,
-    "Type": "dolore",
-    "ColorBlock": 408,
-    "IconHint": "porro",
+    "Id": 771,
+    "Name": "Beier, Gutkowski and Zemlak",
+    "ToolTip": "Quisquam et vero recusandae quasi.",
+    "Deleted": false,
+    "Rank": 7,
+    "Type": "esse",
+    "ColorBlock": 417,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2020-12-15T09:41:00.3493817+01:00",
+    "LastChanged": "2008-02-19T15:05:43.42251+01:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Reilly-Yundt",
-        "ToolTip": "Amet voluptatem non fugit porro.",
+        "Id": 637,
+        "Name": "Luettgen Inc and Sons",
+        "ToolTip": "Voluptatem enim.",
         "Deleted": true,
-        "Rank": 997,
-        "Type": "veritatis",
-        "ColorBlock": 6,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2009-02-13T09:41:00.3493817+01:00",
+        "Rank": 537,
+        "Type": "sit",
+        "ColorBlock": 742,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2011-01-19T15:05:43.42251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Valerie Eichmann",
+        "ExtraInfo": "dolor",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Frida Mueller",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "whiteboard cross-platform portals"
             },
             "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldLength": 976
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Stanford Leuschke",
+    "ExtraInfo": "ad",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Mozell Gulgowski",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 603
       }
     }
   }

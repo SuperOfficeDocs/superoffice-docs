@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/CreateDefaultArchiveListResult
+title: CreateDefaultArchiveListResult
 id: v1ArchiveAgent_CreateDefaultArchiveListResult
 ---
 
-# POST Agents/Archive/CreateDefaultArchiveListResult
+# CreateDefaultArchiveListResult
 
 ```http
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
@@ -60,7 +60,7 @@ Response body: object
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -68,29 +68,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 237,
+  "RowCount": 891,
   "Rows": [
     {
-      "EntityName": "Donnelly, Littel and Wunsch",
-      "PrimaryKey": 726,
+      "EntityName": "Corwin-Smith",
+      "PrimaryKey": 581,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatum",
-          "TooltipHint": "eos",
-          "LinkHint": "atque"
+          "DisplayValue": "eum",
+          "TooltipHint": "iure",
+          "LinkHint": "tempora"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "id",
+      "LinkHint": "iure",
+      "StyleHint": "eius",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "e-enable visionary experiences"
           },
-          "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldType": "System.Int32",
+          "FieldLength": 865
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 770
     }
   }
 }

@@ -76,7 +76,7 @@ Response body: array
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -85,16 +85,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 253,
-    "Value": "quia",
+    "TaskListItemId": 758,
+    "Value": "voluptate",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "doloribus",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "IntentId": 281,
-    "Rank": 570,
-    "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
+    "IntentId": 701,
+    "Rank": 479,
+    "IsDefaultAlldayEvent": false,
+    "IsDefaultFree": true,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldLength": 11
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllTasks
+title: GetAllTasks
 id: v1ListAgent_GetAllTasks
 ---
 
-# POST Agents/List/GetAllTasks
+# GetAllTasks
 
 ```http
 POST /api/v1/Agents/List/GetAllTasks
@@ -99,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 332,
-    "Value": "laboriosam",
+    "TaskListItemId": 394,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "IntentId": 351,
-    "Rank": 696,
+    "Tooltip": "iste",
+    "Deleted": true,
+    "IntentId": 505,
+    "Rank": 624,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": true,
-    "IsDefaultPublished": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

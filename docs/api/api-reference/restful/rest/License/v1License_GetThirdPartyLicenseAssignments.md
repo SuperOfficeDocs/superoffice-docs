@@ -71,7 +71,7 @@ Response body: array
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 451,
-    "Tooltip": "sit",
+    "Total": 368,
+    "Tooltip": "magnam",
     "CanAssign": false,
-    "Free": 348,
-    "InUse": 723,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 983,
-    "Name": "Hills Inc and Sons",
-    "Description": "Horizontal national array",
-    "PrerequisiteModuleName": "Wyman, Mertz and Durgan",
-    "SortOrder": 615,
+    "Free": 840,
+    "InUse": 789,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 764,
+    "Name": "Sawayn, Feil and Feeney",
+    "Description": "Organized interactive approach",
+    "PrerequisiteModuleName": "Turner Group",
+    "SortOrder": 44,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 556
       }
     }
   }

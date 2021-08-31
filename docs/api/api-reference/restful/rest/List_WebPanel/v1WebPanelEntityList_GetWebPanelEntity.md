@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,26 +91,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 374,
-  "Name": "Kling, Gutmann and Kemmer",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 180,
+  "WebPanelId": 919,
+  "Name": "Adams Group",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 640,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "McCullough-Lockman",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Fisher-Harris",
   "Url": "http://www.example.com/",
-  "ProgId": "asperiores",
-  "Icon": 218,
+  "ProgId": "alias",
+  "Icon": 384,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 534
     }
   }
 }

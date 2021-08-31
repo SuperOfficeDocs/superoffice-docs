@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetConsentPurposeList
+title: GetConsentPurposeList
 id: v1ListAgent_GetConsentPurposeList
 ---
 
-# POST Agents/List/GetConsentPurposeList
+# GetConsentPurposeList
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurposeList
@@ -91,27 +91,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 414,
-    "Name": "Hirthe Inc and Sons",
-    "ConsentText": "corrupti",
-    "FormText": "est",
-    "Key": "quae",
-    "Tooltip": "temporibus",
-    "Active": 325,
-    "UpdatedDate": "2020-11-15T16:48:29.7709245+01:00",
+    "ConsentPurposeId": 248,
+    "Name": "Harvey, Harris and Champlin",
+    "ConsentText": "et",
+    "FormText": "ipsum",
+    "Key": "sapiente",
+    "Tooltip": "et",
+    "Active": 4,
+    "UpdatedDate": "1994-12-18T14:58:04.36146+01:00",
     "UpdatedBy": {
-      "AssociateId": 48,
-      "Name": "Cruickshank Group",
-      "PersonId": 466,
-      "Rank": 358,
-      "Tooltip": "et",
+      "AssociateId": 851,
+      "Name": "Leffler, Reilly and Goyette",
+      "PersonId": 970,
+      "Rank": 953,
+      "Tooltip": "vero",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 814,
-      "FullName": "Madelynn Hegmann",
-      "FormalName": "Schinner-Parker",
+      "GroupIdx": 495,
+      "FullName": "Otilia Herzog",
+      "FormalName": "Schamberger, Crist and Hills",
       "Deleted": false,
-      "EjUserId": 603,
-      "UserName": "Wisozk LLC",
+      "EjUserId": 316,
+      "UserName": "Morar, Hintz and Davis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -120,13 +120,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 126
         }
       }
     },
-    "Deleted": true,
-    "Rank": 625,
-    "PrivacyStatementDesc": "dolorum",
+    "Deleted": false,
+    "Rank": 360,
+    "PrivacyStatementDesc": "et",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldLength": 239
       }
     }
   }

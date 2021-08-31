@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Nader LLC",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 475,
-  "Rank": 980,
+  "Id": 478,
+  "Name": "Jones, Schuppe and Botsford",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 19,
+  "Rank": 670,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldLength": 148
     }
   }
 }

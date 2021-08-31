@@ -92,16 +92,16 @@ Response body: object
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 17,
-  "Name": "Sporer Group",
-  "Tooltip": "cumque",
-  "PassiveText": "voluptatem",
-  "Deleted": false,
-  "Rank": 311,
+  "ReldefId": 201,
+  "Name": "Breitenberg-Boyer",
+  "Tooltip": "id",
+  "PassiveText": "ullam",
+  "Deleted": true,
+  "Rank": 401,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 54,
-  "Name": "Koss LLC",
-  "Tooltip": "id",
-  "PassiveText": "quidem",
+  "ReldefId": 579,
+  "Name": "Balistreri Inc and Sons",
+  "Tooltip": "sit",
+  "PassiveText": "a",
   "Deleted": false,
-  "Rank": 447,
+  "Rank": 482,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 927
     }
   },
   "_Links": {

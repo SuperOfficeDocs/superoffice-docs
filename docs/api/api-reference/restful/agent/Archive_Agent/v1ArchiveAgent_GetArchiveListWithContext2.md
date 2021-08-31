@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListWithContext2
+title: GetArchiveListWithContext2
 id: v1ArchiveAgent_GetArchiveListWithContext2
 ---
 
-# POST Agents/Archive/GetArchiveListWithContext2
+# GetArchiveListWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
@@ -14,32 +14,7 @@ Get a page of data for an archive using restrictions as strings, with context pa
 The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -239,18 +170,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Quigley-Zieme",
-  "ProviderName": "Ledner, Stiedemann and Bergstrom",
-  "SortOrder": "animi",
-  "Restriction": "sit",
-  "Entities": "officiis",
-  "Page": 258,
-  "PageSize": 909,
-  "Context": "ab"
+  "GuiName": "Bauch, Kemmer and Purdy",
+  "ProviderName": "Cronin Group",
+  "SortOrder": "sunt",
+  "Restriction": "natus",
+  "Entities": "tempora",
+  "Page": 805,
+  "PageSize": 44,
+  "Context": "nisi"
 }
 ```
 
@@ -260,17 +191,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Weber, Strosin and Gorczany",
-    "PrimaryKey": 758,
+    "EntityName": "Reilly LLC",
+    "PrimaryKey": 181,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "sit",
-        "LinkHint": "et"
+        "DisplayValue": "exercitationem",
+        "TooltipHint": "ducimus",
+        "LinkHint": "molestias"
       }
     },
-    "LinkHint": "quaerat",
-    "StyleHint": "eum",
+    "LinkHint": "id",
+    "StyleHint": "ea",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -282,7 +213,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldLength": 228
       }
     }
   }

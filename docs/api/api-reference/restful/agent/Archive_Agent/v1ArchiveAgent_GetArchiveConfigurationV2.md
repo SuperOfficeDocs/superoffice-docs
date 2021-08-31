@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveConfigurationV2
+title: GetArchiveConfigurationV2
 id: v1ArchiveAgent_GetArchiveConfigurationV2
 ---
 
-# POST Agents/Archive/GetArchiveConfigurationV2
+# GetArchiveConfigurationV2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
@@ -84,14 +84,14 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Boehm Group",
-  "ProviderName": "Lind-Stracke",
-  "Context": "qui",
-  "OwnerKeys": "iste"
+  "GuiName": "Little, Stoltenberg and Beatty",
+  "ProviderName": "Cassin LLC",
+  "Context": "vitae",
+  "OwnerKeys": "tempora"
 }
 ```
 
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Erdman, Boyer and Abbott",
-      "DisplayTooltip": "modi",
-      "DisplayType": "quia",
+      "DisplayName": "Gerlach, Witting and Steuber",
+      "DisplayTooltip": "quia",
+      "DisplayType": "deserunt",
       "CanOrderBy": false,
-      "Name": "Bode, Borer and Marvin",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Kilback, Shanahan and Crooks",
+      "Name": "Bashirian-Turcotte",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptates",
+      "RestrictionListName": "Jewess Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "voluptatem",
-      "IconHint": "omnis",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "impedit",
+      "Width": "consequatur",
+      "IconHint": "est",
+      "HeadingIconHint": "iure"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 840,
-      "Name": "Kassulke-Cole",
-      "ToolTip": "Veniam aliquid similique quae totam rerum nobis.",
+      "Id": 825,
+      "Name": "Marvin Inc and Sons",
+      "ToolTip": "Amet voluptatem modi error.",
       "Deleted": false,
-      "Rank": 306,
-      "Type": "quos",
-      "ColorBlock": 87,
-      "IconHint": "qui",
+      "Rank": 279,
+      "Type": "autem",
+      "ColorBlock": 35,
+      "IconHint": "nulla",
       "Selected": false,
-      "LastChanged": "1997-02-21T16:48:28.7264566+01:00",
+      "LastChanged": "2000-02-17T14:58:03.225568+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "nihil",
-      "Hidden": false,
-      "FullName": "Lelah Strosin",
+      "ExtraInfo": "aut",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Dr. Vladimir Legros",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,22 +145,22 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 121
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Pouros Inc and Sons",
+      "Name": "Koelpin Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Pouros Inc and Sons",
+      "Name": "Koelpin Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "est",
+  "OwnerKeys": "suscipit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 345
     }
   }
 }

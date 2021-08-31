@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetDuplicates
+title: GetDuplicates
 id: v1ProjectAgent_GetDuplicates
 ---
 
-# POST Agents/Project/GetDuplicates
+# GetDuplicates
 
 ```http
 POST /api/v1/Agents/Project/GetDuplicates
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Collier, Gottlieb and Mohr"
+  "Name": "Turner-Cremin"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kunze-Corkery",
-    "SoPrimaryKey": 393,
-    "EntryName": "Waelchi Inc and Sons",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Von, Kuphal and Wiegand",
+    "RuleName": "McLaughlin Group",
+    "SoPrimaryKey": 865,
+    "EntryName": "Feeney Inc and Sons",
+    "EntryIdentifier": "assumenda",
+    "RuleDisplayName": "Keeling Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 454
       }
     }
   }

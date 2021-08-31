@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -66,9 +66,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolf, Mann and Bosco",
-    "DisplayName": "Jewess-Gusikowski",
-    "DisplayTooltip": "vitae",
+    "Name": "Ebert-Willms",
+    "DisplayName": "Lind Inc and Sons",
+    "DisplayTooltip": "cupiditate",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
@@ -78,17 +78,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "evolve e-business partnerships"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 665
       }
     }
   },
   {
-    "Name": "Wolf, Mann and Bosco",
-    "DisplayName": "Jewess-Gusikowski",
-    "DisplayTooltip": "vitae",
+    "Name": "Ebert-Willms",
+    "DisplayName": "Lind Inc and Sons",
+    "DisplayTooltip": "cupiditate",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "evolve e-business partnerships"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 665
       }
     }
   }

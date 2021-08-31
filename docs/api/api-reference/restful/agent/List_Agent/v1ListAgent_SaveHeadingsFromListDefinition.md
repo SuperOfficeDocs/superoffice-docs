@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingsFromListDefinition
+title: SaveHeadingsFromListDefinition
 id: v1ListAgent_SaveHeadingsFromListDefinition
 ---
 
-# POST Agents/List/SaveHeadingsFromListDefinition
+# SaveHeadingsFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
+  "Id": 226,
   "Entities": [
     {
-      "HeadingId": 740,
-      "Name": "Gerlach-Batz",
-      "Tooltip": "eos",
+      "HeadingId": 579,
+      "Name": "Corkery, Cronin and Steuber",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 995,
-      "UdListDefinitionId": 445
+      "Rank": 4,
+      "UdListDefinitionId": 2
     },
     {
-      "HeadingId": 740,
-      "Name": "Gerlach-Batz",
-      "Tooltip": "eos",
+      "HeadingId": 579,
+      "Name": "Corkery, Cronin and Steuber",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 995,
-      "UdListDefinitionId": 445
+      "Rank": 4,
+      "UdListDefinitionId": 2
     }
   ]
 }
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 761,
-    "Name": "Hessel Inc and Sons",
-    "Tooltip": "praesentium",
+    "HeadingId": 25,
+    "Name": "Johnston-Gislason",
+    "Tooltip": "distinctio",
     "Deleted": true,
-    "Rank": 196,
-    "UdListDefinitionId": 871,
+    "Rank": 323,
+    "UdListDefinitionId": 897,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deploy vertical initiatives"
     },
     "FieldProperties": {
       "fieldName": {
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 668
+        "FieldLength": 675
       }
     }
   }

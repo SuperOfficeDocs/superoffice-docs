@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetSelectableListWithRestriction
+title: GetSelectableListWithRestriction
 id: v1MDOAgent_GetSelectableListWithRestriction
 ---
 
-# POST Agents/MDO/GetSelectableListWithRestriction
+# GetSelectableListWithRestriction
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
@@ -89,13 +89,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Spinka, McClure and Littel",
-  "AdditionalInfo": "quas",
-  "SearchValue": "nam"
+  "Name": "Thiel-Hoppe",
+  "AdditionalInfo": "iste",
+  "SearchValue": "ipsa"
 }
 ```
 
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Connelly-Kris",
-    "ToolTip": "Cum reprehenderit non deleniti earum.",
-    "Deleted": false,
-    "Rank": 765,
-    "Type": "pariatur",
-    "ColorBlock": 347,
-    "IconHint": "quasi",
+    "Id": 217,
+    "Name": "Lindgren, Hirthe and Ledner",
+    "ToolTip": "In ullam quia dolorem.",
+    "Deleted": true,
+    "Rank": 27,
+    "Type": "veritatis",
+    "ColorBlock": 373,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2005-06-05T16:48:29.9709246+02:00",
+    "LastChanged": "2005-05-06T14:58:04.5144677+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Lowe, Johnston and Harber",
-        "ToolTip": "Sit omnis sed quis vero.",
+        "Id": 270,
+        "Name": "Roberts, Koss and Marquardt",
+        "ToolTip": "Aut quis fugiat quam.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "aliquid",
-        "ColorBlock": 738,
-        "IconHint": "natus",
+        "Rank": 425,
+        "Type": "quaerat",
+        "ColorBlock": 509,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2010-10-14T16:48:29.9719241+02:00",
+        "LastChanged": "2000-09-23T14:58:04.5144677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Dedric O'Keefe",
+        "ExtraInfo": "eum",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Vida Denesik III",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -143,15 +143,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Raina Turner III",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "cum",
+    "Hidden": true,
+    "FullName": "Walter Zulauf",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

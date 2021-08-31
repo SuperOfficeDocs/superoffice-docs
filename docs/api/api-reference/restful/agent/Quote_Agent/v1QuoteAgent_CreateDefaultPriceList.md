@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateDefaultPriceList
+title: CreateDefaultPriceList
 id: v1QuoteAgent_CreateDefaultPriceList
 ---
 
-# POST Agents/Quote/CreateDefaultPriceList
+# CreateDefaultPriceList
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 171,
-  "ERPPriceListKey": "iure",
-  "QuoteConnectionId": 373,
-  "Name": "Spencer-Botsford",
-  "Description": "Down-sized 24/7 structure",
-  "Currency": "dolores",
-  "CurrencyName": "Stracke, King and Mante",
-  "ValidFrom": "2006-06-14T16:48:30.4239348+02:00",
-  "ValidTo": "2014-12-19T16:48:30.4239348+01:00",
-  "IsActive": true,
+  "PriceListId": 153,
+  "ERPPriceListKey": "aliquam",
+  "QuoteConnectionId": 149,
+  "Name": "Harvey, Mitchell and Ullrich",
+  "Description": "Compatible 4th generation budgetary management",
+  "Currency": "beatae",
+  "CurrencyName": "Kunze Group",
+  "ValidFrom": "1999-11-04T14:58:04.9854647+01:00",
+  "ValidTo": "2006-09-03T14:58:04.9854647+02:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "target vertical applications"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 388
     }
   }
 }

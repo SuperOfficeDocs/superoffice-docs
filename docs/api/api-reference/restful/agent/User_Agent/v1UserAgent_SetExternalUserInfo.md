@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SetExternalUserInfo
+title: SetExternalUserInfo
 id: v1UserAgent_SetExternalUserInfo
 ---
 
-# POST Agents/User/SetExternalUserInfo
+# SetExternalUserInfo
 
 ```http
 POST /api/v1/Agents/User/SetExternalUserInfo

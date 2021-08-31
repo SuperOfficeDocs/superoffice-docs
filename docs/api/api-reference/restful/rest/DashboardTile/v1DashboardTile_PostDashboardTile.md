@@ -104,46 +104,46 @@ Response body: object
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 350,
-  "Caption": "sint",
-  "Description": "Operative maximized contingency",
-  "ChartName": "Jenkins Group",
-  "ChartId": "maiores",
+  "DashboardTileId": 819,
+  "Caption": "cum",
+  "Description": "Front-line local intranet",
+  "ChartName": "Kuhn Group",
+  "ChartId": "sapiente",
   "IsDefault": false,
-  "AssociateId": 485,
-  "GroupId": 922,
-  "SelectionId": 682,
-  "Config": "consequatur",
+  "AssociateId": 607,
+  "GroupId": 810,
+  "SelectionId": 808,
+  "Config": "quidem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Torphy, Feil and Hirthe",
-      "Description": "Fully-configurable intangible budgetary management",
+      "Name": "Hickle-Hegmann",
+      "Description": "Seamless empowering methodology",
       "Type": "Boolean",
-      "ListName": "Barrows-Johnson",
+      "ListName": "Greenholt-Lehner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "rerum",
+      "Value": "praesentium",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 808,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "cum"
     },
     {
-      "VisibleId": 808,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "cum"
     }
   ]
 }
@@ -154,30 +154,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 252,
-  "Caption": "molestiae",
-  "Description": "De-engineered 6th generation algorithm",
-  "ChartName": "Graham Inc and Sons",
-  "ChartId": "facere",
+  "DashboardTileId": 361,
+  "Caption": "et",
+  "Description": "Diverse assymetric concept",
+  "ChartName": "Bergstrom-Dooley",
+  "ChartId": "non",
   "IsDefault": true,
-  "AssociateId": 366,
-  "GroupId": 410,
-  "SelectionId": 744,
-  "Config": "ratione",
+  "AssociateId": 815,
+  "GroupId": 250,
+  "SelectionId": 576,
+  "Config": "consequatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Pacocha LLC",
-      "Description": "Face to face intangible process improvement",
+      "Name": "Bashirian LLC",
+      "Description": "Intuitive needs-based hub",
       "Type": "Boolean",
-      "ListName": "Pouros, Simonis and Armstrong",
+      "ListName": "Feeney, Terry and Harber",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nihil",
-      "DefaultDataOption": false,
+      "Value": "iste",
+      "DefaultDataOption": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -185,17 +185,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldType": "System.String",
+          "FieldLength": 598
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 530,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "odio",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -204,14 +204,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 161
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 530,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "odio",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -220,14 +220,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 161
+          "FieldLength": 456
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "streamline rich web services"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -235,8 +235,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   },
   "_Links": {

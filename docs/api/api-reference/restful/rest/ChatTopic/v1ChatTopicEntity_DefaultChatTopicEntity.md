@@ -53,22 +53,25 @@ Response body: object
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -78,7 +81,7 @@ Response body: object
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,14 +89,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 593,
-  "Name": "Kuvalis Inc and Sons",
-  "Description": "Proactive intangible concept",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 72,
+  "Name": "Kulas Inc and Sons",
+  "Description": "Business-focused bifurcated internet solution",
+  "WelcomeMessage": "eius",
   "Language": {
-    "Id": 922,
-    "Value": "iusto",
-    "Tooltip": "tenetur",
+    "Id": 634,
+    "Value": "unde",
+    "Tooltip": "quae",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -102,29 +105,30 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 324
       }
     }
   },
-  "LastAccept": "2007-09-13T09:40:58.8313748+02:00",
-  "SecondsPrAccept": 963,
-  "AlertRecipient": "omnis",
+  "LastAccept": "2006-11-13T15:05:41.7660052+01:00",
+  "SecondsPrAccept": 787,
+  "AlertRecipient": "eius",
   "AlertTemplate": {
-    "ReplyTemplateId": 123,
-    "Name": "Macejkovic, Wisozk and Oberbrunner",
-    "Description": "Ergonomic multi-tasking neural-net",
-    "FolderId": 148
+    "ReplyTemplateId": 351,
+    "Name": "Pacocha-Fritsch",
+    "Description": "Visionary optimizing moratorium",
+    "FolderId": 758
   },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "sit",
-  "CustomQueueText": "et",
-  "WarnNewChatSeconds": 543,
-  "WarnManagerNewChatSeconds": 206,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "sint",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "temporibus",
+  "WarnNewChatMinutes": 291,
+  "WarnManagerNewChatMinutes": 677,
+  "TicketEnabled": true,
   "TicketCategory": {
-    "Id": 469,
-    "Value": "voluptatum",
-    "Tooltip": "quia",
+    "Id": 887,
+    "Value": "fugit",
+    "Tooltip": "laboriosam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,14 +137,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 512
       }
     }
   },
   "TicketPriority": {
-    "Id": 648,
-    "Value": "non",
-    "Tooltip": "consequatur",
+    "Id": 112,
+    "Value": "officiis",
+    "Tooltip": "optio",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -149,56 +153,71 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 931
       }
     }
   },
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": {
     "TzLocation": {},
     "MonEnabled": false,
-    "MonStart": "2003-02-14T09:40:58.8313748+01:00",
-    "MonStop": "1997-02-02T09:40:58.8313748+01:00",
-    "TueEnabled": false,
-    "TueStart": "2002-09-05T09:40:58.8313748+02:00",
-    "TueStop": "2008-12-23T09:40:58.8313748+01:00",
+    "MonStart": "nesciunt",
+    "MonStop": "aut",
+    "TueEnabled": true,
+    "TueStart": "rerum",
+    "TueStop": "voluptatum",
     "WedEnabled": false,
-    "WedStart": "2019-06-27T09:40:58.8313748+02:00",
-    "WedStop": "2000-12-01T09:40:58.8313748+01:00",
+    "WedStart": "expedita",
+    "WedStop": "ullam",
     "ThuEnabled": false,
-    "ThuStart": "2020-06-28T09:40:58.8313748+02:00",
-    "ThuStop": "2002-05-19T09:40:58.8313748+02:00",
-    "FriEnabled": false,
-    "FriStart": "1995-07-05T09:40:58.8313748+02:00",
-    "FriStop": "1999-08-16T09:40:58.8313748+02:00",
+    "ThuStart": "qui",
+    "ThuStop": "aut",
+    "FriEnabled": true,
+    "FriStart": "dolor",
+    "FriStop": "harum",
     "SatEnabled": true,
-    "SatStart": "2012-12-13T09:40:58.8313748+01:00",
-    "SatStop": "2001-08-22T09:40:58.8313748+02:00",
+    "SatStart": "mollitia",
+    "SatStop": "necessitatibus",
     "SunEnabled": true,
-    "SunStart": "1999-05-27T09:40:58.8313748+02:00",
-    "SunStop": "1994-03-20T09:40:58.8313748+01:00"
+    "SunStart": "eos",
+    "SunStop": "voluptatem",
+    "UseLunchHours": true,
+    "LunchStart": "est",
+    "LunchStop": "rerum"
   },
   "Widget": {
-    "AutoFaqEnabled": false,
+    "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
-    "PreFormEnabled": false,
-    "PreFormMessage": "animi",
+    "PreFormEnabled": true,
+    "PreFormMessage": "mollitia",
     "RequiredFields": "Company",
-    "PostFormEnabled": false,
-    "PostFormHeader": "facilis",
-    "PostFormMessage": "quo",
-    "PostTranscriptEnabled": true,
-    "LanguageIsoCode": "accusantium",
+    "PostFormEnabled": true,
+    "PostFormHeader": "dignissimos",
+    "PostFormMessage": "ipsa",
+    "PostTranscriptEnabled": false,
+    "LanguageIsoCode": "id",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "qui",
-    "Font": "quibusdam",
-    "ShowLogo": true,
+    "Color": "quidem",
+    "Font": "voluptatem",
+    "LogoEnabled": false,
+    "LogoBlobId": 580,
+    "LogoName": "Christiansen-Robel",
     "ShowAgentPhoto": false,
-    "WelcomeTitle": "tempora",
-    "WelcomeMessage": "assumenda",
-    "OfflineHeader": "sapiente",
-    "OfflineMessage": "explicabo",
-    "OfflineFields": "Company"
+    "WelcomeTitle": "aut",
+    "WelcomeMessage": "minima",
+    "OfflineHeader": "non",
+    "OfflineMessage": "ut",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": false
+  },
+  "BotEnabled": true,
+  "BotSettings": {
+    "BotName": "Mayert, Rodriguez and Hermann",
+    "BotRegisterScriptId": 228,
+    "BotSessionCreatedScriptId": 444,
+    "BotSessionChangedScriptId": 975,
+    "BotMessageReceivedScriptId": 474
   },
   "TableRight": {
     "Mask": "Delete",
@@ -211,7 +230,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldLength": 639
     }
   }
 }

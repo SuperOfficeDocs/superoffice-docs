@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/CreateNewEntry
+title: CreateNewEntry
 id: v1SelectionAgent_CreateNewEntry
 ---
 
-# POST Agents/Selection/CreateNewEntry
+# CreateNewEntry
 
 ```http
 POST /api/v1/Agents/Selection/CreateNewEntry
@@ -68,16 +68,16 @@ Response body: int32
 POST /api/v1/Agents/Selection/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Duplicate": {
-    "RuleName": "Wunsch Group",
-    "SoPrimaryKey": 101,
-    "EntryName": "Hauck Group",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Torp Group"
+    "RuleName": "Okuneva-Konopelski",
+    "SoPrimaryKey": 758,
+    "EntryName": "Towne, Marks and Streich",
+    "EntryIdentifier": "quia",
+    "RuleDisplayName": "Abbott-Yost"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-659
+594
 ```

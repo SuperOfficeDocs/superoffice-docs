@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "McDermott LLC",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "UdListDefinitionId": 478,
-  "Rank": 693
+  "Id": 391,
+  "Name": "Cronin-Reilly",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "UdListDefinitionId": 692,
+  "Rank": 596
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Steuber LLC",
-  "Tooltip": "est",
+  "Id": 199,
+  "Name": "Labadie, Feil and Altenwerth",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 250,
-  "Rank": 50,
+  "UdListDefinitionId": 869,
+  "Rank": 728,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 493
     }
   }
 }

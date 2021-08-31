@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Emmerich, Welch and Lowe",
-    "ToolTip": "Accusamus quisquam veniam qui ullam est mollitia.",
-    "Deleted": true,
-    "Rank": 136,
-    "Type": "cumque",
-    "ColorBlock": 693,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2008-10-05T09:41:00.6233871+02:00",
+    "Id": 660,
+    "Name": "Heller, Lowe and Bruen",
+    "ToolTip": "Vero ut explicabo recusandae sint perspiciatis unde.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "voluptatibus",
+    "ColorBlock": 190,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2008-10-25T15:05:43.6822214+02:00",
     "ChildItems": [
       {
-        "Id": 512,
-        "Name": "Schaden-Klein",
-        "ToolTip": "Qui vitae soluta alias asperiores odit.",
-        "Deleted": true,
-        "Rank": 10,
-        "Type": "omnis",
-        "ColorBlock": 116,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1998-04-06T09:41:00.6243883+02:00",
+        "Id": 241,
+        "Name": "Bruen, Armstrong and Ferry",
+        "ToolTip": "Exercitationem temporibus nemo eos voluptas consequatur suscipit.",
+        "Deleted": false,
+        "Rank": 806,
+        "Type": "nobis",
+        "ColorBlock": 968,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2010-11-19T15:05:43.6822214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Elda Flatley",
+        "ExtraInfo": "atque",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Noe Tremblay",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,18 +129,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 694
+            "FieldLength": 191
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mr. Haven Nikolaus",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Trenton Gutkowski",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "envisioneer real-time e-services"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

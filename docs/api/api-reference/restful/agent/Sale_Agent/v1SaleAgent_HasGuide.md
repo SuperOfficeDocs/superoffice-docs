@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/HasGuide
+title: HasGuide
 id: v1SaleAgent_HasGuide
 ---
 
-# POST Agents/Sale/HasGuide
+# HasGuide
 
 ```http
 POST /api/v1/Agents/Sale/HasGuide
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 987
+  "SaleId": 141
 }
 ```
 

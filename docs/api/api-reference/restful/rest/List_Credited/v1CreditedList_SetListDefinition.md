@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Nader, Rolfson and Heaney",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 541,
+  "Id": 963,
+  "Name": "Kuhn, Okuneva and Haley",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 799,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": false
+  "ListType": "a",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "Hane, Tillman and Reichel",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 335,
+  "Id": 1000,
+  "Name": "Lang Group",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 218,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 948
     }
   }
 }

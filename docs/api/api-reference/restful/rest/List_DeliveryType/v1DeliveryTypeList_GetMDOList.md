@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=velit
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=consequatur
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Brakus, Larkin and Von",
-    "ToolTip": "Repudiandae temporibus adipisci et eaque.",
-    "Deleted": false,
-    "Rank": 62,
-    "Type": "alias",
+    "Id": 191,
+    "Name": "Mills Inc and Sons",
+    "ToolTip": "Aut veritatis sequi quis neque dolores.",
+    "Deleted": true,
+    "Rank": 310,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Durgan-Swaniawski",
-        "ToolTip": "Sint laboriosam optio quae voluptatem dolor.",
-        "Deleted": true,
-        "Rank": 722,
-        "Type": "nemo",
+        "Id": 772,
+        "Name": "Mante Group",
+        "ToolTip": "Repellat dolor nesciunt aspernatur sit.",
+        "Deleted": false,
+        "Rank": 747,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 319,
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "FullName": "Solon Murphy DDS",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 181,
+        "ExtraInfo": "illo",
+        "StyleHint": "eos",
+        "FullName": "Reta Cronin II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 694
+            "FieldType": "System.Int32",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 714,
-    "ExtraInfo": "ea",
-    "StyleHint": "ratione",
-    "FullName": "Ashly Bruen DVM",
+    "IconHint": "placeat",
+    "ColorBlock": 620,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "sint",
+    "FullName": "Timmy Feest",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 266
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/UpdateNetServicesStatus
+title: UpdateNetServicesStatus
 id: v1PreferenceAgent_UpdateNetServicesStatus
 ---
 
-# POST Agents/Preference/UpdateNetServicesStatus
+# UpdateNetServicesStatus
 
 ```http
 POST /api/v1/Agents/Preference/UpdateNetServicesStatus

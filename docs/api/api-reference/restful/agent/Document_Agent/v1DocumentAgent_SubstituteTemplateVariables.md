@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SubstituteTemplateVariables
+title: SubstituteTemplateVariables
 id: v1DocumentAgent_SubstituteTemplateVariables
 ---
 
-# POST Agents/Document/SubstituteTemplateVariables
+# SubstituteTemplateVariables
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
@@ -81,16 +81,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "cumque",
+  "Source": "at",
   "GeneratorEncoding": "Html",
-  "ContactId": 753,
-  "PersonId": 270,
-  "AppointmentId": 817,
-  "DocumentId": 911,
-  "SaleId": 510,
-  "SelectionId": 223,
-  "ProjectId": 292,
-  "CultureName": "en"
+  "ContactId": 160,
+  "PersonId": 525,
+  "AppointmentId": 537,
+  "DocumentId": 233,
+  "SaleId": 245,
+  "SelectionId": 295,
+  "ProjectId": 327,
+  "CultureName": "sv"
 }
 ```
 
@@ -98,5 +98,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"officiis"
 ```

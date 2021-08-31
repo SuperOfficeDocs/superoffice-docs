@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetDataWithSelection
+title: GetDataWithSelection
 id: v1DashboardAgent_GetDataWithSelection
 ---
 
-# POST Agents/Dashboard/GetDataWithSelection
+# GetDataWithSelection
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
@@ -74,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 691,
-  "SelectionId": 938,
-  "Restrictions": "placeat"
+  "DashboardTileId": 475,
+  "SelectionId": 6,
+  "Restrictions": "accusantium"
 }
 ```
 
@@ -92,23 +92,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Rath Group",
-        "DisplayTooltip": "unde",
-        "DisplayType": "architecto",
-        "CanOrderBy": true,
-        "Name": "Nader, Muller and Block",
-        "CanRestrictBy": false,
-        "RestrictionType": "dolorum",
-        "RestrictionListName": "Jacobi LLC",
-        "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "quas",
-        "IconHint": "est",
-        "HeadingIconHint": "et"
+        "DisplayName": "Bergstrom Inc and Sons",
+        "DisplayTooltip": "dolorem",
+        "DisplayType": "blanditiis",
+        "CanOrderBy": false,
+        "Name": "Buckridge LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "minus",
+        "RestrictionListName": "Huel-Greenholt",
+        "IsVisible": true,
+        "ExtraInfo": "eos",
+        "Width": "vel",
+        "IconHint": "ipsa",
+        "HeadingIconHint": "dolorem"
       }
     ],
     "Result": {
-      "RowCount": 30,
+      "RowCount": 374,
       "Rows": [
         {},
         {}
@@ -118,10 +118,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "aggregate seamless architectures"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }
@@ -129,23 +129,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Rath Group",
-        "DisplayTooltip": "unde",
-        "DisplayType": "architecto",
-        "CanOrderBy": true,
-        "Name": "Nader, Muller and Block",
-        "CanRestrictBy": false,
-        "RestrictionType": "dolorum",
-        "RestrictionListName": "Jacobi LLC",
-        "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "quas",
-        "IconHint": "est",
-        "HeadingIconHint": "et"
+        "DisplayName": "Bergstrom Inc and Sons",
+        "DisplayTooltip": "dolorem",
+        "DisplayType": "blanditiis",
+        "CanOrderBy": false,
+        "Name": "Buckridge LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "minus",
+        "RestrictionListName": "Huel-Greenholt",
+        "IsVisible": true,
+        "ExtraInfo": "eos",
+        "Width": "vel",
+        "IconHint": "ipsa",
+        "HeadingIconHint": "dolorem"
       }
     ],
     "Result": {
-      "RowCount": 30,
+      "RowCount": 374,
       "Rows": [
         {},
         {}
@@ -155,10 +155,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "aggregate seamless architectures"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }

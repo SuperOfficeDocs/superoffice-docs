@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetHistoriesByName
+title: GetHistoriesByName
 id: v1ViewStateAgent_GetHistoriesByName
 ---
 
-# POST Agents/ViewState/GetHistoriesByName
+# GetHistoriesByName
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByName
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Morissette-Parisian"
+  "HistoryName": "Ankunding Inc and Sons"
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 2,
-    "Id": 361,
-    "HistoryName": "Cummings-Mertz",
-    "HistoryId": 415,
-    "AssociateId": 979,
-    "Name": "Homenick-Barrows",
-    "ItemInfo": "laboriosam",
+    "Rank": 429,
+    "Id": 802,
+    "HistoryName": "Johnston-Tillman",
+    "HistoryId": 84,
+    "AssociateId": 921,
+    "Name": "Lesch, Veum and Jacobs",
+    "ItemInfo": "excepturi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,10 +108,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "drive wireless niches"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

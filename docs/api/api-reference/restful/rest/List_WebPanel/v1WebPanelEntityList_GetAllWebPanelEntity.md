@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,29 +82,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 595,
-    "Name": "O'Hara, Schumm and Bahringer",
-    "Tooltip": "perspiciatis",
-    "Deleted": false,
-    "Rank": 855,
+    "WebPanelId": 810,
+    "Name": "Barrows LLC",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 930,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": false,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Maggio-Ziemann",
+    "WindowName": "Cole-Balistreri",
     "Url": "http://www.example.com/",
-    "ProgId": "modi",
-    "Icon": 351,
+    "ProgId": "cumque",
+    "Icon": 939,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate back-end e-markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 104
       }
     }
   }

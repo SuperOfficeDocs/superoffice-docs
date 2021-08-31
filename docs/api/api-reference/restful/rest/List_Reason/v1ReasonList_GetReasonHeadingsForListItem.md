@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -92,35 +92,35 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 590,
-    "Name": "Runolfsson, Keeling and Hayes",
-    "ToolTip": "Autem distinctio et.",
+    "Name": "Jerde-Hessel",
+    "ToolTip": "Ut perspiciatis possimus eius ipsam est.",
     "Deleted": true,
-    "Rank": 615,
-    "Type": "officia",
-    "ColorBlock": 689,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "2013-11-04T09:41:00.6883869+01:00",
+    "Rank": 839,
+    "Type": "sunt",
+    "ColorBlock": 992,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "1996-08-15T15:05:43.7501253+02:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "Friesen, Hudson and Leffler",
-        "ToolTip": "Debitis et ea.",
-        "Deleted": false,
-        "Rank": 524,
-        "Type": "non",
-        "ColorBlock": 192,
-        "IconHint": "vel",
+        "Id": 850,
+        "Name": "Kunze-Kris",
+        "ToolTip": "Sint alias rem perspiciatis et.",
+        "Deleted": true,
+        "Rank": 51,
+        "Type": "harum",
+        "ColorBlock": 419,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2009-09-04T09:41:00.6883869+02:00",
+        "LastChanged": "1998-09-13T15:05:43.7501253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Mrs. Jabari Bernhard",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "quidem",
+        "Hidden": true,
+        "FullName": "Lilly Littel V",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 886
+            "FieldType": "System.String",
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Mr. Eldred Leannon",
+    "ExtraInfo": "nisi",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Noah Spencer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 562
       }
     }
   }

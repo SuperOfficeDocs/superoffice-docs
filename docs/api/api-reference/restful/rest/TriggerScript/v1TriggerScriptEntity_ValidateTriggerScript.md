@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/TriggerScript/{triggerScriptId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "nostrum",
+  "ErrorMessage": "est",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "cultivate one-to-one solutions"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark B2B e-business"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

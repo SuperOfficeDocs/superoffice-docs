@@ -76,20 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Strosin-O'Conner",
-    "Description": "Multi-tiered 4th generation alliance",
-    "Rank": 307,
+    "Name": "Stehr-Bruen",
+    "Description": "Streamlined even-keeled utilisation",
+    "Rank": 820,
     "Restrictions": [
       {
-        "Name": "Cole, Gutmann and Zulauf",
-        "Operator": "aliquam",
+        "Name": "Lindgren, Hills and Mante",
+        "Operator": "rem",
         "Values": [
-          "aut",
-          "ea"
+          "eligendi",
+          "eligendi"
         ],
         "DisplayValues": [
           "est",
-          "reprehenderit"
+          "minima"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -97,27 +97,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 187,
+        "InterParenthesis": 350,
         "InterOperator": "And",
-        "UniqueHash": 497
+        "UniqueHash": 468
       }
     ]
   },
   {
-    "Name": "Strosin-O'Conner",
-    "Description": "Multi-tiered 4th generation alliance",
-    "Rank": 307,
+    "Name": "Stehr-Bruen",
+    "Description": "Streamlined even-keeled utilisation",
+    "Rank": 820,
     "Restrictions": [
       {
-        "Name": "Cole, Gutmann and Zulauf",
-        "Operator": "aliquam",
+        "Name": "Lindgren, Hills and Mante",
+        "Operator": "rem",
         "Values": [
-          "aut",
-          "ea"
+          "eligendi",
+          "eligendi"
         ],
         "DisplayValues": [
           "est",
-          "reprehenderit"
+          "minima"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -125,9 +125,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 187,
+        "InterParenthesis": 350,
         "InterOperator": "And",
-        "UniqueHash": 497
+        "UniqueHash": 468
       }
     ]
   }
@@ -140,20 +140,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dare Group",
-    "Description": "User-centric secondary core",
-    "Rank": 687,
+    "Name": "Bailey LLC",
+    "Description": "Fully-configurable system-worthy utilisation",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Zboncak, Nolan and Treutel",
-        "Operator": "in",
+        "Name": "Hills LLC",
+        "Operator": "quasi",
         "Values": [
-          "aut",
-          "libero"
+          "doloribus",
+          "similique"
         ],
         "DisplayValues": [
-          "eos",
-          "est"
+          "eaque",
+          "totam"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -161,27 +161,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 575,
         "InterOperator": "And",
-        "UniqueHash": 915
+        "UniqueHash": 223
       }
     ]
   },
   {
-    "Name": "Dare Group",
-    "Description": "User-centric secondary core",
-    "Rank": 687,
+    "Name": "Bailey LLC",
+    "Description": "Fully-configurable system-worthy utilisation",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Zboncak, Nolan and Treutel",
-        "Operator": "in",
+        "Name": "Hills LLC",
+        "Operator": "quasi",
         "Values": [
-          "aut",
-          "libero"
+          "doloribus",
+          "similique"
         ],
         "DisplayValues": [
-          "eos",
-          "est"
+          "eaque",
+          "totam"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -189,9 +189,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 575,
         "InterOperator": "And",
-        "UniqueHash": 915
+        "UniqueHash": 223
       }
     ]
   }

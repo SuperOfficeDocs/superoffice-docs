@@ -121,24 +121,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 256,
-  "Section": "dolores",
-  "Key": "voluptatem",
-  "Name": "Stoltenberg Inc and Sons",
+  "PrefDescId": 996,
+  "Section": "esse",
+  "Key": "sapiente",
+  "Name": "Mayert, Pfeffer and Runolfsdottir",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected demand-driven artificial intelligence",
+  "Description": "Optimized systemic paradigm",
   "IsBuiltin": false,
-  "TableName": "Koch Inc and Sons",
-  "UserDefinedListId": 351,
-  "Rank": 16,
-  "SubGroup": "non",
-  "MinLevel": 604,
-  "MaxValue": 566,
-  "MinValue": 251,
-  "RequiredLicense": "maxime"
+  "TableName": "Mosciski Inc and Sons",
+  "UserDefinedListId": 183,
+  "Rank": 395,
+  "SubGroup": "ex",
+  "MinLevel": 813,
+  "MaxValue": 628,
+  "MinValue": 991,
+  "RequiredLicense": "voluptatem"
 }
 ```
 
@@ -147,24 +147,24 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 458,
-  "Section": "voluptatem",
-  "Key": "id",
-  "Name": "Larson-Schmidt",
+  "PrefDescId": 562,
+  "Section": "distinctio",
+  "Key": "occaecati",
+  "Name": "Ernser, Sipes and Schultz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optional dedicated benchmark",
+  "Description": "Multi-channelled system-worthy infrastructure",
   "IsBuiltin": false,
-  "TableName": "Ortiz, Nolan and Zemlak",
-  "UserDefinedListId": 751,
-  "Rank": 94,
-  "SubGroup": "quae",
-  "MinLevel": 399,
-  "MaxValue": 224,
-  "MinValue": 280,
-  "RequiredLicense": "et",
+  "TableName": "Botsford-Doyle",
+  "UserDefinedListId": 485,
+  "Rank": 206,
+  "SubGroup": "eveniet",
+  "MinLevel": 464,
+  "MaxValue": 312,
+  "MinValue": 443,
+  "RequiredLicense": "rerum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -176,12 +176,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 473
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

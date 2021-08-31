@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,15 +68,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Mann, Ebert and Legros",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 431,
-    "UdListDefinitionId": 118,
+    "HeadingId": 12,
+    "Name": "Tromp LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 905,
+    "UdListDefinitionId": 131,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "implement turn-key synergies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 692
       }
     }
   }

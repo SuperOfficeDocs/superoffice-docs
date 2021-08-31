@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Corkery LLC",
-  "Tooltip": "in",
+  "Id": 758,
+  "Name": "Rosenbaum-Eichmann",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 76,
-  "IsCustomList": false,
+  "Rank": 804,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "UseGroupsAndHeadings": true,
+  "ListType": "esse",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Little-Sawayn",
-  "Tooltip": "dolore",
+  "Id": 101,
+  "Name": "O'Connell, Steuber and Welch",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 167,
+  "Rank": 134,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "syndicate dynamic technologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

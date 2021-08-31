@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/SavePreferenceDescription
+title: SavePreferenceDescription
 id: v1PreferenceAgent_SavePreferenceDescription
 ---
 
-# POST Agents/Preference/SavePreferenceDescription
+# SavePreferenceDescription
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescription
@@ -102,28 +102,28 @@ Response body: object
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 250,
-  "Section": "voluptas",
-  "Key": "sit",
-  "Name": "Flatley, Toy and Bode",
+  "PrefDescId": 883,
+  "Section": "iste",
+  "Key": "cumque",
+  "Name": "Strosin-Towne",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide explicit model",
-  "IsBuiltin": false,
-  "TableName": "Kub Group",
-  "UserDefinedListId": 788,
-  "Rank": 979,
-  "SubGroup": "commodi",
-  "MinLevel": 661,
-  "MaxValue": 589,
-  "MinValue": 141,
-  "RequiredLicense": "placeat"
+  "Description": "Enterprise-wide well-modulated internet solution",
+  "IsBuiltin": true,
+  "TableName": "DuBuque Inc and Sons",
+  "UserDefinedListId": 679,
+  "Rank": 108,
+  "SubGroup": "et",
+  "MinLevel": 716,
+  "MaxValue": 559,
+  "MinValue": 198,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -132,24 +132,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 290,
-  "Section": "minima",
-  "Key": "repellat",
-  "Name": "Weimann-Kessler",
+  "PrefDescId": 39,
+  "Section": "magni",
+  "Key": "veritatis",
+  "Name": "Fritsch-Rolfson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone intermediate moderator",
+  "Description": "Focused bottom-line complexity",
   "IsBuiltin": false,
-  "TableName": "Schoen, Considine and Collier",
-  "UserDefinedListId": 616,
-  "Rank": 674,
-  "SubGroup": "in",
-  "MinLevel": 538,
-  "MaxValue": 525,
-  "MinValue": 224,
-  "RequiredLicense": "sed",
+  "TableName": "Roberts Group",
+  "UserDefinedListId": 844,
+  "Rank": 457,
+  "SubGroup": "porro",
+  "MinLevel": 758,
+  "MaxValue": 119,
+  "MinValue": 295,
+  "RequiredLicense": "ducimus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldLength": 925
     }
   }
 }

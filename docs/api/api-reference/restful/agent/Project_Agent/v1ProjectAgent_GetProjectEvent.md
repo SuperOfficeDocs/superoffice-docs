@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectEvent
+title: GetProjectEvent
 id: v1ProjectAgent_GetProjectEvent
 ---
 
-# POST Agents/Project/GetProjectEvent
+# GetProjectEvent
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEvent
@@ -25,7 +25,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=177
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=686
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -100,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Lavinia Pouros Sr.",
-  "Description": "Profound exuding initiative",
-  "ProjectId": 299,
-  "EventName": "Spinka LLC",
-  "AssociateId": 828,
+  "AssociateFullName": "Ms. Newell Johns",
+  "Description": "Programmable systemic secured line",
+  "ProjectId": 263,
+  "EventName": "Mosciski LLC",
+  "AssociateId": 230,
   "IsSignedOn": true,
-  "SignOffConfirmationText": "assumenda",
-  "SignOffText": "aut",
-  "SignOnConfirmationText": "illum",
-  "SignOnText": "expedita",
-  "EventDate": "2010-07-18T16:48:30.3579385+02:00",
+  "SignOffConfirmationText": "et",
+  "SignOffText": "vero",
+  "SignOnConfirmationText": "quam",
+  "SignOnText": "et",
+  "EventDate": "2005-06-14T14:58:04.9194707+02:00",
   "Enabled": true,
   "SignOff": true,
-  "SignOffTaskEnable": true,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": true,
-  "SignOn": true,
-  "SignOffTaskId": 611,
-  "SignOnTaskId": 938,
-  "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 557,
-  "SignOffPersonId": 406,
+  "SignOn": false,
+  "SignOffTaskId": 679,
+  "SignOnTaskId": 549,
+  "SignOffTriggersAssign": false,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 925,
+  "SignOffPersonId": 533,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reintermediate scalable schemas"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

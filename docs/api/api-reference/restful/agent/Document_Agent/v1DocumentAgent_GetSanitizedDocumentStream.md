@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetSanitizedDocumentStream
+title: GetSanitizedDocumentStream
 id: v1DocumentAgent_GetSanitizedDocumentStream
 ---
 
-# POST Agents/Document/GetSanitizedDocumentStream
+# GetSanitizedDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetSanitizedDocumentStream
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Document/GetSanitizedDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 470
+  "DocumentId": 697
 }
 ```
 

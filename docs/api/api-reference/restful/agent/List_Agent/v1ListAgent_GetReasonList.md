@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetReasonList
+title: GetReasonList
 id: v1ListAgent_GetReasonList
 ---
 
-# POST Agents/List/GetReasonList
+# GetReasonList
 
 ```http
 POST /api/v1/Agents/List/GetReasonList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Value": "omnis",
-    "Tooltip": "est",
+    "Id": 564,
+    "Value": "quo",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "target virtual e-markets"
         },
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 955
       }
     }
   },
   {
-    "Id": 110,
-    "Value": "omnis",
-    "Tooltip": "est",
+    "Id": 564,
+    "Value": "quo",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,10 +111,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "target virtual e-markets"
         },
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 955
       }
     }
   }

@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Smith LLC",
-  "Tooltip": "sint",
+  "Id": 252,
+  "Name": "Hand-Dickens",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 480,
+  "Rank": 124,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 5
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

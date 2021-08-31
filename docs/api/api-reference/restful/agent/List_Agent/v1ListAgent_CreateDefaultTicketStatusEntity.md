@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultTicketStatusEntity
+title: CreateDefaultTicketStatusEntity
 id: v1ListAgent_CreateDefaultTicketStatusEntity
 ---
 
-# POST Agents/List/CreateDefaultTicketStatusEntity
+# CreateDefaultTicketStatusEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
@@ -63,7 +63,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -71,8 +71,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 524,
-  "Name": "Langworth-Bechtelar",
+  "TicketStatusId": 424,
+  "Name": "Bergnaum, Torphy and Kerluke",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

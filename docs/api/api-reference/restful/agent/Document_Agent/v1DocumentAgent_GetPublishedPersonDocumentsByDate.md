@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPublishedPersonDocumentsByDate
+title: GetPublishedPersonDocumentsByDate
 id: v1DocumentAgent_GetPublishedPersonDocumentsByDate
 ---
 
-# POST Agents/Document/GetPublishedPersonDocumentsByDate
+# GetPublishedPersonDocumentsByDate
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 775,
+  "PersonId": 15,
   "IncludeProjectDocuments": true,
-  "StartTime": "2005-03-26T16:48:29.3268941+01:00",
-  "EndTime": "1997-09-18T16:48:29.3268941+02:00",
-  "Count": 612
+  "StartTime": "2012-02-07T14:58:03.8134648+01:00",
+  "EndTime": "2015-06-07T14:58:03.8134648+02:00",
+  "Count": 960
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 108,
-    "Attention": "officia",
-    "Header": "suscipit",
-    "Name": "Murazik, Effertz and Raynor",
-    "OurRef": "ea",
-    "YourRef": "laborum",
-    "Description": "Right-sized local forecast",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 488,
-    "PersonFullName": "Althea Bosco II",
-    "AssociateFullName": "Stefanie Schumm",
-    "ContactId": 812,
-    "ContactName": "Moen, Rogahn and Schumm",
-    "ProjectId": 3,
-    "ProjectName": "Collins-Johnson",
-    "AssociateId": 799,
-    "Snum": 66,
+    "DocumentId": 755,
+    "Attention": "incidunt",
+    "Header": "quis",
+    "Name": "Hickle-White",
+    "OurRef": "ut",
+    "YourRef": "quia",
+    "Description": "Assimilated non-volatile hub",
+    "DocumentTemplate": "nisi",
+    "IsPublished": true,
+    "PersonId": 943,
+    "PersonFullName": "Jake Hegmann",
+    "AssociateFullName": "Jasen Bogisich",
+    "ContactId": 106,
+    "ContactName": "Bernhard Inc and Sons",
+    "ProjectId": 390,
+    "ProjectName": "Bergnaum, Price and Goyette",
+    "AssociateId": 99,
+    "Snum": 28,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

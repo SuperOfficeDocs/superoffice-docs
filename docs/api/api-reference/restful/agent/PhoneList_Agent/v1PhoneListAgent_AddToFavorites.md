@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/AddToFavorites
+title: AddToFavorites
 id: v1PhoneListAgent_AddToFavorites
 ---
 
-# POST Agents/PhoneList/AddToFavorites
+# AddToFavorites
 
 ```http
 POST /api/v1/Agents/PhoneList/AddToFavorites
@@ -68,11 +68,11 @@ Response body: int32
 POST /api/v1/Agents/PhoneList/AddToFavorites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 923
+  "ContactId": 743
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-837
+803
 ```

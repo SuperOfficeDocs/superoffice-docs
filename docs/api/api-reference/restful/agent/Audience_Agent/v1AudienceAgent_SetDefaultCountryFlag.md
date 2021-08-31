@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/SetDefaultCountryFlag
+title: SetDefaultCountryFlag
 id: v1AudienceAgent_SetDefaultCountryFlag
 ---
 
-# POST Agents/Audience/SetDefaultCountryFlag
+# SetDefaultCountryFlag
 
 ```http
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag

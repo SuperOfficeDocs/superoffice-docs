@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetLicenseFromFile
+title: GetLicenseFromFile
 id: v1LicenseAgent_GetLicenseFromFile
 ---
 
-# POST Agents/License/GetLicenseFromFile
+# GetLicenseFromFile
 
 ```http
 POST /api/v1/Agents/License/GetLicenseFromFile
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "et"
+  "FileContent": "ut"
 }
 ```
 
@@ -92,65 +92,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": false,
   "New": {
-    "CompanyName": "Corwin-Gutmann",
+    "CompanyName": "Morissette-McCullough",
     "SerialNr": "1010000006",
-    "OwnerName": "King LLC",
-    "OwnerDescription": "Multi-tiered 24 hour alliance",
-    "NextCheckDate": "1999-07-19T16:48:29.7369242+02:00",
-    "MaintenanceDate": "1997-09-22T16:48:29.7369242+02:00",
-    "AdminWarningDate": "2002-03-17T16:48:29.7369242+01:00",
-    "ExpiryDate": "2015-08-15T16:48:29.7369242+02:00",
-    "GraceDate": "2019-01-24T16:48:29.7369242+01:00",
-    "ExtraFlags": 49,
-    "ExtraInfo": "ea",
+    "OwnerName": "Volkman, Predovic and Stracke",
+    "OwnerDescription": "Future-proofed optimizing benchmark",
+    "NextCheckDate": "2013-06-03T14:58:04.3304599+02:00",
+    "MaintenanceDate": "1996-09-21T14:58:04.3304599+02:00",
+    "AdminWarningDate": "2015-10-28T14:58:04.3304599+01:00",
+    "ExpiryDate": "2003-04-12T14:58:04.3304599+02:00",
+    "GraceDate": "2007-12-13T14:58:04.3304599+01:00",
+    "ExtraFlags": 147,
+    "ExtraInfo": "deserunt",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "eaque",
-    "DeploymentType": 858,
-    "ProductType": "in",
-    "ProductDescription": "Visionary disintermediate parallelism",
+    "LicenseVersion": "ratione",
+    "DeploymentType": 325,
+    "ProductType": "et",
+    "ProductDescription": "Customer-focused attitude-oriented open system",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "qui"
+    "Signature": "est"
   },
   "Current": {
-    "CompanyName": "Reichert Inc and Sons",
+    "CompanyName": "Rath, Glover and Nienow",
     "SerialNr": "1010000006",
-    "OwnerName": "Funk LLC",
-    "OwnerDescription": "Networked bottom-line pricing structure",
-    "NextCheckDate": "1994-12-10T16:48:29.7369242+01:00",
-    "MaintenanceDate": "2009-04-11T16:48:29.7369242+02:00",
-    "AdminWarningDate": "2019-03-01T16:48:29.7369242+01:00",
-    "ExpiryDate": "2007-07-10T16:48:29.7369242+02:00",
-    "GraceDate": "2010-03-23T16:48:29.7369242+01:00",
-    "ExtraFlags": 398,
-    "ExtraInfo": "est",
+    "OwnerName": "Zemlak, Crona and Armstrong",
+    "OwnerDescription": "User-centric stable concept",
+    "NextCheckDate": "2007-10-28T14:58:04.3314622+01:00",
+    "MaintenanceDate": "2017-02-20T14:58:04.3314622+01:00",
+    "AdminWarningDate": "2017-03-15T14:58:04.3314622+01:00",
+    "ExpiryDate": "2016-06-17T14:58:04.3314622+02:00",
+    "GraceDate": "2006-01-22T14:58:04.3314622+01:00",
+    "ExtraFlags": 84,
+    "ExtraInfo": "pariatur",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "fugit",
-    "DeploymentType": 579,
-    "ProductType": "ut",
-    "ProductDescription": "User-centric uniform initiative",
+    "LicenseVersion": "voluptate",
+    "DeploymentType": 681,
+    "ProductType": "minima",
+    "ProductDescription": "Persevering bifurcated knowledge user",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "maxime"
+    "Signature": "illum"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 170,
-      "NumberOfLicensesFree": 170,
-      "NumberOfLicensesAdded": 166,
-      "NumberOfLicensesNewTotal": 999,
-      "NumberOfLicensesNewFree": 389,
-      "NumberOfLicensesTotal": 880
+      "NumberOfLicensesInUse": 455,
+      "NumberOfLicensesFree": 863,
+      "NumberOfLicensesAdded": 219,
+      "NumberOfLicensesNewTotal": 880,
+      "NumberOfLicensesNewFree": 175,
+      "NumberOfLicensesTotal": 361
     }
   ],
-  "AccumulatedNextCheckDate": "2019-08-13T16:48:29.7369242+02:00"
+  "AccumulatedNextCheckDate": "2020-08-09T14:58:04.3314622+02:00"
 }
 ```

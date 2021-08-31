@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/MoveListItem
+title: MoveListItem
 id: v1ListAgent_MoveListItem
 ---
 
-# POST Agents/List/MoveListItem
+# MoveListItem
 
 ```http
 POST /api/v1/Agents/List/MoveListItem

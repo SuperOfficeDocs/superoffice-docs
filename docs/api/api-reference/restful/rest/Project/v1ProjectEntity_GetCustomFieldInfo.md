@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Connelly-Schaefer",
-  "DisplayName": "Adams-Jacobi",
-  "Description": "Universal real-time toolset",
-  "ShortLabel": "facilis",
-  "HideLabel": true,
-  "HideField": true,
+  "FieldName": "Swift Inc and Sons",
+  "DisplayName": "Nienow-Kozey",
+  "Description": "Cross-group zero administration application",
+  "ShortLabel": "qui",
+  "HideLabel": false,
+  "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 623,
-  "TemplateVariableName": "Grant, Murray and Dibbert"
+  "IsMandatory": false,
+  "IsReadOnly": false,
+  "IsExternal": true,
+  "Rank": 864,
+  "TemplateVariableName": "Stoltenberg Group"
 }
 ```

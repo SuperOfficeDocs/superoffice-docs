@@ -26,7 +26,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=eos
+GET /api/v1/List/Country/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Hoppe-Keebler",
-    "ToolTip": "At laudantium aspernatur dolorem ut ipsa.",
+    "Id": 332,
+    "Name": "Bauch-Schaden",
+    "ToolTip": "Dignissimos ullam.",
     "Deleted": true,
-    "Rank": 380,
-    "Type": "laboriosam",
+    "Rank": 365,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Connelly, Stroman and Klein",
-        "ToolTip": "Officiis quia qui.",
-        "Deleted": false,
-        "Rank": 752,
-        "Type": "dolor",
+        "Id": 679,
+        "Name": "Nienow Inc and Sons",
+        "ToolTip": "Suscipit quia dolorum.",
+        "Deleted": true,
+        "Rank": 877,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 372,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "magni",
-        "FullName": "Enrique Connelly",
+        "IconHint": "molestiae",
+        "ColorBlock": 544,
+        "ExtraInfo": "nisi",
+        "StyleHint": "tenetur",
+        "FullName": "Colin Rippin DVM",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "repurpose global content"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 422
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 408,
-    "ExtraInfo": "facilis",
-    "StyleHint": "provident",
-    "FullName": "August Streich",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 369,
+    "ExtraInfo": "libero",
+    "StyleHint": "et",
+    "FullName": "Rachael Cummerata",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldLength": 132
       }
     }
   }

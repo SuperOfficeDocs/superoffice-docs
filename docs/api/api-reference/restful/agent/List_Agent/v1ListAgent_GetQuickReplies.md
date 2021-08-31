@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetQuickReplies
+title: GetQuickReplies
 id: v1ListAgent_GetQuickReplies
 ---
 
-# POST Agents/List/GetQuickReplies
+# GetQuickReplies
 
 ```http
 POST /api/v1/Agents/List/GetQuickReplies
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 908,
-    "Name": "Jacobs Group",
-    "HtmlBody": "explicabo",
+    "QuickReplyId": 413,
+    "Name": "Gutmann Inc and Sons",
+    "HtmlBody": "possimus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 494
       }
     }
   },
   {
-    "QuickReplyId": 908,
-    "Name": "Jacobs Group",
-    "HtmlBody": "explicabo",
+    "QuickReplyId": 413,
+    "Name": "Gutmann Inc and Sons",
+    "HtmlBody": "possimus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 494
       }
     }
   }

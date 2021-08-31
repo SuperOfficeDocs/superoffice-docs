@@ -1,15 +1,15 @@
 ---
-title: POST Agents/Chat/GetChatTopicUserAgentList
+title: GetChatTopicUserAgentList
 id: v1ChatAgent_GetChatTopicUserAgentList
 ---
 
-# POST Agents/Chat/GetChatTopicUserAgentList
+# GetChatTopicUserAgentList
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 ```
 
-Get list of users assigned to a topic
+Get list of users assigned to a chat topic
 
 
 
@@ -76,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 391
+  "ChatTopicId": 940
 }
 ```
 
@@ -90,20 +90,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 714,
+    "TopicId": 635,
     "User": {
-      "AssociateId": 109,
-      "Name": "Jacobson, Ziemann and Flatley",
-      "PersonId": 156,
-      "Rank": 192,
-      "Tooltip": "consequatur",
+      "AssociateId": 265,
+      "Name": "Kuhic-Hirthe",
+      "PersonId": 819,
+      "Rank": 216,
+      "Tooltip": "modi",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 607,
-      "FullName": "Avis Connelly",
-      "FormalName": "Goldner-Lowe",
+      "GroupIdx": 606,
+      "FullName": "Minerva Bahringer",
+      "FormalName": "Labadie, Sawayn and Upton",
       "Deleted": true,
-      "EjUserId": 993,
-      "UserName": "Lynch-Kohler",
+      "EjUserId": 747,
+      "UserName": "Cassin, Weber and Rowe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -112,30 +112,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldLength": 125
         }
       }
     },
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   },
   {
-    "TopicId": 714,
+    "TopicId": 635,
     "User": {
-      "AssociateId": 109,
-      "Name": "Jacobson, Ziemann and Flatley",
-      "PersonId": 156,
-      "Rank": 192,
-      "Tooltip": "consequatur",
+      "AssociateId": 265,
+      "Name": "Kuhic-Hirthe",
+      "PersonId": 819,
+      "Rank": 216,
+      "Tooltip": "modi",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 607,
-      "FullName": "Avis Connelly",
-      "FormalName": "Goldner-Lowe",
+      "GroupIdx": 606,
+      "FullName": "Minerva Bahringer",
+      "FormalName": "Labadie, Sawayn and Upton",
       "Deleted": true,
-      "EjUserId": 993,
-      "UserName": "Lynch-Kohler",
+      "EjUserId": 747,
+      "UserName": "Cassin, Weber and Rowe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -144,14 +144,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldLength": 125
         }
       }
     },
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   }
 ]
 ```

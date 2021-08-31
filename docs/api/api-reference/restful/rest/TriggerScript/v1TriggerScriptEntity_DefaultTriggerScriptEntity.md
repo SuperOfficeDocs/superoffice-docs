@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 299,
-  "Name": "West-Wolf",
+  "ScreenChooserId": 534,
+  "Name": "Erdman Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "numquam",
-  "Registered": "2013-11-03T09:40:59.9000652+01:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2010-08-14T09:40:59.9000652+02:00",
-  "UpdatedAssociateId": 657,
+  "Enabled": true,
+  "UniqueIdentifier": "provident",
+  "Source": "laboriosam",
+  "Registered": "2012-04-20T15:05:42.9546323+02:00",
+  "RegisteredAssociateId": 397,
+  "Updated": "2015-07-14T15:05:42.9546323+02:00",
+  "UpdatedAssociateId": 450,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

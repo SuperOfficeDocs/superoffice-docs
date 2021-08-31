@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateDefaultQuoteAlternative
+title: CreateDefaultQuoteAlternative
 id: v1QuoteAgent_CreateDefaultQuoteAlternative
 ---
 
-# POST Agents/Quote/CreateDefaultQuoteAlternative
+# CreateDefaultQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
@@ -81,7 +81,7 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,29 +89,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 887,
-  "ERPQuoteAlternativeKey": "totam",
-  "QuoteVersionId": 973,
-  "Name": "Witting-Spinka",
-  "Description": "Programmable 24/7 analyzer",
+  "QuoteAlternativeId": 57,
+  "ERPQuoteAlternativeKey": "et",
+  "QuoteVersionId": 861,
+  "Name": "Shanahan-Balistreri",
+  "Description": "Monitored heuristic intranet",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 26250.384,
-  "ERPDiscountAmount": 7035.83,
-  "DiscountPercent": 12526.598,
-  "DiscountAmount": 9558.6999999999989,
+  "Reason": "cultivate mission-critical supply-chains",
+  "ERPDiscountPercent": 28027.361999999997,
+  "ERPDiscountAmount": 3193.546,
+  "DiscountPercent": 3704.388,
+  "DiscountAmount": 3522.616,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "accusamus",
-  "VAT": 10223.108,
-  "EarningPercent": 22185.586,
-  "EarningAmount": 14541.76,
-  "SubTotal": 17249.536,
-  "TotalPrice": 8339.574,
-  "ExtraField1": "hic",
-  "ExtraField2": "vel",
-  "ExtraField3": "consectetur",
-  "ExtraField4": "et",
-  "ExtraField5": "temporibus",
+  "VATInfo": "quia",
+  "VAT": 20195.496,
+  "EarningPercent": 10818.568,
+  "EarningAmount": 3444.266,
+  "SubTotal": 21301.798,
+  "TotalPrice": 14980.519999999999,
+  "ExtraField1": "esse",
+  "ExtraField2": "sequi",
+  "ExtraField3": "impedit",
+  "ExtraField4": "ut",
+  "ExtraField5": "quos",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

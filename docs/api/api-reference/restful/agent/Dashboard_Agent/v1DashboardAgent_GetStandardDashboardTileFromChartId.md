@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetStandardDashboardTileFromChartId
+title: GetStandardDashboardTileFromChartId
 id: v1DashboardAgent_GetStandardDashboardTileFromChartId
 ---
 
-# POST Agents/Dashboard/GetStandardDashboardTileFromChartId
+# GetStandardDashboardTileFromChartId
 
 ```http
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "officiis"
+  "ChartId": "debitis"
 }
 ```
 
@@ -104,48 +104,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 850,
-  "Caption": "autem",
-  "Description": "Configurable systemic website",
-  "ChartName": "Mohr, Bogan and Mertz",
-  "ChartId": "ducimus",
+  "DashboardTileId": 132,
+  "Caption": "magnam",
+  "Description": "Networked transitional emulation",
+  "ChartName": "Ortiz Group",
+  "ChartId": "quaerat",
   "IsDefault": true,
-  "AssociateId": 14,
-  "GroupId": 336,
-  "SelectionId": 474,
-  "Config": "aut",
+  "AssociateId": 88,
+  "GroupId": 47,
+  "SelectionId": 589,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fritsch Group",
-      "Description": "Optional attitude-oriented task-force",
+      "Name": "Lueilwitz, Price and Dickinson",
+      "Description": "Streamlined high-level conglomeration",
       "Type": "Boolean",
-      "ListName": "Marquardt Inc and Sons",
+      "ListName": "Mann, Zieme and Stokes",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "animi",
+      "Value": "et",
       "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "architect holistic infomediaries"
           },
-          "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldType": "System.Int32",
+          "FieldLength": 2
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 775,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "aspernatur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -153,15 +153,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     {
-      "VisibleId": 775,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "aspernatur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=dolor
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=odio
 ```
 
 
@@ -80,26 +80,26 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 16 Mar 1996 09:40:59 G3T
+Last-Modified: Mon, 10 Oct 2005 15:05:42 G10T
 
 {
-  "Key": "repellendus",
-  "Value": "veniam",
-  "RecordId": 52,
-  "CreatedDate": "2017-09-09T09:40:59.2286628+02:00",
-  "UpdatedDate": "1996-03-16T09:40:59.2286628+01:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "quisquam",
-  "TableName": "Mante, Jenkins and Schultz",
+  "Key": "aliquam",
+  "Value": "non",
+  "RecordId": 578,
+  "CreatedDate": "1996-11-27T15:05:42.2496623+01:00",
+  "UpdatedDate": "2005-10-10T15:05:42.2496623+02:00",
+  "UpdatedBy": "pariatur",
+  "CreatedBy": "sint",
+  "TableName": "Jacobson LLC",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "reintermediate plug-and-play methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -107,8 +107,8 @@ Last-Modified: Sat, 16 Mar 1996 09:40:59 G3T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

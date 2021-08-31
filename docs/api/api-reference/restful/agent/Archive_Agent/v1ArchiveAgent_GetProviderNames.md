@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetProviderNames
+title: GetProviderNames
 id: v1ArchiveAgent_GetProviderNames
 ---
 
-# POST Agents/Archive/GetProviderNames
+# GetProviderNames
 
 ```http
 POST /api/v1/Agents/Archive/GetProviderNames
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolores",
-  "dignissimos"
+  "nihil",
+  "odio"
 ]
 ```

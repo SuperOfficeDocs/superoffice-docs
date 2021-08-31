@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SaveCredential
+title: SaveCredential
 id: v1UserAgent_SaveCredential
 ---
 
-# POST Agents/User/SaveCredential
+# SaveCredential
 
 ```http
 POST /api/v1/Agents/User/SaveCredential
@@ -71,15 +71,15 @@ Response body: bool
 POST /api/v1/Agents/User/SaveCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 58,
+  "UserId": 211,
   "Credential": {
     "Type": {},
-    "Value": "eos",
-    "DisplayValue": "hic"
+    "Value": "tenetur",
+    "DisplayValue": "quae"
   }
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

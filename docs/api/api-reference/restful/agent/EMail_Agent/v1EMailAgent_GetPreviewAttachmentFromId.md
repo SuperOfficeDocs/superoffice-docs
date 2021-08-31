@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetPreviewAttachmentFromId
+title: GetPreviewAttachmentFromId
 id: v1EMailAgent_GetPreviewAttachmentFromId
 ---
 
-# POST Agents/EMail/GetPreviewAttachmentFromId
+# GetPreviewAttachmentFromId
 
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
@@ -95,10 +95,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 515,
-  "AttachmentId": "repellendus",
-  "AttachmentType": "quis",
-  "AttachmentFilename": "reiciendis"
+  "MailItemId": 630,
+  "AttachmentId": "sunt",
+  "AttachmentType": "debitis",
+  "AttachmentFilename": "odit"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform client-driven synergy",
-  "Filename": "reiciendis",
-  "Size": 866,
-  "Type": "earum",
-  "Encoding": "explicabo",
-  "Id": "voluptas",
-  "Disposition": "tempore",
+  "Description": "Enterprise-wide coherent archive",
+  "Filename": "porro",
+  "Size": 684,
+  "Type": "autem",
+  "Encoding": "molestiae",
+  "Id": "deserunt",
+  "Disposition": "sit",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 288
     }
   }
 }

@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 595,
-  "Name": "Bernier, Johnston and Wolf",
+  "TicketStatusId": 535,
+  "Name": "Romaguera-Bins",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false
@@ -98,11 +98,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 354,
-  "Name": "Eichmann Group",
+  "TicketStatusId": 973,
+  "Name": "Block-Satterfield",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 978
     }
   }
 }

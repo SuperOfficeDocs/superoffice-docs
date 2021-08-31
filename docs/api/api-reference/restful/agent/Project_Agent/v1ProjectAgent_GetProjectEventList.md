@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectEventList
+title: GetProjectEventList
 id: v1ProjectAgent_GetProjectEventList
 ---
 
-# POST Agents/Project/GetProjectEventList
+# GetProjectEventList
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventList
@@ -91,7 +91,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Steve Balistreri",
-    "Description": "Re-contextualized system-worthy knowledge user",
-    "ProjectId": 739,
-    "EventName": "Lockman-Deckow",
-    "AssociateId": 521,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "autem",
-    "SignOffText": "quidem",
-    "SignOnConfirmationText": "eveniet",
-    "SignOnText": "error",
-    "EventDate": "2005-07-31T16:48:30.3669353+02:00",
+    "AssociateFullName": "Kaylin Altenwerth",
+    "Description": "Open-architected global concept",
+    "ProjectId": 669,
+    "EventName": "Littel-Leuschke",
+    "AssociateId": 157,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "quos",
+    "SignOffText": "facilis",
+    "SignOnConfirmationText": "et",
+    "SignOnText": "vel",
+    "EventDate": "2001-05-09T14:58:04.8514599+02:00",
     "Enabled": true,
-    "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 993,
-    "SignOnTaskId": 213,
-    "SignOffTriggersAssign": true,
+    "SignOff": true,
+    "SignOffTaskEnable": true,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 670,
+    "SignOnTaskId": 333,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 992,
-    "SignOffPersonId": 428,
+    "SignOnPersonId": 999,
+    "SignOffPersonId": 601,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   }

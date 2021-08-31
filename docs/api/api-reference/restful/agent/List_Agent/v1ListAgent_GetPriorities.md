@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetPriorities
+title: GetPriorities
 id: v1ListAgent_GetPriorities
 ---
 
-# POST Agents/List/GetPriorities
+# GetPriorities
 
 ```http
 POST /api/v1/Agents/List/GetPriorities
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,40 +75,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Value": "assumenda",
-    "Tooltip": "esse",
+    "Id": 184,
+    "Value": "quam",
+    "Tooltip": "optio",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "incubate transparent metrics"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "syndicate virtual experiences"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldLength": 127
       }
     }
   },
   {
-    "Id": 312,
-    "Value": "assumenda",
-    "Tooltip": "esse",
+    "Id": 184,
+    "Value": "quam",
+    "Tooltip": "optio",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "incubate transparent metrics"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "syndicate virtual experiences"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldLength": 127
       }
     }
   }

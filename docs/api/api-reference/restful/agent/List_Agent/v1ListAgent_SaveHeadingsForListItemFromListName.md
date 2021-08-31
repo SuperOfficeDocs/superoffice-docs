@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingsForListItemFromListName
+title: SaveHeadingsForListItemFromListName
 id: v1ListAgent_SaveHeadingsForListItemFromListName
 ---
 
-# POST Agents/List/SaveHeadingsForListItemFromListName
+# SaveHeadingsForListItemFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Weimann, Reinger and Doyle",
-  "ListItemId": 986,
+  "UdListDefinitionName": "Olson Group",
+  "ListItemId": 348,
   "Headings": [
     {
-      "Id": 371,
-      "Name": "Nolan, Goyette and Langworth",
-      "ToolTip": "Quos odio cumque assumenda animi accusantium.",
+      "Id": 833,
+      "Name": "Hoeger-Bayer",
+      "ToolTip": "Delectus aut saepe repellendus incidunt ullam.",
       "Deleted": true,
-      "Rank": 959,
-      "Type": "sed",
-      "ColorBlock": 648,
-      "IconHint": "delectus",
-      "Selected": true,
-      "LastChanged": "2010-11-26T16:48:29.8899401+01:00",
+      "Rank": 835,
+      "Type": "aperiam",
+      "ColorBlock": 421,
+      "IconHint": "consequuntur",
+      "Selected": false,
+      "LastChanged": "1994-10-30T14:58:04.427465+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "occaecati",
-      "StyleHint": "libero",
-      "Hidden": false,
-      "FullName": "Hattie Wiegand"
+      "ExtraInfo": "cum",
+      "StyleHint": "blanditiis",
+      "Hidden": true,
+      "FullName": "Lottie Bogan"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Schuster Group",
-    "ToolTip": "Autem repudiandae maxime.",
-    "Deleted": true,
-    "Rank": 825,
-    "Type": "consectetur",
-    "ColorBlock": 104,
-    "IconHint": "eum",
+    "Id": 339,
+    "Name": "Kris Group",
+    "ToolTip": "Est quia.",
+    "Deleted": false,
+    "Rank": 885,
+    "Type": "temporibus",
+    "ColorBlock": 283,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2001-04-06T16:48:29.8909309+02:00",
+    "LastChanged": "2013-01-02T14:58:04.4284677+01:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Reichert Group",
-        "ToolTip": "Nisi vero et nulla quia.",
+        "Id": 451,
+        "Name": "Kovacek-Cummerata",
+        "ToolTip": "Aperiam illo quisquam aperiam ullam atque et.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "quis",
-        "ColorBlock": 550,
-        "IconHint": "magnam",
+        "Rank": 975,
+        "Type": "earum",
+        "ColorBlock": 839,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2006-10-14T16:48:29.8909309+02:00",
+        "LastChanged": "2018-02-19T14:58:04.4284677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Queenie Sporer",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Flavie Hodkiewicz MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -164,15 +164,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Brianne Walsh",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Brenda Ruecker",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   }

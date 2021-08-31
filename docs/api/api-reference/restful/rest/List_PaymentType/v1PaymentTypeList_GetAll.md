@@ -24,7 +24,7 @@ Gets all the PaymentType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentType/Items?includeDeleted=True
+GET /api/v1/List/PaymentType/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Medhurst Inc and Sons",
-    "Tooltip": "fugiat",
+    "Id": 15,
+    "Name": "Tillman, Kunze and Zemlak",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "UdListDefinitionId": 395,
-    "Rank": 535,
+    "UdListDefinitionId": 820,
+    "Rank": 738,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 966
       }
     }
   }

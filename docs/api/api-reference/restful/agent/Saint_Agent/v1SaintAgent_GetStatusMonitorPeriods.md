@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/GetStatusMonitorPeriods
+title: GetStatusMonitorPeriods
 id: v1SaintAgent_GetStatusMonitorPeriods
 ---
 
-# POST Agents/Saint/GetStatusMonitorPeriods
+# GetStatusMonitorPeriods
 
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
@@ -79,9 +79,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 378,
-  "Period2": 287,
-  "Period3": 652,
+  "Period1": 771,
+  "Period2": 162,
+  "Period3": 838,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 991
     }
   }
 }

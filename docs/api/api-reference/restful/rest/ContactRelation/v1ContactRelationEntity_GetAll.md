@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=perspiciatis
-GET /api/v1/Relation?$top=325
-GET /api/v1/Relation?$skip=698
+GET /api/v1/Relation?$entities=eos
+GET /api/v1/Relation?$top=424
+GET /api/v1/Relation?$skip=473
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=maiores
+GET /api/v1/Relation?$context=enim
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
@@ -116,7 +116,7 @@ Response body: object
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "officia",
+  "odata.nextLink": "nesciunt",
   "value": [
     {
-      "PrimaryKey": 1886,
-      "EntityName": "sale",
-      "saleId": 1886,
-      "contactId": 5810,
-      "name": "Kemmer-Mosciski"
+      "PrimaryKey": 8428,
+      "EntityName": "person",
+      "personId": 8428,
+      "fullName": "Leo Schroeder"
     },
     {
-      "PrimaryKey": 6065,
-      "EntityName": "sale",
-      "saleId": 6065,
-      "contactId": 9837,
-      "name": "DuBuque-Olson"
+      "PrimaryKey": 2919,
+      "EntityName": "person",
+      "personId": 2919,
+      "fullName": "Magdalena Beier"
     }
   ]
 }

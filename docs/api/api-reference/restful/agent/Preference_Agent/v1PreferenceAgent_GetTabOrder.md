@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetTabOrder
+title: GetTabOrder
 id: v1PreferenceAgent_GetTabOrder
 ---
 
-# POST Agents/Preference/GetTabOrder
+# GetTabOrder
 
 ```http
 POST /api/v1/Agents/Preference/GetTabOrder
@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Schuppe LLC"
+  "TabName": "Reynolds-Nicolas"
 }
 ```
 
@@ -90,10 +90,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 661,
-  "TabName": "Frami-Roberts",
-  "Order": "qui",
-  "AssociateId": 923,
+  "TabOrderId": 31,
+  "TabName": "Pfeffer LLC",
+  "Order": "quis",
+  "AssociateId": 363,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldLength": 486
     }
   }
 }

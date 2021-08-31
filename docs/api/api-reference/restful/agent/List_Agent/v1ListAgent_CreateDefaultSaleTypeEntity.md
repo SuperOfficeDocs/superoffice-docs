@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultSaleTypeEntity
+title: CreateDefaultSaleTypeEntity
 id: v1ListAgent_CreateDefaultSaleTypeEntity
 ---
 
-# POST Agents/List/CreateDefaultSaleTypeEntity
+# CreateDefaultSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
@@ -84,47 +84,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 568,
-  "Name": "Waters Inc and Sons",
-  "Tooltip": "sed",
-  "Rank": 828,
+  "SaleTypeId": 266,
+  "Name": "Bahringer, Murray and Friesen",
+  "Tooltip": "veritatis",
+  "Rank": 120,
   "DurationUnit": "Century",
-  "SaleDuration": 35,
-  "SaleTypeCatId": 591,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 132,
-  "QuoteLinesTemplate": 85,
-  "ConfirmationLinesTemplate": 44,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 630,
-  "MinEarningPercent": 102,
-  "GroupQuoteLinesBy": 478,
-  "SortGroupLinesBy": 555,
+  "SaleDuration": 675,
+  "SaleTypeCatId": 16,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 883,
+  "QuoteLinesTemplate": 535,
+  "ConfirmationLinesTemplate": 96,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 213,
+  "MinEarningPercent": 755,
+  "GroupQuoteLinesBy": 1001,
+  "SortGroupLinesBy": 38,
   "Stages": [
     {
-      "Id": 23,
-      "Name": "Pfeffer, Morar and Kerluke",
-      "ToolTip": "Cupiditate iste.",
-      "Deleted": false,
-      "Rank": 271,
-      "Type": "provident",
-      "ColorBlock": 693,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "2004-05-28T16:48:29.9299233+02:00",
+      "Id": 749,
+      "Name": "Cruickshank-Haag",
+      "ToolTip": "Sint vitae non.",
+      "Deleted": true,
+      "Rank": 434,
+      "Type": "magni",
+      "ColorBlock": 77,
+      "IconHint": "autem",
+      "Selected": true,
+      "LastChanged": "1995-09-27T14:58:04.477432+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "molestias",
+      "ExtraInfo": "itaque",
+      "StyleHint": "minus",
       "Hidden": true,
-      "FullName": "Moises Weissnat",
+      "FullName": "Alysson Nikolaus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldLength": 485
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

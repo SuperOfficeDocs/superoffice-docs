@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPersonDocumentsByTemplateType
+title: GetPersonDocumentsByTemplateType
 id: v1DocumentAgent_GetPersonDocumentsByTemplateType
 ---
 
-# POST Agents/Document/GetPersonDocumentsByTemplateType
+# GetPersonDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
@@ -95,16 +95,16 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 171,
-  "IncludeProjectDocuments": false,
-  "StartTime": "1999-02-01T16:48:29.3418937+01:00",
-  "EndTime": "2015-06-13T16:48:29.3418937+02:00",
-  "Count": 433,
-  "DocumentTemplateId": 760
+  "PersonId": 310,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2008-11-26T14:58:03.8304659+01:00",
+  "EndTime": "2001-12-14T14:58:03.8304659+01:00",
+  "Count": 791,
+  "DocumentTemplateId": 466
 }
 ```
 
@@ -114,24 +114,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 667,
-    "Attention": "quod",
-    "Header": "minima",
-    "Name": "Kessler LLC",
-    "OurRef": "numquam",
-    "YourRef": "voluptatem",
-    "Description": "Assimilated bottom-line intranet",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 849,
-    "PersonFullName": "Stephanie Dach MD",
-    "AssociateFullName": "Scot Brakus",
-    "ContactId": 977,
-    "ContactName": "Upton LLC",
-    "ProjectId": 151,
-    "ProjectName": "Batz Inc and Sons",
-    "AssociateId": 937,
-    "Snum": 382,
+    "DocumentId": 865,
+    "Attention": "dolorum",
+    "Header": "voluptates",
+    "Name": "Rath Inc and Sons",
+    "OurRef": "perferendis",
+    "YourRef": "odio",
+    "Description": "Integrated 5th generation initiative",
+    "DocumentTemplate": "voluptate",
+    "IsPublished": true,
+    "PersonId": 517,
+    "PersonFullName": "Mrs. Brice Lockman",
+    "AssociateFullName": "Carmela Stroman",
+    "ContactId": 397,
+    "ContactName": "Casper Group",
+    "ProjectId": 610,
+    "ProjectName": "Bosco-Stark",
+    "AssociateId": 814,
+    "Snum": 254,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 431
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

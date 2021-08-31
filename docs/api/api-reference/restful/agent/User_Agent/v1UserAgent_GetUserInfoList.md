@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetUserInfoList
+title: GetUserInfoList
 id: v1UserAgent_GetUserInfoList
 ---
 
-# POST Agents/User/GetUserInfoList
+# GetUserInfoList
 
 ```http
 POST /api/v1/Agents/User/GetUserInfoList
@@ -86,7 +86,7 @@ Response body: array
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": true,
-    "UserInfoId": 871,
-    "UserName": "Skiles, Prohaska and Kulas",
-    "PersonId": 17,
-    "Rank": 504,
-    "Tooltip": "aut",
-    "UserGroupId": 525,
-    "EjUserId": 732,
+    "UserInfoId": 464,
+    "UserName": "Armstrong-Grant",
+    "PersonId": 19,
+    "Rank": 705,
+    "Tooltip": "enim",
+    "UserGroupId": 371,
+    "EjUserId": 711,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "aspernatur",
-      "pariatur"
+      "aut",
+      "vero"
     ],
-    "CanLogon": false,
-    "RoleName": "Hammes-Weimann",
+    "CanLogon": true,
+    "RoleName": "Donnelly, Hudson and Okuneva",
     "RoleTooltip": "et",
-    "UserGroupName": "Braun-Ullrich",
-    "UserGroupTooltip": "similique",
+    "UserGroupName": "Graham Group",
+    "UserGroupTooltip": "amet",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   }

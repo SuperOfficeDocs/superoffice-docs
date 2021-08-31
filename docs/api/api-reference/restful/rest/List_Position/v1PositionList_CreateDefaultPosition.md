@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Pouros, Langosh and Bins",
-  "Tooltip": "saepe",
-  "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 726,
+  "Id": 947,
+  "Name": "Beahan Group",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 418,
+  "Rank": 58,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

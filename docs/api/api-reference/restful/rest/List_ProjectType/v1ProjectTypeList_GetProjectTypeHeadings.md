@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 813,
-    "Name": "Bogisich Inc and Sons",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 725,
-    "UdListDefinitionId": 29,
+    "HeadingId": 797,
+    "Name": "Jerde Inc and Sons",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 162,
+    "UdListDefinitionId": 150,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 519
       }
     }
   }

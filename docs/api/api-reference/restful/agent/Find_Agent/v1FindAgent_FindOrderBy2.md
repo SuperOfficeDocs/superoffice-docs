@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindOrderBy2
+title: FindOrderBy2
 id: v1FindAgent_FindOrderBy2
 ---
 
-# POST Agents/Find/FindOrderBy2
+# FindOrderBy2
 
 ```http
 POST /api/v1/Agents/Find/FindOrderBy2
@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Bogisich, Miller and Kovacek",
-  "StorageKey": "reprehenderit",
-  "PageSize": 529,
-  "PageNumber": 207,
-  "OrderBy": "inventore"
+  "StorageType": "consequatur",
+  "ProviderName": "Herman, Lockman and Johns",
+  "StorageKey": "sequi",
+  "PageSize": 948,
+  "PageNumber": 21,
+  "OrderBy": "voluptatem"
 }
 ```
 
@@ -105,34 +105,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jewess Group",
-      "DisplayTooltip": "nihil",
-      "DisplayType": "blanditiis",
-      "CanOrderBy": false,
-      "Name": "Mayer, Douglas and Runte",
+      "DisplayName": "Jacobs, Harber and Steuber",
+      "DisplayTooltip": "aut",
+      "DisplayType": "autem",
+      "CanOrderBy": true,
+      "Name": "Braun-Bogan",
       "CanRestrictBy": true,
-      "RestrictionType": "vel",
-      "RestrictionListName": "Brekke-Breitenberg",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Runte-Mann",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "est",
-      "IconHint": "harum",
-      "HeadingIconHint": "omnis"
+      "ExtraInfo": "neque",
+      "Width": "magnam",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "voluptate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Becker-Gerhold",
-      "PrimaryKey": 475,
+      "EntityName": "Goldner, Jast and Fisher",
+      "PrimaryKey": 268,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "nulla",
-          "LinkHint": "quod"
+          "DisplayValue": "odio",
+          "TooltipHint": "suscipit",
+          "LinkHint": "fuga"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "aut",
+      "LinkHint": "in",
+      "StyleHint": "ipsa",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 147
+          "FieldType": "System.Int32",
+          "FieldLength": 107
         }
       }
     }
   ],
-  "RowCount": 230,
+  "RowCount": 381,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

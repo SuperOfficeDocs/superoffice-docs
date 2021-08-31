@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/SaveDashboard
+title: SaveDashboard
 id: v1DashboardAgent_SaveDashboard
 ---
 
-# POST Agents/Dashboard/SaveDashboard
+# SaveDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/SaveDashboard
@@ -80,22 +80,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 442,
-  "AssociateId": 725,
-  "Caption": "dolorem",
+  "DashboardId": 468,
+  "AssociateId": 463,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 658,
-      "Caption": "ut",
-      "Description": "Switchable logistical algorithm",
-      "ChartName": "Ritchie-Hammes",
-      "ChartId": "architecto",
-      "IsDefault": false,
-      "AssociateId": 587,
-      "GroupId": 500,
-      "SelectionId": 159,
-      "Config": "sit",
+      "DashboardTileId": 127,
+      "Caption": "voluptatem",
+      "Description": "Polarised stable info-mediaries",
+      "ChartName": "Towne LLC",
+      "ChartId": "perspiciatis",
+      "IsDefault": true,
+      "AssociateId": 299,
+      "GroupId": 377,
+      "SelectionId": 365,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,22 +116,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 705,
-  "AssociateId": 519,
-  "Caption": "numquam",
+  "DashboardId": 761,
+  "AssociateId": 374,
+  "Caption": "amet",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 757,
-      "Caption": "quisquam",
-      "Description": "Polarised asynchronous superstructure",
-      "ChartName": "Prohaska, Lindgren and Sauer",
-      "ChartId": "ut",
-      "IsDefault": false,
-      "AssociateId": 233,
-      "GroupId": 17,
-      "SelectionId": 203,
-      "Config": "voluptas",
+      "DashboardTileId": 915,
+      "Caption": "sit",
+      "Description": "Universal client-driven flexibility",
+      "ChartName": "Lindgren-Haley",
+      "ChartId": "blanditiis",
+      "IsDefault": true,
+      "AssociateId": 373,
+      "GroupId": 220,
+      "SelectionId": 84,
+      "Config": "deserunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 630
         }
       }
     }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldLength": 77
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetProductImage
+title: GetProductImage
 id: v1BLOBAgent_GetProductImage
 ---
 
-# POST Agents/BLOB/GetProductImage
+# GetProductImage
 
 ```http
 POST /api/v1/Agents/BLOB/GetProductImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 442
+  "ProductId": 365
 }
 ```
 

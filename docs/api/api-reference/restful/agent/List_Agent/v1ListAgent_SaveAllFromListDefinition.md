@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveAllFromListDefinition
+title: SaveAllFromListDefinition
 id: v1ListAgent_SaveAllFromListDefinition
 ---
 
-# POST Agents/List/SaveAllFromListDefinition
+# SaveAllFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveAllFromListDefinition
@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 943,
+  "UdListDefinitionId": 306,
   "Items": [
     {
-      "Id": 210,
-      "Name": "Keeling LLC",
-      "Tooltip": "alias",
-      "Deleted": false,
-      "UdListDefinitionId": 416,
-      "Rank": 658
+      "Id": 218,
+      "Name": "Block-Konopelski",
+      "Tooltip": "distinctio",
+      "Deleted": true,
+      "UdListDefinitionId": 456,
+      "Rank": 487
     },
     {
-      "Id": 210,
-      "Name": "Keeling LLC",
-      "Tooltip": "alias",
-      "Deleted": false,
-      "UdListDefinitionId": 416,
-      "Rank": 658
+      "Id": 218,
+      "Name": "Block-Konopelski",
+      "Tooltip": "distinctio",
+      "Deleted": true,
+      "UdListDefinitionId": 456,
+      "Rank": 487
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Gibson, Prosacco and Bradtke",
+    "Id": 431,
+    "Name": "Pouros-Quigley",
     "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 597,
-    "Rank": 802,
+    "UdListDefinitionId": 528,
+    "Rank": 189,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

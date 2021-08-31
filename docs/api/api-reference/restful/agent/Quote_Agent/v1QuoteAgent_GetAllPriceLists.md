@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllPriceLists
+title: GetAllPriceLists
 id: v1QuoteAgent_GetAllPriceLists
 ---
 
-# POST Agents/Quote/GetAllPriceLists
+# GetAllPriceLists
 
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceLists
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 388,
-  "Currency": "quia"
+  "QuoteConnectionId": 928,
+  "Currency": "labore"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 954,
-    "ERPPriceListKey": "voluptas",
-    "QuoteConnectionId": 947,
-    "Name": "Towne Inc and Sons",
-    "Description": "Multi-lateral local structure",
-    "Currency": "itaque",
-    "CurrencyName": "Corwin LLC",
-    "ValidFrom": "2019-04-28T16:48:30.3899355+02:00",
-    "ValidTo": "2008-01-01T16:48:30.3899355+01:00",
-    "IsActive": true,
+    "PriceListId": 6,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 141,
+    "Name": "Heller-Bergnaum",
+    "Description": "Cross-platform holistic architecture",
+    "Currency": "aut",
+    "CurrencyName": "Volkman-Heaney",
+    "ValidFrom": "2001-12-04T14:58:04.9714656+01:00",
+    "ValidTo": "2021-05-25T14:58:04.9714656+02:00",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldLength": 633
       }
     }
   }

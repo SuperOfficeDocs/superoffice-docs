@@ -63,7 +63,7 @@ Response body: object
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -71,11 +71,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 462,
-  "Name": "Padberg-Bradtke",
+  "TicketStatusId": 641,
+  "Name": "Thiel-Rohan",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

@@ -26,7 +26,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=doloremque
+GET /api/v1/List/Competitor/MDOItems?query=commodi
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Auer Inc and Sons",
-    "ToolTip": "Illo perspiciatis autem ut occaecati ut.",
+    "Id": 130,
+    "Name": "Reichel-Hyatt",
+    "ToolTip": "Ducimus quisquam quasi reprehenderit cupiditate officiis aliquam.",
     "Deleted": true,
-    "Rank": 69,
-    "Type": "rerum",
+    "Rank": 700,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Little-VonRueden",
-        "ToolTip": "Et veniam.",
-        "Deleted": false,
-        "Rank": 104,
-        "Type": "non",
+        "Id": 12,
+        "Name": "Funk, Treutel and Bergstrom",
+        "ToolTip": "Ducimus facere quo nihil odit eaque aut.",
+        "Deleted": true,
+        "Rank": 39,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 66,
-        "ExtraInfo": "sed",
-        "StyleHint": "illum",
-        "FullName": "Rosemary Dickens I",
+        "IconHint": "molestiae",
+        "ColorBlock": 577,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "adipisci",
+        "FullName": "Nathaniel Will",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,19 +117,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 34
+            "FieldLength": 941
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 58,
-    "ExtraInfo": "facere",
-    "StyleHint": "odio",
-    "FullName": "Danielle Weimann",
+    "IconHint": "est",
+    "ColorBlock": 418,
+    "ExtraInfo": "et",
+    "StyleHint": "a",
+    "FullName": "Mrs. Augustine Wisoky",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "harness cross-platform channels"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldLength": 57
       }
     }
   }

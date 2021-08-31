@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/CreateDefaultReportLabelLayoutEntity
+title: CreateDefaultReportLabelLayoutEntity
 id: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
 ---
 
-# POST Agents/Report/CreateDefaultReportLabelLayoutEntity
+# CreateDefaultReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 627,
-  "Name": "Stanton Inc and Sons",
-  "Description": "Open-source well-modulated local area network",
+  "ReportLabelLayoutId": 507,
+  "Name": "Streich Group",
+  "Description": "Front-line actuating concept",
   "Orientation": "Landscape",
-  "PaperWidth": 44,
-  "PaperHeight": 68,
-  "LeftMargin": 727,
-  "RightMargin": 96,
-  "TopMargin": 979,
-  "BottomMargin": 56,
-  "CountColumns": 410,
-  "CountRows": 916,
+  "PaperWidth": 172,
+  "PaperHeight": 998,
+  "LeftMargin": 261,
+  "RightMargin": 871,
+  "TopMargin": 898,
+  "BottomMargin": 977,
+  "CountColumns": 909,
+  "CountRows": 763,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "iterate robust markets"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   }
 }

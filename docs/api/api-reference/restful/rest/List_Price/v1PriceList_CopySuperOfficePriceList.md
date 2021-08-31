@@ -32,9 +32,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/01/2010 09:41:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/04/2011 09:41:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=56
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/05/2006 15:05:45
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/26/2011 15:05:45
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=622
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 114,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 801,
-  "Name": "Marquardt, Prosacco and Balistreri",
-  "Description": "Optimized zero defect artificial intelligence",
-  "Currency": "voluptatem",
-  "CurrencyName": "Hahn Inc and Sons",
-  "ValidFrom": "2013-12-04T09:41:00.5213817+01:00",
-  "ValidTo": "2014-06-13T09:41:00.5213817+02:00",
-  "IsActive": true,
+  "PriceListId": 877,
+  "ERPPriceListKey": "deserunt",
+  "QuoteConnectionId": 301,
+  "Name": "Bruen-Jast",
+  "Description": "User-friendly bottom-line intranet",
+  "Currency": "hic",
+  "CurrencyName": "Moore LLC",
+  "ValidFrom": "2012-08-14T15:05:43.5910797+02:00",
+  "ValidTo": "2010-11-14T15:05:43.5910797+01:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 861
     }
   }
 }

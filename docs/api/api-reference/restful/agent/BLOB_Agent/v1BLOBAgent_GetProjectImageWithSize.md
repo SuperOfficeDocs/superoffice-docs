@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetProjectImageWithSize
+title: GetProjectImageWithSize
 id: v1BLOBAgent_GetProjectImageWithSize
 ---
 
-# POST Agents/BLOB/GetProjectImageWithSize
+# GetProjectImageWithSize
 
 ```http
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize
@@ -70,13 +70,13 @@ Response body:
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 906,
-  "Width": 480,
-  "Height": 558
+  "ProjectId": 410,
+  "Width": 513,
+  "Height": 549
 }
 ```
 

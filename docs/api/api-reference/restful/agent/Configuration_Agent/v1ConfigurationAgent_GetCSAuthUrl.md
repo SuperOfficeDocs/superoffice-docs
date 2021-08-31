@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetCSAuthUrl
+title: GetCSAuthUrl
 id: v1ConfigurationAgent_GetCSAuthUrl
 ---
 
-# POST Agents/Configuration/GetCSAuthUrl
+# GetCSAuthUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "magni",
-  "ProgramName": "Lindgren, McKenzie and Eichmann",
-  "Action": "modi",
-  "ExtraParameters": "expedita"
+  "Language": "qui",
+  "ProgramName": "Rippin-Hoeger",
+  "Action": "ducimus",
+  "ExtraParameters": "animi"
 }
 ```
 

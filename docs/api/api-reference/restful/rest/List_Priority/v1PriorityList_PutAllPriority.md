@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Hoppe-Thompson",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 377,
-    "Rank": 270
+    "Id": 152,
+    "Name": "Swaniawski-Howell",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 437,
+    "Rank": 32
   },
   {
-    "Id": 199,
-    "Name": "Hoppe-Thompson",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 377,
-    "Rank": 270
+    "Id": 152,
+    "Name": "Swaniawski-Howell",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 437,
+    "Rank": 32
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Sawayn, Klein and Streich",
-    "Tooltip": "ut",
+    "Id": 160,
+    "Name": "Jacobson LLC",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 437,
-    "Rank": 284,
+    "UdListDefinitionId": 154,
+    "Rank": 941,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

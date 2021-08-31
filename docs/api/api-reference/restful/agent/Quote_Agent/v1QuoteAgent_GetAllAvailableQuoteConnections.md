@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllAvailableQuoteConnections
+title: GetAllAvailableQuoteConnections
 id: v1QuoteAgent_GetAllAvailableQuoteConnections
 ---
 
-# POST Agents/Quote/GetAllAvailableQuoteConnections
+# GetAllAvailableQuoteConnections
 
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 602,
-    "ERPName": "Ratke Inc and Sons",
-    "DisplayName": "Bayer-Kassulke",
-    "DisplayDescription": "User-centric systemic encryption",
-    "Rank": 82,
-    "ConnectorName": "Shanahan-Schmeler",
-    "ErpConnectionId": 566,
-    "ExtraData": "distinctio",
+    "QuoteConnectionId": 46,
+    "ERPName": "D'Amore-Langosh",
+    "DisplayName": "Purdy, Green and Bogan",
+    "DisplayDescription": "Enhanced value-added analyzer",
+    "Rank": 33,
+    "ConnectorName": "Bruen-Langworth",
+    "ErpConnectionId": 336,
+    "ExtraData": "quia",
     "IsAvailable": true,
     "InitializeResponse": {
       "IsOk": false,
-      "UserExplanation": "consectetur",
-      "TechExplanation": "facere",
-      "ErrorCode": "repellat",
+      "UserExplanation": "hic",
+      "TechExplanation": "voluptatem",
+      "ErrorCode": "ut",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldLength": 452
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 165,
-        "ERPPriceListKey": "ipsum",
-        "QuoteConnectionId": 716,
-        "Name": "Champlin-Steuber",
-        "Description": "Multi-tiered impactful portal",
-        "Currency": "est",
-        "CurrencyName": "Little, Crist and Mitchell",
-        "ValidFrom": "2004-12-29T16:48:30.4649069+01:00",
-        "ValidTo": "2007-07-25T16:48:30.4649069+02:00",
+        "PriceListId": 938,
+        "ERPPriceListKey": "necessitatibus",
+        "QuoteConnectionId": 529,
+        "Name": "Bailey Inc and Sons",
+        "Description": "Proactive hybrid solution",
+        "Currency": "laudantium",
+        "CurrencyName": "Ferry, Herzog and Glover",
+        "ValidFrom": "2000-05-21T14:58:04.9594671+02:00",
+        "ValidTo": "2017-02-21T14:58:04.9594671+01:00",
         "IsActive": true,
         "TableRight": {},
         "FieldProperties": {
@@ -134,20 +134,20 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 869
+            "FieldLength": 502
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      728,
-      308
+      95,
+      348
     ],
     "AssociateAccessIds": [
-      263,
-      858
+      151,
+      5
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldLength": 14
       }
     }
   }

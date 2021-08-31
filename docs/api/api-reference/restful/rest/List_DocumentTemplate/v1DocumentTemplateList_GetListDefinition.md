@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Farrell Inc and Sons",
-  "Tooltip": "quaerat",
+  "Id": 713,
+  "Name": "Lehner, Kessler and Fritsch",
+  "Tooltip": "alias",
   "Deleted": true,
-  "Rank": 787,
-  "IsCustomList": true,
+  "Rank": 755,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "empower extensible portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   },
   "_Links": {

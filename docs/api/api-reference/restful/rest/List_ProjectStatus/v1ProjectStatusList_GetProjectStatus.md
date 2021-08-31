@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Bednar-Heathcote",
-  "Tooltip": "laboriosam",
+  "Id": 492,
+  "Name": "Beatty-Smith",
+  "Tooltip": "ab",
   "Deleted": true,
-  "UdListDefinitionId": 745,
-  "Rank": 398,
+  "UdListDefinitionId": 144,
+  "Rank": 497,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

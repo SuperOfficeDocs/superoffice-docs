@@ -25,8 +25,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=consequatur
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=ab
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Walsh-Sanford",
-    "ToolTip": "Expedita ea voluptatem id eos id.",
+    "Id": 312,
+    "Name": "Wisozk-Price",
+    "ToolTip": "Facere incidunt architecto laudantium illum explicabo dicta.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "nihil",
+    "Rank": 732,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Cummings-Hickle",
-        "ToolTip": "Mollitia possimus.",
-        "Deleted": false,
-        "Rank": 456,
-        "Type": "amet",
+        "Id": 613,
+        "Name": "Hermann, Bradtke and Hermann",
+        "ToolTip": "Sint corporis eaque magnam.",
+        "Deleted": true,
+        "Rank": 210,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 702,
-        "ExtraInfo": "libero",
-        "StyleHint": "consequatur",
-        "FullName": "Mr. Philip Gibson",
+        "IconHint": "maiores",
+        "ColorBlock": 687,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "ut",
+        "FullName": "Brennan Stracke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldType": "System.String",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 812,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "aliquid",
-    "FullName": "Maxwell Runte",
+    "IconHint": "sunt",
+    "ColorBlock": 89,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "ex",
+    "FullName": "Genesis Cole III",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "aggregate wireless vortals"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldLength": 500
       }
     }
   }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Wiza, Veum and O'Reilly",
-  "Tooltip": "quis",
+  "HeadingId": 122,
+  "Name": "Schoen-Huel",
+  "Tooltip": "exercitationem",
   "Deleted": true,
-  "Rank": 108,
-  "UdListDefinitionId": 921
+  "Rank": 323,
+  "UdListDefinitionId": 41
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 591,
-  "Name": "Kreiger-Zboncak",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 360,
-  "UdListDefinitionId": 776,
+  "HeadingId": 69,
+  "Name": "Daniel LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 115,
+  "UdListDefinitionId": 292,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "orchestrate world-class infomediaries"
       },
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 26
     }
   }
 }

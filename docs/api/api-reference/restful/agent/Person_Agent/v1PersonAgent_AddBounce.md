@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/AddBounce
+title: AddBounce
 id: v1PersonAgent_AddBounce
 ---
 
-# POST Agents/Person/AddBounce
+# AddBounce
 
 ```http
 POST /api/v1/Agents/Person/AddBounce

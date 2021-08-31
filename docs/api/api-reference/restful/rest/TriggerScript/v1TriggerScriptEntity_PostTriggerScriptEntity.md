@@ -99,20 +99,20 @@ Response body: object
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 599,
-  "Name": "Stroman LLC",
+  "ScreenChooserId": 1000,
+  "Name": "Hand Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "officiis",
-  "Source": "atque",
-  "Registered": "1998-03-10T09:40:59.9010644+01:00",
-  "RegisteredAssociateId": 576,
-  "Updated": "2000-02-22T09:40:59.9010644+01:00",
-  "UpdatedAssociateId": 951
+  "UniqueIdentifier": "tempora",
+  "Source": "illum",
+  "Registered": "2016-01-05T15:05:42.9556323+01:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2003-10-06T15:05:42.9556323+02:00",
+  "UpdatedAssociateId": 320
 }
 ```
 
@@ -121,19 +121,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 865,
-  "Name": "Homenick-Leannon",
+  "ScreenChooserId": 598,
+  "Name": "Olson LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "quia",
-  "Registered": "1996-01-22T09:40:59.9020661+01:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "2005-09-07T09:40:59.9020661+02:00",
-  "UpdatedAssociateId": 89,
+  "UniqueIdentifier": "sunt",
+  "Source": "possimus",
+  "Registered": "2003-09-22T15:05:42.9566325+02:00",
+  "RegisteredAssociateId": 839,
+  "Updated": "2001-11-08T15:05:42.9566325+01:00",
+  "UpdatedAssociateId": 845,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "visualize web-enabled e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldType": "System.String",
+      "FieldLength": 566
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

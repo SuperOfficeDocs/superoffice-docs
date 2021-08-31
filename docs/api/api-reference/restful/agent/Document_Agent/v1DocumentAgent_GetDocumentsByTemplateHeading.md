@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetDocumentsByTemplateHeading
+title: GetDocumentsByTemplateHeading
 id: v1DocumentAgent_GetDocumentsByTemplateHeading
 ---
 
-# POST Agents/Document/GetDocumentsByTemplateHeading
+# GetDocumentsByTemplateHeading
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 203
+  "TemplateHeadingId": 827
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 485,
-    "Attention": "ea",
-    "Header": "necessitatibus",
-    "Name": "Dickens-Schmeler",
-    "OurRef": "facilis",
-    "YourRef": "iure",
-    "Description": "Adaptive 3rd generation Graphic Interface",
-    "DocumentTemplate": "eligendi",
+    "DocumentId": 523,
+    "Attention": "ut",
+    "Header": "quia",
+    "Name": "Blanda-Donnelly",
+    "OurRef": "reprehenderit",
+    "YourRef": "et",
+    "Description": "Down-sized bi-directional hub",
+    "DocumentTemplate": "molestias",
     "IsPublished": false,
-    "PersonId": 858,
-    "PersonFullName": "Tommie Abernathy",
-    "AssociateFullName": "Margot Walter",
-    "ContactId": 738,
-    "ContactName": "Funk, Buckridge and Collier",
-    "ProjectId": 464,
-    "ProjectName": "Christiansen Group",
-    "AssociateId": 699,
-    "Snum": 781,
+    "PersonId": 447,
+    "PersonFullName": "Lori Howell MD",
+    "AssociateFullName": "Heber Wolf",
+    "ContactId": 597,
+    "ContactName": "Swift, Quigley and Hyatt",
+    "ProjectId": 398,
+    "ProjectName": "Waters-Toy",
+    "AssociateId": 509,
+    "Snum": 977,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   }

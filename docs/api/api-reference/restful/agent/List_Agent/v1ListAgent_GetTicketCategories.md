@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketCategories
+title: GetTicketCategories
 id: v1ListAgent_GetTicketCategories
 ---
 
-# POST Agents/List/GetTicketCategories
+# GetTicketCategories
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategories
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,26 +87,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 87,
-    "ParentId": 825,
-    "Name": "Jast LLC",
-    "Fullname": "exercitationem",
-    "CategoryMaster": 331,
+    "TicketCategoryId": 122,
+    "ParentId": 679,
+    "Name": "Lowe, Graham and Adams",
+    "Fullname": "laborum",
+    "CategoryMaster": 58,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Frami-Schmitt",
+    "ExternalName": "Oberbrunner-Marquardt",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 6,
-    "ReplyTemplate": 400,
-    "NotificationEmail": "jaquelin@hillsbogan.co.uk",
+    "AssignmentLag": 639,
+    "ReplyTemplate": 88,
+    "NotificationEmail": "ursula_daugherty@towne.com",
     "ExtraFields": {
-      "ExtraFields1": "rerum",
-      "ExtraFields2": "fugiat"
+      "ExtraFields1": "perspiciatis",
+      "ExtraFields2": "vel"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "dolore"
+      "CustomFields1": "possimus",
+      "CustomFields2": "occaecati"
     },
     "TableRight": {
       "Mask": "Delete",
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "brand cross-platform paradigms"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 862
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetSimpleList
+title: GetSimpleList
 id: v1MDOAgent_GetSimpleList
 ---
 
-# POST Agents/MDO/GetSimpleList
+# GetSimpleList
 
 ```http
 POST /api/v1/Agents/MDO/GetSimpleList
@@ -84,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy LLC"
+  "Name": "Hickle-Schaden"
 }
 ```
 
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Senger-Terry",
-    "ToolTip": "Est amet cupiditate ratione tenetur architecto.",
+    "Id": 608,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Placeat similique occaecati est.",
     "Deleted": true,
-    "Rank": 617,
-    "Type": "aut",
+    "Rank": 50,
+    "Type": "ratione",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Herman Group",
-        "ToolTip": "Est tenetur reiciendis.",
-        "Deleted": true,
-        "Rank": 449,
-        "Type": "labore",
+        "Id": 374,
+        "Name": "Fritsch-Price",
+        "ToolTip": "Ipsum eveniet.",
+        "Deleted": false,
+        "Rank": 977,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 908,
-        "ExtraInfo": "suscipit",
-        "StyleHint": "natus",
-        "FullName": "Frida Williamson",
+        "IconHint": "perferendis",
+        "ColorBlock": 274,
+        "ExtraInfo": "sint",
+        "StyleHint": "sunt",
+        "FullName": "Malika Gislason",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,17 +128,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldType": "System.String",
+            "FieldLength": 943
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 653,
-    "ExtraInfo": "dolores",
-    "StyleHint": "voluptas",
-    "FullName": "Sylvan Mohr",
+    "IconHint": "id",
+    "ColorBlock": 844,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "saepe",
+    "FullName": "Ryley Rogahn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

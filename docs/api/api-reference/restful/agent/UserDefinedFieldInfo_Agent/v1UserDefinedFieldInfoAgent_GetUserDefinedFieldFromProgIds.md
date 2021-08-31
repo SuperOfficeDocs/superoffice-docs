@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
+title: GetUserDefinedFieldFromProgIds
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
+# GetUserDefinedFieldFromProgIds
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "et",
-    "enim"
+    "excepturi",
+    "dicta"
   ],
   "OwnerType": "Appointment"
 }
@@ -125,40 +125,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 333,
-    "ColumnId": 886,
-    "FieldDefault": "ipsa",
-    "FieldHeight": 477,
-    "FieldLabel": "at",
-    "FieldLeft": 938,
-    "FieldTop": 676,
+    "UDefFieldId": 409,
+    "ColumnId": 24,
+    "FieldDefault": "sint",
+    "FieldHeight": 805,
+    "FieldLabel": "aut",
+    "FieldLeft": 792,
+    "FieldTop": 335,
     "FieldType": "Checkbox",
-    "FieldWidth": 235,
-    "FormatMask": "ducimus",
+    "FieldWidth": 102,
+    "FormatMask": "sapiente",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 731,
-    "LabelLeft": 104,
-    "LabelTop": 567,
-    "LabelWidth": 703,
-    "LastVersionId": 652,
-    "ListTableId": 280,
-    "IsMandatory": false,
+    "LabelHeight": 774,
+    "LabelLeft": 233,
+    "LabelTop": 617,
+    "LabelWidth": 658,
+    "LastVersionId": 901,
+    "ListTableId": 385,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 879,
-    "ProgId": "aut",
+    "Page1LineNo": 564,
+    "ProgId": "doloremque",
     "IsReadOnly": false,
-    "ShortLabel": "ut",
-    "TabOrder": 860,
-    "TextLength": 224,
-    "Tooltip": "deleniti",
-    "UdefIdentity": 175,
-    "UDListDefinitionId": 571,
+    "ShortLabel": "corporis",
+    "TabOrder": 619,
+    "TextLength": 804,
+    "Tooltip": "repudiandae",
+    "UdefIdentity": 589,
+    "UDListDefinitionId": 984,
     "Justification": "Center",
-    "Version": 361,
-    "TemplateVariableName": "Stark, Schaefer and Dibbert",
+    "Version": 840,
+    "TemplateVariableName": "Klocko Group",
     "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz, Ratke and Beer",
+    "MdoListName": "Luettgen, Reilly and Schuster",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

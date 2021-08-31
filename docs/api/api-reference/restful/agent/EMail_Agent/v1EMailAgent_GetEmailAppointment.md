@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEmailAppointment
+title: GetEmailAppointment
 id: v1EMailAgent_GetEmailAppointment
 ---
 
-# POST Agents/EMail/GetEmailAppointment
+# GetEmailAppointment
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointment
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 704
+  "MailItemId": 555
 }
 ```
 
@@ -101,53 +101,53 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": {
-    "AppointmentId": 25,
-    "StartDate": "2009-08-10T16:48:29.5439246+02:00",
-    "EndDate": "1995-12-08T16:48:29.5439246+01:00",
+    "AppointmentId": 113,
+    "StartDate": "2018-06-01T14:58:04.0974669+02:00",
+    "EndDate": "2011-07-21T14:58:04.0974669+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Marco Murray",
-    "ContactName": "Schinner Group",
-    "Description": "Progressive impactful moratorium",
-    "PersonFullName": "Luigi Altenwerth",
-    "PersonId": 788,
-    "ContactId": 388,
-    "ProjectId": 982,
-    "ProjectName": "Cummings, Rowe and Murazik",
+    "Task": "ea",
+    "AssociateFullName": "Leonel Kulas",
+    "ContactName": "Grady, Will and Jacobi",
+    "Description": "Profit-focused grid-enabled migration",
+    "PersonFullName": "Phoebe Swift",
+    "PersonId": 864,
+    "ContactId": 783,
+    "ProjectId": 8,
+    "ProjectName": "Vandervort LLC",
     "IsPublished": false,
-    "AssociateId": 811,
-    "ColorIndex": 274,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 916,
+    "ColorIndex": 302,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 942,
-    "PriorityName": "O'Connell LLC",
+    "PriorityId": 849,
+    "PriorityName": "Armstrong, Bins and Beahan",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-09-15T16:48:29.5439246+02:00",
+    "ActiveDate": "1996-07-07T14:58:04.0974669+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-09-26T16:48:29.5439246+02:00",
-    "RecurringEndDate": "2015-09-07T16:48:29.5439246+02:00",
-    "MotherId": 520,
-    "AssignedBy": 913,
-    "AssignedByFullName": "Dasia Glover",
-    "RejectReason": "",
-    "Location": "ab",
-    "AlarmLeadTime": "neque",
-    "SaleId": 650,
-    "SaleName": "Monahan LLC",
-    "AssociateName": "DuBuque LLC",
-    "CreatedDate": "1997-07-01T16:48:29.5449251+02:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Dock Beier",
-    "CreatedByAssociateId": 454,
+    "RecurringStartDate": "1997-08-21T14:58:04.0974669+02:00",
+    "RecurringEndDate": "1997-03-08T14:58:04.0974669+01:00",
+    "MotherId": 470,
+    "AssignedBy": 164,
+    "AssignedByFullName": "Favian Collins V",
+    "RejectReason": "streamline bleeding-edge vortals",
+    "Location": "corrupti",
+    "AlarmLeadTime": "nesciunt",
+    "SaleId": 624,
+    "SaleName": "Borer-Brown",
+    "AssociateName": "Nader, Hills and McDermott",
+    "CreatedDate": "2003-02-23T14:58:04.0984659+01:00",
+    "CreatedBy": "dicta",
+    "CreatedByFullName": "Sallie Hauck II",
+    "CreatedByAssociateId": 821,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {},
@@ -157,21 +157,21 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   },
   "CalMethod": "Add",
   "Participants": [
-    "facilis",
-    "est"
+    "nulla",
+    "aut"
   ],
-  "Comment": "tempore",
-  "Sequence": 757,
-  "DtStart": "2013-04-26T16:48:29.5449251+02:00",
-  "DtEnd": "2003-03-25T16:48:29.5449251+01:00",
-  "Superseded": false,
+  "Comment": "aut",
+  "Sequence": 591,
+  "DtStart": "2010-11-28T14:58:04.0984659+01:00",
+  "DtEnd": "2000-05-12T14:58:04.0984659+02:00",
+  "Superseded": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,10 +180,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "implement leading-edge methodologies"
       },
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

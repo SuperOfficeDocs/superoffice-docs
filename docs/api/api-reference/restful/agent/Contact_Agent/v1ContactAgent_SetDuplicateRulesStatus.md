@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/SetDuplicateRulesStatus
+title: SetDuplicateRulesStatus
 id: v1ContactAgent_SetDuplicateRulesStatus
 ---
 
-# POST Agents/Contact/SetDuplicateRulesStatus
+# SetDuplicateRulesStatus
 
 ```http
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus

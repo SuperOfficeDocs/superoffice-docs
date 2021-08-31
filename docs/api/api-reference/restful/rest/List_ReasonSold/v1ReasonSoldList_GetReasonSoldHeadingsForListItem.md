@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Hane, Senger and Smitham",
-    "ToolTip": "A quo ullam libero.",
+    "Id": 872,
+    "Name": "Gusikowski, Kulas and Carroll",
+    "ToolTip": "Quaerat alias.",
     "Deleted": true,
-    "Rank": 243,
-    "Type": "excepturi",
-    "ColorBlock": 921,
-    "IconHint": "provident",
+    "Rank": 962,
+    "Type": "illum",
+    "ColorBlock": 812,
+    "IconHint": "inventore",
     "Selected": true,
-    "LastChanged": "2014-11-27T09:41:00.703387+01:00",
+    "LastChanged": "1997-11-01T15:05:43.7651172+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Bogan, Brekke and Erdman",
-        "ToolTip": "Culpa expedita ullam.",
+        "Id": 201,
+        "Name": "Klein-Kulas",
+        "ToolTip": "Quam laborum eius voluptatum.",
         "Deleted": false,
-        "Rank": 498,
-        "Type": "sunt",
-        "ColorBlock": 873,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2007-04-16T09:41:00.703387+02:00",
+        "Rank": 318,
+        "Type": "nihil",
+        "ColorBlock": 636,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "2006-01-16T15:05:43.7651172+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "natus",
-        "Hidden": false,
-        "FullName": "Mrs. Selina Cremin",
+        "ExtraInfo": "sed",
+        "StyleHint": "nulla",
+        "Hidden": true,
+        "FullName": "Greta Blanda",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 922
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "velit",
+    "ExtraInfo": "maxime",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Kevin Breitenberg",
+    "FullName": "Juanita Senger IV",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 943
       }
     }
   }

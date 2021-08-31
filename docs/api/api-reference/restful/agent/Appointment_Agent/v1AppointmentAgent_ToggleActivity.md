@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/ToggleActivity
+title: ToggleActivity
 id: v1AppointmentAgent_ToggleActivity
 ---
 
-# POST Agents/Appointment/ToggleActivity
+# ToggleActivity
 
 ```http
 POST /api/v1/Agents/Appointment/ToggleActivity
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Appointment/ToggleActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityIdentifier": "sunt"
+  "ActivityIdentifier": "quam"
 }
 ```
 

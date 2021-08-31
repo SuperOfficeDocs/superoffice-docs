@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Marvin-Gutmann",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 765,
-  "Rank": 876,
+  "Id": 399,
+  "Name": "Schneider-Lebsack",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 518,
+  "Rank": 196,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "target dot-com applications"
   },
   "FieldProperties": {
     "fieldName": {
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldLength": 511
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/CreateDefaultStatusMonitorPeriods
+title: CreateDefaultStatusMonitorPeriods
 id: v1SaintAgent_CreateDefaultStatusMonitorPeriods
 ---
 
-# POST Agents/Saint/CreateDefaultStatusMonitorPeriods
+# CreateDefaultStatusMonitorPeriods
 
 ```http
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -69,12 +69,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 741,
-  "Period2": 345,
-  "Period3": 827,
+  "Period1": 378,
+  "Period2": 915,
+  "Period3": 835,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "e-enable B2C niches"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 533
     }
   }
 }

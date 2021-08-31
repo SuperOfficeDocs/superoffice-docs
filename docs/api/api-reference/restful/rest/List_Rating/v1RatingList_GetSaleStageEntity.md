@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 780,
-  "Value": "molestiae",
-  "Tooltip": "doloremque",
-  "Probability": 726,
-  "Deleted": false,
-  "Rank": 234,
+  "SaleStageId": 473,
+  "Value": "non",
+  "Tooltip": "mollitia",
+  "Probability": 265,
+  "Deleted": true,
+  "Rank": 333,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,10 +91,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "incentivize sticky partnerships"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

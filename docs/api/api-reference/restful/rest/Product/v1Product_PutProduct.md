@@ -149,55 +149,55 @@ Response body: object
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 79,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "deserunt",
-  "Name": "Kuhlman, Roberts and Waelchi",
-  "Description": "Phased tertiary analyzer",
-  "Code": "non",
-  "PriceUnit": "debitis",
-  "QuantityUnit": "accusamus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dolor",
-  "DefaultSubscriptionQuantity": 7621.888,
-  "ItemNumber": "1055597",
+  "ProductId": 494,
+  "ERPProductKey": "deserunt",
+  "ERPPriceListKey": "error",
+  "Name": "Champlin, Kshlerin and Tromp",
+  "Description": "Secured intangible workforce",
+  "Code": "quia",
+  "PriceUnit": "commodi",
+  "QuantityUnit": "nobis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "suscipit",
+  "DefaultSubscriptionQuantity": 17265.206,
+  "ItemNumber": "675479",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "placeat",
-  "ProductTypeKey": "laudantium",
-  "VAT": 11852.788,
-  "VATInfo": "optio",
-  "UnitCost": 6083.094,
-  "UnitMinimumPrice": 22498.986,
-  "UnitListPrice": 19462.14,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "laborum",
+  "VAT": 10943.928,
+  "VATInfo": "magnam",
+  "UnitCost": 26231.579999999998,
+  "UnitMinimumPrice": 21728.022,
+  "UnitListPrice": 19039.05,
   "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "voluptatibus",
-  "Rights": "corrupti",
-  "Rule": "deleniti",
+  "Supplier": "nulla",
+  "SupplierCode": "dolores",
+  "Rights": "omnis",
+  "Rule": "hic",
   "ExtraInfo": [
     {
-      "Name": "Homenick, Jenkins and Parisian",
-      "Value": "dignissimos",
+      "Name": "Koss LLC",
+      "Value": "quis",
       "Type": "Image"
     },
     {
-      "Name": "Homenick, Jenkins and Parisian",
-      "Value": "dignissimos",
+      "Name": "Koss LLC",
+      "Value": "quis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "autem",
-  "ExtraField1": "fuga",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "nulla",
-  "ExtraField5": "accusantium",
-  "InStock": 11467.306
+  "RawExtraInfo": "est",
+  "ExtraField1": "dolorem",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "sint",
+  "ExtraField4": "delectus",
+  "ExtraField5": "harum",
+  "InStock": 16171.439999999999
 }
 ```
 
@@ -206,36 +206,36 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 978,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "vel",
-  "Name": "Cremin, Glover and Kunde",
-  "Description": "Balanced disintermediate projection",
-  "Code": "ea",
-  "PriceUnit": "blanditiis",
-  "QuantityUnit": "qui",
-  "IsSubscription": true,
-  "SubscriptionUnit": "fugiat",
-  "DefaultSubscriptionQuantity": 14043.454,
-  "ItemNumber": "999977",
+  "ProductId": 301,
+  "ERPProductKey": "explicabo",
+  "ERPPriceListKey": "quia",
+  "Name": "Halvorson Inc and Sons",
+  "Description": "Distributed assymetric website",
+  "Code": "harum",
+  "PriceUnit": "et",
+  "QuantityUnit": "aspernatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptatibus",
+  "DefaultSubscriptionQuantity": 18127.056,
+  "ItemNumber": "1168418",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "eum",
-  "VAT": 15177.962,
-  "VATInfo": "consequuntur",
-  "UnitCost": 14469.678,
-  "UnitMinimumPrice": 15532.104,
-  "UnitListPrice": 26726.752,
+  "ProductFamilyKey": "rem",
+  "ProductTypeKey": "porro",
+  "VAT": 9210.826,
+  "VATInfo": "nemo",
+  "UnitCost": 22956.55,
+  "UnitMinimumPrice": 10878.114,
+  "UnitListPrice": 30045.658,
   "InAssortment": false,
-  "Supplier": "tempora",
-  "SupplierCode": "quam",
-  "Rights": "qui",
-  "Rule": "ratione",
+  "Supplier": "dolor",
+  "SupplierCode": "ducimus",
+  "Rights": "incidunt",
+  "Rule": "iure",
   "ExtraInfo": [
     {
-      "Name": "Marquardt LLC",
-      "Value": "iure",
+      "Name": "Will, Hoppe and Kemmer",
+      "Value": "magni",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -245,13 +245,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 647
         }
       }
     },
     {
-      "Name": "Marquardt LLC",
-      "Value": "iure",
+      "Name": "Will, Hoppe and Kemmer",
+      "Value": "magni",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -261,18 +261,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 647
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "delectus",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "sunt",
-  "ExtraField4": "repellendus",
-  "ExtraField5": "molestiae",
-  "InStock": 26281.724,
+  "RawExtraInfo": "consequuntur",
+  "ExtraField1": "quae",
+  "ExtraField2": "omnis",
+  "ExtraField3": "officia",
+  "ExtraField4": "quaerat",
+  "ExtraField5": "ut",
+  "InStock": 20016.858,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -281,10 +281,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "architect world-class initiatives"
+        "Reason": "repurpose world-class schemas"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 433
     }
   }
 }

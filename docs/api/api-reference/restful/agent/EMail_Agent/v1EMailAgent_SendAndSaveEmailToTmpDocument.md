@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SendAndSaveEmailToTmpDocument
+title: SendAndSaveEmailToTmpDocument
 id: v1EMailAgent_SendAndSaveEmailToTmpDocument
 ---
 
-# POST Agents/EMail/SendAndSaveEmailToTmpDocument
+# SendAndSaveEmailToTmpDocument
 
 ```http
 POST /api/v1/Agents/EMail/SendAndSaveEmailToTmpDocument
@@ -71,7 +71,7 @@ Response body: string
 POST /api/v1/Agents/EMail/SendAndSaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "ipsa",
-    "HTMLBody": "rerum",
+    "Subject": "animi",
+    "HTMLBody": "perspiciatis",
     "From": {},
-    "Sent": "1999-06-11T16:48:29.5309245+02:00",
-    "Size": 805,
+    "Sent": "2010-01-26T14:58:04.0774739+01:00",
+    "Size": 690,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "quaerat",
-    "PlainBody": "et",
-    "IsSent": false,
+    "MessageID": "enim",
+    "PlainBody": "rerum",
+    "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 508,
+    "ServerId": 547,
     "Attachments": [
       {},
       {}
@@ -108,12 +108,12 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Conroy-Olson",
-    "EmailItemId": 31,
-    "AccountId": 761,
-    "ReceivedAt": "2010-04-14T16:48:29.5309245+02:00",
+    "FolderName": "Crona, Watsica and Bruen",
+    "EmailItemId": 679,
+    "AccountId": 941,
+    "ReceivedAt": "2019-09-19T14:58:04.0784655+02:00",
     "InReplyTo": {},
-    "RepliedAt": "2008-10-23T16:48:29.5309245+02:00",
+    "RepliedAt": "2010-05-15T14:58:04.0784655+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
@@ -126,5 +126,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"leda.mohr@kassulke.info"
+"tre@tromp.ca"
 ```

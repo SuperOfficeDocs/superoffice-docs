@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/UpdateAppointmentFromIcsResponse
+title: UpdateAppointmentFromIcsResponse
 id: v1AppointmentAgent_UpdateAppointmentFromIcsResponse
 ---
 
-# POST Agents/Appointment/UpdateAppointmentFromIcsResponse
+# UpdateAppointmentFromIcsResponse
 
 ```http
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
@@ -69,11 +69,11 @@ Response body: bool
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "jade.padberg@hammespadberg.ca",
+  "EmailAddress": "trenton@schoen.com",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

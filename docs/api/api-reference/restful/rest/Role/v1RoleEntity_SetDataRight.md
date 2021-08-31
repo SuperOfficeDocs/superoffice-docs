@@ -33,7 +33,7 @@ An exception will be thrown if non existing position is specified.
 | dataRightValue | string | **Required** The data right value to set at the specified position (CRUD) |
 
 ```http
-PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=dolorem
+PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=deleniti
 ```
 
 

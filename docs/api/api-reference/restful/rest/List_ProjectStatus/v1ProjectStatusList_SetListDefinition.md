@@ -93,15 +93,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Rohan Group",
-  "Tooltip": "aut",
+  "Id": 806,
+  "Name": "Murphy LLC",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 61,
+  "Rank": 722,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "hic",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 803,
-  "Name": "Hayes LLC",
-  "Tooltip": "est",
+  "Id": 822,
+  "Name": "Barton-Flatley",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 674,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "molestias",
+  "Rank": 696,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iusto",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

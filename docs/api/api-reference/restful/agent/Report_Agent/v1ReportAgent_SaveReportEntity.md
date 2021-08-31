@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/SaveReportEntity
+title: SaveReportEntity
 id: v1ReportAgent_SaveReportEntity
 ---
 
-# POST Agents/Report/SaveReportEntity
+# SaveReportEntity
 
 ```http
 POST /api/v1/Agents/Report/SaveReportEntity
@@ -78,17 +78,17 @@ Response body: object
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 866,
+  "ReportId": 879,
   "ReportCategory": "All",
-  "Description": "Compatible fresh-thinking capacity",
+  "Description": "Future-proofed cohesive implementation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Quitzon LLC",
-  "AssociateId": 208,
-  "TemplateId": 802,
+  "Name": "Blanda-Bayer",
+  "AssociateId": 909,
+  "TemplateId": 669,
   "Published": true
 }
 ```
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 636,
+  "ReportId": 29,
   "ReportCategory": "All",
-  "Description": "Grass-roots reciprocal focus group",
+  "Description": "Synchronised non-volatile local area network",
   "ReportLayout": "CalendarMonth",
-  "Name": "Gleichner Group",
-  "AssociateId": 353,
-  "TemplateId": 830,
-  "Published": true,
+  "Name": "Considine Inc and Sons",
+  "AssociateId": 49,
+  "TemplateId": 672,
+  "Published": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 541
     }
   }
 }

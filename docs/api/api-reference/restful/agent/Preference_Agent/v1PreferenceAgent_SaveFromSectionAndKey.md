@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/SaveFromSectionAndKey
+title: SaveFromSectionAndKey
 id: v1PreferenceAgent_SaveFromSectionAndKey
 ---
 
-# POST Agents/Preference/SaveFromSectionAndKey
+# SaveFromSectionAndKey
 
 ```http
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
@@ -97,31 +97,31 @@ Response body: object
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sit",
-  "Key": "harum",
+  "Section": "officiis",
+  "Key": "vel",
   "PreferenceDescription": {
-    "PrefDescId": 655,
-    "Section": "qui",
-    "Key": "id",
-    "Name": "Kemmer LLC",
+    "PrefDescId": 423,
+    "Section": "deserunt",
+    "Key": "deserunt",
+    "Name": "Dicki, Gleichner and Ernser",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Customizable 5th generation hub",
-    "IsBuiltin": false,
-    "TableName": "Murazik-Haley",
-    "UserDefinedListId": 371,
-    "Rank": 555,
-    "SubGroup": "quidem",
-    "MinLevel": 611,
-    "MaxValue": 684,
-    "MinValue": 489,
-    "RequiredLicense": "quo"
+    "Description": "Seamless eco-centric infrastructure",
+    "IsBuiltin": true,
+    "TableName": "Smitham-Krajcik",
+    "UserDefinedListId": 849,
+    "Rank": 951,
+    "SubGroup": "voluptatem",
+    "MinLevel": 632,
+    "MaxValue": 678,
+    "MinValue": 417,
+    "RequiredLicense": "dolorum"
   }
 }
 ```
@@ -132,23 +132,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescId": 47,
-  "Section": "soluta",
-  "Key": "rerum",
-  "Name": "Thompson-Cummings",
+  "Section": "est",
+  "Key": "laboriosam",
+  "Name": "Kassulke, Schoen and Anderson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone impactful conglomeration",
-  "IsBuiltin": true,
-  "TableName": "Lind Group",
-  "UserDefinedListId": 169,
-  "Rank": 981,
-  "SubGroup": "rerum",
-  "MinLevel": 129,
-  "MaxValue": 407,
-  "MinValue": 252,
-  "RequiredLicense": "fuga",
+  "Description": "Adaptive scalable system engine",
+  "IsBuiltin": false,
+  "TableName": "Wolf-Steuber",
+  "UserDefinedListId": 99,
+  "Rank": 593,
+  "SubGroup": "et",
+  "MinLevel": 257,
+  "MaxValue": 941,
+  "MinValue": 360,
+  "RequiredLicense": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreferenceByName
+title: GetPreferenceByName
 id: v1PreferenceAgent_GetPreferenceByName
 ---
 
-# POST Agents/Preference/GetPreferenceByName
+# GetPreferenceByName
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByName
@@ -94,8 +94,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "praesentium",
-  "PrefKey": "quaerat",
+  "PrefSection": "quia",
+  "PrefKey": "quia",
   "PrefLevel": "Database"
 }
 ```
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eveniet",
+  "RawValue": "dicta",
   "Specification": {
-    "Section": "fugiat",
-    "Key": "cumque",
+    "Section": "adipisci",
+    "Key": "dolor",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -117,38 +117,38 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   },
-  "DisplayValue": "dicta",
-  "DisplayTooltip": "rerum",
+  "DisplayValue": "vel",
+  "DisplayTooltip": "autem",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 866,
-    "TabName": "Zboncak LLC",
-    "Order": "praesentium",
-    "AssociateId": 683,
+    "TabOrderId": 66,
+    "TabName": "Daugherty LLC",
+    "Order": "voluptas",
+    "AssociateId": 615,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "syndicate web-enabled infomediaries"
+          "Reason": "incubate rich e-business"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldType": "System.String",
+        "FieldLength": 515
       }
     }
   },
-  "TargetId": 128,
-  "PrefDescId": 785,
-  "TableName": "Kuhic Group",
-  "UserPreferenceId": 427,
+  "TargetId": 288,
+  "PrefDescId": 569,
+  "TableName": "Hackett-Daniel",
+  "UserPreferenceId": 804,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "grow distributed communities"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

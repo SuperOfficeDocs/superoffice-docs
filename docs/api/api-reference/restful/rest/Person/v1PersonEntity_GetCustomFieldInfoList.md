@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "White-Renner",
-    "DisplayName": "Murazik Group",
-    "Description": "Open-source value-added synergy",
-    "ShortLabel": "tempora",
+    "FieldName": "Kreiger LLC",
+    "DisplayName": "Harber Inc and Sons",
+    "Description": "Grass-roots content-based time-frame",
+    "ShortLabel": "fugiat",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 720,
-    "TemplateVariableName": "Price, Davis and Schaefer"
+    "IsExternal": true,
+    "Rank": 334,
+    "TemplateVariableName": "Hudson-Ortiz"
   }
 ]
 ```

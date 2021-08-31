@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetDynamicSelectionCriteriaGroups
+title: GetDynamicSelectionCriteriaGroups
 id: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
 ---
 
-# POST Agents/Selection/GetDynamicSelectionCriteriaGroups
+# GetDynamicSelectionCriteriaGroups
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -74,11 +74,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 418
+  "SelectionId": 911
 }
 ```
 
@@ -88,58 +88,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West LLC",
-    "Description": "Face to face attitude-oriented functionalities",
-    "Rank": 64,
+    "Name": "Wolf, Romaguera and Koelpin",
+    "Description": "Multi-layered executive time-frame",
+    "Rank": 844,
     "Restrictions": [
       {
-        "Name": "Parisian-Balistreri",
-        "Operator": "dolore",
+        "Name": "Abernathy LLC",
+        "Operator": "quas",
         "Values": [
-          "harum",
-          "doloribus"
+          "nobis",
+          "beatae"
         ],
         "DisplayValues": [
-          "quae",
-          "quis"
+          "ut",
+          "ea"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 132,
+        "InterParenthesis": 54,
         "InterOperator": "And",
-        "UniqueHash": 931
+        "UniqueHash": 837
       }
     ]
   },
   {
-    "Name": "West LLC",
-    "Description": "Face to face attitude-oriented functionalities",
-    "Rank": 64,
+    "Name": "Wolf, Romaguera and Koelpin",
+    "Description": "Multi-layered executive time-frame",
+    "Rank": 844,
     "Restrictions": [
       {
-        "Name": "Parisian-Balistreri",
-        "Operator": "dolore",
+        "Name": "Abernathy LLC",
+        "Operator": "quas",
         "Values": [
-          "harum",
-          "doloribus"
+          "nobis",
+          "beatae"
         ],
         "DisplayValues": [
-          "quae",
-          "quis"
+          "ut",
+          "ea"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 132,
+        "InterParenthesis": 54,
         "InterOperator": "And",
-        "UniqueHash": 931
+        "UniqueHash": 837
       }
     ]
   }

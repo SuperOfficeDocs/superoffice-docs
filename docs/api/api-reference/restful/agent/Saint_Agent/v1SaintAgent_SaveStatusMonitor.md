@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/SaveStatusMonitor
+title: SaveStatusMonitor
 id: v1SaintAgent_SaveStatusMonitor
 ---
 
-# POST Agents/Saint/SaveStatusMonitor
+# SaveStatusMonitor
 
 ```http
 POST /api/v1/Agents/Saint/SaveStatusMonitor
@@ -96,25 +96,25 @@ Response body: object
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 683,
-  "Rank": 931,
-  "DefaultTask": 156,
-  "DefaultTaskText": "qui",
-  "IsVisual": false,
-  "LastGenerated": "1995-03-18T16:48:30.500947+01:00",
-  "Description": "Mandatory logistical service-desk",
-  "Name": "Bashirian LLC",
-  "StatusMonitorId": 762,
-  "PictureId": 329,
+  "OwnerTable": 711,
+  "Rank": 778,
+  "DefaultTask": 832,
+  "DefaultTaskText": "quas",
+  "IsVisual": true,
+  "LastGenerated": "2018-02-12T14:58:05.103628+01:00",
+  "Description": "Cloned background hub",
+  "Name": "Hand-Yundt",
+  "StatusMonitorId": 588,
+  "PictureId": 645,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 73,
-  "NumNeedUpdate": 54,
-  "GenerationStart": "1994-04-17T16:48:30.500947+02:00"
+  "Deleted": true,
+  "NumMatches": 519,
+  "NumNeedUpdate": 484,
+  "GenerationStart": "1999-03-27T14:58:05.103628+01:00"
 }
 ```
 
@@ -123,21 +123,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 786,
-  "Rank": 543,
-  "DefaultTask": 806,
-  "DefaultTaskText": "et",
+  "OwnerTable": 913,
+  "Rank": 97,
+  "DefaultTask": 455,
+  "DefaultTaskText": "deserunt",
   "IsVisual": false,
-  "LastGenerated": "2020-07-05T16:48:30.500947+02:00",
-  "Description": "Digitized object-oriented interface",
-  "Name": "Collier, Murphy and Schumm",
-  "StatusMonitorId": 36,
-  "PictureId": 408,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 490,
-  "NumNeedUpdate": 77,
-  "GenerationStart": "1994-09-07T16:48:30.500947+02:00",
+  "LastGenerated": "2010-08-06T14:58:05.103628+02:00",
+  "Description": "Total asynchronous implementation",
+  "Name": "Hickle Group",
+  "StatusMonitorId": 468,
+  "PictureId": 734,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 486,
+  "NumNeedUpdate": 708,
+  "GenerationStart": "2019-05-05T14:58:05.103628+02:00",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

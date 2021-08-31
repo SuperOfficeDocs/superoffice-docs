@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/SaveTriggerScriptEntity
+title: SaveTriggerScriptEntity
 id: v1CRMScriptAgent_SaveTriggerScriptEntity
 ---
 
-# POST Agents/CRMScript/SaveTriggerScriptEntity
+# SaveTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
@@ -88,20 +88,20 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 969,
-  "Name": "Dickens Inc and Sons",
+  "ScreenChooserId": 517,
+  "Name": "Stiedemann-Schoen",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "rerum",
-  "Registered": "2014-08-18T16:48:29.2098945+02:00",
-  "RegisteredAssociateId": 747,
-  "Updated": "2013-05-16T16:48:29.2098945+02:00",
-  "UpdatedAssociateId": 442
+  "UniqueIdentifier": "laudantium",
+  "Source": "nisi",
+  "Registered": "2009-05-30T14:58:03.7384605+02:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "1999-09-18T14:58:03.7384605+02:00",
+  "UpdatedAssociateId": 927
 }
 ```
 
@@ -110,16 +110,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 164,
-  "Name": "Bergstrom Inc and Sons",
+  "ScreenChooserId": 305,
+  "Name": "Ward, Stracke and Quigley",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "sint",
-  "Source": "voluptatem",
-  "Registered": "1999-03-30T16:48:29.2098945+02:00",
-  "RegisteredAssociateId": 246,
-  "Updated": "2018-12-07T16:48:29.2098945+01:00",
-  "UpdatedAssociateId": 529,
+  "UniqueIdentifier": "vel",
+  "Source": "aut",
+  "Registered": "2014-03-03T14:58:03.73946+01:00",
+  "RegisteredAssociateId": 853,
+  "Updated": "2008-12-10T14:58:03.73946+01:00",
+  "UpdatedAssociateId": 538,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

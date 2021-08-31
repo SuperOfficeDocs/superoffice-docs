@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/RemoveConsent
+title: RemoveConsent
 id: v1PersonAgent_RemoveConsent
 ---
 
-# POST Agents/Person/RemoveConsent
+# RemoveConsent
 
 ```http
 POST /api/v1/Agents/Person/RemoveConsent

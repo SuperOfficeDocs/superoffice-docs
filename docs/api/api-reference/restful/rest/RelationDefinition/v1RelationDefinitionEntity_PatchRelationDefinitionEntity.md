@@ -117,45 +117,45 @@ Response body: object
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "et",
     "value": {
       "value1": {
-        "PrimaryKey": 1586,
-        "EntityName": "person",
-        "personId": 1586,
-        "fullName": "Forest Hayes"
+        "PrimaryKey": 8518,
+        "EntityName": "sale",
+        "saleId": 8518,
+        "contactId": 4208,
+        "name": "Stracke-Effertz"
       },
       "value2": {
-        "PrimaryKey": 7342,
-        "EntityName": "sale",
-        "saleId": 7342,
-        "contactId": 4311,
-        "name": "Jacobson Group"
+        "PrimaryKey": 1743,
+        "EntityName": "person",
+        "personId": 1743,
+        "fullName": "Webster Rogahn"
       }
     }
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "et",
     "value": {
       "value1": {
-        "PrimaryKey": 1586,
-        "EntityName": "person",
-        "personId": 1586,
-        "fullName": "Forest Hayes"
+        "PrimaryKey": 8518,
+        "EntityName": "sale",
+        "saleId": 8518,
+        "contactId": 4208,
+        "name": "Stracke-Effertz"
       },
       "value2": {
-        "PrimaryKey": 7342,
-        "EntityName": "sale",
-        "saleId": 7342,
-        "contactId": 4311,
-        "name": "Jacobson Group"
+        "PrimaryKey": 1743,
+        "EntityName": "person",
+        "personId": 1743,
+        "fullName": "Webster Rogahn"
       }
     }
   }
@@ -167,12 +167,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 662,
-  "Name": "Gislason-Tremblay",
-  "Tooltip": "sed",
-  "PassiveText": "voluptate",
+  "ReldefId": 915,
+  "Name": "O'Conner, Nitzsche and Heathcote",
+  "Tooltip": "est",
+  "PassiveText": "quisquam",
   "Deleted": true,
-  "Rank": 226,
+  "Rank": 164,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 425
     }
   },
   "_Links": {

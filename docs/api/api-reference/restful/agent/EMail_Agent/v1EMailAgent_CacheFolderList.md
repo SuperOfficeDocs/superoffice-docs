@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CacheFolderList
+title: CacheFolderList
 id: v1EMailAgent_CacheFolderList
 ---
 
-# POST Agents/EMail/CacheFolderList
+# CacheFolderList
 
 ```http
 POST /api/v1/Agents/EMail/CacheFolderList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,13 +81,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swift-Daniel",
-    "Delimiter": "officia",
-    "Flags": "reiciendis",
-    "TotalItems": 450,
-    "UnreadItems": 12,
+    "Name": "Beatty-Bartoletti",
+    "Delimiter": "architecto",
+    "Flags": "voluptatibus",
+    "TotalItems": 522,
+    "UnreadItems": 914,
     "Subscribed": true,
-    "EmailFolderId": 982,
+    "EmailFolderId": 239,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

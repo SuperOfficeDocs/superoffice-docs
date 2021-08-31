@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/SaveProjectMembersFunctionAndComment
+title: SaveProjectMembersFunctionAndComment
 id: v1ProjectAgent_SaveProjectMembersFunctionAndComment
 ---
 
-# POST Agents/Project/SaveProjectMembersFunctionAndComment
+# SaveProjectMembersFunctionAndComment
 
 ```http
 POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment

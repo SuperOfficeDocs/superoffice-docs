@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetCurrentAccountId
+title: GetCurrentAccountId
 id: v1EMailAgent_GetCurrentAccountId
 ---
 
-# POST Agents/EMail/GetCurrentAccountId
+# GetCurrentAccountId
 
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccountId
@@ -61,12 +61,12 @@ Response body: int32
 POST /api/v1/Agents/EMail/GetCurrentAccountId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-213
+536
 ```

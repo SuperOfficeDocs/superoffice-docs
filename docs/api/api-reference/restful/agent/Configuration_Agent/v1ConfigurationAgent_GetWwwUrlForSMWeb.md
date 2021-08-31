@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWwwUrlForSMWeb
+title: GetWwwUrlForSMWeb
 id: v1ConfigurationAgent_GetWwwUrlForSMWeb
 ---
 
-# POST Agents/Configuration/GetWwwUrlForSMWeb
+# GetWwwUrlForSMWeb
 
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_

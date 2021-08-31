@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Rice, Wunsch and Smitham",
-  "Tooltip": "quos",
+  "Id": 225,
+  "Name": "Bradtke-Gorczany",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 78,
+  "Rank": 556,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

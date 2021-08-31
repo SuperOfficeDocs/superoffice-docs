@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -80,30 +80,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 800,
-  "Caption": "voluptas",
-  "Description": "Universal zero defect capacity",
-  "ChartName": "Lesch-Bins",
-  "ChartId": "et",
+  "DashboardTileId": 199,
+  "Caption": "veritatis",
+  "Description": "Up-sized non-volatile infrastructure",
+  "ChartName": "Christiansen, Kovacek and Smith",
+  "ChartId": "quas",
   "IsDefault": false,
-  "AssociateId": 908,
-  "GroupId": 265,
-  "SelectionId": 937,
-  "Config": "corporis",
+  "AssociateId": 839,
+  "GroupId": 131,
+  "SelectionId": 849,
+  "Config": "rerum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Medhurst-Marquardt",
-      "Description": "Function-based even-keeled complexity",
+      "Name": "Trantow, Brekke and Leannon",
+      "Description": "Self-enabling contextually-based leverage",
       "Type": "Boolean",
-      "ListName": "Jewess Inc and Sons",
+      "ListName": "Mayert Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "tenetur",
-      "DefaultDataOption": true,
+      "Value": "optio",
+      "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -112,16 +112,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldLength": 498
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 847,
+      "VisibleId": 523,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "fuga",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     },
     {
-      "VisibleId": 847,
+      "VisibleId": 523,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "fuga",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 742
     }
   }
 }

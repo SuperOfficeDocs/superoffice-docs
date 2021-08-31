@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetPaymentTerms
+title: GetPaymentTerms
 id: v1ListAgent_GetPaymentTerms
 ---
 
-# POST Agents/List/GetPaymentTerms
+# GetPaymentTerms
 
 ```http
 POST /api/v1/Agents/List/GetPaymentTerms
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPaymentTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Value": "dolorum",
-    "Tooltip": "minima",
+    "Id": 380,
+    "Value": "qui",
+    "Tooltip": "cum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 401
       }
     }
   },
   {
-    "Id": 934,
-    "Value": "dolorum",
-    "Tooltip": "minima",
+    "Id": 380,
+    "Value": "qui",
+    "Tooltip": "cum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 401
       }
     }
   }

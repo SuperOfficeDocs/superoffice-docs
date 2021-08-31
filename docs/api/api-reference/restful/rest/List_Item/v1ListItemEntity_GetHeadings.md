@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "O'Connell-Hettinger",
-    "ToolTip": "Reiciendis eos.",
+    "Id": 399,
+    "Name": "Blanda LLC",
+    "ToolTip": "Omnis dolorem illum consequatur est necessitatibus voluptatem.",
     "Deleted": true,
-    "Rank": 702,
-    "Type": "placeat",
-    "ColorBlock": 649,
-    "IconHint": "cupiditate",
+    "Rank": 899,
+    "Type": "eos",
+    "ColorBlock": 165,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2009-11-13T09:41:00.1383609+01:00",
+    "LastChanged": "2007-03-05T15:05:43.2178993+01:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Ratke-Johns",
-        "ToolTip": "Itaque consequatur adipisci.",
+        "Id": 102,
+        "Name": "Buckridge-Lesch",
+        "ToolTip": "Voluptatem aut ipsa velit qui placeat.",
         "Deleted": true,
-        "Rank": 389,
-        "Type": "et",
-        "ColorBlock": 912,
-        "IconHint": "consequuntur",
+        "Rank": 6,
+        "Type": "est",
+        "ColorBlock": 412,
+        "IconHint": "laborum",
         "Selected": true,
-        "LastChanged": "2004-10-02T09:41:00.1383609+02:00",
+        "LastChanged": "2003-06-13T15:05:43.2178993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Leora Kuhn",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Jan Becker",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,15 +130,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 837
+            "FieldLength": 93
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "at",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Waino Fadel IV",
+    "FullName": "Mrs. Nico Schultz",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -147,10 +147,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transform web-enabled relationships"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldType": "System.String",
+        "FieldLength": 452
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetVisibleForUserGroups
+title: SetVisibleForUserGroups
 id: v1ListAgent_SetVisibleForUserGroups
 ---
 
-# POST Agents/List/SetVisibleForUserGroups
+# SetVisibleForUserGroups
 
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroups
@@ -93,28 +93,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 978,
-  "ListItemId": 504,
+  "UdListDefinitionId": 311,
+  "ListItemId": 594,
   "UserGroups": [
     {
-      "Id": 524,
-      "Name": "Mayert-Collier",
-      "ToolTip": "Libero et.",
+      "Id": 372,
+      "Name": "Padberg-Kling",
+      "ToolTip": "Velit molestiae sit ea.",
       "Deleted": true,
-      "Rank": 367,
-      "Type": "eius",
-      "ColorBlock": 329,
-      "IconHint": "illum",
+      "Rank": 377,
+      "Type": "inventore",
+      "ColorBlock": 969,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "2008-10-12T16:48:29.8259303+02:00",
+      "LastChanged": "2004-11-23T14:58:04.414465+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "sit",
-      "Hidden": true,
-      "FullName": "Glenda Langworth"
+      "ExtraInfo": "tempore",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Phoebe Moen I"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Yost LLC",
-    "ToolTip": "Quaerat illo.",
-    "Deleted": true,
-    "Rank": 776,
-    "Type": "nisi",
-    "ColorBlock": 424,
-    "IconHint": "non",
+    "Id": 787,
+    "Name": "Dickinson Group",
+    "ToolTip": "Dignissimos voluptatem occaecati sed.",
+    "Deleted": false,
+    "Rank": 773,
+    "Type": "numquam",
+    "ColorBlock": 339,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2014-11-16T16:48:29.8269283+01:00",
+    "LastChanged": "1998-02-23T14:58:04.4154727+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Stehr-Fisher",
-        "ToolTip": "Eum sit molestias sed soluta labore.",
-        "Deleted": false,
-        "Rank": 798,
-        "Type": "eum",
-        "ColorBlock": 386,
-        "IconHint": "illum",
+        "Id": 384,
+        "Name": "Green-Reilly",
+        "ToolTip": "Facere ut distinctio dolore.",
+        "Deleted": true,
+        "Rank": 184,
+        "Type": "error",
+        "ColorBlock": 482,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2009-12-03T16:48:29.8269283+01:00",
+        "LastChanged": "1995-10-08T14:58:04.4154727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Chaz Wunsch Jr.",
+        "ExtraInfo": "sed",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Mellie Boyer MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -163,16 +163,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 246
+            "FieldType": "System.Int32",
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Branson Bahringer",
+    "ExtraInfo": "possimus",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Angel Stoltenberg",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 339
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParametersOnPerson
+title: GetConfigParametersOnPerson
 id: v1AudienceAgent_GetConfigParametersOnPerson
 ---
 
-# POST Agents/Audience/GetConfigParametersOnPerson
+# GetConfigParametersOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 862
+  "PersonId": 593
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 458,
-    "Name": "Jacobson-Hintz",
-    "Value": "sapiente",
-    "CreatedDate": "2009-01-24T16:48:28.7691987+01:00",
-    "UpdatedDate": "2013-04-10T16:48:28.7691987+02:00",
-    "CreatedBy": "facere",
-    "UpdatedBy": "ducimus",
+    "AudienceLayoutId": 372,
+    "Name": "Bartoletti Inc and Sons",
+    "Value": "nemo",
+    "CreatedDate": "2020-02-09T14:58:03.2602385+01:00",
+    "UpdatedDate": "2015-12-30T14:58:03.2602385+01:00",
+    "CreatedBy": "atque",
+    "UpdatedBy": "repudiandae",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

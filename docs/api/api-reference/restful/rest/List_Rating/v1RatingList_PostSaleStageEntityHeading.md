@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 134,
-  "Name": "Parker, Treutel and West",
-  "Tooltip": "aliquam",
+  "HeadingId": 7,
+  "Name": "Carter, Lang and Jacobi",
+  "Tooltip": "nemo",
   "Deleted": true,
-  "Rank": 690,
-  "UdListDefinitionId": 517
+  "Rank": 816,
+  "UdListDefinitionId": 282
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 974,
-  "Name": "Connelly-Feest",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "Rank": 504,
-  "UdListDefinitionId": 132,
+  "HeadingId": 270,
+  "Name": "Wisoky Inc and Sons",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "Rank": 531,
+  "UdListDefinitionId": 536,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

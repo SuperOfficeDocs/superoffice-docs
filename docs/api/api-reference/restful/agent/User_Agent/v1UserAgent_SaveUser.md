@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SaveUser
+title: SaveUser
 id: v1UserAgent_SaveUser
 ---
 
-# POST Agents/User/SaveUser
+# SaveUser
 
 ```http
 POST /api/v1/Agents/User/SaveUser
@@ -122,14 +122,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 314,
-  "Name": "Gutmann, Schmitt and Langworth",
-  "Rank": 257,
-  "Tooltip": "non",
+  "AssociateId": 359,
+  "Name": "Keeling-Franecki",
+  "Rank": 7,
+  "Tooltip": "fuga",
   "LicenseOwners": [
     {
-      "Name": "Anderson Group",
-      "Description": "Intuitive leading edge task-force",
+      "Name": "Purdy-Farrell",
+      "Description": "Secured bandwidth-monitored synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Anderson Group",
-      "Description": "Intuitive leading edge task-force",
+      "Name": "Purdy-Farrell",
+      "Description": "Secured bandwidth-monitored synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,141 +153,141 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Role": {
-    "Id": 308,
-    "Value": "occaecati",
-    "Tooltip": "porro"
+    "Id": 337,
+    "Value": "quia",
+    "Tooltip": "debitis"
   },
   "UserGroup": {
-    "Value": "non",
-    "Tooltip": "aut",
-    "Id": 209,
-    "Rank": 837,
-    "Deleted": false
+    "Value": "consectetur",
+    "Tooltip": "est",
+    "Id": 386,
+    "Rank": 807,
+    "Deleted": true
   },
   "OtherGroups": [
     {
-      "Value": "ipsa",
-      "Tooltip": "ad",
-      "Id": 292,
-      "Rank": 647,
-      "Deleted": true
+      "Value": "sed",
+      "Tooltip": "quia",
+      "Id": 876,
+      "Rank": 689,
+      "Deleted": false
     },
     {
-      "Value": "ipsa",
-      "Tooltip": "ad",
-      "Id": 292,
-      "Rank": 647,
-      "Deleted": true
+      "Value": "sed",
+      "Tooltip": "quia",
+      "Id": 876,
+      "Rank": 689,
+      "Deleted": false
     }
   ],
   "Person": {
-    "Position": "laborum",
-    "PersonId": 497,
-    "Mrmrs": "magni",
-    "Firstname": "Reyna",
-    "Lastname": "Emmerich",
-    "MiddleName": "Lubowitz Inc and Sons",
-    "Title": "repellendus",
-    "Description": "Customer-focused fault-tolerant hub",
-    "Email": "mariela_bednar@kemmer.biz",
-    "FullName": "Ayana Wisoky DVM",
-    "DirectPhone": "126.601.6277 x35408",
-    "FormalName": "Simonis-Johnson",
-    "CountryId": 707,
-    "ContactId": 177,
-    "ContactName": "Kozey, Mills and Koepp",
-    "Retired": 237,
-    "Rank": 418,
-    "ActiveInterests": 819,
+    "Position": "est",
+    "PersonId": 582,
+    "Mrmrs": "porro",
+    "Firstname": "Cali",
+    "Lastname": "Barton",
+    "MiddleName": "Mante, Schaden and O'Hara",
+    "Title": "quas",
+    "Description": "Mandatory methodical methodology",
+    "Email": "eileen@hilpert.com",
+    "FullName": "Vaughn Murazik",
+    "DirectPhone": "535.274.2316 x4427",
+    "FormalName": "Mraz-Wilderman",
+    "CountryId": 956,
+    "ContactId": 372,
+    "ContactName": "Bednar Group",
+    "Retired": 506,
+    "Rank": 687,
+    "ActiveInterests": 831,
     "ContactDepartment": "",
-    "ContactCountryId": 943,
-    "ContactOrgNr": "840295",
-    "FaxPhone": "728.242.6851",
-    "MobilePhone": "733.632.2362 x6065",
-    "ContactPhone": "(452)134-3262",
-    "AssociateName": "Ortiz Group",
-    "AssociateId": 574,
-    "UsePersonAddress": false,
+    "ContactCountryId": 317,
+    "ContactOrgNr": "1037186",
+    "FaxPhone": "1-770-332-0474 x103",
+    "MobilePhone": "(876)472-2752 x67874",
+    "ContactPhone": "1-214-685-3831 x54180",
+    "AssociateName": "Hilpert, Oberbrunner and Rutherford",
+    "AssociateId": 31,
+    "UsePersonAddress": true,
     "ContactFax": "ut",
-    "Kanafname": "quisquam",
-    "Kanalname": "quae",
-    "Post1": "nobis",
-    "Post2": "quia",
-    "Post3": "maiores",
-    "EmailName": "stewart.cronin@olson.info",
-    "ContactFullName": "Miss Iva Robel",
-    "ActiveErpLinks": 272,
-    "TicketPriorityId": 461,
-    "SupportLanguageId": 197,
-    "SupportAssociateId": 650,
+    "Kanafname": "minima",
+    "Kanalname": "enim",
+    "Post1": "eligendi",
+    "Post2": "quam",
+    "Post3": "repellat",
+    "EmailName": "delpha.metz@watsica.info",
+    "ContactFullName": "Miss Lenna Rutherford",
+    "ActiveErpLinks": 665,
+    "TicketPriorityId": 688,
+    "SupportLanguageId": 239,
+    "SupportAssociateId": 709,
     "CategoryName": "VIP Customer"
   },
-  "Deleted": false,
-  "Lastlogin": "2014-04-24T16:48:30.8989403+02:00",
-  "Lastlogout": "2005-04-27T16:48:30.8989403+02:00",
-  "EjUserId": 517,
-  "RequestSignature": "asperiores",
+  "Deleted": true,
+  "Lastlogin": "2014-08-29T14:58:05.5510547+02:00",
+  "Lastlogout": "2018-10-13T14:58:05.5510547+02:00",
+  "EjUserId": 451,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "at",
-      "DisplayValue": "nam"
+      "Value": "laboriosam",
+      "DisplayValue": "non"
     },
     {
       "Type": {},
-      "Value": "at",
-      "DisplayValue": "nam"
+      "Value": "laboriosam",
+      "DisplayValue": "non"
     }
   ],
-  "UserName": "Torp, Stokes and Runolfsdottir",
+  "UserName": "Rowe, Kuhn and Kozey",
   "TicketCategories": [
     {
-      "Id": 500,
-      "Name": "Hammes-Ondricka",
-      "ToolTip": "Saepe aut.",
+      "Id": 232,
+      "Name": "Barton-Huel",
+      "ToolTip": "Quo rem harum voluptatum optio.",
       "Deleted": false,
-      "Rank": 801,
-      "Type": "quasi",
+      "Rank": 75,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 451,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "dolor",
-      "FullName": "Name Breitenberg I"
+      "IconHint": "cupiditate",
+      "ColorBlock": 987,
+      "ExtraInfo": "neque",
+      "StyleHint": "unde",
+      "FullName": "Rahsaan Cummerata DDS"
     }
   ],
-  "NickName": "Hettinger, Stroman and Runolfsson",
-  "WaitingForApproval": true,
+  "NickName": "Baumbach-Willms",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "est"
+    "CustomFields1": "et",
+    "CustomFields2": "sed"
   },
   "PostSaveCommands": [
     {
-      "Name": "Swift, Wyman and Keeling",
-      "DisplayName": "Marquardt-Zemlak",
-      "Description": "Versatile fresh-thinking implementation",
-      "ToolTip": "Quam omnis.",
+      "Name": "Steuber LLC",
+      "DisplayName": "Schumm-Doyle",
+      "Description": "Reduced disintermediate paradigm",
+      "ToolTip": "Sint possimus fugit modi et mollitia rem.",
       "Actions": "Implicit",
-      "ActionData": "corrupti"
+      "ActionData": "quo"
     },
     {
-      "Name": "Swift, Wyman and Keeling",
-      "DisplayName": "Marquardt-Zemlak",
-      "Description": "Versatile fresh-thinking implementation",
-      "ToolTip": "Quam omnis.",
+      "Name": "Steuber LLC",
+      "DisplayName": "Schumm-Doyle",
+      "Description": "Reduced disintermediate paradigm",
+      "ToolTip": "Sint possimus fugit modi et mollitia rem.",
       "Actions": "Implicit",
-      "ActionData": "corrupti"
+      "ActionData": "quo"
     }
   ]
 }
@@ -298,14 +298,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 440,
-  "Name": "Schimmel-Konopelski",
-  "Rank": 719,
-  "Tooltip": "rerum",
+  "AssociateId": 563,
+  "Name": "Schneider Inc and Sons",
+  "Rank": 434,
+  "Tooltip": "porro",
   "LicenseOwners": [
     {
-      "Name": "Jenkins-Sawayn",
-      "Description": "Exclusive radical adapter",
+      "Name": "Kemmer-Runte",
+      "Description": "Upgradable content-based strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -321,14 +321,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "Jenkins-Sawayn",
-      "Description": "Exclusive radical adapter",
+      "Name": "Kemmer-Runte",
+      "Description": "Upgradable content-based strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -344,16 +344,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
   ],
   "Role": {
-    "Id": 632,
-    "Value": "aliquam",
-    "Tooltip": "architecto",
+    "Id": 322,
+    "Value": "omnis",
+    "Tooltip": "impedit",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -361,16 +361,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldType": "System.Int32",
+        "FieldLength": 498
       }
     }
   },
   "UserGroup": {
-    "Value": "aut",
-    "Tooltip": "recusandae",
-    "Id": 503,
-    "Rank": 168,
+    "Value": "facere",
+    "Tooltip": "rem",
+    "Id": 318,
+    "Rank": 99,
     "Deleted": true,
     "TableRight": {},
     "FieldProperties": {
@@ -380,16 +380,16 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldLength": 698
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "sint",
-      "Tooltip": "impedit",
-      "Id": 864,
-      "Rank": 719,
+      "Value": "et",
+      "Tooltip": "eos",
+      "Id": 840,
+      "Rank": 780,
       "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
@@ -399,51 +399,51 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldLength": 69
         }
       }
     }
   ],
   "Person": {
-    "Position": "ut",
-    "PersonId": 524,
-    "Mrmrs": "dolorem",
-    "Firstname": "Bailee",
-    "Lastname": "Kihn",
-    "MiddleName": "Willms-Keebler",
-    "Title": "atque",
-    "Description": "Devolved radical database",
-    "Email": "earnestine@quitzon.uk",
-    "FullName": "Vivienne Metz",
-    "DirectPhone": "1-441-382-0445",
-    "FormalName": "Jast, Morissette and Abbott",
-    "CountryId": 951,
-    "ContactId": 604,
-    "ContactName": "Quigley, Bogan and Sanford",
-    "Retired": 33,
-    "Rank": 418,
-    "ActiveInterests": 950,
+    "Position": "perspiciatis",
+    "PersonId": 219,
+    "Mrmrs": "et",
+    "Firstname": "Elmo",
+    "Lastname": "Littel",
+    "MiddleName": "Hegmann, Casper and Abshire",
+    "Title": "nisi",
+    "Description": "Versatile eco-centric toolset",
+    "Email": "robert@schimmel.info",
+    "FullName": "Dr. Arely Cummerata",
+    "DirectPhone": "384-747-1252 x206",
+    "FormalName": "Orn-Durgan",
+    "CountryId": 576,
+    "ContactId": 707,
+    "ContactName": "Bailey Inc and Sons",
+    "Retired": 515,
+    "Rank": 818,
+    "ActiveInterests": 751,
     "ContactDepartment": "",
-    "ContactCountryId": 240,
-    "ContactOrgNr": "1194998",
-    "FaxPhone": "635.386.6420 x01686",
-    "MobilePhone": "305.063.6877",
-    "ContactPhone": "(055)162-0608",
-    "AssociateName": "Kub-Stanton",
-    "AssociateId": 329,
+    "ContactCountryId": 375,
+    "ContactOrgNr": "1259761",
+    "FaxPhone": "438-880-8724 x1266",
+    "MobilePhone": "1-174-205-4161 x2816",
+    "ContactPhone": "176.518.3173 x6221",
+    "AssociateName": "Schinner LLC",
+    "AssociateId": 828,
     "UsePersonAddress": true,
-    "ContactFax": "nobis",
-    "Kanafname": "hic",
-    "Kanalname": "ab",
-    "Post1": "placeat",
-    "Post2": "ipsum",
-    "Post3": "saepe",
-    "EmailName": "gillian@pagac.biz",
-    "ContactFullName": "Velva Reichert",
-    "ActiveErpLinks": 888,
-    "TicketPriorityId": 286,
-    "SupportLanguageId": 820,
-    "SupportAssociateId": 608,
+    "ContactFax": "modi",
+    "Kanafname": "et",
+    "Kanalname": "delectus",
+    "Post1": "quia",
+    "Post2": "possimus",
+    "Post3": "quia",
+    "EmailName": "carmel_hills@klocko.uk",
+    "ContactFullName": "Nayeli Ortiz",
+    "ActiveErpLinks": 731,
+    "TicketPriorityId": 837,
+    "SupportLanguageId": 314,
+    "SupportAssociateId": 328,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -452,24 +452,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   },
   "Deleted": false,
-  "Lastlogin": "1998-11-18T16:48:30.9029403+01:00",
-  "Lastlogout": "2000-06-26T16:48:30.9029403+02:00",
-  "EjUserId": 365,
-  "RequestSignature": "illo",
+  "Lastlogin": "2018-11-23T14:58:05.5570448+01:00",
+  "Lastlogout": "2021-07-25T14:58:05.5570448+02:00",
+  "EjUserId": 109,
+  "RequestSignature": "nostrum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": {},
-      "Value": "autem",
-      "DisplayValue": "eum",
+      "Value": "quod",
+      "DisplayValue": "autem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -477,15 +477,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     },
     {
       "Type": {},
-      "Value": "autem",
-      "DisplayValue": "eum",
+      "Value": "quod",
+      "DisplayValue": "autem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -493,30 +493,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     }
   ],
-  "UserName": "Harber-Feil",
+  "UserName": "Skiles, Swift and Harvey",
   "TicketCategories": [
     {
-      "Id": 955,
-      "Name": "Cummerata-Renner",
-      "ToolTip": "Animi et voluptate magni.",
+      "Id": 414,
+      "Name": "Halvorson Group",
+      "ToolTip": "Odit illum aut rerum libero.",
       "Deleted": true,
-      "Rank": 818,
-      "Type": "totam",
+      "Rank": 541,
+      "Type": "debitis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "officia",
-      "ColorBlock": 736,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "rerum",
-      "FullName": "Kelsie Hirthe",
+      "IconHint": "aut",
+      "ColorBlock": 52,
+      "ExtraInfo": "beatae",
+      "StyleHint": "reiciendis",
+      "FullName": "Danyka Bechtelar",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -524,39 +524,39 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldType": "System.String",
+          "FieldLength": 586
         }
       }
     }
   ],
-  "NickName": "Braun, Huels and Rippin",
-  "WaitingForApproval": false,
+  "NickName": "Crist-Kuhn",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "et",
+    "CustomFields2": "amet"
   },
   "PostSaveCommands": [
     {
-      "Name": "Streich Group",
-      "DisplayName": "Emard LLC",
-      "Description": "Innovative client-server frame",
-      "ToolTip": "Quis voluptatem perferendis eligendi.",
+      "Name": "Lakin-Bartell",
+      "DisplayName": "Lehner-Predovic",
+      "Description": "Versatile directional circuit",
+      "ToolTip": "Quia illum.",
       "Actions": "Implicit",
-      "ActionData": "alias",
+      "ActionData": "ea",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "incentivize viral ROI"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
@@ -572,7 +572,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 406
     }
   }
 }

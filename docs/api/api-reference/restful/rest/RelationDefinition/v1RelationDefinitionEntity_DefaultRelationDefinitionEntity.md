@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 999,
-  "Name": "Baumbach Group",
-  "Tooltip": "non",
-  "PassiveText": "quo",
+  "ReldefId": 651,
+  "Name": "Barton-Mayer",
+  "Tooltip": "dolor",
+  "PassiveText": "dignissimos",
   "Deleted": true,
-  "Rank": 817,
+  "Rank": 231,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

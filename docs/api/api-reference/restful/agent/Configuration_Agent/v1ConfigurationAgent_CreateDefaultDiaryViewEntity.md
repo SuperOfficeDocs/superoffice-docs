@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/CreateDefaultDiaryViewEntity
+title: CreateDefaultDiaryViewEntity
 id: v1ConfigurationAgent_CreateDefaultDiaryViewEntity
 ---
 
-# POST Agents/Configuration/CreateDefaultDiaryViewEntity
+# CreateDefaultDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -69,32 +69,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 357,
-  "Name": "Ernser, Funk and Paucek",
-  "Tooltip": "dolor",
-  "VisibleColumns": 18,
-  "Rank": 586,
-  "AssocId": 858,
+  "DiaryViewId": 299,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "nostrum",
+  "VisibleColumns": 112,
+  "Rank": 400,
+  "AssocId": 474,
   "AssociateList": [
     {
-      "Id": 764,
-      "Name": "Kihn, Hartmann and Streich",
-      "ToolTip": "Repudiandae natus explicabo sed velit.",
-      "Deleted": true,
-      "Rank": 509,
-      "Type": "sit",
-      "ColorBlock": 28,
-      "IconHint": "sed",
-      "Selected": true,
-      "LastChanged": "1997-02-22T16:48:29.0029243+01:00",
+      "Id": 599,
+      "Name": "Ortiz-Raynor",
+      "ToolTip": "Et modi nihil nihil sunt qui.",
+      "Deleted": false,
+      "Rank": 262,
+      "Type": "ut",
+      "ColorBlock": 707,
+      "IconHint": "cumque",
+      "Selected": false,
+      "LastChanged": "1995-09-26T14:58:03.5283103+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quam",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Caitlyn Turcotte",
+      "ExtraInfo": "quis",
+      "StyleHint": "unde",
+      "Hidden": true,
+      "FullName": "Effie Moore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -103,12 +103,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldLength": 193
         }
       }
     }
   ],
-  "TzLocationId": 912,
+  "TzLocationId": 558,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,10 +117,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "deliver web-enabled e-markets"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 6
     }
   }
 }

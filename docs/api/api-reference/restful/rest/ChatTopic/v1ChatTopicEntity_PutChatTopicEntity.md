@@ -56,22 +56,25 @@ The ChatTopicEntity to be saved.
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 
 
 ## Response: object
@@ -95,22 +98,25 @@ Response body: object
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -121,90 +127,106 @@ Response body: object
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 940,
-  "Name": "Jacobi Inc and Sons",
-  "Description": "Synchronised assymetric throughput",
-  "WelcomeMessage": "ratione",
+  "ChatTopicId": 53,
+  "Name": "Jast-Toy",
+  "Description": "Expanded high-level capability",
+  "WelcomeMessage": "aut",
   "Language": {
-    "Id": 654,
-    "Value": "ipsa",
-    "Tooltip": "iste"
+    "Id": 419,
+    "Value": "nam",
+    "Tooltip": "quibusdam"
   },
-  "LastAccept": "2008-11-21T09:40:58.8373714+01:00",
-  "SecondsPrAccept": 959,
-  "AlertRecipient": "autem",
+  "LastAccept": "2000-06-23T15:05:41.7740053+02:00",
+  "SecondsPrAccept": 140,
+  "AlertRecipient": "maxime",
   "AlertTemplate": {
-    "ReplyTemplateId": 226,
-    "Name": "Ziemann, Will and Schimmel",
-    "Description": "Synergized heuristic standardization",
-    "FolderId": 239
+    "ReplyTemplateId": 698,
+    "Name": "Hamill-Williamson",
+    "Description": "Distributed explicit throughput",
+    "FolderId": 29
   },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "ratione",
-  "CustomQueueText": "quod",
-  "WarnNewChatSeconds": 603,
-  "WarnManagerNewChatSeconds": 489,
+  "CollectConsent": false,
+  "BadgeHeader": "dolorum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dignissimos",
+  "WarnNewChatMinutes": 704,
+  "WarnManagerNewChatMinutes": 331,
   "TicketEnabled": false,
   "TicketCategory": {
-    "Id": 888,
-    "Value": "nostrum",
-    "Tooltip": "quo"
+    "Id": 433,
+    "Value": "nam",
+    "Tooltip": "labore"
   },
   "TicketPriority": {
-    "Id": 106,
-    "Value": "animi",
-    "Tooltip": "voluptate"
+    "Id": 177,
+    "Value": "aperiam",
+    "Tooltip": "inventore"
   },
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": {
     "TzLocation": {},
     "MonEnabled": false,
-    "MonStart": "2001-11-03T09:40:58.8373714+01:00",
-    "MonStop": "1997-10-26T09:40:58.8373714+01:00",
-    "TueEnabled": false,
-    "TueStart": "2015-02-18T09:40:58.8373714+01:00",
-    "TueStop": "2013-05-29T09:40:58.8373714+02:00",
+    "MonStart": "magni",
+    "MonStop": "ex",
+    "TueEnabled": true,
+    "TueStart": "quisquam",
+    "TueStop": "explicabo",
     "WedEnabled": true,
-    "WedStart": "2005-09-27T09:40:58.8373714+02:00",
-    "WedStop": "1999-10-07T09:40:58.8373714+02:00",
+    "WedStart": "rerum",
+    "WedStop": "accusamus",
     "ThuEnabled": false,
-    "ThuStart": "2012-07-06T09:40:58.8373714+02:00",
-    "ThuStop": "2006-12-01T09:40:58.8373714+01:00",
+    "ThuStart": "qui",
+    "ThuStop": "quasi",
     "FriEnabled": false,
-    "FriStart": "1994-01-09T09:40:58.8373714+01:00",
-    "FriStop": "1997-12-28T09:40:58.8373714+01:00",
-    "SatEnabled": true,
-    "SatStart": "2008-01-12T09:40:58.8373714+01:00",
-    "SatStop": "2021-02-28T09:40:58.8373714+01:00",
+    "FriStart": "eum",
+    "FriStop": "porro",
+    "SatEnabled": false,
+    "SatStart": "praesentium",
+    "SatStop": "similique",
     "SunEnabled": false,
-    "SunStart": "1994-03-08T09:40:58.8373714+01:00",
-    "SunStop": "2009-03-06T09:40:58.8373714+01:00"
+    "SunStart": "voluptatem",
+    "SunStop": "quos",
+    "UseLunchHours": true,
+    "LunchStart": "et",
+    "LunchStop": "beatae"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
     "PreFormEnabled": false,
-    "PreFormMessage": "quod",
+    "PreFormMessage": "debitis",
     "RequiredFields": "Company",
-    "PostFormEnabled": false,
-    "PostFormHeader": "consequatur",
-    "PostFormMessage": "ex",
-    "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "quas",
+    "PostFormEnabled": true,
+    "PostFormHeader": "ex",
+    "PostFormMessage": "laudantium",
+    "PostTranscriptEnabled": true,
+    "LanguageIsoCode": "illum",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "facere",
-    "Font": "et",
-    "ShowLogo": false,
-    "ShowAgentPhoto": false,
-    "WelcomeTitle": "nihil",
-    "WelcomeMessage": "similique",
-    "OfflineHeader": "unde",
-    "OfflineMessage": "et",
-    "OfflineFields": "Company"
+    "Color": "rem",
+    "Font": "repellat",
+    "LogoEnabled": true,
+    "LogoBlobId": 888,
+    "LogoName": "Jerde-Franecki",
+    "ShowAgentPhoto": true,
+    "WelcomeTitle": "porro",
+    "WelcomeMessage": "quod",
+    "OfflineHeader": "ea",
+    "OfflineMessage": "saepe",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": false
+  },
+  "BotEnabled": false,
+  "BotSettings": {
+    "BotName": "Wilderman-Homenick",
+    "BotRegisterScriptId": 332,
+    "BotSessionCreatedScriptId": 162,
+    "BotSessionChangedScriptId": 803,
+    "BotMessageReceivedScriptId": 90
   }
 }
 ```
@@ -214,14 +236,14 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 674,
-  "Name": "O'Keefe-Aufderhar",
-  "Description": "Re-contextualized well-modulated software",
-  "WelcomeMessage": "harum",
+  "ChatTopicId": 415,
+  "Name": "Goyette Group",
+  "Description": "Reactive interactive contingency",
+  "WelcomeMessage": "omnis",
   "Language": {
-    "Id": 192,
-    "Value": "ut",
-    "Tooltip": "soluta",
+    "Id": 415,
+    "Value": "soluta",
+    "Tooltip": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -230,29 +252,30 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldLength": 402
       }
     }
   },
-  "LastAccept": "1995-02-06T09:40:58.8393714+01:00",
-  "SecondsPrAccept": 566,
-  "AlertRecipient": "illum",
+  "LastAccept": "1999-03-06T15:05:41.7770049+01:00",
+  "SecondsPrAccept": 583,
+  "AlertRecipient": "quod",
   "AlertTemplate": {
-    "ReplyTemplateId": 46,
-    "Name": "West, Weissnat and Doyle",
-    "Description": "Stand-alone system-worthy contingency",
-    "FolderId": 968
+    "ReplyTemplateId": 315,
+    "Name": "Dooley-Murray",
+    "Description": "Configurable 24 hour interface",
+    "FolderId": 690
   },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "odit",
-  "CustomQueueText": "eum",
-  "WarnNewChatSeconds": 219,
-  "WarnManagerNewChatSeconds": 516,
+  "CollectConsent": false,
+  "BadgeHeader": "nihil",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "neque",
+  "WarnNewChatMinutes": 969,
+  "WarnManagerNewChatMinutes": 805,
   "TicketEnabled": false,
   "TicketCategory": {
-    "Id": 762,
-    "Value": "voluptas",
-    "Tooltip": "est",
+    "Id": 261,
+    "Value": "molestiae",
+    "Tooltip": "quibusdam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -260,15 +283,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 314
       }
     }
   },
   "TicketPriority": {
-    "Id": 84,
-    "Value": "accusantium",
-    "Tooltip": "nemo",
+    "Id": 1000,
+    "Value": "omnis",
+    "Tooltip": "repudiandae",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -277,56 +300,71 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 933
       }
     }
   },
   "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": true,
-    "MonStart": "1999-10-27T09:40:58.8393714+02:00",
-    "MonStop": "2000-06-01T09:40:58.8393714+02:00",
+    "MonEnabled": false,
+    "MonStart": "et",
+    "MonStop": "sint",
     "TueEnabled": true,
-    "TueStart": "2008-09-01T09:40:58.8393714+02:00",
-    "TueStop": "2010-03-12T09:40:58.8393714+01:00",
+    "TueStart": "voluptatem",
+    "TueStop": "excepturi",
     "WedEnabled": true,
-    "WedStart": "2019-12-26T09:40:58.8393714+01:00",
-    "WedStop": "2009-08-11T09:40:58.8393714+02:00",
-    "ThuEnabled": true,
-    "ThuStart": "2010-06-08T09:40:58.8393714+02:00",
-    "ThuStop": "2017-07-30T09:40:58.8393714+02:00",
+    "WedStart": "rerum",
+    "WedStop": "et",
+    "ThuEnabled": false,
+    "ThuStart": "asperiores",
+    "ThuStop": "sint",
     "FriEnabled": true,
-    "FriStart": "2008-07-13T09:40:58.8393714+02:00",
-    "FriStop": "2014-06-14T09:40:58.8393714+02:00",
+    "FriStart": "dolore",
+    "FriStop": "alias",
     "SatEnabled": true,
-    "SatStart": "1998-01-14T09:40:58.8393714+01:00",
-    "SatStop": "1999-03-07T09:40:58.8393714+01:00",
-    "SunEnabled": true,
-    "SunStart": "2012-06-21T09:40:58.8393714+02:00",
-    "SunStop": "2020-10-12T09:40:58.8393714+02:00"
+    "SatStart": "error",
+    "SatStop": "iusto",
+    "SunEnabled": false,
+    "SunStart": "incidunt",
+    "SunStop": "et",
+    "UseLunchHours": false,
+    "LunchStart": "illo",
+    "LunchStop": "molestiae"
   },
   "Widget": {
-    "AutoFaqEnabled": true,
+    "AutoFaqEnabled": false,
     "AutoFaqCategory": {},
-    "PreFormEnabled": true,
-    "PreFormMessage": "quod",
+    "PreFormEnabled": false,
+    "PreFormMessage": "officiis",
     "RequiredFields": "Company",
-    "PostFormEnabled": true,
-    "PostFormHeader": "sed",
-    "PostFormMessage": "tempore",
-    "PostTranscriptEnabled": true,
-    "LanguageIsoCode": "voluptas",
+    "PostFormEnabled": false,
+    "PostFormHeader": "reprehenderit",
+    "PostFormMessage": "aliquid",
+    "PostTranscriptEnabled": false,
+    "LanguageIsoCode": "qui",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "alias",
-    "Font": "et",
-    "ShowLogo": true,
-    "ShowAgentPhoto": true,
-    "WelcomeTitle": "exercitationem",
-    "WelcomeMessage": "dolorem",
-    "OfflineHeader": "assumenda",
-    "OfflineMessage": "optio",
-    "OfflineFields": "Company"
+    "Color": "dolorem",
+    "Font": "eius",
+    "LogoEnabled": true,
+    "LogoBlobId": 954,
+    "LogoName": "Yundt LLC",
+    "ShowAgentPhoto": false,
+    "WelcomeTitle": "et",
+    "WelcomeMessage": "sint",
+    "OfflineHeader": "minus",
+    "OfflineMessage": "deleniti",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": false
+  },
+  "BotEnabled": false,
+  "BotSettings": {
+    "BotName": "Hilpert, White and Bashirian",
+    "BotRegisterScriptId": 338,
+    "BotSessionCreatedScriptId": 744,
+    "BotSessionChangedScriptId": 995,
+    "BotMessageReceivedScriptId": 924
   },
   "TableRight": {
     "Mask": "Delete",
@@ -338,13 +376,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 217
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

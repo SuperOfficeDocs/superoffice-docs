@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/CreateRestrictionGroup
+title: CreateRestrictionGroup
 id: v1FindAgent_CreateRestrictionGroup
 ---
 
-# POST Agents/Find/CreateRestrictionGroup
+# CreateRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/CreateRestrictionGroup
@@ -77,14 +77,14 @@ Response body: object
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Robel LLC",
-  "StorageKey": "blanditiis",
-  "Context": "corporis"
+  "StorageType": "doloribus",
+  "ProviderName": "Reichert-Fisher",
+  "StorageKey": "sit",
+  "Context": "sint"
 }
 ```
 
@@ -93,20 +93,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hyatt, Heathcote and Reinger",
-  "Description": "Customer-focused mission-critical capability",
-  "Rank": 789,
+  "Name": "Monahan-Gislason",
+  "Description": "Centralized client-server monitoring",
+  "Rank": 230,
   "Restrictions": [
     {
-      "Name": "Dach-Bruen",
-      "Operator": "perferendis",
+      "Name": "D'Amore-Larkin",
+      "Operator": "sunt",
       "Values": [
-        "iusto",
-        "nesciunt"
+        "provident",
+        "eveniet"
       ],
       "DisplayValues": [
-        "id",
-        "voluptatibus"
+        "aliquid",
+        "ex"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -114,9 +114,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 31,
+      "InterParenthesis": 395,
       "InterOperator": "And",
-      "UniqueHash": 318
+      "UniqueHash": 297
     }
   ]
 }

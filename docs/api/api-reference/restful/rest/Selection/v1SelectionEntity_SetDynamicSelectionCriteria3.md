@@ -98,58 +98,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reilly Inc and Sons",
-    "Operator": "distinctio",
+    "Name": "O'Kon-Bayer",
+    "Operator": "eveniet",
     "Values": [
-      "sapiente",
-      "molestiae"
+      "fuga",
+      "ratione"
     ],
     "DisplayValues": [
-      "qui",
-      "ex"
+      "voluptatem",
+      "qui"
     ],
     "ColumnInfo": {
-      "DisplayName": "Nolan, Tillman and Bogan",
-      "DisplayTooltip": "nulla",
-      "DisplayType": "officiis",
+      "DisplayName": "Hoeger-Watsica",
+      "DisplayTooltip": "doloremque",
+      "DisplayType": "debitis",
       "CanOrderBy": false,
-      "Name": "Veum-Howell",
-      "CanRestrictBy": false,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Langworth, Baumbach and Rowe",
+      "Name": "Wehner Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "dolorum",
+      "RestrictionListName": "Wehner Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "temporibus",
-      "Width": "reiciendis",
-      "IconHint": "dolorem",
-      "HeadingIconHint": "nobis"
+      "ExtraInfo": "dolor",
+      "Width": "et",
+      "IconHint": "rerum",
+      "HeadingIconHint": "voluptatum"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Blanda-Blanda",
-        "Operator": "vel",
+        "Name": "Carroll, Homenick and Nader",
+        "Operator": "officia",
         "Values": [
-          "molestiae",
-          "quia"
+          "quod",
+          "ex"
         ],
         "DisplayValues": [
-          "officia",
-          "tempora"
+          "laboriosam",
+          "fugit"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 306,
+        "InterParenthesis": 173,
         "InterOperator": "And",
-        "UniqueHash": 689
+        "UniqueHash": 173
       }
     ],
-    "InterParenthesis": 951,
+    "InterParenthesis": 282,
     "InterOperator": "And",
-    "UniqueHash": 520
+    "UniqueHash": 716
   }
 ]
 ```
@@ -160,58 +160,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert Group",
-    "Operator": "sed",
+    "Name": "Zboncak Inc and Sons",
+    "Operator": "vel",
     "Values": [
-      "perferendis",
-      "minus"
+      "qui",
+      "voluptates"
     ],
     "DisplayValues": [
-      "quisquam",
-      "tempora"
+      "rerum",
+      "commodi"
     ],
     "ColumnInfo": {
-      "DisplayName": "Turner Group",
-      "DisplayTooltip": "quam",
-      "DisplayType": "et",
+      "DisplayName": "Osinski LLC",
+      "DisplayTooltip": "placeat",
+      "DisplayType": "maiores",
       "CanOrderBy": false,
-      "Name": "Fisher Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "reprehenderit",
-      "RestrictionListName": "Runolfsdottir, Hackett and Mertz",
+      "Name": "Tromp-Pfannerstill",
+      "CanRestrictBy": true,
+      "RestrictionType": "tenetur",
+      "RestrictionListName": "Hintz-Sipes",
       "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "adipisci",
-      "IconHint": "illo",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "odit",
+      "Width": "sequi",
+      "IconHint": "officia",
+      "HeadingIconHint": "aut"
     },
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Padberg Group",
-        "Operator": "laborum",
+        "Name": "Littel, Erdman and Funk",
+        "Operator": "placeat",
         "Values": [
-          "at",
-          "voluptatibus"
+          "vitae",
+          "cumque"
         ],
         "DisplayValues": [
-          "nulla",
-          "eligendi"
+          "et",
+          "cumque"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 855,
+        "InterParenthesis": 573,
         "InterOperator": "And",
-        "UniqueHash": 704
+        "UniqueHash": 513
       }
     ],
-    "InterParenthesis": 621,
+    "InterParenthesis": 701,
     "InterOperator": "And",
-    "UniqueHash": 577
+    "UniqueHash": 226
   }
 ]
 ```

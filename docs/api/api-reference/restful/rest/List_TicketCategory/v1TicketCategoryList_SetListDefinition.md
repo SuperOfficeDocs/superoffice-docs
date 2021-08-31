@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Satterfield Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 684,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 909,
+  "Name": "Krajcik-Bergnaum",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 939,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Huels-McKenzie",
-  "Tooltip": "nihil",
+  "Id": 382,
+  "Name": "Marquardt-Kiehn",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 65,
+  "Rank": 10,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "error",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "leverage sexy web-readiness"
       },
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   }
 }

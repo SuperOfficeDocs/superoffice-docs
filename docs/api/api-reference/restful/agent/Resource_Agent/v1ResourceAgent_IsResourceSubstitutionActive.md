@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Resource/IsResourceSubstitutionActive
+title: IsResourceSubstitutionActive
 id: v1ResourceAgent_IsResourceSubstitutionActive
 ---
 
-# POST Agents/Resource/IsResourceSubstitutionActive
+# IsResourceSubstitutionActive
 
 ```http
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
@@ -77,15 +77,15 @@ Response body: array
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "O'Keefe-Hettinger",
-    "Schulist Inc and Sons"
+    "O'Conner-Wintheiser",
+    "Rogahn, Wuckert and Beahan"
   ],
-  "Culture": "fuga"
+  "Culture": "et"
 }
 ```
 
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Becker Group",
-    "ResourceValue": "eum",
-    "Culture": "corrupti",
+    "ResourceName": "Pouros, Ondricka and Swift",
+    "ResourceValue": "et",
+    "Culture": "ducimus",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   },
   {
-    "ResourceName": "Becker Group",
-    "ResourceValue": "eum",
-    "Culture": "corrupti",
+    "ResourceName": "Pouros, Ondricka and Swift",
+    "ResourceValue": "et",
+    "Culture": "ducimus",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPublishedProjectAppointments
+title: GetPublishedProjectAppointments
 id: v1AppointmentAgent_GetPublishedProjectAppointments
 ---
 
-# POST Agents/Appointment/GetPublishedProjectAppointments
+# GetPublishedProjectAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 517
+  "ProjectId": 92
 }
 ```
 
@@ -135,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 97,
-    "StartDate": "1996-03-04T16:48:28.4864537+01:00",
-    "EndDate": "2021-03-12T16:48:28.4864537+01:00",
+    "AppointmentId": 61,
+    "StartDate": "2017-06-22T14:58:02.8825741+02:00",
+    "EndDate": "2014-08-08T14:58:02.8825741+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Mrs. Corene Harber",
-    "ContactName": "Bergnaum-Effertz",
-    "Description": "Down-sized neutral groupware",
-    "PersonFullName": "Ethelyn Koepp",
-    "PersonId": 460,
-    "ContactId": 117,
-    "ProjectId": 198,
-    "ProjectName": "Schumm-Raynor",
-    "IsPublished": true,
-    "AssociateId": 952,
-    "ColorIndex": 671,
+    "Task": "repudiandae",
+    "AssociateFullName": "Dariana Heaney",
+    "ContactName": "Labadie-Haag",
+    "Description": "Virtual directional array",
+    "PersonFullName": "Lucio Volkman",
+    "PersonId": 137,
+    "ContactId": 216,
+    "ProjectId": 335,
+    "ProjectName": "Littel LLC",
+    "IsPublished": false,
+    "AssociateId": 554,
+    "ColorIndex": 557,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 959,
-    "PriorityName": "Hauck Inc and Sons",
+    "PriorityId": 732,
+    "PriorityName": "Schimmel, Mueller and Stracke",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-04-23T16:48:28.4874503+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1997-05-13T14:58:02.8825741+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-08-06T16:48:28.4874503+02:00",
-    "RecurringEndDate": "2018-01-17T16:48:28.4874503+01:00",
-    "MotherId": 172,
-    "AssignedBy": 748,
-    "AssignedByFullName": "Travis Grady",
+    "RecurringStartDate": "2008-10-24T14:58:02.8825741+02:00",
+    "RecurringEndDate": "2008-02-13T14:58:02.8825741+01:00",
+    "MotherId": 118,
+    "AssignedBy": 587,
+    "AssignedByFullName": "Jayne Purdy",
     "RejectReason": "",
-    "Location": "eveniet",
-    "AlarmLeadTime": "sit",
-    "SaleId": 128,
-    "SaleName": "Langosh, Hegmann and Kautzer",
-    "AssociateName": "Hane Group",
-    "CreatedDate": "2018-04-15T16:48:28.4874503+02:00",
-    "CreatedBy": "debitis",
-    "CreatedByFullName": "Ryleigh Wuckert",
-    "CreatedByAssociateId": 742,
+    "Location": "maxime",
+    "AlarmLeadTime": "id",
+    "SaleId": 373,
+    "SaleName": "Hermann-Ortiz",
+    "AssociateName": "Fisher-Deckow",
+    "CreatedDate": "2000-05-25T14:58:02.8825741+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Delphia Schumm",
+    "CreatedByAssociateId": 731,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 740
       }
     }
   }

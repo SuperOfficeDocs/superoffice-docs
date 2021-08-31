@@ -87,7 +87,7 @@ Response body: object
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -95,17 +95,17 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 625,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Kulas-Dooley",
-  "Description": "Fundamental incremental extranet",
-  "IncludeId": "earum",
-  "HierarchyId": 739,
-  "Source": "nulla",
-  "Registered": "1998-11-11T09:40:59.0578844+01:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "1997-01-25T09:40:59.0578844+01:00",
-  "UpdatedAssociateId": 845,
+  "EjscriptId": 541,
+  "UniqueIdentifier": "repudiandae",
+  "Name": "Fahey-McDermott",
+  "Description": "Multi-tiered holistic framework",
+  "IncludeId": "porro",
+  "HierarchyId": 725,
+  "Source": "quis",
+  "Registered": "2011-01-15T15:05:42.0250026+01:00",
+  "RegisteredAssociateId": 325,
+  "Updated": "2016-09-14T15:05:42.0250026+02:00",
+  "UpdatedAssociateId": 167,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   },
   "_Links": {

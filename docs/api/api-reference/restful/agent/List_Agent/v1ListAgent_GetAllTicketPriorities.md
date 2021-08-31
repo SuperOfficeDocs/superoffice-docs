@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllTicketPriorities
+title: GetAllTicketPriorities
 id: v1ListAgent_GetAllTicketPriorities
 ---
 
-# POST Agents/List/GetAllTicketPriorities
+# GetAllTicketPriorities
 
 ```http
 POST /api/v1/Agents/List/GetAllTicketPriorities
@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,39 +113,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 584,
-    "Name": "Weimann-Senger",
+    "TicketPriorityId": 719,
+    "Name": "Dickens Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 350,
+    "SortOrder": 659,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 56,
-    "MonStart": "1995-11-25T16:48:29.7529267+01:00",
-    "MonStop": "2000-03-24T16:48:29.7529267+01:00",
-    "TueStart": "1998-12-12T16:48:29.7529267+01:00",
-    "TueStop": "1996-07-15T16:48:29.7529267+02:00",
-    "WedStart": "1994-06-13T16:48:29.7529267+02:00",
-    "WedStop": "2018-10-30T16:48:29.7529267+01:00",
-    "ThuStart": "2003-12-08T16:48:29.7529267+01:00",
-    "ThuStop": "2020-03-20T16:48:29.7529267+01:00",
-    "FriStart": "2001-11-30T16:48:29.7529267+01:00",
-    "FriStop": "2004-04-12T16:48:29.7529267+02:00",
-    "SatStart": "1996-11-06T16:48:29.7529267+01:00",
-    "SatStop": "2020-05-21T16:48:29.7529267+02:00",
-    "SunStart": "2013-10-05T16:48:29.7529267+02:00",
-    "SunStop": "2002-03-19T16:48:29.7529267+01:00",
+    "Deadline": 908,
+    "MonStart": "2014-01-16T14:58:04.377465+01:00",
+    "MonStop": "1996-05-17T14:58:04.3784651+02:00",
+    "TueStart": "1995-07-03T14:58:04.3784651+02:00",
+    "TueStop": "2015-02-19T14:58:04.3784651+01:00",
+    "WedStart": "2001-09-22T14:58:04.3784651+02:00",
+    "WedStop": "2018-08-04T14:58:04.3784651+02:00",
+    "ThuStart": "2012-03-22T14:58:04.3784651+01:00",
+    "ThuStop": "1999-04-16T14:58:04.3784651+02:00",
+    "FriStart": "2014-05-11T14:58:04.3784651+02:00",
+    "FriStop": "2013-05-29T14:58:04.3784651+02:00",
+    "SatStart": "2008-04-29T14:58:04.3784651+02:00",
+    "SatStop": "2012-03-16T14:58:04.3784651+01:00",
+    "SunStart": "2001-07-08T14:58:04.3784651+02:00",
+    "SunStop": "2015-12-04T14:58:04.3784651+01:00",
     "NonDates": [
-      "veniam",
-      "aspernatur"
+      "assumenda",
+      "tenetur"
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "implement extensible systems"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 604
       }
     }
   }

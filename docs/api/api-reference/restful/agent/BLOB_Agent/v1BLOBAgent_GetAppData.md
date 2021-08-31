@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetAppData
+title: GetAppData
 id: v1BLOBAgent_GetAppData
 ---
 
-# POST Agents/BLOB/GetAppData
+# GetAppData
 
 ```http
 POST /api/v1/Agents/BLOB/GetAppData
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "culpa"
+  "Key": "autem"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quos"
+"nesciunt"
 ```

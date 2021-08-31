@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Lehner-Ryan",
+  "Id": 597,
+  "Name": "Wilkinson, Champlin and Runte",
   "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 237,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Deleted": false,
+  "Rank": 644,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "in",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,12 +97,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 754
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

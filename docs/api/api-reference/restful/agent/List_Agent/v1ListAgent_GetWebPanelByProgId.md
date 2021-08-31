@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetWebPanelByProgId
+title: GetWebPanelByProgId
 id: v1ListAgent_GetWebPanelByProgId
 ---
 
-# POST Agents/List/GetWebPanelByProgId
+# GetWebPanelByProgId
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelByProgId
@@ -97,11 +97,11 @@ Response body: object
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "vitae"
+  "ProgId": "praesentium"
 }
 ```
 
@@ -110,26 +110,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 156,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 108,
+  "WebPanelId": 543,
+  "Name": "Shields Group",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 66,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Nikolaus, Hayes and Dach",
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Nikolaus-Emmerich",
   "Url": "http://www.example.com/",
-  "ProgId": "esse",
-  "Icon": 246,
+  "ProgId": "in",
+  "Icon": 341,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -138,10 +138,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark mission-critical models"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

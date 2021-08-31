@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParametersByLayoutName
+title: GetConfigParametersByLayoutName
 id: v1AudienceAgent_GetConfigParametersByLayoutName
 ---
 
-# POST Agents/Audience/GetConfigParametersByLayoutName
+# GetConfigParametersByLayoutName
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Bosco, Wintheiser and Ullrich"
+  "LayoutName": "Jenkins LLC"
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 395,
-    "Name": "Wilderman LLC",
-    "Value": "ea",
-    "CreatedDate": "2001-10-18T16:48:28.7682014+02:00",
-    "UpdatedDate": "2017-12-19T16:48:28.7682014+01:00",
-    "CreatedBy": "dicta",
-    "UpdatedBy": "aut",
+    "AudienceLayoutId": 325,
+    "Name": "Thompson-Aufderhar",
+    "Value": "nam",
+    "CreatedDate": "2019-03-24T14:58:03.2592353+01:00",
+    "UpdatedDate": "2021-03-06T14:58:03.2592353+01:00",
+    "CreatedBy": "hic",
+    "UpdatedBy": "recusandae",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,10 +108,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "brand user-centric functionalities"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

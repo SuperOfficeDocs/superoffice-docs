@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Mueller, Goodwin and Feeney",
-    "ToolTip": "Quam quibusdam velit.",
-    "Deleted": true,
-    "Rank": 620,
-    "Type": "illo",
-    "ColorBlock": 269,
-    "IconHint": "odio",
+    "Id": 232,
+    "Name": "White-Walter",
+    "ToolTip": "Voluptatem aut minus voluptatem porro et dolorem.",
+    "Deleted": false,
+    "Rank": 808,
+    "Type": "itaque",
+    "ColorBlock": 576,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2021-01-04T09:41:00.3313819+01:00",
+    "LastChanged": "1999-12-03T15:05:43.4025101+01:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Huel-Kemmer",
-        "ToolTip": "Ut facere consequatur autem expedita officiis.",
+        "Id": 968,
+        "Name": "Stroman-Conn",
+        "ToolTip": "Earum accusamus.",
         "Deleted": true,
-        "Rank": 504,
-        "Type": "veniam",
-        "ColorBlock": 512,
-        "IconHint": "soluta",
+        "Rank": 140,
+        "Type": "totam",
+        "ColorBlock": 444,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2017-11-18T09:41:00.3313819+01:00",
+        "LastChanged": "2011-06-25T15:05:43.4025101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "rem",
-        "Hidden": true,
-        "FullName": "Camille Reichert"
+        "ExtraInfo": "dolores",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Pedro Parker"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Vicente Klocko"
+    "ExtraInfo": "aut",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Eva Wuckert"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Cartwright-McDermott",
-    "ToolTip": "Sunt debitis doloribus ducimus.",
-    "Deleted": false,
-    "Rank": 33,
-    "Type": "aut",
-    "ColorBlock": 458,
-    "IconHint": "aliquam",
+    "Id": 234,
+    "Name": "Schulist, Smitham and Rath",
+    "ToolTip": "Ad recusandae rem.",
+    "Deleted": true,
+    "Rank": 773,
+    "Type": "accusantium",
+    "ColorBlock": 777,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "1995-08-23T09:41:00.3323815+02:00",
+    "LastChanged": "2021-01-22T15:05:43.4045102+01:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Adams LLC",
-        "ToolTip": "Tempora quia fugit eligendi unde odit.",
+        "Id": 668,
+        "Name": "Walter-Gibson",
+        "ToolTip": "Consequatur qui nihil.",
         "Deleted": true,
-        "Rank": 939,
-        "Type": "perferendis",
-        "ColorBlock": 769,
+        "Rank": 394,
+        "Type": "nam",
+        "ColorBlock": 607,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-08-08T09:41:00.3323815+02:00",
+        "LastChanged": "2000-11-30T15:05:43.4045102+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "non",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kenyatta Gibson",
+        "FullName": "Zachery Smith",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldType": "System.String",
+            "FieldLength": 186
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "repellat",
+    "StyleHint": "neque",
     "Hidden": true,
-    "FullName": "Lysanne Tremblay I",
+    "FullName": "Bo Braun",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 103
       }
     }
   }

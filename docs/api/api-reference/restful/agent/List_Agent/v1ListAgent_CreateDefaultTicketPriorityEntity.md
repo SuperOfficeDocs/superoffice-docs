@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultTicketPriorityEntity
+title: CreateDefaultTicketPriorityEntity
 id: v1ListAgent_CreateDefaultTicketPriorityEntity
 ---
 
-# POST Agents/List/CreateDefaultTicketPriorityEntity
+# CreateDefaultTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
@@ -85,7 +85,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -93,35 +93,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 944,
-  "Name": "Jakubowski-Littel",
+  "TicketPriorityId": 151,
+  "Name": "Bailey LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 871,
+  "SortOrder": 694,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 814,
-  "MonStart": "2005-03-17T16:48:29.9469246+01:00",
-  "MonStop": "1994-07-02T16:48:29.9469246+02:00",
-  "TueStart": "1998-12-08T16:48:29.9469246+01:00",
-  "TueStop": "2000-05-02T16:48:29.9469246+02:00",
-  "WedStart": "2006-07-14T16:48:29.9469246+02:00",
-  "WedStop": "1995-01-10T16:48:29.9469246+01:00",
-  "ThuStart": "2013-01-12T16:48:29.9469246+01:00",
-  "ThuStop": "1999-06-17T16:48:29.9469246+02:00",
-  "FriStart": "2019-07-25T16:48:29.9469246+02:00",
-  "FriStop": "2004-11-01T16:48:29.9469246+01:00",
-  "SatStart": "2008-09-12T16:48:29.9469246+02:00",
-  "SatStop": "2001-08-12T16:48:29.9469246+02:00",
-  "SunStart": "2020-09-27T16:48:29.9469246+02:00",
-  "SunStop": "2006-05-31T16:48:29.9469246+02:00",
+  "Deadline": 561,
+  "MonStart": "2004-01-14T14:58:04.4534313+01:00",
+  "MonStop": "2017-09-02T14:58:04.4534313+02:00",
+  "TueStart": "2012-05-27T14:58:04.4534313+02:00",
+  "TueStop": "2012-04-28T14:58:04.4534313+02:00",
+  "WedStart": "1996-05-03T14:58:04.4534313+02:00",
+  "WedStop": "2012-12-17T14:58:04.4534313+01:00",
+  "ThuStart": "2003-03-26T14:58:04.4534313+01:00",
+  "ThuStop": "2001-08-06T14:58:04.4534313+02:00",
+  "FriStart": "2004-07-03T14:58:04.4534313+02:00",
+  "FriStop": "2004-03-02T14:58:04.4534313+01:00",
+  "SatStart": "1996-01-08T14:58:04.4534313+01:00",
+  "SatStop": "2006-07-04T14:58:04.4534313+02:00",
+  "SunStart": "2000-10-12T14:58:04.4534313+02:00",
+  "SunStop": "2000-04-22T14:58:04.4534313+02:00",
   "NonDates": [
-    "ut",
-    "dicta"
+    "numquam",
+    "eum"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldLength": 686
     }
   }
 }

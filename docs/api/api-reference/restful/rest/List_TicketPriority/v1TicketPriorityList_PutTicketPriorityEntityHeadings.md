@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 307,
-    "Name": "Jacobi-Christiansen",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 820,
-    "UdListDefinitionId": 540
+    "HeadingId": 963,
+    "Name": "Jewess LLC",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 730,
+    "UdListDefinitionId": 913
   },
   {
-    "HeadingId": 307,
-    "Name": "Jacobi-Christiansen",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 820,
-    "UdListDefinitionId": 540
+    "HeadingId": 963,
+    "Name": "Jewess LLC",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 730,
+    "UdListDefinitionId": 913
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 769,
-    "Name": "Thiel, Ankunding and Rosenbaum",
-    "Tooltip": "rerum",
+    "HeadingId": 673,
+    "Name": "Gorczany, Reinger and Collins",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 578,
-    "UdListDefinitionId": 295,
+    "Rank": 50,
+    "UdListDefinitionId": 577,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldLength": 487
       }
     }
   }

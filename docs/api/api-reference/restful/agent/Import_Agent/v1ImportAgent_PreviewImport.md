@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Import/PreviewImport
+title: PreviewImport
 id: v1ImportAgent_PreviewImport
 ---
 
-# POST Agents/Import/PreviewImport
+# PreviewImport
 
 ```http
 POST /api/v1/Agents/Import/PreviewImport
@@ -80,38 +80,38 @@ Response body: array
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "ipsa",
-        "quaerat"
+        "quasi",
+        "et"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "cum"
+      "ExternalKey": "sequi"
     },
     {
       "Values": [
-        "ipsa",
-        "quaerat"
+        "quasi",
+        "et"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "cum"
+      "ExternalKey": "sequi"
     }
   ],
   "ColumnDefinition": [
-    "nesciunt",
-    "veniam"
+    "saepe",
+    "veritatis"
   ],
-  "Culture": "soluta",
-  "Context": "voluptas"
+  "Culture": "natus",
+  "Context": "nisi"
 }
 ```
 
@@ -123,15 +123,15 @@ Content-Type: application/json; charset=utf-8
   {
     "Values": [
       "aliquid",
-      "nihil"
+      "autem"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "consequatur",
+    "ExternalKey": "necessitatibus",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "drive front-end supply-chains"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldType": "System.String",
+        "FieldLength": 248
       }
     }
   }

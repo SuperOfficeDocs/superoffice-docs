@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 404,
-    "ColumnId": 664,
-    "FieldDefault": "debitis",
-    "FieldHeight": 306,
-    "FieldLabel": "deserunt",
-    "FieldLeft": 941,
-    "FieldTop": 687,
+    "UDefFieldId": 932,
+    "ColumnId": 888,
+    "FieldDefault": "accusantium",
+    "FieldHeight": 266,
+    "FieldLabel": "harum",
+    "FieldLeft": 864,
+    "FieldTop": 71,
     "FieldType": "Checkbox",
-    "FieldWidth": 572,
-    "FormatMask": "suscipit",
+    "FieldWidth": 470,
+    "FormatMask": "corrupti",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 747,
-    "LabelLeft": 657,
-    "LabelTop": 137,
-    "LabelWidth": 325,
-    "LastVersionId": 183,
-    "ListTableId": 716,
+    "IsIndexed": true,
+    "LabelHeight": 325,
+    "LabelLeft": 957,
+    "LabelTop": 145,
+    "LabelWidth": 84,
+    "LastVersionId": 711,
+    "ListTableId": 760,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 79,
-    "ProgId": "quia",
-    "IsReadOnly": true,
-    "ShortLabel": "delectus",
-    "TabOrder": 962,
-    "TextLength": 856,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 296,
-    "UDListDefinitionId": 742,
+    "Page1LineNo": 295,
+    "ProgId": "atque",
+    "IsReadOnly": false,
+    "ShortLabel": "esse",
+    "TabOrder": 649,
+    "TextLength": 648,
+    "Tooltip": "nostrum",
+    "UdefIdentity": 999,
+    "UDListDefinitionId": 882,
     "Justification": "Center",
-    "Version": 303,
-    "TemplateVariableName": "Little-Wintheiser",
-    "HasBeenPublished": true,
-    "MdoListName": "Becker LLC",
+    "Version": 422,
+    "TemplateVariableName": "Walter Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Hammes LLC",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldLength": 24
       }
     }
   }

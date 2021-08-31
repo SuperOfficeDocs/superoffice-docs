@@ -62,6 +62,7 @@ The updated information to save.
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 
 
 ## Response: object
@@ -101,6 +102,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -114,29 +116,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Dietrich-Rogahn",
-  "AssociateId": 822,
-  "DetailsTable": 311,
-  "DetailsRecord": 619,
+  "Id": 151,
+  "Name": "Wolff Group",
+  "AssociateId": 112,
+  "DetailsTable": 683,
+  "DetailsRecord": 401,
   "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "tenetur",
-    "ParameterObject2": "accusamus"
+    "ParameterObject1": "et",
+    "ParameterObject2": "quisquam"
   },
-  "LastStarted": "2001-10-22T09:40:59.9150653+02:00",
-  "Created": "2014-07-31T09:40:59.9150653+02:00",
-  "StartCount": 970,
-  "DatabaseSerialNumber": "1630833",
-  "Context": "ipsa",
-  "Result": "excepturi",
+  "LastStarted": "2010-03-15T15:05:42.9696325+01:00",
+  "Created": "2001-10-21T15:05:42.9696325+02:00",
+  "StartCount": 678,
+  "DatabaseSerialNumber": "1239734",
+  "Context": "molestiae",
+  "Result": "cumque",
   "State": "All",
-  "Description": "Triple-buffered impactful leverage",
-  "Response": "totam",
-  "Request": "officia",
-  "ProgressDescription": "Reduced dedicated budgetary management",
-  "ProgressPercent": 745
+  "Description": "Diverse holistic database",
+  "Response": "quasi",
+  "Request": "eos",
+  "ProgressDescription": "Pre-emptive composite time-frame",
+  "ProgressPercent": 593,
+  "FileName": "Klein-Denesik"
 }
 ```
 
@@ -145,29 +148,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 476,
-  "Name": "Kling LLC",
-  "AssociateId": 269,
-  "DetailsTable": 920,
-  "DetailsRecord": 66,
+  "Id": 599,
+  "Name": "Luettgen Inc and Sons",
+  "AssociateId": 31,
+  "DetailsTable": 930,
+  "DetailsRecord": 927,
   "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "earum",
-    "ParameterObject2": "sed"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "maiores"
   },
-  "LastStarted": "2009-10-01T09:40:59.9150653+02:00",
-  "Created": "2002-10-24T09:40:59.9150653+02:00",
-  "StartCount": 719,
-  "DatabaseSerialNumber": "257275",
-  "Context": "enim",
-  "Result": "maiores",
+  "LastStarted": "2016-10-10T15:05:42.9706324+02:00",
+  "Created": "2021-04-03T15:05:42.9706324+02:00",
+  "StartCount": 741,
+  "DatabaseSerialNumber": "1194733",
+  "Context": "exercitationem",
+  "Result": "sed",
   "State": "All",
-  "Description": "Reactive heuristic core",
-  "Response": "aut",
-  "Request": "voluptatem",
-  "ProgressDescription": "Cross-platform methodical frame",
-  "ProgressPercent": 696,
+  "Description": "Proactive mobile productivity",
+  "Response": "repellendus",
+  "Request": "atque",
+  "ProgressDescription": "Digitized executive algorithm",
+  "ProgressPercent": 398,
+  "FileName": "Shields, Sanford and Schamberger",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -178,8 +182,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

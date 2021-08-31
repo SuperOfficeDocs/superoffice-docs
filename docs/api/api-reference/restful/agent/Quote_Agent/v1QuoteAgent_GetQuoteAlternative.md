@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteAlternative
+title: GetQuoteAlternative
 id: v1QuoteAgent_GetQuoteAlternative
 ---
 
-# POST Agents/Quote/GetQuoteAlternative
+# GetQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternative
@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=864
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=54
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 723,
-  "ERPQuoteAlternativeKey": "magni",
-  "QuoteVersionId": 172,
-  "Name": "Feil-Hermiston",
-  "Description": "Business-focused reciprocal project",
+  "QuoteAlternativeId": 386,
+  "ERPQuoteAlternativeKey": "molestias",
+  "QuoteVersionId": 444,
+  "Name": "Vandervort LLC",
+  "Description": "Visionary attitude-oriented project",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17340.422,
-  "ERPDiscountAmount": 29017.706,
-  "DiscountPercent": 29882.69,
-  "DiscountAmount": 13065.645999999999,
+  "ERPDiscountPercent": 25363.462,
+  "ERPDiscountAmount": 20765.884,
+  "DiscountPercent": 23856.007999999998,
+  "DiscountAmount": 15165.426,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "debitis",
-  "VAT": 27770.374,
-  "EarningPercent": 3817.212,
-  "EarningAmount": 3647.9759999999997,
-  "SubTotal": 6362.0199999999995,
-  "TotalPrice": 7490.2599999999993,
-  "ExtraField1": "eum",
-  "ExtraField2": "sed",
-  "ExtraField3": "sed",
-  "ExtraField4": "earum",
-  "ExtraField5": "quia",
+  "VATInfo": "non",
+  "VAT": 968.406,
+  "EarningPercent": 18565.816,
+  "EarningAmount": 2441.386,
+  "SubTotal": 20712.606,
+  "TotalPrice": 3870.49,
+  "ExtraField1": "consequatur",
+  "ExtraField2": "nihil",
+  "ExtraField3": "aspernatur",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "doloremque",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

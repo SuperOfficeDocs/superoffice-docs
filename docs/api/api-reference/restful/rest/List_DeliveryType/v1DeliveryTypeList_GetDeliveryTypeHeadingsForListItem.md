@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Beer-Kessler",
-    "ToolTip": "Eum ipsum.",
-    "Deleted": true,
-    "Rank": 824,
-    "Type": "reiciendis",
-    "ColorBlock": 185,
-    "IconHint": "a",
-    "Selected": true,
-    "LastChanged": "1998-08-02T09:41:00.3663541+02:00",
+    "Id": 25,
+    "Name": "Carter-Kovacek",
+    "ToolTip": "Accusantium eveniet qui quos odit dolores.",
+    "Deleted": false,
+    "Rank": 89,
+    "Type": "dolor",
+    "ColorBlock": 298,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "1995-06-13T15:05:43.4375101+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Braun-Yost",
-        "ToolTip": "Sit earum nihil neque cumque iusto.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "magni",
-        "ColorBlock": 817,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1999-02-07T09:41:00.3663541+01:00",
+        "Id": 807,
+        "Name": "Gleichner-Armstrong",
+        "ToolTip": "Libero qui tenetur suscipit.",
+        "Deleted": true,
+        "Rank": 437,
+        "Type": "vel",
+        "ColorBlock": 8,
+        "IconHint": "suscipit",
+        "Selected": false,
+        "LastChanged": "2021-06-11T15:05:43.4375101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "nam",
+        "ExtraInfo": "sed",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Ms. Adam Runolfsdottir",
+        "FullName": "Mr. Breana Nikolaus",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "embrace real-time web-readiness"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldType": "System.String",
+            "FieldLength": 353
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "facilis",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Paula Pollich",
+    "FullName": "Miss Troy Franecki",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

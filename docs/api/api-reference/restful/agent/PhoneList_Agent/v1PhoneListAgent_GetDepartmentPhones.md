@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/GetDepartmentPhones
+title: GetDepartmentPhones
 id: v1PhoneListAgent_GetDepartmentPhones
 ---
 
-# POST Agents/PhoneList/GetDepartmentPhones
+# GetDepartmentPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
@@ -86,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 370
+  "DepartmentId": 657
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-017-858-4528 x1803",
-    "PersonCellPhone": "(832)615-2756 x3203",
-    "PersonPrivatePhone": "467.757.4873",
-    "PersonFaxNumber": "376293",
-    "PersonPagerNumber": "1420538",
-    "PersonEmail": "janessa.herman@hilperthintz.us",
-    "Id": 677,
-    "Name": "Bruen Group",
-    "Tooltip": "sit",
-    "UniqueId": "consectetur",
+    "PersonDirectPhone": "482-200-5633 x2478",
+    "PersonCellPhone": "(184)384-4564 x40727",
+    "PersonPrivatePhone": "(231)262-2752",
+    "PersonFaxNumber": "1380121",
+    "PersonPagerNumber": "1239766",
+    "PersonEmail": "anika@will.co.uk",
+    "Id": 100,
+    "Name": "Ferry, Douglas and Zboncak",
+    "Tooltip": "perspiciatis",
+    "UniqueId": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "syndicate dynamic markets"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 43
       }
     }
   }

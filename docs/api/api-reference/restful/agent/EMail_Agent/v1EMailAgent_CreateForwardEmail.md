@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateForwardEmail
+title: CreateForwardEmail
 id: v1EMailAgent_CreateForwardEmail
 ---
 
-# POST Agents/EMail/CreateForwardEmail
+# CreateForwardEmail
 
 ```http
 POST /api/v1/Agents/EMail/CreateForwardEmail
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "eaque",
-    "HTMLBody": "in",
+    "Subject": "eum",
+    "HTMLBody": "rerum",
     "From": {},
-    "Sent": "2000-10-21T16:48:29.515924+02:00",
-    "Size": 568,
+    "Sent": "2015-01-16T14:58:04.1634604+01:00",
+    "Size": 407,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "inventore",
-    "PlainBody": "vitae",
+    "MessageID": "quis",
+    "PlainBody": "sed",
     "IsSent": false,
     "EMailSOInfo": {},
-    "ServerId": 562,
+    "ServerId": 725,
     "Attachments": [
       {},
       {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Watsica LLC",
-    "EmailItemId": 124,
-    "AccountId": 468,
-    "ReceivedAt": "2009-09-05T16:48:29.515924+02:00",
+    "FolderName": "Ziemann, Wilkinson and Kirlin",
+    "EmailItemId": 408,
+    "AccountId": 661,
+    "ReceivedAt": "2001-09-28T14:58:04.1634604+02:00",
     "InReplyTo": {},
-    "RepliedAt": "2016-08-31T16:48:29.515924+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2003-10-13T14:58:04.1634604+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   }
@@ -162,45 +162,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 431,
-      "ContactName": "Harvey, Bogisich and Mosciski",
-      "PersonId": 463,
-      "PersonName": "Orn LLC",
-      "AssociateId": 763,
-      "Address": "animi",
-      "EmailId": 692,
+      "ContactId": 813,
+      "ContactName": "McCullough, Thiel and Sporer",
+      "PersonId": 404,
+      "PersonName": "Swaniawski, Fadel and Ferry",
+      "AssociateId": 488,
+      "Address": "voluptatem",
+      "EmailId": 210,
       "DuplicatePersonIds": [
-        850,
-        35
+        963,
+        133
       ],
-      "Name": "Maggio Group",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 11
-        }
-      }
-    }
-  ],
-  "Cc": [
-    {
-      "ContactId": 699,
-      "ContactName": "Glover LLC",
-      "PersonId": 509,
-      "PersonName": "Koepp, O'Kon and Ortiz",
-      "AssociateId": 966,
-      "Address": "neque",
-      "EmailId": 139,
-      "DuplicatePersonIds": [
-        117,
-        489
-      ],
-      "Name": "O'Hara Inc and Sons",
+      "Name": "Borer, Schamberger and Lang",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -209,25 +182,52 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldLength": 110
+        }
+      }
+    }
+  ],
+  "Cc": [
+    {
+      "ContactId": 172,
+      "ContactName": "Wiegand-Turcotte",
+      "PersonId": 682,
+      "PersonName": "Macejkovic-Hane",
+      "AssociateId": 280,
+      "Address": "reiciendis",
+      "EmailId": 642,
+      "DuplicatePersonIds": [
+        315,
+        437
+      ],
+      "Name": "Casper, Moore and Bergnaum",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 708,
-      "ContactName": "Nolan-Paucek",
-      "PersonId": 394,
-      "PersonName": "Shanahan LLC",
-      "AssociateId": 539,
-      "Address": "neque",
-      "EmailId": 421,
+      "ContactId": 390,
+      "ContactName": "Lemke Inc and Sons",
+      "PersonId": 882,
+      "PersonName": "Kiehn LLC",
+      "AssociateId": 843,
+      "Address": "maiores",
+      "EmailId": 476,
       "DuplicatePersonIds": [
-        5,
-        198
+        710,
+        221
       ],
-      "Name": "Franecki, Wilkinson and Labadie",
+      "Name": "Wisoky-Dicki",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -236,26 +236,26 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 991
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "sint",
+  "Subject": "incidunt",
+  "HTMLBody": "illum",
   "From": {
-    "ContactId": 730,
-    "ContactName": "Beier Inc and Sons",
-    "PersonId": 420,
-    "PersonName": "Heidenreich Group",
-    "AssociateId": 435,
-    "Address": "est",
-    "EmailId": 824,
+    "ContactId": 468,
+    "ContactName": "Orn Group",
+    "PersonId": 323,
+    "PersonName": "Daniel, Kreiger and Kessler",
+    "AssociateId": 239,
+    "Address": "consequatur",
+    "EmailId": 396,
     "DuplicatePersonIds": [
-      412,
-      422
+      547,
+      281
     ],
-    "Name": "Braun, Kassulke and Metz",
+    "Name": "Schaden, Hoppe and Wisoky",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -263,49 +263,49 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   },
-  "Sent": "2008-06-29T16:48:29.5189241+02:00",
-  "Size": 407,
+  "Sent": "2003-04-08T14:58:04.1654603+02:00",
+  "Size": 647,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repudiandae",
-  "PlainBody": "illum",
+  "MessageID": "totam",
+  "PlainBody": "exercitationem",
   "IsSent": false,
   "EMailSOInfo": {
-    "DocumentId": 118,
-    "AppointmentId": 975,
-    "ProjectId": 477,
-    "SaleId": 317,
+    "DocumentId": 215,
+    "AppointmentId": 470,
+    "ProjectId": 416,
+    "SaleId": 57,
     "Archived": false,
-    "ArchivedAt": "2007-05-30T16:48:29.5189241+02:00",
-    "ArchivedBy": 385,
-    "ArchivedDisplayName": "Terry, Bernier and Gulgowski",
+    "ArchivedAt": "2005-05-30T14:58:04.1654603+02:00",
+    "ArchivedBy": 521,
+    "ArchivedDisplayName": "Schroeder Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "synthesize innovative partnerships"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldLength": 602
       }
     }
   },
-  "ServerId": 988,
+  "ServerId": 798,
   "Attachments": [
     {
-      "Description": "Multi-lateral client-driven interface",
-      "Filename": "aut",
-      "Size": 438,
-      "Type": "et",
-      "Encoding": "et",
-      "Id": "iusto",
-      "Disposition": "et",
+      "Description": "Exclusive foreground definition",
+      "Filename": "impedit",
+      "Size": 265,
+      "Type": "reiciendis",
+      "Encoding": "qui",
+      "Id": "aliquam",
+      "Disposition": "fuga",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
@@ -315,17 +315,17 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 937
+          "FieldLength": 946
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Grant LLC",
+      "Name": "Cremin, Walsh and Cole",
       "Values": [
-        "dolor",
-        "est"
+        "odit",
+        "et"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -334,16 +334,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     },
     {
-      "Name": "Grant LLC",
+      "Name": "Cremin, Walsh and Cole",
       "Values": [
-        "dolor",
-        "est"
+        "odit",
+        "et"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -352,29 +352,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     }
   ],
-  "FolderName": "Prosacco, Runte and Zulauf",
-  "EmailItemId": 916,
-  "AccountId": 357,
-  "ReceivedAt": "2004-02-01T16:48:29.5189241+01:00",
+  "FolderName": "Bauch-Bayer",
+  "EmailItemId": 78,
+  "AccountId": 937,
+  "ReceivedAt": "2003-03-18T14:58:04.1654603+01:00",
   "InReplyTo": {
-    "ServerId": 593,
-    "MessageId": "libero",
-    "Subject": "est",
+    "ServerId": 194,
+    "MessageId": "qui",
+    "Subject": "unde",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "1997-12-09T16:48:29.5189241+01:00",
+    "Sent": "2008-04-02T14:58:04.1664604+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 143,
+    "Size": 784,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -383,13 +383,13 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   },
-  "RepliedAt": "1996-03-30T16:48:29.5189241+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1994-08-31T14:58:04.1664604+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
@@ -403,7 +403,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 14
     }
   }
 }

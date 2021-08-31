@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
+title: GetDefaultDesiredColumnsFromRestrictions
 id: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
 ---
 
-# POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
+# GetDefaultDesiredColumnsFromRestrictions
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
@@ -84,32 +84,32 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bins Group",
+  "ProviderName": "Price-O'Connell",
   "Restrictions": [
     {
-      "Name": "Powlowski Inc and Sons",
-      "Operator": "non",
+      "Name": "Huel, Barton and Crooks",
+      "Operator": "velit",
       "Values": [
-        "perferendis",
-        "nemo"
+        "voluptatum",
+        "velit"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "tempore"
+        "error",
+        "doloribus"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 314,
+      "InterParenthesis": 864,
       "InterOperator": "And",
-      "UniqueHash": 161
+      "UniqueHash": 538
     }
   ]
 }
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kling-Feest",
-    "DisplayTooltip": "ducimus",
-    "DisplayType": "animi",
+    "DisplayName": "Gleichner LLC",
+    "DisplayTooltip": "non",
+    "DisplayType": "omnis",
     "CanOrderBy": true,
-    "Name": "Wilkinson, Gaylord and Walter",
+    "Name": "Leffler-Quitzon",
     "CanRestrictBy": false,
-    "RestrictionType": "sed",
-    "RestrictionListName": "Nikolaus Inc and Sons",
+    "RestrictionType": "corporis",
+    "RestrictionListName": "Hand-Tillman",
     "IsVisible": false,
-    "ExtraInfo": "ad",
-    "Width": "atque",
-    "IconHint": "accusantium",
-    "HeadingIconHint": "eos"
+    "ExtraInfo": "est",
+    "Width": "enim",
+    "IconHint": "sequi",
+    "HeadingIconHint": "at"
   }
 ]
 ```

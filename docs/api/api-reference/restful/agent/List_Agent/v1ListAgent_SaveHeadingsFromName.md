@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingsFromName
+title: SaveHeadingsFromName
 id: v1ListAgent_SaveHeadingsFromName
 ---
 
-# POST Agents/List/SaveHeadingsFromName
+# SaveHeadingsFromName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromName
@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rau-Hahn",
+  "Name": "Konopelski, Christiansen and Nader",
   "Entities": [
     {
-      "HeadingId": 391,
-      "Name": "Halvorson, Marks and Kirlin",
-      "Tooltip": "est",
+      "HeadingId": 892,
+      "Name": "Wolf, Smith and Koss",
+      "Tooltip": "eum",
       "Deleted": true,
-      "Rank": 232,
-      "UdListDefinitionId": 234
+      "Rank": 667,
+      "UdListDefinitionId": 222
     },
     {
-      "HeadingId": 391,
-      "Name": "Halvorson, Marks and Kirlin",
-      "Tooltip": "est",
+      "HeadingId": 892,
+      "Name": "Wolf, Smith and Koss",
+      "Tooltip": "eum",
       "Deleted": true,
-      "Rank": 232,
-      "UdListDefinitionId": 234
+      "Rank": 667,
+      "UdListDefinitionId": 222
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Block, Wolff and Pollich",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 297,
-    "UdListDefinitionId": 442,
+    "HeadingId": 984,
+    "Name": "Ebert, Will and Feil",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 299,
+    "UdListDefinitionId": 130,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

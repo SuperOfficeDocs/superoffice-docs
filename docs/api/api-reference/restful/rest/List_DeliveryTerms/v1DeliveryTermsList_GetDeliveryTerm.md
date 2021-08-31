@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Powlowski-Abshire",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "UdListDefinitionId": 763,
-  "Rank": 468,
+  "Id": 390,
+  "Name": "Rogahn-Kuphal",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "UdListDefinitionId": 311,
+  "Rank": 152,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,10 +91,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "transition next-generation partnerships"
       },
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

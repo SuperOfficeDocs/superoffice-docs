@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/GetTicketMessage
+title: GetTicketMessage
 id: v1TicketAgent_GetTicketMessage
 ---
 
-# POST Agents/Ticket/GetTicketMessage
+# GetTicketMessage
 
 ```http
 POST /api/v1/Agents/Ticket/GetTicketMessage
@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=825
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=280
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -65,6 +65,15 @@ Response body: object
 | CreatedAt | date-time | When the message was posted. |
 | Slevel | string | The securitylevel of the message. |
 | Important | bool | If this message is important or not. |
+| Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
+| PersonId | int32 | Primary key |
+| PersonFullName | string | Get the persons full name (internal name used in clients for employees). |
+| ContactId | int32 | Primary key |
+| ContactName | string | Contact name |
+| ContactDepartment | string | Department |
+| NumAttachments | int32 | Number of attachments in the message |
+| EmailHeader | string | The email header is saved in this field as raw text |
+| MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -82,10 +91,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 496,
-  "CreatedAt": "2021-01-18T16:48:30.8259343+01:00",
+  "TicketMessageId": 123,
+  "CreatedAt": "1997-07-24T14:58:05.4056257+02:00",
   "Slevel": "External",
   "Important": true,
+  "Author": "et",
+  "PersonId": 211,
+  "PersonFullName": "Buford Beatty",
+  "ContactId": 190,
+  "ContactName": "Sanford LLC",
+  "ContactDepartment": "",
+  "NumAttachments": 997,
+  "EmailHeader": "mallory@doyle.biz",
+  "MessageHeaders": [
+    {
+      "Name": "Reynolds-Kling",
+      "Value": "impedit",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 553
+        }
+      }
+    },
+    {
+      "Name": "Reynolds-Kling",
+      "Value": "impedit",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 553
+        }
+      }
+    }
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

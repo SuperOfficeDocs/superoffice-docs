@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "Aufderhar, Huels and Runte",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 954,
-    "UdListDefinitionId": 908
+    "HeadingId": 461,
+    "Name": "Hahn Group",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 285,
+    "UdListDefinitionId": 919
   },
   {
-    "HeadingId": 770,
-    "Name": "Aufderhar, Huels and Runte",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 954,
-    "UdListDefinitionId": 908
+    "HeadingId": 461,
+    "Name": "Hahn Group",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 285,
+    "UdListDefinitionId": 919
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Weimann-Lindgren",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 823,
+    "HeadingId": 406,
+    "Name": "Nienow, Hoeger and Wiza",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 766,
+    "UdListDefinitionId": 486,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 832
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Barton Group",
-    "ToolTip": "Blanditiis ab modi recusandae laborum minus.",
+    "Id": 891,
+    "Name": "Powlowski Inc and Sons",
+    "ToolTip": "Beatae molestiae aut dolorem facere.",
     "Deleted": true,
-    "Rank": 498,
-    "Type": "iure",
-    "ColorBlock": 743,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2011-06-22T09:41:00.5603815+02:00",
+    "Rank": 57,
+    "Type": "cupiditate",
+    "ColorBlock": 659,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "1998-04-18T15:05:43.6290797+02:00",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Bradtke, Wintheiser and Jenkins",
-        "ToolTip": "Voluptatem totam impedit qui.",
-        "Deleted": true,
-        "Rank": 808,
-        "Type": "eum",
-        "ColorBlock": 768,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2018-05-21T09:41:00.5603815+02:00",
+        "Id": 619,
+        "Name": "Schmitt, Hettinger and Johnson",
+        "ToolTip": "Odit molestiae in tempora numquam.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "a",
+        "ColorBlock": 422,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2011-10-10T15:05:43.6290797+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "possimus",
+        "ExtraInfo": "officia",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Delilah Block"
+        "FullName": "Tanya Rau"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "nulla",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Howell Kerluke"
+    "FullName": "Ken Gutkowski"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Runolfsson, McGlynn and Osinski",
-    "ToolTip": "Illo dolorem molestiae dolorem voluptatem est.",
+    "Id": 196,
+    "Name": "Kemmer-Runte",
+    "ToolTip": "Est ipsam et ipsa autem maiores et.",
     "Deleted": true,
-    "Rank": 105,
-    "Type": "enim",
-    "ColorBlock": 11,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2010-09-29T09:41:00.5633816+02:00",
+    "Rank": 605,
+    "Type": "voluptas",
+    "ColorBlock": 297,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2013-03-02T15:05:43.6300795+01:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Murphy Group",
-        "ToolTip": "Aliquam autem inventore rerum ducimus.",
+        "Id": 599,
+        "Name": "Treutel, Luettgen and Toy",
+        "ToolTip": "Totam rerum ut et nam nesciunt placeat.",
         "Deleted": false,
-        "Rank": 604,
-        "Type": "accusantium",
-        "ColorBlock": 968,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2014-11-11T09:41:00.5633816+01:00",
+        "Rank": 445,
+        "Type": "maxime",
+        "ColorBlock": 440,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2014-12-01T15:05:43.6300795+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "est",
+        "StyleHint": "ex",
         "Hidden": true,
-        "FullName": "Maureen Torp",
+        "FullName": "Mrs. Kassandra Hahn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,18 +184,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldLength": 598
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "dolore",
+    "ExtraInfo": "ut",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Marilyne Christiansen III",
+    "FullName": "Margarita Schowalter",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "integrate dynamic platforms"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldType": "System.String",
+        "FieldLength": 296
       }
     }
   }

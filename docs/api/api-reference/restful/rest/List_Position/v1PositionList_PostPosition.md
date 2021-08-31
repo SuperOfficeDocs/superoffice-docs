@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 128,
-  "Name": "Green-Mayer",
-  "Tooltip": "ut",
+  "Id": 91,
+  "Name": "Kub-Morissette",
+  "Tooltip": "non",
   "Deleted": true,
-  "UdListDefinitionId": 761,
-  "Rank": 678
+  "UdListDefinitionId": 3,
+  "Rank": 61
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Hickle Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 572,
+  "Name": "Brakus, Little and Okuneva",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "UdListDefinitionId": 371,
-  "Rank": 348,
+  "UdListDefinitionId": 665,
+  "Rank": 180,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldLength": 384
     }
   }
 }

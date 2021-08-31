@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Beer Group",
-    "ToolTip": "Vero iure ut.",
+    "Id": 526,
+    "Name": "Yost LLC",
+    "ToolTip": "Nobis sed vel sunt.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "fuga",
-    "ColorBlock": 54,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2020-08-31T09:41:00.6983884+02:00",
+    "Rank": 621,
+    "Type": "nihil",
+    "ColorBlock": 963,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2020-07-02T15:05:43.7611171+02:00",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Nader, McKenzie and Ritchie",
-        "ToolTip": "Libero sit eaque consequatur.",
+        "Id": 897,
+        "Name": "Pfeffer, Moore and Aufderhar",
+        "ToolTip": "Aut et minima quis.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "eveniet",
-        "ColorBlock": 387,
-        "IconHint": "expedita",
+        "Rank": 714,
+        "Type": "et",
+        "ColorBlock": 959,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2005-09-01T09:41:00.6993884+02:00",
+        "LastChanged": "2002-06-13T15:05:43.7611171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Arno Bode",
+        "ExtraInfo": "qui",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Maxie Crona",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 254
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "unde",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Marco Hegmann",
+    "FullName": "Tara Auer IV",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "exploit interactive content"
+          "Reason": "target user-centric action-items"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 155
       }
     }
   }

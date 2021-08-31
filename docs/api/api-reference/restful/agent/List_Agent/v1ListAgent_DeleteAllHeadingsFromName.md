@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteAllHeadingsFromName
+title: DeleteAllHeadingsFromName
 id: v1ListAgent_DeleteAllHeadingsFromName
 ---
 
-# POST Agents/List/DeleteAllHeadingsFromName
+# DeleteAllHeadingsFromName
 
 ```http
 POST /api/v1/Agents/List/DeleteAllHeadingsFromName

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectList
+title: GetProjectList
 id: v1ProjectAgent_GetProjectList
 ---
 
-# POST Agents/Project/GetProjectList
+# GetProjectList
 
 ```http
 POST /api/v1/Agents/Project/GetProjectList
@@ -87,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 259,
-    "Name": "Rosenbaum, Rodriguez and Keeling",
-    "Description": "Extended interactive portal",
+    "ProjectId": 188,
+    "Name": "Sanford LLC",
+    "Description": "Diverse explicit algorithm",
     "URL": "http://www.example.com/",
-    "Type": "eos",
-    "AssociateId": 564,
-    "AssociateFullName": "Margarette Farrell",
-    "TypeId": 359,
-    "Updated": "2016-07-12T16:48:30.3699347+02:00",
-    "StatusId": 216,
-    "Status": "fugit",
-    "TextId": 932,
-    "PublishTo": "2003-08-07T16:48:30.370935+02:00",
-    "PublishFrom": "1996-12-06T16:48:30.370935+01:00",
+    "Type": "nulla",
+    "AssociateId": 324,
+    "AssociateFullName": "Terence Ondricka",
+    "TypeId": 86,
+    "Updated": "1998-05-17T14:58:04.8554605+02:00",
+    "StatusId": 772,
+    "Status": "facilis",
+    "TextId": 653,
+    "PublishTo": "1996-07-28T14:58:04.8554605+02:00",
+    "PublishFrom": "2014-02-10T14:58:04.8554605+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "931534",
-    "ActiveErpLinks": 716,
+    "ProjectNumber": "969485",
+    "ActiveErpLinks": 378,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 408
+        "FieldLength": 38
       }
     }
   }

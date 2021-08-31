@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetSystemEventEntity
+title: GetSystemEventEntity
 id: v1ConfigurationAgent_GetSystemEventEntity
 ---
 
-# POST Agents/Configuration/GetSystemEventEntity
+# GetSystemEventEntity
 
 ```http
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
@@ -25,7 +25,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=227
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=466
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 840,
+  "SystemEventId": 413,
   "Scope": "Database",
-  "Eta": "1998-10-02T16:48:29.0158979+02:00",
-  "Eventkey": "sit",
-  "Eventmess": "iure",
-  "ExtraInfo": 4,
-  "Owner": 25,
-  "UpdatedCount": 530,
-  "Registered": "2017-01-31T16:48:29.0158979+01:00",
+  "Eta": "2008-07-11T14:58:03.5242813+02:00",
+  "Eventkey": "atque",
+  "Eventmess": "voluptatem",
+  "ExtraInfo": 122,
+  "Owner": 474,
+  "UpdatedCount": 336,
+  "Registered": "1995-07-19T14:58:03.5242813+02:00",
   "ActivatedBy": {
-    "AssociateId": 403,
-    "Name": "Cronin-Turner",
-    "PersonId": 673,
-    "Rank": 720,
-    "Tooltip": "molestias",
+    "AssociateId": 26,
+    "Name": "Hoppe Inc and Sons",
+    "PersonId": 25,
+    "Rank": 863,
+    "Tooltip": "aperiam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 160,
-    "FullName": "Dr. Pinkie Kihn",
-    "FormalName": "Little-Gleichner",
+    "GroupIdx": 337,
+    "FullName": "Paul Braun",
+    "FormalName": "Walter-Sporer",
     "Deleted": true,
-    "EjUserId": 268,
-    "UserName": "Bauch, White and Hahn",
+    "EjUserId": 947,
+    "UserName": "McKenzie Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "enable sexy schemas"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   },
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 302
     }
   }
 }

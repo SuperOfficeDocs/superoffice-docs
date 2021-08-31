@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/MoveEmailsToTrash
+title: MoveEmailsToTrash
 id: v1EMailAgent_MoveEmailsToTrash
 ---
 
-# POST Agents/EMail/MoveEmailsToTrash
+# MoveEmailsToTrash
 
 ```http
 POST /api/v1/Agents/EMail/MoveEmailsToTrash

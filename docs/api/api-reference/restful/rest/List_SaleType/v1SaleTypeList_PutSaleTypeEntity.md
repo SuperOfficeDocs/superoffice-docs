@@ -111,51 +111,51 @@ Response body: object
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 833,
-  "Name": "Hackett LLC",
-  "Tooltip": "est",
-  "Rank": 421,
+  "SaleTypeId": 337,
+  "Name": "Skiles-Gutmann",
+  "Tooltip": "eos",
+  "Rank": 394,
   "DurationUnit": "Century",
-  "SaleDuration": 999,
-  "SaleTypeCatId": 988,
+  "SaleDuration": 300,
+  "SaleTypeCatId": 187,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 558,
-  "QuoteLinesTemplate": 904,
-  "ConfirmationLinesTemplate": 798,
+  "DefaultQuoteValidity": 774,
+  "QuoteLinesTemplate": 635,
+  "ConfirmationLinesTemplate": 885,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 878,
-  "MinEarningPercent": 66,
-  "GroupQuoteLinesBy": 276,
-  "SortGroupLinesBy": 278,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 145,
+  "MinEarningPercent": 372,
+  "GroupQuoteLinesBy": 154,
+  "SortGroupLinesBy": 574,
   "Stages": [
     {
-      "Id": 592,
-      "Name": "Stoltenberg Inc and Sons",
-      "ToolTip": "Dolores nemo sit tempore.",
-      "Deleted": false,
-      "Rank": 775,
-      "Type": "quae",
-      "ColorBlock": 786,
-      "IconHint": "sequi",
-      "Selected": false,
-      "LastChanged": "2019-10-06T09:41:00.7313876+02:00",
+      "Id": 844,
+      "Name": "Effertz Inc and Sons",
+      "ToolTip": "Ipsum delectus in facilis ut.",
+      "Deleted": true,
+      "Rank": 624,
+      "Type": "molestiae",
+      "ColorBlock": 250,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "1996-09-14T15:05:43.7921167+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nemo",
-      "StyleHint": "facere",
+      "ExtraInfo": "non",
+      "StyleHint": "totam",
       "Hidden": false,
-      "FullName": "Shany Kiehn"
+      "FullName": "Erwin Nolan"
     }
   ]
 }
@@ -166,56 +166,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 831,
-  "Name": "Oberbrunner-Cassin",
-  "Tooltip": "quas",
-  "Rank": 282,
+  "SaleTypeId": 682,
+  "Name": "West-Johnson",
+  "Tooltip": "voluptatem",
+  "Rank": 89,
   "DurationUnit": "Century",
-  "SaleDuration": 492,
-  "SaleTypeCatId": 345,
+  "SaleDuration": 584,
+  "SaleTypeCatId": 581,
   "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 373,
-  "QuoteLinesTemplate": 612,
-  "ConfirmationLinesTemplate": 341,
+  "DefaultQuoteValidity": 426,
+  "QuoteLinesTemplate": 340,
+  "ConfirmationLinesTemplate": 677,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 550,
-  "MinEarningPercent": 551,
-  "GroupQuoteLinesBy": 318,
-  "SortGroupLinesBy": 22,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 352,
+  "MinEarningPercent": 442,
+  "GroupQuoteLinesBy": 9,
+  "SortGroupLinesBy": 336,
   "Stages": [
     {
-      "Id": 462,
-      "Name": "Vandervort-Senger",
-      "ToolTip": "Facilis natus distinctio dicta enim ut.",
+      "Id": 327,
+      "Name": "Schneider Inc and Sons",
+      "ToolTip": "Quisquam aut qui molestiae consequatur fugit.",
       "Deleted": true,
-      "Rank": 805,
-      "Type": "nihil",
-      "ColorBlock": 931,
-      "IconHint": "omnis",
+      "Rank": 44,
+      "Type": "dolor",
+      "ColorBlock": 211,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "1999-11-29T09:41:00.7323868+01:00",
+      "LastChanged": "1994-12-26T15:05:43.7931178+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "laboriosam",
+      "ExtraInfo": "possimus",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Neva Larkin",
+      "FullName": "Jerad Simonis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "envisioneer B2B action-items"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldType": "System.Int32",
+          "FieldLength": 241
         }
       }
     }
@@ -230,8 +230,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

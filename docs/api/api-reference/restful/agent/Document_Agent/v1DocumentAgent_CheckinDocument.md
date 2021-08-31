@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CheckinDocument
+title: CheckinDocument
 id: v1DocumentAgent_CheckinDocument
 ---
 
-# POST Agents/Document/CheckinDocument
+# CheckinDocument
 
 ```http
 POST /api/v1/Agents/Document/CheckinDocument
@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 9,
+  "DocumentId": 156,
   "AllowedReturnTypes": [
-    "rerum",
-    "iusto"
+    "qui",
+    "et"
   ],
-  "VersionDescription": "Mandatory upward-trending framework",
+  "VersionDescription": "Enhanced zero administration data-warehouse",
   "VersionExtraFields": [
-    "et",
-    "rem"
+    "nostrum",
+    "deleniti"
   ]
 }
 ```
@@ -101,11 +101,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "non",
-  "VersionId": "et",
-  "Success": true,
+  "ExternalReference": "praesentium",
+  "VersionId": "ipsam",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "nihil",
-  "AdditionalInfo": "quos"
+  "Value": "numquam",
+  "AdditionalInfo": "et"
 }
 ```

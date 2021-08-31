@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveCurrencyEntity
+title: SaveCurrencyEntity
 id: v1ListAgent_SaveCurrencyEntity
 ---
 
-# POST Agents/List/SaveCurrencyEntity
+# SaveCurrencyEntity
 
 ```http
 POST /api/v1/Agents/List/SaveCurrencyEntity
@@ -76,16 +76,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 948,
-  "Name": "Schoen, Casper and Harvey",
-  "Tooltip": "voluptatem",
-  "Rank": 470,
-  "Rate": 27325.345999999998,
-  "Units": 28497.462,
+  "CurrencyId": 839,
+  "Name": "Toy, Crist and Gorczany",
+  "Tooltip": "cupiditate",
+  "Rank": 895,
+  "Rate": 21834.577999999998,
+  "Units": 4080.468,
   "Deleted": true
 }
 ```
@@ -95,12 +95,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 283,
-  "Name": "Lueilwitz Inc and Sons",
-  "Tooltip": "itaque",
-  "Rank": 242,
-  "Rate": 17506.523999999998,
-  "Units": 17967.221999999998,
+  "CurrencyId": 998,
+  "Name": "Greenholt-Moen",
+  "Tooltip": "quam",
+  "Rank": 845,
+  "Rate": 20345.928,
+  "Units": 29841.948,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "transform clicks-and-mortar e-commerce"
+        "Reason": "deliver revolutionary applications"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 414
     }
   }
 }

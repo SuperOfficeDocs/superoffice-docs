@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetDuplicates
+title: GetDuplicates
 id: v1ContactAgent_GetDuplicates
 ---
 
-# POST Agents/Contact/GetDuplicates
+# GetDuplicates
 
 ```http
 POST /api/v1/Agents/Contact/GetDuplicates
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn-Gerlach"
+  "Name": "Weimann-Boyer"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hauck, Harvey and Moen",
-    "SoPrimaryKey": 722,
-    "EntryName": "Buckridge-Heaney",
-    "EntryIdentifier": "blanditiis",
-    "RuleDisplayName": "Gutmann LLC",
+    "RuleName": "O'Connell Inc and Sons",
+    "SoPrimaryKey": 954,
+    "EntryName": "Macejkovic, Gottlieb and O'Reilly",
+    "EntryIdentifier": "voluptas",
+    "RuleDisplayName": "Tremblay, Block and Ullrich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,10 +104,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate 24/7 communities"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 224
       }
     }
   }

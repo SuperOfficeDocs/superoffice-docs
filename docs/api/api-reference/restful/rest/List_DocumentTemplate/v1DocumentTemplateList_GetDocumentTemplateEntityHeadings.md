@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Johnson LLC",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "Rank": 125,
-    "UdListDefinitionId": 678,
+    "HeadingId": 489,
+    "Name": "Welch Group",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 153,
+    "UdListDefinitionId": 879,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetListWithRestriction
+title: GetListWithRestriction
 id: v1MDOAgent_GetListWithRestriction
 ---
 
-# POST Agents/MDO/GetListWithRestriction
+# GetListWithRestriction
 
 ```http
 POST /api/v1/Agents/MDO/GetListWithRestriction
@@ -90,9 +90,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quitzon, Prohaska and Weimann",
-  "AdditionalInfo": "saepe",
-  "SearchValue": "assumenda"
+  "Name": "Zboncak Group",
+  "AdditionalInfo": "non",
+  "SearchValue": "eos"
 }
 ```
 
@@ -102,29 +102,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Bosco Group",
-    "ToolTip": "Similique enim maiores voluptatem quo dolor.",
+    "Id": 205,
+    "Name": "Dibbert, Schiller and Waters",
+    "ToolTip": "Et sunt.",
     "Deleted": false,
-    "Rank": 885,
-    "Type": "praesentium",
+    "Rank": 980,
+    "Type": "consectetur",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Ferry-Bahringer",
-        "ToolTip": "Quasi minima odio minima animi.",
+        "Id": 767,
+        "Name": "Cartwright, Haag and Kohler",
+        "ToolTip": "Ipsum et.",
         "Deleted": false,
-        "Rank": 428,
-        "Type": "omnis",
+        "Rank": 663,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 343,
-        "ExtraInfo": "odit",
-        "StyleHint": "provident",
-        "FullName": "Pat Conroy",
+        "IconHint": "soluta",
+        "ColorBlock": 226,
+        "ExtraInfo": "ut",
+        "StyleHint": "eum",
+        "FullName": "Laron Hickle",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -132,17 +132,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldType": "System.String",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 562,
-    "ExtraInfo": "vero",
-    "StyleHint": "consectetur",
-    "FullName": "Mertie McLaughlin",
+    "IconHint": "eius",
+    "ColorBlock": 319,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "fuga",
+    "FullName": "Mrs. Florida Wuckert",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldLength": 129
       }
     }
   }

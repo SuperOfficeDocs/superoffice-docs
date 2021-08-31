@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/CheckNewTimeZoneDataAvailable
+title: CheckNewTimeZoneDataAvailable
 id: v1TimeZoneAgent_CheckNewTimeZoneDataAvailable
 ---
 
-# POST Agents/TimeZone/CheckNewTimeZoneDataAvailable
+# CheckNewTimeZoneDataAvailable
 
 ```http
 POST /api/v1/Agents/TimeZone/CheckNewTimeZoneDataAvailable
@@ -59,7 +59,7 @@ Response body: bool
 POST /api/v1/Agents/TimeZone/CheckNewTimeZoneDataAvailable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_

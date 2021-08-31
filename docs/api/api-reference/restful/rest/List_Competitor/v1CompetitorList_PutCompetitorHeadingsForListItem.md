@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Morissette-Christiansen",
-    "ToolTip": "Ipsam debitis sit voluptatem enim sit.",
+    "Id": 832,
+    "Name": "Goyette-Powlowski",
+    "ToolTip": "Fugiat nemo voluptatem velit blanditiis.",
     "Deleted": true,
-    "Rank": 311,
-    "Type": "rem",
-    "ColorBlock": 737,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "1998-06-28T09:41:00.2503612+02:00",
+    "Rank": 801,
+    "Type": "explicabo",
+    "ColorBlock": 800,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2001-09-04T15:05:43.3245403+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Cronin-Ebert",
-        "ToolTip": "Distinctio ut nobis.",
+        "Id": 838,
+        "Name": "Keebler, Christiansen and Crona",
+        "ToolTip": "Et possimus repudiandae eaque labore.",
         "Deleted": true,
-        "Rank": 452,
-        "Type": "expedita",
-        "ColorBlock": 855,
-        "IconHint": "fugiat",
+        "Rank": 963,
+        "Type": "natus",
+        "ColorBlock": 586,
+        "IconHint": "possimus",
         "Selected": true,
-        "LastChanged": "2020-11-16T09:41:00.2503612+01:00",
+        "LastChanged": "2020-04-06T15:05:43.3245403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Gino Graham MD"
+        "ExtraInfo": "vel",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Casey Koch"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "similique",
+    "ExtraInfo": "rerum",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Vivien McDermott"
+    "FullName": "Miss Mikayla Hyatt"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Herman-Pfannerstill",
-    "ToolTip": "Cum dolore a.",
-    "Deleted": true,
-    "Rank": 392,
-    "Type": "odit",
-    "ColorBlock": 937,
-    "IconHint": "aliquam",
+    "Id": 894,
+    "Name": "Hammes-Stanton",
+    "ToolTip": "Qui fuga aut.",
+    "Deleted": false,
+    "Rank": 401,
+    "Type": "optio",
+    "ColorBlock": 548,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "1998-12-31T09:41:00.2523654+01:00",
+    "LastChanged": "2014-10-12T15:05:43.32654+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Heaney Group",
-        "ToolTip": "Architecto nihil rerum reprehenderit.",
+        "Id": 452,
+        "Name": "Howe, Rath and Leuschke",
+        "ToolTip": "Id occaecati adipisci molestiae non non.",
         "Deleted": true,
-        "Rank": 132,
-        "Type": "et",
-        "ColorBlock": 413,
-        "IconHint": "dolorum",
+        "Rank": 613,
+        "Type": "quaerat",
+        "ColorBlock": 708,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2013-01-04T09:41:00.2523654+01:00",
+        "LastChanged": "1996-03-17T15:05:43.32654+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "unde",
+        "ExtraInfo": "qui",
+        "StyleHint": "vitae",
         "Hidden": true,
-        "FullName": "Sydni Weissnat",
+        "FullName": "Heaven Baumbach",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "eius",
+    "ExtraInfo": "et",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Vicky Hudson",
+    "FullName": "Kelvin Rau",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   }

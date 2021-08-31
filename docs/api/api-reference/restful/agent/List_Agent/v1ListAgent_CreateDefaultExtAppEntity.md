@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultExtAppEntity
+title: CreateDefaultExtAppEntity
 id: v1ListAgent_CreateDefaultExtAppEntity
 ---
 
-# POST Agents/List/CreateDefaultExtAppEntity
+# CreateDefaultExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 530,
-  "Name": "Bogan, Schowalter and Halvorson",
-  "Tooltip": "est",
+  "ExtAppId": 339,
+  "Name": "Brakus, Aufderhar and Heller",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 152,
-  "Filename": "molestiae",
-  "Parameters": "quisquam",
-  "Workdir": "voluptatum",
+  "Rank": 570,
+  "Filename": "non",
+  "Parameters": "fuga",
+  "Workdir": "delectus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 323,
+  "ShowInStatusBar": true,
+  "Icon": 316,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "rem",
+  "Path": "facere",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetHistory
+title: GetHistory
 id: v1ViewStateAgent_GetHistory
 ---
 
-# POST Agents/ViewState/GetHistory
+# GetHistory
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistory
@@ -25,7 +25,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=743
+POST /api/v1/Agents/ViewState/GetHistory?historyId=134
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/ViewState/GetHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -85,13 +85,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 833,
-  "Id": 940,
-  "HistoryName": "Schmeler-Schumm",
-  "HistoryId": 162,
-  "AssociateId": 243,
-  "Name": "Murazik, Hagenes and Reinger",
-  "ItemInfo": "veniam",
+  "Rank": 423,
+  "Id": 131,
+  "HistoryName": "O'Connell, Cummings and Boyle",
+  "HistoryId": 509,
+  "AssociateId": 276,
+  "Name": "Harber, Huel and Wiegand",
+  "ItemInfo": "omnis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldLength": 497
     }
   }
 }

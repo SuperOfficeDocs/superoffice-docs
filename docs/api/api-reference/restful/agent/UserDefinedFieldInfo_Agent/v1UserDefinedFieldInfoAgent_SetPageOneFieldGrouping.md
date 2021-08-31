@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
+title: SetPageOneFieldGrouping
 id: v1UserDefinedFieldInfoAgent_SetPageOneFieldGrouping
 ---
 
-# POST Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
+# SetPageOneFieldGrouping
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping

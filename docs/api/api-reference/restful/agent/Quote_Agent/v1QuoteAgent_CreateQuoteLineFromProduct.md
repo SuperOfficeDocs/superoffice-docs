@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateQuoteLineFromProduct
+title: CreateQuoteLineFromProduct
 id: v1QuoteAgent_CreateQuoteLineFromProduct
 ---
 
-# POST Agents/Quote/CreateQuoteLineFromProduct
+# CreateQuoteLineFromProduct
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
@@ -127,49 +127,49 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 175,
+  "QuoteAlternativeId": 588,
   "Product": {
-    "ProductId": 953,
-    "ERPProductKey": "aperiam",
-    "ERPPriceListKey": "fugit",
-    "Name": "Block-Nienow",
-    "Description": "Stand-alone zero defect array",
-    "Code": "rem",
-    "PriceUnit": "quae",
-    "QuantityUnit": "aspernatur",
+    "ProductId": 840,
+    "ERPProductKey": "sit",
+    "ERPPriceListKey": "praesentium",
+    "Name": "Bechtelar-Moore",
+    "Description": "Cloned methodical time-frame",
+    "Code": "quos",
+    "PriceUnit": "tenetur",
+    "QuantityUnit": "occaecati",
     "IsSubscription": true,
-    "SubscriptionUnit": "velit",
-    "DefaultSubscriptionQuantity": 30076.998,
-    "ItemNumber": "644406",
+    "SubscriptionUnit": "eos",
+    "DefaultSubscriptionQuantity": 15575.98,
+    "ItemNumber": "1336813",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "similique",
-    "ProductTypeKey": "quas",
-    "VAT": 13799.002,
-    "VATInfo": "harum",
-    "UnitCost": 7803.66,
-    "UnitMinimumPrice": 17196.257999999998,
-    "UnitListPrice": 9449.01,
-    "InAssortment": true,
-    "Supplier": "veritatis",
-    "SupplierCode": "quibusdam",
-    "Rights": "quidem",
-    "Rule": "deserunt",
+    "ProductFamilyKey": "voluptas",
+    "ProductTypeKey": "est",
+    "VAT": 10658.734,
+    "VATInfo": "dolor",
+    "UnitCost": 23257.414,
+    "UnitMinimumPrice": 22289.007999999998,
+    "UnitListPrice": 13704.982,
+    "InAssortment": false,
+    "Supplier": "unde",
+    "SupplierCode": "nemo",
+    "Rights": "itaque",
+    "Rule": "expedita",
     "ExtraInfo": [
       {},
       {}
     ],
-    "RawExtraInfo": "saepe",
-    "ExtraField1": "ut",
-    "ExtraField2": "expedita",
-    "ExtraField3": "repellendus",
-    "ExtraField4": "cupiditate",
-    "ExtraField5": "natus",
-    "InStock": 6700.492
+    "RawExtraInfo": "qui",
+    "ExtraField1": "voluptates",
+    "ExtraField2": "quis",
+    "ExtraField3": "natus",
+    "ExtraField4": "sit",
+    "ExtraField5": "possimus",
+    "InStock": 2808.064
   }
 }
 ```
@@ -179,37 +179,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 26,
-  "ERPQuoteLineKey": "earum",
-  "QuoteAlternativeId": 520,
-  "ERPProductKey": "animi",
+  "QuoteLineId": 468,
+  "ERPQuoteLineKey": "eius",
+  "QuoteAlternativeId": 656,
+  "ERPProductKey": "non",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10022.532,
-  "DeliveredQuantity": 213.112,
-  "Rank": 147,
-  "Name": "O'Conner, Ratke and Rath",
-  "Description": "Innovative contextually-based interface",
-  "Code": "temporibus",
-  "QuantityUnit": "commodi",
-  "PriceUnit": "facere",
-  "ItemNumber": "1645580",
+  "Quantity": 27388.025999999998,
+  "DeliveredQuantity": 26407.084,
+  "Rank": 662,
+  "Name": "Cormier-Franecki",
+  "Description": "Managed demand-driven concept",
+  "Code": "similique",
+  "QuantityUnit": "voluptatum",
+  "PriceUnit": "quaerat",
+  "ItemNumber": "1168227",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "mollitia",
-  "ProductTypeKey": "cum",
-  "Supplier": "nobis",
-  "SupplierCode": "qui",
-  "Thumbnail": "qui",
-  "VATInfo": "quas",
-  "VAT": 6988.82,
-  "UnitCost": 3246.824,
-  "UnitMinimumPrice": 16983.146,
-  "UnitListPrice": 24520.415999999997,
+  "ProductFamilyKey": "autem",
+  "ProductTypeKey": "dolor",
+  "Supplier": "repudiandae",
+  "SupplierCode": "sed",
+  "Thumbnail": "et",
+  "VATInfo": "rerum",
+  "VAT": 15858.039999999999,
+  "UnitCost": 18725.649999999998,
+  "UnitMinimumPrice": 9210.826,
+  "UnitListPrice": 12955.956,
   "ExtraInfo": [
     {
-      "Name": "Wiegand LLC",
-      "Value": "itaque",
+      "Name": "Moen, Halvorson and Abshire",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -219,13 +219,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 333
         }
       }
     },
     {
-      "Name": "Wiegand LLC",
-      "Value": "itaque",
+      "Name": "Moen, Halvorson and Abshire",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -235,32 +235,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 333
         }
       }
     }
   ],
-  "RawExtraInfo": "laboriosam",
+  "RawExtraInfo": "et",
   "IsSubscription": true,
-  "SubscriptionUnit": "dolor",
-  "SubscriptionQuantity": 5964.0019999999995,
-  "SubscriptionStart": "2003-08-21T16:48:30.3979351+02:00",
-  "ERPDiscountPercent": 2889.548,
-  "ERPDiscountAmount": 12253.939999999999,
-  "DiscountPercent": 20079.538,
-  "DiscountAmount": 14450.874,
+  "SubscriptionUnit": "repellat",
+  "SubscriptionQuantity": 16321.872,
+  "SubscriptionStart": "2016-08-30T14:58:04.977465+02:00",
+  "ERPDiscountPercent": 24896.496,
+  "ERPDiscountAmount": 4788.7519999999995,
+  "DiscountPercent": 20803.492,
+  "DiscountAmount": 5080.214,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20114.012,
-  "EarningAmount": 14428.936,
-  "SubTotal": 4093.004,
-  "TotalPrice": 15977.132,
-  "Rights": "necessitatibus",
-  "Rule": "qui",
-  "ExtraField1": "officia",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "quas",
-  "ExtraField4": "quidem",
-  "ExtraField5": "voluptatem",
+  "EarningPercent": 29117.994,
+  "EarningAmount": 28604.018,
+  "SubTotal": 15873.71,
+  "TotalPrice": 3710.656,
+  "Rights": "sapiente",
+  "Rule": "cumque",
+  "ExtraField1": "ad",
+  "ExtraField2": "et",
+  "ExtraField3": "earum",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "voluptatum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 54
     }
   }
 }

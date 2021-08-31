@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/SetSeen
+title: SetSeen
 id: v1AppointmentAgent_SetSeen
 ---
 
-# POST Agents/Appointment/SetSeen
+# SetSeen
 
 ```http
 POST /api/v1/Agents/Appointment/SetSeen

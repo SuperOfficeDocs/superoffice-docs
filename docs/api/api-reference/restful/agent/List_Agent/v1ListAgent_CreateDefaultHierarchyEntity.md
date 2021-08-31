@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultHierarchyEntity
+title: CreateDefaultHierarchyEntity
 id: v1ListAgent_CreateDefaultHierarchyEntity
 ---
 
-# POST Agents/List/CreateDefaultHierarchyEntity
+# CreateDefaultHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
@@ -76,26 +76,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 500,
+  "HierarchyId": 935,
   "Domain": "Dashboards",
-  "Name": "Volkman Inc and Sons",
-  "Fullname": "sequi",
-  "ParentId": 277,
+  "Name": "Wintheiser LLC",
+  "Fullname": "dolor",
+  "ParentId": 816,
   "Children": [
     {
-      "HierarchyId": 930,
+      "HierarchyId": 587,
       "Domain": "Dashboards",
-      "Name": "Hermann Group",
-      "Fullname": "numquam",
-      "ParentId": 442,
+      "Name": "Kovacek Group",
+      "Fullname": "voluptatem",
+      "ParentId": 648,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-10-11T16:48:29.9229229+02:00",
-      "RegisteredAssociateId": 370,
-      "Updated": "2007-09-23T16:48:29.9229229+02:00",
-      "UpdatedAssociateId": 628,
+      "Registered": "2014-04-30T14:58:04.4714655+02:00",
+      "RegisteredAssociateId": 801,
+      "Updated": "2015-05-20T14:58:04.4714655+02:00",
+      "UpdatedAssociateId": 766,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -103,16 +103,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 401
         }
       }
     }
   ],
-  "Registered": "2000-09-26T16:48:29.9229229+02:00",
-  "RegisteredAssociateId": 219,
-  "Updated": "2006-10-21T16:48:29.9229229+02:00",
-  "UpdatedAssociateId": 390,
+  "Registered": "2016-11-07T14:58:04.4714655+01:00",
+  "RegisteredAssociateId": 508,
+  "Updated": "2004-06-17T14:58:04.4714655+02:00",
+  "UpdatedAssociateId": 582,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 352
     }
   }
 }

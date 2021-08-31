@@ -74,15 +74,15 @@ Response body: object
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 412,
-  "Name": "Shanahan, Jerde and Gusikowski",
-  "Tooltip": "facere",
-  "Rank": 824,
-  "Key": "dolorem",
+  "LegalBaseId": 61,
+  "Name": "Howe-Mraz",
+  "Tooltip": "aut",
+  "Rank": 549,
+  "Key": "quam",
   "Deleted": false
 }
 ```
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 229,
-  "Name": "Lehner, Rosenbaum and Schaefer",
-  "Tooltip": "iure",
-  "Rank": 120,
-  "Key": "eos",
+  "LegalBaseId": 341,
+  "Name": "Kutch, Hamill and Stroman",
+  "Tooltip": "doloribus",
+  "Rank": 838,
+  "Key": "repellat",
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "leverage holistic relationships"
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   }
 }

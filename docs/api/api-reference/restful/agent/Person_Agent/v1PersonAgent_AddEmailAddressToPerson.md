@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/AddEmailAddressToPerson
+title: AddEmailAddressToPerson
 id: v1PersonAgent_AddEmailAddressToPerson
 ---
 
-# POST Agents/Person/AddEmailAddressToPerson
+# AddEmailAddressToPerson
 
 ```http
 POST /api/v1/Agents/Person/AddEmailAddressToPerson

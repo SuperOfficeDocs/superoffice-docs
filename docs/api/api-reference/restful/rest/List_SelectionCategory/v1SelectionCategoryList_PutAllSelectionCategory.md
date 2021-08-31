@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "McKenzie-Willms",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 250
+    "Id": 358,
+    "Name": "Davis LLC",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 64,
+    "Rank": 330
   },
   {
-    "Id": 972,
-    "Name": "McKenzie-Willms",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "UdListDefinitionId": 505,
-    "Rank": 250
+    "Id": 358,
+    "Name": "Davis LLC",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 64,
+    "Rank": 330
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Lueilwitz, O'Reilly and Prohaska",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 526,
-    "Rank": 902,
+    "Id": 567,
+    "Name": "Kuhic Group",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 678,
+    "Rank": 582,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transition granular solutions"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldType": "System.String",
+        "FieldLength": 597
       }
     }
   }

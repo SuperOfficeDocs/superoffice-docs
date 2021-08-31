@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetAllCustomerCenterConfigs
+title: GetAllCustomerCenterConfigs
 id: v1CustomerServiceAgent_GetAllCustomerCenterConfigs
 ---
 
-# POST Agents/CustomerService/GetAllCustomerCenterConfigs
+# GetAllCustomerCenterConfigs
 
 ```http
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 709,
+    "CustConfigId": 960,
     "Type": "Options",
-    "Config": "aliquid",
-    "CustLangId": 610,
-    "Registered": "2009-09-29T16:48:29.2248946+02:00",
-    "RegisteredAssociateId": 690,
-    "Updated": "2020-02-07T16:48:29.2248946+01:00",
-    "UpdatedAssociateId": 44,
+    "Config": "voluptatum",
+    "CustLangId": 408,
+    "Registered": "2014-03-29T14:58:03.7604652+01:00",
+    "RegisteredAssociateId": 630,
+    "Updated": "2004-04-10T14:58:03.7604652+02:00",
+    "UpdatedAssociateId": 665,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

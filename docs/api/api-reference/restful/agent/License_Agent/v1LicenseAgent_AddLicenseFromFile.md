@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/AddLicenseFromFile
+title: AddLicenseFromFile
 id: v1LicenseAgent_AddLicenseFromFile
 ---
 
-# POST Agents/License/AddLicenseFromFile
+# AddLicenseFromFile
 
 ```http
 POST /api/v1/Agents/License/AddLicenseFromFile
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ducimus"
+  "FileContent": "vel"
 }
 ```
 
@@ -92,65 +92,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": true,
   "New": {
-    "CompanyName": "Fahey, Ankunding and Botsford",
+    "CompanyName": "Ritchie, Reinger and Rice",
     "SerialNr": "1010000006",
-    "OwnerName": "Schimmel-O'Keefe",
-    "OwnerDescription": "Down-sized impactful leverage",
-    "NextCheckDate": "2006-09-16T16:48:29.7409242+02:00",
-    "MaintenanceDate": "2013-06-21T16:48:29.7409242+02:00",
-    "AdminWarningDate": "2007-10-12T16:48:29.7409242+02:00",
-    "ExpiryDate": "1999-11-29T16:48:29.7409242+01:00",
-    "GraceDate": "2015-07-14T16:48:29.7409242+02:00",
-    "ExtraFlags": 814,
-    "ExtraInfo": "consectetur",
+    "OwnerName": "Corkery LLC",
+    "OwnerDescription": "Triple-buffered multi-tasking algorithm",
+    "NextCheckDate": "1997-08-21T14:58:04.3354599+02:00",
+    "MaintenanceDate": "2006-05-04T14:58:04.3354599+02:00",
+    "AdminWarningDate": "2003-02-15T14:58:04.3354599+01:00",
+    "ExpiryDate": "2005-01-16T14:58:04.3354599+01:00",
+    "GraceDate": "2008-02-27T14:58:04.3354599+01:00",
+    "ExtraFlags": 430,
+    "ExtraInfo": "rerum",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "laudantium",
-    "DeploymentType": 338,
-    "ProductType": "iusto",
-    "ProductDescription": "Progressive client-server Graphic Interface",
+    "LicenseVersion": "est",
+    "DeploymentType": 159,
+    "ProductType": "doloremque",
+    "ProductDescription": "Multi-tiered system-worthy capability",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "dolor"
+    "Signature": "reprehenderit"
   },
   "Current": {
-    "CompanyName": "McGlynn, Grady and O'Connell",
+    "CompanyName": "Wintheiser-Muller",
     "SerialNr": "1010000006",
-    "OwnerName": "Predovic Inc and Sons",
-    "OwnerDescription": "Organized background toolset",
-    "NextCheckDate": "2007-03-18T16:48:29.7419313+01:00",
-    "MaintenanceDate": "2006-05-12T16:48:29.7419313+02:00",
-    "AdminWarningDate": "2004-06-19T16:48:29.7419313+02:00",
-    "ExpiryDate": "2009-12-01T16:48:29.7419313+01:00",
-    "GraceDate": "2020-07-29T16:48:29.7419313+02:00",
-    "ExtraFlags": 578,
-    "ExtraInfo": "nostrum",
+    "OwnerName": "Feeney-Friesen",
+    "OwnerDescription": "Public-key 24/7 help-desk",
+    "NextCheckDate": "1994-12-31T14:58:04.3354599+01:00",
+    "MaintenanceDate": "2005-06-30T14:58:04.3354599+02:00",
+    "AdminWarningDate": "1994-06-07T14:58:04.3354599+02:00",
+    "ExpiryDate": "2016-09-21T14:58:04.3354599+02:00",
+    "GraceDate": "2003-10-14T14:58:04.3354599+02:00",
+    "ExtraFlags": 113,
+    "ExtraInfo": "ducimus",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "iste",
-    "DeploymentType": 320,
-    "ProductType": "qui",
-    "ProductDescription": "Enhanced bandwidth-monitored time-frame",
+    "LicenseVersion": "quia",
+    "DeploymentType": 254,
+    "ProductType": "esse",
+    "ProductDescription": "Compatible human-resource budgetary management",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "qui"
+    "Signature": "molestiae"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 792,
-      "NumberOfLicensesFree": 343,
-      "NumberOfLicensesAdded": 912,
-      "NumberOfLicensesNewTotal": 30,
-      "NumberOfLicensesNewFree": 250,
-      "NumberOfLicensesTotal": 477
+      "NumberOfLicensesInUse": 134,
+      "NumberOfLicensesFree": 711,
+      "NumberOfLicensesAdded": 244,
+      "NumberOfLicensesNewTotal": 860,
+      "NumberOfLicensesNewFree": 952,
+      "NumberOfLicensesTotal": 918
     }
   ],
-  "AccumulatedNextCheckDate": "2012-12-07T16:48:29.7419313+01:00"
+  "AccumulatedNextCheckDate": "2014-11-22T14:58:04.3354599+01:00"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/GetStoredFields
+title: GetStoredFields
 id: v1BulkUpdateAgent_GetStoredFields
 ---
 
-# POST Agents/BulkUpdate/GetStoredFields
+# GetStoredFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "sunt"
+  "Context": "voluptas"
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "consequatur",
-    "ValueType": "quam",
+    "IsActive": true,
+    "Key": "fuga",
+    "ValueType": "et",
     "Mandatory": true,
-    "EncodedDisplayName": "Rolfson Group",
-    "EncodedDisplayDescription": "Virtual neutral time-frame",
-    "IconHint": "consequatur",
+    "EncodedDisplayName": "Reinger-Klocko",
+    "EncodedDisplayDescription": "Persevering leading edge synergy",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "quibusdam",
-        "Label": "suscipit",
-        "Dimension": 756,
-        "ListProviderName": "Beier-Franecki",
-        "ListProviderExtraInfo": "occaecati",
-        "ListProviderPrimaryKeyName": "Leffler LLC",
-        "ListLeadText": "accusantium",
+        "Type": "eos",
+        "Label": "vitae",
+        "Dimension": 316,
+        "ListProviderName": "Schuster-Braun",
+        "ListProviderExtraInfo": "quis",
+        "ListProviderPrimaryKeyName": "Barton Group",
+        "ListLeadText": "aut",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,29 +130,29 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 183
+            "FieldLength": 597
           }
         }
       }
     ],
-    "EncodedDataCaption": "explicabo",
-    "EncodedDataCaptionDescription": "Decentralized bandwidth-monitored capacity",
-    "CurrentOperationType": "in",
+    "EncodedDataCaption": "voluptates",
+    "EncodedDataCaptionDescription": "Front-line 24 hour structure",
+    "CurrentOperationType": "hic",
     "Values": [
-      "aut",
-      "et"
+      "dolor",
+      "distinctio"
     ],
     "DisplayValues": [
-      "cum",
-      "maiores"
+      "magni",
+      "commodi"
     ],
     "OperationInfos": [
       {
-        "Key": "autem",
-        "EncodedDisplayName": "Stark-Collins",
+        "Key": "est",
+        "EncodedDisplayName": "Waters, Kuhn and Kertzmann",
         "EncodedLeadTexts": [
-          "ut",
-          "optio"
+          "sequi",
+          "magnam"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -162,16 +162,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldLength": 707
           }
         }
       },
       {
-        "Key": "autem",
-        "EncodedDisplayName": "Stark-Collins",
+        "Key": "est",
+        "EncodedDisplayName": "Waters, Kuhn and Kertzmann",
         "EncodedLeadTexts": [
-          "ut",
-          "optio"
+          "sequi",
+          "magnam"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldLength": 707
           }
         }
       }

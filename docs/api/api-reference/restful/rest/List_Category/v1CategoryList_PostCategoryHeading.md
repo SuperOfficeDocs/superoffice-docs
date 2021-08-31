@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 82,
-  "Name": "Kihn-Fadel",
-  "Tooltip": "nam",
+  "HeadingId": 743,
+  "Name": "Cronin, Bartoletti and Murphy",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 310,
-  "UdListDefinitionId": 647
+  "Rank": 484,
+  "UdListDefinitionId": 715
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Murazik Group",
-  "Tooltip": "corporis",
+  "HeadingId": 779,
+  "Name": "Hessel Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 648,
-  "UdListDefinitionId": 564,
+  "Rank": 575,
+  "UdListDefinitionId": 272,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reintermediate cutting-edge e-commerce"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 124
     }
   }
 }

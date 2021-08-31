@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectsFromPerson
+title: GetProjectsFromPerson
 id: v1ProjectAgent_GetProjectsFromPerson
 ---
 
-# POST Agents/Project/GetProjectsFromPerson
+# GetProjectsFromPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromPerson
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 252
+  "PersonId": 34
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 703,
-    "Name": "O'Keefe-Emard",
-    "Description": "Virtual zero defect website",
+    "ProjectId": 505,
+    "Name": "Ruecker Group",
+    "Description": "Extended responsive complexity",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 103,
-    "AssociateFullName": "Noah Bradtke",
-    "TypeId": 825,
-    "Updated": "2011-08-26T16:48:30.3729346+02:00",
-    "StatusId": 397,
-    "Status": "itaque",
-    "TextId": 506,
-    "PublishTo": "2019-11-03T16:48:30.3729346+01:00",
-    "PublishFrom": "2002-06-22T16:48:30.3729346+02:00",
+    "Type": "quia",
+    "AssociateId": 772,
+    "AssociateFullName": "Madyson Wiza",
+    "TypeId": 262,
+    "Updated": "2017-10-08T14:58:04.8574604+02:00",
+    "StatusId": 797,
+    "Status": "sit",
+    "TextId": 26,
+    "PublishTo": "2015-07-31T14:58:04.8574604+02:00",
+    "PublishFrom": "2018-05-09T14:58:04.8574604+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "306860",
-    "ActiveErpLinks": 442,
+    "ProjectNumber": "1232688",
+    "ActiveErpLinks": 109,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldType": "System.String",
+        "FieldLength": 373
       }
     }
   }

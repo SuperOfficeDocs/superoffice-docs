@@ -26,7 +26,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=quod
+GET /api/v1/List/Credited/MDOItems?query=laboriosam
 ```
 
 
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Champlin-Daniel",
-    "ToolTip": "In dolore.",
-    "Deleted": true,
-    "Rank": 646,
-    "Type": "cumque",
+    "Id": 416,
+    "Name": "Zieme-Jenkins",
+    "ToolTip": "Velit et consequatur qui ea.",
+    "Deleted": false,
+    "Rank": 531,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Ondricka LLC",
-        "ToolTip": "Adipisci occaecati veritatis occaecati repellat et.",
-        "Deleted": false,
-        "Rank": 648,
-        "Type": "voluptas",
+        "Id": 410,
+        "Name": "Schroeder, Schultz and Schamberger",
+        "ToolTip": "Impedit aut reprehenderit temporibus.",
+        "Deleted": true,
+        "Rank": 330,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 884,
-        "ExtraInfo": "quia",
-        "StyleHint": "laboriosam",
-        "FullName": "Elwin Hansen",
+        "IconHint": "molestiae",
+        "ColorBlock": 236,
+        "ExtraInfo": "sit",
+        "StyleHint": "id",
+        "FullName": "Verdie Cole",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "iterate open-source e-business"
             },
             "FieldType": "System.String",
-            "FieldLength": 383
+            "FieldLength": 440
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 98,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "iste",
-    "FullName": "Miss Jaylan Huels",
+    "IconHint": "id",
+    "ColorBlock": 636,
+    "ExtraInfo": "et",
+    "StyleHint": "omnis",
+    "FullName": "Dr. Bailee Hackett",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 53
       }
     }
   }

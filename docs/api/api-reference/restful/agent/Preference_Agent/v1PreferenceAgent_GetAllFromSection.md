@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetAllFromSection
+title: GetAllFromSection
 id: v1PreferenceAgent_GetAllFromSection
 ---
 
-# POST Agents/Preference/GetAllFromSection
+# GetAllFromSection
 
 ```http
 POST /api/v1/Agents/Preference/GetAllFromSection
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "exercitationem"
+  "Section": "quia"
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 562,
-    "Section": "minus",
-    "Key": "quis",
-    "Name": "Kuhic-Jacobs",
+    "PrefDescId": 198,
+    "Section": "eum",
+    "Key": "qui",
+    "Name": "Turner-Haag",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Re-contextualized web-enabled hierarchy",
-    "IsBuiltin": false,
-    "TableName": "Herman, Anderson and Torp",
-    "UserDefinedListId": 434,
-    "Rank": 943,
-    "SubGroup": "esse",
-    "MinLevel": 594,
-    "MaxValue": 736,
-    "MinValue": 112,
-    "RequiredLicense": "autem",
+    "Description": "Reverse-engineered real-time support",
+    "IsBuiltin": true,
+    "TableName": "Wolf, Cormier and Champlin",
+    "UserDefinedListId": 226,
+    "Rank": 810,
+    "SubGroup": "perspiciatis",
+    "MinLevel": 193,
+    "MaxValue": 882,
+    "MinValue": 411,
+    "RequiredLicense": "maiores",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

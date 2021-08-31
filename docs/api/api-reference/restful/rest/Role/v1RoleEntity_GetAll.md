@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=dolore
-GET /api/v1/Role?$top=131
-GET /api/v1/Role?$skip=883
+GET /api/v1/Role?$entities=repellendus
+GET /api/v1/Role?$top=525
+GET /api/v1/Role?$skip=546
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=quibusdam
+GET /api/v1/Role?$context=consectetur
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
@@ -116,7 +116,7 @@ Response body: object
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "iusto",
+  "odata.nextLink": "exercitationem",
   "value": [
     {
-      "PrimaryKey": 8627,
-      "EntityName": "sale",
-      "saleId": 8627,
-      "contactId": 513,
-      "name": "Lueilwitz, Turner and McDermott"
+      "PrimaryKey": 3775,
+      "EntityName": "person",
+      "personId": 3775,
+      "fullName": "Brendon Kuvalis"
     },
     {
-      "PrimaryKey": 8760,
-      "EntityName": "sale",
-      "saleId": 8760,
-      "contactId": 4908,
-      "name": "Corwin Group"
+      "PrimaryKey": 481,
+      "EntityName": "person",
+      "personId": 481,
+      "fullName": "Elinore Gutmann"
     }
   ]
 }

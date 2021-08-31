@@ -65,7 +65,7 @@ Response body: object
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -73,23 +73,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 507,
-  "Name": "Breitenberg-Senger",
-  "CreatedDate": "2017-12-29T09:40:59.2296629+01:00",
-  "UpdatedDate": "1996-06-18T09:40:59.2296629+02:00",
+  "ForeignAppId": 236,
+  "Name": "Daugherty-Green",
+  "CreatedDate": "1994-12-20T15:05:42.1786354+01:00",
+  "UpdatedDate": "2007-11-10T15:05:42.1786354+01:00",
   "CreatedBy": {
-    "AssociateId": 709,
-    "Name": "Casper Inc and Sons",
-    "PersonId": 740,
-    "Rank": 888,
-    "Tooltip": "nesciunt",
+    "AssociateId": 689,
+    "Name": "Collier-Macejkovic",
+    "PersonId": 647,
+    "Rank": 246,
+    "Tooltip": "ut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 412,
-    "FullName": "Deon Bogan",
-    "FormalName": "Wunsch-Dooley",
+    "GroupIdx": 832,
+    "FullName": "Jermain Gutmann MD",
+    "FormalName": "Parisian-Conn",
     "Deleted": true,
-    "EjUserId": 504,
-    "UserName": "Powlowski, Jerde and Bergstrom",
+    "EjUserId": 651,
+    "UserName": "Monahan, Cremin and Yost",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldLength": 444
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 81,
-    "Name": "McKenzie, Ledner and Kiehn",
-    "PersonId": 91,
-    "Rank": 651,
-    "Tooltip": "qui",
+    "AssociateId": 800,
+    "Name": "Kerluke-Swaniawski",
+    "PersonId": 69,
+    "Rank": 943,
+    "Tooltip": "aliquam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 239,
-    "FullName": "Jessika Mills",
-    "FormalName": "Towne-Upton",
+    "GroupIdx": 17,
+    "FullName": "Melany Champlin",
+    "FormalName": "Bradtke-Schiller",
     "Deleted": false,
-    "EjUserId": 997,
-    "UserName": "Spinka Inc and Sons",
+    "EjUserId": 253,
+    "UserName": "Thompson-Quitzon",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,21 +123,21 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 48
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 108,
-      "Name": "Kuhlman-Nikolaus",
-      "CreatedDate": "1997-05-04T09:40:59.2306626+02:00",
-      "UpdatedDate": "2006-10-09T09:40:59.2306626+02:00",
-      "AssociateFullName": "Cameron Schoen",
-      "CreatedBy": "similique",
-      "UpdatedBy": "delectus",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 60,
+      "ForeignDeviceId": 642,
+      "Name": "Trantow LLC",
+      "CreatedDate": "2005-03-14T15:05:42.1796351+01:00",
+      "UpdatedDate": "2008-06-12T15:05:42.1796351+02:00",
+      "AssociateFullName": "Amy Schmitt Jr.",
+      "CreatedBy": "quis",
+      "UpdatedBy": "neque",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 385,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,14 +146,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldLength": 426
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "transform back-end platforms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 401
     }
   }
 }

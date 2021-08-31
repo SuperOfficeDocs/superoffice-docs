@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Kulas Group",
-  "Tooltip": "dolore",
+  "Id": 747,
+  "Name": "Sporer Inc and Sons",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "UdListDefinitionId": 338,
-  "Rank": 526,
+  "UdListDefinitionId": 236,
+  "Rank": 47,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

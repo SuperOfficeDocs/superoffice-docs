@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "West Group",
-    "ToolTip": "Eius impedit.",
+    "Id": 774,
+    "Name": "Raynor LLC",
+    "ToolTip": "Labore est impedit voluptates non consectetur.",
     "Deleted": true,
-    "Rank": 281,
-    "Type": "consectetur",
-    "ColorBlock": 171,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2013-02-25T09:41:00.2993663+01:00",
+    "Rank": 859,
+    "Type": "est",
+    "ColorBlock": 23,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2017-02-16T15:05:43.3715102+01:00",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Purdy, Greenfelder and Ondricka",
-        "ToolTip": "Explicabo porro iure facilis.",
-        "Deleted": true,
-        "Rank": 898,
-        "Type": "doloribus",
-        "ColorBlock": 966,
-        "IconHint": "tenetur",
+        "Id": 707,
+        "Name": "Berge, Wintheiser and Purdy",
+        "ToolTip": "Quos similique.",
+        "Deleted": false,
+        "Rank": 418,
+        "Type": "iste",
+        "ColorBlock": 786,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2016-05-06T09:41:00.2993663+02:00",
+        "LastChanged": "2008-03-07T15:05:43.3715102+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Joanny Hettinger",
+        "ExtraInfo": "officia",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Kiara Rippin I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 639
+            "FieldLength": 510
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Rhea Reynolds",
+    "ExtraInfo": "qui",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Antonia Rolfson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "revolutionize dot-com ROI"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldType": "System.String",
+        "FieldLength": 337
       }
     }
   }

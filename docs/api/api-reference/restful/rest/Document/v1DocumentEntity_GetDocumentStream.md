@@ -53,7 +53,7 @@ Response body:
 GET /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_

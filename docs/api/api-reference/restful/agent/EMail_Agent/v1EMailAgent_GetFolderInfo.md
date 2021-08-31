@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetFolderInfo
+title: GetFolderInfo
 id: v1EMailAgent_GetFolderInfo
 ---
 
-# POST Agents/EMail/GetFolderInfo
+# GetFolderInfo
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderInfo
@@ -83,20 +83,20 @@ Response body: array
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Leffler-Macejkovic",
-    "UserName": "Schmitt-Jakubowski",
-    "Password": "dolores",
-    "Folder": "odit",
-    "UseSSL": false
+    "ServerName": "Cummings Group",
+    "UserName": "Maggio LLC",
+    "Password": "atque",
+    "Folder": "ipsum",
+    "UseSSL": true
   },
   "Folders": [
-    "dolores",
-    "hic"
+    "unde",
+    "impedit"
   ]
 }
 ```
@@ -107,13 +107,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Conn, McClure and Koch",
-    "Delimiter": "ut",
-    "Flags": "quam",
-    "TotalItems": 351,
-    "UnreadItems": 102,
-    "Subscribed": true,
-    "EmailFolderId": 768,
+    "Name": "Bergstrom Group",
+    "Delimiter": "dolorum",
+    "Flags": "rerum",
+    "TotalItems": 959,
+    "UnreadItems": 412,
+    "Subscribed": false,
+    "EmailFolderId": 276,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateDefaultUserFromUserType
+title: CreateDefaultUserFromUserType
 id: v1UserAgent_CreateDefaultUserFromUserType
 ---
 
-# POST Agents/User/CreateDefaultUserFromUserType
+# CreateDefaultUserFromUserType
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 739,
-  "Name": "Hegmann, Keeling and Brown",
-  "Rank": 508,
-  "Tooltip": "est",
+  "AssociateId": 677,
+  "Name": "Heathcote Inc and Sons",
+  "Rank": 889,
+  "Tooltip": "tenetur",
   "LicenseOwners": [
     {
-      "Name": "Pfannerstill Inc and Sons",
-      "Description": "Expanded tertiary budgetary management",
+      "Name": "Wolf-Romaguera",
+      "Description": "Up-sized cohesive budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,14 +141,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     },
     {
-      "Name": "Pfannerstill Inc and Sons",
-      "Description": "Expanded tertiary budgetary management",
+      "Name": "Wolf-Romaguera",
+      "Description": "Up-sized cohesive budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -164,33 +164,33 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     }
   ],
   "Role": {
-    "Id": 224,
-    "Value": "facere",
-    "Tooltip": "consequuntur",
+    "Id": 243,
+    "Value": "quod",
+    "Tooltip": "aliquid",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "reintermediate value-added solutions"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 627
       }
     }
   },
   "UserGroup": {
-    "Value": "quam",
-    "Tooltip": "libero",
-    "Id": 223,
-    "Rank": 743,
+    "Value": "consectetur",
+    "Tooltip": "inventore",
+    "Id": 50,
+    "Rank": 160,
     "Deleted": true,
     "TableRight": {},
     "FieldProperties": {
@@ -200,16 +200,16 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 773
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "consequatur",
-      "Id": 273,
-      "Rank": 367,
+      "Value": "nisi",
+      "Tooltip": "dolorem",
+      "Id": 778,
+      "Rank": 986,
       "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
@@ -218,78 +218,78 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 974
+          "FieldType": "System.Int32",
+          "FieldLength": 229
         }
       }
     }
   ],
   "Person": {
-    "Position": "officiis",
-    "PersonId": 388,
-    "Mrmrs": "voluptas",
-    "Firstname": "Kyler",
-    "Lastname": "Hahn",
-    "MiddleName": "Kreiger-Turcotte",
-    "Title": "nihil",
-    "Description": "Synergized responsive task-force",
-    "Email": "terrell@toy.us",
-    "FullName": "Jackie Morissette",
-    "DirectPhone": "372.502.8784",
-    "FormalName": "Erdman Group",
-    "CountryId": 869,
-    "ContactId": 884,
-    "ContactName": "Kautzer LLC",
-    "Retired": 787,
-    "Rank": 696,
-    "ActiveInterests": 861,
+    "Position": "molestiae",
+    "PersonId": 677,
+    "Mrmrs": "quidem",
+    "Firstname": "Daryl",
+    "Lastname": "Kulas",
+    "MiddleName": "Sporer Group",
+    "Title": "voluptatem",
+    "Description": "Persevering radical toolset",
+    "Email": "meghan_roberts@koelpinkiehn.uk",
+    "FullName": "Stanton Nikolaus",
+    "DirectPhone": "1-338-682-1253 x34111",
+    "FormalName": "Weimann-Bosco",
+    "CountryId": 82,
+    "ContactId": 969,
+    "ContactName": "Schoen Inc and Sons",
+    "Retired": 661,
+    "Rank": 57,
+    "ActiveInterests": 431,
     "ContactDepartment": "",
-    "ContactCountryId": 341,
-    "ContactOrgNr": "689256",
-    "FaxPhone": "873.108.3414 x187",
-    "MobilePhone": "(407)486-6083",
-    "ContactPhone": "(168)474-1032 x03633",
-    "AssociateName": "King, Osinski and Jewess",
-    "AssociateId": 7,
-    "UsePersonAddress": false,
-    "ContactFax": "quas",
-    "Kanafname": "illum",
-    "Kanalname": "et",
-    "Post1": "pariatur",
-    "Post2": "hic",
-    "Post3": "aut",
-    "EmailName": "sibyl@koch.uk",
-    "ContactFullName": "Yasmine Upton",
-    "ActiveErpLinks": 434,
-    "TicketPriorityId": 28,
-    "SupportLanguageId": 387,
-    "SupportAssociateId": 624,
+    "ContactCountryId": 766,
+    "ContactOrgNr": "1032275",
+    "FaxPhone": "682.088.1883 x43422",
+    "MobilePhone": "1-327-457-6752 x254",
+    "ContactPhone": "(360)354-8026 x711",
+    "AssociateName": "Ledner-Johnson",
+    "AssociateId": 537,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "dolores",
+    "Kanalname": "aperiam",
+    "Post1": "hic",
+    "Post2": "voluptatum",
+    "Post3": "expedita",
+    "EmailName": "johathan.kulas@smith.co.uk",
+    "ContactFullName": "Mitchel Muller",
+    "ActiveErpLinks": 273,
+    "TicketPriorityId": 32,
+    "SupportLanguageId": 86,
+    "SupportAssociateId": 681,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "engage user-centric e-services"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 323
       }
     }
   },
   "Deleted": true,
-  "Lastlogin": "2010-12-30T16:48:30.8469397+01:00",
-  "Lastlogout": "2008-12-02T16:48:30.8469397+01:00",
-  "EjUserId": 169,
-  "RequestSignature": "quo",
+  "Lastlogin": "2000-10-01T14:58:05.5270544+02:00",
+  "Lastlogout": "1997-01-08T14:58:05.5270544+01:00",
+  "EjUserId": 827,
+  "RequestSignature": "reiciendis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "dolorum",
-      "DisplayValue": "quia",
+      "Value": "libero",
+      "DisplayValue": "nihil",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -297,15 +297,46 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     },
     {
       "Type": {},
-      "Value": "dolorum",
-      "DisplayValue": "quia",
+      "Value": "libero",
+      "DisplayValue": "nihil",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 288
+        }
+      }
+    }
+  ],
+  "UserName": "Mraz, Labadie and Pollich",
+  "TicketCategories": [
+    {
+      "Id": 112,
+      "Name": "Murazik-Boehm",
+      "ToolTip": "Numquam laudantium est.",
+      "Deleted": true,
+      "Rank": 894,
+      "Type": "adipisci",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quis",
+      "ColorBlock": 894,
+      "ExtraInfo": "nobis",
+      "StyleHint": "sint",
+      "FullName": "Santa Gleichner Jr.",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -314,60 +345,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 674
         }
       }
     }
   ],
-  "UserName": "Leffler-Green",
-  "TicketCategories": [
-    {
-      "Id": 462,
-      "Name": "Mills Inc and Sons",
-      "ToolTip": "Quo adipisci officia omnis.",
-      "Deleted": false,
-      "Rank": 990,
-      "Type": "mollitia",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "laborum",
-      "ColorBlock": 922,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "non",
-      "FullName": "Elza Bartell",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 264
-        }
-      }
-    }
-  ],
-  "NickName": "O'Reilly LLC",
-  "WaitingForApproval": true,
+  "NickName": "Boyer-Huel",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "ad",
+    "CustomFields2": "commodi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Larkin, Leannon and Stroman",
-      "DisplayName": "D'Amore-Champlin",
-      "Description": "Reactive motivating project",
-      "ToolTip": "Illo repellat laborum voluptatem sit.",
+      "Name": "Keeling, Halvorson and Pfeffer",
+      "DisplayName": "Johns Inc and Sons",
+      "Description": "Extended dynamic open architecture",
+      "ToolTip": "Id beatae odit.",
       "Actions": "Implicit",
-      "ActionData": "at",
+      "ActionData": "voluptas",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -376,7 +376,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldLength": 80
         }
       }
     }
@@ -391,8 +391,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

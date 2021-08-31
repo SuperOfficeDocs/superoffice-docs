@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLanguageInfo
+title: GetLanguageInfo
 id: v1ListAgent_GetLanguageInfo
 ---
 
-# POST Agents/List/GetLanguageInfo
+# GetLanguageInfo
 
 ```http
 POST /api/v1/Agents/List/GetLanguageInfo
@@ -25,7 +25,7 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=26
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=153
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,13 +81,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 697,
-  "LCID": 385,
-  "EnglishName": "Gusikowski-Walker",
-  "NativeName": "Prosacco LLC",
-  "ThreeLetterISOLanguageName": "Rogahn Group",
-  "TwoLetterISOLanguageName": "Russel-Nicolas",
-  "IsBuiltIn": false,
+  "LanguageInfoId": 1000,
+  "LCID": 810,
+  "EnglishName": "Heller-Wilderman",
+  "NativeName": "Crooks, Lueilwitz and Ziemann",
+  "ThreeLetterISOLanguageName": "Anderson-Kemmer",
+  "TwoLetterISOLanguageName": "Roberts-Kihn",
+  "IsBuiltIn": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 720
     }
   }
 }

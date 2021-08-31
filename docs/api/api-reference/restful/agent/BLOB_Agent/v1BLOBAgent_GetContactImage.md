@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetContactImage
+title: GetContactImage
 id: v1BLOBAgent_GetContactImage
 ---
 
-# POST Agents/BLOB/GetContactImage
+# GetContactImage
 
 ```http
 POST /api/v1/Agents/BLOB/GetContactImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 660
+  "ContactId": 277
 }
 ```
 

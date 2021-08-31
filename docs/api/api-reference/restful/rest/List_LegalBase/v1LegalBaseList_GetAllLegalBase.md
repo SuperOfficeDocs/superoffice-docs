@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 311,
-    "Name": "Runolfsson Group",
-    "Tooltip": "neque",
-    "Rank": 145,
-    "Key": "eaque",
-    "Deleted": true,
+    "LegalBaseId": 824,
+    "Name": "Zboncak-Medhurst",
+    "Tooltip": "suscipit",
+    "Rank": 937,
+    "Key": "dolorem",
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   }

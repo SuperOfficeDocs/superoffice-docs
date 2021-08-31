@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/IsPasswordValidWithReason
+title: IsPasswordValidWithReason
 id: v1UserAgent_IsPasswordValidWithReason
 ---
 
-# POST Agents/User/IsPasswordValidWithReason
+# IsPasswordValidWithReason
 
 ```http
 POST /api/v1/Agents/User/IsPasswordValidWithReason
@@ -78,14 +78,14 @@ Response body: object
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 464,
+  "AssociateId": 479,
   "Type": "AnonymousAssociate",
-  "PersonId": 77,
-  "Password": "et"
+  "PersonId": 306,
+  "Password": "officia"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
   "Result": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "integrate cross-platform systems"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "morph transparent action-items"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 122
     }
   }
 }

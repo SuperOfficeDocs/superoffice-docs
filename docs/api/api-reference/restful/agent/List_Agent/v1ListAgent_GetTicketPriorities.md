@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketPriorities
+title: GetTicketPriorities
 id: v1ListAgent_GetTicketPriorities
 ---
 
-# POST Agents/List/GetTicketPriorities
+# GetTicketPriorities
 
 ```http
 POST /api/v1/Agents/List/GetTicketPriorities
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Value": "rem",
-    "Tooltip": "vero",
+    "Id": 115,
+    "Value": "dolorem",
+    "Tooltip": "pariatur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldType": "System.String",
+        "FieldLength": 338
       }
     }
   },
   {
-    "Id": 211,
-    "Value": "rem",
-    "Tooltip": "vero",
+    "Id": 115,
+    "Value": "dolorem",
+    "Tooltip": "pariatur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldType": "System.String",
+        "FieldLength": 338
       }
     }
   }

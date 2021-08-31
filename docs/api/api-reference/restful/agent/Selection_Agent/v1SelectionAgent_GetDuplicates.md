@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetDuplicates
+title: GetDuplicates
 id: v1SelectionAgent_GetDuplicates
 ---
 
-# POST Agents/Selection/GetDuplicates
+# GetDuplicates
 
 ```http
 POST /api/v1/Agents/Selection/GetDuplicates
@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Douglas LLC"
+  "Name": "Durgan Group"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Gutkowski-Klocko",
-    "SoPrimaryKey": 321,
-    "EntryName": "Ledner-Kuvalis",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Kessler Group",
+    "RuleName": "Skiles Inc and Sons",
+    "SoPrimaryKey": 84,
+    "EntryName": "Okuneva, Larkin and Toy",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Blick-Denesik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 140
+        "FieldLength": 165
       }
     }
   }

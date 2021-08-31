@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Ortiz-Schowalter",
-    "ToolTip": "Asperiores quas odio.",
+    "Id": 317,
+    "Name": "Ritchie Inc and Sons",
+    "ToolTip": "Aut non quam sit beatae qui sed.",
     "Deleted": true,
-    "Rank": 285,
+    "Rank": 745,
     "Type": "et",
-    "ColorBlock": 632,
-    "IconHint": "maiores",
+    "ColorBlock": 469,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "1997-11-29T09:41:00.2493659+01:00",
+    "LastChanged": "2020-11-12T15:05:43.3235396+01:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Nienow-Orn",
-        "ToolTip": "Et commodi est.",
-        "Deleted": false,
-        "Rank": 321,
-        "Type": "esse",
-        "ColorBlock": 849,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "1998-12-18T09:41:00.2493659+01:00",
+        "Id": 64,
+        "Name": "Becker-Prosacco",
+        "ToolTip": "Cumque esse tenetur.",
+        "Deleted": true,
+        "Rank": 249,
+        "Type": "et",
+        "ColorBlock": 502,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2009-06-01T15:05:43.3245403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sed",
+        "ExtraInfo": "et",
+        "StyleHint": "incidunt",
         "Hidden": true,
-        "FullName": "Domenick Hermiston",
+        "FullName": "Derrick Batz",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,18 +129,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "impedit",
+    "ExtraInfo": "illum",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Elmo Botsford",
+    "FullName": "Lillie Paucek",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "strategize B2C markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 713
       }
     }
   }

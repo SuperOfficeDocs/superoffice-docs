@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetContactAppointmentsByTasks
+title: GetContactAppointmentsByTasks
 id: v1AppointmentAgent_GetContactAppointmentsByTasks
 ---
 
-# POST Agents/Appointment/GetContactAppointmentsByTasks
+# GetContactAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
@@ -125,17 +125,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 545,
-  "StartTime": "2017-09-04T16:48:28.4744488+02:00",
-  "EndTime": "2002-06-01T16:48:28.4744488+02:00",
-  "Count": 951,
+  "ContactId": 87,
+  "StartTime": "2007-09-22T14:58:02.8695638+02:00",
+  "EndTime": "1999-06-04T14:58:02.8695638+02:00",
+  "Count": 345,
   "TaskIds": [
-    934,
-    433
+    68,
+    982
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 324,
-    "StartDate": "2015-03-24T16:48:28.4754509+01:00",
-    "EndDate": "1999-03-05T16:48:28.4754509+01:00",
+    "AppointmentId": 147,
+    "StartDate": "2005-05-08T14:58:02.8705386+02:00",
+    "EndDate": "2020-08-04T14:58:02.8705386+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Dennis Nolan",
-    "ContactName": "Skiles, Schneider and Bartoletti",
-    "Description": "Focused heuristic conglomeration",
-    "PersonFullName": "Calista Bins PhD",
-    "PersonId": 381,
-    "ContactId": 42,
-    "ProjectId": 539,
-    "ProjectName": "Goldner, Lowe and Larkin",
+    "Task": "qui",
+    "AssociateFullName": "Amber Schinner",
+    "ContactName": "Keebler-Braun",
+    "Description": "Virtual radical paradigm",
+    "PersonFullName": "Jamal Welch",
+    "PersonId": 303,
+    "ContactId": 646,
+    "ProjectId": 730,
+    "ProjectName": "Oberbrunner-Sawayn",
     "IsPublished": false,
-    "AssociateId": 532,
-    "ColorIndex": 784,
+    "AssociateId": 836,
+    "ColorIndex": 929,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 430,
-    "PriorityName": "Cremin Inc and Sons",
+    "PriorityId": 549,
+    "PriorityName": "McGlynn, Pfeffer and Homenick",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2015-10-11T16:48:28.4754509+02:00",
+    "ActiveDate": "2007-12-03T14:58:02.8715731+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-06-14T16:48:28.4764493+02:00",
-    "RecurringEndDate": "2010-03-02T16:48:28.4764493+01:00",
-    "MotherId": 111,
-    "AssignedBy": 497,
-    "AssignedByFullName": "Trace Dickinson",
+    "RecurringStartDate": "1994-10-26T14:58:02.8715731+02:00",
+    "RecurringEndDate": "2003-08-23T14:58:02.8715731+02:00",
+    "MotherId": 976,
+    "AssignedBy": 430,
+    "AssignedByFullName": "Darrick Lynch",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "qui",
-    "SaleId": 752,
-    "SaleName": "Reichert Group",
-    "AssociateName": "Crist Group",
-    "CreatedDate": "1995-01-01T16:48:28.4764493+01:00",
-    "CreatedBy": "adipisci",
-    "CreatedByFullName": "Dr. Camila Leuschke",
-    "CreatedByAssociateId": 905,
+    "Location": "maxime",
+    "AlarmLeadTime": "aliquam",
+    "SaleId": 589,
+    "SaleName": "Emard-Hirthe",
+    "AssociateName": "Heathcote-Okuneva",
+    "CreatedDate": "1997-06-30T14:58:02.8715731+02:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Mrs. Elda Haley",
+    "CreatedByAssociateId": 840,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 836
       }
     }
   }

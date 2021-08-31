@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 862,
-    "Name": "Leffler-Koepp",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 670,
+    "Name": "Sauer-Morar",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 357,
-    "UdListDefinitionId": 627
+    "Rank": 303,
+    "UdListDefinitionId": 466
   },
   {
-    "HeadingId": 862,
-    "Name": "Leffler-Koepp",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 670,
+    "Name": "Sauer-Morar",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 357,
-    "UdListDefinitionId": 627
+    "Rank": 303,
+    "UdListDefinitionId": 466
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 857,
-    "Name": "D'Amore LLC",
-    "Tooltip": "iure",
+    "HeadingId": 559,
+    "Name": "Will, Cummings and Reinger",
+    "Tooltip": "quis",
     "Deleted": true,
-    "Rank": 410,
-    "UdListDefinitionId": 304,
+    "Rank": 381,
+    "UdListDefinitionId": 39,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   }

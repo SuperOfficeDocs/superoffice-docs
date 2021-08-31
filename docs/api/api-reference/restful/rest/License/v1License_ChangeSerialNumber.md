@@ -25,8 +25,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Adams-Von
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=885512
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Schmeler Inc and Sons
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=749207
 ```
 
 
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -80,7 +80,7 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "strategize wireless ROI"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

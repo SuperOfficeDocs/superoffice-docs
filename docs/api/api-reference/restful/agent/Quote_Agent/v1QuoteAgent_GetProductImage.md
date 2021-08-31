@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetProductImage
+title: GetProductImage
 id: v1QuoteAgent_GetProductImage
 ---
 
-# POST Agents/Quote/GetProductImage
+# GetProductImage
 
 ```http
 POST /api/v1/Agents/Quote/GetProductImage
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/Quote/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 269,
-  "ERPProductKey": "omnis",
-  "Rank": 929
+  "QuoteConnectionId": 837,
+  "ERPProductKey": "et",
+  "Rank": 185
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quasi"
+"possimus"
 ```

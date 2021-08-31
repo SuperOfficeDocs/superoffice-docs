@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllPriceListsByCurrencyId
+title: GetAllPriceListsByCurrencyId
 id: v1QuoteAgent_GetAllPriceListsByCurrencyId
 ---
 
-# POST Agents/Quote/GetAllPriceListsByCurrencyId
+# GetAllPriceListsByCurrencyId
 
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 764,
-  "CurrencyId": 1000
+  "QuoteConnectionId": 452,
+  "CurrencyId": 30
 }
 ```
 
@@ -98,28 +98,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 79,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 150,
-    "Name": "Bernhard-Bednar",
-    "Description": "Assimilated client-server archive",
-    "Currency": "velit",
-    "CurrencyName": "Mueller, Pfeffer and Kling",
-    "ValidFrom": "2016-10-07T16:48:30.3899355+02:00",
-    "ValidTo": "2019-03-31T16:48:30.3899355+02:00",
+    "PriceListId": 511,
+    "ERPPriceListKey": "voluptatem",
+    "QuoteConnectionId": 152,
+    "Name": "Hilll, Hahn and Adams",
+    "Description": "Public-key full-range portal",
+    "Currency": "eum",
+    "CurrencyName": "Monahan, Shanahan and Schuppe",
+    "ValidFrom": "2003-04-11T14:58:04.9714656+02:00",
+    "ValidTo": "2000-10-26T14:58:04.9714656+02:00",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "synergize e-business e-tailers"
+      "Reason": "optimize strategic platforms"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "grow sexy communities"
+          "Reason": "implement world-class synergies"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldType": "System.String",
+        "FieldLength": 379
       }
     }
   }

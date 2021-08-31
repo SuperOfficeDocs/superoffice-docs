@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEmailMessageIds
+title: GetEmailMessageIds
 id: v1EMailAgent_GetEmailMessageIds
 ---
 
-# POST Agents/EMail/GetEmailMessageIds
+# GetEmailMessageIds
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailMessageIds
@@ -68,18 +68,18 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEmailMessageIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": {
-    "Port": 281,
-    "ServerName": "Von-Jones",
-    "Protocol": "nihil",
-    "UserName": "Durgan-Frami",
-    "Password": "ut",
+    "Port": 843,
+    "ServerName": "Marvin Group",
+    "Protocol": "in",
+    "UserName": "Mayert-Tremblay",
+    "Password": "est",
     "UseSSL": false,
-    "Folder": "dicta"
+    "Folder": "rerum"
   }
 }
 ```
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "consequatur",
+  "numquam",
   "enim"
 ]
 ```

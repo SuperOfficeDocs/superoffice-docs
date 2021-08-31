@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Ratke Group",
-    "Tooltip": "ex",
+    "HeadingId": 563,
+    "Name": "Stark LLC",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 763,
-    "UdListDefinitionId": 263
+    "Rank": 170,
+    "UdListDefinitionId": 460
   },
   {
-    "HeadingId": 855,
-    "Name": "Ratke Group",
-    "Tooltip": "ex",
+    "HeadingId": 563,
+    "Name": "Stark LLC",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 763,
-    "UdListDefinitionId": 263
+    "Rank": 170,
+    "UdListDefinitionId": 460
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 6,
-    "Name": "Murphy-Friesen",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 752,
-    "UdListDefinitionId": 548,
+    "HeadingId": 10,
+    "Name": "Botsford Group",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "Rank": 276,
+    "UdListDefinitionId": 852,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldLength": 486
       }
     }
   }

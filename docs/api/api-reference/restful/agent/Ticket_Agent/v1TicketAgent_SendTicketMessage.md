@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/SendTicketMessage
+title: SendTicketMessage
 id: v1TicketAgent_SendTicketMessage
 ---
 
-# POST Agents/Ticket/SendTicketMessage
+# SendTicketMessage
 
 ```http
 POST /api/v1/Agents/Ticket/SendTicketMessage

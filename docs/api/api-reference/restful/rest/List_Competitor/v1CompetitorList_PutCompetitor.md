@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Treutel-Stehr",
-  "Tooltip": "ut",
+  "Id": 491,
+  "Name": "Lehner-Green",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "UdListDefinitionId": 430,
-  "Rank": 744
+  "UdListDefinitionId": 860,
+  "Rank": 324
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "Hickle-Torphy",
-  "Tooltip": "vitae",
+  "Id": 324,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": true,
-  "UdListDefinitionId": 800,
-  "Rank": 605,
+  "UdListDefinitionId": 494,
+  "Rank": 727,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "recontextualize revolutionary relationships"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

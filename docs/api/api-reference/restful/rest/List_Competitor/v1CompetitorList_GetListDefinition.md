@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 840,
-  "Name": "Trantow Inc and Sons",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 558,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 532,
+  "Name": "Cassin, Gleichner and Keebler",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "Rank": 199,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "nobis",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldLength": 479
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetMyPublishedProjects
+title: GetMyPublishedProjects
 id: v1ProjectAgent_GetMyPublishedProjects
 ---
 
-# POST Agents/Project/GetMyPublishedProjects
+# GetMyPublishedProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyPublishedProjects
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 266,
-    "Name": "Haley Group",
-    "Description": "Decentralized mobile encoding",
+    "ProjectId": 622,
+    "Name": "Hahn-Reichel",
+    "Description": "Compatible disintermediate initiative",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 874,
-    "AssociateFullName": "Carmela Barton",
-    "TypeId": 658,
-    "Updated": "1997-04-01T16:48:30.248938+02:00",
-    "StatusId": 880,
-    "Status": "perspiciatis",
-    "TextId": 102,
-    "PublishTo": "2012-03-20T16:48:30.248938+01:00",
-    "PublishFrom": "2007-11-18T16:48:30.248938+01:00",
-    "IsPublished": false,
+    "Type": "voluptatem",
+    "AssociateId": 340,
+    "AssociateFullName": "Reggie Pollich",
+    "TypeId": 764,
+    "Updated": "2014-03-10T14:58:04.8614596+01:00",
+    "StatusId": 648,
+    "Status": "necessitatibus",
+    "TextId": 346,
+    "PublishTo": "2014-06-19T14:58:04.8614596+02:00",
+    "PublishFrom": "1995-11-10T14:58:04.8614596+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1601494",
-    "ActiveErpLinks": 97,
+    "ProjectNumber": "839005",
+    "ActiveErpLinks": 448,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldLength": 178
       }
     }
   }

@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 117,
-  "Rank": 426
+  "Id": 488,
+  "Name": "Heidenreich, Fisher and McDermott",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "UdListDefinitionId": 489,
+  "Rank": 920
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Marks, Reynolds and Bailey",
-  "Tooltip": "aut",
+  "Id": 339,
+  "Name": "Fahey Inc and Sons",
+  "Tooltip": "porro",
   "Deleted": false,
-  "UdListDefinitionId": 409,
-  "Rank": 767,
+  "UdListDefinitionId": 579,
+  "Rank": 445,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 978
+      "FieldLength": 409
     }
   }
 }

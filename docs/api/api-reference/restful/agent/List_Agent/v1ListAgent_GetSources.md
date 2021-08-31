@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetSources
+title: GetSources
 id: v1ListAgent_GetSources
 ---
 
-# POST Agents/List/GetSources
+# GetSources
 
 ```http
 POST /api/v1/Agents/List/GetSources
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Value": "fugiat",
-    "Tooltip": "odit",
+    "Id": 351,
+    "Value": "ut",
+    "Tooltip": "rem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 932
       }
     }
   },
   {
-    "Id": 625,
-    "Value": "fugiat",
-    "Tooltip": "odit",
+    "Id": 351,
+    "Value": "ut",
+    "Tooltip": "rem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 932
       }
     }
   }

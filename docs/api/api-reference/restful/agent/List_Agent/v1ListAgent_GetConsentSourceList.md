@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetConsentSourceList
+title: GetConsentSourceList
 id: v1ListAgent_GetConsentSourceList
 ---
 
-# POST Agents/List/GetConsentSourceList
+# GetConsentSourceList
 
 ```http
 POST /api/v1/Agents/List/GetConsentSourceList
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -85,13 +85,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 955,
-    "Name": "Kris-Jacobi",
-    "Tooltip": "non",
-    "Rank": 608,
-    "Key": "tempora",
-    "MailTemplateId": 388,
-    "Deleted": true,
+    "ConsentSourceId": 473,
+    "Name": "Boehm-Block",
+    "Tooltip": "temporibus",
+    "Rank": 134,
+    "Key": "et",
+    "MailTemplateId": 758,
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "incubate revolutionary channels"
         },
         "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldLength": 460
       }
     }
   }

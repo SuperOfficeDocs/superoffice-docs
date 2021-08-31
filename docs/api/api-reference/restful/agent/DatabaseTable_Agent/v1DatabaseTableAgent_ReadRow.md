@@ -1,9 +1,9 @@
 ---
-title: POST Agents/DatabaseTable/ReadRow
+title: ReadRow
 id: v1DatabaseTableAgent_ReadRow
 ---
 
-# POST Agents/DatabaseTable/ReadRow
+# ReadRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/ReadRow
@@ -81,12 +81,12 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Grant, Klocko and Marquardt",
-  "Id": 819
+  "TableName": "Rempel-Padberg",
+  "Id": 622
 }
 ```
 
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "ea",
-    "Values2": "eos"
+    "Values1": "adipisci",
+    "Values2": "enim"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

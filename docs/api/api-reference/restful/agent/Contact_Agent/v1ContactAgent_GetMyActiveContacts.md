@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetMyActiveContacts
+title: GetMyActiveContacts
 id: v1ContactAgent_GetMyActiveContacts
 ---
 
-# POST Agents/Contact/GetMyActiveContacts
+# GetMyActiveContacts
 
 ```http
 POST /api/v1/Agents/Contact/GetMyActiveContacts
@@ -92,10 +92,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2010-11-06T16:48:29.0529191+01:00",
+  "ActivityStartTime": "1997-11-03T14:58:03.5763101+01:00",
   "ContactCategories": [
-    855,
-    820
+    150,
+    913
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -107,23 +107,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 530,
-    "Department": "reinvent proactive infrastructures",
-    "OrgNr": "714109",
-    "Name": "Wehner, Lakin and Price",
+    "ContactId": 359,
+    "Department": "",
+    "OrgNr": "576205",
+    "Name": "Pacocha, Ebert and Brown",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Geovanni Bogisich",
+    "AssociateFullName": "Garret Huel",
     "Action": "ActivityCompleted",
-    "ActionTime": "2000-07-10T16:48:29.0539295+02:00",
+    "ActionTime": "2013-11-18T14:58:03.5763101+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Prosacco LLC",
-    "ActionId": 739,
-    "PersonId": 304,
-    "ActivityPersonId": 528,
-    "AssociateId": 266,
+    "ActivityPersonName": "Hansen-Schaden",
+    "ActionId": 866,
+    "PersonId": 216,
+    "ActivityPersonId": 545,
+    "AssociateId": 670,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "harness 24/7 networks"
     },
     "FieldProperties": {
       "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldLength": 549
       }
     }
   }

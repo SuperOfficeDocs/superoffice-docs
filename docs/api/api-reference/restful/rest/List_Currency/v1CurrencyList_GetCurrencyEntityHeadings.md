@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 900,
-    "Name": "Bradtke-Hackett",
-    "Tooltip": "nam",
+    "HeadingId": 303,
+    "Name": "Christiansen-Harris",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 712,
-    "UdListDefinitionId": 890,
+    "Rank": 395,
+    "UdListDefinitionId": 257,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

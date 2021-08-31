@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetPreviewMailing
+title: GetPreviewMailing
 id: v1MarketingAgent_GetPreviewMailing
 ---
 
-# POST Agents/Marketing/GetPreviewMailing
+# GetPreviewMailing
 
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailing
@@ -80,7 +80,7 @@ Response body: object
 | ShipmentType | string | The list item |
 | MessageId | int32 | Primary key |
 | MessageSubject | string | The mail subject field of the message |
-| DocumentMessage | int32 | If a document was used as the message this is the document ID. |
+| DocumentMessageId | int32 | If a document was used as the message this is the document ID. |
 | Opened | date-time | Date/time the customer read the mailing. |
 | LinkClicks | int32 | The number of links clicked in the mailing. |
 | TableRight |  |  |
@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 928
+  "ShipmentAddrId": 521
 }
 ```
 
@@ -105,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2011-04-17T16:48:29.959925+02:00",
+  "SendingTime": "2000-06-01T14:58:04.5004647+02:00",
   "Status": "Blocked",
-  "ShipmentId": 346,
-  "ShipmentDescription": "Profound grid-enabled array",
-  "FromAddress": "perspiciatis",
-  "ContactId": 540,
-  "ContactName": "Hand-Mueller",
-  "PersonId": 269,
-  "PersonFullName": "Mrs. Blanca Okuneva",
-  "ShipmentType": "qui",
-  "MessageId": 839,
-  "MessageSubject": "culpa",
-  "DocumentMessage": 352,
-  "Opened": "2016-01-20T16:48:29.959925+01:00",
-  "LinkClicks": 655,
+  "ShipmentId": 299,
+  "ShipmentDescription": "Triple-buffered motivating intranet",
+  "FromAddress": "dicta",
+  "ContactId": 29,
+  "ContactName": "Breitenberg Group",
+  "PersonId": 586,
+  "PersonFullName": "Carson Armstrong",
+  "ShipmentType": "eum",
+  "MessageId": 831,
+  "MessageSubject": "placeat",
+  "DocumentMessageId": 378,
+  "Opened": "2018-02-18T14:58:04.5004647+01:00",
+  "LinkClicks": 10,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

@@ -112,7 +112,7 @@ Response body: object
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -120,53 +120,53 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 197,
-  "StartDate": "2000-01-29T09:40:58.647372+01:00",
-  "EndDate": "1998-08-13T09:40:58.647372+02:00",
+  "AppointmentId": 801,
+  "StartDate": "2001-02-15T15:05:41.5840026+01:00",
+  "EndDate": "2007-11-17T15:05:41.5840026+01:00",
   "Type": "BookingForChecklist",
-  "Task": "id",
-  "AssociateFullName": "Silas Kertzmann",
-  "ContactName": "Wisozk LLC",
-  "Description": "Assimilated intangible groupware",
-  "PersonFullName": "Kenny Wisoky",
-  "PersonId": 517,
-  "ContactId": 114,
-  "ProjectId": 595,
-  "ProjectName": "Waelchi-Deckow",
-  "IsPublished": true,
-  "AssociateId": 235,
-  "ColorIndex": 199,
-  "IsFree": true,
+  "Task": "est",
+  "AssociateFullName": "Alden Bode",
+  "ContactName": "Stracke LLC",
+  "Description": "Managed next generation definition",
+  "PersonFullName": "Vivianne Hansen DVM",
+  "PersonId": 613,
+  "ContactId": 879,
+  "ProjectId": 743,
+  "ProjectName": "Boehm-Goyette",
+  "IsPublished": false,
+  "AssociateId": 191,
+  "ColorIndex": 880,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 283,
-  "PriorityName": "Waters-Murazik",
+  "PriorityId": 920,
+  "PriorityName": "Mante, Hilll and Zemlak",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "1994-03-26T09:40:58.647372+01:00",
+  "ActiveDate": "2007-03-08T15:05:41.5850023+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2004-06-24T09:40:58.647372+02:00",
-  "RecurringEndDate": "1996-09-21T09:40:58.647372+02:00",
-  "MotherId": 108,
-  "AssignedBy": 155,
-  "AssignedByFullName": "Jenifer Ortiz DDS",
+  "RecurringStartDate": "2001-01-28T15:05:41.5850023+01:00",
+  "RecurringEndDate": "2003-08-19T15:05:41.5850023+02:00",
+  "MotherId": 249,
+  "AssignedBy": 481,
+  "AssignedByFullName": "Jackeline Hauck",
   "RejectReason": "",
-  "Location": "repellendus",
-  "AlarmLeadTime": "rerum",
-  "SaleId": 317,
-  "SaleName": "Lesch-Cartwright",
-  "AssociateName": "Fay Group",
-  "CreatedDate": "2002-05-20T09:40:58.6483703+02:00",
-  "CreatedBy": "aut",
-  "CreatedByFullName": "Aniyah Jacobs",
-  "CreatedByAssociateId": 408,
+  "Location": "qui",
+  "AlarmLeadTime": "eos",
+  "SaleId": 609,
+  "SaleName": "Labadie-Hodkiewicz",
+  "AssociateName": "Gleichner-Homenick",
+  "CreatedDate": "2005-04-30T15:05:41.5850023+02:00",
+  "CreatedBy": "eos",
+  "CreatedByFullName": "Cornell Baumbach",
+  "CreatedByAssociateId": 118,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 416
     }
   }
 }

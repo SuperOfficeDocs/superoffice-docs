@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/SetDynamicSelectionCriteria3
+title: SetDynamicSelectionCriteria3
 id: v1SelectionAgent_SetDynamicSelectionCriteria3
 ---
 
-# POST Agents/Selection/SetDynamicSelectionCriteria3
+# SetDynamicSelectionCriteria3
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
@@ -82,35 +82,35 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 246,
+  "SelectionId": 734,
   "Criteria": [
     {
-      "Name": "Watsica Inc and Sons",
-      "Operator": "sit",
+      "Name": "Cummings Inc and Sons",
+      "Operator": "laudantium",
       "Values": [
-        "dolorum",
-        "sed"
+        "magni",
+        "iste"
       ],
       "DisplayValues": [
-        "dolor",
-        "voluptas"
+        "tempore",
+        "odit"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 543,
+      "InterParenthesis": 811,
       "InterOperator": "And",
-      "UniqueHash": 52
+      "UniqueHash": 507
     }
   ],
-  "Filter": "quia"
+  "Filter": "maxime"
 }
 ```
 
@@ -120,43 +120,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner, Cruickshank and Kris",
-    "Operator": "ipsum",
+    "Name": "Runolfsson LLC",
+    "Operator": "ut",
     "Values": [
-      "pariatur",
-      "fugiat"
+      "voluptates",
+      "quaerat"
     ],
     "DisplayValues": [
-      "eos",
-      "hic"
+      "quas",
+      "et"
     ],
     "ColumnInfo": {
-      "DisplayName": "Jast-Ritchie",
-      "DisplayTooltip": "non",
-      "DisplayType": "eaque",
+      "DisplayName": "Abbott, Quitzon and Abernathy",
+      "DisplayTooltip": "optio",
+      "DisplayType": "sed",
       "CanOrderBy": false,
-      "Name": "Russel Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Greenholt-Lowe",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "occaecati",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "ut"
+      "Name": "West Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Hegmann LLC",
+      "IsVisible": false,
+      "ExtraInfo": "quod",
+      "Width": "in",
+      "IconHint": "labore",
+      "HeadingIconHint": "recusandae"
     },
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Watsica Inc and Sons",
-        "Operator": "non",
+        "Name": "Rolfson, Beer and McLaughlin",
+        "Operator": "ea",
         "Values": [
-          "reiciendis",
-          "cumque"
+          "culpa",
+          "corrupti"
         ],
         "DisplayValues": [
-          "quia",
-          "quia"
+          "mollitia",
+          "odit"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -164,14 +164,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 131,
+        "InterParenthesis": 700,
         "InterOperator": "And",
-        "UniqueHash": 394
+        "UniqueHash": 486
       }
     ],
-    "InterParenthesis": 213,
+    "InterParenthesis": 989,
     "InterOperator": "And",
-    "UniqueHash": 911
+    "UniqueHash": 145
   }
 ]
 ```

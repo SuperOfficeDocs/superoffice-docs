@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
+title: GetCustomFieldInfoList
 id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
+# GetCustomFieldInfoList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schaefer-Beahan",
+  "TableName": "Stoltenberg-Ullrich",
   "IncludeStandard": false
 }
 ```
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Windler, Turcotte and Parker",
-    "DisplayName": "Feil Inc and Sons",
-    "Description": "Universal bifurcated protocol",
-    "ShortLabel": "animi",
-    "HideLabel": false,
+    "FieldName": "Kutch-Boyer",
+    "DisplayName": "Raynor LLC",
+    "Description": "Operative grid-enabled database",
+    "ShortLabel": "soluta",
+    "HideLabel": true,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": true,
-    "Rank": 8,
-    "TemplateVariableName": "Parker-Harvey"
+    "Rank": 788,
+    "TemplateVariableName": "Monahan-Pouros"
   }
 ]
 ```

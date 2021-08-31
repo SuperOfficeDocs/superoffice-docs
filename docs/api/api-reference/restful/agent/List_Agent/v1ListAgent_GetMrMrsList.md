@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetMrMrsList
+title: GetMrMrsList
 id: v1ListAgent_GetMrMrsList
 ---
 
-# POST Agents/List/GetMrMrsList
+# GetMrMrsList
 
 ```http
 POST /api/v1/Agents/List/GetMrMrsList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetMrMrsList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Value": "quia",
-    "Tooltip": "et",
+    "Id": 210,
+    "Value": "dolor",
+    "Tooltip": "repellat",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 758
       }
     }
   },
   {
-    "Id": 274,
-    "Value": "quia",
-    "Tooltip": "et",
+    "Id": 210,
+    "Value": "dolor",
+    "Tooltip": "repellat",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 758
       }
     }
   }

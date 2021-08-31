@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 777,
-  "ColumnId": 305,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 50,
-  "FieldLabel": "qui",
-  "FieldLeft": 772,
-  "FieldTop": 744,
+  "UDefFieldId": 580,
+  "ColumnId": 470,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 799,
+  "FieldLabel": "nesciunt",
+  "FieldLeft": 354,
+  "FieldTop": 811,
   "FieldType": "Checkbox",
-  "FieldWidth": 422,
-  "FormatMask": "nulla",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 921,
-  "LabelLeft": 654,
-  "LabelTop": 609,
-  "LabelWidth": 37,
-  "LastVersionId": 418,
-  "ListTableId": 179,
-  "IsMandatory": false,
+  "FieldWidth": 610,
+  "FormatMask": "accusantium",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 770,
+  "LabelLeft": 712,
+  "LabelTop": 839,
+  "LabelWidth": 32,
+  "LastVersionId": 632,
+  "ListTableId": 809,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 499,
-  "ProgId": "quos",
-  "IsReadOnly": false,
-  "ShortLabel": "numquam",
-  "TabOrder": 555,
-  "TextLength": 894,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 885,
-  "UDListDefinitionId": 417,
+  "Page1LineNo": 830,
+  "ProgId": "debitis",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 748,
+  "TextLength": 673,
+  "Tooltip": "asperiores",
+  "UdefIdentity": 642,
+  "UDListDefinitionId": 950,
   "Justification": "Center",
-  "Version": 831,
-  "TemplateVariableName": "Hermann-Mann",
-  "HasBeenPublished": true,
-  "MdoListName": "Yundt-Bednar",
+  "Version": 66,
+  "TemplateVariableName": "Borer, Langosh and Gleichner",
+  "HasBeenPublished": false,
+  "MdoListName": "Cremin, Brekke and Kuhn",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 182
     }
   }
 }

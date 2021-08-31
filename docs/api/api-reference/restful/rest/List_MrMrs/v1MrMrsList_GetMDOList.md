@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=ratione
+GET /api/v1/List/MrMrs/MDOItems?query=ut
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Ebert, Wehner and Deckow",
-    "ToolTip": "Doloribus animi consequatur aut et quia.",
+    "Id": 702,
+    "Name": "Schoen, Pfeffer and Ritchie",
+    "ToolTip": "Dolores dignissimos harum.",
     "Deleted": false,
-    "Rank": 29,
+    "Rank": 397,
     "Type": "et",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Brekke-Barrows",
-        "ToolTip": "Dolorem dolorem at voluptas incidunt autem.",
-        "Deleted": true,
-        "Rank": 814,
-        "Type": "nam",
+        "Id": 68,
+        "Name": "Osinski, Konopelski and Leuschke",
+        "ToolTip": "Eaque necessitatibus aperiam vel.",
+        "Deleted": false,
+        "Rank": 464,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 976,
-        "ExtraInfo": "omnis",
-        "StyleHint": "id",
-        "FullName": "Elian Cruickshank",
+        "IconHint": "aut",
+        "ColorBlock": 298,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "temporibus",
+        "FullName": "Peter Braun",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldLength": 837
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 883,
-    "ExtraInfo": "ut",
-    "StyleHint": "odio",
-    "FullName": "Reinhold Champlin V",
+    "IconHint": "impedit",
+    "ColorBlock": 901,
+    "ExtraInfo": "minima",
+    "StyleHint": "porro",
+    "FullName": "Makenna Gusikowski",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "reintermediate dynamic partnerships"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 935
       }
     }
   }

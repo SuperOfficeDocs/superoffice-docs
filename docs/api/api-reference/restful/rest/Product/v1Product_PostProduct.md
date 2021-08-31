@@ -144,55 +144,55 @@ Response body: object
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 371,
-  "ERPProductKey": "earum",
-  "ERPPriceListKey": "neque",
-  "Name": "Schamberger-Zemlak",
-  "Description": "Diverse system-worthy application",
-  "Code": "et",
-  "PriceUnit": "sapiente",
-  "QuantityUnit": "corrupti",
+  "ProductId": 611,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "qui",
+  "Name": "Spencer, Koch and Schamberger",
+  "Description": "Decentralized executive Graphical User Interface",
+  "Code": "corrupti",
+  "PriceUnit": "perferendis",
+  "QuantityUnit": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "molestiae",
-  "DefaultSubscriptionQuantity": 12219.466,
-  "ItemNumber": "1093561",
+  "SubscriptionUnit": "velit",
+  "DefaultSubscriptionQuantity": 9774.946,
+  "ItemNumber": "443234",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "eius",
-  "VAT": 12733.442,
-  "VATInfo": "quo",
-  "UnitCost": 20345.928,
-  "UnitMinimumPrice": 5186.7699999999995,
-  "UnitListPrice": 20041.93,
-  "InAssortment": false,
-  "Supplier": "delectus",
-  "SupplierCode": "optio",
-  "Rights": "omnis",
-  "Rule": "corporis",
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "et",
+  "VAT": 12404.372,
+  "VATInfo": "natus",
+  "UnitCost": 4011.52,
+  "UnitMinimumPrice": 28976.964,
+  "UnitListPrice": 16864.054,
+  "InAssortment": true,
+  "Supplier": "incidunt",
+  "SupplierCode": "neque",
+  "Rights": "itaque",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Casper Group",
-      "Value": "et",
+      "Name": "Wiegand-Hills",
+      "Value": "accusantium",
       "Type": "Image"
     },
     {
-      "Name": "Casper Group",
-      "Value": "et",
+      "Name": "Wiegand-Hills",
+      "Value": "accusantium",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "sit",
-  "ExtraField2": "nesciunt",
-  "ExtraField3": "voluptates",
-  "ExtraField4": "sed",
-  "ExtraField5": "ut",
-  "InStock": 5863.714
+  "RawExtraInfo": "harum",
+  "ExtraField1": "incidunt",
+  "ExtraField2": "nihil",
+  "ExtraField3": "veniam",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "provident",
+  "InStock": 29265.291999999998
 }
 ```
 
@@ -201,36 +201,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 812,
-  "ERPProductKey": "nemo",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Dare, Cremin and Davis",
-  "Description": "Multi-layered hybrid moderator",
-  "Code": "nobis",
-  "PriceUnit": "ipsum",
-  "QuantityUnit": "est",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nemo",
-  "DefaultSubscriptionQuantity": 7346.096,
-  "ItemNumber": "611114",
+  "ProductId": 530,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "exercitationem",
+  "Name": "Murazik-Zboncak",
+  "Description": "Reactive grid-enabled throughput",
+  "Code": "aut",
+  "PriceUnit": "numquam",
+  "QuantityUnit": "necessitatibus",
+  "IsSubscription": true,
+  "SubscriptionUnit": "in",
+  "DefaultSubscriptionQuantity": 23395.309999999998,
+  "ItemNumber": "1169263",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorum",
-  "ProductTypeKey": "eveniet",
-  "VAT": 21402.086,
-  "VATInfo": "dolore",
-  "UnitCost": 3804.676,
-  "UnitMinimumPrice": 4083.602,
-  "UnitListPrice": 29202.611999999997,
-  "InAssortment": true,
-  "Supplier": "voluptatem",
-  "SupplierCode": "facilis",
-  "Rights": "ut",
-  "Rule": "rerum",
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "laborum",
+  "VAT": 6487.38,
+  "VATInfo": "non",
+  "UnitCost": 12620.618,
+  "UnitMinimumPrice": 25109.608,
+  "UnitListPrice": 4268.508,
+  "InAssortment": false,
+  "Supplier": "optio",
+  "SupplierCode": "in",
+  "Rights": "suscipit",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Spencer-Turcotte",
-      "Value": "itaque",
+      "Name": "O'Conner-Kuhn",
+      "Value": "est",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -240,13 +240,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Spencer-Turcotte",
-      "Value": "itaque",
+      "Name": "O'Conner-Kuhn",
+      "Value": "est",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -256,18 +256,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 74
         }
       }
     }
   ],
-  "RawExtraInfo": "corporis",
-  "ExtraField1": "qui",
-  "ExtraField2": "corporis",
-  "ExtraField3": "nemo",
-  "ExtraField4": "totam",
-  "ExtraField5": "tempora",
-  "InStock": 11777.572,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "eos",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "quam",
+  "ExtraField5": "quos",
+  "InStock": 1259.868,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 818
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectAppointmentsByTask
+title: GetProjectAppointmentsByTask
 id: v1AppointmentAgent_GetProjectAppointmentsByTask
 ---
 
-# POST Agents/Appointment/GetProjectAppointmentsByTask
+# GetProjectAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
@@ -129,11 +129,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 658,
-  "StartTime": "2014-05-10T16:48:28.4574489+02:00",
-  "EndTime": "2018-11-22T16:48:28.4574489+01:00",
-  "Count": 390,
-  "TaskId": 896
+  "ProjectId": 941,
+  "StartTime": "1996-01-23T14:58:02.8535785+01:00",
+  "EndTime": "2006-07-05T14:58:02.8535785+02:00",
+  "Count": 385,
+  "TaskId": 25
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 345,
-    "StartDate": "2015-05-22T16:48:28.4584492+02:00",
-    "EndDate": "2011-08-04T16:48:28.4584492+02:00",
+    "AppointmentId": 960,
+    "StartDate": "2021-05-25T14:58:02.854574+02:00",
+    "EndDate": "2013-05-13T14:58:02.854574+02:00",
     "Type": "BookingForChecklist",
-    "Task": "praesentium",
-    "AssociateFullName": "Audie Botsford",
-    "ContactName": "Satterfield-Reichert",
-    "Description": "Exclusive intermediate open system",
-    "PersonFullName": "Mrs. Heidi Berge",
-    "PersonId": 435,
-    "ContactId": 71,
-    "ProjectId": 386,
-    "ProjectName": "Kunze-Emmerich",
-    "IsPublished": true,
-    "AssociateId": 393,
-    "ColorIndex": 779,
-    "IsFree": true,
+    "Task": "ut",
+    "AssociateFullName": "Jose Kiehn",
+    "ContactName": "Schroeder-Howell",
+    "Description": "Realigned 24/7 groupware",
+    "PersonFullName": "Noemi Beatty Jr.",
+    "PersonId": 742,
+    "ContactId": 59,
+    "ProjectId": 730,
+    "ProjectName": "Hansen Group",
+    "IsPublished": false,
+    "AssociateId": 257,
+    "ColorIndex": 315,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 194,
-    "PriorityName": "Sawayn Group",
+    "PriorityId": 20,
+    "PriorityName": "Renner, Goodwin and Aufderhar",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2017-09-01T16:48:28.4584492+02:00",
+    "ActiveDate": "2010-07-12T14:58:02.8555731+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-05T16:48:28.4584492+02:00",
-    "RecurringEndDate": "2006-06-27T16:48:28.4584492+02:00",
-    "MotherId": 540,
-    "AssignedBy": 439,
-    "AssignedByFullName": "Murphy Feeney MD",
-    "RejectReason": "productize integrated applications",
-    "Location": "velit",
-    "AlarmLeadTime": "facere",
-    "SaleId": 627,
-    "SaleName": "Robel-DuBuque",
-    "AssociateName": "Wilderman-Runte",
-    "CreatedDate": "2000-01-04T16:48:28.4594562+01:00",
-    "CreatedBy": "odit",
-    "CreatedByFullName": "Maximilian Gutkowski",
-    "CreatedByAssociateId": 63,
+    "RecurringStartDate": "2002-07-02T14:58:02.8555731+02:00",
+    "RecurringEndDate": "2019-12-28T14:58:02.8555731+01:00",
+    "MotherId": 109,
+    "AssignedBy": 530,
+    "AssignedByFullName": "Hortense Lubowitz",
+    "RejectReason": "",
+    "Location": "non",
+    "AlarmLeadTime": "ut",
+    "SaleId": 721,
+    "SaleName": "Parker, Smitham and Von",
+    "AssociateName": "Pacocha LLC",
+    "CreatedDate": "1995-06-20T14:58:02.8555731+02:00",
+    "CreatedBy": "magni",
+    "CreatedByFullName": "Susana Bergnaum IV",
+    "CreatedByAssociateId": 561,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 557
       }
     }
   }

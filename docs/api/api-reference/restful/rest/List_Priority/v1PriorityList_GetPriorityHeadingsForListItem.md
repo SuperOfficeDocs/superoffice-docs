@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Glover, Gerhold and Little",
-    "ToolTip": "Ipsam saepe labore animi distinctio porro.",
+    "Id": 534,
+    "Name": "Hayes Group",
+    "ToolTip": "Ut voluptatem qui doloribus.",
     "Deleted": true,
-    "Rank": 974,
-    "Type": "voluptatum",
-    "ColorBlock": 829,
-    "IconHint": "necessitatibus",
+    "Rank": 89,
+    "Type": "itaque",
+    "ColorBlock": 411,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2002-01-07T09:41:00.5323817+01:00",
+    "LastChanged": "2003-07-19T15:05:43.6010798+02:00",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Swift Group",
-        "ToolTip": "Cum id.",
+        "Id": 98,
+        "Name": "Hansen, Hills and Runolfsson",
+        "ToolTip": "Est voluptatibus dolores.",
         "Deleted": true,
-        "Rank": 770,
-        "Type": "inventore",
-        "ColorBlock": 345,
-        "IconHint": "autem",
+        "Rank": 379,
+        "Type": "est",
+        "ColorBlock": 305,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "1994-10-22T09:41:00.5323817+02:00",
+        "LastChanged": "2012-03-01T15:05:43.6010798+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "impedit",
+        "ExtraInfo": "vitae",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Arlo Little",
+        "FullName": "Lennie Yundt",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 613
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "quo",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Tre Lowe",
+    "FullName": "Federico Crooks",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate bricks-and-clicks vortals"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 986
       }
     }
   }

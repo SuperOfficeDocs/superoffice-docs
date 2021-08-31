@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/Undelete
+title: Undelete
 id: v1ContactAgent_Undelete
 ---
 
-# POST Agents/Contact/Undelete
+# Undelete
 
 ```http
 POST /api/v1/Agents/Contact/Undelete

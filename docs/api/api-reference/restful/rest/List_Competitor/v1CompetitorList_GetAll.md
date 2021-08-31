@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Effertz, Senger and Wiza",
-    "Tooltip": "dicta",
+    "Id": 64,
+    "Name": "Schinner, Renner and Gaylord",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "UdListDefinitionId": 350,
-    "Rank": 504,
+    "UdListDefinitionId": 40,
+    "Rank": 448,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldLength": 25
       }
     }
   }

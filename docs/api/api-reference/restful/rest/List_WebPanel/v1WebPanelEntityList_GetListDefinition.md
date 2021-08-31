@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "McClure Inc and Sons",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "Rank": 131,
-  "IsCustomList": true,
+  "Id": 645,
+  "Name": "Hane, Trantow and Bahringer",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 703,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolore",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   },
   "_Links": {

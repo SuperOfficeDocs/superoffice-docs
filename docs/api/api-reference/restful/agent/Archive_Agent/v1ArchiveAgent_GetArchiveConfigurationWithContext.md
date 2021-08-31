@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveConfigurationWithContext
+title: GetArchiveConfigurationWithContext
 id: v1ArchiveAgent_GetArchiveConfigurationWithContext
 ---
 
-# POST Agents/Archive/GetArchiveConfigurationWithContext
+# GetArchiveConfigurationWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
@@ -83,13 +83,13 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bernhard-Gleason",
-  "ProviderName": "Collins, Prohaska and Gulgowski",
-  "Context": "quod"
+  "GuiName": "Bailey, Dicki and Schmitt",
+  "ProviderName": "Conn, Hirthe and Kuhic",
+  "Context": "beatae"
 }
 ```
 
@@ -100,41 +100,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Erdman-Baumbach",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "tenetur",
+      "DisplayName": "Lesch-Wehner",
+      "DisplayTooltip": "autem",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Lubowitz Group",
+      "Name": "Block-Weissnat",
       "CanRestrictBy": true,
-      "RestrictionType": "quibusdam",
-      "RestrictionListName": "Murphy-Mohr",
+      "RestrictionType": "sit",
+      "RestrictionListName": "Gleason Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "aperiam",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "excepturi",
+      "Width": "unde",
+      "IconHint": "quidem",
+      "HeadingIconHint": "libero"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 424,
-      "Name": "Murazik-Feeney",
-      "ToolTip": "Ipsum dicta.",
+      "Id": 858,
+      "Name": "Hintz Inc and Sons",
+      "ToolTip": "Maxime quasi aut id dolorem.",
       "Deleted": false,
-      "Rank": 2,
-      "Type": "facilis",
-      "ColorBlock": 970,
-      "IconHint": "autem",
-      "Selected": false,
-      "LastChanged": "2009-02-04T16:48:28.7244193+01:00",
+      "Rank": 978,
+      "Type": "sed",
+      "ColorBlock": 640,
+      "IconHint": "odio",
+      "Selected": true,
+      "LastChanged": "2001-05-03T14:58:03.2235681+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nulla",
-      "StyleHint": "quibusdam",
-      "Hidden": false,
-      "FullName": "Savanah Lind Jr.",
+      "ExtraInfo": "libero",
+      "StyleHint": "nihil",
+      "Hidden": true,
+      "FullName": "Daniella Satterfield",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -143,22 +143,22 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 963
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Wiegand-Lubowitz",
+      "Name": "Mann Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Wiegand-Lubowitz",
+      "Name": "Mann Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "corporis",
+  "OwnerKeys": "quas",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 594
     }
   }
 }

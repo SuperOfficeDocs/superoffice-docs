@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumns2
+title: GetArchiveListByColumns2
 id: v1ArchiveAgent_GetArchiveListByColumns2
 ---
 
-# POST Agents/Archive/GetArchiveListByColumns2
+# GetArchiveListByColumns2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
@@ -14,32 +14,7 @@ Get a page of results for an archive list, explicitly specifying the restriction
 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -242,13 +173,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Grimes-Hickle",
-  "Columns": "rerum",
-  "SortOrder": "ut",
-  "Restrictions": "velit",
-  "Entities": "repellendus",
-  "Page": 473,
-  "PageSize": 294
+  "ProviderName": "Schimmel-Buckridge",
+  "Columns": "non",
+  "SortOrder": "magnam",
+  "Restrictions": "architecto",
+  "Entities": "qui",
+  "Page": 169,
+  "PageSize": 410
 }
 ```
 
@@ -258,17 +189,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Berge, Dietrich and Thompson",
-    "PrimaryKey": 476,
+    "EntityName": "Parker LLC",
+    "PrimaryKey": 751,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "eaque",
-        "LinkHint": "qui"
+        "DisplayValue": "repudiandae",
+        "TooltipHint": "ratione",
+        "LinkHint": "consequuntur"
       }
     },
-    "LinkHint": "sunt",
-    "StyleHint": "quia",
+    "LinkHint": "exercitationem",
+    "StyleHint": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -280,7 +211,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 227
       }
     }
   }

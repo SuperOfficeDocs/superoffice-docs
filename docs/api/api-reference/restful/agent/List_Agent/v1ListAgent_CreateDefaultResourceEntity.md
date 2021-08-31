@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultResourceEntity
+title: CreateDefaultResourceEntity
 id: v1ListAgent_CreateDefaultResourceEntity
 ---
 
-# POST Agents/List/CreateDefaultResourceEntity
+# CreateDefaultResourceEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
@@ -73,13 +73,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 126,
-  "Name": "Metz LLC",
-  "Rank": 862,
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "ut",
+  "ResourceId": 163,
+  "Name": "Kovacek-Johns",
+  "Rank": 653,
+  "Tooltip": "libero",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "odit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldLength": 664
     }
   }
 }

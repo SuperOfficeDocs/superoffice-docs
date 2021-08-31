@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetBlobEntityOnProduct
+title: GetBlobEntityOnProduct
 id: v1BLOBAgent_GetBlobEntityOnProduct
 ---
 
-# POST Agents/BLOB/GetBlobEntityOnProduct
+# GetBlobEntityOnProduct
 
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 82
+  "ProductId": 474
 }
 ```
 
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 47,
-  "BlobSize": 633,
-  "Description": "Robust holistic interface",
-  "ExtraInfo": "occaecati",
-  "IsEncrypted": true,
+  "BlobId": 700,
+  "BlobSize": 842,
+  "Description": "Integrated static info-mediaries",
+  "ExtraInfo": "laudantium",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 599,
-  "CreatedDate": "2001-03-20T16:48:28.7972021+01:00",
-  "UpdatedDate": "2009-02-18T16:48:28.7972021+01:00",
+  "MimeType": "nesciunt",
+  "OriginalSize": 114,
+  "CreatedDate": "2008-01-07T14:58:03.2912408+01:00",
+  "UpdatedDate": "1994-07-08T14:58:03.2912408+02:00",
   "CreatedBy": {
-    "AssociateId": 944,
-    "Name": "Mayert, Denesik and Sporer",
-    "PersonId": 274,
-    "Rank": 64,
-    "Tooltip": "ipsam",
+    "AssociateId": 208,
+    "Name": "Torp, Crooks and Schaden",
+    "PersonId": 974,
+    "Rank": 654,
+    "Tooltip": "architecto",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 814,
-    "FullName": "Rebeka Gutkowski",
-    "FormalName": "Larkin Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 767,
-    "UserName": "Brakus Inc and Sons",
+    "GroupIdx": 683,
+    "FullName": "Viola Miller",
+    "FormalName": "Abshire-Beatty",
+    "Deleted": true,
+    "EjUserId": 420,
+    "UserName": "Klocko, VonRueden and Howell",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,24 +129,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldType": "System.String",
+        "FieldLength": 23
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 94,
-    "Name": "Homenick LLC",
-    "PersonId": 750,
-    "Rank": 845,
-    "Tooltip": "est",
+    "AssociateId": 434,
+    "Name": "Gerhold LLC",
+    "PersonId": 831,
+    "Rank": 756,
+    "Tooltip": "optio",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 346,
-    "FullName": "Alvis Leuschke",
-    "FormalName": "Farrell, Cole and Hahn",
+    "GroupIdx": 111,
+    "FullName": "Annette Barrows",
+    "FormalName": "Koepp-Runolfsdottir",
     "Deleted": false,
-    "EjUserId": 663,
-    "UserName": "Doyle, Emmerich and Botsford",
+    "EjUserId": 170,
+    "UserName": "Bernier, Stracke and Halvorson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -155,11 +155,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 696
       }
     }
   },
-  "ConceptualType": "laboriosam",
+  "ConceptualType": "provident",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,10 +168,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "streamline e-business functionalities"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

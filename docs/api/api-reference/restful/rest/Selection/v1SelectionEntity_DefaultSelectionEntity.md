@@ -94,80 +94,30 @@ Response body: object
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
+Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
 
 {
-  "Description": "Visionary dedicated moratorium",
-  "Postit": "architecto",
+  "Description": "Self-enabling dynamic support",
+  "Postit": "corrupti",
   "Associate": {
-    "AssociateId": 332,
-    "Name": "Hand Inc and Sons",
-    "PersonId": 309,
-    "Rank": 998,
-    "Tooltip": "ea",
+    "AssociateId": 350,
+    "Name": "Harris, Schulist and Williamson",
+    "PersonId": 312,
+    "Rank": 205,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 762,
-    "FullName": "Danial Larkin",
-    "FormalName": "Hansen Group",
-    "Deleted": false,
-    "EjUserId": 393,
-    "UserName": "Jerde, Schimmel and Keebler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 495
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 38,
-    "Name": "Dickens, Dickens and Eichmann",
-    "PersonId": 628,
-    "Rank": 523,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 36,
-    "FullName": "Neva Kling",
-    "FormalName": "Goodwin-Champlin",
-    "Deleted": false,
-    "EjUserId": 939,
-    "UserName": "Bosco, Cassin and Smitham",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "exploit integrated content"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 901
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 792,
-    "Name": "Barrows, Schulist and Willms",
-    "PersonId": 601,
-    "Rank": 173,
-    "Tooltip": "unde",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 706,
-    "FullName": "Paul Berge",
-    "FormalName": "Wolf, Nikolaus and Kautzer",
+    "GroupIdx": 721,
+    "FullName": "Mrs. Owen Dach",
+    "FormalName": "Boyle-Bode",
     "Deleted": true,
-    "EjUserId": 521,
-    "UserName": "Kreiger LLC",
+    "EjUserId": 52,
+    "UserName": "Lesch-Armstrong",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -176,14 +126,64 @@ Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldLength": 286
+      }
+    }
+  },
+  "CreatedBy": {
+    "AssociateId": 578,
+    "Name": "Corwin Group",
+    "PersonId": 534,
+    "Rank": 581,
+    "Tooltip": "cupiditate",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 776,
+    "FullName": "Braulio Tromp",
+    "FormalName": "Kertzmann, Mitchell and Muller",
+    "Deleted": false,
+    "EjUserId": 621,
+    "UserName": "Green-DuBuque",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 780
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 516,
+    "Name": "Schulist, Windler and Schowalter",
+    "PersonId": 588,
+    "Rank": 246,
+    "Tooltip": "et",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 282,
+    "FullName": "Cicero Kuhlman",
+    "FormalName": "Gerlach-Corwin",
+    "Deleted": false,
+    "EjUserId": 156,
+    "UserName": "Feeney, Bradtke and Crona",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 609
       }
     }
   },
   "SelectionCategory": {
-    "Id": 859,
-    "Value": "ex",
-    "Tooltip": "et",
+    "Id": 146,
+    "Value": "quis",
+    "Tooltip": "ducimus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -192,49 +192,49 @@ Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 44
       }
     }
   },
-  "GroupIdx": 831,
-  "IncludePerson": 939,
-  "MemberCount": 498,
-  "Name": "Brakus, Towne and Flatley",
-  "PostitTextId": 975,
-  "CreatedDate": "2018-05-26T09:40:59.6766629+02:00",
-  "SelectionId": 584,
-  "SoundEx": "omnis",
-  "Source": 576,
+  "GroupIdx": 713,
+  "IncludePerson": 59,
+  "MemberCount": 967,
+  "Name": "Torp-Swift",
+  "PostitTextId": 323,
+  "CreatedDate": "2005-02-28T15:05:42.7226684+01:00",
+  "SelectionId": 325,
+  "SoundEx": "et",
+  "Source": 131,
   "TextId": 174,
-  "UpdatedDate": "2015-04-19T09:40:59.6766629+02:00",
-  "UpdatedCount": 356,
-  "Visibility": 397,
+  "UpdatedDate": "2020-11-10T15:05:42.7226684+01:00",
+  "UpdatedCount": 57,
+  "Visibility": 420,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 313,
-  "TargetTableName": "Mann LLC",
-  "Completed": true,
-  "LeftSelectionId": 672,
-  "RightSelectionId": 315,
+  "CompanyUnique": true,
+  "TargetTableNumber": 546,
+  "TargetTableName": "Rice-Thompson",
+  "Completed": false,
+  "LeftSelectionId": 125,
+  "RightSelectionId": 980,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cartwright LLC",
-  "ShadowProviderName": "Kerluke, McGlynn and Klein",
-  "ChartKey": "cumque",
-  "LastLoaded": "1995-09-13T09:40:59.6766629+02:00",
-  "LastLoadedBy": 302,
+  "MainProviderName": "Gaylord Group",
+  "ShadowProviderName": "Gerhold, Keeling and Jones",
+  "ChartKey": "unde",
+  "LastLoaded": "2019-02-19T15:05:42.7226684+01:00",
+  "LastLoadedBy": 862,
   "LastLoadedByAssociate": {
-    "AssociateId": 418,
-    "Name": "Feil-Parisian",
-    "PersonId": 360,
-    "Rank": 821,
-    "Tooltip": "sequi",
+    "AssociateId": 798,
+    "Name": "Herzog Group",
+    "PersonId": 555,
+    "Rank": 610,
+    "Tooltip": "doloremque",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 871,
-    "FullName": "Jeffrey Osinski DVM",
-    "FormalName": "Cruickshank, Erdman and Gibson",
-    "Deleted": false,
-    "EjUserId": 448,
-    "UserName": "Schamberger Group",
+    "GroupIdx": 973,
+    "FullName": "Emerald Kuhic",
+    "FormalName": "Kling, Ebert and O'Conner",
+    "Deleted": true,
+    "EjUserId": 833,
+    "UserName": "Spinka-Hodkiewicz",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -243,25 +243,25 @@ Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 674
       }
     }
   },
-  "LastMembershipChange": "1996-09-10T09:40:59.6866922+02:00",
-  "LastMembershipChangeBy": 191,
+  "LastMembershipChange": "2008-04-08T15:05:42.7236685+02:00",
+  "LastMembershipChangeBy": 379,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 121,
-    "Name": "Langosh LLC",
-    "PersonId": 96,
-    "Rank": 346,
-    "Tooltip": "architecto",
+    "AssociateId": 221,
+    "Name": "Schumm, Kreiger and Windler",
+    "PersonId": 559,
+    "Rank": 754,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 210,
-    "FullName": "Jaqueline Larkin",
-    "FormalName": "Hansen Inc and Sons",
+    "GroupIdx": 182,
+    "FullName": "Reece Bosco",
+    "FormalName": "Christiansen-Bergstrom",
     "Deleted": false,
-    "EjUserId": 965,
-    "UserName": "Parisian, Johnston and Feest",
+    "EjUserId": 442,
+    "UserName": "Schmitt, Ernser and Ryan",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -269,44 +269,44 @@ Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   },
-  "MainHeading": "est",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Armstrong, Parisian and Windler",
+  "MainHeading": "veniam",
+  "MemberTabHeading": "porro",
+  "MailingsProviderName": "Carter, Hintz and Schroeder",
   "VisibleFor": [
     {
-      "VisibleId": 165,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aliquid",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "enhance value-added synergies"
           },
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 561
         }
       }
     },
     {
-      "VisibleId": 165,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aliquid",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "enhance value-added synergies"
           },
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 561
         }
       }
     }
@@ -322,7 +322,7 @@ Last-Modified: Sun, 19 Apr 2015 09:40:59 G4T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldLength": 124
     }
   }
 }

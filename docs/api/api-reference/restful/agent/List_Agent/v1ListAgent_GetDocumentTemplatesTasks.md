@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplatesTasks
+title: GetDocumentTemplatesTasks
 id: v1ListAgent_GetDocumentTemplatesTasks
 ---
 
-# POST Agents/List/GetDocumentTemplatesTasks
+# GetDocumentTemplatesTasks
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Value": "cumque",
-    "Tooltip": "et",
+    "Id": 883,
+    "Value": "et",
+    "Tooltip": "nisi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 976
       }
     }
   },
   {
-    "Id": 460,
-    "Value": "cumque",
-    "Tooltip": "et",
+    "Id": 883,
+    "Value": "et",
+    "Tooltip": "nisi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 976
       }
     }
   }

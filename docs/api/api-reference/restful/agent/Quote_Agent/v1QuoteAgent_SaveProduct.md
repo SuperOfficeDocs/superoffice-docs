@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveProduct
+title: SaveProduct
 id: v1QuoteAgent_SaveProduct
 ---
 
-# POST Agents/Quote/SaveProduct
+# SaveProduct
 
 ```http
 POST /api/v1/Agents/Quote/SaveProduct
@@ -138,51 +138,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 204,
-  "ERPProductKey": "in",
-  "ERPPriceListKey": "sint",
-  "Name": "Bednar, Kris and Kunze",
-  "Description": "Automated coherent info-mediaries",
-  "Code": "quod",
-  "PriceUnit": "voluptatem",
-  "QuantityUnit": "reprehenderit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "aliquam",
-  "DefaultSubscriptionQuantity": 29885.824,
-  "ItemNumber": "1405616",
+  "ProductId": 933,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "laboriosam",
+  "Name": "Koss Group",
+  "Description": "Ameliorated demand-driven info-mediaries",
+  "Code": "officia",
+  "PriceUnit": "id",
+  "QuantityUnit": "alias",
+  "IsSubscription": false,
+  "SubscriptionUnit": "reiciendis",
+  "DefaultSubscriptionQuantity": 6355.7519999999995,
+  "ItemNumber": "305564",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "cumque",
-  "ProductTypeKey": "ut",
-  "VAT": 23279.352,
-  "VATInfo": "id",
-  "UnitCost": 7781.722,
-  "UnitMinimumPrice": 3397.256,
-  "UnitListPrice": 3506.946,
-  "InAssortment": false,
-  "Supplier": "minima",
-  "SupplierCode": "ducimus",
-  "Rights": "ut",
-  "Rule": "deserunt",
+  "ProductTypeKey": "molestiae",
+  "VAT": 17678.894,
+  "VATInfo": "maiores",
+  "UnitCost": 11899.797999999999,
+  "UnitMinimumPrice": 15679.402,
+  "UnitListPrice": 25573.44,
+  "InAssortment": true,
+  "Supplier": "ea",
+  "SupplierCode": "quis",
+  "Rights": "voluptatem",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Stroman LLC",
-      "Value": "suscipit",
+      "Name": "Johnston-Bradtke",
+      "Value": "accusamus",
       "Type": "Image"
     },
     {
-      "Name": "Stroman LLC",
-      "Value": "suscipit",
+      "Name": "Johnston-Bradtke",
+      "Value": "accusamus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "culpa",
-  "ExtraField1": "aliquam",
-  "ExtraField2": "sint",
-  "ExtraField3": "minus",
-  "ExtraField4": "delectus",
-  "ExtraField5": "occaecati",
-  "InStock": 4798.1539999999995
+  "RawExtraInfo": "itaque",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "autem",
+  "ExtraField4": "quidem",
+  "ExtraField5": "impedit",
+  "InStock": 22191.854
 }
 ```
 
@@ -191,36 +191,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 727,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "illum",
-  "Name": "Stiedemann, Grant and Parisian",
-  "Description": "Enterprise-wide systemic open system",
-  "Code": "vel",
-  "PriceUnit": "dolor",
-  "QuantityUnit": "tenetur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aliquam",
-  "DefaultSubscriptionQuantity": 30735.138,
-  "ItemNumber": "1471210",
+  "ProductId": 201,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "ut",
+  "Name": "Lynch LLC",
+  "Description": "Horizontal maximized throughput",
+  "Code": "vero",
+  "PriceUnit": "molestias",
+  "QuantityUnit": "magnam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quas",
+  "DefaultSubscriptionQuantity": 23003.559999999998,
+  "ItemNumber": "1065590",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "facere",
-  "ProductTypeKey": "ea",
-  "VAT": 11818.314,
-  "VATInfo": "perferendis",
-  "UnitCost": 20978.996,
-  "UnitMinimumPrice": 2168.728,
-  "UnitListPrice": 30434.273999999998,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "ut",
+  "VAT": 5033.204,
+  "VATInfo": "nihil",
+  "UnitCost": 250.72,
+  "UnitMinimumPrice": 19935.374,
+  "UnitListPrice": 3767.0679999999998,
   "InAssortment": false,
-  "Supplier": "nisi",
-  "SupplierCode": "enim",
-  "Rights": "quia",
-  "Rule": "ut",
+  "Supplier": "quo",
+  "SupplierCode": "molestias",
+  "Rights": "quisquam",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Muller LLC",
-      "Value": "impedit",
+      "Name": "Abshire-Hamill",
+      "Value": "culpa",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -230,13 +230,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldLength": 286
         }
       }
     },
     {
-      "Name": "Muller LLC",
-      "Value": "impedit",
+      "Name": "Abshire-Hamill",
+      "Value": "culpa",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -246,18 +246,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldLength": 286
         }
       }
     }
   ],
-  "RawExtraInfo": "assumenda",
-  "ExtraField1": "sint",
-  "ExtraField2": "ex",
-  "ExtraField3": "nemo",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "eius",
-  "InStock": 6123.836,
+  "RawExtraInfo": "eveniet",
+  "ExtraField1": "nam",
+  "ExtraField2": "iste",
+  "ExtraField3": "aliquam",
+  "ExtraField4": "in",
+  "ExtraField5": "expedita",
+  "InStock": 18255.55,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldLength": 131
     }
   }
 }

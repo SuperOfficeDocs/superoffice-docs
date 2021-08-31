@@ -1,9 +1,9 @@
 ---
-title: POST Agents/NumberAllocation/GetRefCountEntity
+title: GetRefCountEntity
 id: v1NumberAllocationAgent_GetRefCountEntity
 ---
 
-# POST Agents/NumberAllocation/GetRefCountEntity
+# GetRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=470
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=191
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -81,7 +81,7 @@ Response body: object
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 810,
-  "Field": "sint",
-  "RecordId": 546,
+  "RefCountsId": 365,
+  "Field": "sed",
+  "RecordId": 629,
   "SuggestedRecords": [
     {
-      "Id": 783,
-      "Name": "Ullrich, Raynor and Cole",
-      "ToolTip": "Ut eum ut quam laboriosam.",
+      "Id": 426,
+      "Name": "Reichert, Kunde and Dicki",
+      "ToolTip": "Velit expedita aut eos non facilis qui.",
       "Deleted": false,
-      "Rank": 414,
-      "Type": "fugiat",
+      "Rank": 398,
+      "Type": "repudiandae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "neque",
-      "ColorBlock": 838,
-      "ExtraInfo": "deleniti",
-      "StyleHint": "saepe",
-      "FullName": "Donny Cummerata MD",
+      "IconHint": "officiis",
+      "ColorBlock": 273,
+      "ExtraInfo": "veniam",
+      "StyleHint": "error",
+      "FullName": "Sydney Mills",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -116,22 +116,22 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 422
         }
       }
     }
   ],
-  "CurrentValue": 719,
-  "TravelPrefix": 849,
-  "SatPrefix": 195,
-  "Allocate": true,
+  "CurrentValue": 776,
+  "TravelPrefix": 758,
+  "SatPrefix": 304,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "recontextualize synergistic methodologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

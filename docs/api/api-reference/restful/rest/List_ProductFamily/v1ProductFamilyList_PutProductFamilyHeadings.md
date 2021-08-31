@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Leuschke, Homenick and Christiansen",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 706,
-    "UdListDefinitionId": 715
+    "HeadingId": 157,
+    "Name": "Cummerata-McCullough",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "Rank": 747,
+    "UdListDefinitionId": 582
   },
   {
-    "HeadingId": 174,
-    "Name": "Leuschke, Homenick and Christiansen",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 706,
-    "UdListDefinitionId": 715
+    "HeadingId": 157,
+    "Name": "Cummerata-McCullough",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "Rank": 747,
+    "UdListDefinitionId": 582
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 489,
-    "Name": "Willms-Gerhold",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 596,
+    "HeadingId": 556,
+    "Name": "Hammes-Miller",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 925,
+    "UdListDefinitionId": 154,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

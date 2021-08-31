@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 940,
-  "Name": "Larson-Larkin",
-  "Tooltip": "ad",
+  "HeadingId": 184,
+  "Name": "Quigley Group",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 870,
-  "UdListDefinitionId": 381
+  "Rank": 902,
+  "UdListDefinitionId": 496
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 99,
-  "Name": "Cummerata-Abernathy",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 92,
-  "UdListDefinitionId": 179,
+  "HeadingId": 696,
+  "Name": "Beier Inc and Sons",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 360,
+  "UdListDefinitionId": 628,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 303
     }
   }
 }

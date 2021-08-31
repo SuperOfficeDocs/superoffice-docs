@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,26 +76,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 294,
+  "HierarchyId": 969,
   "Domain": "Dashboards",
-  "Name": "Monahan, Grimes and Fadel",
-  "Fullname": "vitae",
-  "ParentId": 306,
+  "Name": "Schumm-Johns",
+  "Fullname": "et",
+  "ParentId": 54,
   "Children": [
     {
-      "HierarchyId": 476,
+      "HierarchyId": 801,
       "Domain": "Dashboards",
-      "Name": "Walter Inc and Sons",
-      "Fullname": "voluptatibus",
-      "ParentId": 508,
+      "Name": "Tillman, Altenwerth and Schiller",
+      "Fullname": "enim",
+      "ParentId": 623,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-07-02T09:40:59.2336627+02:00",
-      "RegisteredAssociateId": 421,
-      "Updated": "2015-03-12T09:40:59.2336627+01:00",
-      "UpdatedAssociateId": 70,
+      "Registered": "1996-11-17T15:05:42.2496623+01:00",
+      "RegisteredAssociateId": 436,
+      "Updated": "2009-08-28T15:05:42.2496623+02:00",
+      "UpdatedAssociateId": 393,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldLength": 515
         }
       }
     }
   ],
-  "Registered": "2018-07-14T09:40:59.2336627+02:00",
-  "RegisteredAssociateId": 246,
-  "Updated": "2020-03-03T09:40:59.2336627+01:00",
-  "UpdatedAssociateId": 356,
+  "Registered": "2013-05-21T15:05:42.2496623+02:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2000-09-19T15:05:42.2496623+02:00",
+  "UpdatedAssociateId": 386,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldLength": 906
     }
   }
 }

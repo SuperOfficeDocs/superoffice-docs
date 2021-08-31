@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPluginCapabilities
+title: GetPluginCapabilities
 id: v1DocumentAgent_GetPluginCapabilities
 ---
 
-# POST Agents/Document/GetPluginCapabilities
+# GetPluginCapabilities
 
 ```http
 POST /api/v1/Agents/Document/GetPluginCapabilities
@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 44
+  "PluginId": 895
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "itaque",
-  "2": "necessitatibus"
+  "1": "et",
+  "2": "accusamus"
 }
 ```

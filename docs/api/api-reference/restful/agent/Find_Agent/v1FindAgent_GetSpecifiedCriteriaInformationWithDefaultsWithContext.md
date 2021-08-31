@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
+title: GetSpecifiedCriteriaInformationWithDefaultsWithContext
 id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
 ---
 
-# POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
+# GetSpecifiedCriteriaInformationWithDefaultsWithContext
 
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -86,22 +86,22 @@ Response body: object
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellendus",
-  "ProviderName": "Satterfield-Trantow",
-  "StorageKey": "quia",
+  "StorageType": "voluptas",
+  "ProviderName": "Kuhlman-Lesch",
+  "StorageKey": "magnam",
   "DesiredColumnNames": [
-    "Parker-Denesik",
-    "Stroman Inc and Sons"
+    "Mueller, Frami and Gaylord",
+    "Keeling, Pacocha and Schinner"
   ],
   "StaticColumns": [
-    "excepturi",
-    "suscipit"
+    "aperiam",
+    "explicabo"
   ],
-  "Context": "consequatur"
+  "Context": "doloremque"
 }
 ```
 
@@ -112,57 +112,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wolff Group",
-      "Operator": "eum",
+      "Name": "Ritchie, Casper and Orn",
+      "Operator": "at",
       "Values": [
-        "natus",
-        "repellat"
+        "exercitationem",
+        "doloremque"
       ],
       "DisplayValues": [
-        "culpa",
-        "iste"
+        "dolorem",
+        "ab"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 672,
+      "InterParenthesis": 560,
       "InterOperator": "And",
-      "UniqueHash": 483
+      "UniqueHash": 56
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lakin, Ritchie and Welch",
-      "DisplayTooltip": "aut",
-      "DisplayType": "eaque",
+      "DisplayName": "Wyman LLC",
+      "DisplayTooltip": "facere",
+      "DisplayType": "laboriosam",
       "CanOrderBy": true,
-      "Name": "Kshlerin-Ledner",
-      "CanRestrictBy": true,
-      "RestrictionType": "id",
-      "RestrictionListName": "Dickens-Brown",
+      "Name": "Hamill, Satterfield and Jenkins",
+      "CanRestrictBy": false,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Johnston, Lueilwitz and Emard",
       "IsVisible": true,
-      "ExtraInfo": "sapiente",
-      "Width": "eos",
-      "IconHint": "consequuntur",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "unde",
+      "Width": "inventore",
+      "IconHint": "non",
+      "HeadingIconHint": "veritatis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pollich-Gleichner",
-      "PrimaryKey": 147,
+      "EntityName": "Simonis, Quigley and Kertzmann",
+      "PrimaryKey": 276,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "fugiat",
-          "LinkHint": "impedit"
+          "DisplayValue": "explicabo",
+          "TooltipHint": "ipsum",
+          "LinkHint": "doloribus"
         }
       },
-      "LinkHint": "illo",
-      "StyleHint": "aliquid",
+      "LinkHint": "sit",
+      "StyleHint": "veritatis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -171,25 +171,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 77
+          "FieldLength": 199
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Muller Group",
-      "Description": "Switchable object-oriented framework",
-      "Rank": 532,
+      "Name": "Armstrong, Stoltenberg and Murazik",
+      "Description": "Organized encompassing hardware",
+      "Rank": 507,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Muller Group",
-      "Description": "Switchable object-oriented framework",
-      "Rank": 532,
+      "Name": "Armstrong, Stoltenberg and Murazik",
+      "Description": "Organized encompassing hardware",
+      "Rank": 507,
       "Restrictions": [
         {},
         {}
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synthesize strategic systems"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldLength": 914
     }
   }
 }

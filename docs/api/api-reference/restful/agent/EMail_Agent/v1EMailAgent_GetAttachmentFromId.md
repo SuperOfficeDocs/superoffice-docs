@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetAttachmentFromId
+title: GetAttachmentFromId
 id: v1EMailAgent_GetAttachmentFromId
 ---
 
-# POST Agents/EMail/GetAttachmentFromId
+# GetAttachmentFromId
 
 ```http
 POST /api/v1/Agents/EMail/GetAttachmentFromId
@@ -88,12 +88,12 @@ Response body: object
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 977,
-  "AttachmentId": "quos"
+  "MailItemId": 857,
+  "AttachmentId": "occaecati"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable system-worthy standardization",
-  "Filename": "quaerat",
-  "Size": 656,
-  "Type": "aperiam",
-  "Encoding": "veritatis",
-  "Id": "ex",
-  "Disposition": "est",
+  "Description": "Customizable 24/7 neural-net",
+  "Filename": "et",
+  "Size": 440,
+  "Type": "numquam",
+  "Encoding": "maiores",
+  "Id": "assumenda",
+  "Disposition": "velit",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldLength": 449
     }
   }
 }

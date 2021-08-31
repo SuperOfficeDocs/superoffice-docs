@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/CollectTableSizes
+title: CollectTableSizes
 id: v1DiagnosticsAgent_CollectTableSizes
 ---
 
-# POST Agents/Diagnostics/CollectTableSizes
+# CollectTableSizes
 
 ```http
 POST /api/v1/Agents/Diagnostics/CollectTableSizes

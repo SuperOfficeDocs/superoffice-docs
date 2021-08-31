@@ -91,15 +91,15 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 532,
-  "ERPPriceListKey": "eius",
-  "QuoteConnectionId": 50,
-  "Name": "Collins, Jerde and Wunsch",
-  "Description": "Devolved solution-oriented encryption",
-  "Currency": "sed",
-  "CurrencyName": "Gleichner, Zemlak and Heidenreich",
-  "ValidFrom": "2011-04-29T09:41:00.5193814+02:00",
-  "ValidTo": "1994-08-07T09:41:00.5193814+02:00",
+  "PriceListId": 186,
+  "ERPPriceListKey": "eum",
+  "QuoteConnectionId": 911,
+  "Name": "Howell Inc and Sons",
+  "Description": "Networked disintermediate Graphic Interface",
+  "Currency": "cupiditate",
+  "CurrencyName": "Borer, D'Amore and Gorczany",
+  "ValidFrom": "2004-05-17T15:05:43.5870797+02:00",
+  "ValidTo": "2009-04-08T15:05:43.5870797+02:00",
   "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
@@ -112,12 +112,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldLength": 849
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

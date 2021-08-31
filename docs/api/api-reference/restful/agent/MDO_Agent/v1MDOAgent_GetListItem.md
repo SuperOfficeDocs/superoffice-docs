@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetListItem
+title: GetListItem
 id: v1MDOAgent_GetListItem
 ---
 
-# POST Agents/MDO/GetListItem
+# GetListItem
 
 ```http
 POST /api/v1/Agents/MDO/GetListItem
@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Kassulke-Sawayn",
-  "Id": 452
+  "ListName": "Murray-Senger",
+  "Id": 300
 }
 ```
 
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741,
-  "Name": "Hoeger Group",
-  "ToolTip": "Sed doloremque ipsam.",
+  "Id": 953,
+  "Name": "Corwin, Raynor and Kling",
+  "ToolTip": "Sint amet sit soluta quam distinctio.",
   "Deleted": true,
-  "Rank": 661,
-  "Type": "quisquam",
+  "Rank": 437,
+  "Type": "adipisci",
   "ChildItems": [
     {
-      "Id": 771,
-      "Name": "Lakin LLC",
-      "ToolTip": "Vero quia atque voluptatibus et totam aspernatur.",
+      "Id": 380,
+      "Name": "Kirlin-Barrows",
+      "ToolTip": "Ipsam illum officiis.",
       "Deleted": true,
-      "Rank": 827,
-      "Type": "dolorem",
+      "Rank": 232,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 625,
-      "ExtraInfo": "odit",
-      "StyleHint": "doloribus",
-      "FullName": "Jonas Koss",
+      "IconHint": "qui",
+      "ColorBlock": 726,
+      "ExtraInfo": "aut",
+      "StyleHint": "dolor",
+      "FullName": "Cameron Koss",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -130,17 +130,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldType": "System.String",
+          "FieldLength": 792
         }
       }
     }
   ],
-  "IconHint": "harum",
-  "ColorBlock": 925,
-  "ExtraInfo": "quod",
-  "StyleHint": "deserunt",
-  "FullName": "Carli Hilll",
+  "IconHint": "consectetur",
+  "ColorBlock": 561,
+  "ExtraInfo": "ea",
+  "StyleHint": "possimus",
+  "FullName": "Marlen Sauer",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldLength": 281
     }
   }
 }

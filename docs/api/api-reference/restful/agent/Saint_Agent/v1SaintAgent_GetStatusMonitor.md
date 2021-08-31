@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/GetStatusMonitor
+title: GetStatusMonitor
 id: v1SaintAgent_GetStatusMonitor
 ---
 
-# POST Agents/Saint/GetStatusMonitor
+# GetStatusMonitor
 
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitor
@@ -92,11 +92,11 @@ Response body: object
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848
+  "Id": 940
 }
 ```
 
@@ -105,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 372,
-  "Rank": 168,
-  "DefaultTask": 484,
-  "DefaultTaskText": "earum",
+  "OwnerTable": 128,
+  "Rank": 701,
+  "DefaultTask": 266,
+  "DefaultTaskText": "sed",
   "IsVisual": true,
-  "LastGenerated": "2009-06-28T16:48:30.5049403+02:00",
-  "Description": "Implemented modular artificial intelligence",
-  "Name": "Kirlin-Jakubowski",
-  "StatusMonitorId": 541,
-  "PictureId": 228,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 674,
-  "NumNeedUpdate": 598,
-  "GenerationStart": "2011-08-16T16:48:30.5049403+02:00",
+  "LastGenerated": "2016-05-08T14:58:05.1066324+02:00",
+  "Description": "Focused coherent software",
+  "Name": "Hodkiewicz-Cormier",
+  "StatusMonitorId": 197,
+  "PictureId": 594,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 135,
+  "NumNeedUpdate": 462,
+  "GenerationStart": "2016-09-22T14:58:05.1066324+02:00",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 318
     }
   }
 }

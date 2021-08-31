@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/GetTriggerScriptByUniqueId
+title: GetTriggerScriptByUniqueId
 id: v1CRMScriptAgent_GetTriggerScriptByUniqueId
 ---
 
-# POST Agents/CRMScript/GetTriggerScriptByUniqueId
+# GetTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
@@ -89,11 +89,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ab"
+  "TriggerScriptUniqueId": "laborum"
 }
 ```
 
@@ -102,16 +102,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 45,
-  "Name": "Muller-Barrows",
+  "ScreenChooserId": 605,
+  "Name": "Okuneva-Murazik",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "laudantium",
-  "Source": "commodi",
-  "Registered": "2013-04-08T16:48:29.2168941+02:00",
-  "RegisteredAssociateId": 535,
-  "Updated": "2005-05-11T16:48:29.2168941+02:00",
-  "UpdatedAssociateId": 18,
+  "Enabled": true,
+  "UniqueIdentifier": "consequatur",
+  "Source": "dolorem",
+  "Registered": "2000-03-19T14:58:03.7494608+01:00",
+  "RegisteredAssociateId": 932,
+  "Updated": "2009-10-21T14:58:03.7494608+02:00",
+  "UpdatedAssociateId": 534,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 888
     }
   }
 }

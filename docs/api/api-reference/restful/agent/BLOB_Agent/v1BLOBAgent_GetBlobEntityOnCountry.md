@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetBlobEntityOnCountry
+title: GetBlobEntityOnCountry
 id: v1BLOBAgent_GetBlobEntityOnCountry
 ---
 
-# POST Agents/BLOB/GetBlobEntityOnCountry
+# GetBlobEntityOnCountry
 
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 53
+  "CountryId": 899
 }
 ```
 
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 196,
-  "BlobSize": 958,
-  "Description": "Intuitive static customer loyalty",
-  "ExtraInfo": "itaque",
-  "IsEncrypted": true,
+  "BlobId": 233,
+  "BlobSize": 954,
+  "Description": "Sharable national paradigm",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 56,
-  "CreatedDate": "2014-06-28T16:48:28.7951984+02:00",
-  "UpdatedDate": "2001-12-02T16:48:28.7951984+01:00",
+  "MimeType": "ea",
+  "OriginalSize": 928,
+  "CreatedDate": "2010-01-31T14:58:03.2892417+01:00",
+  "UpdatedDate": "1997-11-02T14:58:03.2892417+01:00",
   "CreatedBy": {
-    "AssociateId": 940,
-    "Name": "Streich-Nicolas",
-    "PersonId": 95,
-    "Rank": 911,
-    "Tooltip": "beatae",
+    "AssociateId": 706,
+    "Name": "King LLC",
+    "PersonId": 374,
+    "Rank": 980,
+    "Tooltip": "voluptas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 88,
-    "FullName": "Celine Medhurst",
-    "FormalName": "Bernhard LLC",
+    "GroupIdx": 897,
+    "FullName": "Uriel Fisher",
+    "FormalName": "Labadie Group",
     "Deleted": false,
-    "EjUserId": 455,
-    "UserName": "Smitham-Haag",
+    "EjUserId": 884,
+    "UserName": "Metz LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,37 +129,37 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 899,
-    "Name": "Hills, Berge and Schiller",
-    "PersonId": 521,
-    "Rank": 638,
-    "Tooltip": "illum",
+    "AssociateId": 101,
+    "Name": "Aufderhar, Johns and Ferry",
+    "PersonId": 385,
+    "Rank": 763,
+    "Tooltip": "non",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 537,
-    "FullName": "Alison Jewess",
-    "FormalName": "Kuhic, Carroll and Huel",
+    "GroupIdx": 563,
+    "FullName": "Jammie Dibbert",
+    "FormalName": "O'Connell-Koepp",
     "Deleted": true,
-    "EjUserId": 432,
-    "UserName": "Dicki Group",
+    "EjUserId": 921,
+    "UserName": "Runolfsdottir, Heathcote and Jaskolski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "seize interactive models"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   },
-  "ConceptualType": "voluptate",
+  "ConceptualType": "non",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,10 +168,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "strategize virtual portals"
       },
       "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldLength": 56
     }
   }
 }

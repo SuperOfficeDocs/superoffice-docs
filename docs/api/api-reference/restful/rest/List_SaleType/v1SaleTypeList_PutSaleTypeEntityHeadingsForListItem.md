@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Moore Inc and Sons",
-    "ToolTip": "Et qui sunt consequatur maxime.",
-    "Deleted": false,
-    "Rank": 285,
-    "Type": "corrupti",
-    "ColorBlock": 344,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2012-09-14T09:41:00.741388+02:00",
+    "Id": 524,
+    "Name": "Baumbach-Hettinger",
+    "ToolTip": "Et neque.",
+    "Deleted": true,
+    "Rank": 498,
+    "Type": "sit",
+    "ColorBlock": 577,
+    "IconHint": "ullam",
+    "Selected": false,
+    "LastChanged": "2007-05-13T15:05:43.801119+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Bartell-Sporer",
-        "ToolTip": "Ipsam dolores.",
-        "Deleted": true,
-        "Rank": 572,
-        "Type": "est",
-        "ColorBlock": 903,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "1999-09-13T09:41:00.741388+02:00",
+        "Id": 316,
+        "Name": "Schimmel, Bechtelar and West",
+        "ToolTip": "Quis suscipit aliquam et placeat ipsum aut.",
+        "Deleted": false,
+        "Rank": 401,
+        "Type": "provident",
+        "ColorBlock": 210,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2016-02-12T15:05:43.8021246+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "eos",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Jakob Spencer"
+        "FullName": "Miss Orion Murazik"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "dolore",
+    "ExtraInfo": "omnis",
+    "StyleHint": "nostrum",
     "Hidden": true,
-    "FullName": "Antonina Lehner Sr."
+    "FullName": "Deron Rutherford"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Hyatt, Friesen and Cremin",
-    "ToolTip": "Accusamus tenetur illo quasi dicta.",
+    "Id": 883,
+    "Name": "Bosco Group",
+    "ToolTip": "Consequatur odit eum reiciendis maxime.",
     "Deleted": true,
-    "Rank": 497,
-    "Type": "est",
-    "ColorBlock": 959,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2019-06-23T09:41:00.7423907+02:00",
+    "Rank": 623,
+    "Type": "dicta",
+    "ColorBlock": 170,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2016-12-23T15:05:43.8031229+01:00",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Repellat adipisci eaque.",
-        "Deleted": true,
-        "Rank": 379,
+        "Id": 589,
+        "Name": "Howell, Koepp and Bechtelar",
+        "ToolTip": "Dolores laborum non eveniet.",
+        "Deleted": false,
+        "Rank": 973,
         "Type": "qui",
-        "ColorBlock": 674,
-        "IconHint": "ut",
+        "ColorBlock": 304,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2020-01-27T09:41:00.7433937+01:00",
+        "LastChanged": "2017-01-26T15:05:43.8041254+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
+        "ExtraInfo": "eveniet",
         "StyleHint": "commodi",
         "Hidden": true,
-        "FullName": "Kiel Oberbrunner",
+        "FullName": "Geraldine Nolan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 714
+            "FieldType": "System.Int32",
+            "FieldLength": 989
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Sydney Kilback",
+    "FullName": "Kathryne Batz",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/ResyncUsers
+title: ResyncUsers
 id: v1DiagnosticsAgent_ResyncUsers
 ---
 
-# POST Agents/Diagnostics/ResyncUsers
+# ResyncUsers
 
 ```http
 POST /api/v1/Agents/Diagnostics/ResyncUsers

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/Authenticate
+title: Authenticate
 id: v1EMailAgent_Authenticate
 ---
 
-# POST Agents/EMail/Authenticate
+# Authenticate
 
 ```http
 POST /api/v1/Agents/EMail/Authenticate
@@ -68,18 +68,18 @@ Response body: bool
 POST /api/v1/Agents/EMail/Authenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": {
-    "Port": 272,
-    "ServerName": "Cummings LLC",
-    "Protocol": "ut",
-    "UserName": "Heidenreich Group",
-    "Password": "quia",
+    "Port": 580,
+    "ServerName": "Leffler Group",
+    "Protocol": "ipsa",
+    "UserName": "Bosco, Borer and Windler",
+    "Password": "qui",
     "UseSSL": true,
-    "Folder": "quae"
+    "Folder": "a"
   }
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

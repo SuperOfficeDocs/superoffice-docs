@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Relation/DeleteContactRelation
+title: DeleteContactRelation
 id: v1RelationAgent_DeleteContactRelation
 ---
 
-# POST Agents/Relation/DeleteContactRelation
+# DeleteContactRelation
 
 ```http
 POST /api/v1/Agents/Relation/DeleteContactRelation

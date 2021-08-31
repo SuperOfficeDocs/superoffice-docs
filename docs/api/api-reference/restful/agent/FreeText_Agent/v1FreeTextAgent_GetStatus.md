@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/GetStatus
+title: GetStatus
 id: v1FreeTextAgent_GetStatus
 ---
 
-# POST Agents/FreeText/GetStatus
+# GetStatus
 
 ```http
 POST /api/v1/Agents/FreeText/GetStatus
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/FreeText/GetStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,12 +83,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FreeTextEnabled": true,
+  "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 990,
-  "Occurrences": 753,
-  "LastGenerated": "2003-12-24T16:48:29.7229242+01:00",
+  "CountWords": 301,
+  "Occurrences": 358,
+  "LastGenerated": "2002-06-17T14:58:04.3164606+02:00",
   "AutoEnableTravelAreas": true,
   "TableRight": {
     "Mask": "Delete",
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 128
     }
   }
 }

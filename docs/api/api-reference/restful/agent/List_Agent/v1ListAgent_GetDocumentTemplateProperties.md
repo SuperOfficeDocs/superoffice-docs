@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateProperties
+title: GetDocumentTemplateProperties
 id: v1ListAgent_GetDocumentTemplateProperties
 ---
 
-# POST Agents/List/GetDocumentTemplateProperties
+# GetDocumentTemplateProperties
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
@@ -69,14 +69,14 @@ Response body: object
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 149,
+  "DocumentTemplateId": 574,
   "RequestedProperties": [
-    "explicabo",
-    "et"
+    "non",
+    "eos"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sunt",
-  "2": "quia"
+  "1": "et",
+  "2": "commodi"
 }
 ```

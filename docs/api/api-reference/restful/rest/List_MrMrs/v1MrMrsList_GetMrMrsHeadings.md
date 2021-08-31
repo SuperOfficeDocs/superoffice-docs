@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 624,
-    "Name": "Kunde, Lehner and Cummerata",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 213,
+    "HeadingId": 729,
+    "Name": "Witting, Gorczany and Reinger",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 345,
+    "UdListDefinitionId": 867,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

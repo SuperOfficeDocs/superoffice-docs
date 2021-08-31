@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetCriteriaInformationWithContext
+title: GetCriteriaInformationWithContext
 id: v1FindAgent_GetCriteriaInformationWithContext
 ---
 
-# POST Agents/Find/GetCriteriaInformationWithContext
+# GetCriteriaInformationWithContext
 
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Waters LLC",
-  "StorageKey": "voluptas",
+  "StorageType": "officia",
+  "ProviderName": "Ratke, Legros and Waelchi",
+  "StorageKey": "sit",
   "StaticColumns": [
-    "eos",
-    "temporibus"
+    "doloribus",
+    "ea"
   ],
-  "Context": "debitis"
+  "Context": "nisi"
 }
 ```
 
@@ -107,57 +107,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kessler LLC",
-      "Operator": "tempora",
+      "Name": "Hayes Inc and Sons",
+      "Operator": "cupiditate",
       "Values": [
-        "ut",
-        "atque"
+        "aut",
+        "occaecati"
       ],
       "DisplayValues": [
-        "autem",
-        "id"
+        "ad",
+        "est"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 296,
+      "InterParenthesis": 713,
       "InterOperator": "And",
-      "UniqueHash": 294
+      "UniqueHash": 483
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Baumbach Inc and Sons",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "excepturi",
-      "CanOrderBy": false,
-      "Name": "Cassin, Shields and Strosin",
-      "CanRestrictBy": false,
-      "RestrictionType": "quibusdam",
-      "RestrictionListName": "Becker LLC",
-      "IsVisible": true,
-      "ExtraInfo": "saepe",
-      "Width": "odit",
-      "IconHint": "est",
-      "HeadingIconHint": "nostrum"
+      "DisplayName": "Stroman-Gaylord",
+      "DisplayTooltip": "repellendus",
+      "DisplayType": "suscipit",
+      "CanOrderBy": true,
+      "Name": "Tromp LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Krajcik, Sawayn and Schaefer",
+      "IsVisible": false,
+      "ExtraInfo": "dolorum",
+      "Width": "velit",
+      "IconHint": "quis",
+      "HeadingIconHint": "rerum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gislason LLC",
-      "PrimaryKey": 750,
+      "EntityName": "Altenwerth, Grant and Roberts",
+      "PrimaryKey": 99,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "earum"
+          "DisplayValue": "dignissimos",
+          "TooltipHint": "sequi",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "odio",
-      "StyleHint": "hic",
+      "LinkHint": "harum",
+      "StyleHint": "atque",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -166,25 +166,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldLength": 879
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Renner-Lubowitz",
-      "Description": "Organized uniform neural-net",
-      "Rank": 575,
+      "Name": "Predovic-Kihn",
+      "Description": "Quality-focused systemic product",
+      "Rank": 183,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Renner-Lubowitz",
-      "Description": "Organized uniform neural-net",
-      "Rank": 575,
+      "Name": "Predovic-Kihn",
+      "Description": "Quality-focused systemic product",
+      "Rank": 183,
       "Restrictions": [
         {},
         {}
@@ -201,8 +201,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

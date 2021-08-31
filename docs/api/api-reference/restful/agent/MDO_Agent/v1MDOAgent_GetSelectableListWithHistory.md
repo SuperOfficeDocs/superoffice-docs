@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetSelectableListWithHistory
+title: GetSelectableListWithHistory
 id: v1MDOAgent_GetSelectableListWithHistory
 ---
 
-# POST Agents/MDO/GetSelectableListWithHistory
+# GetSelectableListWithHistory
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
@@ -91,18 +91,18 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marks-Brown",
-  "ForceFlatList": false,
-  "AdditionalInfo": "reprehenderit",
+  "Name": "Runolfsson, Thiel and Lindgren",
+  "ForceFlatList": true,
+  "AdditionalInfo": "neque",
   "HistoryItems": [
-    935,
-    882
+    955,
+    214
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -112,36 +112,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Thiel, Mohr and DuBuque",
-    "ToolTip": "Tempore culpa.",
-    "Deleted": true,
-    "Rank": 902,
-    "Type": "enim",
-    "ColorBlock": 514,
-    "IconHint": "aut",
+    "Id": 171,
+    "Name": "Greenfelder Inc and Sons",
+    "ToolTip": "Distinctio sapiente quibusdam facilis placeat voluptates.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "fugit",
+    "ColorBlock": 445,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2020-03-08T16:48:29.9729277+01:00",
+    "LastChanged": "2018-07-26T14:58:04.5664622+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Padberg-Lehner",
-        "ToolTip": "Quia repudiandae ut ipsa quam magnam ipsam.",
+        "Id": 984,
+        "Name": "Hyatt Inc and Sons",
+        "ToolTip": "Enim eveniet accusantium.",
         "Deleted": false,
-        "Rank": 81,
-        "Type": "fugiat",
-        "ColorBlock": 40,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2003-08-06T16:48:29.9739244+02:00",
+        "Rank": 229,
+        "Type": "a",
+        "ColorBlock": 386,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2000-12-03T14:58:04.5664622+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Claud Wisozk",
+        "ExtraInfo": "maxime",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Adan Kertzmann PhD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -150,18 +150,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 339
+            "FieldLength": 671
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Lamont Wintheiser",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Tara Brakus",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "repurpose killer ROI"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldLength": 419
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SyncEmailAccounts
+title: SyncEmailAccounts
 id: v1EMailAgent_SyncEmailAccounts
 ---
 
-# POST Agents/EMail/SyncEmailAccounts
+# SyncEmailAccounts
 
 ```http
 POST /api/v1/Agents/EMail/SyncEmailAccounts

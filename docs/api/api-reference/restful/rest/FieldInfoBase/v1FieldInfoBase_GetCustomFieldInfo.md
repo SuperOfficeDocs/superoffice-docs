@@ -74,7 +74,7 @@ Response body: object
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Schroeder-Daugherty",
-  "DisplayName": "Kerluke-Fadel",
-  "Description": "Upgradable modular installation",
-  "ShortLabel": "provident",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "FieldName": "Homenick, Barton and Gislason",
+  "DisplayName": "Hoppe, Barrows and Schinner",
+  "Description": "Synergized client-driven forecast",
+  "ShortLabel": "quo",
+  "HideLabel": true,
+  "HideField": true,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 431,
-  "TemplateVariableName": "O'Kon-Smith"
+  "Rank": 348,
+  "TemplateVariableName": "Hoeger Inc and Sons"
 }
 ```

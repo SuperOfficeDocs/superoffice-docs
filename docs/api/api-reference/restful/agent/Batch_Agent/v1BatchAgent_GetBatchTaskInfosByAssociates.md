@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfosByAssociates
+title: GetBatchTaskInfosByAssociates
 id: v1BatchAgent_GetBatchTaskInfosByAssociates
 ---
 
-# POST Agents/Batch/GetBatchTaskInfosByAssociates
+# GetBatchTaskInfosByAssociates
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
@@ -83,6 +83,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -92,13 +93,13 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    771,
-    190
+    50,
+    349
   ]
 }
 ```
@@ -109,32 +110,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Bergnaum, Parisian and Cormier",
-    "AssociateId": 136,
-    "DetailsTable": 636,
-    "DetailsRecord": 157,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 289,
+    "Name": "Boehm, Little and Padberg",
+    "AssociateId": 807,
+    "DetailsTable": 976,
+    "DetailsRecord": 181,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quidem",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "blanditiis",
+      "ParameterObject2": "iure"
     },
-    "LastStarted": "2005-12-16T16:48:28.7781984+01:00",
-    "Created": "2005-09-27T16:48:28.7781984+02:00",
-    "StartCount": 662,
-    "DatabaseSerialNumber": "398076",
-    "Context": "architecto",
-    "Result": "ea",
+    "LastStarted": "2003-02-09T14:58:03.270242+01:00",
+    "Created": "2017-01-18T14:58:03.270242+01:00",
+    "StartCount": 288,
+    "DatabaseSerialNumber": "1235175",
+    "Context": "modi",
+    "Result": "deserunt",
     "State": "All",
-    "Description": "Distributed motivating implementation",
-    "Response": "iusto",
-    "Request": "laborum",
-    "ProgressDescription": "Universal local instruction set",
-    "ProgressPercent": 925,
+    "Description": "Polarised system-worthy superstructure",
+    "Response": "sit",
+    "Request": "voluptatem",
+    "ProgressDescription": "Synchronised exuding attitude",
+    "ProgressPercent": 769,
+    "FileName": "Brakus, Lind and Leannon",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "incubate user-centric architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 444
       }
     }
   }

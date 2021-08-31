@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/GetBaseTimeZoneId
+title: GetBaseTimeZoneId
 id: v1TimeZoneAgent_GetBaseTimeZoneId
 ---
 
-# POST Agents/TimeZone/GetBaseTimeZoneId
+# GetBaseTimeZoneId
 
 ```http
 POST /api/v1/Agents/TimeZone/GetBaseTimeZoneId
@@ -59,12 +59,12 @@ Response body: int32
 POST /api/v1/Agents/TimeZone/GetBaseTimeZoneId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-243
+373
 ```

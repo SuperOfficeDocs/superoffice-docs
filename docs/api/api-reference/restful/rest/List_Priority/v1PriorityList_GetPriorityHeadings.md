@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Pfeffer Group",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "Rank": 87,
-    "UdListDefinitionId": 887,
+    "HeadingId": 532,
+    "Name": "Ortiz Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 196,
+    "UdListDefinitionId": 131,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 843
       }
     }
   }

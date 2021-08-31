@@ -1,9 +1,9 @@
 ---
-title: POST Agents/DatabaseTable/InsertRow
+title: InsertRow
 id: v1DatabaseTableAgent_InsertRow
 ---
 
-# POST Agents/DatabaseTable/InsertRow
+# InsertRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/InsertRow
@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Torphy-Ruecker",
+  "TableName": "Hahn-Emard",
   "Values": {
-    "Values1": "dignissimos",
-    "Values2": "corrupti"
+    "Values1": "qui",
+    "Values2": "amet"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-749
+712
 ```

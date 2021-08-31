@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetFieldValuesFromErp
+title: GetFieldValuesFromErp
 id: v1ErpSyncAgent_GetFieldValuesFromErp
 ---
 
-# POST Agents/ErpSync/GetFieldValuesFromErp
+# GetFieldValuesFromErp
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
@@ -82,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 42,
+  "ErpConnectionId": 657,
   "ActorTypeErp": "Customer",
-  "ErpKey": "numquam"
+  "ErpKey": "aut"
 }
 ```
 
@@ -98,15 +98,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Dach Inc and Sons",
-    "CrmFieldKey": "quibusdam",
-    "Value": "aut",
-    "DisplayValue": "hic",
+    "DisplayName": "Shanahan, Beahan and Gutmann",
+    "CrmFieldKey": "tenetur",
+    "Value": "repudiandae",
+    "DisplayValue": "placeat",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "exploit integrated relationships"
+      "Reason": "productize 24/365 supply-chains"
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 759
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

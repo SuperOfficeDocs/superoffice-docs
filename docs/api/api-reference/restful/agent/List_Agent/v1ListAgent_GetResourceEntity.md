@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetResourceEntity
+title: GetResourceEntity
 id: v1ListAgent_GetResourceEntity
 ---
 
-# POST Agents/List/GetResourceEntity
+# GetResourceEntity
 
 ```http
 POST /api/v1/Agents/List/GetResourceEntity
@@ -25,7 +25,7 @@ Gets a ResourceEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=866
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=924
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/List/GetResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 432,
-  "Name": "Marks-Christiansen",
-  "Rank": 154,
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "libero",
+  "ResourceId": 629,
+  "Name": "Bartoletti LLC",
+  "Rank": 991,
+  "Tooltip": "et",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "odit",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "monetize B2C markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldLength": 879
     }
   }
 }

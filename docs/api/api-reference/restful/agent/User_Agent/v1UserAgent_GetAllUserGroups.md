@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetAllUserGroups
+title: GetAllUserGroups
 id: v1UserAgent_GetAllUserGroups
 ---
 
-# POST Agents/User/GetAllUserGroups
+# GetAllUserGroups
 
 ```http
 POST /api/v1/Agents/User/GetAllUserGroups
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -93,10 +93,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "molestias",
-    "Tooltip": "animi",
-    "Id": 767,
-    "Rank": 225,
+    "Value": "qui",
+    "Tooltip": "qui",
+    "Id": 777,
+    "Rank": 438,
     "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 779
       }
     }
   }

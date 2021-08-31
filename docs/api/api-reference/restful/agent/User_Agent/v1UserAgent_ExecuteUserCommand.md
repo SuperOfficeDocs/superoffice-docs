@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ExecuteUserCommand
+title: ExecuteUserCommand
 id: v1UserAgent_ExecuteUserCommand
 ---
 
-# POST Agents/User/ExecuteUserCommand
+# ExecuteUserCommand
 
 ```http
 POST /api/v1/Agents/User/ExecuteUserCommand
@@ -73,17 +73,17 @@ Response body: object
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Wiza, Blanda and Brekke",
+  "CommandName": "Bosco-VonRueden",
   "ActionResult": "Cancel",
   "User": {
-    "AssociateId": 442,
-    "Name": "Emard-Rohan",
-    "Rank": 760,
-    "Tooltip": "repellendus",
+    "AssociateId": 32,
+    "Name": "Mante, Feest and Halvorson",
+    "Rank": 392,
+    "Tooltip": "dolorum",
     "LicenseOwners": [
       {},
       {}
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2005-04-22T16:48:30.9049408+02:00",
-    "Lastlogout": "2000-07-31T16:48:30.9049408+02:00",
-    "EjUserId": 411,
-    "RequestSignature": "ipsam",
+    "Deleted": false,
+    "Lastlogin": "2012-07-12T14:58:05.5600266+02:00",
+    "Lastlogout": "1998-05-01T14:58:05.5600266+02:00",
+    "EjUserId": 260,
+    "RequestSignature": "harum",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsPersonRetired": false,
+    "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Stark-Wolf",
+    "UserName": "Reynolds Group",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Heller, Powlowski and Jast",
-    "WaitingForApproval": true,
+    "NickName": "Blanda Group",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "veniam",
-      "ExtraFields2": "eos"
+      "ExtraFields1": "voluptatem",
+      "ExtraFields2": "laboriosam"
     },
     "CustomFields": {
-      "CustomFields1": "quod",
-      "CustomFields2": "harum"
+      "CustomFields1": "ipsum",
+      "CustomFields2": "quisquam"
     },
     "PostSaveCommands": [
       {},
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "laboriosam",
+  "Message": "illum",
   "Result": "Cancel",
   "TableRight": {
     "Mask": "Delete",
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "monetize leading-edge partnerships"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 427
     }
   }
 }

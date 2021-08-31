@@ -28,7 +28,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=654
+PUT /api/v1/Project/{id}/ImageInfo?projectId=968
 ```
 
 
@@ -107,45 +107,45 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 976,
-  "BlobSize": 752,
-  "Description": "Upgradable empowering function",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 567,
-  "CreatedDate": "2006-11-26T09:40:59.4076658+01:00",
-  "UpdatedDate": "2011-07-05T09:40:59.4076658+02:00",
+  "BlobId": 725,
+  "BlobSize": 478,
+  "Description": "Business-focused holistic circuit",
+  "ExtraInfo": "odit",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "expedita",
+  "OriginalSize": 281,
+  "CreatedDate": "2000-08-20T15:05:42.5416348+02:00",
+  "UpdatedDate": "2004-05-29T15:05:42.5416348+02:00",
   "CreatedBy": {
-    "AssociateId": 384,
-    "Name": "Crona LLC",
-    "PersonId": 740,
-    "Rank": 174,
-    "Tooltip": "facilis",
+    "AssociateId": 754,
+    "Name": "Murray-Bergnaum",
+    "PersonId": 395,
+    "Rank": 196,
+    "Tooltip": "dolorem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 788,
-    "FullName": "Javonte Weissnat",
-    "FormalName": "Yost, Pfannerstill and Ziemann",
-    "Deleted": true,
-    "EjUserId": 840,
-    "UserName": "Marvin, Konopelski and Vandervort"
+    "GroupIdx": 701,
+    "FullName": "Keyshawn Gutmann",
+    "FormalName": "Jenkins-Tillman",
+    "Deleted": false,
+    "EjUserId": 64,
+    "UserName": "Gutkowski Inc and Sons"
   },
   "UpdatedBy": {
-    "AssociateId": 361,
-    "Name": "Considine, Heidenreich and Simonis",
-    "PersonId": 438,
-    "Rank": 334,
-    "Tooltip": "deleniti",
+    "AssociateId": 735,
+    "Name": "Nikolaus Group",
+    "PersonId": 72,
+    "Rank": 549,
+    "Tooltip": "recusandae",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 499,
-    "FullName": "Doris Hoppe",
-    "FormalName": "Schmitt-Robel",
-    "Deleted": false,
-    "EjUserId": 332,
-    "UserName": "Corkery, Sporer and Treutel"
+    "GroupIdx": 634,
+    "FullName": "Bryce Collier",
+    "FormalName": "Cartwright, Hoppe and Roob",
+    "Deleted": true,
+    "EjUserId": 549,
+    "UserName": "Treutel Group"
   },
-  "ConceptualType": "expedita"
+  "ConceptualType": "nulla"
 }
 ```
 
@@ -154,29 +154,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 36,
-  "BlobSize": 123,
-  "Description": "Quality-focused motivating neural-net",
-  "ExtraInfo": "doloremque",
+  "BlobId": 915,
+  "BlobSize": 243,
+  "Description": "Configurable intangible flexibility",
+  "ExtraInfo": "et",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "in",
-  "OriginalSize": 342,
-  "CreatedDate": "2017-11-21T09:40:59.4086656+01:00",
-  "UpdatedDate": "1998-08-23T09:40:59.4086656+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 163,
+  "CreatedDate": "1998-08-25T15:05:42.5426353+02:00",
+  "UpdatedDate": "2021-06-05T15:05:42.5426353+02:00",
   "CreatedBy": {
-    "AssociateId": 180,
-    "Name": "Gutkowski-Gutmann",
-    "PersonId": 229,
-    "Rank": 985,
-    "Tooltip": "deleniti",
+    "AssociateId": 784,
+    "Name": "Nikolaus, Kris and Walsh",
+    "PersonId": 397,
+    "Rank": 11,
+    "Tooltip": "sint",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 550,
-    "FullName": "Kiera Durgan",
-    "FormalName": "Mueller-Kessler",
+    "GroupIdx": 881,
+    "FullName": "Christop Howell",
+    "FormalName": "Durgan, Gleichner and Stroman",
     "Deleted": true,
-    "EjUserId": 355,
-    "UserName": "King-Altenwerth",
+    "EjUserId": 374,
+    "UserName": "Herzog Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -185,23 +185,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldLength": 666
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 774,
-    "Name": "Ryan LLC",
-    "PersonId": 597,
-    "Rank": 97,
-    "Tooltip": "eos",
+    "AssociateId": 400,
+    "Name": "Kuhn, Blanda and Mitchell",
+    "PersonId": 614,
+    "Rank": 708,
+    "Tooltip": "cupiditate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 551,
-    "FullName": "Joana Jaskolski",
-    "FormalName": "Hoppe LLC",
+    "GroupIdx": 549,
+    "FullName": "Flavie Oberbrunner",
+    "FormalName": "Hand Group",
     "Deleted": false,
-    "EjUserId": 959,
-    "UserName": "Glover Inc and Sons",
+    "EjUserId": 82,
+    "UserName": "Fahey-Hudson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -209,12 +209,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldType": "System.Int32",
+        "FieldLength": 731
       }
     }
   },
-  "ConceptualType": "quae",
+  "ConceptualType": "repellat",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDepartments
+title: GetDepartments
 id: v1ListAgent_GetDepartments
 ---
 
-# POST Agents/List/GetDepartments
+# GetDepartments
 
 ```http
 POST /api/v1/Agents/List/GetDepartments
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDepartments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Value": "laudantium",
-    "Tooltip": "asperiores",
+    "Id": 536,
+    "Value": "dolor",
+    "Tooltip": "id",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 872
       }
     }
   },
   {
-    "Id": 557,
-    "Value": "laudantium",
-    "Tooltip": "asperiores",
+    "Id": 536,
+    "Value": "dolor",
+    "Tooltip": "id",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 872
       }
     }
   }

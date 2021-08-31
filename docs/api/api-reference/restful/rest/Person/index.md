@@ -2,24 +2,14 @@
 title: Person
 ---
 
+# Person
+
 ```http
 /api/v1/Person
 ```
 
 
 
-
-* [GET Person/{id}/ImageInfo](v1PersonEntity_GetImageInfo.md)
-
-* [PUT Person/{id}/ImageInfo](v1PersonEntity_PutImageInfo.md)
-
-* [GET Person/{id}/Image](v1PersonEntity_GetImage.md)
-
-* [PUT Person/{id}/Image](v1PersonEntity_SaveImage.md)
-
-* [POST Person/{id}/Image](v1PersonEntity_SaveImage_POST.md)
-
-* [DEL Person/{id}/Image](v1PersonEntity_DeleteImageContent.md)
 
 * [GET Person/default](v1PersonEntity_DefaultPersonEntity.md)
 
@@ -94,3 +84,15 @@ title: Person
 * [POST Person/UdefLayout/Revert](v1PersonEntity_RevertUdefLayout.md)
 
 * [GET Person/{id}/ForeignKey](v1PersonEntity_GetAllForeignKeysOnEntity.md)
+
+* [GET Person/{id}/ImageInfo](v1PersonEntity_GetImageInfo.md)
+
+* [PUT Person/{id}/ImageInfo](v1PersonEntity_PutImageInfo.md)
+
+* [GET Person/{id}/Image](v1PersonEntity_GetImage.md)
+
+* [PUT Person/{id}/Image](v1PersonEntity_SaveImage.md)
+
+* [POST Person/{id}/Image](v1PersonEntity_SaveImage_POST.md)
+
+* [DEL Person/{id}/Image](v1PersonEntity_DeleteImageContent.md)

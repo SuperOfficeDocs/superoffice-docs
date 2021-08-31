@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/RemoveStoredFields
+title: RemoveStoredFields
 id: v1BulkUpdateAgent_RemoveStoredFields
 ---
 
-# POST Agents/BulkUpdate/RemoveStoredFields
+# RemoveStoredFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Larson LLC",
-  "Context": "consequatur"
+  "TableName": "Nader, Aufderhar and Weber",
+  "Context": "dolore"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

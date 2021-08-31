@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "debitis",
-  "RecordId": 427,
-  "CreatedDate": "2011-03-22T09:40:59.226663+01:00",
-  "UpdatedDate": "2001-12-30T09:40:59.226663+01:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "alias",
-  "TableName": "Lueilwitz-Davis"
+  "Key": "est",
+  "Value": "sit",
+  "RecordId": 859,
+  "CreatedDate": "2016-06-29T15:05:42.2476715+02:00",
+  "UpdatedDate": "2001-08-11T15:05:42.2476715+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "facilis",
+  "TableName": "Lakin-Hermiston"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "inventore",
-  "Value": "odio",
-  "RecordId": 787,
-  "CreatedDate": "2007-11-17T09:40:59.226663+01:00",
-  "UpdatedDate": "2000-04-05T09:40:59.226663+02:00",
-  "UpdatedBy": "quidem",
-  "CreatedBy": "ab",
-  "TableName": "Koss-Howell",
+  "Key": "perspiciatis",
+  "Value": "totam",
+  "RecordId": 616,
+  "CreatedDate": "2007-01-19T15:05:42.2476715+01:00",
+  "UpdatedDate": "2020-04-03T15:05:42.2476715+02:00",
+  "UpdatedBy": "voluptatum",
+  "CreatedBy": "adipisci",
+  "TableName": "Bruen-Huels",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

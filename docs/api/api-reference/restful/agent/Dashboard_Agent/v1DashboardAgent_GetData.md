@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetData
+title: GetData
 id: v1DashboardAgent_GetData
 ---
 
-# POST Agents/Dashboard/GetData
+# GetData
 
 ```http
 POST /api/v1/Agents/Dashboard/GetData
@@ -73,12 +73,12 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 939,
-  "Restrictions": "voluptatem"
+  "DashboardTileId": 433,
+  "Restrictions": "esse"
 }
 ```
 
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Little, Dietrich and Mueller",
-        "DisplayTooltip": "iste",
-        "DisplayType": "est",
+        "DisplayName": "Watsica, Abshire and Skiles",
+        "DisplayTooltip": "nihil",
+        "DisplayType": "molestiae",
         "CanOrderBy": false,
-        "Name": "Lindgren-Wintheiser",
+        "Name": "Gibson, Schmitt and Breitenberg",
         "CanRestrictBy": false,
-        "RestrictionType": "laborum",
-        "RestrictionListName": "Crist Inc and Sons",
+        "RestrictionType": "repellendus",
+        "RestrictionListName": "Parisian-Brakus",
         "IsVisible": false,
-        "ExtraInfo": "mollitia",
-        "Width": "quaerat",
-        "IconHint": "adipisci",
-        "HeadingIconHint": "aspernatur"
+        "ExtraInfo": "cum",
+        "Width": "voluptatem",
+        "IconHint": "tenetur",
+        "HeadingIconHint": "accusamus"
       }
     ],
     "Result": {
-      "RowCount": 865,
+      "RowCount": 257,
       "Rows": [
         {},
         {}
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "transition dynamic infomediaries"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 723
         }
       }
     }
@@ -127,23 +127,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Little, Dietrich and Mueller",
-        "DisplayTooltip": "iste",
-        "DisplayType": "est",
+        "DisplayName": "Watsica, Abshire and Skiles",
+        "DisplayTooltip": "nihil",
+        "DisplayType": "molestiae",
         "CanOrderBy": false,
-        "Name": "Lindgren-Wintheiser",
+        "Name": "Gibson, Schmitt and Breitenberg",
         "CanRestrictBy": false,
-        "RestrictionType": "laborum",
-        "RestrictionListName": "Crist Inc and Sons",
+        "RestrictionType": "repellendus",
+        "RestrictionListName": "Parisian-Brakus",
         "IsVisible": false,
-        "ExtraInfo": "mollitia",
-        "Width": "quaerat",
-        "IconHint": "adipisci",
-        "HeadingIconHint": "aspernatur"
+        "ExtraInfo": "cum",
+        "Width": "voluptatem",
+        "IconHint": "tenetur",
+        "HeadingIconHint": "accusamus"
       }
     ],
     "Result": {
-      "RowCount": 865,
+      "RowCount": 257,
       "Rows": [
         {},
         {}
@@ -153,10 +153,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "transition dynamic infomediaries"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 723
         }
       }
     }

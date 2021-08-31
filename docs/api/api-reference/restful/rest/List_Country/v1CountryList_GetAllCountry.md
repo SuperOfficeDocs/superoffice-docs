@@ -24,7 +24,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 873,
-    "Name": "Hessel, Feeney and Sipes",
-    "CurrencyId": 488,
-    "EnglishName": "Rice, Wisozk and Kiehn",
+    "CountryId": 986,
+    "Name": "Borer Group",
+    "CurrencyId": 939,
+    "EnglishName": "Cormier-Lehner",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "User-friendly transitional archive",
-    "OrgNrText": "360421",
-    "InterAreaPrefix": "numquam",
-    "DialInPrefix": "ducimus",
-    "ZipPrefix": "et",
-    "DomainName": "Heidenreich, Streich and Mante",
-    "AddressLayoutId": 759,
-    "DomesticAddressLayoutId": 389,
-    "ForeignAddressLayoutId": 533,
-    "Rank": 148,
-    "Tooltip": "quasi",
-    "Deleted": true,
+    "ImageDescription": "Up-sized systematic framework",
+    "OrgNrText": "1292548",
+    "InterAreaPrefix": "est",
+    "DialInPrefix": "corrupti",
+    "ZipPrefix": "reiciendis",
+    "DomainName": "Keebler-Parisian",
+    "AddressLayoutId": 99,
+    "DomesticAddressLayoutId": 814,
+    "ForeignAddressLayoutId": 478,
+    "Rank": 260,
+    "Tooltip": "molestias",
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 691
       }
     }
   }

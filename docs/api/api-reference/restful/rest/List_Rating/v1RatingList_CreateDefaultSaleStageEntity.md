@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Rating/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -72,15 +72,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 768,
-  "Value": "quod",
-  "Tooltip": "aliquam",
-  "Probability": 927,
-  "Deleted": false,
-  "Rank": 943,
+  "SaleStageId": 27,
+  "Value": "et",
+  "Tooltip": "debitis",
+  "Probability": 947,
+  "Deleted": true,
+  "Rank": 460,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "productize mission-critical methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 272
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

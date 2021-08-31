@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/RecalculateQuoteAlternative
+title: RecalculateQuoteAlternative
 id: v1QuoteAgent_RecalculateQuoteAlternative
 ---
 
-# POST Agents/Quote/RecalculateQuoteAlternative
+# RecalculateQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
@@ -80,11 +80,11 @@ Response body: object
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 881
+  "QuoteAlternative": 158
 }
 ```
 
@@ -93,31 +93,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": true,
+  "QuoteLinesHasChanged": false,
   "ChangedQuoteAlternative": {
-    "QuoteAlternativeId": 651,
-    "ERPQuoteAlternativeKey": "consequuntur",
-    "QuoteVersionId": 382,
-    "Name": "Schmeler, Schuppe and Graham",
-    "Description": "Re-contextualized modular analyzer",
+    "QuoteAlternativeId": 967,
+    "ERPQuoteAlternativeKey": "velit",
+    "QuoteVersionId": 482,
+    "Name": "Crooks Group",
+    "Description": "Streamlined systemic capacity",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 4964.2559999999994,
-    "ERPDiscountAmount": 15475.692,
-    "DiscountPercent": 21029.14,
-    "DiscountAmount": 30274.44,
+    "ERPDiscountPercent": 1131.374,
+    "ERPDiscountAmount": 12100.374,
+    "DiscountPercent": 10116.552,
+    "DiscountAmount": 11260.462,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "delectus",
-    "VAT": 2460.19,
-    "EarningPercent": 10376.673999999999,
-    "EarningAmount": 27337.881999999998,
-    "SubTotal": 7797.392,
-    "TotalPrice": 14779.944,
-    "ExtraField1": "nihil",
-    "ExtraField2": "voluptatem",
-    "ExtraField3": "maiores",
-    "ExtraField4": "impedit",
-    "ExtraField5": "tempora",
+    "VATInfo": "reprehenderit",
+    "VAT": 11758.768,
+    "EarningPercent": 24429.53,
+    "EarningAmount": 9486.618,
+    "SubTotal": 3086.99,
+    "TotalPrice": 6794.512,
+    "ExtraField1": "esse",
+    "ExtraField2": "aut",
+    "ExtraField3": "nam",
+    "ExtraField4": "eos",
+    "ExtraField5": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 395
       }
     }
   },
@@ -150,8 +150,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 770
       }
     }
   },
@@ -163,10 +163,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "implement compelling paradigms"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetSatelliteLicenses
+title: GetSatelliteLicenses
 id: v1LicenseAgent_GetSatelliteLicenses
 ---
 
-# POST Agents/License/GetSatelliteLicenses
+# GetSatelliteLicenses
 
 ```http
 POST /api/v1/Agents/License/GetSatelliteLicenses
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 218
+  "SatelliteId": 930
 }
 ```
 
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kertzmann, Wunsch and Pouros",
-    "Description": "Fundamental bi-directional project",
+    "Name": "Luettgen, Glover and O'Hara",
+    "Description": "Public-key grid-enabled success",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 764,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 75,
-        "InUse": 831,
+        "Total": 696,
+        "Tooltip": "in",
+        "CanAssign": true,
+        "Free": 539,
+        "InUse": 821,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 624,
-        "Name": "Jacobson Group",
-        "Description": "Public-key client-driven matrices",
-        "PrerequisiteModuleName": "Goyette-Franecki",
-        "SortOrder": 304,
+        "Assigned": false,
+        "ModuleLicenseId": 792,
+        "Name": "Harvey, Schultz and Kutch",
+        "Description": "Horizontal static matrix",
+        "PrerequisiteModuleName": "Hane Group",
+        "SortOrder": 801,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 16
+            "FieldLength": 932
           }
         }
       }
@@ -123,18 +123,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "itaque",
+        "Total": 285,
+        "Tooltip": "voluptas",
         "CanAssign": true,
-        "Free": 258,
-        "InUse": 157,
+        "Free": 217,
+        "InUse": 716,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 749,
-        "Name": "Lind-Kulas",
-        "Description": "Robust 5th generation migration",
-        "PrerequisiteModuleName": "Connelly Inc and Sons",
-        "SortOrder": 269,
+        "Assigned": true,
+        "ModuleLicenseId": 997,
+        "Name": "Armstrong-Brown",
+        "Description": "Multi-layered secondary ability",
+        "PrerequisiteModuleName": "Hermiston LLC",
+        "SortOrder": 363,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldType": "System.String",
+            "FieldLength": 508
           }
         }
       }
@@ -159,28 +159,28 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 93
       }
     }
   },
   {
-    "Name": "Kertzmann, Wunsch and Pouros",
-    "Description": "Fundamental bi-directional project",
+    "Name": "Luettgen, Glover and O'Hara",
+    "Description": "Public-key grid-enabled success",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 764,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 75,
-        "InUse": 831,
+        "Total": 696,
+        "Tooltip": "in",
+        "CanAssign": true,
+        "Free": 539,
+        "InUse": 821,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 624,
-        "Name": "Jacobson Group",
-        "Description": "Public-key client-driven matrices",
-        "PrerequisiteModuleName": "Goyette-Franecki",
-        "SortOrder": 304,
+        "Assigned": false,
+        "ModuleLicenseId": 792,
+        "Name": "Harvey, Schultz and Kutch",
+        "Description": "Horizontal static matrix",
+        "PrerequisiteModuleName": "Hane Group",
+        "SortOrder": 801,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 16
+            "FieldLength": 932
           }
         }
       }
@@ -197,18 +197,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "itaque",
+        "Total": 285,
+        "Tooltip": "voluptas",
         "CanAssign": true,
-        "Free": 258,
-        "InUse": 157,
+        "Free": 217,
+        "InUse": 716,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 749,
-        "Name": "Lind-Kulas",
-        "Description": "Robust 5th generation migration",
-        "PrerequisiteModuleName": "Connelly Inc and Sons",
-        "SortOrder": 269,
+        "Assigned": true,
+        "ModuleLicenseId": 997,
+        "Name": "Armstrong-Brown",
+        "Description": "Multi-layered secondary ability",
+        "PrerequisiteModuleName": "Hermiston LLC",
+        "SortOrder": 363,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldType": "System.String",
+            "FieldLength": 508
           }
         }
       }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 93
       }
     }
   }

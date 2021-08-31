@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteProjectStatus
+title: DeleteProjectStatus
 id: v1ListAgent_DeleteProjectStatus
 ---
 
-# POST Agents/List/DeleteProjectStatus
+# DeleteProjectStatus
 
 ```http
 POST /api/v1/Agents/List/DeleteProjectStatus

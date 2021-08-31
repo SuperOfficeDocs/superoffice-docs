@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetMyConfigParameter
+title: GetMyConfigParameter
 id: v1AudienceAgent_GetMyConfigParameter
 ---
 
-# POST Agents/Audience/GetMyConfigParameter
+# GetMyConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameter
@@ -84,11 +84,11 @@ Response body: object
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Friesen Group"
+  "ParameterName": "Davis-Gislason"
 }
 ```
 
@@ -97,13 +97,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 946,
-  "Name": "Kshlerin LLC",
-  "Value": "molestias",
-  "CreatedDate": "2011-05-15T16:48:28.766198+02:00",
-  "UpdatedDate": "2003-02-06T16:48:28.766198+01:00",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "doloremque",
+  "AudienceLayoutId": 232,
+  "Name": "Huel, Reynolds and D'Amore",
+  "Value": "praesentium",
+  "CreatedDate": "2007-01-29T14:58:03.258235+01:00",
+  "UpdatedDate": "2019-06-11T14:58:03.258235+02:00",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "provident",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldLength": 761
     }
   }
 }

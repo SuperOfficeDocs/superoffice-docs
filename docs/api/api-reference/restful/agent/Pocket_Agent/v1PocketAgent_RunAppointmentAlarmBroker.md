@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Pocket/RunAppointmentAlarmBroker
+title: RunAppointmentAlarmBroker
 id: v1PocketAgent_RunAppointmentAlarmBroker
 ---
 
-# POST Agents/Pocket/RunAppointmentAlarmBroker
+# RunAppointmentAlarmBroker
 
 ```http
 POST /api/v1/Agents/Pocket/RunAppointmentAlarmBroker

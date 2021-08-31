@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateDefaultUserFromUserTypeAndCredential
+title: CreateDefaultUserFromUserTypeAndCredential
 id: v1UserAgent_CreateDefaultUserFromUserTypeAndCredential
 ---
 
-# POST Agents/User/CreateDefaultUserFromUserTypeAndCredential
+# CreateDefaultUserFromUserTypeAndCredential
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
@@ -108,15 +108,15 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 677,
-  "CredentialType": "illum",
-  "CredentialValue": "quisquam",
-  "CredentialDisplayValue": "aspernatur"
+  "ContactId": 499,
+  "CredentialType": "perspiciatis",
+  "CredentialValue": "animi",
+  "CredentialDisplayValue": "autem"
 }
 ```
 
@@ -125,14 +125,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 583,
-  "Name": "Murazik-Beer",
-  "Rank": 569,
-  "Tooltip": "maxime",
+  "AssociateId": 816,
+  "Name": "Rempel, Morissette and Padberg",
+  "Rank": 962,
+  "Tooltip": "harum",
   "LicenseOwners": [
     {
-      "Name": "Treutel LLC",
-      "Description": "Upgradable context-sensitive budgetary management",
+      "Name": "Becker Group",
+      "Description": "Robust executive forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldLength": 55
         }
       }
     },
     {
-      "Name": "Treutel LLC",
-      "Description": "Upgradable context-sensitive budgetary management",
+      "Name": "Becker Group",
+      "Description": "Robust executive forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -172,15 +172,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldLength": 55
         }
       }
     }
   ],
   "Role": {
-    "Id": 56,
-    "Value": "incidunt",
-    "Tooltip": "nulla",
+    "Id": 959,
+    "Value": "autem",
+    "Tooltip": "officia",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -188,89 +188,89 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   },
   "UserGroup": {
-    "Value": "quia",
-    "Tooltip": "occaecati",
-    "Id": 639,
-    "Rank": 736,
+    "Value": "voluptatem",
+    "Tooltip": "earum",
+    "Id": 105,
+    "Rank": 15,
     "Deleted": false,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "synthesize enterprise channels"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 505
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "iste",
-      "Id": 900,
-      "Rank": 783,
-      "Deleted": false,
+      "Value": "perspiciatis",
+      "Tooltip": "sed",
+      "Id": 425,
+      "Rank": 262,
+      "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "seize cutting-edge experiences"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldType": "System.String",
+          "FieldLength": 384
         }
       }
     }
   ],
   "Person": {
-    "Position": "laborum",
-    "PersonId": 924,
-    "Mrmrs": "minus",
-    "Firstname": "Lisa",
-    "Lastname": "Oberbrunner",
-    "MiddleName": "Emmerich, Langosh and Johnson",
-    "Title": "autem",
-    "Description": "Advanced cohesive contingency",
-    "Email": "leann@morissette.biz",
-    "FullName": "Margarita McKenzie",
-    "DirectPhone": "(252)823-0861",
-    "FormalName": "Williamson Inc and Sons",
-    "CountryId": 443,
-    "ContactId": 322,
-    "ContactName": "Bosco LLC",
-    "Retired": 137,
-    "Rank": 973,
-    "ActiveInterests": 407,
+    "Position": "placeat",
+    "PersonId": 209,
+    "Mrmrs": "voluptatem",
+    "Firstname": "Mia",
+    "Lastname": "Bosco",
+    "MiddleName": "Hackett Inc and Sons",
+    "Title": "est",
+    "Description": "Cross-group regional process improvement",
+    "Email": "david.dooley@streich.ca",
+    "FullName": "Jace Krajcik",
+    "DirectPhone": "1-217-275-1235",
+    "FormalName": "Schumm, Osinski and Becker",
+    "CountryId": 364,
+    "ContactId": 354,
+    "ContactName": "Schumm Inc and Sons",
+    "Retired": 756,
+    "Rank": 658,
+    "ActiveInterests": 500,
     "ContactDepartment": "",
-    "ContactCountryId": 209,
-    "ContactOrgNr": "1160257",
-    "FaxPhone": "(641)102-4620",
-    "MobilePhone": "220-742-0115 x621",
-    "ContactPhone": "(145)553-3685 x5650",
-    "AssociateName": "Klocko, Herzog and Christiansen",
-    "AssociateId": 250,
+    "ContactCountryId": 954,
+    "ContactOrgNr": "1256383",
+    "FaxPhone": "1-586-672-8712 x384",
+    "MobilePhone": "435.432.7832 x836",
+    "ContactPhone": "787-610-5267 x056",
+    "AssociateName": "Fay Inc and Sons",
+    "AssociateId": 889,
     "UsePersonAddress": false,
-    "ContactFax": "architecto",
-    "Kanafname": "fugit",
-    "Kanalname": "velit",
-    "Post1": "porro",
-    "Post2": "nobis",
-    "Post3": "neque",
-    "EmailName": "joelle_rath@altenwerth.co.uk",
-    "ContactFullName": "Enos Kerluke",
-    "ActiveErpLinks": 245,
-    "TicketPriorityId": 748,
-    "SupportLanguageId": 704,
-    "SupportAssociateId": 47,
+    "ContactFax": "dolor",
+    "Kanafname": "consequuntur",
+    "Kanalname": "quos",
+    "Post1": "esse",
+    "Post2": "est",
+    "Post3": "voluptate",
+    "EmailName": "garth_lindgren@dickinson.biz",
+    "ContactFullName": "Johathan Wyman",
+    "ActiveErpLinks": 226,
+    "TicketPriorityId": 666,
+    "SupportLanguageId": 828,
+    "SupportAssociateId": 403,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -279,24 +279,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   },
   "Deleted": true,
-  "Lastlogin": "2013-08-18T16:48:30.8709355+02:00",
-  "Lastlogout": "1999-02-02T16:48:30.8709355+01:00",
-  "EjUserId": 89,
-  "RequestSignature": "quas",
+  "Lastlogin": "2011-01-06T14:58:05.4196237+01:00",
+  "Lastlogout": "2020-06-28T14:58:05.4196237+02:00",
+  "EjUserId": 966,
+  "RequestSignature": "nostrum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "cupiditate",
-      "DisplayValue": "natus",
+      "Value": "optio",
+      "DisplayValue": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -304,15 +304,77 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     },
     {
       "Type": {},
-      "Value": "cupiditate",
-      "DisplayValue": "natus",
+      "Value": "optio",
+      "DisplayValue": "et",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 683
+        }
+      }
+    }
+  ],
+  "UserName": "Conn Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 39,
+      "Name": "Ebert-Blanda",
+      "ToolTip": "Adipisci non laudantium voluptas explicabo reprehenderit fugiat.",
+      "Deleted": true,
+      "Rank": 995,
+      "Type": "sit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "velit",
+      "ColorBlock": 972,
+      "ExtraInfo": "voluptate",
+      "StyleHint": "inventore",
+      "FullName": "Bianka D'Amore Jr.",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 722
+        }
+      }
+    }
+  ],
+  "NickName": "Kihn, Koss and O'Kon",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "aliquid"
+  },
+  "CustomFields": {
+    "CustomFields1": "adipisci",
+    "CustomFields2": "nostrum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Streich Inc and Sons",
+      "DisplayName": "Kreiger, Gorczany and Denesik",
+      "Description": "Expanded asynchronous success",
+      "ToolTip": "Consectetur sed voluptatem a repellendus fugit.",
+      "Actions": "Implicit",
+      "ActionData": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -321,69 +383,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 108
-        }
-      }
-    }
-  ],
-  "UserName": "Mayer LLC",
-  "TicketCategories": [
-    {
-      "Id": 445,
-      "Name": "Thiel-Goldner",
-      "ToolTip": "Expedita officiis dolor impedit vitae vel.",
-      "Deleted": true,
-      "Rank": 475,
-      "Type": "fugit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "optio",
-      "ColorBlock": 840,
-      "ExtraInfo": "vel",
-      "StyleHint": "totam",
-      "FullName": "Ena Bayer",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 9
-        }
-      }
-    }
-  ],
-  "NickName": "Wehner-Fahey",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "in"
-  },
-  "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "harum"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Lakin-Cremin",
-      "DisplayName": "Bayer Group",
-      "Description": "Cross-group empowering adapter",
-      "ToolTip": "Ut voluptas velit beatae.",
-      "Actions": "Implicit",
-      "ActionData": "iste",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldLength": 628
         }
       }
     }
@@ -396,10 +396,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "seize seamless solutions"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

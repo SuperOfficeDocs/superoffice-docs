@@ -96,20 +96,20 @@ Response body: object
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 790,
-  "ERPPriceListKey": "voluptate",
-  "QuoteConnectionId": 21,
-  "Name": "Gaylord-Harber",
-  "Description": "Switchable national policy",
-  "Currency": "natus",
-  "CurrencyName": "Leannon-Kuvalis",
-  "ValidFrom": "2005-03-08T09:41:00.5173817+01:00",
-  "ValidTo": "1995-06-20T09:41:00.5173817+02:00",
-  "IsActive": true
+  "PriceListId": 169,
+  "ERPPriceListKey": "corporis",
+  "QuoteConnectionId": 267,
+  "Name": "Schmidt LLC",
+  "Description": "Optional context-sensitive hierarchy",
+  "Currency": "aliquam",
+  "CurrencyName": "Baumbach Group",
+  "ValidFrom": "2014-06-12T15:05:43.5860796+02:00",
+  "ValidTo": "2019-07-12T15:05:43.5860796+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,19 +118,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 595,
-  "ERPPriceListKey": "cumque",
-  "QuoteConnectionId": 230,
-  "Name": "Kreiger, Schroeder and Harvey",
-  "Description": "Business-focused responsive adapter",
-  "Currency": "pariatur",
-  "CurrencyName": "Johns, Casper and Fritsch",
-  "ValidFrom": "2020-08-06T09:41:00.5183817+02:00",
-  "ValidTo": "2015-03-05T09:41:00.5183817+01:00",
-  "IsActive": false,
+  "PriceListId": 539,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 697,
+  "Name": "Schmitt, Kutch and Champlin",
+  "Description": "Exclusive upward-trending local area network",
+  "Currency": "enim",
+  "CurrencyName": "Hudson-Bauch",
+  "ValidFrom": "2002-12-21T15:05:43.5860796+01:00",
+  "ValidTo": "2005-11-22T15:05:43.5860796+01:00",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "enable viral web services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

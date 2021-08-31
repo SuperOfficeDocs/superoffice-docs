@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/IsNumberValid
+title: IsNumberValid
 id: v1PersonAgent_IsNumberValid
 ---
 
-# POST Agents/Person/IsNumberValid
+# IsNumberValid
 
 ```http
 POST /api/v1/Agents/Person/IsNumberValid
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 2,
-  "Number": "1571413"
+  "ContactId": 396,
+  "Number": "369149"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

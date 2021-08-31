@@ -90,7 +90,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -99,35 +99,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 477,
-    "Name": "Farrell Inc and Sons",
+    "TicketPriorityId": 489,
+    "Name": "Doyle-Kub",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 15,
+    "SortOrder": 851,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 876,
-    "MonStart": "2005-09-18T09:41:00.8513822+02:00",
-    "MonStop": "2004-06-09T09:41:00.8513822+02:00",
-    "TueStart": "2002-01-01T09:41:00.8513822+01:00",
-    "TueStop": "2018-01-14T09:41:00.8513822+01:00",
-    "WedStart": "2008-01-07T09:41:00.8513822+01:00",
-    "WedStop": "2011-04-24T09:41:00.8513822+02:00",
-    "ThuStart": "2011-09-06T09:41:00.8513822+02:00",
-    "ThuStop": "2004-06-22T09:41:00.8513822+02:00",
-    "FriStart": "2014-11-10T09:41:00.8513822+01:00",
-    "FriStop": "1995-01-18T09:41:00.8513822+01:00",
-    "SatStart": "1997-02-17T09:41:00.8513822+01:00",
-    "SatStop": "2021-01-25T09:41:00.8513822+01:00",
-    "SunStart": "1997-11-30T09:41:00.8513822+01:00",
-    "SunStop": "1994-02-22T09:41:00.8513822+01:00",
+    "Deadline": 7,
+    "MonStart": "1994-11-24T15:05:43.9111224+01:00",
+    "MonStop": "2016-05-20T15:05:43.9111224+02:00",
+    "TueStart": "2014-06-17T15:05:43.9111224+02:00",
+    "TueStop": "2007-12-31T15:05:43.9111224+01:00",
+    "WedStart": "2017-11-30T15:05:43.9111224+01:00",
+    "WedStop": "2016-04-18T15:05:43.9111224+02:00",
+    "ThuStart": "2012-09-12T15:05:43.9111224+02:00",
+    "ThuStop": "2010-10-15T15:05:43.9111224+02:00",
+    "FriStart": "2017-12-13T15:05:43.9111224+01:00",
+    "FriStop": "2016-09-03T15:05:43.9111224+02:00",
+    "SatStart": "2019-06-04T15:05:43.9111224+02:00",
+    "SatStop": "1997-05-06T15:05:43.9111224+02:00",
+    "SunStart": "2002-03-02T15:05:43.9111224+01:00",
+    "SunStop": "2015-08-04T15:05:43.9111224+02:00",
     "NonDates": [
-      "ut",
-      "enim"
+      "dolor",
+      "dolores"
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 724
+        "FieldLength": 59
       }
     }
   }

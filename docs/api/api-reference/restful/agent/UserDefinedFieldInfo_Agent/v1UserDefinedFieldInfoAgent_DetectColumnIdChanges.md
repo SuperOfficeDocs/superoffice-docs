@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
+title: DetectColumnIdChanges
 id: v1UserDefinedFieldInfoAgent_DetectColumnIdChanges
 ---
 
-# POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
+# DetectColumnIdChanges
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
@@ -68,7 +68,7 @@ Response body: bool
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {

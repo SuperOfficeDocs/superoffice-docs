@@ -93,16 +93,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Lockman LLC",
-  "Tooltip": "atque",
-  "Deleted": false,
-  "Rank": 522,
+  "Id": 646,
+  "Name": "Gusikowski, Wunsch and Smitham",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 674,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Kessler Group",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 114,
+  "Id": 974,
+  "Name": "O'Connell, Bayer and Conn",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 539,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 866
     }
   }
 }

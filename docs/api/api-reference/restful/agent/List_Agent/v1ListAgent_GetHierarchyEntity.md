@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHierarchyEntity
+title: GetHierarchyEntity
 id: v1ListAgent_GetHierarchyEntity
 ---
 
-# POST Agents/List/GetHierarchyEntity
+# GetHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/GetHierarchyEntity
@@ -25,7 +25,7 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=30
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=329
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -88,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 783,
+  "HierarchyId": 98,
   "Domain": "Dashboards",
-  "Name": "Sipes Group",
-  "Fullname": "ut",
-  "ParentId": 295,
+  "Name": "Dicki Inc and Sons",
+  "Fullname": "consequatur",
+  "ParentId": 128,
   "Children": [
     {
-      "HierarchyId": 104,
+      "HierarchyId": 869,
       "Domain": "Dashboards",
-      "Name": "Wisozk Group",
-      "Fullname": "tenetur",
-      "ParentId": 898,
+      "Name": "Douglas-Jenkins",
+      "Fullname": "alias",
+      "ParentId": 875,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-03-28T16:48:29.8069302+01:00",
-      "RegisteredAssociateId": 593,
-      "Updated": "2014-04-08T16:48:29.8069302+02:00",
-      "UpdatedAssociateId": 87,
+      "Registered": "2009-07-22T14:58:04.4054657+02:00",
+      "RegisteredAssociateId": 225,
+      "Updated": "2017-12-22T14:58:04.4054657+01:00",
+      "UpdatedAssociateId": 245,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -115,16 +115,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldType": "System.String",
+          "FieldLength": 866
         }
       }
     }
   ],
-  "Registered": "2006-09-26T16:48:29.8069302+02:00",
-  "RegisteredAssociateId": 95,
-  "Updated": "1995-06-01T16:48:29.8069302+02:00",
-  "UpdatedAssociateId": 493,
+  "Registered": "2008-10-15T14:58:04.4054657+02:00",
+  "RegisteredAssociateId": 991,
+  "Updated": "2017-01-08T14:58:04.4054657+01:00",
+  "UpdatedAssociateId": 35,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 204
     }
   }
 }

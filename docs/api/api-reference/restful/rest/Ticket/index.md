@@ -2,6 +2,8 @@
 title: Ticket
 ---
 
+# Ticket
+
 ```http
 /api/v1/Ticket
 ```
@@ -28,6 +30,8 @@ title: Ticket
 * [POST Ticket/{id}/NotifyNewTicket](v1TicketEntity_NotifyNewTicket.md)
 
 * [POST Ticket/{id}/NotifyNewMessage](v1TicketEntity_NotifyNewTicketMessage.md)
+
+* [GET Ticket/{id}/Attachments](v1TicketEntity_GetTicketAttachments.md)
 
 * [GET Ticket/{id}/Simple](v1TicketEntity_Simple.md)
 

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetDynamicSelectionCriteria
+title: GetDynamicSelectionCriteria
 id: v1SelectionAgent_GetDynamicSelectionCriteria
 ---
 
-# POST Agents/Selection/GetDynamicSelectionCriteria
+# GetDynamicSelectionCriteria
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 278
+  "SelectionId": 865
 }
 ```
 
@@ -94,58 +94,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tillman-Nader",
-    "Operator": "deserunt",
+    "Name": "Torp, Will and O'Keefe",
+    "Operator": "perferendis",
     "Values": [
-      "quia",
-      "sit"
+      "est",
+      "eum"
     ],
     "DisplayValues": [
-      "et",
-      "dolore"
+      "corporis",
+      "ea"
     ],
     "ColumnInfo": {
-      "DisplayName": "Marks Inc and Sons",
-      "DisplayTooltip": "aut",
-      "DisplayType": "dolorem",
+      "DisplayName": "Bradtke Group",
+      "DisplayTooltip": "et",
+      "DisplayType": "ad",
       "CanOrderBy": true,
-      "Name": "Gulgowski, McClure and Krajcik",
-      "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Reilly LLC",
+      "Name": "Glover Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "soluta",
+      "RestrictionListName": "Hilpert LLC",
       "IsVisible": true,
-      "ExtraInfo": "vero",
-      "Width": "dignissimos",
-      "IconHint": "rerum",
-      "HeadingIconHint": "nesciunt"
+      "ExtraInfo": "neque",
+      "Width": "quidem",
+      "IconHint": "alias",
+      "HeadingIconHint": "magnam"
     },
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schulist LLC",
-        "Operator": "sapiente",
+        "Name": "Schimmel, Tremblay and Hansen",
+        "Operator": "tempora",
         "Values": [
-          "nam",
-          "blanditiis"
+          "blanditiis",
+          "vero"
         ],
         "DisplayValues": [
-          "amet",
-          "incidunt"
+          "tempora",
+          "perspiciatis"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 820,
+        "InterParenthesis": 743,
         "InterOperator": "And",
-        "UniqueHash": 54
+        "UniqueHash": 591
       }
     ],
-    "InterParenthesis": 351,
+    "InterParenthesis": 503,
     "InterOperator": "And",
-    "UniqueHash": 950
+    "UniqueHash": 77
   }
 ]
 ```

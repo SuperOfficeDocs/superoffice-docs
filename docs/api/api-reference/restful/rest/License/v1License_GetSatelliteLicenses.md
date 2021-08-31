@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schuppe, Schmeler and Braun",
-    "Description": "Diverse multimedia knowledge base",
+    "Name": "Larson LLC",
+    "Description": "Team-oriented encompassing policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 369,
-        "Tooltip": "rerum",
+        "Total": 556,
+        "Tooltip": "ex",
         "CanAssign": true,
-        "Free": 175,
-        "InUse": 797,
+        "Free": 937,
+        "InUse": 182,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 855,
-        "Name": "Funk-Orn",
-        "Description": "User-friendly local architecture",
-        "PrerequisiteModuleName": "Carter LLC",
-        "SortOrder": 900,
+        "Assigned": false,
+        "ModuleLicenseId": 246,
+        "Name": "Fay Inc and Sons",
+        "Description": "Managed composite archive",
+        "PrerequisiteModuleName": "Satterfield LLC",
+        "SortOrder": 721,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -95,35 +95,35 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 870
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 873,
-        "Tooltip": "fugiat",
+        "Unrestricted": false,
+        "Total": 164,
+        "Tooltip": "ab",
         "CanAssign": false,
-        "Free": 972,
-        "InUse": 879,
+        "Free": 926,
+        "InUse": 856,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 977,
-        "Name": "Vandervort Group",
-        "Description": "Horizontal homogeneous encoding",
-        "PrerequisiteModuleName": "Murray, Prosacco and Littel",
-        "SortOrder": 396,
+        "ModuleLicenseId": 639,
+        "Name": "Price, Daniel and Hane",
+        "Description": "Synergistic solution-oriented instruction set",
+        "PrerequisiteModuleName": "Wunsch Inc and Sons",
+        "SortOrder": 581,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "transform dynamic mindshare"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldLength": 687
           }
         }
       }
@@ -138,29 +138,29 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldType": "System.String",
+        "FieldLength": 826
       }
     }
   },
   {
-    "Name": "Schuppe, Schmeler and Braun",
-    "Description": "Diverse multimedia knowledge base",
+    "Name": "Larson LLC",
+    "Description": "Team-oriented encompassing policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 369,
-        "Tooltip": "rerum",
+        "Total": 556,
+        "Tooltip": "ex",
         "CanAssign": true,
-        "Free": 175,
-        "InUse": 797,
+        "Free": 937,
+        "InUse": 182,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 855,
-        "Name": "Funk-Orn",
-        "Description": "User-friendly local architecture",
-        "PrerequisiteModuleName": "Carter LLC",
-        "SortOrder": 900,
+        "Assigned": false,
+        "ModuleLicenseId": 246,
+        "Name": "Fay Inc and Sons",
+        "Description": "Managed composite archive",
+        "PrerequisiteModuleName": "Satterfield LLC",
+        "SortOrder": 721,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -169,35 +169,35 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 870
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 873,
-        "Tooltip": "fugiat",
+        "Unrestricted": false,
+        "Total": 164,
+        "Tooltip": "ab",
         "CanAssign": false,
-        "Free": 972,
-        "InUse": 879,
+        "Free": 926,
+        "InUse": 856,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 977,
-        "Name": "Vandervort Group",
-        "Description": "Horizontal homogeneous encoding",
-        "PrerequisiteModuleName": "Murray, Prosacco and Littel",
-        "SortOrder": 396,
+        "ModuleLicenseId": 639,
+        "Name": "Price, Daniel and Hane",
+        "Description": "Synergistic solution-oriented instruction set",
+        "PrerequisiteModuleName": "Wunsch Inc and Sons",
+        "SortOrder": 581,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "transform dynamic mindshare"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldLength": 687
           }
         }
       }
@@ -212,8 +212,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldType": "System.String",
+        "FieldLength": 826
       }
     }
   }

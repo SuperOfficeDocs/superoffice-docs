@@ -66,25 +66,25 @@ Response body: array
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 Feb 2012 09:40:59 G2T
+Last-Modified: Thu, 11 Sep 2014 15:05:42 G9T
 
 [
   {
-    "ForeignDeviceId": 534,
-    "Name": "Windler Inc and Sons",
-    "CreatedDate": "2008-08-20T09:40:59.2196628+02:00",
-    "UpdatedDate": "2012-02-24T09:40:59.2196628+01:00",
-    "AssociateFullName": "Hilario Mann",
-    "CreatedBy": "labore",
-    "UpdatedBy": "laborum",
-    "DeviceIdentifier": "fuga",
-    "ForeignAppId": 681,
+    "ForeignDeviceId": 835,
+    "Name": "Schaden-Lueilwitz",
+    "CreatedDate": "2010-04-04T15:05:42.2386367+02:00",
+    "UpdatedDate": "2014-09-11T15:05:42.2386367+02:00",
+    "AssociateFullName": "Tierra Boyer",
+    "CreatedBy": "repellat",
+    "UpdatedBy": "ut",
+    "DeviceIdentifier": "minima",
+    "ForeignAppId": 24,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -96,7 +96,7 @@ Last-Modified: Fri, 24 Feb 2012 09:40:59 G2T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldLength": 116
       }
     }
   }

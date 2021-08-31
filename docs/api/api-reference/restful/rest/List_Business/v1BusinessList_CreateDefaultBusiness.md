@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Greenfelder Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 564,
-  "Rank": 753,
+  "Id": 955,
+  "Name": "Rath Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 302,
+  "Rank": 973,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "visualize proactive experiences"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 865
     }
   }
 }

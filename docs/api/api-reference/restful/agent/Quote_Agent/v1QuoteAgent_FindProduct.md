@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/FindProduct
+title: FindProduct
 id: v1QuoteAgent_FindProduct
 ---
 
-# POST Agents/Quote/FindProduct
+# FindProduct
 
 ```http
 POST /api/v1/Agents/Quote/FindProduct
@@ -108,13 +108,13 @@ Response body: array
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 231,
-  "UserInput": "temporibus",
-  "PriceListKey": "qui"
+  "QuoteAlternativeId": 566,
+  "UserInput": "veritatis",
+  "PriceListKey": "quo"
 }
 ```
 
@@ -124,73 +124,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 669,
-    "ERPProductKey": "esse",
-    "ERPPriceListKey": "consequuntur",
-    "Name": "Legros LLC",
-    "Description": "Focused needs-based firmware",
-    "Code": "corporis",
-    "PriceUnit": "temporibus",
-    "QuantityUnit": "temporibus",
+    "ProductId": 853,
+    "ERPProductKey": "eaque",
+    "ERPPriceListKey": "ea",
+    "Name": "Koepp LLC",
+    "Description": "Cross-platform upward-trending task-force",
+    "Code": "voluptatum",
+    "PriceUnit": "deserunt",
+    "QuantityUnit": "praesentium",
     "IsSubscription": true,
     "SubscriptionUnit": "et",
-    "DefaultSubscriptionQuantity": 23884.214,
-    "ItemNumber": "1646759",
+    "DefaultSubscriptionQuantity": 6512.452,
+    "ItemNumber": "1292242",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "atque",
-    "ProductTypeKey": "neque",
-    "VAT": 5992.208,
-    "VATInfo": "culpa",
-    "UnitCost": 26068.611999999997,
-    "UnitMinimumPrice": 18901.154,
-    "UnitListPrice": 22411.234,
+    "ProductFamilyKey": "similique",
+    "ProductTypeKey": "qui",
+    "VAT": 26300.528,
+    "VATInfo": "dolor",
+    "UnitCost": 11780.706,
+    "UnitMinimumPrice": 16538.118,
+    "UnitListPrice": 19700.324,
     "InAssortment": true,
-    "Supplier": "eos",
-    "SupplierCode": "ut",
-    "Rights": "exercitationem",
-    "Rule": "porro",
+    "Supplier": "inventore",
+    "SupplierCode": "dicta",
+    "Rights": "aspernatur",
+    "Rule": "natus",
     "ExtraInfo": [
       {
-        "Name": "Cormier, Greenholt and Corkery",
-        "Value": "deleniti",
+        "Name": "Bechtelar Group",
+        "Value": "aut",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "grow viral paradigms"
+              "Reason": "utilize extensible web-readiness"
             },
-            "FieldType": "System.String",
-            "FieldLength": 894
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       },
       {
-        "Name": "Cormier, Greenholt and Corkery",
-        "Value": "deleniti",
+        "Name": "Bechtelar Group",
+        "Value": "aut",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "grow viral paradigms"
+              "Reason": "utilize extensible web-readiness"
             },
-            "FieldType": "System.String",
-            "FieldLength": 894
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "RawExtraInfo": "necessitatibus",
-    "ExtraField1": "debitis",
-    "ExtraField2": "laboriosam",
-    "ExtraField3": "quo",
-    "ExtraField4": "quisquam",
-    "ExtraField5": "modi",
-    "InStock": 19756.736,
+    "RawExtraInfo": "voluptatem",
+    "ExtraField1": "iure",
+    "ExtraField2": "impedit",
+    "ExtraField3": "id",
+    "ExtraField4": "unde",
+    "ExtraField5": "eius",
+    "InStock": 14544.894,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldLength": 102
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CheckSymmetricEncryption
+title: CheckSymmetricEncryption
 id: v1CustomerServiceAgent_CheckSymmetricEncryption
 ---
 
-# POST Agents/CustomerService/CheckSymmetricEncryption
+# CheckSymmetricEncryption
 
 ```http
 POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EncryptedString": "velit"
+  "EncryptedString": "magni"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"inventore"
+"sunt"
 ```

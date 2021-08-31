@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Maggio-Konopelski",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "Rank": 12,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 816,
+  "Name": "Emard Group",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 290,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "pariatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "redefine e-business niches"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 67
     }
   },
   "_Links": {

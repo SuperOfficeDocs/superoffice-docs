@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCountry
+title: GetCountry
 id: v1ListAgent_GetCountry
 ---
 
-# POST Agents/List/GetCountry
+# GetCountry
 
 ```http
 POST /api/v1/Agents/List/GetCountry
@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=719
+POST /api/v1/Agents/List/GetCountry?countryId=216
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -92,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 377,
-  "Name": "Jast Inc and Sons",
-  "CurrencyId": 229,
-  "EnglishName": "Beer, Larson and Collins",
+  "CountryId": 973,
+  "Name": "Becker LLC",
+  "CurrencyId": 962,
+  "EnglishName": "Altenwerth Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Team-oriented mobile matrices",
-  "OrgNrText": "747677",
-  "InterAreaPrefix": "optio",
-  "DialInPrefix": "nisi",
-  "ZipPrefix": "molestiae",
-  "DomainName": "Connelly Group",
-  "AddressLayoutId": 771,
-  "DomesticAddressLayoutId": 203,
-  "ForeignAddressLayoutId": 258,
-  "Rank": 582,
-  "Tooltip": "cum",
-  "Deleted": false,
+  "ImageDescription": "Pre-emptive analyzing open system",
+  "OrgNrText": "1543821",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "eos",
+  "ZipPrefix": "ipsa",
+  "DomainName": "Nader-Boehm",
+  "AddressLayoutId": 930,
+  "DomesticAddressLayoutId": 700,
+  "ForeignAddressLayoutId": 877,
+  "Rank": 857,
+  "Tooltip": "commodi",
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldLength": 403
     }
   }
 }

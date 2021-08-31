@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/GetStopWordList
+title: GetStopWordList
 id: v1FreeTextAgent_GetStopWordList
 ---
 
-# POST Agents/FreeText/GetStopWordList
+# GetStopWordList
 
 ```http
 POST /api/v1/Agents/FreeText/GetStopWordList
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "eum",
-  "ipsa"
+  "quae",
+  "inventore"
 ]
 ```

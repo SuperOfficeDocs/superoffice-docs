@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Baumbach, Kris and Witting",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "UdListDefinitionId": 860,
-  "Rank": 685,
+  "Id": 871,
+  "Name": "Okuneva LLC",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "UdListDefinitionId": 854,
+  "Rank": 286,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "visualize virtual channels"
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

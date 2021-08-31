@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Zemlak, Fay and Lubowitz",
-    "ToolTip": "Aut enim.",
+    "Id": 378,
+    "Name": "Kuvalis, Koelpin and Ortiz",
+    "ToolTip": "Omnis nulla.",
     "Deleted": false,
-    "Rank": 839,
-    "Type": "quo",
-    "ColorBlock": 949,
-    "IconHint": "voluptatem",
+    "Rank": 631,
+    "Type": "et",
+    "ColorBlock": 706,
+    "IconHint": "doloremque",
     "Selected": true,
-    "LastChanged": "2014-09-24T09:41:00.6243883+02:00",
+    "LastChanged": "1999-10-15T15:05:43.6830845+02:00",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Rolfson, Wilkinson and Aufderhar",
-        "ToolTip": "Est velit ullam et aspernatur reiciendis.",
-        "Deleted": false,
-        "Rank": 802,
-        "Type": "veritatis",
-        "ColorBlock": 149,
+        "Id": 13,
+        "Name": "Corkery Group",
+        "ToolTip": "Illum officia.",
+        "Deleted": true,
+        "Rank": 775,
+        "Type": "reprehenderit",
+        "ColorBlock": 769,
         "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "1999-03-15T09:41:00.6243883+01:00",
+        "LastChanged": "1998-10-11T15:05:43.6830845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Derick Schmitt"
+        "ExtraInfo": "earum",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Ms. Harold Schiller"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quia",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "minus",
     "Hidden": true,
-    "FullName": "Vince Kassulke"
+    "FullName": "Dorcas Eichmann"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Nienow-Emmerich",
-    "ToolTip": "Veniam unde.",
-    "Deleted": true,
-    "Rank": 286,
-    "Type": "commodi",
-    "ColorBlock": 170,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2018-07-17T09:41:00.6253879+02:00",
+    "Id": 286,
+    "Name": "Lebsack LLC",
+    "ToolTip": "Dolor qui quis corporis et unde ratione.",
+    "Deleted": false,
+    "Rank": 464,
+    "Type": "qui",
+    "ColorBlock": 831,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2014-10-15T15:05:43.6851119+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Schamberger-Zemlak",
-        "ToolTip": "Dignissimos autem saepe aut ipsum tenetur.",
+        "Id": 12,
+        "Name": "Hessel, Glover and Brakus",
+        "ToolTip": "Temporibus ab vero.",
         "Deleted": true,
-        "Rank": 486,
-        "Type": "dolores",
-        "ColorBlock": 922,
-        "IconHint": "architecto",
+        "Rank": 779,
+        "Type": "et",
+        "ColorBlock": 979,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "1998-11-28T09:41:00.6263875+01:00",
+        "LastChanged": "1996-12-05T15:05:43.6861121+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "sunt",
+        "ExtraInfo": "sed",
+        "StyleHint": "dolorum",
         "Hidden": true,
-        "FullName": "Brady Zemlak Sr.",
+        "FullName": "Jolie Brakus",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "illum",
+    "ExtraInfo": "et",
+    "StyleHint": "doloremque",
     "Hidden": true,
-    "FullName": "Mr. Retha Rodriguez",
+    "FullName": "Casandra Brown",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

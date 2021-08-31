@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/PlaceOrder
+title: PlaceOrder
 id: v1QuoteAgent_PlaceOrder
 ---
 
-# POST Agents/Quote/PlaceOrder
+# PlaceOrder
 
 ```http
 POST /api/v1/Agents/Quote/PlaceOrder
@@ -87,15 +87,15 @@ Response body: object
 POST /api/v1/Agents/Quote/PlaceOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 420,
-  "MarkSaleAsSold": true,
-  "PoNumber": "1206696",
-  "OrderComment": "quis",
-  "Culture": "blanditiis"
+  "QuoteAlternativeId": 806,
+  "MarkSaleAsSold": false,
+  "PoNumber": "1190602",
+  "OrderComment": "voluptatibus",
+  "Culture": "animi"
 }
 ```
 
@@ -104,10 +104,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "vel",
-  "TechExplanation": "veniam",
-  "ErrorCode": "illum",
+  "IsOk": true,
+  "UserExplanation": "ut",
+  "TechExplanation": "et",
+  "ErrorCode": "vitae",
   "Changes": {
     "AddedRecords": [
       {},
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 114
       }
     }
   },
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 178
     }
   }
 }

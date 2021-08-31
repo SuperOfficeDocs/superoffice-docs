@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteAlternative
+title: SaveQuoteAlternative
 id: v1QuoteAgent_SaveQuoteAlternative
 ---
 
-# POST Agents/Quote/SaveQuoteAlternative
+# SaveQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
@@ -112,33 +112,33 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 239,
-  "ERPQuoteAlternativeKey": "doloribus",
-  "QuoteVersionId": 922,
-  "Name": "Raynor-Klocko",
-  "Description": "Open-source methodical structure",
+  "QuoteAlternativeId": 352,
+  "ERPQuoteAlternativeKey": "molestias",
+  "QuoteVersionId": 142,
+  "Name": "Kris-Tillman",
+  "Description": "Reduced dynamic attitude",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 4979.9259999999995,
-  "ERPDiscountAmount": 5713.282,
-  "DiscountPercent": 15688.804,
-  "DiscountAmount": 13191.006,
+  "ERPDiscountPercent": 22987.89,
+  "ERPDiscountAmount": 24498.478,
+  "DiscountPercent": 4879.638,
+  "DiscountAmount": 23489.329999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "earum",
-  "VAT": 22464.512,
-  "EarningPercent": 8458.666,
-  "EarningAmount": 14491.616,
-  "SubTotal": 10370.405999999999,
-  "TotalPrice": 25824.16,
+  "VATInfo": "ut",
+  "VAT": 940.19999999999993,
+  "EarningPercent": 29898.36,
+  "EarningAmount": 12266.475999999999,
+  "SubTotal": 29519.146,
+  "TotalPrice": 12404.372,
   "ExtraField1": "exercitationem",
-  "ExtraField2": "ab",
-  "ExtraField3": "cumque",
-  "ExtraField4": "ex",
-  "ExtraField5": "repellat"
+  "ExtraField2": "ea",
+  "ExtraField3": "nam",
+  "ExtraField4": "sed",
+  "ExtraField5": "possimus"
 }
 ```
 
@@ -147,29 +147,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 96,
-  "ERPQuoteAlternativeKey": "officiis",
-  "QuoteVersionId": 845,
-  "Name": "Little, Stiedemann and Rowe",
-  "Description": "Reduced zero tolerance benchmark",
+  "QuoteAlternativeId": 590,
+  "ERPQuoteAlternativeKey": "magni",
+  "QuoteVersionId": 869,
+  "Name": "Reilly Inc and Sons",
+  "Description": "Stand-alone 24/7 product",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12332.289999999999,
-  "ERPDiscountAmount": 9821.956,
-  "DiscountPercent": 16268.594,
-  "DiscountAmount": 9624.514,
+  "ERPDiscountPercent": 3779.604,
+  "ERPDiscountAmount": 15366.001999999999,
+  "DiscountPercent": 11075.556,
+  "DiscountAmount": 21057.345999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatem",
-  "VAT": 2500.932,
-  "EarningPercent": 28998.902,
-  "EarningAmount": 27942.744,
-  "SubTotal": 21775.032,
-  "TotalPrice": 3926.902,
-  "ExtraField1": "qui",
-  "ExtraField2": "id",
-  "ExtraField3": "nisi",
-  "ExtraField4": "minima",
-  "ExtraField5": "molestias",
+  "VATInfo": "omnis",
+  "VAT": 6318.144,
+  "EarningPercent": 10511.436,
+  "EarningAmount": 13773.93,
+  "SubTotal": 17722.77,
+  "TotalPrice": 5891.92,
+  "ExtraField1": "earum",
+  "ExtraField2": "ut",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "esse",
+  "ExtraField5": "eos",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

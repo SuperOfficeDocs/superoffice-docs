@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetRankOnProjectDocument
+title: SetRankOnProjectDocument
 id: v1ListAgent_SetRankOnProjectDocument
 ---
 
-# POST Agents/List/SetRankOnProjectDocument
+# SetRankOnProjectDocument
 
 ```http
 POST /api/v1/Agents/List/SetRankOnProjectDocument

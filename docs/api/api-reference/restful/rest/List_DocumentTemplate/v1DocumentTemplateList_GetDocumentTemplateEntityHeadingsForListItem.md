@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Reichel, Swift and Hamill",
-    "ToolTip": "In voluptate reprehenderit eius minus repudiandae.",
+    "Id": 758,
+    "Name": "Raynor Group",
+    "ToolTip": "Architecto voluptatibus.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "architecto",
-    "ColorBlock": 546,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "2002-02-02T09:41:00.4313792+01:00",
+    "Rank": 738,
+    "Type": "aperiam",
+    "ColorBlock": 715,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2012-10-26T15:05:43.4935116+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Schmeler-Steuber",
-        "ToolTip": "Quos cupiditate magni omnis ipsam.",
-        "Deleted": true,
-        "Rank": 276,
-        "Type": "aperiam",
-        "ColorBlock": 500,
-        "IconHint": "pariatur",
+        "Id": 103,
+        "Name": "Halvorson, Boyer and Jerde",
+        "ToolTip": "Alias sunt ad.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "ullam",
+        "ColorBlock": 110,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2016-12-19T09:41:00.4313792+01:00",
+        "LastChanged": "2017-06-11T15:05:43.4935116+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Kyle Keeling I",
+        "ExtraInfo": "velit",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Dr. Myriam Funk",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 713
+            "FieldType": "System.String",
+            "FieldLength": 783
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Miss Declan Terry",
+    "ExtraInfo": "ut",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Leonardo Hackett",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

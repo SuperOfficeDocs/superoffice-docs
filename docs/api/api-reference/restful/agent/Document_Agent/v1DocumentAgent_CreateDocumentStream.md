@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CreateDocumentStream
+title: CreateDocumentStream
 id: v1DocumentAgent_CreateDocumentStream
 ---
 
-# POST Agents/Document/CreateDocumentStream
+# CreateDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/CreateDocumentStream
@@ -69,31 +69,31 @@ Response body:
 POST /api/v1/Agents/Document/CreateDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": {
-    "DocumentId": 978,
+    "DocumentId": 841,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "voluptas",
-    "Header": "in",
-    "Name": "Vandervort, Kunze and Bergstrom",
-    "OurRef": "delectus",
-    "YourRef": "rerum",
-    "CreatedDate": "2018-08-07T16:48:29.4019252+02:00",
-    "UpdatedDate": "2006-05-23T16:48:29.4019252+02:00",
-    "Description": "Open-source dedicated policy",
+    "Attention": "expedita",
+    "Header": "et",
+    "Name": "Rath-Moore",
+    "OurRef": "aut",
+    "YourRef": "in",
+    "CreatedDate": "2016-10-31T14:58:03.9764679+01:00",
+    "UpdatedDate": "2008-10-24T14:58:03.9764679+02:00",
+    "Description": "Seamless mission-critical matrices",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "2014-04-13T16:48:29.4019252+02:00",
-    "ExternalRef": "qui",
+    "Date": "2020-03-17T14:58:03.9764679+01:00",
+    "ExternalRef": "autem",
     "Completed": "Completed",
-    "ActiveLinks": 501,
+    "ActiveLinks": 434,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 578,
-    "Snum": 443,
+    "SuggestedDocumentId": 447,
+    "Snum": 178,
     "UserDefinedFields": {
-      "SuperOffice:1": "Tania Pouros",
-      "SuperOffice:2": "False"
+      "SuperOffice:1": "Kendall Veum",
+      "SuperOffice:2": "Mr. Janae Von"
     },
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "quo"
+      "ExtraFields1": "omnis",
+      "ExtraFields2": "quaerat"
     },
     "CustomFields": {
-      "CustomFields1": "impedit",
-      "CustomFields2": "nesciunt"
+      "CustomFields1": "accusamus",
+      "CustomFields2": "voluptatem"
     },
-    "PublishEventDate": "2003-06-26T16:48:29.4019252+02:00",
-    "PublishTo": "2015-11-24T16:48:29.4019252+01:00",
-    "PublishFrom": "2005-11-04T16:48:29.4019252+01:00",
-    "IsPublished": true,
+    "PublishEventDate": "2021-04-09T14:58:03.9764679+02:00",
+    "PublishTo": "2000-05-09T14:58:03.9764679+02:00",
+    "PublishFrom": "1994-08-09T14:58:03.9764679+02:00",
+    "IsPublished": false,
     "VisibleFor": [
       {},
       {}

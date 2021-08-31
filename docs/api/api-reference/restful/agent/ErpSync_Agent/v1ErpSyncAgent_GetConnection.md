@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetConnection
+title: GetConnection
 id: v1ErpSyncAgent_GetConnection
 ---
 
-# POST Agents/ErpSync/GetConnection
+# GetConnection
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnection
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 67
+  "ErpConnectionId": 114
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 384,
-  "ErpConnectorId": 316,
-  "DisplayName": "Mosciski Inc and Sons",
-  "DisplayDescription": "Diverse didactic software",
-  "Active": true,
+  "ErpConnectionId": 147,
+  "ErpConnectorId": 269,
+  "DisplayName": "Senger, Watsica and Durgan",
+  "DisplayDescription": "Open-source value-added moratorium",
+  "Active": false,
   "ConnectionId": "quo",
-  "MostRecentTimestamp": "illo",
+  "MostRecentTimestamp": "eos",
   "ConfigFields": {
-    "ConfigFields1": "facere",
-    "ConfigFields2": "et"
+    "ConfigFields1": "fugiat",
+    "ConfigFields2": "minima"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    804,
-    439
+    926,
+    593
   ],
   "AssociateAccessIds": [
-    298,
-    258
+    103,
+    119
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

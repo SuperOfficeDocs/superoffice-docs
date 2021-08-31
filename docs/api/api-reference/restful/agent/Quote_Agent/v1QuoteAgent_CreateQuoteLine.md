@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateQuoteLine
+title: CreateQuoteLine
 id: v1QuoteAgent_CreateQuoteLine
 ---
 
-# POST Agents/Quote/CreateQuoteLine
+# CreateQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLine
@@ -127,12 +127,12 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 497,
-  "ERPProductKey": "eveniet"
+  "QuoteAlternativeId": 198,
+  "ERPProductKey": "id"
 }
 ```
 
@@ -141,37 +141,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 624,
-  "ERPQuoteLineKey": "tempore",
-  "QuoteAlternativeId": 572,
-  "ERPProductKey": "corrupti",
+  "QuoteLineId": 453,
+  "ERPQuoteLineKey": "non",
+  "QuoteAlternativeId": 903,
+  "ERPProductKey": "inventore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 24360.582,
-  "DeliveredQuantity": 12874.472,
-  "Rank": 594,
-  "Name": "Braun, Hackett and Kunze",
-  "Description": "Pre-emptive fault-tolerant firmware",
-  "Code": "voluptatem",
-  "QuantityUnit": "molestiae",
-  "PriceUnit": "atque",
-  "ItemNumber": "1814405",
+  "Quantity": 25899.376,
+  "DeliveredQuantity": 30995.26,
+  "Rank": 150,
+  "Name": "Turner Group",
+  "Description": "Self-enabling content-based help-desk",
+  "Code": "numquam",
+  "QuantityUnit": "aut",
+  "PriceUnit": "iste",
+  "ItemNumber": "1224753",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nam",
-  "ProductTypeKey": "et",
-  "Supplier": "voluptatibus",
-  "SupplierCode": "consequuntur",
-  "Thumbnail": "modi",
-  "VATInfo": "omnis",
-  "VAT": 26316.198,
-  "UnitCost": 20198.63,
-  "UnitMinimumPrice": 2544.808,
-  "UnitListPrice": 20816.028,
+  "ProductFamilyKey": "vero",
+  "ProductTypeKey": "aut",
+  "Supplier": "assumenda",
+  "SupplierCode": "magni",
+  "Thumbnail": "tenetur",
+  "VATInfo": "voluptas",
+  "VAT": 3488.142,
+  "UnitCost": 26197.106,
+  "UnitMinimumPrice": 23213.538,
+  "UnitListPrice": 28287.484,
   "ExtraInfo": [
     {
-      "Name": "Ritchie Inc and Sons",
-      "Value": "delectus",
+      "Name": "Wisoky, Schultz and Rogahn",
+      "Value": "ipsa",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     },
     {
-      "Name": "Ritchie Inc and Sons",
-      "Value": "delectus",
+      "Name": "Wisoky, Schultz and Rogahn",
+      "Value": "ipsa",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -196,36 +196,36 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
   ],
-  "RawExtraInfo": "eaque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "magnam",
-  "SubscriptionQuantity": 5985.94,
-  "SubscriptionStart": "2004-10-12T16:48:30.3929368+02:00",
-  "ERPDiscountPercent": 13122.057999999999,
-  "ERPDiscountAmount": 19098.595999999998,
-  "DiscountPercent": 29390.652,
-  "DiscountAmount": 17233.865999999998,
+  "RawExtraInfo": "excepturi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "suscipit",
+  "SubscriptionQuantity": 16002.204,
+  "SubscriptionStart": "2019-01-30T14:58:04.9754651+01:00",
+  "ERPDiscountPercent": 11727.428,
+  "ERPDiscountAmount": 6396.494,
+  "DiscountPercent": 26701.68,
+  "DiscountAmount": 2861.342,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20656.194,
-  "EarningAmount": 19195.75,
-  "SubTotal": 20374.134,
-  "TotalPrice": 30659.922,
-  "Rights": "ad",
-  "Rule": "quo",
-  "ExtraField1": "in",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "quo",
-  "ExtraField4": "dolores",
-  "ExtraField5": "et",
+  "EarningPercent": 6832.12,
+  "EarningAmount": 24683.384,
+  "SubTotal": 1745.638,
+  "TotalPrice": 17237.0,
+  "Rights": "aut",
+  "Rule": "quia",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "enim",
+  "ExtraField3": "quod",
+  "ExtraField4": "sit",
+  "ExtraField5": "omnis",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "utilize one-to-one infomediaries"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -233,8 +233,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

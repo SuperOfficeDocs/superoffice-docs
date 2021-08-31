@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveFromListDefinition
+title: SaveFromListDefinition
 id: v1ListAgent_SaveFromListDefinition
 ---
 
-# POST Agents/List/SaveFromListDefinition
+# SaveFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveFromListDefinition
@@ -85,19 +85,19 @@ Response body: object
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "UdListDefinitionId": 359,
+  "Id": 130,
+  "UdListDefinitionId": 931,
   "Item": {
-    "Id": 321,
-    "Name": "Waters, VonRueden and Crona",
-    "Tooltip": "fuga",
+    "Id": 16,
+    "Name": "Skiles, Hermann and Cormier",
+    "Tooltip": "ea",
     "Deleted": false,
-    "UdListDefinitionId": 535,
-    "Rank": 554
+    "UdListDefinitionId": 613,
+    "Rank": 662
   }
 }
 ```
@@ -107,12 +107,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Wolff Group",
-  "Tooltip": "exercitationem",
+  "Id": 460,
+  "Name": "Schuppe LLC",
+  "Tooltip": "corporis",
   "Deleted": true,
-  "UdListDefinitionId": 970,
-  "Rank": 478,
+  "UdListDefinitionId": 788,
+  "Rank": 410,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   }
 }

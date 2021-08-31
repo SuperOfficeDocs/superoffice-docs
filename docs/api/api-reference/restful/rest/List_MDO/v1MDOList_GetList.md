@@ -30,9 +30,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=accusamus
-GET /api/v1/MDOList/{listname}?query=officia
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=sit
+GET /api/v1/MDOList/{listname}?query=consequatur
 ```
 
 
@@ -92,29 +92,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Grady Group",
-    "ToolTip": "Distinctio nemo iusto vel.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "quod",
+    "Id": 334,
+    "Name": "Volkman LLC",
+    "ToolTip": "Enim quos assumenda molestias et vitae.",
+    "Deleted": true,
+    "Rank": 55,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Goodwin Inc and Sons",
-        "ToolTip": "Occaecati aut minima commodi rerum.",
+        "Id": 724,
+        "Name": "Weissnat-Fadel",
+        "ToolTip": "Saepe voluptas doloribus alias praesentium esse.",
         "Deleted": true,
-        "Rank": 681,
-        "Type": "vel",
+        "Rank": 603,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 933,
-        "ExtraInfo": "aut",
-        "StyleHint": "quas",
-        "FullName": "Jerome Wehner II",
+        "IconHint": "mollitia",
+        "ColorBlock": 865,
+        "ExtraInfo": "quidem",
+        "StyleHint": "veniam",
+        "FullName": "Marjolaine Friesen",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -122,17 +122,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 579
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 21,
-    "ExtraInfo": "at",
-    "StyleHint": "eaque",
-    "FullName": "Mr. Bud Sauer",
+    "IconHint": "voluptates",
+    "ColorBlock": 367,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "qui",
+    "FullName": "Jesse Abbott",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,10 +141,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate rich web-readiness"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 271
       }
     }
   }

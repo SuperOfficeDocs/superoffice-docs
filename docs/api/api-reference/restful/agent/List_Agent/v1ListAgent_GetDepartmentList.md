@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDepartmentList
+title: GetDepartmentList
 id: v1ListAgent_GetDepartmentList
 ---
 
-# POST Agents/List/GetDepartmentList
+# GetDepartmentList
 
 ```http
 POST /api/v1/Agents/List/GetDepartmentList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Value": "tempore",
-    "Tooltip": "est",
+    "Id": 545,
+    "Value": "aut",
+    "Tooltip": "aliquid",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 206
       }
     }
   },
   {
-    "Id": 696,
-    "Value": "tempore",
-    "Tooltip": "est",
+    "Id": 545,
+    "Value": "aut",
+    "Tooltip": "aliquid",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 206
       }
     }
   }

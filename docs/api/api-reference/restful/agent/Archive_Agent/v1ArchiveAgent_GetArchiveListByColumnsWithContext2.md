@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumnsWithContext2
+title: GetArchiveListByColumnsWithContext2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
 ---
 
-# POST Agents/Archive/GetArchiveListByColumnsWithContext2
+# GetArchiveListByColumnsWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
@@ -14,32 +14,7 @@ Get a page of results for an archive list with context parameter, explicitly spe
 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -239,18 +170,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kertzmann-Jewess",
-  "Columns": "dolorum",
-  "SortOrder": "aut",
-  "Restriction": "laudantium",
-  "Entities": "ea",
-  "Page": 300,
-  "PageSize": 830,
-  "Context": "ut"
+  "ProviderName": "Stroman, Nienow and Turner",
+  "Columns": "provident",
+  "SortOrder": "cupiditate",
+  "Restriction": "saepe",
+  "Entities": "laboriosam",
+  "Page": 782,
+  "PageSize": 605,
+  "Context": "ea"
 }
 ```
 
@@ -260,20 +191,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sanford-Hills",
-    "PrimaryKey": 854,
+    "EntityName": "Bogisich-Sporer",
+    "PrimaryKey": 12,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sunt",
-        "TooltipHint": "sunt",
-        "LinkHint": "sunt"
+        "DisplayValue": "quos",
+        "TooltipHint": "excepturi",
+        "LinkHint": "numquam"
       }
     },
-    "LinkHint": "voluptatem",
-    "StyleHint": "et",
+    "LinkHint": "tempore",
+    "StyleHint": "magnam",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "matrix interactive communities"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -282,7 +213,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldLength": 916
       }
     }
   }

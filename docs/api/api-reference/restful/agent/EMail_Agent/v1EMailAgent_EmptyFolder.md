@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/EmptyFolder
+title: EmptyFolder
 id: v1EMailAgent_EmptyFolder
 ---
 
-# POST Agents/EMail/EmptyFolder
+# EmptyFolder
 
 ```http
 POST /api/v1/Agents/EMail/EmptyFolder

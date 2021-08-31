@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectMemberDocumentsByTemplateType
+title: GetProjectMemberDocumentsByTemplateType
 id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
 ---
 
-# POST Agents/Document/GetProjectMemberDocumentsByTemplateType
+# GetProjectMemberDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 193,
-  "StartTime": "2020-03-22T16:48:29.3318937+01:00",
-  "EndTime": "2005-09-25T16:48:29.3318937+02:00",
-  "Count": 497,
-  "DocumentTemplateId": 718
+  "PersonId": 256,
+  "StartTime": "2016-09-01T14:58:03.8174603+02:00",
+  "EndTime": "2015-06-09T14:58:03.8174603+02:00",
+  "Count": 636,
+  "DocumentTemplateId": 43
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 94,
-    "Attention": "molestias",
-    "Header": "cum",
-    "Name": "Larkin-Bednar",
-    "OurRef": "dolor",
-    "YourRef": "repudiandae",
-    "Description": "Enhanced 5th generation budgetary management",
-    "DocumentTemplate": "hic",
-    "IsPublished": true,
-    "PersonId": 722,
-    "PersonFullName": "Mrs. Oran Stanton",
-    "AssociateFullName": "Trever Kuvalis",
-    "ContactId": 827,
-    "ContactName": "Gibson-Kuphal",
-    "ProjectId": 983,
-    "ProjectName": "Schiller LLC",
-    "AssociateId": 314,
-    "Snum": 375,
+    "DocumentId": 857,
+    "Attention": "expedita",
+    "Header": "dicta",
+    "Name": "Kessler, Bogisich and Lueilwitz",
+    "OurRef": "itaque",
+    "YourRef": "doloremque",
+    "Description": "Customizable scalable local area network",
+    "DocumentTemplate": "rerum",
+    "IsPublished": false,
+    "PersonId": 520,
+    "PersonFullName": "Melvin Hermann PhD",
+    "AssociateFullName": "Francis Hirthe",
+    "ContactId": 733,
+    "ContactName": "Hegmann Inc and Sons",
+    "ProjectId": 795,
+    "ProjectName": "Fisher Inc and Sons",
+    "AssociateId": 182,
+    "Snum": 772,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldLength": 936
       }
     }
   }

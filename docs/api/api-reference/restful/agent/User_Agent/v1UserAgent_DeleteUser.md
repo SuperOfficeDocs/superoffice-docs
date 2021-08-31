@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/DeleteUser
+title: DeleteUser
 id: v1UserAgent_DeleteUser
 ---
 
-# POST Agents/User/DeleteUser
+# DeleteUser
 
 ```http
 POST /api/v1/Agents/User/DeleteUser
@@ -26,7 +26,7 @@ Deletes the User
 | UserId | int32 | **Required** The id of the User to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?UserId=760
+POST /api/v1/Agents/User/DeleteUser?UserId=360
 ```
 
 

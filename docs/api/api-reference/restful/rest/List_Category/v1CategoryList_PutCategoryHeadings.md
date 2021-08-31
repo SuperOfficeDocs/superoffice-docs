@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 445,
-    "Name": "Fay, Kshlerin and Cruickshank",
-    "Tooltip": "quos",
+    "HeadingId": 506,
+    "Name": "Denesik, Runte and Murazik",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 32,
-    "UdListDefinitionId": 801
+    "Rank": 252,
+    "UdListDefinitionId": 41
   },
   {
-    "HeadingId": 445,
-    "Name": "Fay, Kshlerin and Cruickshank",
-    "Tooltip": "quos",
+    "HeadingId": 506,
+    "Name": "Denesik, Runte and Murazik",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 32,
-    "UdListDefinitionId": 801
+    "Rank": 252,
+    "UdListDefinitionId": 41
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "Champlin, Collins and Dach",
-    "Tooltip": "et",
+    "HeadingId": 561,
+    "Name": "Runolfsson-Smith",
+    "Tooltip": "sint",
     "Deleted": true,
-    "Rank": 154,
-    "UdListDefinitionId": 830,
+    "Rank": 353,
+    "UdListDefinitionId": 502,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

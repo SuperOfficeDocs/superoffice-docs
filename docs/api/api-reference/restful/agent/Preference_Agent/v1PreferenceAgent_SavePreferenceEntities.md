@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/SavePreferenceEntities
+title: SavePreferenceEntities
 id: v1PreferenceAgent_SavePreferenceEntities
 ---
 
-# POST Agents/Preference/SavePreferenceEntities
+# SavePreferenceEntities
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceEntities

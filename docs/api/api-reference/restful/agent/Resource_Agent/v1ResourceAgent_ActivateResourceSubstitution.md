@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Resource/ActivateResourceSubstitution
+title: ActivateResourceSubstitution
 id: v1ResourceAgent_ActivateResourceSubstitution
 ---
 
-# POST Agents/Resource/ActivateResourceSubstitution
+# ActivateResourceSubstitution
 
 ```http
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution

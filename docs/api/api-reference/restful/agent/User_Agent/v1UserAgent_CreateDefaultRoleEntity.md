@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateDefaultRoleEntity
+title: CreateDefaultRoleEntity
 id: v1UserAgent_CreateDefaultRoleEntity
 ---
 
-# POST Agents/User/CreateDefaultRoleEntity
+# CreateDefaultRoleEntity
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,27 +77,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 602,
-  "Name": "Spencer-Rippin",
-  "Tooltip": "et",
+  "RoleId": 497,
+  "Name": "Bauch-Cole",
+  "Tooltip": "sequi",
   "RoleType": "Anonymous",
-  "Deleted": 267,
-  "Rank": 159,
-  "Created": "1996-05-21T16:48:30.884935+02:00",
-  "UseCategories": 253,
+  "Deleted": 166,
+  "Rank": 751,
+  "Created": "2021-08-08T14:58:05.5390542+02:00",
+  "UseCategories": 179,
   "CreatedBy": {
-    "AssociateId": 12,
-    "Name": "Kuhn Group",
-    "PersonId": 468,
-    "Rank": 481,
-    "Tooltip": "a",
+    "AssociateId": 719,
+    "Name": "Rice-Langworth",
+    "PersonId": 113,
+    "Rank": 557,
+    "Tooltip": "quas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 854,
-    "FullName": "Clare Grady",
-    "FormalName": "Keeling-Parisian",
-    "Deleted": false,
-    "EjUserId": 399,
-    "UserName": "Schoen-Homenick",
+    "GroupIdx": 482,
+    "FullName": "Reinhold Stanton",
+    "FormalName": "Cummerata-Kling",
+    "Deleted": true,
+    "EjUserId": 627,
+    "UserName": "Gerhold-Bayer",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -106,33 +106,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldLength": 447
       }
     }
   },
-  "Updated": "2013-08-10T16:48:30.884935+02:00",
+  "Updated": "1998-07-07T14:58:05.5390542+02:00",
   "UpdatedBy": {
-    "AssociateId": 809,
-    "Name": "Bradtke-Batz",
-    "PersonId": 700,
-    "Rank": 298,
-    "Tooltip": "voluptas",
+    "AssociateId": 596,
+    "Name": "Swaniawski-Fisher",
+    "PersonId": 632,
+    "Rank": 827,
+    "Tooltip": "dolores",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 727,
-    "FullName": "Domingo Adams",
-    "FormalName": "Sanford, Koss and Lesch",
-    "Deleted": false,
-    "EjUserId": 757,
-    "UserName": "Luettgen Inc and Sons",
+    "GroupIdx": 911,
+    "FullName": "Carmella Kuhn",
+    "FormalName": "Lockman LLC",
+    "Deleted": true,
+    "EjUserId": 473,
+    "UserName": "Mante, Dickinson and Mitchell",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "aggregate user-centric infomediaries"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   },
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "accusamus",
-          "Description": "Reverse-engineered methodical collaboration",
+          "Value": "maxime",
+          "Description": "Customer-focused intangible application",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -161,15 +161,15 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 550
+              "FieldLength": 631
             }
           }
         }
       ],
       [
         {
-          "Value": "a",
-          "Description": "Re-engineered next generation access",
+          "Value": "pariatur",
+          "Description": "Triple-buffered transitional paradigm",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -178,10 +178,10 @@ Content-Type: application/json; charset=utf-8
             "fieldName": {
               "FieldRight": {
                 "Mask": "FULL",
-                "Reason": ""
+                "Reason": "enable extensible models"
               },
               "FieldType": "System.String",
-              "FieldLength": 983
+              "FieldLength": 44
             }
           }
         }
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   },
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

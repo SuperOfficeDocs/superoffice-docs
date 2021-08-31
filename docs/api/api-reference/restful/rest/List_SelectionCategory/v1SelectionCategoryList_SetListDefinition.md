@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Cruickshank Group",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "Rank": 344,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "Id": 687,
+  "Name": "Morissette, Moore and Ferry",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 234,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Corkery, Hayes and Keebler",
-  "Tooltip": "facere",
+  "Id": 559,
+  "Name": "Beahan-Wiza",
+  "Tooltip": "unde",
   "Deleted": true,
-  "Rank": 716,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 240,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quibusdam",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

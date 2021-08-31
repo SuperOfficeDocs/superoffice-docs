@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Adams Group",
-    "ToolTip": "Id sed amet repellat.",
-    "Deleted": false,
-    "Rank": 636,
-    "Type": "sint",
-    "ColorBlock": 902,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2016-11-28T09:41:00.674388+01:00",
+    "Id": 233,
+    "Name": "Boehm LLC",
+    "ToolTip": "Itaque voluptates ut quo.",
+    "Deleted": true,
+    "Rank": 348,
+    "Type": "nam",
+    "ColorBlock": 642,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2003-08-28T15:05:43.7341179+02:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Bashirian, McDermott and Olson",
-        "ToolTip": "Et culpa consequatur.",
-        "Deleted": true,
-        "Rank": 222,
-        "Type": "autem",
-        "ColorBlock": 117,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "1994-12-30T09:41:00.674388+01:00",
+        "Id": 552,
+        "Name": "Hettinger Inc and Sons",
+        "ToolTip": "Quos eveniet nihil.",
+        "Deleted": false,
+        "Rank": 169,
+        "Type": "eum",
+        "ColorBlock": 77,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2004-06-05T15:05:43.7341179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "rerum",
+        "ExtraInfo": "fuga",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Kianna Reinger"
+        "FullName": "Nia Green DVM"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Tomasa Green"
+    "ExtraInfo": "vero",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Yoshiko Kunze"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Treutel-Bartoletti",
-    "ToolTip": "Ut aliquam consequuntur provident ratione porro ea.",
+    "Id": 688,
+    "Name": "Zieme LLC",
+    "ToolTip": "Reiciendis dignissimos nihil nobis sunt nobis atque.",
     "Deleted": false,
-    "Rank": 883,
-    "Type": "et",
-    "ColorBlock": 755,
-    "IconHint": "sit",
+    "Rank": 28,
+    "Type": "adipisci",
+    "ColorBlock": 130,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "2011-06-17T09:41:00.6763881+02:00",
+    "LastChanged": "2011-05-31T15:05:43.7351178+02:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Carter LLC",
-        "ToolTip": "Iure est qui consequatur ut dignissimos rerum.",
-        "Deleted": false,
-        "Rank": 165,
-        "Type": "asperiores",
-        "ColorBlock": 192,
-        "IconHint": "cupiditate",
-        "Selected": false,
-        "LastChanged": "1994-05-10T09:41:00.6763881+02:00",
+        "Id": 847,
+        "Name": "Fay, Jaskolski and Shanahan",
+        "ToolTip": "Nisi saepe tempora ab dolore ex.",
+        "Deleted": true,
+        "Rank": 525,
+        "Type": "debitis",
+        "ColorBlock": 282,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2008-02-06T15:05:43.7351178+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Ms. Darien Herzog",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Irwin Kuphal",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 28
+            "FieldType": "System.Int32",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sed",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Lynn Gutmann",
+    "FullName": "Mrs. Aylin Schroeder",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "grow dot-com niches"
         },
-        "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

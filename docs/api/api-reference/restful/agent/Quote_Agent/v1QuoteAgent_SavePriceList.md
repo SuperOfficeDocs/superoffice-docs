@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SavePriceList
+title: SavePriceList
 id: v1QuoteAgent_SavePriceList
 ---
 
-# POST Agents/Quote/SavePriceList
+# SavePriceList
 
 ```http
 POST /api/v1/Agents/Quote/SavePriceList
@@ -86,20 +86,20 @@ Response body: object
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 440,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 976,
-  "Name": "Corkery, Hauck and Cole",
-  "Description": "Robust non-volatile installation",
-  "Currency": "eius",
-  "CurrencyName": "Bradtke LLC",
-  "ValidFrom": "2011-02-10T16:48:30.4239348+01:00",
-  "ValidTo": "2020-10-12T16:48:30.4239348+02:00",
-  "IsActive": false
+  "PriceListId": 138,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 956,
+  "Name": "Walker-Halvorson",
+  "Description": "Compatible asynchronous secured line",
+  "Currency": "earum",
+  "CurrencyName": "Spencer-Borer",
+  "ValidFrom": "1999-07-05T14:58:04.986466+02:00",
+  "ValidTo": "1995-08-16T14:58:04.986466+02:00",
+  "IsActive": true
 }
 ```
 
@@ -108,15 +108,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 825,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 800,
-  "Name": "Bogisich, Mayert and Cassin",
-  "Description": "Ameliorated cohesive solution",
-  "Currency": "ducimus",
-  "CurrencyName": "Paucek LLC",
-  "ValidFrom": "2020-07-01T16:48:30.4239348+02:00",
-  "ValidTo": "2002-01-12T16:48:30.4239348+01:00",
+  "PriceListId": 423,
+  "ERPPriceListKey": "quod",
+  "QuoteConnectionId": 251,
+  "Name": "Murray, Bernier and Lesch",
+  "Description": "Robust foreground hardware",
+  "Currency": "exercitationem",
+  "CurrencyName": "Hansen, Sanford and Nitzsche",
+  "ValidFrom": "2004-02-12T14:58:04.986466+01:00",
+  "ValidTo": "2017-06-23T14:58:04.986466+02:00",
   "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

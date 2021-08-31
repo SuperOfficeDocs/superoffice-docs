@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetErpSyncConnectionSummary
+title: GetErpSyncConnectionSummary
 id: v1ErpSyncAgent_GetErpSyncConnectionSummary
 ---
 
-# POST Agents/ErpSync/GetErpSyncConnectionSummary
+# GetErpSyncConnectionSummary
 
 ```http
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
@@ -89,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 412
+  "ErpSyncConnectionId": 244
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Moore, Keebler and Balistreri",
-  "DisplayDescription": "Visionary reciprocal process improvement",
-  "Active": false,
+  "DisplayName": "Reichel-West",
+  "DisplayDescription": "Team-oriented radical strategy",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "1999-03-10T16:48:29.6289301+01:00",
+  "LastSync": "2006-02-25T14:58:04.2354599+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "inventore",
-      "Mappings": "autem",
+      "HasMappings": false,
+      "Defaults": "dolor",
+      "Mappings": "assumenda",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -117,15 +117,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 385
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "inventore",
-      "Mappings": "autem",
+      "HasMappings": false,
+      "Defaults": "dolor",
+      "Mappings": "assumenda",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 385
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "matrix one-to-one models"
   },
   "FieldProperties": {
     "fieldName": {
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

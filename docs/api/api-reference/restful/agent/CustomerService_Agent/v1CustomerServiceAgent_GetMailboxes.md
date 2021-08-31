@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetMailboxes
+title: GetMailboxes
 id: v1CustomerServiceAgent_GetMailboxes
 ---
 
-# POST Agents/CustomerService/GetMailboxes
+# GetMailboxes
 
 ```http
 POST /api/v1/Agents/CustomerService/GetMailboxes
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 766,
-    "Address": "et",
+    "MailInFilterId": 372,
+    "Address": "molestias",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Nienow Group",
+    "PriorityName": "Okuneva, Nolan and Bailey",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 279
       }
     }
   },
   {
-    "MailInFilterId": 766,
-    "Address": "et",
+    "MailInFilterId": 372,
+    "Address": "molestias",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Nienow Group",
+    "PriorityName": "Okuneva, Nolan and Bailey",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 279
       }
     }
   }

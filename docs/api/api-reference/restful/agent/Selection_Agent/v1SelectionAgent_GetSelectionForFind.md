@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetSelectionForFind
+title: GetSelectionForFind
 id: v1SelectionAgent_GetSelectionForFind
 ---
 
-# POST Agents/Selection/GetSelectionForFind
+# GetSelectionForFind
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind
@@ -84,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kihn, Schuster and Ward",
-  "TypicalSearchId": 304
+  "EntityName": "Hagenes, Sauer and Bartell",
+  "TypicalSearchId": 895
 }
 ```
 
@@ -98,15 +98,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reinger Inc and Sons",
-  "SelectionId": 56,
+  "ProviderName": "Ernser LLC",
+  "SelectionId": 867,
   "CanSaveAsSelection": false,
-  "MainHeading": "ut",
-  "FilterScreenHeading": "est",
-  "SelectionEntityHeading": "id",
+  "MainHeading": "qui",
+  "FilterScreenHeading": "ut",
+  "SelectionEntityHeading": "rerum",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "recontextualize back-end paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 997
     }
   }
 }

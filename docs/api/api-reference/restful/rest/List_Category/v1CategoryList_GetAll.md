@@ -24,7 +24,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=False
+GET /api/v1/List/Category/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Russel, Lubowitz and Robel",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 202,
-    "Rank": 570,
+    "Id": 71,
+    "Name": "Kris-Lowe",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 350,
+    "Rank": 214,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "scale proactive solutions"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 648
       }
     }
   }

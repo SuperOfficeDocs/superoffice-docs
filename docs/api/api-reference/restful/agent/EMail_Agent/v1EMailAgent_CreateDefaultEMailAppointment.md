@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailAppointment
+title: CreateDefaultEMailAppointment
 id: v1EMailAgent_CreateDefaultEMailAppointment
 ---
 
-# POST Agents/EMail/CreateDefaultEMailAppointment
+# CreateDefaultEMailAppointment
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,53 +78,53 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": {
-    "AppointmentId": 121,
-    "StartDate": "2000-10-20T16:48:29.5519243+02:00",
-    "EndDate": "2002-07-05T16:48:29.5519243+02:00",
+    "AppointmentId": 503,
+    "StartDate": "2003-12-30T14:58:04.1714606+01:00",
+    "EndDate": "2007-05-13T14:58:04.1714606+02:00",
     "Type": "BookingForChecklist",
-    "Task": "hic",
-    "AssociateFullName": "Jackson Wilkinson",
-    "ContactName": "Bartoletti Inc and Sons",
-    "Description": "De-engineered system-worthy service-desk",
-    "PersonFullName": "Alena Kris",
-    "PersonId": 170,
-    "ContactId": 687,
-    "ProjectId": 330,
-    "ProjectName": "Durgan, Streich and Sporer",
-    "IsPublished": true,
-    "AssociateId": 723,
-    "ColorIndex": 144,
+    "Task": "aut",
+    "AssociateFullName": "Rogelio Pfeffer",
+    "ContactName": "Zieme, Bashirian and Hegmann",
+    "Description": "Reactive needs-based solution",
+    "PersonFullName": "Luigi Ratke",
+    "PersonId": 704,
+    "ContactId": 765,
+    "ProjectId": 793,
+    "ProjectName": "Nitzsche Group",
+    "IsPublished": false,
+    "AssociateId": 408,
+    "ColorIndex": 354,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 655,
-    "PriorityName": "Mann, Schuster and Ruecker",
+    "PriorityId": 94,
+    "PriorityName": "Jast Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2012-04-20T16:48:29.5519243+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1999-09-15T14:58:04.1714606+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-10-13T16:48:29.5519243+02:00",
-    "RecurringEndDate": "2008-02-24T16:48:29.5519243+01:00",
-    "MotherId": 194,
-    "AssignedBy": 774,
-    "AssignedByFullName": "Dr. Brandy Schimmel",
+    "RecurringStartDate": "2005-09-11T14:58:04.1714606+02:00",
+    "RecurringEndDate": "2010-12-20T14:58:04.1714606+01:00",
+    "MotherId": 45,
+    "AssignedBy": 962,
+    "AssignedByFullName": "Ms. Vada Bruen",
     "RejectReason": "",
-    "Location": "illum",
-    "AlarmLeadTime": "ut",
-    "SaleId": 232,
-    "SaleName": "Koepp-Torp",
-    "AssociateName": "Stracke LLC",
-    "CreatedDate": "2012-08-31T16:48:29.5529306+02:00",
-    "CreatedBy": "consequatur",
-    "CreatedByFullName": "Wilton Herzog DDS",
-    "CreatedByAssociateId": 368,
+    "Location": "nisi",
+    "AlarmLeadTime": "officia",
+    "SaleId": 920,
+    "SaleName": "Langosh-Thiel",
+    "AssociateName": "Purdy-Jacobi",
+    "CreatedDate": "1995-10-23T14:58:04.1714606+02:00",
+    "CreatedBy": "exercitationem",
+    "CreatedByFullName": "Everette Miller",
+    "CreatedByAssociateId": 469,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {},
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   },
   "CalMethod": "Add",
   "Participants": [
-    "nam",
-    "ullam"
+    "sint",
+    "nemo"
   ],
-  "Comment": "quis",
-  "Sequence": 528,
-  "DtStart": "2019-09-27T16:48:29.5529306+02:00",
-  "DtEnd": "2013-06-29T16:48:29.5529306+02:00",
-  "Superseded": true,
+  "Comment": "dolorem",
+  "Sequence": 554,
+  "DtStart": "2003-11-30T14:58:04.1724703+01:00",
+  "DtEnd": "1994-11-05T14:58:04.1724703+01:00",
+  "Superseded": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -157,10 +157,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "productize user-centric applications"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 326
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SyncAll
+title: SyncAll
 id: v1ErpSyncAgent_SyncAll
 ---
 
-# POST Agents/ErpSync/SyncAll
+# SyncAll
 
 ```http
 POST /api/v1/Agents/ErpSync/SyncAll
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -84,9 +84,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "nisi",
-  "TechExplanation": "veritatis",
-  "ErrorCode": "nihil",
+  "UserExplanation": "quia",
+  "TechExplanation": "sequi",
+  "ErrorCode": "magni",
   "Changes": {
     "AddedRecords": [
       {},
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldType": "System.Int32",
+        "FieldLength": 655
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "unleash leading-edge portals"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveTicketPriorityEntity
+title: SaveTicketPriorityEntity
 id: v1ListAgent_SaveTicketPriorityEntity
 ---
 
-# POST Agents/List/SaveTicketPriorityEntity
+# SaveTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
@@ -120,39 +120,39 @@ Response body: object
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 987,
-  "Name": "Batz-Franecki",
+  "TicketPriorityId": 823,
+  "Name": "Greenholt-Luettgen",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 954,
+  "SortOrder": 842,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 907,
-  "MonStart": "1994-09-01T16:48:29.9469246+02:00",
-  "MonStop": "1996-01-05T16:48:29.9469246+01:00",
-  "TueStart": "2006-01-17T16:48:29.9469246+01:00",
-  "TueStop": "2017-03-14T16:48:29.9469246+01:00",
-  "WedStart": "2010-09-13T16:48:29.9469246+02:00",
-  "WedStop": "1999-02-22T16:48:29.9469246+01:00",
-  "ThuStart": "2018-10-25T16:48:29.9469246+02:00",
-  "ThuStop": "2001-11-12T16:48:29.9469246+01:00",
-  "FriStart": "2010-05-04T16:48:29.9469246+02:00",
-  "FriStop": "2012-03-30T16:48:29.9469246+02:00",
-  "SatStart": "2016-05-25T16:48:29.9469246+02:00",
-  "SatStop": "2003-11-03T16:48:29.9469246+01:00",
-  "SunStart": "2016-03-27T16:48:29.9469246+02:00",
-  "SunStop": "2009-11-15T16:48:29.9469246+01:00",
+  "Deadline": 186,
+  "MonStart": "2021-03-07T14:58:04.4534313+01:00",
+  "MonStop": "2016-06-11T14:58:04.4534313+02:00",
+  "TueStart": "2007-10-28T14:58:04.4534313+01:00",
+  "TueStop": "2010-04-10T14:58:04.4534313+02:00",
+  "WedStart": "2007-05-06T14:58:04.4534313+02:00",
+  "WedStop": "2011-02-10T14:58:04.4534313+01:00",
+  "ThuStart": "2005-04-19T14:58:04.4534313+02:00",
+  "ThuStop": "2018-01-14T14:58:04.4534313+01:00",
+  "FriStart": "2010-02-15T14:58:04.4534313+01:00",
+  "FriStop": "1996-09-12T14:58:04.4534313+02:00",
+  "SatStart": "2010-06-30T14:58:04.4534313+02:00",
+  "SatStop": "2001-05-28T14:58:04.4534313+02:00",
+  "SunStart": "2016-07-22T14:58:04.4534313+02:00",
+  "SunStop": "2001-05-23T14:58:04.4534313+02:00",
   "NonDates": [
-    "aut",
-    "autem"
+    "quibusdam",
+    "quis"
   ]
 }
 ```
@@ -162,35 +162,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 137,
-  "Name": "Schmitt LLC",
+  "TicketPriorityId": 168,
+  "Name": "Lynch-Towne",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 341,
+  "SortOrder": 881,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 550,
-  "MonStart": "2006-12-21T16:48:29.9479246+01:00",
-  "MonStop": "2004-04-17T16:48:29.9479246+02:00",
-  "TueStart": "2007-07-26T16:48:29.9479246+02:00",
-  "TueStop": "2001-03-22T16:48:29.9479246+01:00",
-  "WedStart": "2015-08-06T16:48:29.9479246+02:00",
-  "WedStop": "1994-05-20T16:48:29.9479246+02:00",
-  "ThuStart": "2008-10-10T16:48:29.9479246+02:00",
-  "ThuStop": "2004-04-06T16:48:29.9479246+02:00",
-  "FriStart": "2018-04-05T16:48:29.9479246+02:00",
-  "FriStop": "2020-05-10T16:48:29.9479246+02:00",
-  "SatStart": "1998-05-22T16:48:29.9479246+02:00",
-  "SatStop": "2019-03-26T16:48:29.9479246+01:00",
-  "SunStart": "2005-01-23T16:48:29.9479246+01:00",
-  "SunStop": "2013-06-28T16:48:29.9479246+02:00",
+  "Deadline": 41,
+  "MonStart": "2020-08-17T14:58:04.4544652+02:00",
+  "MonStop": "2019-06-24T14:58:04.4544652+02:00",
+  "TueStart": "2004-09-12T14:58:04.4544652+02:00",
+  "TueStop": "2015-03-22T14:58:04.4544652+01:00",
+  "WedStart": "2006-02-16T14:58:04.4544652+01:00",
+  "WedStop": "1998-11-26T14:58:04.4544652+01:00",
+  "ThuStart": "2010-02-22T14:58:04.4544652+01:00",
+  "ThuStop": "2004-01-20T14:58:04.4544652+01:00",
+  "FriStart": "1995-03-14T14:58:04.4544652+01:00",
+  "FriStop": "2001-12-17T14:58:04.4544652+01:00",
+  "SatStart": "1999-01-18T14:58:04.4544652+01:00",
+  "SatStop": "2002-07-14T14:58:04.4544652+02:00",
+  "SunStart": "2002-06-23T14:58:04.4544652+02:00",
+  "SunStop": "2001-03-16T14:58:04.4544652+01:00",
   "NonDates": [
-    "quia",
-    "soluta"
+    "asperiores",
+    "aut"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

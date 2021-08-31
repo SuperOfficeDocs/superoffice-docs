@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectEventEntity
+title: GetProjectEventEntity
 id: v1ProjectAgent_GetProjectEventEntity
 ---
 
-# POST Agents/Project/GetProjectEventEntity
+# GetProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventEntity
@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=492
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=10
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -108,35 +108,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptates",
-  "SignOffText": "sit",
-  "SignOnConfirmationText": "asperiores",
-  "SignOnText": "qui",
-  "EventDate": "1995-10-17T16:48:30.3609348+02:00",
+  "SignOffConfirmationText": "fugit",
+  "SignOffText": "cum",
+  "SignOnConfirmationText": "ut",
+  "SignOnText": "esse",
+  "EventDate": "2006-08-21T14:58:04.9224663+02:00",
   "Enabled": true,
-  "CreatedDate": "2013-01-18T16:48:30.3609348+01:00",
-  "SignOff": false,
+  "CreatedDate": "2007-01-15T14:58:04.9224663+01:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 291,
+  "SignOffTaskId": 430,
   "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 534,
+  "SignOnTaskId": 793,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-02-05T16:48:30.3609348+01:00",
+  "UpdatedDate": "2001-02-13T14:58:04.9224663+01:00",
   "CreatedBy": {
-    "AssociateId": 331,
-    "Name": "Lang LLC",
-    "PersonId": 886,
-    "Rank": 361,
-    "Tooltip": "dolores",
+    "AssociateId": 655,
+    "Name": "Christiansen, Jacobson and Purdy",
+    "PersonId": 217,
+    "Rank": 716,
+    "Tooltip": "libero",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 28,
-    "FullName": "Dedric Bernhard",
-    "FormalName": "Krajcik Inc and Sons",
+    "GroupIdx": 494,
+    "FullName": "Kaylin Boyer",
+    "FormalName": "Osinski Inc and Sons",
     "Deleted": false,
-    "EjUserId": 535,
-    "UserName": "Doyle Group",
+    "EjUserId": 534,
+    "UserName": "Goyette-Koelpin",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -144,24 +144,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldType": "System.String",
+        "FieldLength": 94
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 198,
-    "Name": "Wilderman-Bruen",
-    "PersonId": 512,
-    "Rank": 993,
-    "Tooltip": "quidem",
+    "AssociateId": 483,
+    "Name": "Weber, Baumbach and Osinski",
+    "PersonId": 178,
+    "Rank": 849,
+    "Tooltip": "distinctio",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 232,
-    "FullName": "Gregg Waelchi",
-    "FormalName": "Jast Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 46,
-    "UserName": "VonRueden, Bednar and Kreiger",
+    "GroupIdx": 986,
+    "FullName": "Walker Bashirian",
+    "FormalName": "Luettgen, Rohan and Quitzon",
+    "Deleted": false,
+    "EjUserId": 283,
+    "UserName": "Little-Dickinson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -170,62 +170,32 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 260
       }
     }
   },
-  "ProjectId": 271,
-  "Id": 296,
-  "PublishFrom": "2019-04-11T16:48:30.3609348+02:00",
+  "ProjectId": 779,
+  "Id": 469,
+  "PublishFrom": "2016-06-25T14:58:04.9234646+02:00",
   "PublishType": "External",
-  "PublishTo": "2002-12-16T16:48:30.3609348+01:00",
+  "PublishTo": "2003-11-07T14:58:04.9234646+01:00",
   "VisibleForCategories": [
     {
-      "Id": 192,
-      "Name": "Kuhn Group",
-      "ToolTip": "Et eum officia aperiam nemo id dolores.",
-      "Deleted": false,
-      "Rank": 132,
-      "Type": "facere",
+      "Id": 862,
+      "Name": "Reynolds-Wyman",
+      "ToolTip": "Fuga dolorem ipsam ea est et.",
+      "Deleted": true,
+      "Rank": 689,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 90,
-      "ExtraInfo": "et",
-      "StyleHint": "sed",
-      "FullName": "Michelle Bashirian",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "synthesize synergistic mindshare"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 435
-        }
-      }
-    }
-  ],
-  "VisibleForPersonInterests": [
-    {
-      "Id": 565,
-      "Name": "Heathcote LLC",
-      "ToolTip": "Omnis consectetur id blanditiis.",
-      "Deleted": false,
-      "Rank": 611,
-      "Type": "nisi",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "soluta",
-      "ColorBlock": 261,
-      "ExtraInfo": "accusamus",
-      "StyleHint": "voluptatibus",
-      "FullName": "Amber Gottlieb",
+      "IconHint": "id",
+      "ColorBlock": 726,
+      "ExtraInfo": "est",
+      "StyleHint": "voluptatem",
+      "FullName": "Tracey Lesch",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -234,16 +204,46 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 919
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "VisibleForPersonInterests": [
+    {
+      "Id": 72,
+      "Name": "Koss-Mann",
+      "ToolTip": "Voluptate ea corporis voluptas.",
+      "Deleted": false,
+      "Rank": 127,
+      "Type": "esse",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "saepe",
+      "ColorBlock": 116,
+      "ExtraInfo": "quasi",
+      "StyleHint": "quas",
+      "FullName": "Chadrick Roberts",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 600
+        }
+      }
+    }
+  ],
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 574,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 940,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -252,10 +252,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "productize bricks-and-clicks action-items"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetSaleDocuments
+title: GetSaleDocuments
 id: v1DocumentAgent_GetSaleDocuments
 ---
 
-# POST Agents/Document/GetSaleDocuments
+# GetSaleDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetSaleDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 407
+  "SaleId": 379
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 99,
-    "Attention": "nihil",
-    "Header": "similique",
-    "Name": "Tillman, Schowalter and Langworth",
-    "OurRef": "iusto",
-    "YourRef": "omnis",
-    "Description": "Ergonomic system-worthy hardware",
-    "DocumentTemplate": "eveniet",
-    "IsPublished": true,
-    "PersonId": 971,
-    "PersonFullName": "Keyshawn Moore",
-    "AssociateFullName": "Mollie Barton",
-    "ContactId": 583,
-    "ContactName": "Gislason, McKenzie and Sanford",
-    "ProjectId": 496,
-    "ProjectName": "Terry, Boyer and Altenwerth",
-    "AssociateId": 208,
-    "Snum": 258,
+    "DocumentId": 429,
+    "Attention": "sunt",
+    "Header": "quod",
+    "Name": "Beatty Group",
+    "OurRef": "rerum",
+    "YourRef": "et",
+    "Description": "Operative global pricing structure",
+    "DocumentTemplate": "cum",
+    "IsPublished": false,
+    "PersonId": 280,
+    "PersonFullName": "Dr. Matilda Langworth",
+    "AssociateFullName": "Myrl Kilback",
+    "ContactId": 775,
+    "ContactName": "Maggio Group",
+    "ProjectId": 864,
+    "ProjectName": "Heaney, Block and Kovacek",
+    "AssociateId": 183,
+    "Snum": 874,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "strategize efficient e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

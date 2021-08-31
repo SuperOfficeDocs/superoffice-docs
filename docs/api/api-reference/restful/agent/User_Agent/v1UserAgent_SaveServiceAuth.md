@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SaveServiceAuth
+title: SaveServiceAuth
 id: v1UserAgent_SaveServiceAuth
 ---
 
-# POST Agents/User/SaveServiceAuth
+# SaveServiceAuth
 
 ```http
 POST /api/v1/Agents/User/SaveServiceAuth
@@ -80,16 +80,16 @@ Response body: object
 POST /api/v1/Agents/User/SaveServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 89,
-  "Server": "quia",
-  "Port": 322,
-  "AuthType": "dignissimos",
-  "Username": "ducimus",
-  "Password": "mollitia"
+  "ServiceAuthId": 913,
+  "Server": "enim",
+  "Port": 434,
+  "AuthType": "quia",
+  "Username": "veritatis",
+  "Password": "aperiam"
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 675,
-  "Server": "incidunt",
-  "Port": 473,
-  "AuthType": "veritatis",
-  "Username": "iste",
-  "Password": "et",
+  "ServiceAuthId": 346,
+  "Server": "doloribus",
+  "Port": 62,
+  "AuthType": "et",
+  "Username": "est",
+  "Password": "possimus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,10 +112,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "architect vertical experiences"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 811
     }
   }
 }

@@ -54,7 +54,7 @@ Response body: object
 GET /api/v1/Appointment/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -62,7 +62,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "occaecati",
-  "2": "ex"
+  "1": "quae",
+  "2": "numquam"
 }
 ```

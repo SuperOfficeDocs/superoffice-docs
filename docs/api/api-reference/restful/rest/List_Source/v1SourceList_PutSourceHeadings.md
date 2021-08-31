@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Wuckert, Quigley and Jast",
-    "Tooltip": "et",
+    "HeadingId": 194,
+    "Name": "Greenfelder Group",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 576,
-    "UdListDefinitionId": 132
+    "Rank": 219,
+    "UdListDefinitionId": 138
   },
   {
-    "HeadingId": 637,
-    "Name": "Wuckert, Quigley and Jast",
-    "Tooltip": "et",
+    "HeadingId": 194,
+    "Name": "Greenfelder Group",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 576,
-    "UdListDefinitionId": 132
+    "Rank": 219,
+    "UdListDefinitionId": 138
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Price, Collier and Rippin",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 886,
-    "UdListDefinitionId": 888,
+    "HeadingId": 979,
+    "Name": "Wisozk LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 262,
+    "UdListDefinitionId": 551,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 382
       }
     }
   }

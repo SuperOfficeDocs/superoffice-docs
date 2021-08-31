@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveWebPanelEntity
+title: SaveWebPanelEntity
 id: v1ListAgent_SaveWebPanelEntity
 ---
 
-# POST Agents/List/SaveWebPanelEntity
+# SaveWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/SaveWebPanelEntity
@@ -106,15 +106,15 @@ Response body: object
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 307,
-  "Name": "Kassulke, Mills and Metz",
-  "Tooltip": "ut",
+  "WebPanelId": 769,
+  "Name": "Corkery-Toy",
+  "Tooltip": "error",
   "Deleted": true,
-  "Rank": 896,
+  "Rank": 981,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -122,14 +122,14 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Kutch Inc and Sons",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Yost-McDermott",
   "Url": "http://www.example.com/",
-  "ProgId": "deleniti",
-  "Icon": 365
+  "ProgId": "distinctio",
+  "Icon": 293
 }
 ```
 
@@ -138,26 +138,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 572,
-  "Name": "Feeney Group",
-  "Tooltip": "eaque",
+  "WebPanelId": 326,
+  "Name": "Miller-Yundt",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 680,
+  "Rank": 142,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Windler, Lueilwitz and Steuber",
+  "WindowName": "Mohr Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 16,
+  "ProgId": "veritatis",
+  "Icon": 640,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 860
     }
   }
 }

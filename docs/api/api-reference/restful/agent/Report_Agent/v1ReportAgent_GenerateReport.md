@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/GenerateReport
+title: GenerateReport
 id: v1ReportAgent_GenerateReport
 ---
 
-# POST Agents/Report/GenerateReport
+# GenerateReport
 
 ```http
 POST /api/v1/Agents/Report/GenerateReport
@@ -73,26 +73,26 @@ Response body: string
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 222,
-  "LabelLayoutId": 946,
-  "Filename": "facilis",
-  "Language": "consequatur",
-  "FileType": "quidem",
+  "ReportId": 316,
+  "LabelLayoutId": 546,
+  "Filename": "aut",
+  "Language": "dignissimos",
+  "FileType": "omnis",
   "Restrictions": [
     {
-      "Name": "Kemmer-Sporer",
-      "Operator": "numquam",
+      "Name": "Hickle Inc and Sons",
+      "Operator": "repellat",
       "Values": [
-        "assumenda",
-        "quo"
+        "autem",
+        "quisquam"
       ],
       "DisplayValues": [
-        "est",
-        "placeat"
+        "delectus",
+        "pariatur"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 692,
+      "InterParenthesis": 863,
       "InterOperator": "And",
-      "UniqueHash": 306
+      "UniqueHash": 237
     }
   ]
 }
@@ -112,5 +112,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"possimus"
+"fugiat"
 ```

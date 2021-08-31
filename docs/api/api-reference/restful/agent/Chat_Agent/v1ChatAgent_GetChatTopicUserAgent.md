@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/GetChatTopicUserAgent
+title: GetChatTopicUserAgent
 id: v1ChatAgent_GetChatTopicUserAgent
 ---
 
-# POST Agents/Chat/GetChatTopicUserAgent
+# GetChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
@@ -86,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 790,
-  "Username": "similique"
+  "ChatTopicId": 162,
+  "Username": "aut"
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 106,
+  "TopicId": 230,
   "User": {
-    "AssociateId": 768,
-    "Name": "Boehm Group",
-    "PersonId": 774,
-    "Rank": 272,
-    "Tooltip": "omnis",
+    "AssociateId": 361,
+    "Name": "Emmerich-Schowalter",
+    "PersonId": 552,
+    "Rank": 315,
+    "Tooltip": "neque",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 292,
-    "FullName": "Ronny D'Amore III",
-    "FormalName": "Larkin, Reinger and Hickle",
-    "Deleted": false,
-    "EjUserId": 970,
-    "UserName": "McDermott-Rau",
+    "GroupIdx": 41,
+    "FullName": "Heidi Walsh",
+    "FormalName": "Sawayn, Quitzon and Fisher",
+    "Deleted": true,
+    "EjUserId": 682,
+    "UserName": "Braun-Carroll",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,11 +118,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldLength": 127
       }
     }
   },
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": false,
   "CanManage": true,
   "CanNotify": false

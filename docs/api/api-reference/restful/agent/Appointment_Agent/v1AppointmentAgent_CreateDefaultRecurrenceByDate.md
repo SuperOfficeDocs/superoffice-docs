@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CreateDefaultRecurrenceByDate
+title: CreateDefaultRecurrenceByDate
 id: v1AppointmentAgent_CreateDefaultRecurrenceByDate
 ---
 
-# POST Agents/Appointment/CreateDefaultRecurrenceByDate
+# CreateDefaultRecurrenceByDate
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2003-09-14T16:48:28.6734542+02:00"
+  "StartDate": "2019-06-06T14:58:02.9475409+02:00"
 }
 ```
 
@@ -95,48 +95,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 139,
-  "StartDate": "2007-07-13T16:48:28.6734542+02:00",
-  "EndDate": "2007-08-28T16:48:28.6734542+02:00",
-  "RecurrenceCounter": 816,
+  "RecurrenceId": 401,
+  "StartDate": "2014-01-22T14:58:02.9485416+01:00",
+  "EndDate": "2000-11-09T14:58:02.9485416+01:00",
+  "RecurrenceCounter": 48,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 160
+    "Cycle": 838
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 123
+    "Cycle": 7
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 399,
-    "Day": 903,
+    "Cycle": 136,
+    "Day": 247,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 222,
-    "Day": 409,
+    "Cycle": 473,
+    "Day": 744,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "2017-08-03T16:48:28.6734542+02:00",
+      "Date": "2017-04-12T14:58:02.9485416+02:00",
       "IsConflict": true,
-      "Description": "Customer-focused regional flexibility",
-      "DescriptionStyleHint": "Universal real-time support",
-      "Tooltip": "debitis"
+      "Description": "Optional web-enabled website",
+      "DescriptionStyleHint": "Open-source 6th generation secured line",
+      "Tooltip": "est"
     },
     {
-      "Date": "2017-08-03T16:48:28.6734542+02:00",
+      "Date": "2017-04-12T14:58:02.9485416+02:00",
       "IsConflict": true,
-      "Description": "Customer-focused regional flexibility",
-      "DescriptionStyleHint": "Universal real-time support",
-      "Tooltip": "debitis"
+      "Description": "Optional web-enabled website",
+      "DescriptionStyleHint": "Open-source 6th generation secured line",
+      "Tooltip": "est"
     }
   ],
   "IsRecurrence": true

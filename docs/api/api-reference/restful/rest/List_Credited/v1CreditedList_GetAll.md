@@ -24,7 +24,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Russel Group",
-    "Tooltip": "officia",
+    "Id": 115,
+    "Name": "Wiegand Inc and Sons",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 611,
-    "Rank": 427,
+    "UdListDefinitionId": 372,
+    "Rank": 903,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 423
       }
     }
   }

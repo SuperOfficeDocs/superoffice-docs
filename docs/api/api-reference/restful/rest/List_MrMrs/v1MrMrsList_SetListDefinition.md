@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Cormier Group",
+  "Id": 719,
+  "Name": "Cremin Group",
   "Tooltip": "culpa",
   "Deleted": true,
-  "Rank": 68,
+  "Rank": 368,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Conroy Inc and Sons",
-  "Tooltip": "et",
+  "Id": 482,
+  "Name": "Durgan-Kris",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 245,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 834,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "repellendus",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "exploit dynamic bandwidth"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "aggregate mission-critical convergence"
       },
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

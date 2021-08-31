@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailSOInfo
+title: GetEMailSOInfo
 id: v1EMailAgent_GetEMailSOInfo
 ---
 
-# POST Agents/EMail/GetEMailSOInfo
+# GetEMailSOInfo
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailSOInfo
@@ -27,7 +27,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=983
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=613
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -88,17 +88,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 243,
-  "AppointmentId": 266,
-  "ProjectId": 194,
-  "SaleId": 99,
-  "Archived": false,
-  "ArchivedAt": "2020-09-10T16:48:29.548925+02:00",
-  "ArchivedBy": 580,
-  "ArchivedDisplayName": "Cassin, Armstrong and Sipes",
+  "DocumentId": 624,
+  "AppointmentId": 12,
+  "ProjectId": 32,
+  "SaleId": 894,
+  "Archived": true,
+  "ArchivedAt": "2002-07-22T14:58:04.1034306+02:00",
+  "ArchivedBy": 849,
+  "ArchivedDisplayName": "Hyatt Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "optimize frictionless convergence"
   },
   "FieldProperties": {
     "fieldName": {
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 419
     }
   }
 }

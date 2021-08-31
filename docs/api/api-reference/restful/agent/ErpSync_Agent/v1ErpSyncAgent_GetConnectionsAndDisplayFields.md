@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetConnectionsAndDisplayFields
+title: GetConnectionsAndDisplayFields
 id: v1ErpSyncAgent_GetConnectionsAndDisplayFields
 ---
 
-# POST Agents/ErpSync/GetConnectionsAndDisplayFields
+# GetConnectionsAndDisplayFields
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 105
+  "EntityId": 774
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 272,
-    "ConnectionName": "Prohaska-Wolf",
-    "Connected": true,
+    "ErpConnectionId": 808,
+    "ConnectionName": "Gerlach-D'Amore",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "beatae",
-        "Rank": 237,
-        "DisplayName": "Morissette Inc and Sons",
-        "DisplayDescription": "Fully-configurable directional focus group",
+        "FieldKey": "autem",
+        "Rank": 444,
+        "DisplayName": "Dibbert, Greenfelder and Wiza",
+        "DisplayDescription": "Object-based needs-based software",
         "FieldType": "Checkbox",
-        "ListName": "Balistreri, Schamberger and Nitzsche",
-        "DefaultValue": "consequatur",
-        "MaxLength": 459,
+        "ListName": "Cassin Group",
+        "DefaultValue": "doloribus",
+        "MaxLength": 140,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "architect leading-edge users"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 907
+            "FieldType": "System.Int32",
+            "FieldLength": 997
           }
         }
       }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "ut",
-      "libero"
+      "placeat",
+      "illum"
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 540
       }
     }
   }

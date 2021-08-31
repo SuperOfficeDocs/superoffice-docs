@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/WebAppUsageExistsInPeriod
+title: WebAppUsageExistsInPeriod
 id: v1DiagnosticsAgent_WebAppUsageExistsInPeriod
 ---
 
-# POST Agents/Diagnostics/WebAppUsageExistsInPeriod
+# WebAppUsageExistsInPeriod
 
 ```http
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
@@ -70,13 +70,13 @@ Response body: bool
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 538,
-  "ViewState": "saepe",
-  "FromDate": "2020-05-27T16:48:29.2468945+02:00"
+  "AssociateId": 994,
+  "ViewState": "provident",
+  "FromDate": "2017-04-23T14:58:03.8054644+02:00"
 }
 ```
 

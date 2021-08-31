@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/ExecuteByEntityIds
+title: ExecuteByEntityIds
 id: v1BulkUpdateAgent_ExecuteByEntityIds
 ---
 
-# POST Agents/BulkUpdate/ExecuteByEntityIds
+# ExecuteByEntityIds
 
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
@@ -71,36 +71,36 @@ Response body: int32
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "ea",
-      "ValueType": "et",
+      "Key": "qui",
+      "ValueType": "odit",
       "Mandatory": true,
-      "EncodedDisplayName": "Barrows-Rippin",
-      "EncodedDisplayDescription": "Multi-layered exuding initiative",
-      "IconHint": "quia",
+      "EncodedDisplayName": "Wolf, Bins and Walter",
+      "EncodedDisplayDescription": "Focused tertiary website",
+      "IconHint": "laborum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "non",
-      "EncodedDataCaptionDescription": "Object-based transitional website",
-      "CurrentOperationType": "quo",
+      "EncodedDataCaption": "illum",
+      "EncodedDataCaptionDescription": "Streamlined impactful functionalities",
+      "CurrentOperationType": "quod",
       "Values": [
-        "voluptates",
-        "voluptatem"
+        "esse",
+        "numquam"
       ],
       "DisplayValues": [
-        "et",
-        "mollitia"
+        "doloremque",
+        "ullam"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Doyle Group",
-  "Context": "qui",
-  "Ids": "sunt"
+  "TableName": "Flatley, Hyatt and Kunde",
+  "Context": "animi",
+  "Ids": "natus"
 }
 ```
 
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-918
+359
 ```

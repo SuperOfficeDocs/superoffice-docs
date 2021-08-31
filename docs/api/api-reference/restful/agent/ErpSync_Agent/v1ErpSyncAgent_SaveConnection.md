@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SaveConnection
+title: SaveConnection
 id: v1ErpSyncAgent_SaveConnection
 ---
 
-# POST Agents/ErpSync/SaveConnection
+# SaveConnection
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnection
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Connection": {
-    "ErpConnectionId": 66,
-    "ErpConnectorId": 576,
-    "DisplayName": "Weimann, Kohler and Kuphal",
-    "DisplayDescription": "Progressive high-level time-frame",
-    "Active": false,
-    "ConnectionId": "adipisci",
-    "MostRecentTimestamp": "dolor",
+    "ErpConnectionId": 354,
+    "ErpConnectorId": 763,
+    "DisplayName": "Haley-Murphy",
+    "DisplayDescription": "Public-key multi-state database",
+    "Active": true,
+    "ConnectionId": "beatae",
+    "MostRecentTimestamp": "est",
     "ConfigFields": {
-      "ConfigFields1": "repudiandae",
-      "ConfigFields2": "voluptatem"
+      "ConfigFields1": "nihil",
+      "ConfigFields2": "consectetur"
     },
     "Deleted": false,
     "AllAccess": true,
     "UserGroupAccessIds": [
-      795,
-      222
+      418,
+      12
     ],
     "AssociateAccessIds": [
-      594,
-      768
+      897,
+      353
     ]
   }
 }
@@ -126,26 +126,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 983,
-  "ErpConnectorId": 134,
-  "DisplayName": "Mosciski LLC",
-  "DisplayDescription": "Polarised contextually-based local area network",
+  "ErpConnectionId": 785,
+  "ErpConnectorId": 433,
+  "DisplayName": "Kling, Jast and Lehner",
+  "DisplayDescription": "Enhanced analyzing instruction set",
   "Active": false,
-  "ConnectionId": "eum",
-  "MostRecentTimestamp": "placeat",
+  "ConnectionId": "voluptatem",
+  "MostRecentTimestamp": "molestiae",
   "ConfigFields": {
-    "ConfigFields1": "aut",
-    "ConfigFields2": "iusto"
+    "ConfigFields1": "maiores",
+    "ConfigFields2": "voluptatem"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    997,
-    373
+    550,
+    677
   ],
   "AssociateAccessIds": [
-    205,
-    15
+    247,
+    59
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

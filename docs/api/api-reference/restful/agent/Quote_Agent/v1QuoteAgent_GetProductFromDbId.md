@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetProductFromDbId
+title: GetProductFromDbId
 id: v1QuoteAgent_GetProductFromDbId
 ---
 
-# POST Agents/Quote/GetProductFromDbId
+# GetProductFromDbId
 
 ```http
 POST /api/v1/Agents/Quote/GetProductFromDbId
@@ -111,11 +111,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 236
+  "ProductId": 974
 }
 ```
 
@@ -124,36 +124,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 469,
-  "ERPProductKey": "temporibus",
-  "ERPPriceListKey": "hic",
-  "Name": "Gulgowski, Weissnat and Cormier",
-  "Description": "Innovative secondary emulation",
-  "Code": "rerum",
-  "PriceUnit": "tempore",
-  "QuantityUnit": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "tenetur",
-  "DefaultSubscriptionQuantity": 29425.126,
-  "ItemNumber": "1045609",
+  "ProductId": 492,
+  "ERPProductKey": "fugiat",
+  "ERPPriceListKey": "ipsa",
+  "Name": "Lakin Inc and Sons",
+  "Description": "Innovative impactful website",
+  "Code": "architecto",
+  "PriceUnit": "sit",
+  "QuantityUnit": "cum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fugiat",
+  "DefaultSubscriptionQuantity": 23075.642,
+  "ItemNumber": "1381928",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "molestiae",
-  "VAT": 17243.268,
-  "VATInfo": "quo",
-  "UnitCost": 6741.2339999999995,
-  "UnitMinimumPrice": 7305.3539999999994,
-  "UnitListPrice": 11078.69,
+  "ProductFamilyKey": "nostrum",
+  "ProductTypeKey": "ea",
+  "VAT": 19612.572,
+  "VATInfo": "non",
+  "UnitCost": 3394.122,
+  "UnitMinimumPrice": 18581.486,
+  "UnitListPrice": 27096.564,
   "InAssortment": false,
-  "Supplier": "cumque",
-  "SupplierCode": "aut",
-  "Rights": "ut",
-  "Rule": "eos",
+  "Supplier": "porro",
+  "SupplierCode": "sapiente",
+  "Rights": "sit",
+  "Rule": "illum",
   "ExtraInfo": [
     {
-      "Name": "Dickens Inc and Sons",
-      "Value": "et",
+      "Name": "Kutch, Little and Kiehn",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -163,13 +163,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 104
         }
       }
     },
     {
-      "Name": "Dickens Inc and Sons",
-      "Value": "et",
+      "Name": "Kutch, Little and Kiehn",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -179,18 +179,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 104
         }
       }
     }
   ],
-  "RawExtraInfo": "reiciendis",
-  "ExtraField1": "magnam",
-  "ExtraField2": "aut",
-  "ExtraField3": "accusantium",
-  "ExtraField4": "reprehenderit",
-  "ExtraField5": "unde",
-  "InStock": 18791.464,
+  "RawExtraInfo": "corrupti",
+  "ExtraField1": "sequi",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "omnis",
+  "ExtraField4": "quia",
+  "ExtraField5": "ea",
+  "InStock": 12335.423999999999,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -201,8 +201,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

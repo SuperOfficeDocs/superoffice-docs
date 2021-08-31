@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/DeleteConnection
+title: DeleteConnection
 id: v1QuoteAgent_DeleteConnection
 ---
 
-# POST Agents/Quote/DeleteConnection
+# DeleteConnection
 
 ```http
 POST /api/v1/Agents/Quote/DeleteConnection

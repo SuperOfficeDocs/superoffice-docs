@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Webhook/GetLastError
+title: GetLastError
 id: v1WebhookAgent_GetLastError
 ---
 
-# POST Agents/Webhook/GetLastError
+# GetLastError
 
 ```http
 POST /api/v1/Agents/Webhook/GetLastError
@@ -70,11 +70,11 @@ Response body: string
 POST /api/v1/Agents/Webhook/GetLastError
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 765
+  "WebhookId": 325
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"quisquam"
 ```

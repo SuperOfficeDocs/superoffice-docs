@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/GetAssociateByPersonId
+title: GetAssociateByPersonId
 id: v1AssociateAgent_GetAssociateByPersonId
 ---
 
-# POST Agents/Associate/GetAssociateByPersonId
+# GetAssociateByPersonId
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
@@ -89,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 894
+  "PersonId": 859
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 588,
-  "Name": "Rohan-Roob",
-  "PersonId": 853,
-  "Rank": 70,
-  "Tooltip": "qui",
+  "AssociateId": 739,
+  "Name": "Schuppe Inc and Sons",
+  "PersonId": 362,
+  "Rank": 659,
+  "Tooltip": "voluptatem",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 931,
-  "FullName": "Mr. Jewel Jaskolski",
-  "FormalName": "Veum, Botsford and Paucek",
-  "Deleted": true,
-  "EjUserId": 119,
-  "UserName": "Armstrong-Ebert",
+  "GroupIdx": 50,
+  "FullName": "Daisha Mayer",
+  "FormalName": "Bailey-McClure",
+  "Deleted": false,
+  "EjUserId": 380,
+  "UserName": "Trantow-Stanton",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 741
     }
   }
 }

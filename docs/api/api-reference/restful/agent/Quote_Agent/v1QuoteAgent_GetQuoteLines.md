@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteLines
+title: GetQuoteLines
 id: v1QuoteAgent_GetQuoteLines
 ---
 
-# POST Agents/Quote/GetQuoteLines
+# GetQuoteLines
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLines
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 279
+  "QuoteAlternativeId": 49
 }
 ```
 
@@ -135,37 +135,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 818,
-    "ERPQuoteLineKey": "harum",
-    "QuoteAlternativeId": 792,
-    "ERPProductKey": "sequi",
+    "QuoteLineId": 429,
+    "ERPQuoteLineKey": "quia",
+    "QuoteAlternativeId": 148,
+    "ERPProductKey": "ea",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 15099.612,
-    "DeliveredQuantity": 6164.5779999999995,
-    "Rank": 185,
-    "Name": "Cassin, Wunsch and Raynor",
-    "Description": "Synchronised cohesive structure",
-    "Code": "laborum",
-    "QuantityUnit": "quidem",
-    "PriceUnit": "aut",
-    "ItemNumber": "1123148",
+    "Quantity": 12388.702,
+    "DeliveredQuantity": 8283.162,
+    "Rank": 733,
+    "Name": "Marquardt-Feest",
+    "Description": "Compatible bandwidth-monitored system engine",
+    "Code": "et",
+    "QuantityUnit": "voluptatibus",
+    "PriceUnit": "et",
+    "ItemNumber": "1012716",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "est",
-    "ProductTypeKey": "perspiciatis",
-    "Supplier": "officiis",
-    "SupplierCode": "saepe",
-    "Thumbnail": "aut",
-    "VATInfo": "dicta",
-    "VAT": 22119.772,
-    "UnitCost": 11197.782,
-    "UnitMinimumPrice": 10661.868,
-    "UnitListPrice": 26670.34,
+    "ProductFamilyKey": "neque",
+    "ProductTypeKey": "voluptatibus",
+    "Supplier": "perspiciatis",
+    "SupplierCode": "illum",
+    "Thumbnail": "debitis",
+    "VATInfo": "repudiandae",
+    "VAT": 28629.09,
+    "UnitCost": 6957.48,
+    "UnitMinimumPrice": 29409.456,
+    "UnitListPrice": 18512.538,
     "ExtraInfo": [
       {
-        "Name": "Hackett-Kuhlman",
-        "Value": "deserunt",
+        "Name": "Boyer, Mayer and Kovacek",
+        "Value": "culpa",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
@@ -175,13 +175,13 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 65
+            "FieldLength": 735
           }
         }
       },
       {
-        "Name": "Hackett-Kuhlman",
-        "Value": "deserunt",
+        "Name": "Boyer, Mayer and Kovacek",
+        "Value": "culpa",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
@@ -191,32 +191,32 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 65
+            "FieldLength": 735
           }
         }
       }
     ],
-    "RawExtraInfo": "vero",
+    "RawExtraInfo": "et",
     "IsSubscription": true,
-    "SubscriptionUnit": "itaque",
-    "SubscriptionQuantity": 25852.365999999998,
-    "SubscriptionStart": "2003-02-16T16:48:30.4059354+01:00",
-    "ERPDiscountPercent": 22624.345999999998,
-    "ERPDiscountAmount": 27619.942,
-    "DiscountPercent": 4318.652,
-    "DiscountAmount": 14068.526,
+    "SubscriptionUnit": "quo",
+    "SubscriptionQuantity": 29544.218,
+    "SubscriptionStart": "2010-10-09T14:58:04.9854647+02:00",
+    "ERPDiscountPercent": 836.778,
+    "ERPDiscountAmount": 7615.62,
+    "DiscountPercent": 28300.02,
+    "DiscountAmount": 12792.988,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 3206.082,
-    "EarningAmount": 9737.338,
-    "SubTotal": 23072.507999999998,
-    "TotalPrice": 7255.21,
-    "Rights": "est",
-    "Rule": "fugit",
-    "ExtraField1": "assumenda",
-    "ExtraField2": "ipsa",
-    "ExtraField3": "beatae",
-    "ExtraField4": "est",
-    "ExtraField5": "incidunt",
+    "EarningPercent": 22517.79,
+    "EarningAmount": 28801.46,
+    "SubTotal": 24558.023999999998,
+    "TotalPrice": 10574.116,
+    "Rights": "nam",
+    "Rule": "perferendis",
+    "ExtraField1": "quos",
+    "ExtraField2": "ratione",
+    "ExtraField3": "ut",
+    "ExtraField4": "et",
+    "ExtraField5": "explicabo",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Pocket/RegisterDeviceForPushNotification
+title: RegisterDeviceForPushNotification
 id: v1PocketAgent_RegisterDeviceForPushNotification
 ---
 
-# POST Agents/Pocket/RegisterDeviceForPushNotification
+# RegisterDeviceForPushNotification
 
 ```http
 POST /api/v1/Agents/Pocket/RegisterDeviceForPushNotification

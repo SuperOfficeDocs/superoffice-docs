@@ -106,51 +106,51 @@ Response body: object
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 662,
-  "Name": "Streich-Lynch",
-  "Tooltip": "numquam",
-  "Rank": 861,
+  "SaleTypeId": 796,
+  "Name": "Homenick LLC",
+  "Tooltip": "sed",
+  "Rank": 522,
   "DurationUnit": "Century",
-  "SaleDuration": 600,
-  "SaleTypeCatId": 622,
+  "SaleDuration": 240,
+  "SaleTypeCatId": 400,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 565,
-  "QuoteLinesTemplate": 816,
-  "ConfirmationLinesTemplate": 368,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 104,
-  "MinEarningPercent": 894,
-  "GroupQuoteLinesBy": 635,
-  "SortGroupLinesBy": 250,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 717,
+  "QuoteLinesTemplate": 795,
+  "ConfirmationLinesTemplate": 105,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 243,
+  "MinEarningPercent": 434,
+  "GroupQuoteLinesBy": 294,
+  "SortGroupLinesBy": 792,
   "Stages": [
     {
-      "Id": 948,
-      "Name": "Langworth Inc and Sons",
-      "ToolTip": "Sunt alias ex unde consequatur dolores a.",
+      "Id": 917,
+      "Name": "Reinger LLC",
+      "ToolTip": "Rem sequi architecto dicta perferendis.",
       "Deleted": false,
-      "Rank": 917,
-      "Type": "aut",
-      "ColorBlock": 290,
-      "IconHint": "eius",
-      "Selected": true,
-      "LastChanged": "1997-11-24T09:41:00.7263893+01:00",
+      "Rank": 216,
+      "Type": "nesciunt",
+      "ColorBlock": 867,
+      "IconHint": "culpa",
+      "Selected": false,
+      "LastChanged": "1999-12-29T15:05:43.7871195+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "provident",
-      "StyleHint": "voluptatum",
+      "ExtraInfo": "omnis",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Mrs. Elsie Harvey"
+      "FullName": "Lolita Walsh"
     }
   ]
 }
@@ -161,47 +161,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 960,
-  "Name": "Kerluke, Wunsch and Bauch",
-  "Tooltip": "explicabo",
-  "Rank": 471,
+  "SaleTypeId": 850,
+  "Name": "Thompson, Mueller and Paucek",
+  "Tooltip": "voluptatem",
+  "Rank": 428,
   "DurationUnit": "Century",
-  "SaleDuration": 945,
-  "SaleTypeCatId": 598,
-  "Deleted": true,
+  "SaleDuration": 952,
+  "SaleTypeCatId": 609,
+  "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 660,
-  "QuoteLinesTemplate": 632,
-  "ConfirmationLinesTemplate": 465,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 31,
-  "MinEarningPercent": 138,
-  "GroupQuoteLinesBy": 953,
-  "SortGroupLinesBy": 345,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 848,
+  "QuoteLinesTemplate": 114,
+  "ConfirmationLinesTemplate": 619,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 823,
+  "MinEarningPercent": 114,
+  "GroupQuoteLinesBy": 902,
+  "SortGroupLinesBy": 796,
   "Stages": [
     {
-      "Id": 585,
-      "Name": "Ledner Inc and Sons",
-      "ToolTip": "Dolor praesentium sed ducimus.",
-      "Deleted": false,
-      "Rank": 101,
-      "Type": "optio",
-      "ColorBlock": 727,
-      "IconHint": "sint",
+      "Id": 962,
+      "Name": "Beahan Inc and Sons",
+      "ToolTip": "Possimus odio doloribus.",
+      "Deleted": true,
+      "Rank": 836,
+      "Type": "consequatur",
+      "ColorBlock": 812,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "1996-09-01T09:41:00.7273859+02:00",
+      "LastChanged": "1999-11-20T15:05:43.7881244+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "sit",
-      "Hidden": false,
-      "FullName": "Brisa Will V",
+      "ExtraInfo": "velit",
+      "StyleHint": "voluptates",
+      "Hidden": true,
+      "FullName": "Clinton Hudson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 141
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldLength": 726
     }
   }
 }

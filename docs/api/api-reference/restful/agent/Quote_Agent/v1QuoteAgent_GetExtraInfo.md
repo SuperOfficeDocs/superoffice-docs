@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetExtraInfo
+title: GetExtraInfo
 id: v1QuoteAgent_GetExtraInfo
 ---
 
-# POST Agents/Quote/GetExtraInfo
+# GetExtraInfo
 
 ```http
 POST /api/v1/Agents/Quote/GetExtraInfo
@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "recusandae"
+  "QuoteLineExtraData": "aut"
 }
 ```
 
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ratke LLC",
-    "Value": "velit",
+    "Name": "Batz, Hackett and Lockman",
+    "Value": "quam",
     "Type": "Image",
     "TableRight": {
       "Mask": "Delete",
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldLength": 21
       }
     }
   },
   {
-    "Name": "Ratke LLC",
-    "Value": "velit",
+    "Name": "Batz, Hackett and Lockman",
+    "Value": "quam",
     "Type": "Image",
     "TableRight": {
       "Mask": "Delete",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldLength": 21
       }
     }
   }

@@ -67,22 +67,25 @@ Response body: object
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -101,14 +104,14 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 174,
-  "Name": "Runte, Yost and Schmeler",
-  "Description": "Progressive tangible extranet",
-  "WelcomeMessage": "omnis",
+  "ChatTopicId": 788,
+  "Name": "Schaden, Wehner and Wintheiser",
+  "Description": "Object-based systematic workforce",
+  "WelcomeMessage": "vel",
   "Language": {
-    "Id": 16,
-    "Value": "amet",
-    "Tooltip": "unde",
+    "Id": 78,
+    "Value": "ea",
+    "Tooltip": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -116,30 +119,31 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldType": "System.String",
+        "FieldLength": 323
       }
     }
   },
-  "LastAccept": "2004-10-27T09:40:58.8363697+02:00",
-  "SecondsPrAccept": 642,
-  "AlertRecipient": "deleniti",
+  "LastAccept": "2001-04-28T15:05:41.7730057+02:00",
+  "SecondsPrAccept": 515,
+  "AlertRecipient": "dolorem",
   "AlertTemplate": {
-    "ReplyTemplateId": 15,
-    "Name": "Runte-Hauck",
-    "Description": "Intuitive system-worthy extranet",
-    "FolderId": 133
+    "ReplyTemplateId": 441,
+    "Name": "Legros, Swaniawski and Mitchell",
+    "Description": "Integrated leading edge strategy",
+    "FolderId": 497
   },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "unde",
-  "CustomQueueText": "sapiente",
-  "WarnNewChatSeconds": 669,
-  "WarnManagerNewChatSeconds": 92,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "velit",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "doloribus",
+  "WarnNewChatMinutes": 429,
+  "WarnManagerNewChatMinutes": 21,
+  "TicketEnabled": true,
   "TicketCategory": {
-    "Id": 23,
-    "Value": "occaecati",
-    "Tooltip": "veniam",
+    "Id": 608,
+    "Value": "expedita",
+    "Tooltip": "qui",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -147,73 +151,88 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldType": "System.String",
+        "FieldLength": 593
       }
     }
   },
   "TicketPriority": {
-    "Id": 387,
-    "Value": "cumque",
-    "Tooltip": "asperiores",
+    "Id": 961,
+    "Value": "harum",
+    "Tooltip": "voluptatum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "engage bleeding-edge deliverables"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 165
       }
     }
   },
   "OpeningHoursEnabled": true,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": true,
-    "MonStart": "2009-03-02T09:40:58.8373714+01:00",
-    "MonStop": "2010-07-19T09:40:58.8373714+02:00",
+    "MonEnabled": false,
+    "MonStart": "id",
+    "MonStop": "excepturi",
     "TueEnabled": false,
-    "TueStart": "2005-10-01T09:40:58.8373714+02:00",
-    "TueStop": "2009-11-27T09:40:58.8373714+01:00",
-    "WedEnabled": false,
-    "WedStart": "2011-03-14T09:40:58.8373714+01:00",
-    "WedStop": "2005-02-26T09:40:58.8373714+01:00",
+    "TueStart": "velit",
+    "TueStop": "animi",
+    "WedEnabled": true,
+    "WedStart": "ipsum",
+    "WedStop": "nisi",
     "ThuEnabled": false,
-    "ThuStart": "2018-11-11T09:40:58.8373714+01:00",
-    "ThuStop": "2002-10-03T09:40:58.8373714+02:00",
+    "ThuStart": "dolorem",
+    "ThuStop": "consectetur",
     "FriEnabled": true,
-    "FriStart": "1995-11-10T09:40:58.8373714+01:00",
-    "FriStop": "2017-12-02T09:40:58.8373714+01:00",
-    "SatEnabled": false,
-    "SatStart": "2015-11-28T09:40:58.8373714+01:00",
-    "SatStop": "2008-12-04T09:40:58.8373714+01:00",
+    "FriStart": "at",
+    "FriStop": "mollitia",
+    "SatEnabled": true,
+    "SatStart": "minima",
+    "SatStop": "est",
     "SunEnabled": false,
-    "SunStart": "2003-07-09T09:40:58.8373714+02:00",
-    "SunStop": "2002-10-02T09:40:58.8373714+02:00"
+    "SunStart": "dolorem",
+    "SunStop": "iure",
+    "UseLunchHours": true,
+    "LunchStart": "reprehenderit",
+    "LunchStop": "eum"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
     "PreFormEnabled": false,
-    "PreFormMessage": "impedit",
+    "PreFormMessage": "voluptatem",
     "RequiredFields": "Company",
-    "PostFormEnabled": true,
-    "PostFormHeader": "sint",
-    "PostFormMessage": "repudiandae",
+    "PostFormEnabled": false,
+    "PostFormHeader": "sit",
+    "PostFormMessage": "sunt",
     "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "nobis",
+    "LanguageIsoCode": "accusamus",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "ut",
-    "Font": "repellat",
-    "ShowLogo": false,
+    "Color": "in",
+    "Font": "aliquam",
+    "LogoEnabled": true,
+    "LogoBlobId": 721,
+    "LogoName": "Toy, Walsh and Pfeffer",
     "ShowAgentPhoto": true,
-    "WelcomeTitle": "quibusdam",
-    "WelcomeMessage": "et",
-    "OfflineHeader": "distinctio",
-    "OfflineMessage": "doloribus",
-    "OfflineFields": "Company"
+    "WelcomeTitle": "dolor",
+    "WelcomeMessage": "adipisci",
+    "OfflineHeader": "laudantium",
+    "OfflineMessage": "explicabo",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": false
+  },
+  "BotEnabled": false,
+  "BotSettings": {
+    "BotName": "Hamill, Weber and Collins",
+    "BotRegisterScriptId": 530,
+    "BotSessionCreatedScriptId": 573,
+    "BotSessionChangedScriptId": 949,
+    "BotMessageReceivedScriptId": 899
   },
   "TableRight": {
     "Mask": "Delete",
@@ -226,7 +245,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldLength": 753
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/SaveSaleStakeholder
+title: SaveSaleStakeholder
 id: v1SaleAgent_SaveSaleStakeholder
 ---
 
-# POST Agents/Sale/SaveSaleStakeholder
+# SaveSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
@@ -100,29 +100,29 @@ Response body: object
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Thiel LLC",
-  "Comment": "ipsam",
-  "StakeholderRoleId": 759,
-  "CountryId": 955,
-  "PersonId": 877,
-  "EmailDescription": "madalyn@abbott.ca",
-  "EmailId": 107,
-  "EmailAddress": "nico@abshire.us",
-  "PhoneId": 109,
-  "ContactName": "Heaney, Stanton and Becker",
-  "ContactId": 227,
-  "SaleId": 187,
-  "Mrmrs": "dolore",
-  "Firstname": "Wilhelm",
-  "MiddleName": "Swaniawski LLC",
-  "Lastname": "Lind",
-  "SaleStakeholderId": 672,
-  "Rank": 528,
-  "Phone": "045-244-4282 x58701"
+  "StakeholderRoleName": "Breitenberg Group",
+  "Comment": "qui",
+  "StakeholderRoleId": 363,
+  "CountryId": 925,
+  "PersonId": 580,
+  "EmailDescription": "taya@marvin.info",
+  "EmailId": 353,
+  "EmailAddress": "rasheed_brekke@stark.co.uk",
+  "PhoneId": 228,
+  "ContactName": "Pouros LLC",
+  "ContactId": 619,
+  "SaleId": 195,
+  "Mrmrs": "quis",
+  "Firstname": "Charlotte",
+  "MiddleName": "McKenzie-Ankunding",
+  "Lastname": "Torphy",
+  "SaleStakeholderId": 106,
+  "Rank": 421,
+  "Phone": "051.800.5708 x6443"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Blick, Denesik and Abshire",
-  "Comment": "aut",
-  "StakeholderRoleId": 628,
-  "CountryId": 596,
-  "PersonId": 796,
-  "EmailDescription": "kevin@lemkelueilwitz.uk",
-  "EmailId": 948,
-  "EmailAddress": "cedrick@murazik.us",
-  "PhoneId": 371,
-  "ContactName": "Kub Group",
-  "ContactId": 170,
-  "SaleId": 934,
-  "Mrmrs": "sunt",
-  "Firstname": "Isabella",
-  "MiddleName": "Kiehn, Schumm and Baumbach",
-  "Lastname": "Schowalter",
-  "SaleStakeholderId": 921,
-  "Rank": 125,
-  "Phone": "621-721-2522",
+  "StakeholderRoleName": "Grant, Purdy and Marquardt",
+  "Comment": "iste",
+  "StakeholderRoleId": 379,
+  "CountryId": 516,
+  "PersonId": 126,
+  "EmailDescription": "lance@feeney.biz",
+  "EmailId": 181,
+  "EmailAddress": "trevor@cummingsdoyle.name",
+  "PhoneId": 404,
+  "ContactName": "Breitenberg-Padberg",
+  "ContactId": 434,
+  "SaleId": 509,
+  "Mrmrs": "quisquam",
+  "Firstname": "Makayla",
+  "MiddleName": "Glover-Franecki",
+  "Lastname": "Block",
+  "SaleStakeholderId": 326,
+  "Rank": 304,
+  "Phone": "101-057-4182 x541",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

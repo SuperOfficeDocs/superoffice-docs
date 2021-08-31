@@ -82,16 +82,16 @@ Response body: object
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Tremblay, McDermott and O'Reilly",
-  "Tooltip": "reprehenderit",
+  "Id": 770,
+  "Name": "Wiza Group",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 404,
-  "Rank": 649
+  "UdListDefinitionId": 413,
+  "Rank": 16
 }
 ```
 
@@ -100,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Kris-Huel",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 15,
-  "Rank": 460,
+  "Id": 107,
+  "Name": "Collins-Doyle",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "UdListDefinitionId": 750,
+  "Rank": 940,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   }
 }

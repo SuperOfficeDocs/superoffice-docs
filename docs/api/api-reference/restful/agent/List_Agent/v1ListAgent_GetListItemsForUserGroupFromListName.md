@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetListItemsForUserGroupFromListName
+title: GetListItemsForUserGroupFromListName
 id: v1ListAgent_GetListItemsForUserGroupFromListName
 ---
 
-# POST Agents/List/GetListItemsForUserGroupFromListName
+# GetListItemsForUserGroupFromListName
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Smith-Raynor",
-  "GroupId": 492
+  "UdListDefinitionName": "Hills Inc and Sons",
+  "GroupId": 104
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Greenfelder, McLaughlin and Monahan",
-    "ToolTip": "Dolores error qui nesciunt totam laudantium.",
+    "Id": 311,
+    "Name": "Dooley, Kling and Grimes",
+    "ToolTip": "Architecto nesciunt vero nemo.",
     "Deleted": false,
-    "Rank": 448,
-    "Type": "repudiandae",
-    "ColorBlock": 218,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2014-07-03T16:48:29.8819252+02:00",
+    "Rank": 353,
+    "Type": "voluptatem",
+    "ColorBlock": 450,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2012-10-23T14:58:04.421469+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Prohaska, Christiansen and King",
-        "ToolTip": "Et vero est ratione necessitatibus distinctio in.",
-        "Deleted": true,
-        "Rank": 828,
-        "Type": "excepturi",
-        "ColorBlock": 909,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2008-11-05T16:48:29.8819252+01:00",
+        "Id": 17,
+        "Name": "Ritchie, Pfeffer and Kuhn",
+        "ToolTip": "Molestiae perspiciatis est quaerat autem.",
+        "Deleted": false,
+        "Rank": 506,
+        "Type": "quam",
+        "ColorBlock": 631,
+        "IconHint": "possimus",
+        "Selected": false,
+        "LastChanged": "1999-01-30T14:58:04.421469+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Kurt Moore",
+        "ExtraInfo": "sequi",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Velda Gleason MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 113
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "eaque",
+    "StyleHint": "similique",
     "Hidden": true,
-    "FullName": "Samir Prosacco",
+    "FullName": "Verda Streich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 155
       }
     }
   }

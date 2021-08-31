@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/Save
+title: Save
 id: v1EMailAgent_Save
 ---
 
-# POST Agents/EMail/Save
+# Save
 
 ```http
 POST /api/v1/Agents/EMail/Save
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "veritatis",
-    "HTMLBody": "non",
+    "Subject": "ipsa",
+    "HTMLBody": "id",
     "From": {},
-    "Sent": "2000-07-25T16:48:29.5039269+02:00",
-    "Size": 900,
+    "Sent": "1994-07-22T14:58:04.1504304+02:00",
+    "Size": 631,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ut",
-    "PlainBody": "dolor",
+    "MessageID": "enim",
+    "PlainBody": "iste",
     "IsSent": false,
     "EMailSOInfo": {},
-    "ServerId": 432,
+    "ServerId": 350,
     "Attachments": [
       {},
       {}
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Stiedemann-Buckridge",
-    "EmailItemId": 420,
-    "AccountId": 943,
-    "ReceivedAt": "2013-05-21T16:48:29.5039269+02:00",
+    "FolderName": "Hammes LLC",
+    "EmailItemId": 689,
+    "AccountId": 466,
+    "ReceivedAt": "2010-03-23T14:58:04.1504304+01:00",
     "InReplyTo": {},
-    "RepliedAt": "2017-02-23T16:48:29.5039269+01:00",
+    "RepliedAt": "1996-10-01T14:58:04.1504304+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
@@ -162,72 +162,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 130,
-      "ContactName": "Willms LLC",
-      "PersonId": 311,
-      "PersonName": "Rohan Inc and Sons",
-      "AssociateId": 85,
-      "Address": "ipsa",
-      "EmailId": 380,
+      "ContactId": 522,
+      "ContactName": "Schroeder, Schmitt and Krajcik",
+      "PersonId": 507,
+      "PersonName": "Ratke-Rogahn",
+      "AssociateId": 973,
+      "Address": "neque",
+      "EmailId": 263,
       "DuplicatePersonIds": [
-        298,
-        210
+        350,
+        317
       ],
-      "Name": "Cole-Parisian",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 694
-        }
-      }
-    }
-  ],
-  "Cc": [
-    {
-      "ContactId": 456,
-      "ContactName": "Stokes, Wuckert and Leannon",
-      "PersonId": 972,
-      "PersonName": "Dickens, Walker and Senger",
-      "AssociateId": 323,
-      "Address": "aut",
-      "EmailId": 492,
-      "DuplicatePersonIds": [
-        742,
-        943
-      ],
-      "Name": "Flatley, Keebler and Cronin",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 883
-        }
-      }
-    }
-  ],
-  "Bcc": [
-    {
-      "ContactId": 56,
-      "ContactName": "Vandervort, Nienow and Jakubowski",
-      "PersonId": 920,
-      "PersonName": "Mills, Thiel and Senger",
-      "AssociateId": 675,
-      "Address": "aspernatur",
-      "EmailId": 640,
-      "DuplicatePersonIds": [
-        789,
-        127
-      ],
-      "Name": "Cole, Cronin and Donnelly",
+      "Name": "Yost Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -236,26 +182,80 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 805
         }
       }
     }
   ],
-  "Subject": "consectetur",
-  "HTMLBody": "voluptas",
+  "Cc": [
+    {
+      "ContactId": 991,
+      "ContactName": "Thiel Inc and Sons",
+      "PersonId": 673,
+      "PersonName": "Baumbach-Mills",
+      "AssociateId": 368,
+      "Address": "et",
+      "EmailId": 328,
+      "DuplicatePersonIds": [
+        209,
+        538
+      ],
+      "Name": "Trantow Inc and Sons",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 589
+        }
+      }
+    }
+  ],
+  "Bcc": [
+    {
+      "ContactId": 410,
+      "ContactName": "Corwin, Reichel and Koepp",
+      "PersonId": 126,
+      "PersonName": "Bailey Group",
+      "AssociateId": 857,
+      "Address": "consequatur",
+      "EmailId": 718,
+      "DuplicatePersonIds": [
+        953,
+        707
+      ],
+      "Name": "Denesik, Skiles and Ankunding",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "maximize world-class bandwidth"
+          },
+          "FieldType": "System.String",
+          "FieldLength": 142
+        }
+      }
+    }
+  ],
+  "Subject": "repellat",
+  "HTMLBody": "sunt",
   "From": {
-    "ContactId": 225,
-    "ContactName": "Wolf-Kub",
-    "PersonId": 299,
-    "PersonName": "Walsh, Schamberger and Beier",
-    "AssociateId": 339,
-    "Address": "consequatur",
-    "EmailId": 940,
+    "ContactId": 311,
+    "ContactName": "Lemke Inc and Sons",
+    "PersonId": 583,
+    "PersonName": "Reinger LLC",
+    "AssociateId": 208,
+    "Address": "placeat",
+    "EmailId": 580,
     "DuplicatePersonIds": [
-      720,
-      285
+      377,
+      849
     ],
-    "Name": "Schumm LLC",
+    "Name": "Williamson LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -263,27 +263,27 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 995
       }
     }
   },
-  "Sent": "2010-09-10T16:48:29.5069244+02:00",
-  "Size": 585,
+  "Sent": "1999-09-04T14:58:04.1524302+02:00",
+  "Size": 479,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "consectetur",
+  "MessageID": "eos",
+  "PlainBody": "repellendus",
   "IsSent": true,
   "EMailSOInfo": {
-    "DocumentId": 218,
-    "AppointmentId": 939,
-    "ProjectId": 47,
-    "SaleId": 381,
-    "Archived": true,
-    "ArchivedAt": "1998-01-19T16:48:29.5069244+01:00",
-    "ArchivedBy": 190,
-    "ArchivedDisplayName": "Cartwright, Rath and Zieme",
+    "DocumentId": 346,
+    "AppointmentId": 296,
+    "ProjectId": 931,
+    "SaleId": 419,
+    "Archived": false,
+    "ArchivedAt": "1995-08-19T14:58:04.1524302+02:00",
+    "ArchivedBy": 833,
+    "ArchivedDisplayName": "Hills-Huel",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -291,21 +291,21 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   },
-  "ServerId": 260,
+  "ServerId": 924,
   "Attachments": [
     {
-      "Description": "Adaptive user-facing artificial intelligence",
-      "Filename": "eos",
-      "Size": 349,
-      "Type": "eum",
-      "Encoding": "inventore",
-      "Id": "cum",
-      "Disposition": "illum",
+      "Description": "Organic contextually-based protocol",
+      "Filename": "reiciendis",
+      "Size": 651,
+      "Type": "velit",
+      "Encoding": "culpa",
+      "Id": "possimus",
+      "Disposition": "est",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
@@ -314,18 +314,18 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldType": "System.Int32",
+          "FieldLength": 789
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bernhard-Trantow",
+      "Name": "Barton, Klein and O'Connell",
       "Values": [
-        "pariatur",
-        "et"
+        "corporis",
+        "consequuntur"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -335,15 +335,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 773
         }
       }
     },
     {
-      "Name": "Bernhard-Trantow",
+      "Name": "Barton, Klein and O'Connell",
       "Values": [
-        "pariatur",
-        "et"
+        "corporis",
+        "consequuntur"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -353,28 +353,28 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 773
         }
       }
     }
   ],
-  "FolderName": "West Inc and Sons",
-  "EmailItemId": 655,
-  "AccountId": 225,
-  "ReceivedAt": "2016-10-13T16:48:29.5069244+02:00",
+  "FolderName": "Dare-Spinka",
+  "EmailItemId": 341,
+  "AccountId": 877,
+  "ReceivedAt": "2005-12-08T14:58:04.1534302+01:00",
   "InReplyTo": {
-    "ServerId": 906,
-    "MessageId": "nostrum",
-    "Subject": "accusamus",
+    "ServerId": 330,
+    "MessageId": "consequatur",
+    "Subject": "voluptatem",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "2020-10-06T16:48:29.5069244+02:00",
+    "Sent": "1997-06-20T14:58:04.1544306+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 376,
+    "Size": 42,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -383,18 +383,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 595
       }
     }
   },
-  "RepliedAt": "2004-02-18T16:48:29.5069244+01:00",
+  "RepliedAt": "2015-08-28T14:58:04.1544306+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "facilitate world-class markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -403,7 +403,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldLength": 991
     }
   }
 }

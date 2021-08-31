@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "Haag-Bartoletti",
-    "Tooltip": "eos",
+    "HeadingId": 86,
+    "Name": "Collier-Welch",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 768,
-    "UdListDefinitionId": 539,
+    "Rank": 936,
+    "UdListDefinitionId": 716,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "revolutionize intuitive markets"
         },
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

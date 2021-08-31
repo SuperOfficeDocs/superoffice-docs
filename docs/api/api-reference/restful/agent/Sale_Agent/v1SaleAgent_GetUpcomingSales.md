@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetUpcomingSales
+title: GetUpcomingSales
 id: v1SaleAgent_GetUpcomingSales
 ---
 
-# POST Agents/Sale/GetUpcomingSales
+# GetUpcomingSales
 
 ```http
 POST /api/v1/Agents/Sale/GetUpcomingSales
@@ -98,12 +98,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 79,
-  "Count": 472
+  "WeightedAmountLimit": 948,
+  "Count": 951
 }
 ```
 
@@ -113,34 +113,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bradtke-Bogisich",
-    "SaleDate": "1996-05-20T16:48:30.6209377+02:00",
-    "SaleId": 411,
-    "Probability": 69,
-    "Title": "omnis",
-    "Amount": 4766.8139999999994,
-    "Currency": "ad",
-    "ProjectName": "Cremin, Hickle and West",
-    "AssociateFullName": "Angelina Senger",
-    "Description": "Open-source solution-oriented solution",
+    "ContactName": "Hackett LLC",
+    "SaleDate": "2016-09-23T14:58:05.1876286+02:00",
+    "SaleId": 156,
+    "Probability": 258,
+    "Title": "dolorum",
+    "Amount": 498.306,
+    "Currency": "hic",
+    "ProjectName": "Langworth-Kuphal",
+    "AssociateFullName": "Retta Carroll",
+    "Description": "Customer-focused client-driven matrix",
     "Status": "Lost",
-    "WeightedAmount": 7402.508,
-    "ProjectId": 644,
-    "EarningPercent": 25651.79,
-    "Earning": 5816.704,
-    "ContactId": 366,
-    "AssociateId": 681,
-    "PersonId": 559,
-    "SaleTypeId": 197,
-    "SaleTypeName": "Ruecker Inc and Sons",
-    "PersonFullName": "Trycia Hammes",
+    "WeightedAmount": 23912.42,
+    "ProjectId": 918,
+    "EarningPercent": 28748.182,
+    "Earning": 20270.712,
+    "ContactId": 270,
+    "AssociateId": 594,
+    "PersonId": 218,
+    "SaleTypeId": 317,
+    "SaleTypeName": "Schulist, Kiehn and Rogahn",
+    "PersonFullName": "Rashad Leuschke",
     "Completed": "Completed",
-    "ActiveErpLinks": 680,
-    "NextDueDate": "2000-07-16T16:48:30.621936+02:00",
-    "Number": "1462133",
+    "ActiveErpLinks": 905,
+    "NextDueDate": "2005-12-19T14:58:05.1876286+01:00",
+    "Number": "1272808",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "productize world-class infomediaries"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 8
       }
     }
   }

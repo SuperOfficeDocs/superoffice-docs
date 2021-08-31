@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Larkin Inc and Sons",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "Rank": 90,
+  "Id": 419,
+  "Name": "Lebsack Group",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 301,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "ListType": "qui",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Schiller, Johns and Goodwin",
-  "Tooltip": "ab",
+  "Id": 468,
+  "Name": "Feeney LLC",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 878,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
+  "Rank": 341,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dignissimos",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "implement sticky deliverables"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 640
     }
   }
 }

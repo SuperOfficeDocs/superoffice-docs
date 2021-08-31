@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Pocket/GetRegisteredDevices
+title: GetRegisteredDevices
 id: v1PocketAgent_GetRegisteredDevices
 ---
 
-# POST Agents/Pocket/GetRegisteredDevices
+# GetRegisteredDevices
 
 ```http
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
@@ -70,6 +70,7 @@ Response body: array
 | PNSHandle | string | The identifier associated with the device that will be used when talking with vendors push services |
 | Platform | string | What platform does this device belong to |
 | OSVersion | string | The operating system version. Ex: 'iOS v10.2' |
+| TimeZoneId | int32 | The timezone to show for dates in messages |
 
 ## Sample Request
 
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 117
+  "AssociateId": 532
 }
 ```
 
@@ -91,13 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Schmeler Inc and Sons",
-    "DeviceIdentifier": "ullam",
-    "PocketVersion": "adipisci",
-    "Language": "nostrum",
-    "PNSHandle": "et",
+    "DeviceName": "Frami Group",
+    "DeviceIdentifier": "molestiae",
+    "PocketVersion": "quod",
+    "Language": "consequatur",
+    "PNSHandle": "aut",
     "Platform": "Apple",
-    "OSVersion": "expedita"
+    "OSVersion": "ut",
+    "TimeZoneId": 658
   }
 ]
 ```

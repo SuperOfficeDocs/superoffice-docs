@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Pfeffer LLC",
-  "Tooltip": "perspiciatis",
+  "Id": 545,
+  "Name": "Carter-Pfeffer",
+  "Tooltip": "quo",
   "Deleted": true,
-  "Rank": 333,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 47,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "ListType": "est",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Friesen Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 344,
+  "Name": "Dibbert, McLaughlin and Metz",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 864,
+  "Rank": 671,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 41
     }
   }
 }

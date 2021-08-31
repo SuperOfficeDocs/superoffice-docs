@@ -2,6 +2,8 @@
 title: CRMScript
 ---
 
+# CRMScript
+
 ```http
 /api/v1/CRMScript
 ```
@@ -25,4 +27,12 @@ title: CRMScript
 
 * [POST CRMScript/{id}/Execute](v1CRMScriptEntity_ExecuteScript.md)
 
+* [POST CRMScript/{id}/Execute](v1CRMScriptEntity_ExecuteScriptByUniqueId.md)
+
+* [POST CRMScript/{id}/ExecuteAsEvent](v1CRMScriptEntity_ExecuteScriptAsEvent.md)
+
+* [POST CRMScript/{id}/ExecuteAsEvent](v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId.md)
+
 * [GET CRMScript/{id}/Validate](v1CRMScriptEntity_ValidateScript.md)
+
+* [GET CRMScript/{id}/Validate](v1CRMScriptEntity_ValidateScriptByUniqueId.md)

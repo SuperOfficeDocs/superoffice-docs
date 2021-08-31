@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
+title: GetUserDefinedFieldFromFieldLabel
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
+# GetUserDefinedFieldFromFieldLabel
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
@@ -112,11 +112,11 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aut",
+  "FieldLabel": "itaque",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 500,
-  "ColumnId": 552,
-  "FieldDefault": "aut",
-  "FieldHeight": 534,
-  "FieldLabel": "et",
-  "FieldLeft": 589,
-  "FieldTop": 19,
+  "UDefFieldId": 736,
+  "ColumnId": 798,
+  "FieldDefault": "et",
+  "FieldHeight": 733,
+  "FieldLabel": "est",
+  "FieldLeft": 670,
+  "FieldTop": 668,
   "FieldType": "Checkbox",
-  "FieldWidth": 530,
-  "FormatMask": "libero",
+  "FieldWidth": 87,
+  "FormatMask": "quas",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 200,
-  "LabelLeft": 121,
-  "LabelTop": 900,
-  "LabelWidth": 737,
-  "LastVersionId": 412,
-  "ListTableId": 358,
+  "LabelHeight": 861,
+  "LabelLeft": 700,
+  "LabelTop": 820,
+  "LabelWidth": 711,
+  "LastVersionId": 420,
+  "ListTableId": 122,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 493,
-  "ProgId": "voluptates",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 540,
-  "TextLength": 601,
-  "Tooltip": "id",
-  "UdefIdentity": 239,
-  "UDListDefinitionId": 783,
+  "Page1LineNo": 662,
+  "ProgId": "corrupti",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 990,
+  "TextLength": 958,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 555,
+  "UDListDefinitionId": 819,
   "Justification": "Center",
-  "Version": 814,
-  "TemplateVariableName": "Jacobson-Stark",
+  "Version": 142,
+  "TemplateVariableName": "Bernhard, Rippin and Wunsch",
   "HasBeenPublished": true,
-  "MdoListName": "Jacobi, Daniel and Monahan",
+  "MdoListName": "Hayes Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,10 +168,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "repurpose dot-com initiatives"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 17
     }
   }
 }

@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Armstrong Group",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 232,
+  "Id": 524,
+  "Name": "Zulauf-Roob",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 437,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Smitham LLC",
-  "Tooltip": "omnis",
+  "Id": 503,
+  "Name": "Leuschke-Legros",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 687,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 686,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 332
     }
   }
 }

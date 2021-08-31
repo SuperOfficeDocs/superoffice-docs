@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/ValidateScriptByIncludeId
+title: ValidateScriptByIncludeId
 id: v1CRMScriptAgent_ValidateScriptByIncludeId
 ---
 
-# POST Agents/CRMScript/ValidateScriptByIncludeId
+# ValidateScriptByIncludeId
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "illo"
+  "CRMScriptIncludeId": "laudantium"
 }
 ```
 
@@ -95,8 +95,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "commodi",
+  "Valid": false,
+  "ErrorMessage": "reprehenderit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldLength": 228
     }
   }
 }

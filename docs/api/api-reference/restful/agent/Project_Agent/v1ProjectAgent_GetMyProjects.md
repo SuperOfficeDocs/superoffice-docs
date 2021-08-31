@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetMyProjects
+title: GetMyProjects
 id: v1ProjectAgent_GetMyProjects
 ---
 
-# POST Agents/Project/GetMyProjects
+# GetMyProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyProjects
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 157,
-    "Name": "Steuber LLC",
-    "Description": "Programmable local function",
+    "ProjectId": 288,
+    "Name": "Oberbrunner Inc and Sons",
+    "Description": "Re-engineered explicit structure",
     "URL": "http://www.example.com/",
-    "Type": "similique",
-    "AssociateId": 407,
-    "AssociateFullName": "Francisco Hane",
-    "TypeId": 21,
-    "Updated": "1999-11-11T16:48:30.370935+01:00",
-    "StatusId": 872,
-    "Status": "qui",
-    "TextId": 363,
-    "PublishTo": "1995-09-01T16:48:30.370935+02:00",
-    "PublishFrom": "2018-01-21T16:48:30.370935+01:00",
-    "IsPublished": true,
+    "Type": "assumenda",
+    "AssociateId": 941,
+    "AssociateFullName": "Julio Gutkowski",
+    "TypeId": 237,
+    "Updated": "2000-11-16T14:58:04.8554605+01:00",
+    "StatusId": 922,
+    "Status": "ad",
+    "TextId": 77,
+    "PublishTo": "2011-11-30T14:58:04.8554605+01:00",
+    "PublishFrom": "2000-07-28T14:58:04.8564602+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "636499",
-    "ActiveErpLinks": 320,
+    "ProjectNumber": "602881",
+    "ActiveErpLinks": 814,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldLength": 760
       }
     }
   }

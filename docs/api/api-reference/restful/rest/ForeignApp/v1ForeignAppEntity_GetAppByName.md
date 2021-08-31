@@ -65,32 +65,32 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Mar 1999 09:40:59 G3T
+Last-Modified: Mon, 13 Sep 2010 15:05:42 G9T
 
 {
-  "ForeignAppId": 894,
-  "Name": "Sipes-Pfeffer",
-  "CreatedDate": "2014-07-21T09:40:59.2176629+02:00",
-  "UpdatedDate": "1999-03-14T09:40:59.2176629+01:00",
+  "ForeignAppId": 455,
+  "Name": "Beier-Dare",
+  "CreatedDate": "2007-09-04T15:05:42.2376635+02:00",
+  "UpdatedDate": "2010-09-13T15:05:42.2376635+02:00",
   "CreatedBy": {
-    "AssociateId": 503,
-    "Name": "Waters, Zulauf and Orn",
-    "PersonId": 411,
-    "Rank": 684,
-    "Tooltip": "consequuntur",
+    "AssociateId": 359,
+    "Name": "Crooks-Oberbrunner",
+    "PersonId": 42,
+    "Rank": 866,
+    "Tooltip": "doloribus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 336,
-    "FullName": "Nicklaus Stamm",
-    "FormalName": "Heathcote, Boyer and Carter",
-    "Deleted": true,
-    "EjUserId": 20,
-    "UserName": "Brakus Inc and Sons",
+    "GroupIdx": 433,
+    "FullName": "Kale Maggio",
+    "FormalName": "Fadel, Trantow and Hammes",
+    "Deleted": false,
+    "EjUserId": 597,
+    "UserName": "Medhurst, Kautzer and Murazik",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -99,23 +99,23 @@ Last-Modified: Sun, 14 Mar 1999 09:40:59 G3T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldLength": 130
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 507,
-    "Name": "Jaskolski-Barton",
-    "PersonId": 673,
-    "Rank": 363,
-    "Tooltip": "voluptas",
+    "AssociateId": 368,
+    "Name": "Sporer Group",
+    "PersonId": 369,
+    "Rank": 17,
+    "Tooltip": "numquam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 333,
-    "FullName": "Gabrielle Bailey",
-    "FormalName": "Tremblay LLC",
-    "Deleted": false,
-    "EjUserId": 276,
-    "UserName": "Gorczany LLC",
+    "GroupIdx": 379,
+    "FullName": "Mr. Jodie Pagac",
+    "FormalName": "White-Kiehn",
+    "Deleted": true,
+    "EjUserId": 488,
+    "UserName": "Boyer Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,21 +124,21 @@ Last-Modified: Sun, 14 Mar 1999 09:40:59 G3T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 583
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 453,
-      "Name": "Mraz LLC",
-      "CreatedDate": "1999-02-06T09:40:59.2186626+01:00",
-      "UpdatedDate": "2018-03-01T09:40:59.2186626+01:00",
-      "AssociateFullName": "Emelie Jerde",
-      "CreatedBy": "ad",
-      "UpdatedBy": "alias",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 413,
+      "ForeignDeviceId": 763,
+      "Name": "Ward, Wisozk and Harris",
+      "CreatedDate": "2013-10-11T15:05:42.2376635+02:00",
+      "UpdatedDate": "2020-08-04T15:05:42.2376635+02:00",
+      "AssociateFullName": "Jose Ruecker",
+      "CreatedBy": "harum",
+      "UpdatedBy": "occaecati",
+      "DeviceIdentifier": "error",
+      "ForeignAppId": 640,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,8 +146,8 @@ Last-Modified: Sun, 14 Mar 1999 09:40:59 G3T
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     }
@@ -163,7 +163,7 @@ Last-Modified: Sun, 14 Mar 1999 09:40:59 G3T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldLength": 873
     }
   }
 }

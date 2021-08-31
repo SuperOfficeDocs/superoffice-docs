@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Lockman-Funk",
-    "ToolTip": "Consectetur blanditiis aut laboriosam ab unde reprehenderit.",
-    "Deleted": true,
-    "Rank": 738,
-    "Type": "corrupti",
-    "ColorBlock": 529,
-    "IconHint": "fuga",
+    "Id": 247,
+    "Name": "Walker-Hodkiewicz",
+    "ToolTip": "Quia velit.",
+    "Deleted": false,
+    "Rank": 545,
+    "Type": "ut",
+    "ColorBlock": 533,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2016-03-06T09:41:00.5433789+01:00",
+    "LastChanged": "2015-11-26T15:05:43.6120798+01:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Ferry Group",
-        "ToolTip": "Repellendus deleniti cum.",
+        "Id": 276,
+        "Name": "Mosciski Inc and Sons",
+        "ToolTip": "Tempora dolor molestiae voluptatem dolorum aut.",
         "Deleted": true,
-        "Rank": 331,
-        "Type": "assumenda",
-        "ColorBlock": 967,
-        "IconHint": "dolores",
+        "Rank": 992,
+        "Type": "vitae",
+        "ColorBlock": 926,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2018-05-26T09:41:00.5433789+02:00",
+        "LastChanged": "2012-09-20T15:05:43.6120798+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "fugit",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ariane Cronin",
+        "FullName": "Edyth Swaniawski",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 751
+            "FieldLength": 203
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Clotilde Hackett",
+    "ExtraInfo": "amet",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Dandre Aufderhar",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 775
       }
     }
   }

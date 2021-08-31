@@ -73,24 +73,24 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Jan 2003 09:40:59 G1T
+Last-Modified: Tue, 11 Sep 2007 15:05:42 G9T
 
 {
-  "ForeignDeviceId": 349,
-  "Name": "Hettinger, Goldner and Nader",
-  "CreatedDate": "2000-02-23T09:40:59.2196628+01:00",
-  "UpdatedDate": "2003-01-23T09:40:59.2196628+01:00",
-  "AssociateFullName": "Marc Murray",
-  "CreatedBy": "doloremque",
-  "UpdatedBy": "neque",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 321,
+  "ForeignDeviceId": 176,
+  "Name": "Raynor, Jast and Jerde",
+  "CreatedDate": "2013-02-05T15:05:42.2406339+01:00",
+  "UpdatedDate": "2007-09-11T15:05:42.2406339+02:00",
+  "AssociateFullName": "Cody Kovacek IV",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "nihil",
+  "DeviceIdentifier": "dignissimos",
+  "ForeignAppId": 193,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -101,8 +101,8 @@ Last-Modified: Thu, 23 Jan 2003 09:40:59 G1T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

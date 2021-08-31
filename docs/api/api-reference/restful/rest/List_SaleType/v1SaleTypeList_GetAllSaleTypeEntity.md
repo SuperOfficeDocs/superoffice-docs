@@ -24,7 +24,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -94,63 +94,63 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 953,
-    "Name": "King-Spinka",
-    "Tooltip": "dolores",
-    "Rank": 409,
+    "SaleTypeId": 639,
+    "Name": "Wiegand-Pouros",
+    "Tooltip": "culpa",
+    "Rank": 61,
     "DurationUnit": "Century",
-    "SaleDuration": 603,
-    "SaleTypeCatId": 475,
-    "Deleted": true,
-    "HasGuide": false,
+    "SaleDuration": 465,
+    "SaleTypeCatId": 869,
+    "Deleted": false,
+    "HasGuide": true,
     "HasStakeholders": false,
     "IsAutoAdvance": true,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 782,
-    "QuoteLinesTemplate": 628,
-    "ConfirmationLinesTemplate": 766,
+    "DefaultQuoteValidity": 108,
+    "QuoteLinesTemplate": 352,
+    "ConfirmationLinesTemplate": 77,
     "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 291,
-    "MinEarningPercent": 222,
-    "GroupQuoteLinesBy": 269,
-    "SortGroupLinesBy": 633,
+    "MaxDiscountPercent": 830,
+    "MinEarningPercent": 683,
+    "GroupQuoteLinesBy": 567,
+    "SortGroupLinesBy": 233,
     "Stages": [
       {
-        "Id": 352,
-        "Name": "Lockman, Lind and Lehner",
-        "ToolTip": "Quaerat velit.",
+        "Id": 607,
+        "Name": "Feest, Hayes and Heathcote",
+        "ToolTip": "A quos laudantium.",
         "Deleted": true,
-        "Rank": 924,
-        "Type": "et",
-        "ColorBlock": 369,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2007-12-26T09:41:00.7263893+01:00",
+        "Rank": 748,
+        "Type": "minus",
+        "ColorBlock": 815,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2009-11-25T15:05:43.7871195+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "ratione",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "ipsam",
         "Hidden": true,
-        "FullName": "Teresa Greenfelder",
+        "FullName": "Kasey Ferry",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "incentivize value-added markets"
             },
             "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldLength": 863
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "leverage virtual models"
     },
     "FieldProperties": {
       "fieldName": {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 35
       }
     }
   }

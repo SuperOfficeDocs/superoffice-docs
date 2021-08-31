@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetAddress
+title: GetAddress
 id: v1PersonAgent_GetAddress
 ---
 
-# POST Agents/Person/GetAddress
+# GetAddress
 
 ```http
 POST /api/v1/Agents/Person/GetAddress
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 400
+  "PersonId": 249
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13839.743999999999,
-  "Wgs84Longitude": 7578.012,
+  "Wgs84Latitude": 15507.032,
+  "Wgs84Longitude": 22223.194,
   "LocalizedAddress": [
     [
       {
-        "Name": "Mosciski-Spinka",
-        "Value": "ut",
-        "Tooltip": "unde",
-        "Label": "ullam",
-        "ValueLength": 919,
-        "AddressType": "enim",
+        "Name": "King-Shanahan",
+        "Value": "repellendus",
+        "Tooltip": "voluptatibus",
+        "Label": "unde",
+        "ValueLength": 468,
+        "AddressType": "architecto",
         "TableRight": {
           "Mask": "Delete",
           "Reason": ""
@@ -117,22 +117,22 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldLength": 862
           }
         }
       }
     ],
     [
       {
-        "Name": "Frami-Collins",
-        "Value": "temporibus",
-        "Tooltip": "suscipit",
-        "Label": "esse",
-        "ValueLength": 289,
-        "AddressType": "consequatur",
+        "Name": "Blick, Witting and Mosciski",
+        "Value": "eum",
+        "Tooltip": "voluptas",
+        "Label": "ut",
+        "ValueLength": 225,
+        "AddressType": "facere",
         "TableRight": {
           "Mask": "Delete",
-          "Reason": ""
+          "Reason": "strategize innovative initiatives"
         },
         "FieldProperties": {
           "fieldName": {
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
@@ -149,27 +149,27 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": {
     "AtypeIdx": "ContactPostalAddress",
-    "Address1": "molestiae",
-    "Address2": "quae",
-    "Address3": "illo",
-    "City": "est",
-    "County": "quam",
-    "State": "sed",
-    "Zipcode": "voluptatum",
-    "Formatted": "a"
+    "Address1": "natus",
+    "Address2": "ipsum",
+    "Address3": "voluptate",
+    "City": "facere",
+    "County": "perferendis",
+    "State": "dolore",
+    "Zipcode": "id",
+    "Formatted": "repellat"
   },
   "Postal": {
     "AtypeIdx": "ContactPostalAddress",
-    "Address1": "ut",
-    "Address2": "eveniet",
-    "Address3": "sequi",
-    "City": "voluptatem",
-    "County": "nostrum",
-    "State": "eum",
-    "Zipcode": "adipisci",
-    "Formatted": "modi"
+    "Address1": "praesentium",
+    "Address2": "harum",
+    "Address3": "aspernatur",
+    "City": "consequatur",
+    "County": "nobis",
+    "State": "nulla",
+    "Zipcode": "eos",
+    "Formatted": "aliquam"
   },
-  "Formatted": "cupiditate",
+  "Formatted": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

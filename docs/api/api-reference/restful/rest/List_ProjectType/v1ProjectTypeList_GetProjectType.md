@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Crist, Ledner and Lebsack",
-  "Tooltip": "voluptates",
+  "Id": 32,
+  "Name": "Green, Grant and Auer",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 12,
-  "Rank": 483,
+  "UdListDefinitionId": 221,
+  "Rank": 285,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldLength": 442
     }
   }
 }

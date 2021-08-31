@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 160,
-    "Name": "Nader, Leannon and Leuschke",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 259,
-    "UdListDefinitionId": 140,
+    "HeadingId": 265,
+    "Name": "DuBuque Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 114,
+    "UdListDefinitionId": 491,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldType": "System.String",
+        "FieldLength": 413
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/GetAreaList
+title: GetAreaList
 id: v1ReplicationAgent_GetAreaList
 ---
 
-# POST Agents/Replication/GetAreaList
+# GetAreaList
 
 ```http
 POST /api/v1/Agents/Replication/GetAreaList
@@ -77,7 +77,7 @@ Response body: array
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,11 +86,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 250,
-    "Name": "Hessel LLC",
-    "MaxDataAge": 554,
-    "NumberOfUsers": 935,
-    "NumberOfLogins": 456,
+    "AreaId": 698,
+    "Name": "Kiehn-Schneider",
+    "MaxDataAge": 864,
+    "NumberOfUsers": 294,
+    "NumberOfLogins": 343,
     "FreetextEnabeled": true,
     "TableRight": {
       "Mask": "Delete",
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 354
       }
     }
   }

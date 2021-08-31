@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy
+title: FindFromRestrictionsColumnsOrderBy
 id: v1FindAgent_FindFromRestrictionsColumnsOrderBy
 ---
 
-# POST Agents/Find/FindFromRestrictionsColumnsOrderBy
+# FindFromRestrictionsColumnsOrderBy
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
@@ -85,50 +85,50 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Hegmann, Spencer and Hoeger",
-      "Operator": "dolore",
+      "Name": "Funk Group",
+      "Operator": "laboriosam",
       "Values": [
-        "non",
-        "nulla"
+        "ratione",
+        "nostrum"
       ],
       "DisplayValues": [
-        "illo",
-        "id"
+        "in",
+        "provident"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 236,
+      "InterParenthesis": 397,
       "InterOperator": "And",
-      "UniqueHash": 544
+      "UniqueHash": 173
     }
   ],
-  "ProviderName": "Mueller, Gusikowski and Nitzsche",
+  "ProviderName": "Muller-Anderson",
   "DesiredColumns": [
-    "ut",
-    "illo"
+    "quae",
+    "sed"
   ],
   "OrderBy": [
     {
-      "Name": "Larson Group",
+      "Name": "Boyle Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Larson Group",
+      "Name": "Boyle Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 588,
-  "PageNumber": 612
+  "PageSize": 482,
+  "PageNumber": 323
 }
 ```
 
@@ -139,34 +139,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hegmann, Hane and Ernser",
-      "DisplayTooltip": "odio",
-      "DisplayType": "vel",
+      "DisplayName": "Von, Pouros and Shanahan",
+      "DisplayTooltip": "aliquid",
+      "DisplayType": "non",
       "CanOrderBy": true,
-      "Name": "Kessler, Mraz and Klein",
-      "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Champlin Inc and Sons",
+      "Name": "Kohler Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Pouros LLC",
       "IsVisible": false,
-      "ExtraInfo": "non",
-      "Width": "natus",
-      "IconHint": "rerum",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "similique",
+      "Width": "similique",
+      "IconHint": "et",
+      "HeadingIconHint": "animi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schneider-Lakin",
-      "PrimaryKey": 682,
+      "EntityName": "Will-Wisoky",
+      "PrimaryKey": 892,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "in",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "dolor"
+          "DisplayValue": "tempore",
+          "TooltipHint": "omnis",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "eius",
+      "LinkHint": "officiis",
+      "StyleHint": "rerum",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,13 +174,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
-  "RowCount": 843,
+  "RowCount": 573,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 461
     }
   }
 }

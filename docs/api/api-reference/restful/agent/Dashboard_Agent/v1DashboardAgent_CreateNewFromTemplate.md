@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/CreateNewFromTemplate
+title: CreateNewFromTemplate
 id: v1DashboardAgent_CreateNewFromTemplate
 ---
 
-# POST Agents/Dashboard/CreateNewFromTemplate
+# CreateNewFromTemplate
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
@@ -95,24 +95,24 @@ Response body: object
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 932,
-  "Caption": "sit",
-  "Description": "Mandatory optimal orchestration",
-  "SelectionId": 607,
+  "DashboardTileId": 174,
+  "Caption": "qui",
+  "Description": "Phased object-oriented complexity",
+  "SelectionId": 184,
   "VisibleFor": [
     {
-      "VisibleId": 939,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "molestias"
+      "DisplayValue": "ratione"
     },
     {
-      "VisibleId": 939,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "molestias"
+      "DisplayValue": "ratione"
     }
   ]
 }
@@ -123,29 +123,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 289,
-  "Caption": "laudantium",
-  "Description": "Function-based value-added methodology",
-  "ChartName": "Hartmann Group",
-  "ChartId": "dolor",
+  "DashboardTileId": 503,
+  "Caption": "architecto",
+  "Description": "Fundamental human-resource project",
+  "ChartName": "Wehner-Kessler",
+  "ChartId": "rerum",
   "IsDefault": false,
-  "AssociateId": 448,
-  "GroupId": 759,
-  "SelectionId": 382,
-  "Config": "officia",
+  "AssociateId": 982,
+  "GroupId": 747,
+  "SelectionId": 38,
+  "Config": "sed",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lebsack-Bechtelar",
-      "Description": "Customizable incremental forecast",
+      "Name": "Willms-Kris",
+      "Description": "Fully-configurable zero tolerance knowledge base",
       "Type": "Boolean",
-      "ListName": "Bartell-Fisher",
+      "ListName": "Feest-Macejkovic",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iure",
+      "Value": "totam",
       "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
@@ -154,17 +154,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 815
+          "FieldType": "System.Int32",
+          "FieldLength": 69
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 103,
+      "VisibleId": 908,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "nisi",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -172,15 +172,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     },
     {
-      "VisibleId": 103,
+      "VisibleId": 908,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "nisi",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

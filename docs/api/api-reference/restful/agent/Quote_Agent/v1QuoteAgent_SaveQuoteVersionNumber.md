@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteVersionNumber
+title: SaveQuoteVersionNumber
 id: v1QuoteAgent_SaveQuoteVersionNumber
 ---
 
-# POST Agents/Quote/SaveQuoteVersionNumber
+# SaveQuoteVersionNumber
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 682,
-  "Number": "1137802"
+  "QuoteVersionId": 752,
+  "Number": "1062038"
 }
 ```
 

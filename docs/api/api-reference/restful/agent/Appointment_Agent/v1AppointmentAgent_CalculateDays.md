@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CalculateDays
+title: CalculateDays
 id: v1AppointmentAgent_CalculateDays
 ---
 
-# POST Agents/Appointment/CalculateDays
+# CalculateDays
 
 ```http
 POST /api/v1/Agents/Appointment/CalculateDays
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2005-01-21T16:48:28.582449+01:00",
-    "AppointmentId": 697,
-    "Description": "Re-engineered demand-driven solution",
-    "StartDate": "1997-08-06T16:48:28.582449+02:00",
-    "EndDate": "2014-03-19T16:48:28.582449+01:00",
+    "CreatedDate": "2008-04-24T14:58:03.2005678+02:00",
+    "AppointmentId": 627,
+    "Description": "Multi-channelled multi-state algorithm",
+    "StartDate": "2014-05-08T14:58:03.2005678+02:00",
+    "EndDate": "2003-04-01T14:58:03.2005678+02:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 257,
+    "MotherId": 790,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "2000-10-14T16:48:28.582449+02:00",
+    "UpdatedDate": "1995-02-28T14:58:03.2005678+01:00",
     "Completed": "Completed",
-    "ActiveLinks": 862,
+    "ActiveLinks": 328,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "accusantium",
-    "HasAlarm": false,
-    "ColorIndex": 265,
-    "IsFree": true,
+    "AlarmLeadTime": "non",
+    "HasAlarm": true,
+    "ColorIndex": 504,
+    "IsFree": false,
     "IsAlldayEvent": true,
-    "LagTime": "reprehenderit",
-    "LeadTime": "et",
-    "Location": "fuga",
-    "RejectCounter": 178,
+    "LagTime": "vero",
+    "LeadTime": "adipisci",
+    "Location": "voluptate",
+    "RejectCounter": 327,
     "RejectReason": "",
     "Recurrence": {},
     "Participants": [
@@ -128,34 +128,34 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "2004-02-17T16:48:28.582449+01:00",
+    "ActiveDate": "2019-02-28T14:58:03.2005678+01:00",
     "HasConflict": false,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 44,
+    "PreferredTZLocation": 583,
     "Sale": {},
-    "SuggestedAppointmentId": 594,
+    "SuggestedAppointmentId": 423,
     "IsMileStone": false,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "voluptatem",
+    "CentralserviceVideomeetId": "officia",
     "UserDefinedFields": {
-      "SuperOffice:1": "True",
-      "SuperOffice:2": "False"
+      "SuperOffice:1": "158870759",
+      "SuperOffice:2": "Myrna Brakus"
     },
     "ExtraFields": {
-      "ExtraFields1": "sit",
-      "ExtraFields2": "rem"
+      "ExtraFields1": "iste",
+      "ExtraFields2": "eos"
     },
     "CustomFields": {
-      "CustomFields1": "amet",
-      "CustomFields2": "possimus"
+      "CustomFields1": "minima",
+      "CustomFields2": "dignissimos"
     },
-    "PublishEventDate": "2003-01-11T16:48:28.582449+01:00",
-    "PublishTo": "2007-06-21T16:48:28.582449+02:00",
-    "PublishFrom": "2002-01-19T16:48:28.582449+01:00",
-    "IsPublished": false,
+    "PublishEventDate": "2004-05-03T14:58:03.2005678+02:00",
+    "PublishTo": "2008-04-17T14:58:03.2005678+02:00",
+    "PublishFrom": "2020-10-21T14:58:03.2005678+02:00",
+    "IsPublished": true,
     "VisibleFor": [
       {},
       {}
@@ -169,48 +169,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 542,
-  "StartDate": "1996-10-25T16:48:28.582449+02:00",
-  "EndDate": "2012-11-02T16:48:28.582449+01:00",
-  "RecurrenceCounter": 474,
+  "RecurrenceId": 935,
+  "StartDate": "2005-11-26T14:58:03.2005678+01:00",
+  "EndDate": "2019-12-05T14:58:03.2005678+01:00",
+  "RecurrenceCounter": 876,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 548
+    "Cycle": 779
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 686
+    "Cycle": 105
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 229,
-    "Day": 471,
+    "Cycle": 922,
+    "Day": 197,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 276,
-    "Day": 933,
+    "Cycle": 162,
+    "Day": 367,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "1998-06-11T16:48:28.582449+02:00",
-      "IsConflict": true,
-      "Description": "Assimilated web-enabled groupware",
-      "DescriptionStyleHint": "Vision-oriented coherent intranet",
-      "Tooltip": "id"
+      "Date": "2006-05-10T14:58:03.2005678+02:00",
+      "IsConflict": false,
+      "Description": "Exclusive zero administration budgetary management",
+      "DescriptionStyleHint": "Centralized user-facing contingency",
+      "Tooltip": "dolores"
     },
     {
-      "Date": "1998-06-11T16:48:28.582449+02:00",
-      "IsConflict": true,
-      "Description": "Assimilated web-enabled groupware",
-      "DescriptionStyleHint": "Vision-oriented coherent intranet",
-      "Tooltip": "id"
+      "Date": "2006-05-10T14:58:03.2005678+02:00",
+      "IsConflict": false,
+      "Description": "Exclusive zero administration budgetary management",
+      "DescriptionStyleHint": "Centralized user-facing contingency",
+      "Tooltip": "dolores"
     }
   ],
   "IsRecurrence": true

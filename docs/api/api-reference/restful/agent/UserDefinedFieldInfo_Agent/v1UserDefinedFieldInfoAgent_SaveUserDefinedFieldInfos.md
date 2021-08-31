@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
+title: SaveUserDefinedFieldInfos
 id: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos
 ---
 
-# POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
+# SaveUserDefinedFieldInfos
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos

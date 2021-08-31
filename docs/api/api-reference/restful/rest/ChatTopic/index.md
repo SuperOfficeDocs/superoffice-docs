@@ -2,6 +2,8 @@
 title: ChatTopic
 ---
 
+# ChatTopic
+
 ```http
 /api/v1/ChatTopic
 ```
@@ -21,6 +23,8 @@ title: ChatTopic
 
 * [PATCH ChatTopic/{id}](v1ChatTopicEntity_PatchChatTopicEntity.md)
 
+* [GET ChatTopic/{id}/Sessions](v1ChatTopicEntity_Sessions.md)
+
 * [GET ChatTopic/{id}/IsOpen](v1ChatTopicEntity_IsWithinOpeningHours.md)
 
 * [GET ChatTopic/ForCurrentUser](v1ChatTopicEntity_ChatTopicsForUser.md)
@@ -29,6 +33,8 @@ title: ChatTopic
 
 * [GET ChatTopic/{id}/UserAgent](v1ChatTopicEntity_GetChatTopicUserAgentList.md)
 
+* [PUT ChatTopic/{id}/UserAgent](v1ChatTopicEntity_UpdateChatTopicUserAgents.md)
+
 * [POST ChatTopic/{id}/UserAgent](v1ChatTopicEntity_AddChatTopicUserAgent.md)
 
 * [GET ChatTopic/{id}/UserAgent/{username}](v1ChatTopicEntity_GetChatTopicUserAgent.md)
@@ -36,3 +42,5 @@ title: ChatTopic
 * [PUT ChatTopic/{id}/UserAgent/{username}](v1ChatTopicEntity_UpdateChatTopicUserAgent.md)
 
 * [DEL ChatTopic/{id}/UserAgent/{username}](v1ChatTopicEntity_DeleteChatTopicUserAgent.md)
+
+* [POST ChatTopic/{id}/Sessions](v1ChatTopicEntity_CreateChatSessionForTopic.md)

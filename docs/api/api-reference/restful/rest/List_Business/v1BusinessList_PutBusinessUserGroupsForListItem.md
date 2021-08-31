@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Gutmann-Shanahan",
-    "ToolTip": "Aliquid incidunt at est nihil adipisci.",
+    "Id": 677,
+    "Name": "Cummings Group",
+    "ToolTip": "Molestiae facere deserunt magnam molestiae.",
     "Deleted": true,
-    "Rank": 6,
-    "Type": "quo",
-    "ColorBlock": 627,
-    "IconHint": "placeat",
+    "Rank": 628,
+    "Type": "qui",
+    "ColorBlock": 793,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2006-08-28T09:41:00.1743658+02:00",
+    "LastChanged": "1998-10-03T15:05:43.2495449+02:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Schmitt, Herzog and Mayer",
-        "ToolTip": "Provident est.",
+        "Id": 149,
+        "Name": "Renner, Ankunding and Reynolds",
+        "ToolTip": "Voluptatem mollitia quos aut.",
         "Deleted": true,
-        "Rank": 694,
-        "Type": "in",
-        "ColorBlock": 518,
-        "IconHint": "velit",
+        "Rank": 482,
+        "Type": "possimus",
+        "ColorBlock": 431,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2004-08-26T09:41:00.1743658+02:00",
+        "LastChanged": "2016-04-05T15:05:43.2495449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "dolore",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Chauncey Herman V"
+        "FullName": "Naomie Kessler"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "eos",
+    "ExtraInfo": "a",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Wyman McGlynn Sr."
+    "FullName": "Josie Littel"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Larkin LLC",
-    "ToolTip": "Quisquam dolor reiciendis in.",
+    "Id": 656,
+    "Name": "Aufderhar, Hamill and Boehm",
+    "ToolTip": "Quis est voluptatem.",
     "Deleted": false,
-    "Rank": 436,
-    "Type": "enim",
-    "ColorBlock": 275,
-    "IconHint": "non",
+    "Rank": 813,
+    "Type": "minus",
+    "ColorBlock": 436,
+    "IconHint": "temporibus",
     "Selected": true,
-    "LastChanged": "2001-07-01T09:41:00.1753623+02:00",
+    "LastChanged": "2018-01-26T15:05:43.2515452+01:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Beer, Mueller and Conn",
-        "ToolTip": "Aut quisquam quia id.",
+        "Id": 184,
+        "Name": "Cormier, Mueller and Fisher",
+        "ToolTip": "Asperiores assumenda atque quaerat esse est ut.",
         "Deleted": false,
-        "Rank": 15,
-        "Type": "ipsum",
-        "ColorBlock": 274,
-        "IconHint": "nam",
+        "Rank": 299,
+        "Type": "sint",
+        "ColorBlock": 480,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "1995-04-24T09:41:00.1763613+02:00",
+        "LastChanged": "2011-12-08T15:05:43.2515452+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "rem",
-        "Hidden": false,
-        "FullName": "Odell Romaguera",
+        "ExtraInfo": "ea",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Miss Tessie Jerde",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 193
+            "FieldType": "System.String",
+            "FieldLength": 39
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Giovanna Waters",
+    "ExtraInfo": "illo",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Emelia Quigley",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 282
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/TestConnection
+title: TestConnection
 id: v1QuoteAgent_TestConnection
 ---
 
-# POST Agents/Quote/TestConnection
+# TestConnection
 
 ```http
 POST /api/v1/Agents/Quote/TestConnection
@@ -83,14 +83,14 @@ Response body: object
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Friesen LLC",
+  "ConnectorName": "Green-Johnson",
   "ConnectionData": {
-    "ConnectionData1": "error",
-    "ConnectionData2": "expedita"
+    "ConnectionData1": "labore",
+    "ConnectionData2": "rerum"
   }
 }
 ```
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "quo",
-  "TechExplanation": "aut",
-  "ErrorCode": "placeat",
+  "IsOk": false,
+  "UserExplanation": "pariatur",
+  "TechExplanation": "deserunt",
+  "ErrorCode": "ea",
   "Changes": {
     "AddedRecords": [
       {},
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 954
       }
     }
   },
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   }
 }

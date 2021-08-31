@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveConsentPurpose
+title: SaveConsentPurpose
 id: v1ListAgent_SaveConsentPurpose
 ---
 
-# POST Agents/List/SaveConsentPurpose
+# SaveConsentPurpose
 
 ```http
 POST /api/v1/Agents/List/SaveConsentPurpose
@@ -86,23 +86,23 @@ Response body: object
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConsentPurpose": {
-    "ConsentPurposeId": 870,
-    "Name": "Muller, Johns and Jacobi",
-    "ConsentText": "voluptas",
-    "FormText": "ipsam",
-    "Key": "iure",
-    "Tooltip": "fugit",
-    "Active": 287,
-    "UpdatedDate": "2001-12-23T16:48:29.7689267+01:00",
+    "ConsentPurposeId": 21,
+    "Name": "Daniel-Toy",
+    "ConsentText": "et",
+    "FormText": "accusamus",
+    "Key": "vero",
+    "Tooltip": "beatae",
+    "Active": 700,
+    "UpdatedDate": "2020-03-10T14:58:04.3594598+01:00",
     "UpdatedBy": {},
     "Deleted": false,
-    "Rank": 532,
-    "PrivacyStatementDesc": "fuga",
+    "Rank": 350,
+    "PrivacyStatementDesc": "non",
     "PrivacyStatementUrl": "http://www.example.com/"
   }
 }
@@ -113,27 +113,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 994,
-  "Name": "Wuckert, Gleason and Purdy",
-  "ConsentText": "ut",
-  "FormText": "eos",
-  "Key": "error",
-  "Tooltip": "omnis",
-  "Active": 726,
-  "UpdatedDate": "2021-01-31T16:48:29.7699246+01:00",
+  "ConsentPurposeId": 360,
+  "Name": "Kuhic, Gulgowski and Parisian",
+  "ConsentText": "et",
+  "FormText": "itaque",
+  "Key": "laborum",
+  "Tooltip": "voluptatem",
+  "Active": 938,
+  "UpdatedDate": "2012-11-09T14:58:04.3604628+01:00",
   "UpdatedBy": {
-    "AssociateId": 923,
-    "Name": "Hickle-Herzog",
-    "PersonId": 963,
-    "Rank": 189,
-    "Tooltip": "voluptate",
+    "AssociateId": 870,
+    "Name": "Schultz Group",
+    "PersonId": 452,
+    "Rank": 572,
+    "Tooltip": "expedita",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 682,
-    "FullName": "Abigayle Tromp",
-    "FormalName": "Kihn Group",
+    "GroupIdx": 206,
+    "FullName": "Garrett Runolfsson",
+    "FormalName": "Hand, Dooley and Bechtelar",
     "Deleted": true,
-    "EjUserId": 982,
-    "UserName": "Williamson LLC",
+    "EjUserId": 464,
+    "UserName": "Kshlerin Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldLength": 813
       }
     }
   },
   "Deleted": true,
-  "Rank": 3,
-  "PrivacyStatementDesc": "reprehenderit",
+  "Rank": 518,
+  "PrivacyStatementDesc": "sed",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": {
     "Mask": "Delete",
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldLength": 355
     }
   }
 }

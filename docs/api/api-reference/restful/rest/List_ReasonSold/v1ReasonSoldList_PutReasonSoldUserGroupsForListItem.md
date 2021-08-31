@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Huels-Brekke",
-    "ToolTip": "Velit ut.",
-    "Deleted": false,
-    "Rank": 172,
-    "Type": "magnam",
-    "ColorBlock": 658,
-    "IconHint": "unde",
+    "Id": 979,
+    "Name": "Schiller-Romaguera",
+    "ToolTip": "Enim ut impedit qui perferendis quia.",
+    "Deleted": true,
+    "Rank": 430,
+    "Type": "laudantium",
+    "ColorBlock": 121,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2002-09-17T09:41:00.6993884+02:00",
+    "LastChanged": "2015-08-07T15:05:43.7621169+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Pfeffer-Fisher",
-        "ToolTip": "Ea labore maiores eos.",
-        "Deleted": false,
-        "Rank": 879,
-        "Type": "eligendi",
-        "ColorBlock": 831,
-        "IconHint": "eveniet",
-        "Selected": false,
-        "LastChanged": "2011-08-30T09:41:00.6993884+02:00",
+        "Id": 420,
+        "Name": "Johnston-Hammes",
+        "ToolTip": "Dolorem placeat occaecati.",
+        "Deleted": true,
+        "Rank": 383,
+        "Type": "aliquid",
+        "ColorBlock": 444,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "2009-02-05T15:05:43.7621169+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Raina Tromp"
+        "ExtraInfo": "id",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Stanley Powlowski"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "numquam",
+    "StyleHint": "earum",
     "Hidden": true,
-    "FullName": "Billie Kovacek"
+    "FullName": "Maxine Johnson"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Jakubowski LLC",
-    "ToolTip": "Iusto quia nihil a minus aut.",
-    "Deleted": true,
-    "Rank": 524,
+    "Id": 907,
+    "Name": "Schuster-Gottlieb",
+    "ToolTip": "Sit laboriosam autem et quam voluptas.",
+    "Deleted": false,
+    "Rank": 907,
     "Type": "eos",
-    "ColorBlock": 886,
-    "IconHint": "consequuntur",
+    "ColorBlock": 542,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-07-25T09:41:00.7013889+02:00",
+    "LastChanged": "2000-10-21T15:05:43.7631202+02:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Tremblay, Kshlerin and Klocko",
-        "ToolTip": "Totam molestias perspiciatis suscipit eligendi ad porro.",
+        "Id": 90,
+        "Name": "Johnston, Brown and Haley",
+        "ToolTip": "Incidunt reprehenderit.",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "qui",
-        "ColorBlock": 417,
-        "IconHint": "non",
+        "Rank": 399,
+        "Type": "aperiam",
+        "ColorBlock": 379,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "1995-10-19T09:41:00.7013889+02:00",
+        "LastChanged": "2015-07-03T15:05:43.7631202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "est",
+        "ExtraInfo": "porro",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Orpha Walsh",
+        "FullName": "Mollie Steuber",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "engineer virtual relationships"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldLength": 835
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Linnea Batz PhD",
+    "ExtraInfo": "a",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Trystan Conn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "matrix rich applications"
         },
         "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldLength": 292
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/CreateDefaultDashboardTile
+title: CreateDefaultDashboardTile
 id: v1DashboardAgent_CreateDefaultDashboardTile
 ---
 
-# POST Agents/Dashboard/CreateDefaultDashboardTile
+# CreateDefaultDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -80,29 +80,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 296,
-  "Caption": "aperiam",
-  "Description": "Customer-focused clear-thinking hub",
-  "ChartName": "Schinner, Block and Denesik",
-  "ChartId": "in",
-  "IsDefault": true,
-  "AssociateId": 588,
-  "GroupId": 860,
-  "SelectionId": 993,
-  "Config": "nobis",
+  "DashboardTileId": 667,
+  "Caption": "illo",
+  "Description": "Realigned composite archive",
+  "ChartName": "Mills, Macejkovic and Braun",
+  "ChartId": "ad",
+  "IsDefault": false,
+  "AssociateId": 696,
+  "GroupId": 895,
+  "SelectionId": 798,
+  "Config": "temporibus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Effertz, Rempel and Lakin",
-      "Description": "Cross-group mission-critical initiative",
+      "Name": "Ward-Greenfelder",
+      "Description": "Programmable encompassing software",
       "Type": "Boolean",
-      "ListName": "Quitzon-Tromp",
+      "ListName": "Ratke Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sapiente",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
@@ -112,16 +112,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 650
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 329,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "ea",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 545
         }
       }
     },
     {
-      "VisibleId": 329,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "ea",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 545
         }
       }
     }
@@ -159,10 +159,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "empower innovative schemas"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

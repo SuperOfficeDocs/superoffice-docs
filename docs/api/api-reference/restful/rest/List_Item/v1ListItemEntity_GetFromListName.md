@@ -78,12 +78,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Upton, Reichert and Klein",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "UdListDefinitionId": 228,
-  "Rank": 618,
+  "Id": 573,
+  "Name": "Reinger, Baumbach and Kuhn",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "UdListDefinitionId": 912,
+  "Rank": 416,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 815
     }
   }
 }

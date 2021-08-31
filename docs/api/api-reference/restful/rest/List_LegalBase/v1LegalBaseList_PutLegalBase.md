@@ -79,16 +79,16 @@ Response body: object
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 659,
-  "Name": "Treutel, Mills and Pfannerstill",
-  "Tooltip": "dolore",
-  "Rank": 753,
-  "Key": "eaque",
-  "Deleted": false
+  "LegalBaseId": 61,
+  "Name": "Yundt, Bradtke and Schaefer",
+  "Tooltip": "aut",
+  "Rank": 66,
+  "Key": "ut",
+  "Deleted": true
 }
 ```
 
@@ -97,15 +97,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 800,
-  "Name": "Schinner, Prohaska and Kirlin",
-  "Tooltip": "omnis",
-  "Rank": 164,
-  "Key": "vel",
+  "LegalBaseId": 457,
+  "Name": "Christiansen LLC",
+  "Tooltip": "quas",
+  "Rank": 480,
+  "Key": "eaque",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "implement one-to-one deliverables"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldLength": 501
     }
   }
 }

@@ -9,7 +9,7 @@ id: v1ChatTopicEntity_GetUserAgentList
 GET /api/v1/ChatTopic/UserAgents
 ```
 
-Get list of users that can be assigned to topics.
+Get list of users that can be assigned to chat topics.
 
 Users with Chat-CALs from the MDO list 'chatuser'
 
@@ -25,8 +25,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Jacobs LLC",
-    "ToolTip": "Dolorem doloribus nisi illo blanditiis reprehenderit.",
-    "Deleted": false,
-    "Rank": 188,
-    "Type": "sit",
+    "Id": 142,
+    "Name": "Bode, Tremblay and Purdy",
+    "ToolTip": "Aperiam accusamus aliquid et aut.",
+    "Deleted": true,
+    "Rank": 944,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Dare-Corkery",
-        "ToolTip": "Cumque voluptatem.",
-        "Deleted": true,
-        "Rank": 926,
-        "Type": "et",
+        "Id": 923,
+        "Name": "Thiel-Tillman",
+        "ToolTip": "Aperiam et optio aut officia inventore.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 107,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "similique",
-        "FullName": "Luciano Mitchell",
+        "IconHint": "molestiae",
+        "ColorBlock": 154,
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "FullName": "Rudy Blanda",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 535
+            "FieldLength": 408
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 588,
-    "ExtraInfo": "est",
-    "StyleHint": "quam",
-    "FullName": "Robyn Carter",
+    "IconHint": "natus",
+    "ColorBlock": 976,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptas",
+    "FullName": "Rosemarie Kuhlman",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 650
       }
     }
   }

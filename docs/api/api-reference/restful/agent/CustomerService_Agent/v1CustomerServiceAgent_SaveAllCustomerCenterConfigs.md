@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/SaveAllCustomerCenterConfigs
+title: SaveAllCustomerCenterConfigs
 id: v1CustomerServiceAgent_SaveAllCustomerCenterConfigs
 ---
 
-# POST Agents/CustomerService/SaveAllCustomerCenterConfigs
+# SaveAllCustomerCenterConfigs
 
 ```http
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs

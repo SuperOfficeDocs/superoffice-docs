@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetSelectionEntity
+title: GetSelectionEntity
 id: v1SelectionAgent_GetSelectionEntity
 ---
 
-# POST Agents/Selection/GetSelectionEntity
+# GetSelectionEntity
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionEntity
@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=188
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=26
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -114,21 +114,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Team-oriented logistical ability",
-  "Postit": "reiciendis",
+  "Description": "Adaptive multi-state intranet",
+  "Postit": "voluptatem",
   "Associate": {
-    "AssociateId": 354,
-    "Name": "Wehner, Volkman and Homenick",
-    "PersonId": 169,
-    "Rank": 390,
-    "Tooltip": "veritatis",
+    "AssociateId": 427,
+    "Name": "Lesch-Kemmer",
+    "PersonId": 528,
+    "Rank": 430,
+    "Tooltip": "earum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 969,
-    "FullName": "Miss Lukas Hodkiewicz",
-    "FormalName": "Kris-Ortiz",
+    "GroupIdx": 503,
+    "FullName": "Mrs. Shany Harber",
+    "FormalName": "King Inc and Sons",
     "Deleted": false,
-    "EjUserId": 778,
-    "UserName": "Huels-Durgan",
+    "EjUserId": 964,
+    "UserName": "Connelly, Kshlerin and Tremblay",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,24 +136,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 864,
-    "Name": "Collins, Steuber and Mosciski",
-    "PersonId": 369,
-    "Rank": 288,
-    "Tooltip": "quis",
+    "AssociateId": 958,
+    "Name": "Mraz, Langosh and DuBuque",
+    "PersonId": 603,
+    "Rank": 70,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 304,
-    "FullName": "Eugene Kilback",
-    "FormalName": "Brakus Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 894,
-    "UserName": "Rice, Kunze and Gerlach",
+    "GroupIdx": 855,
+    "FullName": "Tillman Kovacek III",
+    "FormalName": "Kertzmann-Hegmann",
+    "Deleted": false,
+    "EjUserId": 464,
+    "UserName": "Altenwerth-Rolfson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -161,24 +161,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldType": "System.String",
+        "FieldLength": 624
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 424,
-    "Name": "Lindgren, Weissnat and Strosin",
-    "PersonId": 309,
-    "Rank": 50,
+    "AssociateId": 886,
+    "Name": "Rogahn, Bartell and Pouros",
+    "PersonId": 968,
+    "Rank": 131,
     "Tooltip": "magnam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 468,
-    "FullName": "Marcia Kshlerin",
-    "FormalName": "Bosco, Borer and Davis",
+    "GroupIdx": 989,
+    "FullName": "Pearline Schultz",
+    "FormalName": "Jacobs Inc and Sons",
     "Deleted": true,
-    "EjUserId": 487,
-    "UserName": "Jakubowski Inc and Sons",
+    "EjUserId": 443,
+    "UserName": "Heaney Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -187,14 +187,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 30
       }
     }
   },
   "SelectionCategory": {
-    "Id": 384,
-    "Value": "officia",
-    "Tooltip": "rerum",
+    "Id": 99,
+    "Value": "rerum",
+    "Tooltip": "est",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -203,49 +203,49 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldLength": 186
       }
     }
   },
-  "GroupIdx": 747,
-  "IncludePerson": 327,
-  "MemberCount": 432,
-  "Name": "Green Group",
-  "PostitTextId": 902,
-  "CreatedDate": "2016-06-09T16:48:30.6659345+02:00",
-  "SelectionId": 665,
-  "SoundEx": "modi",
-  "Source": 323,
-  "TextId": 779,
-  "UpdatedDate": "2010-01-22T16:48:30.6659345+01:00",
-  "UpdatedCount": 173,
-  "Visibility": 221,
+  "GroupIdx": 104,
+  "IncludePerson": 941,
+  "MemberCount": 414,
+  "Name": "Daugherty Group",
+  "PostitTextId": 403,
+  "CreatedDate": "2017-03-20T14:58:05.236628+01:00",
+  "SelectionId": 225,
+  "SoundEx": "deleniti",
+  "Source": 923,
+  "TextId": 649,
+  "UpdatedDate": "2017-09-08T14:58:05.236628+02:00",
+  "UpdatedCount": 609,
+  "Visibility": 746,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 327,
-  "TargetTableName": "Olson LLC",
+  "TargetTableNumber": 542,
+  "TargetTableName": "Cronin Group",
   "Completed": true,
-  "LeftSelectionId": 721,
-  "RightSelectionId": 39,
+  "LeftSelectionId": 873,
+  "RightSelectionId": 665,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Olson Inc and Sons",
-  "ShadowProviderName": "Volkman-Williamson",
-  "ChartKey": "incidunt",
-  "LastLoaded": "2011-10-02T16:48:30.6659345+02:00",
-  "LastLoadedBy": 766,
+  "MainProviderName": "Casper Inc and Sons",
+  "ShadowProviderName": "Littel-Feil",
+  "ChartKey": "et",
+  "LastLoaded": "2016-08-06T14:58:05.236628+02:00",
+  "LastLoadedBy": 465,
   "LastLoadedByAssociate": {
-    "AssociateId": 751,
-    "Name": "Donnelly-Jakubowski",
-    "PersonId": 506,
-    "Rank": 121,
-    "Tooltip": "vel",
+    "AssociateId": 597,
+    "Name": "Gibson Inc and Sons",
+    "PersonId": 942,
+    "Rank": 565,
+    "Tooltip": "consequatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 949,
-    "FullName": "Verda Jewess",
-    "FormalName": "Hyatt-Rice",
+    "GroupIdx": 109,
+    "FullName": "Minnie Hayes",
+    "FormalName": "Wisoky Group",
     "Deleted": true,
-    "EjUserId": 848,
-    "UserName": "Gottlieb Group",
+    "EjUserId": 699,
+    "UserName": "Greenfelder LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -253,46 +253,46 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   },
-  "LastMembershipChange": "2014-09-16T16:48:30.6659345+02:00",
-  "LastMembershipChangeBy": 987,
+  "LastMembershipChange": "2014-01-28T14:58:05.236628+01:00",
+  "LastMembershipChangeBy": 851,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 145,
-    "Name": "Gislason Group",
-    "PersonId": 549,
-    "Rank": 63,
-    "Tooltip": "totam",
+    "AssociateId": 785,
+    "Name": "Fisher, Breitenberg and Auer",
+    "PersonId": 962,
+    "Rank": 146,
+    "Tooltip": "libero",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 504,
-    "FullName": "Jon Lindgren",
-    "FormalName": "Beatty Group",
+    "GroupIdx": 304,
+    "FullName": "Lauriane Turcotte",
+    "FormalName": "Dicki LLC",
     "Deleted": true,
-    "EjUserId": 62,
-    "UserName": "Frami Group",
+    "EjUserId": 544,
+    "UserName": "Carter, Kovacek and Renner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "maximize customized schemas"
         },
-        "FieldType": "System.String",
-        "FieldLength": 775
+        "FieldType": "System.Int32",
+        "FieldLength": 558
       }
     }
   },
-  "MainHeading": "et",
-  "MemberTabHeading": "eaque",
-  "MailingsProviderName": "Marquardt-Oberbrunner",
+  "MainHeading": "nihil",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Boyle LLC",
   "VisibleFor": [
     {
-      "VisibleId": 268,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "adipisci",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -301,14 +301,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 788
         }
       }
     },
     {
-      "VisibleId": 268,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "adipisci",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -317,7 +317,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 788
         }
       }
     }
@@ -333,7 +333,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 942
     }
   }
 }

@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Heathcote Group",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 407,
+  "Id": 925,
+  "Name": "Kihn, Denesik and Nader",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 934,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 474
     }
   },
   "_Links": {

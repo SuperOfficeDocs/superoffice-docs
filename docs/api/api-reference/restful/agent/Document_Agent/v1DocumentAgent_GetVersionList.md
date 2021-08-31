@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetVersionList
+title: GetVersionList
 id: v1DocumentAgent_GetVersionList
 ---
 
-# POST Agents/Document/GetVersionList
+# GetVersionList
 
 ```http
 POST /api/v1/Agents/Document/GetVersionList
@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 421
+  "DocumentId": 125
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "cumque",
-    "DocumentId": 278,
-    "VersionId": "ipsum",
-    "CheckedInDate": "2009-12-05T16:48:29.2498949+01:00",
-    "CheckedInByName": "Kemmer LLC",
-    "CheckedInByAssociateId": 565,
-    "Description": "Ergonomic web-enabled attitude",
-    "DisplayText": "et",
+    "ExternalReference": "numquam",
+    "DocumentId": 441,
+    "VersionId": "ratione",
+    "CheckedInDate": "1999-01-09T14:58:03.8424615+01:00",
+    "CheckedInByName": "Zemlak-Dach",
+    "CheckedInByAssociateId": 270,
+    "Description": "Streamlined human-resource process improvement",
+    "DisplayText": "natus",
     "ExtraFields": [
-      "laboriosam",
-      "quibusdam"
+      "aliquid",
+      "molestiae"
     ]
   }
 ]

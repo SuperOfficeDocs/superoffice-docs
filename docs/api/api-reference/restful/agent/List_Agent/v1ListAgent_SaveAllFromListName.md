@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveAllFromListName
+title: SaveAllFromListName
 id: v1ListAgent_SaveAllFromListName
 ---
 
-# POST Agents/List/SaveAllFromListName
+# SaveAllFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveAllFromListName
@@ -79,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Prosacco Group",
+  "UdListDefinitionName": "Pagac, Renner and Parisian",
   "Items": [
     {
-      "Id": 695,
-      "Name": "Carter-O'Conner",
-      "Tooltip": "facilis",
-      "Deleted": true,
-      "UdListDefinitionId": 810,
-      "Rank": 519
+      "Id": 192,
+      "Name": "Rolfson, Gleichner and Hermann",
+      "Tooltip": "inventore",
+      "Deleted": false,
+      "UdListDefinitionId": 502,
+      "Rank": 209
     },
     {
-      "Id": 695,
-      "Name": "Carter-O'Conner",
-      "Tooltip": "facilis",
-      "Deleted": true,
-      "UdListDefinitionId": 810,
-      "Rank": 519
+      "Id": 192,
+      "Name": "Rolfson, Gleichner and Hermann",
+      "Tooltip": "inventore",
+      "Deleted": false,
+      "UdListDefinitionId": 502,
+      "Rank": 209
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Funk, Feest and Anderson",
-    "Tooltip": "et",
+    "Id": 773,
+    "Name": "Crist-Olson",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 601,
-    "Rank": 634,
+    "UdListDefinitionId": 902,
+    "Rank": 757,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 395
       }
     }
   }

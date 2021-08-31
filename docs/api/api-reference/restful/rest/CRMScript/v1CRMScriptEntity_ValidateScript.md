@@ -75,8 +75,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "dolores",
+  "Valid": true,
+  "ErrorMessage": "consequuntur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 489
     }
   }
 }

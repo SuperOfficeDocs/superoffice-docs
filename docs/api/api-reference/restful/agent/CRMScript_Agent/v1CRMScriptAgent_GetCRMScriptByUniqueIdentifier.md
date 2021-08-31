@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
+title: GetCRMScriptByUniqueIdentifier
 id: v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier
 ---
 
-# POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
+# GetCRMScriptByUniqueIdentifier
 
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
@@ -55,7 +55,7 @@ UniqueIdentifier
 
 ## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object.
+The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
 
 
 
@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis"
+  "UniqueIdentifier": "rerum"
 }
 ```
 
@@ -102,16 +102,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptas",
-  "Name": "Ondricka-Nader",
-  "Description": "Managed non-volatile function",
-  "IncludeId": "amet",
-  "Source": "doloremque",
-  "Registered": "2009-08-09T16:48:29.2128946+02:00",
-  "RegisteredBy": "iusto",
-  "Updated": "2005-10-19T16:48:29.2128946+02:00",
-  "UpdatedBy": "dolores",
-  "Path": "quia",
+  "UniqueIdentifier": "est",
+  "Name": "Pfannerstill Group",
+  "Description": "Up-sized encompassing ability",
+  "IncludeId": "quae",
+  "Source": "iure",
+  "Registered": "2009-05-10T14:58:03.7464599+02:00",
+  "RegisteredBy": "at",
+  "Updated": "1998-01-13T14:58:03.7464599+01:00",
+  "UpdatedBy": "ut",
+  "Path": "vel",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 474
     }
   }
 }

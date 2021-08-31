@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 428,
-  "Name": "Kozey, Satterfield and Moore",
-  "Tooltip": "esse",
+  "Id": 871,
+  "Name": "Mitchell Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 515,
-  "Rank": 800,
+  "UdListDefinitionId": 743,
+  "Rank": 755,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldLength": 698
     }
   }
 }

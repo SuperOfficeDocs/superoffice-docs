@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 293,
-  "Name": "Mraz, Kozey and Pacocha",
-  "Tooltip": "accusantium",
+  "HeadingId": 939,
+  "Name": "Rippin, Willms and Wilkinson",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 135,
-  "UdListDefinitionId": 998
+  "Rank": 673,
+  "UdListDefinitionId": 195
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 476,
-  "Name": "Predovic, Feest and Treutel",
+  "HeadingId": 436,
+  "Name": "Ernser Inc and Sons",
   "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 773,
-  "UdListDefinitionId": 972,
+  "Rank": 683,
+  "UdListDefinitionId": 606,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

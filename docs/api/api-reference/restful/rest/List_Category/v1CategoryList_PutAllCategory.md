@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Wolff LLC",
-    "Tooltip": "nisi",
+    "Id": 300,
+    "Name": "Baumbach LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 165,
-    "Rank": 383
+    "UdListDefinitionId": 448,
+    "Rank": 484
   },
   {
-    "Id": 931,
-    "Name": "Wolff LLC",
-    "Tooltip": "nisi",
+    "Id": 300,
+    "Name": "Baumbach LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 165,
-    "Rank": 383
+    "UdListDefinitionId": 448,
+    "Rank": 484
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Effertz-Feil",
-    "Tooltip": "assumenda",
+    "Id": 293,
+    "Name": "Monahan LLC",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "UdListDefinitionId": 353,
-    "Rank": 30,
+    "UdListDefinitionId": 875,
+    "Rank": 789,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

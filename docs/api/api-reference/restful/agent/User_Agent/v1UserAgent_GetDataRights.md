@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetDataRights
+title: GetDataRights
 id: v1UserAgent_GetDataRights
 ---
 
-# POST Agents/User/GetDataRights
+# GetDataRights
 
 ```http
 POST /api/v1/Agents/User/GetDataRights
@@ -72,12 +72,12 @@ Response body: object
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 648,
-  "TableName": "Kunde, Braun and Trantow"
+  "RoleId": 656,
+  "TableName": "Koch, Kassulke and Kihn"
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolores",
-  "2": "repellat"
+  "1": "voluptas",
+  "2": "doloremque"
 }
 ```

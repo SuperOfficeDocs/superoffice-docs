@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 71,
-    "Name": "Auer-Spinka",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 935,
+    "HeadingId": 239,
+    "Name": "Wintheiser, Cummings and Hudson",
+    "Tooltip": "a",
+    "Deleted": true,
+    "Rank": 546,
+    "UdListDefinitionId": 99,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 870
       }
     }
   }

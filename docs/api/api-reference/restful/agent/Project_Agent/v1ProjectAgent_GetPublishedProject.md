@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetPublishedProject
+title: GetPublishedProject
 id: v1ProjectAgent_GetPublishedProject
 ---
 
-# POST Agents/Project/GetPublishedProject
+# GetPublishedProject
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProject
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 370
+  "ProjectId": 437
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 212,
-  "Name": "Quitzon, Rath and Jaskolski",
-  "Description": "Multi-lateral system-worthy workforce",
+  "ProjectId": 748,
+  "Name": "Turner, Donnelly and Jones",
+  "Description": "Reactive coherent pricing structure",
   "URL": "http://www.example.com/",
-  "Type": "voluptatum",
-  "AssociateId": 542,
-  "AssociateFullName": "Tito Carroll",
-  "TypeId": 856,
-  "Updated": "2019-02-20T16:48:30.3749351+01:00",
-  "StatusId": 817,
-  "Status": "distinctio",
-  "TextId": 465,
-  "PublishTo": "2020-06-09T16:48:30.3749351+02:00",
-  "PublishFrom": "2016-11-11T16:48:30.3749351+01:00",
-  "IsPublished": true,
+  "Type": "harum",
+  "AssociateId": 818,
+  "AssociateFullName": "Hailey Kunde",
+  "TypeId": 774,
+  "Updated": "2014-04-04T14:58:04.8604658+02:00",
+  "StatusId": 663,
+  "Status": "eum",
+  "TextId": 999,
+  "PublishTo": "2020-01-14T14:58:04.8604658+01:00",
+  "PublishFrom": "1994-04-17T14:58:04.8604658+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1104087",
-  "ActiveErpLinks": 528,
+  "ProjectNumber": "1209667",
+  "ActiveErpLinks": 237,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 236
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

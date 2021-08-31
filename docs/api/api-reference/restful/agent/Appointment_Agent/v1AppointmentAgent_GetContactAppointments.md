@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetContactAppointments
+title: GetContactAppointments
 id: v1AppointmentAgent_GetContactAppointments
 ---
 
-# POST Agents/Appointment/GetContactAppointments
+# GetContactAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointments
@@ -124,14 +124,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 24,
-  "StartTime": "1996-01-31T16:48:28.4414501+01:00",
-  "EndTime": "2003-10-12T16:48:28.4414501+02:00",
-  "Count": 3
+  "ContactId": 293,
+  "StartTime": "2010-07-15T14:58:03.0595381+02:00",
+  "EndTime": "2013-07-17T14:58:03.0595381+02:00",
+  "Count": 287
 }
 ```
 
@@ -141,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 670,
-    "StartDate": "2001-01-28T16:48:28.4434489+01:00",
-    "EndDate": "2018-09-16T16:48:28.4434489+02:00",
+    "AppointmentId": 451,
+    "StartDate": "1995-10-13T14:58:03.0605383+02:00",
+    "EndDate": "1995-07-31T14:58:03.0605383+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Stephany Kreiger",
-    "ContactName": "Mann-Lakin",
-    "Description": "Mandatory empowering workforce",
-    "PersonFullName": "Christy Johnson",
-    "PersonId": 210,
-    "ContactId": 492,
-    "ProjectId": 881,
-    "ProjectName": "Smitham-Swift",
-    "IsPublished": true,
-    "AssociateId": 507,
-    "ColorIndex": 259,
+    "Task": "dicta",
+    "AssociateFullName": "Columbus Weissnat",
+    "ContactName": "Gaylord, Terry and Rutherford",
+    "Description": "Upgradable well-modulated flexibility",
+    "PersonFullName": "Angel Collier",
+    "PersonId": 328,
+    "ContactId": 241,
+    "ProjectId": 924,
+    "ProjectName": "Cummings-Bogisich",
+    "IsPublished": false,
+    "AssociateId": 387,
+    "ColorIndex": 289,
     "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 489,
-    "PriorityName": "Welch-Bartell",
+    "PriorityId": 203,
+    "PriorityName": "Heidenreich Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-06-23T16:48:28.4434489+02:00",
+    "ActiveDate": "2007-01-21T14:58:03.0605383+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-11-16T16:48:28.4434489+01:00",
-    "RecurringEndDate": "2005-07-07T16:48:28.4434489+02:00",
-    "MotherId": 979,
-    "AssignedBy": 512,
-    "AssignedByFullName": "Lane Dooley",
-    "RejectReason": "facilitate 24/7 synergies",
-    "Location": "eius",
-    "AlarmLeadTime": "adipisci",
-    "SaleId": 16,
-    "SaleName": "Mohr LLC",
-    "AssociateName": "Block Inc and Sons",
-    "CreatedDate": "2007-09-27T16:48:28.4434489+02:00",
-    "CreatedBy": "ea",
-    "CreatedByFullName": "Freeman Ortiz",
-    "CreatedByAssociateId": 744,
+    "RecurringStartDate": "2000-09-10T14:58:03.0605383+02:00",
+    "RecurringEndDate": "2013-10-17T14:58:03.0605383+02:00",
+    "MotherId": 207,
+    "AssignedBy": 467,
+    "AssignedByFullName": "Abdiel Luettgen",
+    "RejectReason": "",
+    "Location": "non",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 854,
+    "SaleName": "Prosacco-Lynch",
+    "AssociateName": "Turner Inc and Sons",
+    "CreatedDate": "2009-06-18T14:58:03.061538+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Ruthe Auer",
+    "CreatedByAssociateId": 233,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

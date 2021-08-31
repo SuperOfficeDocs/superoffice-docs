@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 68,
-    "ColumnId": 930,
-    "FieldDefault": "quia",
-    "FieldHeight": 442,
-    "FieldLabel": "ut",
-    "FieldLeft": 30,
-    "FieldTop": 769,
+    "UDefFieldId": 160,
+    "ColumnId": 189,
+    "FieldDefault": "deserunt",
+    "FieldHeight": 877,
+    "FieldLabel": "aliquid",
+    "FieldLeft": 596,
+    "FieldTop": 503,
     "FieldType": "Checkbox",
-    "FieldWidth": 649,
-    "FormatMask": "cupiditate",
+    "FieldWidth": 655,
+    "FormatMask": "dolorum",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 22,
-    "LabelLeft": 534,
-    "LabelTop": 927,
-    "LabelWidth": 997,
-    "LastVersionId": 246,
-    "ListTableId": 134,
-    "IsMandatory": true,
+    "LabelHeight": 846,
+    "LabelLeft": 996,
+    "LabelTop": 929,
+    "LabelWidth": 718,
+    "LastVersionId": 819,
+    "ListTableId": 838,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 997,
-    "ProgId": "quis",
-    "IsReadOnly": true,
-    "ShortLabel": "molestias",
-    "TabOrder": 418,
-    "TextLength": 823,
-    "Tooltip": "et",
-    "UdefIdentity": 826,
-    "UDListDefinitionId": 209,
+    "Page1LineNo": 509,
+    "ProgId": "quod",
+    "IsReadOnly": false,
+    "ShortLabel": "et",
+    "TabOrder": 491,
+    "TextLength": 903,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 586,
+    "UDListDefinitionId": 159,
     "Justification": "Center",
-    "Version": 980,
-    "TemplateVariableName": "Mraz, Mills and Parisian",
+    "Version": 279,
+    "TemplateVariableName": "Buckridge Group",
     "HasBeenPublished": true,
-    "MdoListName": "Bradtke LLC",
+    "MdoListName": "Oberbrunner, McClure and Grady",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

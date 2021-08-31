@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Ankunding, O'Reilly and Kerluke",
-    "ToolTip": "Nihil minus asperiores.",
-    "Deleted": false,
-    "Rank": 638,
-    "Type": "pariatur",
-    "ColorBlock": 39,
-    "IconHint": "illo",
-    "Selected": false,
-    "LastChanged": "2004-01-13T09:41:00.7523876+01:00",
+    "Id": 921,
+    "Name": "O'Keefe, Langosh and Mueller",
+    "ToolTip": "Cumque odit.",
+    "Deleted": true,
+    "Rank": 798,
+    "Type": "sed",
+    "ColorBlock": 505,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2015-06-15T15:05:43.8151179+02:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Jaskolski LLC",
-        "ToolTip": "Ipsa sit sapiente distinctio.",
+        "Id": 590,
+        "Name": "Pfeffer, Dibbert and Skiles",
+        "ToolTip": "Incidunt est nesciunt.",
         "Deleted": false,
-        "Rank": 594,
-        "Type": "tempore",
-        "ColorBlock": 702,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2017-12-31T09:41:00.7523876+01:00",
+        "Rank": 101,
+        "Type": "libero",
+        "ColorBlock": 704,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2017-12-05T15:05:43.8151179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "soluta",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Cassidy McDermott DVM"
+        "FullName": "Elmore Orn"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Ezra Stroman"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Fanny Littel"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Grant-Hilpert",
-    "ToolTip": "Aut est in rem sint autem placeat.",
+    "Id": 631,
+    "Name": "Nolan-Ryan",
+    "ToolTip": "Modi temporibus odio enim ut harum sequi.",
     "Deleted": true,
-    "Rank": 650,
-    "Type": "veritatis",
-    "ColorBlock": 703,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2020-11-10T09:41:00.7533877+01:00",
+    "Rank": 248,
+    "Type": "voluptas",
+    "ColorBlock": 563,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2011-01-12T15:05:43.8161173+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Spencer-Stark",
-        "ToolTip": "Perferendis provident sed in corporis.",
-        "Deleted": true,
-        "Rank": 866,
-        "Type": "dolorem",
-        "ColorBlock": 618,
-        "IconHint": "aliquam",
+        "Id": 455,
+        "Name": "Ondricka-Frami",
+        "ToolTip": "Magni quos.",
+        "Deleted": false,
+        "Rank": 724,
+        "Type": "praesentium",
+        "ColorBlock": 105,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "1995-05-23T09:41:00.7533877+02:00",
+        "LastChanged": "2011-09-22T15:05:43.8161173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Judson D'Amore",
+        "ExtraInfo": "et",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Carole Lang",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldType": "System.String",
+            "FieldLength": 406
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "in",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Josie Grimes",
+    "FullName": "Charlene Turcotte",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "empower next-generation architectures"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 176
       }
     }
   }

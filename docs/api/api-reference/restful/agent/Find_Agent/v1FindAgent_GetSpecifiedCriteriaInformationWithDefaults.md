@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
+title: GetSpecifiedCriteriaInformationWithDefaults
 id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
 ---
 
-# POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
+# GetSpecifiedCriteriaInformationWithDefaults
 
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
@@ -85,20 +85,20 @@ Response body: object
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Reinger Group",
-  "StorageKey": "praesentium",
+  "StorageType": "cum",
+  "ProviderName": "Ledner-Schimmel",
+  "StorageKey": "vel",
   "DesiredColumnNames": [
-    "Wisoky-Smith",
-    "Larson, Armstrong and O'Hara"
+    "Labadie-Heller",
+    "Mann-Weissnat"
   ],
   "StaticColumns": [
-    "veritatis",
-    "accusamus"
+    "sed",
+    "maxime"
   ]
 }
 ```
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Walsh Inc and Sons",
-      "Operator": "qui",
+      "Name": "Dickinson LLC",
+      "Operator": "debitis",
       "Values": [
-        "molestias",
-        "aut"
+        "debitis",
+        "ad"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "exercitationem"
+        "optio",
+        "et"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -126,41 +126,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 933,
+      "InterParenthesis": 236,
       "InterOperator": "And",
-      "UniqueHash": 646
+      "UniqueHash": 265
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wintheiser-Rutherford",
-      "DisplayTooltip": "fugiat",
-      "DisplayType": "dolor",
-      "CanOrderBy": false,
-      "Name": "Buckridge, Jenkins and Volkman",
+      "DisplayName": "Bergstrom-Huel",
+      "DisplayTooltip": "tempora",
+      "DisplayType": "saepe",
+      "CanOrderBy": true,
+      "Name": "Kozey LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "laborum",
-      "RestrictionListName": "Reichel-Sauer",
+      "RestrictionType": "enim",
+      "RestrictionListName": "Leuschke LLC",
       "IsVisible": true,
-      "ExtraInfo": "at",
-      "Width": "sequi",
-      "IconHint": "non",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "ut",
+      "Width": "nostrum",
+      "IconHint": "nihil",
+      "HeadingIconHint": "id"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Swift-Schmeler",
-      "PrimaryKey": 796,
+      "EntityName": "Hermann-Dare",
+      "PrimaryKey": 22,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "ut",
-          "LinkHint": "sed"
+          "DisplayValue": "eveniet",
+          "TooltipHint": "et",
+          "LinkHint": "minus"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "pariatur",
+      "LinkHint": "temporibus",
+      "StyleHint": "ipsam",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -168,26 +168,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 579
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Feil-Gaylord",
-      "Description": "Digitized holistic local area network",
-      "Rank": 242,
+      "Name": "Connelly-Boyle",
+      "Description": "Multi-lateral intangible portal",
+      "Rank": 218,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Feil-Gaylord",
-      "Description": "Digitized holistic local area network",
-      "Rank": 242,
+      "Name": "Connelly-Boyle",
+      "Description": "Multi-lateral intangible portal",
+      "Rank": 218,
       "Restrictions": [
         {},
         {}
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

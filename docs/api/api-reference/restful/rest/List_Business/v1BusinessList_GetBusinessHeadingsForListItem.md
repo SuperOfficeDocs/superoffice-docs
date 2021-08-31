@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Dickens, Gorczany and Reynolds",
-    "ToolTip": "Sed sunt rerum maxime quo et aliquid.",
+    "Id": 161,
+    "Name": "Luettgen, Price and Carter",
+    "ToolTip": "Quia minus repudiandae laboriosam minima.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "enim",
-    "ColorBlock": 782,
-    "IconHint": "dolore",
+    "Rank": 41,
+    "Type": "eaque",
+    "ColorBlock": 654,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2014-03-18T09:41:00.1783316+01:00",
+    "LastChanged": "2020-05-18T15:05:43.2545447+02:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Gleason-Eichmann",
-        "ToolTip": "Provident molestiae ad beatae.",
+        "Id": 344,
+        "Name": "Nolan, Ferry and Shanahan",
+        "ToolTip": "Doloremque perferendis.",
         "Deleted": true,
-        "Rank": 920,
-        "Type": "excepturi",
-        "ColorBlock": 718,
-        "IconHint": "consectetur",
-        "Selected": false,
-        "LastChanged": "2005-06-29T09:41:00.1783316+02:00",
+        "Rank": 73,
+        "Type": "sequi",
+        "ColorBlock": 241,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2000-01-10T15:05:43.2545447+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Lavinia Jacobs",
+        "ExtraInfo": "illum",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Aiyana Ward",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 553
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Adella Larson",
+    "ExtraInfo": "sed",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Geo Dickinson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 256
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Webhook/GetWebhook
+title: GetWebhook
 id: v1WebhookAgent_GetWebhook
 ---
 
-# POST Agents/Webhook/GetWebhook
+# GetWebhook
 
 ```http
 POST /api/v1/Agents/Webhook/GetWebhook
@@ -27,7 +27,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=543
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=819
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 334,
-  "Name": "Conn, Spinka and Prosacco",
+  "WebhookId": 513,
+  "Name": "Zieme, Lubowitz and Kilback",
   "Events": [
-    "libero",
-    "fugit"
+    "soluta",
+    "vitae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "beatae",
+  "Secret": "inventore",
   "State": "Active",
-  "Type": "id",
+  "Type": "molestiae",
   "Headers": {
-    "Headers1": "consequuntur",
-    "Headers2": "facilis"
+    "Headers1": "dolores",
+    "Headers2": "id"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-11-07T16:48:31.0309345+01:00",
+  "Registered": "2017-11-28T14:58:05.6140553+01:00",
   "RegisteredAssociate": {
-    "AssociateId": 898,
-    "Name": "Sipes Inc and Sons",
-    "PersonId": 228,
-    "Rank": 479,
-    "Tooltip": "ut",
+    "AssociateId": 581,
+    "Name": "Rau-Jones",
+    "PersonId": 12,
+    "Rank": 924,
+    "Tooltip": "error",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 571,
-    "FullName": "Justus Gorczany",
-    "FormalName": "Ullrich, Stiedemann and Huels",
-    "Deleted": true,
-    "EjUserId": 4,
-    "UserName": "Stracke, Frami and Wolf",
+    "GroupIdx": 316,
+    "FullName": "Sydni Ward",
+    "FormalName": "Pfannerstill Group",
+    "Deleted": false,
+    "EjUserId": 400,
+    "UserName": "Reichel Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,25 +129,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   },
-  "Updated": "2008-02-06T16:48:31.0309345+01:00",
+  "Updated": "2009-03-19T14:58:05.6140553+01:00",
   "UpdatedAssociate": {
-    "AssociateId": 962,
-    "Name": "Maggio, Crist and Reinger",
-    "PersonId": 517,
-    "Rank": 112,
-    "Tooltip": "et",
+    "AssociateId": 437,
+    "Name": "Jones, Morar and Pagac",
+    "PersonId": 193,
+    "Rank": 760,
+    "Tooltip": "tempora",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 913,
-    "FullName": "Karen Runte",
-    "FormalName": "Graham LLC",
-    "Deleted": false,
-    "EjUserId": 802,
-    "UserName": "Schaefer-Thompson",
+    "GroupIdx": 796,
+    "FullName": "Woodrow Murray",
+    "FormalName": "Stark LLC",
+    "Deleted": true,
+    "EjUserId": 134,
+    "UserName": "Champlin Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 100
       }
     }
   }

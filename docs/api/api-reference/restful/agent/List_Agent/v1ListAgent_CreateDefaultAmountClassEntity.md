@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultAmountClassEntity
+title: CreateDefaultAmountClassEntity
 id: v1ListAgent_CreateDefaultAmountClassEntity
 ---
 
-# POST Agents/List/CreateDefaultAmountClassEntity
+# CreateDefaultAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
@@ -70,14 +70,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 318,
-  "Name": "Doyle, Bernhard and Boyle",
-  "Tooltip": "ex",
-  "Rank": 186,
-  "AmountFrom": 25316.451999999997,
-  "AmountTo": 19161.275999999998,
-  "Deleted": true,
-  "CurrencyId": 838,
+  "AmountClassId": 27,
+  "Name": "Bergnaum, Jones and Reynolds",
+  "Tooltip": "quasi",
+  "Rank": 815,
+  "AmountFrom": 9295.444,
+  "AmountTo": 22956.55,
+  "Deleted": false,
+  "CurrencyId": 447,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   }
 }

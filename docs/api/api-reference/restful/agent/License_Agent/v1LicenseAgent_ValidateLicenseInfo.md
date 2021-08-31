@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/ValidateLicenseInfo
+title: ValidateLicenseInfo
 id: v1LicenseAgent_ValidateLicenseInfo
 ---
 
-# POST Agents/License/ValidateLicenseInfo
+# ValidateLicenseInfo
 
 ```http
 POST /api/v1/Agents/License/ValidateLicenseInfo
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "AccumulatedNextCheckDate": "2010-09-24T16:48:29.7309241+02:00"
+    "AccumulatedNextCheckDate": "2005-10-01T14:58:04.3254605+02:00"
   }
 }
 ```
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "empower wireless portals"
+    "Reason": "synergize back-end users"
   },
   "FieldProperties": {
     "fieldName": {
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

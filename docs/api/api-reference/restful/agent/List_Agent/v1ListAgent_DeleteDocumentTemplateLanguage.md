@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteDocumentTemplateLanguage
+title: DeleteDocumentTemplateLanguage
 id: v1ListAgent_DeleteDocumentTemplateLanguage
 ---
 
-# POST Agents/List/DeleteDocumentTemplateLanguage
+# DeleteDocumentTemplateLanguage
 
 ```http
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage

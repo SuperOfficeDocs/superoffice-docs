@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/UndoCheckoutDocument
+title: UndoCheckoutDocument
 id: v1DocumentAgent_UndoCheckoutDocument
 ---
 
-# POST Agents/Document/UndoCheckoutDocument
+# UndoCheckoutDocument
 
 ```http
 POST /api/v1/Agents/Document/UndoCheckoutDocument
@@ -77,13 +77,13 @@ Response body: object
 POST /api/v1/Agents/Document/UndoCheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 83,
+  "DocumentId": 478,
   "AllowedReturnTypes": [
-    "saepe",
+    "impedit",
     "enim"
   ]
 }
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptatibus",
+  "ExternalReference": "qui",
   "VersionId": "est",
-  "Success": false,
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "enim",
-  "AdditionalInfo": "eum"
+  "Value": "atque",
+  "AdditionalInfo": "magni"
 }
 ```

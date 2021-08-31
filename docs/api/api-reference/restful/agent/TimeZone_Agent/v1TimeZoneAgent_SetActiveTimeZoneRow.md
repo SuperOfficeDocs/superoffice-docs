@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/SetActiveTimeZoneRow
+title: SetActiveTimeZoneRow
 id: v1TimeZoneAgent_SetActiveTimeZoneRow
 ---
 
-# POST Agents/TimeZone/SetActiveTimeZoneRow
+# SetActiveTimeZoneRow
 
 ```http
 POST /api/v1/Agents/TimeZone/SetActiveTimeZoneRow

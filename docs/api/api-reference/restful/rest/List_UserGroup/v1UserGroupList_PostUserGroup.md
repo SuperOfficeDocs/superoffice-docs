@@ -80,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "illo",
-  "Tooltip": "nobis",
-  "Id": 143,
-  "Rank": 325,
+  "Value": "sit",
+  "Tooltip": "voluptatibus",
+  "Id": 709,
+  "Rank": 806,
   "Deleted": true
 }
 ```
@@ -93,10 +93,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "est",
-  "Tooltip": "labore",
-  "Id": 251,
-  "Rank": 439,
+  "Value": "quaerat",
+  "Tooltip": "sit",
+  "Id": 215,
+  "Rank": 485,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 37
     }
   }
 }

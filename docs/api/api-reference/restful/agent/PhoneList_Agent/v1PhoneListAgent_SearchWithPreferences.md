@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/SearchWithPreferences
+title: SearchWithPreferences
 id: v1PhoneListAgent_SearchWithPreferences
 ---
 
-# POST Agents/PhoneList/SearchWithPreferences
+# SearchWithPreferences
 
 ```http
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
@@ -83,16 +83,16 @@ Response body: array
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "repellat",
+  "SearchString": "repellendus",
   "Preferences": {
     "SearchCompany": true,
     "SearchFirstname": false,
-    "SearchLastname": true,
-    "SearchDepartment": true,
+    "SearchLastname": false,
+    "SearchDepartment": false,
     "SearchModeCompany": "BeginsWith",
     "SearchModeDepartment": "BeginsWith",
     "SearchModeFirstname": "BeginsWith",
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "222.384.5500 x71003",
-    "PersonCellPhone": "454-376-1578 x8567",
-    "PersonPrivatePhone": "1-621-703-5773 x5214",
-    "PersonFaxNumber": "1710803",
-    "PersonPagerNumber": "1144896",
-    "PersonEmail": "rowan@jacobi.com",
-    "Id": 574,
-    "Name": "Prosacco LLC",
-    "Tooltip": "mollitia",
-    "UniqueId": "a",
+    "PersonDirectPhone": "676-257-3864",
+    "PersonCellPhone": "(654)373-7386",
+    "PersonPrivatePhone": "523.426.6055",
+    "PersonFaxNumber": "917152",
+    "PersonPagerNumber": "1101189",
+    "PersonEmail": "valentin_cummerata@zemlakgoodwin.co.uk",
+    "Id": 848,
+    "Name": "Cummerata Group",
+    "Tooltip": "laborum",
+    "UniqueId": "voluptatum",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "target back-end platforms"
     },
     "FieldProperties": {
       "fieldName": {
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

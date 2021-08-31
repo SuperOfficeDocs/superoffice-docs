@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetSuggestedAppointment
+title: GetSuggestedAppointment
 id: v1AppointmentAgent_GetSuggestedAppointment
 ---
 
-# POST Agents/Appointment/GetSuggestedAppointment
+# GetSuggestedAppointment
 
 ```http
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
@@ -25,7 +25,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=280
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=369
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -88,32 +88,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 343,
-  "Deleted": 884,
-  "DaysFuture": 753,
-  "Tooltip": "occaecati",
-  "Text": "doloribus",
-  "TaskId": 327,
-  "SuggestedAppointmentId": 449,
-  "SaleTypeStageLinkId": 808,
-  "RegisteredAssociateId": 517,
-  "Rank": 973,
-  "ProjectTypeStatusLinkId": 250,
-  "Name": "Parker, Simonis and Walker",
-  "Duration": 292,
+  "AutoSuggest": 611,
+  "Deleted": 107,
+  "DaysFuture": 869,
+  "Tooltip": "omnis",
+  "Text": "quaerat",
+  "TaskId": 897,
+  "SuggestedAppointmentId": 816,
+  "SaleTypeStageLinkId": 558,
+  "RegisteredAssociateId": 258,
+  "Rank": 401,
+  "ProjectTypeStatusLinkId": 917,
+  "Name": "Sipes-Senger",
+  "Duration": 234,
   "Associate": {
-    "AssociateId": 948,
-    "Name": "Hills-Brekke",
-    "PersonId": 216,
-    "Rank": 706,
-    "Tooltip": "omnis",
+    "AssociateId": 179,
+    "Name": "Mueller-Emmerich",
+    "PersonId": 349,
+    "Rank": 545,
+    "Tooltip": "rerum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 199,
-    "FullName": "Kassandra Medhurst",
-    "FormalName": "Bauch Inc and Sons",
+    "GroupIdx": 983,
+    "FullName": "Estrella Zulauf",
+    "FormalName": "Lemke Inc and Sons",
     "Deleted": false,
-    "EjUserId": 987,
-    "UserName": "Lockman Inc and Sons",
+    "EjUserId": 132,
+    "UserName": "Gerlach, Bernier and Halvorson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 79
       }
     }
   },
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldLength": 92
     }
   }
 }

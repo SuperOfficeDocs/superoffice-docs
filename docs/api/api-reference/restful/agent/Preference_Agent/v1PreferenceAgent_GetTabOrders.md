@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetTabOrders
+title: GetTabOrders
 id: v1PreferenceAgent_GetTabOrders
 ---
 
-# POST Agents/Preference/GetTabOrders
+# GetTabOrders
 
 ```http
 POST /api/v1/Agents/Preference/GetTabOrders
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 22,
-    "TabName": "Dietrich-Quigley",
-    "Order": "asperiores",
-    "AssociateId": 788,
+    "TabOrderId": 800,
+    "TabName": "Kutch Group",
+    "Order": "officia",
+    "AssociateId": 123,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 905
       }
     }
   },
   {
-    "TabOrderId": 22,
-    "TabName": "Dietrich-Quigley",
-    "Order": "asperiores",
-    "AssociateId": 788,
+    "TabOrderId": 800,
+    "TabName": "Kutch Group",
+    "Order": "officia",
+    "AssociateId": 123,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 905
       }
     }
   }

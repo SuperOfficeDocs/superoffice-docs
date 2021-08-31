@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateList
+title: GetDocumentTemplateList
 id: v1ListAgent_GetDocumentTemplateList
 ---
 
-# POST Agents/List/GetDocumentTemplateList
+# GetDocumentTemplateList
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateList
@@ -80,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -89,16 +89,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 868,
-    "Name": "Christiansen LLC",
-    "Tooltip": "sint",
-    "SaveInDb": 815,
-    "Filename": "qui",
-    "DefaultOref": "itaque",
+    "DocumentTemplateId": 682,
+    "Name": "Turcotte, Kunze and Strosin",
+    "Tooltip": "error",
+    "SaveInDb": 813,
+    "Filename": "est",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
-    "Deleted": 388,
+    "Deleted": 506,
     "Direction": "Incoming",
-    "AutoeventId": 973,
+    "AutoeventId": 951,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {
       "Mask": "Delete",
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldType": "System.String",
+        "FieldLength": 976
       }
     }
   }

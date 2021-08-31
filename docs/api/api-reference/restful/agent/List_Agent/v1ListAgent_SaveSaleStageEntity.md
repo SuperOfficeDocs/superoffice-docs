@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveSaleStageEntity
+title: SaveSaleStageEntity
 id: v1ListAgent_SaveSaleStageEntity
 ---
 
-# POST Agents/List/SaveSaleStageEntity
+# SaveSaleStageEntity
 
 ```http
 POST /api/v1/Agents/List/SaveSaleStageEntity
@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 817,
-  "Value": "illo",
-  "Tooltip": "assumenda",
-  "Probability": 308,
-  "Deleted": true,
-  "Rank": 363
+  "SaleStageId": 936,
+  "Value": "omnis",
+  "Tooltip": "a",
+  "Probability": 776,
+  "Deleted": false,
+  "Rank": 322
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 83,
-  "Value": "at",
-  "Tooltip": "nobis",
-  "Probability": 447,
-  "Deleted": false,
-  "Rank": 726,
+  "SaleStageId": 415,
+  "Value": "ex",
+  "Tooltip": "necessitatibus",
+  "Probability": 896,
+  "Deleted": true,
+  "Rank": 984,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldLength": 376
     }
   }
 }

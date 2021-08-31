@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sentry/CanCreateAppointmentInAllDiaries
+title: CanCreateAppointmentInAllDiaries
 id: v1SentryAgent_CanCreateAppointmentInAllDiaries
 ---
 
-# POST Agents/Sentry/CanCreateAppointmentInAllDiaries
+# CanCreateAppointmentInAllDiaries
 
 ```http
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAllDiaries
@@ -66,5 +66,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

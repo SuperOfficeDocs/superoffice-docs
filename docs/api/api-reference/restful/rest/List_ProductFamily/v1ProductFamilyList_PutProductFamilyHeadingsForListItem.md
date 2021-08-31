@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Homenick, Gleichner and Hudson",
-    "ToolTip": "Adipisci fugiat vel.",
+    "Id": 329,
+    "Name": "Quitzon Group",
+    "ToolTip": "Omnis voluptatem et inventore.",
     "Deleted": true,
-    "Rank": 958,
-    "Type": "facere",
-    "ColorBlock": 461,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2012-06-12T09:41:00.5653878+02:00",
+    "Rank": 698,
+    "Type": "rerum",
+    "ColorBlock": 502,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2006-09-28T15:05:43.6340798+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Leuschke-Jerde",
-        "ToolTip": "Quis et exercitationem vel minus.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "vel",
-        "ColorBlock": 479,
-        "IconHint": "quasi",
+        "Id": 275,
+        "Name": "Huel, Pacocha and Bechtelar",
+        "ToolTip": "Dolor et perferendis at id.",
+        "Deleted": false,
+        "Rank": 98,
+        "Type": "non",
+        "ColorBlock": 516,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2020-10-17T09:41:00.5653878+02:00",
+        "LastChanged": "2019-08-22T15:05:43.6340798+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Hollis Erdman MD"
+        "FullName": "Orlo Trantow DVM"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Jacinto Durgan"
+    "ExtraInfo": "ab",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Lukas Nitzsche"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Sauer, Murazik and Kuphal",
-    "ToolTip": "Commodi veritatis nihil deserunt omnis.",
+    "Id": 561,
+    "Name": "Bosco-O'Hara",
+    "ToolTip": "Ut eum blanditiis.",
     "Deleted": true,
-    "Rank": 261,
-    "Type": "saepe",
-    "ColorBlock": 74,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2015-07-14T09:41:00.5663859+02:00",
+    "Rank": 836,
+    "Type": "mollitia",
+    "ColorBlock": 710,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2008-01-10T15:05:43.6350795+01:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "O'Keefe-Mann",
-        "ToolTip": "Doloremque soluta corrupti ratione tempora.",
+        "Id": 569,
+        "Name": "Williamson-Prohaska",
+        "ToolTip": "Explicabo illo.",
         "Deleted": true,
-        "Rank": 429,
-        "Type": "numquam",
-        "ColorBlock": 130,
-        "IconHint": "exercitationem",
+        "Rank": 833,
+        "Type": "atque",
+        "ColorBlock": 518,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2017-01-18T09:41:00.5663859+01:00",
+        "LastChanged": "2021-05-11T15:05:43.6350795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Ms. Leo Lind",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Daren Dibbert",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sit",
+    "ExtraInfo": "est",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Willow Koss DVM",
+    "FullName": "Lambert Yost Sr.",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate enterprise web-readiness"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 456
       }
     }
   }

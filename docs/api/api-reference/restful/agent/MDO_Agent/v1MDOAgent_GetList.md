@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetList
+title: GetList
 id: v1MDOAgent_GetList
 ---
 
-# POST Agents/MDO/GetList
+# GetList
 
 ```http
 POST /api/v1/Agents/MDO/GetList
@@ -87,14 +87,14 @@ Response body: array
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langosh, Blick and Padberg",
+  "Name": "Brakus, Wisozk and Skiles",
   "ForceFlatList": false,
-  "AdditionalInfo": "ducimus",
-  "OnlyHistory": true
+  "AdditionalInfo": "quod",
+  "OnlyHistory": false
 }
 ```
 
@@ -104,47 +104,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Swift Inc and Sons",
-    "ToolTip": "Et voluptate.",
+    "Id": 219,
+    "Name": "Douglas-Mraz",
+    "ToolTip": "Nulla vero animi.",
     "Deleted": false,
-    "Rank": 19,
-    "Type": "pariatur",
+    "Rank": 507,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Altenwerth LLC",
-        "ToolTip": "Est dolores consequatur.",
-        "Deleted": true,
-        "Rank": 976,
-        "Type": "mollitia",
+        "Id": 116,
+        "Name": "Jewess-Wunsch",
+        "ToolTip": "In eos vel rerum saepe.",
+        "Deleted": false,
+        "Rank": 30,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 832,
-        "ExtraInfo": "quod",
-        "StyleHint": "assumenda",
-        "FullName": "Rubye Thiel",
+        "IconHint": "cupiditate",
+        "ColorBlock": 998,
+        "ExtraInfo": "odit",
+        "StyleHint": "laboriosam",
+        "FullName": "Cortez Will",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "target innovative relationships"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 280,
-    "ExtraInfo": "autem",
-    "StyleHint": "qui",
-    "FullName": "Duncan Gusikowski",
+    "IconHint": "delectus",
+    "ColorBlock": 589,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "in",
+    "FullName": "Hester Barton",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 31
       }
     }
   }

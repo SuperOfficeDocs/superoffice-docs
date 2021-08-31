@@ -76,12 +76,12 @@ Response body: object
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 547,
-  "Name": "Reichert, Huel and Schuppe",
+  "TicketStatusId": 553,
+  "Name": "Russel LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 306,
-  "Name": "Weimann Inc and Sons",
+  "TicketStatusId": 683,
+  "Name": "Miller, Schultz and Schmeler",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   }
 }

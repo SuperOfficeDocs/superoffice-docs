@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHeadingEntity
+title: GetHeadingEntity
 id: v1ListAgent_GetHeadingEntity
 ---
 
-# POST Agents/List/GetHeadingEntity
+# GetHeadingEntity
 
 ```http
 POST /api/v1/Agents/List/GetHeadingEntity
@@ -25,7 +25,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=322
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=135
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -84,12 +84,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 481,
-  "Name": "Hane Inc and Sons",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 343,
-  "UdListDefinitionId": 485,
+  "HeadingId": 1000,
+  "Name": "Lowe, Howell and Bashirian",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "Rank": 591,
+  "UdListDefinitionId": 965,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldLength": 850
     }
   }
 }

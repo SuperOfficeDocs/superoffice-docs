@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/PopulateRestrictions
+title: PopulateRestrictions
 id: v1FindAgent_PopulateRestrictions
 ---
 
-# POST Agents/Find/PopulateRestrictions
+# PopulateRestrictions
 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictions
@@ -85,17 +85,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cruickshank, Weimann and Rogahn",
+  "ProviderName": "O'Reilly, Olson and Bailey",
   "Restrictions": [
     {
-      "Name": "Collins Inc and Sons",
-      "Operator": "non",
+      "Name": "Spencer-Sawayn",
+      "Operator": "mollitia",
       "Values": [
-        "amet",
-        "dolorem"
+        "in",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "aut",
+        "et",
         "quia"
       ],
       "ColumnInfo": {},
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 80,
+      "InterParenthesis": 505,
       "InterOperator": "And",
-      "UniqueHash": 171
+      "UniqueHash": 524
     }
   ]
 }
@@ -118,43 +118,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nicolas, Schowalter and Jones",
-    "Operator": "dolorum",
+    "Name": "Will, Toy and Bogan",
+    "Operator": "voluptatem",
     "Values": [
-      "omnis",
-      "minima"
+      "quas",
+      "itaque"
     ],
     "DisplayValues": [
-      "et",
-      "necessitatibus"
+      "excepturi",
+      "unde"
     ],
     "ColumnInfo": {
-      "DisplayName": "Emard-McKenzie",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "nihil",
+      "DisplayName": "Doyle-Lind",
+      "DisplayTooltip": "dolores",
+      "DisplayType": "consequatur",
       "CanOrderBy": true,
-      "Name": "O'Keefe LLC",
+      "Name": "Jacobs, Beahan and Hackett",
       "CanRestrictBy": true,
-      "RestrictionType": "non",
-      "RestrictionListName": "McCullough, Toy and Romaguera",
-      "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "vel",
-      "IconHint": "rerum",
-      "HeadingIconHint": "voluptas"
+      "RestrictionType": "facere",
+      "RestrictionListName": "Berge Group",
+      "IsVisible": true,
+      "ExtraInfo": "in",
+      "Width": "aliquam",
+      "IconHint": "sunt",
+      "HeadingIconHint": "corporis"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wyman, Hansen and Braun",
-        "Operator": "accusantium",
+        "Name": "McKenzie Group",
+        "Operator": "est",
         "Values": [
-          "commodi",
-          "tenetur"
+          "aut",
+          "et"
         ],
         "DisplayValues": [
-          "quasi",
-          "tempore"
+          "sunt",
+          "quia"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -162,14 +162,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 155,
+        "InterParenthesis": 267,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 41
       }
     ],
-    "InterParenthesis": 358,
+    "InterParenthesis": 312,
     "InterOperator": "And",
-    "UniqueHash": 666
+    "UniqueHash": 92
   }
 ]
 ```

@@ -116,24 +116,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 821,
-  "Section": "libero",
-  "Key": "molestiae",
-  "Name": "Kessler-Herman",
+  "PrefDescId": 539,
+  "Section": "earum",
+  "Key": "cupiditate",
+  "Name": "Ledner-Stark",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive dynamic neural-net",
+  "Description": "Grass-roots uniform workforce",
   "IsBuiltin": false,
-  "TableName": "Runte Inc and Sons",
-  "UserDefinedListId": 824,
-  "Rank": 463,
-  "SubGroup": "et",
-  "MinLevel": 952,
-  "MaxValue": 24,
-  "MinValue": 821,
-  "RequiredLicense": "ex"
+  "TableName": "Bayer-Schneider",
+  "UserDefinedListId": 508,
+  "Rank": 741,
+  "SubGroup": "quia",
+  "MinLevel": 797,
+  "MaxValue": 42,
+  "MinValue": 985,
+  "RequiredLicense": "nesciunt"
 }
 ```
 
@@ -142,24 +142,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 400,
-  "Section": "doloribus",
-  "Key": "ut",
-  "Name": "McCullough Group",
+  "PrefDescId": 764,
+  "Section": "aut",
+  "Key": "esse",
+  "Name": "Runte LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source optimizing adapter",
+  "Description": "User-friendly bottom-line Graphical User Interface",
   "IsBuiltin": true,
-  "TableName": "Koepp, Spencer and Huel",
-  "UserDefinedListId": 266,
-  "Rank": 957,
-  "SubGroup": "quidem",
-  "MinLevel": 425,
-  "MaxValue": 214,
-  "MinValue": 698,
-  "RequiredLicense": "maxime",
+  "TableName": "Kozey Group",
+  "UserDefinedListId": 285,
+  "Rank": 475,
+  "SubGroup": "iste",
+  "MinLevel": 667,
+  "MaxValue": 210,
+  "MinValue": 794,
+  "RequiredLicense": "accusamus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldLength": 217
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetTemplateStream
+title: GetTemplateStream
 id: v1DocumentAgent_GetTemplateStream
 ---
 
-# POST Agents/Document/GetTemplateStream
+# GetTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/GetTemplateStream
@@ -70,13 +70,13 @@ Response body:
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Sawayn Inc and Sons",
-  "AllowPersonal": false,
-  "UiCulture": "quisquam"
+  "TemplateName": "Buckridge, Johns and Daugherty",
+  "AllowPersonal": true,
+  "UiCulture": "mollitia"
 }
 ```
 

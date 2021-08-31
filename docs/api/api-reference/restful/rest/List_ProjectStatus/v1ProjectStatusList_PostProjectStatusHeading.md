@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 890,
-  "Name": "Mohr-Lemke",
-  "Tooltip": "amet",
+  "HeadingId": 269,
+  "Name": "Stokes LLC",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "Rank": 771,
-  "UdListDefinitionId": 302
+  "Rank": 265,
+  "UdListDefinitionId": 257
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Hermiston, Kunze and Hickle",
-  "Tooltip": "culpa",
-  "Deleted": false,
-  "Rank": 704,
-  "UdListDefinitionId": 417,
+  "HeadingId": 745,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 962,
+  "UdListDefinitionId": 336,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldLength": 415
     }
   }
 }

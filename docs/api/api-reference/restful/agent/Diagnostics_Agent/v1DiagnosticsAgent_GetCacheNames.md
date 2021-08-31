@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/GetCacheNames
+title: GetCacheNames
 id: v1DiagnosticsAgent_GetCacheNames
 ---
 
-# POST Agents/Diagnostics/GetCacheNames
+# GetCacheNames
 
 ```http
 POST /api/v1/Agents/Diagnostics/GetCacheNames
@@ -59,7 +59,7 @@ Response body: array
 POST /api/v1/Agents/Diagnostics/GetCacheNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "doloribus",
-  "soluta"
+  "aut",
+  "quasi"
 ]
 ```

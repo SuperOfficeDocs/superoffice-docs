@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,38 +89,38 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 95,
-  "Name": "Leuschke LLC",
-  "OrgNr": "1730983",
+  "ContactId": 80,
+  "Name": "Raynor Inc and Sons",
+  "OrgNr": "1471136",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "omnis",
-  "DirectPhone": "(553)184-7456 x105",
-  "AssociateId": 37,
-  "CountryId": 719,
-  "EmailAddress": "hortense.okeefe@pacochabernier.biz",
-  "Kananame": "ut",
-  "EmailAddressName": "willy_bins@osinskimonahan.name",
+  "City": "et",
+  "DirectPhone": "600-130-0255",
+  "AssociateId": 127,
+  "CountryId": 550,
+  "EmailAddress": "marina_nitzsche@pfefferschiller.info",
+  "Kananame": "eos",
+  "EmailAddressName": "tyrel.keeling@willmshayes.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Eloise Feil",
+  "AssociateFullName": "Ms. Edyth Ernser",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": {
-    "Wgs84Latitude": 24476.54,
-    "Wgs84Longitude": 29055.314,
+    "Wgs84Latitude": 17152.381999999998,
+    "Wgs84Longitude": 1494.918,
     "LocalizedAddress": [
       [
         {
-          "Name": "Jacobi-Kunze",
-          "Value": "voluptatibus",
-          "Tooltip": "odit",
-          "Label": "quo",
-          "ValueLength": 506,
-          "AddressType": "est",
+          "Name": "Lang, Marquardt and Kirlin",
+          "Value": "pariatur",
+          "Tooltip": "eius",
+          "Label": "provident",
+          "ValueLength": 510,
+          "AddressType": "atque",
           "TableRight": {
             "Mask": "Delete",
-            "Reason": ""
+            "Reason": "maximize rich infrastructures"
           },
           "FieldProperties": {
             "fieldName": {
@@ -128,20 +128,20 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 559
+              "FieldType": "System.Int32",
+              "FieldLength": 167
             }
           }
         }
       ],
       [
         {
-          "Name": "Gislason, West and Bartoletti",
-          "Value": "quae",
-          "Tooltip": "beatae",
-          "Label": "quas",
-          "ValueLength": 175,
-          "AddressType": "qui",
+          "Name": "Ullrich Group",
+          "Value": "non",
+          "Tooltip": "error",
+          "Label": "quaerat",
+          "ValueLength": 499,
+          "AddressType": "impedit",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 23
+              "FieldLength": 798
             }
           }
         }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": {},
     "Postal": {},
-    "Formatted": "sunt",
+    "Formatted": "possimus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -169,15 +169,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   },
-  "FormattedAddress": "sapiente",
-  "FullName": "Andres Gerlach",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 654,
+  "FormattedAddress": "inventore",
+  "FullName": "Jeffrey Larkin",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 849,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldLength": 756
     }
   }
 }

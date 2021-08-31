@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetDuplicateRules
+title: GetDuplicateRules
 id: v1SelectionAgent_GetDuplicateRules
 ---
 
-# POST Agents/Selection/GetDuplicateRules
+# GetDuplicateRules
 
 ```http
 POST /api/v1/Agents/Selection/GetDuplicateRules
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Frami, McLaughlin and Balistreri",
-    "DisplayName": "DuBuque LLC",
-    "DisplayTooltip": "tempora",
-    "IsActive": false,
+    "Name": "Schimmel, Schowalter and Jewess",
+    "DisplayName": "Koelpin-Rath",
+    "DisplayTooltip": "sunt",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,16 +90,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 728
       }
     }
   },
   {
-    "Name": "Frami, McLaughlin and Balistreri",
-    "DisplayName": "DuBuque LLC",
-    "DisplayTooltip": "tempora",
-    "IsActive": false,
+    "Name": "Schimmel, Schowalter and Jewess",
+    "DisplayName": "Koelpin-Rath",
+    "DisplayTooltip": "sunt",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 728
       }
     }
   }

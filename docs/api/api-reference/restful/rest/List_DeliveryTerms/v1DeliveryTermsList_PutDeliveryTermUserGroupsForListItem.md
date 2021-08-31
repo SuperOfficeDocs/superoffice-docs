@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Bode Inc and Sons",
-    "ToolTip": "Ut necessitatibus.",
+    "Id": 332,
+    "Name": "Kuhic-Haag",
+    "ToolTip": "Nam nam.",
     "Deleted": false,
-    "Rank": 981,
-    "Type": "nostrum",
-    "ColorBlock": 323,
-    "IconHint": "doloremque",
+    "Rank": 162,
+    "Type": "voluptates",
+    "ColorBlock": 902,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2015-12-01T09:41:00.3463818+01:00",
+    "LastChanged": "2001-10-30T15:05:43.41851+01:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Gerlach LLC",
-        "ToolTip": "At quo omnis cum sit at provident.",
-        "Deleted": true,
-        "Rank": 672,
-        "Type": "vel",
-        "ColorBlock": 862,
-        "IconHint": "iusto",
+        "Id": 513,
+        "Name": "Hauck, Weber and DuBuque",
+        "ToolTip": "Aut iure excepturi.",
+        "Deleted": false,
+        "Rank": 271,
+        "Type": "sapiente",
+        "ColorBlock": 709,
+        "IconHint": "veritatis",
         "Selected": true,
-        "LastChanged": "2012-03-03T09:41:00.3463818+01:00",
+        "LastChanged": "2003-03-01T15:05:43.41851+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Ezra McGlynn"
+        "ExtraInfo": "unde",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Lela Franecki"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "illo",
+    "StyleHint": "repudiandae",
     "Hidden": true,
-    "FullName": "D'angelo Larson DDS"
+    "FullName": "Mr. Lyda Legros"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Beier, Smitham and Ward",
-    "ToolTip": "Esse numquam et est minima beatae.",
-    "Deleted": true,
-    "Rank": 775,
-    "Type": "quidem",
-    "ColorBlock": 132,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2007-05-04T09:41:00.3483815+02:00",
+    "Id": 199,
+    "Name": "Collins-Hilll",
+    "ToolTip": "Ad ex sint earum.",
+    "Deleted": false,
+    "Rank": 301,
+    "Type": "quo",
+    "ColorBlock": 75,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2011-05-30T15:05:43.4195101+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Sporer-Ullrich",
-        "ToolTip": "Quam consequatur ut.",
-        "Deleted": true,
-        "Rank": 150,
-        "Type": "et",
-        "ColorBlock": 152,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2010-11-30T09:41:00.3483815+01:00",
+        "Id": 363,
+        "Name": "Fay, Koepp and Heidenreich",
+        "ToolTip": "Maiores sit ipsa eos maiores saepe adipisci.",
+        "Deleted": false,
+        "Rank": 749,
+        "Type": "consequuntur",
+        "ColorBlock": 794,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "1996-12-22T15:05:43.4195101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Madge Batz",
+        "ExtraInfo": "dolores",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Domingo Berge",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldLength": 389
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Delta Eichmann",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Gerald Aufderhar I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldLength": 478
       }
     }
   }

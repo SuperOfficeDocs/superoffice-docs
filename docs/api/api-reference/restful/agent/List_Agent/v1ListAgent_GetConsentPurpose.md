@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetConsentPurpose
+title: GetConsentPurpose
 id: v1ListAgent_GetConsentPurpose
 ---
 
-# POST Agents/List/GetConsentPurpose
+# GetConsentPurpose
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurpose
@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=277
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=142
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -87,46 +87,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 94,
-  "Name": "Erdman LLC",
-  "ConsentText": "temporibus",
-  "FormText": "eos",
-  "Key": "rerum",
-  "Tooltip": "necessitatibus",
-  "Active": 65,
-  "UpdatedDate": "2011-07-21T16:48:29.7679255+02:00",
+  "ConsentPurposeId": 178,
+  "Name": "Ortiz, Gerlach and Bashirian",
+  "ConsentText": "dolor",
+  "FormText": "sed",
+  "Key": "atque",
+  "Tooltip": "quae",
+  "Active": 195,
+  "UpdatedDate": "2020-08-18T14:58:04.3584678+02:00",
   "UpdatedBy": {
-    "AssociateId": 62,
-    "Name": "Ullrich-Cormier",
-    "PersonId": 684,
-    "Rank": 445,
-    "Tooltip": "adipisci",
+    "AssociateId": 45,
+    "Name": "Gulgowski-Flatley",
+    "PersonId": 488,
+    "Rank": 287,
+    "Tooltip": "cum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 804,
-    "FullName": "Mr. Alaina Swaniawski",
-    "FormalName": "Connelly-Fritsch",
+    "GroupIdx": 46,
+    "FullName": "Rex Hackett",
+    "FormalName": "Gerlach, Durgan and Jaskolski",
     "Deleted": false,
-    "EjUserId": 777,
-    "UserName": "O'Conner, Boyle and Simonis",
+    "EjUserId": 994,
+    "UserName": "Pfeffer-Ernser",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "implement user-centric bandwidth"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   },
-  "Deleted": true,
-  "Rank": 687,
-  "PrivacyStatementDesc": "fugiat",
+  "Deleted": false,
+  "Rank": 537,
+  "PrivacyStatementDesc": "ut",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "brand turn-key e-commerce"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldLength": 65
     }
   }
 }

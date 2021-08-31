@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetReadySyncEmailAccounts
+title: GetReadySyncEmailAccounts
 id: v1EMailAgent_GetReadySyncEmailAccounts
 ---
 
-# POST Agents/EMail/GetReadySyncEmailAccounts
+# GetReadySyncEmailAccounts
 
 ```http
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 49,
-    "AssociateName": "Smitham Inc and Sons",
-    "AssociateId": 17,
+    "AccountId": 475,
+    "AssociateName": "Kunze-Donnelly",
+    "AssociateId": 822,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   },
   {
-    "AccountId": 49,
-    "AssociateName": "Smitham Inc and Sons",
-    "AssociateId": 17,
+    "AccountId": 475,
+    "AssociateName": "Kunze-Donnelly",
+    "AssociateId": 822,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

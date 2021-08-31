@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParameterValueOnPerson
+title: GetConfigParameterValueOnPerson
 id: v1AudienceAgent_GetConfigParameterValueOnPerson
 ---
 
-# POST Agents/Audience/GetConfigParameterValueOnPerson
+# GetConfigParameterValueOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Wolf-Quigley",
-  "PersonId": 823
+  "ParameterName": "Watsica Inc and Sons",
+  "PersonId": 175
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"excepturi"
+"minus"
 ```

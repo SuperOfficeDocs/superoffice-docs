@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Gorczany-Jacobi",
-    "ToolTip": "A neque ipsam qui dolor recusandae possimus.",
-    "Deleted": true,
-    "Rank": 59,
-    "Type": "nulla",
-    "ColorBlock": 970,
-    "IconHint": "iste",
+    "Id": 151,
+    "Name": "Kirlin-Prosacco",
+    "ToolTip": "Est eos.",
+    "Deleted": false,
+    "Rank": 633,
+    "Type": "eum",
+    "ColorBlock": 660,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2018-06-01T09:41:00.5643821+02:00",
+    "LastChanged": "2008-02-05T15:05:43.6330797+01:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Kris-McClure",
-        "ToolTip": "Ipsum molestias.",
+        "Id": 205,
+        "Name": "Halvorson Group",
+        "ToolTip": "Ex numquam.",
         "Deleted": true,
-        "Rank": 27,
-        "Type": "unde",
-        "ColorBlock": 489,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "2020-11-30T09:41:00.5643821+01:00",
+        "Rank": 377,
+        "Type": "voluptatibus",
+        "ColorBlock": 921,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2012-07-22T15:05:43.6330797+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Lynn Hyatt",
+        "ExtraInfo": "placeat",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Vada Kautzer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldType": "System.Int32",
+            "FieldLength": 452
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Joe Carroll",
+    "ExtraInfo": "cumque",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Russ Frami",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

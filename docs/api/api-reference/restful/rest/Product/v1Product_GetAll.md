@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=non
-GET /api/v1/Product?$top=433
-GET /api/v1/Product?$skip=854
+GET /api/v1/Product?$entities=voluptatem
+GET /api/v1/Product?$top=459
+GET /api/v1/Product?$skip=368
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=quia
+GET /api/v1/Product?$context=est
 GET /api/v1/Product?$format=JSON
-GET /api/v1/Product?$jsonSafe=False
+GET /api/v1/Product?$jsonSafe=True
 GET /api/v1/Product?$output=Display
 ```
 
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "nemo",
   "value": [
     {
-      "PrimaryKey": 1303,
-      "EntityName": "sale",
-      "saleId": 1303,
-      "contactId": 5159,
-      "name": "O'Conner LLC"
+      "PrimaryKey": 7912,
+      "EntityName": "person",
+      "personId": 7912,
+      "fullName": "Ms. Ransom Greenholt"
     },
     {
-      "PrimaryKey": 1518,
-      "EntityName": "sale",
-      "saleId": 1518,
-      "contactId": 8306,
-      "name": "Bogan LLC"
+      "PrimaryKey": 1246,
+      "EntityName": "person",
+      "personId": 1246,
+      "fullName": "Dr. Albert Mraz"
     }
   ]
 }

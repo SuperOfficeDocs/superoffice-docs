@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/ResolvePersonFromInfo
+title: ResolvePersonFromInfo
 id: v1PersonAgent_ResolvePersonFromInfo
 ---
 
-# POST Agents/Person/ResolvePersonFromInfo
+# ResolvePersonFromInfo
 
 ```http
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
@@ -82,19 +82,19 @@ Response body: object
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 73,
-  "PersonName": "Runolfsdottir Inc and Sons",
+  "ContactId": 477,
+  "PersonName": "Nicolas, Grady and Cummings",
   "PhoneNumbers": [
-    "1024364",
-    "1573245"
+    "1406863",
+    "1515516"
   ],
   "Emails": [
-    "elmer_rohan@lemke.uk",
-    "libby@doyleshields.com"
+    "micah.rohan@okon.com",
+    "carissa_sporer@hermann.biz"
   ]
 }
 ```
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": {
-    "PersonId": 878,
-    "Firstname": "Malachi",
-    "MiddleName": "Tillman Group",
-    "Lastname": "Rolfson",
-    "Mrmrs": "quam",
-    "Title": "eaque",
-    "UpdatedDate": "1999-06-19T16:48:30.1929358+02:00",
-    "CreatedDate": "2017-04-02T16:48:30.1929358+02:00",
-    "BirthDate": "2006-05-21T16:48:30.1929358+02:00",
+    "PersonId": 895,
+    "Firstname": "Kari",
+    "MiddleName": "Torphy-Vandervort",
+    "Lastname": "Green",
+    "Mrmrs": "nam",
+    "Title": "dicta",
+    "UpdatedDate": "2018-04-18T14:58:04.8154622+02:00",
+    "CreatedDate": "1999-08-22T14:58:04.8154622+02:00",
+    "BirthDate": "2005-06-16T14:58:04.8154622+02:00",
     "CreatedBy": {},
     "Emails": [
       {},
       {}
     ],
-    "Description": "Function-based actuating access",
-    "IsAssociate": true,
+    "Description": "Enhanced zero defect customer loyalty",
+    "IsAssociate": false,
     "PrivatePhones": [
       {},
       {}
@@ -149,37 +149,37 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "PersonNumber": "1554551",
-    "FullName": "Reyes Lehner",
-    "NoMailing": true,
+    "PersonNumber": "1099825",
+    "FullName": "Gabe Brakus",
+    "NoMailing": false,
     "UsePersonAddress": true,
-    "Retired": false,
+    "Retired": true,
     "Urls": [
       {},
       {}
     ],
-    "FormalName": "Kemmer, Wisozk and Cassin",
+    "FormalName": "Stamm, Olson and Murray",
     "Address": {},
-    "Post3": "qui",
-    "Post2": "est",
-    "Post1": "porro",
-    "Kanalname": "esse",
-    "Kanafname": "laborum",
+    "Post3": "placeat",
+    "Post2": "et",
+    "Post1": "nihil",
+    "Kanalname": "et",
+    "Kanafname": "facere",
     "CorrespondingAssociate": {},
     "Category": {},
     "Business": {},
     "Associate": {},
-    "Salutation": "voluptas",
-    "ActiveInterests": 384,
+    "Salutation": "aut",
+    "ActiveInterests": 626,
     "SupportAssociate": {},
     "TicketPriority": {},
     "CustomerLanguage": {},
-    "DbiAgentId": 357,
-    "DbiKey": "eaque",
-    "DbiLastModified": "1996-08-29T16:48:30.1939355+02:00",
-    "DbiLastSyncronized": "2009-04-17T16:48:30.1939355+02:00",
-    "SentInfo": 28,
-    "ShowContactTickets": 741,
+    "DbiAgentId": 110,
+    "DbiKey": "ut",
+    "DbiLastModified": "1998-12-23T14:58:04.8154622+01:00",
+    "DbiLastSyncronized": "1995-02-24T14:58:04.8154622+01:00",
+    "SentInfo": 410,
+    "ShowContactTickets": 88,
     "UserInfo": {},
     "ChatEmails": [
       {},
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Source": 496,
-    "ActiveErpLinks": 992,
+    "Source": 240,
+    "ActiveErpLinks": 929,
     "ShipmentTypes": [
       {},
       {}
@@ -200,19 +200,19 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "BounceEmails": [
-      "jesus.schuster@kozeyfarrell.name",
-      "emely@greenholt.com"
+      "rocky.jacobs@bahringer.com",
+      "julie@blanda.biz"
     ],
     "UserDefinedFields": {
-      "SuperOffice:1": "True",
-      "SuperOffice:2": "114414436"
+      "SuperOffice:1": "583178232",
+      "SuperOffice:2": "1793781235"
     },
     "ExtraFields": {
-      "ExtraFields1": "odit",
-      "ExtraFields2": "similique"
+      "ExtraFields1": "minus",
+      "ExtraFields2": "voluptatem"
     },
     "CustomFields": {
-      "CustomFields1": "dignissimos",
+      "CustomFields1": "maxime",
       "CustomFields2": "aut"
     },
     "TableRight": {},
@@ -222,12 +222,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   },
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -236,10 +236,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "facilitate frictionless portals"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldLength": 919
     }
   }
 }

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Schimmel-Ernser",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 609,
-  "Rank": 46,
+  "Id": 176,
+  "Name": "Schneider Inc and Sons",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "UdListDefinitionId": 591,
+  "Rank": 636,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "optimize one-to-one e-markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "matrix enterprise architectures"
       },
       "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldLength": 166
     }
   }
 }

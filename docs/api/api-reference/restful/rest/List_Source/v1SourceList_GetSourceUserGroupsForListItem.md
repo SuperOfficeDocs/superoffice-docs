@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Wolf Inc and Sons",
-    "ToolTip": "Aliquam iure.",
+    "Id": 457,
+    "Name": "Yost-Baumbach",
+    "ToolTip": "Tempora odio.",
     "Deleted": true,
-    "Rank": 396,
-    "Type": "et",
-    "ColorBlock": 376,
-    "IconHint": "nihil",
+    "Rank": 824,
+    "Type": "expedita",
+    "ColorBlock": 560,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2012-09-16T09:41:00.8113549+02:00",
+    "LastChanged": "1999-04-16T15:05:43.8311173+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Bahringer-Stroman",
-        "ToolTip": "Vel ullam.",
-        "Deleted": false,
-        "Rank": 502,
-        "Type": "voluptatibus",
-        "ColorBlock": 821,
-        "IconHint": "consectetur",
+        "Id": 770,
+        "Name": "Schuppe, King and Terry",
+        "ToolTip": "Possimus autem molestias enim incidunt.",
+        "Deleted": true,
+        "Rank": 413,
+        "Type": "quidem",
+        "ColorBlock": 639,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2001-04-17T09:41:00.8113549+02:00",
+        "LastChanged": "2001-10-16T15:05:43.8311173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "sequi",
+        "ExtraInfo": "totam",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Dr. Nestor Crona",
+        "FullName": "Keyon Jakubowski DDS",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "sit",
+    "ExtraInfo": "rem",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Brayan Bergnaum",
+    "FullName": "Sidney Murray",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldType": "System.String",
+        "FieldLength": 954
       }
     }
   }

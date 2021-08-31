@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 245,
-    "ColumnId": 891,
-    "FieldDefault": "unde",
-    "FieldHeight": 17,
-    "FieldLabel": "voluptatum",
-    "FieldLeft": 248,
-    "FieldTop": 390,
+    "UDefFieldId": 520,
+    "ColumnId": 47,
+    "FieldDefault": "dolores",
+    "FieldHeight": 434,
+    "FieldLabel": "in",
+    "FieldLeft": 908,
+    "FieldTop": 976,
     "FieldType": "Checkbox",
-    "FieldWidth": 831,
-    "FormatMask": "ea",
-    "HideLabel": false,
+    "FieldWidth": 46,
+    "FormatMask": "suscipit",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 848,
-    "LabelLeft": 324,
-    "LabelTop": 450,
-    "LabelWidth": 911,
-    "LastVersionId": 806,
-    "ListTableId": 922,
-    "IsMandatory": true,
+    "LabelHeight": 833,
+    "LabelLeft": 689,
+    "LabelTop": 733,
+    "LabelWidth": 127,
+    "LastVersionId": 644,
+    "ListTableId": 851,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 906,
-    "ProgId": "veritatis",
+    "Page1LineNo": 404,
+    "ProgId": "in",
     "IsReadOnly": false,
-    "ShortLabel": "nisi",
-    "TabOrder": 394,
-    "TextLength": 482,
-    "Tooltip": "labore",
-    "UdefIdentity": 109,
-    "UDListDefinitionId": 233,
+    "ShortLabel": "deserunt",
+    "TabOrder": 753,
+    "TextLength": 968,
+    "Tooltip": "asperiores",
+    "UdefIdentity": 677,
+    "UDListDefinitionId": 951,
     "Justification": "Center",
-    "Version": 171,
-    "TemplateVariableName": "Botsford Inc and Sons",
+    "Version": 707,
+    "TemplateVariableName": "Beer, Abbott and Kris",
     "HasBeenPublished": false,
-    "MdoListName": "Emmerich-Johnson",
+    "MdoListName": "Torphy-Gaylord",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 993
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetColleaguesBySource
+title: GetColleaguesBySource
 id: v1PersonAgent_GetColleaguesBySource
 ---
 
-# POST Agents/Person/GetColleaguesBySource
+# GetColleaguesBySource
 
 ```http
 POST /api/v1/Agents/Person/GetColleaguesBySource
@@ -113,12 +113,12 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 355
+  "Count": 483
 }
 ```
 
@@ -128,45 +128,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "rerum",
-    "PersonId": 192,
-    "Mrmrs": "quo",
-    "Firstname": "Rose",
-    "Lastname": "Shanahan",
-    "MiddleName": "Emmerich Group",
-    "Title": "vel",
-    "Description": "Synchronised zero tolerance implementation",
-    "Email": "unique_bins@harberkoepp.biz",
-    "FullName": "Darrell Parisian",
-    "DirectPhone": "(462)256-8632 x38307",
-    "FormalName": "McClure Inc and Sons",
-    "CountryId": 276,
-    "ContactId": 718,
-    "ContactName": "Pfeffer Group",
-    "Retired": 525,
-    "Rank": 758,
-    "ActiveInterests": 568,
+    "Position": "facilis",
+    "PersonId": 940,
+    "Mrmrs": "quam",
+    "Firstname": "Madisen",
+    "Lastname": "Romaguera",
+    "MiddleName": "Littel, Bergstrom and Roob",
+    "Title": "et",
+    "Description": "Persevering bi-directional core",
+    "Email": "herminia.larson@heathcote.us",
+    "FullName": "Eriberto Smitham",
+    "DirectPhone": "568-361-7753 x634",
+    "FormalName": "Streich-DuBuque",
+    "CountryId": 536,
+    "ContactId": 630,
+    "ContactName": "Auer-Waters",
+    "Retired": 980,
+    "Rank": 329,
+    "ActiveInterests": 770,
     "ContactDepartment": "",
-    "ContactCountryId": 703,
-    "ContactOrgNr": "744368",
-    "FaxPhone": "518.358.6607",
-    "MobilePhone": "(045)063-4105",
-    "ContactPhone": "867.674.0222 x08663",
-    "AssociateName": "Frami, Jerde and Veum",
-    "AssociateId": 450,
+    "ContactCountryId": 474,
+    "ContactOrgNr": "1345667",
+    "FaxPhone": "510-732-7133 x562",
+    "MobilePhone": "565-874-0728 x7453",
+    "ContactPhone": "125.040.2551",
+    "AssociateName": "Blick Inc and Sons",
+    "AssociateId": 196,
     "UsePersonAddress": true,
-    "ContactFax": "eveniet",
-    "Kanafname": "excepturi",
-    "Kanalname": "distinctio",
-    "Post1": "neque",
-    "Post2": "enim",
-    "Post3": "dolor",
-    "EmailName": "clementina.lubowitz@bradtke.info",
-    "ContactFullName": "Addie Williamson",
-    "ActiveErpLinks": 566,
-    "TicketPriorityId": 917,
-    "SupportLanguageId": 355,
-    "SupportAssociateId": 306,
+    "ContactFax": "ad",
+    "Kanafname": "autem",
+    "Kanalname": "aspernatur",
+    "Post1": "atque",
+    "Post2": "ut",
+    "Post3": "repellendus",
+    "EmailName": "buford_stoltenberg@hettingerwitting.com",
+    "ContactFullName": "Anna O'Connell PhD",
+    "ActiveErpLinks": 569,
+    "TicketPriorityId": 394,
+    "SupportLanguageId": 12,
+    "SupportAssociateId": 975,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -176,10 +176,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "leverage out-of-the-box infrastructures"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldLength": 13
       }
     }
   }

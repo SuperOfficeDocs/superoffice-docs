@@ -77,32 +77,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 25 Mar 2011 09:40:58 G3T
+Last-Modified: Wed, 07 Jul 1999 15:05:41 G7T
 
 {
-  "BlobId": 56,
-  "BlobSize": 394,
-  "Description": "Robust secondary structure",
-  "ExtraInfo": "beatae",
+  "BlobId": 767,
+  "BlobSize": 720,
+  "Description": "Innovative responsive Graphical User Interface",
+  "ExtraInfo": "eum",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "eveniet",
-  "OriginalSize": 479,
-  "CreatedDate": "1998-03-28T09:40:58.8513757+01:00",
-  "UpdatedDate": "2011-03-25T09:40:58.8513757+01:00",
+  "IsZipped": true,
+  "MimeType": "itaque",
+  "OriginalSize": 684,
+  "CreatedDate": "2005-09-15T15:05:41.8070108+02:00",
+  "UpdatedDate": "1999-07-07T15:05:41.8070108+02:00",
   "CreatedBy": {
-    "AssociateId": 492,
-    "Name": "Terry-Kuvalis",
-    "PersonId": 253,
-    "Rank": 361,
-    "Tooltip": "temporibus",
+    "AssociateId": 528,
+    "Name": "Paucek, Christiansen and Strosin",
+    "PersonId": 272,
+    "Rank": 258,
+    "Tooltip": "vel",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 638,
-    "FullName": "Vella Wiza DDS",
-    "FormalName": "Rice Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 876,
-    "UserName": "Hilll LLC",
+    "GroupIdx": 314,
+    "FullName": "Lemuel Kuhic",
+    "FormalName": "Rohan, Waters and Kirlin",
+    "Deleted": false,
+    "EjUserId": 454,
+    "UserName": "Gleason Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -111,23 +111,23 @@ Last-Modified: Fri, 25 Mar 2011 09:40:58 G3T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 178
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 773,
-    "Name": "Pfannerstill Group",
-    "PersonId": 591,
-    "Rank": 449,
-    "Tooltip": "et",
+    "AssociateId": 810,
+    "Name": "Parisian, Hirthe and Johnson",
+    "PersonId": 238,
+    "Rank": 231,
+    "Tooltip": "quam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 664,
-    "FullName": "Missouri Anderson",
-    "FormalName": "Corkery Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 144,
-    "UserName": "Walter, Grimes and Harber",
+    "GroupIdx": 861,
+    "FullName": "Christian Yundt",
+    "FormalName": "Hauck, Klein and Kuhic",
+    "Deleted": false,
+    "EjUserId": 903,
+    "UserName": "Ferry, Kuphal and Carter",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -135,24 +135,24 @@ Last-Modified: Fri, 25 Mar 2011 09:40:58 G3T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   },
-  "ConceptualType": "est",
+  "ConceptualType": "aut",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "brand user-centric solutions"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "deploy one-to-one infomediaries"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLocalizedTextByType
+title: GetLocalizedTextByType
 id: v1ListAgent_GetLocalizedTextByType
 ---
 
-# POST Agents/List/GetLocalizedTextByType
+# GetLocalizedTextByType
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextByType
@@ -81,13 +81,13 @@ Response body: object
 POST /api/v1/Agents/List/GetLocalizedTextByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 244,
-  "LanguageId": 469
+  "ResourceId": 803,
+  "LanguageId": 625
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 347,
-  "ResourceId": 390,
-  "Text": "corrupti",
+  "LanguageId": 896,
+  "ResourceId": 392,
+  "Text": "optio",
   "Type": "Column",
-  "LocalizedTextId": 306,
-  "IsBuiltIn": false,
+  "LocalizedTextId": 231,
+  "IsBuiltIn": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

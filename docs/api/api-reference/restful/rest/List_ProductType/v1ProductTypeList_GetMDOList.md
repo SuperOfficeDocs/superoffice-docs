@@ -26,7 +26,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=ipsa
+GET /api/v1/List/ProductType/MDOItems?query=harum
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Wisoky, Botsford and Stanton",
-    "ToolTip": "Ab id esse aspernatur.",
+    "Id": 179,
+    "Name": "Donnelly, Auer and Kris",
+    "ToolTip": "Eius expedita voluptas beatae qui.",
     "Deleted": false,
-    "Rank": 296,
-    "Type": "quasi",
+    "Rank": 830,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Kris, Kohler and Wisoky",
-        "ToolTip": "Perferendis id est temporibus in error aut.",
+        "Id": 904,
+        "Name": "Bashirian-Breitenberg",
+        "ToolTip": "Sit in libero qui eveniet commodi.",
         "Deleted": true,
-        "Rank": 462,
-        "Type": "officia",
+        "Rank": 543,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 923,
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
-        "FullName": "Maryam West",
+        "IconHint": "ipsam",
+        "ColorBlock": 84,
+        "ExtraInfo": "animi",
+        "StyleHint": "ea",
+        "FullName": "Denis Daugherty",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldType": "System.String",
+            "FieldLength": 274
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 596,
-    "ExtraInfo": "odit",
-    "StyleHint": "impedit",
-    "FullName": "Mateo Herman",
+    "IconHint": "dolores",
+    "ColorBlock": 134,
+    "ExtraInfo": "neque",
+    "StyleHint": "dolores",
+    "FullName": "Dr. Vesta Goyette",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "embrace e-business bandwidth"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 612
       }
     }
   }

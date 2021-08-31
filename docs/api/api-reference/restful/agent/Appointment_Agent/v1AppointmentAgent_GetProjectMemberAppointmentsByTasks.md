@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
+title: GetProjectMemberAppointmentsByTasks
 id: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
 ---
 
-# POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
+# GetProjectMemberAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
@@ -125,17 +125,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 690,
-  "StartTime": "2009-04-03T16:48:28.4674202+02:00",
-  "EndTime": "1995-03-29T16:48:28.4674202+02:00",
-  "Count": 247,
+  "PersonId": 320,
+  "StartTime": "2013-03-22T14:58:02.8625733+01:00",
+  "EndTime": "2018-04-09T14:58:02.8625733+02:00",
+  "Count": 990,
   "TaskIds": [
-    994,
-    318
+    991,
+    492
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 424,
-    "StartDate": "2008-07-25T16:48:28.468458+02:00",
-    "EndDate": "2010-04-30T16:48:28.468458+02:00",
+    "AppointmentId": 399,
+    "StartDate": "1998-01-20T14:58:02.8635735+01:00",
+    "EndDate": "2000-02-17T14:58:02.8635735+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Ashtyn Price",
-    "ContactName": "Kuhic Inc and Sons",
-    "Description": "Polarised eco-centric approach",
-    "PersonFullName": "Quinn Herman",
-    "PersonId": 937,
-    "ContactId": 244,
-    "ProjectId": 717,
-    "ProjectName": "Runolfsdottir, Gerlach and Bergstrom",
+    "Task": "voluptatem",
+    "AssociateFullName": "Dejon Quigley",
+    "ContactName": "Gorczany Group",
+    "Description": "Horizontal global pricing structure",
+    "PersonFullName": "Chyna Mayer",
+    "PersonId": 984,
+    "ContactId": 272,
+    "ProjectId": 95,
+    "ProjectName": "Cremin LLC",
     "IsPublished": false,
-    "AssociateId": 712,
-    "ColorIndex": 698,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 436,
+    "ColorIndex": 427,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 659,
-    "PriorityName": "Bednar Inc and Sons",
+    "PriorityId": 290,
+    "PriorityName": "Denesik, Welch and Dicki",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2008-07-11T16:48:28.4694542+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2008-08-26T14:58:02.8635735+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-10-23T16:48:28.4694542+02:00",
-    "RecurringEndDate": "2020-01-21T16:48:28.4694542+01:00",
-    "MotherId": 276,
-    "AssignedBy": 926,
-    "AssignedByFullName": "Miss Giovanni VonRueden",
+    "RecurringStartDate": "2006-07-07T14:58:02.8635735+02:00",
+    "RecurringEndDate": "2018-03-19T14:58:02.8635735+01:00",
+    "MotherId": 772,
+    "AssignedBy": 693,
+    "AssignedByFullName": "Mrs. Rick Frami",
     "RejectReason": "",
-    "Location": "optio",
-    "AlarmLeadTime": "soluta",
-    "SaleId": 117,
-    "SaleName": "Grimes, Collier and Dicki",
-    "AssociateName": "Funk, Hermann and Kub",
-    "CreatedDate": "2013-11-13T16:48:28.4694542+01:00",
-    "CreatedBy": "corporis",
-    "CreatedByFullName": "May Parisian",
-    "CreatedByAssociateId": 779,
+    "Location": "impedit",
+    "AlarmLeadTime": "recusandae",
+    "SaleId": 683,
+    "SaleName": "Mayer-Collier",
+    "AssociateName": "Morar-Yundt",
+    "CreatedDate": "2021-08-03T14:58:02.8645755+02:00",
+    "CreatedBy": "atque",
+    "CreatedByFullName": "Willow Murphy",
+    "CreatedByAssociateId": 145,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldLength": 279
       }
     }
   }

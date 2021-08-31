@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetMyAudienceLayout
+title: GetMyAudienceLayout
 id: v1AudienceAgent_GetMyAudienceLayout
 ---
 
-# POST Agents/Audience/GetMyAudienceLayout
+# GetMyAudienceLayout
 
 ```http
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -83,49 +83,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 878,
-  "InstanceLayout": "quis",
-  "InstanceName": "Windler-Franecki",
-  "CreatedDate": "2002-07-07T16:48:28.7731984+02:00",
-  "UpdatedDate": "2006-10-17T16:48:28.7731984+02:00",
+  "AudienceLayoutId": 743,
+  "InstanceLayout": "iste",
+  "InstanceName": "Gerlach Inc and Sons",
+  "CreatedDate": "2003-06-01T14:58:03.2652418+02:00",
+  "UpdatedDate": "2014-12-15T14:58:03.2652418+01:00",
   "CreatedBy": {
-    "AssociateId": 571,
-    "Name": "Hoppe Group",
-    "PersonId": 961,
-    "Rank": 16,
-    "Tooltip": "omnis",
+    "AssociateId": 207,
+    "Name": "Ferry Group",
+    "PersonId": 872,
+    "Rank": 483,
+    "Tooltip": "ullam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 362,
-    "FullName": "Ila Shields I",
-    "FormalName": "Mante, Osinski and Mann",
+    "GroupIdx": 330,
+    "FullName": "Leone Dicki",
+    "FormalName": "Johnson-Carter",
     "Deleted": true,
-    "EjUserId": 976,
-    "UserName": "Bins, Crona and Wilkinson",
+    "EjUserId": 29,
+    "UserName": "Heller LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "brand impactful convergence"
         },
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 229
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 153,
-    "Name": "Lowe-Koepp",
-    "PersonId": 312,
-    "Rank": 283,
-    "Tooltip": "non",
+    "AssociateId": 441,
+    "Name": "Hills Inc and Sons",
+    "PersonId": 965,
+    "Rank": 591,
+    "Tooltip": "repellat",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 766,
-    "FullName": "Kristin Torp DVM",
-    "FormalName": "Buckridge, Jones and Ferry",
+    "GroupIdx": 647,
+    "FullName": "Donna Schowalter",
+    "FormalName": "Trantow-Emmerich",
     "Deleted": true,
-    "EjUserId": 643,
-    "UserName": "Schneider Group",
+    "EjUserId": 24,
+    "UserName": "Jaskolski Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 10
       }
     }
   },
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldLength": 56
     }
   }
 }

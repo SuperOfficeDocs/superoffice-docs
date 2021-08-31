@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetAllFunctionalRights
+title: GetAllFunctionalRights
 id: v1UserAgent_GetAllFunctionalRights
 ---
 
-# POST Agents/User/GetAllFunctionalRights
+# GetAllFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/GetAllFunctionalRights
@@ -90,7 +90,7 @@ Response body: array
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 793,
-    "Name": "D'Amore-Jewess",
-    "ToolTip": "Quod est earum quia voluptatem.",
+    "Id": 243,
+    "Name": "Wehner-Medhurst",
+    "ToolTip": "Numquam mollitia totam et qui est veritatis.",
     "Deleted": false,
-    "Rank": 523,
-    "Type": "temporibus",
-    "ColorBlock": 721,
-    "IconHint": "id",
+    "Rank": 984,
+    "Type": "dolor",
+    "ColorBlock": 649,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "1994-01-31T16:48:30.9139439+01:00",
+    "LastChanged": "2000-03-08T14:58:05.5690595+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Beahan LLC",
-        "ToolTip": "Dicta sed voluptates fuga officia inventore.",
-        "Deleted": false,
-        "Rank": 486,
-        "Type": "tempora",
-        "ColorBlock": 188,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2005-12-07T16:48:30.9149449+01:00",
+        "Id": 269,
+        "Name": "Fadel, Bayer and Torp",
+        "ToolTip": "Voluptate corrupti voluptatem animi.",
+        "Deleted": true,
+        "Rank": 972,
+        "Type": "eius",
+        "ColorBlock": 506,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2018-02-17T14:58:05.5690595+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "optio",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Frederick Thiel II",
+        "FullName": "Jewell Morissette DVM",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,19 +141,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 257
+            "FieldType": "System.Int32",
+            "FieldLength": 126
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "maxime",
+    "ExtraInfo": "error",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Erna Jewess",
+    "FullName": "April Stroman",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "facilitate robust communities"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 92
       }
     }
   }

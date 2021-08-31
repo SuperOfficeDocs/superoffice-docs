@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetEmarketingStrictMode
+title: GetEmarketingStrictMode
 id: v1ListAgent_GetEmarketingStrictMode
 ---
 
-# POST Agents/List/GetEmarketingStrictMode
+# GetEmarketingStrictMode
 
 ```http
 POST /api/v1/Agents/List/GetEmarketingStrictMode
@@ -59,7 +59,7 @@ Response body: bool
 POST /api/v1/Agents/List/GetEmarketingStrictMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_

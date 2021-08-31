@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProductCategories
+title: GetProductCategories
 id: v1ListAgent_GetProductCategories
 ---
 
-# POST Agents/List/GetProductCategories
+# GetProductCategories
 
 ```http
 POST /api/v1/Agents/List/GetProductCategories
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProductCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Value": "quia",
-    "Tooltip": "suscipit",
+    "Id": 376,
+    "Value": "odio",
+    "Tooltip": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   },
   {
-    "Id": 234,
-    "Value": "quia",
-    "Tooltip": "suscipit",
+    "Id": 376,
+    "Value": "odio",
+    "Tooltip": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

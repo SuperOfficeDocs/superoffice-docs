@@ -26,7 +26,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=perspiciatis
+GET /api/v1/List/ProjectStatus/MDOItems?query=aliquam
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Friesen Inc and Sons",
-    "ToolTip": "Eligendi iure aperiam amet.",
-    "Deleted": false,
-    "Rank": 518,
-    "Type": "ad",
+    "Id": 367,
+    "Name": "D'Amore-Lockman",
+    "ToolTip": "Sunt eius sint et provident.",
+    "Deleted": true,
+    "Rank": 383,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Stark Group",
-        "ToolTip": "Voluptas aut eveniet consectetur eos perspiciatis.",
-        "Deleted": true,
-        "Rank": 824,
-        "Type": "laudantium",
+        "Id": 456,
+        "Name": "Gerhold-Hammes",
+        "ToolTip": "Temporibus est et dolores repudiandae.",
+        "Deleted": false,
+        "Rank": 948,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 107,
-        "ExtraInfo": "eos",
-        "StyleHint": "ullam",
-        "FullName": "Alanis Bernier",
+        "IconHint": "consectetur",
+        "ColorBlock": 424,
+        "ExtraInfo": "iste",
+        "StyleHint": "repudiandae",
+        "FullName": "Ludie Rath",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 467
+            "FieldType": "System.Int32",
+            "FieldLength": 260
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 171,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "et",
-    "FullName": "Mark Hagenes",
+    "IconHint": "dolores",
+    "ColorBlock": 557,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "aut",
+    "FullName": "Helga Conn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 259
       }
     }
   }

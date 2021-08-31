@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/SaveReportLabelLayoutEntity
+title: SaveReportLabelLayoutEntity
 id: v1ReportAgent_SaveReportLabelLayoutEntity
 ---
 
-# POST Agents/Report/SaveReportLabelLayoutEntity
+# SaveReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
@@ -86,22 +86,22 @@ Response body: object
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 435,
-  "Name": "Morissette-Howell",
-  "Description": "Implemented systemic help-desk",
+  "ReportLabelLayoutId": 483,
+  "Name": "Mertz Group",
+  "Description": "Decentralized zero defect approach",
   "Orientation": "Landscape",
-  "PaperWidth": 35,
-  "PaperHeight": 336,
-  "LeftMargin": 291,
-  "RightMargin": 847,
-  "TopMargin": 704,
-  "BottomMargin": 175,
-  "CountColumns": 348,
-  "CountRows": 218
+  "PaperWidth": 548,
+  "PaperHeight": 673,
+  "LeftMargin": 99,
+  "RightMargin": 401,
+  "TopMargin": 447,
+  "BottomMargin": 73,
+  "CountColumns": 803,
+  "CountRows": 229
 }
 ```
 
@@ -110,21 +110,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 256,
-  "Name": "Hudson Group",
-  "Description": "Customer-focused even-keeled core",
+  "ReportLabelLayoutId": 16,
+  "Name": "Schmitt LLC",
+  "Description": "Front-line scalable frame",
   "Orientation": "Landscape",
-  "PaperWidth": 657,
-  "PaperHeight": 693,
-  "LeftMargin": 806,
-  "RightMargin": 242,
-  "TopMargin": 571,
-  "BottomMargin": 767,
-  "CountColumns": 198,
-  "CountRows": 210,
+  "PaperWidth": 414,
+  "PaperHeight": 54,
+  "LeftMargin": 915,
+  "RightMargin": 880,
+  "TopMargin": 128,
+  "BottomMargin": 26,
+  "CountColumns": 815,
+  "CountRows": 826,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "scale proactive e-markets"
   },
   "FieldProperties": {
     "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldLength": 24
     }
   }
 }

@@ -86,7 +86,7 @@ Response body: object
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -94,16 +94,16 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 963,
-  "Name": "Feil-Mills",
+  "ScreenChooserId": 869,
+  "Name": "White-Beer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "perspiciatis",
-  "Source": "porro",
-  "Registered": "2019-05-29T09:40:59.9030642+02:00",
-  "RegisteredAssociateId": 677,
-  "Updated": "2009-01-29T09:40:59.9030642+01:00",
-  "UpdatedAssociateId": 464,
+  "UniqueIdentifier": "deserunt",
+  "Source": "qui",
+  "Registered": "2013-05-08T15:05:42.9586326+02:00",
+  "RegisteredAssociateId": 247,
+  "Updated": "2010-07-30T15:05:42.9586326+02:00",
+  "UpdatedAssociateId": 720,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldLength": 20
     }
   },
   "_Links": {

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 958,
-    "Name": "Bernier, Pagac and Cole",
-    "Tooltip": "voluptate",
+    "HeadingId": 638,
+    "Name": "Bogan Group",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 929,
-    "UdListDefinitionId": 433,
+    "Rank": 164,
+    "UdListDefinitionId": 951,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

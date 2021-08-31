@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailAsStream
+title: GetEMailAsStream
 id: v1EMailAgent_GetEMailAsStream
 ---
 
-# POST Agents/EMail/GetEMailAsStream
+# GetEMailAsStream
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAsStream
@@ -72,18 +72,18 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailAsStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Goldner-Turcotte",
-    "UserName": "Harvey-Dickinson",
-    "Password": "quos",
-    "Folder": "aliquid",
-    "UseSSL": true
+    "ServerName": "Murray, Beatty and Dibbert",
+    "UserName": "Wuckert, Welch and Schuppe",
+    "Password": "perferendis",
+    "Folder": "consequatur",
+    "UseSSL": false
   },
-  "MessageServerId": 604,
+  "MessageServerId": 106,
   "StripAttachments": true
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/GetCRMScriptEntity
+title: GetCRMScriptEntity
 id: v1CRMScriptAgent_GetCRMScriptEntity
 ---
 
-# POST Agents/CRMScript/GetCRMScriptEntity
+# GetCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=655
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=700
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 291,
-  "UniqueIdentifier": "voluptas",
-  "Name": "Hilpert, Halvorson and Bernier",
-  "Description": "Self-enabling even-keeled encoding",
-  "IncludeId": "voluptatibus",
-  "HierarchyId": 73,
-  "Source": "neque",
-  "Registered": "2015-06-22T16:48:29.2108944+02:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2012-07-19T16:48:29.2108944+02:00",
-  "UpdatedAssociateId": 958,
+  "EjscriptId": 76,
+  "UniqueIdentifier": "praesentium",
+  "Name": "Brekke-Hane",
+  "Description": "User-friendly impactful success",
+  "IncludeId": "maiores",
+  "HierarchyId": 599,
+  "Source": "rem",
+  "Registered": "2017-11-02T14:58:03.7404596+01:00",
+  "RegisteredAssociateId": 63,
+  "Updated": "2009-10-09T14:58:03.7404596+02:00",
+  "UpdatedAssociateId": 913,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldLength": 399
     }
   }
 }

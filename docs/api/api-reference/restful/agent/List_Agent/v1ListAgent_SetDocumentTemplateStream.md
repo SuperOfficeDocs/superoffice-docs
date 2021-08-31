@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetDocumentTemplateStream
+title: SetDocumentTemplateStream
 id: v1ListAgent_SetDocumentTemplateStream
 ---
 
-# POST Agents/List/SetDocumentTemplateStream
+# SetDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateStream
@@ -105,40 +105,40 @@ Response body: object
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": {
-    "DocumentTemplateId": 604,
-    "Name": "Dooley-Wunsch",
-    "Tooltip": "labore",
-    "SaveInDb": 978,
-    "Filename": "adipisci",
-    "DefaultOref": "vel",
+    "DocumentTemplateId": 221,
+    "Name": "Beatty, Willms and Bogan",
+    "Tooltip": "omnis",
+    "SaveInDb": 689,
+    "Filename": "deleniti",
+    "DefaultOref": "voluptas",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 164,
-    "IntentId": 191,
+    "AutoeventId": 167,
+    "IntentId": 735,
     "IsDefaultPublished": true,
-    "Rank": 387,
-    "LoadTemplateFromPlugin": 613,
-    "MimeType": "quis",
+    "Rank": 750,
+    "LoadTemplateFromPlugin": 844,
+    "MimeType": "et",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 115,
+    "DocumentTypeKey": 380,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "beulah.hahn@wuckert.us",
+    "EmailSubject": "dena@daughertyhane.ca",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "kristopher@schulistlind.info",
+    "SenderEmailAddress": "bettie.beer@mckenziegleichner.biz",
     "InvitationDocType": "Cancelled"
   },
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "nihil",
-  "PluginId": 810
+  "LanguageCode": "dolore",
+  "PluginId": 862
 }
 ```
 
@@ -147,34 +147,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 250,
-  "Name": "Hoppe, Howe and Kertzmann",
-  "Tooltip": "enim",
-  "SaveInDb": 126,
-  "Filename": "perspiciatis",
-  "DefaultOref": "velit",
+  "DocumentTemplateId": 238,
+  "Name": "Leffler LLC",
+  "Tooltip": "culpa",
+  "SaveInDb": 345,
+  "Filename": "vel",
+  "DefaultOref": "rerum",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 936,
-  "IntentId": 625,
+  "AutoeventId": 917,
+  "IntentId": 629,
   "IsDefaultPublished": true,
-  "Rank": 414,
-  "LoadTemplateFromPlugin": 746,
-  "MimeType": "sed",
+  "Rank": 262,
+  "LoadTemplateFromPlugin": 20,
+  "MimeType": "id",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 593,
+  "DocumentTypeKey": 432,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "helen@gaylordhowell.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "gabe.moen@grant.us",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "buford@legros.biz",
+  "SenderEmailAddress": "keara.schmitt@rowe.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synthesize sexy synergies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -183,7 +183,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldLength": 557
     }
   }
 }

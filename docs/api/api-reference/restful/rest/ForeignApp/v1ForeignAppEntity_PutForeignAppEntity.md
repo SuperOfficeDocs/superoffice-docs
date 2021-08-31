@@ -95,53 +95,53 @@ Response body: object
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 874,
-  "Name": "Lesch, Glover and Smitham",
-  "CreatedDate": "2000-01-04T09:40:59.2106629+01:00",
-  "UpdatedDate": "2020-06-07T09:40:59.2106629+02:00",
+  "ForeignAppId": 883,
+  "Name": "Will, Price and Cormier",
+  "CreatedDate": "1994-11-25T15:05:42.2146767+01:00",
+  "UpdatedDate": "2016-03-13T15:05:42.2146767+01:00",
   "CreatedBy": {
-    "AssociateId": 167,
-    "Name": "King, Hane and DuBuque",
-    "PersonId": 312,
-    "Rank": 488,
-    "Tooltip": "perspiciatis",
+    "AssociateId": 292,
+    "Name": "Kulas, Berge and Barrows",
+    "PersonId": 109,
+    "Rank": 855,
+    "Tooltip": "adipisci",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 551,
-    "FullName": "Dagmar Grant",
-    "FormalName": "Hilll, Bradtke and Okuneva",
-    "Deleted": true,
-    "EjUserId": 611,
-    "UserName": "Gleason-Sawayn"
+    "GroupIdx": 298,
+    "FullName": "Elaina Kertzmann",
+    "FormalName": "Mosciski, Skiles and Bernier",
+    "Deleted": false,
+    "EjUserId": 45,
+    "UserName": "Torphy Inc and Sons"
   },
   "UpdatedBy": {
-    "AssociateId": 303,
-    "Name": "Gleason, Mayer and Stokes",
-    "PersonId": 501,
-    "Rank": 352,
-    "Tooltip": "autem",
+    "AssociateId": 877,
+    "Name": "Monahan, Farrell and Tillman",
+    "PersonId": 305,
+    "Rank": 668,
+    "Tooltip": "laudantium",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 168,
-    "FullName": "Cecil McKenzie",
-    "FormalName": "Zboncak-Eichmann",
-    "Deleted": false,
-    "EjUserId": 679,
-    "UserName": "Stark Inc and Sons"
+    "GroupIdx": 555,
+    "FullName": "Johnnie Lehner",
+    "FormalName": "Reynolds, Kub and Goldner",
+    "Deleted": true,
+    "EjUserId": 978,
+    "UserName": "Boehm, Simonis and Reichert"
   },
   "Devices": [
     {
-      "ForeignDeviceId": 692,
-      "Name": "Kuhic-Doyle",
-      "CreatedDate": "2010-06-20T09:40:59.2116627+02:00",
-      "UpdatedDate": "2009-04-07T09:40:59.2116627+02:00",
-      "AssociateFullName": "Maia Cummerata",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "itaque",
-      "ForeignAppId": 735
+      "ForeignDeviceId": 605,
+      "Name": "Bogan Inc and Sons",
+      "CreatedDate": "2004-06-12T15:05:42.2297804+02:00",
+      "UpdatedDate": "2017-03-07T15:05:42.2297804+01:00",
+      "AssociateFullName": "Casey Jacobs",
+      "CreatedBy": "dolorum",
+      "UpdatedBy": "quam",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 589
     }
   ]
 }
@@ -152,48 +152,48 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 837,
-  "Name": "Bergnaum Group",
-  "CreatedDate": "2010-05-17T09:40:59.2126638+02:00",
-  "UpdatedDate": "2008-07-11T09:40:59.2126638+02:00",
+  "ForeignAppId": 19,
+  "Name": "Koepp-Mayert",
+  "CreatedDate": "2002-01-19T15:05:42.2316382+01:00",
+  "UpdatedDate": "2003-10-25T15:05:42.2316382+02:00",
   "CreatedBy": {
-    "AssociateId": 527,
-    "Name": "Swaniawski, Daugherty and Gottlieb",
-    "PersonId": 715,
-    "Rank": 327,
-    "Tooltip": "ut",
+    "AssociateId": 637,
+    "Name": "Nader, Shields and Medhurst",
+    "PersonId": 274,
+    "Rank": 779,
+    "Tooltip": "autem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 992,
-    "FullName": "Mara Spencer",
-    "FormalName": "Baumbach, Armstrong and Ruecker",
-    "Deleted": true,
-    "EjUserId": 201,
-    "UserName": "Turner-Connelly",
+    "GroupIdx": 435,
+    "FullName": "Melany Murphy",
+    "FormalName": "Muller, Cremin and Lakin",
+    "Deleted": false,
+    "EjUserId": 901,
+    "UserName": "Larkin-Bernier",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transform 24/7 relationships"
         },
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 732,
-    "Name": "Tillman-Gorczany",
-    "PersonId": 116,
-    "Rank": 903,
-    "Tooltip": "nemo",
+    "AssociateId": 1000,
+    "Name": "Shanahan-Skiles",
+    "PersonId": 269,
+    "Rank": 587,
+    "Tooltip": "reprehenderit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 730,
-    "FullName": "Cortez Kub",
-    "FormalName": "Schmeler, Kilback and Rogahn",
+    "GroupIdx": 535,
+    "FullName": "Kathryn Barton",
+    "FormalName": "Skiles, Schmidt and Osinski",
     "Deleted": true,
-    "EjUserId": 749,
-    "UserName": "Durgan, Bauch and Schiller",
+    "EjUserId": 679,
+    "UserName": "Halvorson-Wilkinson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -201,22 +201,22 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldType": "System.Int32",
+        "FieldLength": 118
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 21,
-      "Name": "Reinger-Robel",
-      "CreatedDate": "2011-03-08T09:40:59.2136628+01:00",
-      "UpdatedDate": "2009-04-09T09:40:59.2136628+02:00",
-      "AssociateFullName": "Lauretta Mante",
-      "CreatedBy": "esse",
-      "UpdatedBy": "veritatis",
-      "DeviceIdentifier": "provident",
-      "ForeignAppId": 387,
+      "ForeignDeviceId": 918,
+      "Name": "Ritchie-Kuhn",
+      "CreatedDate": "2020-09-18T15:05:42.2326356+02:00",
+      "UpdatedDate": "2014-12-07T15:05:42.2326356+01:00",
+      "AssociateFullName": "Jo Bartell DVM",
+      "CreatedBy": "officiis",
+      "UpdatedBy": "explicabo",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 632,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 484
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 856
     }
   },
   "_Links": {

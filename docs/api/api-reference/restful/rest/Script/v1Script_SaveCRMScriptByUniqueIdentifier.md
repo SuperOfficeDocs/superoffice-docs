@@ -58,7 +58,7 @@ Information about the CRMScript
 
 ## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object.
+The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
 
 
 
@@ -92,20 +92,20 @@ Response body: object
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolore",
-  "Name": "Wisozk Group",
-  "Description": "Front-line object-oriented matrix",
-  "IncludeId": "saepe",
-  "Source": "consectetur",
-  "Registered": "2002-02-10T09:41:00.0010654+01:00",
-  "RegisteredBy": "distinctio",
-  "Updated": "1998-09-07T09:41:00.0010654+02:00",
-  "UpdatedBy": "dolorem",
-  "Path": "asperiores"
+  "UniqueIdentifier": "ea",
+  "Name": "Will-Willms",
+  "Description": "Total assymetric framework",
+  "IncludeId": "tempore",
+  "Source": "quam",
+  "Registered": "2004-06-16T15:05:43.083221+02:00",
+  "RegisteredBy": "rem",
+  "Updated": "2012-06-10T15:05:43.083221+02:00",
+  "UpdatedBy": "in",
+  "Path": "iure"
 }
 ```
 
@@ -114,16 +114,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "consequatur",
-  "Name": "Lynch, Schroeder and Hintz",
-  "Description": "Focused discrete access",
-  "IncludeId": "earum",
-  "Source": "ex",
-  "Registered": "2006-09-18T09:41:00.0020651+02:00",
-  "RegisteredBy": "deleniti",
-  "Updated": "2005-03-24T09:41:00.0020651+01:00",
-  "UpdatedBy": "aliquam",
-  "Path": "amet",
+  "UniqueIdentifier": "quia",
+  "Name": "Swaniawski, Schinner and Brekke",
+  "Description": "Virtual radical customer loyalty",
+  "IncludeId": "omnis",
+  "Source": "aspernatur",
+  "Registered": "2021-06-14T15:05:43.0838287+02:00",
+  "RegisteredBy": "architecto",
+  "Updated": "2014-01-01T15:05:43.0838287+01:00",
+  "UpdatedBy": "a",
+  "Path": "sint",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 290
     }
   }
 }

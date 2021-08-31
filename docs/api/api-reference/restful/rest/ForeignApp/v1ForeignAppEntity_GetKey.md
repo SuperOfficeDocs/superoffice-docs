@@ -76,17 +76,17 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Apr 2001 09:40:59 G4T
+Last-Modified: Mon, 07 Dec 2009 15:05:42 G12T
 
 {
-  "Key": "delectus",
-  "Value": "quaerat",
-  "RecordId": 532,
-  "CreatedDate": "1997-10-17T09:40:59.2226629+02:00",
-  "UpdatedDate": "2001-04-25T09:40:59.2226629+02:00",
-  "UpdatedBy": "modi",
-  "CreatedBy": "pariatur",
-  "TableName": "Ondricka, Emmerich and Nitzsche",
+  "Key": "sit",
+  "Value": "sit",
+  "RecordId": 394,
+  "CreatedDate": "2001-04-06T15:05:42.2436336+02:00",
+  "UpdatedDate": "2009-12-07T15:05:42.2436336+01:00",
+  "UpdatedBy": "in",
+  "CreatedBy": "quae",
+  "TableName": "Rohan, Lindgren and Nitzsche",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -98,7 +98,7 @@ Last-Modified: Wed, 25 Apr 2001 09:40:59 G4T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldLength": 444
     }
   }
 }

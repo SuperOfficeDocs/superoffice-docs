@@ -93,15 +93,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 494,
-  "Name": "Bailey, Sauer and Runolfsson",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 510,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 140,
+  "Name": "Swift Inc and Sons",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 532,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Ondricka Group",
-  "Tooltip": "quas",
-  "Deleted": true,
-  "Rank": 980,
+  "Id": 125,
+  "Name": "Cassin, Lowe and D'Amore",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 488,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perferendis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldLength": 494
     }
   }
 }

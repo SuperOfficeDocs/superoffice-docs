@@ -77,57 +77,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 10 Jan 1997 09:40:59 G1T
+Last-Modified: Tue, 18 May 1999 15:05:42 G5T
 
 {
-  "BlobId": 827,
-  "BlobSize": 374,
-  "Description": "Programmable dynamic architecture",
-  "ExtraInfo": "eum",
-  "IsEncrypted": true,
+  "BlobId": 569,
+  "BlobSize": 314,
+  "Description": "Open-architected next generation hierarchy",
+  "ExtraInfo": "illum",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 511,
-  "CreatedDate": "2010-12-02T09:40:59.2426628+01:00",
-  "UpdatedDate": "1997-01-10T09:40:59.2426628+01:00",
+  "MimeType": "harum",
+  "OriginalSize": 95,
+  "CreatedDate": "2000-12-10T15:05:42.4296675+01:00",
+  "UpdatedDate": "1999-05-18T15:05:42.4296675+02:00",
   "CreatedBy": {
-    "AssociateId": 245,
-    "Name": "Ferry, Carter and Hodkiewicz",
-    "PersonId": 575,
-    "Rank": 421,
-    "Tooltip": "hic",
+    "AssociateId": 235,
+    "Name": "Skiles, Orn and Ratke",
+    "PersonId": 404,
+    "Rank": 566,
+    "Tooltip": "cum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 651,
-    "FullName": "Toby Parker",
-    "FormalName": "Hauck-Moen",
+    "GroupIdx": 121,
+    "FullName": "Mylene Eichmann",
+    "FormalName": "McDermott-McClure",
     "Deleted": false,
-    "EjUserId": 745,
-    "UserName": "Schimmel Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 818
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 576,
-    "Name": "Ortiz-Leannon",
-    "PersonId": 760,
-    "Rank": 965,
-    "Tooltip": "repellendus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 434,
-    "FullName": "Florine Cole",
-    "FormalName": "Lindgren LLC",
-    "Deleted": true,
-    "EjUserId": 138,
-    "UserName": "Kertzmann-Jewess",
+    "EjUserId": 798,
+    "UserName": "Padberg, Gusikowski and Reichel",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,14 +111,39 @@ Last-Modified: Fri, 10 Jan 1997 09:40:59 G1T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldLength": 240
       }
     }
   },
-  "ConceptualType": "voluptas",
+  "UpdatedBy": {
+    "AssociateId": 999,
+    "Name": "Murazik, Moen and O'Hara",
+    "PersonId": 67,
+    "Rank": 263,
+    "Tooltip": "at",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 908,
+    "FullName": "Brannon Rohan",
+    "FormalName": "Nicolas, Kunze and McDermott",
+    "Deleted": false,
+    "EjUserId": 687,
+    "UserName": "Conroy-Mayer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "empower wireless platforms"
+        },
+        "FieldType": "System.String",
+        "FieldLength": 95
+      }
+    }
+  },
+  "ConceptualType": "atque",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "mesh efficient experiences"
+    "Reason": "mesh ubiquitous paradigms"
   },
   "FieldProperties": {
     "fieldName": {
@@ -151,8 +151,8 @@ Last-Modified: Fri, 10 Jan 1997 09:40:59 G1T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   }
 }

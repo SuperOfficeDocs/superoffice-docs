@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSale
+title: GetSale
 id: v1SaleAgent_GetSale
 ---
 
-# POST Agents/Sale/GetSale
+# GetSale
 
 ```http
 POST /api/v1/Agents/Sale/GetSale
@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=400
+POST /api/v1/Agents/Sale/GetSale?saleId=735
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ Response body: object
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Koelpin Inc and Sons",
-  "SaleDate": "2009-07-08T16:48:30.5979387+02:00",
-  "SaleId": 124,
-  "Probability": 818,
-  "Title": "animi",
-  "Amount": 8082.5859999999993,
-  "Currency": "distinctio",
-  "ProjectName": "Altenwerth Inc and Sons",
-  "AssociateFullName": "Daphnee Lakin",
-  "Description": "User-centric didactic middleware",
+  "ContactName": "Larkin-Rutherford",
+  "SaleDate": "2005-05-09T14:58:05.1626288+02:00",
+  "SaleId": 525,
+  "Probability": 517,
+  "Title": "incidunt",
+  "Amount": 15701.34,
+  "Currency": "adipisci",
+  "ProjectName": "Gerhold-Hilll",
+  "AssociateFullName": "Felipa Kuphal",
+  "Description": "Multi-channelled user-facing open system",
   "Status": "Lost",
-  "WeightedAmount": 19672.118,
-  "ProjectId": 882,
-  "EarningPercent": 18196.004,
-  "Earning": 16864.054,
-  "ContactId": 552,
-  "AssociateId": 680,
-  "PersonId": 218,
-  "SaleTypeId": 227,
-  "SaleTypeName": "Kirlin-Braun",
-  "PersonFullName": "Waldo Mraz",
+  "WeightedAmount": 22430.038,
+  "ProjectId": 480,
+  "EarningPercent": 11689.82,
+  "Earning": 2858.208,
+  "ContactId": 932,
+  "AssociateId": 175,
+  "PersonId": 672,
+  "SaleTypeId": 755,
+  "SaleTypeName": "Considine-Feest",
+  "PersonFullName": "Laurianne Gerlach",
   "Completed": "Completed",
-  "ActiveErpLinks": 748,
-  "NextDueDate": "2020-09-28T16:48:30.5989389+02:00",
-  "Number": "555222",
+  "ActiveErpLinks": 78,
+  "NextDueDate": "2009-07-20T14:58:05.1626288+02:00",
+  "Number": "804273",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ChangeUserType
+title: ChangeUserType
 id: v1UserAgent_ChangeUserType
 ---
 
-# POST Agents/User/ChangeUserType
+# ChangeUserType
 
 ```http
 POST /api/v1/Agents/User/ChangeUserType
@@ -105,15 +105,15 @@ Response body: object
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 991,
-    "Name": "Schultz-Muller",
-    "Rank": 252,
-    "Tooltip": "dolorum",
+    "AssociateId": 855,
+    "Name": "Nienow, Stanton and Erdman",
+    "Rank": 305,
+    "Tooltip": "ipsa",
     "LicenseOwners": [
       {},
       {}
@@ -126,31 +126,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "1997-05-31T16:48:30.8579054+02:00",
-    "Lastlogout": "1996-06-09T16:48:30.8579054+02:00",
-    "EjUserId": 316,
-    "RequestSignature": "nihil",
+    "Lastlogin": "2013-05-11T14:58:05.4086237+02:00",
+    "Lastlogout": "2010-07-05T14:58:05.4086237+02:00",
+    "EjUserId": 467,
+    "RequestSignature": "qui",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": false,
+    "IsPersonRetired": true,
+    "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Sawayn, Satterfield and O'Kon",
+    "UserName": "Fay-Klein",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Yundt-Bergstrom",
-    "WaitingForApproval": false,
+    "NickName": "Kirlin, Schmidt and Kris",
+    "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "rerum",
-      "ExtraFields2": "est"
+      "ExtraFields1": "et",
+      "ExtraFields2": "fugiat"
     },
     "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "architecto"
+      "CustomFields1": "aut",
+      "CustomFields2": "omnis"
     },
     "PostSaveCommands": [
       {},
@@ -166,14 +166,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 256,
-  "Name": "Gleason-Bergstrom",
-  "Rank": 677,
-  "Tooltip": "aliquam",
+  "AssociateId": 514,
+  "Name": "Koch-Olson",
+  "Rank": 852,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Fritsch, Goodwin and Cartwright",
-      "Description": "Decentralized needs-based challenge",
+      "Name": "Lehner-Ortiz",
+      "Description": "Grass-roots composite model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -190,13 +190,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 901
         }
       }
     },
     {
-      "Name": "Fritsch, Goodwin and Cartwright",
-      "Description": "Decentralized needs-based challenge",
+      "Name": "Lehner-Ortiz",
+      "Description": "Grass-roots composite model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -213,15 +213,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 901
         }
       }
     }
   ],
   "Role": {
-    "Id": 331,
-    "Value": "voluptatum",
-    "Tooltip": "et",
+    "Id": 811,
+    "Value": "aut",
+    "Tooltip": "nostrum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -230,15 +230,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldLength": 307
       }
     }
   },
   "UserGroup": {
-    "Value": "id",
-    "Tooltip": "ut",
-    "Id": 290,
-    "Rank": 361,
+    "Value": "et",
+    "Tooltip": "omnis",
+    "Id": 499,
+    "Rank": 552,
     "Deleted": true,
     "TableRight": {},
     "FieldProperties": {
@@ -247,17 +247,17 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 650
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "eius",
-      "Tooltip": "quia",
-      "Id": 152,
-      "Rank": 468,
+      "Value": "amet",
+      "Tooltip": "animi",
+      "Id": 880,
+      "Rank": 898,
       "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
@@ -266,52 +266,52 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldType": "System.String",
+          "FieldLength": 701
         }
       }
     }
   ],
   "Person": {
-    "Position": "consectetur",
-    "PersonId": 574,
-    "Mrmrs": "dolorum",
-    "Firstname": "Grant",
-    "Lastname": "Dickinson",
-    "MiddleName": "Turner, Ryan and Vandervort",
-    "Title": "recusandae",
-    "Description": "Centralized discrete ability",
-    "Email": "phyllis.oconnell@ratkeklein.name",
-    "FullName": "Ms. Elisa Veum",
-    "DirectPhone": "1-236-634-6636",
-    "FormalName": "Hand Inc and Sons",
-    "CountryId": 365,
-    "ContactId": 547,
-    "ContactName": "Lueilwitz Inc and Sons",
-    "Retired": 101,
-    "Rank": 861,
-    "ActiveInterests": 459,
+    "Position": "dolore",
+    "PersonId": 426,
+    "Mrmrs": "dolor",
+    "Firstname": "Clair",
+    "Lastname": "Gibson",
+    "MiddleName": "Carter Inc and Sons",
+    "Title": "perspiciatis",
+    "Description": "Team-oriented contextually-based service-desk",
+    "Email": "celestino_bogisich@lakinbode.co.uk",
+    "FullName": "Linda O'Hara",
+    "DirectPhone": "238-473-4241",
+    "FormalName": "Hilpert, Watsica and Thompson",
+    "CountryId": 675,
+    "ContactId": 738,
+    "ContactName": "Lind-Nikolaus",
+    "Retired": 11,
+    "Rank": 373,
+    "ActiveInterests": 46,
     "ContactDepartment": "",
-    "ContactCountryId": 71,
-    "ContactOrgNr": "1621359",
-    "FaxPhone": "(366)710-2653",
-    "MobilePhone": "844-424-0224",
-    "ContactPhone": "874.210.6037",
-    "AssociateName": "Buckridge, Crooks and Bartoletti",
-    "AssociateId": 3,
-    "UsePersonAddress": false,
-    "ContactFax": "recusandae",
-    "Kanafname": "in",
-    "Kanalname": "consectetur",
-    "Post1": "et",
-    "Post2": "unde",
-    "Post3": "qui",
-    "EmailName": "adelbert_krajcik@armstrong.us",
-    "ContactFullName": "Stacey Farrell",
-    "ActiveErpLinks": 15,
-    "TicketPriorityId": 515,
-    "SupportLanguageId": 1000,
-    "SupportAssociateId": 353,
+    "ContactCountryId": 203,
+    "ContactOrgNr": "927445",
+    "FaxPhone": "121-814-8071 x401",
+    "MobilePhone": "1-837-431-5734",
+    "ContactPhone": "(857)146-3083 x02147",
+    "AssociateName": "Stracke, Stamm and Lynch",
+    "AssociateId": 62,
+    "UsePersonAddress": true,
+    "ContactFax": "nam",
+    "Kanafname": "soluta",
+    "Kanalname": "impedit",
+    "Post1": "libero",
+    "Post2": "ex",
+    "Post3": "impedit",
+    "EmailName": "courtney@crona.uk",
+    "ContactFullName": "Avery Denesik DVM",
+    "ActiveErpLinks": 945,
+    "TicketPriorityId": 74,
+    "SupportLanguageId": 722,
+    "SupportAssociateId": 10,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -320,24 +320,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldType": "System.String",
+        "FieldLength": 989
       }
     }
   },
-  "Deleted": true,
-  "Lastlogin": "1995-11-26T16:48:30.8639348+01:00",
-  "Lastlogout": "2008-11-13T16:48:30.8639348+01:00",
-  "EjUserId": 294,
-  "RequestSignature": "qui",
+  "Deleted": false,
+  "Lastlogin": "2010-06-24T14:58:05.4136234+02:00",
+  "Lastlogout": "2009-05-02T14:58:05.4136234+02:00",
+  "EjUserId": 498,
+  "RequestSignature": "ea",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "molestias",
-      "DisplayValue": "porro",
+      "Value": "suscipit",
+      "DisplayValue": "repellat",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -346,14 +346,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 274
         }
       }
     },
     {
       "Type": {},
-      "Value": "molestias",
-      "DisplayValue": "porro",
+      "Value": "suscipit",
+      "DisplayValue": "repellat",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -362,29 +362,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 274
         }
       }
     }
   ],
-  "UserName": "Hodkiewicz-Corkery",
+  "UserName": "Schaefer, Bechtelar and Kuphal",
   "TicketCategories": [
     {
-      "Id": 206,
-      "Name": "Graham Group",
-      "ToolTip": "Vel eum.",
+      "Id": 127,
+      "Name": "Heaney, Gutkowski and Pacocha",
+      "ToolTip": "Est laboriosam cumque aspernatur.",
       "Deleted": true,
-      "Rank": 196,
-      "Type": "nihil",
+      "Rank": 50,
+      "Type": "sequi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "neque",
-      "ColorBlock": 848,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "exercitationem",
-      "FullName": "Laurel Keebler Sr.",
+      "IconHint": "et",
+      "ColorBlock": 717,
+      "ExtraInfo": "facere",
+      "StyleHint": "molestiae",
+      "FullName": "Hattie Rowe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -392,30 +392,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
   ],
-  "NickName": "Koepp-Davis",
+  "NickName": "Rice, Morar and Johns",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "quod"
+    "CustomFields1": "corporis",
+    "CustomFields2": "repudiandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Koss Group",
-      "DisplayName": "Leannon LLC",
-      "Description": "Distributed composite infrastructure",
-      "ToolTip": "Quisquam molestias repellendus maiores veniam repellendus porro.",
+      "Name": "Harris LLC",
+      "DisplayName": "Cartwright, Murphy and Turner",
+      "Description": "Face to face exuding knowledge user",
+      "ToolTip": "Aperiam omnis.",
       "Actions": "Implicit",
-      "ActionData": "molestiae",
+      "ActionData": "quas",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -423,8 +423,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldType": "System.String",
+          "FieldLength": 602
         }
       }
     }
@@ -440,7 +440,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 350
     }
   }
 }

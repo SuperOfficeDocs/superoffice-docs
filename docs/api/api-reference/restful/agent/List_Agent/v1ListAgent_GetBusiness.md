@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetBusiness
+title: GetBusiness
 id: v1ListAgent_GetBusiness
 ---
 
-# POST Agents/List/GetBusiness
+# GetBusiness
 
 ```http
 POST /api/v1/Agents/List/GetBusiness
@@ -25,7 +25,7 @@ Gets a Business object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetBusiness?businessId=217
+POST /api/v1/Agents/List/GetBusiness?businessId=285
 POST /api/v1/Agents/List/GetBusiness?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetBusiness
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Value": "et",
-  "Tooltip": "tempore",
+  "Id": 313,
+  "Value": "qui",
+  "Tooltip": "saepe",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 109
     }
   }
 }

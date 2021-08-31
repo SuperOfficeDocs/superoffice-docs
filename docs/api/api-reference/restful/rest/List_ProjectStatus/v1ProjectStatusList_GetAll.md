@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Swaniawski, Romaguera and O'Conner",
-    "Tooltip": "ad",
-    "Deleted": false,
-    "UdListDefinitionId": 289,
-    "Rank": 741,
+    "Id": 120,
+    "Name": "Halvorson, Jakubowski and Oberbrunner",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "UdListDefinitionId": 657,
+    "Rank": 471,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "benchmark transparent markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

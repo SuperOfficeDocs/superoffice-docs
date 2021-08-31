@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteLineConfigurations
+title: SaveQuoteLineConfigurations
 id: v1QuoteAgent_SaveQuoteLineConfigurations
 ---
 
-# POST Agents/Quote/SaveQuoteLineConfigurations
+# SaveQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
@@ -81,21 +81,21 @@ Response body: array
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 731,
-      "FieldName": "Hegmann-Hintz",
-      "Label": "sed",
-      "Tooltip": "aliquid",
-      "Editable": true,
+      "QuoteLineConfigurationId": 219,
+      "FieldName": "Sauer Inc and Sons",
+      "Label": "consequuntur",
+      "Tooltip": "libero",
+      "Editable": false,
       "InUse": false,
-      "Mandatory": true,
-      "Rank": 637,
-      "RestrictEdit": true
+      "Mandatory": false,
+      "Rank": 825,
+      "RestrictEdit": false
     }
   ]
 }
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 194,
-    "FieldName": "Feeney, Strosin and Reichel",
-    "Label": "eius",
-    "Tooltip": "eum",
-    "Editable": false,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 195,
+    "QuoteLineConfigurationId": 56,
+    "FieldName": "Gorczany Inc and Sons",
+    "Label": "exercitationem",
+    "Tooltip": "architecto",
+    "Editable": true,
+    "InUse": false,
+    "Mandatory": true,
+    "Rank": 334,
     "RestrictEdit": false,
     "TableRight": {
       "Mask": "Delete",
@@ -124,10 +124,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate back-end partnerships"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 839
       }
     }
   }

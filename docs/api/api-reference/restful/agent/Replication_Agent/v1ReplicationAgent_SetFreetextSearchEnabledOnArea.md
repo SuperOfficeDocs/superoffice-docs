@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/SetFreetextSearchEnabledOnArea
+title: SetFreetextSearchEnabledOnArea
 id: v1ReplicationAgent_SetFreetextSearchEnabledOnArea
 ---
 
-# POST Agents/Replication/SetFreetextSearchEnabledOnArea
+# SetFreetextSearchEnabledOnArea
 
 ```http
 POST /api/v1/Agents/Replication/SetFreetextSearchEnabledOnArea

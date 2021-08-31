@@ -65,7 +65,7 @@ Response body: object
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 86,
-  "Name": "Upton-Willms",
-  "Tooltip": "est",
-  "Rank": 888,
-  "Key": "odio",
-  "Deleted": true,
+  "LegalBaseId": 403,
+  "Name": "Adams LLC",
+  "Tooltip": "deserunt",
+  "Rank": 742,
+  "Key": "placeat",
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sentry/GetTableRightByOwnership
+title: GetTableRightByOwnership
 id: v1SentryAgent_GetTableRightByOwnership
 ---
 
-# POST Agents/Sentry/GetTableRightByOwnership
+# GetTableRightByOwnership
 
 ```http
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
@@ -74,13 +74,13 @@ Response body: object
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wiza Group",
-  "ContactGroupId": 536,
-  "ContactAssociateId": 763
+  "TableName": "Hickle-Block",
+  "ContactGroupId": 349,
+  "ContactAssociateId": 857
 }
 ```
 

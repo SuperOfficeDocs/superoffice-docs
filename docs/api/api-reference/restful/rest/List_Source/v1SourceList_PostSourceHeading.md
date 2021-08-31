@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 837,
-  "Name": "Bergstrom, Powlowski and Kunde",
-  "Tooltip": "nulla",
+  "HeadingId": 321,
+  "Name": "Bins Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 509,
-  "UdListDefinitionId": 609
+  "Rank": 491,
+  "UdListDefinitionId": 964
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 276,
-  "Name": "O'Conner, Miller and Hirthe",
-  "Tooltip": "error",
+  "HeadingId": 812,
+  "Name": "Johns Group",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 423,
-  "UdListDefinitionId": 740,
+  "Rank": 952,
+  "UdListDefinitionId": 983,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

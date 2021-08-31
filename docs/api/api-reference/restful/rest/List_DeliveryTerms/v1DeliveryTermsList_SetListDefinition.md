@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Schowalter, Hyatt and Cummerata",
-  "Tooltip": "aut",
+  "Id": 138,
+  "Name": "Bechtelar LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 608,
+  "Rank": 23,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true
+  "ListType": "soluta",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Johnston, Hane and Jenkins",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 549,
+  "Id": 101,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 889,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

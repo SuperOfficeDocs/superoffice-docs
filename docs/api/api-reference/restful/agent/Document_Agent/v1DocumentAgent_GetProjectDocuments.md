@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectDocuments
+title: GetProjectDocuments
 id: v1DocumentAgent_GetProjectDocuments
 ---
 
-# POST Agents/Document/GetProjectDocuments
+# GetProjectDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocuments
@@ -93,14 +93,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 145,
-  "StartTime": "2003-04-01T16:48:29.3398936+02:00",
-  "EndTime": "2009-07-04T16:48:29.3398936+02:00",
-  "Count": 808
+  "ProjectId": 536,
+  "StartTime": "1999-07-28T14:58:03.8264667+02:00",
+  "EndTime": "2021-08-22T14:58:03.8264667+02:00",
+  "Count": 400
 }
 ```
 
@@ -110,27 +110,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 9,
-    "Attention": "eius",
-    "Header": "quo",
-    "Name": "Tremblay LLC",
-    "OurRef": "reiciendis",
-    "YourRef": "voluptate",
-    "Description": "Distributed stable function",
-    "DocumentTemplate": "aliquid",
-    "IsPublished": false,
-    "PersonId": 140,
-    "PersonFullName": "Elissa Hoppe",
-    "AssociateFullName": "Trevion Durgan",
-    "ContactId": 78,
-    "ContactName": "Hegmann-Tromp",
-    "ProjectId": 668,
-    "ProjectName": "Roberts, Kassulke and Moore",
-    "AssociateId": 656,
-    "Snum": 974,
+    "DocumentId": 225,
+    "Attention": "quia",
+    "Header": "tenetur",
+    "Name": "West, Sanford and Cole",
+    "OurRef": "at",
+    "YourRef": "assumenda",
+    "Description": "Cloned real-time circuit",
+    "DocumentTemplate": "ducimus",
+    "IsPublished": true,
+    "PersonId": 497,
+    "PersonFullName": "Abbey Hackett",
+    "AssociateFullName": "Veda Thompson",
+    "ContactId": 205,
+    "ContactName": "Bosco, Fay and Hand",
+    "ProjectId": 919,
+    "ProjectName": "Kutch, Brown and Schowalter",
+    "AssociateId": 100,
+    "Snum": 447,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "morph leading-edge convergence"
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldLength": 993
       }
     }
   }

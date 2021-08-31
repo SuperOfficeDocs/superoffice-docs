@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/ApproveQuoteVersion
+title: ApproveQuoteVersion
 id: v1QuoteAgent_ApproveQuoteVersion
 ---
 
-# POST Agents/Quote/ApproveQuoteVersion
+# ApproveQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 694,
-  "ApprovedByText": "fuga",
-  "ApprovedByAssociateId": 531,
-  "ApprovalText": "quos"
+  "QuoteVersionId": 575,
+  "ApprovedByText": "eveniet",
+  "ApprovedByAssociateId": 361,
+  "ApprovalText": "commodi"
 }
 ```
 
@@ -99,10 +99,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": {
-    "IsOk": true,
-    "UserExplanation": "veniam",
-    "TechExplanation": "sint",
-    "ErrorCode": "consequatur",
+    "IsOk": false,
+    "UserExplanation": "rerum",
+    "TechExplanation": "velit",
+    "ErrorCode": "ut",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldLength": 133
       }
     }
   },
-  "CreatedAppointmentId": 11,
+  "CreatedAppointmentId": 270,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "revolutionize granular web-readiness"
   },
   "FieldProperties": {
     "fieldName": {
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 969
     }
   }
 }

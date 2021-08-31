@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetSelectionCategoryList
+title: GetSelectionCategoryList
 id: v1ListAgent_GetSelectionCategoryList
 ---
 
-# POST Agents/List/GetSelectionCategoryList
+# GetSelectionCategoryList
 
 ```http
 POST /api/v1/Agents/List/GetSelectionCategoryList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetSelectionCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Value": "eius",
-    "Tooltip": "eum",
+    "Id": 95,
+    "Value": "rem",
+    "Tooltip": "amet",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldLength": 537
       }
     }
   },
   {
-    "Id": 796,
-    "Value": "eius",
-    "Tooltip": "eum",
+    "Id": 95,
+    "Value": "rem",
+    "Tooltip": "amet",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldLength": 537
       }
     }
   }

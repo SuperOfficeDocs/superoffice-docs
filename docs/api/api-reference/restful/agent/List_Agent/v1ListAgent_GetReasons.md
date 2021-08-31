@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetReasons
+title: GetReasons
 id: v1ListAgent_GetReasons
 ---
 
-# POST Agents/List/GetReasons
+# GetReasons
 
 ```http
 POST /api/v1/Agents/List/GetReasons
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -75,12 +75,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Value": "necessitatibus",
-    "Tooltip": "corrupti",
+    "Id": 552,
+    "Value": "quia",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "utilize user-centric action-items"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 518
       }
     }
   },
   {
-    "Id": 127,
-    "Value": "necessitatibus",
-    "Tooltip": "corrupti",
+    "Id": 552,
+    "Value": "quia",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "utilize user-centric action-items"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 518
       }
     }
   }

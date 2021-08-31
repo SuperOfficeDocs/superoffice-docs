@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetDocumentCommands
+title: GetDocumentCommands
 id: v1DocumentAgent_GetDocumentCommands
 ---
 
-# POST Agents/Document/GetDocumentCommands
+# GetDocumentCommands
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentCommands
@@ -80,10 +80,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 775,
+  "DocumentId": 70,
   "AllowedReturnTypes": [
-    "unde",
-    "nemo"
+    "quia",
+    "optio"
   ]
 }
 ```
@@ -94,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka Group",
-    "DisplayName": "Keeling LLC",
-    "DisplayTooltip": "dolores",
+    "Name": "Kilback LLC",
+    "DisplayName": "Pollich-Cormier",
+    "DisplayTooltip": "sit",
     "IconHint": "maxime",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Ondricka Group",
-    "DisplayName": "Keeling LLC",
-    "DisplayTooltip": "dolores",
+    "Name": "Kilback LLC",
+    "DisplayName": "Pollich-Cormier",
+    "DisplayTooltip": "sit",
     "IconHint": "maxime",
     "ReturnType": "CustomGui"
   }

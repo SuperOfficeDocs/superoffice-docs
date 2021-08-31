@@ -76,17 +76,17 @@ Response body: object
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 261,
-  "Name": "Reichert-Reynolds",
-  "Tooltip": "deleniti",
-  "Rank": 985,
-  "Rate": 11598.934,
-  "Units": 16165.171999999999,
-  "Deleted": false
+  "CurrencyId": 252,
+  "Name": "Berge-Schamberger",
+  "Tooltip": "sed",
+  "Rank": 203,
+  "Rate": 13846.011999999999,
+  "Units": 23417.248,
+  "Deleted": true
 }
 ```
 
@@ -95,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 394,
-  "Name": "Casper, Becker and Wiegand",
-  "Tooltip": "qui",
-  "Rank": 906,
-  "Rate": 19703.458,
-  "Units": 7556.074,
-  "Deleted": true,
+  "CurrencyId": 136,
+  "Name": "Franecki-Bradtke",
+  "Tooltip": "autem",
+  "Rank": 12,
+  "Rate": 122.226,
+  "Units": 17243.268,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reintermediate strategic applications"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldLength": 8
     }
   }
 }

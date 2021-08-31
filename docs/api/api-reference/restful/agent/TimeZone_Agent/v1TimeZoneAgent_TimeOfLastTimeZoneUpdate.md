@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
+title: TimeOfLastTimeZoneUpdate
 id: v1TimeZoneAgent_TimeOfLastTimeZoneUpdate
 ---
 
-# POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
+# TimeOfLastTimeZoneUpdate
 
 ```http
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
@@ -59,12 +59,12 @@ Response body: date-time
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"1997-10-09T16:48:30.8279248+02:00"
+"2015-11-13T14:58:05.4076229+01:00"
 ```

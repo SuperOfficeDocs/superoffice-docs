@@ -2,6 +2,8 @@
 title: List_SelectionCategory
 ---
 
+# List_SelectionCategory
+
 ```http
 /api/v1/List/SelectionCategory
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/SetProjectImage
+title: SetProjectImage
 id: v1BLOBAgent_SetProjectImage
 ---
 
-# POST Agents/BLOB/SetProjectImage
+# SetProjectImage
 
 ```http
 POST /api/v1/Agents/BLOB/SetProjectImage

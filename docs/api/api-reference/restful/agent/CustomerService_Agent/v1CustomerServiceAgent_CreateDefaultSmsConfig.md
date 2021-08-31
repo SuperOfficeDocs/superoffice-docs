@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CreateDefaultSmsConfig
+title: CreateDefaultSmsConfig
 id: v1CustomerServiceAgent_CreateDefaultSmsConfig
 ---
 
-# POST Agents/CustomerService/CreateDefaultSmsConfig
+# CreateDefaultSmsConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
@@ -71,11 +71,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "eum",
-  "NsPluginSender": "illum",
+  "NetServerSmsProvider": "laborum",
+  "NsPluginSender": "voluptates",
   "NsPluginConfig": {
-    "NsPluginConfig1": "recusandae",
-    "NsPluginConfig2": "voluptatibus"
+    "NsPluginConfig1": "sint",
+    "NsPluginConfig2": "voluptas"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldLength": 399
     }
   }
 }

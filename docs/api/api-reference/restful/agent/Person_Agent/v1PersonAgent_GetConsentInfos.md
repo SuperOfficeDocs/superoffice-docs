@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetConsentInfos
+title: GetConsentInfos
 id: v1PersonAgent_GetConsentInfos
 ---
 
-# POST Agents/Person/GetConsentInfos
+# GetConsentInfos
 
 ```http
 POST /api/v1/Agents/Person/GetConsentInfos
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 205
+  "PersonId": 684
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 506,
-    "Comment": "commodi",
-    "Registered": "2014-08-05T16:48:30.1899348+02:00",
-    "RegisteredAssociateId": 584,
-    "Updated": "2019-06-16T16:48:30.1899348+02:00",
-    "UpdatedAssociateId": 579,
-    "LegalBaseId": 770,
-    "LegalBaseKey": "incidunt",
-    "LegalBaseName": "Ernser, Kautzer and Greenholt",
-    "ConsentPurposeId": 446,
-    "ConsentPurposeKey": "quo",
-    "ConsentPurposeName": "Lakin-Jacobs",
-    "ConsentSourceId": 418,
-    "ConsentSourceKey": "ut",
-    "ConsentSourceName": "Skiles-Harris",
+    "ConsentPersonId": 235,
+    "Comment": "vero",
+    "Registered": "1996-01-28T14:58:04.8124601+01:00",
+    "RegisteredAssociateId": 783,
+    "Updated": "2019-08-02T14:58:04.8124601+02:00",
+    "UpdatedAssociateId": 1000,
+    "LegalBaseId": 44,
+    "LegalBaseKey": "mollitia",
+    "LegalBaseName": "Hodkiewicz, Koss and Ferry",
+    "ConsentPurposeId": 754,
+    "ConsentPurposeKey": "esse",
+    "ConsentPurposeName": "Lubowitz-Rolfson",
+    "ConsentSourceId": 515,
+    "ConsentSourceKey": "molestias",
+    "ConsentSourceName": "Erdman LLC",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "disintermediate turn-key applications"
     },
     "FieldProperties": {
       "fieldName": {
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 737
       }
     }
   }

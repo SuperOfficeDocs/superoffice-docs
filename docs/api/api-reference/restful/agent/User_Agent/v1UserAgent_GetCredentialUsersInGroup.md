@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetCredentialUsersInGroup
+title: GetCredentialUsersInGroup
 id: v1UserAgent_GetCredentialUsersInGroup
 ---
 
-# POST Agents/User/GetCredentialUsersInGroup
+# GetCredentialUsersInGroup
 
 ```http
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "error",
-  "GroupName": "Hauck Inc and Sons"
+  "Type": "earum",
+  "GroupName": "Effertz-Heaney"
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "deserunt",
-    "non"
+    "enim",
+    "commodi"
   ],
   "Users": [
     {
-      "Value": "quod",
-      "DisplayValue": "dicta",
+      "Value": "aspernatur",
+      "DisplayValue": "inventore",
       "Columns": [
-        "qui",
-        "tempore"
+        "ut",
+        "ullam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -116,19 +116,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     },
     {
-      "Value": "quod",
-      "DisplayValue": "dicta",
+      "Value": "aspernatur",
+      "DisplayValue": "inventore",
       "Columns": [
-        "qui",
-        "tempore"
+        "ut",
+        "ullam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 481
     }
   }
 }

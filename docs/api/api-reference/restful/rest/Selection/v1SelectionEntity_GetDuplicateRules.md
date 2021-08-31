@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -66,10 +66,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gibson, Hettinger and Gerhold",
-    "DisplayName": "Kreiger, Bogisich and D'Amore",
-    "DisplayTooltip": "eveniet",
-    "IsActive": false,
+    "Name": "Ondricka, Gorczany and Little",
+    "DisplayName": "Heller-Dickens",
+    "DisplayTooltip": "ipsa",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -80,16 +80,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   },
   {
-    "Name": "Gibson, Hettinger and Gerhold",
-    "DisplayName": "Kreiger, Bogisich and D'Amore",
-    "DisplayTooltip": "eveniet",
-    "IsActive": false,
+    "Name": "Ondricka, Gorczany and Little",
+    "DisplayName": "Heller-Dickens",
+    "DisplayTooltip": "ipsa",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

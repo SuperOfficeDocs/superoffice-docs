@@ -2,6 +2,8 @@
 title: Hierarchy
 ---
 
+# Hierarchy
+
 ```http
 /api/v1/Hierarchy
 ```

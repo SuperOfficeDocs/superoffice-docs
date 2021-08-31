@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Bergstrom, Roob and Hartmann",
-    "ToolTip": "Reiciendis et ut.",
-    "Deleted": false,
-    "Rank": 242,
-    "Type": "aperiam",
-    "ColorBlock": 979,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2004-12-28T09:41:00.6353816+01:00",
+    "Id": 744,
+    "Name": "Bogisich, Kirlin and Barrows",
+    "ToolTip": "Quam quaerat iste et illum.",
+    "Deleted": true,
+    "Rank": 323,
+    "Type": "quo",
+    "ColorBlock": 794,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2011-05-02T15:05:43.6941168+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Thiel, Harber and Hodkiewicz",
-        "ToolTip": "Ut explicabo.",
+        "Id": 827,
+        "Name": "Miller-Jast",
+        "ToolTip": "Odit ex ipsa nesciunt.",
         "Deleted": false,
-        "Rank": 511,
-        "Type": "asperiores",
-        "ColorBlock": 47,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2017-04-21T09:41:00.6363894+02:00",
+        "Rank": 173,
+        "Type": "aperiam",
+        "ColorBlock": 13,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2016-07-08T15:05:43.6941168+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Miss Pietro Lehner",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Dolores Botsford",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 955
+            "FieldLength": 138
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "minima",
+    "ExtraInfo": "expedita",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Birdie DuBuque",
+    "FullName": "Asia Padberg",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 849
       }
     }
   }

@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,21 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "veritatis",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 2293,
-      "EntityName": "sale",
-      "saleId": 2293,
-      "contactId": 3999,
-      "name": "Gulgowski Inc and Sons"
+      "PrimaryKey": 4136,
+      "EntityName": "person",
+      "personId": 4136,
+      "fullName": "Buddy Boyer"
     },
     {
-      "PrimaryKey": 9766,
-      "EntityName": "sale",
-      "saleId": 9766,
-      "contactId": 5266,
-      "name": "Conroy Group"
+      "PrimaryKey": 6932,
+      "EntityName": "person",
+      "personId": 6932,
+      "fullName": "Cristal Beer"
     }
   ]
 }

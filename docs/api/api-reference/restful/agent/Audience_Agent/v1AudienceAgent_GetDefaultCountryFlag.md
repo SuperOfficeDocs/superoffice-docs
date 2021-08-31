@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetDefaultCountryFlag
+title: GetDefaultCountryFlag
 id: v1AudienceAgent_GetDefaultCountryFlag
 ---
 
-# POST Agents/Audience/GetDefaultCountryFlag
+# GetDefaultCountryFlag
 
 ```http
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Boyle-Jewess"
+  "LayoutName": "Friesen-O'Keefe"
 }
 ```
 

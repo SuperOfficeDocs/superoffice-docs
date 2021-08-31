@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/SaveCentralLicense
+title: SaveCentralLicense
 id: v1ReplicationAgent_SaveCentralLicense
 ---
 
-# POST Agents/Replication/SaveCentralLicense
+# SaveCentralLicense
 
 ```http
 POST /api/v1/Agents/Replication/SaveCentralLicense
@@ -76,14 +76,14 @@ Response body: array
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "McGlynn-Fisher",
-      "Description": "Triple-buffered methodical process improvement",
+      "Name": "Jacobi, Bednar and Mohr",
+      "Description": "Reduced exuding analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McGlynn-Fisher",
-      "Description": "Triple-buffered methodical process improvement",
+      "Name": "Jacobi, Bednar and Mohr",
+      "Description": "Reduced exuding analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,23 +115,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marquardt-Lebsack",
-    "Description": "Enhanced needs-based strategy",
+    "Name": "Rogahn, Swaniawski and Barton",
+    "Description": "Pre-emptive systematic application",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 929,
-        "Tooltip": "corrupti",
-        "CanAssign": true,
-        "Free": 463,
-        "InUse": 146,
+        "Total": 320,
+        "Tooltip": "illo",
+        "CanAssign": false,
+        "Free": 808,
+        "InUse": 114,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 597,
-        "Name": "Upton LLC",
-        "Description": "Intuitive even-keeled budgetary management",
-        "PrerequisiteModuleName": "Kerluke-Wuckert",
-        "SortOrder": 142,
+        "Assigned": false,
+        "ModuleLicenseId": 203,
+        "Name": "White, Beahan and Bogisich",
+        "Description": "Balanced demand-driven info-mediaries",
+        "PrerequisiteModuleName": "Dickens-Schaden",
+        "SortOrder": 175,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       }
@@ -148,18 +148,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 225,
-        "Tooltip": "dolores",
+        "Total": 132,
+        "Tooltip": "dolor",
         "CanAssign": true,
-        "Free": 839,
-        "InUse": 414,
-        "IsHidden": true,
+        "Free": 207,
+        "InUse": 687,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 17,
-        "Name": "Prohaska, Nader and Little",
-        "Description": "Team-oriented real-time methodology",
-        "PrerequisiteModuleName": "Schaden LLC",
-        "SortOrder": 505,
+        "ModuleLicenseId": 863,
+        "Name": "Beier-Thiel",
+        "Description": "Switchable 3rd generation groupware",
+        "PrerequisiteModuleName": "Anderson-King",
+        "SortOrder": 214,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -167,15 +167,15 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldType": "System.String",
+            "FieldLength": 784
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "evolve end-to-end architectures"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -183,29 +183,29 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   },
   {
-    "Name": "Marquardt-Lebsack",
-    "Description": "Enhanced needs-based strategy",
+    "Name": "Rogahn, Swaniawski and Barton",
+    "Description": "Pre-emptive systematic application",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 929,
-        "Tooltip": "corrupti",
-        "CanAssign": true,
-        "Free": 463,
-        "InUse": 146,
+        "Total": 320,
+        "Tooltip": "illo",
+        "CanAssign": false,
+        "Free": 808,
+        "InUse": 114,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 597,
-        "Name": "Upton LLC",
-        "Description": "Intuitive even-keeled budgetary management",
-        "PrerequisiteModuleName": "Kerluke-Wuckert",
-        "SortOrder": 142,
+        "Assigned": false,
+        "ModuleLicenseId": 203,
+        "Name": "White, Beahan and Bogisich",
+        "Description": "Balanced demand-driven info-mediaries",
+        "PrerequisiteModuleName": "Dickens-Schaden",
+        "SortOrder": 175,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       }
@@ -222,18 +222,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 225,
-        "Tooltip": "dolores",
+        "Total": 132,
+        "Tooltip": "dolor",
         "CanAssign": true,
-        "Free": 839,
-        "InUse": 414,
-        "IsHidden": true,
+        "Free": 207,
+        "InUse": 687,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 17,
-        "Name": "Prohaska, Nader and Little",
-        "Description": "Team-oriented real-time methodology",
-        "PrerequisiteModuleName": "Schaden LLC",
-        "SortOrder": 505,
+        "ModuleLicenseId": 863,
+        "Name": "Beier-Thiel",
+        "Description": "Switchable 3rd generation groupware",
+        "PrerequisiteModuleName": "Anderson-King",
+        "SortOrder": 214,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -241,15 +241,15 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldType": "System.String",
+            "FieldLength": 784
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "evolve end-to-end architectures"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

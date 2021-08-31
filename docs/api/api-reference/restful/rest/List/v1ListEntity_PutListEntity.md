@@ -105,15 +105,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 250,
-  "Name": "Terry LLC",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "Rank": 610,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "Id": 14,
+  "Name": "Homenick-Adams",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "Rank": 609,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -123,16 +123,16 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 812,
-  "Name": "Rodriguez Group",
-  "Tooltip": "ut",
+  "Id": 225,
+  "Name": "Weber, Wisozk and Mayert",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 781,
-  "IsCustomList": false,
+  "Rank": 77,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
-  "InUseByUserDefinedFields": false,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "embrace next-generation solutions"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 443
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

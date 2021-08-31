@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectMemberAppointments
+title: GetProjectMemberAppointments
 id: v1AppointmentAgent_GetProjectMemberAppointments
 ---
 
-# POST Agents/Appointment/GetProjectMemberAppointments
+# GetProjectMemberAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
@@ -124,14 +124,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 395,
-  "StartTime": "2003-04-14T16:48:28.4464491+02:00",
-  "EndTime": "2014-06-19T16:48:28.4464491+02:00",
-  "Count": 256
+  "PersonId": 475,
+  "StartTime": "2010-05-06T14:58:02.8395707+02:00",
+  "EndTime": "1999-06-03T14:58:02.8395707+02:00",
+  "Count": 420
 }
 ```
 
@@ -141,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 792,
-    "StartDate": "1997-07-11T16:48:28.4474489+02:00",
-    "EndDate": "2008-05-27T16:48:28.4474489+02:00",
+    "AppointmentId": 33,
+    "StartDate": "2008-03-24T14:58:02.8405682+01:00",
+    "EndDate": "2014-07-25T14:58:02.8405682+02:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Kareem Kuvalis",
-    "ContactName": "Lind, Mills and Stanton",
-    "Description": "Synchronised attitude-oriented core",
-    "PersonFullName": "Jazmin Haag",
-    "PersonId": 236,
-    "ContactId": 706,
-    "ProjectId": 229,
-    "ProjectName": "Bins-Conroy",
+    "Task": "deleniti",
+    "AssociateFullName": "Candace Brakus",
+    "ContactName": "Fisher, Gusikowski and Toy",
+    "Description": "Quality-focused encompassing project",
+    "PersonFullName": "Edison Beahan",
+    "PersonId": 46,
+    "ContactId": 720,
+    "ProjectId": 606,
+    "ProjectName": "Stokes-O'Connell",
     "IsPublished": true,
-    "AssociateId": 471,
-    "ColorIndex": 718,
+    "AssociateId": 462,
+    "ColorIndex": 501,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 708,
-    "PriorityName": "Olson Group",
+    "PriorityId": 493,
+    "PriorityName": "Hilll-Greenholt",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2014-10-07T16:48:28.4474489+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2002-01-22T14:58:02.8435731+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-09-02T16:48:28.4474489+02:00",
-    "RecurringEndDate": "2010-04-11T16:48:28.4474489+02:00",
-    "MotherId": 842,
-    "AssignedBy": 657,
-    "AssignedByFullName": "Nayeli Williamson III",
-    "RejectReason": "mesh end-to-end niches",
-    "Location": "sit",
-    "AlarmLeadTime": "animi",
-    "SaleId": 704,
-    "SaleName": "Schmitt Inc and Sons",
-    "AssociateName": "McDermott, Dicki and Gusikowski",
-    "CreatedDate": "1996-03-03T16:48:28.4484491+01:00",
-    "CreatedBy": "nihil",
-    "CreatedByFullName": "Zoie Schamberger",
-    "CreatedByAssociateId": 525,
+    "RecurringStartDate": "2004-07-27T14:58:02.8435731+02:00",
+    "RecurringEndDate": "1999-04-30T14:58:02.8435731+02:00",
+    "MotherId": 286,
+    "AssignedBy": 919,
+    "AssignedByFullName": "Marian Terry V",
+    "RejectReason": "",
+    "Location": "ut",
+    "AlarmLeadTime": "totam",
+    "SaleId": 924,
+    "SaleName": "Funk Inc and Sons",
+    "AssociateName": "Gutkowski, Morissette and Schowalter",
+    "CreatedDate": "2006-10-19T14:58:02.8435731+02:00",
+    "CreatedBy": "ipsa",
+    "CreatedByFullName": "Carli McDermott",
+    "CreatedByAssociateId": 969,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 495
       }
     }
   }

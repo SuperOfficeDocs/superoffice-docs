@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Gleason, Fisher and Stracke",
-  "Tooltip": "qui",
+  "Id": 610,
+  "Name": "Dach-McKenzie",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 406,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
+  "Rank": 800,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 828
     }
   },
   "_Links": {

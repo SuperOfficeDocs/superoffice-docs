@@ -1,9 +1,9 @@
 ---
-title: POST Agents/NumberAllocation/CreateDefaultRefCountEntity
+title: CreateDefaultRefCountEntity
 id: v1NumberAllocationAgent_CreateDefaultRefCountEntity
 ---
 
-# POST Agents/NumberAllocation/CreateDefaultRefCountEntity
+# CreateDefaultRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,26 +77,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 424,
-  "Field": "temporibus",
-  "RecordId": 955,
+  "RefCountsId": 89,
+  "Field": "consectetur",
+  "RecordId": 52,
   "SuggestedRecords": [
     {
-      "Id": 124,
-      "Name": "Adams-Wunsch",
-      "ToolTip": "Totam et nostrum aut cum qui.",
-      "Deleted": false,
-      "Rank": 379,
-      "Type": "molestiae",
+      "Id": 943,
+      "Name": "Hand, Rutherford and Kutch",
+      "ToolTip": "Magnam voluptatum at officia necessitatibus tempora.",
+      "Deleted": true,
+      "Rank": 760,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 800,
-      "ExtraInfo": "et",
-      "StyleHint": "id",
-      "FullName": "Maegan Gerhold DVM",
+      "IconHint": "laborum",
+      "ColorBlock": 942,
+      "ExtraInfo": "doloribus",
+      "StyleHint": "aut",
+      "FullName": "Damon Jaskolski",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 819
         }
       }
     }
   ],
-  "CurrentValue": 699,
-  "TravelPrefix": 260,
-  "SatPrefix": 415,
+  "CurrentValue": 181,
+  "TravelPrefix": 449,
+  "SatPrefix": 809,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false,
+  "ReadOnly": true,
+  "AllowBlank": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 346
     }
   }
 }

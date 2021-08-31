@@ -59,12 +59,12 @@ Response body: int32
 POST /api/v1/Selection/{selectionId}/Members/Add
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-345
+373
 ```

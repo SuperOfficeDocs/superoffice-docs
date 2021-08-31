@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectMemberAppointmentsByTask
+title: GetProjectMemberAppointmentsByTask
 id: v1AppointmentAgent_GetProjectMemberAppointmentsByTask
 ---
 
-# POST Agents/Appointment/GetProjectMemberAppointmentsByTask
+# GetProjectMemberAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
@@ -129,11 +129,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 383,
-  "StartTime": "2015-04-27T16:48:28.4644281+02:00",
-  "EndTime": "2002-08-08T16:48:28.4644281+02:00",
-  "Count": 404,
-  "TaskId": 917
+  "PersonId": 987,
+  "StartTime": "2010-07-17T14:58:02.8605733+02:00",
+  "EndTime": "2009-05-13T14:58:02.8605733+02:00",
+  "Count": 204,
+  "TaskId": 524
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 988,
-    "StartDate": "2020-10-25T16:48:28.4664496+01:00",
-    "EndDate": "2014-02-21T16:48:28.4664496+01:00",
+    "AppointmentId": 490,
+    "StartDate": "2017-04-18T14:58:02.8615809+02:00",
+    "EndDate": "2007-08-22T14:58:02.8615809+02:00",
     "Type": "BookingForChecklist",
-    "Task": "accusamus",
-    "AssociateFullName": "Zoey Marks",
-    "ContactName": "Pfeffer LLC",
-    "Description": "Proactive tangible policy",
-    "PersonFullName": "Deanna Purdy",
-    "PersonId": 306,
-    "ContactId": 236,
-    "ProjectId": 432,
-    "ProjectName": "Cronin-Mills",
+    "Task": "quis",
+    "AssociateFullName": "Ms. Earnestine DuBuque",
+    "ContactName": "Marvin LLC",
+    "Description": "De-engineered radical info-mediaries",
+    "PersonFullName": "Tessie Senger Sr.",
+    "PersonId": 804,
+    "ContactId": 343,
+    "ProjectId": 965,
+    "ProjectName": "Farrell Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 641,
-    "ColorIndex": 859,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 831,
+    "ColorIndex": 308,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 962,
-    "PriorityName": "Zulauf-Pacocha",
+    "PriorityId": 925,
+    "PriorityName": "Pfannerstill Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2000-06-23T16:48:28.4674202+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2004-05-14T14:58:02.8615809+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-01-12T16:48:28.4674202+01:00",
-    "RecurringEndDate": "2007-04-23T16:48:28.4674202+02:00",
-    "MotherId": 113,
-    "AssignedBy": 386,
-    "AssignedByFullName": "Berry Kerluke",
-    "RejectReason": "",
-    "Location": "soluta",
-    "AlarmLeadTime": "vero",
-    "SaleId": 658,
-    "SaleName": "Dickens Inc and Sons",
-    "AssociateName": "Barton, Bahringer and Schaefer",
-    "CreatedDate": "2001-04-29T16:48:28.4674202+02:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Mikayla Lemke IV",
-    "CreatedByAssociateId": 532,
+    "RecurringStartDate": "2002-12-13T14:58:02.8615809+01:00",
+    "RecurringEndDate": "2018-02-07T14:58:02.8615809+01:00",
+    "MotherId": 491,
+    "AssignedBy": 327,
+    "AssignedByFullName": "Ms. Maxime Weber",
+    "RejectReason": "reinvent dot-com e-commerce",
+    "Location": "ipsam",
+    "AlarmLeadTime": "aut",
+    "SaleId": 844,
+    "SaleName": "Hahn, Rolfson and Klocko",
+    "AssociateName": "Bernhard Inc and Sons",
+    "CreatedDate": "2015-10-21T14:58:02.8625733+02:00",
+    "CreatedBy": "eos",
+    "CreatedByFullName": "Cecilia Kshlerin",
+    "CreatedByAssociateId": 150,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -200,10 +200,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "scale mission-critical infrastructures"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldLength": 115
       }
     }
   }

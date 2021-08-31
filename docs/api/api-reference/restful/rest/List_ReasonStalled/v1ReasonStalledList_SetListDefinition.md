@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235,
-  "Name": "Kunze-Carroll",
-  "Tooltip": "et",
+  "Id": 778,
+  "Name": "Botsford-Herman",
+  "Tooltip": "ducimus",
   "Deleted": true,
-  "Rank": 711,
+  "Rank": 67,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "incidunt",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Ernser-Trantow",
-  "Tooltip": "velit",
+  "Id": 799,
+  "Name": "Gerhold-Abbott",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 284,
-  "IsCustomList": false,
+  "Rank": 674,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": true,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "strategize B2C convergence"
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
+title: GetProjectMemberDocumentsByTemplateTypes
 id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes
 ---
 
-# POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
+# GetProjectMemberDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 671,
-  "StartTime": "2006-04-07T16:48:29.3308939+02:00",
-  "EndTime": "2009-09-26T16:48:29.3308939+02:00",
-  "Count": 875,
+  "PersonId": 481,
+  "StartTime": "2000-12-03T14:58:03.8164725+01:00",
+  "EndTime": "2007-09-04T14:58:03.8164725+02:00",
+  "Count": 592,
   "DocumentTemplateIds": [
-    968,
-    199
+    210,
+    151
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 169,
-    "Attention": "et",
-    "Header": "omnis",
-    "Name": "Schultz, Borer and Pfeffer",
-    "OurRef": "quod",
-    "YourRef": "nesciunt",
-    "Description": "Distributed context-sensitive pricing structure",
-    "DocumentTemplate": "illo",
-    "IsPublished": true,
-    "PersonId": 7,
-    "PersonFullName": "Violette Spinka DVM",
-    "AssociateFullName": "Davon Barton",
-    "ContactId": 798,
-    "ContactName": "O'Keefe, King and Mohr",
-    "ProjectId": 160,
-    "ProjectName": "Bernier-Jerde",
-    "AssociateId": 126,
-    "Snum": 677,
+    "DocumentId": 478,
+    "Attention": "quas",
+    "Header": "odit",
+    "Name": "Kihn-Kunde",
+    "OurRef": "atque",
+    "YourRef": "aliquam",
+    "Description": "User-centric 6th generation task-force",
+    "DocumentTemplate": "consequatur",
+    "IsPublished": false,
+    "PersonId": 985,
+    "PersonFullName": "Leone Dibbert",
+    "AssociateFullName": "Clyde Lowe III",
+    "ContactId": 991,
+    "ContactName": "Watsica LLC",
+    "ProjectId": 242,
+    "ProjectName": "O'Keefe Inc and Sons",
+    "AssociateId": 584,
+    "Snum": 509,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 122
       }
     }
   }

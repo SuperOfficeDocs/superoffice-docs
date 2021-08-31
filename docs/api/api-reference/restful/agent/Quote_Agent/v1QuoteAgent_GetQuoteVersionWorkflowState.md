@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteVersionWorkflowState
+title: GetQuoteVersionWorkflowState
 id: v1QuoteAgent_GetQuoteVersionWorkflowState
 ---
 
-# POST Agents/Quote/GetQuoteVersionWorkflowState
+# GetQuoteVersionWorkflowState
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 797,
-  "QuoteAlternativeId": 82
+  "QuoteVersionId": 55,
+  "QuoteAlternativeId": 105
 }
 ```
 
@@ -99,28 +99,28 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "vel",
-      "DisplayText": "consequuntur",
-      "TooltipText": "et",
-      "Enabled": false,
+      "ImageHint": "id",
+      "DisplayText": "nobis",
+      "TooltipText": "eaque",
+      "Enabled": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "generate next-generation e-markets"
           },
           "FieldType": "System.String",
-          "FieldLength": 741
+          "FieldLength": 107
         }
       }
     }
   ],
   "StateImage": {
     "Action": "Approve",
-    "ImageHint": "et",
-    "DisplayText": "quia",
-    "TooltipText": "ut",
+    "ImageHint": "sunt",
+    "DisplayText": "amet",
+    "TooltipText": "nisi",
     "Enabled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -130,15 +130,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldLength": 487
       }
     }
   },
   "UpdatePricesButton": {
     "Action": "Approve",
-    "ImageHint": "id",
-    "DisplayText": "et",
-    "TooltipText": "maiores",
+    "ImageHint": "velit",
+    "DisplayText": "ipsum",
+    "TooltipText": "et",
     "Enabled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -147,16 +147,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldType": "System.String",
+        "FieldLength": 322
       }
     }
   },
   "Status": {
     "Status": "Error",
-    "IconHint": "corrupti",
-    "DisplayMessage": "eius",
-    "DisplayTooltip": "natus",
+    "IconHint": "qui",
+    "DisplayMessage": "maxime",
+    "DisplayTooltip": "sunt",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldLength": 578
       }
     }
   },
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

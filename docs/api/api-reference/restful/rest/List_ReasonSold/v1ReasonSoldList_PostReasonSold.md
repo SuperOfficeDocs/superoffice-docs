@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "DuBuque Inc and Sons",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 491
+  "Id": 146,
+  "Name": "Homenick-Jewess",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 511,
+  "Rank": 38
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Kutch-Cormier",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 925,
-  "Rank": 950,
+  "Id": 773,
+  "Name": "Satterfield, Runolfsson and Dickens",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 175,
+  "Rank": 58,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldLength": 75
     }
   }
 }

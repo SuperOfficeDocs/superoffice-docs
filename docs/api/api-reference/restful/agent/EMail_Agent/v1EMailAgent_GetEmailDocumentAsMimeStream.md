@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEmailDocumentAsMimeStream
+title: GetEmailDocumentAsMimeStream
 id: v1EMailAgent_GetEmailDocumentAsMimeStream
 ---
 
-# POST Agents/EMail/GetEmailDocumentAsMimeStream
+# GetEmailDocumentAsMimeStream
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
@@ -70,11 +70,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 752
+  "DocumentId": 953
 }
 ```
 

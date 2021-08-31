@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
+title: GetRedLetterInformationListByDatesAndAssociate
 id: v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
 ---
 
-# POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
+# GetRedLetterInformationListByDatesAndAssociate
 
 ```http
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
@@ -81,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2003-11-17T16:48:28.3454461+01:00",
-  "EndDate": "2001-12-18T16:48:28.3454461+01:00",
-  "AssociateId": 873
+  "StartDate": "2013-01-14T14:58:02.8975682+01:00",
+  "EndDate": "2012-08-17T14:58:02.8975682+02:00",
+  "AssociateId": 93
 }
 ```
 
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2001-03-17T16:48:28.3454461+01:00",
+    "Date": "2016-02-08T14:58:02.8985396+01:00",
     "RedLetterInformation": {
       "IsOwnCountryHoliday": false,
       "IsOtherCountryHoliday": false,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 907
         }
       }
     },
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 469
         }
       }
     },
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "generate user-centric markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   },
   {
-    "Date": "2001-03-17T16:48:28.3454461+01:00",
+    "Date": "2016-02-08T14:58:02.8985396+01:00",
     "RedLetterInformation": {
       "IsOwnCountryHoliday": false,
       "IsOtherCountryHoliday": false,
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 907
         }
       }
     },
@@ -179,13 +179,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 469
         }
       }
     },
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "generate user-centric markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

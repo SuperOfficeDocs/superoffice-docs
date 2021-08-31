@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SetFunctionalRights
+title: SetFunctionalRights
 id: v1UserAgent_SetFunctionalRights
 ---
 
-# POST Agents/User/SetFunctionalRights
+# SetFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/SetFunctionalRights

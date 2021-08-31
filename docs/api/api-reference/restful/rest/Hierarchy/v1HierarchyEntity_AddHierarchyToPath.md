@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,26 +87,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 366,
+  "HierarchyId": 863,
   "Domain": "Dashboards",
-  "Name": "Mraz, Dietrich and Johnston",
-  "Fullname": "veritatis",
-  "ParentId": 980,
+  "Name": "Harber Inc and Sons",
+  "Fullname": "vel",
+  "ParentId": 856,
   "Children": [
     {
-      "HierarchyId": 713,
+      "HierarchyId": 854,
       "Domain": "Dashboards",
-      "Name": "Jacobs-Huel",
-      "Fullname": "maxime",
-      "ParentId": 61,
+      "Name": "Powlowski LLC",
+      "Fullname": "ea",
+      "ParentId": 344,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-06-28T09:40:59.2416629+02:00",
-      "RegisteredAssociateId": 896,
-      "Updated": "1998-12-27T09:40:59.2416629+01:00",
-      "UpdatedAssociateId": 212,
+      "Registered": "2008-09-30T15:05:42.2576619+02:00",
+      "RegisteredAssociateId": 272,
+      "Updated": "2012-01-20T15:05:42.2576619+01:00",
+      "UpdatedAssociateId": 547,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -115,27 +115,27 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldLength": 125
         }
       }
     }
   ],
-  "Registered": "2011-03-24T09:40:59.2416629+01:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "1996-12-06T09:40:59.2416629+01:00",
-  "UpdatedAssociateId": 913,
+  "Registered": "1998-06-20T15:05:42.2576619+02:00",
+  "RegisteredAssociateId": 246,
+  "Updated": "2001-06-27T15:05:42.2576619+02:00",
+  "UpdatedAssociateId": 93,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "integrate B2B e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "facilitate best-of-breed platforms"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

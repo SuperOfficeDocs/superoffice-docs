@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=nihil
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=ea
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,59 +86,59 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Sanford, Stroman and Watsica",
-    "ToolTip": "Tempora mollitia.",
-    "Deleted": true,
-    "Rank": 516,
-    "Type": "quae",
+    "Id": 366,
+    "Name": "Wilkinson-Braun",
+    "ToolTip": "Consectetur in.",
+    "Deleted": false,
+    "Rank": 428,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Cremin-Keeling",
-        "ToolTip": "Corporis dignissimos nihil doloremque.",
+        "Id": 613,
+        "Name": "Lynch Inc and Sons",
+        "ToolTip": "Repellendus est et corporis.",
         "Deleted": false,
-        "Rank": 662,
-        "Type": "ex",
+        "Rank": 76,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 943,
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptas",
-        "FullName": "Khalid Okuneva",
+        "IconHint": "ea",
+        "ColorBlock": 617,
+        "ExtraInfo": "tempore",
+        "StyleHint": "autem",
+        "FullName": "Zander Hintz",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "reintermediate back-end portals"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 691
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 220,
+    "IconHint": "sit",
+    "ColorBlock": 765,
     "ExtraInfo": "sequi",
-    "StyleHint": "repudiandae",
-    "FullName": "Felicity Hackett",
+    "StyleHint": "dolores",
+    "FullName": "Ross Bergstrom",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "iterate out-of-the-box infomediaries"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "empower bricks-and-clicks deliverables"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

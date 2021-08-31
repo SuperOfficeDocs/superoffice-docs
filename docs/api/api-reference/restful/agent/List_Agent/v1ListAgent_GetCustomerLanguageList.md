@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCustomerLanguageList
+title: GetCustomerLanguageList
 id: v1ListAgent_GetCustomerLanguageList
 ---
 
-# POST Agents/List/GetCustomerLanguageList
+# GetCustomerLanguageList
 
 ```http
 POST /api/v1/Agents/List/GetCustomerLanguageList
@@ -81,12 +81,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Value": "voluptas",
-    "Tooltip": "voluptatem",
+    "Id": 932,
+    "Value": "molestiae",
+    "Tooltip": "neque",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "iterate killer relationships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldLength": 519
       }
     }
   },
   {
-    "Id": 513,
-    "Value": "voluptas",
-    "Tooltip": "voluptatem",
+    "Id": 932,
+    "Value": "molestiae",
+    "Tooltip": "neque",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "iterate killer relationships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldLength": 519
       }
     }
   }

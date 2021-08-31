@@ -103,28 +103,28 @@ Response body: object
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 823,
-  "Name": "Rath-Murray",
-  "CurrencyId": 798,
-  "EnglishName": "Wilderman-Hauck",
+  "CountryId": 585,
+  "Name": "Kub-Zieme",
+  "CurrencyId": 282,
+  "EnglishName": "Windler, Mitchell and Ullrich",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Digitized zero administration attitude",
-  "OrgNrText": "244480",
-  "InterAreaPrefix": "consequuntur",
-  "DialInPrefix": "commodi",
-  "ZipPrefix": "blanditiis",
-  "DomainName": "Dare, Schimmel and Corwin",
-  "AddressLayoutId": 154,
-  "DomesticAddressLayoutId": 350,
-  "ForeignAddressLayoutId": 639,
-  "Rank": 482,
-  "Tooltip": "dicta",
-  "Deleted": true
+  "ImageDescription": "Automated fresh-thinking ability",
+  "OrgNrText": "1267712",
+  "InterAreaPrefix": "minus",
+  "DialInPrefix": "laborum",
+  "ZipPrefix": "earum",
+  "DomainName": "Goodwin-Schamberger",
+  "AddressLayoutId": 863,
+  "DomesticAddressLayoutId": 61,
+  "ForeignAddressLayoutId": 927,
+  "Rank": 555,
+  "Tooltip": "et",
+  "Deleted": false
 }
 ```
 
@@ -133,23 +133,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 465,
-  "Name": "Gorczany-Swaniawski",
-  "CurrencyId": 421,
-  "EnglishName": "Ruecker-Sanford",
+  "CountryId": 405,
+  "Name": "Sauer Inc and Sons",
+  "CurrencyId": 404,
+  "EnglishName": "Russel-West",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Persistent context-sensitive productivity",
-  "OrgNrText": "1219273",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "sed",
-  "DomainName": "Robel, Kunde and Champlin",
-  "AddressLayoutId": 479,
-  "DomesticAddressLayoutId": 172,
-  "ForeignAddressLayoutId": 661,
-  "Rank": 937,
-  "Tooltip": "tempora",
+  "ImageDescription": "Public-key assymetric model",
+  "OrgNrText": "883490",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "consequatur",
+  "ZipPrefix": "quod",
+  "DomainName": "Grimes, Lubowitz and Farrell",
+  "AddressLayoutId": 997,
+  "DomesticAddressLayoutId": 86,
+  "ForeignAddressLayoutId": 114,
+  "Rank": 435,
+  "Tooltip": "dolorem",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldLength": 759
     }
   }
 }

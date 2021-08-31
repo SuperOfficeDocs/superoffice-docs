@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/GetSuggestedStopWords
+title: GetSuggestedStopWords
 id: v1FreeTextAgent_GetSuggestedStopWords
 ---
 
-# POST Agents/FreeText/GetSuggestedStopWords
+# GetSuggestedStopWords
 
 ```http
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
@@ -84,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 376
+  "CountWords": 100
 }
 ```
 
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Corwin, Goyette and Kihn",
-    "ToolTip": "Autem optio quibusdam eos sit.",
+    "Id": 88,
+    "Name": "Graham-Gulgowski",
+    "ToolTip": "Quia delectus.",
     "Deleted": true,
-    "Rank": 316,
-    "Type": "reiciendis",
+    "Rank": 433,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "D'Amore, Walker and Purdy",
-        "ToolTip": "Est quod voluptatum.",
+        "Id": 779,
+        "Name": "Johns LLC",
+        "ToolTip": "Nesciunt ipsam ipsa occaecati ad reprehenderit.",
         "Deleted": true,
-        "Rank": 717,
-        "Type": "facilis",
+        "Rank": 234,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 981,
-        "ExtraInfo": "ipsam",
-        "StyleHint": "soluta",
-        "FullName": "Mrs. Heaven Lueilwitz",
+        "IconHint": "inventore",
+        "ColorBlock": 675,
+        "ExtraInfo": "et",
+        "StyleHint": "id",
+        "FullName": "Darlene Hermann",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 879
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 910,
-    "ExtraInfo": "soluta",
-    "StyleHint": "aut",
-    "FullName": "Mrs. Nia Stanton",
+    "IconHint": "commodi",
+    "ColorBlock": 932,
+    "ExtraInfo": "optio",
+    "StyleHint": "quaerat",
+    "FullName": "Jermey Batz",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "matrix open-source applications"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldLength": 698
       }
     }
   }

@@ -110,26 +110,26 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 611,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "sit",
+  "WebPanelId": 363,
+  "Name": "Pouros, Rau and Ullrich",
+  "Tooltip": "ullam",
   "Deleted": true,
-  "Rank": 157,
+  "Rank": 936,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Bartell-Reilly",
+  "ShowInStatusBar": true,
+  "WindowName": "Schaden LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "mollitia",
-  "Icon": 676
+  "ProgId": "dolor",
+  "Icon": 540
 }
 ```
 
@@ -138,26 +138,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 91,
-  "Name": "Kertzmann-Upton",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 894,
+  "WebPanelId": 797,
+  "Name": "Beahan, Dooley and Streich",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 740,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Weissnat-Carroll",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Ward-Armstrong",
   "Url": "http://www.example.com/",
-  "ProgId": "tempore",
-  "Icon": 737,
+  "ProgId": "minima",
+  "Icon": 145,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 670
     }
   }
 }

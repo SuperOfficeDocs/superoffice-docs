@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/DeleteChatTopicUserAgent
+title: DeleteChatTopicUserAgent
 id: v1ChatAgent_DeleteChatTopicUserAgent
 ---
 
-# POST Agents/Chat/DeleteChatTopicUserAgent
+# DeleteChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent

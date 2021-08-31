@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/SaveTriggerScriptByUniqueId
+title: SaveTriggerScriptByUniqueId
 id: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
 ---
 
-# POST Agents/CRMScript/SaveTriggerScriptByUniqueId
+# SaveTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -95,18 +95,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et",
+  "TriggerScriptUniqueId": "unde",
   "Entity": {
-    "ScreenChooserId": 757,
-    "Name": "Gutkowski LLC",
+    "ScreenChooserId": 852,
+    "Name": "Conroy-Hoppe",
     "ScreenType": "ChatAfterSaveNewMessage",
-    "Enabled": false,
-    "UniqueIdentifier": "dolore",
-    "Source": "nihil",
-    "Registered": "2009-12-15T16:48:29.2168941+01:00",
-    "RegisteredAssociateId": 575,
-    "Updated": "2008-05-30T16:48:29.2168941+02:00",
-    "UpdatedAssociateId": 373
+    "Enabled": true,
+    "UniqueIdentifier": "vero",
+    "Source": "ratione",
+    "Registered": "2002-07-23T14:58:03.7504631+02:00",
+    "RegisteredAssociateId": 563,
+    "Updated": "2021-06-15T14:58:03.7504631+02:00",
+    "UpdatedAssociateId": 455
   }
 }
 ```
@@ -116,16 +116,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 760,
-  "Name": "Reilly-Hickle",
+  "ScreenChooserId": 486,
+  "Name": "Kshlerin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ducimus",
-  "Source": "qui",
-  "Registered": "2017-11-29T16:48:29.2179055+01:00",
-  "RegisteredAssociateId": 8,
-  "Updated": "2006-03-22T16:48:29.2179055+01:00",
-  "UpdatedAssociateId": 994,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptas",
+  "Source": "quidem",
+  "Registered": "2015-04-18T14:58:03.7514604+02:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "2007-04-21T14:58:03.7514604+02:00",
+  "UpdatedAssociateId": 233,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Barton-Wilderman",
-  "Tooltip": "et",
+  "Id": 205,
+  "Name": "Moore LLC",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 833,
-  "Rank": 83,
+  "UdListDefinitionId": 147,
+  "Rank": 934,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "integrate killer portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

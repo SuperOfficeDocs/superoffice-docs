@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteLineConfiguration
+title: GetQuoteLineConfiguration
 id: v1QuoteAgent_GetQuoteLineConfiguration
 ---
 
-# POST Agents/Quote/GetQuoteLineConfiguration
+# GetQuoteLineConfiguration
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 869
+  "QuoteLineConfigurationId": 503
 }
 ```
 
@@ -99,14 +99,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 718,
-  "FieldName": "Mayert Group",
-  "Label": "quod",
-  "Tooltip": "quae",
+  "QuoteLineConfigurationId": 945,
+  "FieldName": "Mayer-Hessel",
+  "Label": "quia",
+  "Tooltip": "quo",
   "Editable": true,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 241,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 718,
   "RestrictEdit": false,
   "TableRight": {
     "Mask": "Delete",
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "leverage back-end portals"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 416
     }
   }
 }

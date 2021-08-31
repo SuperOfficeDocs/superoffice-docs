@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SendEMails
+title: SendEMails
 id: v1EMailAgent_SendEMails
 ---
 
-# POST Agents/EMail/SendEMails
+# SendEMails
 
 ```http
 POST /api/v1/Agents/EMail/SendEMails
@@ -102,16 +102,16 @@ Response body: array
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OutgoingConnectionInfo": {
-    "ServerName": "Schimmel-Willms",
-    "UserName": "Runolfsson-Lang",
-    "Password": "architecto",
-    "Folder": "minima",
-    "UseSSL": true
+    "ServerName": "Armstrong, Bins and Crona",
+    "UserName": "Medhurst Inc and Sons",
+    "Password": "eos",
+    "Folder": "consequatur",
+    "UseSSL": false
   },
   "Emails": [
     {
@@ -127,18 +127,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "architecto",
-      "HTMLBody": "neque",
+      "Subject": "fugit",
+      "HTMLBody": "molestiae",
       "From": {},
-      "Sent": "2002-11-28T16:48:29.5869296+01:00",
-      "Size": 872,
+      "Sent": "2005-07-10T14:58:04.2064603+02:00",
+      "Size": 626,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "nihil",
-      "PlainBody": "commodi",
-      "IsSent": false,
+      "MessageID": "aut",
+      "PlainBody": "aut",
+      "IsSent": true,
       "EMailSOInfo": {},
-      "ServerId": 158,
+      "ServerId": 508,
       "Attachments": [
         {},
         {}
@@ -147,23 +147,23 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Block-Volkman",
-      "EmailItemId": 932,
-      "AccountId": 417,
-      "ReceivedAt": "2017-03-17T16:48:29.5869296+01:00",
+      "FolderName": "Jast Inc and Sons",
+      "EmailItemId": 774,
+      "AccountId": 712,
+      "ReceivedAt": "2001-04-26T14:58:04.2064603+02:00",
       "InReplyTo": {},
-      "RepliedAt": "2017-09-29T16:48:29.5869296+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2001-05-01T14:58:04.2064603+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
   ],
   "SentItemsConnectionInfo": {
-    "ServerName": "Gleason Group",
-    "UserName": "Becker Group",
-    "Password": "pariatur",
-    "Folder": "temporibus",
-    "UseSSL": false
+    "ServerName": "Marvin-Nader",
+    "UserName": "Rodriguez-Cronin",
+    "Password": "molestias",
+    "Folder": "tempora",
+    "UseSSL": true
   }
 }
 ```
@@ -176,18 +176,18 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 780,
-        "ContactName": "Torp-Reichel",
-        "PersonId": 373,
-        "PersonName": "Olson-Koelpin",
-        "AssociateId": 791,
-        "Address": "et",
-        "EmailId": 264,
+        "ContactId": 158,
+        "ContactName": "Kris, Rogahn and Bradtke",
+        "PersonId": 894,
+        "PersonName": "Dietrich-Schamberger",
+        "AssociateId": 989,
+        "Address": "animi",
+        "EmailId": 731,
         "DuplicatePersonIds": [
-          211,
-          686
+          487,
+          715
         ],
-        "Name": "Leannon-Gerlach",
+        "Name": "Rowe, Lynch and Heller",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -196,25 +196,25 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 9
+            "FieldLength": 573
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 837,
-        "ContactName": "Tromp-Lubowitz",
-        "PersonId": 302,
-        "PersonName": "Stokes-Kshlerin",
-        "AssociateId": 72,
-        "Address": "dolorum",
-        "EmailId": 113,
+        "ContactId": 563,
+        "ContactName": "Torphy Inc and Sons",
+        "PersonId": 59,
+        "PersonName": "Will LLC",
+        "AssociateId": 788,
+        "Address": "in",
+        "EmailId": 533,
         "DuplicatePersonIds": [
-          379,
-          289
+          973,
+          436
         ],
-        "Name": "Corwin, Rau and Towne",
+        "Name": "Kuphal Inc and Sons",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -223,25 +223,25 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 252
+            "FieldLength": 652
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 278,
-        "ContactName": "Halvorson, O'Conner and Weber",
-        "PersonId": 964,
-        "PersonName": "Swift-Borer",
-        "AssociateId": 125,
-        "Address": "expedita",
-        "EmailId": 944,
+        "ContactId": 88,
+        "ContactName": "Cummerata Inc and Sons",
+        "PersonId": 904,
+        "PersonName": "Stanton LLC",
+        "AssociateId": 27,
+        "Address": "et",
+        "EmailId": 381,
         "DuplicatePersonIds": [
-          12,
-          986
+          143,
+          922
         ],
-        "Name": "Bernier Group",
+        "Name": "Eichmann, Simonis and Jewess",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -250,26 +250,26 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 346
+            "FieldLength": 16
           }
         }
       }
     ],
     "Subject": "voluptatem",
-    "HTMLBody": "qui",
+    "HTMLBody": "quod",
     "From": {
-      "ContactId": 754,
-      "ContactName": "Lindgren-Mitchell",
-      "PersonId": 659,
-      "PersonName": "Kassulke-McDermott",
-      "AssociateId": 274,
-      "Address": "labore",
-      "EmailId": 652,
+      "ContactId": 398,
+      "ContactName": "Beer-Durgan",
+      "PersonId": 88,
+      "PersonName": "Stokes-Waelchi",
+      "AssociateId": 477,
+      "Address": "quisquam",
+      "EmailId": 5,
       "DuplicatePersonIds": [
-        676,
-        898
+        156,
+        884
       ],
-      "Name": "Donnelly, Heidenreich and Kunze",
+      "Name": "Torphy Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -278,26 +278,26 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldLength": 832
         }
       }
     },
-    "Sent": "2016-08-28T16:48:29.5909344+02:00",
-    "Size": 552,
+    "Sent": "2007-08-06T14:58:04.20846+02:00",
+    "Size": 543,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "id",
-    "PlainBody": "recusandae",
-    "IsSent": false,
+    "MessageID": "ipsam",
+    "PlainBody": "eos",
+    "IsSent": true,
     "EMailSOInfo": {
-      "DocumentId": 167,
-      "AppointmentId": 820,
-      "ProjectId": 541,
-      "SaleId": 212,
-      "Archived": true,
-      "ArchivedAt": "2012-03-01T16:48:29.5909344+01:00",
-      "ArchivedBy": 488,
-      "ArchivedDisplayName": "Ferry-Farrell",
+      "DocumentId": 971,
+      "AppointmentId": 15,
+      "ProjectId": 107,
+      "SaleId": 162,
+      "Archived": false,
+      "ArchivedAt": "2013-04-24T14:58:04.20846+02:00",
+      "ArchivedBy": 533,
+      "ArchivedDisplayName": "Cruickshank, Cummings and Larson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -306,20 +306,20 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldLength": 494
         }
       }
     },
-    "ServerId": 422,
+    "ServerId": 827,
     "Attachments": [
       {
-        "Description": "Centralized transitional architecture",
-        "Filename": "asperiores",
-        "Size": 508,
-        "Type": "aut",
-        "Encoding": "consequatur",
-        "Id": "doloribus",
-        "Disposition": "omnis",
+        "Description": "Expanded bi-directional parallelism",
+        "Filename": "magnam",
+        "Size": 286,
+        "Type": "et",
+        "Encoding": "aut",
+        "Id": "assumenda",
+        "Disposition": "doloribus",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": {},
         "FieldProperties": {
@@ -328,18 +328,18 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldType": "System.String",
+            "FieldLength": 405
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Bins Group",
+        "Name": "Quigley, Treutel and Ziemann",
         "Values": [
-          "nobis",
-          "et"
+          "et",
+          "earum"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -348,16 +348,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldType": "System.String",
+            "FieldLength": 611
           }
         }
       },
       {
-        "Name": "Bins Group",
+        "Name": "Quigley, Treutel and Ziemann",
         "Values": [
-          "nobis",
-          "et"
+          "et",
+          "earum"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -366,29 +366,29 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldType": "System.String",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "FolderName": "Adams, Feest and Mueller",
-    "EmailItemId": 399,
-    "AccountId": 35,
-    "ReceivedAt": "2011-02-19T16:48:29.5909344+01:00",
+    "FolderName": "O'Hara Group",
+    "EmailItemId": 490,
+    "AccountId": 835,
+    "ReceivedAt": "2016-10-31T14:58:04.20846+01:00",
     "InReplyTo": {
-      "ServerId": 524,
-      "MessageId": "itaque",
-      "Subject": "aliquid",
+      "ServerId": 356,
+      "MessageId": "illum",
+      "Subject": "rerum",
       "From": {},
       "To": [
         {},
         {}
       ],
-      "Sent": "2001-11-16T16:48:29.5909344+01:00",
+      "Sent": "2013-05-21T14:58:04.20946+02:00",
       "Priority": "High",
       "Flags": "Answered",
-      "Size": 18,
+      "Size": 303,
       "EMailSOInfo": {},
       "TableRight": {},
       "FieldProperties": {
@@ -397,12 +397,12 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     },
-    "RepliedAt": "2010-02-01T16:48:29.5919308+01:00",
+    "RepliedAt": "2001-04-17T14:58:04.20946+02:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -414,10 +414,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "cultivate global e-tailers"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 764
       }
     }
   }

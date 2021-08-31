@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProjectStatuses
+title: GetProjectStatuses
 id: v1ListAgent_GetProjectStatuses
 ---
 
-# POST Agents/List/GetProjectStatuses
+# GetProjectStatuses
 
 ```http
 POST /api/v1/Agents/List/GetProjectStatuses
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProjectStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Value": "dolor",
-    "Tooltip": "quis",
+    "Id": 536,
+    "Value": "aut",
+    "Tooltip": "dignissimos",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower dot-com applications"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 565
       }
     }
   },
   {
-    "Id": 50,
-    "Value": "dolor",
-    "Tooltip": "quis",
+    "Id": 536,
+    "Value": "aut",
+    "Tooltip": "dignissimos",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower dot-com applications"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 565
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/UpdateProjectMember
+title: UpdateProjectMember
 id: v1ProjectAgent_UpdateProjectMember
 ---
 
-# POST Agents/Project/UpdateProjectMember
+# UpdateProjectMember
 
 ```http
 POST /api/v1/Agents/Project/UpdateProjectMember
@@ -98,32 +98,32 @@ Response body: object
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMember": {
-    "ProjectmemberId": 811,
-    "ContactId": 267,
-    "ProjectId": 901,
-    "ContactName": "Prosacco LLC",
+    "ProjectmemberId": 780,
+    "ContactId": 961,
+    "ProjectId": 737,
+    "ContactName": "Strosin LLC",
     "ContactDepartment": "",
-    "ProjectName": "Collins, Funk and Braun",
-    "EmailId": 912,
-    "EmailAddress": "clarissa@corkery.name",
-    "CountryId": 82,
-    "Firstname": "Michaela",
-    "MiddleName": "Crooks, Schroeder and Blanda",
-    "Lastname": "Cormier",
-    "PersonId": 765,
-    "Mrmrs": "consequatur",
-    "ProjectMemberTypeName": "Little, Breitenberg and Jerde",
-    "Phone": "557.103.1802 x60202",
-    "PhoneId": 179,
-    "ProjectMemberTypeId": 182,
-    "EmailAddressName": "ida_torp@oberbrunnerklein.info",
-    "Comment": "earum",
-    "FullName": "Rick Schaefer"
+    "ProjectName": "Hauck, Will and Murray",
+    "EmailId": 59,
+    "EmailAddress": "tavares@jerde.biz",
+    "CountryId": 496,
+    "Firstname": "Gina",
+    "MiddleName": "Wilkinson Group",
+    "Lastname": "Kerluke",
+    "PersonId": 218,
+    "Mrmrs": "dicta",
+    "ProjectMemberTypeName": "Lind, Ullrich and Kuhn",
+    "Phone": "1-517-210-8633",
+    "PhoneId": 73,
+    "ProjectMemberTypeId": 902,
+    "EmailAddressName": "marlee@brakusbatz.name",
+    "Comment": "illo",
+    "FullName": "Santina Runolfsson"
   }
 }
 ```
@@ -133,27 +133,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 136,
-  "ContactId": 467,
-  "ProjectId": 718,
-  "ContactName": "Feeney-Wisozk",
+  "ProjectmemberId": 781,
+  "ContactId": 845,
+  "ProjectId": 362,
+  "ContactName": "Strosin, McDermott and Ankunding",
   "ContactDepartment": "",
-  "ProjectName": "Kozey-Schneider",
-  "EmailId": 362,
-  "EmailAddress": "leopold.wiza@mooredaugherty.biz",
-  "CountryId": 472,
-  "Firstname": "Dennis",
-  "MiddleName": "Carter LLC",
-  "Lastname": "Mante",
-  "PersonId": 101,
-  "Mrmrs": "voluptates",
-  "ProjectMemberTypeName": "Bergnaum-Purdy",
-  "Phone": "405.806.0823",
-  "PhoneId": 226,
-  "ProjectMemberTypeId": 677,
-  "EmailAddressName": "pierre@lueilwitz.biz",
-  "Comment": "harum",
-  "FullName": "Eda Buckridge II",
+  "ProjectName": "Dooley LLC",
+  "EmailId": 479,
+  "EmailAddress": "rasheed.langosh@trantow.us",
+  "CountryId": 733,
+  "Firstname": "Judge",
+  "MiddleName": "Gerhold-Vandervort",
+  "Lastname": "Cremin",
+  "PersonId": 980,
+  "Mrmrs": "ipsam",
+  "ProjectMemberTypeName": "Schoen Inc and Sons",
+  "Phone": "106-427-2125 x064",
+  "PhoneId": 990,
+  "ProjectMemberTypeId": 575,
+  "EmailAddressName": "clementine@kilbackwalsh.name",
+  "Comment": "aliquam",
+  "FullName": "Barry Beatty",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 395
     }
   }
 }

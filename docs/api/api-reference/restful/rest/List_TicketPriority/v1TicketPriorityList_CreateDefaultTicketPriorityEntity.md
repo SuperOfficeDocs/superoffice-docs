@@ -85,7 +85,7 @@ Response body: object
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -93,35 +93,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 84,
-  "Name": "Klocko-Mitchell",
+  "TicketPriorityId": 16,
+  "Name": "Denesik-Fisher",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 246,
+  "SortOrder": 632,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 589,
-  "MonStart": "1995-10-21T09:41:00.8533886+02:00",
-  "MonStop": "2019-03-31T09:41:00.8533886+02:00",
-  "TueStart": "1994-12-27T09:41:00.8533886+01:00",
-  "TueStop": "2007-08-07T09:41:00.8533886+02:00",
-  "WedStart": "2005-01-08T09:41:00.8533886+01:00",
-  "WedStop": "2007-10-13T09:41:00.8533886+02:00",
-  "ThuStart": "1998-11-26T09:41:00.8533886+01:00",
-  "ThuStop": "2017-01-12T09:41:00.8533886+01:00",
-  "FriStart": "2002-05-05T09:41:00.8533886+02:00",
-  "FriStop": "1997-03-04T09:41:00.8533886+01:00",
-  "SatStart": "1999-12-31T09:41:00.8533886+01:00",
-  "SatStop": "2005-01-16T09:41:00.8533886+01:00",
-  "SunStart": "1995-01-17T09:41:00.8533886+01:00",
-  "SunStop": "2010-02-11T09:41:00.8533886+01:00",
+  "Deadline": 889,
+  "MonStart": "2017-06-18T15:05:43.913124+02:00",
+  "MonStop": "1997-02-19T15:05:43.913124+01:00",
+  "TueStart": "2020-12-08T15:05:43.913124+01:00",
+  "TueStop": "1995-09-21T15:05:43.913124+02:00",
+  "WedStart": "2008-07-14T15:05:43.913124+02:00",
+  "WedStop": "2019-02-10T15:05:43.913124+01:00",
+  "ThuStart": "2017-04-12T15:05:43.913124+02:00",
+  "ThuStop": "2012-06-15T15:05:43.913124+02:00",
+  "FriStart": "2008-01-07T15:05:43.913124+01:00",
+  "FriStop": "2011-01-09T15:05:43.913124+01:00",
+  "SatStart": "2004-06-22T15:05:43.913124+02:00",
+  "SatStop": "2013-01-07T15:05:43.913124+01:00",
+  "SunStart": "2000-10-18T15:05:43.913124+02:00",
+  "SunStop": "2003-03-16T15:05:43.913124+01:00",
   "NonDates": [
-    "voluptatem",
-    "non"
+    "doloribus",
+    "hic"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

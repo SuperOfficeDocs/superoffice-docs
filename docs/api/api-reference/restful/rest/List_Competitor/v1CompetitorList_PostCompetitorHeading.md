@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 698,
-  "Name": "Wuckert, Thompson and Zulauf",
+  "HeadingId": 5,
+  "Name": "Rolfson Inc and Sons",
   "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 327,
-  "UdListDefinitionId": 887
+  "Rank": 797,
+  "UdListDefinitionId": 390
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 456,
-  "Name": "Mann-Heller",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "Rank": 343,
-  "UdListDefinitionId": 906,
+  "HeadingId": 257,
+  "Name": "Zemlak LLC",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 210,
+  "UdListDefinitionId": 432,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 848
     }
   }
 }

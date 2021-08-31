@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=et
-GET /api/v1/BatchTask?$top=794
-GET /api/v1/BatchTask?$skip=145
+GET /api/v1/BatchTask?$entities=architecto
+GET /api/v1/BatchTask?$top=41
+GET /api/v1/BatchTask?$skip=579
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=sapiente
+GET /api/v1/BatchTask?$context=dolore
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsum",
+  "odata.nextLink": "a",
   "value": [
     {
-      "PrimaryKey": 1003,
-      "EntityName": "sale",
-      "saleId": 1003,
-      "contactId": 1137,
-      "name": "Johnson Group"
+      "PrimaryKey": 9021,
+      "EntityName": "person",
+      "personId": 9021,
+      "fullName": "Bradley Cassin Jr."
     },
     {
-      "PrimaryKey": 2260,
-      "EntityName": "sale",
-      "saleId": 2260,
-      "contactId": 7226,
-      "name": "Langosh LLC"
+      "PrimaryKey": 182,
+      "EntityName": "person",
+      "personId": 182,
+      "fullName": "Adaline Reinger"
     }
   ]
 }

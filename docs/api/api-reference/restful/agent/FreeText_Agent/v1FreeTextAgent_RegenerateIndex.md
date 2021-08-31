@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/RegenerateIndex
+title: RegenerateIndex
 id: v1FreeTextAgent_RegenerateIndex
 ---
 
-# POST Agents/FreeText/RegenerateIndex
+# RegenerateIndex
 
 ```http
 POST /api/v1/Agents/FreeText/RegenerateIndex
@@ -88,6 +88,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -97,11 +98,11 @@ Response body: object
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -110,29 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Orn-Gusikowski",
-  "AssociateId": 885,
-  "DetailsTable": 543,
-  "DetailsRecord": 786,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 908,
+  "Name": "Hilll, Abshire and Gaylord",
+  "AssociateId": 171,
+  "DetailsTable": 652,
+  "DetailsRecord": 518,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "reiciendis",
-    "ParameterObject2": "velit"
+    "ParameterObject1": "occaecati",
+    "ParameterObject2": "porro"
   },
-  "LastStarted": "2011-11-02T16:48:29.7259312+01:00",
-  "Created": "1997-05-07T16:48:29.7259312+02:00",
-  "StartCount": 463,
-  "DatabaseSerialNumber": "667349",
-  "Context": "sit",
-  "Result": "voluptates",
+  "LastStarted": "2011-04-15T14:58:04.319462+02:00",
+  "Created": "2012-05-06T14:58:04.319462+02:00",
+  "StartCount": 145,
+  "DatabaseSerialNumber": "392801",
+  "Context": "iusto",
+  "Result": "et",
   "State": "All",
-  "Description": "Seamless well-modulated time-frame",
-  "Response": "illum",
-  "Request": "id",
-  "ProgressDescription": "Reactive zero administration productivity",
-  "ProgressPercent": 893,
+  "Description": "Monitored asynchronous secured line",
+  "Response": "dicta",
+  "Request": "eos",
+  "ProgressDescription": "Secured context-sensitive knowledge user",
+  "ProgressPercent": 179,
+  "FileName": "Donnelly LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

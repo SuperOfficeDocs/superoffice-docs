@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 497,
-    "Name": "Lueilwitz, Nolan and Medhurst",
-    "ConsentText": "repudiandae",
-    "FormText": "totam",
-    "Key": "enim",
-    "Tooltip": "perspiciatis",
-    "Active": 294,
-    "UpdatedDate": "2018-07-23T09:41:00.2563667+02:00",
+    "ConsentPurposeId": 967,
+    "Name": "Bahringer Inc and Sons",
+    "ConsentText": "eos",
+    "FormText": "vel",
+    "Key": "omnis",
+    "Tooltip": "ullam",
+    "Active": 868,
+    "UpdatedDate": "1996-08-20T15:05:43.3305404+02:00",
     "UpdatedBy": {
-      "AssociateId": 594,
-      "Name": "Hahn-Rippin",
-      "PersonId": 46,
-      "Rank": 600,
-      "Tooltip": "quo",
+      "AssociateId": 786,
+      "Name": "Hammes Inc and Sons",
+      "PersonId": 779,
+      "Rank": 948,
+      "Tooltip": "eos",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 797,
-      "FullName": "Katrina Sanford",
-      "FormalName": "Lindgren, Hand and Moen",
+      "GroupIdx": 696,
+      "FullName": "Marlin Roob",
+      "FormalName": "Ortiz-Feil",
       "Deleted": false,
-      "EjUserId": 478,
-      "UserName": "Rodriguez-Romaguera",
+      "EjUserId": 607,
+      "UserName": "Rath-Mayert",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 136
         }
       }
     },
-    "Deleted": false,
-    "Rank": 236,
-    "PrivacyStatementDesc": "ratione",
+    "Deleted": true,
+    "Rank": 361,
+    "PrivacyStatementDesc": "doloribus",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldType": "System.String",
+        "FieldLength": 863
       }
     }
   }

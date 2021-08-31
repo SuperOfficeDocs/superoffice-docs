@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/ToggleAppointmentStatus
+title: ToggleAppointmentStatus
 id: v1AppointmentAgent_ToggleAppointmentStatus
 ---
 
-# POST Agents/Appointment/ToggleAppointmentStatus
+# ToggleAppointmentStatus
 
 ```http
 POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 150
+  "AppointmentId": 154
 }
 ```
 

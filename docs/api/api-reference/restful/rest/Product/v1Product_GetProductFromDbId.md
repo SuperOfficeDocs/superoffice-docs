@@ -96,7 +96,7 @@ Response body: object
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -104,36 +104,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 281,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "ut",
-  "Name": "Abernathy, Prosacco and Weber",
-  "Description": "Optimized bottom-line core",
-  "Code": "dolorum",
-  "PriceUnit": "itaque",
-  "QuantityUnit": "repellat",
+  "ProductId": 641,
+  "ERPProductKey": "quisquam",
+  "ERPPriceListKey": "id",
+  "Name": "Nikolaus, Kuvalis and Bailey",
+  "Description": "Proactive local framework",
+  "Code": "beatae",
+  "PriceUnit": "debitis",
+  "QuantityUnit": "sint",
   "IsSubscription": true,
-  "SubscriptionUnit": "blanditiis",
-  "DefaultSubscriptionQuantity": 26811.37,
-  "ItemNumber": "403730",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 26457.228,
+  "ItemNumber": "1687755",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tenetur",
-  "ProductTypeKey": "sint",
-  "VAT": 29516.012,
-  "VATInfo": "incidunt",
-  "UnitCost": 26253.518,
-  "UnitMinimumPrice": 7295.9519999999993,
-  "UnitListPrice": 6728.6979999999994,
+  "ProductFamilyKey": "at",
+  "ProductTypeKey": "ex",
+  "VAT": 2964.764,
+  "VATInfo": "eum",
+  "UnitCost": 5970.2699999999995,
+  "UnitMinimumPrice": 256.988,
+  "UnitListPrice": 15992.802,
   "InAssortment": true,
-  "Supplier": "doloribus",
-  "SupplierCode": "quaerat",
-  "Rights": "illo",
-  "Rule": "excepturi",
+  "Supplier": "laboriosam",
+  "SupplierCode": "occaecati",
+  "Rights": "accusamus",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Crona, Quitzon and Douglas",
-      "Value": "dolores",
+      "Name": "Thompson-Mraz",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldLength": 368
         }
       }
     },
     {
-      "Name": "Crona, Quitzon and Douglas",
-      "Value": "dolores",
+      "Name": "Thompson-Mraz",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -159,18 +159,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldLength": 368
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
-  "ExtraField1": "recusandae",
-  "ExtraField2": "perferendis",
-  "ExtraField3": "corrupti",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "voluptatem",
-  "InStock": 53.278,
+  "RawExtraInfo": "dolore",
+  "ExtraField1": "et",
+  "ExtraField2": "optio",
+  "ExtraField3": "provident",
+  "ExtraField4": "velit",
+  "ExtraField5": "et",
+  "InStock": 11987.55,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -181,8 +181,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

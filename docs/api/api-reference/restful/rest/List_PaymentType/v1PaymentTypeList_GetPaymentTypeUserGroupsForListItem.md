@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Reilly-Jast",
-    "ToolTip": "Quo nihil.",
+    "Id": 685,
+    "Name": "Heaney-Lebsack",
+    "ToolTip": "Eius quos nihil est laboriosam.",
     "Deleted": true,
-    "Rank": 320,
-    "Type": "voluptate",
-    "ColorBlock": 557,
-    "IconHint": "porro",
+    "Rank": 495,
+    "Type": "est",
+    "ColorBlock": 719,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "1995-11-07T09:41:00.4933833+01:00",
+    "LastChanged": "1998-02-17T15:05:43.5600799+01:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Gutmann Inc and Sons",
-        "ToolTip": "Aut qui similique omnis autem.",
+        "Id": 9,
+        "Name": "Ward, Walsh and Witting",
+        "ToolTip": "Sunt sit et eum animi repudiandae.",
         "Deleted": true,
-        "Rank": 857,
-        "Type": "ullam",
-        "ColorBlock": 641,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2019-01-30T09:41:00.4933833+01:00",
+        "Rank": 172,
+        "Type": "inventore",
+        "ColorBlock": 241,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2008-03-15T15:05:43.5600799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iure",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Cletus Cummerata",
+        "FullName": "Roman Reinger",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "facere",
     "Hidden": true,
-    "FullName": "Grayson Bashirian",
+    "FullName": "Ned Kuhn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

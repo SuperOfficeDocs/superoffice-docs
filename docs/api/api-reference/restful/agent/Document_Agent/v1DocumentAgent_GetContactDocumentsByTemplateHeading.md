@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetContactDocumentsByTemplateHeading
+title: GetContactDocumentsByTemplateHeading
 id: v1DocumentAgent_GetContactDocumentsByTemplateHeading
 ---
 
-# POST Agents/Document/GetContactDocumentsByTemplateHeading
+# GetContactDocumentsByTemplateHeading
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 448,
-  "StartTime": "2007-12-01T16:48:29.2848943+01:00",
-  "EndTime": "2009-01-17T16:48:29.2848943+01:00",
-  "Count": 423,
-  "TemplateHeadingId": 16
+  "ContactId": 189,
+  "StartTime": "2005-10-02T14:58:03.8104643+02:00",
+  "EndTime": "1996-11-20T14:58:03.8104643+01:00",
+  "Count": 878,
+  "TemplateHeadingId": 833
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 510,
-    "Attention": "quia",
-    "Header": "minima",
-    "Name": "Huels, Prosacco and Williamson",
-    "OurRef": "sint",
-    "YourRef": "praesentium",
-    "Description": "Re-contextualized encompassing ability",
-    "DocumentTemplate": "ad",
+    "DocumentId": 617,
+    "Attention": "eos",
+    "Header": "velit",
+    "Name": "Skiles Group",
+    "OurRef": "laborum",
+    "YourRef": "ab",
+    "Description": "Polarised system-worthy framework",
+    "DocumentTemplate": "voluptatem",
     "IsPublished": false,
-    "PersonId": 346,
-    "PersonFullName": "Ms. Alice Lang",
-    "AssociateFullName": "Austyn Becker PhD",
-    "ContactId": 319,
-    "ContactName": "Wolf, Nader and Medhurst",
-    "ProjectId": 503,
-    "ProjectName": "Rohan, Medhurst and Reynolds",
-    "AssociateId": 741,
-    "Snum": 389,
+    "PersonId": 58,
+    "PersonFullName": "Jane Borer Sr.",
+    "AssociateFullName": "Queen Schamberger",
+    "ContactId": 475,
+    "ContactName": "Morissette, Bayer and Runolfsdottir",
+    "ProjectId": 473,
+    "ProjectName": "Dickens, Kutch and Bartell",
+    "AssociateId": 544,
+    "Snum": 53,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldType": "System.String",
+        "FieldLength": 147
       }
     }
   }

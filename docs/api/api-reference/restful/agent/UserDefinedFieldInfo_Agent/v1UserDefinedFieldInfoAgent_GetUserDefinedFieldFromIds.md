@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
+title: GetUserDefinedFieldFromIds
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
+# GetUserDefinedFieldFromIds
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
@@ -106,13 +106,13 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    246,
-    435
+    104,
+    627
   ]
 }
 ```
@@ -123,40 +123,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 852,
-    "ColumnId": 19,
-    "FieldDefault": "dolor",
-    "FieldHeight": 604,
-    "FieldLabel": "eos",
-    "FieldLeft": 557,
-    "FieldTop": 533,
+    "UDefFieldId": 32,
+    "ColumnId": 803,
+    "FieldDefault": "aut",
+    "FieldHeight": 669,
+    "FieldLabel": "repellendus",
+    "FieldLeft": 129,
+    "FieldTop": 740,
     "FieldType": "Checkbox",
-    "FieldWidth": 83,
-    "FormatMask": "omnis",
+    "FieldWidth": 554,
+    "FormatMask": "incidunt",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 205,
-    "LabelLeft": 646,
-    "LabelTop": 601,
-    "LabelWidth": 341,
-    "LastVersionId": 250,
-    "ListTableId": 758,
+    "IsIndexed": false,
+    "LabelHeight": 483,
+    "LabelLeft": 577,
+    "LabelTop": 9,
+    "LabelWidth": 788,
+    "LastVersionId": 470,
+    "ListTableId": 267,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 662,
-    "ProgId": "ad",
-    "IsReadOnly": true,
-    "ShortLabel": "rerum",
-    "TabOrder": 212,
-    "TextLength": 571,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 560,
-    "UDListDefinitionId": 526,
+    "Page1LineNo": 194,
+    "ProgId": "expedita",
+    "IsReadOnly": false,
+    "ShortLabel": "quisquam",
+    "TabOrder": 341,
+    "TextLength": 902,
+    "Tooltip": "non",
+    "UdefIdentity": 316,
+    "UDListDefinitionId": 688,
     "Justification": "Center",
-    "Version": 187,
-    "TemplateVariableName": "Brown, O'Conner and Jaskolski",
-    "HasBeenPublished": true,
-    "MdoListName": "Zboncak LLC",
+    "Version": 982,
+    "TemplateVariableName": "Turner-McDermott",
+    "HasBeenPublished": false,
+    "MdoListName": "Yundt LLC",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -165,10 +165,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "synergize magnetic deliverables"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 156
       }
     }
   }

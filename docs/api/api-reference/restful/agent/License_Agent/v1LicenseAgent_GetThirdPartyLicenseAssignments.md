@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetThirdPartyLicenseAssignments
+title: GetThirdPartyLicenseAssignments
 id: v1LicenseAgent_GetThirdPartyLicenseAssignments
 ---
 
-# POST Agents/License/GetThirdPartyLicenseAssignments
+# GetThirdPartyLicenseAssignments
 
 ```http
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 923,
-  "ModuleOwner": "aut"
+  "AssociateId": 327,
+  "ModuleOwner": "velit"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 296,
-    "Tooltip": "aut",
+    "Total": 641,
+    "Tooltip": "recusandae",
     "CanAssign": true,
-    "Free": 278,
-    "InUse": 566,
+    "Free": 413,
+    "InUse": 170,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 867,
-    "Name": "Donnelly, Sanford and Littel",
-    "Description": "Realigned attitude-oriented architecture",
-    "PrerequisiteModuleName": "Waters Inc and Sons",
-    "SortOrder": 18,
+    "Assigned": true,
+    "ModuleLicenseId": 697,
+    "Name": "Haag-Kassulke",
+    "Description": "Universal coherent matrices",
+    "PrerequisiteModuleName": "Johnston-Purdy",
+    "SortOrder": 262,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldLength": 161
       }
     }
   }

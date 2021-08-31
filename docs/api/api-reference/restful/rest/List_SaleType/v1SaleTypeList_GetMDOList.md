@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=eveniet
+GET /api/v1/List/SaleType/MDOItems?query=beatae
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Erdman, Barrows and Cummings",
-    "ToolTip": "Rerum quo repellat porro.",
+    "Id": 472,
+    "Name": "Collier Group",
+    "ToolTip": "Sit totam placeat nisi occaecati.",
     "Deleted": true,
-    "Rank": 606,
-    "Type": "quasi",
+    "Rank": 253,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Bernhard Inc and Sons",
-        "ToolTip": "Doloribus iste reprehenderit.",
+        "Id": 195,
+        "Name": "Reinger, Hettinger and Brown",
+        "ToolTip": "Sit quo unde natus aliquam.",
         "Deleted": true,
-        "Rank": 552,
-        "Type": "accusantium",
+        "Rank": 699,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 39,
-        "ExtraInfo": "commodi",
-        "StyleHint": "et",
-        "FullName": "Dr. Estrella Herman",
+        "IconHint": "rerum",
+        "ColorBlock": 186,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "sit",
+        "FullName": "Emmie Rath",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 614,
-    "ExtraInfo": "similique",
-    "StyleHint": "alias",
-    "FullName": "Wiley Grimes",
+    "IconHint": "error",
+    "ColorBlock": 337,
+    "ExtraInfo": "ratione",
+    "StyleHint": "eius",
+    "FullName": "Ettie Stoltenberg",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "morph cutting-edge bandwidth"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 475
       }
     }
   }

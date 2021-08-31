@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetTaskListItems
+title: GetTaskListItems
 id: v1AppointmentAgent_GetTaskListItems
 ---
 
-# POST Agents/Appointment/GetTaskListItems
+# GetTaskListItems
 
 ```http
 POST /api/v1/Agents/Appointment/GetTaskListItems
@@ -85,11 +85,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -99,15 +99,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 814,
-    "Value": "magni",
+    "TaskListItemId": 191,
+    "Value": "voluptates",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "pariatur",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "IntentId": 129,
-    "Rank": 131,
-    "IsDefaultAlldayEvent": false,
+    "IntentId": 126,
+    "Rank": 254,
+    "IsDefaultAlldayEvent": true,
     "IsDefaultFree": true,
     "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

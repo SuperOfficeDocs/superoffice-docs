@@ -66,7 +66,7 @@ Response body: object
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,21 +74,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 119,
-  "Name": "Jenkins Inc and Sons",
-  "PersonId": 61,
-  "Rank": 108,
-  "Tooltip": "quia",
+  "AssociateId": 536,
+  "Name": "Lubowitz, Reilly and Trantow",
+  "PersonId": 882,
+  "Rank": 457,
+  "Tooltip": "doloribus",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 266,
-  "FullName": "Alayna Abernathy",
-  "FormalName": "Wintheiser-Torp",
+  "GroupIdx": 533,
+  "FullName": "Allie Ratke",
+  "FormalName": "Rodriguez-Feil",
   "Deleted": false,
-  "EjUserId": 672,
-  "UserName": "Goodwin, Ferry and Waters",
+  "EjUserId": 546,
+  "UserName": "Schinner, Beahan and Bartoletti",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "syndicate proactive channels"
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLegalBaseList
+title: GetLegalBaseList
 id: v1ListAgent_GetLegalBaseList
 ---
 
-# POST Agents/List/GetLegalBaseList
+# GetLegalBaseList
 
 ```http
 POST /api/v1/Agents/List/GetLegalBaseList
@@ -84,12 +84,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 281,
-    "Name": "Wisozk-Torp",
-    "Tooltip": "ut",
-    "Rank": 90,
-    "Key": "saepe",
-    "Deleted": false,
+    "LegalBaseId": 551,
+    "Name": "Jenkins-Bahringer",
+    "Tooltip": "voluptatibus",
+    "Rank": 149,
+    "Key": "animi",
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldLength": 254
       }
     }
   }

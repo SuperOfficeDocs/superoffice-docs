@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 477,
-    "Name": "Streich, Haley and Lowe",
-    "Tooltip": "tenetur",
+    "HeadingId": 782,
+    "Name": "Botsford, Prosacco and Cummerata",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 412,
-    "UdListDefinitionId": 875
+    "Rank": 254,
+    "UdListDefinitionId": 217
   },
   {
-    "HeadingId": 477,
-    "Name": "Streich, Haley and Lowe",
-    "Tooltip": "tenetur",
+    "HeadingId": 782,
+    "Name": "Botsford, Prosacco and Cummerata",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 412,
-    "UdListDefinitionId": 875
+    "Rank": 254,
+    "UdListDefinitionId": 217
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 513,
-    "Name": "Franecki-Haag",
-    "Tooltip": "id",
+    "HeadingId": 726,
+    "Name": "Witting, Nienow and Zboncak",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 471,
-    "UdListDefinitionId": 309,
+    "Rank": 547,
+    "UdListDefinitionId": 583,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldLength": 696
       }
     }
   }

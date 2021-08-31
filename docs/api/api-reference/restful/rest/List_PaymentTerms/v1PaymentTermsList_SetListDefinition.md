@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Williamson LLC",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 874,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 699,
+  "Name": "Hauck Group",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "Rank": 180,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
+  "ListType": "sit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Goodwin-Funk",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 917,
+  "Id": 482,
+  "Name": "Leannon-Abbott",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 982,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
-  "InUseByUserDefinedFields": false,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "grow cross-media schemas"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

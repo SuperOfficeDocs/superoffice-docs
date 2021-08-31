@@ -69,16 +69,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 249,
-  "Name": "Walker-Hauck",
-  "Tooltip": "soluta",
-  "Rank": 151,
-  "Rate": 13040.573999999999,
-  "Units": 17287.144,
-  "Deleted": false,
+  "CurrencyId": 375,
+  "Name": "Bernier-McGlynn",
+  "Tooltip": "est",
+  "Rank": 343,
+  "Rate": 26510.505999999998,
+  "Units": 1773.844,
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "seize B2B action-items"
   },
   "FieldProperties": {
     "fieldName": {
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 175
+      "FieldLength": 4
     }
   }
 }

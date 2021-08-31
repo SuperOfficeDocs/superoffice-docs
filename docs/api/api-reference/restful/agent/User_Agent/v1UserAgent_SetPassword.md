@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SetPassword
+title: SetPassword
 id: v1UserAgent_SetPassword
 ---
 
-# POST Agents/User/SetPassword
+# SetPassword
 
 ```http
 POST /api/v1/Agents/User/SetPassword
@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 732,
-  "Password": "est"
+  "AssociateId": 645,
+  "Password": "a"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
+title: GetArchiveListByColumnsWithHeaderWithContext2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
 ---
 
-# POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
+# GetArchiveListByColumnsWithHeaderWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
@@ -14,32 +14,7 @@ Get a page of results for an archive list, with context parameter, explicitly sp
 The return value includes a header that has various extra information, in addition to the actual rows. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -246,15 +177,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Terry, Glover and Turcotte",
-  "Columns": "error",
-  "SortOrder": "ratione",
-  "Restriction": "iste",
-  "Entities": "cum",
-  "Page": 418,
-  "PageSize": 337,
-  "Options": "quo",
-  "Context": "atque"
+  "ProviderName": "Cummings, Ruecker and Carter",
+  "Columns": "distinctio",
+  "SortOrder": "dolores",
+  "Restriction": "veniam",
+  "Entities": "est",
+  "Page": 993,
+  "PageSize": 383,
+  "Options": "dicta",
+  "Context": "aperiam"
 }
 ```
 
@@ -263,20 +194,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 667,
+  "RowCount": 954,
   "Rows": [
     {
-      "EntityName": "Mraz Inc and Sons",
-      "PrimaryKey": 824,
+      "EntityName": "Schmidt, Wisozk and Lynch",
+      "PrimaryKey": 40,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "quibusdam",
-          "LinkHint": "libero"
+          "DisplayValue": "pariatur",
+          "TooltipHint": "quidem",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "perferendis",
-      "StyleHint": "perspiciatis",
+      "LinkHint": "nostrum",
+      "StyleHint": "dolor",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -284,8 +215,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 740
         }
       }
     }
@@ -300,8 +231,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

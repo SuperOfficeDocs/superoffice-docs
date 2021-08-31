@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/ValidateSaleEntity
+title: ValidateSaleEntity
 id: v1SaleAgent_ValidateSaleEntity
 ---
 
-# POST Agents/Sale/ValidateSaleEntity
+# ValidateSaleEntity
 
 ```http
 POST /api/v1/Agents/Sale/ValidateSaleEntity
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
     "CreatedBy": {},
     "Contact": {},
     "Project": {},
-    "SaleText": "totam",
+    "SaleText": "veritatis",
     "Person": {},
     "Currency": {},
     "Competitor": {},
@@ -88,48 +88,48 @@ Content-Type: application/json; charset=utf-8
     "Reason": {},
     "Source": {},
     "Status": "Lost",
-    "Saledate": "1997-02-24T16:48:30.6149402+01:00",
-    "Amount": 14482.214,
-    "SaleId": 120,
-    "Earning": 26817.638,
-    "EarningPercent": 18001.696,
-    "Heading": "est",
-    "Number": "867852",
-    "Probability": 693,
-    "CreatedDate": "2007-02-16T16:48:30.6149402+01:00",
-    "UpdatedDate": "2001-12-12T16:48:30.6149402+01:00",
+    "Saledate": "2000-09-25T14:58:05.1816228+02:00",
+    "Amount": 1761.308,
+    "SaleId": 286,
+    "Earning": 16513.046,
+    "EarningPercent": 28547.606,
+    "Heading": "omnis",
+    "Number": "854550",
+    "Probability": 712,
+    "CreatedDate": "1994-10-27T14:58:05.1816228+02:00",
+    "UpdatedDate": "2002-10-06T14:58:05.1816228+02:00",
     "Completed": "Completed",
-    "ActiveLinks": 314,
+    "ActiveLinks": 10,
     "Links": [
       {},
       {}
     ],
-    "NextDueDate": "2003-05-12T16:48:30.6149402+02:00",
-    "Postit": "praesentium",
+    "NextDueDate": "2000-12-04T14:58:05.1816228+01:00",
+    "Postit": "accusamus",
     "SaleType": {},
     "ReasonSold": {},
     "ReasonStalled": {},
-    "ReopenDate": "1995-09-01T16:48:30.6149402+02:00",
+    "ReopenDate": "1996-11-03T14:58:05.1816228+01:00",
     "SaleStakeholders": [
       {},
       {}
     ],
-    "ActiveErpLinks": 211,
+    "ActiveErpLinks": 37,
     "UserDefinedFields": {
-      "SuperOffice:1": "False",
-      "SuperOffice:2": "1934422900"
+      "SuperOffice:1": "Boris Swaniawski",
+      "SuperOffice:2": "True"
     },
     "ExtraFields": {
-      "ExtraFields1": "quam",
-      "ExtraFields2": "harum"
+      "ExtraFields1": "rerum",
+      "ExtraFields2": "vel"
     },
     "CustomFields": {
-      "CustomFields1": "omnis",
-      "CustomFields2": "et"
+      "CustomFields1": "voluptatem",
+      "CustomFields2": "qui"
     },
-    "PublishEventDate": "2020-11-22T16:48:30.6149402+01:00",
-    "PublishTo": "1999-07-16T16:48:30.6149402+02:00",
-    "PublishFrom": "2012-08-14T16:48:30.6149402+02:00",
+    "PublishEventDate": "2013-12-21T14:58:05.1816228+01:00",
+    "PublishTo": "2020-08-08T14:58:05.1816228+02:00",
+    "PublishFrom": "2011-01-14T14:58:05.1816228+01:00",
     "IsPublished": true,
     "VisibleFor": [
       {},
@@ -144,7 +144,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illo",
-  "2": "tempore"
+  "1": "voluptatem",
+  "2": "id"
 }
 ```

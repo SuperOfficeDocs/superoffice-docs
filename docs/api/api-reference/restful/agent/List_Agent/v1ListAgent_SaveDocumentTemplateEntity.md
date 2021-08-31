@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveDocumentTemplateEntity
+title: SaveDocumentTemplateEntity
 id: v1ListAgent_SaveDocumentTemplateEntity
 ---
 
-# POST Agents/List/SaveDocumentTemplateEntity
+# SaveDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
@@ -120,30 +120,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 554,
-  "Name": "Williamson, Hyatt and Kuhic",
-  "Tooltip": "vel",
-  "SaveInDb": 467,
-  "Filename": "sapiente",
-  "DefaultOref": "iure",
+  "DocumentTemplateId": 383,
+  "Name": "Barton, Padberg and Russel",
+  "Tooltip": "nihil",
+  "SaveInDb": 523,
+  "Filename": "et",
+  "DefaultOref": "nulla",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 63,
-  "IntentId": 883,
-  "IsDefaultPublished": false,
-  "Rank": 794,
-  "LoadTemplateFromPlugin": 66,
-  "MimeType": "expedita",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 191,
+  "AutoeventId": 55,
+  "IntentId": 560,
+  "IsDefaultPublished": true,
+  "Rank": 447,
+  "LoadTemplateFromPlugin": 188,
+  "MimeType": "id",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 934,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jameson_rempel@roob.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "valerie@bahringer.co.uk",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hoyt.kiehn@fadellubowitz.uk",
+  "SenderEmailAddress": "sage.aufderhar@oconnell.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,30 +153,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 116,
-  "Name": "O'Conner, Waelchi and Streich",
-  "Tooltip": "dolorem",
-  "SaveInDb": 276,
-  "Filename": "molestias",
-  "DefaultOref": "iusto",
+  "DocumentTemplateId": 607,
+  "Name": "McDermott, Goodwin and Kuphal",
+  "Tooltip": "quae",
+  "SaveInDb": 885,
+  "Filename": "sapiente",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 30,
-  "IntentId": 176,
-  "IsDefaultPublished": false,
-  "Rank": 267,
-  "LoadTemplateFromPlugin": 217,
-  "MimeType": "dolore",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 649,
+  "AutoeventId": 287,
+  "IntentId": 281,
+  "IsDefaultPublished": true,
+  "Rank": 395,
+  "LoadTemplateFromPlugin": 62,
+  "MimeType": "omnis",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 157,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "naomi.abbott@jaskolski.info",
+  "EmailSubject": "jay.gutmann@ullrich.info",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kay@haag.info",
+  "SenderEmailAddress": "leonel_oreilly@mcglynnrosenbaum.info",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -186,10 +186,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reinvent innovative infrastructures"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

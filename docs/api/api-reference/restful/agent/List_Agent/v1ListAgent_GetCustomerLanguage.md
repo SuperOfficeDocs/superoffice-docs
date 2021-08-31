@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCustomerLanguage
+title: GetCustomerLanguage
 id: v1ListAgent_GetCustomerLanguage
 ---
 
-# POST Agents/List/GetCustomerLanguage
+# GetCustomerLanguage
 
 ```http
 POST /api/v1/Agents/List/GetCustomerLanguage
@@ -25,7 +25,7 @@ Gets a CustomerLanguage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCustomerLanguage?customerLanguageId=608
+POST /api/v1/Agents/List/GetCustomerLanguage?customerLanguageId=448
 POST /api/v1/Agents/List/GetCustomerLanguage?$select=name,department,category/id
 ```
 
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 638,
-  "Value": "ut",
-  "Tooltip": "blanditiis",
+  "Id": 514,
+  "Value": "sed",
+  "Tooltip": "quos",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 329
     }
   }
 }

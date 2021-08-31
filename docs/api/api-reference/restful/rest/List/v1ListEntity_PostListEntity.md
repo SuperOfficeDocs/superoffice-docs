@@ -96,19 +96,19 @@ Response body: object
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Friesen, McGlynn and Haley",
-  "Tooltip": "omnis",
+  "Id": 683,
+  "Name": "Gleichner Inc and Sons",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 288,
+  "Rank": 920,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eos",
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -118,15 +118,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Schowalter, Gleichner and Mills",
-  "Tooltip": "sed",
+  "Id": 386,
+  "Name": "Ritchie LLC",
+  "Tooltip": "rem",
   "Deleted": true,
-  "Rank": 174,
+  "Rank": 281,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -136,15 +136,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "revolutionize enterprise users"
       },
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 368
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

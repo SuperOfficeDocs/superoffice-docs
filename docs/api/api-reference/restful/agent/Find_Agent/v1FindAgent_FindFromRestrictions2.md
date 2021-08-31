@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictions2
+title: FindFromRestrictions2
 id: v1FindAgent_FindFromRestrictions2
 ---
 
-# POST Agents/Find/FindFromRestrictions2
+# FindFromRestrictions2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions2
@@ -14,32 +14,7 @@ Execute a Find operation and return a page of results.
 The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -242,10 +173,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "doloribus",
-  "ProviderName": "Ernser, Waelchi and Morar",
-  "PageSize": 472,
-  "PageNumber": 803
+  "Restrictions": "placeat",
+  "ProviderName": "Beer, Nienow and Bashirian",
+  "PageSize": 947,
+  "PageNumber": 1001
 }
 ```
 
@@ -256,34 +187,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kohler, Kub and Moen",
-      "DisplayTooltip": "adipisci",
-      "DisplayType": "vel",
-      "CanOrderBy": false,
-      "Name": "Wolf-Glover",
-      "CanRestrictBy": false,
-      "RestrictionType": "quae",
-      "RestrictionListName": "Davis Group",
+      "DisplayName": "Hettinger, Williamson and Auer",
+      "DisplayTooltip": "perspiciatis",
+      "DisplayType": "sunt",
+      "CanOrderBy": true,
+      "Name": "Mraz LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "a",
+      "RestrictionListName": "Emmerich Group",
       "IsVisible": true,
-      "ExtraInfo": "sunt",
-      "Width": "sit",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "non"
+      "ExtraInfo": "maiores",
+      "Width": "nulla",
+      "IconHint": "consequuntur",
+      "HeadingIconHint": "ea"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Padberg, Thompson and Roob",
-      "PrimaryKey": 313,
+      "EntityName": "Rath, Stark and Green",
+      "PrimaryKey": 239,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "unde",
-          "TooltipHint": "sint",
-          "LinkHint": "voluptas"
+          "DisplayValue": "doloribus",
+          "TooltipHint": "saepe",
+          "LinkHint": "nisi"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "in",
+      "LinkHint": "blanditiis",
+      "StyleHint": "sed",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -291,13 +222,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 909
         }
       }
     }
   ],
-  "RowCount": 631,
+  "RowCount": 570,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -306,10 +237,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "maximize dynamic eyeballs"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 213
     }
   }
 }

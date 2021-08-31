@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/SaveDashboardTile
+title: SaveDashboardTile
 id: v1DashboardAgent_SaveDashboardTile
 ---
 
-# POST Agents/Dashboard/SaveDashboardTile
+# SaveDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
@@ -98,42 +98,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 84,
-  "Caption": "cupiditate",
-  "Description": "Ameliorated leading edge toolset",
-  "ChartName": "Denesik LLC",
-  "ChartId": "nihil",
-  "IsDefault": true,
-  "AssociateId": 849,
-  "GroupId": 884,
-  "SelectionId": 844,
-  "Config": "impedit",
+  "DashboardTileId": 267,
+  "Caption": "rerum",
+  "Description": "Optional optimal application",
+  "ChartName": "Hintz-Hintz",
+  "ChartId": "iste",
+  "IsDefault": false,
+  "AssociateId": 280,
+  "GroupId": 67,
+  "SelectionId": 151,
+  "Config": "sunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hyatt Group",
-      "Description": "Diverse systematic circuit",
+      "Name": "Collier LLC",
+      "Description": "Realigned empowering help-desk",
       "Type": "Boolean",
-      "ListName": "Toy LLC",
+      "ListName": "Casper Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "sint",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 24,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "explicabo"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 24,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "explicabo"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -144,29 +144,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 396,
-  "Caption": "consequatur",
-  "Description": "Innovative scalable hardware",
-  "ChartName": "Zieme-D'Amore",
-  "ChartId": "et",
+  "DashboardTileId": 43,
+  "Caption": "et",
+  "Description": "Balanced zero tolerance standardization",
+  "ChartName": "Cummings, Hodkiewicz and Price",
+  "ChartId": "placeat",
   "IsDefault": false,
-  "AssociateId": 727,
-  "GroupId": 85,
-  "SelectionId": 914,
-  "Config": "in",
+  "AssociateId": 51,
+  "GroupId": 880,
+  "SelectionId": 208,
+  "Config": "aliquam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wilkinson LLC",
-      "Description": "Stand-alone grid-enabled portal",
+      "Name": "Schaefer Group",
+      "Description": "User-friendly optimal internet solution",
       "Type": "Boolean",
-      "ListName": "Wehner LLC",
+      "ListName": "Miller-Klein",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "reprehenderit",
+      "Value": "ipsum",
       "DefaultDataOption": true,
       "TableRight": {},
       "FieldProperties": {
@@ -175,42 +175,42 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "dicta",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "incubate world-class niches"
           },
           "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldLength": 64
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "dicta",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "incubate world-class niches"
           },
           "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldLength": 64
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldLength": 338
     }
   }
 }

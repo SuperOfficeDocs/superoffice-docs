@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSaleList
+title: GetSaleList
 id: v1SaleAgent_GetSaleList
 ---
 
-# POST Agents/Sale/GetSaleList
+# GetSaleList
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleList
@@ -94,7 +94,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -103,31 +103,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gerhold Inc and Sons",
-    "SaleDate": "1997-11-04T16:48:30.6159428+01:00",
-    "SaleId": 625,
-    "Probability": 681,
-    "Title": "nisi",
-    "Amount": 13529.478,
-    "Currency": "quibusdam",
-    "ProjectName": "Dare, Dare and McKenzie",
-    "AssociateFullName": "Melyssa Borer",
-    "Description": "Persistent fault-tolerant contingency",
+    "ContactName": "Larson, Balistreri and Gibson",
+    "SaleDate": "2007-01-26T14:58:05.1826237+01:00",
+    "SaleId": 184,
+    "Probability": 268,
+    "Title": "ut",
+    "Amount": 7107.9119999999994,
+    "Currency": "eos",
+    "ProjectName": "Spencer, Stokes and Berge",
+    "AssociateFullName": "Americo Rosenbaum",
+    "Description": "User-friendly optimal approach",
     "Status": "Lost",
-    "WeightedAmount": 11880.993999999999,
-    "ProjectId": 276,
-    "EarningPercent": 25410.471999999998,
-    "Earning": 16042.946,
-    "ContactId": 318,
-    "AssociateId": 889,
-    "PersonId": 629,
-    "SaleTypeId": 931,
-    "SaleTypeName": "Satterfield LLC",
-    "PersonFullName": "Katarina Hills",
+    "WeightedAmount": 18719.381999999998,
+    "ProjectId": 272,
+    "EarningPercent": 12178.724,
+    "Earning": 4045.9939999999997,
+    "ContactId": 680,
+    "AssociateId": 606,
+    "PersonId": 760,
+    "SaleTypeId": 134,
+    "SaleTypeName": "Abshire, Leffler and Huels",
+    "PersonFullName": "Ms. Kamren Parker",
     "Completed": "Completed",
-    "ActiveErpLinks": 590,
-    "NextDueDate": "2018-08-22T16:48:30.6159428+02:00",
-    "Number": "1219606",
+    "ActiveErpLinks": 805,
+    "NextDueDate": "2011-01-19T14:58:05.1826237+01:00",
+    "Number": "1496623",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldType": "System.String",
+        "FieldLength": 817
       }
     }
   }

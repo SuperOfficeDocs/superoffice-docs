@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectEventsOnPerson
+title: GetProjectEventsOnPerson
 id: v1ProjectAgent_GetProjectEventsOnPerson
 ---
 
-# POST Agents/Project/GetProjectEventsOnPerson
+# GetProjectEventsOnPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
@@ -94,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 401
+  "PersonId": 22
 }
 ```
 
@@ -108,28 +108,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Gloria Ferry",
-    "Description": "Re-engineered object-oriented concept",
-    "ProjectId": 620,
-    "EventName": "Brown, Hackett and Braun",
-    "AssociateId": 171,
+    "AssociateFullName": "Benny Bins",
+    "Description": "Cross-group full-range migration",
+    "ProjectId": 158,
+    "EventName": "Robel LLC",
+    "AssociateId": 125,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "qui",
-    "SignOffText": "ex",
-    "SignOnConfirmationText": "rerum",
-    "SignOnText": "consequatur",
-    "EventDate": "2020-02-21T16:48:30.3699347+01:00",
+    "SignOffConfirmationText": "perspiciatis",
+    "SignOffText": "et",
+    "SignOnConfirmationText": "accusantium",
+    "SignOnText": "qui",
+    "EventDate": "2008-07-14T14:58:04.8544603+02:00",
     "Enabled": true,
-    "SignOff": false,
+    "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": true,
-    "SignOffTaskId": 502,
-    "SignOnTaskId": 15,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 756,
-    "SignOffPersonId": 654,
+    "SignOffTaskId": 338,
+    "SignOnTaskId": 115,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 61,
+    "SignOffPersonId": 246,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

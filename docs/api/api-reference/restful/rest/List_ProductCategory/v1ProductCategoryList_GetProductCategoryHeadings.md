@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 732,
-    "Name": "Nitzsche LLC",
-    "Tooltip": "voluptatem",
+    "HeadingId": 882,
+    "Name": "Hand Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 66,
-    "UdListDefinitionId": 399,
+    "Rank": 553,
+    "UdListDefinitionId": 213,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 950
       }
     }
   }

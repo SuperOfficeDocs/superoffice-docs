@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/RemoveSelectionMembers
+title: RemoveSelectionMembers
 id: v1SelectionAgent_RemoveSelectionMembers
 ---
 
-# POST Agents/Selection/RemoveSelectionMembers
+# RemoveSelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/RemoveSelectionMembers

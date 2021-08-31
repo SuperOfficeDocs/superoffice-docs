@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetConsentPurposes
+title: GetConsentPurposes
 id: v1ListAgent_GetConsentPurposes
 ---
 
-# POST Agents/List/GetConsentPurposes
+# GetConsentPurposes
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurposes
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 495,
-    "Name": "Cartwright LLC",
-    "ConsentText": "voluptas",
-    "FormText": "architecto",
-    "Key": "odit",
-    "Tooltip": "illum",
-    "Active": 306,
-    "UpdatedDate": "2016-02-25T16:48:29.7719245+01:00",
+    "ConsentPurposeId": 235,
+    "Name": "Funk-Kohler",
+    "ConsentText": "voluptatibus",
+    "FormText": "temporibus",
+    "Key": "assumenda",
+    "Tooltip": "maiores",
+    "Active": 962,
+    "UpdatedDate": "1997-04-25T14:58:04.3624602+02:00",
     "UpdatedBy": {
-      "AssociateId": 618,
-      "Name": "Maggio-Lehner",
-      "PersonId": 340,
-      "Rank": 309,
-      "Tooltip": "pariatur",
+      "AssociateId": 222,
+      "Name": "Orn Inc and Sons",
+      "PersonId": 101,
+      "Rank": 172,
+      "Tooltip": "assumenda",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 703,
-      "FullName": "Nat Bartell",
-      "FormalName": "Russel Group",
-      "Deleted": true,
-      "EjUserId": 156,
-      "UserName": "DuBuque, Crist and Ratke",
+      "GroupIdx": 455,
+      "FullName": "Mr. Tyreek Boyle",
+      "FormalName": "Kutch Group",
+      "Deleted": false,
+      "EjUserId": 395,
+      "UserName": "Parker LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     },
     "Deleted": true,
-    "Rank": 386,
-    "PrivacyStatementDesc": "aut",
+    "Rank": 758,
+    "PrivacyStatementDesc": "rerum",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

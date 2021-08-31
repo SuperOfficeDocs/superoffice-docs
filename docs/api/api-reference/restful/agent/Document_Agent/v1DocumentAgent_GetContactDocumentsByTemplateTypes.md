@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetContactDocumentsByTemplateTypes
+title: GetContactDocumentsByTemplateTypes
 id: v1DocumentAgent_GetContactDocumentsByTemplateTypes
 ---
 
-# POST Agents/Document/GetContactDocumentsByTemplateTypes
+# GetContactDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 366,
-  "StartTime": "2020-11-01T16:48:29.2818946+01:00",
-  "EndTime": "2011-06-07T16:48:29.2818946+02:00",
-  "Count": 882,
+  "ContactId": 725,
+  "StartTime": "1994-05-05T14:58:03.8084653+02:00",
+  "EndTime": "2013-10-27T14:58:03.8084653+01:00",
+  "Count": 925,
   "DocumentTemplateIds": [
-    729,
-    353
+    561,
+    340
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 768,
-    "Attention": "saepe",
-    "Header": "aut",
-    "Name": "Jakubowski-Stehr",
-    "OurRef": "illum",
-    "YourRef": "cupiditate",
-    "Description": "Future-proofed bandwidth-monitored ability",
-    "DocumentTemplate": "non",
-    "IsPublished": false,
-    "PersonId": 900,
-    "PersonFullName": "Zelda Bergnaum",
-    "AssociateFullName": "Ona Koelpin",
-    "ContactId": 843,
-    "ContactName": "Larkin, Dicki and Wolff",
-    "ProjectId": 928,
-    "ProjectName": "Frami, Kilback and O'Reilly",
-    "AssociateId": 897,
-    "Snum": 867,
+    "DocumentId": 451,
+    "Attention": "et",
+    "Header": "alias",
+    "Name": "Weimann, Batz and Hirthe",
+    "OurRef": "nihil",
+    "YourRef": "nesciunt",
+    "Description": "User-friendly cohesive toolset",
+    "DocumentTemplate": "veritatis",
+    "IsPublished": true,
+    "PersonId": 342,
+    "PersonFullName": "Darrin Lowe",
+    "AssociateFullName": "Princess Ward",
+    "ContactId": 148,
+    "ContactName": "Durgan LLC",
+    "ProjectId": 469,
+    "ProjectName": "Auer-Fay",
+    "AssociateId": 865,
+    "Snum": 665,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldLength": 579
       }
     }
   }

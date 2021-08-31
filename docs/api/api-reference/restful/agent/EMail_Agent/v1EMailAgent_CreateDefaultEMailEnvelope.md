@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateDefaultEMailEnvelope
+title: CreateDefaultEMailEnvelope
 id: v1EMailAgent_CreateDefaultEMailEnvelope
 ---
 
-# POST Agents/EMail/CreateDefaultEMailEnvelope
+# CreateDefaultEMailEnvelope
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 442,
-  "MessageId": "pariatur",
-  "Subject": "sapiente",
+  "ServerId": 162,
+  "MessageId": "vel",
+  "Subject": "itaque",
   "From": {
-    "ContactId": 408,
-    "ContactName": "Kshlerin, Bogisich and Ferry",
-    "PersonId": 945,
-    "PersonName": "Torp Group",
-    "AssociateId": 300,
-    "Address": "illo",
-    "EmailId": 403,
+    "ContactId": 944,
+    "ContactName": "Farrell Inc and Sons",
+    "PersonId": 591,
+    "PersonName": "Roberts, Muller and Ratke",
+    "AssociateId": 424,
+    "Address": "tenetur",
+    "EmailId": 149,
     "DuplicatePersonIds": [
-      848,
-      70
+      436,
+      641
     ],
-    "Name": "Howe Group",
+    "Name": "Kohler LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 913
       }
     }
   },
   "To": [
     {
-      "ContactId": 7,
-      "ContactName": "Funk-Carter",
-      "PersonId": 58,
-      "PersonName": "Breitenberg-Gibson",
-      "AssociateId": 767,
-      "Address": "corporis",
-      "EmailId": 101,
+      "ContactId": 709,
+      "ContactName": "McCullough Inc and Sons",
+      "PersonId": 574,
+      "PersonName": "Marvin Inc and Sons",
+      "AssociateId": 645,
+      "Address": "eos",
+      "EmailId": 296,
       "DuplicatePersonIds": [
-        365,
-        594
+        380,
+        928
       ],
-      "Name": "Cartwright-Fay",
+      "Name": "Jaskolski-Hickle",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -129,33 +129,33 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 978
         }
       }
     }
   ],
-  "Sent": "2012-09-26T16:48:29.5599244+02:00",
+  "Sent": "2013-07-02T14:58:04.1794601+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 406,
+  "Size": 459,
   "EMailSOInfo": {
-    "DocumentId": 127,
-    "AppointmentId": 778,
-    "ProjectId": 101,
-    "SaleId": 55,
-    "Archived": true,
-    "ArchivedAt": "2012-02-15T16:48:29.5599244+01:00",
-    "ArchivedBy": 74,
-    "ArchivedDisplayName": "Crona, Skiles and Bayer",
+    "DocumentId": 269,
+    "AppointmentId": 798,
+    "ProjectId": 474,
+    "SaleId": 695,
+    "Archived": false,
+    "ArchivedAt": "2016-12-14T14:58:04.1794601+01:00",
+    "ArchivedBy": 596,
+    "ArchivedDisplayName": "Bartell-Johnston",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "e-enable plug-and-play users"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldLength": 315
       }
     }
   },
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

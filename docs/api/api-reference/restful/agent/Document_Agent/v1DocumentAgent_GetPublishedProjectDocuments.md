@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPublishedProjectDocuments
+title: GetPublishedProjectDocuments
 id: v1DocumentAgent_GetPublishedProjectDocuments
 ---
 
-# POST Agents/Document/GetPublishedProjectDocuments
+# GetPublishedProjectDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 579
+  "ProjectId": 758
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 447,
-    "Attention": "et",
-    "Header": "sint",
-    "Name": "Trantow Inc and Sons",
-    "OurRef": "repellat",
-    "YourRef": "doloribus",
-    "Description": "Switchable intermediate success",
-    "DocumentTemplate": "est",
-    "IsPublished": false,
-    "PersonId": 922,
-    "PersonFullName": "Kareem Mann",
-    "AssociateFullName": "Demetris McDermott Jr.",
-    "ContactId": 343,
-    "ContactName": "Bayer-Sauer",
-    "ProjectId": 133,
-    "ProjectName": "Barrows, Carroll and Schultz",
-    "AssociateId": 556,
-    "Snum": 713,
+    "DocumentId": 544,
+    "Attention": "est",
+    "Header": "consectetur",
+    "Name": "Kshlerin, Altenwerth and Daniel",
+    "OurRef": "et",
+    "YourRef": "omnis",
+    "Description": "Mandatory needs-based instruction set",
+    "DocumentTemplate": "dolorum",
+    "IsPublished": true,
+    "PersonId": 714,
+    "PersonFullName": "Clemens Blick",
+    "AssociateFullName": "Cordell Breitenberg",
+    "ContactId": 819,
+    "ContactName": "Mann Group",
+    "ProjectId": 451,
+    "ProjectName": "Hilpert-Effertz",
+    "AssociateId": 776,
+    "Snum": 903,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -130,10 +130,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "envisioneer customized experiences"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/AddSelectionMembersFromSearch
+title: AddSelectionMembersFromSearch
 id: v1SelectionAgent_AddSelectionMembersFromSearch
 ---
 
-# POST Agents/Selection/AddSelectionMembersFromSearch
+# AddSelectionMembersFromSearch
 
 ```http
 POST /api/v1/Agents/Selection/AddSelectionMembersFromSearch
@@ -69,12 +69,12 @@ Response body: int32
 POST /api/v1/Agents/Selection/AddSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 893,
-  "StorageKey": "ducimus"
+  "SelectionId": 321,
+  "StorageKey": "voluptas"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-843
+563
 ```

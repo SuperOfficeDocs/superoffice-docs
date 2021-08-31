@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetProbabilityFromStage
+title: GetProbabilityFromStage
 id: v1SaleAgent_GetProbabilityFromStage
 ---
 
-# POST Agents/Sale/GetProbabilityFromStage
+# GetProbabilityFromStage
 
 ```http
 POST /api/v1/Agents/Sale/GetProbabilityFromStage
@@ -68,11 +68,11 @@ Response body: int32
 POST /api/v1/Agents/Sale/GetProbabilityFromStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StageId": 209
+  "StageId": 676
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-556
+783
 ```

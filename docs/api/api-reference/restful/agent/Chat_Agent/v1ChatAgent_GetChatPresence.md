@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/GetChatPresence
+title: GetChatPresence
 id: v1ChatAgent_GetChatPresence
 ---
 
-# POST Agents/Chat/GetChatPresence
+# GetChatPresence
 
 ```http
 POST /api/v1/Agents/Chat/GetChatPresence
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,13 +77,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 725,
-    "DisplayName": "Christiansen Inc and Sons",
-    "OngoingChats": 921,
+    "UserId": 667,
+    "DisplayName": "Kautzer Group",
+    "OngoingChats": 607,
     "Present": true,
     "ChatTopics": [
-      510,
-      363
+      773,
+      436
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldLength": 576
       }
     }
   }

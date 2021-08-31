@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Dickens-Corkery",
-  "Tooltip": "nihil",
+  "Id": 779,
+  "Name": "Lowe, Ritchie and Kozey",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 956,
-  "Rank": 730
+  "UdListDefinitionId": 560,
+  "Rank": 769
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Davis Inc and Sons",
-  "Tooltip": "reiciendis",
+  "Id": 660,
+  "Name": "Zemlak Group",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 81,
-  "Rank": 970,
+  "UdListDefinitionId": 184,
+  "Rank": 288,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

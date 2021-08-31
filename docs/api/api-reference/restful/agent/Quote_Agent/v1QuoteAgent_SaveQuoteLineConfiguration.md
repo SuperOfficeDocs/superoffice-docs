@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteLineConfiguration
+title: SaveQuoteLineConfiguration
 id: v1QuoteAgent_SaveQuoteLineConfiguration
 ---
 
-# POST Agents/Quote/SaveQuoteLineConfiguration
+# SaveQuoteLineConfiguration
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
@@ -86,20 +86,20 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfiguration": {
-    "QuoteLineConfigurationId": 134,
-    "FieldName": "Heller LLC",
-    "Label": "officia",
-    "Tooltip": "quos",
+    "QuoteLineConfigurationId": 735,
+    "FieldName": "Runolfsson Group",
+    "Label": "ut",
+    "Tooltip": "eveniet",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 352,
-    "RestrictEdit": false
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 341,
+    "RestrictEdit": true
   }
 }
 ```
@@ -109,15 +109,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 70,
-  "FieldName": "Pagac Inc and Sons",
-  "Label": "explicabo",
-  "Tooltip": "minima",
+  "QuoteLineConfigurationId": 909,
+  "FieldName": "Spencer-Miller",
+  "Label": "qui",
+  "Tooltip": "dolore",
   "Editable": true,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 603,
-  "RestrictEdit": false,
+  "Mandatory": false,
+  "Rank": 991,
+  "RestrictEdit": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   }
 }

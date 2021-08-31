@@ -54,7 +54,7 @@ Response body: object
 GET /api/v1/Document/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -62,7 +62,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sed",
-  "2": "rerum"
+  "1": "et",
+  "2": "quaerat"
 }
 ```

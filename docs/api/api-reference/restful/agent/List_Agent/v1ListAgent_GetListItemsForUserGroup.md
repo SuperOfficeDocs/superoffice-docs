@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetListItemsForUserGroup
+title: GetListItemsForUserGroup
 id: v1ListAgent_GetListItemsForUserGroup
 ---
 
-# POST Agents/List/GetListItemsForUserGroup
+# GetListItemsForUserGroup
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroup
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 290,
-  "GroupId": 317
+  "UdListDefinitionId": 984,
+  "GroupId": 318
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Muller, Gutkowski and Wisoky",
-    "ToolTip": "In est.",
+    "Id": 817,
+    "Name": "Green, Bergnaum and Gusikowski",
+    "ToolTip": "Optio cupiditate.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "perferendis",
-    "ColorBlock": 328,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2007-09-02T16:48:29.879895+02:00",
+    "Rank": 141,
+    "Type": "deleniti",
+    "ColorBlock": 563,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2005-11-23T14:58:04.4194656+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Mohr, Mills and Hickle",
-        "ToolTip": "Ut voluptas sint impedit a recusandae repellendus.",
-        "Deleted": true,
-        "Rank": 536,
-        "Type": "quos",
-        "ColorBlock": 501,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2012-07-07T16:48:29.879895+02:00",
+        "Id": 669,
+        "Name": "Bruen-Runolfsson",
+        "ToolTip": "Nihil et voluptas et totam voluptatem.",
+        "Deleted": false,
+        "Rank": 494,
+        "Type": "in",
+        "ColorBlock": 260,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2005-12-12T14:58:04.4194656+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "numquam",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "alias",
         "Hidden": true,
-        "FullName": "Leola Zieme",
+        "FullName": "Lilla Kuhlman",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 997
+            "FieldLength": 950
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "sunt",
+    "ExtraInfo": "dolores",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Mrs. Wilber Kirlin",
+    "FullName": "Alta Breitenberg III",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

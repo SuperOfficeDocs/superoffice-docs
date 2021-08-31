@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/MarkAsRead
+title: MarkAsRead
 id: v1EMailAgent_MarkAsRead
 ---
 
-# POST Agents/EMail/MarkAsRead
+# MarkAsRead
 
 ```http
 POST /api/v1/Agents/EMail/MarkAsRead

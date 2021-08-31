@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "O'Reilly-Kemmer",
-    "ToolTip": "Id deleniti quasi aut quo.",
+    "Id": 63,
+    "Name": "Russel Inc and Sons",
+    "ToolTip": "Veritatis excepturi.",
     "Deleted": false,
-    "Rank": 217,
-    "Type": "quam",
-    "ColorBlock": 73,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2003-04-05T09:41:00.5083556+02:00",
+    "Rank": 544,
+    "Type": "ex",
+    "ColorBlock": 178,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-07-05T15:05:43.5760796+02:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Bartell-Wehner",
-        "ToolTip": "Iure corporis saepe.",
+        "Id": 656,
+        "Name": "Torp Inc and Sons",
+        "ToolTip": "Soluta qui fuga.",
         "Deleted": true,
-        "Rank": 933,
-        "Type": "laudantium",
-        "ColorBlock": 694,
-        "IconHint": "occaecati",
+        "Rank": 782,
+        "Type": "distinctio",
+        "ColorBlock": 928,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2017-08-30T09:41:00.5083556+02:00",
+        "LastChanged": "1998-12-02T15:05:43.5760796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Angelo Kling",
+        "ExtraInfo": "ea",
+        "StyleHint": "dolorum",
+        "Hidden": true,
+        "FullName": "Zander Borer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldLength": 193
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Rosie Botsford",
+    "ExtraInfo": "non",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Kelli Torp I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "innovate 24/7 e-commerce"
         },
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 955
       }
     }
   }

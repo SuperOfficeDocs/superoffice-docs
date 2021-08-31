@@ -111,7 +111,7 @@ Response body: object
 GET /api/v1/Project/{projectId}/NextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -119,53 +119,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 699,
-  "StartDate": "2018-02-14T09:40:59.4846627+01:00",
-  "EndDate": "2005-05-25T09:40:59.4846627+02:00",
+  "AppointmentId": 998,
+  "StartDate": "2012-03-06T15:05:42.4866346+01:00",
+  "EndDate": "2007-11-04T15:05:42.4866346+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quia",
-  "AssociateFullName": "Miss Abagail Predovic",
-  "ContactName": "Kohler, Kessler and Reichel",
-  "Description": "Ameliorated human-resource extranet",
-  "PersonFullName": "Ethyl Davis",
-  "PersonId": 628,
-  "ContactId": 876,
-  "ProjectId": 156,
-  "ProjectName": "Oberbrunner, Dibbert and Kutch",
+  "Task": "debitis",
+  "AssociateFullName": "Torrance Sauer",
+  "ContactName": "Turcotte-Adams",
+  "Description": "Diverse content-based throughput",
+  "PersonFullName": "Javonte Gulgowski",
+  "PersonId": 105,
+  "ContactId": 392,
+  "ProjectId": 364,
+  "ProjectName": "Hand, Spinka and Heaney",
   "IsPublished": false,
-  "AssociateId": 573,
-  "ColorIndex": 294,
-  "IsFree": true,
+  "AssociateId": 951,
+  "ColorIndex": 247,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 332,
-  "PriorityName": "McGlynn Inc and Sons",
+  "PriorityId": 940,
+  "PriorityName": "Kertzmann-Denesik",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2015-05-24T09:40:59.4856627+02:00",
+  "IsRecurrence": true,
+  "IsBooking": false,
+  "ActiveDate": "2005-07-04T15:05:42.4866346+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2006-06-09T09:40:59.4856627+02:00",
-  "RecurringEndDate": "2004-04-05T09:40:59.4856627+02:00",
-  "MotherId": 148,
-  "AssignedBy": 492,
-  "AssignedByFullName": "Elmira Hamill",
-  "RejectReason": "",
-  "Location": "quo",
-  "AlarmLeadTime": "quia",
-  "SaleId": 674,
-  "SaleName": "Beahan-Quigley",
-  "AssociateName": "Davis, Lesch and Keebler",
-  "CreatedDate": "2010-07-15T09:40:59.4856627+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Dawson Simonis I",
-  "CreatedByAssociateId": 347,
+  "RecurringStartDate": "2007-03-15T15:05:42.4866346+01:00",
+  "RecurringEndDate": "2003-07-01T15:05:42.4866346+02:00",
+  "MotherId": 513,
+  "AssignedBy": 314,
+  "AssignedByFullName": "Davion Ferry",
+  "RejectReason": "incubate global synergies",
+  "Location": "quisquam",
+  "AlarmLeadTime": "non",
+  "SaleId": 76,
+  "SaleName": "Smith Inc and Sons",
+  "AssociateName": "Bernhard Group",
+  "CreatedDate": "1999-08-22T15:05:42.4866346+02:00",
+  "CreatedBy": "dicta",
+  "CreatedByFullName": "Archibald Homenick",
+  "CreatedByAssociateId": 802,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 287
     }
   }
 }

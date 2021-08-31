@@ -18,7 +18,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| state | Enum: Unknown, New, Aquired, Started, Succeeded, Failed, All | The BatchTaskState to get batch tasks for. **Required** |
+| state | Enum: Unknown, New, Aquired, Started, Succeeded, Failed, SucceededManualCleanup, All | The BatchTaskState to get batch tasks for. **Required** |
 
 
 
@@ -68,6 +68,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -86,29 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Hirthe, Friesen and Goodwin",
-    "AssociateId": 532,
-    "DetailsTable": 199,
-    "DetailsRecord": 720,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 832,
+    "Name": "Auer, Gaylord and Spencer",
+    "AssociateId": 702,
+    "DetailsTable": 40,
+    "DetailsRecord": 947,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "similique",
-      "ParameterObject2": "quisquam"
+      "ParameterObject1": "ipsam",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2000-06-24T09:40:59.9140644+02:00",
-    "Created": "2000-06-07T09:40:59.9140644+02:00",
-    "StartCount": 358,
-    "DatabaseSerialNumber": "1246285",
-    "Context": "commodi",
-    "Result": "saepe",
+    "LastStarted": "2010-09-20T15:05:42.9696325+02:00",
+    "Created": "2012-05-05T15:05:42.9696325+02:00",
+    "StartCount": 268,
+    "DatabaseSerialNumber": "651269",
+    "Context": "quisquam",
+    "Result": "consectetur",
     "State": "All",
-    "Description": "Multi-layered optimizing infrastructure",
-    "Response": "quia",
-    "Request": "et",
-    "ProgressDescription": "Devolved zero defect capability",
-    "ProgressPercent": 254,
+    "Description": "Operative clear-thinking firmware",
+    "Response": "et",
+    "Request": "magni",
+    "ProgressDescription": "Optimized composite standardization",
+    "ProgressPercent": 332,
+    "FileName": "Mitchell Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

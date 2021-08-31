@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteLine
+title: GetQuoteLine
 id: v1QuoteAgent_GetQuoteLine
 ---
 
-# POST Agents/Quote/GetQuoteLine
+# GetQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLine
@@ -130,7 +130,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 582
+  "QuoteLineId": 435
 }
 ```
 
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 691,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 387,
-  "ERPProductKey": "et",
+  "QuoteLineId": 510,
+  "ERPQuoteLineKey": "architecto",
+  "QuoteAlternativeId": 135,
+  "ERPProductKey": "molestiae",
   "Status": "Error",
-  "Reason": "extend dynamic schemas",
-  "Quantity": 16237.253999999999,
-  "DeliveredQuantity": 13833.475999999999,
-  "Rank": 839,
-  "Name": "Runolfsdottir, Rau and Roob",
-  "Description": "Synergized demand-driven migration",
-  "Code": "debitis",
-  "QuantityUnit": "voluptatem",
-  "PriceUnit": "eos",
-  "ItemNumber": "697219",
+  "Reason": "",
+  "Quantity": 17302.814,
+  "DeliveredQuantity": 26842.71,
+  "Rank": 217,
+  "Name": "Beatty LLC",
+  "Description": "Realigned asynchronous infrastructure",
+  "Code": "ad",
+  "QuantityUnit": "dolorem",
+  "PriceUnit": "incidunt",
+  "ItemNumber": "944984",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "dolores",
-  "Supplier": "et",
-  "SupplierCode": "eos",
-  "Thumbnail": "est",
-  "VATInfo": "consequuntur",
-  "VAT": 19781.808,
-  "UnitCost": 11824.582,
-  "UnitMinimumPrice": 22069.628,
-  "UnitListPrice": 7245.808,
+  "ProductFamilyKey": "magni",
+  "ProductTypeKey": "perferendis",
+  "Supplier": "inventore",
+  "SupplierCode": "quo",
+  "Thumbnail": "ipsum",
+  "VATInfo": "id",
+  "VAT": 9677.792,
+  "UnitCost": 6728.6979999999994,
+  "UnitMinimumPrice": 18311.962,
+  "UnitListPrice": 7640.692,
   "ExtraInfo": [
     {
-      "Name": "Price-Cummerata",
-      "Value": "modi",
+      "Name": "Medhurst-Hermiston",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -179,13 +179,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldLength": 390
         }
       }
     },
     {
-      "Name": "Price-Cummerata",
-      "Value": "modi",
+      "Name": "Medhurst-Hermiston",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -195,32 +195,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldLength": 390
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
+  "RawExtraInfo": "voluptatem",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptates",
-  "SubscriptionQuantity": 11417.162,
-  "SubscriptionStart": "2009-11-13T16:48:30.4039345+01:00",
-  "ERPDiscountPercent": 2538.54,
-  "ERPDiscountAmount": 14880.232,
-  "DiscountPercent": 3265.6279999999997,
-  "DiscountAmount": 30145.946,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 3262.4939999999997,
+  "SubscriptionStart": "2014-07-05T14:58:04.9834651+02:00",
+  "ERPDiscountPercent": 50.144,
+  "ERPDiscountAmount": 29657.041999999998,
+  "DiscountPercent": 9414.536,
+  "DiscountAmount": 12974.76,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27723.363999999998,
-  "EarningAmount": 12777.318,
-  "SubTotal": 3058.784,
-  "TotalPrice": 19625.108,
-  "Rights": "voluptatibus",
-  "Rule": "eos",
-  "ExtraField1": "alias",
-  "ExtraField2": "sed",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "esse",
-  "ExtraField5": "consequatur",
+  "EarningPercent": 5528.376,
+  "EarningAmount": 24984.248,
+  "SubTotal": 1773.844,
+  "TotalPrice": 11191.514,
+  "Rights": "nemo",
+  "Rule": "ex",
+  "ExtraField1": "quia",
+  "ExtraField2": "quas",
+  "ExtraField3": "autem",
+  "ExtraField4": "quis",
+  "ExtraField5": "doloribus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -231,8 +231,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

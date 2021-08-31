@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/CreateNewEntry
+title: CreateNewEntry
 id: v1ContactAgent_CreateNewEntry
 ---
 
-# POST Agents/Contact/CreateNewEntry
+# CreateNewEntry
 
 ```http
 POST /api/v1/Agents/Contact/CreateNewEntry
@@ -68,16 +68,16 @@ Response body: int32
 POST /api/v1/Agents/Contact/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Duplicate": {
-    "RuleName": "Boehm-Heaney",
-    "SoPrimaryKey": 225,
-    "EntryName": "Schumm, Swift and Mohr",
-    "EntryIdentifier": "numquam",
-    "RuleDisplayName": "Abernathy-McCullough"
+    "RuleName": "Buckridge, Parker and Gibson",
+    "SoPrimaryKey": 751,
+    "EntryName": "Rau Group",
+    "EntryIdentifier": "iste",
+    "RuleDisplayName": "Greenfelder, Wehner and Bruen"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-926
+450
 ```

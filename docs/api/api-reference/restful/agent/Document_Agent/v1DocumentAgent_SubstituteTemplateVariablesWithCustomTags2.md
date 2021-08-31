@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags2
+title: SubstituteTemplateVariablesWithCustomTags2
 id: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags2
 ---
 
-# POST Agents/Document/SubstituteTemplateVariablesWithCustomTags2
+# SubstituteTemplateVariablesWithCustomTags2
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
@@ -78,24 +78,24 @@ Response body: string
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "eos",
+  "Source": "assumenda",
   "GeneratorEncoding": "Html",
   "CustomTags": {
-    "CustomTags1": "exercitationem",
-    "CustomTags2": "nulla"
+    "CustomTags1": "eligendi",
+    "CustomTags2": "explicabo"
   },
-  "ContactId": 211,
-  "PersonId": 328,
-  "AppointmentId": 454,
+  "ContactId": 202,
+  "PersonId": 437,
+  "AppointmentId": 465,
   "DocumentId": 474,
-  "SaleId": 924,
-  "SelectionId": 785,
-  "ProjectId": 154,
-  "CultureName": "sv"
+  "SaleId": 234,
+  "SelectionId": 701,
+  "ProjectId": 686,
+  "CultureName": "en"
 }
 ```
 
@@ -103,5 +103,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"labore"
 ```

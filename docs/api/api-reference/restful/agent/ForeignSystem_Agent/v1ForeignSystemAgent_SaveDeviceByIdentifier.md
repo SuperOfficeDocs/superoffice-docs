@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/SaveDeviceByIdentifier
+title: SaveDeviceByIdentifier
 id: v1ForeignSystemAgent_SaveDeviceByIdentifier
 ---
 
-# POST Agents/ForeignSystem/SaveDeviceByIdentifier
+# SaveDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
@@ -89,23 +89,23 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisozk Group",
-  "DeviceName": "Lakin LLC",
-  "DeviceIdentifier": "est",
+  "ApplicationName": "Wyman-Reichert",
+  "DeviceName": "Parker Group",
+  "DeviceIdentifier": "culpa",
   "ForeignDevice": {
-    "ForeignDeviceId": 59,
-    "Name": "Volkman-Hamill",
-    "CreatedDate": "2003-12-20T16:48:29.7089243+01:00",
-    "UpdatedDate": "2003-07-04T16:48:29.7089243+02:00",
-    "AssociateFullName": "Ellsworth Okuneva Sr.",
-    "CreatedBy": "possimus",
-    "UpdatedBy": "deleniti",
-    "DeviceIdentifier": "fugit",
-    "ForeignAppId": 31
+    "ForeignDeviceId": 155,
+    "Name": "Kiehn-Beatty",
+    "CreatedDate": "1998-03-15T14:58:04.3034634+01:00",
+    "UpdatedDate": "2001-07-23T14:58:04.3034634+02:00",
+    "AssociateFullName": "Roberto Graham",
+    "CreatedBy": "sed",
+    "UpdatedBy": "magnam",
+    "DeviceIdentifier": "natus",
+    "ForeignAppId": 167
   }
 }
 ```
@@ -115,15 +115,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 940,
-  "Name": "Moen, Windler and Grady",
-  "CreatedDate": "2010-07-17T16:48:29.7099263+02:00",
-  "UpdatedDate": "2008-03-26T16:48:29.7099263+01:00",
-  "AssociateFullName": "Bobbie Powlowski",
-  "CreatedBy": "dicta",
-  "UpdatedBy": "cum",
-  "DeviceIdentifier": "atque",
-  "ForeignAppId": 25,
+  "ForeignDeviceId": 213,
+  "Name": "Lueilwitz Inc and Sons",
+  "CreatedDate": "2018-07-15T14:58:04.30446+02:00",
+  "UpdatedDate": "2016-04-07T14:58:04.30446+02:00",
+  "AssociateFullName": "Cesar Simonis",
+  "CreatedBy": "nihil",
+  "UpdatedBy": "dolores",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 653,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 419
     }
   }
 }

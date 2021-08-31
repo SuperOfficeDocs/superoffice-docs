@@ -91,7 +91,7 @@ Response body: object
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -99,24 +99,24 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 211,
-  "Section": "rem",
-  "Key": "asperiores",
-  "Name": "Herzog-Roob",
+  "PrefDescId": 504,
+  "Section": "eum",
+  "Key": "ipsam",
+  "Name": "Kemmer, Walker and Carter",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Devolved zero administration process improvement",
+  "Description": "Grass-roots secondary service-desk",
   "IsBuiltin": true,
-  "TableName": "Crist, Berge and Muller",
-  "UserDefinedListId": 78,
-  "Rank": 921,
-  "SubGroup": "blanditiis",
-  "MinLevel": 291,
-  "MaxValue": 466,
-  "MinValue": 955,
-  "RequiredLicense": "quas",
+  "TableName": "Christiansen-Koch",
+  "UserDefinedListId": 758,
+  "Rank": 884,
+  "SubGroup": "est",
+  "MinLevel": 327,
+  "MaxValue": 293,
+  "MinValue": 388,
+  "RequiredLicense": "ullam",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 737
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

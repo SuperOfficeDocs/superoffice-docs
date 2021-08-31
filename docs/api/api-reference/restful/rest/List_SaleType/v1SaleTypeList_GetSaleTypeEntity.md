@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,47 +89,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 231,
-  "Name": "Heaney, Cummerata and Deckow",
+  "SaleTypeId": 394,
+  "Name": "Watsica-Casper",
   "Tooltip": "id",
-  "Rank": 554,
+  "Rank": 776,
   "DurationUnit": "Century",
-  "SaleDuration": 527,
-  "SaleTypeCatId": 123,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 930,
-  "QuoteLinesTemplate": 981,
-  "ConfirmationLinesTemplate": 733,
+  "SaleDuration": 604,
+  "SaleTypeCatId": 917,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 141,
+  "QuoteLinesTemplate": 71,
+  "ConfirmationLinesTemplate": 750,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 345,
-  "MinEarningPercent": 913,
-  "GroupQuoteLinesBy": 46,
-  "SortGroupLinesBy": 533,
+  "MaxDiscountPercent": 721,
+  "MinEarningPercent": 526,
+  "GroupQuoteLinesBy": 392,
+  "SortGroupLinesBy": 209,
   "Stages": [
     {
-      "Id": 731,
-      "Name": "Waters, Reichel and Mante",
-      "ToolTip": "Voluptas voluptas aperiam.",
+      "Id": 20,
+      "Name": "Senger-Grant",
+      "ToolTip": "Maxime culpa sint sit recusandae.",
       "Deleted": true,
-      "Rank": 401,
-      "Type": "earum",
-      "ColorBlock": 636,
-      "IconHint": "provident",
+      "Rank": 437,
+      "Type": "qui",
+      "ColorBlock": 451,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2011-11-23T09:41:00.7313876+01:00",
+      "LastChanged": "2018-04-12T15:05:43.7911224+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Miss Eldora Weimann",
+      "ExtraInfo": "beatae",
+      "StyleHint": "qui",
+      "Hidden": false,
+      "FullName": "Nia Miller",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
@@ -151,10 +151,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "morph integrated supply-chains"
       },
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 859
     }
   }
 }

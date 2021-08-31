@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetOwnerOnPersonId
+title: GetOwnerOnPersonId
 id: v1PersonAgent_GetOwnerOnPersonId
 ---
 
-# POST Agents/Person/GetOwnerOnPersonId
+# GetOwnerOnPersonId
 
 ```http
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
@@ -113,11 +113,11 @@ Response body: object
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 583
+  "PersonId": 697
 }
 ```
 
@@ -126,45 +126,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ut",
-  "PersonId": 823,
-  "Mrmrs": "rerum",
-  "Firstname": "Nikolas",
-  "Lastname": "Rogahn",
-  "MiddleName": "Berge LLC",
-  "Title": "est",
-  "Description": "Organized value-added moratorium",
-  "Email": "henderson@ledner.uk",
-  "FullName": "Dr. Abdul Abshire",
-  "DirectPhone": "1-527-522-1704 x488",
-  "FormalName": "Mante LLC",
-  "CountryId": 210,
-  "ContactId": 203,
-  "ContactName": "Kunze-Fritsch",
-  "Retired": 594,
-  "Rank": 943,
-  "ActiveInterests": 471,
+  "Position": "iste",
+  "PersonId": 805,
+  "Mrmrs": "maxime",
+  "Firstname": "Burdette",
+  "Lastname": "Koelpin",
+  "MiddleName": "Torp-Waelchi",
+  "Title": "eligendi",
+  "Description": "Distributed static migration",
+  "Email": "lon@langoshfadel.com",
+  "FullName": "Ms. Kari Goodwin",
+  "DirectPhone": "(610)161-4135 x75886",
+  "FormalName": "Stracke-Labadie",
+  "CountryId": 278,
+  "ContactId": 824,
+  "ContactName": "Wolff Inc and Sons",
+  "Retired": 849,
+  "Rank": 289,
+  "ActiveInterests": 670,
   "ContactDepartment": "",
-  "ContactCountryId": 900,
-  "ContactOrgNr": "853792",
-  "FaxPhone": "202-510-8271 x3415",
-  "MobilePhone": "(865)508-7554 x2022",
-  "ContactPhone": "1-377-174-2260 x5130",
-  "AssociateName": "Barton, Casper and Bailey",
-  "AssociateId": 292,
+  "ContactCountryId": 39,
+  "ContactOrgNr": "886032",
+  "FaxPhone": "207-423-6281",
+  "MobilePhone": "(382)064-4410",
+  "ContactPhone": "(476)817-0048",
+  "AssociateName": "Mosciski, Murazik and Kunze",
+  "AssociateId": 50,
   "UsePersonAddress": false,
-  "ContactFax": "ad",
-  "Kanafname": "ullam",
-  "Kanalname": "odio",
-  "Post1": "et",
-  "Post2": "et",
-  "Post3": "tempore",
-  "EmailName": "bernice_mosciski@waelchiquitzon.com",
-  "ContactFullName": "Holden Watsica",
-  "ActiveErpLinks": 607,
-  "TicketPriorityId": 405,
-  "SupportLanguageId": 781,
-  "SupportAssociateId": 447,
+  "ContactFax": "numquam",
+  "Kanafname": "veniam",
+  "Kanalname": "quidem",
+  "Post1": "iste",
+  "Post2": "error",
+  "Post3": "earum",
+  "EmailName": "jovany_larkin@ziemann.biz",
+  "ContactFullName": "Diego Schuppe",
+  "ActiveErpLinks": 199,
+  "TicketPriorityId": 928,
+  "SupportLanguageId": 721,
+  "SupportAssociateId": 138,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

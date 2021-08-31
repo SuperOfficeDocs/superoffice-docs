@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumns
+title: GetArchiveListByColumns
 id: v1ArchiveAgent_GetArchiveListByColumns
 ---
 
-# POST Agents/Archive/GetArchiveListByColumns
+# GetArchiveListByColumns
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
@@ -15,83 +15,26 @@ Get a page of results for an archive list, explicitly specifying the restriction
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -166,54 +109,54 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Herman LLC",
+  "ProviderName": "McDermott Inc and Sons",
   "Columns": [
-    "dolorum",
-    "eveniet"
+    "sunt",
+    "perferendis"
   ],
   "SortOrder": [
     {
-      "Name": "Lockman-Wehner",
+      "Name": "Bednar Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Lockman-Wehner",
+      "Name": "Bednar Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Jewess, Mayer and Jaskolski",
-      "Operator": "itaque",
+      "Name": "Beier Inc and Sons",
+      "Operator": "rem",
       "Values": [
-        "sapiente",
-        "animi"
+        "at",
+        "aut"
       ],
       "DisplayValues": [
-        "quas",
-        "possimus"
+        "sit",
+        "omnis"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 675,
+      "InterParenthesis": 90,
       "InterOperator": "And",
-      "UniqueHash": 563
+      "UniqueHash": 981
     }
   ],
   "Entities": [
-    "quod",
-    "quam"
+    "velit",
+    "deserunt"
   ],
-  "Page": 464,
-  "PageSize": 510
+  "Page": 473,
+  "PageSize": 436
 }
 ```
 
@@ -223,17 +166,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stark Group",
-    "PrimaryKey": 498,
+    "EntityName": "Lehner, Kshlerin and Wisoky",
+    "PrimaryKey": 485,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "vel",
-        "TooltipHint": "eaque",
-        "LinkHint": "adipisci"
+        "DisplayValue": "aperiam",
+        "TooltipHint": "vero",
+        "LinkHint": "quis"
       }
     },
-    "LinkHint": "excepturi",
-    "StyleHint": "quasi",
+    "LinkHint": "fuga",
+    "StyleHint": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -244,8 +187,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

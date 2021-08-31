@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveListEntity
+title: SaveListEntity
 id: v1ListAgent_SaveListEntity
 ---
 
-# POST Agents/List/SaveListEntity
+# SaveListEntity
 
 ```http
 POST /api/v1/Agents/List/SaveListEntity
@@ -86,20 +86,20 @@ Response body: object
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Mante-Brekke",
-  "Tooltip": "dignissimos",
+  "Id": 892,
+  "Name": "Greenholt-Stracke",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 282,
+  "Rank": 269,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iste",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,16 +108,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 710,
-  "Name": "Tillman LLC",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 179,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 179,
+  "Name": "Kling LLC",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 68,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ipsum",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 690
     }
   }
 }

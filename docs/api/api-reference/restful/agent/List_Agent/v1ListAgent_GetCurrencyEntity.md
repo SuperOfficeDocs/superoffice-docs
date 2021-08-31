@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCurrencyEntity
+title: GetCurrencyEntity
 id: v1ListAgent_GetCurrencyEntity
 ---
 
-# POST Agents/List/GetCurrencyEntity
+# GetCurrencyEntity
 
 ```http
 POST /api/v1/Agents/List/GetCurrencyEntity
@@ -25,7 +25,7 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=684
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=352
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -81,12 +81,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 338,
-  "Name": "Ruecker, Rohan and Veum",
-  "Tooltip": "ipsam",
-  "Rank": 227,
-  "Rate": 28672.966,
-  "Units": 13272.49,
+  "CurrencyId": 258,
+  "Name": "Nitzsche LLC",
+  "Tooltip": "ullam",
+  "Rank": 684,
+  "Rate": 5857.446,
+  "Units": 26773.762,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplates
+title: GetDocumentTemplates
 id: v1ListAgent_GetDocumentTemplates
 ---
 
-# POST Agents/List/GetDocumentTemplates
+# GetDocumentTemplates
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplates
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -83,16 +83,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 813,
-    "Name": "Prohaska Group",
-    "Tooltip": "animi",
-    "SaveInDb": 166,
-    "Filename": "doloremque",
-    "DefaultOref": "possimus",
+    "DocumentTemplateId": 171,
+    "Name": "Keebler LLC",
+    "Tooltip": "ut",
+    "SaveInDb": 10,
+    "Filename": "pariatur",
+    "DefaultOref": "eligendi",
     "RecordType": "Appointment",
-    "Deleted": 519,
+    "Deleted": 380,
     "Direction": "Incoming",
-    "AutoeventId": 747,
+    "AutoeventId": 386,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {
       "Mask": "Delete",
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741,
-  "Name": "Marks Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 838,
-  "IsCustomList": false,
+  "Id": 496,
+  "Name": "Kihn, Gibson and Weber",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 512,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "at",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "evolve clicks-and-mortar paradigms"
       },
       "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldLength": 682
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

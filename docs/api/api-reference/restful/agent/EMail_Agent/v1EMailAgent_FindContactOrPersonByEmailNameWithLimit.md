@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
+title: FindContactOrPersonByEmailNameWithLimit
 id: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
 ---
 
-# POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
+# FindContactOrPersonByEmailNameWithLimit
 
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -83,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fritsch-Greenholt",
-  "EmailAddress": "harvey.schowalter@raynor.co.uk",
-  "NumberOfContacts": 287,
-  "NumberOfPersons": 646
+  "Name": "Mueller-Collins",
+  "EmailAddress": "armani.doyle@reichertbotsford.us",
+  "NumberOfContacts": 846,
+  "NumberOfPersons": 689
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 520,
-    "FullName": "Juliet Wiegand",
-    "EmailAddress": "amalia@blick.info",
-    "ContactId": 471,
-    "ContactName": "Mueller Inc and Sons",
+    "PersonId": 604,
+    "FullName": "Felix Kerluke DVM",
+    "EmailAddress": "rosetta_towne@rennerstokes.uk",
+    "ContactId": 729,
+    "ContactName": "Mueller, Goyette and Wehner",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Schmitt-Hansen",
+    "SortName": "Abshire, Bechtelar and Wilderman",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/CreateDefaultDashboard
+title: CreateDefaultDashboard
 id: v1DashboardAgent_CreateDefaultDashboard
 ---
 
-# POST Agents/Dashboard/CreateDefaultDashboard
+# CreateDefaultDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
@@ -63,7 +63,7 @@ Response body: object
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 975,
-  "AssociateId": 108,
-  "Caption": "voluptatibus",
+  "DashboardId": 32,
+  "AssociateId": 189,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 883,
-      "Caption": "officiis",
-      "Description": "Inverse clear-thinking throughput",
-      "ChartName": "Schamberger-Stokes",
-      "ChartId": "vel",
-      "IsDefault": true,
-      "AssociateId": 787,
-      "GroupId": 274,
-      "SelectionId": 744,
-      "Config": "autem",
+      "DashboardTileId": 730,
+      "Caption": "velit",
+      "Description": "De-engineered system-worthy policy",
+      "ChartName": "Morissette, Parisian and Senger",
+      "ChartId": "neque",
+      "IsDefault": false,
+      "AssociateId": 458,
+      "GroupId": 576,
+      "SelectionId": 893,
+      "Config": "numquam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 215
         }
       }
     }
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 705
     }
   }
 }

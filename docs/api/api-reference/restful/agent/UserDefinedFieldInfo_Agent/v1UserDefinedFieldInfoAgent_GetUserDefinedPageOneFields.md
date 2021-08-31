@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
+title: GetUserDefinedPageOneFields
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
+# GetUserDefinedPageOneFields
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -107,12 +107,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 814
+  "UserGroupId": 701
 }
 ```
 
@@ -122,40 +122,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 170,
-    "ColumnId": 867,
-    "FieldDefault": "et",
-    "FieldHeight": 378,
-    "FieldLabel": "dolor",
-    "FieldLeft": 963,
-    "FieldTop": 666,
+    "UDefFieldId": 778,
+    "ColumnId": 742,
+    "FieldDefault": "modi",
+    "FieldHeight": 298,
+    "FieldLabel": "quia",
+    "FieldLeft": 266,
+    "FieldTop": 469,
     "FieldType": "Checkbox",
-    "FieldWidth": 279,
-    "FormatMask": "animi",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 419,
-    "LabelLeft": 366,
-    "LabelTop": 47,
-    "LabelWidth": 131,
-    "LastVersionId": 746,
-    "ListTableId": 527,
+    "FieldWidth": 196,
+    "FormatMask": "iste",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 72,
+    "LabelLeft": 218,
+    "LabelTop": 195,
+    "LabelWidth": 37,
+    "LastVersionId": 192,
+    "ListTableId": 145,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 597,
-    "ProgId": "possimus",
+    "Page1LineNo": 26,
+    "ProgId": "consectetur",
     "IsReadOnly": true,
-    "ShortLabel": "quaerat",
-    "TabOrder": 336,
-    "TextLength": 458,
-    "Tooltip": "aut",
-    "UdefIdentity": 551,
-    "UDListDefinitionId": 305,
+    "ShortLabel": "et",
+    "TabOrder": 508,
+    "TextLength": 221,
+    "Tooltip": "saepe",
+    "UdefIdentity": 807,
+    "UDListDefinitionId": 658,
     "Justification": "Center",
-    "Version": 368,
-    "TemplateVariableName": "Goodwin Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Jaskolski LLC",
+    "Version": 437,
+    "TemplateVariableName": "Douglas-Rau",
+    "HasBeenPublished": false,
+    "MdoListName": "Gutmann-Batz",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

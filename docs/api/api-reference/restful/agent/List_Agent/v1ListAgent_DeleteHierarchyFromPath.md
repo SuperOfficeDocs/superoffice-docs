@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteHierarchyFromPath
+title: DeleteHierarchyFromPath
 id: v1ListAgent_DeleteHierarchyFromPath
 ---
 
-# POST Agents/List/DeleteHierarchyFromPath
+# DeleteHierarchyFromPath
 
 ```http
 POST /api/v1/Agents/List/DeleteHierarchyFromPath

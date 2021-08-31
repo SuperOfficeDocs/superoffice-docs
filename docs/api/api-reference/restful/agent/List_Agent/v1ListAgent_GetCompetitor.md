@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCompetitor
+title: GetCompetitor
 id: v1ListAgent_GetCompetitor
 ---
 
-# POST Agents/List/GetCompetitor
+# GetCompetitor
 
 ```http
 POST /api/v1/Agents/List/GetCompetitor
@@ -25,7 +25,7 @@ Gets a Competitor object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCompetitor?competitorId=734
+POST /api/v1/Agents/List/GetCompetitor?competitorId=416
 POST /api/v1/Agents/List/GetCompetitor?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetCompetitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Value": "harum",
-  "Tooltip": "et",
+  "Id": 879,
+  "Value": "doloremque",
+  "Tooltip": "accusamus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,10 +88,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "extend clicks-and-mortar applications"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldLength": 58
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/CreateInlineHtmlHeader
+title: CreateInlineHtmlHeader
 id: v1EMailAgent_CreateInlineHtmlHeader
 ---
 
-# POST Agents/EMail/CreateInlineHtmlHeader
+# CreateInlineHtmlHeader
 
 ```http
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
@@ -70,7 +70,7 @@ Response body: string
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "quis",
-    "HTMLBody": "esse",
+    "Subject": "similique",
+    "HTMLBody": "fugiat",
     "From": {},
-    "Sent": "2015-02-02T16:48:29.5419246+01:00",
-    "Size": 264,
+    "Sent": "2008-04-07T14:58:04.095465+02:00",
+    "Size": 207,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "veritatis",
+    "MessageID": "veniam",
     "PlainBody": "non",
-    "IsSent": false,
+    "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 290,
+    "ServerId": 470,
     "Attachments": [
       {},
       {}
@@ -107,13 +107,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Powlowski-Hettinger",
-    "EmailItemId": 260,
-    "AccountId": 265,
-    "ReceivedAt": "2018-04-26T16:48:29.5419246+02:00",
+    "FolderName": "Parisian, Waters and Bahringer",
+    "EmailItemId": 293,
+    "AccountId": 129,
+    "ReceivedAt": "2005-07-03T14:58:04.095465+02:00",
     "InReplyTo": {},
-    "RepliedAt": "1999-08-30T16:48:29.5419246+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2014-12-29T14:58:04.095465+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   }
@@ -124,5 +124,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"sit"
 ```

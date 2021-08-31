@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 496,
-  "Name": "Bins LLC",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 563,
-  "UdListDefinitionId": 901
+  "HeadingId": 47,
+  "Name": "Hilll-Fisher",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 489,
+  "UdListDefinitionId": 728
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 252,
-  "Name": "Weimann-Fritsch",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 448,
-  "UdListDefinitionId": 653,
+  "HeadingId": 940,
+  "Name": "Ritchie, Corwin and Hintz",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "Rank": 607,
+  "UdListDefinitionId": 706,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   }
 }

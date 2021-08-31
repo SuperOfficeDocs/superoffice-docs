@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CopyQuoteAlternative
+title: CopyQuoteAlternative
 id: v1QuoteAgent_CopyQuoteAlternative
 ---
 
-# POST Agents/Quote/CopyQuoteAlternative
+# CopyQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
@@ -102,13 +102,13 @@ Response body: object
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 889,
-  "QuoteAlternativeId": 948,
-  "QuoteAlternativeName": "Halvorson-Grady"
+  "QuoteVersionId": 357,
+  "QuoteAlternativeId": 850,
+  "QuoteAlternativeName": "Zboncak-Rath"
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 921,
-  "ERPQuoteAlternativeKey": "quaerat",
-  "QuoteVersionId": 167,
-  "Name": "Kohler, Brown and Pfeffer",
-  "Description": "Object-based modular intranet",
+  "QuoteAlternativeId": 86,
+  "ERPQuoteAlternativeKey": "eos",
+  "QuoteVersionId": 82,
+  "Name": "Cremin-Leannon",
+  "Description": "Seamless cohesive ability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 9778.08,
-  "ERPDiscountAmount": 3419.194,
-  "DiscountPercent": 28343.896,
-  "DiscountAmount": 7662.63,
+  "ERPDiscountPercent": 2641.962,
+  "ERPDiscountAmount": 6863.46,
+  "DiscountPercent": 19330.512,
+  "DiscountAmount": 17315.35,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quis",
-  "VAT": 3582.162,
-  "EarningPercent": 18011.097999999998,
-  "EarningAmount": 28115.113999999998,
-  "SubTotal": 31101.816,
-  "TotalPrice": 20555.906,
-  "ExtraField1": "aperiam",
-  "ExtraField2": "eaque",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "suscipit",
-  "ExtraField5": "a",
+  "VATInfo": "accusantium",
+  "VAT": 12861.936,
+  "EarningPercent": 1501.186,
+  "EarningAmount": 20505.762,
+  "SubTotal": 24868.29,
+  "TotalPrice": 14873.964,
+  "ExtraField1": "omnis",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "suscipit",
+  "ExtraField4": "magnam",
+  "ExtraField5": "excepturi",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,8 +150,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

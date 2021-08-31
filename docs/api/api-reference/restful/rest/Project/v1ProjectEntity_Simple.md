@@ -77,7 +77,7 @@ Response body: object
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -85,24 +85,24 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 555,
-  "Name": "Bailey-Hilpert",
-  "Description": "Multi-layered encompassing circuit",
+  "ProjectId": 279,
+  "Name": "Kautzer, Beier and Thompson",
+  "Description": "Implemented exuding toolset",
   "URL": "http://www.example.com/",
-  "Type": "inventore",
-  "AssociateId": 568,
-  "AssociateFullName": "Philip Mayer",
-  "TypeId": 804,
-  "Updated": "2018-07-30T09:40:59.4896629+02:00",
-  "StatusId": 686,
-  "Status": "et",
-  "TextId": 308,
-  "PublishTo": "2011-01-26T09:40:59.4896629+01:00",
-  "PublishFrom": "2007-12-27T09:40:59.4906629+01:00",
+  "Type": "soluta",
+  "AssociateId": 984,
+  "AssociateFullName": "Lupe Larkin",
+  "TypeId": 302,
+  "Updated": "1999-05-31T15:05:42.5156345+02:00",
+  "StatusId": 829,
+  "Status": "optio",
+  "TextId": 125,
+  "PublishTo": "2020-01-29T15:05:42.5156345+01:00",
+  "PublishFrom": "2019-09-10T15:05:42.5156345+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "912405",
-  "ActiveErpLinks": 320,
+  "ProjectNumber": "1277039",
+  "ActiveErpLinks": 987,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 328
     }
   }
 }

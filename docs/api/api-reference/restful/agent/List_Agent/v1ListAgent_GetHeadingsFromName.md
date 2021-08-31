@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHeadingsFromName
+title: GetHeadingsFromName
 id: v1ListAgent_GetHeadingsFromName
 ---
 
-# POST Agents/List/GetHeadingsFromName
+# GetHeadingsFromName
 
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromName
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz LLC"
+  "Name": "Bahringer, Rau and Paucek"
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 967,
-    "Name": "Kris-McClure",
-    "Tooltip": "odio",
+    "HeadingId": 263,
+    "Name": "Stiedemann, Kertzmann and Jakubowski",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 472,
-    "UdListDefinitionId": 742,
+    "Rank": 204,
+    "UdListDefinitionId": 451,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldLength": 454
       }
     }
   }

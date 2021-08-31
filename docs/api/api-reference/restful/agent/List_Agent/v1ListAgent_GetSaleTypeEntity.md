@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetSaleTypeEntity
+title: GetSaleTypeEntity
 id: v1ListAgent_GetSaleTypeEntity
 ---
 
-# POST Agents/List/GetSaleTypeEntity
+# GetSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/GetSaleTypeEntity
@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=794
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=914
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -96,56 +96,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 383,
-  "Name": "Sporer-Steuber",
-  "Tooltip": "illum",
-  "Rank": 14,
+  "SaleTypeId": 714,
+  "Name": "Stamm, Hills and Marks",
+  "Tooltip": "qui",
+  "Rank": 413,
   "DurationUnit": "Century",
-  "SaleDuration": 140,
-  "SaleTypeCatId": 566,
-  "Deleted": true,
+  "SaleDuration": 734,
+  "SaleTypeCatId": 95,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 342,
-  "QuoteLinesTemplate": 386,
-  "ConfirmationLinesTemplate": 275,
+  "DefaultQuoteValidity": 946,
+  "QuoteLinesTemplate": 92,
+  "ConfirmationLinesTemplate": 715,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 454,
-  "MinEarningPercent": 551,
-  "GroupQuoteLinesBy": 485,
-  "SortGroupLinesBy": 468,
+  "MaxDiscountPercent": 404,
+  "MinEarningPercent": 750,
+  "GroupQuoteLinesBy": 552,
+  "SortGroupLinesBy": 72,
   "Stages": [
     {
-      "Id": 279,
-      "Name": "Bayer Inc and Sons",
-      "ToolTip": "Voluptatibus eos.",
+      "Id": 640,
+      "Name": "Wolf LLC",
+      "ToolTip": "Quidem eligendi quisquam praesentium quibusdam natus.",
       "Deleted": false,
-      "Rank": 308,
-      "Type": "aliquam",
-      "ColorBlock": 649,
-      "IconHint": "eos",
-      "Selected": false,
-      "LastChanged": "2020-11-30T16:48:29.7869292+01:00",
+      "Rank": 703,
+      "Type": "in",
+      "ColorBlock": 276,
+      "IconHint": "illum",
+      "Selected": true,
+      "LastChanged": "1997-11-27T14:58:04.3694604+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "quidem",
-      "Hidden": false,
-      "FullName": "Kieran Senger",
+      "ExtraInfo": "a",
+      "StyleHint": "debitis",
+      "Hidden": true,
+      "FullName": "Roxanne Goodwin Jr.",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition real-time convergence"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 704
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldLength": 680
     }
   }
 }

@@ -123,45 +123,43 @@ Response body: object
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "unde",
     "value": {
       "value1": {
-        "PrimaryKey": 5037,
-        "EntityName": "sale",
-        "saleId": 5037,
-        "contactId": 2424,
-        "name": "Wunsch-Goldner"
+        "PrimaryKey": 1806,
+        "EntityName": "person",
+        "personId": 1806,
+        "fullName": "Gay Powlowski"
       },
       "value2": {
-        "PrimaryKey": 4755,
+        "PrimaryKey": 7263,
         "EntityName": "person",
-        "personId": 4755,
-        "fullName": "Moses Mante V"
+        "personId": 7263,
+        "fullName": "Kacie Donnelly IV"
       }
     }
   },
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "unde",
     "value": {
       "value1": {
-        "PrimaryKey": 5037,
-        "EntityName": "sale",
-        "saleId": 5037,
-        "contactId": 2424,
-        "name": "Wunsch-Goldner"
+        "PrimaryKey": 1806,
+        "EntityName": "person",
+        "personId": 1806,
+        "fullName": "Gay Powlowski"
       },
       "value2": {
-        "PrimaryKey": 4755,
+        "PrimaryKey": 7263,
         "EntityName": "person",
-        "personId": 4755,
-        "fullName": "Moses Mante V"
+        "personId": 7263,
+        "fullName": "Kacie Donnelly IV"
       }
     }
   }
@@ -173,17 +171,17 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 392,
-  "UniqueIdentifier": "qui",
-  "Name": "Ruecker-Cummerata",
-  "Description": "User-centric homogeneous frame",
-  "IncludeId": "impedit",
-  "HierarchyId": 528,
-  "Source": "voluptas",
-  "Registered": "2005-11-09T09:40:59.0598545+01:00",
-  "RegisteredAssociateId": 200,
-  "Updated": "2006-09-16T09:40:59.0598545+02:00",
-  "UpdatedAssociateId": 185,
+  "EjscriptId": 713,
+  "UniqueIdentifier": "animi",
+  "Name": "Runolfsdottir, Sauer and Lowe",
+  "Description": "Polarised scalable software",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 590,
+  "Source": "architecto",
+  "Registered": "2020-11-15T15:05:42.0270025+01:00",
+  "RegisteredAssociateId": 270,
+  "Updated": "2006-05-20T15:05:42.0270025+02:00",
+  "UpdatedAssociateId": 772,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -192,15 +190,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "revolutionize turn-key communities"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

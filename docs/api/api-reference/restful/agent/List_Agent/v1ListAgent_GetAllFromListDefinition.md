@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllFromListDefinition
+title: GetAllFromListDefinition
 id: v1ListAgent_GetAllFromListDefinition
 ---
 
-# POST Agents/List/GetAllFromListDefinition
+# GetAllFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetAllFromListDefinition
@@ -79,12 +79,12 @@ Response body: array
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 66,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 654,
+  "IncludeDeleted": false
 }
 ```
 
@@ -94,12 +94,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "McLaughlin Group",
-    "Tooltip": "dolores",
+    "Id": 784,
+    "Name": "Sporer-Wolff",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 28,
-    "Rank": 318,
+    "UdListDefinitionId": 876,
+    "Rank": 903,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldLength": 798
       }
     }
   }

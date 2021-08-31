@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteVersionWorkflowImageState
+title: GetQuoteVersionWorkflowImageState
 id: v1QuoteAgent_GetQuoteVersionWorkflowImageState
 ---
 
-# POST Agents/Quote/GetQuoteVersionWorkflowImageState
+# GetQuoteVersionWorkflowImageState
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 922
+  "QuoteVersionId": 843
 }
 ```
 
@@ -96,10 +96,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "maiores",
-  "DisplayText": "non",
-  "TooltipText": "qui",
-  "Enabled": false,
+  "ImageHint": "ut",
+  "DisplayText": "nam",
+  "TooltipText": "quis",
+  "Enabled": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

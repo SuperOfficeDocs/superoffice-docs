@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetPaymentTerm
+title: GetPaymentTerm
 id: v1ListAgent_GetPaymentTerm
 ---
 
-# POST Agents/List/GetPaymentTerm
+# GetPaymentTerm
 
 ```http
 POST /api/v1/Agents/List/GetPaymentTerm
@@ -25,7 +25,7 @@ Gets a PaymentTerm object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentTerm?paymentTermId=751
+POST /api/v1/Agents/List/GetPaymentTerm?paymentTermId=21
 POST /api/v1/Agents/List/GetPaymentTerm?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetPaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Value": "exercitationem",
-  "Tooltip": "vero",
+  "Id": 33,
+  "Value": "blanditiis",
+  "Tooltip": "sequi",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,10 +92,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reinvent viral channels"
+        "Reason": "redefine transparent models"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 212
     }
   }
 }

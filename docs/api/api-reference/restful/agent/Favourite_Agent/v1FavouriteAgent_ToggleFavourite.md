@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Favourite/ToggleFavourite
+title: ToggleFavourite
 id: v1FavouriteAgent_ToggleFavourite
 ---
 
-# POST Agents/Favourite/ToggleFavourite
+# ToggleFavourite
 
 ```http
 POST /api/v1/Agents/Favourite/ToggleFavourite
@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Padberg LLC",
-  "RecordId": 1001,
-  "AssociateId": 989,
-  "ExtraInfo": "dolorum"
+  "TableName": "Bruen LLC",
+  "RecordId": 658,
+  "AssociateId": 527,
+  "ExtraInfo": "repellat"
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreferences
+title: GetPreferences
 id: v1PreferenceAgent_GetPreferences
 ---
 
-# POST Agents/Preference/GetPreferences
+# GetPreferences
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferences
@@ -83,18 +83,18 @@ Response body: array
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "ut",
-      "Key": "ut"
+      "Section": "consequatur",
+      "Key": "adipisci"
     },
     {
-      "Section": "ut",
-      "Key": "ut"
+      "Section": "consequatur",
+      "Key": "adipisci"
     }
   ]
 }
@@ -107,10 +107,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "officiis",
+    "RawValue": "quisquam",
     "Specification": {
-      "Section": "repellat",
-      "Key": "ut",
+      "Section": "eveniet",
+      "Key": "nihil",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 60
         }
       }
     },
-    "DisplayValue": "et",
-    "DisplayTooltip": "non",
+    "DisplayValue": "magni",
+    "DisplayTooltip": "omnis",
     "DisplayType": "Bool",
     "TabOrder": {
-      "TabOrderId": 992,
-      "TabName": "Reichert Group",
-      "Order": "molestias",
-      "AssociateId": 608,
+      "TabOrderId": 270,
+      "TabName": "Lakin-Jacobi",
+      "Order": "velit",
+      "AssociateId": 517,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 628
         }
       }
     },
-    "TargetId": 434,
-    "PrefDescId": 37,
-    "TableName": "Haley-Hoeger",
-    "UserPreferenceId": 204,
+    "TargetId": 526,
+    "PrefDescId": 588,
+    "TableName": "Stark, Veum and Lind",
+    "UserPreferenceId": 870,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 457
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

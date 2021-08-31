@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPublishedAppointments
+title: GetPublishedAppointments
 id: v1AppointmentAgent_GetPublishedAppointments
 ---
 
-# POST Agents/Appointment/GetPublishedAppointments
+# GetPublishedAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
@@ -121,13 +121,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    260,
-    701
+    641,
+    889
   ]
 }
 ```
@@ -138,53 +138,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 420,
-    "StartDate": "2014-09-06T16:48:28.4824509+02:00",
-    "EndDate": "2007-07-10T16:48:28.4824509+02:00",
+    "AppointmentId": 638,
+    "StartDate": "2017-07-09T14:58:02.8775729+02:00",
+    "EndDate": "2016-02-28T14:58:02.8775729+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quaerat",
-    "AssociateFullName": "Gianni Dickens",
-    "ContactName": "Fritsch, Zemlak and Tromp",
-    "Description": "Exclusive didactic core",
-    "PersonFullName": "Claud Nicolas",
-    "PersonId": 144,
-    "ContactId": 436,
-    "ProjectId": 597,
-    "ProjectName": "Huels, Roob and Johns",
-    "IsPublished": false,
-    "AssociateId": 900,
-    "ColorIndex": 536,
-    "IsFree": true,
+    "Task": "eaque",
+    "AssociateFullName": "Scottie Upton",
+    "ContactName": "Kerluke, Langosh and Ebert",
+    "Description": "Integrated fault-tolerant hardware",
+    "PersonFullName": "Hershel Hauck",
+    "PersonId": 539,
+    "ContactId": 557,
+    "ProjectId": 325,
+    "ProjectName": "Mante Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 520,
+    "ColorIndex": 793,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 628,
-    "PriorityName": "Davis, Carter and Hilpert",
+    "PriorityId": 344,
+    "PriorityName": "Marks LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1994-11-27T16:48:28.4824509+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2018-12-05T14:58:02.8775729+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-08-21T16:48:28.4824509+02:00",
-    "RecurringEndDate": "2012-01-01T16:48:28.4824509+01:00",
-    "MotherId": 761,
-    "AssignedBy": 47,
-    "AssignedByFullName": "Dereck Orn",
+    "RecurringStartDate": "2004-08-31T14:58:02.8785762+02:00",
+    "RecurringEndDate": "2019-03-14T14:58:02.8785762+01:00",
+    "MotherId": 955,
+    "AssignedBy": 344,
+    "AssignedByFullName": "Mckayla Metz",
     "RejectReason": "",
-    "Location": "odit",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 351,
-    "SaleName": "Stehr-Stokes",
-    "AssociateName": "Predovic, Doyle and Goldner",
-    "CreatedDate": "2006-01-11T16:48:28.4834488+01:00",
-    "CreatedBy": "fugit",
-    "CreatedByFullName": "Mylene Lockman",
-    "CreatedByAssociateId": 216,
+    "Location": "enim",
+    "AlarmLeadTime": "harum",
+    "SaleId": 948,
+    "SaleName": "Larson, McCullough and D'Amore",
+    "AssociateName": "Wolff-Kilback",
+    "CreatedDate": "2016-12-30T14:58:02.8785762+01:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Helena Ortiz",
+    "CreatedByAssociateId": 499,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -197,8 +197,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   }

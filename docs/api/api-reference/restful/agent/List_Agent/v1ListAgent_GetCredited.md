@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCredited
+title: GetCredited
 id: v1ListAgent_GetCredited
 ---
 
-# POST Agents/List/GetCredited
+# GetCredited
 
 ```http
 POST /api/v1/Agents/List/GetCredited
@@ -25,7 +25,7 @@ Gets a Credited object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCredited?creditedId=444
+POST /api/v1/Agents/List/GetCredited?creditedId=628
 POST /api/v1/Agents/List/GetCredited?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetCredited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Value": "fugit",
-  "Tooltip": "ab",
+  "Id": 98,
+  "Value": "at",
+  "Tooltip": "facere",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "exploit efficient technologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 341
     }
   }
 }

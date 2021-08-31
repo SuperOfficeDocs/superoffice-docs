@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Marks-Wilderman",
-  "DisplayName": "Sanford LLC",
-  "Description": "Customizable context-sensitive database",
-  "ShortLabel": "nulla",
-  "HideLabel": false,
+  "FieldName": "Moen-Kautzer",
+  "DisplayName": "Luettgen, Krajcik and VonRueden",
+  "Description": "Universal scalable artificial intelligence",
+  "ShortLabel": "aut",
+  "HideLabel": true,
   "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 586,
-  "TemplateVariableName": "Feeney LLC"
+  "IsExternal": true,
+  "Rank": 185,
+  "TemplateVariableName": "Macejkovic Inc and Sons"
 }
 ```

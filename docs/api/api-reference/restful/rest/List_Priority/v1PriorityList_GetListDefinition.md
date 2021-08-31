@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Raynor-Franecki",
-  "Tooltip": "tempora",
+  "Id": 358,
+  "Name": "Muller, Gleichner and Smith",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 286,
+  "Rank": 403,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   },
   "_Links": {

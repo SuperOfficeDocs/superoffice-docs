@@ -66,7 +66,7 @@ Response body: object
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 767,
-  "Name": "Abshire-Schmidt",
-  "Tooltip": "ad",
-  "Rank": 53,
-  "Key": "ea",
-  "MailTemplateId": 420,
+  "ConsentSourceId": 871,
+  "Name": "Schumm-Robel",
+  "Tooltip": "eligendi",
+  "Rank": 156,
+  "Key": "voluptatem",
+  "MailTemplateId": 391,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuote
+title: GetQuote
 id: v1QuoteAgent_GetQuote
 ---
 
-# POST Agents/Quote/GetQuote
+# GetQuote
 
 ```http
 POST /api/v1/Agents/Quote/GetQuote
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 628
+  "QuoteId": 16
 }
 ```
 
@@ -104,55 +104,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 85,
-  "SaleId": 256,
-  "QuoteConnectionId": 852,
-  "ERPQuoteKey": "ipsam",
-  "ERPOrderKey": "ut",
-  "ActiveQuoteVersionId": 444,
-  "AcceptedQuoteAlternativeId": 903,
-  "UseValuesFromQuote": 791,
-  "DocumentId": 246,
-  "PoNumber": "325316",
-  "OrderComment": "rerum",
-  "PreferredEmailCulture": "claire@reichert.uk",
+  "QuoteId": 189,
+  "SaleId": 288,
+  "QuoteConnectionId": 338,
+  "ERPQuoteKey": "id",
+  "ERPOrderKey": "assumenda",
+  "ActiveQuoteVersionId": 609,
+  "AcceptedQuoteAlternativeId": 641,
+  "UseValuesFromQuote": 59,
+  "DocumentId": 726,
+  "PoNumber": "942338",
+  "OrderComment": "rem",
+  "PreferredEmailCulture": "may_lockman@casper.ca",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 692,
-    "ERPQuoteVersionKey": "non",
-    "QuoteId": 928,
-    "Description": "Exclusive system-worthy structure",
-    "Number": "1330265",
+    "QuoteVersionId": 40,
+    "ERPQuoteVersionKey": "vero",
+    "QuoteId": 576,
+    "Description": "Secured global algorithm",
+    "Number": "1617465",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 582,
-    "SentDate": "1994-08-25T16:48:30.4409398+02:00",
-    "FollowupId": 75,
-    "ExpirationDate": "2015-04-14T16:48:30.4409398+02:00",
-    "DeliveryCountryId": 88,
+    "LikelyQuoteAlternativeId": 90,
+    "SentDate": "1999-11-14T14:58:05.004465+01:00",
+    "FollowupId": 933,
+    "ExpirationDate": "2007-05-12T14:58:05.004465+02:00",
+    "DeliveryCountryId": 409,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 172,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "qui",
-    "ERPPaymentTypeKey": "expedita",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "quam",
-    "Rank": 203,
-    "ApprovedBy": 78,
-    "ApprovedText": "aut",
-    "ApprovedRegisteredBy": 630,
-    "ApprovedRegisteredDate": "2005-10-17T16:48:30.44294+02:00",
-    "ExtraField1": "qui",
-    "ExtraField2": "quas",
-    "ExtraField3": "natus",
-    "ExtraField4": "qui",
-    "ExtraField5": "iusto",
-    "LastRecalculated": "2021-03-01T16:48:30.44294+01:00",
-    "Updated": "2014-05-30T16:48:30.44294+02:00",
-    "UpdatedAssociateId": 308,
-    "Registered": "2012-11-14T16:48:30.44294+01:00",
-    "RegisteredAssociateId": 117,
+    "InvoiceCountryId": 158,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "quas",
+    "ERPPaymentTypeKey": "ut",
+    "ERPDeliveryTermsKey": "in",
+    "ERPDeliveryTypeKey": "nesciunt",
+    "Rank": 222,
+    "ApprovedBy": 277,
+    "ApprovedText": "hic",
+    "ApprovedRegisteredBy": 752,
+    "ApprovedRegisteredDate": "2013-07-02T14:58:05.004465+02:00",
+    "ExtraField1": "maxime",
+    "ExtraField2": "aut",
+    "ExtraField3": "est",
+    "ExtraField4": "reiciendis",
+    "ExtraField5": "eligendi",
+    "LastRecalculated": "2003-09-13T14:58:05.004465+02:00",
+    "Updated": "2020-09-07T14:58:05.004465+02:00",
+    "UpdatedAssociateId": 606,
+    "Registered": "1996-11-24T14:58:05.004465+01:00",
+    "RegisteredAssociateId": 796,
     "QuoteAlternatives": [
       {},
       {}
@@ -164,35 +164,35 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 392,
-    "ERPQuoteAlternativeKey": "porro",
-    "QuoteVersionId": 378,
-    "Name": "Reichel Group",
-    "Description": "Face to face incremental collaboration",
+    "QuoteAlternativeId": 723,
+    "ERPQuoteAlternativeKey": "molestias",
+    "QuoteVersionId": 686,
+    "Name": "Bogisich-Barton",
+    "Description": "Self-enabling non-volatile interface",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 5938.9299999999994,
-    "ERPDiscountAmount": 28566.41,
-    "DiscountPercent": 507.70799999999997,
-    "DiscountAmount": 9016.518,
+    "ERPDiscountPercent": 16751.23,
+    "ERPDiscountAmount": 21455.363999999998,
+    "DiscountPercent": 24758.6,
+    "DiscountAmount": 5014.4,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "culpa",
-    "VAT": 8643.572,
-    "EarningPercent": 19139.338,
-    "EarningAmount": 3143.402,
-    "SubTotal": 5688.21,
-    "TotalPrice": 14469.678,
-    "ExtraField1": "expedita",
-    "ExtraField2": "animi",
-    "ExtraField3": "corporis",
-    "ExtraField4": "odio",
-    "ExtraField5": "vitae",
+    "VATInfo": "iusto",
+    "VAT": 19618.84,
+    "EarningPercent": 17130.444,
+    "EarningAmount": 19725.396,
+    "SubTotal": 10273.252,
+    "TotalPrice": 6293.072,
+    "ExtraField1": "ipsam",
+    "ExtraField2": "quibusdam",
+    "ExtraField3": "commodi",
+    "ExtraField4": "quas",
+    "ExtraField5": "officiis",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 768
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   },
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 456
     }
   }
 }

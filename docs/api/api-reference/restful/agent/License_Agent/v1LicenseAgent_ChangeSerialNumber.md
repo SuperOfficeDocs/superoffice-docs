@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/ChangeSerialNumber
+title: ChangeSerialNumber
 id: v1LicenseAgent_ChangeSerialNumber
 ---
 
-# POST Agents/License/ChangeSerialNumber
+# ChangeSerialNumber
 
 ```http
 POST /api/v1/Agents/License/ChangeSerialNumber
@@ -76,12 +76,12 @@ Response body: object
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Hamill Group",
-  "NewSerialNumber": "644720"
+  "NewCompanyName": "Hilpert-Gaylord",
+  "NewSerialNumber": "1159431"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 565
     }
   }
 }

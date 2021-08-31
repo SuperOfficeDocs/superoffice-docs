@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Wehner-Quitzon",
-  "Tooltip": "voluptatem",
+  "Id": 549,
+  "Name": "Johnson-Bednar",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 389,
+  "Rank": 534,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "ducimus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Wunsch-Witting",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 227,
-  "IsCustomList": true,
+  "Id": 911,
+  "Name": "Schmidt, Schowalter and Hamill",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 688,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "tempore",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

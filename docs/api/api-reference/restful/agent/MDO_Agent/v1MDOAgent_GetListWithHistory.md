@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetListWithHistory
+title: GetListWithHistory
 id: v1MDOAgent_GetListWithHistory
 ---
 
-# POST Agents/MDO/GetListWithHistory
+# GetListWithHistory
 
 ```http
 POST /api/v1/Agents/MDO/GetListWithHistory
@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Deckow Group",
+  "Name": "Sporer LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "non",
+  "AdditionalInfo": "in",
   "HistoryItems": [
-    318,
-    360
+    22,
+    294
   ],
   "OnlyHistory": false
 }
@@ -109,29 +109,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Feil, Toy and Bogan",
-    "ToolTip": "Accusamus dolores laborum corrupti pariatur velit est.",
+    "Id": 2,
+    "Name": "Kreiger-Prohaska",
+    "ToolTip": "Voluptatem consequatur consequuntur ut quia nihil.",
     "Deleted": true,
-    "Rank": 394,
-    "Type": "aliquam",
+    "Rank": 73,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Grady Group",
-        "ToolTip": "Maxime id minus.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "iste",
+        "Id": 132,
+        "Name": "Lesch, Hills and Feil",
+        "ToolTip": "Deleniti repellendus atque nihil necessitatibus et.",
+        "Deleted": false,
+        "Rank": 30,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 808,
-        "ExtraInfo": "quas",
-        "StyleHint": "sint",
-        "FullName": "Hans Kuhic",
+        "IconHint": "doloribus",
+        "ColorBlock": 317,
+        "ExtraInfo": "ut",
+        "StyleHint": "corporis",
+        "FullName": "Kiarra Price II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -140,16 +140,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 967
+            "FieldLength": 994
           }
         }
       }
     ],
-    "IconHint": "minus",
-    "ColorBlock": 761,
-    "ExtraInfo": "autem",
-    "StyleHint": "alias",
-    "FullName": "Terry Mueller",
+    "IconHint": "ut",
+    "ColorBlock": 440,
+    "ExtraInfo": "saepe",
+    "StyleHint": "saepe",
+    "FullName": "Sophie Larkin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 159
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

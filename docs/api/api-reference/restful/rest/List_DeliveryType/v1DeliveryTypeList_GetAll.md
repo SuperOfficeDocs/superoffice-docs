@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Hansen-Koss",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 896,
-    "Rank": 824,
+    "Id": 371,
+    "Name": "Rodriguez, Wilkinson and Hauck",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "UdListDefinitionId": 842,
+    "Rank": 905,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 399
       }
     }
   }

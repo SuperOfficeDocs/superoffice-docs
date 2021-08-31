@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPublishedDocument
+title: GetPublishedDocument
 id: v1DocumentAgent_GetPublishedDocument
 ---
 
-# POST Agents/Document/GetPublishedDocument
+# GetPublishedDocument
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocument
@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 937
+  "DocumentId": 212
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 928,
-  "Attention": "omnis",
-  "Header": "aperiam",
-  "Name": "Schamberger Group",
-  "OurRef": "natus",
-  "YourRef": "voluptatibus",
-  "Description": "Advanced national implementation",
-  "DocumentTemplate": "tempore",
+  "DocumentId": 501,
+  "Attention": "sed",
+  "Header": "aspernatur",
+  "Name": "Heidenreich LLC",
+  "OurRef": "non",
+  "YourRef": "vel",
+  "Description": "Customer-focused bandwidth-monitored strategy",
+  "DocumentTemplate": "illum",
   "IsPublished": false,
-  "PersonId": 598,
-  "PersonFullName": "Bruce Hoppe",
-  "AssociateFullName": "Paxton Bogisich",
-  "ContactId": 927,
-  "ContactName": "Lebsack-Considine",
-  "ProjectId": 755,
-  "ProjectName": "Greenfelder Group",
-  "AssociateId": 915,
-  "Snum": 542,
+  "PersonId": 534,
+  "PersonFullName": "Marianne McClure",
+  "AssociateFullName": "Octavia Greenholt",
+  "ContactId": 505,
+  "ContactName": "Halvorson Inc and Sons",
+  "ProjectId": 605,
+  "ProjectName": "Johnson Inc and Sons",
+  "AssociateId": 484,
+  "Snum": 585,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

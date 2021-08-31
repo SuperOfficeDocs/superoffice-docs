@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 843,
-    "Name": "Wisoky, Gulgowski and Schmidt",
-    "Tooltip": "omnis",
+    "HeadingId": 851,
+    "Name": "Schaden, Bergnaum and Green",
+    "Tooltip": "dicta",
     "Deleted": true,
-    "Rank": 215,
-    "UdListDefinitionId": 551,
+    "Rank": 605,
+    "UdListDefinitionId": 285,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

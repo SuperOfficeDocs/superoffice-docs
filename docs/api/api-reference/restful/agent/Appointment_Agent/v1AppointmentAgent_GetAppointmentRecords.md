@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAppointmentRecords
+title: GetAppointmentRecords
 id: v1AppointmentAgent_GetAppointmentRecords
 ---
 
-# POST Agents/Appointment/GetAppointmentRecords
+# GetAppointmentRecords
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
@@ -122,12 +122,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 608,
-  "RecurrenceRuleId": 531
+  "MotherId": 157,
+  "RecurrenceRuleId": 153
 }
 ```
 
@@ -137,53 +137,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 409,
-    "StartDate": "2001-07-24T16:48:28.343449+02:00",
-    "EndDate": "2016-03-16T16:48:28.343449+01:00",
+    "AppointmentId": 338,
+    "StartDate": "2014-11-30T14:58:02.8955681+01:00",
+    "EndDate": "2009-12-12T14:58:02.8955681+01:00",
     "Type": "BookingForChecklist",
-    "Task": "placeat",
-    "AssociateFullName": "Cody Parisian Jr.",
-    "ContactName": "Mitchell-Gibson",
-    "Description": "Grass-roots well-modulated task-force",
-    "PersonFullName": "Leora Gorczany",
-    "PersonId": 424,
-    "ContactId": 313,
-    "ProjectId": 45,
-    "ProjectName": "Romaguera, Boyle and Schultz",
-    "IsPublished": true,
-    "AssociateId": 577,
-    "ColorIndex": 453,
+    "Task": "nemo",
+    "AssociateFullName": "Madelyn Reichel",
+    "ContactName": "Rolfson LLC",
+    "Description": "Programmable global migration",
+    "PersonFullName": "Alysha Zieme V",
+    "PersonId": 159,
+    "ContactId": 172,
+    "ProjectId": 894,
+    "ProjectName": "Gorczany-Terry",
+    "IsPublished": false,
+    "AssociateId": 21,
+    "ColorIndex": 645,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 147,
-    "PriorityName": "Schmitt, Yundt and Wiza",
+    "PriorityId": 596,
+    "PriorityName": "Larkin Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2008-10-03T16:48:28.343449+02:00",
+    "ActiveDate": "2000-12-09T14:58:02.8965683+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-11-19T16:48:28.343449+01:00",
-    "RecurringEndDate": "2013-11-07T16:48:28.343449+01:00",
-    "MotherId": 608,
-    "AssignedBy": 27,
-    "AssignedByFullName": "Mrs. Lucious Hettinger",
+    "RecurringStartDate": "2005-08-02T14:58:02.8965683+02:00",
+    "RecurringEndDate": "1994-05-07T14:58:02.8965683+02:00",
+    "MotherId": 335,
+    "AssignedBy": 973,
+    "AssignedByFullName": "Rosemary Stamm",
     "RejectReason": "",
-    "Location": "tempora",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 578,
-    "SaleName": "Carroll, Veum and Blanda",
-    "AssociateName": "Carroll, Kub and Cronin",
-    "CreatedDate": "1995-03-31T16:48:28.344449+02:00",
-    "CreatedBy": "earum",
-    "CreatedByFullName": "Dallas DuBuque V",
-    "CreatedByAssociateId": 728,
+    "Location": "dignissimos",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 693,
+    "SaleName": "Grant-Durgan",
+    "AssociateName": "Goldner, Powlowski and Gulgowski",
+    "CreatedDate": "1996-12-05T14:58:02.8965683+01:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Patricia Swaniawski",
+    "CreatedByAssociateId": 330,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 336
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindWithExtraRestrictions
+title: FindWithExtraRestrictions
 id: v1FindAgent_FindWithExtraRestrictions
 ---
 
-# POST Agents/Find/FindWithExtraRestrictions
+# FindWithExtraRestrictions
 
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
@@ -87,52 +87,52 @@ Response body: object
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nisi",
-  "ProviderName": "Weimann Inc and Sons",
-  "StorageKey": "repellendus",
+  "StorageType": "culpa",
+  "ProviderName": "Bradtke Inc and Sons",
+  "StorageKey": "deleniti",
   "ExtraRestrictions": [
     {
-      "Name": "Adams, Wuckert and Fritsch",
-      "Operator": "odio",
+      "Name": "Abbott Group",
+      "Operator": "et",
       "Values": [
-        "assumenda",
-        "eligendi"
+        "ipsum",
+        "velit"
       ],
       "DisplayValues": [
-        "totam",
-        "illum"
+        "ut",
+        "a"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 5,
+      "InterParenthesis": 353,
       "InterOperator": "And",
-      "UniqueHash": 827
+      "UniqueHash": 88
     }
   ],
   "OrderBy": [
     {
-      "Name": "Spencer Inc and Sons",
+      "Name": "Schamberger, Gislason and Hintz",
       "Direction": "ASC"
     },
     {
-      "Name": "Spencer Inc and Sons",
+      "Name": "Schamberger, Gislason and Hintz",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "libero",
-    "eveniet"
+    "doloribus",
+    "est"
   ],
-  "PageSize": 301,
-  "PageNumber": 117
+  "PageSize": 907,
+  "PageNumber": 881
 }
 ```
 
@@ -143,34 +143,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jacobs, Swaniawski and O'Kon",
-      "DisplayTooltip": "autem",
-      "DisplayType": "tenetur",
-      "CanOrderBy": true,
-      "Name": "Kihn Inc and Sons",
+      "DisplayName": "Hills Group",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "odit",
+      "CanOrderBy": false,
+      "Name": "Gutkowski Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Stark, Volkman and Davis",
-      "IsVisible": false,
-      "ExtraInfo": "ex",
-      "Width": "nemo",
-      "IconHint": "libero",
-      "HeadingIconHint": "ut"
+      "RestrictionType": "dolor",
+      "RestrictionListName": "McLaughlin Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "at",
+      "Width": "nesciunt",
+      "IconHint": "veniam",
+      "HeadingIconHint": "alias"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Beatty, Schaden and Miller",
-      "PrimaryKey": 227,
+      "EntityName": "Hudson, Walsh and Goyette",
+      "PrimaryKey": 143,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "quam",
-          "LinkHint": "est"
+          "DisplayValue": "ullam",
+          "TooltipHint": "porro",
+          "LinkHint": "quos"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "harum",
+      "LinkHint": "sunt",
+      "StyleHint": "sit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -179,12 +179,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 697
         }
       }
     }
   ],
-  "RowCount": 727,
+  "RowCount": 955,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   }
 }

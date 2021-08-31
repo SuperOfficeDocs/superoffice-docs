@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/RemoveSelectionMembersFromSearch
+title: RemoveSelectionMembersFromSearch
 id: v1SelectionAgent_RemoveSelectionMembersFromSearch
 ---
 
-# POST Agents/Selection/RemoveSelectionMembersFromSearch
+# RemoveSelectionMembersFromSearch
 
 ```http
 POST /api/v1/Agents/Selection/RemoveSelectionMembersFromSearch
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 539,
-  "StorageKey": "tenetur"
+  "SelectionId": 156,
+  "StorageKey": "sequi"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-162
+98
 ```

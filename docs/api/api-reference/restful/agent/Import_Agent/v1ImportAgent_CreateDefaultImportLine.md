@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Import/CreateDefaultImportLine
+title: CreateDefaultImportLine
 id: v1ImportAgent_CreateDefaultImportLine
 ---
 
-# POST Agents/Import/CreateDefaultImportLine
+# CreateDefaultImportLine
 
 ```http
 POST /api/v1/Agents/Import/CreateDefaultImportLine
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 935
+  "CountColumns": 183
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "dolores",
-    "non"
+    "quam",
+    "voluptatem"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "est",
+  "ExternalKey": "natus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldLength": 982
     }
   }
 }

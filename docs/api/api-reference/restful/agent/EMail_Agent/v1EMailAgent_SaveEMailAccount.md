@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SaveEMailAccount
+title: SaveEMailAccount
 id: v1EMailAgent_SaveEMailAccount
 ---
 
-# POST Agents/EMail/SaveEMailAccount
+# SaveEMailAccount
 
 ```http
 POST /api/v1/Agents/EMail/SaveEMailAccount
@@ -84,31 +84,31 @@ Response body: object
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 742,
-  "EMailAddress": "repellat",
-  "AssociateId": 475,
+  "EMailAccountId": 463,
+  "EMailAddress": "voluptas",
+  "AssociateId": 757,
   "IncomingCredentials": {
-    "ServiceAuthId": 622,
-    "Server": "corrupti",
-    "Port": 455,
-    "AuthType": "eligendi",
-    "Username": "et",
-    "Password": "sequi"
+    "ServiceAuthId": 766,
+    "Server": "consequatur",
+    "Port": 708,
+    "AuthType": "nulla",
+    "Username": "aliquid",
+    "Password": "unde"
   },
   "OutgoingCredentials": {
-    "ServiceAuthId": 699,
-    "Server": "vitae",
-    "Port": 177,
-    "AuthType": "quaerat",
-    "Username": "ratione",
-    "Password": "rem"
+    "ServiceAuthId": 485,
+    "Server": "nihil",
+    "Port": 982,
+    "AuthType": "vero",
+    "Username": "enim",
+    "Password": "ut"
   },
-  "AccountStatus": 376,
-  "ErrorCount": 336,
+  "AccountStatus": 197,
+  "ErrorCount": 115,
   "ErrorReason": ""
 }
 ```
@@ -118,16 +118,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 264,
-  "EMailAddress": "optio",
-  "AssociateId": 616,
+  "EMailAccountId": 568,
+  "EMailAddress": "est",
+  "AssociateId": 661,
   "IncomingCredentials": {
-    "ServiceAuthId": 164,
-    "Server": "dignissimos",
-    "Port": 953,
-    "AuthType": "molestiae",
-    "Username": "harum",
-    "Password": "magnam",
+    "ServiceAuthId": 72,
+    "Server": "cumque",
+    "Port": 870,
+    "AuthType": "voluptas",
+    "Username": "reprehenderit",
+    "Password": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -135,18 +135,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   },
   "OutgoingCredentials": {
-    "ServiceAuthId": 559,
-    "Server": "asperiores",
-    "Port": 723,
-    "AuthType": "rerum",
-    "Username": "minus",
-    "Password": "qui",
+    "ServiceAuthId": 589,
+    "Server": "praesentium",
+    "Port": 830,
+    "AuthType": "nemo",
+    "Username": "quaerat",
+    "Password": "in",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -155,12 +155,12 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 368
       }
     }
   },
-  "AccountStatus": 880,
-  "ErrorCount": 915,
+  "AccountStatus": 86,
+  "ErrorCount": 385,
   "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldLength": 182
     }
   }
 }

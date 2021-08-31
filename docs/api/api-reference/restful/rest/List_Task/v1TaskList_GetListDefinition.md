@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Mueller, Rogahn and White",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 25,
+  "Id": 639,
+  "Name": "Kuhlman-Pouros",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 471,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,12 +97,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 361
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

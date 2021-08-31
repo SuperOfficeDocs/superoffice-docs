@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetSelectableList
+title: GetSelectableList
 id: v1MDOAgent_GetSelectableList
 ---
 
-# POST Agents/MDO/GetSelectableList
+# GetSelectableList
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableList
@@ -94,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marvin-Walker",
+  "Name": "White LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "omnis",
+  "AdditionalInfo": "quia",
   "OnlyHistory": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Wyman, Cummerata and Bruen",
-    "ToolTip": "Rerum tempora ipsum beatae.",
-    "Deleted": false,
-    "Rank": 282,
-    "Type": "reiciendis",
-    "ColorBlock": 519,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2017-04-18T16:48:29.9759241+02:00",
+    "Id": 182,
+    "Name": "Strosin LLC",
+    "ToolTip": "Placeat nihil iste corporis veniam.",
+    "Deleted": true,
+    "Rank": 150,
+    "Type": "et",
+    "ColorBlock": 136,
+    "IconHint": "ullam",
+    "Selected": false,
+    "LastChanged": "2001-09-27T14:58:04.5684622+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Keebler, Hauck and Bartell",
-        "ToolTip": "Facilis fuga deserunt magni.",
+        "Id": 181,
+        "Name": "Wilkinson-Schiller",
+        "ToolTip": "Quae ea.",
         "Deleted": true,
-        "Rank": 952,
-        "Type": "dignissimos",
-        "ColorBlock": 810,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "2013-04-13T16:48:29.9759241+02:00",
+        "Rank": 431,
+        "Type": "explicabo",
+        "ColorBlock": 464,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2004-10-10T14:58:04.5684622+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "architecto",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Liana Cartwright",
+        "FullName": "Jefferey Reinger",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "cultivate extensible methodologies"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 61
+            "FieldType": "System.String",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "et",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Janessa Rodriguez",
+    "FullName": "Aimee Hauck",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "matrix innovative metrics"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 335
       }
     }
   }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 409,
-  "Name": "Kohler LLC",
-  "Tooltip": "nihil",
+  "HeadingId": 901,
+  "Name": "Herman Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 931,
-  "UdListDefinitionId": 759
+  "Rank": 384,
+  "UdListDefinitionId": 616
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 484,
-  "Name": "Bayer-Mills",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 219,
-  "UdListDefinitionId": 297,
+  "HeadingId": 668,
+  "Name": "Prohaska-Mohr",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 161,
+  "UdListDefinitionId": 825,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 593
     }
   }
 }

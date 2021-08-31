@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetConfigurationFields
+title: GetConfigurationFields
 id: v1ErpSyncAgent_GetConfigurationFields
 ---
 
-# POST Agents/ErpSync/GetConfigurationFields
+# GetConfigurationFields
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 813
+  "ErpConnectorId": 591
 }
 ```
 
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "sed",
-    "Rank": 763,
-    "DisplayName": "Spinka-Veum",
-    "DisplayDescription": "Customizable discrete pricing structure",
+    "FieldKey": "commodi",
+    "Rank": 389,
+    "DisplayName": "Roob-Carroll",
+    "DisplayDescription": "Pre-emptive dedicated knowledge user",
     "FieldType": "Checkbox",
-    "ListName": "White, Lynch and Morissette",
-    "DefaultValue": "ipsam",
-    "MaxLength": 471,
+    "ListName": "Zboncak LLC",
+    "DefaultValue": "consequatur",
+    "MaxLength": 391,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "visualize sticky paradigms"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 809
       }
     }
   }

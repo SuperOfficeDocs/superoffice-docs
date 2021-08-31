@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/Search
+title: Search
 id: v1PhoneListAgent_Search
 ---
 
-# POST Agents/PhoneList/Search
+# Search
 
 ```http
 POST /api/v1/Agents/PhoneList/Search
@@ -82,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "aut"
+  "SearchString": "odio"
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "634-346-5716 x65065",
-    "PersonCellPhone": "362-422-8747 x143",
-    "PersonPrivatePhone": "1-160-424-8478",
-    "PersonFaxNumber": "1486996",
-    "PersonPagerNumber": "765831",
-    "PersonEmail": "sincere@gutmann.ca",
-    "Id": 538,
-    "Name": "Veum Inc and Sons",
-    "Tooltip": "iusto",
-    "UniqueId": "distinctio",
+    "PersonDirectPhone": "1-155-623-4403 x71433",
+    "PersonCellPhone": "277-803-8021 x0764",
+    "PersonPrivatePhone": "746.553.2121",
+    "PersonFaxNumber": "1596520",
+    "PersonPagerNumber": "162845",
+    "PersonEmail": "cecil.hintz@lakin.name",
+    "Id": 337,
+    "Name": "Roob, Olson and McCullough",
+    "Tooltip": "dolorem",
+    "UniqueId": "nihil",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/AddDeviceByIdentifier
+title: AddDeviceByIdentifier
 id: v1ForeignSystemAgent_AddDeviceByIdentifier
 ---
 
-# POST Agents/ForeignSystem/AddDeviceByIdentifier
+# AddDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
@@ -88,13 +88,13 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Renner Inc and Sons",
-  "DeviceName": "Schuppe-Grimes",
-  "DeviceIdentifier": "aut"
+  "ApplicationName": "Homenick, Doyle and Zieme",
+  "DeviceName": "Ebert-Barrows",
+  "DeviceIdentifier": "accusantium"
 }
 ```
 
@@ -103,15 +103,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 658,
-  "Name": "Kub-Welch",
-  "CreatedDate": "2006-10-06T16:48:29.7089243+02:00",
-  "UpdatedDate": "2012-02-05T16:48:29.7089243+01:00",
-  "AssociateFullName": "Arch Quigley",
-  "CreatedBy": "sed",
-  "UpdatedBy": "eligendi",
-  "DeviceIdentifier": "odit",
-  "ForeignAppId": 565,
+  "ForeignDeviceId": 7,
+  "Name": "Padberg-Schaden",
+  "CreatedDate": "2002-05-29T14:58:04.3034634+02:00",
+  "UpdatedDate": "2020-02-27T14:58:04.3034634+01:00",
+  "AssociateFullName": "Mrs. Janice Huel",
+  "CreatedBy": "ut",
+  "UpdatedBy": "perferendis",
+  "DeviceIdentifier": "eaque",
+  "ForeignAppId": 812,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "incentivize scalable ROI"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

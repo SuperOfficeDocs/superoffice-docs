@@ -110,42 +110,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 825,
-  "Name": "Bauch, Berge and Heathcote",
-  "Tooltip": "cumque",
+  "RoleId": 945,
+  "Name": "Metz-Schneider",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 198,
-  "Rank": 413,
-  "Created": "2004-09-23T09:40:59.5106627+02:00",
-  "UseCategories": 421,
+  "Deleted": 178,
+  "Rank": 757,
+  "Created": "2006-12-26T15:05:42.5576352+01:00",
+  "UseCategories": 237,
   "CreatedBy": {
-    "AssociateId": 372,
-    "Name": "Reinger-Rogahn",
-    "PersonId": 616,
-    "Rank": 225,
-    "Tooltip": "corporis",
+    "AssociateId": 73,
+    "Name": "Kuhlman, Romaguera and Hintz",
+    "PersonId": 611,
+    "Rank": 591,
+    "Tooltip": "labore",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 353,
-    "FullName": "Harmon Moore",
-    "FormalName": "Borer Inc and Sons",
+    "GroupIdx": 999,
+    "FullName": "Harmon Langosh",
+    "FormalName": "Veum, Hermiston and Padberg",
     "Deleted": false,
-    "EjUserId": 92,
-    "UserName": "Cruickshank-Shanahan"
+    "EjUserId": 945,
+    "UserName": "Nitzsche LLC"
   },
-  "Updated": "2010-04-08T09:40:59.5106627+02:00",
+  "Updated": "2004-03-11T15:05:42.5586353+01:00",
   "UpdatedBy": {
-    "AssociateId": 98,
-    "Name": "Gusikowski, Bogan and Labadie",
-    "PersonId": 392,
-    "Rank": 716,
-    "Tooltip": "dolorum",
+    "AssociateId": 159,
+    "Name": "Kirlin, Lang and Nienow",
+    "PersonId": 838,
+    "Rank": 855,
+    "Tooltip": "officiis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 187,
-    "FullName": "Ms. Jacques Murray",
-    "FormalName": "Dibbert-Willms",
+    "GroupIdx": 136,
+    "FullName": "Maddison Huels V",
+    "FormalName": "Powlowski LLC",
     "Deleted": true,
-    "EjUserId": 342,
-    "UserName": "Koss Inc and Sons"
+    "EjUserId": 724,
+    "UserName": "Glover, Denesik and Greenfelder"
   },
   "DataRights": {
     "ColumnsInfo": [
@@ -159,11 +159,11 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "ducimus",
-          "Description": "Ergonomic asynchronous hardware",
+          "Value": "saepe",
+          "Description": "Persevering hybrid alliance",
           "TableRight": {
             "Mask": "Delete",
-            "Reason": "integrate magnetic e-markets"
+            "Reason": "strategize sticky applications"
           },
           "FieldProperties": {
             "fieldName": {
@@ -171,16 +171,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 448
+              "FieldType": "System.Int32",
+              "FieldLength": 79
             }
           }
         }
       ],
       [
         {
-          "Value": "porro",
-          "Description": "Persistent maximized policy",
+          "Value": "ea",
+          "Description": "Compatible hybrid initiative",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 634
+              "FieldLength": 60
             }
           }
         }
@@ -207,27 +207,53 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 741,
-  "Name": "Considine Group",
-  "Tooltip": "deleniti",
+  "RoleId": 831,
+  "Name": "Gorczany LLC",
+  "Tooltip": "aspernatur",
   "RoleType": "Anonymous",
-  "Deleted": 186,
-  "Rank": 288,
-  "Created": "2005-09-26T09:40:59.5136654+02:00",
-  "UseCategories": 368,
+  "Deleted": 80,
+  "Rank": 691,
+  "Created": "2014-08-18T15:05:42.5596348+02:00",
+  "UseCategories": 478,
   "CreatedBy": {
-    "AssociateId": 402,
-    "Name": "West-Schuppe",
-    "PersonId": 914,
-    "Rank": 715,
-    "Tooltip": "ex",
+    "AssociateId": 296,
+    "Name": "Gutmann Group",
+    "PersonId": 544,
+    "Rank": 449,
+    "Tooltip": "sint",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 326,
-    "FullName": "Cleve Lind",
-    "FormalName": "Thompson, Morar and Ullrich",
+    "GroupIdx": 178,
+    "FullName": "Madalyn Ernser",
+    "FormalName": "Little-Johnson",
     "Deleted": false,
-    "EjUserId": 645,
-    "UserName": "Mohr-Kovacek",
+    "EjUserId": 487,
+    "UserName": "Herman Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "streamline one-to-one solutions"
+        },
+        "FieldType": "System.String",
+        "FieldLength": 335
+      }
+    }
+  },
+  "Updated": "2010-10-30T15:05:42.5606352+02:00",
+  "UpdatedBy": {
+    "AssociateId": 368,
+    "Name": "Schmeler-Windler",
+    "PersonId": 238,
+    "Rank": 799,
+    "Tooltip": "aut",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 61,
+    "FullName": "Natalia Collier",
+    "FormalName": "Heaney, Jaskolski and Larkin",
+    "Deleted": true,
+    "EjUserId": 952,
+    "UserName": "Pagac-Bode",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -236,33 +262,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 789
-      }
-    }
-  },
-  "Updated": "1996-11-22T09:40:59.5136654+01:00",
-  "UpdatedBy": {
-    "AssociateId": 849,
-    "Name": "Buckridge-Schmitt",
-    "PersonId": 87,
-    "Rank": 161,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 206,
-    "FullName": "Ms. Aubree Walter",
-    "FormalName": "Kovacek-Sporer",
-    "Deleted": false,
-    "EjUserId": 840,
-    "UserName": "Waters-Rodriguez",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 372
       }
     }
   },
@@ -278,28 +278,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "possimus",
-          "Description": "Up-sized mission-critical success",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "revolutionize collaborative metrics"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 38
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "tempora",
-          "Description": "Re-engineered fresh-thinking software",
+          "Value": "eaque",
+          "Description": "Ergonomic modular database",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -310,8 +290,28 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.Int32",
-              "FieldLength": 906
+              "FieldType": "System.String",
+              "FieldLength": 625
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "maiores",
+          "Description": "Profound heuristic intranet",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 800
             }
           }
         }
@@ -324,8 +324,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldType": "System.String",
+        "FieldLength": 236
       }
     }
   },
@@ -339,13 +339,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 129
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

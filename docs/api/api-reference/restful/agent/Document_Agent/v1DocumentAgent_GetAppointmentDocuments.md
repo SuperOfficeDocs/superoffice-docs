@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetAppointmentDocuments
+title: GetAppointmentDocuments
 id: v1DocumentAgent_GetAppointmentDocuments
 ---
 
-# POST Agents/Document/GetAppointmentDocuments
+# GetAppointmentDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetAppointmentDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 563
+  "AppointmentId": 334
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 338,
-    "Attention": "sunt",
-    "Header": "sequi",
-    "Name": "Wilkinson LLC",
-    "OurRef": "eaque",
-    "YourRef": "voluptatem",
-    "Description": "Networked logistical encryption",
-    "DocumentTemplate": "perspiciatis",
-    "IsPublished": false,
-    "PersonId": 682,
-    "PersonFullName": "Lawrence Ullrich Jr.",
-    "AssociateFullName": "Nakia Carroll",
-    "ContactId": 46,
-    "ContactName": "Nicolas-Abbott",
-    "ProjectId": 409,
-    "ProjectName": "Heaney, McDermott and Hodkiewicz",
-    "AssociateId": 228,
-    "Snum": 713,
+    "DocumentId": 22,
+    "Attention": "quos",
+    "Header": "placeat",
+    "Name": "Homenick, Dooley and O'Connell",
+    "OurRef": "sint",
+    "YourRef": "beatae",
+    "Description": "Synergized next generation hub",
+    "DocumentTemplate": "itaque",
+    "IsPublished": true,
+    "PersonId": 470,
+    "PersonFullName": "Chanelle Beatty",
+    "AssociateFullName": "Ms. Rozella Langosh",
+    "ContactId": 115,
+    "ContactName": "Anderson Group",
+    "ProjectId": 19,
+    "ProjectName": "Nader-Lubowitz",
+    "AssociateId": 863,
+    "Snum": 755,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 69
       }
     }
   }

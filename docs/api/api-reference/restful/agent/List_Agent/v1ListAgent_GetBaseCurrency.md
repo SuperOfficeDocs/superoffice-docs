@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetBaseCurrency
+title: GetBaseCurrency
 id: v1ListAgent_GetBaseCurrency
 ---
 
-# POST Agents/List/GetBaseCurrency
+# GetBaseCurrency
 
 ```http
 POST /api/v1/Agents/List/GetBaseCurrency
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -79,12 +79,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 479,
-  "Name": "O'Keefe, Schultz and Becker",
-  "Tooltip": "veritatis",
-  "Rank": 264,
-  "Rate": 28597.75,
-  "Units": 15278.25,
+  "CurrencyId": 57,
+  "Name": "Hegmann-Boehm",
+  "Tooltip": "est",
+  "Rank": 52,
+  "Rate": 18963.834,
+  "Units": 13987.042,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

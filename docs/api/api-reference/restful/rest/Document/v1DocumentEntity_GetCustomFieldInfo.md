@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Krajcik, Herman and Goyette",
-  "DisplayName": "Koepp, Corkery and Wolff",
-  "Description": "Seamless disintermediate archive",
-  "ShortLabel": "veritatis",
-  "HideLabel": false,
+  "FieldName": "Dicki Inc and Sons",
+  "DisplayName": "Schamberger, Stanton and Sporer",
+  "Description": "Progressive tertiary focus group",
+  "ShortLabel": "beatae",
+  "HideLabel": true,
   "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 254,
-  "TemplateVariableName": "Kozey, Kohler and Green"
+  "IsExternal": true,
+  "Rank": 538,
+  "TemplateVariableName": "Heller-Cremin"
 }
 ```

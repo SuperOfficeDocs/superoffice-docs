@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/GetAssociateList
+title: GetAssociateList
 id: v1AssociateAgent_GetAssociateList
 ---
 
-# POST Agents/Associate/GetAssociateList
+# GetAssociateList
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociateList
@@ -90,30 +90,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 731,
-    "Name": "Lang-Quigley",
-    "PersonId": 22,
-    "Rank": 278,
-    "Tooltip": "error",
+    "AssociateId": 942,
+    "Name": "Leffler Group",
+    "PersonId": 972,
+    "Rank": 217,
+    "Tooltip": "perferendis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 418,
-    "FullName": "Tommie Crist",
-    "FormalName": "Hegmann-Jewess",
+    "GroupIdx": 408,
+    "FullName": "Fredrick Dickinson IV",
+    "FormalName": "Bailey LLC",
     "Deleted": false,
-    "EjUserId": 908,
-    "UserName": "Pfannerstill Group",
+    "EjUserId": 242,
+    "UserName": "Auer LLC",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "reintermediate viral mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "enhance distributed interfaces"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/DeleteRestrictionGroup
+title: DeleteRestrictionGroup
 id: v1FindAgent_DeleteRestrictionGroup
 ---
 
-# POST Agents/Find/DeleteRestrictionGroup
+# DeleteRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/DeleteRestrictionGroup

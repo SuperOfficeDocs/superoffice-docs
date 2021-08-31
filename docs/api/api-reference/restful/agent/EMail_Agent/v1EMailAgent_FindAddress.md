@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/FindAddress
+title: FindAddress
 id: v1EMailAgent_FindAddress
 ---
 
-# POST Agents/EMail/FindAddress
+# FindAddress
 
 ```http
 POST /api/v1/Agents/EMail/FindAddress
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 754,
-    "ContactName": "O'Hara Inc and Sons",
-    "PersonId": 911,
-    "PersonName": "Fadel, Aufderhar and Welch",
-    "AssociateId": 17,
-    "Address": "neque",
-    "EmailId": 778,
+    "ContactId": 159,
+    "ContactName": "Carter, Johnston and Wiza",
+    "PersonId": 610,
+    "PersonName": "Robel-Adams",
+    "AssociateId": 441,
+    "Address": "et",
+    "EmailId": 468,
     "DuplicatePersonIds": [
-      638,
-      791
+      292,
+      416
     ],
-    "Name": "Frami LLC",
+    "Name": "Runolfsson, Beer and Conroy",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -117,10 +117,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate one-to-one content"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 626
       }
     }
   }

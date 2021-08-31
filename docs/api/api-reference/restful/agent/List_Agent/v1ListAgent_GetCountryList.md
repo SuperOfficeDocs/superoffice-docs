@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCountryList
+title: GetCountryList
 id: v1ListAgent_GetCountryList
 ---
 
-# POST Agents/List/GetCountryList
+# GetCountryList
 
 ```http
 POST /api/v1/Agents/List/GetCountryList
@@ -87,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 855,
-    "Name": "Wilkinson, Bode and Abbott",
-    "CurrencyId": 184,
-    "EnglishName": "Kautzer, Rosenbaum and Ebert",
+    "CountryId": 430,
+    "Name": "Upton, Maggio and Emard",
+    "CurrencyId": 53,
+    "EnglishName": "Bergnaum-Heller",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Object-based high-level concept",
-    "OrgNrText": "1189680",
-    "InterAreaPrefix": "maiores",
-    "DialInPrefix": "distinctio",
-    "ZipPrefix": "libero",
-    "DomainName": "Jewess-Barrows",
-    "AddressLayoutId": 257,
-    "DomesticAddressLayoutId": 621,
-    "ForeignAddressLayoutId": 702,
-    "Rank": 445,
-    "Tooltip": "expedita",
+    "ImageDescription": "Upgradable heuristic structure",
+    "OrgNrText": "759773",
+    "InterAreaPrefix": "est",
+    "DialInPrefix": "quis",
+    "ZipPrefix": "est",
+    "DomainName": "Green, Collier and Gerhold",
+    "AddressLayoutId": 770,
+    "DomesticAddressLayoutId": 821,
+    "ForeignAddressLayoutId": 794,
+    "Rank": 11,
+    "Tooltip": "sit",
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 130
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetHistoriesByNames
+title: GetHistoriesByNames
 id: v1ViewStateAgent_GetHistoriesByNames
 ---
 
-# POST Agents/ViewState/GetHistoriesByNames
+# GetHistoriesByNames
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
@@ -79,13 +79,13 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Mohr Inc and Sons",
-    "Turner, Cole and Goldner"
+    "McKenzie Group",
+    "Swift-Gleichner"
   ]
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 37,
-    "Id": 778,
-    "HistoryName": "Erdman, Lindgren and Zboncak",
-    "HistoryId": 262,
-    "AssociateId": 319,
-    "Name": "Weimann Group",
-    "ItemInfo": "blanditiis",
+    "Rank": 463,
+    "Id": 471,
+    "HistoryName": "Koss, Stoltenberg and Hagenes",
+    "HistoryId": 859,
+    "AssociateId": 646,
+    "Name": "Davis-Mills",
+    "ItemInfo": "id",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

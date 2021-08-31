@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateUsedInProjectStage
+title: GetDocumentTemplateUsedInProjectStage
 id: v1ListAgent_GetDocumentTemplateUsedInProjectStage
 ---
 
-# POST Agents/List/GetDocumentTemplateUsedInProjectStage
+# GetDocumentTemplateUsedInProjectStage
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
@@ -68,11 +68,11 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 250
+  "DocumentTemplateId": 985
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aut",
-  "est"
+  "temporibus",
+  "maiores"
 ]
 ```

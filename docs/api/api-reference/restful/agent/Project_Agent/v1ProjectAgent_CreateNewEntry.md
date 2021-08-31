@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/CreateNewEntry
+title: CreateNewEntry
 id: v1ProjectAgent_CreateNewEntry
 ---
 
-# POST Agents/Project/CreateNewEntry
+# CreateNewEntry
 
 ```http
 POST /api/v1/Agents/Project/CreateNewEntry
@@ -68,16 +68,16 @@ Response body: int32
 POST /api/v1/Agents/Project/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Duplicate": {
-    "RuleName": "Powlowski-Legros",
-    "SoPrimaryKey": 419,
-    "EntryName": "Schowalter-Jacobi",
-    "EntryIdentifier": "ipsam",
-    "RuleDisplayName": "Larson-Bergstrom"
+    "RuleName": "Lubowitz-Herman",
+    "SoPrimaryKey": 746,
+    "EntryName": "Purdy, Wunsch and Leannon",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Hoeger, Kemmer and Schneider"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-338
+493
 ```

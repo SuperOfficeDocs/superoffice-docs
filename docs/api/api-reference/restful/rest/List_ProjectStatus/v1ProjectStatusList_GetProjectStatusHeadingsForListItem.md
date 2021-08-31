@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Wolf-Murphy",
-    "ToolTip": "Itaque ab ut odio.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "nisi",
-    "ColorBlock": 21,
-    "IconHint": "magni",
+    "Id": 442,
+    "Name": "Lebsack, Hintz and Streich",
+    "ToolTip": "Id neque nisi at soluta pariatur.",
+    "Deleted": false,
+    "Rank": 361,
+    "Type": "ut",
+    "ColorBlock": 785,
+    "IconHint": "voluptas",
     "Selected": true,
-    "LastChanged": "2016-06-23T09:41:00.6393872+02:00",
+    "LastChanged": "2018-11-01T15:05:43.698115+01:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Torphy LLC",
-        "ToolTip": "Tenetur aut eaque ea rem.",
-        "Deleted": true,
-        "Rank": 236,
-        "Type": "reprehenderit",
-        "ColorBlock": 199,
-        "IconHint": "dolorem",
+        "Id": 411,
+        "Name": "Champlin, Aufderhar and Harris",
+        "ToolTip": "Possimus facilis dolore in.",
+        "Deleted": false,
+        "Rank": 384,
+        "Type": "sit",
+        "ColorBlock": 986,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2011-06-03T09:41:00.6393872+02:00",
+        "LastChanged": "1999-10-14T15:05:43.6990885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Davin Mann",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Deontae Kohler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 101
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Ubaldo Bosco",
+    "ExtraInfo": "natus",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Ferne Lemke",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "morph out-of-the-box vortals"
         },
         "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldLength": 341
       }
     }
   }

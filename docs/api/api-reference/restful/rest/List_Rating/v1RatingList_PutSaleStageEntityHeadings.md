@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 562,
-    "Name": "Gaylord LLC",
-    "Tooltip": "adipisci",
+    "HeadingId": 792,
+    "Name": "Hagenes, Gutmann and Sporer",
+    "Tooltip": "quis",
     "Deleted": true,
-    "Rank": 6,
-    "UdListDefinitionId": 215
+    "Rank": 58,
+    "UdListDefinitionId": 879
   },
   {
-    "HeadingId": 562,
-    "Name": "Gaylord LLC",
-    "Tooltip": "adipisci",
+    "HeadingId": 792,
+    "Name": "Hagenes, Gutmann and Sporer",
+    "Tooltip": "quis",
     "Deleted": true,
-    "Rank": 6,
-    "UdListDefinitionId": 215
+    "Rank": 58,
+    "UdListDefinitionId": 879
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 974,
-    "Name": "Rolfson-Conn",
-    "Tooltip": "officiis",
+    "HeadingId": 244,
+    "Name": "Hodkiewicz, Parisian and Konopelski",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 832,
-    "UdListDefinitionId": 117,
+    "Rank": 194,
+    "UdListDefinitionId": 985,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldLength": 941
       }
     }
   }

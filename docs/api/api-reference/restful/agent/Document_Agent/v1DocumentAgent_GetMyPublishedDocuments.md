@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetMyPublishedDocuments
+title: GetMyPublishedDocuments
 id: v1DocumentAgent_GetMyPublishedDocuments
 ---
 
-# POST Agents/Document/GetMyPublishedDocuments
+# GetMyPublishedDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 948,
-    "Attention": "minima",
-    "Header": "ipsam",
-    "Name": "Conroy, Kautzer and Pagac",
-    "OurRef": "voluptatem",
-    "YourRef": "ducimus",
-    "Description": "Vision-oriented web-enabled middleware",
-    "DocumentTemplate": "cupiditate",
+    "DocumentId": 728,
+    "Attention": "doloremque",
+    "Header": "ducimus",
+    "Name": "Johnson-Huels",
+    "OurRef": "soluta",
+    "YourRef": "quia",
+    "Description": "Inverse even-keeled strategy",
+    "DocumentTemplate": "id",
     "IsPublished": true,
-    "PersonId": 710,
-    "PersonFullName": "Liana Hintz",
-    "AssociateFullName": "Francesco Lindgren",
-    "ContactId": 682,
-    "ContactName": "Zulauf Inc and Sons",
-    "ProjectId": 304,
-    "ProjectName": "Stark Inc and Sons",
-    "AssociateId": 134,
-    "Snum": 96,
+    "PersonId": 116,
+    "PersonFullName": "Clarissa Barton III",
+    "AssociateFullName": "Ms. Leopoldo Ritchie",
+    "ContactId": 484,
+    "ContactName": "Heaney-Kihn",
+    "ProjectId": 344,
+    "ProjectName": "Borer, Smith and Balistreri",
+    "AssociateId": 235,
+    "Snum": 159,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 959
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/NumberAllocation/SaveRefCountEntity
+title: SaveRefCountEntity
 id: v1NumberAllocationAgent_SaveRefCountEntity
 ---
 
-# POST Agents/NumberAllocation/SaveRefCountEntity
+# SaveRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
@@ -92,33 +92,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 429,
-  "Field": "ea",
-  "RecordId": 855,
+  "RefCountsId": 445,
+  "Field": "consequuntur",
+  "RecordId": 570,
   "SuggestedRecords": [
     {
-      "Id": 800,
-      "Name": "Durgan LLC",
-      "ToolTip": "Ullam dolores deleniti iure velit.",
-      "Deleted": true,
-      "Rank": 725,
-      "Type": "hic",
+      "Id": 389,
+      "Name": "Lueilwitz-Barton",
+      "ToolTip": "Voluptas dolorem inventore vitae.",
+      "Deleted": false,
+      "Rank": 543,
+      "Type": "explicabo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minima",
-      "ColorBlock": 724,
-      "ExtraInfo": "rem",
-      "StyleHint": "repudiandae",
-      "FullName": "Abigayle Williamson"
+      "IconHint": "enim",
+      "ColorBlock": 395,
+      "ExtraInfo": "velit",
+      "StyleHint": "quam",
+      "FullName": "Phyllis Gislason"
     }
   ],
-  "CurrentValue": 588,
-  "TravelPrefix": 403,
-  "SatPrefix": 216,
+  "CurrentValue": 76,
+  "TravelPrefix": 338,
+  "SatPrefix": 718,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false
 }
@@ -129,26 +129,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 389,
-  "Field": "qui",
-  "RecordId": 367,
+  "RefCountsId": 919,
+  "Field": "vel",
+  "RecordId": 372,
   "SuggestedRecords": [
     {
-      "Id": 644,
-      "Name": "Collins, Lindgren and McCullough",
-      "ToolTip": "Non pariatur accusamus voluptas nam.",
-      "Deleted": false,
-      "Rank": 913,
-      "Type": "deserunt",
+      "Id": 918,
+      "Name": "Daugherty, Koelpin and Durgan",
+      "ToolTip": "Mollitia qui quia sunt reiciendis.",
+      "Deleted": true,
+      "Rank": 86,
+      "Type": "unde",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quae",
-      "ColorBlock": 71,
-      "ExtraInfo": "qui",
-      "StyleHint": "possimus",
-      "FullName": "Adela Bartell V",
+      "IconHint": "est",
+      "ColorBlock": 316,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "perspiciatis",
+      "FullName": "Ms. Columbus Becker",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -157,18 +157,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 878
         }
       }
     }
   ],
-  "CurrentValue": 127,
-  "TravelPrefix": 182,
-  "SatPrefix": 288,
+  "CurrentValue": 674,
+  "TravelPrefix": 228,
+  "SatPrefix": 103,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": false,
+  "ReadOnly": false,
+  "AllowBlank": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 53
     }
   }
 }

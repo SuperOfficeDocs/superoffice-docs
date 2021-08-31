@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Schumm, Willms and Pacocha",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 772,
+  "Id": 15,
+  "Name": "Kiehn, Ritchie and Morar",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "Rank": 890,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "iure",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "expedite back-end communities"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 219
     }
   },
   "_Links": {

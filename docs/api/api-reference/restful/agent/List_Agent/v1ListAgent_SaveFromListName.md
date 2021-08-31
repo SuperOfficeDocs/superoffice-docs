@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveFromListName
+title: SaveFromListName
 id: v1ListAgent_SaveFromListName
 ---
 
-# POST Agents/List/SaveFromListName
+# SaveFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveFromListName
@@ -85,19 +85,19 @@ Response body: object
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "UdListDefinitionName": "Abshire, Haley and Ondricka",
+  "Id": 857,
+  "UdListDefinitionName": "Haley, Daniel and Flatley",
   "Item": {
-    "Id": 96,
-    "Name": "Wolf, Bruen and Flatley",
-    "Tooltip": "quas",
+    "Id": 250,
+    "Name": "Mitchell Group",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 826,
-    "Rank": 193
+    "UdListDefinitionId": 218,
+    "Rank": 34
   }
 }
 ```
@@ -107,12 +107,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 296,
-  "Name": "Bayer-Kohler",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "UdListDefinitionId": 239,
-  "Rank": 49,
+  "Id": 958,
+  "Name": "Hahn-Conn",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "UdListDefinitionId": 937,
+  "Rank": 752,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

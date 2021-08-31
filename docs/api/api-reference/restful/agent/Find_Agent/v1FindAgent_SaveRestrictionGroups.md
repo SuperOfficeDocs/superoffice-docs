@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/SaveRestrictionGroups
+title: SaveRestrictionGroups
 id: v1FindAgent_SaveRestrictionGroups
 ---
 
-# POST Agents/Find/SaveRestrictionGroups
+# SaveRestrictionGroups
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroups
@@ -82,30 +82,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deserunt",
-  "ProviderName": "D'Amore, Corkery and Predovic",
-  "StorageKey": "deleniti",
+  "StorageType": "sunt",
+  "ProviderName": "Witting, VonRueden and Mraz",
+  "StorageKey": "ad",
   "RestrictionGroups": [
     {
-      "Name": "McKenzie-Predovic",
-      "Description": "Monitored scalable artificial intelligence",
-      "Rank": 620,
+      "Name": "Oberbrunner, Mraz and Wuckert",
+      "Description": "Polarised next generation migration",
+      "Rank": 119,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McKenzie-Predovic",
-      "Description": "Monitored scalable artificial intelligence",
-      "Rank": 620,
+      "Name": "Oberbrunner, Mraz and Wuckert",
+      "Description": "Polarised next generation migration",
+      "Rank": 119,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "ut"
+  "Context": "sequi"
 }
 ```
 
@@ -115,58 +115,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobs, Davis and Krajcik",
-    "Description": "Enhanced discrete leverage",
-    "Rank": 147,
+    "Name": "Kris, Barrows and Powlowski",
+    "Description": "Multi-tiered neutral contingency",
+    "Rank": 131,
     "Restrictions": [
       {
-        "Name": "Gerhold Group",
-        "Operator": "soluta",
+        "Name": "Gutkowski Inc and Sons",
+        "Operator": "exercitationem",
         "Values": [
-          "nesciunt",
-          "culpa"
+          "cumque",
+          "laudantium"
         ],
         "DisplayValues": [
-          "reiciendis",
-          "animi"
+          "minus",
+          "qui"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 401,
+        "InterParenthesis": 832,
         "InterOperator": "And",
-        "UniqueHash": 585
+        "UniqueHash": 255
       }
     ]
   },
   {
-    "Name": "Jacobs, Davis and Krajcik",
-    "Description": "Enhanced discrete leverage",
-    "Rank": 147,
+    "Name": "Kris, Barrows and Powlowski",
+    "Description": "Multi-tiered neutral contingency",
+    "Rank": 131,
     "Restrictions": [
       {
-        "Name": "Gerhold Group",
-        "Operator": "soluta",
+        "Name": "Gutkowski Inc and Sons",
+        "Operator": "exercitationem",
         "Values": [
-          "nesciunt",
-          "culpa"
+          "cumque",
+          "laudantium"
         ],
         "DisplayValues": [
-          "reiciendis",
-          "animi"
+          "minus",
+          "qui"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 401,
+        "InterParenthesis": 832,
         "InterOperator": "And",
-        "UniqueHash": 585
+        "UniqueHash": 255
       }
     ]
   }

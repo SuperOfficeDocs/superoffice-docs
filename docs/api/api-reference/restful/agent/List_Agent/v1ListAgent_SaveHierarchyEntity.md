@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHierarchyEntity
+title: SaveHierarchyEntity
 id: v1ListAgent_SaveHierarchyEntity
 ---
 
-# POST Agents/List/SaveHierarchyEntity
+# SaveHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/SaveHierarchyEntity
@@ -86,36 +86,36 @@ Response body: object
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 357,
+  "HierarchyId": 138,
   "Domain": "Dashboards",
-  "Name": "Schuppe-Hegmann",
-  "Fullname": "laborum",
-  "ParentId": 727,
+  "Name": "Barton Inc and Sons",
+  "Fullname": "nihil",
+  "ParentId": 277,
   "Children": [
     {
-      "HierarchyId": 50,
+      "HierarchyId": 419,
       "Domain": "Dashboards",
-      "Name": "Thiel-Balistreri",
-      "Fullname": "porro",
-      "ParentId": 965,
+      "Name": "Kilback, Spinka and Gibson",
+      "Fullname": "aliquam",
+      "ParentId": 502,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-10-17T16:48:29.9229229+02:00",
-      "RegisteredAssociateId": 193,
-      "Updated": "1997-05-09T16:48:29.9229229+02:00",
-      "UpdatedAssociateId": 984
+      "Registered": "1998-01-14T14:58:04.4714655+01:00",
+      "RegisteredAssociateId": 390,
+      "Updated": "2015-02-24T14:58:04.4714655+01:00",
+      "UpdatedAssociateId": 601
     }
   ],
-  "Registered": "2014-02-27T16:48:29.9229229+01:00",
-  "RegisteredAssociateId": 316,
-  "Updated": "2009-04-15T16:48:29.9229229+02:00",
-  "UpdatedAssociateId": 206
+  "Registered": "2013-11-12T14:58:04.4714655+01:00",
+  "RegisteredAssociateId": 809,
+  "Updated": "1998-08-13T14:58:04.4714655+02:00",
+  "UpdatedAssociateId": 790
 }
 ```
 
@@ -124,26 +124,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 657,
+  "HierarchyId": 957,
   "Domain": "Dashboards",
-  "Name": "Sporer, Johns and Abernathy",
-  "Fullname": "occaecati",
-  "ParentId": 53,
+  "Name": "Wilkinson Group",
+  "Fullname": "numquam",
+  "ParentId": 656,
   "Children": [
     {
-      "HierarchyId": 865,
+      "HierarchyId": 239,
       "Domain": "Dashboards",
-      "Name": "Wisoky-Kuhlman",
-      "Fullname": "in",
-      "ParentId": 968,
+      "Name": "Streich, Gleason and Connelly",
+      "Fullname": "eveniet",
+      "ParentId": 802,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1995-11-11T16:48:29.9249269+01:00",
-      "RegisteredAssociateId": 181,
-      "Updated": "2000-10-10T16:48:29.9249269+02:00",
-      "UpdatedAssociateId": 811,
+      "Registered": "2020-03-10T14:58:04.4714655+01:00",
+      "RegisteredAssociateId": 984,
+      "Updated": "2013-04-12T14:58:04.4714655+02:00",
+      "UpdatedAssociateId": 62,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -152,15 +152,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 97
+          "FieldLength": 86
         }
       }
     }
   ],
-  "Registered": "2012-12-10T16:48:29.9249269+01:00",
-  "RegisteredAssociateId": 253,
-  "Updated": "2000-09-16T16:48:29.9249269+02:00",
-  "UpdatedAssociateId": 906,
+  "Registered": "2016-12-18T14:58:04.4724649+01:00",
+  "RegisteredAssociateId": 67,
+  "Updated": "2007-07-19T14:58:04.4724649+02:00",
+  "UpdatedAssociateId": 352,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldLength": 767
     }
   }
 }

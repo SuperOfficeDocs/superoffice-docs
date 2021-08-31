@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteEntityFromSaleId
+title: GetQuoteEntityFromSaleId
 id: v1QuoteAgent_GetQuoteEntityFromSaleId
 ---
 
-# POST Agents/Quote/GetQuoteEntityFromSaleId
+# GetQuoteEntityFromSaleId
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
@@ -90,11 +90,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 513
+  "SaleId": 414
 }
 ```
 
@@ -103,56 +103,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 415,
-  "SaleId": 794,
-  "QuoteConnectionId": 211,
-  "ERPQuoteKey": "reprehenderit",
-  "ERPOrderKey": "a",
-  "ActiveQuoteVersionId": 575,
-  "AcceptedQuoteAlternativeId": 338,
-  "UseValuesFromQuote": 157,
-  "DocumentId": 650,
-  "PoNumber": "158951",
-  "OrderComment": "est",
-  "PreferredEmailCulture": "destany@stantonwatsica.biz",
+  "QuoteId": 610,
+  "SaleId": 42,
+  "QuoteConnectionId": 66,
+  "ERPQuoteKey": "nobis",
+  "ERPOrderKey": "voluptatem",
+  "ActiveQuoteVersionId": 605,
+  "AcceptedQuoteAlternativeId": 808,
+  "UseValuesFromQuote": 717,
+  "DocumentId": 773,
+  "PoNumber": "1092466",
+  "OrderComment": "ab",
+  "PreferredEmailCulture": "berta@kiehn.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 865,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 193,
-      "Description": "Customizable transitional forecast",
-      "Number": "802333",
+      "QuoteVersionId": 887,
+      "ERPQuoteVersionKey": "velit",
+      "QuoteId": 45,
+      "Description": "Assimilated uniform task-force",
+      "Number": "538803",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 183,
-      "SentDate": "2002-04-08T16:48:30.4499398+02:00",
-      "FollowupId": 636,
-      "ExpirationDate": "1995-05-16T16:48:30.4499398+02:00",
-      "DeliveryCountryId": 282,
+      "LikelyQuoteAlternativeId": 949,
+      "SentDate": "2009-05-02T14:58:05.0114321+02:00",
+      "FollowupId": 283,
+      "ExpirationDate": "2021-06-29T14:58:05.0114321+02:00",
+      "DeliveryCountryId": 165,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 139,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "qui",
-      "ERPPaymentTypeKey": "exercitationem",
-      "ERPDeliveryTermsKey": "saepe",
-      "ERPDeliveryTypeKey": "quas",
-      "Rank": 998,
-      "ApprovedBy": 225,
-      "ApprovedText": "deleniti",
-      "ApprovedRegisteredBy": 531,
-      "ApprovedRegisteredDate": "2006-02-24T16:48:30.4499398+01:00",
-      "ExtraField1": "velit",
-      "ExtraField2": "et",
-      "ExtraField3": "est",
-      "ExtraField4": "eaque",
-      "ExtraField5": "quae",
-      "LastRecalculated": "2002-07-14T16:48:30.4499398+02:00",
-      "Updated": "2012-04-12T16:48:30.4499398+02:00",
-      "UpdatedAssociateId": 896,
-      "Registered": "2020-05-15T16:48:30.4499398+02:00",
-      "RegisteredAssociateId": 658,
+      "InvoiceCountryId": 100,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "fugiat",
+      "ERPPaymentTypeKey": "est",
+      "ERPDeliveryTermsKey": "aliquam",
+      "ERPDeliveryTypeKey": "voluptates",
+      "Rank": 775,
+      "ApprovedBy": 182,
+      "ApprovedText": "perferendis",
+      "ApprovedRegisteredBy": 806,
+      "ApprovedRegisteredDate": "2017-06-12T14:58:05.0114321+02:00",
+      "ExtraField1": "accusamus",
+      "ExtraField2": "quis",
+      "ExtraField3": "nam",
+      "ExtraField4": "minima",
+      "ExtraField5": "voluptatum",
+      "LastRecalculated": "2015-03-05T14:58:05.0114321+01:00",
+      "Updated": "2003-07-24T14:58:05.0114321+02:00",
+      "UpdatedAssociateId": 102,
+      "Registered": "1999-06-14T14:58:05.0114321+02:00",
+      "RegisteredAssociateId": 832,
       "QuoteAlternatives": [
         {},
         {}
@@ -162,10 +162,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "harness impactful e-business"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 976
         }
       }
     }
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/AuthenticateOutgoing
+title: AuthenticateOutgoing
 id: v1EMailAgent_AuthenticateOutgoing
 ---
 
-# POST Agents/EMail/AuthenticateOutgoing
+# AuthenticateOutgoing
 
 ```http
 POST /api/v1/Agents/EMail/AuthenticateOutgoing
@@ -70,16 +70,16 @@ Response body: bool
 POST /api/v1/Agents/EMail/AuthenticateOutgoing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Hickle LLC",
-    "UserName": "Mante-Lueilwitz",
-    "Password": "quisquam",
-    "Folder": "incidunt",
-    "UseSSL": false
+    "ServerName": "Kuphal-Conn",
+    "UserName": "Ritchie-Lindgren",
+    "Password": "consequatur",
+    "Folder": "qui",
+    "UseSSL": true
   }
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

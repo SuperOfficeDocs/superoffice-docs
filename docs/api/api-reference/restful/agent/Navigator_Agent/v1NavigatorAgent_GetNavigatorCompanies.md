@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Navigator/GetNavigatorCompanies
+title: GetNavigatorCompanies
 id: v1NavigatorAgent_GetNavigatorCompanies
 ---
 
-# POST Agents/Navigator/GetNavigatorCompanies
+# GetNavigatorCompanies
 
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Daugherty, Kertzmann and Wyman"
+  "Name": "Cremin LLC"
 }
 ```
 
@@ -89,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Value": "atque",
-    "Tooltip": "ut",
+    "Id": 540,
+    "Value": "repellat",
+    "Tooltip": "enim",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   },
   {
-    "Id": 26,
-    "Value": "atque",
-    "Tooltip": "ut",
+    "Id": 540,
+    "Value": "repellat",
+    "Tooltip": "enim",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   }

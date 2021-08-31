@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Tillman, Hessel and Marks",
-  "Tooltip": "voluptatem",
+  "Id": 455,
+  "Name": "Schroeder-Leffler",
+  "Tooltip": "sit",
   "Deleted": true,
-  "UdListDefinitionId": 320,
-  "Rank": 978
+  "UdListDefinitionId": 5,
+  "Rank": 36
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 358,
+  "Id": 412,
+  "Name": "Koelpin Inc and Sons",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "UdListDefinitionId": 968,
+  "Rank": 181,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 629
     }
   }
 }

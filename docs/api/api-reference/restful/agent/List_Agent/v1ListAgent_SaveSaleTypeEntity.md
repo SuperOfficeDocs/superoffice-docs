@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveSaleTypeEntity
+title: SaveSaleTypeEntity
 id: v1ListAgent_SaveSaleTypeEntity
 ---
 
-# POST Agents/List/SaveSaleTypeEntity
+# SaveSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/SaveSaleTypeEntity
@@ -106,51 +106,51 @@ Response body: object
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 495,
-  "Name": "Effertz, Bernhard and Wisoky",
-  "Tooltip": "excepturi",
-  "Rank": 703,
+  "SaleTypeId": 71,
+  "Name": "Schroeder, Thompson and Cronin",
+  "Tooltip": "nisi",
+  "Rank": 3,
   "DurationUnit": "Century",
-  "SaleDuration": 529,
-  "SaleTypeCatId": 763,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "SaleDuration": 460,
+  "SaleTypeCatId": 592,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 917,
-  "QuoteLinesTemplate": 715,
-  "ConfirmationLinesTemplate": 420,
+  "DefaultQuoteValidity": 550,
+  "QuoteLinesTemplate": 815,
+  "ConfirmationLinesTemplate": 746,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 100,
-  "MinEarningPercent": 964,
-  "GroupQuoteLinesBy": 675,
-  "SortGroupLinesBy": 9,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 58,
+  "MinEarningPercent": 116,
+  "GroupQuoteLinesBy": 669,
+  "SortGroupLinesBy": 70,
   "Stages": [
     {
-      "Id": 566,
-      "Name": "Zieme-Hayes",
-      "ToolTip": "Minus quo enim et quo nam ea.",
+      "Id": 477,
+      "Name": "Beahan-Wolff",
+      "ToolTip": "Soluta aut deleniti totam.",
       "Deleted": false,
-      "Rank": 420,
-      "Type": "asperiores",
-      "ColorBlock": 544,
-      "IconHint": "velit",
+      "Rank": 596,
+      "Type": "dolor",
+      "ColorBlock": 781,
+      "IconHint": "iure",
       "Selected": true,
-      "LastChanged": "1994-02-12T16:48:29.9329247+01:00",
+      "LastChanged": "2007-02-10T14:58:04.4784652+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aspernatur",
-      "StyleHint": "quisquam",
+      "ExtraInfo": "ab",
+      "StyleHint": "voluptatum",
       "Hidden": true,
-      "FullName": "Grayson Harris"
+      "FullName": "Gillian Kuvalis"
     }
   ]
 }
@@ -161,47 +161,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 308,
-  "Name": "Rice, Considine and Koelpin",
-  "Tooltip": "aut",
-  "Rank": 615,
+  "SaleTypeId": 42,
+  "Name": "Klein, Schiller and Keeling",
+  "Tooltip": "reprehenderit",
+  "Rank": 651,
   "DurationUnit": "Century",
-  "SaleDuration": 281,
-  "SaleTypeCatId": 912,
+  "SaleDuration": 850,
+  "SaleTypeCatId": 871,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 154,
-  "QuoteLinesTemplate": 477,
-  "ConfirmationLinesTemplate": 520,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 826,
+  "QuoteLinesTemplate": 389,
+  "ConfirmationLinesTemplate": 372,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 273,
-  "MinEarningPercent": 528,
-  "GroupQuoteLinesBy": 343,
-  "SortGroupLinesBy": 702,
+  "MaxDiscountPercent": 803,
+  "MinEarningPercent": 627,
+  "GroupQuoteLinesBy": 274,
+  "SortGroupLinesBy": 312,
   "Stages": [
     {
-      "Id": 819,
-      "Name": "Okuneva Group",
-      "ToolTip": "Pariatur non at odio voluptates.",
-      "Deleted": false,
-      "Rank": 398,
-      "Type": "corporis",
-      "ColorBlock": 164,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2016-05-24T16:48:29.9339271+02:00",
+      "Id": 48,
+      "Name": "Carroll Group",
+      "ToolTip": "Vero modi omnis totam non velit.",
+      "Deleted": true,
+      "Rank": 299,
+      "Type": "et",
+      "ColorBlock": 422,
+      "IconHint": "quo",
+      "Selected": false,
+      "LastChanged": "1996-08-18T14:58:04.4794654+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "consequatur",
-      "Hidden": false,
-      "FullName": "Sigrid Pfeffer",
+      "ExtraInfo": "est",
+      "StyleHint": "voluptas",
+      "Hidden": true,
+      "FullName": "Abigail Carroll",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 59
         }
       }
     }
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldType": "System.Int32",
+      "FieldLength": 677
     }
   }
 }

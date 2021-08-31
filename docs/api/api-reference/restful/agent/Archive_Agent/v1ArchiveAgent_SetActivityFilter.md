@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/SetActivityFilter
+title: SetActivityFilter
 id: v1ArchiveAgent_SetActivityFilter
 ---
 
-# POST Agents/Archive/SetActivityFilter
+# SetActivityFilter
 
 ```http
 POST /api/v1/Agents/Archive/SetActivityFilter

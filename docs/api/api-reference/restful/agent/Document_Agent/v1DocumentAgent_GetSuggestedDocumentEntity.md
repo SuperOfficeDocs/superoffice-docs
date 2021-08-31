@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetSuggestedDocumentEntity
+title: GetSuggestedDocumentEntity
 id: v1DocumentAgent_GetSuggestedDocumentEntity
 ---
 
-# POST Agents/Document/GetSuggestedDocumentEntity
+# GetSuggestedDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
@@ -25,7 +25,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=621
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=61
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -85,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 711,
-  "Name": "Effertz, Breitenberg and Wisoky",
-  "Tooltip": "id",
-  "Rank": 247,
-  "DoctmplId": 913,
-  "Header": "cum",
-  "OurRef": "nisi",
-  "Deleted": true,
+  "SuggestedDocumentId": 77,
+  "Name": "Kreiger LLC",
+  "Tooltip": "reiciendis",
+  "Rank": 219,
+  "DoctmplId": 357,
+  "Header": "voluptas",
+  "OurRef": "aut",
+  "Deleted": false,
   "DocTmpl": {
-    "DocumentTemplateId": 778,
-    "Name": "Krajcik, Reynolds and Krajcik",
-    "Tooltip": "dolor",
-    "SaveInDb": 724,
-    "Filename": "praesentium",
-    "DefaultOref": "architecto",
+    "DocumentTemplateId": 801,
+    "Name": "Koelpin Group",
+    "Tooltip": "magni",
+    "SaveInDb": 979,
+    "Filename": "dolore",
+    "DefaultOref": "tempore",
     "RecordType": "Appointment",
-    "Deleted": 920,
+    "Deleted": 540,
     "Direction": "Incoming",
-    "AutoeventId": 652,
+    "AutoeventId": 337,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 45,
-    "ProjTypeId": 609,
-    "ProjTypeName": "Wuckert-Little",
-    "ProjTypeTooltip": "nihil",
-    "ProjStatusId": 80,
-    "ProjStatusName": "Schamberger-Hagenes",
-    "ProjStatusTooltip": "voluptatem",
+    "ProjectTypeStatusLinkId": 56,
+    "ProjTypeId": 751,
+    "ProjTypeName": "Wisoky LLC",
+    "ProjTypeTooltip": "blanditiis",
+    "ProjStatusId": 863,
+    "ProjStatusName": "Keeling Group",
+    "ProjStatusTooltip": "dolores",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,34 +133,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 546
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 726,
-    "SaleTypeId": 446,
-    "SaleTypeName": "Yost Group",
-    "SaleTypeTooltip": "assumenda",
-    "ProbId": 894,
-    "ProbName": "Schuppe, Walter and Gerlach",
-    "ProbTooltip": "explicabo",
-    "Probability": 807,
+    "SaleTypeStageLinkId": 960,
+    "SaleTypeId": 787,
+    "SaleTypeName": "Williamson LLC",
+    "SaleTypeTooltip": "in",
+    "ProbId": 810,
+    "ProbName": "Rutherford-Pacocha",
+    "ProbTooltip": "omnis",
+    "Probability": 103,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "scale cross-platform paradigms"
         },
-        "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldType": "System.Int32",
+        "FieldLength": 497
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "whiteboard leading-edge portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   }
 }

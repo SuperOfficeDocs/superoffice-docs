@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetExtAppEntity
+title: GetExtAppEntity
 id: v1ListAgent_GetExtAppEntity
 ---
 
-# POST Agents/List/GetExtAppEntity
+# GetExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/GetExtAppEntity
@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=238
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=166
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -100,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 674,
-  "Name": "Turner-Hackett",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 719,
-  "Filename": "vel",
-  "Parameters": "ut",
-  "Workdir": "accusamus",
+  "ExtAppId": 633,
+  "Name": "Ortiz, Windler and Treutel",
+  "Tooltip": "minus",
+  "Deleted": true,
+  "Rank": 384,
+  "Filename": "consequatur",
+  "Parameters": "iste",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 761,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "Icon": 732,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sit",
+  "Path": "necessitatibus",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "utilize sticky infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 740
     }
   }
 }

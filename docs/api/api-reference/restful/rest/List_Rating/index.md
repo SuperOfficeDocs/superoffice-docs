@@ -2,6 +2,8 @@
 title: List_Rating
 ---
 
+# List_Rating
+
 ```http
 /api/v1/List/Rating
 ```

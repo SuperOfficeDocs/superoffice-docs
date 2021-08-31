@@ -72,14 +72,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket/{id}/Messages?$select=name,department,category/id
 GET /api/v1/Ticket/{id}/Messages?$filter=name begins 'S'
 GET /api/v1/Ticket/{id}/Messages?$orderBy=name asc
-GET /api/v1/Ticket/{id}/Messages?$entities=nihil
-GET /api/v1/Ticket/{id}/Messages?$top=106
-GET /api/v1/Ticket/{id}/Messages?$skip=267
+GET /api/v1/Ticket/{id}/Messages?$entities=minima
+GET /api/v1/Ticket/{id}/Messages?$top=630
+GET /api/v1/Ticket/{id}/Messages?$skip=13
 GET /api/v1/Ticket/{id}/Messages?$mode=Full
 GET /api/v1/Ticket/{id}/Messages?$options=GrandTotal=true
-GET /api/v1/Ticket/{id}/Messages?$context=ab
+GET /api/v1/Ticket/{id}/Messages?$context=numquam
 GET /api/v1/Ticket/{id}/Messages?$format=JSON
-GET /api/v1/Ticket/{id}/Messages?$jsonSafe=False
+GET /api/v1/Ticket/{id}/Messages?$jsonSafe=True
 GET /api/v1/Ticket/{id}/Messages?$output=Display
 ```
 
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "temporibus",
+  "odata.nextLink": "reiciendis",
   "value": [
     {
-      "PrimaryKey": 7949,
-      "EntityName": "sale",
-      "saleId": 7949,
-      "contactId": 1986,
-      "name": "Bednar, Osinski and Eichmann"
+      "PrimaryKey": 7347,
+      "EntityName": "person",
+      "personId": 7347,
+      "fullName": "Friedrich Marvin Jr."
     },
     {
-      "PrimaryKey": 4278,
-      "EntityName": "sale",
-      "saleId": 4278,
-      "contactId": 8110,
-      "name": "Bashirian-Anderson"
+      "PrimaryKey": 8746,
+      "EntityName": "person",
+      "personId": 8746,
+      "fullName": "Kellie Turner"
     }
   ]
 }

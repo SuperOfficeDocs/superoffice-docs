@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/SetConsent
+title: SetConsent
 id: v1PersonAgent_SetConsent
 ---
 
-# POST Agents/Person/SetConsent
+# SetConsent
 
 ```http
 POST /api/v1/Agents/Person/SetConsent

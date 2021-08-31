@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ResolveUserFromInfo
+title: ResolveUserFromInfo
 id: v1UserAgent_ResolveUserFromInfo
 ---
 
-# POST Agents/User/ResolveUserFromInfo
+# ResolveUserFromInfo
 
 ```http
 POST /api/v1/Agents/User/ResolveUserFromInfo
@@ -87,25 +87,25 @@ Response body: object
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 433,
-  "PersonName": "Hackett, Murray and Adams",
+  "ContactId": 11,
+  "PersonName": "Feest Group",
   "PhoneNumbers": [
-    "941663",
-    "443480"
+    "760680",
+    "1360190"
   ],
   "Emails": [
-    "mallory@skiles.biz",
-    "obie@kinghettinger.co.uk"
+    "lera@beahankerluke.us",
+    "jason_langworth@russel.info"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": {
     "Type": {},
-    "Value": "tempora",
-    "DisplayValue": "accusantium"
+    "Value": "consequatur",
+    "DisplayValue": "et"
   }
 }
 ```
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 900,
-    "Name": "Gerhold, Barton and Kub",
-    "Rank": 456,
-    "Tooltip": "saepe",
+    "AssociateId": 55,
+    "Name": "Hamill-Walsh",
+    "Rank": 280,
+    "Tooltip": "provident",
     "LicenseOwners": [
       {},
       {}
@@ -132,31 +132,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2018-06-13T16:48:30.8729343+02:00",
-    "Lastlogout": "1997-01-05T16:48:30.8729343+01:00",
-    "EjUserId": 901,
-    "RequestSignature": "sunt",
+    "Lastlogin": "2012-04-20T14:58:05.4226249+02:00",
+    "Lastlogout": "2012-01-14T14:58:05.4226249+01:00",
+    "EjUserId": 956,
+    "RequestSignature": "eos",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Kuvalis, Dare and Rutherford",
+    "UserName": "Kling, Langworth and Schumm",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Kuhic, Funk and Cassin",
-    "WaitingForApproval": false,
+    "NickName": "Hand Inc and Sons",
+    "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "rem",
-      "ExtraFields2": "tempore"
+      "ExtraFields1": "incidunt",
+      "ExtraFields2": "deserunt"
     },
     "CustomFields": {
-      "CustomFields1": "sit",
-      "CustomFields2": "cumque"
+      "CustomFields1": "qui",
+      "CustomFields2": "voluptas"
     },
     "PostSaveCommands": [
       {},
@@ -167,10 +167,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "reinvent 24/365 infomediaries"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 827
       }
     }
   },
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 272
     }
   }
 }

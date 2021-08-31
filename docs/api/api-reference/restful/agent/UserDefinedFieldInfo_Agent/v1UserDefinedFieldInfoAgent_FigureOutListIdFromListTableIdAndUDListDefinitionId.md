@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
+title: FigureOutListIdFromListTableIdAndUDListDefinitionId
 id: v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
 ---
 
-# POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
+# FigureOutListIdFromListTableIdAndUDListDefinitionId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
@@ -73,40 +73,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": {
-    "UDefFieldId": 306,
-    "ColumnId": 608,
-    "FieldDefault": "aut",
-    "FieldHeight": 667,
-    "FieldLabel": "veniam",
-    "FieldLeft": 570,
-    "FieldTop": 743,
+    "UDefFieldId": 500,
+    "ColumnId": 261,
+    "FieldDefault": "modi",
+    "FieldHeight": 344,
+    "FieldLabel": "perspiciatis",
+    "FieldLeft": 540,
+    "FieldTop": 576,
     "FieldType": "Checkbox",
-    "FieldWidth": 281,
-    "FormatMask": "et",
+    "FieldWidth": 511,
+    "FormatMask": "dolore",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 264,
-    "LabelLeft": 249,
-    "LabelTop": 950,
-    "LabelWidth": 160,
-    "LastVersionId": 659,
-    "ListTableId": 633,
+    "IsIndexed": true,
+    "LabelHeight": 720,
+    "LabelLeft": 12,
+    "LabelTop": 798,
+    "LabelWidth": 834,
+    "LastVersionId": 436,
+    "ListTableId": 432,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 389,
-    "ProgId": "pariatur",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 473,
-    "TextLength": 446,
-    "Tooltip": "consectetur",
-    "UdefIdentity": 504,
-    "UDListDefinitionId": 964,
+    "Page1LineNo": 667,
+    "ProgId": "perspiciatis",
+    "IsReadOnly": false,
+    "ShortLabel": "sed",
+    "TabOrder": 737,
+    "TextLength": 866,
+    "Tooltip": "nisi",
+    "UdefIdentity": 773,
+    "UDListDefinitionId": 806,
     "Justification": "Center",
-    "Version": 337,
-    "TemplateVariableName": "Mante LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Gorczany, Schmitt and Gislason"
+    "Version": 217,
+    "TemplateVariableName": "Wiza, Lubowitz and Bernhard",
+    "HasBeenPublished": false,
+    "MdoListName": "Kihn-Reilly"
   }
 }
 ```
@@ -115,5 +115,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-890
+36
 ```

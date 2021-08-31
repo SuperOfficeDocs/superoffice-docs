@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/FindCredentialsGroups
+title: FindCredentialsGroups
 id: v1UserAgent_FindCredentialsGroups
 ---
 
-# POST Agents/User/FindCredentialsGroups
+# FindCredentialsGroups
 
 ```http
 POST /api/v1/Agents/User/FindCredentialsGroups
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
-  "SearchString": "nesciunt"
+  "Type": "delectus",
+  "SearchString": "placeat"
 }
 ```
 
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lesch LLC",
-    "DisplayName": "Lakin-Bruen",
+    "Name": "O'Hara, Crooks and Cassin",
+    "DisplayName": "Hessel-Boehm",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,13 +106,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldLength": 617
       }
     }
   },
   {
-    "Name": "Lesch LLC",
-    "DisplayName": "Lakin-Bruen",
+    "Name": "O'Hara, Crooks and Cassin",
+    "DisplayName": "Hessel-Boehm",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldLength": 617
       }
     }
   }

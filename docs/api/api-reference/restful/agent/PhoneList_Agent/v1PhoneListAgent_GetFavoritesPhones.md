@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/GetFavoritesPhones
+title: GetFavoritesPhones
 id: v1PhoneListAgent_GetFavoritesPhones
 ---
 
-# POST Agents/PhoneList/GetFavoritesPhones
+# GetFavoritesPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
@@ -73,7 +73,7 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -82,16 +82,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-736-508-1063",
-    "PersonCellPhone": "(878)200-6636",
-    "PersonPrivatePhone": "1-158-230-7142",
-    "PersonFaxNumber": "882305",
-    "PersonPagerNumber": "1389552",
-    "PersonEmail": "mandy.walker@damore.us",
-    "Id": 564,
-    "Name": "O'Conner LLC",
-    "Tooltip": "et",
-    "UniqueId": "aperiam",
+    "PersonDirectPhone": "001.083.3046 x7748",
+    "PersonCellPhone": "(376)486-1501",
+    "PersonPrivatePhone": "1-210-612-8441",
+    "PersonFaxNumber": "802690",
+    "PersonPagerNumber": "817940",
+    "PersonEmail": "marcelo.bayer@strosinmueller.com",
+    "Id": 249,
+    "Name": "Bradtke, Gerlach and Padberg",
+    "Tooltip": "dicta",
+    "UniqueId": "quos",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 82
       }
     }
   }

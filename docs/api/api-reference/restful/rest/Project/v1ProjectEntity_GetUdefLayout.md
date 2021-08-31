@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 969,
-    "ColumnId": 544,
-    "FieldDefault": "rem",
-    "FieldHeight": 7,
-    "FieldLabel": "in",
-    "FieldLeft": 879,
-    "FieldTop": 664,
+    "UDefFieldId": 276,
+    "ColumnId": 840,
+    "FieldDefault": "sunt",
+    "FieldHeight": 185,
+    "FieldLabel": "perspiciatis",
+    "FieldLeft": 645,
+    "FieldTop": 904,
     "FieldType": "Checkbox",
-    "FieldWidth": 257,
-    "FormatMask": "et",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 873,
-    "LabelLeft": 567,
-    "LabelTop": 74,
-    "LabelWidth": 513,
-    "LastVersionId": 967,
-    "ListTableId": 591,
-    "IsMandatory": false,
+    "FieldWidth": 630,
+    "FormatMask": "odio",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 810,
+    "LabelLeft": 944,
+    "LabelTop": 964,
+    "LabelWidth": 392,
+    "LastVersionId": 70,
+    "ListTableId": 526,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 244,
-    "ProgId": "deserunt",
+    "Page1LineNo": 1001,
+    "ProgId": "qui",
     "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 791,
-    "TextLength": 517,
-    "Tooltip": "quas",
-    "UdefIdentity": 383,
-    "UDListDefinitionId": 531,
+    "ShortLabel": "accusantium",
+    "TabOrder": 492,
+    "TextLength": 470,
+    "Tooltip": "corrupti",
+    "UdefIdentity": 538,
+    "UDListDefinitionId": 139,
     "Justification": "Center",
-    "Version": 309,
-    "TemplateVariableName": "Herzog-Konopelski",
-    "HasBeenPublished": true,
-    "MdoListName": "Keebler LLC",
+    "Version": 387,
+    "TemplateVariableName": "Ledner, Bednar and Johnson",
+    "HasBeenPublished": false,
+    "MdoListName": "Ondricka LLC",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldLength": 128
       }
     }
   }

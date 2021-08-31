@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetDefaultValueInfo
+title: GetDefaultValueInfo
 id: v1ErpSyncAgent_GetDefaultValueInfo
 ---
 
-# POST Agents/ErpSync/GetDefaultValueInfo
+# GetDefaultValueInfo
 
 ```http
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 217
+  "ErpFieldId": 397
 }
 ```
 
@@ -102,15 +102,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 958,
-  "DefaultValue": "repudiandae",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "magni",
+  "ErpFieldId": 837,
+  "DefaultValue": "omnis",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "incidunt",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "fugiat",
+  "ErpFieldKey": "laboriosam",
   "FieldType": "Checkbox",
-  "ListName": "O'Kon-Goodwin",
+  "ListName": "Ledner, Harris and Jacobs",
   "Access": "Mandatory",
   "TableRight": {
     "Mask": "Delete",
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 80
     }
   }
 }

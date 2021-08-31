@@ -84,16 +84,16 @@ Response body: object
 PUT /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Wiegand, Hammes and Cormier",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 568,
-  "Rank": 682
+  "Id": 532,
+  "Name": "Reichert-Cruickshank",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 766,
+  "Rank": 338
 }
 ```
 
@@ -102,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Hodkiewicz, Mann and Predovic",
-  "Tooltip": "excepturi",
+  "Id": 186,
+  "Name": "Dickinson LLC",
+  "Tooltip": "modi",
   "Deleted": true,
-  "UdListDefinitionId": 599,
-  "Rank": 223,
+  "UdListDefinitionId": 558,
+  "Rank": 708,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

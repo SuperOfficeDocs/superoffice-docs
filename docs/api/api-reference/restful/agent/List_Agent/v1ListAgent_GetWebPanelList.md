@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetWebPanelList
+title: GetWebPanelList
 id: v1ListAgent_GetWebPanelList
 ---
 
-# POST Agents/List/GetWebPanelList
+# GetWebPanelList
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelList
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 894,
-    "Name": "Schmidt LLC",
-    "Tooltip": "quis",
+    "WebPanelId": 697,
+    "Name": "Stanton, Hayes and Beer",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 990,
+    "Rank": 221,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": true,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Carroll, Johnson and Hagenes",
+    "WindowName": "Lubowitz LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "facilis",
-    "Icon": 713,
+    "ProgId": "sit",
+    "Icon": 588,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldLength": 639
       }
     }
   }

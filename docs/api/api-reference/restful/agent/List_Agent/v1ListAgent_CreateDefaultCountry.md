@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultCountry
+title: CreateDefaultCountry
 id: v1ListAgent_CreateDefaultCountry
 ---
 
-# POST Agents/List/CreateDefaultCountry
+# CreateDefaultCountry
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultCountry
@@ -82,7 +82,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -90,23 +90,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 830,
-  "Name": "Kling-Rogahn",
-  "CurrencyId": 931,
-  "EnglishName": "Lynch-Osinski",
+  "CountryId": 731,
+  "Name": "Gerhold, Reinger and Stroman",
+  "CurrencyId": 328,
+  "EnglishName": "Herman-Balistreri",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Right-sized 24 hour knowledge user",
-  "OrgNrText": "968676",
-  "InterAreaPrefix": "dicta",
-  "DialInPrefix": "doloremque",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Sauer, Murphy and Durgan",
-  "AddressLayoutId": 173,
-  "DomesticAddressLayoutId": 618,
-  "ForeignAddressLayoutId": 163,
-  "Rank": 739,
-  "Tooltip": "autem",
+  "ImageDescription": "Extended cohesive complexity",
+  "OrgNrText": "1029699",
+  "InterAreaPrefix": "possimus",
+  "DialInPrefix": "sit",
+  "ZipPrefix": "necessitatibus",
+  "DomainName": "Goldner-Ritchie",
+  "AddressLayoutId": 546,
+  "DomesticAddressLayoutId": 693,
+  "ForeignAddressLayoutId": 920,
+  "Rank": 614,
+  "Tooltip": "veniam",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 107
     }
   }
 }

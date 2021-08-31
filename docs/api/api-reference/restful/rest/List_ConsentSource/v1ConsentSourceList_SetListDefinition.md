@@ -93,15 +93,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Murazik-Collier",
-  "Tooltip": "qui",
+  "Id": 67,
+  "Name": "Torphy-Runolfsson",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 867,
-  "IsCustomList": false,
+  "Rank": 65,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Schamberger-Johnston",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 928,
+  "Id": 282,
+  "Name": "Raynor Group",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 241,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "monetize enterprise niches"
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 141
     }
   }
 }

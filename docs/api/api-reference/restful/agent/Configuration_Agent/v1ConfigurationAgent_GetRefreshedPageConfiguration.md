@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetRefreshedPageConfiguration
+title: GetRefreshedPageConfiguration
 id: v1ConfigurationAgent_GetRefreshedPageConfiguration
 ---
 
-# POST Agents/Configuration/GetRefreshedPageConfiguration
+# GetRefreshedPageConfiguration
 
 ```http
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "pariatur",
-  "Instance": "dolor",
-  "Page": "consequuntur"
+  "Application": "omnis",
+  "Instance": "aliquam",
+  "Page": "quis"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"nulla"
 ```

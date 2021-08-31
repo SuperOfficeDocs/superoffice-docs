@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/AddChatTopicUserAgent
+title: AddChatTopicUserAgent
 id: v1ChatAgent_AddChatTopicUserAgent
 ---
 
-# POST Agents/Chat/AddChatTopicUserAgent
+# AddChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 992,
+  "ChatTopicId": 730,
   "Useragent": {
-    "TopicId": 474,
+    "TopicId": 272,
     "User": {},
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": false
+    "CanManage": false,
+    "CanNotify": true
   }
 }
 ```
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 400,
+  "TopicId": 637,
   "User": {
-    "AssociateId": 859,
-    "Name": "Powlowski-Kozey",
-    "PersonId": 829,
-    "Rank": 103,
-    "Tooltip": "sint",
+    "AssociateId": 891,
+    "Name": "Friesen Group",
+    "PersonId": 201,
+    "Rank": 997,
+    "Tooltip": "soluta",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 155,
-    "FullName": "Destini Funk",
-    "FormalName": "Murphy LLC",
+    "GroupIdx": 786,
+    "FullName": "Greta Lang PhD",
+    "FormalName": "Sporer LLC",
     "Deleted": false,
-    "EjUserId": 363,
-    "UserName": "Rath Group",
+    "EjUserId": 483,
+    "UserName": "Kovacek Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -125,13 +125,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 325
       }
     }
   },
   "CanListen": true,
   "CanRespond": true,
   "CanManage": false,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

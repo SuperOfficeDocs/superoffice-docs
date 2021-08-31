@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Sawayn-Goyette",
-    "ToolTip": "Rerum veniam eos laborum omnis.",
-    "Deleted": true,
-    "Rank": 724,
-    "Type": "maiores",
+    "Id": 376,
+    "Name": "Bednar-Donnelly",
+    "ToolTip": "Repellendus ut qui culpa modi.",
+    "Deleted": false,
+    "Rank": 926,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Kuphal-Prohaska",
-        "ToolTip": "Odio molestias voluptates.",
+        "Id": 572,
+        "Name": "Rowe Group",
+        "ToolTip": "A maiores ab.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "et",
+        "Rank": 671,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 612,
-        "ExtraInfo": "natus",
-        "StyleHint": "qui",
-        "FullName": "Odessa Jaskolski",
+        "IconHint": "repellendus",
+        "ColorBlock": 462,
+        "ExtraInfo": "dolore",
+        "StyleHint": "aspernatur",
+        "FullName": "Ms. Alta Bernier",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 190
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 970,
-    "ExtraInfo": "quia",
-    "StyleHint": "commodi",
-    "FullName": "Elaina Hane II",
+    "IconHint": "quia",
+    "ColorBlock": 302,
+    "ExtraInfo": "modi",
+    "StyleHint": "autem",
+    "FullName": "Curt Abshire",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 582
       }
     }
   }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Skiles, Jewess and Dare",
-    "ToolTip": "Dolorem fugit.",
+    "Id": 876,
+    "Name": "Sipes-Schimmel",
+    "ToolTip": "Illo mollitia excepturi aspernatur voluptas autem velit.",
     "Deleted": false,
-    "Rank": 349,
-    "Type": "repellat",
-    "ColorBlock": 1001,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2003-07-10T09:41:00.6203884+02:00",
+    "Rank": 345,
+    "Type": "rerum",
+    "ColorBlock": 935,
+    "IconHint": "ipsa",
+    "Selected": true,
+    "LastChanged": "1995-07-12T15:05:43.646077+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Littel LLC",
-        "ToolTip": "Molestiae sed aut suscipit.",
+        "Id": 713,
+        "Name": "Hills-Monahan",
+        "ToolTip": "Veritatis commodi quibusdam.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "neque",
-        "ColorBlock": 632,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2019-10-24T09:41:00.6203884+02:00",
+        "Rank": 749,
+        "Type": "quaerat",
+        "ColorBlock": 779,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "1996-12-03T15:05:43.646077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "quia",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Van Morissette"
+        "FullName": "Talon Medhurst"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Adalberto O'Conner"
+    "ExtraInfo": "qui",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Jany Ratke"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Shanahan, Torp and Wilderman",
-    "ToolTip": "Sed non.",
+    "Id": 493,
+    "Name": "Bauch-Reilly",
+    "ToolTip": "Et iure possimus.",
     "Deleted": true,
-    "Rank": 181,
-    "Type": "ullam",
-    "ColorBlock": 494,
-    "IconHint": "eius",
+    "Rank": 442,
+    "Type": "laudantium",
+    "ColorBlock": 578,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "1995-03-16T09:41:00.6213892+01:00",
+    "LastChanged": "1999-03-20T15:05:43.6511141+01:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Upton Group",
-        "ToolTip": "Accusamus impedit expedita omnis recusandae.",
+        "Id": 816,
+        "Name": "Feeney-Pagac",
+        "ToolTip": "Nam esse tempora omnis non.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "quam",
-        "ColorBlock": 330,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2008-02-23T09:41:00.6213892+01:00",
+        "Rank": 662,
+        "Type": "repellendus",
+        "ColorBlock": 331,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2016-03-02T15:05:43.6521152+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Marcellus Turcotte",
+        "ExtraInfo": "quis",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Miss Dakota West",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,27 +184,27 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 590
+            "FieldLength": 759
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "libero",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Jose Hoppe",
+    "FullName": "Tad Stoltenberg",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "architect mission-critical infrastructures"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "aggregate enterprise action-items"
+          "Reason": "mesh scalable technologies"
         },
         "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldLength": 831
       }
     }
   }

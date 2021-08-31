@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
+title: GetPreferenceDescriptionLineFromIdAndValue
 id: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
 ---
 
-# POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
+# GetPreferenceDescriptionLineFromIdAndValue
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
@@ -84,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 140,
-  "PrefValue": "doloribus"
+  "PrefDescId": 62,
+  "PrefValue": "cupiditate"
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 65,
-  "PrefDescId": 781,
-  "PrefValue": "a",
-  "PrefShowValue": "consectetur",
-  "Description": "Implemented actuating success",
-  "IsBuiltin": true,
+  "PrefDescLineId": 441,
+  "PrefDescId": 803,
+  "PrefValue": "quis",
+  "PrefShowValue": "omnis",
+  "Description": "Operative global adapter",
+  "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,10 +112,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "disintermediate real-time supply-chains"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 155
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/SetActiveTimeZonesByFilter
+title: SetActiveTimeZonesByFilter
 id: v1TimeZoneAgent_SetActiveTimeZonesByFilter
 ---
 
-# POST Agents/TimeZone/SetActiveTimeZonesByFilter
+# SetActiveTimeZonesByFilter
 
 ```http
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter

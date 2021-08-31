@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/SetAsLost
+title: SetAsLost
 id: v1SaleAgent_SetAsLost
 ---
 
-# POST Agents/Sale/SetAsLost
+# SetAsLost
 
 ```http
 POST /api/v1/Agents/Sale/SetAsLost

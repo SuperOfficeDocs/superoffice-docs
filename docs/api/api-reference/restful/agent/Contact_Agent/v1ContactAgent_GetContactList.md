@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetContactList
+title: GetContactList
 id: v1ContactAgent_GetContactList
 ---
 
-# POST Agents/Contact/GetContactList
+# GetContactList
 
 ```http
 POST /api/v1/Agents/Contact/GetContactList
@@ -100,35 +100,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 764,
-    "Name": "Langosh-Goyette",
-    "OrgNr": "243350",
+    "ContactId": 368,
+    "Name": "Hoppe-Dickinson",
+    "OrgNr": "1025382",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "at",
-    "DirectPhone": "(833)346-1502",
-    "AssociateId": 457,
-    "CountryId": 467,
-    "EmailAddress": "wellington_douglas@turcotte.info",
-    "Kananame": "et",
-    "EmailAddressName": "avis@stokes.com",
+    "City": "reiciendis",
+    "DirectPhone": "003.246.4245 x21745",
+    "AssociateId": 389,
+    "CountryId": 262,
+    "EmailAddress": "brett@dickenswelch.us",
+    "Kananame": "eos",
+    "EmailAddressName": "krystina.wiegand@collins.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Brook Gerhold Jr.",
+    "AssociateFullName": "Pete Beatty",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {
-      "Wgs84Latitude": 6659.75,
-      "Wgs84Longitude": 24097.326,
+      "Wgs84Latitude": 11818.314,
+      "Wgs84Longitude": 18305.694,
       "LocalizedAddress": [
         [
           {
-            "Name": "Hand, Murray and Kessler",
-            "Value": "placeat",
-            "Tooltip": "et",
-            "Label": "et",
-            "ValueLength": 60,
-            "AddressType": "nihil",
+            "Name": "Grant-Gorczany",
+            "Value": "quis",
+            "Tooltip": "labore",
+            "Label": "debitis",
+            "ValueLength": 635,
+            "AddressType": "officiis",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -139,20 +139,20 @@ Content-Type: application/json; charset=utf-8
                   "Mask": "FULL",
                   "Reason": ""
                 },
-                "FieldType": "System.String",
-                "FieldLength": 945
+                "FieldType": "System.Int32",
+                "FieldLength": 735
               }
             }
           }
         ],
         [
           {
-            "Name": "Robel Inc and Sons",
-            "Value": "aliquam",
-            "Tooltip": "fuga",
-            "Label": "alias",
-            "ValueLength": 454,
-            "AddressType": "delectus",
+            "Name": "Conroy Inc and Sons",
+            "Value": "vel",
+            "Tooltip": "iste",
+            "Label": "temporibus",
+            "ValueLength": 838,
+            "AddressType": "asperiores",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
                   "Reason": ""
                 },
                 "FieldType": "System.String",
-                "FieldLength": 571
+                "FieldLength": 103
               }
             }
           }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       ],
       "Street": {},
       "Postal": {},
-      "Formatted": "qui",
+      "Formatted": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldLength": 850
         }
       }
     },
-    "FormattedAddress": "eaque",
-    "FullName": "Mr. Margaret Tillman",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 279,
+    "FormattedAddress": "sed",
+    "FullName": "Amya Swaniawski",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 700,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetContactAppointmentsByType
+title: GetContactAppointmentsByType
 id: v1AppointmentAgent_GetContactAppointmentsByType
 ---
 
-# POST Agents/Appointment/GetContactAppointmentsByType
+# GetContactAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
@@ -129,10 +129,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 281,
-  "StartTime": "2000-10-18T16:48:28.4444487+02:00",
-  "EndTime": "2001-09-06T16:48:28.4444487+02:00",
-  "Count": 255,
+  "ContactId": 993,
+  "StartTime": "2008-04-06T14:58:02.8325632+02:00",
+  "EndTime": "2000-05-24T14:58:02.8325632+02:00",
+  "Count": 141,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 128,
-    "StartDate": "1997-10-07T16:48:28.4454592+02:00",
-    "EndDate": "2010-01-10T16:48:28.4454592+01:00",
+    "AppointmentId": 396,
+    "StartDate": "2000-07-11T14:58:02.838572+02:00",
+    "EndDate": "1996-04-03T14:58:02.838572+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Lonny Stoltenberg DVM",
-    "ContactName": "Connelly, Schuppe and Marvin",
-    "Description": "Open-architected fresh-thinking instruction set",
-    "PersonFullName": "Noemy Feeney",
-    "PersonId": 557,
-    "ContactId": 217,
-    "ProjectId": 63,
-    "ProjectName": "Homenick Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 875,
-    "ColorIndex": 703,
-    "IsFree": false,
+    "Task": "sunt",
+    "AssociateFullName": "Catharine Marks",
+    "ContactName": "Kunde, Erdman and Schaefer",
+    "Description": "Enhanced assymetric protocol",
+    "PersonFullName": "Brianne Thompson",
+    "PersonId": 29,
+    "ContactId": 341,
+    "ProjectId": 959,
+    "ProjectName": "White-Lueilwitz",
+    "IsPublished": true,
+    "AssociateId": 380,
+    "ColorIndex": 454,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 883,
-    "PriorityName": "Runolfsson-Grady",
+    "PriorityId": 743,
+    "PriorityName": "Baumbach-Erdman",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-02-05T16:48:28.4454592+01:00",
+    "ActiveDate": "1998-03-27T14:58:02.8395707+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-06-09T16:48:28.4454592+02:00",
-    "RecurringEndDate": "2008-02-01T16:48:28.4454592+01:00",
-    "MotherId": 48,
-    "AssignedBy": 331,
-    "AssignedByFullName": "Lowell Reynolds PhD",
+    "RecurringStartDate": "2013-04-07T14:58:02.8395707+02:00",
+    "RecurringEndDate": "1996-11-20T14:58:02.8395707+01:00",
+    "MotherId": 40,
+    "AssignedBy": 395,
+    "AssignedByFullName": "Mr. Sigmund Brekke",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "ab",
-    "SaleId": 989,
-    "SaleName": "Waters-Grady",
-    "AssociateName": "Grant-Ortiz",
-    "CreatedDate": "1995-07-18T16:48:28.4454592+02:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Miss Eliezer Homenick",
-    "CreatedByAssociateId": 324,
+    "Location": "qui",
+    "AlarmLeadTime": "aut",
+    "SaleId": 144,
+    "SaleName": "Volkman, Willms and Botsford",
+    "AssociateName": "Robel LLC",
+    "CreatedDate": "2015-04-17T14:58:02.8395707+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Doug Lind",
+    "CreatedByAssociateId": 148,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 94
       }
     }
   }

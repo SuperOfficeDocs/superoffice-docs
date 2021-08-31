@@ -2,6 +2,8 @@
 title: DashboardTile
 ---
 
+# DashboardTile
+
 ```http
 /api/v1/DashboardTile
 ```

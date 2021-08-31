@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveConsentSource
+title: SaveConsentSource
 id: v1ListAgent_SaveConsentSource
 ---
 
-# POST Agents/List/SaveConsentSource
+# SaveConsentSource
 
 ```http
 POST /api/v1/Agents/List/SaveConsentSource
@@ -85,12 +85,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConsentSource": {
-    "ConsentSourceId": 288,
-    "Name": "Ullrich-Kuphal",
-    "Tooltip": "sunt",
-    "Rank": 82,
-    "Key": "vitae",
-    "MailTemplateId": 469,
+    "ConsentSourceId": 209,
+    "Name": "Olson-Erdman",
+    "Tooltip": "qui",
+    "Rank": 115,
+    "Key": "aut",
+    "MailTemplateId": 704,
     "Deleted": true
   }
 }
@@ -101,16 +101,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 322,
-  "Name": "Bruen, Roberts and Harvey",
-  "Tooltip": "occaecati",
-  "Rank": 997,
-  "Key": "pariatur",
-  "MailTemplateId": 968,
+  "ConsentSourceId": 760,
+  "Name": "Connelly-Hagenes",
+  "Tooltip": "explicabo",
+  "Rank": 976,
+  "Key": "maiores",
+  "MailTemplateId": 560,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "generate holistic web services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ea",
-    "Type": "ab",
-    "Description": "Persistent 24 hour protocol",
+    "DisplayType": "corrupti",
+    "Type": "delectus",
+    "Description": "Upgradable bandwidth-monitored knowledge base",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": true,
     "TableRight": {
       "Mask": "Delete",
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 673
       }
     }
   }

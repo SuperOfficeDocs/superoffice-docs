@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetForeignAppEntity
+title: GetForeignAppEntity
 id: v1ForeignSystemAgent_GetForeignAppEntity
 ---
 
-# POST Agents/ForeignSystem/GetForeignAppEntity
+# GetForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
@@ -25,7 +25,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=828
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=767
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,48 +81,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 89,
-  "Name": "Bednar, Armstrong and Schulist",
-  "CreatedDate": "1998-06-30T16:48:29.7029267+02:00",
-  "UpdatedDate": "2010-06-05T16:48:29.7029267+02:00",
+  "ForeignAppId": 207,
+  "Name": "Bernier-Swift",
+  "CreatedDate": "1996-04-26T14:58:04.2974597+02:00",
+  "UpdatedDate": "2016-02-15T14:58:04.2974597+01:00",
   "CreatedBy": {
-    "AssociateId": 614,
-    "Name": "Monahan LLC",
-    "PersonId": 313,
-    "Rank": 625,
-    "Tooltip": "aut",
+    "AssociateId": 896,
+    "Name": "Sipes-Gislason",
+    "PersonId": 784,
+    "Rank": 340,
+    "Tooltip": "enim",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 432,
-    "FullName": "Dwight Howell",
-    "FormalName": "Boehm Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 740,
-    "UserName": "Stamm, Hilpert and Lakin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 407
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 3,
-    "Name": "Collins-Zulauf",
-    "PersonId": 570,
-    "Rank": 449,
-    "Tooltip": "harum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 296,
-    "FullName": "Valentine Zboncak",
-    "FormalName": "Johnson LLC",
-    "Deleted": false,
-    "EjUserId": 195,
-    "UserName": "DuBuque-Torphy",
+    "GroupIdx": 768,
+    "FullName": "Isobel Klein",
+    "FormalName": "Ward Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 403,
+    "UserName": "Koelpin-Powlowski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -131,21 +106,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 418
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 148,
+    "Name": "Dickens, Schumm and Lynch",
+    "PersonId": 567,
+    "Rank": 386,
+    "Tooltip": "iure",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 905,
+    "FullName": "Luis VonRueden",
+    "FormalName": "Schamberger-Murazik",
+    "Deleted": false,
+    "EjUserId": 832,
+    "UserName": "Feest, Legros and Predovic",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "enable open-source e-tailers"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 278,
-      "Name": "Wyman, Bahringer and Brakus",
-      "CreatedDate": "1994-11-08T16:48:29.7029267+01:00",
-      "UpdatedDate": "2003-12-15T16:48:29.7029267+01:00",
-      "AssociateFullName": "Susie Mraz",
-      "CreatedBy": "libero",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 758,
+      "ForeignDeviceId": 727,
+      "Name": "Schultz Group",
+      "CreatedDate": "2004-03-29T14:58:04.2974597+02:00",
+      "UpdatedDate": "2010-06-01T14:58:04.2974597+02:00",
+      "AssociateFullName": "Izabella Pagac",
+      "CreatedBy": "ullam",
+      "UpdatedBy": "quasi",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 220,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 673
         }
       }
     }
@@ -167,10 +167,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "leverage extensible communities"
       },
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 670
     }
   }
 }

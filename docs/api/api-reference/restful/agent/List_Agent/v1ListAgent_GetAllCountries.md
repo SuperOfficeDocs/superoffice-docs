@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllCountries
+title: GetAllCountries
 id: v1ListAgent_GetAllCountries
 ---
 
-# POST Agents/List/GetAllCountries
+# GetAllCountries
 
 ```http
 POST /api/v1/Agents/List/GetAllCountries
@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 198,
-    "Name": "Miller-Rippin",
-    "CurrencyId": 316,
-    "EnglishName": "Thiel-Crooks",
+    "CountryId": 984,
+    "Name": "Stark Group",
+    "CurrencyId": 519,
+    "EnglishName": "Johns Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Face to face fault-tolerant attitude",
-    "OrgNrText": "404598",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "sit",
-    "ZipPrefix": "ea",
-    "DomainName": "Ziemann-Nienow",
-    "AddressLayoutId": 47,
-    "DomesticAddressLayoutId": 443,
-    "ForeignAddressLayoutId": 321,
-    "Rank": 713,
-    "Tooltip": "velit",
-    "Deleted": true,
+    "ImageDescription": "Right-sized dynamic strategy",
+    "OrgNrText": "401729",
+    "InterAreaPrefix": "ea",
+    "DialInPrefix": "dolorem",
+    "ZipPrefix": "similique",
+    "DomainName": "Little-Lehner",
+    "AddressLayoutId": 442,
+    "DomesticAddressLayoutId": 513,
+    "ForeignAddressLayoutId": 350,
+    "Rank": 200,
+    "Tooltip": "deserunt",
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldType": "System.String",
+        "FieldLength": 285
       }
     }
   }

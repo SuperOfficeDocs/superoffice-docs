@@ -96,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Lakin, Rempel and Grant",
-    "ToolTip": "Quae at odit reprehenderit quos.",
+    "Id": 316,
+    "Name": "Franecki, Jaskolski and Weimann",
+    "ToolTip": "Numquam ut a ut omnis.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "molestiae",
-    "ColorBlock": 399,
-    "IconHint": "unde",
+    "Rank": 657,
+    "Type": "libero",
+    "ColorBlock": 658,
+    "IconHint": "doloribus",
     "Selected": true,
-    "LastChanged": "2004-02-05T09:41:00.1393622+01:00",
+    "LastChanged": "1998-10-24T15:05:43.2178993+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Bernier, Cremin and Rolfson",
-        "ToolTip": "Voluptatibus veritatis.",
+        "Id": 452,
+        "Name": "Halvorson, Hahn and Stark",
+        "ToolTip": "Corrupti facere et rem sit earum.",
         "Deleted": true,
-        "Rank": 519,
-        "Type": "totam",
-        "ColorBlock": 942,
-        "IconHint": "qui",
+        "Rank": 937,
+        "Type": "pariatur",
+        "ColorBlock": 846,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2012-06-27T09:41:00.1393622+02:00",
+        "LastChanged": "2005-04-02T15:05:43.2188992+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "in",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Ms. Dolores Johnson"
+        "FullName": "Ms. Meggie Kub"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ut",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Avery Kuhlman"
+    "FullName": "Keeley Watsica"
   }
 ]
 ```
@@ -147,36 +147,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Carroll, Harvey and Mraz",
-    "ToolTip": "Praesentium et enim.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "modi",
-    "ColorBlock": 18,
-    "IconHint": "quas",
+    "Id": 161,
+    "Name": "Wilkinson, Boyer and Ratke",
+    "ToolTip": "Aut occaecati libero.",
+    "Deleted": true,
+    "Rank": 42,
+    "Type": "enim",
+    "ColorBlock": 443,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2005-07-23T09:41:00.1413617+02:00",
+    "LastChanged": "1995-03-26T15:05:43.2198996+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Mraz Inc and Sons",
-        "ToolTip": "Corrupti distinctio consequuntur aperiam.",
+        "Id": 579,
+        "Name": "Borer-Lubowitz",
+        "ToolTip": "Incidunt qui sequi eum aspernatur.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "ullam",
-        "ColorBlock": 596,
-        "IconHint": "repudiandae",
+        "Rank": 413,
+        "Type": "et",
+        "ColorBlock": 364,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2005-11-23T09:41:00.1413617+01:00",
+        "LastChanged": "2019-11-16T15:05:43.2198996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "cumque",
-        "Hidden": false,
-        "FullName": "Margarette Kling",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Briana DuBuque",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,16 +184,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Beau Gottlieb",
+    "ExtraInfo": "at",
+    "StyleHint": "officiis",
+    "Hidden": false,
+    "FullName": "Lelia Kessler",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 50
       }
     }
   }

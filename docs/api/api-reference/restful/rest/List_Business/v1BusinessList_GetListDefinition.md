@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Rosenbaum, Jakubowski and Flatley",
-  "Tooltip": "magnam",
+  "Id": 200,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 309,
+  "Rank": 408,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reinvent magnetic channels"
       },
-      "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldType": "System.Int32",
+      "FieldLength": 94
     }
   },
   "_Links": {

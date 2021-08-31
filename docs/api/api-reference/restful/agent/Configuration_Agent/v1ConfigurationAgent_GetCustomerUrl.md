@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetCustomerUrl
+title: GetCustomerUrl
 id: v1ConfigurationAgent_GetCustomerUrl
 ---
 
-# POST Agents/Configuration/GetCustomerUrl
+# GetCustomerUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetCustomerUrl
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCustomerUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_

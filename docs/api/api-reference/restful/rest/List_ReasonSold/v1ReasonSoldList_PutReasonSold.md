@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Connelly Group",
-  "Tooltip": "id",
+  "Id": 595,
+  "Name": "Hintz-Schmitt",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "UdListDefinitionId": 756,
-  "Rank": 635
+  "UdListDefinitionId": 904,
+  "Rank": 389
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Collins, Kovacek and Walsh",
-  "Tooltip": "fugit",
-  "Deleted": true,
-  "UdListDefinitionId": 344,
-  "Rank": 263,
+  "Id": 402,
+  "Name": "Carroll-Reynolds",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "UdListDefinitionId": 97,
+  "Rank": 82,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 144
     }
   }
 }

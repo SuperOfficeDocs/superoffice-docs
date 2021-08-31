@@ -101,21 +101,21 @@ Response body: object
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 483,
-  "UniqueIdentifier": "ut",
-  "Name": "Dicki-Gusikowski",
-  "Description": "Visionary asynchronous extranet",
-  "IncludeId": "velit",
-  "HierarchyId": 373,
-  "Source": "rem",
-  "Registered": "2000-12-13T09:40:59.0568895+01:00",
-  "RegisteredAssociateId": 975,
-  "Updated": "1999-01-30T09:40:59.0568895+01:00",
-  "UpdatedAssociateId": 140
+  "EjscriptId": 85,
+  "UniqueIdentifier": "maiores",
+  "Name": "Jakubowski, Brakus and Ernser",
+  "Description": "Persevering upward-trending knowledge user",
+  "IncludeId": "et",
+  "HierarchyId": 112,
+  "Source": "dignissimos",
+  "Registered": "2020-07-03T15:05:42.0240027+02:00",
+  "RegisteredAssociateId": 902,
+  "Updated": "1997-07-23T15:05:42.0240027+02:00",
+  "UpdatedAssociateId": 233
 }
 ```
 
@@ -124,17 +124,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 492,
-  "UniqueIdentifier": "vel",
-  "Name": "Schneider-Feil",
-  "Description": "Exclusive well-modulated website",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 748,
-  "Source": "nostrum",
-  "Registered": "1996-12-18T09:40:59.0568895+01:00",
-  "RegisteredAssociateId": 767,
-  "Updated": "1998-01-25T09:40:59.0568895+01:00",
-  "UpdatedAssociateId": 588,
+  "EjscriptId": 331,
+  "UniqueIdentifier": "ipsa",
+  "Name": "Grady Group",
+  "Description": "Automated analyzing database",
+  "IncludeId": "dolorem",
+  "HierarchyId": 230,
+  "Source": "minus",
+  "Registered": "2013-03-18T15:05:42.0250026+01:00",
+  "RegisteredAssociateId": 683,
+  "Updated": "1998-11-26T15:05:42.0250026+01:00",
+  "UpdatedAssociateId": 22,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -145,13 +145,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetEngineStatus
+title: GetEngineStatus
 id: v1ErpSyncAgent_GetEngineStatus
 ---
 
-# POST Agents/ErpSync/GetEngineStatus
+# GetEngineStatus
 
 ```http
 POST /api/v1/Agents/ErpSync/GetEngineStatus
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "iste",
-  "Interval": "ab",
+  "StatusMessage": "quam",
+  "Interval": "velit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

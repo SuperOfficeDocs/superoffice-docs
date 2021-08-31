@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/CreateDefaultSystemEventEntity
+title: CreateDefaultSystemEventEntity
 id: v1ConfigurationAgent_CreateDefaultSystemEventEntity
 ---
 
-# POST Agents/Configuration/CreateDefaultSystemEventEntity
+# CreateDefaultSystemEventEntity
 
 ```http
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
@@ -76,28 +76,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 624,
+  "SystemEventId": 865,
   "Scope": "Database",
-  "Eta": "2015-07-29T16:48:29.0059219+02:00",
-  "Eventkey": "et",
-  "Eventmess": "incidunt",
-  "ExtraInfo": 60,
-  "Owner": 662,
-  "UpdatedCount": 540,
-  "Registered": "1998-01-10T16:48:29.0059219+01:00",
+  "Eta": "1998-12-19T14:58:03.5303136+01:00",
+  "Eventkey": "adipisci",
+  "Eventmess": "eligendi",
+  "ExtraInfo": 653,
+  "Owner": 679,
+  "UpdatedCount": 72,
+  "Registered": "2013-10-31T14:58:03.5303136+01:00",
   "ActivatedBy": {
-    "AssociateId": 814,
-    "Name": "Heathcote-Cronin",
-    "PersonId": 794,
-    "Rank": 826,
-    "Tooltip": "labore",
+    "AssociateId": 782,
+    "Name": "Cummings Group",
+    "PersonId": 725,
+    "Rank": 836,
+    "Tooltip": "deserunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 812,
-    "FullName": "Payton Hirthe V",
-    "FormalName": "Leannon, Sipes and Krajcik",
-    "Deleted": true,
-    "EjUserId": 328,
-    "UserName": "Berge-Prohaska",
+    "GroupIdx": 184,
+    "FullName": "Cletus Carter",
+    "FormalName": "Lebsack-Mayer",
+    "Deleted": false,
+    "EjUserId": 543,
+    "UserName": "Kemmer, Rolfson and Kuhic",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldType": "System.String",
+        "FieldLength": 154
       }
     }
   },
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldLength": 352
     }
   }
 }

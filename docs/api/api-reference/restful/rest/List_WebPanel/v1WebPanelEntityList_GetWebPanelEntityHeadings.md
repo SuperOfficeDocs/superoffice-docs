@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 540,
-    "Name": "Mohr Group",
-    "Tooltip": "delectus",
+    "HeadingId": 248,
+    "Name": "Klein-Beer",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 35,
-    "UdListDefinitionId": 201,
+    "Rank": 665,
+    "UdListDefinitionId": 286,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "disintermediate interactive interfaces"
         },
-        "FieldType": "System.String",
-        "FieldLength": 717
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

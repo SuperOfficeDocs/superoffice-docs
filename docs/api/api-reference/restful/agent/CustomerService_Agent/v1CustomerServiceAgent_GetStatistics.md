@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetStatistics
+title: GetStatistics
 id: v1CustomerServiceAgent_GetStatistics
 ---
 
-# POST Agents/CustomerService/GetStatistics
+# GetStatistics
 
 ```http
 POST /api/v1/Agents/CustomerService/GetStatistics
@@ -75,12 +75,12 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "voluptatem",
+    "sit",
     "enim"
   ]
 }
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "distinctio",
+    "Label": "reprehenderit",
     "Values": [
       {
-        "Label": "asperiores",
-        "Value": 1811.452,
-        "Description": "Decentralized national website",
+        "Label": "ea",
+        "Value": 27936.476,
+        "Description": "Programmable didactic toolset",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 92
           }
         }
       },
       {
-        "Label": "asperiores",
-        "Value": 1811.452,
-        "Description": "Decentralized national website",
+        "Label": "ea",
+        "Value": 27936.476,
+        "Description": "Programmable didactic toolset",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -122,15 +122,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 92
           }
         }
       }
     ],
-    "Description": "Proactive responsive process improvement",
+    "Description": "Configurable leading edge array",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transform collaborative relationships"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   },
   {
-    "Label": "distinctio",
+    "Label": "reprehenderit",
     "Values": [
       {
-        "Label": "asperiores",
-        "Value": 1811.452,
-        "Description": "Decentralized national website",
+        "Label": "ea",
+        "Value": 27936.476,
+        "Description": "Programmable didactic toolset",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -158,14 +158,14 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 92
           }
         }
       },
       {
-        "Label": "asperiores",
-        "Value": 1811.452,
-        "Description": "Decentralized national website",
+        "Label": "ea",
+        "Value": 27936.476,
+        "Description": "Programmable didactic toolset",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -174,15 +174,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 92
           }
         }
       }
     ],
-    "Description": "Proactive responsive process improvement",
+    "Description": "Configurable leading edge array",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transform collaborative relationships"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   }

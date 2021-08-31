@@ -60,7 +60,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -69,12 +69,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 110,
-    "Name": "Kreiger LLC",
-    "Tooltip": "nostrum",
-    "Rank": 653,
-    "Key": "nisi",
-    "MailTemplateId": 543,
+    "ConsentSourceId": 231,
+    "Name": "Cronin Inc and Sons",
+    "Tooltip": "voluptatibus",
+    "Rank": 142,
+    "Key": "voluptas",
+    "MailTemplateId": 926,
     "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldLength": 899
       }
     }
   }

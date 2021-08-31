@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteLineImage
+title: GetQuoteLineImage
 id: v1QuoteAgent_GetQuoteLineImage
 ---
 
-# POST Agents/Quote/GetQuoteLineImage
+# GetQuoteLineImage
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineImage
@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 439,
-  "Rank": 544
+  "QuoteLineId": 200,
+  "Rank": 671
 }
 ```
 

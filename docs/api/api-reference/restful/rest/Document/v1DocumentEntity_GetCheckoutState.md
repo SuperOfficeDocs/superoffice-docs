@@ -58,7 +58,7 @@ Response body: object
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -67,7 +67,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 417,
-  "Name": "Wiza-Mann"
+  "AssociateId": 44,
+  "Name": "Bahringer-Breitenberg"
 }
 ```

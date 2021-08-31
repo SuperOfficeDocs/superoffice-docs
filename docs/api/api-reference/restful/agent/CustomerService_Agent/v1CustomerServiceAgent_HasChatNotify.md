@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/HasChatNotify
+title: HasChatNotify
 id: v1CustomerServiceAgent_HasChatNotify
 ---
 
-# POST Agents/CustomerService/HasChatNotify
+# HasChatNotify
 
 ```http
 POST /api/v1/Agents/CustomerService/HasChatNotify

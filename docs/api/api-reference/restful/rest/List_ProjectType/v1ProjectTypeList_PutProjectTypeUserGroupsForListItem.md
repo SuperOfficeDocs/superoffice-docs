@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Labadie-Bernier",
-    "ToolTip": "In velit possimus perferendis tempora.",
+    "Id": 611,
+    "Name": "Bosco, Ondricka and Champlin",
+    "ToolTip": "Non rerum.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "qui",
-    "ColorBlock": 299,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2012-11-25T09:41:00.6533821+01:00",
+    "Rank": 184,
+    "Type": "nostrum",
+    "ColorBlock": 88,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2020-09-19T15:05:43.7121124+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Pfannerstill-Johns",
-        "ToolTip": "Ab occaecati eum ea perspiciatis.",
-        "Deleted": false,
-        "Rank": 131,
-        "Type": "occaecati",
-        "ColorBlock": 917,
-        "IconHint": "id",
+        "Id": 313,
+        "Name": "Runolfsson-Bayer",
+        "ToolTip": "Qui quos beatae fugit optio sint.",
+        "Deleted": true,
+        "Rank": 21,
+        "Type": "natus",
+        "ColorBlock": 257,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2013-07-13T09:41:00.6533821+02:00",
+        "LastChanged": "1997-09-30T15:05:43.7121124+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Queen Jast"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Magdalena Rolfson"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "tempora",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Leora Bashirian"
+    "FullName": "Lucious Zulauf"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Runolfsdottir-Dickinson",
-    "ToolTip": "Et architecto eius est.",
-    "Deleted": true,
-    "Rank": 288,
-    "Type": "corrupti",
-    "ColorBlock": 164,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "1995-01-10T09:41:00.6543817+01:00",
+    "Id": 126,
+    "Name": "Parisian-Nader",
+    "ToolTip": "Unde dignissimos.",
+    "Deleted": false,
+    "Rank": 975,
+    "Type": "est",
+    "ColorBlock": 935,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "1995-05-15T15:05:43.714086+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Schaefer-Gorczany",
-        "ToolTip": "Et doloremque odit reprehenderit quisquam debitis fuga.",
-        "Deleted": false,
-        "Rank": 361,
-        "Type": "qui",
-        "ColorBlock": 309,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2015-12-23T09:41:00.6543817+01:00",
+        "Id": 85,
+        "Name": "Schoen, Zieme and Rolfson",
+        "ToolTip": "Dolor qui ipsum accusamus aut velit.",
+        "Deleted": true,
+        "Rank": 713,
+        "Type": "dolorem",
+        "ColorBlock": 423,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2015-10-08T15:05:43.714086+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Dorothy Greenfelder",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Mr. Eduardo Torp",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 588
+            "FieldType": "System.Int32",
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "dolor",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Ronny Crooks",
+    "FullName": "Maurice Grady",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

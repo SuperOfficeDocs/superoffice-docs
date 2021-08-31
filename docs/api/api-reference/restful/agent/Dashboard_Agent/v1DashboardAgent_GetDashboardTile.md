@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetDashboardTile
+title: GetDashboardTile
 id: v1DashboardAgent_GetDashboardTile
 ---
 
-# POST Agents/Dashboard/GetDashboardTile
+# GetDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboardTile
@@ -25,7 +25,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=546
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=939
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -92,48 +92,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 810,
-  "Caption": "quae",
-  "Description": "Re-contextualized multimedia complexity",
-  "ChartName": "Lakin LLC",
-  "ChartId": "eos",
+  "DashboardTileId": 872,
+  "Caption": "cum",
+  "Description": "Versatile executive structure",
+  "ChartName": "Muller-Jewess",
+  "ChartId": "pariatur",
   "IsDefault": false,
-  "AssociateId": 886,
-  "GroupId": 1000,
-  "SelectionId": 453,
-  "Config": "quos",
+  "AssociateId": 515,
+  "GroupId": 280,
+  "SelectionId": 997,
+  "Config": "aperiam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Okuneva LLC",
-      "Description": "Front-line tertiary database",
+      "Name": "Hoppe, Batz and Hartmann",
+      "Description": "Secured zero tolerance utilisation",
       "Type": "Boolean",
-      "ListName": "Quigley Inc and Sons",
+      "ListName": "Denesik, Nicolas and Koch",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatem",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "target synergistic initiatives"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 261
+          "FieldLength": 467
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 625,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     },
     {
-      "VisibleId": 625,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 192
     }
   }
 }

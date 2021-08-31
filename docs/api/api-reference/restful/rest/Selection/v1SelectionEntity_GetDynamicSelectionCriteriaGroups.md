@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,20 +68,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nikolaus-Klein",
-    "Description": "Enhanced interactive help-desk",
-    "Rank": 95,
+    "Name": "Jakubowski-Fadel",
+    "Description": "Persevering global approach",
+    "Rank": 92,
     "Restrictions": [
       {
-        "Name": "Leuschke-Ankunding",
-        "Operator": "repellat",
+        "Name": "Tillman, Leannon and Bechtelar",
+        "Operator": "quia",
         "Values": [
-          "doloribus",
-          "qui"
+          "est",
+          "accusantium"
         ],
         "DisplayValues": [
-          "rem",
-          "reprehenderit"
+          "non",
+          "voluptatibus"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -89,27 +89,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 548,
+        "InterParenthesis": 407,
         "InterOperator": "And",
-        "UniqueHash": 211
+        "UniqueHash": 152
       }
     ]
   },
   {
-    "Name": "Nikolaus-Klein",
-    "Description": "Enhanced interactive help-desk",
-    "Rank": 95,
+    "Name": "Jakubowski-Fadel",
+    "Description": "Persevering global approach",
+    "Rank": 92,
     "Restrictions": [
       {
-        "Name": "Leuschke-Ankunding",
-        "Operator": "repellat",
+        "Name": "Tillman, Leannon and Bechtelar",
+        "Operator": "quia",
         "Values": [
-          "doloribus",
-          "qui"
+          "est",
+          "accusantium"
         ],
         "DisplayValues": [
-          "rem",
-          "reprehenderit"
+          "non",
+          "voluptatibus"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -117,9 +117,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 548,
+        "InterParenthesis": 407,
         "InterOperator": "And",
-        "UniqueHash": 211
+        "UniqueHash": 152
       }
     ]
   }

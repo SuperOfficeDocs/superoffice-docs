@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
+title: GetDayInformationListByDatesAndAssociate
 id: v1AppointmentAgent_GetDayInformationListByDatesAndAssociate
 ---
 
-# POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
+# GetDayInformationListByDatesAndAssociate
 
 ```http
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
@@ -77,13 +77,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-01-24T16:48:28.344449+01:00",
-  "EndDate": "2011-10-03T16:48:28.344449+02:00",
-  "AssociateId": 633
+  "StartDate": "2017-11-18T14:58:02.8965683+01:00",
+  "EndDate": "2021-01-31T14:58:02.8965683+01:00",
+  "AssociateId": 311
 }
 ```
 
@@ -94,24 +94,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ActivityInformation": {
-      "NumBusyActivities": 86,
-      "NumFreeActivities": 305,
-      "PercentageBusy": 125,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "unleash bricks-and-clicks partnerships"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 980
-        }
-      }
-    },
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": true,
-      "IsOtherCountryHoliday": true,
+      "NumBusyActivities": 978,
+      "NumFreeActivities": 967,
+      "PercentageBusy": 916,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,15 +104,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     },
-    "Date": "1998-01-16T16:48:28.344449+01:00",
+    "RedLetterInformation": {
+      "IsOwnCountryHoliday": false,
+      "IsOtherCountryHoliday": true,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "visualize end-to-end ROI"
+          },
+          "FieldType": "System.String",
+          "FieldLength": 902
+        }
+      }
+    },
+    "Date": "2006-05-17T14:58:02.8975682+02:00",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "monetize cutting-edge e-commerce"
     },
     "FieldProperties": {
       "fieldName": {
@@ -135,31 +135,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   },
   {
     "ActivityInformation": {
-      "NumBusyActivities": 86,
-      "NumFreeActivities": 305,
-      "PercentageBusy": 125,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "unleash bricks-and-clicks partnerships"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 980
-        }
-      }
-    },
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": true,
-      "IsOtherCountryHoliday": true,
+      "NumBusyActivities": 978,
+      "NumFreeActivities": 967,
+      "PercentageBusy": 916,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -167,15 +152,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     },
-    "Date": "1998-01-16T16:48:28.344449+01:00",
+    "RedLetterInformation": {
+      "IsOwnCountryHoliday": false,
+      "IsOtherCountryHoliday": true,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "visualize end-to-end ROI"
+          },
+          "FieldType": "System.String",
+          "FieldLength": 902
+        }
+      }
+    },
+    "Date": "2006-05-17T14:58:02.8975682+02:00",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "monetize cutting-edge e-commerce"
     },
     "FieldProperties": {
       "fieldName": {
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   }

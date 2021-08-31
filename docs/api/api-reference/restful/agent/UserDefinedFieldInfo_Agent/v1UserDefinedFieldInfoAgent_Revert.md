@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/Revert
+title: Revert
 id: v1UserDefinedFieldInfoAgent_Revert
 ---
 
-# POST Agents/UserDefinedFieldInfo/Revert
+# Revert
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/Revert

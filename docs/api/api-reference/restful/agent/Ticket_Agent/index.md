@@ -2,6 +2,8 @@
 title: Ticket_Agent
 ---
 
+# Ticket_Agent
+
 ```http
 /api/v1/Ticket/Agent
 ```
@@ -9,50 +11,56 @@ title: Ticket_Agent
 
 
 
-* [POST Agents/Ticket/CreateDefaultTicketEntity](v1TicketAgent_CreateDefaultTicketEntity.md)
+* [CreateDefaultTicketEntity](v1TicketAgent_CreateDefaultTicketEntity.md)
 
-* [POST Agents/Ticket/SaveTicketEntity](v1TicketAgent_SaveTicketEntity.md)
+* [SaveTicketEntity](v1TicketAgent_SaveTicketEntity.md)
 
-* [POST Agents/Ticket/CreateDefaultTicketMessageEntity](v1TicketAgent_CreateDefaultTicketMessageEntity.md)
+* [CreateDefaultTicketMessageEntity](v1TicketAgent_CreateDefaultTicketMessageEntity.md)
 
-* [POST Agents/Ticket/SaveTicketMessageEntity](v1TicketAgent_SaveTicketMessageEntity.md)
+* [SaveTicketMessageEntity](v1TicketAgent_SaveTicketMessageEntity.md)
 
-* [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)
+* [CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)
 
-* [POST Agents/Ticket/SaveAttachmentEntity](v1TicketAgent_SaveAttachmentEntity.md)
+* [SaveAttachmentEntity](v1TicketAgent_SaveAttachmentEntity.md)
 
-* [POST Agents/Ticket/GetTicketEntity](v1TicketAgent_GetTicketEntity.md)
+* [GetTicketEntity](v1TicketAgent_GetTicketEntity.md)
 
-* [POST Agents/Ticket/DeleteTicketEntity](v1TicketAgent_DeleteTicketEntity.md)
+* [DeleteTicketEntity](v1TicketAgent_DeleteTicketEntity.md)
 
-* [POST Agents/Ticket/NotifyNewTicket](v1TicketAgent_NotifyNewTicket.md)
+* [NotifyNewTicket](v1TicketAgent_NotifyNewTicket.md)
 
-* [POST Agents/Ticket/NotifyNewTicketMessage](v1TicketAgent_NotifyNewTicketMessage.md)
+* [NotifyNewTicketMessage](v1TicketAgent_NotifyNewTicketMessage.md)
 
-* [POST Agents/Ticket/GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)
+* [GetTicketAttachments](v1TicketAgent_GetTicketAttachments.md)
 
-* [POST Agents/Ticket/DeleteTicketMessageEntity](v1TicketAgent_DeleteTicketMessageEntity.md)
+* [SetTicketReadByOwner](v1TicketAgent_SetTicketReadByOwner.md)
 
-* [POST Agents/Ticket/SanitizeMailContent](v1TicketAgent_SanitizeMailContent.md)
+* [GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)
 
-* [POST Agents/Ticket/SanitizeMailContents](v1TicketAgent_SanitizeMailContents.md)
+* [DeleteTicketMessageEntity](v1TicketAgent_DeleteTicketMessageEntity.md)
 
-* [POST Agents/Ticket/Html2Text](v1TicketAgent_Html2Text.md)
+* [SanitizeMailContent](v1TicketAgent_SanitizeMailContent.md)
 
-* [POST Agents/Ticket/GetAttachmentInfo](v1TicketAgent_GetAttachmentInfo.md)
+* [SanitizeMailContents](v1TicketAgent_SanitizeMailContents.md)
 
-* [POST Agents/Ticket/AddAttachments](v1TicketAgent_AddAttachments.md)
+* [Html2Text](v1TicketAgent_Html2Text.md)
 
-* [POST Agents/Ticket/SendTicketMessage](v1TicketAgent_SendTicketMessage.md)
+* [GetAttachmentInfo](v1TicketAgent_GetAttachmentInfo.md)
 
-* [POST Agents/Ticket/GetTicket](v1TicketAgent_GetTicket.md)
+* [AddAttachments](v1TicketAgent_AddAttachments.md)
 
-* [POST Agents/Ticket/GetTickets](v1TicketAgent_GetTickets.md)
+* [SendTicketMessage](v1TicketAgent_SendTicketMessage.md)
 
-* [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
+* [SetTicketMessageImportant](v1TicketAgent_SetTicketMessageImportant.md)
 
-* [POST Agents/Ticket/GetAttachmentEntity](v1TicketAgent_GetAttachmentEntity.md)
+* [GetTicket](v1TicketAgent_GetTicket.md)
 
-* [POST Agents/Ticket/UploadAttachment](v1TicketAgent_UploadAttachment.md)
+* [GetTickets](v1TicketAgent_GetTickets.md)
 
-* [POST Agents/Ticket/GetAttachmentStream](v1TicketAgent_GetAttachmentStream.md)
+* [GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
+
+* [GetAttachmentEntity](v1TicketAgent_GetAttachmentEntity.md)
+
+* [UploadAttachment](v1TicketAgent_UploadAttachment.md)
+
+* [GetAttachmentStream](v1TicketAgent_GetAttachmentStream.md)

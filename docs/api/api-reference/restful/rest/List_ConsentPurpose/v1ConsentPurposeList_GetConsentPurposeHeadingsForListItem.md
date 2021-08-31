@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Keeling Inc and Sons",
-    "ToolTip": "Quae ea sed explicabo facilis.",
-    "Deleted": true,
-    "Rank": 965,
-    "Type": "totam",
-    "ColorBlock": 921,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2020-06-25T09:41:00.2693665+02:00",
+    "Id": 853,
+    "Name": "Brakus-Pollich",
+    "ToolTip": "Tempore necessitatibus suscipit.",
+    "Deleted": false,
+    "Rank": 771,
+    "Type": "doloribus",
+    "ColorBlock": 402,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2020-06-01T15:05:43.3425402+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Runolfsson-Spencer",
-        "ToolTip": "Eos commodi ut quis.",
+        "Id": 428,
+        "Name": "Howell-Boyer",
+        "ToolTip": "Dolores repudiandae ratione quo officiis ipsum.",
         "Deleted": true,
-        "Rank": 83,
-        "Type": "numquam",
-        "ColorBlock": 234,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "1995-11-24T09:41:00.2693665+01:00",
+        "Rank": 294,
+        "Type": "eaque",
+        "ColorBlock": 993,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2019-03-02T15:05:43.3425402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "aut",
+        "ExtraInfo": "quod",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Lessie Zemlak I",
+        "FullName": "Robb Wintheiser",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Hilma Zboncak",
+    "ExtraInfo": "error",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Alyson Fahey",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldLength": 960
       }
     }
   }

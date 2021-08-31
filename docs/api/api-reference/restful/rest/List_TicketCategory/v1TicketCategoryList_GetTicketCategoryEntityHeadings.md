@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Funk-Barton",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 521,
-    "UdListDefinitionId": 543,
+    "HeadingId": 176,
+    "Name": "Prohaska-Douglas",
+    "Tooltip": "assumenda",
+    "Deleted": false,
+    "Rank": 870,
+    "UdListDefinitionId": 404,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

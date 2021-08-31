@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "King, Rowe and Nader",
-    "Tooltip": "autem",
+    "Id": 196,
+    "Name": "Goodwin Group",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 597,
-    "Rank": 130
+    "UdListDefinitionId": 815,
+    "Rank": 503
   },
   {
-    "Id": 728,
-    "Name": "King, Rowe and Nader",
-    "Tooltip": "autem",
+    "Id": 196,
+    "Name": "Goodwin Group",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "UdListDefinitionId": 597,
-    "Rank": 130
+    "UdListDefinitionId": 815,
+    "Rank": 503
   }
 ]
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Powlowski Group",
-    "Tooltip": "neque",
+    "Id": 537,
+    "Name": "Macejkovic-Howe",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 224,
-    "Rank": 873,
+    "UdListDefinitionId": 787,
+    "Rank": 92,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "streamline collaborative e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "orchestrate holistic communities"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

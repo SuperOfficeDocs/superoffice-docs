@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectsFromContact
+title: GetProjectsFromContact
 id: v1ProjectAgent_GetProjectsFromContact
 ---
 
-# POST Agents/Project/GetProjectsFromContact
+# GetProjectsFromContact
 
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromContact
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 548
+  "ContactId": 476
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 656,
-    "Name": "Kassulke-Crona",
-    "Description": "Pre-emptive local pricing structure",
+    "ProjectId": 440,
+    "Name": "Feeney-Hauck",
+    "Description": "Re-contextualized value-added access",
     "URL": "http://www.example.com/",
-    "Type": "dolores",
-    "AssociateId": 417,
-    "AssociateFullName": "Christelle Konopelski",
-    "TypeId": 418,
-    "Updated": "2007-09-24T16:48:30.3739374+02:00",
-    "StatusId": 594,
-    "Status": "labore",
-    "TextId": 350,
-    "PublishTo": "2007-03-31T16:48:30.3739374+02:00",
-    "PublishFrom": "2006-10-07T16:48:30.3739374+02:00",
+    "Type": "molestias",
+    "AssociateId": 672,
+    "AssociateFullName": "Carol Kerluke",
+    "TypeId": 922,
+    "Updated": "2004-11-07T14:58:04.8584599+01:00",
+    "StatusId": 162,
+    "Status": "consequuntur",
+    "TextId": 714,
+    "PublishTo": "2009-05-03T14:58:04.8584599+02:00",
+    "PublishFrom": "1997-03-01T14:58:04.8584599+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "61361",
-    "ActiveErpLinks": 138,
+    "ProjectNumber": "1438748",
+    "ActiveErpLinks": 911,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldType": "System.String",
+        "FieldLength": 739
       }
     }
   }

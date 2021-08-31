@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCrediteds
+title: GetCrediteds
 id: v1ListAgent_GetCrediteds
 ---
 
-# POST Agents/List/GetCrediteds
+# GetCrediteds
 
 ```http
 POST /api/v1/Agents/List/GetCrediteds
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCrediteds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Value": "maiores",
-    "Tooltip": "et",
+    "Id": 209,
+    "Value": "sint",
+    "Tooltip": "id",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 885
       }
     }
   },
   {
-    "Id": 594,
-    "Value": "maiores",
-    "Tooltip": "et",
+    "Id": 209,
+    "Value": "sint",
+    "Tooltip": "id",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 885
       }
     }
   }

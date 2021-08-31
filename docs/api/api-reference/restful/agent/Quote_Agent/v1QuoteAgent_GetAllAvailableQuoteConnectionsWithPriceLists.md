@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
+title: GetAllAvailableQuoteConnectionsWithPriceLists
 id: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
 ---
 
-# POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
+# GetAllAvailableQuoteConnectionsWithPriceLists
 
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 560,
-    "ERPName": "Halvorson-Rodriguez",
-    "DisplayName": "Friesen, Waters and Hermiston",
-    "DisplayDescription": "Grass-roots explicit open architecture",
-    "Rank": 263,
-    "ConnectorName": "Balistreri, Hackett and Hermiston",
-    "ErpConnectionId": 784,
-    "ExtraData": "facilis",
-    "IsAvailable": true,
+    "QuoteConnectionId": 810,
+    "ERPName": "Renner-Shields",
+    "DisplayName": "Bruen-Romaguera",
+    "DisplayDescription": "Quality-focused mobile instruction set",
+    "Rank": 317,
+    "ConnectorName": "Bauch, Mann and Howell",
+    "ErpConnectionId": 918,
+    "ExtraData": "et",
+    "IsAvailable": false,
     "InitializeResponse": {
-      "IsOk": false,
-      "UserExplanation": "temporibus",
-      "TechExplanation": "et",
-      "ErrorCode": "qui",
+      "IsOk": true,
+      "UserExplanation": "adipisci",
+      "TechExplanation": "dolores",
+      "ErrorCode": "itaque",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -109,45 +109,45 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 598,
-        "ERPPriceListKey": "fuga",
-        "QuoteConnectionId": 45,
-        "Name": "Macejkovic-Roberts",
-        "Description": "Operative zero defect projection",
-        "Currency": "inventore",
-        "CurrencyName": "McLaughlin, McGlynn and Denesik",
-        "ValidFrom": "2005-06-30T16:48:30.465943+02:00",
-        "ValidTo": "2003-09-09T16:48:30.465943+02:00",
+        "PriceListId": 163,
+        "ERPPriceListKey": "quis",
+        "QuoteConnectionId": 91,
+        "Name": "Conn-Jast",
+        "Description": "Multi-lateral systematic moderator",
+        "Currency": "quae",
+        "CurrencyName": "Grady Group",
+        "ValidFrom": "2003-05-20T14:58:04.961465+02:00",
+        "ValidTo": "2020-02-22T14:58:04.961465+01:00",
         "IsActive": false,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "redefine impactful ROI"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 256
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      625,
-      525
+      629,
+      617
     ],
     "AssociateAccessIds": [
-      843,
-      34
+      319,
+      598
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 468
       }
     }
   }

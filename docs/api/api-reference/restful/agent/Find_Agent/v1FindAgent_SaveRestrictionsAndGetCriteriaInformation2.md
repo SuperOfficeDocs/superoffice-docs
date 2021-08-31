@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
+title: SaveRestrictionsAndGetCriteriaInformation2
 id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
 ---
 
-# POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
+# SaveRestrictionsAndGetCriteriaInformation2
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
@@ -85,15 +85,15 @@ Response body: object
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquid",
-  "ProviderName": "Bosco Inc and Sons",
-  "StorageKey": "sint",
-  "Restrictions": "illo",
-  "StaticColumns": "suscipit"
+  "StorageType": "sint",
+  "ProviderName": "Purdy-Kohler",
+  "StorageKey": "non",
+  "Restrictions": "et",
+  "StaticColumns": "iusto"
 }
 ```
 
@@ -104,57 +104,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lakin Group",
-      "Operator": "reprehenderit",
+      "Name": "Senger, Leuschke and Predovic",
+      "Operator": "harum",
       "Values": [
-        "vitae",
-        "maiores"
+        "explicabo",
+        "possimus"
       ],
       "DisplayValues": [
-        "dolores",
-        "dicta"
+        "iste",
+        "ut"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 78,
+      "InterParenthesis": 257,
       "InterOperator": "And",
-      "UniqueHash": 389
+      "UniqueHash": 138
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schiller, Huel and Welch",
-      "DisplayTooltip": "perferendis",
-      "DisplayType": "eum",
+      "DisplayName": "Boehm-Lebsack",
+      "DisplayTooltip": "voluptates",
+      "DisplayType": "nam",
       "CanOrderBy": true,
-      "Name": "Abernathy-Paucek",
+      "Name": "Mitchell-Labadie",
       "CanRestrictBy": true,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Bosco LLC",
+      "RestrictionType": "laudantium",
+      "RestrictionListName": "Lemke Group",
       "IsVisible": true,
-      "ExtraInfo": "voluptatum",
-      "Width": "minima",
-      "IconHint": "ipsa",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "pariatur",
+      "Width": "distinctio",
+      "IconHint": "perspiciatis",
+      "HeadingIconHint": "eaque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ullrich-Powlowski",
-      "PrimaryKey": 163,
+      "EntityName": "Barrows-Farrell",
+      "PrimaryKey": 596,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "porro",
-          "LinkHint": "officiis"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "dolor",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "reiciendis",
+      "LinkHint": "voluptas",
+      "StyleHint": "non",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -162,26 +162,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mayer-Terry",
-      "Description": "Balanced explicit workforce",
-      "Rank": 159,
+      "Name": "Spencer-Ward",
+      "Description": "Cross-platform intangible algorithm",
+      "Rank": 606,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mayer-Terry",
-      "Description": "Balanced explicit workforce",
-      "Rank": 159,
+      "Name": "Spencer-Ward",
+      "Description": "Cross-platform intangible algorithm",
+      "Rank": 606,
       "Restrictions": [
         {},
         {}
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 612
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/ValidatePersonEntity
+title: ValidatePersonEntity
 id: v1PersonAgent_ValidatePersonEntity
 ---
 
-# POST Agents/Person/ValidatePersonEntity
+# ValidatePersonEntity
 
 ```http
 POST /api/v1/Agents/Person/ValidatePersonEntity
@@ -68,27 +68,27 @@ Response body: object
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PersonEntity": {
-    "PersonId": 530,
-    "Firstname": "Pietro",
-    "MiddleName": "Bashirian, Schuster and Schulist",
-    "Lastname": "Koch",
-    "Mrmrs": "rerum",
-    "Title": "minima",
-    "UpdatedDate": "2004-06-28T16:48:30.1999349+02:00",
-    "CreatedDate": "1999-07-10T16:48:30.1999349+02:00",
-    "BirthDate": "2018-03-21T16:48:30.1999349+01:00",
+    "PersonId": 205,
+    "Firstname": "Anjali",
+    "MiddleName": "Hodkiewicz, Paucek and Kertzmann",
+    "Lastname": "Feil",
+    "Mrmrs": "et",
+    "Title": "iure",
+    "UpdatedDate": "2021-02-04T14:58:04.5824658+01:00",
+    "CreatedDate": "2011-08-13T14:58:04.5824658+02:00",
+    "BirthDate": "2001-01-14T14:58:04.5824658+01:00",
     "CreatedBy": {},
     "Emails": [
       {},
       {}
     ],
-    "Description": "Ameliorated scalable website",
-    "IsAssociate": false,
+    "Description": "Diverse empowering definition",
+    "IsAssociate": true,
     "PrivatePhones": [
       {},
       {}
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "PersonNumber": "1163417",
-    "FullName": "Alanis Carter",
-    "NoMailing": true,
-    "UsePersonAddress": true,
-    "Retired": false,
+    "PersonNumber": "962726",
+    "FullName": "Josiah Renner",
+    "NoMailing": false,
+    "UsePersonAddress": false,
+    "Retired": true,
     "Urls": [
       {},
       {}
     ],
-    "FormalName": "Lueilwitz-Bailey",
+    "FormalName": "Paucek-Miller",
     "Address": {},
-    "Post3": "est",
-    "Post2": "rem",
-    "Post1": "quia",
-    "Kanalname": "et",
-    "Kanafname": "ab",
+    "Post3": "ut",
+    "Post2": "harum",
+    "Post1": "repellendus",
+    "Kanalname": "esse",
+    "Kanafname": "autem",
     "CorrespondingAssociate": {},
     "Category": {},
     "Business": {},
     "Associate": {},
-    "Salutation": "velit",
-    "ActiveInterests": 948,
+    "Salutation": "a",
+    "ActiveInterests": 259,
     "SupportAssociate": {},
     "TicketPriority": {},
     "CustomerLanguage": {},
-    "DbiAgentId": 402,
-    "DbiKey": "et",
-    "DbiLastModified": "2004-04-01T16:48:30.1999349+02:00",
-    "DbiLastSyncronized": "2007-03-19T16:48:30.1999349+01:00",
-    "SentInfo": 319,
-    "ShowContactTickets": 730,
+    "DbiAgentId": 636,
+    "DbiKey": "similique",
+    "DbiLastModified": "2015-01-28T14:58:04.5824658+01:00",
+    "DbiLastSyncronized": "2000-01-18T14:58:04.5824658+01:00",
+    "SentInfo": 753,
+    "ShowContactTickets": 50,
     "UserInfo": {},
     "ChatEmails": [
       {},
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Source": 484,
-    "ActiveErpLinks": 267,
+    "Source": 560,
+    "ActiveErpLinks": 954,
     "ShipmentTypes": [
       {},
       {}
@@ -168,20 +168,20 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "BounceEmails": [
-      "stephen.breitenberg@pagacjast.ca",
-      "jaren_balistreri@connmorar.com"
+      "delaney_langworth@hartmann.uk",
+      "kaya.turcotte@borer.name"
     ],
     "UserDefinedFields": {
-      "SuperOffice:1": "Caleb Boyer",
-      "SuperOffice:2": "9984020"
+      "SuperOffice:1": "Maxime McKenzie",
+      "SuperOffice:2": "Marquis Jewess"
     },
     "ExtraFields": {
-      "ExtraFields1": "perferendis",
-      "ExtraFields2": "commodi"
+      "ExtraFields1": "atque",
+      "ExtraFields2": "quidem"
     },
     "CustomFields": {
-      "CustomFields1": "vero",
-      "CustomFields2": "voluptatem"
+      "CustomFields1": "quasi",
+      "CustomFields2": "ab"
     }
   }
 }
@@ -192,7 +192,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "qui",
-  "2": "cumque"
+  "1": "ut",
+  "2": "officia"
 }
 ```

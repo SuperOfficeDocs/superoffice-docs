@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 784,
-    "Name": "Blick-Kulas",
-    "Tooltip": "dolores",
+    "HeadingId": 588,
+    "Name": "Casper Group",
+    "Tooltip": "sapiente",
     "Deleted": true,
-    "Rank": 89,
-    "UdListDefinitionId": 386,
+    "Rank": 166,
+    "UdListDefinitionId": 213,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   }

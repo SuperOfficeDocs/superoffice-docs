@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SetRepliedAt
+title: SetRepliedAt
 id: v1EMailAgent_SetRepliedAt
 ---
 
-# POST Agents/EMail/SetRepliedAt
+# SetRepliedAt
 
 ```http
 POST /api/v1/Agents/EMail/SetRepliedAt

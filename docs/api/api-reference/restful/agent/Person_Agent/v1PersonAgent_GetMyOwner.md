@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetMyOwner
+title: GetMyOwner
 id: v1PersonAgent_GetMyOwner
 ---
 
-# POST Agents/Person/GetMyOwner
+# GetMyOwner
 
 ```http
 POST /api/v1/Agents/Person/GetMyOwner
@@ -104,7 +104,7 @@ Response body: object
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -112,45 +112,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "voluptatem",
-  "PersonId": 185,
-  "Mrmrs": "iure",
-  "Firstname": "Odessa",
-  "Lastname": "Sauer",
-  "MiddleName": "Windler, Auer and Schmeler",
-  "Title": "reiciendis",
-  "Description": "Sharable interactive migration",
-  "Email": "margaretta_corwin@mertzhomenick.name",
-  "FullName": "Rosario Haag V",
-  "DirectPhone": "802-571-4710",
-  "FormalName": "McKenzie Group",
-  "CountryId": 369,
-  "ContactId": 434,
-  "ContactName": "Reilly-Stroman",
-  "Retired": 225,
-  "Rank": 235,
-  "ActiveInterests": 206,
+  "Position": "natus",
+  "PersonId": 913,
+  "Mrmrs": "quidem",
+  "Firstname": "Ashlee",
+  "Lastname": "Jewess",
+  "MiddleName": "Wintheiser Inc and Sons",
+  "Title": "ullam",
+  "Description": "Open-architected tangible approach",
+  "Email": "mireya@lynch.info",
+  "FullName": "Gracie Nitzsche",
+  "DirectPhone": "318.636.3762 x11821",
+  "FormalName": "Fadel Group",
+  "CountryId": 721,
+  "ContactId": 271,
+  "ContactName": "Wehner, Stroman and Waelchi",
+  "Retired": 542,
+  "Rank": 900,
+  "ActiveInterests": 155,
   "ContactDepartment": "",
-  "ContactCountryId": 899,
-  "ContactOrgNr": "570311",
-  "FaxPhone": "1-872-744-2808 x471",
-  "MobilePhone": "(064)545-5283 x4802",
-  "ContactPhone": "318.331.5534 x6383",
-  "AssociateName": "Bernier-Toy",
-  "AssociateId": 746,
-  "UsePersonAddress": false,
-  "ContactFax": "praesentium",
-  "Kanafname": "enim",
-  "Kanalname": "expedita",
-  "Post1": "possimus",
-  "Post2": "nulla",
-  "Post3": "error",
-  "EmailName": "stewart@ondricka.ca",
-  "ContactFullName": "Ozella Lebsack",
-  "ActiveErpLinks": 359,
-  "TicketPriorityId": 95,
-  "SupportLanguageId": 98,
-  "SupportAssociateId": 39,
+  "ContactCountryId": 62,
+  "ContactOrgNr": "973040",
+  "FaxPhone": "1-656-212-6786 x178",
+  "MobilePhone": "823.758.6314 x201",
+  "ContactPhone": "476-435-3248 x780",
+  "AssociateName": "Heller, Brakus and Romaguera",
+  "AssociateId": 21,
+  "UsePersonAddress": true,
+  "ContactFax": "aut",
+  "Kanafname": "incidunt",
+  "Kanalname": "omnis",
+  "Post1": "quo",
+  "Post2": "qui",
+  "Post3": "itaque",
+  "EmailName": "avis@hermiston.name",
+  "ContactFullName": "Ignatius Friesen",
+  "ActiveErpLinks": 177,
+  "TicketPriorityId": 613,
+  "SupportLanguageId": 798,
+  "SupportAssociateId": 373,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldType": "System.Int32",
+      "FieldLength": 100
     }
   }
 }

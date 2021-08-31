@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Olson LLC",
-    "ToolTip": "Et pariatur rerum illum quaerat nemo.",
+    "Id": 753,
+    "Name": "Reichel LLC",
+    "ToolTip": "Et consequatur perferendis.",
     "Deleted": false,
-    "Rank": 662,
-    "Type": "odit",
-    "ColorBlock": 302,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2012-06-20T09:40:59.5206629+02:00",
+    "Rank": 623,
+    "Type": "autem",
+    "ColorBlock": 837,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2010-05-11T15:05:42.5676353+02:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Sporer Group",
-        "ToolTip": "Excepturi enim tenetur.",
+        "Id": 173,
+        "Name": "Lakin-Legros",
+        "ToolTip": "Est placeat eum.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "eius",
-        "ColorBlock": 73,
-        "IconHint": "nulla",
+        "Rank": 641,
+        "Type": "reprehenderit",
+        "ColorBlock": 220,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2014-12-23T09:40:59.5216627+01:00",
+        "LastChanged": "2004-11-26T15:05:42.5676353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Brown Sawayn",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Russell Towne",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Otilia Glover",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Irma Koss",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "incentivize mission-critical e-business"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldType": "System.String",
+        "FieldLength": 528
       }
     }
   }

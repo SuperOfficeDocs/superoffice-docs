@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Dicki-Wolff",
-  "Tooltip": "non",
+  "Id": 777,
+  "Name": "Block LLC",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 482,
+  "Rank": 536,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "iusto",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldLength": 566
     }
   },
   "_Links": {

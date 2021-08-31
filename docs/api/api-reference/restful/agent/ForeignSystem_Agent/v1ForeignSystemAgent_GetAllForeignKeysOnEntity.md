@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
+title: GetAllForeignKeysOnEntity
 id: v1ForeignSystemAgent_GetAllForeignKeysOnEntity
 ---
 
-# POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
+# GetAllForeignKeysOnEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
@@ -69,12 +69,12 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "corrupti",
-  "EntityId": 723
+  "EntityType": "sed",
+  "EntityId": 468
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "labore",
-  "2": "nesciunt"
+  "1": "est",
+  "2": "ut"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CopySuperOfficePriceList
+title: CopySuperOfficePriceList
 id: v1QuoteAgent_CopySuperOfficePriceList
 ---
 
-# POST Agents/Quote/CopySuperOfficePriceList
+# CopySuperOfficePriceList
 
 ```http
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
@@ -92,15 +92,15 @@ Response body: object
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 12,
-  "NewName": "Koss-Stamm",
-  "ValidFrom": "1997-04-15T16:48:30.4329399+02:00",
-  "ValidTo": "1995-07-18T16:48:30.4329399+02:00",
-  "NewCurrencyId": 481,
+  "OriginalPriceListId": 315,
+  "NewName": "Nolan, Bogisich and O'Reilly",
+  "ValidFrom": "2008-08-03T14:58:04.9944652+02:00",
+  "ValidTo": "2015-07-18T14:58:04.9944652+02:00",
+  "NewCurrencyId": 409,
   "ConvertCurrency": true
 }
 ```
@@ -110,16 +110,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 71,
-  "ERPPriceListKey": "quas",
-  "QuoteConnectionId": 546,
-  "Name": "Tromp Inc and Sons",
-  "Description": "Re-contextualized scalable archive",
-  "Currency": "necessitatibus",
-  "CurrencyName": "Reichert, Hermiston and Purdy",
-  "ValidFrom": "1996-08-31T16:48:30.4329399+02:00",
-  "ValidTo": "2015-07-03T16:48:30.4329399+02:00",
-  "IsActive": true,
+  "PriceListId": 104,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 325,
+  "Name": "Boyle-Brakus",
+  "Description": "Programmable dynamic hub",
+  "Currency": "aliquam",
+  "CurrencyName": "Hilll-Langworth",
+  "ValidFrom": "2012-03-04T14:58:04.9944652+01:00",
+  "ValidTo": "2008-07-12T14:58:04.9944652+02:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

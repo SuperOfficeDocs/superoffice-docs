@@ -2,6 +2,8 @@
 title: Archive
 ---
 
+# Archive
+
 ```http
 /api/v1/Archive
 ```

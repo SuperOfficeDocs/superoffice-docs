@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetConnectionStartupResponse
+title: GetConnectionStartupResponse
 id: v1QuoteAgent_GetConnectionStartupResponse
 ---
 
-# POST Agents/Quote/GetConnectionStartupResponse
+# GetConnectionStartupResponse
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 191
+  "QuoteConnectionId": 496
 }
 ```
 
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "aut",
-  "TechExplanation": "excepturi",
-  "ErrorCode": "quia",
+  "UserExplanation": "ea",
+  "TechExplanation": "quaerat",
+  "ErrorCode": "ab",
   "Changes": {
     "AddedRecords": [
       {},
@@ -120,22 +120,22 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 292
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "evolve sexy models"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "syndicate synergistic vortals"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldLength": 176
     }
   }
 }

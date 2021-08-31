@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Wolf, Rowe and Marvin",
-  "Tooltip": "eligendi",
+  "Id": 729,
+  "Name": "Schmitt Group",
+  "Tooltip": "veritatis",
   "Deleted": true,
-  "Rank": 570,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 804,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "leverage transparent systems"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 178
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

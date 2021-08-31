@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
+title: ToggleQuoteVersionAttachmentIncluded
 id: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
 ---
 
-# POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
+# ToggleQuoteVersionAttachmentIncluded
 
 ```http
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 860
+  "QuoteVersionAttachmentId": 330
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

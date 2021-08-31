@@ -118,29 +118,29 @@ Response body: object
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grant, Sawayn and Hilpert",
-  "Comment": "autem",
-  "StakeholderRoleId": 850,
-  "CountryId": 708,
-  "PersonId": 684,
-  "EmailDescription": "flossie_gulgowski@crookssauer.uk",
-  "EmailId": 797,
-  "EmailAddress": "anne_stracke@kozey.info",
-  "PhoneId": 372,
-  "ContactName": "Prohaska, Kiehn and Corwin",
-  "ContactId": 52,
-  "SaleId": 392,
-  "Mrmrs": "omnis",
-  "Firstname": "Juana",
-  "MiddleName": "Schultz, Cremin and Zboncak",
-  "Lastname": "Jaskolski",
-  "SaleStakeholderId": 404,
-  "Rank": 169,
-  "Phone": "(681)532-7152 x8002"
+  "StakeholderRoleName": "Mraz, Osinski and Connelly",
+  "Comment": "quasi",
+  "StakeholderRoleId": 450,
+  "CountryId": 448,
+  "PersonId": 879,
+  "EmailDescription": "caden_bode@abernathy.biz",
+  "EmailId": 188,
+  "EmailAddress": "eryn.rosenbaum@hettingerwuckert.biz",
+  "PhoneId": 50,
+  "ContactName": "Greenfelder-Mertz",
+  "ContactId": 99,
+  "SaleId": 311,
+  "Mrmrs": "vitae",
+  "Firstname": "Jeramie",
+  "MiddleName": "Streich, Gottlieb and Hilll",
+  "Lastname": "Haley",
+  "SaleStakeholderId": 480,
+  "Rank": 99,
+  "Phone": "304.085.1676"
 }
 ```
 
@@ -149,25 +149,25 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Cassin, Quigley and Beier",
-  "Comment": "vitae",
-  "StakeholderRoleId": 358,
-  "CountryId": 940,
-  "PersonId": 770,
-  "EmailDescription": "emmanuelle.brekke@lubowitzflatley.us",
-  "EmailId": 391,
-  "EmailAddress": "jesse@green.info",
-  "PhoneId": 388,
-  "ContactName": "Stroman, Leannon and Schuppe",
-  "ContactId": 271,
-  "SaleId": 230,
-  "Mrmrs": "perspiciatis",
-  "Firstname": "Jade",
-  "MiddleName": "O'Connell LLC",
-  "Lastname": "Farrell",
-  "SaleStakeholderId": 83,
-  "Rank": 934,
-  "Phone": "(557)252-0233",
+  "StakeholderRoleName": "Hoeger LLC",
+  "Comment": "qui",
+  "StakeholderRoleId": 903,
+  "CountryId": 744,
+  "PersonId": 311,
+  "EmailDescription": "lisa_ritchie@hudson.ca",
+  "EmailId": 806,
+  "EmailAddress": "florine.satterfield@champlin.us",
+  "PhoneId": 244,
+  "ContactName": "Jacobson, Hilpert and Johns",
+  "ContactId": 575,
+  "SaleId": 550,
+  "Mrmrs": "tempore",
+  "Firstname": "Adell",
+  "MiddleName": "Steuber LLC",
+  "Lastname": "Pagac",
+  "SaleStakeholderId": 329,
+  "Rank": 885,
+  "Phone": "(804)084-2627 x734",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldLength": 7
     }
   },
   "_Links": {

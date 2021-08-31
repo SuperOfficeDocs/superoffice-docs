@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreference
+title: GetPreference
 id: v1PreferenceAgent_GetPreference
 ---
 
-# POST Agents/Preference/GetPreference
+# GetPreference
 
 ```http
 POST /api/v1/Agents/Preference/GetPreference
@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 329
+  "Id": 671
 }
 ```
 
@@ -102,10 +102,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "totam",
+  "RawValue": "et",
   "Specification": {
-    "Section": "est",
-    "Key": "voluptatem",
+    "Section": "corporis",
+    "Key": "qui",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 734
       }
     }
   },
-  "DisplayValue": "aut",
-  "DisplayTooltip": "illo",
+  "DisplayValue": "nisi",
+  "DisplayTooltip": "nisi",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 722,
-    "TabName": "Nicolas, Abernathy and Marvin",
-    "Order": "facere",
-    "AssociateId": 686,
+    "TabOrderId": 856,
+    "TabName": "Spencer Inc and Sons",
+    "Order": "et",
+    "AssociateId": 177,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,15 +133,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   },
-  "TargetId": 735,
-  "PrefDescId": 188,
-  "TableName": "Bins, Braun and Kshlerin",
-  "UserPreferenceId": 160,
+  "TargetId": 219,
+  "PrefDescId": 693,
+  "TableName": "Hyatt-Gleason",
+  "UserPreferenceId": 611,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 164
     }
   }
 }

@@ -2,6 +2,8 @@
 title: Batch
 ---
 
+# Batch
+
 ```http
 /api/v1/Batch
 ```

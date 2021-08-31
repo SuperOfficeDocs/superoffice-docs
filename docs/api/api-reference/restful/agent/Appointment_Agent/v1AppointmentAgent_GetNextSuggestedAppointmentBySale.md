@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetNextSuggestedAppointmentBySale
+title: GetNextSuggestedAppointmentBySale
 id: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
 ---
 
-# POST Agents/Appointment/GetNextSuggestedAppointmentBySale
+# GetNextSuggestedAppointmentBySale
 
 ```http
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -89,13 +89,13 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 682,
-  "CurrentAppointmentId": 29,
-  "SkipCompleteCheck": false
+  "SaleId": 465,
+  "CurrentAppointmentId": 559,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -104,41 +104,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 991,
-  "Deleted": 164,
-  "DaysFuture": 248,
-  "Tooltip": "et",
-  "Text": "quas",
-  "TaskId": 665,
-  "SuggestedAppointmentId": 646,
-  "SaleTypeStageLinkId": 114,
-  "RegisteredAssociateId": 888,
-  "Rank": 749,
-  "ProjectTypeStatusLinkId": 956,
-  "Name": "Stokes, Ward and Hilll",
-  "Duration": 994,
+  "AutoSuggest": 827,
+  "Deleted": 456,
+  "DaysFuture": 921,
+  "Tooltip": "at",
+  "Text": "rem",
+  "TaskId": 807,
+  "SuggestedAppointmentId": 732,
+  "SaleTypeStageLinkId": 591,
+  "RegisteredAssociateId": 386,
+  "Rank": 813,
+  "ProjectTypeStatusLinkId": 396,
+  "Name": "Watsica Inc and Sons",
+  "Duration": 781,
   "Associate": {
-    "AssociateId": 655,
-    "Name": "Walker-Moen",
-    "PersonId": 907,
-    "Rank": 931,
-    "Tooltip": "ex",
+    "AssociateId": 35,
+    "Name": "Skiles Group",
+    "PersonId": 35,
+    "Rank": 623,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 486,
-    "FullName": "Alexanne Keebler",
-    "FormalName": "Klein, Wiza and Kiehn",
-    "Deleted": true,
-    "EjUserId": 242,
-    "UserName": "Beer, Murphy and Murray",
+    "GroupIdx": 518,
+    "FullName": "Ms. Lesly Bogan",
+    "FormalName": "Zemlak, Wilkinson and Goldner",
+    "Deleted": false,
+    "EjUserId": 548,
+    "UserName": "Kassulke LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "grow sticky interfaces"
         },
         "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldLength": 309
       }
     }
   },
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 404
     }
   }
 }

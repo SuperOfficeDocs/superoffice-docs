@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/Delete
+title: Delete
 id: v1AppointmentAgent_Delete
 ---
 
-# POST Agents/Appointment/Delete
+# Delete
 
 ```http
 POST /api/v1/Agents/Appointment/Delete

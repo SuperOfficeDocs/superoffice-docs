@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultDocumentTemplateLanguage
+title: CreateDefaultDocumentTemplateLanguage
 id: v1ListAgent_CreateDefaultDocumentTemplateLanguage
 ---
 
-# POST Agents/List/CreateDefaultDocumentTemplateLanguage
+# CreateDefaultDocumentTemplateLanguage
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage

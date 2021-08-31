@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetFieldValuesFromCrm
+title: GetFieldValuesFromCrm
 id: v1ErpSyncAgent_GetFieldValuesFromCrm
 ---
 
-# POST Agents/ErpSync/GetFieldValuesFromCrm
+# GetFieldValuesFromCrm
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
@@ -81,11 +81,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 430,
+  "RecordId": 498,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -96,10 +96,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Ziemann-Koepp",
-    "CrmFieldKey": "ex",
-    "Value": "quia",
-    "DisplayValue": "debitis",
+    "DisplayName": "Weimann Inc and Sons",
+    "CrmFieldKey": "vel",
+    "Value": "et",
+    "DisplayValue": "odit",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": {
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldType": "System.Int32",
+        "FieldLength": 500
       }
     }
   }

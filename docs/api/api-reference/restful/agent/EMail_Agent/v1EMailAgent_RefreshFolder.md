@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/RefreshFolder
+title: RefreshFolder
 id: v1EMailAgent_RefreshFolder
 ---
 
-# POST Agents/EMail/RefreshFolder
+# RefreshFolder
 
 ```http
 POST /api/v1/Agents/EMail/RefreshFolder
@@ -72,20 +72,20 @@ Response body: int32
 POST /api/v1/Agents/EMail/RefreshFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Mueller-Heidenreich",
-    "UserName": "Jacobs Inc and Sons",
-    "Password": "ipsum",
-    "Folder": "facilis",
-    "UseSSL": false
+    "ServerName": "Renner-Sauer",
+    "UserName": "Sauer-Mayer",
+    "Password": "aut",
+    "Folder": "accusamus",
+    "UseSSL": true
   },
   "Folders": [
-    "in",
-    "quod"
+    "possimus",
+    "consequuntur"
   ]
 }
 ```
@@ -94,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-410
+394
 ```

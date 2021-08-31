@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Relation/GetContactRelationEntity
+title: GetContactRelationEntity
 id: v1RelationAgent_GetContactRelationEntity
 ---
 
-# POST Agents/Relation/GetContactRelationEntity
+# GetContactRelationEntity
 
 ```http
 POST /api/v1/Agents/Relation/GetContactRelationEntity
@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=809
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=487
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 45,
-  "SourcePersonId": 623,
-  "DestinationContactId": 455,
-  "DestinationPersonId": 41,
-  "RelationId": 729,
-  "Comment": "omnis",
-  "RelationDefinitionId": 998,
-  "Reversed": 858,
-  "UpdatedDate": "2001-09-30T16:48:30.4719424+02:00",
-  "CreatedDate": "2001-02-01T16:48:30.4719424+01:00",
+  "SourceContactId": 881,
+  "SourcePersonId": 443,
+  "DestinationContactId": 946,
+  "DestinationPersonId": 916,
+  "RelationId": 298,
+  "Comment": "labore",
+  "RelationDefinitionId": 609,
+  "Reversed": 934,
+  "UpdatedDate": "2005-02-14T14:58:05.022471+01:00",
+  "CreatedDate": "1997-10-20T14:58:05.022471+02:00",
   "CreatedBy": {
-    "AssociateId": 852,
-    "Name": "Kozey-Hilll",
-    "PersonId": 60,
-    "Rank": 633,
-    "Tooltip": "veniam",
+    "AssociateId": 737,
+    "Name": "Carroll LLC",
+    "PersonId": 945,
+    "Rank": 183,
+    "Tooltip": "quo",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 924,
-    "FullName": "Nikki O'Keefe",
-    "FormalName": "Ruecker Group",
+    "GroupIdx": 295,
+    "FullName": "Otilia Kilback",
+    "FormalName": "Crona, Huel and Bernhard",
     "Deleted": true,
-    "EjUserId": 548,
-    "UserName": "Lebsack, Wolf and Feest",
+    "EjUserId": 456,
+    "UserName": "Renner-Cremin",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -127,44 +127,44 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldLength": 347
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 876,
-    "Name": "Thiel-Kunze",
-    "PersonId": 803,
-    "Rank": 939,
-    "Tooltip": "non",
+    "AssociateId": 718,
+    "Name": "Johns-Kling",
+    "PersonId": 658,
+    "Rank": 544,
+    "Tooltip": "velit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 797,
-    "FullName": "Tommie Corwin",
-    "FormalName": "Ortiz, Abbott and Pollich",
+    "GroupIdx": 184,
+    "FullName": "Evans Welch",
+    "FormalName": "Wisozk LLC",
     "Deleted": false,
-    "EjUserId": 426,
-    "UserName": "Schmeler, Schuster and Windler",
+    "EjUserId": 332,
+    "UserName": "Okuneva LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "monetize e-business relationships"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 91
       }
     }
   },
-  "SourceContactName": "Rowe LLC",
-  "SourcePersonName": "Christiansen LLC",
-  "DestinationContactName": "Roob, Bradtke and Jakubowski",
-  "DestinationPersonName": "Cartwright, Parisian and Bergnaum",
-  "ActiveText": "voluptatum",
-  "PassiveText": "totam",
+  "SourceContactName": "McClure Inc and Sons",
+  "SourcePersonName": "McDermott LLC",
+  "DestinationContactName": "Willms-Johnson",
+  "DestinationPersonName": "Nienow, Goldner and Bode",
+  "ActiveText": "accusamus",
+  "PassiveText": "temporibus",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incentivize real-time solutions"
   },
   "FieldProperties": {
     "fieldName": {
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldLength": 182
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParameterValue
+title: GetConfigParameterValue
 id: v1AudienceAgent_GetConfigParameterValue
 ---
 
-# POST Agents/Audience/GetConfigParameterValue
+# GetConfigParameterValue
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterValue
@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Barton-Torp",
-  "ParameterName": "Feest, Jakubowski and Kuhlman"
+  "LayoutName": "Muller-Hermann",
+  "ParameterName": "Conroy-Mueller"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fugit"
+"corrupti"
 ```

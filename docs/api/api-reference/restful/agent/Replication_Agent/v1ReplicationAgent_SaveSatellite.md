@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/SaveSatellite
+title: SaveSatellite
 id: v1ReplicationAgent_SaveSatellite
 ---
 
-# POST Agents/Replication/SaveSatellite
+# SaveSatellite
 
 ```http
 POST /api/v1/Agents/Replication/SaveSatellite
@@ -84,73 +84,73 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 509,
-  "Created": "2009-10-28T16:48:30.4809396+01:00",
+  "SatelliteId": 434,
+  "Created": "2018-04-04T14:58:05.081629+02:00",
   "CreatedBy": {
-    "AssociateId": 186,
-    "Name": "Dibbert Inc and Sons",
-    "PersonId": 48,
-    "Rank": 751,
-    "Tooltip": "est",
+    "AssociateId": 839,
+    "Name": "Spencer-Trantow",
+    "PersonId": 732,
+    "Rank": 155,
+    "Tooltip": "accusantium",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 985,
-    "FullName": "Henry McCullough",
-    "FormalName": "Legros Inc and Sons",
+    "GroupIdx": 42,
+    "FullName": "Ms. Queen Walsh",
+    "FormalName": "Fadel-Kub",
     "Deleted": true,
-    "EjUserId": 933,
-    "UserName": "Ortiz-Lemke"
+    "EjUserId": 931,
+    "UserName": "Kessler Inc and Sons"
   },
-  "Updated": "2009-05-06T16:48:30.4809396+02:00",
+  "Updated": "2014-07-18T14:58:05.081629+02:00",
   "UpdatedBy": {
-    "AssociateId": 431,
-    "Name": "Kemmer-Steuber",
-    "PersonId": 432,
-    "Rank": 299,
-    "Tooltip": "assumenda",
+    "AssociateId": 769,
+    "Name": "Gaylord, Rogahn and Bashirian",
+    "PersonId": 383,
+    "Rank": 41,
+    "Tooltip": "vel",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 251,
-    "FullName": "Tyler Heathcote",
-    "FormalName": "Adams-Mraz",
-    "Deleted": true,
-    "EjUserId": 227,
-    "UserName": "Hamill Group"
+    "GroupIdx": 352,
+    "FullName": "Mohamed Bashirian",
+    "FormalName": "Greenfelder, Lang and McGlynn",
+    "Deleted": false,
+    "EjUserId": 267,
+    "UserName": "Pfeffer Group"
   },
   "Contact": {
-    "ContactId": 459,
-    "Name": "Walker-Kunde",
-    "OrgNr": "527858",
-    "Department": "",
+    "ContactId": 361,
+    "Name": "Jast, Bartell and VonRueden",
+    "OrgNr": "1170627",
+    "Department": "whiteboard turn-key action-items",
     "URL": "http://www.example.com/",
-    "City": "provident",
-    "DirectPhone": "776-557-1247",
-    "AssociateId": 237,
-    "CountryId": 74,
-    "EmailAddress": "camila@smithamwatsica.co.uk",
-    "Kananame": "perspiciatis",
-    "EmailAddressName": "gianni@luettgen.name",
+    "City": "eveniet",
+    "DirectPhone": "(305)615-5427 x160",
+    "AssociateId": 420,
+    "CountryId": 683,
+    "EmailAddress": "tommie_blick@treutel.biz",
+    "Kananame": "quia",
+    "EmailAddressName": "valentine@ortiz.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Floyd Howell",
+    "AssociateFullName": "Reba Breitenberg",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "asperiores",
-    "FullName": "General Friesen",
+    "FormattedAddress": "aut",
+    "FullName": "Aubree Berge",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 62
+    "ActiveErpLinks": 908
   },
   "Area": {
-    "AreaId": 596,
-    "Name": "Howell, Ryan and Donnelly",
-    "MaxDataAge": 908,
-    "NumberOfUsers": 753,
-    "NumberOfLogins": 433,
+    "AreaId": 694,
+    "Name": "Spinka-Davis",
+    "MaxDataAge": 712,
+    "NumberOfUsers": 10,
+    "NumberOfLogins": 483,
     "FreetextEnabeled": false
   },
   "LicenseOwners": [
     {
-      "Name": "Koch-Rutherford",
-      "Description": "Synchronised cohesive knowledge user",
+      "Name": "Hoppe, Ziemann and Nienow",
+      "Description": "Organized modular hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Koch-Rutherford",
-      "Description": "Synchronised cohesive knowledge user",
+      "Name": "Hoppe, Ziemann and Nienow",
+      "Description": "Organized modular hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -181,47 +181,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 439,
-  "Created": "1995-11-06T16:48:30.48494+01:00",
+  "SatelliteId": 380,
+  "Created": "1994-05-14T14:58:05.0866289+02:00",
   "CreatedBy": {
-    "AssociateId": 936,
-    "Name": "Schaefer, Spinka and Tromp",
-    "PersonId": 841,
-    "Rank": 600,
-    "Tooltip": "velit",
+    "AssociateId": 57,
+    "Name": "Crooks-Harber",
+    "PersonId": 985,
+    "Rank": 518,
+    "Tooltip": "aspernatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 417,
-    "FullName": "Ms. Merlin Herman",
-    "FormalName": "Cormier Inc and Sons",
+    "GroupIdx": 201,
+    "FullName": "Rocio Maggio",
+    "FormalName": "Beahan LLC",
     "Deleted": false,
-    "EjUserId": 592,
-    "UserName": "Wisozk-Jacobi",
+    "EjUserId": 3,
+    "UserName": "Schroeder, Hintz and Barrows",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "unleash mission-critical interfaces"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 627
       }
     }
   },
-  "Updated": "1997-09-10T16:48:30.48494+02:00",
+  "Updated": "2019-11-01T14:58:05.0866289+01:00",
   "UpdatedBy": {
-    "AssociateId": 599,
-    "Name": "Zulauf, King and Schultz",
-    "PersonId": 688,
-    "Rank": 12,
-    "Tooltip": "dolore",
+    "AssociateId": 388,
+    "Name": "Adams, Gorczany and Kautzer",
+    "PersonId": 46,
+    "Rank": 820,
+    "Tooltip": "minus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 315,
-    "FullName": "Zoila Mayer",
-    "FormalName": "Raynor, Hintz and Hilpert",
+    "GroupIdx": 45,
+    "FullName": "Hardy Davis",
+    "FormalName": "Walter-Jacobson",
     "Deleted": true,
-    "EjUserId": 385,
-    "UserName": "Schaefer-Raynor",
+    "EjUserId": 820,
+    "UserName": "Bode Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -230,52 +230,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldLength": 29
       }
     }
   },
   "Contact": {
-    "ContactId": 967,
-    "Name": "Schimmel LLC",
-    "OrgNr": "1075856",
+    "ContactId": 113,
+    "Name": "Mayer Group",
+    "OrgNr": "1240851",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "animi",
-    "DirectPhone": "827.678.4705",
-    "AssociateId": 993,
-    "CountryId": 250,
-    "EmailAddress": "liana.considine@hartmann.co.uk",
-    "Kananame": "aut",
-    "EmailAddressName": "erika.feeney@faheymueller.us",
+    "City": "vel",
+    "DirectPhone": "726.042.2868",
+    "AssociateId": 618,
+    "CountryId": 234,
+    "EmailAddress": "reuben_hirthe@hermanwyman.uk",
+    "Kananame": "odio",
+    "EmailAddressName": "guadalupe_runolfsdottir@white.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Griffin Carter",
+    "AssociateFullName": "Russell Hickle",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "voluptate",
-    "FullName": "Mrs. Marisol Reilly",
+    "FormattedAddress": "aspernatur",
+    "FullName": "Ms. Raul Reichert",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 218,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 369
-      }
-    }
-  },
-  "Area": {
-    "AreaId": 718,
-    "Name": "Dare-Hilpert",
-    "MaxDataAge": 547,
-    "NumberOfUsers": 317,
-    "NumberOfLogins": 406,
-    "FreetextEnabeled": true,
+    "ActiveErpLinks": 667,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -284,14 +265,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldLength": 412
+      }
+    }
+  },
+  "Area": {
+    "AreaId": 881,
+    "Name": "Rolfson-Zemlak",
+    "MaxDataAge": 573,
+    "NumberOfUsers": 933,
+    "NumberOfLogins": 119,
+    "FreetextEnabeled": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   },
   "LicenseOwners": [
     {
-      "Name": "O'Kon-Mann",
-      "Description": "Multi-layered didactic database",
+      "Name": "Bernier-Schaden",
+      "Description": "Ergonomic eco-centric core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -308,13 +308,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 867
         }
       }
     },
     {
-      "Name": "O'Kon-Mann",
-      "Description": "Multi-layered didactic database",
+      "Name": "Bernier-Schaden",
+      "Description": "Ergonomic eco-centric core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -331,7 +331,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 867
         }
       }
     }
@@ -346,8 +346,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

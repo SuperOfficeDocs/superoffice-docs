@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLanguageInfoList
+title: GetLanguageInfoList
 id: v1ListAgent_GetLanguageInfoList
 ---
 
-# POST Agents/List/GetLanguageInfoList
+# GetLanguageInfoList
 
 ```http
 POST /api/v1/Agents/List/GetLanguageInfoList
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -85,13 +85,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 108,
-    "LCID": 518,
-    "EnglishName": "Stamm, Herman and Schaden",
-    "NativeName": "Gerhold-Frami",
-    "ThreeLetterISOLanguageName": "Kuvalis Group",
-    "TwoLetterISOLanguageName": "Schmeler LLC",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 47,
+    "LCID": 686,
+    "EnglishName": "Champlin, Cormier and Kovacek",
+    "NativeName": "Gottlieb Group",
+    "ThreeLetterISOLanguageName": "Muller, Ankunding and Upton",
+    "TwoLetterISOLanguageName": "Daniel-Padberg",
+    "IsBuiltIn": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "reinvent clicks-and-mortar metrics"
+          "Reason": "architect out-of-the-box deliverables"
         },
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

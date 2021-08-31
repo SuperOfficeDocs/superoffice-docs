@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumnsWithHeader2
+title: GetArchiveListByColumnsWithHeader2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeader2
 ---
 
-# POST Agents/Archive/GetArchiveListByColumnsWithHeader2
+# GetArchiveListByColumnsWithHeader2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
@@ -14,32 +14,7 @@ Get a page of results for an archive list, explicitly specifying the restriction
 The return value includes a header that has various extra information, in addition to the actual rows. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -241,18 +172,18 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lang, Stanton and Price",
-  "Columns": "perferendis",
-  "SortOrder": "tempore",
-  "Restriction": "id",
-  "Entities": "esse",
-  "Page": 885,
-  "PageSize": 231,
-  "Options": "consequatur"
+  "ProviderName": "Parisian, Lynch and Mayer",
+  "Columns": "delectus",
+  "SortOrder": "et",
+  "Restriction": "natus",
+  "Entities": "veritatis",
+  "Page": 659,
+  "PageSize": 841,
+  "Options": "officia"
 }
 ```
 
@@ -261,20 +192,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 805,
+  "RowCount": 500,
   "Rows": [
     {
-      "EntityName": "Gusikowski-Heidenreich",
-      "PrimaryKey": 810,
+      "EntityName": "Bode LLC",
+      "PrimaryKey": 335,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "accusantium",
-          "LinkHint": "assumenda"
+          "DisplayValue": "fuga",
+          "TooltipHint": "amet",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "ullam",
-      "StyleHint": "ipsum",
+      "LinkHint": "et",
+      "StyleHint": "dolore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -282,15 +213,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "engineer proactive supply-chains"
   },
   "FieldProperties": {
     "fieldName": {
@@ -298,8 +229,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

@@ -56,6 +56,8 @@ The AttachmentEntity to be saved.
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 
 
 ## Response: object
@@ -79,6 +81,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -89,14 +93,16 @@ Response body: object
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 236,
-  "Name": "O'Hara-Smitham",
-  "ContentType": "ipsam",
-  "AttSize": 758
+  "AttachmentId": 478,
+  "Name": "Grimes, Harris and McGlynn",
+  "ContentType": "accusamus",
+  "AttSize": 312,
+  "InlineImage": false,
+  "ContentId": "dolore"
 }
 ```
 
@@ -105,10 +111,12 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 359,
-  "Name": "Langosh Inc and Sons",
-  "ContentType": "inventore",
-  "AttSize": 563,
+  "AttachmentId": 344,
+  "Name": "Price Inc and Sons",
+  "ContentType": "delectus",
+  "AttSize": 373,
+  "InlineImage": false,
+  "ContentId": "quae",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,12 +128,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldLength": 602
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

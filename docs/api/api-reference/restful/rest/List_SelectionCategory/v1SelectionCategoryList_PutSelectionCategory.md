@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "Reinger, Grady and Walter",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 531,
-  "Rank": 15
+  "Id": 500,
+  "Name": "Luettgen-Bosco",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "UdListDefinitionId": 811,
+  "Rank": 597
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Haag LLC",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "UdListDefinitionId": 168,
-  "Rank": 130,
+  "Id": 1001,
+  "Name": "Will-Conn",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "UdListDefinitionId": 884,
+  "Rank": 909,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "e-enable web-enabled communities"
       },
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

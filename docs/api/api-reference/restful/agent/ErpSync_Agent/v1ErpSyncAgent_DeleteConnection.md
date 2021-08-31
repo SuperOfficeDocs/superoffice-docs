@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/DeleteConnection
+title: DeleteConnection
 id: v1ErpSyncAgent_DeleteConnection
 ---
 
-# POST Agents/ErpSync/DeleteConnection
+# DeleteConnection
 
 ```http
 POST /api/v1/Agents/ErpSync/DeleteConnection

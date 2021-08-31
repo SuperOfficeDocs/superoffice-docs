@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/CreateDefaultCRMScriptEntity
+title: CreateDefaultCRMScriptEntity
 id: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
 ---
 
-# POST Agents/CRMScript/CreateDefaultCRMScriptEntity
+# CreateDefaultCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 519,
-  "UniqueIdentifier": "numquam",
-  "Name": "Russel Group",
-  "Description": "Polarised systematic task-force",
-  "IncludeId": "qui",
-  "HierarchyId": 741,
-  "Source": "qui",
-  "Registered": "2012-03-29T16:48:29.2068946+02:00",
-  "RegisteredAssociateId": 73,
-  "Updated": "1994-05-20T16:48:29.2068946+02:00",
-  "UpdatedAssociateId": 264,
+  "EjscriptId": 941,
+  "UniqueIdentifier": "est",
+  "Name": "Quitzon Group",
+  "Description": "Adaptive human-resource toolset",
+  "IncludeId": "molestiae",
+  "HierarchyId": 524,
+  "Source": "in",
+  "Registered": "2014-02-13T14:58:03.736461+01:00",
+  "RegisteredAssociateId": 927,
+  "Updated": "2013-09-03T14:58:03.736461+02:00",
+  "UpdatedAssociateId": 618,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

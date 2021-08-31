@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultSaleStageEntity
+title: CreateDefaultSaleStageEntity
 id: v1ListAgent_CreateDefaultSaleStageEntity
 ---
 
-# POST Agents/List/CreateDefaultSaleStageEntity
+# CreateDefaultSaleStageEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultSaleStageEntity
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 717,
-  "Value": "rerum",
-  "Tooltip": "enim",
-  "Probability": 98,
+  "SaleStageId": 558,
+  "Value": "aut",
+  "Tooltip": "reiciendis",
+  "Probability": 148,
   "Deleted": true,
-  "Rank": 714,
+  "Rank": 974,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

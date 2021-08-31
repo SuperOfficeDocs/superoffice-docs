@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Keebler, Abernathy and Stroman",
-    "ToolTip": "Est iure eum placeat est quis.",
+    "Id": 490,
+    "Name": "Schinner-Funk",
+    "ToolTip": "In rerum eos omnis.",
     "Deleted": true,
-    "Rank": 620,
-    "Type": "provident",
-    "ColorBlock": 383,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "1995-08-24T09:41:00.3303846+02:00",
+    "Rank": 135,
+    "Type": "consequatur",
+    "ColorBlock": 419,
+    "IconHint": "libero",
+    "Selected": false,
+    "LastChanged": "2017-11-14T15:05:43.4015102+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Sipes, Yundt and Mertz",
-        "ToolTip": "Dolor dolorum et molestias similique autem iure.",
+        "Id": 23,
+        "Name": "Trantow-Collins",
+        "ToolTip": "Numquam velit quaerat porro sit culpa nobis.",
         "Deleted": true,
-        "Rank": 955,
-        "Type": "totam",
-        "ColorBlock": 667,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2001-11-20T09:41:00.3303846+01:00",
+        "Rank": 904,
+        "Type": "esse",
+        "ColorBlock": 492,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2010-07-11T15:05:43.4015102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Abbie Donnelly IV",
+        "ExtraInfo": "dolor",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Judy Hammes",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 399
+            "FieldType": "System.Int32",
+            "FieldLength": 691
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Odessa Wilkinson",
+    "ExtraInfo": "itaque",
+    "StyleHint": "unde",
+    "Hidden": true,
+    "FullName": "Korey Becker",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "iterate plug-and-play convergence"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldLength": 12
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateAndSaveQuote
+title: CreateAndSaveQuote
 id: v1QuoteAgent_CreateAndSaveQuote
 ---
 
-# POST Agents/Quote/CreateAndSaveQuote
+# CreateAndSaveQuote
 
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
@@ -96,9 +96,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 137,
-  "ConnectionId": 131,
-  "FirstAlternativeName": "Larkin, Veum and Casper"
+  "SaleId": 16,
+  "ConnectionId": 803,
+  "FirstAlternativeName": "Wolff, Wintheiser and Lang"
 }
 ```
 
@@ -107,56 +107,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 863,
-  "SaleId": 210,
-  "QuoteConnectionId": 376,
-  "ERPQuoteKey": "non",
-  "ERPOrderKey": "vitae",
-  "ActiveQuoteVersionId": 458,
-  "AcceptedQuoteAlternativeId": 538,
-  "UseValuesFromQuote": 216,
-  "DocumentId": 178,
-  "PoNumber": "833865",
-  "OrderComment": "vel",
-  "PreferredEmailCulture": "lue_leannon@wiza.uk",
+  "QuoteId": 377,
+  "SaleId": 971,
+  "QuoteConnectionId": 220,
+  "ERPQuoteKey": "rerum",
+  "ERPOrderKey": "eum",
+  "ActiveQuoteVersionId": 664,
+  "AcceptedQuoteAlternativeId": 372,
+  "UseValuesFromQuote": 295,
+  "DocumentId": 186,
+  "PoNumber": "795901",
+  "OrderComment": "eum",
+  "PreferredEmailCulture": "priscilla.bayer@dickinsonkautzer.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 974,
-      "ERPQuoteVersionKey": "nesciunt",
-      "QuoteId": 629,
-      "Description": "Function-based bifurcated moratorium",
-      "Number": "1586674",
+      "QuoteVersionId": 460,
+      "ERPQuoteVersionKey": "repudiandae",
+      "QuoteId": 438,
+      "Description": "Self-enabling regional collaboration",
+      "Number": "724168",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "empower user-centric networks",
-      "LikelyQuoteAlternativeId": 636,
-      "SentDate": "2009-01-06T16:48:30.4459391+01:00",
-      "FollowupId": 446,
-      "ExpirationDate": "2011-08-09T16:48:30.4459391+02:00",
-      "DeliveryCountryId": 42,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 892,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "aliquam",
-      "ERPPaymentTypeKey": "saepe",
-      "ERPDeliveryTermsKey": "quam",
-      "ERPDeliveryTypeKey": "aut",
-      "Rank": 956,
-      "ApprovedBy": 881,
-      "ApprovedText": "temporibus",
-      "ApprovedRegisteredBy": 826,
-      "ApprovedRegisteredDate": "2008-10-10T16:48:30.4459391+02:00",
-      "ExtraField1": "qui",
-      "ExtraField2": "ea",
-      "ExtraField3": "magni",
-      "ExtraField4": "fugiat",
-      "ExtraField5": "ex",
-      "LastRecalculated": "2018-02-28T16:48:30.4459391+01:00",
-      "Updated": "2002-05-12T16:48:30.4459391+02:00",
-      "UpdatedAssociateId": 289,
-      "Registered": "2006-10-13T16:48:30.4459391+02:00",
-      "RegisteredAssociateId": 612,
+      "Reason": "",
+      "LikelyQuoteAlternativeId": 311,
+      "SentDate": "2012-07-24T14:58:05.008465+02:00",
+      "FollowupId": 789,
+      "ExpirationDate": "2007-06-14T14:58:05.008465+02:00",
+      "DeliveryCountryId": 396,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 641,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "labore",
+      "ERPPaymentTypeKey": "natus",
+      "ERPDeliveryTermsKey": "accusantium",
+      "ERPDeliveryTypeKey": "ratione",
+      "Rank": 188,
+      "ApprovedBy": 482,
+      "ApprovedText": "rerum",
+      "ApprovedRegisteredBy": 778,
+      "ApprovedRegisteredDate": "2000-11-15T14:58:05.008465+01:00",
+      "ExtraField1": "aut",
+      "ExtraField2": "voluptatem",
+      "ExtraField3": "dolor",
+      "ExtraField4": "vel",
+      "ExtraField5": "odit",
+      "LastRecalculated": "2010-03-18T14:58:05.008465+01:00",
+      "Updated": "1997-07-06T14:58:05.008465+02:00",
+      "UpdatedAssociateId": 215,
+      "Registered": "2008-10-18T14:58:05.008465+02:00",
+      "RegisteredAssociateId": 569,
       "QuoteAlternatives": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 792
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldLength": 268
     }
   }
 }

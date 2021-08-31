@@ -9,7 +9,7 @@ id: v1ChatTopicEntity_GetChatTopicUserAgentList
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
 ```
 
-Get list of users assigned to a topic
+Get list of users assigned to a chat topic
 
 
 
@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -70,68 +70,68 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 194,
+    "TopicId": 208,
     "User": {
-      "AssociateId": 418,
-      "Name": "Schultz, Morar and Mosciski",
-      "PersonId": 826,
-      "Rank": 695,
-      "Tooltip": "ad",
+      "AssociateId": 339,
+      "Name": "Marks LLC",
+      "PersonId": 572,
+      "Rank": 642,
+      "Tooltip": "qui",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 580,
-      "FullName": "Alana Gerhold V",
-      "FormalName": "Toy LLC",
-      "Deleted": true,
-      "EjUserId": 993,
-      "UserName": "Bailey Inc and Sons",
+      "GroupIdx": 385,
+      "FullName": "Alycia Kulas",
+      "FormalName": "Nienow LLC",
+      "Deleted": false,
+      "EjUserId": 994,
+      "UserName": "Goodwin-Mann",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "whiteboard clicks-and-mortar solutions"
           },
           "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldLength": 585
         }
       }
     },
     "CanListen": true,
-    "CanRespond": true,
+    "CanRespond": false,
     "CanManage": true,
-    "CanNotify": false
+    "CanNotify": true
   },
   {
-    "TopicId": 194,
+    "TopicId": 208,
     "User": {
-      "AssociateId": 418,
-      "Name": "Schultz, Morar and Mosciski",
-      "PersonId": 826,
-      "Rank": 695,
-      "Tooltip": "ad",
+      "AssociateId": 339,
+      "Name": "Marks LLC",
+      "PersonId": 572,
+      "Rank": 642,
+      "Tooltip": "qui",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 580,
-      "FullName": "Alana Gerhold V",
-      "FormalName": "Toy LLC",
-      "Deleted": true,
-      "EjUserId": 993,
-      "UserName": "Bailey Inc and Sons",
+      "GroupIdx": 385,
+      "FullName": "Alycia Kulas",
+      "FormalName": "Nienow LLC",
+      "Deleted": false,
+      "EjUserId": 994,
+      "UserName": "Goodwin-Mann",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "whiteboard clicks-and-mortar solutions"
           },
           "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldLength": 585
         }
       }
     },
     "CanListen": true,
-    "CanRespond": true,
+    "CanRespond": false,
     "CanManage": true,
-    "CanNotify": false
+    "CanNotify": true
   }
 ]
 ```

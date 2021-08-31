@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,29 +74,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Klocko, Hoppe and Schmeler",
-    "ToolTip": "Porro ad.",
+    "Id": 902,
+    "Name": "Bergstrom LLC",
+    "ToolTip": "Voluptas qui quae vel quo.",
     "Deleted": true,
-    "Rank": 560,
-    "Type": "iusto",
+    "Rank": 692,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Casper-Hagenes",
-        "ToolTip": "Voluptas ad quis et.",
+        "Id": 428,
+        "Name": "Watsica, Nader and Flatley",
+        "ToolTip": "Nulla qui esse ad est saepe.",
         "Deleted": true,
-        "Rank": 673,
-        "Type": "qui",
+        "Rank": 47,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ab",
-        "ColorBlock": 327,
-        "ExtraInfo": "illum",
-        "StyleHint": "ratione",
-        "FullName": "Madyson Rath",
+        "IconHint": "repellendus",
+        "ColorBlock": 812,
+        "ExtraInfo": "officiis",
+        "StyleHint": "est",
+        "FullName": "Abigayle Wiza PhD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -105,16 +105,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 93
           }
         }
       }
     ],
-    "IconHint": "blanditiis",
-    "ColorBlock": 935,
-    "ExtraInfo": "sed",
-    "StyleHint": "rerum",
-    "FullName": "Lora Langosh",
+    "IconHint": "expedita",
+    "ColorBlock": 786,
+    "ExtraInfo": "cum",
+    "StyleHint": "maxime",
+    "FullName": "Chad Paucek",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

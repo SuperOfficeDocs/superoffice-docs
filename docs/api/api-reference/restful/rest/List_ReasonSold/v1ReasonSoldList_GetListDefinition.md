@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Stamm-Pouros",
-  "Tooltip": "quis",
+  "Id": 826,
+  "Name": "Schinner, Rice and Lemke",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 666,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 367,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "unde",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,12 +97,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 312
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

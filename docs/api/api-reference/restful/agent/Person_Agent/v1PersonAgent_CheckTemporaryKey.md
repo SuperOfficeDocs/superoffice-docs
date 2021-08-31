@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/CheckTemporaryKey
+title: CheckTemporaryKey
 id: v1PersonAgent_CheckTemporaryKey
 ---
 
-# POST Agents/Person/CheckTemporaryKey
+# CheckTemporaryKey
 
 ```http
 POST /api/v1/Agents/Person/CheckTemporaryKey
@@ -81,11 +81,11 @@ Response body: object
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "vel"
+  "TemporaryKey": "nobis"
 }
 ```
 
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 108,
-  "PersonId": 73,
-  "IsExpired": true,
+  "TargetId": 175,
+  "PersonId": 65,
+  "IsExpired": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

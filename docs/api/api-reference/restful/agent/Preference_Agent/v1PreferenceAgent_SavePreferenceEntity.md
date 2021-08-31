@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/SavePreferenceEntity
+title: SavePreferenceEntity
 id: v1PreferenceAgent_SavePreferenceEntity
 ---
 
-# POST Agents/Preference/SavePreferenceEntity
+# SavePreferenceEntity
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceEntity
@@ -89,22 +89,22 @@ Response body: object
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": {
     "Level": "Database",
-    "RawValue": "nam",
+    "RawValue": "porro",
     "Specification": {},
-    "DisplayValue": "mollitia",
-    "DisplayTooltip": "vel",
+    "DisplayValue": "cum",
+    "DisplayTooltip": "dignissimos",
     "DisplayType": "Bool",
     "TabOrder": {},
-    "TargetId": 23,
-    "PrefDescId": 608,
-    "TableName": "Monahan Inc and Sons",
-    "UserPreferenceId": 473
+    "TargetId": 512,
+    "PrefDescId": 996,
+    "TableName": "Lehner, Cummerata and Stark",
+    "UserPreferenceId": 623
   },
   "RemoveLowerLevels": true
 }
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sapiente",
+  "RawValue": "consectetur",
   "Specification": {
-    "Section": "eligendi",
-    "Key": "quisquam",
+    "Section": "libero",
+    "Key": "non",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   },
-  "DisplayValue": "quia",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "sunt",
+  "DisplayTooltip": "veritatis",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 139,
-    "TabName": "Koelpin-Pouros",
-    "Order": "quidem",
-    "AssociateId": 632,
+    "TabOrderId": 381,
+    "TabName": "Vandervort-Huels",
+    "Order": "quis",
+    "AssociateId": 38,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -148,14 +148,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 914
       }
     }
   },
-  "TargetId": 385,
-  "PrefDescId": 642,
-  "TableName": "Adams Inc and Sons",
-  "UserPreferenceId": 235,
+  "TargetId": 659,
+  "PrefDescId": 900,
+  "TableName": "Grant, Kerluke and Stracke",
+  "UserPreferenceId": 563,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldLength": 435
     }
   }
 }

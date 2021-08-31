@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
+title: GetRecipientStatisticsFromProjectMembers
 id: v1SelectionAgent_GetRecipientStatisticsFromProjectMembers
 ---
 
-# POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
+# GetRecipientStatisticsFromProjectMembers
 
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 909
+  "ProjectId": 23
 }
 ```
 
@@ -95,15 +95,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 510,
-  "ValidPostalAddresses": 732,
-  "ValidEmailAddresses": 195,
-  "ValidFaxNumbers": 468,
-  "NoAddresses": 509,
-  "NoFaxOrEmails": 816,
+  "Total": 30,
+  "ValidPostalAddresses": 735,
+  "ValidEmailAddresses": 335,
+  "ValidFaxNumbers": 139,
+  "NoAddresses": 994,
+  "NoFaxOrEmails": 631,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "enhance cross-media e-business"
   },
   "FieldProperties": {
     "fieldName": {
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 261
     }
   }
 }

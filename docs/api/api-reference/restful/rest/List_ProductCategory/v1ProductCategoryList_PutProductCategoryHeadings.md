@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 309,
-    "Name": "Stanton, Weimann and Botsford",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 95
+    "HeadingId": 29,
+    "Name": "Conn Group",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 202,
+    "UdListDefinitionId": 618
   },
   {
-    "HeadingId": 309,
-    "Name": "Stanton, Weimann and Botsford",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 95
+    "HeadingId": 29,
+    "Name": "Conn Group",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 202,
+    "UdListDefinitionId": 618
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 755,
-    "Name": "Cremin, King and Gusikowski",
-    "Tooltip": "inventore",
-    "Deleted": true,
-    "Rank": 972,
-    "UdListDefinitionId": 97,
+    "HeadingId": 155,
+    "Name": "Wiegand-Lang",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 225,
+    "UdListDefinitionId": 42,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

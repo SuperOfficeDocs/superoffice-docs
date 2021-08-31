@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLocalizedTextsByLanguageId
+title: GetLocalizedTextsByLanguageId
 id: v1ListAgent_GetLocalizedTextsByLanguageId
 ---
 
-# POST Agents/List/GetLocalizedTextsByLanguageId
+# GetLocalizedTextsByLanguageId
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 123
+  "LanguageId": 271
 }
 ```
 
@@ -92,11 +92,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 712,
-    "ResourceId": 264,
-    "Text": "nisi",
+    "LanguageId": 30,
+    "ResourceId": 554,
+    "Text": "sint",
     "Type": "Column",
-    "LocalizedTextId": 811,
+    "LocalizedTextId": 607,
     "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldLength": 930
       }
     }
   }

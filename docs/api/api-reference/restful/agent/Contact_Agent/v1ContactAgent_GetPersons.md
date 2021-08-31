@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetPersons
+title: GetPersons
 id: v1ContactAgent_GetPersons
 ---
 
-# POST Agents/Contact/GetPersons
+# GetPersons
 
 ```http
 POST /api/v1/Agents/Contact/GetPersons
@@ -112,11 +112,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 454
+  "ContactId": 511
 }
 ```
 
@@ -126,45 +126,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "autem",
-    "PersonId": 398,
-    "Mrmrs": "rerum",
-    "Firstname": "Nayeli",
-    "Lastname": "Witting",
-    "MiddleName": "Klein, Fisher and Little",
-    "Title": "modi",
-    "Description": "Ergonomic cohesive algorithm",
-    "Email": "gladyce@king.com",
-    "FullName": "Murray Turcotte",
-    "DirectPhone": "080.818.1810 x608",
-    "FormalName": "Dibbert Group",
-    "CountryId": 433,
-    "ContactId": 845,
-    "ContactName": "Gleichner, Wehner and Greenfelder",
-    "Retired": 674,
-    "Rank": 10,
-    "ActiveInterests": 158,
-    "ContactDepartment": "streamline extensible infomediaries",
-    "ContactCountryId": 824,
-    "ContactOrgNr": "1625142",
-    "FaxPhone": "(060)540-5320 x12248",
-    "MobilePhone": "(168)055-6206",
-    "ContactPhone": "742-300-1751",
-    "AssociateName": "Torphy Group",
-    "AssociateId": 73,
+    "Position": "corporis",
+    "PersonId": 866,
+    "Mrmrs": "voluptatem",
+    "Firstname": "Jackie",
+    "Lastname": "Breitenberg",
+    "MiddleName": "Dickinson, DuBuque and Fisher",
+    "Title": "ut",
+    "Description": "Fundamental national forecast",
+    "Email": "bonnie@schiller.uk",
+    "FullName": "Claude O'Hara",
+    "DirectPhone": "145.450.2621 x8055",
+    "FormalName": "Ledner Group",
+    "CountryId": 462,
+    "ContactId": 786,
+    "ContactName": "Kshlerin-McCullough",
+    "Retired": 33,
+    "Rank": 640,
+    "ActiveInterests": 328,
+    "ContactDepartment": "",
+    "ContactCountryId": 840,
+    "ContactOrgNr": "452717",
+    "FaxPhone": "1-143-683-5656 x85313",
+    "MobilePhone": "(118)252-3225",
+    "ContactPhone": "1-813-222-3846 x856",
+    "AssociateName": "Bode, Schoen and Bogisich",
+    "AssociateId": 438,
     "UsePersonAddress": false,
-    "ContactFax": "eius",
-    "Kanafname": "id",
-    "Kanalname": "soluta",
-    "Post1": "ex",
-    "Post2": "aspernatur",
-    "Post3": "fuga",
-    "EmailName": "gust@schaefer.co.uk",
-    "ContactFullName": "Steve Ward",
-    "ActiveErpLinks": 722,
-    "TicketPriorityId": 108,
-    "SupportLanguageId": 174,
-    "SupportAssociateId": 52,
+    "ContactFax": "quo",
+    "Kanafname": "et",
+    "Kanalname": "et",
+    "Post1": "quia",
+    "Post2": "et",
+    "Post3": "magni",
+    "EmailName": "fiona@pagac.uk",
+    "ContactFullName": "Guillermo Wilkinson",
+    "ActiveErpLinks": 200,
+    "TicketPriorityId": 938,
+    "SupportLanguageId": 416,
+    "SupportAssociateId": 255,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 322
       }
     }
   }

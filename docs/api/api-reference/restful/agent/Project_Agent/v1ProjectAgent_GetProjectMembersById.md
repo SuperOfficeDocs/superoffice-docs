@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectMembersById
+title: GetProjectMembersById
 id: v1ProjectAgent_GetProjectMembersById
 ---
 
-# POST Agents/Project/GetProjectMembersById
+# GetProjectMembersById
 
 ```http
 POST /api/v1/Agents/Project/GetProjectMembersById
@@ -93,13 +93,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    412,
-    100
+    92,
+    76
   ]
 }
 ```
@@ -110,27 +110,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 517,
-    "ContactId": 122,
-    "ProjectId": 336,
-    "ContactName": "Blanda, Kassulke and Von",
+    "ProjectmemberId": 666,
+    "ContactId": 943,
+    "ProjectId": 85,
+    "ContactName": "Lynch, Jones and Wolf",
     "ContactDepartment": "",
-    "ProjectName": "Herzog Inc and Sons",
-    "EmailId": 677,
-    "EmailAddress": "marcia.hartmann@barrowsrempel.com",
-    "CountryId": 629,
-    "Firstname": "Wilhelm",
-    "MiddleName": "Crist-Koch",
-    "Lastname": "Strosin",
-    "PersonId": 895,
-    "Mrmrs": "et",
-    "ProjectMemberTypeName": "Armstrong, Harvey and Bashirian",
-    "Phone": "562.425.4703",
-    "PhoneId": 703,
-    "ProjectMemberTypeId": 797,
-    "EmailAddressName": "estelle.marquardt@hudson.us",
-    "Comment": "harum",
-    "FullName": "Kacie Doyle IV",
+    "ProjectName": "Adams, Lynch and Wilderman",
+    "EmailId": 460,
+    "EmailAddress": "raymundo@maggiolarkin.co.uk",
+    "CountryId": 282,
+    "Firstname": "Sandra",
+    "MiddleName": "Walker-Quitzon",
+    "Lastname": "Kris",
+    "PersonId": 952,
+    "Mrmrs": "praesentium",
+    "ProjectMemberTypeName": "Klocko, Mayert and Douglas",
+    "Phone": "(845)465-0460",
+    "PhoneId": 684,
+    "ProjectMemberTypeId": 109,
+    "EmailAddressName": "hubert.strosin@hills.ca",
+    "Comment": "provident",
+    "FullName": "Mr. Garnett Hegmann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 640
+        "FieldLength": 430
       }
     }
   }

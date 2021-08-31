@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -116,43 +116,43 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 427,
-  "ColumnId": 607,
-  "FieldDefault": "numquam",
-  "FieldHeight": 985,
-  "FieldLabel": "aperiam",
-  "FieldLeft": 843,
-  "FieldTop": 489,
+  "UDefFieldId": 29,
+  "ColumnId": 298,
+  "FieldDefault": "similique",
+  "FieldHeight": 668,
+  "FieldLabel": "minus",
+  "FieldLeft": 640,
+  "FieldTop": 855,
   "FieldType": "Checkbox",
-  "FieldWidth": 577,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 121,
-  "LabelLeft": 970,
-  "LabelTop": 323,
-  "LabelWidth": 440,
-  "LastVersionId": 244,
-  "ListTableId": 467,
+  "FieldWidth": 839,
+  "FormatMask": "cupiditate",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 975,
+  "LabelLeft": 962,
+  "LabelTop": 543,
+  "LabelWidth": 536,
+  "LastVersionId": 948,
+  "ListTableId": 419,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 316,
-  "ProgId": "adipisci",
-  "IsReadOnly": true,
-  "ShortLabel": "id",
-  "TabOrder": 172,
-  "TextLength": 334,
-  "Tooltip": "non",
-  "UdefIdentity": 343,
-  "UDListDefinitionId": 409,
+  "Page1LineNo": 726,
+  "ProgId": "eveniet",
+  "IsReadOnly": false,
+  "ShortLabel": "qui",
+  "TabOrder": 111,
+  "TextLength": 473,
+  "Tooltip": "est",
+  "UdefIdentity": 457,
+  "UDListDefinitionId": 803,
   "Justification": "Center",
-  "Version": 253,
-  "TemplateVariableName": "Abbott Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Metz Inc and Sons",
+  "Version": 208,
+  "TemplateVariableName": "Ferry, Bode and Beer",
+  "HasBeenPublished": false,
+  "MdoListName": "D'Amore-Gleason",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "unleash back-end deliverables"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 511
     }
   }
 }

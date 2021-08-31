@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CreateDefaultRecurrence
+title: CreateDefaultRecurrence
 id: v1AppointmentAgent_CreateDefaultRecurrence
 ---
 
-# POST Agents/Appointment/CreateDefaultRecurrence
+# CreateDefaultRecurrence
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
@@ -81,50 +81,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 397,
-  "StartDate": "2008-11-04T16:48:28.5844487+01:00",
-  "EndDate": "2007-09-18T16:48:28.5844487+02:00",
-  "RecurrenceCounter": 240,
+  "RecurrenceId": 724,
+  "StartDate": "2017-05-30T14:58:03.2025678+02:00",
+  "EndDate": "1999-01-26T14:58:03.2025678+01:00",
+  "RecurrenceCounter": 817,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 491
+    "Cycle": 769
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 526
+    "Cycle": 453
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 353,
-    "Day": 567,
+    "Cycle": 311,
+    "Day": 552,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 747,
-    "Day": 97,
+    "Cycle": 144,
+    "Day": 607,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "2004-02-21T16:48:28.5844487+01:00",
-      "IsConflict": true,
-      "Description": "Reduced local groupware",
-      "DescriptionStyleHint": "Centralized cohesive capability",
-      "Tooltip": "cupiditate"
+      "Date": "2021-01-28T14:58:03.2025678+01:00",
+      "IsConflict": false,
+      "Description": "User-friendly maximized flexibility",
+      "DescriptionStyleHint": "Decentralized homogeneous focus group",
+      "Tooltip": "ipsa"
     },
     {
-      "Date": "2004-02-21T16:48:28.5844487+01:00",
-      "IsConflict": true,
-      "Description": "Reduced local groupware",
-      "DescriptionStyleHint": "Centralized cohesive capability",
-      "Tooltip": "cupiditate"
+      "Date": "2021-01-28T14:58:03.2025678+01:00",
+      "IsConflict": false,
+      "Description": "User-friendly maximized flexibility",
+      "DescriptionStyleHint": "Decentralized homogeneous focus group",
+      "Tooltip": "ipsa"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

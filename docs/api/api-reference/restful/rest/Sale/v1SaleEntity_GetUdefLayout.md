@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 71,
-    "ColumnId": 59,
-    "FieldDefault": "optio",
-    "FieldHeight": 195,
-    "FieldLabel": "soluta",
-    "FieldLeft": 409,
-    "FieldTop": 764,
+    "UDefFieldId": 531,
+    "ColumnId": 323,
+    "FieldDefault": "et",
+    "FieldHeight": 997,
+    "FieldLabel": "adipisci",
+    "FieldLeft": 264,
+    "FieldTop": 237,
     "FieldType": "Checkbox",
-    "FieldWidth": 918,
-    "FormatMask": "aliquid",
-    "HideLabel": true,
+    "FieldWidth": 675,
+    "FormatMask": "rem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 61,
-    "LabelLeft": 463,
-    "LabelTop": 839,
-    "LabelWidth": 198,
-    "LastVersionId": 902,
-    "ListTableId": 14,
-    "IsMandatory": true,
+    "LabelHeight": 796,
+    "LabelLeft": 786,
+    "LabelTop": 158,
+    "LabelWidth": 199,
+    "LastVersionId": 566,
+    "ListTableId": 744,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 360,
-    "ProgId": "et",
+    "Page1LineNo": 3,
+    "ProgId": "eius",
     "IsReadOnly": true,
-    "ShortLabel": "fuga",
-    "TabOrder": 822,
-    "TextLength": 803,
-    "Tooltip": "et",
-    "UdefIdentity": 126,
-    "UDListDefinitionId": 938,
+    "ShortLabel": "aspernatur",
+    "TabOrder": 691,
+    "TextLength": 752,
+    "Tooltip": "qui",
+    "UdefIdentity": 146,
+    "UDListDefinitionId": 847,
     "Justification": "Center",
-    "Version": 523,
-    "TemplateVariableName": "Moen-Bednar",
+    "Version": 137,
+    "TemplateVariableName": "McClure-Runte",
     "HasBeenPublished": true,
-    "MdoListName": "Keebler LLC",
+    "MdoListName": "Fay LLC",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,10 +138,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate bleeding-edge users"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 451
       }
     }
   }

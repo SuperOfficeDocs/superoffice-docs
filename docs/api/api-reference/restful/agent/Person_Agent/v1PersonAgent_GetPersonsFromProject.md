@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetPersonsFromProject
+title: GetPersonsFromProject
 id: v1PersonAgent_GetPersonsFromProject
 ---
 
-# POST Agents/Person/GetPersonsFromProject
+# GetPersonsFromProject
 
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromProject
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 250
+  "ProjectId": 524
 }
 ```
 
@@ -126,45 +126,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dignissimos",
-    "PersonId": 357,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Katelin",
-    "Lastname": "Jones",
-    "MiddleName": "Bosco, Sipes and Kautzer",
-    "Title": "quas",
-    "Description": "Exclusive next generation projection",
-    "Email": "karli.will@vandervort.us",
-    "FullName": "John Durgan",
-    "DirectPhone": "(705)016-2006 x4814",
-    "FormalName": "Rowe LLC",
-    "CountryId": 994,
-    "ContactId": 790,
-    "ContactName": "Kiehn LLC",
-    "Retired": 622,
-    "Rank": 197,
-    "ActiveInterests": 351,
+    "Position": "nostrum",
+    "PersonId": 639,
+    "Mrmrs": "et",
+    "Firstname": "Britney",
+    "Lastname": "Leffler",
+    "MiddleName": "Wisozk, Hoppe and Klocko",
+    "Title": "recusandae",
+    "Description": "Fundamental contextually-based approach",
+    "Email": "brandi@senger.name",
+    "FullName": "Norberto Howe",
+    "DirectPhone": "163-063-0375",
+    "FormalName": "Parisian-Will",
+    "CountryId": 463,
+    "ContactId": 323,
+    "ContactName": "Kilback-Hagenes",
+    "Retired": 482,
+    "Rank": 696,
+    "ActiveInterests": 217,
     "ContactDepartment": "",
-    "ContactCountryId": 778,
-    "ContactOrgNr": "1219913",
-    "FaxPhone": "043-678-1376",
-    "MobilePhone": "672-036-6527",
-    "ContactPhone": "682-244-6583 x5858",
-    "AssociateName": "Kihn-Marvin",
-    "AssociateId": 325,
-    "UsePersonAddress": false,
-    "ContactFax": "consequuntur",
-    "Kanafname": "velit",
-    "Kanalname": "quo",
-    "Post1": "odit",
-    "Post2": "impedit",
-    "Post3": "enim",
-    "EmailName": "cara@schillerherzog.ca",
-    "ContactFullName": "Julien Rippin",
-    "ActiveErpLinks": 603,
-    "TicketPriorityId": 223,
-    "SupportLanguageId": 767,
-    "SupportAssociateId": 660,
+    "ContactCountryId": 342,
+    "ContactOrgNr": "1436848",
+    "FaxPhone": "070-214-0830",
+    "MobilePhone": "362.883.3746 x385",
+    "ContactPhone": "1-126-023-6243 x124",
+    "AssociateName": "Zieme-Nienow",
+    "AssociateId": 49,
+    "UsePersonAddress": true,
+    "ContactFax": "perferendis",
+    "Kanafname": "similique",
+    "Kanalname": "omnis",
+    "Post1": "iusto",
+    "Post2": "aut",
+    "Post3": "totam",
+    "EmailName": "salvador_rowe@daniel.com",
+    "ContactFullName": "Rogers Boehm",
+    "ActiveErpLinks": 263,
+    "TicketPriorityId": 932,
+    "SupportLanguageId": 708,
+    "SupportAssociateId": 737,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -174,10 +174,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "transition granular initiatives"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 317
       }
     }
   }

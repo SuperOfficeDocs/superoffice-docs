@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
+title: FindFromRestrictionsColumnsOrderBy2
 id: v1FindAgent_FindFromRestrictionsColumnsOrderBy2
 ---
 
-# POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
+# FindFromRestrictionsColumnsOrderBy2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
@@ -14,32 +14,7 @@ Execute a Find operation and return a page of results.
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -240,16 +171,16 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "dolores",
-  "ProviderName": "Waters-Parker",
-  "DesiredColumns": "non",
-  "OrderBy": "facere",
-  "PageSize": 527,
-  "PageNumber": 440
+  "Restrictions": "animi",
+  "ProviderName": "Carroll Group",
+  "DesiredColumns": "sunt",
+  "OrderBy": "debitis",
+  "PageSize": 696,
+  "PageNumber": 312
 }
 ```
 
@@ -260,34 +191,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Abbott, Metz and Spinka",
-      "DisplayTooltip": "amet",
-      "DisplayType": "quia",
+      "DisplayName": "Rogahn Group",
+      "DisplayTooltip": "eius",
+      "DisplayType": "explicabo",
       "CanOrderBy": false,
-      "Name": "Wiegand-Shields",
+      "Name": "Tillman, Berge and Goodwin",
       "CanRestrictBy": true,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Farrell, Reichert and Schamberger",
-      "IsVisible": false,
-      "ExtraInfo": "alias",
-      "Width": "quis",
-      "IconHint": "architecto",
-      "HeadingIconHint": "corrupti"
+      "RestrictionType": "et",
+      "RestrictionListName": "Kunze-Altenwerth",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "ea",
+      "IconHint": "quia",
+      "HeadingIconHint": "esse"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Prohaska Group",
-      "PrimaryKey": 74,
+      "EntityName": "Douglas, Monahan and Harber",
+      "PrimaryKey": 469,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "odio",
-          "LinkHint": "ea"
+          "DisplayValue": "aut",
+          "TooltipHint": "nulla",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "ad",
-      "StyleHint": "odit",
+      "LinkHint": "consequuntur",
+      "StyleHint": "dignissimos",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -295,13 +226,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     }
   ],
-  "RowCount": 642,
+  "RowCount": 70,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -313,7 +244,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 27
     }
   }
 }

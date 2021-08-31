@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHeadingsFromListDefinition
+title: GetHeadingsFromListDefinition
 id: v1ListAgent_GetHeadingsFromListDefinition
 ---
 
-# POST Agents/List/GetHeadingsFromListDefinition
+# GetHeadingsFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903
+  "Id": 866
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 679,
-    "Name": "Brown, Hagenes and Emard",
-    "Tooltip": "porro",
+    "HeadingId": 933,
+    "Name": "Rosenbaum Group",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "Rank": 131,
-    "UdListDefinitionId": 44,
+    "Rank": 473,
+    "UdListDefinitionId": 236,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "cultivate wireless methodologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 627
       }
     }
   }

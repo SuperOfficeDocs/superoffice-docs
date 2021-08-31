@@ -2,6 +2,8 @@
 title: Document
 ---
 
+# Document
+
 ```http
 /api/v1/Document
 ```
@@ -58,6 +60,8 @@ title: Document
 * [POST Document/{id}/Command/{command}](v1DocumentEntity_ExecuteDocumentCommand.md)
 
 * [POST Document/Validate](v1DocumentEntity_ValidateDocumentEntity.md)
+
+* [GET Document/{id}/Length](v1DocumentEntity_GetDocumentLength.md)
 
 * [GET Document/CustomField](v1DocumentEntity_GetCustomFieldInfoList.md)
 

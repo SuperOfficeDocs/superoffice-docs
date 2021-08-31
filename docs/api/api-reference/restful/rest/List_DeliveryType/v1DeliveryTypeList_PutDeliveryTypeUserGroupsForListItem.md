@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Reichert, Kris and Beier",
-    "ToolTip": "Asperiores nihil dolores.",
+    "Id": 924,
+    "Name": "Crona-Labadie",
+    "ToolTip": "Voluptates ut voluptatem et quia.",
     "Deleted": false,
-    "Rank": 267,
-    "Type": "deleniti",
-    "ColorBlock": 18,
-    "IconHint": "quis",
+    "Rank": 467,
+    "Type": "eligendi",
+    "ColorBlock": 254,
+    "IconHint": "beatae",
     "Selected": true,
-    "LastChanged": "2011-11-03T09:41:00.3623895+01:00",
+    "LastChanged": "2018-10-12T15:05:43.4355099+02:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Stark-Jones",
-        "ToolTip": "Autem quibusdam molestiae.",
-        "Deleted": true,
-        "Rank": 159,
-        "Type": "ipsum",
-        "ColorBlock": 559,
-        "IconHint": "dolorum",
+        "Id": 914,
+        "Name": "Brakus-Kuphal",
+        "ToolTip": "Quia repudiandae aut.",
+        "Deleted": false,
+        "Rank": 768,
+        "Type": "facilis",
+        "ColorBlock": 159,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-06-14T09:41:00.3623895+02:00",
+        "LastChanged": "2003-11-14T15:05:43.4355099+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Kurtis Brown Sr."
+        "ExtraInfo": "nemo",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Jamir Rath"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Mario King"
+    "ExtraInfo": "id",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Kameron Davis"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Hickle, Stokes and Reinger",
-    "ToolTip": "Nisi neque.",
+    "Id": 98,
+    "Name": "Waelchi Group",
+    "ToolTip": "Necessitatibus aut assumenda.",
     "Deleted": true,
-    "Rank": 89,
-    "Type": "non",
-    "ColorBlock": 941,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "2014-04-16T09:41:00.364382+02:00",
+    "Rank": 364,
+    "Type": "ipsam",
+    "ColorBlock": 126,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2015-08-03T15:05:43.43651+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Shanahan, Boyer and Breitenberg",
-        "ToolTip": "Error odit adipisci et.",
+        "Id": 968,
+        "Name": "Hyatt Inc and Sons",
+        "ToolTip": "Quasi est.",
         "Deleted": true,
-        "Rank": 734,
-        "Type": "nam",
-        "ColorBlock": 16,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2004-10-15T09:41:00.3653838+02:00",
+        "Rank": 598,
+        "Type": "laborum",
+        "ColorBlock": 173,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2005-02-05T15:05:43.43651+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "rerum",
+        "ExtraInfo": "illo",
+        "StyleHint": "perferendis",
         "Hidden": true,
-        "FullName": "Triston Gusikowski",
+        "FullName": "Leland Mertz DVM",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldLength": 204
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Miss Jimmie Kutch",
+    "ExtraInfo": "molestias",
+    "StyleHint": "ullam",
+    "Hidden": true,
+    "FullName": "Davonte Grady",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldLength": 717
       }
     }
   }

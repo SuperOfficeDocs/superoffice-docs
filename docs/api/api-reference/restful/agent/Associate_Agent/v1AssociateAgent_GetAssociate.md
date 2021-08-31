@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/GetAssociate
+title: GetAssociate
 id: v1AssociateAgent_GetAssociate
 ---
 
-# POST Agents/Associate/GetAssociate
+# GetAssociate
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociate
@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=500
+POST /api/v1/Agents/Associate/GetAssociate?associateId=133
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,21 +86,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 249,
-  "Name": "Herzog, Moen and Batz",
-  "PersonId": 433,
-  "Rank": 436,
-  "Tooltip": "beatae",
+  "AssociateId": 981,
+  "Name": "Denesik Group",
+  "PersonId": 705,
+  "Rank": 322,
+  "Tooltip": "sint",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 706,
-  "FullName": "Wyman Mante",
-  "FormalName": "Treutel, Abernathy and Roob",
+  "GroupIdx": 734,
+  "FullName": "Rebekah Olson",
+  "FormalName": "Kessler-Torphy",
   "Deleted": false,
-  "EjUserId": 205,
-  "UserName": "Emard-Kiehn",
+  "EjUserId": 158,
+  "UserName": "Witting-Kessler",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reinvent next-generation metrics"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

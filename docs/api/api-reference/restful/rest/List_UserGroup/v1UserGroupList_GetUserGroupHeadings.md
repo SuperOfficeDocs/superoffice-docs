@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Nienow, Yundt and Bahringer",
-    "Tooltip": "et",
+    "HeadingId": 402,
+    "Name": "Denesik Group",
+    "Tooltip": "voluptatum",
     "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 710,
+    "Rank": 520,
+    "UdListDefinitionId": 738,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 160
       }
     }
   }

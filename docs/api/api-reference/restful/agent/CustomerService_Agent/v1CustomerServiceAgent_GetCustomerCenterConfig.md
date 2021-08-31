@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetCustomerCenterConfig
+title: GetCustomerCenterConfig
 id: v1CustomerServiceAgent_GetCustomerCenterConfig
 ---
 
-# POST Agents/CustomerService/GetCustomerCenterConfig
+# GetCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
@@ -25,7 +25,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=314
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=805
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -86,14 +86,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 140,
+  "CustConfigId": 937,
   "Type": "Options",
-  "Config": "in",
-  "CustLangId": 304,
-  "Registered": "2008-07-21T16:48:29.2248946+02:00",
-  "RegisteredAssociateId": 67,
-  "Updated": "2020-03-23T16:48:29.2248946+01:00",
-  "UpdatedAssociateId": 492,
+  "Config": "et",
+  "CustLangId": 627,
+  "Registered": "2017-12-11T14:58:03.7594651+01:00",
+  "RegisteredAssociateId": 818,
+  "Updated": "1998-08-07T14:58:03.7594651+02:00",
+  "UpdatedAssociateId": 855,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,10 +102,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reintermediate B2B users"
       },
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   }
 }

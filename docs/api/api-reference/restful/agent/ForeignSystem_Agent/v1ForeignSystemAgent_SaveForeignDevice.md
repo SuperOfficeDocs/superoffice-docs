@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/SaveForeignDevice
+title: SaveForeignDevice
 id: v1ForeignSystemAgent_SaveForeignDevice
 ---
 
-# POST Agents/ForeignSystem/SaveForeignDevice
+# SaveForeignDevice
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
@@ -87,22 +87,22 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": {
-    "ForeignDeviceId": 560,
-    "Name": "Nitzsche LLC",
-    "CreatedDate": "2008-12-16T16:48:29.7179242+01:00",
-    "UpdatedDate": "1996-05-26T16:48:29.7179242+02:00",
-    "AssociateFullName": "Nicole O'Keefe DVM",
-    "CreatedBy": "delectus",
-    "UpdatedBy": "fuga",
-    "DeviceIdentifier": "dolorem",
-    "ForeignAppId": 995
+    "ForeignDeviceId": 794,
+    "Name": "Farrell Inc and Sons",
+    "CreatedDate": "1997-03-05T14:58:04.3114603+01:00",
+    "UpdatedDate": "2019-04-05T14:58:04.3114603+02:00",
+    "AssociateFullName": "Anastasia Turner",
+    "CreatedBy": "dolor",
+    "UpdatedBy": "illum",
+    "DeviceIdentifier": "porro",
+    "ForeignAppId": 439
   },
-  "ApplicationName": "Williamson LLC"
+  "ApplicationName": "Waters LLC"
 }
 ```
 
@@ -111,18 +111,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 166,
-  "Name": "Buckridge-Swift",
-  "CreatedDate": "2009-08-01T16:48:29.7179242+02:00",
-  "UpdatedDate": "2006-06-20T16:48:29.7179242+02:00",
-  "AssociateFullName": "Mrs. Magdalen Bosco",
-  "CreatedBy": "fugit",
-  "UpdatedBy": "ratione",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 946,
+  "ForeignDeviceId": 508,
+  "Name": "Kohler, Jakubowski and Collier",
+  "CreatedDate": "2018-04-02T14:58:04.3124599+02:00",
+  "UpdatedDate": "2018-05-30T14:58:04.3124599+02:00",
+  "AssociateFullName": "Giovanna Zieme",
+  "CreatedBy": "fugiat",
+  "UpdatedBy": "vel",
+  "DeviceIdentifier": "ad",
+  "ForeignAppId": 278,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "recontextualize user-centric schemas"
   },
   "FieldProperties": {
     "fieldName": {
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

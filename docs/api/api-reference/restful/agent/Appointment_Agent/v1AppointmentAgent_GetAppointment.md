@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAppointment
+title: GetAppointment
 id: v1AppointmentAgent_GetAppointment
 ---
 
-# POST Agents/Appointment/GetAppointment
+# GetAppointment
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointment
@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=357
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=717
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -127,53 +127,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 826,
-  "StartDate": "2017-11-30T16:48:28.5324563+01:00",
-  "EndDate": "1996-11-27T16:48:28.5324563+01:00",
+  "AppointmentId": 462,
+  "StartDate": "2018-04-22T14:58:03.1035724+02:00",
+  "EndDate": "2002-01-22T14:58:03.1035724+01:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptatem",
-  "AssociateFullName": "Lucy Kulas",
-  "ContactName": "Beier, Auer and Harris",
-  "Description": "Persevering transitional methodology",
-  "PersonFullName": "Stevie Jast",
-  "PersonId": 559,
-  "ContactId": 431,
-  "ProjectId": 298,
-  "ProjectName": "Gulgowski, Doyle and Mohr",
-  "IsPublished": false,
-  "AssociateId": 679,
-  "ColorIndex": 831,
-  "IsFree": true,
+  "Task": "ut",
+  "AssociateFullName": "Mr. Erica Reichel",
+  "ContactName": "Klein, Nicolas and Conroy",
+  "Description": "Seamless even-keeled service-desk",
+  "PersonFullName": "Raegan Roob",
+  "PersonId": 452,
+  "ContactId": 549,
+  "ProjectId": 964,
+  "ProjectName": "Runolfsson LLC",
+  "IsPublished": true,
+  "AssociateId": 707,
+  "ColorIndex": 183,
+  "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 68,
-  "PriorityName": "Mayer Group",
+  "PriorityId": 229,
+  "PriorityName": "Bartell, Hettinger and Okuneva",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "1997-08-30T16:48:28.5324563+02:00",
+  "ActiveDate": "2008-06-18T14:58:03.1045736+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-05-10T16:48:28.5324563+02:00",
-  "RecurringEndDate": "2006-09-29T16:48:28.5324563+02:00",
-  "MotherId": 6,
-  "AssignedBy": 552,
-  "AssignedByFullName": "Dr. Camylle King",
+  "RecurringStartDate": "2021-08-12T14:58:03.1045736+02:00",
+  "RecurringEndDate": "2008-10-23T14:58:03.1045736+02:00",
+  "MotherId": 818,
+  "AssignedBy": 927,
+  "AssignedByFullName": "Lucy Rolfson",
   "RejectReason": "",
-  "Location": "officia",
-  "AlarmLeadTime": "inventore",
-  "SaleId": 433,
-  "SaleName": "Schulist-Deckow",
-  "AssociateName": "Parisian, Nicolas and Gleason",
-  "CreatedDate": "2009-07-29T16:48:28.5324563+02:00",
-  "CreatedBy": "qui",
-  "CreatedByFullName": "Wilfredo Schroeder",
-  "CreatedByAssociateId": 876,
+  "Location": "laudantium",
+  "AlarmLeadTime": "quia",
+  "SaleId": 89,
+  "SaleName": "Weber-Howe",
+  "AssociateName": "Swaniawski-Torp",
+  "CreatedDate": "2010-06-24T14:58:03.1045736+02:00",
+  "CreatedBy": "possimus",
+  "CreatedByFullName": "Charley Murphy",
+  "CreatedByAssociateId": 85,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

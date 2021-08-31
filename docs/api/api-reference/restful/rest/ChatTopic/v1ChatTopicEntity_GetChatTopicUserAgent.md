@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,35 +75,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 652,
+  "TopicId": 486,
   "User": {
-    "AssociateId": 11,
-    "Name": "Trantow Group",
-    "PersonId": 673,
-    "Rank": 673,
-    "Tooltip": "voluptatem",
+    "AssociateId": 274,
+    "Name": "Raynor Group",
+    "PersonId": 768,
+    "Rank": 901,
+    "Tooltip": "non",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 57,
-    "FullName": "Daphney Kuhic",
-    "FormalName": "Kutch Inc and Sons",
+    "GroupIdx": 691,
+    "FullName": "Wilson Gislason",
+    "FormalName": "Kutch-Beahan",
     "Deleted": true,
-    "EjUserId": 643,
-    "UserName": "Ratke, Sporer and O'Kon",
+    "EjUserId": 66,
+    "UserName": "Shanahan-Tremblay",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "integrate viral schemas"
         },
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   },
-  "CanListen": true,
-  "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": false
+  "CanListen": false,
+  "CanRespond": true,
+  "CanManage": false,
+  "CanNotify": true
 }
 ```

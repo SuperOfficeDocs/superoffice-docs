@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/DeleteTicketEntity
+title: DeleteTicketEntity
 id: v1TicketAgent_DeleteTicketEntity
 ---
 
-# POST Agents/Ticket/DeleteTicketEntity
+# DeleteTicketEntity
 
 ```http
 POST /api/v1/Agents/Ticket/DeleteTicketEntity

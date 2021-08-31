@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateUserGroup
+title: CreateUserGroup
 id: v1UserAgent_CreateUserGroup
 ---
 
-# POST Agents/User/CreateUserGroup
+# CreateUserGroup
 
 ```http
 POST /api/v1/Agents/User/CreateUserGroup
@@ -83,23 +83,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "rerum",
-  "Tooltip": "eum",
-  "Id": 249,
-  "Rank": 828,
-  "Deleted": true,
+  "Value": "dolore",
+  "Tooltip": "voluptas",
+  "Id": 943,
+  "Rank": 818,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "facilitate seamless users"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "visualize extensible niches"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldLength": 722
     }
   }
 }

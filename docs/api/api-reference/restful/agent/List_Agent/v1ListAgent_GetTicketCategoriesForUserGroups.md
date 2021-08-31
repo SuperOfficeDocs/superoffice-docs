@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketCategoriesForUserGroups
+title: GetTicketCategoriesForUserGroups
 id: v1ListAgent_GetTicketCategoriesForUserGroups
 ---
 
-# POST Agents/List/GetTicketCategoriesForUserGroups
+# GetTicketCategoriesForUserGroups
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
@@ -84,13 +84,13 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    858,
-    366
+    172,
+    12
   ]
 }
 ```
@@ -101,29 +101,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Hyatt-Brakus",
-    "ToolTip": "Minus iusto magnam ea accusamus explicabo.",
+    "Id": 641,
+    "Name": "Hansen-Doyle",
+    "ToolTip": "Illum voluptate dolorum omnis.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "rem",
+    "Rank": 483,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Green, Swaniawski and Hagenes",
-        "ToolTip": "Natus debitis.",
-        "Deleted": true,
-        "Rank": 39,
-        "Type": "accusamus",
+        "Id": 445,
+        "Name": "O'Connell Group",
+        "ToolTip": "Distinctio laborum sed voluptatum.",
+        "Deleted": false,
+        "Rank": 477,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 772,
-        "ExtraInfo": "nemo",
-        "StyleHint": "porro",
-        "FullName": "Nico Goyette V",
+        "IconHint": "amet",
+        "ColorBlock": 491,
+        "ExtraInfo": "autem",
+        "StyleHint": "explicabo",
+        "FullName": "Petra Kunze",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -132,16 +132,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 892
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 999,
-    "ExtraInfo": "non",
-    "StyleHint": "sunt",
-    "FullName": "Watson Bogisich II",
+    "IconHint": "dolorem",
+    "ColorBlock": 803,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "reiciendis",
+    "FullName": "Silas Kirlin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 166
       }
     }
   }

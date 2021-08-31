@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetFilterList
+title: GetFilterList
 id: v1ConfigurationAgent_GetFilterList
 ---
 
-# POST Agents/Configuration/GetFilterList
+# GetFilterList
 
 ```http
 POST /api/v1/Agents/Configuration/GetFilterList
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetFilterList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "rerum",
-  "Instance": "non"
+  "Application": "dicta",
+  "Instance": "aspernatur"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iusto"
+"sint"
 ```

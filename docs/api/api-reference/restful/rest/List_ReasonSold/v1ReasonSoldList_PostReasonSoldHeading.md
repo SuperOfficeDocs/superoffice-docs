@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 314,
-  "Name": "Herzog-Hahn",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 801,
-  "UdListDefinitionId": 631
+  "HeadingId": 178,
+  "Name": "Leffler Group",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 482,
+  "UdListDefinitionId": 453
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 434,
-  "Name": "Adams Group",
-  "Tooltip": "voluptas",
+  "HeadingId": 385,
+  "Name": "Feil LLC",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 669,
-  "UdListDefinitionId": 38,
+  "Rank": 64,
+  "UdListDefinitionId": 905,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   }
 }

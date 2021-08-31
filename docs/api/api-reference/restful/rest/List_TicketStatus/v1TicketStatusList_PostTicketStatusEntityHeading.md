@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 483,
-  "Name": "Becker, Hauck and Schoen",
-  "Tooltip": "ducimus",
+  "HeadingId": 66,
+  "Name": "Raynor-Leannon",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 513,
-  "UdListDefinitionId": 400
+  "Rank": 540,
+  "UdListDefinitionId": 502
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 542,
-  "Name": "Corwin LLC",
-  "Tooltip": "nulla",
+  "HeadingId": 61,
+  "Name": "Buckridge-Bernhard",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 655,
-  "UdListDefinitionId": 630,
+  "Rank": 679,
+  "UdListDefinitionId": 128,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

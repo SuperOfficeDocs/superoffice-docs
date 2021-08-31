@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Lind-Mante",
-    "ToolTip": "Aut fuga sed.",
-    "Deleted": true,
-    "Rank": 969,
-    "Type": "exercitationem",
-    "ColorBlock": 430,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2010-05-01T09:41:00.3203473+02:00",
+    "Id": 925,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Commodi dolore mollitia ipsa laborum.",
+    "Deleted": false,
+    "Rank": 559,
+    "Type": "modi",
+    "ColorBlock": 438,
+    "IconHint": "tenetur",
+    "Selected": false,
+    "LastChanged": "2017-02-01T15:05:43.3915101+01:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Beer, Koch and Stiedemann",
-        "ToolTip": "Tempora odit repellendus consequatur et.",
-        "Deleted": false,
-        "Rank": 572,
-        "Type": "nobis",
-        "ColorBlock": 674,
-        "IconHint": "quia",
+        "Id": 667,
+        "Name": "Pollich, Waters and Treutel",
+        "ToolTip": "Occaecati unde commodi provident inventore voluptatum.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "est",
+        "ColorBlock": 886,
+        "IconHint": "pariatur",
         "Selected": true,
-        "LastChanged": "2014-10-15T09:41:00.3203473+02:00",
+        "LastChanged": "2006-07-12T15:05:43.3915101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Victoria Huel",
+        "FullName": "Breanne O'Hara",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldType": "System.String",
+            "FieldLength": 132
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "vitae",
-    "Hidden": false,
-    "FullName": "Asha Zulauf",
+    "ExtraInfo": "iure",
+    "StyleHint": "incidunt",
+    "Hidden": true,
+    "FullName": "Marilyne Bayer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose out-of-the-box systems"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 726
+        "FieldType": "System.Int32",
+        "FieldLength": 156
       }
     }
   }

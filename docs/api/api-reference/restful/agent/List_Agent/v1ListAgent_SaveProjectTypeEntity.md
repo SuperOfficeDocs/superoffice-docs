@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveProjectTypeEntity
+title: SaveProjectTypeEntity
 id: v1ListAgent_SaveProjectTypeEntity
 ---
 
-# POST Agents/List/SaveProjectTypeEntity
+# SaveProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/SaveProjectTypeEntity
@@ -82,39 +82,39 @@ Response body: object
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 921,
-  "Name": "Ondricka-Braun",
-  "Tooltip": "cumque",
-  "Rank": 495,
+  "ProjTypeId": 621,
+  "Name": "Upton LLC",
+  "Tooltip": "placeat",
+  "Rank": 603,
   "DurationUnit": "Century",
-  "ProjectDuration": 658,
-  "Deleted": false,
+  "ProjectDuration": 177,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Towne, Donnelly and Reynolds",
-      "ToolTip": "Temporibus exercitationem ratione velit autem ratione dolor.",
-      "Deleted": false,
-      "Rank": 456,
-      "Type": "et",
-      "ColorBlock": 874,
-      "IconHint": "est",
-      "Selected": true,
-      "LastChanged": "2014-05-20T16:48:29.9269229+02:00",
+      "Id": 799,
+      "Name": "Glover, Mante and Stoltenberg",
+      "ToolTip": "Totam et consequatur et eos perferendis.",
+      "Deleted": true,
+      "Rank": 681,
+      "Type": "voluptatibus",
+      "ColorBlock": 477,
+      "IconHint": "velit",
+      "Selected": false,
+      "LastChanged": "2006-03-22T14:58:04.4734654+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "magnam",
-      "Hidden": true,
-      "FullName": "Derek Wilderman"
+      "ExtraInfo": "aut",
+      "StyleHint": "similique",
+      "Hidden": false,
+      "FullName": "Domenic Thiel"
     }
   ]
 }
@@ -125,44 +125,44 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 20,
-  "Name": "Mraz, Waters and Roberts",
-  "Tooltip": "et",
-  "Rank": 972,
+  "ProjTypeId": 469,
+  "Name": "Goodwin, Gerhold and Witting",
+  "Tooltip": "id",
+  "Rank": 279,
   "DurationUnit": "Century",
-  "ProjectDuration": 285,
+  "ProjectDuration": 553,
   "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 886,
-      "Name": "Powlowski, Schultz and Will",
-      "ToolTip": "Qui necessitatibus labore assumenda.",
-      "Deleted": true,
-      "Rank": 73,
-      "Type": "est",
-      "ColorBlock": 688,
-      "IconHint": "adipisci",
-      "Selected": true,
-      "LastChanged": "2017-12-21T16:48:29.9279235+01:00",
+      "Id": 260,
+      "Name": "Lynch Inc and Sons",
+      "ToolTip": "Qui non quae et vel.",
+      "Deleted": false,
+      "Rank": 584,
+      "Type": "aut",
+      "ColorBlock": 933,
+      "IconHint": "cumque",
+      "Selected": false,
+      "LastChanged": "2008-03-11T14:58:04.4744677+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "numquam",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "animi",
       "Hidden": false,
-      "FullName": "Floy Weissnat",
+      "FullName": "Kailyn Feeney",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "disintermediate dynamic synergies"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     }
@@ -175,10 +175,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "engineer seamless networks"
       },
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

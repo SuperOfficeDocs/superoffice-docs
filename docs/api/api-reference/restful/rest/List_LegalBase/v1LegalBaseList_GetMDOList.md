@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=possimus
+GET /api/v1/List/LegalBase/MDOItems?query=voluptate
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Leannon-Witting",
-    "ToolTip": "Quos natus qui hic cumque.",
-    "Deleted": false,
-    "Rank": 958,
-    "Type": "voluptatibus",
+    "Id": 860,
+    "Name": "Ritchie Inc and Sons",
+    "ToolTip": "Commodi quidem sit aut et enim.",
+    "Deleted": true,
+    "Rank": 229,
+    "Type": "itaque",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Hettinger Inc and Sons",
-        "ToolTip": "Illo rerum omnis dignissimos iusto itaque cupiditate.",
+        "Id": 671,
+        "Name": "Heidenreich-Kulas",
+        "ToolTip": "Culpa dolore laborum eveniet.",
         "Deleted": false,
-        "Rank": 851,
-        "Type": "optio",
+        "Rank": 103,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 930,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "dolorem",
-        "FullName": "Roy Stark",
+        "IconHint": "et",
+        "ColorBlock": 617,
+        "ExtraInfo": "quis",
+        "StyleHint": "nihil",
+        "FullName": "Nella Wolff",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 581
+            "FieldType": "System.Int32",
+            "FieldLength": 72
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 721,
-    "ExtraInfo": "enim",
-    "StyleHint": "eaque",
-    "FullName": "Seamus Kreiger",
+    "IconHint": "sapiente",
+    "ColorBlock": 27,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "tempora",
+    "FullName": "Jasper Sawayn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "integrate leading-edge networks"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 843
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/DeleteEMailAccount
+title: DeleteEMailAccount
 id: v1EMailAgent_DeleteEMailAccount
 ---
 
-# POST Agents/EMail/DeleteEMailAccount
+# DeleteEMailAccount
 
 ```http
 POST /api/v1/Agents/EMail/DeleteEMailAccount
@@ -26,7 +26,7 @@ Deletes the EMailAccount
 | EMailAccountId | int32 | **Required** The id of the EMailAccount to be deleted. |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=307
+POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=726
 ```
 
 

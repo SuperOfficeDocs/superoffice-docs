@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCreditedList
+title: GetCreditedList
 id: v1ListAgent_GetCreditedList
 ---
 
-# POST Agents/List/GetCreditedList
+# GetCreditedList
 
 ```http
 POST /api/v1/Agents/List/GetCreditedList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Value": "dolores",
-    "Tooltip": "ea",
+    "Id": 617,
+    "Value": "nesciunt",
+    "Tooltip": "cumque",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldType": "System.Int32",
+        "FieldLength": 394
       }
     }
   },
   {
-    "Id": 192,
-    "Value": "dolores",
-    "Tooltip": "ea",
+    "Id": 617,
+    "Value": "nesciunt",
+    "Tooltip": "cumque",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldType": "System.Int32",
+        "FieldLength": 394
       }
     }
   }

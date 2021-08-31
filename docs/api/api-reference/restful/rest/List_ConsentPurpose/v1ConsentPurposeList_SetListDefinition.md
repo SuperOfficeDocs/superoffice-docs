@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Brown LLC",
-  "Tooltip": "dolor",
+  "Id": 655,
+  "Name": "Kuhic LLC",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 620,
+  "Rank": 989,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quae",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 529,
-  "Name": "Reinger, Murray and Torphy",
-  "Tooltip": "iure",
+  "Id": 908,
+  "Name": "Bechtelar, Crist and Herman",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 964,
-  "IsCustomList": true,
+  "Rank": 154,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 735
     }
   }
 }

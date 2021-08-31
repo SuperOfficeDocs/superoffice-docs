@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetDefaultAssociateUserName
+title: GetDefaultAssociateUserName
 id: v1UserAgent_GetDefaultAssociateUserName
 ---
 
-# POST Agents/User/GetDefaultAssociateUserName
+# GetDefaultAssociateUserName
 
 ```http
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
@@ -70,15 +70,15 @@ Response body: string
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 100,
-    "Name": "Jast-Kertzmann",
-    "Rank": 988,
-    "Tooltip": "aliquid",
+    "AssociateId": 68,
+    "Name": "Kessler, Brekke and Konopelski",
+    "Rank": 901,
+    "Tooltip": "saepe",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "1998-10-16T16:48:30.8739353+02:00",
-    "Lastlogout": "2010-04-26T16:48:30.8739353+02:00",
-    "EjUserId": 34,
-    "RequestSignature": "rerum",
+    "Lastlogin": "2019-09-12T14:58:05.4236227+02:00",
+    "Lastlogout": "2013-08-24T14:58:05.4236227+02:00",
+    "EjUserId": 260,
+    "RequestSignature": "voluptas",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
+    "IsPersonRetired": true,
     "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Fadel, Schinner and Schmidt",
+    "UserName": "Sawayn, Terry and Thompson",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Lubowitz Group",
-    "WaitingForApproval": true,
+    "NickName": "Pagac, Brown and Hermann",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "ipsa",
-      "ExtraFields2": "similique"
+      "ExtraFields1": "aut",
+      "ExtraFields2": "delectus"
     },
     "CustomFields": {
-      "CustomFields1": "non",
-      "CustomFields2": "debitis"
+      "CustomFields1": "nulla",
+      "CustomFields2": "eum"
     },
     "PostSaveCommands": [
       {},
@@ -129,5 +129,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Cormier, Corkery and Wuckert"
+"Monahan, Medhurst and Bogisich"
 ```

@@ -88,35 +88,35 @@ Response body: object
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 943,
-  "Name": "Mann, Murazik and Goyette",
-  "ConsentText": "consectetur",
-  "FormText": "vitae",
-  "Key": "eos",
-  "Tooltip": "molestiae",
-  "Active": 664,
-  "UpdatedDate": "2001-12-09T09:41:00.257362+01:00",
+  "ConsentPurposeId": 379,
+  "Name": "Kling, Kihn and Olson",
+  "ConsentText": "dolorem",
+  "FormText": "voluptas",
+  "Key": "ad",
+  "Tooltip": "labore",
+  "Active": 712,
+  "UpdatedDate": "2002-11-22T15:05:43.3315396+01:00",
   "UpdatedBy": {
-    "AssociateId": 109,
-    "Name": "Schumm LLC",
-    "PersonId": 840,
-    "Rank": 606,
-    "Tooltip": "in",
+    "AssociateId": 114,
+    "Name": "Steuber Inc and Sons",
+    "PersonId": 337,
+    "Rank": 674,
+    "Tooltip": "illum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 676,
-    "FullName": "Hershel Emard",
-    "FormalName": "Trantow, Rogahn and Spencer",
-    "Deleted": true,
-    "EjUserId": 461,
-    "UserName": "Murazik-Dach"
+    "GroupIdx": 602,
+    "FullName": "Cindy Cormier",
+    "FormalName": "Douglas, Batz and Kohler",
+    "Deleted": false,
+    "EjUserId": 575,
+    "UserName": "Kris Inc and Sons"
   },
-  "Deleted": false,
-  "Rank": 195,
-  "PrivacyStatementDesc": "error",
+  "Deleted": true,
+  "Rank": 784,
+  "PrivacyStatementDesc": "facere",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -126,42 +126,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 305,
-  "Name": "Schimmel-Kunze",
-  "ConsentText": "quo",
-  "FormText": "voluptas",
-  "Key": "consequatur",
-  "Tooltip": "sit",
-  "Active": 365,
-  "UpdatedDate": "2020-02-07T09:41:00.2583636+01:00",
+  "ConsentPurposeId": 803,
+  "Name": "Quitzon LLC",
+  "ConsentText": "maiores",
+  "FormText": "eum",
+  "Key": "iure",
+  "Tooltip": "et",
+  "Active": 102,
+  "UpdatedDate": "2008-04-24T15:05:43.3325476+02:00",
   "UpdatedBy": {
-    "AssociateId": 261,
-    "Name": "Lindgren, Cassin and Rutherford",
-    "PersonId": 599,
-    "Rank": 632,
-    "Tooltip": "velit",
+    "AssociateId": 363,
+    "Name": "Herzog-Stoltenberg",
+    "PersonId": 728,
+    "Rank": 617,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 848,
-    "FullName": "Ali Hermann",
-    "FormalName": "Greenholt-Bartoletti",
+    "GroupIdx": 607,
+    "FullName": "Rickie White I",
+    "FormalName": "Jakubowski Group",
     "Deleted": true,
-    "EjUserId": 327,
-    "UserName": "Feil, Parker and Vandervort",
+    "EjUserId": 955,
+    "UserName": "Carter-Osinski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "leverage end-to-end networks"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   },
-  "Deleted": false,
-  "Rank": 14,
-  "PrivacyStatementDesc": "eius",
+  "Deleted": true,
+  "Rank": 338,
+  "PrivacyStatementDesc": "quam",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": {
     "Mask": "Delete",
@@ -173,8 +173,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

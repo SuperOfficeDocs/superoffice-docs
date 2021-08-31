@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Franecki, Dare and Yundt",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 978,
+  "Id": 894,
+  "Name": "Bogan Group",
+  "Tooltip": "fugiat",
+  "Deleted": false,
+  "Rank": 249,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "provident",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "O'Hara, Schulist and Heathcote",
-  "Tooltip": "tenetur",
+  "Id": 615,
+  "Name": "Braun-Rau",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 954,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 241,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

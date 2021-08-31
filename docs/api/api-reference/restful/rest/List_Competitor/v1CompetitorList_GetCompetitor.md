@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 942,
-  "Name": "Graham Group",
-  "Tooltip": "sunt",
+  "Id": 105,
+  "Name": "Kovacek-Beahan",
+  "Tooltip": "fugit",
   "Deleted": true,
-  "UdListDefinitionId": 891,
-  "Rank": 212,
+  "UdListDefinitionId": 7,
+  "Rank": 884,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "grow rich markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

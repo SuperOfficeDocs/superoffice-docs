@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CanAssignToProjectMember
+title: CanAssignToProjectMember
 id: v1AppointmentAgent_CanAssignToProjectMember
 ---
 
-# POST Agents/Appointment/CanAssignToProjectMember
+# CanAssignToProjectMember
 
 ```http
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 567,
-  "SuggestedAppointmentId": 431
+  "ProjectId": 300,
+  "SuggestedAppointmentId": 276
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

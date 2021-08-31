@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Barton-Satterfield",
-    "ToolTip": "Minus aut impedit alias eveniet.",
-    "Deleted": false,
-    "Rank": 435,
-    "Type": "sed",
-    "ColorBlock": 253,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2009-10-16T09:41:00.1893666+02:00",
+    "Id": 781,
+    "Name": "Collins, Schaefer and Nitzsche",
+    "ToolTip": "Quis est dolores cupiditate.",
+    "Deleted": true,
+    "Rank": 320,
+    "Type": "eius",
+    "ColorBlock": 579,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2017-10-04T15:05:43.266545+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Kiehn-Veum",
-        "ToolTip": "Omnis laudantium labore assumenda sit natus accusantium.",
+        "Id": 470,
+        "Name": "Swift, Zulauf and Armstrong",
+        "ToolTip": "Alias pariatur.",
         "Deleted": false,
-        "Rank": 113,
-        "Type": "qui",
-        "ColorBlock": 760,
-        "IconHint": "maiores",
+        "Rank": 256,
+        "Type": "consequatur",
+        "ColorBlock": 575,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "2016-10-27T09:41:00.1893666+02:00",
+        "LastChanged": "2015-05-27T15:05:43.266545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "id",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Dorthy Metz",
+        "FullName": "Mrs. Jade Boehm",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldType": "System.String",
+            "FieldLength": 308
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "magni",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Mr. Amie Kuhn",
+    "FullName": "Susan Smith",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldLength": 472
       }
     }
   }

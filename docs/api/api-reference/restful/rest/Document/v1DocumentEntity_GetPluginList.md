@@ -49,7 +49,7 @@ Response body: object
 GET /api/v1/Document/Plugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consequatur",
-  "2": "officiis"
+  "1": "culpa",
+  "2": "ex"
 }
 ```

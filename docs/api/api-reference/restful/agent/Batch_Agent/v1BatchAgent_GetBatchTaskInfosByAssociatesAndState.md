@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
+title: GetBatchTaskInfosByAssociatesAndState
 id: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
 ---
 
-# POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
+# GetBatchTaskInfosByAssociatesAndState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
@@ -84,6 +84,7 @@ Response body: array
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -93,13 +94,13 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    523,
-    503
+    172,
+    195
   ],
   "State": "All"
 }
@@ -111,29 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Mosciski Group",
-    "AssociateId": 781,
-    "DetailsTable": 519,
-    "DetailsRecord": 892,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 660,
+    "Name": "Jenkins-Kemmer",
+    "AssociateId": 53,
+    "DetailsTable": 285,
+    "DetailsRecord": 878,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "incidunt",
-      "ParameterObject2": "quidem"
+      "ParameterObject1": "eos",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2011-07-13T16:48:28.7831981+02:00",
-    "Created": "1995-07-26T16:48:28.7831981+02:00",
-    "StartCount": 873,
-    "DatabaseSerialNumber": "261263",
-    "Context": "culpa",
-    "Result": "consequatur",
+    "LastStarted": "2018-12-21T14:58:03.2752412+01:00",
+    "Created": "2012-04-27T14:58:03.2752412+02:00",
+    "StartCount": 535,
+    "DatabaseSerialNumber": "682428",
+    "Context": "quia",
+    "Result": "qui",
     "State": "All",
-    "Description": "Organized uniform Graphic Interface",
-    "Response": "excepturi",
-    "Request": "quos",
-    "ProgressDescription": "Sharable heuristic framework",
-    "ProgressPercent": 195,
+    "Description": "Implemented discrete time-frame",
+    "Response": "maxime",
+    "Request": "tempora",
+    "ProgressDescription": "Fundamental background synergy",
+    "ProgressPercent": 277,
+    "FileName": "Armstrong, Schaefer and Harber",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,8 +146,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   }

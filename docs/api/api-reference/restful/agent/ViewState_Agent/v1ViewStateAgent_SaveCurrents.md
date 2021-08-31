@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/SaveCurrents
+title: SaveCurrents
 id: v1ViewStateAgent_SaveCurrents
 ---
 
-# POST Agents/ViewState/SaveCurrents
+# SaveCurrents
 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrents
@@ -79,19 +79,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 55,
-      "Id": 790,
-      "HistoryName": "Dibbert, Wilderman and Lueilwitz",
-      "HistoryId": 40,
-      "AssociateId": 628,
-      "Name": "Bauch, Hudson and Murphy",
-      "ItemInfo": "doloribus"
+      "Rank": 979,
+      "Id": 442,
+      "HistoryName": "Fisher Inc and Sons",
+      "HistoryId": 328,
+      "AssociateId": 862,
+      "Name": "Dietrich-Crona",
+      "ItemInfo": "at"
     }
   ]
 }
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 214,
-    "Id": 643,
-    "HistoryName": "Kuphal, Hahn and Walter",
-    "HistoryId": 425,
-    "AssociateId": 551,
-    "Name": "Runolfsdottir, Predovic and O'Kon",
-    "ItemInfo": "totam",
+    "Rank": 757,
+    "Id": 793,
+    "HistoryName": "Kreiger, Runolfsdottir and Tromp",
+    "HistoryId": 254,
+    "AssociateId": 164,
+    "Name": "Welch-Kemmer",
+    "ItemInfo": "molestiae",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldType": "System.String",
+        "FieldLength": 288
       }
     }
   }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Schowalter-Monahan",
-    "ToolTip": "Facilis aut ad cumque veritatis sint.",
+    "Id": 333,
+    "Name": "Rosenbaum Inc and Sons",
+    "ToolTip": "Sed quod.",
     "Deleted": true,
-    "Rank": 795,
-    "Type": "mollitia",
-    "ColorBlock": 975,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2011-05-03T09:41:00.3503814+02:00",
+    "Rank": 467,
+    "Type": "quod",
+    "ColorBlock": 699,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2011-12-19T15:05:43.42251+01:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Franecki, Bechtelar and Paucek",
-        "ToolTip": "Eos nemo.",
-        "Deleted": false,
-        "Rank": 609,
-        "Type": "velit",
-        "ColorBlock": 178,
-        "IconHint": "tenetur",
+        "Id": 633,
+        "Name": "Runolfsdottir-Johnston",
+        "ToolTip": "Laudantium voluptas exercitationem atque beatae deleniti deleniti.",
+        "Deleted": true,
+        "Rank": 949,
+        "Type": "repellat",
+        "ColorBlock": 909,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2010-03-07T09:41:00.3503814+01:00",
+        "LastChanged": "1996-10-11T15:05:43.42251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "dolore",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Julian Kunze"
+        "FullName": "Mya Effertz"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "earum",
+    "ExtraInfo": "autem",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Beulah Johnston"
+    "FullName": "Aron Christiansen"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Reilly Group",
-    "ToolTip": "Aliquid minima tempore adipisci neque aut quis.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "quos",
-    "ColorBlock": 359,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "1994-01-21T09:41:00.3523816+01:00",
+    "Id": 402,
+    "Name": "Zulauf Group",
+    "ToolTip": "Ex non ipsum ea accusantium et quaerat.",
+    "Deleted": true,
+    "Rank": 385,
+    "Type": "id",
+    "ColorBlock": 731,
+    "IconHint": "recusandae",
+    "Selected": true,
+    "LastChanged": "1997-11-18T15:05:43.4245097+01:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Toy LLC",
-        "ToolTip": "Pariatur recusandae alias.",
+        "Id": 73,
+        "Name": "Bernhard-Walker",
+        "ToolTip": "Impedit omnis.",
         "Deleted": false,
-        "Rank": 199,
-        "Type": "facilis",
-        "ColorBlock": 350,
-        "IconHint": "provident",
+        "Rank": 106,
+        "Type": "mollitia",
+        "ColorBlock": 296,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2019-06-07T09:41:00.3523816+02:00",
+        "LastChanged": "2016-12-02T15:05:43.4245097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "eos",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Evert Smith",
+        "FullName": "Damien Runolfsdottir",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 949
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "cumque",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Alexandria Sipes",
+    "FullName": "Ernestina Wunsch",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldType": "System.Int32",
+        "FieldLength": 519
       }
     }
   }

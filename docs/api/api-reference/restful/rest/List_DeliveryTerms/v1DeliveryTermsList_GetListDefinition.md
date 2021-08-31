@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 853,
-  "Name": "Emmerich-Satterfield",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 526,
-  "IsCustomList": true,
+  "Id": 408,
+  "Name": "Stoltenberg Group",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "Rank": 763,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nobis",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "repurpose transparent technologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 474
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetProduct
+title: GetProduct
 id: v1QuoteAgent_GetProduct
 ---
 
-# POST Agents/Quote/GetProduct
+# GetProduct
 
 ```http
 POST /api/v1/Agents/Quote/GetProduct
@@ -112,12 +112,12 @@ Response body: object
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 46,
-  "ERPProductKey": "est"
+  "QuoteConnectionId": 538,
+  "ERPProductKey": "omnis"
 }
 ```
 
@@ -126,36 +126,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 645,
-  "ERPProductKey": "aspernatur",
-  "ERPPriceListKey": "et",
-  "Name": "Johns LLC",
-  "Description": "Multi-layered assymetric solution",
-  "Code": "aut",
-  "PriceUnit": "modi",
-  "QuantityUnit": "libero",
-  "IsSubscription": false,
-  "SubscriptionUnit": "maxime",
-  "DefaultSubscriptionQuantity": 10514.57,
-  "ItemNumber": "1009413",
+  "ProductId": 613,
+  "ERPProductKey": "explicabo",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Larson, Effertz and Yundt",
+  "Description": "Customer-focused content-based help-desk",
+  "Code": "consectetur",
+  "PriceUnit": "facere",
+  "QuantityUnit": "alias",
+  "IsSubscription": true,
+  "SubscriptionUnit": "suscipit",
+  "DefaultSubscriptionQuantity": 10078.944,
+  "ItemNumber": "1336427",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dignissimos",
-  "ProductTypeKey": "nobis",
-  "VAT": 16697.952,
-  "VATInfo": "et",
-  "UnitCost": 30656.788,
-  "UnitMinimumPrice": 10558.446,
-  "UnitListPrice": 16581.994,
-  "InAssortment": true,
-  "Supplier": "aut",
-  "SupplierCode": "iusto",
-  "Rights": "similique",
-  "Rule": "quia",
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "nulla",
+  "VAT": 11774.438,
+  "VATInfo": "voluptatibus",
+  "UnitCost": 6691.09,
+  "UnitMinimumPrice": 13971.372,
+  "UnitListPrice": 7389.972,
+  "InAssortment": false,
+  "Supplier": "sed",
+  "SupplierCode": "facilis",
+  "Rights": "error",
+  "Rule": "culpa",
   "ExtraInfo": [
     {
-      "Name": "Reinger-Franecki",
-      "Value": "beatae",
+      "Name": "Hackett Group",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -165,13 +165,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldLength": 948
         }
       }
     },
     {
-      "Name": "Reinger-Franecki",
-      "Value": "beatae",
+      "Name": "Hackett Group",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -181,18 +181,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldLength": 948
         }
       }
     }
   ],
-  "RawExtraInfo": "itaque",
-  "ExtraField1": "doloribus",
-  "ExtraField2": "tempore",
-  "ExtraField3": "amet",
-  "ExtraField4": "rerum",
-  "ExtraField5": "omnis",
-  "InStock": 3202.948,
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "et",
+  "ExtraField2": "unde",
+  "ExtraField3": "voluptatum",
+  "ExtraField4": "quo",
+  "ExtraField5": "sequi",
+  "InStock": 1040.488,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "mesh rich action-items"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 139
     }
   }
 }

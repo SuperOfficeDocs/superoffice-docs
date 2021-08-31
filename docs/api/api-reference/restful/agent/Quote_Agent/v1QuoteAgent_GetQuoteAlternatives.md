@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteAlternatives
+title: GetQuoteAlternatives
 id: v1QuoteAgent_GetQuoteAlternatives
 ---
 
-# POST Agents/Quote/GetQuoteAlternatives
+# GetQuoteAlternatives
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
@@ -95,11 +95,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 466
+  "QuoteVersionId": 345
 }
 ```
 
@@ -109,29 +109,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 569,
-    "ERPQuoteAlternativeKey": "dolorum",
-    "QuoteVersionId": 754,
-    "Name": "Nader-Beer",
-    "Description": "Centralized analyzing implementation",
+    "QuoteAlternativeId": 217,
+    "ERPQuoteAlternativeKey": "aliquid",
+    "QuoteVersionId": 845,
+    "Name": "Morar, Sipes and Cruickshank",
+    "Description": "Open-architected context-sensitive ability",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 5146.028,
-    "ERPDiscountAmount": 30791.55,
-    "DiscountPercent": 21602.662,
-    "DiscountAmount": 27334.748,
+    "Reason": "enhance ubiquitous channels",
+    "ERPDiscountPercent": 26999.41,
+    "ERPDiscountAmount": 19421.398,
+    "DiscountPercent": 9430.206,
+    "DiscountAmount": 17296.546,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "sunt",
-    "VAT": 9279.774,
-    "EarningPercent": 11624.006,
-    "EarningAmount": 12275.877999999999,
-    "SubTotal": 11241.658,
-    "TotalPrice": 25526.43,
-    "ExtraField1": "nemo",
-    "ExtraField2": "non",
-    "ExtraField3": "sit",
-    "ExtraField4": "reiciendis",
-    "ExtraField5": "quia",
+    "VATInfo": "eum",
+    "VAT": 30174.152,
+    "EarningPercent": 14234.627999999999,
+    "EarningAmount": 18412.25,
+    "SubTotal": 3538.286,
+    "TotalPrice": 11316.874,
+    "ExtraField1": "vel",
+    "ExtraField2": "eligendi",
+    "ExtraField3": "asperiores",
+    "ExtraField4": "id",
+    "ExtraField5": "consectetur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 674
+        "FieldLength": 700
       }
     }
   }

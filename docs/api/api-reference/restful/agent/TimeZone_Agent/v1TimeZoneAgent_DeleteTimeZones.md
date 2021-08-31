@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/DeleteTimeZones
+title: DeleteTimeZones
 id: v1TimeZoneAgent_DeleteTimeZones
 ---
 
-# POST Agents/TimeZone/DeleteTimeZones
+# DeleteTimeZones
 
 ```http
 POST /api/v1/Agents/TimeZone/DeleteTimeZones

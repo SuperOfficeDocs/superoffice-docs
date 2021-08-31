@@ -77,25 +77,25 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Crist-Flatley",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 440,
-    "Rank": 998
+    "Id": 791,
+    "Name": "Auer-Herzog",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "UdListDefinitionId": 116,
+    "Rank": 253
   },
   {
-    "Id": 852,
-    "Name": "Crist-Flatley",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 440,
-    "Rank": 998
+    "Id": 791,
+    "Name": "Auer-Herzog",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "UdListDefinitionId": 116,
+    "Rank": 253
   }
 ]
 ```
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Veum-Ferry",
-    "Tooltip": "consequatur",
+    "Id": 371,
+    "Name": "Harris LLC",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 150,
-    "Rank": 678,
+    "UdListDefinitionId": 801,
+    "Rank": 484,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "leverage cross-media e-commerce"
     },
     "FieldProperties": {
       "fieldName": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   }

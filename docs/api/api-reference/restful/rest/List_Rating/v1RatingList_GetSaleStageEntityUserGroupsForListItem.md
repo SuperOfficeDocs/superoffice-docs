@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Ledner-Goldner",
-    "ToolTip": "Accusantium quo ad voluptatem est aut.",
+    "Id": 901,
+    "Name": "Grimes, Marks and Christiansen",
+    "ToolTip": "Molestiae aliquid cupiditate maxime libero.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "rerum",
-    "ColorBlock": 398,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "1993-12-23T09:41:00.6683874+01:00",
+    "Rank": 344,
+    "Type": "ut",
+    "ColorBlock": 718,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "1998-02-04T15:05:43.728123+01:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Wehner Group",
-        "ToolTip": "Vel qui molestiae provident ullam modi.",
+        "Id": 268,
+        "Name": "Hudson Group",
+        "ToolTip": "Reprehenderit qui sunt in dolores ut.",
         "Deleted": true,
-        "Rank": 660,
-        "Type": "porro",
-        "ColorBlock": 457,
-        "IconHint": "velit",
+        "Rank": 829,
+        "Type": "nobis",
+        "ColorBlock": 755,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2020-08-13T09:41:00.6683874+02:00",
+        "LastChanged": "1997-04-16T15:05:43.728123+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Miracle Bahringer",
+        "ExtraInfo": "sequi",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Anya Orn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Javier Harvey",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Pansy Robel",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 413
       }
     }
   }

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Boehm, Ledner and Leuschke",
-    "Tooltip": "esse",
+    "HeadingId": 208,
+    "Name": "Ankunding-Lueilwitz",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 76,
+    "Rank": 676,
+    "UdListDefinitionId": 294,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 659
       }
     }
   }

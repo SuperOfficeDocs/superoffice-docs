@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSaleStakeholderById
+title: GetSaleStakeholderById
 id: v1SaleAgent_GetSaleStakeholderById
 ---
 
-# POST Agents/Sale/GetSaleStakeholderById
+# GetSaleStakeholderById
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    97,
-    195
+    456,
+    798
   ]
 }
 ```
@@ -108,25 +108,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Zemlak-Langworth",
-    "Comment": "voluptatem",
-    "StakeholderRoleId": 88,
-    "CountryId": 948,
-    "PersonId": 764,
-    "EmailDescription": "mellie@mueller.com",
-    "EmailId": 510,
-    "EmailAddress": "eve@shields.us",
-    "PhoneId": 393,
-    "ContactName": "Bahringer-Pacocha",
-    "ContactId": 318,
-    "SaleId": 902,
-    "Mrmrs": "voluptatibus",
-    "Firstname": "Herta",
-    "MiddleName": "Quigley LLC",
-    "Lastname": "Stroman",
-    "SaleStakeholderId": 965,
-    "Rank": 76,
-    "Phone": "165-582-0503 x6857",
+    "StakeholderRoleName": "Morar, Russel and Zieme",
+    "Comment": "repudiandae",
+    "StakeholderRoleId": 120,
+    "CountryId": 339,
+    "PersonId": 464,
+    "EmailDescription": "paxton.schamberger@grimesbrakus.biz",
+    "EmailId": 923,
+    "EmailAddress": "herta@hyatt.info",
+    "PhoneId": 363,
+    "ContactName": "VonRueden, Becker and Dibbert",
+    "ContactId": 311,
+    "SaleId": 649,
+    "Mrmrs": "vitae",
+    "Firstname": "Joyce",
+    "MiddleName": "Rodriguez, Hintz and Reynolds",
+    "Lastname": "Mohr",
+    "SaleStakeholderId": 748,
+    "Rank": 251,
+    "Phone": "(284)466-1078 x865",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 996
       }
     }
   }

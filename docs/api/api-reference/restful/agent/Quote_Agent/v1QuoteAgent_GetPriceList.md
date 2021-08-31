@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetPriceList
+title: GetPriceList
 id: v1QuoteAgent_GetPriceList
 ---
 
-# POST Agents/Quote/GetPriceList
+# GetPriceList
 
 ```http
 POST /api/v1/Agents/Quote/GetPriceList
@@ -25,7 +25,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=974
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=280
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 542,
-  "ERPPriceListKey": "numquam",
-  "QuoteConnectionId": 656,
-  "Name": "Welch, Mertz and Grimes",
-  "Description": "Grass-roots full-range time-frame",
-  "Currency": "quia",
-  "CurrencyName": "Kunde, Greenfelder and Cruickshank",
-  "ValidFrom": "2007-06-15T16:48:30.4329399+02:00",
-  "ValidTo": "1994-04-12T16:48:30.4329399+02:00",
-  "IsActive": false,
+  "PriceListId": 458,
+  "ERPPriceListKey": "quod",
+  "QuoteConnectionId": 28,
+  "Name": "Rodriguez-Hegmann",
+  "Description": "Compatible responsive parallelism",
+  "Currency": "commodi",
+  "CurrencyName": "Hand Group",
+  "ValidFrom": "2008-08-24T14:58:04.9934717+02:00",
+  "ValidTo": "2007-01-16T14:58:04.9934717+01:00",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

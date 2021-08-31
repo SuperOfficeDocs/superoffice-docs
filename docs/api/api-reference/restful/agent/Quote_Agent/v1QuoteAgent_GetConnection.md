@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetConnection
+title: GetConnection
 id: v1QuoteAgent_GetConnection
 ---
 
-# POST Agents/Quote/GetConnection
+# GetConnection
 
 ```http
 POST /api/v1/Agents/Quote/GetConnection
@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 278
+  "QuoteConnectionId": 768
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 1001,
-  "ERPName": "Hoeger LLC",
-  "DisplayName": "Gorczany Group",
-  "DisplayDescription": "Horizontal background flexibility",
-  "Rank": 816,
-  "ConnectorName": "Kassulke LLC",
-  "ErpConnectionId": 824,
-  "ExtraData": "quo",
+  "QuoteConnectionId": 113,
+  "ERPName": "Casper Inc and Sons",
+  "DisplayName": "Wunsch, Hyatt and Conroy",
+  "DisplayDescription": "Diverse contextually-based knowledge base",
+  "Rank": 793,
+  "ConnectorName": "Hauck-Williamson",
+  "ErpConnectionId": 587,
+  "ExtraData": "aut",
   "IsAvailable": true,
   "InitializeResponse": {
-    "IsOk": false,
-    "UserExplanation": "ut",
-    "TechExplanation": "adipisci",
-    "ErrorCode": "incidunt",
+    "IsOk": true,
+    "UserExplanation": "quo",
+    "TechExplanation": "ut",
+    "ErrorCode": "eveniet",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 529
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 33,
-      "ERPPriceListKey": "cumque",
-      "QuoteConnectionId": 883,
-      "Name": "Green Inc and Sons",
-      "Description": "Optional grid-enabled product",
-      "Currency": "in",
-      "CurrencyName": "Dicki, Hahn and Daniel",
-      "ValidFrom": "2000-05-22T16:48:30.4689074+02:00",
-      "ValidTo": "2004-01-10T16:48:30.4689074+01:00",
+      "PriceListId": 194,
+      "ERPPriceListKey": "magnam",
+      "QuoteConnectionId": 438,
+      "Name": "Graham, Wisozk and Ziemann",
+      "Description": "Front-line responsive toolset",
+      "Currency": "ipsum",
+      "CurrencyName": "Leuschke Group",
+      "ValidFrom": "2000-09-21T14:58:04.9644428+02:00",
+      "ValidTo": "2014-05-21T14:58:04.9644428+02:00",
       "IsActive": true,
       "TableRight": {},
       "FieldProperties": {
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 614
+          "FieldLength": 342
         }
       }
     }
@@ -160,12 +160,12 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    373,
-    122
+    278,
+    109
   ],
   "AssociateAccessIds": [
-    969,
-    414
+    857,
+    26
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -177,8 +177,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=optio
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Leannon, Steuber and Barton",
-    "ToolTip": "Aliquid qui vel voluptatum dolorem.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "esse",
+    "Id": 631,
+    "Name": "Heller Inc and Sons",
+    "ToolTip": "Ipsum est vitae totam nisi ratione.",
+    "Deleted": true,
+    "Rank": 489,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Hermiston-Howe",
-        "ToolTip": "Explicabo ut.",
-        "Deleted": false,
-        "Rank": 557,
-        "Type": "repellendus",
+        "Id": 312,
+        "Name": "Streich, Stokes and Hansen",
+        "ToolTip": "Delectus velit maiores harum laudantium rerum.",
+        "Deleted": true,
+        "Rank": 516,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 642,
-        "ExtraInfo": "optio",
-        "StyleHint": "qui",
-        "FullName": "Tyree Sauer",
+        "IconHint": "impedit",
+        "ColorBlock": 208,
+        "ExtraInfo": "ea",
+        "StyleHint": "officia",
+        "FullName": "Alexandra Bailey",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 29
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
     "IconHint": "ut",
-    "ColorBlock": 554,
-    "ExtraInfo": "a",
-    "StyleHint": "nobis",
-    "FullName": "Earnest Gibson",
+    "ColorBlock": 569,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "qui",
+    "FullName": "Skyla Hammes",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "e-enable web-enabled methodologies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 530
       }
     }
   }

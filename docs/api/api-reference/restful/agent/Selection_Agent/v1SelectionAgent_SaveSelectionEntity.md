@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/SaveSelectionEntity
+title: SaveSelectionEntity
 id: v1SelectionAgent_SaveSelectionEntity
 ---
 
-# POST Agents/Selection/SaveSelectionEntity
+# SaveSelectionEntity
 
 ```http
 POST /api/v1/Agents/Selection/SaveSelectionEntity
@@ -142,128 +142,128 @@ Response body: object
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive contextually-based Graphic Interface",
-  "Postit": "alias",
+  "Description": "Monitored contextually-based Graphical User Interface",
+  "Postit": "voluptas",
   "Associate": {
-    "AssociateId": 474,
-    "Name": "Rath-Kuhlman",
-    "PersonId": 833,
-    "Rank": 520,
-    "Tooltip": "molestiae",
+    "AssociateId": 661,
+    "Name": "Gutmann-Wunsch",
+    "PersonId": 848,
+    "Rank": 700,
+    "Tooltip": "perspiciatis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 898,
-    "FullName": "Rudolph Sipes",
-    "FormalName": "Kuhic, Willms and Jacobs",
+    "GroupIdx": 186,
+    "FullName": "Abigail Swaniawski",
+    "FormalName": "Rau LLC",
     "Deleted": false,
-    "EjUserId": 812,
-    "UserName": "Bogan, Vandervort and Cassin"
+    "EjUserId": 725,
+    "UserName": "Bode, Ullrich and Kub"
   },
   "CreatedBy": {
-    "AssociateId": 906,
-    "Name": "Schumm Inc and Sons",
-    "PersonId": 131,
-    "Rank": 150,
-    "Tooltip": "et",
+    "AssociateId": 4,
+    "Name": "Abbott-Ryan",
+    "PersonId": 527,
+    "Rank": 419,
+    "Tooltip": "deleniti",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 296,
-    "FullName": "Ms. Mariano Hayes",
-    "FormalName": "Bogisich, Bashirian and Green",
-    "Deleted": false,
-    "EjUserId": 476,
-    "UserName": "Borer Inc and Sons"
+    "GroupIdx": 415,
+    "FullName": "Mckayla Morissette DDS",
+    "FormalName": "Tillman Group",
+    "Deleted": true,
+    "EjUserId": 108,
+    "UserName": "Murray Group"
   },
   "UpdatedBy": {
-    "AssociateId": 87,
-    "Name": "McClure, Hudson and Gulgowski",
-    "PersonId": 516,
-    "Rank": 590,
-    "Tooltip": "repudiandae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 406,
-    "FullName": "Chase Ankunding",
-    "FormalName": "Bins-Gorczany",
-    "Deleted": true,
-    "EjUserId": 397,
-    "UserName": "Lynch Group"
-  },
-  "SelectionCategory": {
-    "Id": 480,
-    "Value": "dolorum",
-    "Tooltip": "et"
-  },
-  "GroupIdx": 775,
-  "IncludePerson": 422,
-  "MemberCount": 578,
-  "Name": "Blick-Schulist",
-  "PostitTextId": 268,
-  "CreatedDate": "2001-03-08T16:48:30.6559351+01:00",
-  "SelectionId": 277,
-  "SoundEx": "possimus",
-  "Source": 701,
-  "TextId": 987,
-  "UpdatedDate": "2002-01-19T16:48:30.6559351+01:00",
-  "UpdatedCount": 548,
-  "Visibility": 117,
-  "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 534,
-  "TargetTableName": "Bins, Powlowski and Emard",
-  "Completed": true,
-  "LeftSelectionId": 239,
-  "RightSelectionId": 654,
-  "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grady-Johnston",
-  "ShadowProviderName": "Russel, Roob and Torp",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2011-12-13T16:48:30.6569348+01:00",
-  "LastLoadedBy": 126,
-  "LastLoadedByAssociate": {
-    "AssociateId": 330,
-    "Name": "Veum, Goyette and Bergstrom",
-    "PersonId": 526,
-    "Rank": 522,
-    "Tooltip": "velit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 16,
-    "FullName": "Julien Lesch",
-    "FormalName": "Stiedemann LLC",
-    "Deleted": true,
-    "EjUserId": 205,
-    "UserName": "Dooley-Johnston"
-  },
-  "LastMembershipChange": "1997-02-20T16:48:30.6569348+01:00",
-  "LastMembershipChangeBy": 781,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 450,
-    "Name": "Ryan, Yundt and Weissnat",
-    "PersonId": 102,
-    "Rank": 887,
+    "AssociateId": 14,
+    "Name": "Streich, Johnson and O'Keefe",
+    "PersonId": 193,
+    "Rank": 831,
     "Tooltip": "omnis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 946,
-    "FullName": "Olen Schiller",
-    "FormalName": "Pouros-Rath",
-    "Deleted": false,
-    "EjUserId": 243,
-    "UserName": "Koss-Metz"
+    "GroupIdx": 939,
+    "FullName": "Graciela Schmidt DVM",
+    "FormalName": "D'Amore Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 464,
+    "UserName": "Wolff Group"
   },
-  "MainHeading": "ut",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Rippin Inc and Sons",
+  "SelectionCategory": {
+    "Id": 169,
+    "Value": "a",
+    "Tooltip": "minus"
+  },
+  "GroupIdx": 834,
+  "IncludePerson": 681,
+  "MemberCount": 977,
+  "Name": "Steuber-Effertz",
+  "PostitTextId": 492,
+  "CreatedDate": "2015-02-12T14:58:05.2256283+01:00",
+  "SelectionId": 910,
+  "SoundEx": "omnis",
+  "Source": 310,
+  "TextId": 653,
+  "UpdatedDate": "2007-06-10T14:58:05.2256283+02:00",
+  "UpdatedCount": 863,
+  "Visibility": 550,
+  "SelectionType": "Combined",
+  "CompanyUnique": true,
+  "TargetTableNumber": 363,
+  "TargetTableName": "Turcotte-Schuppe",
+  "Completed": true,
+  "LeftSelectionId": 9,
+  "RightSelectionId": 248,
+  "SelectionUnionType": "Intersect",
+  "MainProviderName": "Barton-Yost",
+  "ShadowProviderName": "Schuster, Price and Weimann",
+  "ChartKey": "tempore",
+  "LastLoaded": "1997-10-05T14:58:05.2256283+02:00",
+  "LastLoadedBy": 705,
+  "LastLoadedByAssociate": {
+    "AssociateId": 325,
+    "Name": "Denesik Inc and Sons",
+    "PersonId": 743,
+    "Rank": 164,
+    "Tooltip": "laboriosam",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 813,
+    "FullName": "Bettie Fahey",
+    "FormalName": "Crona-Mertz",
+    "Deleted": false,
+    "EjUserId": 832,
+    "UserName": "Orn Group"
+  },
+  "LastMembershipChange": "2011-08-11T14:58:05.2266284+02:00",
+  "LastMembershipChangeBy": 688,
+  "LastMembershipChangeByAssociate": {
+    "AssociateId": 583,
+    "Name": "Funk-Ebert",
+    "PersonId": 285,
+    "Rank": 64,
+    "Tooltip": "omnis",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 990,
+    "FullName": "Ima Cassin",
+    "FormalName": "Bayer Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 945,
+    "UserName": "Lang, Hermiston and Zemlak"
+  },
+  "MainHeading": "possimus",
+  "MemberTabHeading": "nam",
+  "MailingsProviderName": "Bayer Inc and Sons",
   "VisibleFor": [
     {
-      "VisibleId": 996,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "fugit"
+      "DisplayValue": "a"
     },
     {
-      "VisibleId": 996,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "fugit"
+      "DisplayValue": "a"
     }
   ]
 }
@@ -274,21 +274,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized holistic open architecture",
-  "Postit": "et",
+  "Description": "Object-based cohesive definition",
+  "Postit": "officiis",
   "Associate": {
-    "AssociateId": 187,
-    "Name": "Schimmel, McLaughlin and Schuster",
-    "PersonId": 131,
-    "Rank": 639,
-    "Tooltip": "aut",
+    "AssociateId": 586,
+    "Name": "Hermiston, Rath and Tillman",
+    "PersonId": 386,
+    "Rank": 339,
+    "Tooltip": "dolores",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 342,
-    "FullName": "Favian Reinger",
-    "FormalName": "Bogisich-Nicolas",
+    "GroupIdx": 481,
+    "FullName": "Tyrell Morissette",
+    "FormalName": "Swaniawski Inc and Sons",
     "Deleted": true,
-    "EjUserId": 629,
-    "UserName": "Roberts, Nicolas and Kub",
+    "EjUserId": 457,
+    "UserName": "Heidenreich-Fay",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -297,23 +297,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldLength": 586
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 930,
-    "Name": "Cassin LLC",
-    "PersonId": 866,
-    "Rank": 423,
-    "Tooltip": "ipsa",
+    "AssociateId": 147,
+    "Name": "Flatley-Nitzsche",
+    "PersonId": 686,
+    "Rank": 571,
+    "Tooltip": "nobis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 315,
-    "FullName": "Hailie Crist",
-    "FormalName": "Koepp-Romaguera",
+    "GroupIdx": 529,
+    "FullName": "Hobart Feeney",
+    "FormalName": "Monahan-Mosciski",
     "Deleted": true,
-    "EjUserId": 658,
-    "UserName": "Smith-Frami",
+    "EjUserId": 734,
+    "UserName": "Gleichner-Jast",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -322,39 +322,39 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldLength": 416
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 65,
-    "Name": "Kuphal, Little and Hamill",
-    "PersonId": 185,
-    "Rank": 779,
-    "Tooltip": "voluptatem",
+    "AssociateId": 976,
+    "Name": "Dicki, Ledner and Hermann",
+    "PersonId": 564,
+    "Rank": 808,
+    "Tooltip": "ullam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 380,
-    "FullName": "Augusta Kozey",
-    "FormalName": "Bergnaum, Pfannerstill and Conroy",
-    "Deleted": false,
-    "EjUserId": 981,
-    "UserName": "Koss, Kub and Gottlieb",
+    "GroupIdx": 859,
+    "FullName": "Jeremie Bailey",
+    "FormalName": "Hansen, Gerlach and Crooks",
+    "Deleted": true,
+    "EjUserId": 13,
+    "UserName": "Zieme-Schulist",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "productize virtual deliverables"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldLength": 618
       }
     }
   },
   "SelectionCategory": {
-    "Id": 523,
-    "Value": "voluptatem",
-    "Tooltip": "quidem",
+    "Id": 163,
+    "Value": "quia",
+    "Tooltip": "laudantium",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -362,50 +362,50 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   },
-  "GroupIdx": 880,
-  "IncludePerson": 195,
-  "MemberCount": 137,
-  "Name": "Bogan, Blanda and Gibson",
-  "PostitTextId": 182,
-  "CreatedDate": "2005-03-12T16:48:30.6609357+01:00",
-  "SelectionId": 773,
-  "SoundEx": "enim",
-  "Source": 799,
-  "TextId": 568,
-  "UpdatedDate": "2005-07-19T16:48:30.6609357+02:00",
-  "UpdatedCount": 593,
-  "Visibility": 299,
+  "GroupIdx": 862,
+  "IncludePerson": 160,
+  "MemberCount": 103,
+  "Name": "Becker, Harber and Weber",
+  "PostitTextId": 405,
+  "CreatedDate": "2001-01-30T14:58:05.2316281+01:00",
+  "SelectionId": 42,
+  "SoundEx": "impedit",
+  "Source": 481,
+  "TextId": 942,
+  "UpdatedDate": "2017-07-17T14:58:05.2316281+02:00",
+  "UpdatedCount": 969,
+  "Visibility": 524,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 190,
-  "TargetTableName": "Kerluke LLC",
-  "Completed": true,
-  "LeftSelectionId": 193,
-  "RightSelectionId": 858,
+  "TargetTableNumber": 980,
+  "TargetTableName": "Feeney Group",
+  "Completed": false,
+  "LeftSelectionId": 948,
+  "RightSelectionId": 646,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pacocha, Fritsch and Goyette",
-  "ShadowProviderName": "Bayer LLC",
-  "ChartKey": "omnis",
-  "LastLoaded": "2012-01-02T16:48:30.6609357+01:00",
-  "LastLoadedBy": 752,
+  "MainProviderName": "Ernser LLC",
+  "ShadowProviderName": "Gleason Inc and Sons",
+  "ChartKey": "totam",
+  "LastLoaded": "2018-11-24T14:58:05.2316281+01:00",
+  "LastLoadedBy": 62,
   "LastLoadedByAssociate": {
-    "AssociateId": 195,
-    "Name": "Stroman, Rutherford and Romaguera",
-    "PersonId": 1000,
-    "Rank": 304,
-    "Tooltip": "est",
+    "AssociateId": 531,
+    "Name": "Harber, Beier and Jast",
+    "PersonId": 209,
+    "Rank": 690,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 579,
-    "FullName": "Eunice Macejkovic PhD",
-    "FormalName": "Turcotte, Kessler and Rogahn",
+    "GroupIdx": 403,
+    "FullName": "Mr. Troy Mueller",
+    "FormalName": "Renner-Rolfson",
     "Deleted": false,
-    "EjUserId": 546,
-    "UserName": "Wiza Inc and Sons",
+    "EjUserId": 363,
+    "UserName": "Aufderhar-Jaskolski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -414,25 +414,25 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 359
       }
     }
   },
-  "LastMembershipChange": "2015-01-24T16:48:30.6609357+01:00",
-  "LastMembershipChangeBy": 156,
+  "LastMembershipChange": "1997-04-17T14:58:05.2316281+02:00",
+  "LastMembershipChangeBy": 635,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 467,
-    "Name": "Funk LLC",
-    "PersonId": 30,
-    "Rank": 859,
-    "Tooltip": "blanditiis",
+    "AssociateId": 396,
+    "Name": "Koss Inc and Sons",
+    "PersonId": 909,
+    "Rank": 994,
+    "Tooltip": "nihil",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 448,
-    "FullName": "Tyrell Cole",
-    "FormalName": "Hickle LLC",
-    "Deleted": false,
-    "EjUserId": 722,
-    "UserName": "Collins-Ritchie",
+    "GroupIdx": 593,
+    "FullName": "Mr. Koby Batz",
+    "FormalName": "Hermiston, Brakus and D'Amore",
+    "Deleted": true,
+    "EjUserId": 528,
+    "UserName": "McCullough, Jacobson and Spencer",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -440,19 +440,19 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   },
-  "MainHeading": "fugiat",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Lakin-Weber",
+  "MainHeading": "magnam",
+  "MemberTabHeading": "pariatur",
+  "MailingsProviderName": "Gutmann, Langosh and Herzog",
   "VisibleFor": [
     {
-      "VisibleId": 23,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "hic",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -461,14 +461,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldLength": 162
         }
       }
     },
     {
-      "VisibleId": 23,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "hic",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -477,7 +477,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldLength": 162
         }
       }
     }
@@ -493,7 +493,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 215
     }
   }
 }

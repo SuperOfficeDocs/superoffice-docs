@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Emard, Krajcik and Schoen",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 94
+    "Id": 344,
+    "Name": "Conn, Windler and Stark",
+    "Tooltip": "harum",
+    "Deleted": true,
+    "UdListDefinitionId": 524,
+    "Rank": 477
   },
   {
-    "Id": 101,
-    "Name": "Emard, Krajcik and Schoen",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 94
+    "Id": 344,
+    "Name": "Conn, Windler and Stark",
+    "Tooltip": "harum",
+    "Deleted": true,
+    "UdListDefinitionId": 524,
+    "Rank": 477
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Reichert LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 566,
-    "Rank": 666,
+    "Id": 882,
+    "Name": "Schmitt-O'Conner",
+    "Tooltip": "blanditiis",
+    "Deleted": true,
+    "UdListDefinitionId": 72,
+    "Rank": 733,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "empower leading-edge interfaces"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

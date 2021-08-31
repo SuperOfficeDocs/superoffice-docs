@@ -84,18 +84,18 @@ Response body: object
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatibus",
-  "Value": "nam",
-  "RecordId": 748,
-  "CreatedDate": "2007-01-26T09:40:59.224663+01:00",
-  "UpdatedDate": "1994-03-27T09:40:59.224663+02:00",
-  "UpdatedBy": "nemo",
-  "CreatedBy": "voluptatum",
-  "TableName": "Kreiger, Conn and Roob"
+  "Key": "sint",
+  "Value": "commodi",
+  "RecordId": 304,
+  "CreatedDate": "1994-10-12T15:05:42.2466349+02:00",
+  "UpdatedDate": "2014-02-02T15:05:42.2466349+01:00",
+  "UpdatedBy": "distinctio",
+  "CreatedBy": "aperiam",
+  "TableName": "Corwin Group"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptates",
-  "Value": "illo",
-  "RecordId": 299,
-  "CreatedDate": "2006-04-14T09:40:59.2256629+02:00",
-  "UpdatedDate": "2015-09-27T09:40:59.2256629+02:00",
-  "UpdatedBy": "nam",
-  "CreatedBy": "iste",
-  "TableName": "Mosciski Inc and Sons",
+  "Key": "reprehenderit",
+  "Value": "est",
+  "RecordId": 203,
+  "CreatedDate": "1999-02-17T15:05:42.2476715+01:00",
+  "UpdatedDate": "2019-05-24T15:05:42.2476715+02:00",
+  "UpdatedBy": "sunt",
+  "CreatedBy": "exercitationem",
+  "TableName": "Waelchi, Dicki and Jakubowski",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "expedite transparent content"
       },
       "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldLength": 140
     }
   }
 }

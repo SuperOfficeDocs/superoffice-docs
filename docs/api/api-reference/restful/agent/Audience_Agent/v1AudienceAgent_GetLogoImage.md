@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetLogoImage
+title: GetLogoImage
 id: v1AudienceAgent_GetLogoImage
 ---
 
-# POST Agents/Audience/GetLogoImage
+# GetLogoImage
 
 ```http
 POST /api/v1/Agents/Audience/GetLogoImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Corwin, Ankunding and Miller"
+  "LayoutName": "Schroeder, Donnelly and Koch"
 }
 ```
 

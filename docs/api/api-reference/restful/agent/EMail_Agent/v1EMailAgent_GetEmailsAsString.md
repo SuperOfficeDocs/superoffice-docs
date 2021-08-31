@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEmailsAsString
+title: GetEmailsAsString
 id: v1EMailAgent_GetEmailsAsString
 ---
 
-# POST Agents/EMail/GetEmailsAsString
+# GetEmailsAsString
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailsAsString
@@ -69,22 +69,22 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEmailsAsString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": {
-    "Port": 415,
-    "ServerName": "Cummings, Balistreri and Koelpin",
-    "Protocol": "tempora",
-    "UserName": "Jewess, Pollich and Lemke",
-    "Password": "molestiae",
+    "Port": 63,
+    "ServerName": "Tromp Inc and Sons",
+    "Protocol": "non",
+    "UserName": "Hilll-Adams",
+    "Password": "dicta",
     "UseSSL": false,
-    "Folder": "corporis"
+    "Folder": "veniam"
   },
   "MessageIds": [
-    "pariatur",
-    "a"
+    "sunt",
+    "quo"
   ]
 }
 ```
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "id",
-  "laudantium"
+  "provident",
+  "quia"
 ]
 ```

@@ -24,7 +24,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Schaden Inc and Sons",
-    "Tooltip": "repellat",
-    "Deleted": true,
-    "UdListDefinitionId": 355,
-    "Rank": 479,
+    "Id": 665,
+    "Name": "Rolfson Inc and Sons",
+    "Tooltip": "libero",
+    "Deleted": false,
+    "UdListDefinitionId": 164,
+    "Rank": 177,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "enhance robust markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

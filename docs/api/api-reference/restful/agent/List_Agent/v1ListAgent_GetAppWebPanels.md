@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAppWebPanels
+title: GetAppWebPanels
 id: v1ListAgent_GetAppWebPanels
 ---
 
-# POST Agents/List/GetAppWebPanels
+# GetAppWebPanels
 
 ```http
 POST /api/v1/Agents/List/GetAppWebPanels
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 444,
-    "Name": "Purdy-Kassulke",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 43,
+    "WebPanelId": 777,
+    "Name": "Ferry Inc and Sons",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 868,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Eichmann, Koelpin and O'Conner",
+    "ShowInStatusBar": false,
+    "WindowName": "Sipes, McLaughlin and Rice",
     "Url": "http://www.example.com/",
-    "ProgId": "ipsa",
-    "Icon": 632,
+    "ProgId": "porro",
+    "Icon": 298,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 346
       }
     }
   }

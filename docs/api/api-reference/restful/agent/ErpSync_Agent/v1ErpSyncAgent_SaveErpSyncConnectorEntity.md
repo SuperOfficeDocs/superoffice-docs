@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SaveErpSyncConnectorEntity
+title: SaveErpSyncConnectorEntity
 id: v1ErpSyncAgent_SaveErpSyncConnectorEntity
 ---
 
-# POST Agents/ErpSync/SaveErpSyncConnectorEntity
+# SaveErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
@@ -76,12 +76,12 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 428,
-  "DisplayName": "Hyatt, Nader and Botsford",
+  "ErpConnectorId": 31,
+  "DisplayName": "Reynolds, Abshire and Kshlerin",
   "URL": "http://www.example.com/",
   "Deleted": true
 }
@@ -92,8 +92,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 272,
-  "DisplayName": "Buckridge-Witting",
+  "ErpConnectorId": 620,
+  "DisplayName": "Schinner-Lynch",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": {
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

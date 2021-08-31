@@ -2,6 +2,8 @@
 title: BulkUpdate_Agent
 ---
 
+# BulkUpdate_Agent
+
 ```http
 /api/v1/BulkUpdate/Agent
 ```
@@ -9,18 +11,18 @@ title: BulkUpdate_Agent
 
 
 
-* [POST Agents/BulkUpdate/GetAvailableFields](v1BulkUpdateAgent_GetAvailableFields.md)
+* [GetAvailableFields](v1BulkUpdateAgent_GetAvailableFields.md)
 
-* [POST Agents/BulkUpdate/GetStoredFields](v1BulkUpdateAgent_GetStoredFields.md)
+* [GetStoredFields](v1BulkUpdateAgent_GetStoredFields.md)
 
-* [POST Agents/BulkUpdate/ExecuteBySelectionId](v1BulkUpdateAgent_ExecuteBySelectionId.md)
+* [ExecuteBySelectionId](v1BulkUpdateAgent_ExecuteBySelectionId.md)
 
-* [POST Agents/BulkUpdate/ExecuteByEntityIds](v1BulkUpdateAgent_ExecuteByEntityIds.md)
+* [ExecuteByEntityIds](v1BulkUpdateAgent_ExecuteByEntityIds.md)
 
-* [POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson](v1BulkUpdateAgent_GetJobResultsFromStorageAsJson.md)
+* [GetJobResultsFromStorageAsJson](v1BulkUpdateAgent_GetJobResultsFromStorageAsJson.md)
 
-* [POST Agents/BulkUpdate/RemoveStoredFields](v1BulkUpdateAgent_RemoveStoredFields.md)
+* [RemoveStoredFields](v1BulkUpdateAgent_RemoveStoredFields.md)
 
-* [POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields](v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields.md)
+* [RemoveStoredFieldsAndGetDefaultFields](v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields.md)
 
-* [POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId](v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId.md)
+* [GetJobResultAsJsonFromBinaryObjectId](v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId.md)

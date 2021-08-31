@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CreateTicketFromMailData
+title: CreateTicketFromMailData
 id: v1CustomerServiceAgent_CreateTicketFromMailData
 ---
 
-# POST Agents/CustomerService/CreateTicketFromMailData
+# CreateTicketFromMailData
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 75,
-  "Data": "eveniet"
+  "MailboxId": 885,
+  "Data": "quo"
 }
 ```
 
@@ -100,14 +100,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 635,
-  "Title": "ut",
-  "OwnerName": "Dickens-Luettgen",
+  "TicketId": 279,
+  "Title": "dolor",
+  "OwnerName": "Paucek-Kovacek",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Von Group",
+  "PriorityName": "Botsford Inc and Sons",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Lueilwitz, Doyle and Treutel",
-  "ContactName": "Beahan Inc and Sons",
+  "PersonName": "Lindgren, Marvin and Haag",
+  "ContactName": "Bernier Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 365
     }
   }
 }

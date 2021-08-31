@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteWebPanel
+title: DeleteWebPanel
 id: v1ListAgent_DeleteWebPanel
 ---
 
-# POST Agents/List/DeleteWebPanel
+# DeleteWebPanel
 
 ```http
 POST /api/v1/Agents/List/DeleteWebPanel

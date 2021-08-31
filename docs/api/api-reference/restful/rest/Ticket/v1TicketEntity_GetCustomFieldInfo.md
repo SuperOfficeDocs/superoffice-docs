@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "McGlynn-Ritchie",
-  "DisplayName": "Blanda, Conn and Braun",
-  "Description": "Visionary bandwidth-monitored budgetary management",
-  "ShortLabel": "dolorem",
-  "HideLabel": true,
+  "FieldName": "Krajcik LLC",
+  "DisplayName": "Mueller-McClure",
+  "Description": "Synergized 24/7 matrix",
+  "ShortLabel": "et",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 528,
-  "TemplateVariableName": "Ratke-Windler"
+  "IsReadOnly": false,
+  "IsExternal": true,
+  "Rank": 46,
+  "TemplateVariableName": "D'Amore, Parker and Lueilwitz"
 }
 ```

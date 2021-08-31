@@ -73,7 +73,7 @@ Response body: array
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 721,
-    "Tooltip": "aliquam",
-    "CanAssign": true,
-    "Free": 335,
-    "InUse": 168,
+    "Unrestricted": false,
+    "Total": 233,
+    "Tooltip": "aut",
+    "CanAssign": false,
+    "Free": 216,
+    "InUse": 145,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 44,
-    "Name": "Kutch-Moen",
-    "Description": "De-engineered systematic open architecture",
-    "PrerequisiteModuleName": "Stiedemann-Cremin",
-    "SortOrder": 389,
+    "ModuleLicenseId": 294,
+    "Name": "Wehner LLC",
+    "Description": "Ameliorated radical superstructure",
+    "PrerequisiteModuleName": "McGlynn Group",
+    "SortOrder": 188,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

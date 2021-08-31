@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveDocumentTemplateStream
+title: SaveDocumentTemplateStream
 id: v1ListAgent_SaveDocumentTemplateStream
 ---
 
-# POST Agents/List/SaveDocumentTemplateStream
+# SaveDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
@@ -78,14 +78,14 @@ Response body: object
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 110,
+  "DocumentTemplateId": 28,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "doloremque",
-  "PluginId": 931
+  "LanguageCode": "aut",
+  "PluginId": 303
 }
 ```
 
@@ -94,10 +94,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ankunding, Skiles and Keeling",
-  "Description": "Universal clear-thinking toolset",
-  "ExternalReference": "eum",
-  "MimeType": "delectus",
-  "PluginId": 609
+  "Name": "Cremin Group",
+  "Description": "Adaptive clear-thinking system engine",
+  "ExternalReference": "aut",
+  "MimeType": "iste",
+  "PluginId": 91
 }
 ```

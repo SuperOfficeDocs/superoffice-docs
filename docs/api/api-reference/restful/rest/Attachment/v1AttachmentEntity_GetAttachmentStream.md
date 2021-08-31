@@ -53,7 +53,7 @@ Response body:
 GET /api/v1/Attachment/{attachmentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/PopulateRestrictionValues
+title: PopulateRestrictionValues
 id: v1FindAgent_PopulateRestrictionValues
 ---
 
-# POST Agents/Find/PopulateRestrictionValues
+# PopulateRestrictionValues
 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictionValues
@@ -80,21 +80,21 @@ Response body: array
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Howell, Roob and Fritsch",
-      "Operator": "similique",
+      "Name": "Anderson, Terry and Yost",
+      "Operator": "voluptatem",
       "Values": [
-        "ea",
-        "dignissimos"
+        "itaque",
+        "maxime"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "ea"
+        "impedit",
+        "facere"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -102,9 +102,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 328,
+      "InterParenthesis": 103,
       "InterOperator": "And",
-      "UniqueHash": 630
+      "UniqueHash": 980
     }
   ]
 }
@@ -116,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ritchie, Bauch and Homenick",
-    "Operator": "fugiat",
+    "Name": "Luettgen Inc and Sons",
+    "Operator": "optio",
     "Values": [
-      "laborum",
-      "adipisci"
+      "quae",
+      "eveniet"
     ],
     "DisplayValues": [
-      "suscipit",
-      "voluptas"
+      "animi",
+      "fugit"
     ],
     "ColumnInfo": {
-      "DisplayName": "Macejkovic-Littel",
-      "DisplayTooltip": "numquam",
-      "DisplayType": "repellat",
+      "DisplayName": "Stark-Lebsack",
+      "DisplayTooltip": "assumenda",
+      "DisplayType": "aut",
       "CanOrderBy": true,
-      "Name": "Kub, Mueller and O'Hara",
-      "CanRestrictBy": true,
-      "RestrictionType": "sed",
-      "RestrictionListName": "Frami-Marvin",
+      "Name": "Mante-Sanford",
+      "CanRestrictBy": false,
+      "RestrictionType": "ipsam",
+      "RestrictionListName": "Botsford, Dooley and Hamill",
       "IsVisible": false,
-      "ExtraInfo": "repellat",
-      "Width": "labore",
-      "IconHint": "quia",
-      "HeadingIconHint": "harum"
+      "ExtraInfo": "beatae",
+      "Width": "est",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "explicabo"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Crona-Gutmann",
-        "Operator": "praesentium",
+        "Name": "Zemlak, Stamm and Schaefer",
+        "Operator": "ipsa",
         "Values": [
-          "dolorem",
-          "incidunt"
+          "non",
+          "et"
         ],
         "DisplayValues": [
-          "aliquid",
-          "iusto"
+          "in",
+          "sit"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 911,
+        "InterParenthesis": 992,
         "InterOperator": "And",
-        "UniqueHash": 762
+        "UniqueHash": 19
       }
     ],
-    "InterParenthesis": 487,
+    "InterParenthesis": 793,
     "InterOperator": "And",
-    "UniqueHash": 676
+    "UniqueHash": 299
   }
 ]
 ```

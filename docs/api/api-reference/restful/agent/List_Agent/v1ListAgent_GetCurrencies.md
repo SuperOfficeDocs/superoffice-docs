@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCurrencies
+title: GetCurrencies
 id: v1ListAgent_GetCurrencies
 ---
 
-# POST Agents/List/GetCurrencies
+# GetCurrencies
 
 ```http
 POST /api/v1/Agents/List/GetCurrencies
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Value": "labore",
-    "Tooltip": "et",
+    "Id": 522,
+    "Value": "magnam",
+    "Tooltip": "soluta",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "embrace cutting-edge paradigms"
         },
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 443
       }
     }
   },
   {
-    "Id": 433,
-    "Value": "labore",
-    "Tooltip": "et",
+    "Id": 522,
+    "Value": "magnam",
+    "Tooltip": "soluta",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "embrace cutting-edge paradigms"
         },
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 443
       }
     }
   }

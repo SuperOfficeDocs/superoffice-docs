@@ -48,22 +48,25 @@ Response body: array
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -73,7 +76,7 @@ Response body: array
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,14 +85,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 545,
-    "Name": "Corwin-McClure",
-    "Description": "Virtual dynamic database",
-    "WelcomeMessage": "voluptatem",
+    "ChatTopicId": 847,
+    "Name": "Goyette Group",
+    "Description": "Cross-platform 6th generation system engine",
+    "WelcomeMessage": "dicta",
     "Language": {
-      "Id": 72,
-      "Value": "rem",
-      "Tooltip": "quis",
+      "Id": 897,
+      "Value": "illum",
+      "Tooltip": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -98,29 +101,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldLength": 230
         }
       }
     },
-    "LastAccept": "2008-05-28T09:40:58.843373+02:00",
-    "SecondsPrAccept": 302,
-    "AlertRecipient": "consectetur",
+    "LastAccept": "2000-04-03T15:05:41.7850051+02:00",
+    "SecondsPrAccept": 993,
+    "AlertRecipient": "perspiciatis",
     "AlertTemplate": {
-      "ReplyTemplateId": 677,
-      "Name": "Dare Group",
-      "Description": "Ameliorated system-worthy contingency",
-      "FolderId": 860
+      "ReplyTemplateId": 535,
+      "Name": "Schowalter-Ferry",
+      "Description": "Ergonomic dynamic matrix",
+      "FolderId": 595
     },
-    "Flags": "CollectConsent",
-    "BadgeHeader": "dolor",
-    "CustomQueueText": "saepe",
-    "WarnNewChatSeconds": 460,
-    "WarnManagerNewChatSeconds": 620,
+    "CollectConsent": false,
+    "BadgeHeader": "perspiciatis",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "ut",
+    "WarnNewChatMinutes": 129,
+    "WarnManagerNewChatMinutes": 438,
     "TicketEnabled": true,
     "TicketCategory": {
-      "Id": 914,
-      "Value": "eum",
-      "Tooltip": "deserunt",
+      "Id": 537,
+      "Value": "iste",
+      "Tooltip": "quo",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -129,14 +133,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 817
         }
       }
     },
     "TicketPriority": {
-      "Id": 881,
-      "Value": "rerum",
-      "Tooltip": "impedit",
+      "Id": 698,
+      "Value": "voluptatibus",
+      "Tooltip": "eveniet",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -144,57 +148,72 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     },
     "OpeningHoursEnabled": false,
     "OpeningHours": {
       "TzLocation": {},
-      "MonEnabled": true,
-      "MonStart": "2010-03-01T09:40:58.843373+01:00",
-      "MonStop": "2020-02-05T09:40:58.843373+01:00",
+      "MonEnabled": false,
+      "MonStart": "aut",
+      "MonStop": "adipisci",
       "TueEnabled": true,
-      "TueStart": "2010-12-20T09:40:58.843373+01:00",
-      "TueStop": "1998-06-15T09:40:58.843373+02:00",
+      "TueStart": "adipisci",
+      "TueStop": "veritatis",
       "WedEnabled": true,
-      "WedStart": "2001-04-09T09:40:58.843373+02:00",
-      "WedStop": "2016-04-12T09:40:58.843373+02:00",
+      "WedStart": "quidem",
+      "WedStop": "qui",
       "ThuEnabled": true,
-      "ThuStart": "2001-09-28T09:40:58.843373+02:00",
-      "ThuStop": "2010-07-07T09:40:58.843373+02:00",
+      "ThuStart": "nihil",
+      "ThuStop": "illum",
       "FriEnabled": false,
-      "FriStart": "2003-10-26T09:40:58.843373+01:00",
-      "FriStop": "2016-04-30T09:40:58.843373+02:00",
+      "FriStart": "quia",
+      "FriStop": "laborum",
       "SatEnabled": true,
-      "SatStart": "1995-02-07T09:40:58.843373+01:00",
-      "SatStop": "2008-04-15T09:40:58.843373+02:00",
+      "SatStart": "ex",
+      "SatStop": "delectus",
       "SunEnabled": false,
-      "SunStart": "2004-10-26T09:40:58.843373+02:00",
-      "SunStop": "2003-04-04T09:40:58.843373+02:00"
+      "SunStart": "ea",
+      "SunStop": "sed",
+      "UseLunchHours": false,
+      "LunchStart": "doloribus",
+      "LunchStop": "ut"
     },
     "Widget": {
-      "AutoFaqEnabled": true,
+      "AutoFaqEnabled": false,
       "AutoFaqCategory": {},
       "PreFormEnabled": true,
-      "PreFormMessage": "voluptatem",
+      "PreFormMessage": "ut",
       "RequiredFields": "Company",
       "PostFormEnabled": true,
-      "PostFormHeader": "harum",
-      "PostFormMessage": "libero",
+      "PostFormHeader": "est",
+      "PostFormMessage": "est",
       "PostTranscriptEnabled": true,
-      "LanguageIsoCode": "optio",
+      "LanguageIsoCode": "voluptatem",
+      "Size": "Large",
       "Theme": "Classic",
-      "Color": "accusamus",
-      "Font": "qui",
-      "ShowLogo": true,
-      "ShowAgentPhoto": true,
-      "WelcomeTitle": "cumque",
-      "WelcomeMessage": "fuga",
-      "OfflineHeader": "vel",
-      "OfflineMessage": "ducimus",
-      "OfflineFields": "Company"
+      "Color": "soluta",
+      "Font": "aut",
+      "LogoEnabled": false,
+      "LogoBlobId": 883,
+      "LogoName": "Funk, Hackett and Grant",
+      "ShowAgentPhoto": false,
+      "WelcomeTitle": "quam",
+      "WelcomeMessage": "corporis",
+      "OfflineHeader": "reprehenderit",
+      "OfflineMessage": "magnam",
+      "OfflineFields": "Company",
+      "UseAgentFirstname": false
+    },
+    "BotEnabled": true,
+    "BotSettings": {
+      "BotName": "Rolfson Inc and Sons",
+      "BotRegisterScriptId": 914,
+      "BotSessionCreatedScriptId": 2,
+      "BotSessionChangedScriptId": 683,
+      "BotMessageReceivedScriptId": 293
     },
     "TableRight": {
       "Mask": "Delete",
@@ -207,7 +226,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 418
       }
     }
   }

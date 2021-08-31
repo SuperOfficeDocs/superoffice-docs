@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
+title: GetUserDefinedFieldFromProgId
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
+# GetUserDefinedFieldFromProgId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "vitae",
+  "ProgId": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 370,
-  "ColumnId": 945,
-  "FieldDefault": "dolores",
-  "FieldHeight": 370,
-  "FieldLabel": "sunt",
-  "FieldLeft": 325,
-  "FieldTop": 427,
+  "UDefFieldId": 881,
+  "ColumnId": 435,
+  "FieldDefault": "velit",
+  "FieldHeight": 783,
+  "FieldLabel": "sit",
+  "FieldLeft": 280,
+  "FieldTop": 644,
   "FieldType": "Checkbox",
-  "FieldWidth": 631,
-  "FormatMask": "quia",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 861,
-  "LabelLeft": 790,
-  "LabelTop": 873,
-  "LabelWidth": 926,
-  "LastVersionId": 113,
-  "ListTableId": 237,
+  "FieldWidth": 750,
+  "FormatMask": "optio",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 501,
+  "LabelLeft": 266,
+  "LabelTop": 928,
+  "LabelWidth": 575,
+  "LastVersionId": 154,
+  "ListTableId": 899,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 764,
-  "ProgId": "eius",
-  "IsReadOnly": true,
-  "ShortLabel": "ullam",
-  "TabOrder": 607,
-  "TextLength": 380,
-  "Tooltip": "tempora",
-  "UdefIdentity": 332,
-  "UDListDefinitionId": 698,
+  "Page1LineNo": 753,
+  "ProgId": "nihil",
+  "IsReadOnly": false,
+  "ShortLabel": "ducimus",
+  "TabOrder": 994,
+  "TextLength": 343,
+  "Tooltip": "est",
+  "UdefIdentity": 415,
+  "UDListDefinitionId": 36,
   "Justification": "Center",
-  "Version": 36,
-  "TemplateVariableName": "Schmeler, Green and Gerlach",
+  "Version": 246,
+  "TemplateVariableName": "Osinski Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Daniel, Will and Franecki",
+  "MdoListName": "Kemmer-Romaguera",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

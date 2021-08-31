@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAmountClassEntity
+title: GetAmountClassEntity
 id: v1ListAgent_GetAmountClassEntity
 ---
 
-# POST Agents/List/GetAmountClassEntity
+# GetAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/GetAmountClassEntity
@@ -25,7 +25,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=35
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=38
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ Response body: object
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -82,17 +82,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 343,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "culpa",
-  "Rank": 73,
-  "AmountFrom": 15720.144,
-  "AmountTo": 18587.754,
+  "AmountClassId": 687,
+  "Name": "Lowe, Hettinger and Price",
+  "Tooltip": "modi",
+  "Rank": 670,
+  "AmountFrom": 27789.178,
+  "AmountTo": 30293.244,
   "Deleted": true,
-  "CurrencyId": 474,
+  "CurrencyId": 330,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "transform leading-edge platforms"
   },
   "FieldProperties": {
     "fieldName": {
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceByIdentifier
+title: GetDeviceByIdentifier
 id: v1ForeignSystemAgent_GetDeviceByIdentifier
 ---
 
-# POST Agents/ForeignSystem/GetDeviceByIdentifier
+# GetDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
@@ -88,13 +88,13 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Larson Group",
-  "DeviceName": "O'Conner Group",
-  "DeviceIdentifier": "officia"
+  "ApplicationName": "Roob Group",
+  "DeviceName": "Tremblay Group",
+  "DeviceIdentifier": "omnis"
 }
 ```
 
@@ -103,15 +103,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 327,
-  "Name": "McKenzie, Jones and Lang",
-  "CreatedDate": "1998-07-01T16:48:29.7079243+02:00",
-  "UpdatedDate": "1999-02-10T16:48:29.7079243+01:00",
-  "AssociateFullName": "Miss Merlin Leffler",
-  "CreatedBy": "dolorum",
-  "UpdatedBy": "officia",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 371,
+  "ForeignDeviceId": 244,
+  "Name": "Mann, Bogisich and Gerlach",
+  "CreatedDate": "2019-08-17T14:58:04.3024601+02:00",
+  "UpdatedDate": "1995-10-28T14:58:04.3024601+02:00",
+  "AssociateFullName": "Hellen Jacobi",
+  "CreatedBy": "et",
+  "UpdatedBy": "dignissimos",
+  "DeviceIdentifier": "pariatur",
+  "ForeignAppId": 420,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "implement plug-and-play schemas"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

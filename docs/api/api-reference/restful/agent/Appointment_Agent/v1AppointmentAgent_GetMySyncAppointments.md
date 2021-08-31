@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetMySyncAppointments
+title: GetMySyncAppointments
 id: v1AppointmentAgent_GetMySyncAppointments
 ---
 
-# POST Agents/Appointment/GetMySyncAppointments
+# GetMySyncAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
@@ -99,12 +99,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2019-08-07T16:48:28.5344543+02:00",
-  "EndTime": "2015-02-20T16:48:28.5344543+01:00"
+  "StartTime": "2014-11-28T14:58:03.1055728+01:00",
+  "EndTime": "2021-01-20T14:58:03.1055728+01:00"
 }
 ```
 
@@ -114,72 +114,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2019-04-16T16:48:28.536456+02:00",
-    "AppointmentId": 761,
-    "AppointmentText": "assumenda",
+    "AlarmTime": "2008-11-04T14:58:03.1075676+01:00",
+    "AppointmentId": 963,
+    "AppointmentText": "veritatis",
     "ContactDepartment": "",
-    "ContactFullName": "Garret Batz",
-    "ContactName": "Ryan, Leuschke and Beer",
-    "ContactId": 897,
-    "EndDate": "1999-10-12T16:48:28.536456+02:00",
-    "HasAlarm": false,
-    "IsAllDay": true,
+    "ContactFullName": "Richie Fisher PhD",
+    "ContactName": "Shanahan, Reichert and Moen",
+    "ContactId": 2,
+    "EndDate": "2004-09-01T14:58:03.1075676+02:00",
+    "HasAlarm": true,
+    "IsAllDay": false,
     "IsAssignment": true,
     "IsBusy": true,
     "IsCompleted": false,
-    "IsInvitation": true,
+    "IsInvitation": false,
     "IsTentative": true,
-    "Location": "repellendus",
+    "Location": "assumenda",
     "Participants": [
       {
-        "PersonId": 940,
-        "PersonFirstName": "Wiegand-Bode",
-        "PersonMiddleName": "Schaefer, Wisoky and Gaylord",
-        "PersonLastname": "McGlynn",
-        "PersonMrmrs": "et",
-        "PersonTitle": "natus",
-        "PersonPosition": "dolorem",
-        "PersonAcademicTitle": "quis",
-        "PersonFormalName": "Heidenreich Group",
-        "PersonFullName": "Olga Senger",
-        "ContactId": 328,
-        "ContactName": "Rolfson, Welch and Rowe",
+        "PersonId": 416,
+        "PersonFirstName": "Osinski, Vandervort and Hickle",
+        "PersonMiddleName": "Beier Group",
+        "PersonLastname": "Morar",
+        "PersonMrmrs": "accusamus",
+        "PersonTitle": "autem",
+        "PersonPosition": "officiis",
+        "PersonAcademicTitle": "consequuntur",
+        "PersonFormalName": "Greenfelder-Kuhn",
+        "PersonFullName": "Jack Abbott",
+        "ContactId": 149,
+        "ContactName": "Adams Inc and Sons",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Sophia Hane",
+        "ContactFullName": "Dr. Mayra Boehm",
         "EMail": [
-          "aut",
-          "nisi"
+          "eligendi",
+          "ex"
         ],
         "PhonePrivate": [
-          "(532)648-1338 x024",
-          "281-215-5117"
+          "(876)680-8150 x627",
+          "806-387-4537 x4760"
         ],
         "PhoneFax": [
-          "650-145-6446",
-          "(018)768-4673 x0653"
+          "265.401.5473 x3006",
+          "1-521-268-0264 x82481"
         ],
         "PhoneMobile": [
-          "626-732-3473 x11732",
-          "845-702-3866 x38657"
+          "(373)230-7732",
+          "805.647.3126 x427"
         ],
         "PhoneDirect": [
-          "757-366-2365 x144",
-          "1-535-511-8473 x8716"
+          "380-171-5528",
+          "644-533-7331"
         ],
         "PhoneContact": [
-          "461-463-2480 x21113",
-          "1-738-003-1463"
+          "(064)407-8385",
+          "080.764.1826 x547"
         ],
         "Messenger": [
-          "quo",
-          "quam"
+          "eveniet",
+          "nulla"
         ],
         "Voip": [
-          "similique",
-          "mollitia"
+          "culpa",
+          "commodi"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -203,23 +203,23 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 672
           }
         }
       }
     ],
-    "PersonFormalName": "Hyatt Group",
-    "PersonFullName": "Jazmyne Upton",
-    "PersonId": 991,
-    "ProjectId": 816,
-    "ProjectName": "Kiehn LLC",
-    "SaleId": 117,
-    "SaleName": "Cronin-Powlowski",
-    "StartDate": "1998-11-24T16:48:28.5384488+01:00",
-    "TaskName": "Lindgren Group",
+    "PersonFormalName": "Beatty-Rolfson",
+    "PersonFullName": "Thad Bayer",
+    "PersonId": 644,
+    "ProjectId": 117,
+    "ProjectName": "Lemke-King",
+    "SaleId": 620,
+    "SaleName": "Hermiston, Dibbert and Keebler",
+    "StartDate": "1998-11-03T14:58:03.1085663+01:00",
+    "TaskName": "Kautzer-Gerlach",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "reinvent mission-critical markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

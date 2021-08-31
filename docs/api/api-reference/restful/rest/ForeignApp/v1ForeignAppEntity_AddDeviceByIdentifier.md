@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,15 +81,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 994,
-  "Name": "Armstrong-Williamson",
-  "CreatedDate": "2012-05-23T09:40:59.2226629+02:00",
-  "UpdatedDate": "2013-02-13T09:40:59.2226629+01:00",
-  "AssociateFullName": "Marjory Gibson",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "aliquam",
-  "DeviceIdentifier": "assumenda",
-  "ForeignAppId": 796,
+  "ForeignDeviceId": 999,
+  "Name": "Emard-Kuphal",
+  "CreatedDate": "2005-01-31T15:05:42.2426357+01:00",
+  "UpdatedDate": "2001-04-11T15:05:42.2426357+02:00",
+  "AssociateFullName": "Edmond Dickens",
+  "CreatedBy": "et",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "expedita",
+  "ForeignAppId": 267,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

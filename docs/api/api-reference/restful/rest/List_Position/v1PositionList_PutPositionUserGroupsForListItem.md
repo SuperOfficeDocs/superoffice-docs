@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Hirthe, Zulauf and Heathcote",
-    "ToolTip": "Delectus earum qui.",
-    "Deleted": false,
-    "Rank": 383,
-    "Type": "iure",
-    "ColorBlock": 577,
-    "IconHint": "atque",
-    "Selected": false,
-    "LastChanged": "2019-09-20T09:41:00.5083556+02:00",
+    "Id": 323,
+    "Name": "Dare LLC",
+    "ToolTip": "Occaecati aut eveniet.",
+    "Deleted": true,
+    "Rank": 623,
+    "Type": "perferendis",
+    "ColorBlock": 741,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2002-08-04T15:05:43.5760796+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Daniel, Moen and Franecki",
-        "ToolTip": "Eaque alias libero.",
-        "Deleted": true,
-        "Rank": 667,
-        "Type": "officiis",
-        "ColorBlock": 49,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2012-11-25T09:41:00.5093568+01:00",
+        "Id": 255,
+        "Name": "Bode-Moore",
+        "ToolTip": "Asperiores nostrum.",
+        "Deleted": false,
+        "Rank": 943,
+        "Type": "aliquam",
+        "ColorBlock": 473,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2015-02-10T15:05:43.5770797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "Cheyanne Emmerich PhD"
+        "ExtraInfo": "laudantium",
+        "StyleHint": "perferendis",
+        "Hidden": true,
+        "FullName": "Jamil Russel"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "consequuntur",
-    "Hidden": false,
-    "FullName": "Zachariah Larson"
+    "ExtraInfo": "maxime",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Jeanne Ledner"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Bailey LLC",
-    "ToolTip": "Dignissimos veniam quam doloribus impedit vitae cum.",
-    "Deleted": false,
-    "Rank": 952,
-    "Type": "quod",
-    "ColorBlock": 885,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "1995-01-16T09:41:00.5103561+01:00",
+    "Id": 674,
+    "Name": "Osinski-Gulgowski",
+    "ToolTip": "Voluptates non beatae.",
+    "Deleted": true,
+    "Rank": 637,
+    "Type": "voluptatem",
+    "ColorBlock": 89,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "1999-03-26T15:05:43.5780797+01:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "O'Kon-Dare",
-        "ToolTip": "Minima repudiandae qui.",
+        "Id": 902,
+        "Name": "Kozey Inc and Sons",
+        "ToolTip": "Possimus in quae aut.",
         "Deleted": true,
-        "Rank": 970,
-        "Type": "dolorum",
-        "ColorBlock": 687,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2020-03-31T09:41:00.5103561+02:00",
+        "Rank": 303,
+        "Type": "unde",
+        "ColorBlock": 249,
+        "IconHint": "alias",
+        "Selected": true,
+        "LastChanged": "2013-01-12T15:05:43.5780797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Tremayne Kautzer",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Lea Armstrong",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,18 +184,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 373
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "officia",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Rachelle Hilll II",
+    "FullName": "Jenifer Russel",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "seize distributed e-markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 808
       }
     }
   }

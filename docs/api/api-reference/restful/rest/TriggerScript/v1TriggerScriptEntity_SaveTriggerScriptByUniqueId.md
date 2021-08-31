@@ -93,20 +93,20 @@ Response body: object
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 745,
-  "Name": "Brekke, Schuppe and Casper",
+  "ScreenChooserId": 601,
+  "Name": "Braun Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "iste",
-  "Source": "id",
-  "Registered": "1999-10-13T09:40:59.9080645+02:00",
-  "RegisteredAssociateId": 199,
-  "Updated": "1997-07-06T09:40:59.9080645+02:00",
-  "UpdatedAssociateId": 172
+  "UniqueIdentifier": "facilis",
+  "Source": "ut",
+  "Registered": "1998-02-22T15:05:42.9626322+01:00",
+  "RegisteredAssociateId": 928,
+  "Updated": "2001-07-16T15:05:42.9626322+02:00",
+  "UpdatedAssociateId": 838
 }
 ```
 
@@ -115,16 +115,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 809,
-  "Name": "Quigley, Johnson and Heidenreich",
+  "ScreenChooserId": 510,
+  "Name": "Goodwin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "qui",
-  "Source": "ipsam",
-  "Registered": "2000-04-12T09:40:59.9090654+02:00",
-  "RegisteredAssociateId": 571,
-  "Updated": "2001-11-06T09:40:59.9090654+01:00",
-  "UpdatedAssociateId": 40,
+  "UniqueIdentifier": "fugiat",
+  "Source": "totam",
+  "Registered": "1999-08-10T15:05:42.9636323+02:00",
+  "RegisteredAssociateId": 278,
+  "Updated": "2017-01-07T15:05:42.9636323+01:00",
+  "UpdatedAssociateId": 615,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

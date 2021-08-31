@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hoeger-Sauer",
-  "DisplayName": "Williamson, Rodriguez and Ryan",
-  "Description": "Horizontal next generation product",
-  "ShortLabel": "fugiat",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 887,
-  "TemplateVariableName": "Sanford, White and Shanahan"
+  "FieldName": "Feil, Nikolaus and Halvorson",
+  "DisplayName": "Brown, Schamberger and Hansen",
+  "Description": "User-friendly optimizing forecast",
+  "ShortLabel": "consectetur",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "Rank": 670,
+  "TemplateVariableName": "Kirlin-Rogahn"
 }
 ```

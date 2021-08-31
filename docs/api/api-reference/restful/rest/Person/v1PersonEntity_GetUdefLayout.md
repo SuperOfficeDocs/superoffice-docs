@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 79,
-    "ColumnId": 415,
-    "FieldDefault": "qui",
-    "FieldHeight": 970,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 28,
-    "FieldTop": 868,
+    "UDefFieldId": 671,
+    "ColumnId": 855,
+    "FieldDefault": "ut",
+    "FieldHeight": 415,
+    "FieldLabel": "saepe",
+    "FieldLeft": 228,
+    "FieldTop": 888,
     "FieldType": "Checkbox",
-    "FieldWidth": 387,
-    "FormatMask": "quia",
-    "HideLabel": false,
+    "FieldWidth": 964,
+    "FormatMask": "nostrum",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 573,
-    "LabelLeft": 975,
-    "LabelTop": 560,
-    "LabelWidth": 924,
-    "LastVersionId": 740,
-    "ListTableId": 386,
-    "IsMandatory": true,
+    "LabelHeight": 233,
+    "LabelLeft": 970,
+    "LabelTop": 167,
+    "LabelWidth": 253,
+    "LastVersionId": 226,
+    "ListTableId": 53,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 522,
-    "ProgId": "esse",
-    "IsReadOnly": true,
-    "ShortLabel": "velit",
-    "TabOrder": 974,
-    "TextLength": 205,
-    "Tooltip": "quis",
-    "UdefIdentity": 414,
-    "UDListDefinitionId": 273,
+    "Page1LineNo": 920,
+    "ProgId": "temporibus",
+    "IsReadOnly": false,
+    "ShortLabel": "eveniet",
+    "TabOrder": 226,
+    "TextLength": 610,
+    "Tooltip": "et",
+    "UdefIdentity": 178,
+    "UDListDefinitionId": 605,
     "Justification": "Center",
-    "Version": 741,
-    "TemplateVariableName": "Doyle, Wolff and Deckow",
-    "HasBeenPublished": false,
-    "MdoListName": "Runte-Gutmann",
+    "Version": 391,
+    "TemplateVariableName": "Jast, Herzog and Kuhn",
+    "HasBeenPublished": true,
+    "MdoListName": "Walker-Osinski",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 511
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

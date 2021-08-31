@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetInUseQuoteLineConfigurations
+title: GetInUseQuoteLineConfigurations
 id: v1QuoteAgent_GetInUseQuoteLineConfigurations
 ---
 
-# POST Agents/Quote/GetInUseQuoteLineConfigurations
+# GetInUseQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,15 +81,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 382,
-    "FieldName": "Schroeder, Gutmann and Kemmer",
-    "Label": "dolorem",
-    "Tooltip": "fuga",
-    "Editable": true,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 314,
-    "RestrictEdit": false,
+    "QuoteLineConfigurationId": 809,
+    "FieldName": "Morar, Kub and Cormier",
+    "Label": "excepturi",
+    "Tooltip": "eius",
+    "Editable": false,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 800,
+    "RestrictEdit": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "drive revolutionary niches"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 69
       }
     }
   }

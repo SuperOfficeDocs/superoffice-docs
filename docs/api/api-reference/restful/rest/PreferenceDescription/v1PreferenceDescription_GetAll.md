@@ -80,24 +80,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 229,
-    "Section": "ab",
-    "Key": "repudiandae",
-    "Name": "Schowalter Inc and Sons",
+    "PrefDescId": 94,
+    "Section": "enim",
+    "Key": "neque",
+    "Name": "Collier-Conroy",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Exclusive transitional approach",
-    "IsBuiltin": false,
-    "TableName": "Bahringer, Feest and Rau",
-    "UserDefinedListId": 794,
-    "Rank": 460,
-    "SubGroup": "tempora",
-    "MinLevel": 232,
-    "MaxValue": 34,
-    "MinValue": 570,
-    "RequiredLicense": "quae",
+    "Description": "Innovative client-server encryption",
+    "IsBuiltin": true,
+    "TableName": "Hintz-Parisian",
+    "UserDefinedListId": 481,
+    "Rank": 234,
+    "SubGroup": "in",
+    "MinLevel": 476,
+    "MaxValue": 71,
+    "MinValue": 180,
+    "RequiredLicense": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "grow holistic experiences"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

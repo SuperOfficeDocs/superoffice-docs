@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 637,
-  "ColumnId": 796,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 841,
-  "FieldLabel": "cumque",
-  "FieldLeft": 144,
-  "FieldTop": 166,
+  "UDefFieldId": 511,
+  "ColumnId": 327,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 833,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 949,
+  "FieldTop": 907,
   "FieldType": "Checkbox",
-  "FieldWidth": 624,
-  "FormatMask": "voluptas",
+  "FieldWidth": 108,
+  "FormatMask": "ab",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 852,
-  "LabelLeft": 470,
-  "LabelTop": 851,
-  "LabelWidth": 963,
-  "LastVersionId": 370,
-  "ListTableId": 550,
+  "IsIndexed": false,
+  "LabelHeight": 835,
+  "LabelLeft": 995,
+  "LabelTop": 564,
+  "LabelWidth": 2,
+  "LastVersionId": 361,
+  "ListTableId": 438,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 656,
-  "ProgId": "natus",
+  "Page1LineNo": 458,
+  "ProgId": "blanditiis",
   "IsReadOnly": true,
-  "ShortLabel": "similique",
-  "TabOrder": 135,
-  "TextLength": 836,
-  "Tooltip": "accusantium",
-  "UdefIdentity": 111,
-  "UDListDefinitionId": 734,
+  "ShortLabel": "ea",
+  "TabOrder": 85,
+  "TextLength": 752,
+  "Tooltip": "rem",
+  "UdefIdentity": 876,
+  "UDListDefinitionId": 244,
   "Justification": "Center",
-  "Version": 778,
-  "TemplateVariableName": "Farrell-Farrell",
-  "HasBeenPublished": true,
-  "MdoListName": "Zieme-Willms",
+  "Version": 56,
+  "TemplateVariableName": "Bergnaum-Auer",
+  "HasBeenPublished": false,
+  "MdoListName": "Gusikowski-Maggio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 675
     }
   }
 }

@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "sapiente",
+  "Id": 15,
+  "Name": "Murphy-Feest",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 603,
+  "Rank": 466,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Nienow-Schamberger",
-  "Tooltip": "vero",
+  "Id": 726,
+  "Name": "Kshlerin, Funk and Hagenes",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 533,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": false,
+  "Rank": 479,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "iterate clicks-and-mortar methodologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "embrace compelling portals"
       },
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 619
     }
   }
 }

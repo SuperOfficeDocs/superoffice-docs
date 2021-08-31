@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Senger LLC",
-  "Tooltip": "doloremque",
+  "Id": 123,
+  "Name": "Bogan, Lowe and Hyatt",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 266,
+  "UdListDefinitionId": 730,
+  "Rank": 792,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

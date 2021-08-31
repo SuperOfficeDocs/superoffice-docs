@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/SaveCurrent
+title: SaveCurrent
 id: v1ViewStateAgent_SaveCurrent
 ---
 
-# POST Agents/ViewState/SaveCurrent
+# SaveCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrent
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Current": {
-    "Rank": 171,
-    "Id": 583,
-    "HistoryName": "Hackett Inc and Sons",
-    "HistoryId": 217,
-    "AssociateId": 445,
-    "Name": "Gaylord-Pagac",
-    "ItemInfo": "ut"
+    "Rank": 995,
+    "Id": 536,
+    "HistoryName": "Mohr-Rutherford",
+    "HistoryId": 303,
+    "AssociateId": 341,
+    "Name": "Carter-Kautzer",
+    "ItemInfo": "dicta"
   }
 }
 ```
@@ -105,13 +105,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 906,
-  "Id": 500,
-  "HistoryName": "Kovacek, Cremin and Carter",
-  "HistoryId": 402,
-  "AssociateId": 352,
-  "Name": "Pagac Group",
-  "ItemInfo": "laudantium",
+  "Rank": 249,
+  "Id": 426,
+  "HistoryName": "Skiles, Stroman and Schneider",
+  "HistoryId": 273,
+  "AssociateId": 545,
+  "Name": "Collins, Reilly and Marquardt",
+  "ItemInfo": "explicabo",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 759
     }
   }
 }

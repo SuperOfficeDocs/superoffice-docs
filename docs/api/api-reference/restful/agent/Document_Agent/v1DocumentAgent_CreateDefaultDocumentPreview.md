@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CreateDefaultDocumentPreview
+title: CreateDefaultDocumentPreview
 id: v1DocumentAgent_CreateDefaultDocumentPreview
 ---
 
-# POST Agents/Document/CreateDefaultDocumentPreview
+# CreateDefaultDocumentPreview
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
@@ -62,7 +62,7 @@ Response body: object
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,9 +70,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dietrich, McCullough and Hettinger",
-  "Type": "est",
-  "Size": 368,
+  "Name": "Smitham LLC",
+  "Type": "sed",
+  "Size": 512,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "syndicate distributed initiatives"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 45
     }
   }
 }

@@ -97,16 +97,16 @@ Response body: object
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 324,
-  "Name": "O'Keefe-Gutkowski",
-  "Tooltip": "aut",
-  "PassiveText": "dolor",
-  "Deleted": false,
-  "Rank": 413,
+  "ReldefId": 742,
+  "Name": "Steuber, Abbott and Rogahn",
+  "Tooltip": "ipsam",
+  "PassiveText": "eos",
+  "Deleted": true,
+  "Rank": 797,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -117,12 +117,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 792,
-  "Name": "Volkman-Kuphal",
-  "Tooltip": "placeat",
-  "PassiveText": "expedita",
-  "Deleted": false,
-  "Rank": 600,
+  "ReldefId": 832,
+  "Name": "Tromp-Robel",
+  "Tooltip": "adipisci",
+  "PassiveText": "veniam",
+  "Deleted": true,
+  "Rank": 934,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -133,10 +133,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "aggregate strategic platforms"
       },
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   },
   "_Links": {

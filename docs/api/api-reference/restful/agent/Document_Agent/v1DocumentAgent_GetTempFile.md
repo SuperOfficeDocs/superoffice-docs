@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetTempFile
+title: GetTempFile
 id: v1DocumentAgent_GetTempFile
 ---
 
-# POST Agents/Document/GetTempFile
+# GetTempFile
 
 ```http
 POST /api/v1/Agents/Document/GetTempFile
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Document/GetTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "magnam"
+  "Filename": "autem"
 }
 ```
 

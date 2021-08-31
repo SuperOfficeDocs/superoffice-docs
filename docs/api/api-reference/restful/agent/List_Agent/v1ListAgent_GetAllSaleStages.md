@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllSaleStages
+title: GetAllSaleStages
 id: v1ListAgent_GetAllSaleStages
 ---
 
-# POST Agents/List/GetAllSaleStages
+# GetAllSaleStages
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleStages
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 644,
-    "Value": "optio",
-    "Tooltip": "voluptate",
-    "Probability": 729,
+    "SaleStageId": 780,
+    "Value": "odit",
+    "Tooltip": "odio",
+    "Probability": 372,
     "Deleted": false,
-    "Rank": 745,
+    "Rank": 44,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "transition synergistic networks"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldLength": 288
       }
     }
   }

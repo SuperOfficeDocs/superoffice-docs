@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetNetServicesStatusUrl
+title: GetNetServicesStatusUrl
 id: v1PreferenceAgent_GetNetServicesStatusUrl
 ---
 
-# POST Agents/Preference/GetNetServicesStatusUrl
+# GetNetServicesStatusUrl
 
 ```http
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_

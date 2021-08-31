@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
+title: GetDefaultDesiredColumnsFromRestrictions2
 id: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2
 ---
 
-# POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
+# GetDefaultDesiredColumnsFromRestrictions2
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
@@ -14,32 +14,7 @@ Calculate the default desired columns, i.
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -239,12 +170,12 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hand Group",
-  "Restrictions": "tempora"
+  "ProviderName": "Howe, Bode and Heathcote",
+  "Restrictions": "esse"
 }
 ```
 
@@ -254,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Pacocha Group",
-    "DisplayTooltip": "sunt",
-    "DisplayType": "quia",
-    "CanOrderBy": true,
-    "Name": "Runte Group",
+    "DisplayName": "Haag-Kunde",
+    "DisplayTooltip": "et",
+    "DisplayType": "et",
+    "CanOrderBy": false,
+    "Name": "Bernhard, Bogan and Skiles",
     "CanRestrictBy": false,
-    "RestrictionType": "sunt",
-    "RestrictionListName": "Homenick-Dicki",
+    "RestrictionType": "et",
+    "RestrictionListName": "Huel-Zulauf",
     "IsVisible": false,
-    "ExtraInfo": "ut",
-    "Width": "omnis",
-    "IconHint": "accusamus",
-    "HeadingIconHint": "quibusdam"
+    "ExtraInfo": "cupiditate",
+    "Width": "illo",
+    "IconHint": "ipsa",
+    "HeadingIconHint": "accusamus"
   }
 ]
 ```

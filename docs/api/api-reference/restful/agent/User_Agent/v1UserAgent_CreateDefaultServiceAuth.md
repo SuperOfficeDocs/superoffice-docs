@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/CreateDefaultServiceAuth
+title: CreateDefaultServiceAuth
 id: v1UserAgent_CreateDefaultServiceAuth
 ---
 
-# POST Agents/User/CreateDefaultServiceAuth
+# CreateDefaultServiceAuth
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
@@ -67,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 216,
-  "Server": "eaque",
-  "Port": 475,
-  "AuthType": "distinctio",
-  "Username": "quia",
-  "Password": "quibusdam",
+  "ServiceAuthId": 426,
+  "Server": "odit",
+  "Port": 246,
+  "AuthType": "quas",
+  "Username": "aut",
+  "Password": "itaque",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldType": "System.String",
+      "FieldLength": 433
     }
   }
 }

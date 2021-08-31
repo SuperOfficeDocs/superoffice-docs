@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Kuhn, Quigley and Hettinger",
-    "ToolTip": "Aliquam nobis.",
-    "Deleted": true,
-    "Rank": 123,
-    "Type": "reiciendis",
-    "ColorBlock": 47,
-    "IconHint": "rerum",
+    "Id": 189,
+    "Name": "Lind-Grady",
+    "ToolTip": "Illum ut.",
+    "Deleted": false,
+    "Rank": 585,
+    "Type": "modi",
+    "ColorBlock": 108,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2004-03-31T09:41:00.1903671+02:00",
+    "LastChanged": "1996-03-03T15:05:43.2675455+01:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Daniel, Kohler and Tillman",
-        "ToolTip": "Ipsa iste delectus dolorem libero.",
+        "Id": 178,
+        "Name": "Heidenreich-Kris",
+        "ToolTip": "Omnis deserunt placeat in blanditiis et.",
         "Deleted": true,
-        "Rank": 758,
-        "Type": "accusamus",
-        "ColorBlock": 237,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2013-07-10T09:41:00.1903671+02:00",
+        "Rank": 372,
+        "Type": "odio",
+        "ColorBlock": 292,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "1995-11-21T15:05:43.2675455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "sunt",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Adele Lind"
+        "FullName": "Kylee Rohan"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "at",
+    "ExtraInfo": "non",
+    "StyleHint": "quis",
     "Hidden": true,
-    "FullName": "Adrianna Thompson"
+    "FullName": "Kole Collins II"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Hodkiewicz-Haley",
-    "ToolTip": "Sed sit.",
+    "Id": 922,
+    "Name": "Gusikowski LLC",
+    "ToolTip": "Ratione ipsam deleniti qui aperiam consequuntur in.",
     "Deleted": true,
-    "Rank": 880,
-    "Type": "ullam",
-    "ColorBlock": 963,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "1998-10-14T09:41:00.1913674+02:00",
+    "Rank": 488,
+    "Type": "in",
+    "ColorBlock": 346,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2018-10-16T15:05:43.2685449+02:00",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Osinski Group",
-        "ToolTip": "Perspiciatis vero sint magni officiis amet.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "adipisci",
-        "ColorBlock": 962,
-        "IconHint": "tenetur",
+        "Id": 672,
+        "Name": "D'Amore-Conroy",
+        "ToolTip": "A laborum placeat aut recusandae commodi.",
+        "Deleted": true,
+        "Rank": 163,
+        "Type": "ut",
+        "ColorBlock": 313,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2009-04-06T09:41:00.1913674+02:00",
+        "LastChanged": "2000-08-29T15:05:43.2685449+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "velit",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Lindsey Hilpert",
+        "FullName": "Laury Prohaska",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 110
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Vella Smith",
+    "ExtraInfo": "sed",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Alexane Dickens",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "unleash B2B eyeballs"
         },
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

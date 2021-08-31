@@ -98,28 +98,28 @@ Response body: object
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 529,
-  "Name": "Mohr-Beer",
-  "CurrencyId": 94,
-  "EnglishName": "DuBuque, Gulgowski and Marks",
+  "CountryId": 24,
+  "Name": "Goodwin, Zboncak and McClure",
+  "CurrencyId": 316,
+  "EnglishName": "Leffler, Runte and Durgan",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Exclusive bi-directional open system",
-  "OrgNrText": "666066",
+  "ImageDescription": "Future-proofed mission-critical workforce",
+  "OrgNrText": "873992",
   "InterAreaPrefix": "magnam",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "dolores",
-  "DomainName": "Blanda-Boyle",
-  "AddressLayoutId": 455,
-  "DomesticAddressLayoutId": 591,
-  "ForeignAddressLayoutId": 900,
-  "Rank": 374,
-  "Tooltip": "dignissimos",
-  "Deleted": true
+  "DialInPrefix": "recusandae",
+  "ZipPrefix": "corporis",
+  "DomainName": "Gorczany, Hoeger and Pagac",
+  "AddressLayoutId": 187,
+  "DomesticAddressLayoutId": 645,
+  "ForeignAddressLayoutId": 26,
+  "Rank": 368,
+  "Tooltip": "quo",
+  "Deleted": false
 }
 ```
 
@@ -128,24 +128,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 656,
-  "Name": "Daugherty Group",
-  "CurrencyId": 229,
-  "EnglishName": "Boehm-Smitham",
+  "CountryId": 339,
+  "Name": "Gleason, Senger and Kutch",
+  "CurrencyId": 896,
+  "EnglishName": "Cremin-Moen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Integrated tangible toolset",
-  "OrgNrText": "200222",
-  "InterAreaPrefix": "eveniet",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "rerum",
-  "DomainName": "Stoltenberg Inc and Sons",
-  "AddressLayoutId": 62,
-  "DomesticAddressLayoutId": 470,
-  "ForeignAddressLayoutId": 188,
-  "Rank": 382,
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
+  "ImageDescription": "Progressive dedicated algorithm",
+  "OrgNrText": "1153045",
+  "InterAreaPrefix": "quis",
+  "DialInPrefix": "tenetur",
+  "ZipPrefix": "non",
+  "DomainName": "Ondricka LLC",
+  "AddressLayoutId": 318,
+  "DomesticAddressLayoutId": 118,
+  "ForeignAddressLayoutId": 4,
+  "Rank": 370,
+  "Tooltip": "doloribus",
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldLength": 921
     }
   }
 }

@@ -79,7 +79,7 @@ Response body: object
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -87,27 +87,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 712,
-  "PlainMessage": "possimus",
-  "HtmlMessage": "nostrum",
-  "SmsMessage": "atque",
-  "Description": "Innovative logistical capacity",
-  "Subject": "atque",
-  "FolderId": 797,
-  "HeaderField": "aut",
-  "Design": "et",
+  "ShipmentMessageId": 359,
+  "PlainMessage": "est",
+  "HtmlMessage": "voluptatibus",
+  "SmsMessage": "ex",
+  "Description": "Adaptive radical ability",
+  "Subject": "qui",
+  "FolderId": 339,
+  "HeaderField": "possimus",
+  "Design": "placeat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Multi-tiered explicit strategy",
-  "AccessKey": "esse",
-  "DocumentMessage": 284,
-  "Registered": "2006-08-13T09:40:59.7550651+02:00",
-  "RegisteredAssociateId": 289,
-  "Updated": "2005-05-18T09:40:59.7550651+02:00",
-  "UpdatedAssociateId": 80,
-  "UpdatedCount": 602,
+  "LongDescription": "Synchronised contextually-based local area network",
+  "AccessKey": "pariatur",
+  "DocumentMessage": 304,
+  "Registered": "1997-09-11T15:05:42.7586619+02:00",
+  "RegisteredAssociateId": 846,
+  "Updated": "2001-08-30T15:05:42.7586619+02:00",
+  "UpdatedAssociateId": 319,
+  "UpdatedCount": 646,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 612
     }
   }
 }

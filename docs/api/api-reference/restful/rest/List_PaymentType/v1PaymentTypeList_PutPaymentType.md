@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Hayes LLC",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "UdListDefinitionId": 443,
-  "Rank": 445
+  "Id": 111,
+  "Name": "Toy-Gislason",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 763,
+  "Rank": 30
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "O'Conner, King and Schiller",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 55,
-  "Rank": 695,
+  "Id": 723,
+  "Name": "Harvey, Marquardt and Koch",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "UdListDefinitionId": 897,
+  "Rank": 475,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

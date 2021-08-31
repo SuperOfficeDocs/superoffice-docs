@@ -53,12 +53,12 @@ Response body: date-time
 GET /api/v1/Sale/{saleId}/NextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2010-10-28T09:40:59.6506919+02:00"
+"2013-04-27T15:05:42.7006704+02:00"
 ```

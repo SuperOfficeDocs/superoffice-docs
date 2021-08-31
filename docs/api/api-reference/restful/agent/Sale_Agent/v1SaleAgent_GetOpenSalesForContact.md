@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetOpenSalesForContact
+title: GetOpenSalesForContact
 id: v1SaleAgent_GetOpenSalesForContact
 ---
 
-# POST Agents/Sale/GetOpenSalesForContact
+# GetOpenSalesForContact
 
 ```http
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
@@ -97,11 +97,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 622
+  "ContactId": 474
 }
 ```
 
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wehner LLC",
-    "SaleDate": "2012-04-15T16:48:30.62493+02:00",
-    "SaleId": 928,
-    "Probability": 109,
-    "Title": "ipsum",
-    "Amount": 23533.206,
-    "Currency": "doloremque",
-    "ProjectName": "Larson-Murazik",
-    "AssociateFullName": "Herta Frami",
-    "Description": "Virtual mission-critical archive",
+    "ContactName": "Hessel Group",
+    "SaleDate": "1997-05-28T14:58:05.1896281+02:00",
+    "SaleId": 718,
+    "Probability": 857,
+    "Title": "cum",
+    "Amount": 24846.352,
+    "Currency": "impedit",
+    "ProjectName": "Considine-Leuschke",
+    "AssociateFullName": "Kaylin Parker",
+    "Description": "Customizable 24 hour throughput",
     "Status": "Lost",
-    "WeightedAmount": 20392.938,
-    "ProjectId": 860,
-    "EarningPercent": 19737.932,
-    "Earning": 15657.464,
-    "ContactId": 42,
-    "AssociateId": 538,
-    "PersonId": 72,
-    "SaleTypeId": 53,
-    "SaleTypeName": "Weissnat Group",
-    "PersonFullName": "Miss Tommie Konopelski",
+    "WeightedAmount": 2585.5499999999997,
+    "ProjectId": 967,
+    "EarningPercent": 24564.291999999998,
+    "Earning": 13021.77,
+    "ContactId": 746,
+    "AssociateId": 256,
+    "PersonId": 613,
+    "SaleTypeId": 46,
+    "SaleTypeName": "Runolfsdottir-Crist",
+    "PersonFullName": "Kiera Olson III",
     "Completed": "Completed",
-    "ActiveErpLinks": 257,
-    "NextDueDate": "2011-04-30T16:48:30.62493+02:00",
-    "Number": "1414235",
+    "ActiveErpLinks": 787,
+    "NextDueDate": "2008-06-21T14:58:05.1906288+02:00",
+    "Number": "485185",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,10 +144,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "evolve best-of-breed channels"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

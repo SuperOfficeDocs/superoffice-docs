@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetPreferencesWithDisplayValues
+title: GetPreferencesWithDisplayValues
 id: v1PreferenceAgent_GetPreferencesWithDisplayValues
 ---
 
-# POST Agents/Preference/GetPreferencesWithDisplayValues
+# GetPreferencesWithDisplayValues
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
@@ -83,18 +83,18 @@ Response body: array
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "nemo",
-      "Key": "quas"
+      "Section": "in",
+      "Key": "voluptas"
     },
     {
-      "Section": "nemo",
-      "Key": "quas"
+      "Section": "in",
+      "Key": "voluptas"
     }
   ]
 }
@@ -107,30 +107,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quos",
+    "RawValue": "aliquid",
     "Specification": {
-      "Section": "eum",
-      "Key": "totam",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "incubate robust content"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 908
-        }
-      }
-    },
-    "DisplayValue": "nesciunt",
-    "DisplayTooltip": "id",
-    "DisplayType": "Bool",
-    "TabOrder": {
-      "TabOrderId": 697,
-      "TabName": "Reynolds Inc and Sons",
-      "Order": "ipsum",
-      "AssociateId": 658,
+      "Section": "qui",
+      "Key": "officiis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -139,14 +119,34 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 99
         }
       }
     },
-    "TargetId": 797,
-    "PrefDescId": 494,
-    "TableName": "Collins-Nolan",
-    "UserPreferenceId": 556,
+    "DisplayValue": "in",
+    "DisplayTooltip": "tempora",
+    "DisplayType": "Bool",
+    "TabOrder": {
+      "TabOrderId": 471,
+      "TabName": "Bednar, Skiles and Fritsch",
+      "Order": "necessitatibus",
+      "AssociateId": 26,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 781
+        }
+      }
+    },
+    "TargetId": 343,
+    "PrefDescId": 553,
+    "TableName": "Lakin, Jakubowski and Koepp",
+    "UserPreferenceId": 358,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -155,10 +155,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "aggregate mission-critical functionalities"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldType": "System.String",
+        "FieldLength": 444
       }
     }
   }

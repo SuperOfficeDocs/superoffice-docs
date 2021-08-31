@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProductTypes
+title: GetProductTypes
 id: v1ListAgent_GetProductTypes
 ---
 
-# POST Agents/List/GetProductTypes
+# GetProductTypes
 
 ```http
 POST /api/v1/Agents/List/GetProductTypes
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProductTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Value": "minima",
-    "Tooltip": "voluptatem",
+    "Id": 844,
+    "Value": "fugiat",
+    "Tooltip": "quis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 485
       }
     }
   },
   {
-    "Id": 524,
-    "Value": "minima",
-    "Tooltip": "voluptatem",
+    "Id": 844,
+    "Value": "fugiat",
+    "Tooltip": "quis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 485
       }
     }
   }

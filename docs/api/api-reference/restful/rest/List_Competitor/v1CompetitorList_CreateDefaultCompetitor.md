@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Conn LLC",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 608,
-  "Rank": 666,
+  "Id": 479,
+  "Name": "Kub, Tremblay and Wilderman",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "UdListDefinitionId": 788,
+  "Rank": 988,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 581
     }
   }
 }

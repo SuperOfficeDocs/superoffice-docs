@@ -127,45 +127,45 @@ Response body: object
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "alias",
     "value": {
       "value1": {
-        "PrimaryKey": 5314,
+        "PrimaryKey": 7687,
         "EntityName": "sale",
-        "saleId": 5314,
-        "contactId": 2684,
-        "name": "Weimann Inc and Sons"
+        "saleId": 7687,
+        "contactId": 2858,
+        "name": "Gleason-Rogahn"
       },
       "value2": {
-        "PrimaryKey": 8691,
+        "PrimaryKey": 3877,
         "EntityName": "person",
-        "personId": 8691,
-        "fullName": "Laron Kirlin"
+        "personId": 3877,
+        "fullName": "Katlynn Champlin"
       }
     }
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "alias",
     "value": {
       "value1": {
-        "PrimaryKey": 5314,
+        "PrimaryKey": 7687,
         "EntityName": "sale",
-        "saleId": 5314,
-        "contactId": 2684,
-        "name": "Weimann Inc and Sons"
+        "saleId": 7687,
+        "contactId": 2858,
+        "name": "Gleason-Rogahn"
       },
       "value2": {
-        "PrimaryKey": 8691,
+        "PrimaryKey": 3877,
         "EntityName": "person",
-        "personId": 8691,
-        "fullName": "Laron Kirlin"
+        "personId": 3877,
+        "fullName": "Katlynn Champlin"
       }
     }
   }
@@ -177,24 +177,24 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 451,
-  "Section": "quia",
-  "Key": "id",
-  "Name": "Gibson, Kunze and Herman",
+  "PrefDescId": 592,
+  "Section": "fugit",
+  "Key": "et",
+  "Name": "Howell, Nikolaus and Hackett",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive motivating projection",
+  "Description": "Implemented background model",
   "IsBuiltin": true,
-  "TableName": "Kassulke-Emard",
-  "UserDefinedListId": 443,
-  "Rank": 226,
-  "SubGroup": "ut",
-  "MinLevel": 188,
-  "MaxValue": 112,
-  "MinValue": 87,
-  "RequiredLicense": "quis",
+  "TableName": "Jones-Paucek",
+  "UserDefinedListId": 883,
+  "Rank": 421,
+  "SubGroup": "iusto",
+  "MinLevel": 58,
+  "MaxValue": 133,
+  "MinValue": 329,
+  "RequiredLicense": "quas",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -203,15 +203,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "matrix integrated infrastructures"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

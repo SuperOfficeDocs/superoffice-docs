@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetQuoteVersionAddresses
+title: GetQuoteVersionAddresses
 id: v1ContactAgent_GetQuoteVersionAddresses
 ---
 
-# POST Agents/Contact/GetQuoteVersionAddresses
+# GetQuoteVersionAddresses
 
 ```http
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 764
+  "QuoteVersionId": 435
 }
 ```
 
@@ -92,40 +92,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 19173.811999999998,
-    "Wgs84Longitude": 15036.931999999999,
+    "Wgs84Latitude": 27713.962,
+    "Wgs84Longitude": 19954.178,
     "LocalizedAddress": [
       [
         {
-          "Name": "Von Inc and Sons",
-          "Value": "et",
-          "Tooltip": "labore",
-          "Label": "qui",
-          "ValueLength": 44,
-          "AddressType": "quo",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 98
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Adams-Boehm",
-          "Value": "nisi",
-          "Tooltip": "architecto",
-          "Label": "aliquam",
-          "ValueLength": 181,
+          "Name": "Jacobs LLC",
+          "Value": "dolorem",
+          "Tooltip": "tenetur",
+          "Label": "est",
+          "ValueLength": 692,
           "AddressType": "autem",
           "TableRight": {
             "Mask": "Delete",
@@ -138,7 +114,31 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 505
+              "FieldLength": 504
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Name": "Satterfield-Abbott",
+          "Value": "corrupti",
+          "Tooltip": "iusto",
+          "Label": "consequatur",
+          "ValueLength": 387,
+          "AddressType": "debitis",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.Int32",
+              "FieldLength": 368
             }
           }
         }
@@ -146,27 +146,27 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": {
       "AtypeIdx": "ContactPostalAddress",
-      "Address1": "eveniet",
-      "Address2": "corporis",
-      "Address3": "soluta",
-      "City": "id",
-      "County": "impedit",
-      "State": "officia",
-      "Zipcode": "ullam",
-      "Formatted": "fuga"
+      "Address1": "ullam",
+      "Address2": "hic",
+      "Address3": "esse",
+      "City": "accusantium",
+      "County": "dolorem",
+      "State": "laborum",
+      "Zipcode": "consequatur",
+      "Formatted": "iure"
     },
     "Postal": {
       "AtypeIdx": "ContactPostalAddress",
-      "Address1": "libero",
-      "Address2": "eos",
-      "Address3": "impedit",
-      "City": "inventore",
-      "County": "ducimus",
-      "State": "minima",
-      "Zipcode": "nobis",
-      "Formatted": "nam"
+      "Address1": "omnis",
+      "Address2": "ut",
+      "Address3": "vitae",
+      "City": "error",
+      "County": "eveniet",
+      "State": "vel",
+      "Zipcode": "voluptatibus",
+      "Formatted": "quaerat"
     },
-    "Formatted": "et",
+    "Formatted": "perspiciatis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -175,10 +175,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "innovate e-business infomediaries"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 3
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHeadings
+title: GetHeadings
 id: v1ListAgent_GetHeadings
 ---
 
-# POST Agents/List/GetHeadings
+# GetHeadings
 
 ```http
 POST /api/v1/Agents/List/GetHeadings
@@ -89,12 +89,12 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 112,
-  "ListItemId": 161,
+  "UdListDefinitionId": 364,
+  "ListItemId": 550,
   "ShowDeleted": true
 }
 ```
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Johnston, Emard and Zemlak",
-    "ToolTip": "Non optio.",
+    "Id": 711,
+    "Name": "Funk-Prohaska",
+    "ToolTip": "A quis vitae quas enim dolores corrupti.",
     "Deleted": true,
-    "Rank": 347,
-    "Type": "est",
-    "ColorBlock": 254,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "1994-08-25T16:48:29.8839235+02:00",
+    "Rank": 309,
+    "Type": "qui",
+    "ColorBlock": 103,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "1999-10-25T14:58:04.4224652+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Quia dignissimos suscipit officia voluptatibus est.",
+        "Id": 961,
+        "Name": "Vandervort Inc and Sons",
+        "ToolTip": "Itaque beatae vel ut.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "soluta",
-        "ColorBlock": 875,
-        "IconHint": "et",
+        "Rank": 958,
+        "Type": "repudiandae",
+        "ColorBlock": 596,
+        "IconHint": "voluptate",
         "Selected": true,
-        "LastChanged": "2019-01-24T16:48:29.8839235+01:00",
+        "LastChanged": "2016-02-01T14:58:04.4224652+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Cynthia Bruen III",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Eliza Cormier",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -143,15 +143,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "est",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Manuela Wuckert",
+    "FullName": "Everett Koepp",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldLength": 726
       }
     }
   }

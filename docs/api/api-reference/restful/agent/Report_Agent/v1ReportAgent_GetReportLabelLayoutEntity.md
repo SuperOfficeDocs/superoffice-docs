@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/GetReportLabelLayoutEntity
+title: GetReportLabelLayoutEntity
 id: v1ReportAgent_GetReportLabelLayoutEntity
 ---
 
-# POST Agents/Report/GetReportLabelLayoutEntity
+# GetReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=210
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=313
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,18 +86,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 727,
-  "Name": "Thiel LLC",
-  "Description": "De-engineered zero tolerance software",
+  "ReportLabelLayoutId": 918,
+  "Name": "Wilderman Group",
+  "Description": "Team-oriented multi-state secured line",
   "Orientation": "Landscape",
-  "PaperWidth": 672,
-  "PaperHeight": 620,
-  "LeftMargin": 855,
-  "RightMargin": 934,
-  "TopMargin": 59,
-  "BottomMargin": 981,
-  "CountColumns": 819,
-  "CountRows": 911,
+  "PaperWidth": 234,
+  "PaperHeight": 163,
+  "LeftMargin": 455,
+  "RightMargin": 13,
+  "TopMargin": 791,
+  "BottomMargin": 556,
+  "CountColumns": 750,
+  "CountRows": 492,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 284
+      "FieldLength": 58
     }
   }
 }

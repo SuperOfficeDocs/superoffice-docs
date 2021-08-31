@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/SaveSuggestedAppointmentEntity
+title: SaveSuggestedAppointmentEntity
 id: v1AppointmentAgent_SaveSuggestedAppointmentEntity
 ---
 
-# POST Agents/Appointment/SaveSuggestedAppointmentEntity
+# SaveSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
@@ -90,44 +90,44 @@ Response body: object
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 83,
-  "Name": "Gleason, Rosenbaum and O'Keefe",
-  "Tooltip": "libero",
-  "Rank": 605,
-  "Deleted": false,
-  "DaysFuture": 818,
-  "Duration": "sint",
+  "SuggestedAppointmentId": 632,
+  "Name": "Cronin-Williamson",
+  "Tooltip": "ab",
+  "Rank": 11,
+  "Deleted": true,
+  "DaysFuture": 402,
+  "Duration": "ea",
   "AutoSuggest": true,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "voluptatibus",
+  "IsMilestone": true,
+  "AssignToMember": true,
+  "Text": "quo",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 287,
-    "ProjTypeId": 472,
-    "ProjTypeName": "Becker, Dickinson and Braun",
-    "ProjTypeTooltip": "tenetur",
-    "ProjStatusId": 109,
-    "ProjStatusName": "Windler LLC",
-    "ProjStatusTooltip": "quia"
+    "ProjectTypeStatusLinkId": 887,
+    "ProjTypeId": 855,
+    "ProjTypeName": "Boehm LLC",
+    "ProjTypeTooltip": "officiis",
+    "ProjStatusId": 684,
+    "ProjStatusName": "Harris-Yost",
+    "ProjStatusTooltip": "sequi"
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 185,
-    "SaleTypeId": 6,
-    "SaleTypeName": "Klocko LLC",
-    "SaleTypeTooltip": "sed",
-    "ProbId": 153,
-    "ProbName": "Hegmann, Bergnaum and Legros",
-    "ProbTooltip": "dignissimos",
-    "Probability": 960
+    "SaleTypeStageLinkId": 205,
+    "SaleTypeId": 659,
+    "SaleTypeName": "Feest, Lueilwitz and Legros",
+    "SaleTypeTooltip": "iusto",
+    "ProbId": 904,
+    "ProbName": "Gislason, Hagenes and Bernhard",
+    "ProbTooltip": "nisi",
+    "Probability": 657
   },
   "Type": {
-    "Id": 121,
-    "Value": "expedita",
-    "Tooltip": "animi"
+    "Id": 519,
+    "Value": "aut",
+    "Tooltip": "vel"
   }
 }
 ```
@@ -137,25 +137,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 359,
-  "Name": "Romaguera, Breitenberg and Shanahan",
-  "Tooltip": "natus",
-  "Rank": 385,
+  "SuggestedAppointmentId": 917,
+  "Name": "Goldner-Ortiz",
+  "Tooltip": "ratione",
+  "Rank": 53,
   "Deleted": false,
-  "DaysFuture": 659,
-  "Duration": "ipsa",
-  "AutoSuggest": true,
+  "DaysFuture": 447,
+  "Duration": "ducimus",
+  "AutoSuggest": false,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "quae",
+  "Text": "laudantium",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 274,
-    "ProjTypeId": 295,
-    "ProjTypeName": "Gerlach, Kassulke and Greenholt",
-    "ProjTypeTooltip": "non",
-    "ProjStatusId": 344,
-    "ProjStatusName": "Dickinson, McKenzie and Bayer",
-    "ProjStatusTooltip": "dolore",
+    "ProjectTypeStatusLinkId": 66,
+    "ProjTypeId": 835,
+    "ProjTypeName": "Macejkovic-Towne",
+    "ProjTypeTooltip": "iure",
+    "ProjStatusId": 333,
+    "ProjStatusName": "Pollich-Schuppe",
+    "ProjStatusTooltip": "quia",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 20
+      }
+    }
+  },
+  "SaleTypeStageLink": {
+    "SaleTypeStageLinkId": 235,
+    "SaleTypeId": 898,
+    "SaleTypeName": "Schiller, Greenfelder and Mraz",
+    "SaleTypeTooltip": "enim",
+    "ProbId": 507,
+    "ProbName": "Altenwerth, Fahey and Toy",
+    "ProbTooltip": "earum",
+    "Probability": 791,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -164,35 +185,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 119
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 693,
-    "SaleTypeId": 835,
-    "SaleTypeName": "Cartwright-Anderson",
-    "SaleTypeTooltip": "exercitationem",
-    "ProbId": 448,
-    "ProbName": "Bradtke, Boyle and O'Keefe",
-    "ProbTooltip": "aliquam",
-    "Probability": 514,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "reinvent world-class functionalities"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 349
       }
     }
   },
   "Type": {
-    "Id": 179,
-    "Value": "non",
-    "Tooltip": "autem",
+    "Id": 621,
+    "Value": "maiores",
+    "Tooltip": "earum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   },
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 800
     }
   }
 }

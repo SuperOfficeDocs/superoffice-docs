@@ -25,8 +25,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=est
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=quaerat
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Connelly, Mosciski and Kunde",
-    "ToolTip": "Eos est.",
+    "Id": 825,
+    "Name": "Waelchi-Wisozk",
+    "ToolTip": "Beatae est officia nulla recusandae nihil eos.",
     "Deleted": true,
-    "Rank": 417,
-    "Type": "qui",
+    "Rank": 504,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Brown, Russel and Keebler",
-        "ToolTip": "Autem veniam iste.",
+        "Id": 515,
+        "Name": "Moore, Boehm and Rippin",
+        "ToolTip": "Ipsam iste dicta vel a maiores quidem.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "ratione",
+        "Rank": 818,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 270,
-        "ExtraInfo": "ipsa",
-        "StyleHint": "quo",
-        "FullName": "Mr. Paige Fisher",
+        "IconHint": "dolorem",
+        "ColorBlock": 513,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "officiis",
+        "FullName": "Ressie Bahringer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "IconHint": "doloremque",
-    "ColorBlock": 872,
-    "ExtraInfo": "hic",
-    "StyleHint": "ipsa",
-    "FullName": "Bell Hoeger",
+    "IconHint": "tempore",
+    "ColorBlock": 552,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "nesciunt",
+    "FullName": "Torrance Barton",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "reintermediate collaborative functionalities"
         },
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 72
       }
     }
   }

@@ -123,45 +123,45 @@ Response body: object
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "rerum",
     "value": {
       "value1": {
-        "PrimaryKey": 4175,
-        "EntityName": "person",
-        "personId": 4175,
-        "fullName": "Willow Padberg"
+        "PrimaryKey": 4370,
+        "EntityName": "sale",
+        "saleId": 4370,
+        "contactId": 8049,
+        "name": "Bins LLC"
       },
       "value2": {
-        "PrimaryKey": 5363,
-        "EntityName": "sale",
-        "saleId": 5363,
-        "contactId": 3245,
-        "name": "Schmitt, Lemke and Purdy"
+        "PrimaryKey": 1922,
+        "EntityName": "person",
+        "personId": 1922,
+        "fullName": "Owen Shields"
       }
     }
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "rerum",
     "value": {
       "value1": {
-        "PrimaryKey": 4175,
-        "EntityName": "person",
-        "personId": 4175,
-        "fullName": "Willow Padberg"
+        "PrimaryKey": 4370,
+        "EntityName": "sale",
+        "saleId": 4370,
+        "contactId": 8049,
+        "name": "Bins LLC"
       },
       "value2": {
-        "PrimaryKey": 5363,
-        "EntityName": "sale",
-        "saleId": 5363,
-        "contactId": 3245,
-        "name": "Schmitt, Lemke and Purdy"
+        "PrimaryKey": 1922,
+        "EntityName": "person",
+        "personId": 1922,
+        "fullName": "Owen Shields"
       }
     }
   }
@@ -173,53 +173,27 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 286,
-  "Name": "Runolfsson, Koepp and Zieme",
-  "Tooltip": "eveniet",
+  "RoleId": 771,
+  "Name": "McGlynn, Langosh and Christiansen",
+  "Tooltip": "suscipit",
   "RoleType": "Anonymous",
-  "Deleted": 839,
-  "Rank": 357,
-  "Created": "2014-05-23T09:40:59.5166627+02:00",
-  "UseCategories": 771,
+  "Deleted": 216,
+  "Rank": 875,
+  "Created": "2010-12-27T15:05:42.5636352+01:00",
+  "UseCategories": 467,
   "CreatedBy": {
-    "AssociateId": 112,
-    "Name": "Schuster LLC",
-    "PersonId": 488,
-    "Rank": 336,
-    "Tooltip": "minus",
+    "AssociateId": 712,
+    "Name": "McLaughlin-Kuhlman",
+    "PersonId": 652,
+    "Rank": 426,
+    "Tooltip": "aliquid",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 111,
-    "FullName": "Baby Murray",
-    "FormalName": "Mitchell, Davis and Brekke",
-    "Deleted": true,
-    "EjUserId": 692,
-    "UserName": "Tromp Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 806
-      }
-    }
-  },
-  "Updated": "1999-08-12T09:40:59.5166627+02:00",
-  "UpdatedBy": {
-    "AssociateId": 713,
-    "Name": "Nikolaus Group",
-    "PersonId": 331,
-    "Rank": 179,
-    "Tooltip": "voluptatum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 369,
-    "FullName": "Dr. Ubaldo Beatty",
-    "FormalName": "Rowe, Dare and Dickinson",
+    "GroupIdx": 628,
+    "FullName": "Dr. Melba Hansen",
+    "FormalName": "Stehr-Farrell",
     "Deleted": false,
-    "EjUserId": 836,
-    "UserName": "Wolff Group",
+    "EjUserId": 970,
+    "UserName": "Fadel-Turner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -228,7 +202,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldLength": 178
+      }
+    }
+  },
+  "Updated": "2006-11-02T15:05:42.5636352+01:00",
+  "UpdatedBy": {
+    "AssociateId": 115,
+    "Name": "Watsica-Marvin",
+    "PersonId": 686,
+    "Rank": 955,
+    "Tooltip": "ea",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 419,
+    "FullName": "Billie Fisher",
+    "FormalName": "Collier Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 670,
+    "UserName": "Schneider, Schmidt and Zemlak",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   },
@@ -244,28 +244,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "eum",
-          "Description": "Fundamental cohesive implementation",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 330
-            }
-          }
-        }
-      ],
-      [
-        {
           "Value": "et",
-          "Description": "Progressive disintermediate capacity",
+          "Description": "Self-enabling context-sensitive challenge",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -277,7 +257,27 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 186
+              "FieldLength": 698
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "iure",
+          "Description": "Up-sized homogeneous toolset",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 302
             }
           }
         }
@@ -291,7 +291,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 755
       }
     }
   },
@@ -303,10 +303,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "exploit user-centric markets"
       },
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 72
     }
   },
   "_Links": {

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Nikolaus-Boyer",
-  "Tooltip": "voluptatem",
+  "Id": 874,
+  "Name": "Bins Group",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 782,
-  "Rank": 937
+  "UdListDefinitionId": 903,
+  "Rank": 478
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Tromp-Beahan",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 226,
-  "Rank": 540,
+  "Id": 336,
+  "Name": "Swaniawski, Friesen and Ledner",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 160,
+  "Rank": 830,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enhance innovative action-items"
       },
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

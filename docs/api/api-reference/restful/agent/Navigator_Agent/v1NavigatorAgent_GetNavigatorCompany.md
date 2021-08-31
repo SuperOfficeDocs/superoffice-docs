@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Navigator/GetNavigatorCompany
+title: GetNavigatorCompany
 id: v1NavigatorAgent_GetNavigatorCompany
 ---
 
-# POST Agents/Navigator/GetNavigatorCompany
+# GetNavigatorCompany
 
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompany
@@ -25,7 +25,7 @@ Gets a NavigatorCompany object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=443
+POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=893
 POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,category/id
 ```
 
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Navigator/GetNavigatorCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,21 +76,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 151,
-  "Value": "incidunt",
-  "Tooltip": "rerum",
+  "Id": 160,
+  "Value": "eaque",
+  "Tooltip": "illum",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "syndicate rich metrics"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "empower one-to-one niches"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

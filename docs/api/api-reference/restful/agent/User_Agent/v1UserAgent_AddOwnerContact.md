@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/AddOwnerContact
+title: AddOwnerContact
 id: v1UserAgent_AddOwnerContact
 ---
 
-# POST Agents/User/AddOwnerContact
+# AddOwnerContact
 
 ```http
 POST /api/v1/Agents/User/AddOwnerContact

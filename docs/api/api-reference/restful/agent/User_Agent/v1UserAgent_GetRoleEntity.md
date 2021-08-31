@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetRoleEntity
+title: GetRoleEntity
 id: v1UserAgent_GetRoleEntity
 ---
 
-# POST Agents/User/GetRoleEntity
+# GetRoleEntity
 
 ```http
 POST /api/v1/Agents/User/GetRoleEntity
@@ -27,7 +27,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=863
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=707
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -88,27 +88,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 48,
-  "Name": "Auer-Beer",
-  "Tooltip": "libero",
+  "RoleId": 730,
+  "Name": "Pollich-Ferry",
+  "Tooltip": "rerum",
   "RoleType": "Anonymous",
-  "Deleted": 53,
-  "Rank": 768,
-  "Created": "2018-07-08T16:48:30.9099398+02:00",
-  "UseCategories": 528,
+  "Deleted": 920,
+  "Rank": 891,
+  "Created": "2018-10-24T14:58:05.5660639+02:00",
+  "UseCategories": 30,
   "CreatedBy": {
-    "AssociateId": 475,
-    "Name": "Turner Group",
-    "PersonId": 686,
-    "Rank": 116,
-    "Tooltip": "optio",
+    "AssociateId": 531,
+    "Name": "Kertzmann, Thompson and Collins",
+    "PersonId": 412,
+    "Rank": 331,
+    "Tooltip": "repellendus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 971,
-    "FullName": "Lucas Nolan",
-    "FormalName": "Dicki, Reichert and Murray",
+    "GroupIdx": 407,
+    "FullName": "Kevin Dietrich",
+    "FormalName": "Marquardt Group",
     "Deleted": false,
-    "EjUserId": 101,
-    "UserName": "Lynch-O'Reilly",
+    "EjUserId": 639,
+    "UserName": "Bechtelar Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -117,24 +117,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 781
       }
     }
   },
-  "Updated": "2005-08-20T16:48:30.9109398+02:00",
+  "Updated": "1994-05-27T14:58:05.5660639+02:00",
   "UpdatedBy": {
-    "AssociateId": 931,
-    "Name": "Trantow-Barrows",
-    "PersonId": 532,
-    "Rank": 471,
-    "Tooltip": "sapiente",
+    "AssociateId": 938,
+    "Name": "Dooley Inc and Sons",
+    "PersonId": 517,
+    "Rank": 283,
+    "Tooltip": "animi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 395,
-    "FullName": "Leopold Fadel",
-    "FormalName": "Lubowitz LLC",
-    "Deleted": false,
-    "EjUserId": 100,
-    "UserName": "Hilpert, Erdman and Ullrich",
+    "GroupIdx": 769,
+    "FullName": "Matt Barton IV",
+    "FormalName": "Treutel Group",
+    "Deleted": true,
+    "EjUserId": 200,
+    "UserName": "Baumbach LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 253
       }
     }
   },
@@ -159,28 +159,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "delectus",
-          "Description": "Self-enabling high-level capability",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 338
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "quam",
-          "Description": "De-engineered attitude-oriented structure",
+          "Value": "reiciendis",
+          "Description": "Persistent actuating artificial intelligence",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -192,7 +172,27 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 431
+              "FieldLength": 588
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "necessitatibus",
+          "Description": "Adaptive modular matrix",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 769
             }
           }
         }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 17
       }
     }
   },
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 715
     }
   }
 }

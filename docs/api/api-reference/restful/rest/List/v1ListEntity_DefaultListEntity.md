@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Senger-Skiles",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "Rank": 829,
+  "Id": 835,
+  "Name": "Johns-Carter",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 480,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 159
     }
   }
 }

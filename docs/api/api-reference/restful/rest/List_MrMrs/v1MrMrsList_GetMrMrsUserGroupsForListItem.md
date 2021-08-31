@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Parisian, Romaguera and Ryan",
-    "ToolTip": "Mollitia nihil consequatur asperiores voluptatum qui voluptate.",
-    "Deleted": false,
-    "Rank": 489,
-    "Type": "veniam",
-    "ColorBlock": 913,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2004-03-02T09:41:00.4613773+01:00",
+    "Id": 113,
+    "Name": "Lockman Group",
+    "ToolTip": "Quis vero et consequatur.",
+    "Deleted": true,
+    "Rank": 317,
+    "Type": "et",
+    "ColorBlock": 189,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2009-12-29T15:05:43.5250802+01:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Spinka LLC",
-        "ToolTip": "Aut recusandae tempora voluptatum maxime.",
-        "Deleted": false,
-        "Rank": 550,
-        "Type": "non",
-        "ColorBlock": 605,
-        "IconHint": "iste",
+        "Id": 321,
+        "Name": "Nitzsche Inc and Sons",
+        "ToolTip": "Repellat magnam vitae fugit.",
+        "Deleted": true,
+        "Rank": 142,
+        "Type": "consequatur",
+        "ColorBlock": 176,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2004-12-19T09:41:00.4613773+01:00",
+        "LastChanged": "2005-03-10T15:05:43.5250802+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nisi",
+        "ExtraInfo": "vitae",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Miss Iliana Moore",
+        "FullName": "Julius Aufderhar",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 517
+            "FieldType": "System.Int32",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Garry Kulas",
+    "ExtraInfo": "at",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Joan Wuckert",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumnsWithHeader
+title: GetArchiveListByColumnsWithHeader
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
 ---
 
-# POST Agents/Archive/GetArchiveListByColumnsWithHeader
+# GetArchiveListByColumnsWithHeader
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -15,83 +15,26 @@ The return value includes a header that has various extra information, in additi
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -169,36 +112,36 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Roberts LLC",
+  "ProviderName": "Heaney-Bergstrom",
   "Columns": [
-    "possimus",
-    "sunt"
+    "et",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "West, Bechtelar and O'Kon",
+      "Name": "Rohan Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "West, Bechtelar and O'Kon",
+      "Name": "Rohan Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Littel, Abbott and White",
-      "Operator": "corrupti",
+      "Name": "Runolfsdottir Group",
+      "Operator": "voluptas",
       "Values": [
-        "debitis",
-        "sapiente"
+        "assumenda",
+        "est"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "blanditiis"
+        "qui",
+        "ut"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -206,18 +149,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 236,
+      "InterParenthesis": 976,
       "InterOperator": "And",
-      "UniqueHash": 321
+      "UniqueHash": 416
     }
   ],
   "Entities": [
-    "ad",
-    "perferendis"
+    "rerum",
+    "autem"
   ],
-  "Page": 353,
-  "PageSize": 476,
-  "Options": "doloribus"
+  "Page": 247,
+  "PageSize": 977,
+  "Options": "consequatur"
 }
 ```
 
@@ -226,29 +169,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 628,
+  "RowCount": 217,
   "Rows": [
     {
-      "EntityName": "Homenick Inc and Sons",
-      "PrimaryKey": 729,
+      "EntityName": "Stracke-Schaefer",
+      "PrimaryKey": 735,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "eum",
-          "LinkHint": "ipsam"
+          "DisplayValue": "temporibus",
+          "TooltipHint": "rem",
+          "LinkHint": "officiis"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "laborum",
+      "LinkHint": "ipsam",
+      "StyleHint": "ullam",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "innovate leading-edge portals"
           },
           "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldLength": 69
         }
       }
     }
@@ -263,8 +206,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

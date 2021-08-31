@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetMyTasks
+title: GetMyTasks
 id: v1AppointmentAgent_GetMyTasks
 ---
 
-# POST Agents/Appointment/GetMyTasks
+# GetMyTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyTasks
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 522
+  "Count": 831
 }
 ```
 
@@ -135,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 661,
-    "StartDate": "2002-11-06T16:48:28.4284487+01:00",
-    "EndDate": "2016-05-20T16:48:28.4284487+02:00",
+    "AppointmentId": 836,
+    "StartDate": "2011-12-14T14:58:03.0475382+01:00",
+    "EndDate": "1998-09-14T14:58:03.0475382+02:00",
     "Type": "BookingForChecklist",
-    "Task": "minus",
-    "AssociateFullName": "Fermin Durgan",
-    "ContactName": "Smith-Schmeler",
-    "Description": "Cross-platform upward-trending hierarchy",
-    "PersonFullName": "Leif Heidenreich",
-    "PersonId": 651,
-    "ContactId": 80,
-    "ProjectId": 597,
-    "ProjectName": "Williamson LLC",
-    "IsPublished": false,
-    "AssociateId": 55,
-    "ColorIndex": 369,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "non",
+    "AssociateFullName": "Karianne Grant Jr.",
+    "ContactName": "Douglas-Pacocha",
+    "Description": "Cross-group contextually-based array",
+    "PersonFullName": "Grant Crist",
+    "PersonId": 234,
+    "ContactId": 482,
+    "ProjectId": 349,
+    "ProjectName": "Wisozk, Skiles and Hansen",
+    "IsPublished": true,
+    "AssociateId": 553,
+    "ColorIndex": 151,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 484,
-    "PriorityName": "Murphy, Nienow and Johnston",
+    "PriorityId": 96,
+    "PriorityName": "O'Hara-Balistreri",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1993-11-10T16:48:28.4284487+01:00",
+    "IsBooking": true,
+    "ActiveDate": "1996-08-09T14:58:03.0475382+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-09-20T16:48:28.4284487+02:00",
-    "RecurringEndDate": "2017-10-25T16:48:28.4284487+02:00",
-    "MotherId": 709,
-    "AssignedBy": 588,
-    "AssignedByFullName": "Lavonne Hayes III",
+    "RecurringStartDate": "1994-04-23T14:58:03.0475382+02:00",
+    "RecurringEndDate": "2013-11-27T14:58:03.0475382+01:00",
+    "MotherId": 935,
+    "AssignedBy": 724,
+    "AssignedByFullName": "Melyssa Johnson I",
     "RejectReason": "",
-    "Location": "quo",
-    "AlarmLeadTime": "perferendis",
-    "SaleId": 478,
-    "SaleName": "West-Stokes",
-    "AssociateName": "VonRueden, Herman and Bailey",
-    "CreatedDate": "2007-10-04T16:48:28.4294488+02:00",
-    "CreatedBy": "doloremque",
-    "CreatedByFullName": "Ms. Sid Vandervort",
-    "CreatedByAssociateId": 81,
+    "Location": "accusamus",
+    "AlarmLeadTime": "voluptatum",
+    "SaleId": 328,
+    "SaleName": "Huel-Veum",
+    "AssociateName": "Kessler Inc and Sons",
+    "CreatedDate": "2005-10-27T14:58:03.0475382+02:00",
+    "CreatedBy": "culpa",
+    "CreatedByFullName": "Mrs. Jessika O'Kon",
+    "CreatedByAssociateId": 902,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldLength": 203
       }
     }
   }

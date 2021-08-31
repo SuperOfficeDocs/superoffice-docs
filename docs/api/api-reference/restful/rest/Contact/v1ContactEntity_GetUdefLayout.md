@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 395,
-    "ColumnId": 410,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 441,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 487,
-    "FieldTop": 294,
+    "UDefFieldId": 1000,
+    "ColumnId": 658,
+    "FieldDefault": "eius",
+    "FieldHeight": 744,
+    "FieldLabel": "est",
+    "FieldLeft": 682,
+    "FieldTop": 927,
     "FieldType": "Checkbox",
-    "FieldWidth": 454,
-    "FormatMask": "quo",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 956,
-    "LabelLeft": 694,
-    "LabelTop": 121,
-    "LabelWidth": 973,
-    "LastVersionId": 153,
-    "ListTableId": 438,
-    "IsMandatory": true,
+    "FieldWidth": 691,
+    "FormatMask": "optio",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 102,
+    "LabelLeft": 235,
+    "LabelTop": 682,
+    "LabelWidth": 635,
+    "LastVersionId": 644,
+    "ListTableId": 377,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 877,
-    "ProgId": "commodi",
-    "IsReadOnly": true,
-    "ShortLabel": "veniam",
-    "TabOrder": 958,
-    "TextLength": 316,
-    "Tooltip": "sed",
-    "UdefIdentity": 150,
-    "UDListDefinitionId": 587,
+    "Page1LineNo": 166,
+    "ProgId": "numquam",
+    "IsReadOnly": false,
+    "ShortLabel": "quia",
+    "TabOrder": 112,
+    "TextLength": 343,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 694,
+    "UDListDefinitionId": 709,
     "Justification": "Center",
-    "Version": 251,
-    "TemplateVariableName": "Predovic-Orn",
-    "HasBeenPublished": false,
-    "MdoListName": "Corkery Group",
+    "Version": 945,
+    "TemplateVariableName": "Krajcik, Metz and Runolfsdottir",
+    "HasBeenPublished": true,
+    "MdoListName": "Gerlach-Cassin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 527
       }
     }
   }

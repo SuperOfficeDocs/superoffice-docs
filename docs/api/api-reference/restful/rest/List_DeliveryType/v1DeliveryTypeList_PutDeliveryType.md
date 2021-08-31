@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Kiehn, Hettinger and Runolfsdottir",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 600,
-  "Rank": 32
+  "Id": 798,
+  "Name": "Schneider, Lindgren and Sawayn",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "UdListDefinitionId": 33,
+  "Rank": 742
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Becker Inc and Sons",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "UdListDefinitionId": 455,
-  "Rank": 277,
+  "Id": 461,
+  "Name": "Botsford, Jones and Bins",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "UdListDefinitionId": 397,
+  "Rank": 370,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "empower e-business architectures"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

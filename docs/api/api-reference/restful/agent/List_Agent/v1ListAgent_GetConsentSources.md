@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetConsentSources
+title: GetConsentSources
 id: v1ListAgent_GetConsentSources
 ---
 
-# POST Agents/List/GetConsentSources
+# GetConsentSources
 
 ```http
 POST /api/v1/Agents/List/GetConsentSources
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,12 +79,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 517,
-    "Name": "Feest, Hickle and Marvin",
-    "Tooltip": "repellat",
-    "Rank": 599,
-    "Key": "esse",
-    "MailTemplateId": 984,
+    "ConsentSourceId": 145,
+    "Name": "Schinner LLC",
+    "Tooltip": "omnis",
+    "Rank": 858,
+    "Key": "expedita",
+    "MailTemplateId": 583,
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

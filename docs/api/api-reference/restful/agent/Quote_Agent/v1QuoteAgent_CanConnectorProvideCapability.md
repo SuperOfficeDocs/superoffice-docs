@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CanConnectorProvideCapability
+title: CanConnectorProvideCapability
 id: v1QuoteAgent_CanConnectorProvideCapability
 ---
 
-# POST Agents/Quote/CanConnectorProvideCapability
+# CanConnectorProvideCapability
 
 ```http
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 49,
-  "CapabilityName": "Wintheiser-Lang"
+  "QuoteConnectionId": 624,
+  "CapabilityName": "Konopelski-Zieme"
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/CreateDefaultSaleStakeholder
+title: CreateDefaultSaleStakeholder
 id: v1SaleAgent_CreateDefaultSaleStakeholder
 ---
 
-# POST Agents/Sale/CreateDefaultSaleStakeholder
+# CreateDefaultSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
@@ -81,25 +81,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Langosh Group",
-  "Comment": "architecto",
-  "StakeholderRoleId": 4,
-  "CountryId": 661,
-  "PersonId": 273,
-  "EmailDescription": "lorna_kub@brown.com",
-  "EmailId": 526,
-  "EmailAddress": "jennyfer@stark.biz",
-  "PhoneId": 297,
-  "ContactName": "Schiller, Heaney and Langosh",
-  "ContactId": 559,
-  "SaleId": 762,
-  "Mrmrs": "fugiat",
-  "Firstname": "Aglae",
-  "MiddleName": "Wunsch LLC",
-  "Lastname": "Johns",
-  "SaleStakeholderId": 12,
-  "Rank": 738,
-  "Phone": "1-744-316-4442",
+  "StakeholderRoleName": "Jast Group",
+  "Comment": "consequuntur",
+  "StakeholderRoleId": 27,
+  "CountryId": 207,
+  "PersonId": 793,
+  "EmailDescription": "maymie.thompson@beer.ca",
+  "EmailId": 473,
+  "EmailAddress": "breanna@flatley.info",
+  "PhoneId": 221,
+  "ContactName": "Schultz-Kozey",
+  "ContactId": 431,
+  "SaleId": 16,
+  "Mrmrs": "dolor",
+  "Firstname": "Virgil",
+  "MiddleName": "Kshlerin, Robel and Rogahn",
+  "Lastname": "Carter",
+  "SaleStakeholderId": 654,
+  "Rank": 317,
+  "Phone": "1-181-482-5163",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

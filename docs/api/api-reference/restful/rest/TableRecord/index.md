@@ -2,6 +2,8 @@
 title: TableRecord
 ---
 
+# TableRecord
+
 ```http
 /api/v1/TableRecord
 ```

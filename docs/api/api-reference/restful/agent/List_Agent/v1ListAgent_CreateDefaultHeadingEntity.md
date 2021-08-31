@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultHeadingEntity
+title: CreateDefaultHeadingEntity
 id: v1ListAgent_CreateDefaultHeadingEntity
 ---
 
-# POST Agents/List/CreateDefaultHeadingEntity
+# CreateDefaultHeadingEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 150,
-  "Name": "Flatley, Lang and Labadie",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "Rank": 415,
-  "UdListDefinitionId": 826,
+  "HeadingId": 889,
+  "Name": "Borer-Luettgen",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 911,
+  "UdListDefinitionId": 99,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldLength": 239
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetUserBlocks
+title: GetUserBlocks
 id: v1MarketingAgent_GetUserBlocks
 ---
 
-# POST Agents/Marketing/GetUserBlocks
+# GetUserBlocks
 
 ```http
 POST /api/v1/Agents/Marketing/GetUserBlocks
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Marketing/GetUserBlocks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 813
+  "AssociateId": 50
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 287,
-    "AssociateId": 977,
-    "Block": "rerum",
-    "Registered": "2009-03-25T16:48:29.9589333+01:00",
-    "RegisteredAssociateId": 767,
-    "Updated": "2017-10-16T16:48:29.9589333+02:00",
-    "UpdatedAssociateId": 52,
-    "UpdatedCount": 556,
+    "ShipmentMessageBlockId": 779,
+    "AssociateId": 512,
+    "Block": "est",
+    "Registered": "1999-02-28T14:58:04.4994654+01:00",
+    "RegisteredAssociateId": 798,
+    "Updated": "2020-07-21T14:58:04.4994654+02:00",
+    "UpdatedAssociateId": 290,
+    "UpdatedCount": 384,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldType": "System.Int32",
+        "FieldLength": 275
       }
     }
   }

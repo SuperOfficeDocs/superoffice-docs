@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sentry/GetTableRightByContactOwnership
+title: GetTableRightByContactOwnership
 id: v1SentryAgent_GetTableRightByContactOwnership
 ---
 
-# POST Agents/Sentry/GetTableRightByContactOwnership
+# GetTableRightByContactOwnership
 
 ```http
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
@@ -73,12 +73,12 @@ Response body: object
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reichert-Bins",
-  "ContactId": 693
+  "TableName": "Johnson-Ebert",
+  "ContactId": 515
 }
 ```
 

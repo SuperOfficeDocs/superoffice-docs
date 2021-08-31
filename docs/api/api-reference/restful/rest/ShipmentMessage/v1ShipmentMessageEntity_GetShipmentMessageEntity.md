@@ -102,27 +102,27 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 785,
-  "PlainMessage": "asperiores",
-  "HtmlMessage": "explicabo",
-  "SmsMessage": "vitae",
-  "Description": "Face to face user-facing projection",
-  "Subject": "possimus",
-  "FolderId": 636,
-  "HeaderField": "vel",
-  "Design": "sequi",
+  "ShipmentMessageId": 982,
+  "PlainMessage": "ipsum",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "reprehenderit",
+  "Description": "Multi-tiered solution-oriented structure",
+  "Subject": "consectetur",
+  "FolderId": 850,
+  "HeaderField": "expedita",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Organic exuding initiative",
-  "AccessKey": "laborum",
-  "DocumentMessage": 837,
-  "Registered": "2000-05-16T09:40:59.7560636+02:00",
-  "RegisteredAssociateId": 542,
-  "Updated": "2009-07-17T09:40:59.7560636+02:00",
-  "UpdatedAssociateId": 701,
-  "UpdatedCount": 946,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Triple-buffered client-server structure",
+  "AccessKey": "architecto",
+  "DocumentMessage": 921,
+  "Registered": "2007-08-08T15:05:42.760663+02:00",
+  "RegisteredAssociateId": 126,
+  "Updated": "2008-08-08T15:05:42.760663+02:00",
+  "UpdatedAssociateId": 518,
+  "UpdatedCount": 832,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 684
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

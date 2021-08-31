@@ -76,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "error",
-    "Values2": "quae"
+    "Values1": "aliquid",
+    "Values2": "velit"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

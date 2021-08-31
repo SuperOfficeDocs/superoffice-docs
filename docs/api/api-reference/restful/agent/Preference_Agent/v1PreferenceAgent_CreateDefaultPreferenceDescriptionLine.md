@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
+title: CreateDefaultPreferenceDescriptionLine
 id: v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine
 ---
 
-# POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
+# CreateDefaultPreferenceDescriptionLine
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -72,11 +72,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 626,
-  "PrefDescId": 854,
-  "PrefValue": "et",
-  "PrefShowValue": "debitis",
-  "Description": "Profound holistic groupware",
+  "PrefDescLineId": 443,
+  "PrefDescId": 588,
+  "PrefValue": "quae",
+  "PrefShowValue": "est",
+  "Description": "Implemented impactful product",
   "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 855
     }
   }
 }

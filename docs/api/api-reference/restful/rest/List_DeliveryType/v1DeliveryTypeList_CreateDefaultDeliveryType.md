@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Vandervort-Ortiz",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 191,
-  "Rank": 38,
+  "Id": 338,
+  "Name": "Pouros-Schowalter",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "UdListDefinitionId": 569,
+  "Rank": 418,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

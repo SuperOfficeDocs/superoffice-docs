@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/Accept
+title: Accept
 id: v1AppointmentAgent_Accept
 ---
 
-# POST Agents/Appointment/Accept
+# Accept
 
 ```http
 POST /api/v1/Agents/Appointment/Accept

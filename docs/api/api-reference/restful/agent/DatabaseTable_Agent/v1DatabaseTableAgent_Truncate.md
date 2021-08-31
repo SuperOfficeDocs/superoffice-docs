@@ -1,16 +1,17 @@
 ---
-title: POST Agents/DatabaseTable/Truncate
+title: Truncate
 id: v1DatabaseTableAgent_Truncate
 ---
 
-# POST Agents/DatabaseTable/Truncate
+# Truncate
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Truncate
 ```
 
-Drop all rows in a table
+Drop all rows in a table.
 
+This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
 
 ## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -71,10 +72,11 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | Did the operation succeed |
-| Message | string | Any message from the method; blank if success |
+| Message | string | Any message from the method, including timing data |
 | Inserts | int32 | Number of rows inserted |
 | Updates | int32 | Number of rows updated |
-| Deletes | int32 | Number of rows deleted |
+| Deletes | int32 | Number of rows deleted / zeroed |
+| RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -84,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Grant LLC"
+  "TableName": "Conn Inc and Sons"
 }
 ```
 
@@ -97,11 +99,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "excepturi",
-  "Inserts": 770,
-  "Updates": 576,
-  "Deletes": 411,
+  "Success": false,
+  "Message": "impedit",
+  "Inserts": 120,
+  "Updates": 877,
+  "Deletes": 76,
+  "RowStatus": [
+    {
+      "PrimaryKey": 914,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "ut",
+        "consequatur"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 997
+        }
+      }
+    },
+    {
+      "PrimaryKey": 914,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "ut",
+        "consequatur"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 997
+        }
+      }
+    }
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

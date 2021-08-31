@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/AddProjectMembers
+title: AddProjectMembers
 id: v1ProjectAgent_AddProjectMembers
 ---
 
-# POST Agents/Project/AddProjectMembers
+# AddProjectMembers
 
 ```http
 POST /api/v1/Agents/Project/AddProjectMembers

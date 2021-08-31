@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/CreateDefaultReportEntity
+title: CreateDefaultReportEntity
 id: v1ReportAgent_CreateDefaultReportEntity
 ---
 
-# POST Agents/Report/CreateDefaultReportEntity
+# CreateDefaultReportEntity
 
 ```http
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
@@ -62,7 +62,7 @@ Response body: object
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,13 +70,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 678,
+  "ReportId": 170,
   "ReportCategory": "All",
-  "Description": "Assimilated system-worthy capability",
+  "Description": "Phased object-oriented installation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Waters-Rodriguez",
-  "AssociateId": 327,
-  "TemplateId": 65,
+  "Name": "Glover, Feil and Casper",
+  "AssociateId": 696,
+  "TemplateId": 945,
   "Published": false,
   "TableRight": {
     "Mask": "Delete",
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

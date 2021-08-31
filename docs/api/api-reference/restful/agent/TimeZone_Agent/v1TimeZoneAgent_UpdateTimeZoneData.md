@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/UpdateTimeZoneData
+title: UpdateTimeZoneData
 id: v1TimeZoneAgent_UpdateTimeZoneData
 ---
 
-# POST Agents/TimeZone/UpdateTimeZoneData
+# UpdateTimeZoneData
 
 ```http
 POST /api/v1/Agents/TimeZone/UpdateTimeZoneData
@@ -59,12 +59,12 @@ Response body: bool
 POST /api/v1/Agents/TimeZone/UpdateTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

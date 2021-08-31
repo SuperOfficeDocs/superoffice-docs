@@ -60,12 +60,12 @@ Response body: int32
 PUT /api/v1/Person/{personId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-442
+498
 ```

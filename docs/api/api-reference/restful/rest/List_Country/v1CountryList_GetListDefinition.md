@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Runolfsdottir, Monahan and Nader",
+  "Id": 333,
+  "Name": "Nolan, Rowe and Reichel",
   "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 48,
-  "IsCustomList": false,
+  "Deleted": true,
+  "Rank": 607,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "envisioneer magnetic metrics"
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 221
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   },
   "_Links": {

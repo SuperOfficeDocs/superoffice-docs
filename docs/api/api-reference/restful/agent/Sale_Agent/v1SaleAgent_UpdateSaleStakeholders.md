@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/UpdateSaleStakeholders
+title: UpdateSaleStakeholders
 id: v1SaleAgent_UpdateSaleStakeholders
 ---
 
-# POST Agents/Sale/UpdateSaleStakeholders
+# UpdateSaleStakeholders
 
 ```http
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
@@ -91,31 +91,31 @@ Response body: array
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Konopelski Group",
-      "Comment": "sit",
-      "StakeholderRoleId": 665,
-      "CountryId": 126,
-      "PersonId": 682,
-      "EmailDescription": "tobin.langworth@paucek.info",
-      "EmailId": 744,
-      "EmailAddress": "ronaldo_wuckert@manteking.us",
-      "PhoneId": 632,
-      "ContactName": "Vandervort-Stokes",
-      "ContactId": 353,
-      "SaleId": 474,
-      "Mrmrs": "enim",
-      "Firstname": "Alessandra",
-      "MiddleName": "Grady, Gorczany and Bergnaum",
-      "Lastname": "Prosacco",
-      "SaleStakeholderId": 794,
-      "Rank": 41,
-      "Phone": "(720)842-4662 x1510"
+      "StakeholderRoleName": "Bernhard LLC",
+      "Comment": "nobis",
+      "StakeholderRoleId": 308,
+      "CountryId": 713,
+      "PersonId": 924,
+      "EmailDescription": "michelle@stehr.ca",
+      "EmailId": 793,
+      "EmailAddress": "demetris@spencerweber.co.uk",
+      "PhoneId": 985,
+      "ContactName": "Hyatt-Pfannerstill",
+      "ContactId": 413,
+      "SaleId": 622,
+      "Mrmrs": "asperiores",
+      "Firstname": "Geoffrey",
+      "MiddleName": "Hessel-Hane",
+      "Lastname": "Rippin",
+      "SaleStakeholderId": 966,
+      "Rank": 839,
+      "Phone": "1-466-020-6025"
     }
   ]
 }
@@ -127,25 +127,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Goyette, Weimann and Lubowitz",
-    "Comment": "non",
-    "StakeholderRoleId": 904,
-    "CountryId": 469,
-    "PersonId": 34,
-    "EmailDescription": "nelson_dare@gutmanngaylord.name",
-    "EmailId": 666,
-    "EmailAddress": "dillan@kozey.uk",
-    "PhoneId": 194,
-    "ContactName": "Pagac, Schiller and Bradtke",
-    "ContactId": 20,
-    "SaleId": 80,
-    "Mrmrs": "suscipit",
-    "Firstname": "Eugene",
-    "MiddleName": "Renner LLC",
-    "Lastname": "Torp",
-    "SaleStakeholderId": 477,
-    "Rank": 365,
-    "Phone": "771.607.6108",
+    "StakeholderRoleName": "Feeney, Powlowski and Baumbach",
+    "Comment": "placeat",
+    "StakeholderRoleId": 671,
+    "CountryId": 431,
+    "PersonId": 177,
+    "EmailDescription": "judy@brownbauch.com",
+    "EmailId": 579,
+    "EmailAddress": "tevin.morar@rutherford.com",
+    "PhoneId": 249,
+    "ContactName": "Lehner Group",
+    "ContactId": 610,
+    "SaleId": 171,
+    "Mrmrs": "cum",
+    "Firstname": "Jakayla",
+    "MiddleName": "Collier, Luettgen and Stamm",
+    "Lastname": "Lind",
+    "SaleStakeholderId": 833,
+    "Rank": 724,
+    "Phone": "1-164-876-5858",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 81
       }
     }
   }

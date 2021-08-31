@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetCredentialTypes
+title: GetCredentialTypes
 id: v1UserAgent_GetCredentialTypes
 ---
 
-# POST Agents/User/GetCredentialTypes
+# GetCredentialTypes
 
 ```http
 POST /api/v1/Agents/User/GetCredentialTypes
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -80,12 +80,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "molestias",
-    "Type": "commodi",
-    "Description": "Intuitive real-time info-mediaries",
+    "DisplayType": "voluptates",
+    "Type": "sed",
+    "Description": "De-engineered zero defect paradigm",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 215
       }
     }
   }

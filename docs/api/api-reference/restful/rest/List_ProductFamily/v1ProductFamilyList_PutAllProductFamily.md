@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Welch, Schamberger and Littel",
-    "Tooltip": "molestiae",
+    "Id": 782,
+    "Name": "Nitzsche, Mante and Hilll",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 684,
-    "Rank": 728
+    "UdListDefinitionId": 660,
+    "Rank": 945
   },
   {
-    "Id": 838,
-    "Name": "Welch, Schamberger and Littel",
-    "Tooltip": "molestiae",
+    "Id": 782,
+    "Name": "Nitzsche, Mante and Hilll",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 684,
-    "Rank": 728
+    "UdListDefinitionId": 660,
+    "Rank": 945
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Bosco, Bednar and Dicki",
-    "Tooltip": "aspernatur",
-    "Deleted": true,
-    "UdListDefinitionId": 239,
-    "Rank": 210,
+    "Id": 339,
+    "Name": "Klocko-Block",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "UdListDefinitionId": 832,
+    "Rank": 383,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "deploy collaborative partnerships"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

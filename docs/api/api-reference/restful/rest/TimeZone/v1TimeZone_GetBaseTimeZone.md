@@ -66,31 +66,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 2,
-  "Name": "Flatley LLC",
-  "TZLocationCode": "ut",
-  "TZLocationCities": "in",
-  "IsoNumber": 813,
+  "TZLocationID": 506,
+  "Name": "Ondricka-Hane",
+  "TZLocationCode": "et",
+  "TZLocationCities": "aut",
+  "IsoNumber": 172,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 245,
-      "StartMonth": 630,
-      "EndDay": 326,
-      "EndMonth": 25,
-      "TZOffset": 875,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "et"
+      "StartDay": 623,
+      "StartMonth": 139,
+      "EndDay": 246,
+      "EndMonth": 427,
+      "TZOffset": 792,
+      "StartRulePattern": "dolor",
+      "EndRulePattern": "sunt"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 48,
-      "StartMonth": 172,
-      "EndDay": 310,
-      "EndMonth": 5,
-      "TZOffset": 168,
-      "StartRulePattern": "quia",
-      "EndRulePattern": "aut"
+      "StartDay": 592,
+      "StartMonth": 171,
+      "EndDay": 763,
+      "EndMonth": 433,
+      "TZOffset": 865,
+      "StartRulePattern": "velit",
+      "EndRulePattern": "ad"
     }
   }
 }

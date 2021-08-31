@@ -24,7 +24,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Metz LLC",
-    "Tooltip": "facere",
+    "Id": 972,
+    "Name": "Gulgowski, Hoppe and Reichel",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 157,
-    "Rank": 769,
+    "UdListDefinitionId": 511,
+    "Rank": 69,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "unleash end-to-end experiences"
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

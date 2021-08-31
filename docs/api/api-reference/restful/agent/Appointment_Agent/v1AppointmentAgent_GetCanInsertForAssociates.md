@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetCanInsertForAssociates
+title: GetCanInsertForAssociates
 id: v1AppointmentAgent_GetCanInsertForAssociates
 ---
 
-# POST Agents/Appointment/GetCanInsertForAssociates
+# GetCanInsertForAssociates
 
 ```http
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
@@ -68,12 +68,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    332,
+    955,
     336
   ]
 }

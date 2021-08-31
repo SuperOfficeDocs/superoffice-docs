@@ -1,16 +1,17 @@
 ---
-title: POST Agents/DatabaseTable/Insert
+title: Insert
 id: v1DatabaseTableAgent_Insert
 ---
 
-# POST Agents/DatabaseTable/Insert
+# Insert
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Insert
 ```
 
-Mass-insert rows, with or without primary keys specified
+Mass-insert rows, with or without primary keys specified.
 
+Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
 
 
 ## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -73,10 +74,11 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | Did the operation succeed |
-| Message | string | Any message from the method; blank if success |
+| Message | string | Any message from the method, including timing data |
 | Inserts | int32 | Number of rows inserted |
 | Updates | int32 | Number of rows updated |
-| Deletes | int32 | Number of rows deleted |
+| Deletes | int32 | Number of rows deleted / zeroed |
+| RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -86,14 +88,14 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schmidt-Funk",
+  "TableName": "Schiller, Bashirian and Gusikowski",
   "Columns": [
-    "excepturi",
-    "qui"
+    "accusantium",
+    "sit"
   ],
   "Data": [
     [
@@ -112,10 +114,50 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "laborum",
-  "Inserts": 362,
-  "Updates": 441,
-  "Deletes": 889,
+  "Message": "est",
+  "Inserts": 62,
+  "Updates": 630,
+  "Deletes": 522,
+  "RowStatus": [
+    {
+      "PrimaryKey": 181,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "consequatur",
+        "alias"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 59
+        }
+      }
+    },
+    {
+      "PrimaryKey": 181,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "consequatur",
+        "alias"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 59
+        }
+      }
+    }
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -126,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

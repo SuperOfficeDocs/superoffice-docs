@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 458,
-  "Name": "Padberg, Rohan and Pouros",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "UdListDefinitionId": 109,
-  "Rank": 533
+  "Id": 396,
+  "Name": "Dach LLC",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "UdListDefinitionId": 487,
+  "Rank": 457
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Trantow Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 305,
+  "Name": "Wilkinson, Keeling and Osinski",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "UdListDefinitionId": 760,
-  "Rank": 806,
+  "UdListDefinitionId": 586,
+  "Rank": 675,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "exploit impactful communities"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

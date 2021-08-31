@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 882,
-  "ColumnId": 639,
-  "FieldDefault": "cum",
-  "FieldHeight": 276,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 718,
-  "FieldTop": 53,
+  "UDefFieldId": 496,
+  "ColumnId": 20,
+  "FieldDefault": "sunt",
+  "FieldHeight": 106,
+  "FieldLabel": "nisi",
+  "FieldLeft": 881,
+  "FieldTop": 967,
   "FieldType": "Checkbox",
-  "FieldWidth": 807,
-  "FormatMask": "culpa",
+  "FieldWidth": 812,
+  "FormatMask": "quis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 469,
-  "LabelLeft": 575,
-  "LabelTop": 467,
-  "LabelWidth": 683,
-  "LastVersionId": 618,
-  "ListTableId": 962,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 367,
+  "LabelLeft": 424,
+  "LabelTop": 224,
+  "LabelWidth": 508,
+  "LastVersionId": 89,
+  "ListTableId": 221,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 605,
-  "ProgId": "id",
-  "IsReadOnly": true,
-  "ShortLabel": "nemo",
-  "TabOrder": 531,
-  "TextLength": 60,
-  "Tooltip": "qui",
-  "UdefIdentity": 133,
-  "UDListDefinitionId": 296,
+  "Page1LineNo": 205,
+  "ProgId": "culpa",
+  "IsReadOnly": false,
+  "ShortLabel": "sunt",
+  "TabOrder": 697,
+  "TextLength": 904,
+  "Tooltip": "impedit",
+  "UdefIdentity": 339,
+  "UDListDefinitionId": 785,
   "Justification": "Center",
-  "Version": 427,
-  "TemplateVariableName": "Kihn Group",
+  "Version": 924,
+  "TemplateVariableName": "Schulist, Huels and Jakubowski",
   "HasBeenPublished": true,
-  "MdoListName": "Glover-Hansen",
+  "MdoListName": "Willms Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 483
     }
   }
 }

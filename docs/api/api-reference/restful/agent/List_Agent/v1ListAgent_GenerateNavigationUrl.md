@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GenerateNavigationUrl
+title: GenerateNavigationUrl
 id: v1ListAgent_GenerateNavigationUrl
 ---
 
-# POST Agents/List/GenerateNavigationUrl
+# GenerateNavigationUrl
 
 ```http
 POST /api/v1/Agents/List/GenerateNavigationUrl
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Kuhn LLC"
+  "WindowName": "Swift, Upton and Thompson"
 }
 ```
 

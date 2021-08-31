@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetNameDepartmentDuplicates
+title: GetNameDepartmentDuplicates
 id: v1ContactAgent_GetNameDepartmentDuplicates
 ---
 
-# POST Agents/Contact/GetNameDepartmentDuplicates
+# GetNameDepartmentDuplicates
 
 ```http
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
@@ -82,8 +82,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Runolfsson-Hessel",
-  "Department": "generate user-centric relationships"
+  "Name": "Baumbach-Rodriguez",
+  "Department": ""
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hagenes Inc and Sons",
-    "SoPrimaryKey": 2,
-    "EntryName": "Hilll, Roberts and Koch",
-    "EntryIdentifier": "ea",
-    "RuleDisplayName": "Stehr-Kuvalis",
+    "RuleName": "Greenfelder, Botsford and Tillman",
+    "SoPrimaryKey": 277,
+    "EntryName": "Murazik, Rohan and Smith",
+    "EntryIdentifier": "harum",
+    "RuleDisplayName": "Swaniawski, Stanton and Altenwerth",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetOwnerCompanysCurrency
+title: GetOwnerCompanysCurrency
 id: v1ListAgent_GetOwnerCompanysCurrency
 ---
 
-# POST Agents/List/GetOwnerCompanysCurrency
+# GetOwnerCompanysCurrency
 
 ```http
 POST /api/v1/Agents/List/GetOwnerCompanysCurrency
@@ -67,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/List/GetOwnerCompanysCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705,
-  "Value": "quos",
-  "Tooltip": "vero",
+  "Id": 530,
+  "Value": "quis",
+  "Tooltip": "dolor",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 4
     }
   }
 }

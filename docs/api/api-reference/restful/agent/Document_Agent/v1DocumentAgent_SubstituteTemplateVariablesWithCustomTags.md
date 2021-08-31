@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
+title: SubstituteTemplateVariablesWithCustomTags
 id: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags
 ---
 
-# POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
+# SubstituteTemplateVariablesWithCustomTags
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "molestiae",
+  "Source": "ab",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "et",
-    "minima"
+    "dolores",
+    "voluptas"
   ],
   "CustomValues": [
-    "sunt",
-    "autem"
+    "ut",
+    "et"
   ],
-  "ContactId": 251,
-  "PersonId": 920,
-  "AppointmentId": 724,
-  "DocumentId": 969,
-  "SaleId": 43,
-  "SelectionId": 915,
-  "ProjectId": 69,
+  "ContactId": 710,
+  "PersonId": 199,
+  "AppointmentId": 79,
+  "DocumentId": 522,
+  "SaleId": 953,
+  "SelectionId": 581,
+  "ProjectId": 373,
   "CultureName": "sv"
 }
 ```
@@ -108,5 +108,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"hic"
+"tempora"
 ```

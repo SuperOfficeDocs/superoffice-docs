@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllSaleType
+title: GetAllSaleType
 id: v1ListAgent_GetAllSaleType
 ---
 
-# POST Agents/List/GetAllSaleType
+# GetAllSaleType
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleType
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
+    "Id": 670,
     "Value": "quo",
-    "Tooltip": "nisi",
+    "Tooltip": "saepe",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "innovate magnetic e-markets"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   },
   {
-    "Id": 230,
+    "Id": 670,
     "Value": "quo",
-    "Tooltip": "nisi",
+    "Tooltip": "saepe",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "innovate magnetic e-markets"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

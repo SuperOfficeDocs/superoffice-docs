@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/CreateTempFile
+title: CreateTempFile
 id: v1DocumentAgent_CreateTempFile
 ---
 
-# POST Agents/Document/CreateTempFile
+# CreateTempFile
 
 ```http
 POST /api/v1/Agents/Document/CreateTempFile
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repellendus"
+"dolorem"
 ```

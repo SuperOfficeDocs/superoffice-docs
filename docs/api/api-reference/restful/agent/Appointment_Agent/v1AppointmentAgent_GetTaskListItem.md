@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetTaskListItem
+title: GetTaskListItem
 id: v1AppointmentAgent_GetTaskListItem
 ---
 
-# POST Agents/Appointment/GetTaskListItem
+# GetTaskListItem
 
 ```http
 POST /api/v1/Agents/Appointment/GetTaskListItem
@@ -25,7 +25,7 @@ Gets a TaskListItem object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=72
+POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=937
 POST /api/v1/Agents/Appointment/GetTaskListItem?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 824,
-  "Value": "atque",
+  "TaskListItemId": 433,
+  "Value": "sit",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dignissimos",
+  "Tooltip": "eveniet",
   "Deleted": true,
-  "IntentId": 323,
-  "Rank": 808,
+  "IntentId": 313,
+  "Rank": 232,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "repurpose out-of-the-box partnerships"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

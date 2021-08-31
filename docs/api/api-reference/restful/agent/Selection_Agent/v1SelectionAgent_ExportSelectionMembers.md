@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/ExportSelectionMembers
+title: ExportSelectionMembers
 id: v1SelectionAgent_ExportSelectionMembers
 ---
 
-# POST Agents/Selection/ExportSelectionMembers
+# ExportSelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/ExportSelectionMembers
@@ -70,12 +70,12 @@ Response body:
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 763,
-  "TemplateName": "Ward, Kreiger and Langworth",
+  "SelectionId": 150,
+  "TemplateName": "Christiansen LLC",
   "UseContacts": true
 }
 ```

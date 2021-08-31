@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 427,
-  "ColumnId": 399,
-  "FieldDefault": "autem",
-  "FieldHeight": 579,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 23,
-  "FieldTop": 693,
+  "UDefFieldId": 10,
+  "ColumnId": 208,
+  "FieldDefault": "et",
+  "FieldHeight": 548,
+  "FieldLabel": "ut",
+  "FieldLeft": 799,
+  "FieldTop": 440,
   "FieldType": "Checkbox",
-  "FieldWidth": 876,
-  "FormatMask": "est",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 193,
-  "LabelLeft": 259,
-  "LabelTop": 961,
-  "LabelWidth": 364,
-  "LastVersionId": 636,
-  "ListTableId": 692,
+  "FieldWidth": 706,
+  "FormatMask": "ratione",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 945,
+  "LabelLeft": 861,
+  "LabelTop": 621,
+  "LabelWidth": 804,
+  "LastVersionId": 557,
+  "ListTableId": 319,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 675,
-  "ProgId": "eaque",
+  "Page1LineNo": 864,
+  "ProgId": "maiores",
   "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 618,
-  "TextLength": 204,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 962,
-  "UDListDefinitionId": 413,
+  "ShortLabel": "quia",
+  "TabOrder": 840,
+  "TextLength": 270,
+  "Tooltip": "minus",
+  "UdefIdentity": 188,
+  "UDListDefinitionId": 153,
   "Justification": "Center",
-  "Version": 562,
-  "TemplateVariableName": "Yost-Kuphal",
+  "Version": 397,
+  "TemplateVariableName": "Schmidt-Ortiz",
   "HasBeenPublished": false,
-  "MdoListName": "Konopelski Group",
+  "MdoListName": "Bartell, White and Hamill",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 636
     }
   }
 }

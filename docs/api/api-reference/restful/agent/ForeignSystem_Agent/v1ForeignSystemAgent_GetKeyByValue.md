@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetKeyByValue
+title: GetKeyByValue
 id: v1ForeignSystemAgent_GetKeyByValue
 ---
 
-# POST Agents/ForeignSystem/GetKeyByValue
+# GetKeyByValue
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
@@ -85,15 +85,15 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rippin-Fisher",
-  "DeviceName": "Sanford LLC",
-  "KeyName": "Wisoky, Frami and Wisoky",
-  "KeyValue": "ex",
-  "TableName": "Pfeffer-West"
+  "ApplicationName": "Homenick-Mertz",
+  "DeviceName": "Cruickshank, Walter and Gulgowski",
+  "KeyName": "Stokes Group",
+  "KeyValue": "voluptatibus",
+  "TableName": "Jacobs-Fritsch"
 }
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aspernatur",
-  "Value": "qui",
-  "RecordId": 562,
-  "CreatedDate": "2004-10-02T16:48:29.7149249+02:00",
-  "UpdatedDate": "2005-08-08T16:48:29.7149249+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "rerum",
-  "TableName": "Becker Group",
+  "Key": "id",
+  "Value": "unde",
+  "RecordId": 282,
+  "CreatedDate": "1999-07-27T14:58:04.3094599+02:00",
+  "UpdatedDate": "2007-01-17T14:58:04.3094599+01:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "maiores",
+  "TableName": "Lubowitz LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

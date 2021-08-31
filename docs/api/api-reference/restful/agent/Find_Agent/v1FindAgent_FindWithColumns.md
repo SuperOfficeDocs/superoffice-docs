@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindWithColumns
+title: FindWithColumns
 id: v1FindAgent_FindWithColumns
 ---
 
-# POST Agents/Find/FindWithColumns
+# FindWithColumns
 
 ```http
 POST /api/v1/Agents/Find/FindWithColumns
@@ -90,22 +90,22 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Mann-Schinner",
-  "StorageKey": "cupiditate",
+  "StorageType": "nulla",
+  "ProviderName": "Stark LLC",
+  "StorageKey": "iusto",
   "DesiredColumns": [
-    "amet",
-    "praesentium"
+    "qui",
+    "tenetur"
   ],
-  "PageSize": 847,
-  "PageNumber": 986,
+  "PageSize": 967,
+  "PageNumber": 163,
   "OrderBy": [
     {
-      "Name": "Dickinson, Purdy and Herman",
+      "Name": "Mayert, O'Hara and Bergnaum",
       "Direction": "ASC"
     },
     {
-      "Name": "Dickinson, Purdy and Herman",
+      "Name": "Mayert, O'Hara and Bergnaum",
       "Direction": "ASC"
     }
   ]
@@ -119,34 +119,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kilback LLC",
-      "DisplayTooltip": "et",
-      "DisplayType": "totam",
-      "CanOrderBy": true,
-      "Name": "Veum Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Carter-Hilpert",
-      "IsVisible": true,
-      "ExtraInfo": "id",
-      "Width": "velit",
-      "IconHint": "aspernatur",
-      "HeadingIconHint": "consequatur"
+      "DisplayName": "Donnelly Group",
+      "DisplayTooltip": "esse",
+      "DisplayType": "quasi",
+      "CanOrderBy": false,
+      "Name": "Jewess Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "tenetur",
+      "RestrictionListName": "Johnston-King",
+      "IsVisible": false,
+      "ExtraInfo": "dignissimos",
+      "Width": "accusamus",
+      "IconHint": "voluptatum",
+      "HeadingIconHint": "dolore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Russel, Jewess and Mosciski",
-      "PrimaryKey": 710,
+      "EntityName": "Renner LLC",
+      "PrimaryKey": 916,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "ex",
-          "LinkHint": "ratione"
+          "DisplayValue": "nostrum",
+          "TooltipHint": "magnam",
+          "LinkHint": "voluptate"
         }
       },
-      "LinkHint": "quisquam",
-      "StyleHint": "cumque",
+      "LinkHint": "iste",
+      "StyleHint": "sint",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -155,12 +155,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 631
         }
       }
     }
   ],
-  "RowCount": 905,
+  "RowCount": 265,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

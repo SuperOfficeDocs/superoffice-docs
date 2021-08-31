@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
+title: GetCustomFieldInfo
 id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
+# GetCustomFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ratke LLC",
-  "FieldName": "Conroy, Bashirian and Batz"
+  "TableName": "Ferry, Hamill and Batz",
+  "FieldName": "Bartoletti, Thiel and Olson"
 }
 ```
 
@@ -104,17 +104,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Smitham LLC",
-  "DisplayName": "Schulist-Dibbert",
-  "Description": "Assimilated intermediate archive",
-  "ShortLabel": "officiis",
-  "HideLabel": false,
+  "FieldName": "Walter-Stiedemann",
+  "DisplayName": "Jast-Corwin",
+  "Description": "Face to face 3rd generation core",
+  "ShortLabel": "quo",
+  "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 902,
-  "TemplateVariableName": "Goyette, Wilkinson and Wiza"
+  "Rank": 836,
+  "TemplateVariableName": "Kshlerin Inc and Sons"
 }
 ```

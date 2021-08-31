@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultHeadingFromListDefinition
+title: CreateDefaultHeadingFromListDefinition
 id: v1ListAgent_CreateDefaultHeadingFromListDefinition
 ---
 
-# POST Agents/List/CreateDefaultHeadingFromListDefinition
+# CreateDefaultHeadingFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
@@ -83,11 +83,11 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 225
+  "UdListDefinitionId": 361
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 544,
-  "Name": "Bosco, Metz and Lemke",
-  "Tooltip": "praesentium",
+  "HeadingId": 556,
+  "Name": "Kemmer-Bechtelar",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 379,
-  "UdListDefinitionId": 779,
+  "Rank": 517,
+  "UdListDefinitionId": 389,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldLength": 841
     }
   }
 }

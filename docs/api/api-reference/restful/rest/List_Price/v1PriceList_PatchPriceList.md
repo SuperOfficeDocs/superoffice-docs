@@ -125,41 +125,37 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "quisquam",
     "value": {
       "value1": {
-        "PrimaryKey": 7385,
-        "EntityName": "sale",
-        "saleId": 7385,
-        "contactId": 6143,
-        "name": "Rogahn, Gerlach and Thompson"
+        "PrimaryKey": 8761,
+        "EntityName": "person",
+        "personId": 8761,
+        "fullName": "June Davis"
       },
       "value2": {
-        "PrimaryKey": 4375,
-        "EntityName": "sale",
-        "saleId": 4375,
-        "contactId": 9271,
-        "name": "Brown LLC"
+        "PrimaryKey": 7402,
+        "EntityName": "person",
+        "personId": 7402,
+        "fullName": "Ms. Leland Walker"
       }
     }
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "quisquam",
     "value": {
       "value1": {
-        "PrimaryKey": 7385,
-        "EntityName": "sale",
-        "saleId": 7385,
-        "contactId": 6143,
-        "name": "Rogahn, Gerlach and Thompson"
+        "PrimaryKey": 8761,
+        "EntityName": "person",
+        "personId": 8761,
+        "fullName": "June Davis"
       },
       "value2": {
-        "PrimaryKey": 4375,
-        "EntityName": "sale",
-        "saleId": 4375,
-        "contactId": 9271,
-        "name": "Brown LLC"
+        "PrimaryKey": 7402,
+        "EntityName": "person",
+        "personId": 7402,
+        "fullName": "Ms. Leland Walker"
       }
     }
   }
@@ -171,15 +167,15 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 42,
-  "ERPPriceListKey": "voluptatum",
-  "QuoteConnectionId": 69,
-  "Name": "VonRueden Inc and Sons",
-  "Description": "Multi-lateral uniform local area network",
+  "PriceListId": 272,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 600,
+  "Name": "Parker, Steuber and Turner",
+  "Description": "Integrated heuristic superstructure",
   "Currency": "enim",
-  "CurrencyName": "Stoltenberg-Spencer",
-  "ValidFrom": "2001-04-26T09:41:00.5203816+02:00",
-  "ValidTo": "2001-02-07T09:41:00.5203816+01:00",
+  "CurrencyName": "Dicki Group",
+  "ValidFrom": "2017-01-11T15:05:43.5890799+01:00",
+  "ValidTo": "2008-12-31T15:05:43.5890799+01:00",
   "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
@@ -189,10 +185,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "architect 24/7 portals"
       },
       "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldLength": 108
     }
   },
   "_Links": {

@@ -103,6 +103,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -113,47 +115,47 @@ Response body: object
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "nostrum",
     "value": {
       "value1": {
-        "PrimaryKey": 3021,
+        "PrimaryKey": 97,
         "EntityName": "sale",
-        "saleId": 3021,
-        "contactId": 4702,
-        "name": "Daugherty, Erdman and Raynor"
+        "saleId": 97,
+        "contactId": 7255,
+        "name": "Cartwright LLC"
       },
       "value2": {
-        "PrimaryKey": 5069,
+        "PrimaryKey": 7619,
         "EntityName": "sale",
-        "saleId": 5069,
-        "contactId": 5738,
-        "name": "Hackett LLC"
+        "saleId": 7619,
+        "contactId": 4375,
+        "name": "Abbott-Rutherford"
       }
     }
   },
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "nostrum",
     "value": {
       "value1": {
-        "PrimaryKey": 3021,
+        "PrimaryKey": 97,
         "EntityName": "sale",
-        "saleId": 3021,
-        "contactId": 4702,
-        "name": "Daugherty, Erdman and Raynor"
+        "saleId": 97,
+        "contactId": 7255,
+        "name": "Cartwright LLC"
       },
       "value2": {
-        "PrimaryKey": 5069,
+        "PrimaryKey": 7619,
         "EntityName": "sale",
-        "saleId": 5069,
-        "contactId": 5738,
-        "name": "Hackett LLC"
+        "saleId": 7619,
+        "contactId": 4375,
+        "name": "Abbott-Rutherford"
       }
     }
   }
@@ -165,10 +167,12 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 102,
-  "Name": "Kreiger Group",
-  "ContentType": "earum",
-  "AttSize": 74,
+  "AttachmentId": 853,
+  "Name": "Koch, Rau and Harris",
+  "ContentType": "optio",
+  "AttSize": 150,
+  "InlineImage": true,
+  "ContentId": "recusandae",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -179,13 +183,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

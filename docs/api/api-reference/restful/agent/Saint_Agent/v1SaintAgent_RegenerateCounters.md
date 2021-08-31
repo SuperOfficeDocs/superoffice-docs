@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/RegenerateCounters
+title: RegenerateCounters
 id: v1SaintAgent_RegenerateCounters
 ---
 
-# POST Agents/Saint/RegenerateCounters
+# RegenerateCounters
 
 ```http
 POST /api/v1/Agents/Saint/RegenerateCounters
@@ -88,6 +88,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -101,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -110,32 +111,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Batz-Funk",
-  "AssociateId": 841,
-  "DetailsTable": 851,
-  "DetailsRecord": 976,
+  "Id": 244,
+  "Name": "Harris LLC",
+  "AssociateId": 666,
+  "DetailsTable": 300,
+  "DetailsRecord": 950,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "laboriosam",
-    "ParameterObject2": "tempore"
+    "ParameterObject1": "consequatur",
+    "ParameterObject2": "inventore"
   },
-  "LastStarted": "2020-02-24T16:48:30.5059396+01:00",
-  "Created": "2021-03-02T16:48:30.5059396+01:00",
-  "StartCount": 32,
-  "DatabaseSerialNumber": "1361228",
-  "Context": "et",
-  "Result": "ut",
+  "LastStarted": "2003-01-18T14:58:05.1086289+01:00",
+  "Created": "2012-06-24T14:58:05.1086289+02:00",
+  "StartCount": 727,
+  "DatabaseSerialNumber": "461348",
+  "Context": "placeat",
+  "Result": "rem",
   "State": "All",
-  "Description": "Ameliorated background interface",
-  "Response": "autem",
-  "Request": "est",
-  "ProgressDescription": "Future-proofed 24/7 definition",
-  "ProgressPercent": 525,
+  "Description": "Networked fault-tolerant help-desk",
+  "Response": "qui",
+  "Request": "vel",
+  "ProgressDescription": "Fundamental tangible model",
+  "ProgressPercent": 611,
+  "FileName": "Greenfelder Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "mesh mission-critical action-items"
   },
   "FieldProperties": {
     "fieldName": {
@@ -144,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldLength": 309
     }
   }
 }

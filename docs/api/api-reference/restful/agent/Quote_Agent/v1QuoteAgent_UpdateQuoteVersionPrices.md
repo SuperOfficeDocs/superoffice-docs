@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/UpdateQuoteVersionPrices
+title: UpdateQuoteVersionPrices
 id: v1QuoteAgent_UpdateQuoteVersionPrices
 ---
 
-# POST Agents/Quote/UpdateQuoteVersionPrices
+# UpdateQuoteVersionPrices
 
 ```http
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
@@ -85,11 +85,11 @@ Response body: object
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 895
+  "QuoteVersionId": 47
 }
 ```
 
@@ -99,35 +99,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "dolorem",
-  "TechExplanation": "exercitationem",
-  "ErrorCode": "autem",
+  "UserExplanation": "porro",
+  "TechExplanation": "rerum",
+  "ErrorCode": "et",
   "ChangedSale": {
-    "ContactName": "Medhurst-Marks",
-    "SaleDate": "2019-09-03T16:48:30.3789325+02:00",
-    "SaleId": 206,
-    "Probability": 317,
-    "Title": "aut",
-    "Amount": 28077.505999999998,
-    "Currency": "corrupti",
-    "ProjectName": "Wehner, Witting and Dicki",
-    "AssociateFullName": "Ashlynn Steuber",
-    "Description": "Open-source secondary projection",
+    "ContactName": "Flatley Group",
+    "SaleDate": "2012-03-11T14:58:04.9494322+01:00",
+    "SaleId": 277,
+    "Probability": 533,
+    "Title": "qui",
+    "Amount": 3450.534,
+    "Currency": "iure",
+    "ProjectName": "Moen, Rohan and Heller",
+    "AssociateFullName": "Violette Towne",
+    "Description": "Cross-platform asynchronous algorithm",
     "Status": "Lost",
-    "WeightedAmount": 15011.859999999999,
-    "ProjectId": 365,
-    "EarningPercent": 20512.03,
-    "Earning": 26485.433999999997,
-    "ContactId": 135,
-    "AssociateId": 151,
-    "PersonId": 349,
-    "SaleTypeId": 191,
-    "SaleTypeName": "Gerhold-Bogisich",
-    "PersonFullName": "Juston Block",
+    "WeightedAmount": 17268.34,
+    "ProjectId": 72,
+    "EarningPercent": 10708.877999999999,
+    "Earning": 3566.4919999999997,
+    "ContactId": 555,
+    "AssociateId": 624,
+    "PersonId": 385,
+    "SaleTypeId": 44,
+    "SaleTypeName": "Marks, Effertz and Kemmer",
+    "PersonFullName": "Lia Flatley",
     "Completed": "Completed",
-    "ActiveErpLinks": 497,
-    "NextDueDate": "2013-07-29T16:48:30.3799347+02:00",
-    "Number": "857081",
+    "ActiveErpLinks": 976,
+    "NextDueDate": "1997-02-19T14:58:04.9494322+01:00",
+    "Number": "1012355",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -135,24 +135,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 288
       }
     }
   },
   "ChangedQuote": {
-    "QuoteId": 246,
-    "SaleId": 146,
-    "QuoteConnectionId": 773,
-    "ERPQuoteKey": "aut",
-    "ERPOrderKey": "exercitationem",
-    "ActiveQuoteVersionId": 778,
-    "AcceptedQuoteAlternativeId": 444,
-    "UseValuesFromQuote": 988,
-    "DocumentId": 8,
-    "PoNumber": "322140",
-    "OrderComment": "ea",
-    "PreferredEmailCulture": "jalyn@purdyhickle.com",
+    "QuoteId": 303,
+    "SaleId": 150,
+    "QuoteConnectionId": 363,
+    "ERPQuoteKey": "placeat",
+    "ERPOrderKey": "excepturi",
+    "ActiveQuoteVersionId": 601,
+    "AcceptedQuoteAlternativeId": 31,
+    "UseValuesFromQuote": 747,
+    "DocumentId": 694,
+    "PoNumber": "742582",
+    "OrderComment": "reiciendis",
+    "PreferredEmailCulture": "hunter@kertzmann.biz",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {},
     "TableRight": {},
@@ -162,48 +162,48 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldType": "System.String",
+        "FieldLength": 531
       }
     }
   },
   "ChangedQuoteVersion": {
-    "QuoteVersionId": 558,
-    "ERPQuoteVersionKey": "in",
-    "QuoteId": 396,
-    "Description": "Cloned empowering capability",
-    "Number": "948382",
+    "QuoteVersionId": 172,
+    "ERPQuoteVersionKey": "incidunt",
+    "QuoteId": 738,
+    "Description": "Innovative transitional contingency",
+    "Number": "396682",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 237,
-    "SentDate": "2018-03-23T16:48:30.3799347+01:00",
-    "FollowupId": 238,
-    "ExpirationDate": "2008-01-07T16:48:30.3799347+01:00",
-    "DeliveryCountryId": 647,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 526,
+    "LikelyQuoteAlternativeId": 293,
+    "SentDate": "1998-06-22T14:58:04.9504317+02:00",
+    "FollowupId": 61,
+    "ExpirationDate": "2004-11-12T14:58:04.9504317+01:00",
+    "DeliveryCountryId": 406,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 927,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "explicabo",
-    "ERPPaymentTypeKey": "earum",
-    "ERPDeliveryTermsKey": "vel",
-    "ERPDeliveryTypeKey": "perferendis",
-    "Rank": 285,
-    "ApprovedBy": 342,
-    "ApprovedText": "sit",
-    "ApprovedRegisteredBy": 529,
-    "ApprovedRegisteredDate": "2006-01-10T16:48:30.3799347+01:00",
-    "ExtraField1": "quisquam",
-    "ExtraField2": "ex",
-    "ExtraField3": "eos",
-    "ExtraField4": "ea",
-    "ExtraField5": "expedita",
-    "LastRecalculated": "1998-10-06T16:48:30.3819346+02:00",
-    "Updated": "1995-02-25T16:48:30.3819346+01:00",
-    "UpdatedAssociateId": 429,
-    "Registered": "2004-11-27T16:48:30.3819346+01:00",
-    "RegisteredAssociateId": 131,
+    "ERPPaymentTermsKey": "vel",
+    "ERPPaymentTypeKey": "dolor",
+    "ERPDeliveryTermsKey": "provident",
+    "ERPDeliveryTypeKey": "repudiandae",
+    "Rank": 575,
+    "ApprovedBy": 130,
+    "ApprovedText": "et",
+    "ApprovedRegisteredBy": 174,
+    "ApprovedRegisteredDate": "2005-10-14T14:58:04.9504317+02:00",
+    "ExtraField1": "minima",
+    "ExtraField2": "est",
+    "ExtraField3": "totam",
+    "ExtraField4": "hic",
+    "ExtraField5": "sunt",
+    "LastRecalculated": "1996-07-08T14:58:04.9504317+02:00",
+    "Updated": "2000-12-16T14:58:04.9504317+01:00",
+    "UpdatedAssociateId": 778,
+    "Registered": "2005-06-02T14:58:04.9504317+02:00",
+    "RegisteredAssociateId": 759,
     "QuoteAlternatives": [
       {},
       {}
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldLength": 810
       }
     }
   },
@@ -230,10 +230,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "envisioneer efficient initiatives"
           },
-          "FieldType": "System.String",
-          "FieldLength": 453
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     },
@@ -246,10 +246,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "envisioneer efficient initiatives"
           },
-          "FieldType": "System.String",
-          "FieldLength": 453
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     }
@@ -262,10 +262,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "mesh robust functionalities"
+        "Reason": "benchmark sexy models"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 781
     }
   }
 }

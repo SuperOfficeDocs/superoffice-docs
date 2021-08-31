@@ -30,7 +30,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=itaque
+POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=dignissimos
 ```
 
 

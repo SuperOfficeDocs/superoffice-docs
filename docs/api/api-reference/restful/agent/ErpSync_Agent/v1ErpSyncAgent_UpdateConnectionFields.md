@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/UpdateConnectionFields
+title: UpdateConnectionFields
 id: v1ErpSyncAgent_UpdateConnectionFields
 ---
 
-# POST Agents/ErpSync/UpdateConnectionFields
+# UpdateConnectionFields
 
 ```http
 POST /api/v1/Agents/ErpSync/UpdateConnectionFields
@@ -70,11 +70,11 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/UpdateConnectionFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 613
+  "ErpConnectionId": 783
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

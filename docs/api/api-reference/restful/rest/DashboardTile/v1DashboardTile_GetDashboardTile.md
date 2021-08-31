@@ -87,7 +87,7 @@ Response body: object
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -95,29 +95,29 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 566,
-  "Caption": "voluptatem",
-  "Description": "Polarised eco-centric Graphic Interface",
-  "ChartName": "McClure, Thompson and Hoeger",
-  "ChartId": "voluptas",
+  "DashboardTileId": 314,
+  "Caption": "rem",
+  "Description": "Re-engineered attitude-oriented concept",
+  "ChartName": "Brakus-Douglas",
+  "ChartId": "minima",
   "IsDefault": true,
-  "AssociateId": 499,
-  "GroupId": 850,
-  "SelectionId": 955,
-  "Config": "incidunt",
+  "AssociateId": 115,
+  "GroupId": 891,
+  "SelectionId": 987,
+  "Config": "aut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Reichel, Mohr and Leuschke",
-      "Description": "Distributed static solution",
+      "Name": "Reinger Group",
+      "Description": "Multi-layered stable hardware",
       "Type": "Boolean",
-      "ListName": "Stracke, Nikolaus and Senger",
+      "ListName": "Jacobi-Boyle",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "iusto",
       "DefaultDataOption": true,
       "TableRight": {},
       "FieldProperties": {
@@ -127,16 +127,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldLength": 167
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 278,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "in",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,14 +145,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 116
         }
       }
     },
     {
-      "VisibleId": 278,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "in",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 116
         }
       }
     }
@@ -174,15 +174,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "disintermediate user-centric e-tailers"
       },
-      "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Schneider-Leannon",
-    "ToolTip": "Pariatur et unde.",
+    "Id": 418,
+    "Name": "Block-Howe",
+    "ToolTip": "Tempore ut sed suscipit.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "similique",
-    "ColorBlock": 73,
-    "IconHint": "eum",
+    "Rank": 287,
+    "Type": "repudiandae",
+    "ColorBlock": 654,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2011-12-27T09:41:00.4433854+01:00",
+    "LastChanged": "2018-12-14T15:05:43.5055995+01:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Moore Group",
-        "ToolTip": "Corrupti soluta odit exercitationem aspernatur.",
-        "Deleted": true,
-        "Rank": 748,
-        "Type": "quae",
-        "ColorBlock": 168,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "1995-10-02T09:41:00.4433854+02:00",
+        "Id": 885,
+        "Name": "Kassulke, Rutherford and Miller",
+        "ToolTip": "Ut magni.",
+        "Deleted": false,
+        "Rank": 894,
+        "Type": "voluptatibus",
+        "ColorBlock": 794,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2017-05-17T15:05:43.5065624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Dortha Morar",
+        "ExtraInfo": "modi",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Eliza Kautzer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 572
+            "FieldType": "System.Int32",
+            "FieldLength": 690
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
+    "ExtraInfo": "eos",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Tito Greenfelder",
+    "FullName": "Haley Schiller",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "synergize plug-and-play mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 951
       }
     }
   }

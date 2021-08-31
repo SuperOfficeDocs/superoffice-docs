@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetVisibleForUserGroup
+title: SetVisibleForUserGroup
 id: v1ListAgent_SetVisibleForUserGroup
 ---
 
-# POST Agents/List/SetVisibleForUserGroup
+# SetVisibleForUserGroup
 
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroup

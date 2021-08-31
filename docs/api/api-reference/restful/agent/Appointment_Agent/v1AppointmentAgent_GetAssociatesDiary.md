@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAssociatesDiary
+title: GetAssociatesDiary
 id: v1AppointmentAgent_GetAssociatesDiary
 ---
 
-# POST Agents/Appointment/GetAssociatesDiary
+# GetAssociatesDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
@@ -123,16 +123,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    74,
-    616
+    736,
+    271
   ],
-  "StartTime": "2000-10-19T16:48:28.3384194+02:00",
-  "EndTime": "1994-03-29T16:48:28.3384194+02:00"
+  "StartTime": "2021-01-18T14:58:02.8925684+01:00",
+  "EndTime": "1997-12-26T14:58:02.8925684+01:00"
 }
 ```
 
@@ -142,53 +142,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 216,
-    "StartDate": "2004-03-07T16:48:28.339419+01:00",
-    "EndDate": "2003-10-03T16:48:28.339419+02:00",
+    "AppointmentId": 646,
+    "StartDate": "2012-08-16T14:58:02.8935684+02:00",
+    "EndDate": "2018-05-06T14:58:02.8935684+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Lelah Ferry",
-    "ContactName": "Denesik-Langworth",
-    "Description": "Balanced 3rd generation implementation",
-    "PersonFullName": "Dameon Kessler",
-    "PersonId": 602,
-    "ContactId": 150,
-    "ProjectId": 789,
-    "ProjectName": "Wyman-Stamm",
-    "IsPublished": true,
-    "AssociateId": 600,
-    "ColorIndex": 273,
-    "IsFree": true,
-    "HasAlarm": false,
+    "Task": "voluptatum",
+    "AssociateFullName": "Adrianna Green",
+    "ContactName": "Wiza-Wisoky",
+    "Description": "Visionary eco-centric application",
+    "PersonFullName": "Erick Ruecker",
+    "PersonId": 282,
+    "ContactId": 879,
+    "ProjectId": 478,
+    "ProjectName": "Mraz, Kuphal and Murray",
+    "IsPublished": false,
+    "AssociateId": 679,
+    "ColorIndex": 176,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 551,
-    "PriorityName": "Bailey-Ledner",
+    "PriorityId": 805,
+    "PriorityName": "Hayes, Graham and Bailey",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2000-03-10T16:48:28.3414493+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2008-10-30T14:58:02.8935684+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-23T16:48:28.3414493+02:00",
-    "RecurringEndDate": "2019-05-03T16:48:28.3414493+02:00",
-    "MotherId": 265,
-    "AssignedBy": 228,
-    "AssignedByFullName": "Rosario Mayer",
+    "RecurringStartDate": "2012-11-01T14:58:02.8945711+01:00",
+    "RecurringEndDate": "2021-02-24T14:58:02.8945711+01:00",
+    "MotherId": 505,
+    "AssignedBy": 216,
+    "AssignedByFullName": "Flavio Reilly",
     "RejectReason": "",
-    "Location": "ex",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 793,
-    "SaleName": "Hammes Group",
-    "AssociateName": "Smitham LLC",
-    "CreatedDate": "1995-05-19T16:48:28.3414493+02:00",
-    "CreatedBy": "eos",
-    "CreatedByFullName": "Ms. Madonna Konopelski",
-    "CreatedByAssociateId": 114,
+    "Location": "impedit",
+    "AlarmLeadTime": "est",
+    "SaleId": 766,
+    "SaleName": "Nienow, Herzog and Volkman",
+    "AssociateName": "McGlynn, Cruickshank and Gleason",
+    "CreatedDate": "1994-10-23T14:58:02.8945711+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Rogers Feeney",
+    "CreatedByAssociateId": 17,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldLength": 357
       }
     }
   }

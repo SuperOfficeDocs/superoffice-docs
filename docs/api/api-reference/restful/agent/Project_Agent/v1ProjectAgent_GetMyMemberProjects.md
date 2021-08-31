@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetMyMemberProjects
+title: GetMyMemberProjects
 id: v1ProjectAgent_GetMyMemberProjects
 ---
 
-# POST Agents/Project/GetMyMemberProjects
+# GetMyMemberProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyMemberProjects
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 64,
-    "Name": "Cummerata, Pagac and Legros",
-    "Description": "Stand-alone demand-driven structure",
+    "ProjectId": 184,
+    "Name": "Hessel LLC",
+    "Description": "Down-sized contextually-based extranet",
     "URL": "http://www.example.com/",
-    "Type": "esse",
-    "AssociateId": 816,
-    "AssociateFullName": "Freda Hayes",
-    "TypeId": 779,
-    "Updated": "2019-09-22T16:48:30.3719327+02:00",
-    "StatusId": 313,
-    "Status": "voluptas",
-    "TextId": 256,
-    "PublishTo": "2019-04-28T16:48:30.3719327+02:00",
-    "PublishFrom": "2006-09-25T16:48:30.3719327+02:00",
+    "Type": "qui",
+    "AssociateId": 859,
+    "AssociateFullName": "Stefanie Robel",
+    "TypeId": 816,
+    "Updated": "2009-03-26T14:58:04.8564602+01:00",
+    "StatusId": 75,
+    "Status": "veniam",
+    "TextId": 110,
+    "PublishTo": "1994-11-23T14:58:04.8564602+01:00",
+    "PublishFrom": "2005-01-19T14:58:04.8564602+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "972155",
-    "ActiveErpLinks": 392,
+    "ProjectNumber": "657236",
+    "ActiveErpLinks": 396,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldLength": 356
       }
     }
   }

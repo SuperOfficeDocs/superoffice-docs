@@ -121,34 +121,34 @@ Response body: object
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 396,
-  "Name": "Wilkinson LLC",
-  "Tooltip": "commodi",
-  "SaveInDb": 860,
-  "Filename": "architecto",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 899,
+  "Name": "Kuphal, Lemke and Schaden",
+  "Tooltip": "adipisci",
+  "SaveInDb": 245,
+  "Filename": "rerum",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 774,
-  "IntentId": 487,
+  "AutoeventId": 817,
+  "IntentId": 283,
   "IsDefaultPublished": false,
-  "Rank": 959,
-  "LoadTemplateFromPlugin": 118,
-  "MimeType": "aliquid",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 501,
+  "Rank": 332,
+  "LoadTemplateFromPlugin": 406,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 221,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jerry_bechtelar@ziemanncummerata.us",
-  "IncludeSignature": false,
+  "EmailSubject": "dana@stark.uk",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "serenity@dibbert.us",
+  "SenderEmailAddress": "magali_dickens@metzsanford.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -158,34 +158,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 323,
-  "Name": "Leannon LLC",
-  "Tooltip": "et",
-  "SaveInDb": 44,
-  "Filename": "corrupti",
-  "DefaultOref": "porro",
+  "DocumentTemplateId": 236,
+  "Name": "Murazik, Quigley and Swaniawski",
+  "Tooltip": "quidem",
+  "SaveInDb": 190,
+  "Filename": "et",
+  "DefaultOref": "sapiente",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 228,
-  "IntentId": 515,
-  "IsDefaultPublished": false,
-  "Rank": 85,
-  "LoadTemplateFromPlugin": 619,
-  "MimeType": "quis",
+  "AutoeventId": 538,
+  "IntentId": 305,
+  "IsDefaultPublished": true,
+  "Rank": 325,
+  "LoadTemplateFromPlugin": 883,
+  "MimeType": "atque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 413,
+  "DocumentTypeKey": 171,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "caterina@wehnerbednar.us",
+  "EmailSubject": "frieda@roob.info",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mikel.christiansen@reingerbahringer.uk",
+  "SenderEmailAddress": "aubree@kihn.us",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "matrix global solutions"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 57
     }
   }
 }

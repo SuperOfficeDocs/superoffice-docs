@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Towne-Jacobs",
-  "DisplayName": "Muller Inc and Sons",
-  "Description": "Virtual bifurcated paradigm",
-  "ShortLabel": "quod",
-  "HideLabel": true,
-  "HideField": true,
+  "FieldName": "Roberts-Johnston",
+  "DisplayName": "Rice Inc and Sons",
+  "Description": "Advanced transitional system engine",
+  "ShortLabel": "magni",
+  "HideLabel": false,
+  "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 715,
-  "TemplateVariableName": "Kautzer-Walter"
+  "IsExternal": false,
+  "Rank": 867,
+  "TemplateVariableName": "Mills, Morar and Conn"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveListEntityByName
+title: SaveListEntityByName
 id: v1ListAgent_SaveListEntityByName
 ---
 
-# POST Agents/List/SaveListEntityByName
+# SaveListEntityByName
 
 ```http
 POST /api/v1/Agents/List/SaveListEntityByName
@@ -92,17 +92,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bartoletti-Kuvalis",
+  "Name": "Cummings, Carter and Streich",
   "ListEntity": {
-    "Id": 627,
-    "Name": "Green, Wintheiser and Waelchi",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 437,
+    "Id": 958,
+    "Name": "Corkery-Collins",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "Rank": 107,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "perferendis",
+    "ListType": "quia",
     "InUseByUserDefinedFields": false
   }
 }
@@ -113,15 +113,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Morissette, Batz and Vandervort",
-  "Tooltip": "aliquam",
+  "Id": 240,
+  "Name": "Beatty, Franecki and Cremin",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 480,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 461,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "at",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldLength": 832
     }
   }
 }

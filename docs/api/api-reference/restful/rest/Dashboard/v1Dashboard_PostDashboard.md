@@ -86,26 +86,26 @@ Response body: object
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 531,
-  "AssociateId": 129,
-  "Caption": "nihil",
+  "DashboardId": 978,
+  "AssociateId": 221,
+  "Caption": "ipsa",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 157,
-      "Caption": "ut",
-      "Description": "Multi-lateral transitional monitoring",
-      "ChartName": "Hermann, King and Rau",
-      "ChartId": "inventore",
+      "DashboardTileId": 406,
+      "Caption": "eos",
+      "Description": "Visionary web-enabled solution",
+      "ChartName": "Morar-Abernathy",
+      "ChartId": "earum",
       "IsDefault": false,
-      "AssociateId": 4,
-      "GroupId": 331,
-      "SelectionId": 83,
-      "Config": "suscipit",
+      "AssociateId": 475,
+      "GroupId": 275,
+      "SelectionId": 884,
+      "Config": "eum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 576,
-  "AssociateId": 33,
-  "Caption": "eum",
+  "DashboardId": 460,
+  "AssociateId": 36,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 746,
-      "Caption": "blanditiis",
-      "Description": "Programmable optimizing interface",
-      "ChartName": "Rowe, Hills and Brakus",
-      "ChartId": "dolore",
+      "DashboardTileId": 32,
+      "Caption": "inventore",
+      "Description": "Monitored scalable utilisation",
+      "ChartName": "Abernathy Inc and Sons",
+      "ChartId": "voluptatum",
       "IsDefault": false,
-      "AssociateId": 427,
-      "GroupId": 986,
-      "SelectionId": 600,
-      "Config": "enim",
+      "AssociateId": 714,
+      "GroupId": 856,
+      "SelectionId": 501,
+      "Config": "tempora",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     }
@@ -176,12 +176,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldLength": 581
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

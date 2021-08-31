@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Moen, Simonis and Steuber",
-    "ToolTip": "Officiis atque nam ipsam et.",
-    "Deleted": false,
-    "Rank": 706,
-    "Type": "totam",
-    "ColorBlock": 535,
-    "IconHint": "sit",
+    "Id": 530,
+    "Name": "Jones-Schoen",
+    "ToolTip": "Numquam in.",
+    "Deleted": true,
+    "Rank": 178,
+    "Type": "magnam",
+    "ColorBlock": 304,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2010-01-06T09:41:00.2813684+01:00",
+    "LastChanged": "2007-05-12T15:05:43.3545126+02:00",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Wilkinson LLC",
-        "ToolTip": "Aspernatur fugit sed.",
+        "Id": 71,
+        "Name": "O'Connell-Osinski",
+        "ToolTip": "Eos nesciunt.",
         "Deleted": true,
-        "Rank": 779,
-        "Type": "aut",
-        "ColorBlock": 674,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2013-10-01T09:41:00.2823667+02:00",
+        "Rank": 381,
+        "Type": "iste",
+        "ColorBlock": 678,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2004-03-20T15:05:43.3545126+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "enim",
+        "ExtraInfo": "error",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Lolita Erdman"
+        "FullName": "Ernestine Wehner"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "magni",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Aidan Waelchi Jr."
+    "FullName": "Elsie Muller"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Hettinger-Marks",
-    "ToolTip": "Deserunt veritatis culpa sed saepe aut quisquam.",
+    "Id": 383,
+    "Name": "Kohler Group",
+    "ToolTip": "Quia voluptas dignissimos quibusdam cumque soluta.",
     "Deleted": true,
-    "Rank": 107,
-    "Type": "earum",
-    "ColorBlock": 498,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2004-01-03T09:41:00.2833739+01:00",
+    "Rank": 366,
+    "Type": "nesciunt",
+    "ColorBlock": 122,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "1997-03-26T15:05:43.3555129+01:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Kemmer-Hilll",
-        "ToolTip": "Natus nobis dolorem aut distinctio voluptas.",
-        "Deleted": false,
-        "Rank": 201,
-        "Type": "quasi",
-        "ColorBlock": 437,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2001-10-12T09:41:00.2833739+02:00",
+        "Id": 461,
+        "Name": "Rohan, Johnson and Hauck",
+        "ToolTip": "Laboriosam consequatur.",
+        "Deleted": true,
+        "Rank": 887,
+        "Type": "sequi",
+        "ColorBlock": 10,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "1999-12-03T15:05:43.3555129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "iste",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Rocky Swaniawski",
+        "FullName": "Ezequiel Stoltenberg",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "innovate ubiquitous ROI"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "quod",
+    "StyleHint": "ducimus",
     "Hidden": true,
-    "FullName": "Harold Ledner",
+    "FullName": "Markus Johnston",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 281
       }
     }
   }

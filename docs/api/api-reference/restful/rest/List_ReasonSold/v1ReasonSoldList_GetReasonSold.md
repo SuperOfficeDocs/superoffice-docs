@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Sanford-Haley",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 272,
-  "Rank": 113,
+  "Id": 27,
+  "Name": "Schmeler LLC",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "UdListDefinitionId": 6,
+  "Rank": 484,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

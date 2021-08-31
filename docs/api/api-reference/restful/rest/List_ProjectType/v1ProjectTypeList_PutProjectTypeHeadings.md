@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 5,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 957,
+    "Name": "Stoltenberg LLC",
+    "Tooltip": "ea",
     "Deleted": true,
-    "Rank": 907,
-    "UdListDefinitionId": 686
+    "Rank": 452,
+    "UdListDefinitionId": 289
   },
   {
-    "HeadingId": 5,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 957,
+    "Name": "Stoltenberg LLC",
+    "Tooltip": "ea",
     "Deleted": true,
-    "Rank": 907,
-    "UdListDefinitionId": 686
+    "Rank": 452,
+    "UdListDefinitionId": 289
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Schiller, Mraz and Casper",
-    "Tooltip": "libero",
+    "HeadingId": 822,
+    "Name": "Grimes Inc and Sons",
+    "Tooltip": "aperiam",
     "Deleted": true,
-    "Rank": 322,
-    "UdListDefinitionId": 893,
+    "Rank": 860,
+    "UdListDefinitionId": 692,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "extend out-of-the-box experiences"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

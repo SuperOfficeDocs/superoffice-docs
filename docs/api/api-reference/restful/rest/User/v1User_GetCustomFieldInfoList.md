@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Haley, Ortiz and Corkery",
-    "DisplayName": "Stokes Group",
-    "Description": "Fully-configurable well-modulated Graphic Interface",
-    "ShortLabel": "repellat",
+    "FieldName": "Flatley LLC",
+    "DisplayName": "Green-Franecki",
+    "Description": "Polarised upward-trending orchestration",
+    "ShortLabel": "eum",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 438,
-    "TemplateVariableName": "Hills-Homenick"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 242,
+    "TemplateVariableName": "Halvorson, Mills and Herman"
   }
 ]
 ```

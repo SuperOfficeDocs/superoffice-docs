@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/ChangeFieldType
+title: ChangeFieldType
 id: v1UserDefinedFieldInfoAgent_ChangeFieldType
 ---
 
-# POST Agents/UserDefinedFieldInfo/ChangeFieldType
+# ChangeFieldType
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
@@ -113,45 +113,45 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": {
-    "UDefFieldId": 216,
-    "ColumnId": 29,
-    "FieldDefault": "vel",
-    "FieldHeight": 139,
-    "FieldLabel": "sunt",
-    "FieldLeft": 596,
-    "FieldTop": 420,
+    "UDefFieldId": 197,
+    "ColumnId": 998,
+    "FieldDefault": "laudantium",
+    "FieldHeight": 915,
+    "FieldLabel": "in",
+    "FieldLeft": 753,
+    "FieldTop": 81,
     "FieldType": "Checkbox",
-    "FieldWidth": 91,
-    "FormatMask": "soluta",
-    "HideLabel": false,
+    "FieldWidth": 726,
+    "FormatMask": "omnis",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 712,
-    "LabelLeft": 120,
-    "LabelTop": 427,
-    "LabelWidth": 578,
-    "LastVersionId": 584,
-    "ListTableId": 192,
-    "IsMandatory": false,
+    "LabelHeight": 878,
+    "LabelLeft": 147,
+    "LabelTop": 899,
+    "LabelWidth": 908,
+    "LastVersionId": 212,
+    "ListTableId": 217,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 796,
-    "ProgId": "suscipit",
+    "Page1LineNo": 50,
+    "ProgId": "quidem",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 36,
-    "TextLength": 867,
-    "Tooltip": "aut",
-    "UdefIdentity": 562,
-    "UDListDefinitionId": 475,
+    "ShortLabel": "molestias",
+    "TabOrder": 402,
+    "TextLength": 886,
+    "Tooltip": "provident",
+    "UdefIdentity": 288,
+    "UDListDefinitionId": 301,
     "Justification": "Center",
-    "Version": 161,
-    "TemplateVariableName": "Cummings LLC",
+    "Version": 709,
+    "TemplateVariableName": "Hermann Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Breitenberg, Harber and Schinner"
+    "MdoListName": "Mertz, Hagenes and Lebsack"
   },
   "FieldType": "Checkbox",
   "IsIndexed": false
@@ -163,40 +163,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 7,
-  "ColumnId": 27,
-  "FieldDefault": "eum",
-  "FieldHeight": 102,
-  "FieldLabel": "cupiditate",
-  "FieldLeft": 884,
-  "FieldTop": 602,
+  "UDefFieldId": 919,
+  "ColumnId": 347,
+  "FieldDefault": "est",
+  "FieldHeight": 263,
+  "FieldLabel": "architecto",
+  "FieldLeft": 618,
+  "FieldTop": 970,
   "FieldType": "Checkbox",
-  "FieldWidth": 512,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 267,
-  "LabelLeft": 975,
-  "LabelTop": 502,
-  "LabelWidth": 162,
-  "LastVersionId": 339,
-  "ListTableId": 192,
+  "FieldWidth": 404,
+  "FormatMask": "aut",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 910,
+  "LabelLeft": 758,
+  "LabelTop": 380,
+  "LabelWidth": 427,
+  "LastVersionId": 236,
+  "ListTableId": 519,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 447,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 931,
+  "ProgId": "modi",
   "IsReadOnly": false,
-  "ShortLabel": "vitae",
-  "TabOrder": 893,
-  "TextLength": 921,
-  "Tooltip": "quibusdam",
-  "UdefIdentity": 18,
-  "UDListDefinitionId": 659,
+  "ShortLabel": "saepe",
+  "TabOrder": 622,
+  "TextLength": 466,
+  "Tooltip": "iusto",
+  "UdefIdentity": 484,
+  "UDListDefinitionId": 584,
   "Justification": "Center",
-  "Version": 825,
-  "TemplateVariableName": "Kautzer-Jones",
+  "Version": 824,
+  "TemplateVariableName": "Nienow-Harber",
   "HasBeenPublished": false,
-  "MdoListName": "Jaskolski Inc and Sons",
+  "MdoListName": "Marvin Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 368
     }
   }
 }

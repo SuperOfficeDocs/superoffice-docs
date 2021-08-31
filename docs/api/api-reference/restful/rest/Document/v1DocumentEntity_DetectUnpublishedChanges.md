@@ -59,7 +59,7 @@ Response body: bool
 GET /api/v1/Document/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_

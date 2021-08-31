@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=quis
-GET /api/v1/SystemEvent?$top=779
-GET /api/v1/SystemEvent?$skip=392
+GET /api/v1/SystemEvent?$entities=porro
+GET /api/v1/SystemEvent?$top=672
+GET /api/v1/SystemEvent?$skip=693
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=ad
+GET /api/v1/SystemEvent?$context=et
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eaque",
+  "odata.nextLink": "blanditiis",
   "value": [
     {
-      "PrimaryKey": 4224,
-      "EntityName": "sale",
-      "saleId": 4224,
-      "contactId": 9988,
-      "name": "Murphy LLC"
+      "PrimaryKey": 7878,
+      "EntityName": "person",
+      "personId": 7878,
+      "fullName": "Ayana Goyette"
     },
     {
-      "PrimaryKey": 495,
-      "EntityName": "sale",
-      "saleId": 495,
-      "contactId": 1297,
-      "name": "Turcotte Inc and Sons"
+      "PrimaryKey": 7469,
+      "EntityName": "person",
+      "personId": 7469,
+      "fullName": "Earline Hayes"
     }
   ]
 }

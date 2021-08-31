@@ -90,15 +90,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 780,
-  "ChatSessionId": 514,
+  "ChatMessageId": 561,
+  "ChatSessionId": 141,
   "Type": "Invalid",
-  "Message": "et",
-  "Author": "aperiam",
-  "ReadByCustomer": 890,
+  "Message": "velit",
+  "Author": "iusto",
+  "ReadByCustomer": 780,
   "SpecialType": "Block",
-  "SpecialParam": "id",
-  "WhenPosted": "2003-01-29T09:40:58.8293433+01:00"
+  "SpecialParam": "ducimus",
+  "WhenPosted": "1995-11-28T15:05:41.7650056+01:00"
 }
 ```
 
@@ -107,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 764,
-  "ChatSessionId": 34,
+  "ChatMessageId": 992,
+  "ChatSessionId": 931,
   "Type": "Invalid",
-  "Message": "quia",
-  "Author": "cumque",
-  "ReadByCustomer": 359,
+  "Message": "numquam",
+  "Author": "rerum",
+  "ReadByCustomer": 928,
   "SpecialType": "Block",
-  "SpecialParam": "consectetur",
-  "WhenPosted": "2015-07-09T09:40:58.8293433+02:00"
+  "SpecialParam": "voluptas",
+  "WhenPosted": "2016-09-09T15:05:41.7650056+02:00"
 }
 ```

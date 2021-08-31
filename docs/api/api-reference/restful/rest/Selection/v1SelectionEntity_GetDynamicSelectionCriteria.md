@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -74,43 +74,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ritchie LLC",
-    "Operator": "quidem",
+    "Name": "Herman Group",
+    "Operator": "dolor",
     "Values": [
-      "mollitia",
-      "debitis"
+      "voluptatem",
+      "et"
     ],
     "DisplayValues": [
-      "ut",
-      "voluptatum"
+      "vel",
+      "inventore"
     ],
     "ColumnInfo": {
-      "DisplayName": "Ferry-Brown",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "quod",
-      "CanOrderBy": true,
-      "Name": "Kiehn Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "repellendus",
-      "RestrictionListName": "Carter-Raynor",
+      "DisplayName": "Davis LLC",
+      "DisplayTooltip": "animi",
+      "DisplayType": "voluptatem",
+      "CanOrderBy": false,
+      "Name": "Huel, Jacobson and Halvorson",
+      "CanRestrictBy": true,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Stokes Group",
       "IsVisible": false,
-      "ExtraInfo": "pariatur",
-      "Width": "nesciunt",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "minus"
+      "ExtraInfo": "iusto",
+      "Width": "aperiam",
+      "IconHint": "in",
+      "HeadingIconHint": "similique"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rempel, Conn and Hermiston",
-        "Operator": "quod",
+        "Name": "Zboncak-Hansen",
+        "Operator": "modi",
         "Values": [
-          "voluptates",
-          "optio"
+          "molestiae",
+          "quia"
         ],
         "DisplayValues": [
-          "vel",
-          "doloribus"
+          "esse",
+          "sed"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -118,14 +118,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 270,
+        "InterParenthesis": 292,
         "InterOperator": "And",
-        "UniqueHash": 445
+        "UniqueHash": 371
       }
     ],
-    "InterParenthesis": 435,
+    "InterParenthesis": 133,
     "InterOperator": "And",
-    "UniqueHash": 104
+    "UniqueHash": 251
   }
 ]
 ```

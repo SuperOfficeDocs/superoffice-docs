@@ -68,9 +68,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=necessitatibus
-GET /api/v1/ChatSession?$top=551
-GET /api/v1/ChatSession?$skip=255
+GET /api/v1/ChatSession?$entities=sed
+GET /api/v1/ChatSession?$top=973
+GET /api/v1/ChatSession?$skip=403
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
 GET /api/v1/ChatSession?$context=accusantium
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "perspiciatis",
+  "odata.nextLink": "tenetur",
   "value": [
     {
-      "PrimaryKey": 7732,
-      "EntityName": "sale",
-      "saleId": 7732,
-      "contactId": 9458,
-      "name": "Stiedemann, Jacobs and Smitham"
+      "PrimaryKey": 5244,
+      "EntityName": "person",
+      "personId": 5244,
+      "fullName": "Marcus Eichmann"
     },
     {
-      "PrimaryKey": 9133,
-      "EntityName": "sale",
-      "saleId": 9133,
-      "contactId": 1146,
-      "name": "Mosciski Inc and Sons"
+      "PrimaryKey": 9591,
+      "EntityName": "person",
+      "personId": 9591,
+      "fullName": "Shaina Haley"
     }
   ]
 }

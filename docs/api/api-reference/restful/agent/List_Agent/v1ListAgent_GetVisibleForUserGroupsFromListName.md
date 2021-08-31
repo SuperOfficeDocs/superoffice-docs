@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetVisibleForUserGroupsFromListName
+title: GetVisibleForUserGroupsFromListName
 id: v1ListAgent_GetVisibleForUserGroupsFromListName
 ---
 
-# POST Agents/List/GetVisibleForUserGroupsFromListName
+# GetVisibleForUserGroupsFromListName
 
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rice, Jenkins and Gerhold",
-  "ListItemId": 859
+  "UdListDefinitionName": "Langosh LLC",
+  "ListItemId": 89
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Goodwin, Jakubowski and Stoltenberg",
-    "ToolTip": "Et consequatur.",
-    "Deleted": true,
-    "Rank": 294,
-    "Type": "pariatur",
-    "ColorBlock": 34,
-    "IconHint": "voluptates",
+    "Id": 628,
+    "Name": "Marvin, Olson and Becker",
+    "ToolTip": "Tenetur laboriosam id sunt saepe.",
+    "Deleted": false,
+    "Rank": 169,
+    "Type": "et",
+    "ColorBlock": 206,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2009-01-16T16:48:29.8239316+01:00",
+    "LastChanged": "1998-04-18T14:58:04.4134654+02:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Denesik LLC",
-        "ToolTip": "Accusamus ea.",
-        "Deleted": false,
-        "Rank": 196,
-        "Type": "sint",
-        "ColorBlock": 137,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1997-05-11T16:48:29.8239316+02:00",
+        "Id": 357,
+        "Name": "Olson Group",
+        "ToolTip": "Sed molestiae maxime veniam doloribus nemo nesciunt.",
+        "Deleted": true,
+        "Rank": 859,
+        "Type": "quaerat",
+        "ColorBlock": 568,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2009-07-10T14:58:04.4134654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Kelli Mann",
+        "ExtraInfo": "et",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Gail Ryan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,27 +141,27 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 141
+            "FieldLength": 548
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "amet",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dr. Brett Leuschke",
+    "FullName": "Roy Buckridge",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "matrix ubiquitous convergence"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "e-enable one-to-one experiences"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 320
       }
     }
   }

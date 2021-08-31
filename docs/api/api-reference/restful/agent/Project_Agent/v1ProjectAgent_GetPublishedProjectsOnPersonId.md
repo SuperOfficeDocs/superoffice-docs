@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetPublishedProjectsOnPersonId
+title: GetPublishedProjectsOnPersonId
 id: v1ProjectAgent_GetPublishedProjectsOnPersonId
 ---
 
-# POST Agents/Project/GetPublishedProjectsOnPersonId
+# GetPublishedProjectsOnPersonId
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 270
+  "PersonId": 473
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 79,
-    "Name": "Gutmann-Hahn",
-    "Description": "Self-enabling solution-oriented solution",
+    "ProjectId": 163,
+    "Name": "Kozey, Schinner and Wunsch",
+    "Description": "Multi-lateral tangible core",
     "URL": "http://www.example.com/",
-    "Type": "unde",
-    "AssociateId": 57,
-    "AssociateFullName": "Frances Stehr PhD",
-    "TypeId": 806,
-    "Updated": "2001-09-13T16:48:30.2509376+02:00",
-    "StatusId": 329,
-    "Status": "eius",
-    "TextId": 343,
-    "PublishTo": "2005-08-05T16:48:30.2509376+02:00",
-    "PublishFrom": "2019-05-27T16:48:30.2509376+02:00",
-    "IsPublished": false,
+    "Type": "eveniet",
+    "AssociateId": 121,
+    "AssociateFullName": "Grayce Hoppe",
+    "TypeId": 365,
+    "Updated": "2006-03-18T14:58:04.8624608+01:00",
+    "StatusId": 761,
+    "Status": "eum",
+    "TextId": 17,
+    "PublishTo": "2012-10-24T14:58:04.8624608+02:00",
+    "PublishFrom": "2015-08-29T14:58:04.8624608+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1509397",
-    "ActiveErpLinks": 94,
+    "ProjectNumber": "1640194",
+    "ActiveErpLinks": 164,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldType": "System.String",
+        "FieldLength": 772
       }
     }
   }

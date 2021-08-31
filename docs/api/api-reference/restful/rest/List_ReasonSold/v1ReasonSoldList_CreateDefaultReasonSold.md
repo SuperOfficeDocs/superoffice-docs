@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Mayert-Bogisich",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 788,
-  "Rank": 464,
+  "Id": 797,
+  "Name": "Block, Nolan and Cartwright",
+  "Tooltip": "error",
+  "Deleted": true,
+  "UdListDefinitionId": 942,
+  "Rank": 157,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "morph enterprise networks"
       },
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

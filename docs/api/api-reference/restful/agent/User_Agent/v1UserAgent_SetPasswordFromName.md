@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SetPasswordFromName
+title: SetPasswordFromName
 id: v1UserAgent_SetPasswordFromName
 ---
 
-# POST Agents/User/SetPasswordFromName
+# SetPasswordFromName
 
 ```http
 POST /api/v1/Agents/User/SetPasswordFromName
@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Bailey-Turner",
-  "Password": "hic"
+  "AssociateName": "Turcotte-Morar",
+  "Password": "in"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

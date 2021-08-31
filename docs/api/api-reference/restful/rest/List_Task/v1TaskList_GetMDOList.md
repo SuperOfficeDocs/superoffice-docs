@@ -25,8 +25,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=eum
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=qui
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Veum, Braun and Brown",
-    "ToolTip": "Amet eum.",
-    "Deleted": true,
-    "Rank": 366,
-    "Type": "odit",
+    "Id": 560,
+    "Name": "Hackett Group",
+    "ToolTip": "Magnam voluptate ut sit cupiditate.",
+    "Deleted": false,
+    "Rank": 819,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Spencer-Stracke",
-        "ToolTip": "Velit similique iste est neque.",
-        "Deleted": true,
-        "Rank": 84,
-        "Type": "impedit",
+        "Id": 693,
+        "Name": "Bogisich, Parisian and Johnston",
+        "ToolTip": "At expedita cupiditate eos totam sequi ut.",
+        "Deleted": false,
+        "Rank": 301,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 316,
-        "ExtraInfo": "corporis",
-        "StyleHint": "dolores",
-        "FullName": "Mr. Shayne Paucek",
+        "IconHint": "aut",
+        "ColorBlock": 502,
+        "ExtraInfo": "cum",
+        "StyleHint": "at",
+        "FullName": "Lois Adams",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldType": "System.String",
+            "FieldLength": 445
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 105,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "soluta",
-    "FullName": "Ivah Spinka",
+    "IconHint": "odio",
+    "ColorBlock": 676,
+    "ExtraInfo": "error",
+    "StyleHint": "debitis",
+    "FullName": "Merlin Mann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldType": "System.Int32",
+        "FieldLength": 350
       }
     }
   }

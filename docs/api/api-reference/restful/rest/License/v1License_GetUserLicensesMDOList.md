@@ -77,36 +77,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Stark LLC",
-    "ToolTip": "Pariatur voluptatum.",
+    "Id": 472,
+    "Name": "Hamill, Vandervort and Klein",
+    "ToolTip": "Assumenda labore deserunt molestiae tempore voluptate.",
     "Deleted": false,
-    "Rank": 630,
-    "Type": "velit",
-    "ColorBlock": 951,
-    "IconHint": "eaque",
+    "Rank": 99,
+    "Type": "sint",
+    "ColorBlock": 766,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-01-13T09:40:59.9390616+01:00",
+    "LastChanged": "2019-09-30T15:05:43.0116671+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Pfeffer Inc and Sons",
-        "ToolTip": "Possimus nesciunt aut sed officiis sunt.",
-        "Deleted": false,
-        "Rank": 739,
-        "Type": "soluta",
-        "ColorBlock": 733,
-        "IconHint": "sed",
+        "Id": 887,
+        "Name": "Lockman-Crist",
+        "ToolTip": "Quis praesentium at officiis et.",
+        "Deleted": true,
+        "Rank": 244,
+        "Type": "ipsam",
+        "ColorBlock": 251,
+        "IconHint": "nisi",
         "Selected": true,
-        "LastChanged": "2003-11-07T09:40:59.9390616+01:00",
+        "LastChanged": "1995-01-27T15:05:43.0116671+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "quas",
+        "ExtraInfo": "vero",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Blake Strosin",
+        "FullName": "Constance Rempel",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -114,16 +114,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldType": "System.String",
+            "FieldLength": 679
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Brendon Klocko",
+    "ExtraInfo": "quia",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Nicole Steuber",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 424
       }
     }
   }

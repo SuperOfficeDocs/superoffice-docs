@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "Name": "O'Hara, Spencer and Ernser",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "UdListDefinitionId": 607,
-  "Rank": 188,
+  "Id": 659,
+  "Name": "Grady, Erdman and Luettgen",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "UdListDefinitionId": 990,
+  "Rank": 149,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 356
     }
   }
 }

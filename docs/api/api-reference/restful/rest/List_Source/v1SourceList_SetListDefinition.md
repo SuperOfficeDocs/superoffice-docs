@@ -93,15 +93,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 872,
-  "Name": "Bradtke, Rath and Sipes",
-  "Tooltip": "ut",
+  "Id": 533,
+  "Name": "Rempel-Sipes",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 898,
+  "Rank": 653,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Stiedemann Inc and Sons",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 118,
-  "IsCustomList": true,
+  "Id": 621,
+  "Name": "Braun Inc and Sons",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "Rank": 397,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

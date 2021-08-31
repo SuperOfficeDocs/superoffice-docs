@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetColleaguesByDepartment
+title: GetColleaguesByDepartment
 id: v1PersonAgent_GetColleaguesByDepartment
 ---
 
-# POST Agents/Person/GetColleaguesByDepartment
+# GetColleaguesByDepartment
 
 ```http
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 560
+  "DepartmentId": 64
 }
 ```
 
@@ -126,49 +126,49 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "mollitia",
-    "PersonId": 207,
-    "Mrmrs": "velit",
-    "Firstname": "Lindsay",
-    "Lastname": "Sanford",
-    "MiddleName": "Considine, Brekke and Kuhlman",
-    "Title": "rerum",
-    "Description": "Reactive asynchronous workforce",
-    "Email": "crawford@wizahuels.biz",
-    "FullName": "Dr. Percival Bogisich",
-    "DirectPhone": "327.325.2500 x50482",
-    "FormalName": "Hoppe LLC",
-    "CountryId": 959,
-    "ContactId": 323,
-    "ContactName": "Ondricka Group",
-    "Retired": 826,
-    "Rank": 679,
-    "ActiveInterests": 12,
+    "Position": "numquam",
+    "PersonId": 880,
+    "Mrmrs": "perspiciatis",
+    "Firstname": "Max",
+    "Lastname": "Runolfsdottir",
+    "MiddleName": "Schulist-Bins",
+    "Title": "dolore",
+    "Description": "Optimized clear-thinking utilisation",
+    "Email": "shaun_bruen@weissnat.info",
+    "FullName": "Mariano Hessel II",
+    "DirectPhone": "(783)378-1311 x263",
+    "FormalName": "Kling LLC",
+    "CountryId": 29,
+    "ContactId": 497,
+    "ContactName": "Stark-Schroeder",
+    "Retired": 354,
+    "Rank": 36,
+    "ActiveInterests": 65,
     "ContactDepartment": "",
-    "ContactCountryId": 86,
-    "ContactOrgNr": "1117765",
-    "FaxPhone": "306-352-6136 x008",
-    "MobilePhone": "110.145.2768 x6586",
-    "ContactPhone": "1-610-452-8745",
-    "AssociateName": "Prosacco, Halvorson and Mann",
-    "AssociateId": 637,
-    "UsePersonAddress": false,
-    "ContactFax": "cumque",
-    "Kanafname": "sint",
-    "Kanalname": "eveniet",
-    "Post1": "sed",
-    "Post2": "explicabo",
-    "Post3": "nisi",
-    "EmailName": "norberto.harber@streich.co.uk",
-    "ContactFullName": "Gayle Kuhic",
-    "ActiveErpLinks": 222,
-    "TicketPriorityId": 305,
-    "SupportLanguageId": 564,
-    "SupportAssociateId": 554,
+    "ContactCountryId": 364,
+    "ContactOrgNr": "1393293",
+    "FaxPhone": "661.325.7574",
+    "MobilePhone": "055.643.6842 x117",
+    "ContactPhone": "648-313-5184 x402",
+    "AssociateName": "Hills LLC",
+    "AssociateId": 908,
+    "UsePersonAddress": true,
+    "ContactFax": "maiores",
+    "Kanafname": "velit",
+    "Kanalname": "nisi",
+    "Post1": "facere",
+    "Post2": "atque",
+    "Post3": "aspernatur",
+    "EmailName": "kathryn.wilderman@danielswift.us",
+    "ContactFullName": "Alyson Bahringer",
+    "ActiveErpLinks": 898,
+    "TicketPriorityId": 641,
+    "SupportLanguageId": 122,
+    "SupportAssociateId": 229,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver real-time applications"
     },
     "FieldProperties": {
       "fieldName": {
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 811
       }
     }
   }

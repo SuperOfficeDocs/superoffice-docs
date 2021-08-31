@@ -1,16 +1,17 @@
 ---
-title: POST Agents/DatabaseTable/Upsert
+title: Upsert
 id: v1DatabaseTableAgent_Upsert
 ---
 
-# POST Agents/DatabaseTable/Upsert
+# Upsert
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Upsert
 ```
 
-Insert or update rows
+Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
+Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
 
 
 ## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -46,15 +47,16 @@ POST /api/v1/Agents/DatabaseTable/Upsert?$select=name,department,category/id
 
 ## Request Body: request  
 
-TableName, Columns, Keys, DeleteUnmatched, Data 
+TableName, Columns, Keys, Data, NomatchAction, ReturnRowStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Columns | array |  |
 | Keys | array |  |
-| DeleteUnmatched | bool |  |
 | Data | array |  |
+| NomatchAction | string |  |
+| ReturnRowStatus | bool |  |
 
 
 ## Response: object
@@ -75,10 +77,11 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Success | bool | Did the operation succeed |
-| Message | string | Any message from the method; blank if success |
+| Message | string | Any message from the method, including timing data |
 | Inserts | int32 | Number of rows inserted |
 | Updates | int32 | Number of rows updated |
-| Deletes | int32 | Number of rows deleted |
+| Deletes | int32 | Number of rows deleted / zeroed |
+| RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -92,16 +95,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Eichmann, Gutmann and Cormier",
+  "TableName": "Cole-Lowe",
   "Columns": [
-    "quo",
-    "natus"
+    "praesentium",
+    "voluptates"
   ],
   "Keys": [
-    "debitis",
-    "et"
+    "quos",
+    "consectetur"
   ],
-  "DeleteUnmatched": false,
   "Data": [
     [
       {}
@@ -109,7 +111,9 @@ Content-Type: application/json; charset=utf-8
     [
       {}
     ]
-  ]
+  ],
+  "NomatchAction": "DeleteRow",
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,10 +123,50 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "nobis",
-  "Inserts": 946,
-  "Updates": 728,
-  "Deletes": 764,
+  "Message": "atque",
+  "Inserts": 617,
+  "Updates": 845,
+  "Deletes": 783,
+  "RowStatus": [
+    {
+      "PrimaryKey": 227,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "illum",
+        "voluptas"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 236
+        }
+      }
+    },
+    {
+      "PrimaryKey": 227,
+      "Action": "ColumnsZeroed",
+      "RowKeys": [
+        "illum",
+        "voluptas"
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 236
+        }
+      }
+    }
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,7 +178,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 679
     }
   }
 }

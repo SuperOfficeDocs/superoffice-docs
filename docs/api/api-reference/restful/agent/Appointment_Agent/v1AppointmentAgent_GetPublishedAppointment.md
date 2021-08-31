@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPublishedAppointment
+title: GetPublishedAppointment
 id: v1AppointmentAgent_GetPublishedAppointment
 ---
 
-# POST Agents/Appointment/GetPublishedAppointment
+# GetPublishedAppointment
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
@@ -130,7 +130,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 399
+  "AppointmentId": 924
 }
 ```
 
@@ -139,53 +139,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 504,
-  "StartDate": "2011-08-14T16:48:28.4794493+02:00",
-  "EndDate": "2007-08-02T16:48:28.4794493+02:00",
+  "AppointmentId": 280,
+  "StartDate": "1999-12-17T14:58:02.8755733+01:00",
+  "EndDate": "2009-07-23T14:58:02.8755733+02:00",
   "Type": "BookingForChecklist",
-  "Task": "cupiditate",
-  "AssociateFullName": "Gilda Roob",
-  "ContactName": "Shanahan-Muller",
-  "Description": "Self-enabling directional flexibility",
-  "PersonFullName": "Jack Bashirian",
-  "PersonId": 17,
-  "ContactId": 2,
-  "ProjectId": 990,
-  "ProjectName": "Ondricka-Tromp",
+  "Task": "nisi",
+  "AssociateFullName": "Efren Nader",
+  "ContactName": "King Group",
+  "Description": "Polarised secondary leverage",
+  "PersonFullName": "Brennon Koelpin",
+  "PersonId": 752,
+  "ContactId": 43,
+  "ProjectId": 630,
+  "ProjectName": "Kemmer-Greenfelder",
   "IsPublished": false,
-  "AssociateId": 637,
-  "ColorIndex": 433,
+  "AssociateId": 584,
+  "ColorIndex": 141,
   "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 48,
-  "PriorityName": "Grant-Buckridge",
+  "PriorityId": 359,
+  "PriorityName": "Harber-Bogisich",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2018-02-27T16:48:28.4804509+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2017-05-23T14:58:02.8755733+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2009-09-15T16:48:28.4804509+02:00",
-  "RecurringEndDate": "2010-11-22T16:48:28.4804509+01:00",
-  "MotherId": 734,
-  "AssignedBy": 968,
-  "AssignedByFullName": "Charlotte Schiller DDS",
+  "RecurringStartDate": "1996-10-17T14:58:02.8755733+02:00",
+  "RecurringEndDate": "2002-08-24T14:58:02.8755733+02:00",
+  "MotherId": 572,
+  "AssignedBy": 818,
+  "AssignedByFullName": "Cicero Rohan",
   "RejectReason": "",
-  "Location": "consequuntur",
-  "AlarmLeadTime": "animi",
-  "SaleId": 34,
-  "SaleName": "Bosco Inc and Sons",
-  "AssociateName": "Casper, Bahringer and Satterfield",
-  "CreatedDate": "2019-12-07T16:48:28.4804509+01:00",
-  "CreatedBy": "ipsum",
-  "CreatedByFullName": "Maci Becker",
-  "CreatedByAssociateId": 370,
+  "Location": "est",
+  "AlarmLeadTime": "ea",
+  "SaleId": 151,
+  "SaleName": "Feest Inc and Sons",
+  "AssociateName": "Heaney, Ritchie and Mayert",
+  "CreatedDate": "2019-02-18T14:58:02.8765731+01:00",
+  "CreatedBy": "veniam",
+  "CreatedByFullName": "Ellen Walsh",
+  "CreatedByAssociateId": 999,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 105
     }
   }
 }

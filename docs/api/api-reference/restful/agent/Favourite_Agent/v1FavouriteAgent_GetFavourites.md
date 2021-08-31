@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Favourite/GetFavourites
+title: GetFavourites
 id: v1FavouriteAgent_GetFavourites
 ---
 
-# POST Agents/Favourite/GetFavourites
+# GetFavourites
 
 ```http
 POST /api/v1/Agents/Favourite/GetFavourites
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stiedemann, Mertz and Schoen",
-  "AssociateId": 71
+  "TableName": "O'Keefe-Kunde",
+  "AssociateId": 97
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Casper, Predovic and Okuneva",
-    "RecordId": 954,
-    "AssociateId": 515,
-    "ExtraInfo": "minus",
-    "Rank": 970,
+    "TableName": "Runolfsdottir-Treutel",
+    "RecordId": 636,
+    "AssociateId": 178,
+    "ExtraInfo": "quas",
+    "Rank": 647,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "cultivate user-centric portals"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldType": "System.String",
+        "FieldLength": 579
       }
     }
   }

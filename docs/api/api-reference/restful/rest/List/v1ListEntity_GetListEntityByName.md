@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -80,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Paucek-Lebsack",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 697,
+  "Id": 631,
+  "Name": "Leannon Inc and Sons",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 241,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "magnam",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "evolve leading-edge convergence"
       },
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 663
     }
   }
 }

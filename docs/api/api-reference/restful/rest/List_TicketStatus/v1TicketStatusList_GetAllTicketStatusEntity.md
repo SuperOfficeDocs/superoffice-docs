@@ -58,7 +58,7 @@ Response body: array
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -67,8 +67,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 710,
-    "Name": "Stokes LLC",
+    "TicketStatusId": 762,
+    "Name": "Rutherford, Goldner and Smith",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -80,10 +80,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "reinvent one-to-one functionalities"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

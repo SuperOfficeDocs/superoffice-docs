@@ -1,9 +1,9 @@
 ---
-title: POST Agents/NumberAllocation/SetNumberEachTemplate
+title: SetNumberEachTemplate
 id: v1NumberAllocationAgent_SetNumberEachTemplate
 ---
 
-# POST Agents/NumberAllocation/SetNumberEachTemplate
+# SetNumberEachTemplate
 
 ```http
 POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate

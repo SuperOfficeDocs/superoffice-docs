@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetHeadingsForListItemFromListName
+title: GetHeadingsForListItemFromListName
 id: v1ListAgent_GetHeadingsForListItemFromListName
 ---
 
-# POST Agents/List/GetHeadingsForListItemFromListName
+# GetHeadingsForListItemFromListName
 
 ```http
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
@@ -89,13 +89,13 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Koss Group",
-  "ListItemId": 705,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Mraz Inc and Sons",
+  "ListItemId": 714,
+  "ShowDeleted": false
 }
 ```
 
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Ryan-Pollich",
-    "ToolTip": "Unde tenetur quaerat quos.",
+    "Id": 766,
+    "Name": "Herzog Group",
+    "ToolTip": "Vero facere iusto sit.",
     "Deleted": true,
-    "Rank": 780,
-    "Type": "expedita",
-    "ColorBlock": 11,
-    "IconHint": "et",
+    "Rank": 725,
+    "Type": "nisi",
+    "ColorBlock": 972,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2015-11-26T16:48:29.8859236+01:00",
+    "LastChanged": "2007-02-13T14:58:04.4244678+01:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Pagac-Howe",
-        "ToolTip": "Labore alias debitis eos magni ut explicabo.",
+        "Id": 182,
+        "Name": "Muller LLC",
+        "ToolTip": "Aut temporibus molestias nihil.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "voluptate",
-        "ColorBlock": 530,
-        "IconHint": "doloribus",
-        "Selected": false,
-        "LastChanged": "2004-06-12T16:48:29.8859236+02:00",
+        "Rank": 549,
+        "Type": "laboriosam",
+        "ColorBlock": 382,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2013-12-24T14:58:04.4244678+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "velit",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Dr. Amparo Bahringer",
+        "FullName": "Kobe Cormier I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -143,18 +143,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Marques Koch",
+    "ExtraInfo": "sunt",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Clara Streich",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "cultivate intuitive paradigms"
     },
     "FieldProperties": {
       "fieldName": {
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 344
       }
     }
   }

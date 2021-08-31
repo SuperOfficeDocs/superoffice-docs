@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/CreateFavorite
+title: CreateFavorite
 id: v1ReportAgent_CreateFavorite
 ---
 
-# POST Agents/Report/CreateFavorite
+# CreateFavorite
 
 ```http
 POST /api/v1/Agents/Report/CreateFavorite
@@ -83,13 +83,13 @@ Response body: object
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 780,
-  "Name": "O'Hara, Bogisich and Lindgren",
-  "Description": "Cross-group logistical info-mediaries"
+  "SourceId": 978,
+  "Name": "King Inc and Sons",
+  "Description": "Open-architected needs-based internet solution"
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 423,
+  "ReportId": 549,
   "ReportCategory": "All",
-  "Description": "Versatile bifurcated architecture",
+  "Description": "Networked neutral framework",
   "ReportLayout": "CalendarMonth",
-  "Name": "Denesik-Little",
-  "AssociateId": 683,
-  "TemplateId": 18,
-  "Published": true,
+  "Name": "Stroman Inc and Sons",
+  "AssociateId": 49,
+  "TemplateId": 238,
+  "Published": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   }
 }

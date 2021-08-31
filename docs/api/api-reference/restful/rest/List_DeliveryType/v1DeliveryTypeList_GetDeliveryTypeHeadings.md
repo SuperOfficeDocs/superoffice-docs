@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,15 +68,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 918,
-    "Name": "Koch, Graham and Stanton",
-    "Tooltip": "sint",
+    "HeadingId": 415,
+    "Name": "Williamson, Rempel and Feil",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "Rank": 637,
-    "UdListDefinitionId": 851,
+    "Rank": 202,
+    "UdListDefinitionId": 52,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "architect end-to-end web-readiness"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 919
       }
     }
   }

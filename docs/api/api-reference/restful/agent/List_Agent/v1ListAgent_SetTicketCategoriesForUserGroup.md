@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetTicketCategoriesForUserGroup
+title: SetTicketCategoriesForUserGroup
 id: v1ListAgent_SetTicketCategoriesForUserGroup
 ---
 
-# POST Agents/List/SetTicketCategoriesForUserGroup
+# SetTicketCategoriesForUserGroup
 
 ```http
 POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup

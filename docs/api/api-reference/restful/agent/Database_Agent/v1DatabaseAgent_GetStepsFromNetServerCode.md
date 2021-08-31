@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Database/GetStepsFromNetServerCode
+title: GetStepsFromNetServerCode
 id: v1DatabaseAgent_GetStepsFromNetServerCode
 ---
 
-# POST Agents/Database/GetStepsFromNetServerCode
+# GetStepsFromNetServerCode
 
 ```http
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski-Metz",
-    "StepNumber": 527,
+    "Name": "Baumbach-Haag",
+    "StepNumber": 660,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,16 +84,16 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "cultivate granular technologies"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   },
   {
-    "Name": "Mosciski-Metz",
-    "StepNumber": 527,
+    "Name": "Baumbach-Haag",
+    "StepNumber": 660,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -102,10 +102,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "cultivate granular technologies"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   }

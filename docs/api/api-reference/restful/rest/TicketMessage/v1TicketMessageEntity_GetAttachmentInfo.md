@@ -52,6 +52,8 @@ Response body: array
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -61,7 +63,7 @@ Response body: array
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,10 +72,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 955,
-    "Name": "Hickle, O'Keefe and Purdy",
-    "ContentType": "vel",
-    "AttSize": 199,
+    "AttachmentId": 931,
+    "Name": "Terry Group",
+    "ContentType": "temporibus",
+    "AttSize": 131,
+    "InlineImage": false,
+    "ContentId": "ex",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,28 +88,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 599
-      }
-    }
-  },
-  {
-    "AttachmentId": 955,
-    "Name": "Hickle, O'Keefe and Purdy",
-    "ContentType": "vel",
-    "AttSize": 199,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 599
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

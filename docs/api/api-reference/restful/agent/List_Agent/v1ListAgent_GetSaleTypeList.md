@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetSaleTypeList
+title: GetSaleTypeList
 id: v1ListAgent_GetSaleTypeList
 ---
 
-# POST Agents/List/GetSaleTypeList
+# GetSaleTypeList
 
 ```http
 POST /api/v1/Agents/List/GetSaleTypeList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetSaleTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Value": "vero",
-    "Tooltip": "expedita",
+    "Id": 603,
+    "Value": "expedita",
+    "Tooltip": "consequuntur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "engage B2B e-markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 489
       }
     }
   },
   {
-    "Id": 724,
-    "Value": "vero",
-    "Tooltip": "expedita",
+    "Id": 603,
+    "Value": "expedita",
+    "Tooltip": "consequuntur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,10 +111,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "engage B2B e-markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 489
       }
     }
   }

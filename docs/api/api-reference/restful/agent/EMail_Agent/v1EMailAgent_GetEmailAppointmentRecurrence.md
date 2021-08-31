@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEmailAppointmentRecurrence
+title: GetEmailAppointmentRecurrence
 id: v1EMailAgent_GetEmailAppointmentRecurrence
 ---
 
-# POST Agents/EMail/GetEmailAppointmentRecurrence
+# GetEmailAppointmentRecurrence
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 937
+  "MailItemId": 884
 }
 ```
 
@@ -97,48 +97,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 912,
-  "StartDate": "2018-08-20T16:48:29.5449251+02:00",
-  "EndDate": "2012-11-25T16:48:29.5449251+01:00",
-  "RecurrenceCounter": 738,
+  "RecurrenceId": 795,
+  "StartDate": "1997-06-27T14:58:04.0994658+02:00",
+  "EndDate": "2018-12-14T14:58:04.0994658+01:00",
+  "RecurrenceCounter": 225,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 303
+    "Cycle": 377
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 581
+    "Cycle": 283
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 503,
-    "Day": 821,
+    "Cycle": 189,
+    "Day": 444,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 66,
-    "Day": 549,
+    "Cycle": 136,
+    "Day": 479,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "1996-12-04T16:48:29.5449251+01:00",
+      "Date": "2010-07-30T14:58:04.0994658+02:00",
       "IsConflict": false,
-      "Description": "Ergonomic user-facing forecast",
-      "DescriptionStyleHint": "Organized 24/7 concept",
-      "Tooltip": "rerum"
+      "Description": "De-engineered tangible concept",
+      "DescriptionStyleHint": "Profound holistic standardization",
+      "Tooltip": "voluptatum"
     },
     {
-      "Date": "1996-12-04T16:48:29.5449251+01:00",
+      "Date": "2010-07-30T14:58:04.0994658+02:00",
       "IsConflict": false,
-      "Description": "Ergonomic user-facing forecast",
-      "DescriptionStyleHint": "Organized 24/7 concept",
-      "Tooltip": "rerum"
+      "Description": "De-engineered tangible concept",
+      "DescriptionStyleHint": "Profound holistic standardization",
+      "Tooltip": "voluptatum"
     }
   ],
   "IsRecurrence": true

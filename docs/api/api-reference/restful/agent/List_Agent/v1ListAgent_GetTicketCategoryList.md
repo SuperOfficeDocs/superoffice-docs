@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketCategoryList
+title: GetTicketCategoryList
 id: v1ListAgent_GetTicketCategoryList
 ---
 
-# POST Agents/List/GetTicketCategoryList
+# GetTicketCategoryList
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategoryList
@@ -93,26 +93,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 517,
-    "ParentId": 292,
-    "Name": "Monahan-Homenick",
-    "Fullname": "dicta",
-    "CategoryMaster": 138,
+    "TicketCategoryId": 395,
+    "ParentId": 940,
+    "Name": "Abshire Inc and Sons",
+    "Fullname": "aut",
+    "CategoryMaster": 67,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Christiansen, Koepp and Borer",
+    "ExternalName": "Fadel LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 709,
-    "ReplyTemplate": 986,
-    "NotificationEmail": "sigrid@grady.com",
+    "AssignmentLag": 967,
+    "ReplyTemplate": 477,
+    "NotificationEmail": "leopoldo_wintheiser@reynolds.co.uk",
     "ExtraFields": {
-      "ExtraFields1": "eos",
-      "ExtraFields2": "dignissimos"
+      "ExtraFields1": "animi",
+      "ExtraFields2": "in"
     },
     "CustomFields": {
-      "CustomFields1": "ex",
-      "CustomFields2": "quae"
+      "CustomFields1": "velit",
+      "CustomFields2": "saepe"
     },
     "TableRight": {
       "Mask": "Delete",
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldLength": 361
       }
     }
   }

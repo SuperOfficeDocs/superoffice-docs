@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,15 +68,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Wisoky, Toy and Baumbach",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "Rank": 260,
-    "UdListDefinitionId": 770,
+    "HeadingId": 433,
+    "Name": "Trantow-Homenick",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 180,
+    "UdListDefinitionId": 58,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "transition wireless technologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 687
       }
     }
   }

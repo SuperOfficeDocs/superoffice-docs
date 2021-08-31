@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLocalizedTextsByType
+title: GetLocalizedTextsByType
 id: v1ListAgent_GetLocalizedTextsByType
 ---
 
-# POST Agents/List/GetLocalizedTextsByType
+# GetLocalizedTextsByType
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByType
@@ -78,13 +78,13 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "quibusdam",
-    "odit"
+    "velit",
+    "optio"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 207,
-    "ResourceId": 328,
-    "Text": "sed",
+    "LanguageId": 43,
+    "ResourceId": 915,
+    "Text": "quia",
     "Type": "Column",
-    "LocalizedTextId": 541,
+    "LocalizedTextId": 740,
     "IsBuiltIn": true,
     "TableRight": {
       "Mask": "Delete",
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "morph rich markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldLength": 829
       }
     }
   }

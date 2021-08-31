@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailEnvelopes
+title: GetEMailEnvelopes
 id: v1EMailAgent_GetEMailEnvelopes
 ---
 
-# POST Agents/EMail/GetEMailEnvelopes
+# GetEMailEnvelopes
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
@@ -85,20 +85,20 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Cremin-Wilkinson",
-    "UserName": "Kunze, Stracke and Durgan",
-    "Password": "rerum",
-    "Folder": "et",
+    "ServerName": "Mertz, Beer and D'Amore",
+    "UserName": "Langosh-Braun",
+    "Password": "similique",
+    "Folder": "eius",
     "UseSSL": false
   },
   "MessageServerIds": [
-    581,
-    90
+    812,
+    267
   ]
 }
 ```
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 861,
-    "MessageId": "a",
-    "Subject": "doloremque",
+    "ServerId": 283,
+    "MessageId": "aut",
+    "Subject": "totam",
     "From": {
-      "ContactId": 793,
-      "ContactName": "Christiansen-Goodwin",
-      "PersonId": 132,
-      "PersonName": "Stracke, Schaefer and White",
-      "AssociateId": 692,
-      "Address": "minus",
-      "EmailId": 646,
+      "ContactId": 157,
+      "ContactName": "Macejkovic-Emard",
+      "PersonId": 841,
+      "PersonName": "Armstrong LLC",
+      "AssociateId": 9,
+      "Address": "aut",
+      "EmailId": 338,
       "DuplicatePersonIds": [
-        846,
-        585
+        381,
+        663
       ],
-      "Name": "Champlin Group",
+      "Name": "Olson, Lebsack and Yost",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -133,24 +133,24 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldLength": 265
         }
       }
     },
     "To": [
       {
-        "ContactId": 168,
-        "ContactName": "Parisian-Schulist",
-        "PersonId": 302,
-        "PersonName": "Franecki-Howell",
-        "AssociateId": 997,
-        "Address": "ad",
-        "EmailId": 272,
+        "ContactId": 381,
+        "ContactName": "Kreiger-Trantow",
+        "PersonId": 595,
+        "PersonName": "Cummings LLC",
+        "AssociateId": 46,
+        "Address": "quia",
+        "EmailId": 406,
         "DuplicatePersonIds": [
-          402,
-          679
+          433,
+          382
         ],
-        "Name": "Greenfelder LLC",
+        "Name": "Hermiston Group",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -159,24 +159,24 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 118
+            "FieldLength": 723
           }
         }
       }
     ],
-    "Sent": "2015-06-01T16:48:29.6119307+02:00",
+    "Sent": "2008-08-21T14:58:04.125432+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 82,
+    "Size": 956,
     "EMailSOInfo": {
-      "DocumentId": 849,
-      "AppointmentId": 468,
-      "ProjectId": 913,
-      "SaleId": 734,
-      "Archived": true,
-      "ArchivedAt": "2019-10-29T16:48:29.6119307+01:00",
-      "ArchivedBy": 140,
-      "ArchivedDisplayName": "Cummerata LLC",
+      "DocumentId": 52,
+      "AppointmentId": 161,
+      "ProjectId": 261,
+      "SaleId": 758,
+      "Archived": false,
+      "ArchivedAt": "2007-11-12T14:58:04.125432+01:00",
+      "ArchivedBy": 878,
+      "ArchivedDisplayName": "Toy, Windler and Casper",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldType": "System.String",
+          "FieldLength": 857
         }
       }
     },
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 976
       }
     }
   }

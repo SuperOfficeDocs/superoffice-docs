@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -116,40 +116,40 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 822,
-  "ColumnId": 329,
-  "FieldDefault": "vel",
-  "FieldHeight": 978,
-  "FieldLabel": "repellendus",
-  "FieldLeft": 538,
-  "FieldTop": 339,
+  "UDefFieldId": 441,
+  "ColumnId": 1001,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 332,
+  "FieldLabel": "fugit",
+  "FieldLeft": 63,
+  "FieldTop": 98,
   "FieldType": "Checkbox",
-  "FieldWidth": 41,
-  "FormatMask": "aut",
+  "FieldWidth": 946,
+  "FormatMask": "error",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 192,
-  "LabelLeft": 627,
-  "LabelTop": 382,
-  "LabelWidth": 167,
-  "LastVersionId": 378,
-  "ListTableId": 103,
-  "IsMandatory": false,
+  "LabelHeight": 19,
+  "LabelLeft": 750,
+  "LabelTop": 497,
+  "LabelWidth": 261,
+  "LastVersionId": 95,
+  "ListTableId": 59,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 834,
-  "ProgId": "dolor",
+  "Page1LineNo": 364,
+  "ProgId": "voluptatem",
   "IsReadOnly": true,
-  "ShortLabel": "facilis",
-  "TabOrder": 467,
-  "TextLength": 163,
-  "Tooltip": "doloremque",
-  "UdefIdentity": 911,
-  "UDListDefinitionId": 901,
+  "ShortLabel": "repellendus",
+  "TabOrder": 3,
+  "TextLength": 466,
+  "Tooltip": "consectetur",
+  "UdefIdentity": 10,
+  "UDListDefinitionId": 892,
   "Justification": "Center",
-  "Version": 537,
-  "TemplateVariableName": "Rolfson Group",
+  "Version": 403,
+  "TemplateVariableName": "Kemmer LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Beatty Group",
+  "MdoListName": "Roob, Mueller and Kutch",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldLength": 159
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectEventOnPerson
+title: GetProjectEventOnPerson
 id: v1ProjectAgent_GetProjectEventOnPerson
 ---
 
-# POST Agents/Project/GetProjectEventOnPerson
+# GetProjectEventOnPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
@@ -100,12 +100,12 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 435,
-  "PersonId": 29
+  "ProjectId": 977,
+  "PersonId": 658
 }
 ```
 
@@ -114,28 +114,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Dr. Chase Conroy",
-  "Description": "Stand-alone explicit focus group",
-  "ProjectId": 132,
-  "EventName": "Cummerata-Greenholt",
-  "AssociateId": 230,
+  "AssociateFullName": "Simone Metz",
+  "Description": "Inverse systematic process improvement",
+  "ProjectId": 22,
+  "EventName": "Zieme Group",
+  "AssociateId": 118,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "est",
-  "SignOffText": "quis",
-  "SignOnConfirmationText": "quo",
-  "SignOnText": "consequatur",
-  "EventDate": "1999-06-26T16:48:30.3589339+02:00",
+  "SignOffConfirmationText": "impedit",
+  "SignOffText": "itaque",
+  "SignOnConfirmationText": "molestiae",
+  "SignOnText": "sapiente",
+  "EventDate": "2008-04-23T14:58:04.9204646+02:00",
   "Enabled": true,
-  "SignOff": false,
+  "SignOff": true,
   "SignOffTaskEnable": true,
   "SignOnTaskEnable": true,
   "SignOn": true,
-  "SignOffTaskId": 843,
-  "SignOnTaskId": 502,
+  "SignOffTaskId": 519,
+  "SignOnTaskId": 17,
   "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 694,
-  "SignOffPersonId": 339,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 847,
+  "SignOffPersonId": 632,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

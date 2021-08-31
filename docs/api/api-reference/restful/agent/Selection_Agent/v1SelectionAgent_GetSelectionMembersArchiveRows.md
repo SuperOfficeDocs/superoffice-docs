@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetSelectionMembersArchiveRows
+title: GetSelectionMembersArchiveRows
 id: v1SelectionAgent_GetSelectionMembersArchiveRows
 ---
 
-# POST Agents/Selection/GetSelectionMembersArchiveRows
+# GetSelectionMembersArchiveRows
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 139,
-  "Select": "maiores"
+  "SelectionId": 75,
+  "Select": "eum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beatty-Hauck",
-    "PrimaryKey": 925,
+    "EntityName": "Bayer, Morar and Nolan",
+    "PrimaryKey": 479,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cumque",
-        "TooltipHint": "non",
-        "LinkHint": "repellendus"
+        "DisplayValue": "voluptatem",
+        "TooltipHint": "tenetur",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "excepturi",
-    "StyleHint": "magnam",
+    "LinkHint": "soluta",
+    "StyleHint": "occaecati",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldLength": 292
       }
     }
   }

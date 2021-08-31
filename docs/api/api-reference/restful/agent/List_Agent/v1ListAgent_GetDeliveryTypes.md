@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDeliveryTypes
+title: GetDeliveryTypes
 id: v1ListAgent_GetDeliveryTypes
 ---
 
-# POST Agents/List/GetDeliveryTypes
+# GetDeliveryTypes
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryTypes
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDeliveryTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Value": "eos",
-    "Tooltip": "soluta",
+    "Id": 780,
+    "Value": "nemo",
+    "Tooltip": "perferendis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldLength": 263
       }
     }
   },
   {
-    "Id": 616,
-    "Value": "eos",
-    "Tooltip": "soluta",
+    "Id": 780,
+    "Value": "nemo",
+    "Tooltip": "perferendis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldLength": 263
       }
     }
   }

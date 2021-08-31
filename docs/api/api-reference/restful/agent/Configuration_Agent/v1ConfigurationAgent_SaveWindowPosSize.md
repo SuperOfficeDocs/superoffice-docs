@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/SaveWindowPosSize
+title: SaveWindowPosSize
 id: v1ConfigurationAgent_SaveWindowPosSize
 ---
 
-# POST Agents/Configuration/SaveWindowPosSize
+# SaveWindowPosSize
 
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
@@ -83,22 +83,22 @@ Response body: object
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSize": {
-    "OwnerWindow": "qui",
-    "PersonId": 324,
-    "AssociateId": 687,
-    "ExtraId": 248,
-    "ExtraInfo": "dolores",
-    "Height": 337,
-    "LeftX": 553,
+    "OwnerWindow": "et",
+    "PersonId": 166,
+    "AssociateId": 852,
+    "ExtraId": 314,
+    "ExtraInfo": "tempore",
+    "Height": 857,
+    "LeftX": 308,
     "State": "Maximized",
-    "UpperY": 708,
-    "Width": 396,
-    "WindowPosSizeId": 488
+    "UpperY": 336,
+    "Width": 56,
+    "WindowPosSizeId": 597
   }
 }
 ```
@@ -108,17 +108,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "ipsam",
-  "PersonId": 134,
-  "AssociateId": 232,
-  "ExtraId": 864,
-  "ExtraInfo": "ea",
-  "Height": 104,
-  "LeftX": 605,
+  "OwnerWindow": "suscipit",
+  "PersonId": 56,
+  "AssociateId": 310,
+  "ExtraId": 592,
+  "ExtraInfo": "totam",
+  "Height": 879,
+  "LeftX": 537,
   "State": "Maximized",
-  "UpperY": 312,
-  "Width": 550,
-  "WindowPosSizeId": 720,
+  "UpperY": 647,
+  "Width": 138,
+  "WindowPosSizeId": 479,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldType": "System.Int32",
+      "FieldLength": 617
     }
   }
 }

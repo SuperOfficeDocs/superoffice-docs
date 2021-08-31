@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCompetitors
+title: GetCompetitors
 id: v1ListAgent_GetCompetitors
 ---
 
-# POST Agents/List/GetCompetitors
+# GetCompetitors
 
 ```http
 POST /api/v1/Agents/List/GetCompetitors
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Value": "iusto",
-    "Tooltip": "cupiditate",
+    "Id": 584,
+    "Value": "et",
+    "Tooltip": "laudantium",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 461
       }
     }
   },
   {
-    "Id": 610,
-    "Value": "iusto",
-    "Tooltip": "cupiditate",
+    "Id": 584,
+    "Value": "et",
+    "Tooltip": "laudantium",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 461
       }
     }
   }

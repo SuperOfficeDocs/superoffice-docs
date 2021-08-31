@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSalesByDate
+title: GetSalesByDate
 id: v1SaleAgent_GetSalesByDate
 ---
 
-# POST Agents/Sale/GetSalesByDate
+# GetSalesByDate
 
 ```http
 POST /api/v1/Agents/Sale/GetSalesByDate
@@ -100,13 +100,13 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2009-03-09T16:48:30.621936+01:00",
-  "ToDate": "2000-07-28T16:48:30.621936+02:00",
-  "AmountLimit": 645,
+  "FromDate": "2005-04-02T14:58:05.1876286+02:00",
+  "ToDate": "2016-03-28T14:58:05.1876286+02:00",
+  "AmountLimit": 398,
   "Status": "Lost"
 }
 ```
@@ -117,31 +117,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Waelchi-Jones",
-    "SaleDate": "2018-04-21T16:48:30.6229348+02:00",
-    "SaleId": 59,
-    "Probability": 689,
-    "Title": "fugit",
-    "Amount": 22386.162,
-    "Currency": "qui",
-    "ProjectName": "Wisozk-Rice",
-    "AssociateFullName": "Aurelia Heller",
-    "Description": "Diverse uniform functionalities",
+    "ContactName": "Treutel-Zboncak",
+    "SaleDate": "2006-06-02T14:58:05.1886281+02:00",
+    "SaleId": 993,
+    "Probability": 914,
+    "Title": "excepturi",
+    "Amount": 12739.71,
+    "Currency": "et",
+    "ProjectName": "Franecki-Zieme",
+    "AssociateFullName": "Amie Cassin",
+    "Description": "Pre-emptive multi-tasking approach",
     "Status": "Lost",
-    "WeightedAmount": 26695.412,
-    "ProjectId": 95,
-    "EarningPercent": 5133.492,
-    "Earning": 19217.688,
-    "ContactId": 794,
-    "AssociateId": 537,
-    "PersonId": 771,
-    "SaleTypeId": 86,
-    "SaleTypeName": "Nicolas-Nicolas",
-    "PersonFullName": "Shaniya Breitenberg",
+    "WeightedAmount": 22944.014,
+    "ProjectId": 831,
+    "EarningPercent": 19891.498,
+    "Earning": 6709.894,
+    "ContactId": 921,
+    "AssociateId": 220,
+    "PersonId": 656,
+    "SaleTypeId": 422,
+    "SaleTypeName": "Swift, Simonis and Cremin",
+    "PersonFullName": "Abagail Kuvalis",
     "Completed": "Completed",
-    "ActiveErpLinks": 208,
-    "NextDueDate": "2006-07-08T16:48:30.6229348+02:00",
-    "Number": "1407766",
+    "ActiveErpLinks": 853,
+    "NextDueDate": "2014-04-04T14:58:05.1886281+02:00",
+    "Number": "702513",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

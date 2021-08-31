@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLegalBases
+title: GetLegalBases
 id: v1ListAgent_GetLegalBases
 ---
 
-# POST Agents/List/GetLegalBases
+# GetLegalBases
 
 ```http
 POST /api/v1/Agents/List/GetLegalBases
@@ -69,7 +69,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 887,
-    "Name": "Cassin-Lubowitz",
-    "Tooltip": "velit",
-    "Rank": 347,
-    "Key": "in",
-    "Deleted": false,
+    "LegalBaseId": 125,
+    "Name": "Sanford-Schultz",
+    "Tooltip": "eum",
+    "Rank": 959,
+    "Key": "minima",
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 266
       }
     }
   }

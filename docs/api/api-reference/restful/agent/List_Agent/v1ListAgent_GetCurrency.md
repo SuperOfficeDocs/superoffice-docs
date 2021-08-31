@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCurrency
+title: GetCurrency
 id: v1ListAgent_GetCurrency
 ---
 
-# POST Agents/List/GetCurrency
+# GetCurrency
 
 ```http
 POST /api/v1/Agents/List/GetCurrency
@@ -25,7 +25,7 @@ Gets a Currency object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrency?currencyId=225
+POST /api/v1/Agents/List/GetCurrency?currencyId=874
 POST /api/v1/Agents/List/GetCurrency?$select=name,department,category/id
 ```
 
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Value": "ipsum",
-  "Tooltip": "aut",
+  "Id": 998,
+  "Value": "non",
+  "Tooltip": "id",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "e-enable end-to-end web services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 766
     }
   }
 }

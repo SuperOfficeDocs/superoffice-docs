@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetCRMUrl
+title: GetCRMUrl
 id: v1ConfigurationAgent_GetCRMUrl
 ---
 
-# POST Agents/Configuration/GetCRMUrl
+# GetCRMUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetCRMUrl
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "et",
-  "Currents": "distinctio",
-  "Frameless": false
+  "SoProtocol": "soluta",
+  "Currents": "natus",
+  "Frameless": true
 }
 ```
 

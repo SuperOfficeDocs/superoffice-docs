@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetMyAppointments
+title: GetMyAppointments
 id: v1AppointmentAgent_GetMyAppointments
 ---
 
-# POST Agents/Appointment/GetMyAppointments
+# GetMyAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyAppointments
@@ -123,13 +123,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2005-02-28T16:48:28.4204488+01:00",
-  "EndTime": "2004-03-31T16:48:28.4204488+02:00",
-  "Count": 505
+  "StartTime": "2005-02-21T14:58:03.0385385+01:00",
+  "EndTime": "2010-01-10T14:58:03.0385385+01:00",
+  "Count": 346
 }
 ```
 
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 875,
-    "StartDate": "2020-12-01T16:48:28.422449+01:00",
-    "EndDate": "2003-05-12T16:48:28.422449+02:00",
+    "AppointmentId": 628,
+    "StartDate": "2002-04-05T14:58:03.0395384+02:00",
+    "EndDate": "2000-03-18T14:58:03.0395384+01:00",
     "Type": "BookingForChecklist",
-    "Task": "magni",
-    "AssociateFullName": "Damion Lindgren",
-    "ContactName": "Tremblay LLC",
-    "Description": "Programmable contextually-based hardware",
-    "PersonFullName": "Davion Littel",
-    "PersonId": 328,
-    "ContactId": 496,
-    "ProjectId": 743,
-    "ProjectName": "Hyatt, Dach and Brakus",
-    "IsPublished": false,
-    "AssociateId": 331,
-    "ColorIndex": 720,
+    "Task": "laudantium",
+    "AssociateFullName": "Jaida Cronin",
+    "ContactName": "Gaylord Inc and Sons",
+    "Description": "Inverse bifurcated Graphical User Interface",
+    "PersonFullName": "Alice O'Connell",
+    "PersonId": 962,
+    "ContactId": 889,
+    "ProjectId": 305,
+    "ProjectName": "Gorczany, Hand and Schowalter",
+    "IsPublished": true,
+    "AssociateId": 2,
+    "ColorIndex": 838,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 363,
-    "PriorityName": "Hane, Goyette and McLaughlin",
+    "PriorityId": 272,
+    "PriorityName": "Rogahn-Leffler",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2009-09-16T16:48:28.422449+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2007-03-18T14:58:03.0405381+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-12-01T16:48:28.422449+01:00",
-    "RecurringEndDate": "2018-06-18T16:48:28.422449+02:00",
-    "MotherId": 779,
-    "AssignedBy": 407,
-    "AssignedByFullName": "Sherwood Rowe",
+    "RecurringStartDate": "2003-04-07T14:58:03.0405381+02:00",
+    "RecurringEndDate": "1999-04-23T14:58:03.0405381+02:00",
+    "MotherId": 508,
+    "AssignedBy": 920,
+    "AssignedByFullName": "Destinee Reichert",
     "RejectReason": "",
-    "Location": "laborum",
-    "AlarmLeadTime": "voluptas",
-    "SaleId": 361,
-    "SaleName": "Pagac, Fahey and Friesen",
-    "AssociateName": "Christiansen, Fahey and Sauer",
-    "CreatedDate": "1996-04-28T16:48:28.422449+02:00",
-    "CreatedBy": "quod",
-    "CreatedByFullName": "Mr. Sheila Hahn",
-    "CreatedByAssociateId": 323,
+    "Location": "aut",
+    "AlarmLeadTime": "praesentium",
+    "SaleId": 225,
+    "SaleName": "Koelpin, Barrows and Kuphal",
+    "AssociateName": "Reichert Inc and Sons",
+    "CreatedDate": "2020-12-21T14:58:03.0415384+01:00",
+    "CreatedBy": "reprehenderit",
+    "CreatedByFullName": "Alexandre Collier",
+    "CreatedByAssociateId": 754,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 169
       }
     }
   }

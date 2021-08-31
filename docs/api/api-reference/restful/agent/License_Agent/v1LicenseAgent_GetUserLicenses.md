@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetUserLicenses
+title: GetUserLicenses
 id: v1LicenseAgent_GetUserLicenses
 ---
 
-# POST Agents/License/GetUserLicenses
+# GetUserLicenses
 
 ```http
 POST /api/v1/Agents/License/GetUserLicenses
@@ -76,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 346
+  "AssociateId": 457
 }
 ```
 
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Corwin",
-    "Description": "Organic high-level success",
+    "Name": "McLaughlin-Thompson",
+    "Description": "Optional executive solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 130,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 600,
-        "InUse": 537,
+        "Unrestricted": false,
+        "Total": 876,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 771,
+        "InUse": 964,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 712,
-        "Name": "Yost-Rice",
-        "Description": "Horizontal next generation process improvement",
-        "PrerequisiteModuleName": "Rohan-Purdy",
-        "SortOrder": 679,
+        "Assigned": true,
+        "ModuleLicenseId": 268,
+        "Name": "Mann, Murphy and Barrows",
+        "Description": "Sharable directional data-warehouse",
+        "PrerequisiteModuleName": "White-Spencer",
+        "SortOrder": 251,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 593
+            "FieldLength": 891
           }
         }
       }
@@ -123,18 +123,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 881,
-        "Tooltip": "in",
+        "Total": 760,
+        "Tooltip": "fugiat",
         "CanAssign": true,
-        "Free": 236,
-        "InUse": 501,
+        "Free": 708,
+        "InUse": 340,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Johns-Daugherty",
-        "Description": "Future-proofed radical capability",
-        "PrerequisiteModuleName": "Hirthe, Waters and Tromp",
-        "SortOrder": 24,
+        "ModuleLicenseId": 249,
+        "Name": "Hegmann, Corkery and Rice",
+        "Description": "Up-sized multi-tasking implementation",
+        "PrerequisiteModuleName": "Willms Inc and Sons",
+        "SortOrder": 758,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 320
+            "FieldType": "System.Int32",
+            "FieldLength": 204
           }
         }
       }
@@ -159,28 +159,28 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 359
       }
     }
   },
   {
-    "Name": "Gusikowski-Corwin",
-    "Description": "Organic high-level success",
+    "Name": "McLaughlin-Thompson",
+    "Description": "Optional executive solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 130,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 600,
-        "InUse": 537,
+        "Unrestricted": false,
+        "Total": 876,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 771,
+        "InUse": 964,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 712,
-        "Name": "Yost-Rice",
-        "Description": "Horizontal next generation process improvement",
-        "PrerequisiteModuleName": "Rohan-Purdy",
-        "SortOrder": 679,
+        "Assigned": true,
+        "ModuleLicenseId": 268,
+        "Name": "Mann, Murphy and Barrows",
+        "Description": "Sharable directional data-warehouse",
+        "PrerequisiteModuleName": "White-Spencer",
+        "SortOrder": 251,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 593
+            "FieldLength": 891
           }
         }
       }
@@ -197,18 +197,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 881,
-        "Tooltip": "in",
+        "Total": 760,
+        "Tooltip": "fugiat",
         "CanAssign": true,
-        "Free": 236,
-        "InUse": 501,
+        "Free": 708,
+        "InUse": 340,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Johns-Daugherty",
-        "Description": "Future-proofed radical capability",
-        "PrerequisiteModuleName": "Hirthe, Waters and Tromp",
-        "SortOrder": 24,
+        "ModuleLicenseId": 249,
+        "Name": "Hegmann, Corkery and Rice",
+        "Description": "Up-sized multi-tasking implementation",
+        "PrerequisiteModuleName": "Willms Inc and Sons",
+        "SortOrder": 758,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 320
+            "FieldType": "System.Int32",
+            "FieldLength": 204
           }
         }
       }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 359
       }
     }
   }

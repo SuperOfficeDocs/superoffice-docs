@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetBlobEntity
+title: GetBlobEntity
 id: v1BLOBAgent_GetBlobEntity
 ---
 
-# POST Agents/BLOB/GetBlobEntity
+# GetBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntity
@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=197
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=431
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -87,29 +87,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 388,
-  "BlobSize": 763,
-  "Description": "Balanced holistic productivity",
-  "ExtraInfo": "molestias",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptatem",
-  "OriginalSize": 974,
-  "CreatedDate": "2017-10-13T16:48:28.7892035+02:00",
-  "UpdatedDate": "2016-10-02T16:48:28.7892035+02:00",
+  "BlobId": 897,
+  "BlobSize": 479,
+  "Description": "Polarised 4th generation info-mediaries",
+  "ExtraInfo": "nobis",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 13,
+  "CreatedDate": "2001-12-22T14:58:03.2832423+01:00",
+  "UpdatedDate": "2000-11-01T14:58:03.2832423+01:00",
   "CreatedBy": {
-    "AssociateId": 681,
-    "Name": "Goldner, Schroeder and Hackett",
-    "PersonId": 43,
-    "Rank": 748,
-    "Tooltip": "sequi",
+    "AssociateId": 667,
+    "Name": "Bernhard-Cummings",
+    "PersonId": 34,
+    "Rank": 97,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 450,
-    "FullName": "Dr. Janelle Bogisich",
-    "FormalName": "O'Connell-Hintz",
+    "GroupIdx": 996,
+    "FullName": "Laron Murray",
+    "FormalName": "Hamill, DuBuque and Hodkiewicz",
     "Deleted": false,
-    "EjUserId": 358,
-    "UserName": "Schumm LLC",
+    "EjUserId": 625,
+    "UserName": "Bergnaum Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,23 +118,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldLength": 887
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 755,
-    "Name": "Russel, Torp and Wisozk",
-    "PersonId": 567,
-    "Rank": 711,
-    "Tooltip": "nihil",
+    "AssociateId": 823,
+    "Name": "Weber, Cummerata and Braun",
+    "PersonId": 735,
+    "Rank": 917,
+    "Tooltip": "porro",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 593,
-    "FullName": "Zachery Stracke",
-    "FormalName": "Mohr-Runolfsdottir",
-    "Deleted": true,
-    "EjUserId": 763,
-    "UserName": "Bashirian Inc and Sons",
+    "GroupIdx": 798,
+    "FullName": "Kenyon Fay",
+    "FormalName": "DuBuque-Bartoletti",
+    "Deleted": false,
+    "EjUserId": 681,
+    "UserName": "Altenwerth, Rogahn and Ondricka",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -143,11 +143,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 389
       }
     }
   },
-  "ConceptualType": "ut",
+  "ConceptualType": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   }
 }

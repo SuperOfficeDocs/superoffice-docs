@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/SetRankOnStatusMonitors
+title: SetRankOnStatusMonitors
 id: v1SaintAgent_SetRankOnStatusMonitors
 ---
 
-# POST Agents/Saint/SetRankOnStatusMonitors
+# SetRankOnStatusMonitors
 
 ```http
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors

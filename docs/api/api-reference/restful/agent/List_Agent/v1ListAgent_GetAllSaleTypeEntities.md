@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllSaleTypeEntities
+title: GetAllSaleTypeEntities
 id: v1ListAgent_GetAllSaleTypeEntities
 ---
 
-# POST Agents/List/GetAllSaleTypeEntities
+# GetAllSaleTypeEntities
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
@@ -94,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -108,63 +108,63 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 984,
-    "Name": "Funk, Bayer and Armstrong",
-    "Tooltip": "saepe",
-    "Rank": 151,
+    "SaleTypeId": 626,
+    "Name": "Connelly-Hermiston",
+    "Tooltip": "dolorem",
+    "Rank": 746,
     "DurationUnit": "Century",
-    "SaleDuration": 822,
-    "SaleTypeCatId": 426,
-    "Deleted": true,
-    "HasGuide": true,
+    "SaleDuration": 884,
+    "SaleTypeCatId": 740,
+    "Deleted": false,
+    "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 938,
-    "QuoteLinesTemplate": 491,
-    "ConfirmationLinesTemplate": 667,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 40,
-    "MinEarningPercent": 439,
-    "GroupQuoteLinesBy": 256,
-    "SortGroupLinesBy": 251,
+    "DefaultQuoteValidity": 678,
+    "QuoteLinesTemplate": 152,
+    "ConfirmationLinesTemplate": 380,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 492,
+    "MinEarningPercent": 203,
+    "GroupQuoteLinesBy": 325,
+    "SortGroupLinesBy": 401,
     "Stages": [
       {
-        "Id": 955,
-        "Name": "Hand LLC",
-        "ToolTip": "In aliquid ipsam.",
-        "Deleted": true,
-        "Rank": 612,
-        "Type": "sit",
-        "ColorBlock": 77,
-        "IconHint": "consequatur",
+        "Id": 862,
+        "Name": "Bartell-Ferry",
+        "ToolTip": "Eos rerum iste magnam aspernatur velit.",
+        "Deleted": false,
+        "Rank": 914,
+        "Type": "voluptatem",
+        "ColorBlock": 592,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-11-01T16:48:29.7909303+01:00",
+        "LastChanged": "2003-09-01T14:58:04.372465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Demond Beatty",
+        "ExtraInfo": "autem",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Hermann Cremin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "benchmark killer action-items"
             },
             "FieldType": "System.String",
-            "FieldLength": 13
+            "FieldLength": 500
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "syndicate seamless mindshare"
     },
     "FieldProperties": {
       "fieldName": {
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 63
+        "FieldLength": 244
       }
     }
   }

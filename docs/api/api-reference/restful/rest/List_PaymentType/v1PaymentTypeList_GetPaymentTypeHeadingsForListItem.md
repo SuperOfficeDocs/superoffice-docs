@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Hodkiewicz Group",
-    "ToolTip": "Quia ut nemo atque.",
-    "Deleted": true,
-    "Rank": 853,
-    "Type": "sed",
-    "ColorBlock": 994,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2016-06-03T09:41:00.4973815+02:00",
+    "Id": 195,
+    "Name": "Altenwerth, Upton and Raynor",
+    "ToolTip": "Et iste aliquam.",
+    "Deleted": false,
+    "Rank": 336,
+    "Type": "ad",
+    "ColorBlock": 817,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2008-09-18T15:05:43.5630797+02:00",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Streich Group",
-        "ToolTip": "Quidem ab.",
-        "Deleted": true,
-        "Rank": 105,
-        "Type": "et",
-        "ColorBlock": 292,
-        "IconHint": "facere",
+        "Id": 887,
+        "Name": "Batz Group",
+        "ToolTip": "Rem iusto perferendis et.",
+        "Deleted": false,
+        "Rank": 501,
+        "Type": "magnam",
+        "ColorBlock": 930,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "1998-01-21T09:41:00.4973815+01:00",
+        "LastChanged": "2000-04-24T15:05:43.5630797+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Oma Schmeler Sr.",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Miss Chaim Ryan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Ms. Juston Koelpin",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Gus Mueller IV",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 973
       }
     }
   }

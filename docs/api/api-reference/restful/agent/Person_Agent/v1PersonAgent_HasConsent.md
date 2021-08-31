@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/HasConsent
+title: HasConsent
 id: v1PersonAgent_HasConsent
 ---
 
-# POST Agents/Person/HasConsent
+# HasConsent
 
 ```http
 POST /api/v1/Agents/Person/HasConsent
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Person/HasConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 706,
-  "Purpose": "natus"
+  "PersonId": 875,
+  "Purpose": "voluptas"
 }
 ```
 

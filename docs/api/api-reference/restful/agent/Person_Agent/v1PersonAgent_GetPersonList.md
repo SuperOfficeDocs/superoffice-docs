@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetPersonList
+title: GetPersonList
 id: v1PersonAgent_GetPersonList
 ---
 
-# POST Agents/Person/GetPersonList
+# GetPersonList
 
 ```http
 POST /api/v1/Agents/Person/GetPersonList
@@ -109,7 +109,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -118,45 +118,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nemo",
-    "PersonId": 260,
-    "Mrmrs": "ea",
-    "Firstname": "Kody",
-    "Lastname": "Schumm",
-    "MiddleName": "Ebert, Blick and Kunze",
-    "Title": "tempore",
-    "Description": "Open-source didactic knowledge user",
-    "Email": "kelly_johns@krajcik.com",
-    "FullName": "Miss Evan Maggio",
-    "DirectPhone": "(625)457-8082",
-    "FormalName": "Koch-Hackett",
-    "CountryId": 771,
-    "ContactId": 109,
-    "ContactName": "McKenzie, Reinger and Batz",
-    "Retired": 476,
-    "Rank": 217,
-    "ActiveInterests": 860,
+    "Position": "qui",
+    "PersonId": 61,
+    "Mrmrs": "dignissimos",
+    "Firstname": "Yasmin",
+    "Lastname": "Nicolas",
+    "MiddleName": "Turner, Schulist and Heller",
+    "Title": "sunt",
+    "Description": "Total 3rd generation time-frame",
+    "Email": "rodger@halvorson.ca",
+    "FullName": "Lilyan Robel IV",
+    "DirectPhone": "1-141-623-1565",
+    "FormalName": "Mann-Koss",
+    "CountryId": 217,
+    "ContactId": 601,
+    "ContactName": "Pfannerstill Group",
+    "Retired": 456,
+    "Rank": 804,
+    "ActiveInterests": 283,
     "ContactDepartment": "",
-    "ContactCountryId": 676,
-    "ContactOrgNr": "1578935",
-    "FaxPhone": "(207)522-3377",
-    "MobilePhone": "052.452.4876",
-    "ContactPhone": "(340)200-8385 x87681",
-    "AssociateName": "Champlin, Durgan and Stroman",
-    "AssociateId": 338,
-    "UsePersonAddress": true,
-    "ContactFax": "adipisci",
-    "Kanafname": "vel",
-    "Kanalname": "soluta",
-    "Post1": "harum",
-    "Post2": "hic",
-    "Post3": "ut",
-    "EmailName": "mae@lynch.com",
-    "ContactFullName": "Jordyn Jaskolski",
-    "ActiveErpLinks": 868,
-    "TicketPriorityId": 784,
-    "SupportLanguageId": 77,
-    "SupportAssociateId": 844,
+    "ContactCountryId": 268,
+    "ContactOrgNr": "1010038",
+    "FaxPhone": "(617)856-4453",
+    "MobilePhone": "551-632-7327 x5814",
+    "ContactPhone": "1-257-221-6160 x7706",
+    "AssociateName": "Wintheiser LLC",
+    "AssociateId": 212,
+    "UsePersonAddress": false,
+    "ContactFax": "quis",
+    "Kanafname": "odit",
+    "Kanalname": "et",
+    "Post1": "mollitia",
+    "Post2": "eius",
+    "Post3": "dolore",
+    "EmailName": "ismael_jerde@okuneva.uk",
+    "ContactFullName": "Jacklyn Leffler",
+    "ActiveErpLinks": 673,
+    "TicketPriorityId": 579,
+    "SupportLanguageId": 431,
+    "SupportAssociateId": 762,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 537
       }
     }
   }

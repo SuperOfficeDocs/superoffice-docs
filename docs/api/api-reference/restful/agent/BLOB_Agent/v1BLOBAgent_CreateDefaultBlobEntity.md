@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/CreateDefaultBlobEntity
+title: CreateDefaultBlobEntity
 id: v1BLOBAgent_CreateDefaultBlobEntity
 ---
 
-# POST Agents/BLOB/CreateDefaultBlobEntity
+# CreateDefaultBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
@@ -75,29 +75,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 879,
-  "BlobSize": 654,
-  "Description": "Fully-configurable radical service-desk",
-  "ExtraInfo": "pariatur",
+  "BlobId": 842,
+  "BlobSize": 144,
+  "Description": "Down-sized motivating flexibility",
+  "ExtraInfo": "tenetur",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "temporibus",
-  "OriginalSize": 574,
-  "CreatedDate": "2003-10-15T16:48:28.7842067+02:00",
-  "UpdatedDate": "1995-10-24T16:48:28.7842067+02:00",
+  "IsZipped": false,
+  "MimeType": "itaque",
+  "OriginalSize": 286,
+  "CreatedDate": "2016-02-21T14:58:03.2782074+01:00",
+  "UpdatedDate": "2001-09-14T14:58:03.2782074+02:00",
   "CreatedBy": {
-    "AssociateId": 465,
-    "Name": "Hintz, Hegmann and Roberts",
-    "PersonId": 714,
-    "Rank": 672,
-    "Tooltip": "veniam",
+    "AssociateId": 638,
+    "Name": "Fahey, Rutherford and Rippin",
+    "PersonId": 973,
+    "Rank": 165,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 639,
-    "FullName": "Willow Nitzsche",
-    "FormalName": "Greenholt-Gutmann",
-    "Deleted": true,
-    "EjUserId": 127,
-    "UserName": "Altenwerth, Renner and McCullough",
+    "GroupIdx": 71,
+    "FullName": "Markus McCullough",
+    "FormalName": "Lynch, Shanahan and Mueller",
+    "Deleted": false,
+    "EjUserId": 942,
+    "UserName": "Veum Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -106,23 +106,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldLength": 544
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 104,
-    "Name": "Willms Group",
-    "PersonId": 811,
-    "Rank": 640,
-    "Tooltip": "distinctio",
+    "AssociateId": 319,
+    "Name": "Yost, Rosenbaum and Heidenreich",
+    "PersonId": 675,
+    "Rank": 391,
+    "Tooltip": "nostrum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 582,
-    "FullName": "Parker Nitzsche",
-    "FormalName": "Wilderman, Hills and Gutkowski",
+    "GroupIdx": 753,
+    "FullName": "Bailey Vandervort",
+    "FormalName": "Johns, Lueilwitz and Marks",
     "Deleted": true,
-    "EjUserId": 935,
-    "UserName": "Durgan, Johns and Bauch",
+    "EjUserId": 258,
+    "UserName": "Thompson-Feil",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -130,12 +130,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   },
-  "ConceptualType": "minus",
+  "ConceptualType": "est",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

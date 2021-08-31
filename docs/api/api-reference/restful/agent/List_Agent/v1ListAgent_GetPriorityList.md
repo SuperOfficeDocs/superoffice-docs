@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetPriorityList
+title: GetPriorityList
 id: v1ListAgent_GetPriorityList
 ---
 
-# POST Agents/List/GetPriorityList
+# GetPriorityList
 
 ```http
 POST /api/v1/Agents/List/GetPriorityList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Value": "aut",
-    "Tooltip": "qui",
+    "Id": 472,
+    "Value": "velit",
+    "Tooltip": "molestiae",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   },
   {
-    "Id": 883,
-    "Value": "aut",
-    "Tooltip": "qui",
+    "Id": 472,
+    "Value": "velit",
+    "Tooltip": "molestiae",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

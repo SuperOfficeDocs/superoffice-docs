@@ -25,8 +25,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=modi
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=vel
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Bartoletti LLC",
-    "ToolTip": "Id id debitis eveniet.",
+    "Id": 909,
+    "Name": "Shanahan Inc and Sons",
+    "ToolTip": "Quibusdam ut quasi sed ut vero sed.",
     "Deleted": false,
-    "Rank": 898,
-    "Type": "sint",
+    "Rank": 36,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Ritchie, Wiegand and Quitzon",
-        "ToolTip": "Eveniet exercitationem sint impedit consequatur nemo.",
-        "Deleted": false,
-        "Rank": 455,
-        "Type": "itaque",
+        "Id": 842,
+        "Name": "Ortiz, Veum and McClure",
+        "ToolTip": "Et cupiditate.",
+        "Deleted": true,
+        "Rank": 730,
+        "Type": "perferendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 522,
-        "ExtraInfo": "a",
-        "StyleHint": "id",
-        "FullName": "Liliane Lowe",
+        "IconHint": "sit",
+        "ColorBlock": 814,
+        "ExtraInfo": "nam",
+        "StyleHint": "nulla",
+        "FullName": "Monserrate Daniel",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 607
+            "FieldType": "System.Int32",
+            "FieldLength": 54
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 122,
-    "ExtraInfo": "dolores",
-    "StyleHint": "quis",
-    "FullName": "Darby Roberts",
+    "IconHint": "qui",
+    "ColorBlock": 351,
+    "ExtraInfo": "quae",
+    "StyleHint": "perspiciatis",
+    "FullName": "Sabrina Mueller",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldLength": 302
       }
     }
   }

@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Casper-Bernier",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "UdListDefinitionId": 278,
-  "Rank": 824
+  "Id": 408,
+  "Name": "Nienow-Heaney",
+  "Tooltip": "possimus",
+  "Deleted": true,
+  "UdListDefinitionId": 538,
+  "Rank": 170
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Schowalter Group",
-  "Tooltip": "et",
+  "Id": 286,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "magni",
   "Deleted": true,
-  "UdListDefinitionId": 798,
-  "Rank": 624,
+  "UdListDefinitionId": 57,
+  "Rank": 430,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldLength": 905
     }
   }
 }

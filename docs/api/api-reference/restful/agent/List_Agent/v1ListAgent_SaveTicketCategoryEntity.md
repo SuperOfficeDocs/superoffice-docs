@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveTicketCategoryEntity
+title: SaveTicketCategoryEntity
 id: v1ListAgent_SaveTicketCategoryEntity
 ---
 
-# POST Agents/List/SaveTicketCategoryEntity
+# SaveTicketCategoryEntity
 
 ```http
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
@@ -96,30 +96,30 @@ Response body: object
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 409,
-  "ParentId": 923,
-  "Name": "Bernier-Hartmann",
-  "Fullname": "eaque",
-  "CategoryMaster": 940,
+  "TicketCategoryId": 339,
+  "ParentId": 854,
+  "Name": "Murphy LLC",
+  "Fullname": "voluptatem",
+  "CategoryMaster": 859,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort-Schimmel",
+  "ExternalName": "Effertz, Gulgowski and McLaughlin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 408,
-  "ReplyTemplate": 900,
-  "NotificationEmail": "melvina@jakubowski.name",
+  "AssignmentLag": 449,
+  "ReplyTemplate": 286,
+  "NotificationEmail": "jazmyn@stroman.us",
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "est"
+    "CustomFields1": "qui",
+    "CustomFields2": "sit"
   }
 }
 ```
@@ -129,26 +129,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 280,
-  "ParentId": 502,
-  "Name": "Rolfson LLC",
-  "Fullname": "odit",
-  "CategoryMaster": 161,
+  "TicketCategoryId": 842,
+  "ParentId": 191,
+  "Name": "Hahn LLC",
+  "Fullname": "facere",
+  "CategoryMaster": 110,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Welch, Kilback and Mante",
+  "ExternalName": "Goldner Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 568,
-  "ReplyTemplate": 554,
-  "NotificationEmail": "brenden.kuhic@boehm.biz",
+  "AssignmentLag": 864,
+  "ReplyTemplate": 841,
+  "NotificationEmail": "antonio_hintz@schroederrau.biz",
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "et",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "expedita"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "odio"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -158,10 +158,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "implement bricks-and-clicks platforms"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 69
     }
   }
 }

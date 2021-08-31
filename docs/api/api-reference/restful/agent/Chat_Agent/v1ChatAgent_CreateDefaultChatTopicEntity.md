@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/CreateDefaultChatTopicEntity
+title: CreateDefaultChatTopicEntity
 id: v1ChatAgent_CreateDefaultChatTopicEntity
 ---
 
-# POST Agents/Chat/CreateDefaultChatTopicEntity
+# CreateDefaultChatTopicEntity
 
 ```http
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
@@ -53,22 +53,25 @@ Response body: object
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -78,7 +81,7 @@ Response body: object
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -86,45 +89,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 954,
-  "Name": "Berge-Kuphal",
-  "Description": "Advanced regional implementation",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 86,
+  "Name": "Marks-Deckow",
+  "Description": "Managed 3rd generation instruction set",
+  "WelcomeMessage": "aut",
   "Language": {
-    "Id": 949,
-    "Value": "cum",
-    "Tooltip": "enim",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 337
-      }
-    }
-  },
-  "LastAccept": "2006-10-03T16:48:28.8091634+02:00",
-  "SecondsPrAccept": 537,
-  "AlertRecipient": "tempore",
-  "AlertTemplate": {
-    "ReplyTemplateId": 462,
-    "Name": "Ullrich-Stokes",
-    "Description": "Horizontal non-volatile core",
-    "FolderId": 326
-  },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "sint",
-  "CustomQueueText": "provident",
-  "WarnNewChatSeconds": 159,
-  "WarnManagerNewChatSeconds": 508,
-  "TicketEnabled": false,
-  "TicketCategory": {
-    "Id": 87,
-    "Value": "consequatur",
-    "Tooltip": "quis",
+    "Id": 835,
+    "Value": "tempora",
+    "Tooltip": "nulla",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,14 +105,30 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldLength": 185
       }
     }
   },
-  "TicketPriority": {
-    "Id": 56,
-    "Value": "ut",
-    "Tooltip": "tempora",
+  "LastAccept": "1995-04-12T14:58:03.3012407+02:00",
+  "SecondsPrAccept": 749,
+  "AlertRecipient": "laudantium",
+  "AlertTemplate": {
+    "ReplyTemplateId": 21,
+    "Name": "Donnelly, Dickens and Crona",
+    "Description": "Front-line stable parallelism",
+    "FolderId": 814
+  },
+  "CollectConsent": false,
+  "BadgeHeader": "ea",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "ea",
+  "WarnNewChatMinutes": 894,
+  "WarnManagerNewChatMinutes": 841,
+  "TicketEnabled": false,
+  "TicketCategory": {
+    "Id": 66,
+    "Value": "temporibus",
+    "Tooltip": "est",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -148,57 +136,88 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 766
+      }
+    }
+  },
+  "TicketPriority": {
+    "Id": 824,
+    "Value": "consequatur",
+    "Tooltip": "mollitia",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   },
   "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": false,
-    "MonStart": "2004-12-11T16:48:28.8091634+01:00",
-    "MonStop": "2016-11-02T16:48:28.8091634+01:00",
+    "MonEnabled": true,
+    "MonStart": "non",
+    "MonStop": "vitae",
     "TueEnabled": true,
-    "TueStart": "2000-09-16T16:48:28.8091634+02:00",
-    "TueStop": "2015-07-16T16:48:28.8091634+02:00",
-    "WedEnabled": true,
-    "WedStart": "2001-08-08T16:48:28.8091634+02:00",
-    "WedStop": "1997-03-20T16:48:28.8091634+01:00",
-    "ThuEnabled": true,
-    "ThuStart": "2002-04-30T16:48:28.8091634+02:00",
-    "ThuStop": "1999-12-17T16:48:28.8091634+01:00",
-    "FriEnabled": true,
-    "FriStart": "2012-04-06T16:48:28.8091634+02:00",
-    "FriStop": "2017-02-11T16:48:28.8091634+01:00",
+    "TueStart": "qui",
+    "TueStop": "maiores",
+    "WedEnabled": false,
+    "WedStart": "et",
+    "WedStop": "quia",
+    "ThuEnabled": false,
+    "ThuStart": "cum",
+    "ThuStop": "accusantium",
+    "FriEnabled": false,
+    "FriStart": "blanditiis",
+    "FriStop": "sit",
     "SatEnabled": true,
-    "SatStart": "2009-02-05T16:48:28.8091634+01:00",
-    "SatStop": "2016-08-18T16:48:28.8091634+02:00",
+    "SatStart": "alias",
+    "SatStop": "maiores",
     "SunEnabled": true,
-    "SunStart": "2010-09-09T16:48:28.8091634+02:00",
-    "SunStop": "1993-12-21T16:48:28.8091634+01:00"
+    "SunStart": "ut",
+    "SunStop": "id",
+    "UseLunchHours": false,
+    "LunchStart": "dolore",
+    "LunchStop": "error"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
     "PreFormEnabled": true,
-    "PreFormMessage": "ipsam",
+    "PreFormMessage": "porro",
     "RequiredFields": "Company",
     "PostFormEnabled": true,
-    "PostFormHeader": "alias",
-    "PostFormMessage": "non",
+    "PostFormHeader": "totam",
+    "PostFormMessage": "repudiandae",
     "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "enim",
+    "LanguageIsoCode": "voluptatem",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "molestiae",
-    "Font": "et",
-    "ShowLogo": true,
-    "ShowAgentPhoto": true,
-    "WelcomeTitle": "praesentium",
-    "WelcomeMessage": "fuga",
-    "OfflineHeader": "distinctio",
-    "OfflineMessage": "nostrum",
-    "OfflineFields": "Company"
+    "Color": "voluptate",
+    "Font": "pariatur",
+    "LogoEnabled": true,
+    "LogoBlobId": 20,
+    "LogoName": "O'Keefe-Wyman",
+    "ShowAgentPhoto": false,
+    "WelcomeTitle": "voluptatem",
+    "WelcomeMessage": "id",
+    "OfflineHeader": "eum",
+    "OfflineMessage": "aut",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": false
+  },
+  "BotEnabled": true,
+  "BotSettings": {
+    "BotName": "Ritchie, Hayes and Torphy",
+    "BotRegisterScriptId": 250,
+    "BotSessionCreatedScriptId": 537,
+    "BotSessionChangedScriptId": 458,
+    "BotMessageReceivedScriptId": 578
   },
   "TableRight": {
     "Mask": "Delete",
@@ -211,7 +230,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldLength": 334
     }
   }
 }

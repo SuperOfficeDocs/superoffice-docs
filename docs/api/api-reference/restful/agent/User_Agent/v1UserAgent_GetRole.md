@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetRole
+title: GetRole
 id: v1UserAgent_GetRole
 ---
 
-# POST Agents/User/GetRole
+# GetRole
 
 ```http
 POST /api/v1/Agents/User/GetRole
@@ -27,7 +27,7 @@ Gets a Role object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRole?roleId=568
+POST /api/v1/Agents/User/GetRole?roleId=223
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
 
@@ -83,12 +83,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43,
-  "Value": "vero",
-  "Tooltip": "ab",
+  "Id": 555,
+  "Value": "nihil",
+  "Tooltip": "neque",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "synergize efficient platforms"
   },
   "FieldProperties": {
     "fieldName": {
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 28
     }
   }
 }

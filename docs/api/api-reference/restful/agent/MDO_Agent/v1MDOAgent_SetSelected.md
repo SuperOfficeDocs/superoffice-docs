@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/SetSelected
+title: SetSelected
 id: v1MDOAgent_SetSelected
 ---
 
-# POST Agents/MDO/SetSelected
+# SetSelected
 
 ```http
 POST /api/v1/Agents/MDO/SetSelected
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Moen Group",
-  "AdditionalInfo": "facere",
+  "Name": "Pacocha Inc and Sons",
+  "AdditionalInfo": "quia",
   "SelectableMDOList": [
     {
-      "Id": 699,
-      "Name": "Baumbach-Jenkins",
-      "ToolTip": "Sed quos libero.",
-      "Deleted": false,
-      "Rank": 237,
-      "Type": "est",
-      "ColorBlock": 733,
-      "IconHint": "vero",
+      "Id": 574,
+      "Name": "Bashirian LLC",
+      "ToolTip": "Cumque ratione sed ad alias tempora.",
+      "Deleted": true,
+      "Rank": 88,
+      "Type": "sequi",
+      "ColorBlock": 953,
+      "IconHint": "quae",
       "Selected": true,
-      "LastChanged": "2011-10-09T16:48:29.9759241+02:00",
+      "LastChanged": "2008-01-24T14:58:04.5694602+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "doloribus",
-      "Hidden": false,
-      "FullName": "Cayla Reynolds"
+      "ExtraInfo": "iste",
+      "StyleHint": "reprehenderit",
+      "Hidden": true,
+      "FullName": "America Reichel II"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Crooks LLC",
-    "ToolTip": "Et in non sunt veritatis.",
-    "Deleted": true,
-    "Rank": 858,
-    "Type": "omnis",
-    "ColorBlock": 337,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2018-10-12T16:48:29.976924+02:00",
+    "Id": 781,
+    "Name": "Mills LLC",
+    "ToolTip": "Consequatur explicabo ratione nostrum.",
+    "Deleted": false,
+    "Rank": 488,
+    "Type": "aut",
+    "ColorBlock": 857,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2003-11-29T14:58:04.5704599+01:00",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Rice LLC",
-        "ToolTip": "Atque reiciendis dolor repellendus.",
+        "Id": 616,
+        "Name": "Reinger Inc and Sons",
+        "ToolTip": "Accusantium et soluta.",
         "Deleted": false,
-        "Rank": 330,
-        "Type": "rerum",
-        "ColorBlock": 587,
-        "IconHint": "quas",
+        "Rank": 116,
+        "Type": "aliquam",
+        "ColorBlock": 757,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2019-01-10T16:48:29.977924+01:00",
+        "LastChanged": "2001-04-01T14:58:04.5704599+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "autem",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Delores Thompson",
+        "FullName": "Thad Boyle",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -164,15 +164,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 847
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Ms. Neva Reilly",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Charles Leuschke",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

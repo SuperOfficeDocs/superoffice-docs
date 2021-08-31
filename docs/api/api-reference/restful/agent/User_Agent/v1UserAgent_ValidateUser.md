@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ValidateUser
+title: ValidateUser
 id: v1UserAgent_ValidateUser
 ---
 
-# POST Agents/User/ValidateUser
+# ValidateUser
 
 ```http
 POST /api/v1/Agents/User/ValidateUser
@@ -75,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 767,
-    "Name": "Hintz, Lebsack and Cassin",
-    "Rank": 589,
-    "Tooltip": "reprehenderit",
+    "AssociateId": 279,
+    "Name": "Adams Group",
+    "Rank": 868,
+    "Tooltip": "et",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2006-04-22T16:48:30.8749348+02:00",
-    "Lastlogout": "2003-04-08T16:48:30.8749348+02:00",
-    "EjUserId": 31,
-    "RequestSignature": "rerum",
+    "Lastlogin": "2012-08-17T14:58:05.4246231+02:00",
+    "Lastlogout": "2001-01-11T14:58:05.4246231+01:00",
+    "EjUserId": 574,
+    "RequestSignature": "qui",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
+    "IsPersonRetired": true,
     "IsOnTravel": false,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Oberbrunner, Crist and Pagac",
+    "UserName": "Schultz-Stanton",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Hudson-Abshire",
+    "NickName": "Ratke Group",
     "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "hic"
+      "ExtraFields1": "quia",
+      "ExtraFields2": "autem"
     },
     "CustomFields": {
-      "CustomFields1": "nisi",
-      "CustomFields2": "qui"
+      "CustomFields1": "cumque",
+      "CustomFields2": "at"
     },
     "PostSaveCommands": [
       {},
@@ -130,7 +130,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aut",
-  "2": "earum"
+  "1": "velit",
+  "2": "in"
 }
 ```

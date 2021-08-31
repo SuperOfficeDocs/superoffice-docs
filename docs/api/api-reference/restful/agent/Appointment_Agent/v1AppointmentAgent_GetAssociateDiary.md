@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAssociateDiary
+title: GetAssociateDiary
 id: v1AppointmentAgent_GetAssociateDiary
 ---
 
-# POST Agents/Appointment/GetAssociateDiary
+# GetAssociateDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetAssociateDiary
@@ -124,14 +124,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 46,
-  "StartTime": "1996-04-24T16:48:28.4894508+02:00",
-  "EndTime": "1999-11-22T16:48:28.4894508+01:00",
-  "Count": 561
+  "AssociateId": 569,
+  "StartTime": "2007-10-21T14:58:02.8855541+02:00",
+  "EndTime": "2018-11-22T14:58:02.8855541+01:00",
+  "Count": 865
 }
 ```
 
@@ -141,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 947,
-    "StartDate": "2004-08-10T16:48:28.4904489+02:00",
-    "EndDate": "1995-03-18T16:48:28.4904489+01:00",
+    "AppointmentId": 374,
+    "StartDate": "1999-06-12T14:58:02.8865395+02:00",
+    "EndDate": "1997-10-22T14:58:02.8865395+02:00",
     "Type": "BookingForChecklist",
-    "Task": "autem",
-    "AssociateFullName": "Garland Raynor",
-    "ContactName": "Oberbrunner Group",
-    "Description": "Horizontal directional instruction set",
-    "PersonFullName": "Robyn Mills",
-    "PersonId": 761,
-    "ContactId": 764,
-    "ProjectId": 676,
-    "ProjectName": "Labadie-Stanton",
+    "Task": "voluptatem",
+    "AssociateFullName": "Joel Haag",
+    "ContactName": "Osinski-Hintz",
+    "Description": "Extended interactive circuit",
+    "PersonFullName": "Kaleigh Kuhn",
+    "PersonId": 158,
+    "ContactId": 448,
+    "ProjectId": 285,
+    "ProjectName": "Nikolaus, Paucek and Lubowitz",
     "IsPublished": true,
-    "AssociateId": 900,
-    "ColorIndex": 257,
+    "AssociateId": 802,
+    "ColorIndex": 483,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 772,
-    "PriorityName": "Carroll LLC",
+    "PriorityId": 349,
+    "PriorityName": "Kuphal-Heidenreich",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2012-01-15T16:48:28.4914491+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-08-19T14:58:02.8875626+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-12-10T16:48:28.4914491+01:00",
-    "RecurringEndDate": "1996-05-04T16:48:28.4914491+02:00",
-    "MotherId": 469,
-    "AssignedBy": 705,
-    "AssignedByFullName": "Coty Hilll",
+    "RecurringStartDate": "2021-02-15T14:58:02.8875626+01:00",
+    "RecurringEndDate": "2018-02-06T14:58:02.8875626+01:00",
+    "MotherId": 199,
+    "AssignedBy": 942,
+    "AssignedByFullName": "Craig Cormier",
     "RejectReason": "",
-    "Location": "neque",
-    "AlarmLeadTime": "aspernatur",
-    "SaleId": 103,
-    "SaleName": "Leannon, Carter and Rippin",
-    "AssociateName": "Fadel-Wintheiser",
-    "CreatedDate": "1997-03-25T16:48:28.4914491+01:00",
-    "CreatedBy": "magnam",
-    "CreatedByFullName": "Nova Jewess",
-    "CreatedByAssociateId": 355,
+    "Location": "cupiditate",
+    "AlarmLeadTime": "amet",
+    "SaleId": 348,
+    "SaleName": "Larson-Witting",
+    "AssociateName": "Schowalter-Yundt",
+    "CreatedDate": "2001-03-03T14:58:02.8875626+01:00",
+    "CreatedBy": "dolorem",
+    "CreatedByFullName": "Dr. Monty Barton",
+    "CreatedByAssociateId": 44,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 268
       }
     }
   }

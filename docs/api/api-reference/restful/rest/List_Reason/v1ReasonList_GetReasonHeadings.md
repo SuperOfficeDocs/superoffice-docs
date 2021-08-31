@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 285,
-    "Name": "Schmitt, Bednar and Hamill",
-    "Tooltip": "quasi",
+    "HeadingId": 704,
+    "Name": "Hilpert Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 729,
-    "UdListDefinitionId": 783,
+    "Rank": 699,
+    "UdListDefinitionId": 719,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 620
       }
     }
   }

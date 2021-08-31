@@ -86,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 829,
-    "Tooltip": "delectus",
-    "CanAssign": false,
-    "Free": 618,
-    "InUse": 134,
+    "Unrestricted": false,
+    "Total": 41,
+    "Tooltip": "sed",
+    "CanAssign": true,
+    "Free": 673,
+    "InUse": 52,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 959,
-    "Name": "Will LLC",
-    "Description": "Sharable systematic system engine",
-    "PrerequisiteModuleName": "Glover, Schumm and Blick",
-    "SortOrder": 395,
+    "ModuleLicenseId": 318,
+    "Name": "Blanda-Shanahan",
+    "Description": "Assimilated global matrix",
+    "PrerequisiteModuleName": "Cruickshank-Bradtke",
+    "SortOrder": 448,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "brand leading-edge markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 116
       }
     }
   }

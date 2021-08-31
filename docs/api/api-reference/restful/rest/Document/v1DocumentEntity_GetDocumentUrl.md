@@ -29,8 +29,8 @@ Get a URL referring to the given document content.
 | writeableUrl | bool |  If true, then a URL that supports saving is requested. Som edocument plugins may not support read-only URLs, so there is no guarantee that a False value will actually yield a read-only URL, and vice versa. |
 
 ```http
-GET /api/v1/Document/{documentId}/Url?versionId=consequuntur
-GET /api/v1/Document/{documentId}/Url?writeableUrl=False
+GET /api/v1/Document/{documentId}/Url?versionId=beatae
+GET /api/v1/Document/{documentId}/Url?writeableUrl=True
 ```
 
 
@@ -65,7 +65,7 @@ Response body: string
 GET /api/v1/Document/{documentId}/Url
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_

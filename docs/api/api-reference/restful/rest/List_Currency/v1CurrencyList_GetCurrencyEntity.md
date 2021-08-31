@@ -66,7 +66,7 @@ Response body: object
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 23,
-  "Name": "Dickens-Schuster",
-  "Tooltip": "at",
-  "Rank": 399,
-  "Rate": 13316.366,
-  "Units": 7368.034,
+  "CurrencyId": 337,
+  "Name": "Schoen, Denesik and Greenfelder",
+  "Tooltip": "dolores",
+  "Rank": 595,
+  "Rate": 5493.902,
+  "Units": 20164.156,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -89,10 +89,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver impactful action-items"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

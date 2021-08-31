@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/SaveSmsConfig
+title: SaveSmsConfig
 id: v1CustomerServiceAgent_SaveSmsConfig
 ---
 
-# POST Agents/CustomerService/SaveSmsConfig
+# SaveSmsConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
@@ -74,16 +74,16 @@ Response body: object
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "accusamus",
-  "NsPluginSender": "deserunt",
+  "NetServerSmsProvider": "ut",
+  "NsPluginSender": "expedita",
   "NsPluginConfig": {
-    "NsPluginConfig1": "saepe",
-    "NsPluginConfig2": "consequatur"
+    "NsPluginConfig1": "tempore",
+    "NsPluginConfig2": "illo"
   }
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "delectus",
-  "NsPluginSender": "ut",
+  "NetServerSmsProvider": "et",
+  "NsPluginSender": "itaque",
   "NsPluginConfig": {
-    "NsPluginConfig1": "sequi",
-    "NsPluginConfig2": "ullam"
+    "NsPluginConfig1": "qui",
+    "NsPluginConfig2": "nihil"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   }
 }

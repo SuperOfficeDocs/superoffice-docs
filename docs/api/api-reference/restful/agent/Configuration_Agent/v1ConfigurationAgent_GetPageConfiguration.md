@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetPageConfiguration
+title: GetPageConfiguration
 id: v1ConfigurationAgent_GetPageConfiguration
 ---
 
-# POST Agents/Configuration/GetPageConfiguration
+# GetPageConfiguration
 
 ```http
 POST /api/v1/Agents/Configuration/GetPageConfiguration
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "minima",
-  "Instance": "molestiae",
-  "Page": "et"
+  "Application": "in",
+  "Instance": "quia",
+  "Page": "in"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"deleniti"
+"ipsam"
 ```

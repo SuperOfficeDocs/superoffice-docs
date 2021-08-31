@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateAndSaveQuoteFromSale
+title: CreateAndSaveQuoteFromSale
 id: v1QuoteAgent_CreateAndSaveQuoteFromSale
 ---
 
-# POST Agents/Quote/CreateAndSaveQuoteFromSale
+# CreateAndSaveQuoteFromSale
 
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
@@ -91,12 +91,12 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 664,
-  "CopyToSaleId": 327
+  "CopyFromSaleId": 856,
+  "CopyToSaleId": 372
 }
 ```
 
@@ -105,56 +105,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 976,
-  "SaleId": 949,
-  "QuoteConnectionId": 852,
-  "ERPQuoteKey": "autem",
-  "ERPOrderKey": "repudiandae",
-  "ActiveQuoteVersionId": 230,
-  "AcceptedQuoteAlternativeId": 944,
-  "UseValuesFromQuote": 604,
-  "DocumentId": 257,
-  "PoNumber": "872471",
-  "OrderComment": "vitae",
-  "PreferredEmailCulture": "reyes@sporerfeil.info",
+  "QuoteId": 528,
+  "SaleId": 617,
+  "QuoteConnectionId": 864,
+  "ERPQuoteKey": "quidem",
+  "ERPOrderKey": "inventore",
+  "ActiveQuoteVersionId": 711,
+  "AcceptedQuoteAlternativeId": 622,
+  "UseValuesFromQuote": 820,
+  "DocumentId": 362,
+  "PoNumber": "580245",
+  "OrderComment": "quam",
+  "PreferredEmailCulture": "ryley.labadie@vandervort.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 576,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 665,
-      "Description": "Grass-roots secondary moderator",
-      "Number": "785536",
+      "QuoteVersionId": 760,
+      "ERPQuoteVersionKey": "eius",
+      "QuoteId": 666,
+      "Description": "Multi-layered background matrices",
+      "Number": "472368",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "drive distributed solutions",
-      "LikelyQuoteAlternativeId": 473,
-      "SentDate": "2016-09-07T16:48:30.4529397+02:00",
-      "FollowupId": 455,
-      "ExpirationDate": "1995-05-17T16:48:30.4529397+02:00",
-      "DeliveryCountryId": 854,
+      "Reason": "",
+      "LikelyQuoteAlternativeId": 16,
+      "SentDate": "1996-10-22T14:58:05.0144649+02:00",
+      "FollowupId": 836,
+      "ExpirationDate": "2011-06-13T14:58:05.0144649+02:00",
+      "DeliveryCountryId": 563,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 596,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eum",
-      "ERPPaymentTypeKey": "fugit",
-      "ERPDeliveryTermsKey": "nisi",
-      "ERPDeliveryTypeKey": "eaque",
-      "Rank": 996,
-      "ApprovedBy": 906,
-      "ApprovedText": "consequatur",
-      "ApprovedRegisteredBy": 841,
-      "ApprovedRegisteredDate": "2004-04-19T16:48:30.4529397+02:00",
-      "ExtraField1": "voluptatem",
-      "ExtraField2": "sed",
-      "ExtraField3": "et",
-      "ExtraField4": "molestiae",
-      "ExtraField5": "est",
-      "LastRecalculated": "2007-08-12T16:48:30.4529397+02:00",
-      "Updated": "2019-08-31T16:48:30.4529397+02:00",
-      "UpdatedAssociateId": 356,
-      "Registered": "2011-01-21T16:48:30.4529397+01:00",
-      "RegisteredAssociateId": 392,
+      "InvoiceCountryId": 539,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "ut",
+      "ERPPaymentTypeKey": "exercitationem",
+      "ERPDeliveryTermsKey": "autem",
+      "ERPDeliveryTypeKey": "totam",
+      "Rank": 418,
+      "ApprovedBy": 436,
+      "ApprovedText": "exercitationem",
+      "ApprovedRegisteredBy": 484,
+      "ApprovedRegisteredDate": "2020-09-24T14:58:05.0144649+02:00",
+      "ExtraField1": "ut",
+      "ExtraField2": "incidunt",
+      "ExtraField3": "tempora",
+      "ExtraField4": "rerum",
+      "ExtraField5": "ut",
+      "LastRecalculated": "1998-11-24T14:58:05.0144649+01:00",
+      "Updated": "2014-02-08T14:58:05.0144649+01:00",
+      "UpdatedAssociateId": 847,
+      "Registered": "2013-09-29T14:58:05.0144649+02:00",
+      "RegisteredAssociateId": 676,
       "QuoteAlternatives": [
         {},
         {}
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldLength": 785
         }
       }
     }
@@ -180,10 +180,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "seize compelling mindshare"
       },
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

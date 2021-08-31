@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/AssignThirdPartyLicenses
+title: AssignThirdPartyLicenses
 id: v1LicenseAgent_AssignThirdPartyLicenses
 ---
 
-# POST Agents/License/AssignThirdPartyLicenses
+# AssignThirdPartyLicenses
 
 ```http
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
@@ -87,15 +87,15 @@ Response body: array
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 356,
-  "ModuleOwner": "aspernatur",
+  "AssociateId": 830,
+  "ModuleOwner": "repudiandae",
   "ModuleLicenseNames": [
-    "Stamm Group",
-    "Donnelly-Bruen"
+    "Brakus LLC",
+    "Schamberger Inc and Sons"
   ]
 }
 ```
@@ -107,21 +107,21 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 683,
-    "Tooltip": "minima",
-    "CanAssign": true,
-    "Free": 350,
-    "InUse": 601,
+    "Total": 140,
+    "Tooltip": "at",
+    "CanAssign": false,
+    "Free": 119,
+    "InUse": 909,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 933,
-    "Name": "Kirlin-Cummings",
-    "Description": "Focused bi-directional help-desk",
-    "PrerequisiteModuleName": "Keebler-Reinger",
-    "SortOrder": 540,
+    "Assigned": false,
+    "ModuleLicenseId": 981,
+    "Name": "Moore LLC",
+    "Description": "Focused empowering Graphical User Interface",
+    "PrerequisiteModuleName": "Hauck, Bogisich and Kunze",
+    "SortOrder": 203,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "extend real-time experiences"
     },
     "FieldProperties": {
       "fieldName": {
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 434
       }
     }
   }

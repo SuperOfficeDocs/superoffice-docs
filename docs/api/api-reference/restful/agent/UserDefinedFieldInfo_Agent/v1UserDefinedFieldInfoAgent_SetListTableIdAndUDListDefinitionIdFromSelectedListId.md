@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
+title: SetListTableIdAndUDListDefinitionIdFromSelectedListId
 id: v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
 ---
 
-# POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
+# SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
@@ -112,47 +112,47 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": {
     "UDefFieldId": 865,
-    "ColumnId": 255,
-    "FieldDefault": "totam",
-    "FieldHeight": 469,
-    "FieldLabel": "accusantium",
-    "FieldLeft": 780,
-    "FieldTop": 416,
+    "ColumnId": 724,
+    "FieldDefault": "quasi",
+    "FieldHeight": 783,
+    "FieldLabel": "illum",
+    "FieldLeft": 584,
+    "FieldTop": 709,
     "FieldType": "Checkbox",
-    "FieldWidth": 155,
-    "FormatMask": "aut",
+    "FieldWidth": 299,
+    "FormatMask": "molestias",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 967,
-    "LabelLeft": 451,
-    "LabelTop": 456,
-    "LabelWidth": 258,
-    "LastVersionId": 939,
-    "ListTableId": 710,
+    "IsIndexed": true,
+    "LabelHeight": 980,
+    "LabelLeft": 498,
+    "LabelTop": 41,
+    "LabelWidth": 268,
+    "LastVersionId": 859,
+    "ListTableId": 719,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 587,
-    "ProgId": "velit",
-    "IsReadOnly": true,
-    "ShortLabel": "mollitia",
-    "TabOrder": 885,
-    "TextLength": 534,
-    "Tooltip": "ullam",
-    "UdefIdentity": 614,
-    "UDListDefinitionId": 999,
+    "Page1LineNo": 389,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "sint",
+    "TabOrder": 528,
+    "TextLength": 417,
+    "Tooltip": "incidunt",
+    "UdefIdentity": 984,
+    "UDListDefinitionId": 781,
     "Justification": "Center",
-    "Version": 636,
-    "TemplateVariableName": "Hermiston Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Rolfson, Harvey and Nader"
+    "Version": 673,
+    "TemplateVariableName": "Harris, Conn and Morar",
+    "HasBeenPublished": true,
+    "MdoListName": "Thompson, Welch and Brekke"
   },
-  "SelectedListId": 421
+  "SelectedListId": 468
 }
 ```
 
@@ -161,40 +161,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 221,
-  "ColumnId": 415,
-  "FieldDefault": "optio",
-  "FieldHeight": 687,
-  "FieldLabel": "est",
-  "FieldLeft": 70,
-  "FieldTop": 620,
+  "UDefFieldId": 716,
+  "ColumnId": 287,
+  "FieldDefault": "laboriosam",
+  "FieldHeight": 941,
+  "FieldLabel": "odit",
+  "FieldLeft": 966,
+  "FieldTop": 359,
   "FieldType": "Checkbox",
-  "FieldWidth": 486,
-  "FormatMask": "sit",
+  "FieldWidth": 442,
+  "FormatMask": "fugit",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 181,
-  "LabelLeft": 622,
-  "LabelTop": 694,
-  "LabelWidth": 933,
-  "LastVersionId": 318,
-  "ListTableId": 983,
-  "IsMandatory": true,
+  "LabelHeight": 642,
+  "LabelLeft": 888,
+  "LabelTop": 944,
+  "LabelWidth": 901,
+  "LastVersionId": 50,
+  "ListTableId": 826,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 836,
-  "ProgId": "consequatur",
-  "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 268,
-  "TextLength": 800,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 236,
-  "UDListDefinitionId": 173,
+  "Page1LineNo": 696,
+  "ProgId": "eos",
+  "IsReadOnly": true,
+  "ShortLabel": "porro",
+  "TabOrder": 304,
+  "TextLength": 507,
+  "Tooltip": "ut",
+  "UdefIdentity": 317,
+  "UDListDefinitionId": 570,
   "Justification": "Center",
-  "Version": 550,
-  "TemplateVariableName": "Pagac LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Klein Inc and Sons",
+  "Version": 212,
+  "TemplateVariableName": "Frami Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Cassin Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

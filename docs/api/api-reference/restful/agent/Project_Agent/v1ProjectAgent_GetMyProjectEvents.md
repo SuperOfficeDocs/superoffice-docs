@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetMyProjectEvents
+title: GetMyProjectEvents
 id: v1ProjectAgent_GetMyProjectEvents
 ---
 
-# POST Agents/Project/GetMyProjectEvents
+# GetMyProjectEvents
 
 ```http
 POST /api/v1/Agents/Project/GetMyProjectEvents
@@ -85,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Merl McCullough",
-    "Description": "Upgradable web-enabled ability",
-    "ProjectId": 511,
-    "EventName": "Blanda-Cronin",
-    "AssociateId": 845,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "quia",
-    "SignOffText": "quidem",
-    "SignOnConfirmationText": "facilis",
-    "SignOnText": "eius",
-    "EventDate": "2016-12-05T16:48:30.3689382+01:00",
-    "Enabled": true,
+    "AssociateFullName": "Aubrey Adams III",
+    "Description": "Persistent zero administration infrastructure",
+    "ProjectId": 80,
+    "EventName": "Larson, Wiegand and Kunze",
+    "AssociateId": 353,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "nulla",
+    "SignOffText": "ut",
+    "SignOnConfirmationText": "sit",
+    "SignOnText": "nihil",
+    "EventDate": "2003-05-11T14:58:04.8534596+02:00",
+    "Enabled": false,
     "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 803,
-    "SignOnTaskId": 855,
-    "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 934,
-    "SignOffPersonId": 635,
+    "SignOn": true,
+    "SignOffTaskId": 395,
+    "SignOnTaskId": 978,
+    "SignOffTriggersAssign": false,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 304,
+    "SignOffPersonId": 654,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "reintermediate real-time deliverables"
     },
     "FieldProperties": {
       "fieldName": {
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldLength": 666
       }
     }
   }

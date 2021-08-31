@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
+title: GetDeviceKeysOnDeviceIdentifierTableRecordId
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
 ---
 
-# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
+# GetDeviceKeysOnDeviceIdentifierTableRecordId
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
@@ -84,15 +84,15 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hudson-Nikolaus",
-  "DeviceName": "Bradtke-Grimes",
-  "DeviceIdentifier": "debitis",
-  "TableName": "Anderson-Funk",
-  "RecordId": 182
+  "ApplicationName": "Becker-Stamm",
+  "DeviceName": "Walter LLC",
+  "DeviceIdentifier": "harum",
+  "TableName": "Weissnat LLC",
+  "RecordId": 988
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolore",
-    "Value": "nesciunt",
-    "RecordId": 575,
-    "CreatedDate": "2020-10-16T16:48:29.7229242+02:00",
-    "UpdatedDate": "1995-09-26T16:48:29.7229242+02:00",
-    "UpdatedBy": "dolore",
-    "CreatedBy": "quidem",
-    "TableName": "Johns Group",
+    "Key": "quo",
+    "Value": "a",
+    "RecordId": 790,
+    "CreatedDate": "2017-04-02T14:58:04.3154598+02:00",
+    "UpdatedDate": "2001-06-19T14:58:04.3154598+02:00",
+    "UpdatedBy": "odit",
+    "CreatedBy": "aut",
+    "TableName": "Quigley, Skiles and O'Reilly",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 865
       }
     }
   }

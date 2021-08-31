@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Konopelski, Stoltenberg and Price",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "UdListDefinitionId": 522,
-  "Rank": 10
+  "Id": 531,
+  "Name": "Stark-Greenfelder",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "UdListDefinitionId": 106,
+  "Rank": 408
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Armstrong LLC",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "UdListDefinitionId": 410,
-  "Rank": 770,
+  "Id": 691,
+  "Name": "Trantow LLC",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "UdListDefinitionId": 641,
+  "Rank": 892,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 883
     }
   }
 }

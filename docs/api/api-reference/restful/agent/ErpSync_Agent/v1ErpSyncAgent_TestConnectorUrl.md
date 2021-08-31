@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/TestConnectorUrl
+title: TestConnectorUrl
 id: v1ErpSyncAgent_TestConnectorUrl
 ---
 
-# POST Agents/ErpSync/TestConnectorUrl
+# TestConnectorUrl
 
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectorUrl
@@ -70,7 +70,7 @@ Response body: string
 POST /api/v1/Agents/ErpSync/TestConnectorUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {

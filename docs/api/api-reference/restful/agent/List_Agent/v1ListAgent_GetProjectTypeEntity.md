@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProjectTypeEntity
+title: GetProjectTypeEntity
 id: v1ListAgent_GetProjectTypeEntity
 ---
 
-# POST Agents/List/GetProjectTypeEntity
+# GetProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/GetProjectTypeEntity
@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=461
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=779
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -84,35 +84,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 686,
-  "Name": "Jerde, Gutmann and Lind",
-  "Tooltip": "qui",
-  "Rank": 362,
+  "ProjTypeId": 907,
+  "Name": "Collier-Gusikowski",
+  "Tooltip": "repellendus",
+  "Rank": 945,
   "DurationUnit": "Century",
-  "ProjectDuration": 133,
+  "ProjectDuration": 396,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 711,
-      "Name": "O'Conner Group",
-      "ToolTip": "Amet quasi.",
-      "Deleted": true,
-      "Rank": 960,
-      "Type": "et",
-      "ColorBlock": 295,
-      "IconHint": "ipsum",
+      "Id": 571,
+      "Name": "Schiller Inc and Sons",
+      "ToolTip": "Recusandae corrupti quaerat.",
+      "Deleted": false,
+      "Rank": 285,
+      "Type": "est",
+      "ColorBlock": 390,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2013-02-15T16:48:29.7799245+01:00",
+      "LastChanged": "2008-07-14T14:58:04.3914661+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "assumenda",
-      "StyleHint": "delectus",
+      "ExtraInfo": "facilis",
+      "StyleHint": "omnis",
       "Hidden": true,
-      "FullName": "Anastasia Adams",
+      "FullName": "Marjory Rutherford",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Morar, Murray and Haley",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 621,
-  "Rank": 993
+  "Id": 221,
+  "Name": "Hintz-Koepp",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "UdListDefinitionId": 640,
+  "Rank": 500
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Bauch-Fahey",
-  "Tooltip": "et",
+  "Id": 135,
+  "Name": "Kub-Ferry",
+  "Tooltip": "illo",
   "Deleted": false,
-  "UdListDefinitionId": 549,
-  "Rank": 69,
+  "UdListDefinitionId": 341,
+  "Rank": 92,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldLength": 31
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetMyConfigParameters
+title: GetMyConfigParameters
 id: v1AudienceAgent_GetMyConfigParameters
 ---
 
-# POST Agents/Audience/GetMyConfigParameters
+# GetMyConfigParameters
 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameters
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 873,
-    "Name": "Kiehn Inc and Sons",
-    "Value": "explicabo",
-    "CreatedDate": "2014-10-31T16:48:28.7682014+01:00",
-    "UpdatedDate": "2020-04-01T16:48:28.7682014+02:00",
-    "CreatedBy": "odio",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 885,
+    "Name": "Watsica, Block and Hartmann",
+    "Value": "atque",
+    "CreatedDate": "2007-03-05T14:58:03.2602385+01:00",
+    "UpdatedDate": "1998-07-15T14:58:03.2602385+02:00",
+    "CreatedBy": "rerum",
+    "UpdatedBy": "velit",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "expedite extensible markets"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

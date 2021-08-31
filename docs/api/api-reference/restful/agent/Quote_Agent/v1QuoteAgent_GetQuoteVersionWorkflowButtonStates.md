@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteVersionWorkflowButtonStates
+title: GetQuoteVersionWorkflowButtonStates
 id: v1QuoteAgent_GetQuoteVersionWorkflowButtonStates
 ---
 
-# POST Agents/Quote/GetQuoteVersionWorkflowButtonStates
+# GetQuoteVersionWorkflowButtonStates
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 749,
-  "QuoteAlternativeId": 975
+  "QuoteVersionId": 353,
+  "QuoteAlternativeId": 919
 }
 ```
 
@@ -100,27 +100,27 @@ Content-Type: application/json; charset=utf-8
     {
       "Action": "Approve",
       "ImageHint": "dolorem",
-      "DisplayText": "eius",
-      "TooltipText": "explicabo",
-      "Enabled": true,
+      "DisplayText": "beatae",
+      "TooltipText": "dolores",
+      "Enabled": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "transition holistic portals"
           },
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 134
         }
       }
     }
   ],
   "StateImage": {
     "Action": "Approve",
-    "ImageHint": "hic",
-    "DisplayText": "eos",
-    "TooltipText": "nulla",
+    "ImageHint": "illum",
+    "DisplayText": "et",
+    "TooltipText": "ut",
     "Enabled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -129,17 +129,17 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 503
       }
     }
   },
   "UpdatePricesButton": {
     "Action": "Approve",
-    "ImageHint": "omnis",
-    "DisplayText": "quis",
-    "TooltipText": "labore",
-    "Enabled": false,
+    "ImageHint": "doloribus",
+    "DisplayText": "modi",
+    "TooltipText": "deserunt",
+    "Enabled": true,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -148,24 +148,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldLength": 918
       }
     }
   },
   "Status": {
     "Status": "Error",
-    "IconHint": "saepe",
-    "DisplayMessage": "et",
-    "DisplayTooltip": "est",
+    "IconHint": "non",
+    "DisplayMessage": "animi",
+    "DisplayTooltip": "consequatur",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "unleash cross-media communities"
         },
-        "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   },
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 388
     }
   }
 }

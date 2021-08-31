@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/FindTicketsByTitleOrId
+title: FindTicketsByTitleOrId
 id: v1CustomerServiceAgent_FindTicketsByTitleOrId
 ---
 
-# POST Agents/CustomerService/FindTicketsByTitleOrId
+# FindTicketsByTitleOrId
 
 ```http
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
@@ -81,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "nesciunt",
-  "MaxRows": 896
+  "TitleOrId": "dolor",
+  "MaxRows": 804
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 311,
-    "Title": "eius",
-    "OwnerName": "Kulas-Rohan",
+    "TicketId": 359,
+    "Title": "autem",
+    "OwnerName": "Satterfield-Kohler",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Shanahan, Nicolas and Bartoletti",
+    "PriorityName": "McGlynn LLC",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Nienow, Boyle and Terry",
-    "ContactName": "Spinka, Koepp and Stark",
+    "PersonName": "Howe-Torp",
+    "ContactName": "Ebert, Flatley and Bartoletti",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "seize seamless web-readiness"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 431
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

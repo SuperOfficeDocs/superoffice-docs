@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetActivePriceListsByCurrencyId
+title: GetActivePriceListsByCurrencyId
 id: v1QuoteAgent_GetActivePriceListsByCurrencyId
 ---
 
-# POST Agents/Quote/GetActivePriceListsByCurrencyId
+# GetActivePriceListsByCurrencyId
 
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 633,
-  "CurrencyId": 263
+  "QuoteConnectionId": 199,
+  "CurrencyId": 775
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 268,
-    "ERPPriceListKey": "dicta",
-    "QuoteConnectionId": 921,
-    "Name": "Bernier, Donnelly and Rath",
-    "Description": "Extended well-modulated Graphic Interface",
-    "Currency": "quod",
-    "CurrencyName": "Shields-Hermann",
-    "ValidFrom": "2001-02-07T16:48:30.3889355+01:00",
-    "ValidTo": "2001-07-24T16:48:30.3889355+02:00",
-    "IsActive": false,
+    "PriceListId": 143,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 991,
+    "Name": "Quigley-Parker",
+    "Description": "Down-sized tertiary product",
+    "Currency": "explicabo",
+    "CurrencyName": "Armstrong-McGlynn",
+    "ValidFrom": "2003-08-28T14:58:04.9704316+02:00",
+    "ValidTo": "2005-03-20T14:58:04.9704316+01:00",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

@@ -66,7 +66,7 @@ Response body: object
 GET /api/v1/ShipmentMessageBlock/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 772,
-  "AssociateId": 604,
-  "Block": "soluta",
-  "Registered": "2018-09-30T09:40:59.752031+02:00",
-  "RegisteredAssociateId": 232,
-  "Updated": "2019-05-05T09:40:59.752031+02:00",
-  "UpdatedAssociateId": 483,
-  "UpdatedCount": 875,
+  "ShipmentMessageBlockId": 192,
+  "AssociateId": 852,
+  "Block": "voluptas",
+  "Registered": "2000-07-19T15:05:42.7556624+02:00",
+  "RegisteredAssociateId": 192,
+  "Updated": "2001-04-25T15:05:42.7556624+02:00",
+  "UpdatedAssociateId": 481,
+  "UpdatedCount": 546,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldLength": 625
     }
   }
 }

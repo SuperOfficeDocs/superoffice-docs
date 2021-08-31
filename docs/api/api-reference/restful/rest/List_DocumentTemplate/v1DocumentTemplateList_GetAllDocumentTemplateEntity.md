@@ -24,7 +24,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -88,7 +88,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 388,
-    "Name": "O'Keefe-Lakin",
-    "Tooltip": "accusantium",
-    "SaveInDb": 288,
-    "Filename": "et",
-    "DefaultOref": "excepturi",
+    "DocumentTemplateId": 745,
+    "Name": "Lehner-Mayer",
+    "Tooltip": "soluta",
+    "SaveInDb": 604,
+    "Filename": "fugiat",
+    "DefaultOref": "ut",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 669,
-    "IntentId": 742,
+    "AutoeventId": 410,
+    "IntentId": 565,
     "IsDefaultPublished": true,
-    "Rank": 568,
-    "LoadTemplateFromPlugin": 47,
-    "MimeType": "delectus",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 511,
+    "Rank": 140,
+    "LoadTemplateFromPlugin": 189,
+    "MimeType": "neque",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 846,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "irwin_kiehn@raynor.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "alexys_halvorson@fay.com",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "eugenia@bechtelar.ca",
+    "SenderEmailAddress": "nona@funk.us",
     "InvitationDocType": "Cancelled",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "grow real-time applications"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 591
       }
     }
   }

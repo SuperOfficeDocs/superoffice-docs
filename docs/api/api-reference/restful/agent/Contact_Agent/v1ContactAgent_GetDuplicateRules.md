@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetDuplicateRules
+title: GetDuplicateRules
 id: v1ContactAgent_GetDuplicateRules
 ---
 
-# POST Agents/Contact/GetDuplicateRules
+# GetDuplicateRules
 
 ```http
 POST /api/v1/Agents/Contact/GetDuplicateRules
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turcotte, Steuber and Pacocha",
-    "DisplayName": "Gislason LLC",
-    "DisplayTooltip": "ullam",
-    "IsActive": true,
+    "Name": "Schulist-Grady",
+    "DisplayName": "Wintheiser Group",
+    "DisplayTooltip": "in",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,16 +90,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   },
   {
-    "Name": "Turcotte, Steuber and Pacocha",
-    "DisplayName": "Gislason LLC",
-    "DisplayTooltip": "ullam",
-    "IsActive": true,
+    "Name": "Schulist-Grady",
+    "DisplayName": "Wintheiser Group",
+    "DisplayTooltip": "in",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

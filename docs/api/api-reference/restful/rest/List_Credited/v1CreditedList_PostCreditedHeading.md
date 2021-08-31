@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 842,
-  "Name": "O'Kon, Block and Feeney",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 697,
-  "UdListDefinitionId": 371
+  "HeadingId": 106,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 417,
+  "UdListDefinitionId": 494
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 910,
-  "Name": "Flatley, Cartwright and Roob",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 590,
-  "UdListDefinitionId": 880,
+  "HeadingId": 321,
+  "Name": "Graham-Sanford",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 138,
+  "UdListDefinitionId": 204,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

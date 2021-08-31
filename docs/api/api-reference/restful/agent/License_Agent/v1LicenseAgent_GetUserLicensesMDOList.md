@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetUserLicensesMDOList
+title: GetUserLicensesMDOList
 id: v1LicenseAgent_GetUserLicensesMDOList
 ---
 
-# POST Agents/License/GetUserLicensesMDOList
+# GetUserLicensesMDOList
 
 ```http
 POST /api/v1/Agents/License/GetUserLicensesMDOList
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -87,36 +87,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Schroeder LLC",
-    "ToolTip": "Incidunt dolor modi voluptate.",
+    "Id": 358,
+    "Name": "Langworth-Murphy",
+    "ToolTip": "Modi ducimus ex eum enim explicabo facilis.",
     "Deleted": true,
-    "Rank": 485,
-    "Type": "qui",
-    "ColorBlock": 274,
-    "IconHint": "voluptatem",
+    "Rank": 56,
+    "Type": "est",
+    "ColorBlock": 86,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2004-06-15T16:48:29.7389244+02:00",
+    "LastChanged": "2018-12-06T14:58:04.3324599+01:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Kiehn-Hamill",
-        "ToolTip": "Necessitatibus perspiciatis nihil fugit.",
-        "Deleted": false,
-        "Rank": 653,
-        "Type": "ut",
-        "ColorBlock": 651,
-        "IconHint": "quo",
+        "Id": 756,
+        "Name": "Sporer Group",
+        "ToolTip": "Pariatur ut quidem assumenda sequi quas officiis.",
+        "Deleted": true,
+        "Rank": 34,
+        "Type": "architecto",
+        "ColorBlock": 778,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "2000-07-26T16:48:29.7399259+02:00",
+        "LastChanged": "2006-12-26T14:58:04.3324599+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Brooklyn Bode",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Edna Parisian",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -124,16 +124,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldType": "System.String",
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "animi",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Autumn Jones",
+    "FullName": "Gabe Krajcik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldType": "System.String",
+        "FieldLength": 239
       }
     }
   }

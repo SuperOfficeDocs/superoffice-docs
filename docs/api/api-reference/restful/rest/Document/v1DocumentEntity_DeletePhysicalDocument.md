@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "vitae",
-  "VersionId": "autem",
-  "Success": false,
+  "ExternalReference": "veniam",
+  "VersionId": "facilis",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "numquam",
-  "AdditionalInfo": "qui"
+  "Value": "totam",
+  "AdditionalInfo": "beatae"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/GetSatellite
+title: GetSatellite
 id: v1ReplicationAgent_GetSatellite
 ---
 
-# POST Agents/Replication/GetSatellite
+# GetSatellite
 
 ```http
 POST /api/v1/Agents/Replication/GetSatellite
@@ -27,7 +27,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=199
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=428
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 968,
-  "Created": "2012-06-08T16:48:30.4889401+02:00",
+  "SatelliteId": 451,
+  "Created": "2008-08-19T14:58:05.0906295+02:00",
   "CreatedBy": {
-    "AssociateId": 965,
-    "Name": "Beer, Weissnat and Greenholt",
-    "PersonId": 647,
-    "Rank": 804,
-    "Tooltip": "numquam",
+    "AssociateId": 647,
+    "Name": "Barton-Jaskolski",
+    "PersonId": 664,
+    "Rank": 163,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 880,
-    "FullName": "Thea Hermiston",
-    "FormalName": "Zemlak LLC",
+    "GroupIdx": 568,
+    "FullName": "Lelah Littel",
+    "FormalName": "Farrell Group",
     "Deleted": false,
-    "EjUserId": 614,
-    "UserName": "Dare-Zieme",
+    "EjUserId": 156,
+    "UserName": "Heidenreich, Dickinson and Johnston",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -107,59 +107,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 727
       }
     }
   },
-  "Updated": "2000-06-01T16:48:30.4889401+02:00",
+  "Updated": "2006-11-01T14:58:05.0916288+01:00",
   "UpdatedBy": {
-    "AssociateId": 460,
-    "Name": "Toy-Konopelski",
-    "PersonId": 534,
-    "Rank": 482,
-    "Tooltip": "quas",
+    "AssociateId": 31,
+    "Name": "Tremblay-Hane",
+    "PersonId": 169,
+    "Rank": 541,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 270,
-    "FullName": "Turner Bernhard V",
-    "FormalName": "Schaden Inc and Sons",
+    "GroupIdx": 835,
+    "FullName": "Ms. Alexander Zulauf",
+    "FormalName": "Trantow LLC",
     "Deleted": true,
-    "EjUserId": 905,
-    "UserName": "Dietrich-Buckridge",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engineer synergistic vortals"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 968
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 447,
-    "Name": "Dickens, Rolfson and Torp",
-    "OrgNr": "782172",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-271-638-4801",
-    "AssociateId": 227,
-    "CountryId": 859,
-    "EmailAddress": "alanna_heathcote@rennerolson.info",
-    "Kananame": "praesentium",
-    "EmailAddressName": "nichole_wunsch@denesik.biz",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Brannon Breitenberg",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "quia",
-    "FullName": "Zane Kihn",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 823,
+    "EjUserId": 645,
+    "UserName": "Rolfson-Bergnaum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -168,33 +133,68 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 607
       }
     }
   },
-  "Area": {
-    "AreaId": 222,
-    "Name": "Hayes, Rempel and Hamill",
-    "MaxDataAge": 1001,
-    "NumberOfUsers": 980,
-    "NumberOfLogins": 594,
-    "FreetextEnabeled": true,
+  "Contact": {
+    "ContactId": 102,
+    "Name": "Ernser Inc and Sons",
+    "OrgNr": "1493767",
+    "Department": "",
+    "URL": "http://www.example.com/",
+    "City": "facere",
+    "DirectPhone": "323-030-6045 x6384",
+    "AssociateId": 786,
+    "CountryId": 257,
+    "EmailAddress": "ethyl@wintheiser.name",
+    "Kananame": "odio",
+    "EmailAddressName": "nettie.borer@mcglynn.com",
+    "URLName": "http://www.example.com/",
+    "AssociateFullName": "Jermaine Hansen",
+    "BusinessName": "Information Technology",
+    "CategoryName": "VIP Customer",
+    "CountryName": "Sokovia",
+    "Address": {},
+    "FormattedAddress": "in",
+    "FullName": "Misty Homenick",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 913,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "exploit granular portals"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldType": "System.String",
+        "FieldLength": 355
+      }
+    }
+  },
+  "Area": {
+    "AreaId": 696,
+    "Name": "Kuhic Group",
+    "MaxDataAge": 602,
+    "NumberOfUsers": 832,
+    "NumberOfLogins": 790,
+    "FreetextEnabeled": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   },
   "LicenseOwners": [
     {
-      "Name": "Herzog, Nitzsche and Koss",
-      "Description": "Reduced asynchronous pricing structure",
+      "Name": "Gorczany-Friesen",
+      "Description": "User-friendly client-driven alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -208,16 +208,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "empower vertical vortals"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldType": "System.String",
+          "FieldLength": 439
         }
       }
     },
     {
-      "Name": "Herzog, Nitzsche and Koss",
-      "Description": "Reduced asynchronous pricing structure",
+      "Name": "Gorczany-Friesen",
+      "Description": "User-friendly client-driven alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -231,10 +231,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "empower vertical vortals"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldType": "System.String",
+          "FieldLength": 439
         }
       }
     }
@@ -249,8 +249,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/GetAttachmentInfo
+title: GetAttachmentInfo
 id: v1TicketAgent_GetAttachmentInfo
 ---
 
-# POST Agents/Ticket/GetAttachmentInfo
+# GetAttachmentInfo
 
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
@@ -67,6 +67,8 @@ Response body: array
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 233
+  "TicketMessageEntityId": 260
 }
 ```
 
@@ -90,10 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 222,
-    "Name": "Leannon, Ortiz and Grant",
-    "ContentType": "perferendis",
-    "AttSize": 832,
+    "AttachmentId": 692,
+    "Name": "Davis LLC",
+    "ContentType": "est",
+    "AttSize": 627,
+    "InlineImage": true,
+    "ContentId": "quos",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,28 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 654
-      }
-    }
-  },
-  {
-    "AttachmentId": 222,
-    "Name": "Leannon, Ortiz and Grant",
-    "ContentType": "perferendis",
-    "AttSize": 832,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 442
       }
     }
   }

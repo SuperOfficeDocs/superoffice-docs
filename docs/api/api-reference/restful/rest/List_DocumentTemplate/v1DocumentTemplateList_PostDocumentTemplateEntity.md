@@ -116,34 +116,34 @@ Response body: object
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 492,
-  "Name": "Kuphal, Considine and Rempel",
-  "Tooltip": "voluptas",
-  "SaveInDb": 584,
-  "Filename": "quos",
-  "DefaultOref": "adipisci",
+  "DocumentTemplateId": 694,
+  "Name": "Welch, Wolff and Gorczany",
+  "Tooltip": "natus",
+  "SaveInDb": 460,
+  "Filename": "est",
+  "DefaultOref": "quibusdam",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 910,
-  "IntentId": 999,
+  "AutoeventId": 97,
+  "IntentId": 560,
   "IsDefaultPublished": true,
-  "Rank": 966,
-  "LoadTemplateFromPlugin": 230,
-  "MimeType": "non",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 317,
+  "Rank": 781,
+  "LoadTemplateFromPlugin": 451,
+  "MimeType": "autem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 90,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ericka@smitham.biz",
+  "EmailSubject": "polly_jacobson@schiller.biz",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "julia@friesen.uk",
+  "SenderEmailAddress": "valentine.hyatt@schowalter.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,30 +153,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 736,
-  "Name": "Ward, Rath and Okuneva",
-  "Tooltip": "sint",
-  "SaveInDb": 924,
-  "Filename": "velit",
-  "DefaultOref": "iure",
+  "DocumentTemplateId": 637,
+  "Name": "Raynor-Kiehn",
+  "Tooltip": "sed",
+  "SaveInDb": 449,
+  "Filename": "sit",
+  "DefaultOref": "odit",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 297,
-  "IntentId": 898,
-  "IsDefaultPublished": false,
-  "Rank": 259,
-  "LoadTemplateFromPlugin": 583,
-  "MimeType": "ex",
+  "AutoeventId": 20,
+  "IntentId": 917,
+  "IsDefaultPublished": true,
+  "Rank": 222,
+  "LoadTemplateFromPlugin": 582,
+  "MimeType": "aliquid",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 438,
+  "DocumentTypeKey": 828,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "linnea@ferrylesch.us",
+  "EmailSubject": "kacie.russel@farrell.com",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eli.mills@roob.us",
+  "SenderEmailAddress": "solon@weber.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -186,10 +186,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "productize clicks-and-mortar solutions"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 787
     }
   }
 }

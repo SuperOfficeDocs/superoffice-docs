@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 571,
-  "ColumnId": 640,
-  "FieldDefault": "et",
-  "FieldHeight": 523,
-  "FieldLabel": "placeat",
-  "FieldLeft": 399,
-  "FieldTop": 424,
+  "UDefFieldId": 45,
+  "ColumnId": 703,
+  "FieldDefault": "eum",
+  "FieldHeight": 411,
+  "FieldLabel": "sed",
+  "FieldLeft": 616,
+  "FieldTop": 619,
   "FieldType": "Checkbox",
-  "FieldWidth": 155,
-  "FormatMask": "porro",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 750,
-  "LabelLeft": 806,
-  "LabelTop": 778,
-  "LabelWidth": 69,
-  "LastVersionId": 161,
-  "ListTableId": 160,
+  "FieldWidth": 530,
+  "FormatMask": "facere",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 218,
+  "LabelLeft": 855,
+  "LabelTop": 240,
+  "LabelWidth": 737,
+  "LastVersionId": 627,
+  "ListTableId": 300,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 2,
-  "ProgId": "sed",
+  "Page1LineNo": 972,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "eveniet",
-  "TabOrder": 920,
-  "TextLength": 799,
-  "Tooltip": "laboriosam",
-  "UdefIdentity": 456,
-  "UDListDefinitionId": 61,
+  "ShortLabel": "minima",
+  "TabOrder": 878,
+  "TextLength": 526,
+  "Tooltip": "provident",
+  "UdefIdentity": 99,
+  "UDListDefinitionId": 336,
   "Justification": "Center",
-  "Version": 398,
-  "TemplateVariableName": "Lakin Inc and Sons",
+  "Version": 396,
+  "TemplateVariableName": "Tillman-Witting",
   "HasBeenPublished": false,
-  "MdoListName": "Ankunding-Bartell",
+  "MdoListName": "Kemmer-Rau",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

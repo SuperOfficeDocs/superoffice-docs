@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetHistoriesByNamesAndIds
+title: GetHistoriesByNamesAndIds
 id: v1ViewStateAgent_GetHistoriesByNamesAndIds
 ---
 
-# POST Agents/ViewState/GetHistoriesByNamesAndIds
+# GetHistoriesByNamesAndIds
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
@@ -85,14 +85,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Morar LLC",
-      "EntityOrParentId": 759,
-      "RequestForNewRecord": false
+      "EntityName": "Douglas, Stanton and Auer",
+      "EntityOrParentId": 264,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "Morar LLC",
-      "EntityOrParentId": 759,
-      "RequestForNewRecord": false
+      "EntityName": "Douglas, Stanton and Auer",
+      "EntityOrParentId": 264,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 599,
-    "Id": 605,
-    "HistoryName": "Adams LLC",
-    "HistoryId": 615,
-    "AssociateId": 966,
-    "Name": "Hamill-Skiles",
-    "ItemInfo": "mollitia",
+    "Rank": 982,
+    "Id": 559,
+    "HistoryName": "Crooks LLC",
+    "HistoryId": 756,
+    "AssociateId": 383,
+    "Name": "Pfeffer, Parisian and Romaguera",
+    "ItemInfo": "est",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "matrix virtual schemas"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

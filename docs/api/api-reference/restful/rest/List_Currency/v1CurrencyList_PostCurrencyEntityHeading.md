@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 919,
-  "Name": "Bernhard, Mosciski and Graham",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 90,
-  "UdListDefinitionId": 364
+  "HeadingId": 210,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 409,
+  "UdListDefinitionId": 791
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 744,
-  "Name": "Schaefer-Terry",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "Rank": 716,
-  "UdListDefinitionId": 43,
+  "HeadingId": 913,
+  "Name": "Bogisich LLC",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 216,
+  "UdListDefinitionId": 874,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize virtual communities"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

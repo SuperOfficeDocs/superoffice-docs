@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 151,
-  "UniqueIdentifier": "repellendus",
-  "Name": "Hand, Wisoky and Ratke",
-  "Description": "Managed homogeneous definition",
-  "IncludeId": "est",
-  "HierarchyId": 231,
-  "Source": "reprehenderit",
-  "Registered": "1997-11-10T09:40:59.0558856+01:00",
-  "RegisteredAssociateId": 538,
-  "Updated": "2000-04-21T09:40:59.0558856+02:00",
-  "UpdatedAssociateId": 968,
+  "EjscriptId": 271,
+  "UniqueIdentifier": "dolores",
+  "Name": "Gottlieb, Bechtelar and Gerlach",
+  "Description": "Open-architected content-based customer loyalty",
+  "IncludeId": "consequatur",
+  "HierarchyId": 736,
+  "Source": "rerum",
+  "Registered": "2020-09-29T15:05:42.0230024+02:00",
+  "RegisteredAssociateId": 270,
+  "Updated": "2012-05-06T15:05:42.0230024+02:00",
+  "UpdatedAssociateId": 212,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,10 +99,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "benchmark visionary content"
       },
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

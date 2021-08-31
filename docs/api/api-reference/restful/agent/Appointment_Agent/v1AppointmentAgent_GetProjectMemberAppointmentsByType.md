@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetProjectMemberAppointmentsByType
+title: GetProjectMemberAppointmentsByType
 id: v1AppointmentAgent_GetProjectMemberAppointmentsByType
 ---
 
-# POST Agents/Appointment/GetProjectMemberAppointmentsByType
+# GetProjectMemberAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
@@ -125,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 311,
-  "StartTime": "2011-06-07T16:48:28.4484491+02:00",
-  "EndTime": "2006-12-17T16:48:28.4484491+01:00",
-  "Count": 320,
+  "PersonId": 646,
+  "StartTime": "2015-10-10T14:58:02.8435731+02:00",
+  "EndTime": "2019-09-30T14:58:02.8435731+02:00",
+  "Count": 954,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 812,
-    "StartDate": "2005-02-12T16:48:28.4494495+01:00",
-    "EndDate": "2010-08-07T16:48:28.4494495+02:00",
+    "AppointmentId": 485,
+    "StartDate": "2004-12-31T14:58:02.8445739+01:00",
+    "EndDate": "2021-03-24T14:58:02.8445739+01:00",
     "Type": "BookingForChecklist",
-    "Task": "magni",
-    "AssociateFullName": "Mabel Lynch",
-    "ContactName": "Roob LLC",
-    "Description": "Fully-configurable even-keeled open system",
-    "PersonFullName": "Shany Schuppe",
-    "PersonId": 924,
-    "ContactId": 79,
-    "ProjectId": 616,
-    "ProjectName": "Roberts LLC",
-    "IsPublished": false,
-    "AssociateId": 165,
-    "ColorIndex": 384,
+    "Task": "sit",
+    "AssociateFullName": "Ms. Alexandria Davis",
+    "ContactName": "Marks, Rowe and Rempel",
+    "Description": "Reactive high-level contingency",
+    "PersonFullName": "Trent Prohaska",
+    "PersonId": 927,
+    "ContactId": 547,
+    "ProjectId": 898,
+    "ProjectName": "Barton, Hirthe and Goyette",
+    "IsPublished": true,
+    "AssociateId": 602,
+    "ColorIndex": 839,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 23,
-    "PriorityName": "Eichmann-Welch",
+    "PriorityId": 618,
+    "PriorityName": "Hartmann LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2006-08-04T16:48:28.4504494+02:00",
+    "ActiveDate": "2004-09-12T14:58:02.845574+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-02-27T16:48:28.4504494+01:00",
-    "RecurringEndDate": "2002-06-16T16:48:28.4504494+02:00",
-    "MotherId": 581,
-    "AssignedBy": 216,
-    "AssignedByFullName": "Rosemary Huels",
+    "RecurringStartDate": "1999-06-11T14:58:02.845574+02:00",
+    "RecurringEndDate": "1999-01-06T14:58:02.845574+01:00",
+    "MotherId": 781,
+    "AssignedBy": 923,
+    "AssignedByFullName": "Jaclyn Bogisich",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 846,
-    "SaleName": "Hilll-Rogahn",
-    "AssociateName": "Rogahn LLC",
-    "CreatedDate": "2016-01-16T16:48:28.4504494+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Ms. Keenan Walter",
-    "CreatedByAssociateId": 267,
+    "Location": "sit",
+    "AlarmLeadTime": "est",
+    "SaleId": 52,
+    "SaleName": "Spencer-Dietrich",
+    "AssociateName": "Zboncak, Waelchi and Torp",
+    "CreatedDate": "2018-07-29T14:58:02.845574+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Ashtyn Schimmel",
+    "CreatedByAssociateId": 518,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldLength": 534
       }
     }
   }

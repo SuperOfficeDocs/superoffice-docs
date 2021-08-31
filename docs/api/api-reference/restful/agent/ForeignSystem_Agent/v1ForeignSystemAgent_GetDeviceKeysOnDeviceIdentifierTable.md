@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
+title: GetDeviceKeysOnDeviceIdentifierTable
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
 ---
 
-# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
+# GetDeviceKeysOnDeviceIdentifierTable
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -83,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rath, Schimmel and Denesik",
-  "DeviceName": "Kuhn Group",
-  "DeviceIdentifier": "porro",
-  "TableName": "Strosin-Eichmann"
+  "ApplicationName": "O'Conner, Mayert and Herman",
+  "DeviceName": "Skiles Inc and Sons",
+  "DeviceIdentifier": "a",
+  "TableName": "Goldner-Littel"
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "sed",
-    "RecordId": 229,
-    "CreatedDate": "2013-08-11T16:48:29.7219241+02:00",
-    "UpdatedDate": "2017-10-10T16:48:29.7219241+02:00",
-    "UpdatedBy": "facilis",
-    "CreatedBy": "animi",
-    "TableName": "Cruickshank-Ritchie",
+    "Key": "quidem",
+    "Value": "explicabo",
+    "RecordId": 89,
+    "CreatedDate": "2011-12-09T14:58:04.3154598+01:00",
+    "UpdatedDate": "2012-03-07T14:58:04.3154598+01:00",
+    "UpdatedBy": "aspernatur",
+    "CreatedBy": "modi",
+    "TableName": "Denesik, Durgan and Ullrich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldLength": 135
       }
     }
   }

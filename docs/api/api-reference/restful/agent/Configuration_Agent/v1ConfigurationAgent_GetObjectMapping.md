@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetObjectMapping
+title: GetObjectMapping
 id: v1ConfigurationAgent_GetObjectMapping
 ---
 
-# POST Agents/Configuration/GetObjectMapping
+# GetObjectMapping
 
 ```http
 POST /api/v1/Agents/Configuration/GetObjectMapping
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetObjectMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "qui",
-  "Instance": "ab"
+  "Application": "deserunt",
+  "Instance": "reiciendis"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aspernatur"
+"quidem"
 ```

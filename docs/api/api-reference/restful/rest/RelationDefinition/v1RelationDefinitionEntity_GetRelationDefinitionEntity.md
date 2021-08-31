@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 169,
-  "Name": "Schmitt-Goldner",
-  "Tooltip": "accusantium",
-  "PassiveText": "sint",
+  "ReldefId": 221,
+  "Name": "Marks-Heathcote",
+  "Tooltip": "quod",
+  "PassiveText": "corporis",
   "Deleted": true,
-  "Rank": 296,
+  "Rank": 260,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "scale integrated convergence"
       },
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/GetCentralLicense
+title: GetCentralLicense
 id: v1ReplicationAgent_GetCentralLicense
 ---
 
-# POST Agents/Replication/GetCentralLicense
+# GetCentralLicense
 
 ```http
 POST /api/v1/Agents/Replication/GetCentralLicense
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,23 +76,51 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leuschke Group",
-    "Description": "Cloned uniform initiative",
+    "Name": "Gerhold, Rodriguez and Schultz",
+    "Description": "Exclusive needs-based focus group",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 671,
-        "Tooltip": "eligendi",
+        "Total": 693,
+        "Tooltip": "ex",
         "CanAssign": true,
-        "Free": 539,
-        "InUse": 756,
+        "Free": 984,
+        "InUse": 258,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 965,
-        "Name": "Kiehn, Toy and Walter",
-        "Description": "Distributed asynchronous knowledge base",
-        "PrerequisiteModuleName": "Boyle LLC",
-        "SortOrder": 758,
+        "ModuleLicenseId": 939,
+        "Name": "Rice, Ferry and Jewess",
+        "Description": "Decentralized scalable encoding",
+        "PrerequisiteModuleName": "Romaguera LLC",
+        "SortOrder": 401,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": "e-enable extensible networks"
+            },
+            "FieldType": "System.String",
+            "FieldLength": 649
+          }
+        }
+      }
+    ],
+    "UnrestrictedModuleLicenses": [
+      {
+        "Unrestricted": true,
+        "Total": 312,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 77,
+        "InUse": 676,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 592,
+        "Name": "Konopelski-Lehner",
+        "Description": "Right-sized national approach",
+        "PrerequisiteModuleName": "Prohaska Inc and Sons",
+        "SortOrder": 808,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -101,35 +129,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 785
-          }
-        }
-      }
-    ],
-    "UnrestrictedModuleLicenses": [
-      {
-        "Unrestricted": false,
-        "Total": 774,
-        "Tooltip": "expedita",
-        "CanAssign": false,
-        "Free": 504,
-        "InUse": 250,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 928,
-        "Name": "Upton Inc and Sons",
-        "Description": "Networked zero tolerance archive",
-        "PrerequisiteModuleName": "Konopelski-Leffler",
-        "SortOrder": 389,
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 500
+            "FieldLength": 675
           }
         }
       }
@@ -144,29 +144,57 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 120
       }
     }
   },
   {
-    "Name": "Leuschke Group",
-    "Description": "Cloned uniform initiative",
+    "Name": "Gerhold, Rodriguez and Schultz",
+    "Description": "Exclusive needs-based focus group",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 671,
-        "Tooltip": "eligendi",
+        "Total": 693,
+        "Tooltip": "ex",
         "CanAssign": true,
-        "Free": 539,
-        "InUse": 756,
+        "Free": 984,
+        "InUse": 258,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 965,
-        "Name": "Kiehn, Toy and Walter",
-        "Description": "Distributed asynchronous knowledge base",
-        "PrerequisiteModuleName": "Boyle LLC",
-        "SortOrder": 758,
+        "ModuleLicenseId": 939,
+        "Name": "Rice, Ferry and Jewess",
+        "Description": "Decentralized scalable encoding",
+        "PrerequisiteModuleName": "Romaguera LLC",
+        "SortOrder": 401,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": "e-enable extensible networks"
+            },
+            "FieldType": "System.String",
+            "FieldLength": 649
+          }
+        }
+      }
+    ],
+    "UnrestrictedModuleLicenses": [
+      {
+        "Unrestricted": true,
+        "Total": 312,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 77,
+        "InUse": 676,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 592,
+        "Name": "Konopelski-Lehner",
+        "Description": "Right-sized national approach",
+        "PrerequisiteModuleName": "Prohaska Inc and Sons",
+        "SortOrder": 808,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -175,35 +203,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 785
-          }
-        }
-      }
-    ],
-    "UnrestrictedModuleLicenses": [
-      {
-        "Unrestricted": false,
-        "Total": 774,
-        "Tooltip": "expedita",
-        "CanAssign": false,
-        "Free": 504,
-        "InUse": 250,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 928,
-        "Name": "Upton Inc and Sons",
-        "Description": "Networked zero tolerance archive",
-        "PrerequisiteModuleName": "Konopelski-Leffler",
-        "SortOrder": 389,
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 500
+            "FieldLength": 675
           }
         }
       }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 120
       }
     }
   }

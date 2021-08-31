@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/DeleteExternalUser
+title: DeleteExternalUser
 id: v1UserAgent_DeleteExternalUser
 ---
 
-# POST Agents/User/DeleteExternalUser
+# DeleteExternalUser
 
 ```http
 POST /api/v1/Agents/User/DeleteExternalUser

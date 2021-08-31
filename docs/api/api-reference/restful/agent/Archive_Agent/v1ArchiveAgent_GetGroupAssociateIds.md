@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetGroupAssociateIds
+title: GetGroupAssociateIds
 id: v1ArchiveAgent_GetGroupAssociateIds
 ---
 
-# POST Agents/Archive/GetGroupAssociateIds
+# GetGroupAssociateIds
 
 ```http
 POST /api/v1/Agents/Archive/GetGroupAssociateIds
@@ -68,13 +68,13 @@ Response body: array
 POST /api/v1/Agents/Archive/GetGroupAssociateIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    498,
-    294
+    323,
+    729
   ]
 }
 ```
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  346,
-  406
+  446,
+  342
 ]
 ```

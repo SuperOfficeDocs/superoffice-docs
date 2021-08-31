@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=quia
+GET /api/v1/List/PaymentType/MDOItems?query=sit
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Johns Group",
-    "ToolTip": "Dolorem ad.",
-    "Deleted": true,
-    "Rank": 39,
-    "Type": "ducimus",
+    "Id": 27,
+    "Name": "West-Bayer",
+    "ToolTip": "Ut dolorum culpa hic.",
+    "Deleted": false,
+    "Rank": 759,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Dach, Hahn and Gusikowski",
-        "ToolTip": "Eos praesentium.",
-        "Deleted": true,
-        "Rank": 529,
-        "Type": "et",
+        "Id": 186,
+        "Name": "Ondricka-Shields",
+        "ToolTip": "Aut ut tenetur tenetur iusto.",
+        "Deleted": false,
+        "Rank": 499,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 899,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "quia",
-        "FullName": "Vicky Stroman",
+        "IconHint": "suscipit",
+        "ColorBlock": 308,
+        "ExtraInfo": "id",
+        "StyleHint": "aut",
+        "FullName": "Cole Moore",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldType": "System.String",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 76,
-    "ExtraInfo": "quasi",
-    "StyleHint": "inventore",
-    "FullName": "Jailyn Halvorson Jr.",
+    "IconHint": "id",
+    "ColorBlock": 823,
+    "ExtraInfo": "molestias",
+    "StyleHint": "aut",
+    "FullName": "Whitney Steuber",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "seize 24/365 channels"
+      "Reason": "redefine global markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 199
       }
     }
   }

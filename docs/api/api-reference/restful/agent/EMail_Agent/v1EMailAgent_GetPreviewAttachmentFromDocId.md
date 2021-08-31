@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetPreviewAttachmentFromDocId
+title: GetPreviewAttachmentFromDocId
 id: v1EMailAgent_GetPreviewAttachmentFromDocId
 ---
 
-# POST Agents/EMail/GetPreviewAttachmentFromDocId
+# GetPreviewAttachmentFromDocId
 
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 156,
-  "AttachmentId": "molestiae"
+  "DocId": 395,
+  "AttachmentId": "autem"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced incremental model",
-  "Filename": "occaecati",
-  "Size": 936,
-  "Type": "esse",
-  "Encoding": "nihil",
-  "Id": "a",
-  "Disposition": "quod",
+  "Description": "Innovative context-sensitive solution",
+  "Filename": "id",
+  "Size": 996,
+  "Type": "dolores",
+  "Encoding": "fugit",
+  "Id": "eum",
+  "Disposition": "vitae",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 965
     }
   }
 }

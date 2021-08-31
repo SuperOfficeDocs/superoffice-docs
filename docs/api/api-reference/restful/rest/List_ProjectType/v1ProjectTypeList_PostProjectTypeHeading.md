@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 973,
-  "Name": "Rice Inc and Sons",
-  "Tooltip": "a",
+  "HeadingId": 946,
+  "Name": "Schinner-Champlin",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 58,
-  "UdListDefinitionId": 836
+  "Rank": 219,
+  "UdListDefinitionId": 615
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 852,
-  "Name": "Hane, Veum and Anderson",
-  "Tooltip": "enim",
+  "HeadingId": 256,
+  "Name": "Schoen, Williamson and Okuneva",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 380,
-  "UdListDefinitionId": 113,
+  "Rank": 385,
+  "UdListDefinitionId": 276,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reintermediate back-end platforms"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldLength": 630
     }
   }
 }

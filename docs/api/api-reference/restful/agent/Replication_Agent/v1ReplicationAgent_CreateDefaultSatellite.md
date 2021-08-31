@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Replication/CreateDefaultSatellite
+title: CreateDefaultSatellite
 id: v1ReplicationAgent_CreateDefaultSatellite
 ---
 
-# POST Agents/Replication/CreateDefaultSatellite
+# CreateDefaultSatellite
 
 ```http
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -73,47 +73,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 163,
-  "Created": "2012-05-06T16:48:30.4789454+02:00",
+  "SatelliteId": 271,
+  "Created": "2010-07-20T14:58:05.0294654+02:00",
   "CreatedBy": {
-    "AssociateId": 269,
-    "Name": "DuBuque-McClure",
-    "PersonId": 814,
-    "Rank": 236,
-    "Tooltip": "quod",
+    "AssociateId": 627,
+    "Name": "Gibson-Pollich",
+    "PersonId": 973,
+    "Rank": 287,
+    "Tooltip": "fuga",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 215,
-    "FullName": "Garland Herman",
-    "FormalName": "VonRueden-Daugherty",
-    "Deleted": true,
-    "EjUserId": 362,
-    "UserName": "Senger-Hilll",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 784
-      }
-    }
-  },
-  "Updated": "2004-07-19T16:48:30.4789454+02:00",
-  "UpdatedBy": {
-    "AssociateId": 171,
-    "Name": "Hauck Group",
-    "PersonId": 611,
-    "Rank": 481,
-    "Tooltip": "itaque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 669,
-    "FullName": "Yasmin Lynch",
-    "FormalName": "Glover LLC",
+    "GroupIdx": 404,
+    "FullName": "Connor Will DVM",
+    "FormalName": "Mante-Stiedemann",
     "Deleted": false,
-    "EjUserId": 799,
-    "UserName": "Cummings Group",
+    "EjUserId": 408,
+    "UserName": "Keebler LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -122,33 +96,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 198
       }
     }
   },
-  "Contact": {
-    "ContactId": 672,
-    "Name": "Harvey, Will and McLaughlin",
-    "OrgNr": "1460379",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "et",
-    "DirectPhone": "(305)883-3260",
-    "AssociateId": 801,
-    "CountryId": 214,
-    "EmailAddress": "alana_ebert@morar.com",
-    "Kananame": "ipsa",
-    "EmailAddressName": "trey@bergstrom.com",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Claire Hermiston",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "quia",
-    "FullName": "Merritt Dietrich",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 199,
+  "Updated": "2005-03-29T14:58:05.0294654+02:00",
+  "UpdatedBy": {
+    "AssociateId": 733,
+    "Name": "Dietrich LLC",
+    "PersonId": 13,
+    "Rank": 746,
+    "Tooltip": "et",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 291,
+    "FullName": "Marshall Wintheiser",
+    "FormalName": "Kuhn Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 519,
+    "UserName": "Schmidt LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -157,16 +122,51 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldLength": 448
+      }
+    }
+  },
+  "Contact": {
+    "ContactId": 863,
+    "Name": "Wolf, Zemlak and Wuckert",
+    "OrgNr": "1016740",
+    "Department": "",
+    "URL": "http://www.example.com/",
+    "City": "animi",
+    "DirectPhone": "171.472.3231 x328",
+    "AssociateId": 357,
+    "CountryId": 535,
+    "EmailAddress": "vallie@ebertbruen.com",
+    "Kananame": "nesciunt",
+    "EmailAddressName": "perry@olson.name",
+    "URLName": "http://www.example.com/",
+    "AssociateFullName": "Tara Gottlieb",
+    "BusinessName": "Information Technology",
+    "CategoryName": "VIP Customer",
+    "CountryName": "Sokovia",
+    "Address": {},
+    "FormattedAddress": "itaque",
+    "FullName": "Mr. Ezra Medhurst",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 87,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 266
       }
     }
   },
   "Area": {
-    "AreaId": 316,
-    "Name": "Leuschke, Sawayn and Weber",
-    "MaxDataAge": 656,
-    "NumberOfUsers": 316,
-    "NumberOfLogins": 804,
+    "AreaId": 421,
+    "Name": "Bashirian-Nicolas",
+    "MaxDataAge": 447,
+    "NumberOfUsers": 919,
+    "NumberOfLogins": 736,
     "FreetextEnabeled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -175,15 +175,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   },
   "LicenseOwners": [
     {
-      "Name": "Ondricka-Dickinson",
-      "Description": "Triple-buffered global utilisation",
+      "Name": "Bahringer-O'Reilly",
+      "Description": "Quality-focused motivating architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -197,16 +197,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition magnetic web services"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 165
         }
       }
     },
     {
-      "Name": "Ondricka-Dickinson",
-      "Description": "Triple-buffered global utilisation",
+      "Name": "Bahringer-O'Reilly",
+      "Description": "Quality-focused motivating architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -220,10 +220,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition magnetic web services"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 165
         }
       }
     }
@@ -239,7 +239,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 358
     }
   }
 }

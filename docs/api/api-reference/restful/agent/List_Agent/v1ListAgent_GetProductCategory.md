@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProductCategory
+title: GetProductCategory
 id: v1ListAgent_GetProductCategory
 ---
 
-# POST Agents/List/GetProductCategory
+# GetProductCategory
 
 ```http
 POST /api/v1/Agents/List/GetProductCategory
@@ -25,7 +25,7 @@ Gets a ProductCategory object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductCategory?productCategoryId=945
+POST /api/v1/Agents/List/GetProductCategory?productCategoryId=2
 POST /api/v1/Agents/List/GetProductCategory?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 297,
-  "Value": "blanditiis",
-  "Tooltip": "quo",
+  "Id": 815,
+  "Value": "maiores",
+  "Tooltip": "unde",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,10 +92,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "matrix B2B solutions"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldLength": 796
     }
   }
 }

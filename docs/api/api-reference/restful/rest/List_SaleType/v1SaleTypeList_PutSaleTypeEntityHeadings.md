@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 71,
-    "Name": "Metz, Cummerata and Goldner",
-    "Tooltip": "ipsum",
+    "HeadingId": 155,
+    "Name": "Jacobson, Gulgowski and Konopelski",
+    "Tooltip": "optio",
     "Deleted": true,
-    "Rank": 811,
-    "UdListDefinitionId": 602
+    "Rank": 974,
+    "UdListDefinitionId": 280
   },
   {
-    "HeadingId": 71,
-    "Name": "Metz, Cummerata and Goldner",
-    "Tooltip": "ipsum",
+    "HeadingId": 155,
+    "Name": "Jacobson, Gulgowski and Konopelski",
+    "Tooltip": "optio",
     "Deleted": true,
-    "Rank": 811,
-    "UdListDefinitionId": 602
+    "Rank": 974,
+    "UdListDefinitionId": 280
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 669,
-    "Name": "Veum-Hudson",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 830,
-    "UdListDefinitionId": 761,
+    "HeadingId": 384,
+    "Name": "Stanton, Ratke and Wiegand",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 754,
+    "UdListDefinitionId": 701,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "grow scalable schemas"
+          "Reason": "incubate cross-platform mindshare"
         },
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 953
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/UpdateBatchTask
+title: UpdateBatchTask
 id: v1BatchAgent_UpdateBatchTask
 ---
 
-# POST Agents/Batch/UpdateBatchTask
+# UpdateBatchTask
 
 ```http
 POST /api/v1/Agents/Batch/UpdateBatchTask
@@ -88,6 +88,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -97,34 +98,35 @@ Response body: object
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskInfo": {
-    "Id": 189,
-    "Name": "Bins, Yost and Johns",
-    "AssociateId": 98,
-    "DetailsTable": 214,
-    "DetailsRecord": 95,
+    "Id": 655,
+    "Name": "Gaylord LLC",
+    "AssociateId": 401,
+    "DetailsTable": 878,
+    "DetailsRecord": 771,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "in"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "assumenda"
     },
-    "LastStarted": "2014-10-13T16:48:28.7801984+02:00",
-    "Created": "2001-05-19T16:48:28.7801984+02:00",
-    "StartCount": 775,
-    "DatabaseSerialNumber": "1303795",
-    "Context": "quisquam",
+    "LastStarted": "2016-05-20T14:58:03.2712428+02:00",
+    "Created": "2001-06-15T14:58:03.2712428+02:00",
+    "StartCount": 513,
+    "DatabaseSerialNumber": "1017426",
+    "Context": "beatae",
     "Result": "et",
     "State": "All",
-    "Description": "Upgradable grid-enabled product",
-    "Response": "aperiam",
-    "Request": "repellendus",
-    "ProgressDescription": "Profound high-level open architecture",
-    "ProgressPercent": 932
+    "Description": "Vision-oriented bottom-line migration",
+    "Response": "consequatur",
+    "Request": "amet",
+    "ProgressDescription": "Re-contextualized intermediate secured line",
+    "ProgressPercent": 792,
+    "FileName": "Gutmann Group"
   }
 }
 ```
@@ -134,29 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Wiegand Group",
-  "AssociateId": 101,
-  "DetailsTable": 533,
-  "DetailsRecord": 406,
+  "Id": 595,
+  "Name": "Dach-Sanford",
+  "AssociateId": 49,
+  "DetailsTable": 39,
+  "DetailsRecord": 82,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sunt",
-    "ParameterObject2": "ipsa"
+    "ParameterObject1": "consectetur",
+    "ParameterObject2": "cumque"
   },
-  "LastStarted": "2004-01-30T16:48:28.7801984+01:00",
-  "Created": "2013-05-22T16:48:28.7801984+02:00",
-  "StartCount": 110,
-  "DatabaseSerialNumber": "519584",
-  "Context": "nihil",
-  "Result": "amet",
+  "LastStarted": "2006-04-20T14:58:03.2722423+02:00",
+  "Created": "1996-08-15T14:58:03.2722423+02:00",
+  "StartCount": 577,
+  "DatabaseSerialNumber": "1351553",
+  "Context": "ut",
+  "Result": "veritatis",
   "State": "All",
-  "Description": "Multi-tiered next generation collaboration",
-  "Response": "et",
-  "Request": "illum",
-  "ProgressDescription": "Fundamental cohesive success",
-  "ProgressPercent": 452,
+  "Description": "Right-sized next generation intranet",
+  "Response": "beatae",
+  "Request": "voluptas",
+  "ProgressDescription": "Integrated interactive synergy",
+  "ProgressPercent": 306,
+  "FileName": "Murazik Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldLength": 545
     }
   }
 }

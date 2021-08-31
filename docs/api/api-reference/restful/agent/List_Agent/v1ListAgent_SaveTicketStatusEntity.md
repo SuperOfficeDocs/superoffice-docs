@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveTicketStatusEntity
+title: SaveTicketStatusEntity
 id: v1ListAgent_SaveTicketStatusEntity
 ---
 
-# POST Agents/List/SaveTicketStatusEntity
+# SaveTicketStatusEntity
 
 ```http
 POST /api/v1/Agents/List/SaveTicketStatusEntity
@@ -76,15 +76,15 @@ Response body: object
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 749,
-  "Name": "Stiedemann, Stiedemann and Stroman",
+  "TicketStatusId": 609,
+  "Name": "Lynch, Mosciski and Bahringer",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false
+  "NoEmailReopen": true
 }
 ```
 
@@ -93,8 +93,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 359,
-  "Name": "Daniel LLC",
+  "TicketStatusId": 634,
+  "Name": "Schaefer, Lang and Padberg",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "utilize web-enabled paradigms"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldLength": 324
     }
   }
 }

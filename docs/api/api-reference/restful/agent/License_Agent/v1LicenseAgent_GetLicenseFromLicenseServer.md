@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetLicenseFromLicenseServer
+title: GetLicenseFromLicenseServer
 id: v1LicenseAgent_GetLicenseFromLicenseServer
 ---
 
-# POST Agents/License/GetLicenseFromLicenseServer
+# GetLicenseFromLicenseServer
 
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Quitzon Inc and Sons"
+  "OwnerName": "DuBuque, Zemlak and Wiegand"
 }
 ```
 
@@ -90,67 +90,67 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": {
-    "CompanyName": "Keeling-Jaskolski",
+    "CompanyName": "Weissnat-Hahn",
     "SerialNr": "1010000006",
-    "OwnerName": "Dickinson LLC",
-    "OwnerDescription": "Managed secondary task-force",
-    "NextCheckDate": "2001-12-10T16:48:29.7299247+01:00",
-    "MaintenanceDate": "2008-04-11T16:48:29.7299247+02:00",
-    "AdminWarningDate": "2016-10-21T16:48:29.7299247+02:00",
-    "ExpiryDate": "2012-06-26T16:48:29.7299247+02:00",
-    "GraceDate": "2004-05-19T16:48:29.7299247+02:00",
-    "ExtraFlags": 207,
-    "ExtraInfo": "cum",
+    "OwnerName": "Boyle Group",
+    "OwnerDescription": "Right-sized static alliance",
+    "NextCheckDate": "1995-10-30T14:58:04.3244317+01:00",
+    "MaintenanceDate": "2004-12-22T14:58:04.3244317+01:00",
+    "AdminWarningDate": "2011-01-09T14:58:04.3244317+01:00",
+    "ExpiryDate": "1998-01-08T14:58:04.3244317+01:00",
+    "GraceDate": "2007-01-27T14:58:04.3244317+01:00",
+    "ExtraFlags": 468,
+    "ExtraInfo": "occaecati",
     "LicenseUrl": "http://www.example.com/",
     "LicenseVersion": "sunt",
-    "DeploymentType": 10,
-    "ProductType": "quisquam",
-    "ProductDescription": "Sharable dedicated workforce",
+    "DeploymentType": 982,
+    "ProductType": "est",
+    "ProductDescription": "Inverse discrete system engine",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "maxime"
+    "Signature": "omnis"
   },
   "Current": {
-    "CompanyName": "Hodkiewicz, Rau and Kshlerin",
+    "CompanyName": "Dare, Murphy and Morar",
     "SerialNr": "1010000006",
-    "OwnerName": "Sawayn, Corwin and Schaefer",
-    "OwnerDescription": "Re-engineered grid-enabled website",
-    "NextCheckDate": "2006-09-20T16:48:29.7309241+02:00",
-    "MaintenanceDate": "2007-01-04T16:48:29.7309241+01:00",
-    "AdminWarningDate": "2018-11-04T16:48:29.7309241+01:00",
-    "ExpiryDate": "1994-07-12T16:48:29.7309241+02:00",
-    "GraceDate": "2014-10-20T16:48:29.7309241+02:00",
-    "ExtraFlags": 329,
-    "ExtraInfo": "alias",
+    "OwnerName": "Zboncak Group",
+    "OwnerDescription": "Advanced value-added intranet",
+    "NextCheckDate": "2018-02-18T14:58:04.3244317+01:00",
+    "MaintenanceDate": "1994-08-13T14:58:04.3244317+02:00",
+    "AdminWarningDate": "2006-07-15T14:58:04.3244317+02:00",
+    "ExpiryDate": "2018-08-07T14:58:04.3244317+02:00",
+    "GraceDate": "2014-04-07T14:58:04.3244317+02:00",
+    "ExtraFlags": 413,
+    "ExtraInfo": "possimus",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "quia",
-    "DeploymentType": 809,
-    "ProductType": "non",
-    "ProductDescription": "Grass-roots well-modulated success",
+    "LicenseVersion": "aliquid",
+    "DeploymentType": 875,
+    "ProductType": "tenetur",
+    "ProductDescription": "Future-proofed transitional methodology",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "est"
+    "Signature": "quisquam"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 623,
-      "NumberOfLicensesFree": 156,
-      "NumberOfLicensesAdded": 184,
-      "NumberOfLicensesNewTotal": 147,
-      "NumberOfLicensesNewFree": 800,
-      "NumberOfLicensesTotal": 432
+      "NumberOfLicensesInUse": 858,
+      "NumberOfLicensesFree": 532,
+      "NumberOfLicensesAdded": 23,
+      "NumberOfLicensesNewTotal": 340,
+      "NumberOfLicensesNewFree": 678,
+      "NumberOfLicensesTotal": 954
     }
   ],
-  "AccumulatedNextCheckDate": "2009-04-27T16:48:29.7309241+02:00"
+  "AccumulatedNextCheckDate": "1995-08-07T14:58:04.3244317+02:00"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPersonAppointmentsByTask
+title: GetPersonAppointmentsByTask
 id: v1AppointmentAgent_GetPersonAppointmentsByTask
 ---
 
-# POST Agents/Appointment/GetPersonAppointmentsByTask
+# GetPersonAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
@@ -126,16 +126,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 543,
-  "IncludeProjectAppointments": true,
-  "StartTime": "1999-04-02T16:48:28.4504494+02:00",
-  "EndTime": "2020-01-14T16:48:28.4504494+01:00",
-  "Count": 327,
-  "TaskId": 283
+  "PersonId": 627,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2020-01-26T14:58:02.845574+01:00",
+  "EndTime": "2010-05-28T14:58:02.845574+02:00",
+  "Count": 824,
+  "TaskId": 194
 }
 ```
 
@@ -145,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 957,
-    "StartDate": "2009-12-20T16:48:28.4514486+01:00",
-    "EndDate": "2017-09-01T16:48:28.4514486+02:00",
+    "AppointmentId": 624,
+    "StartDate": "2003-04-22T14:58:02.8465764+02:00",
+    "EndDate": "1994-05-08T14:58:02.8465764+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Neal King",
-    "ContactName": "Kirlin-Kozey",
-    "Description": "Exclusive object-oriented capability",
-    "PersonFullName": "Lurline Bartoletti",
-    "PersonId": 758,
-    "ContactId": 614,
-    "ProjectId": 12,
-    "ProjectName": "Morissette LLC",
-    "IsPublished": false,
-    "AssociateId": 200,
-    "ColorIndex": 604,
+    "Task": "non",
+    "AssociateFullName": "Leila Runolfsson",
+    "ContactName": "Wilkinson-Walker",
+    "Description": "Universal bandwidth-monitored implementation",
+    "PersonFullName": "Cory Hirthe",
+    "PersonId": 617,
+    "ContactId": 973,
+    "ProjectId": 739,
+    "ProjectName": "Cummings, Harvey and Langosh",
+    "IsPublished": true,
+    "AssociateId": 159,
+    "ColorIndex": 293,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 250,
-    "PriorityName": "Borer-Kirlin",
+    "PriorityId": 733,
+    "PriorityName": "Wilderman, Spencer and Ernser",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2006-08-19T16:48:28.4524512+02:00",
+    "ActiveDate": "2014-11-28T14:58:02.847573+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-11-05T16:48:28.4524512+01:00",
-    "RecurringEndDate": "2009-02-06T16:48:28.4524512+01:00",
-    "MotherId": 303,
-    "AssignedBy": 246,
-    "AssignedByFullName": "Stephany Runolfsson",
+    "RecurringStartDate": "2011-12-12T14:58:02.847573+01:00",
+    "RecurringEndDate": "2008-04-04T14:58:02.847573+02:00",
+    "MotherId": 490,
+    "AssignedBy": 301,
+    "AssignedByFullName": "Dora Streich",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "autem",
-    "SaleId": 465,
-    "SaleName": "Schmidt, Quigley and Pagac",
-    "AssociateName": "Gusikowski-Rice",
-    "CreatedDate": "2015-08-29T16:48:28.4524512+02:00",
-    "CreatedBy": "nesciunt",
-    "CreatedByFullName": "Iliana Pollich",
-    "CreatedByAssociateId": 646,
+    "Location": "quas",
+    "AlarmLeadTime": "culpa",
+    "SaleId": 687,
+    "SaleName": "Dibbert-Torphy",
+    "AssociateName": "Willms-Shields",
+    "CreatedDate": "2016-06-06T14:58:02.847573+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Anne Auer",
+    "CreatedByAssociateId": 300,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldLength": 912
       }
     }
   }

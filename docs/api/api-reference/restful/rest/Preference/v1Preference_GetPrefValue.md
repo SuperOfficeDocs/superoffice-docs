@@ -83,10 +83,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "veritatis",
+  "RawValue": "hic",
   "Specification": {
-    "Section": "qui",
-    "Key": "aut",
+    "Section": "debitis",
+    "Key": "mollitia",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -94,35 +94,35 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   },
-  "DisplayValue": "itaque",
-  "DisplayTooltip": "doloribus",
+  "DisplayValue": "ab",
+  "DisplayTooltip": "error",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 361,
-    "TabName": "Runolfsdottir LLC",
-    "Order": "nobis",
-    "AssociateId": 276,
+    "TabOrderId": 384,
+    "TabName": "Gaylord LLC",
+    "Order": "distinctio",
+    "AssociateId": 565,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "productize frictionless schemas"
         },
         "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldLength": 619
       }
     }
   },
-  "TargetId": 697,
-  "PrefDescId": 160,
-  "TableName": "Kuhic-Kemmer",
-  "UserPreferenceId": 247,
+  "TargetId": 461,
+  "PrefDescId": 38,
+  "TableName": "Swaniawski, Keeling and Stracke",
+  "UserPreferenceId": 903,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldLength": 478
     }
   }
 }

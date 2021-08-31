@@ -24,7 +24,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Rodriguez-Maggio",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 412,
-    "Rank": 785,
+    "Id": 231,
+    "Name": "Brakus-Goyette",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "UdListDefinitionId": 925,
+    "Rank": 275,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 695
       }
     }
   }

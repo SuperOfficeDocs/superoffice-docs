@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/SetChosenEntities
+title: SetChosenEntities
 id: v1ArchiveAgent_SetChosenEntities
 ---
 
-# POST Agents/Archive/SetChosenEntities
+# SetChosenEntities
 
 ```http
 POST /api/v1/Agents/Archive/SetChosenEntities

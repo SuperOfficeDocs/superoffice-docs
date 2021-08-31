@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/InitializeTimeZoneData
+title: InitializeTimeZoneData
 id: v1TimeZoneAgent_InitializeTimeZoneData
 ---
 
-# POST Agents/TimeZone/InitializeTimeZoneData
+# InitializeTimeZoneData
 
 ```http
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,31 +77,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 992,
-    "Name": "Gerhold, Lueilwitz and Sporer",
+    "TZLocationID": 245,
+    "Name": "McDermott, Rolfson and Hilpert",
     "TZLocationCode": "sit",
-    "TZLocationCities": "libero",
-    "IsoNumber": 510,
+    "TZLocationCities": "omnis",
+    "IsoNumber": 115,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 329,
-        "StartMonth": 539,
-        "EndDay": 621,
-        "EndMonth": 964,
-        "TZOffset": 715,
-        "StartRulePattern": "exercitationem",
-        "EndRulePattern": "optio"
+        "StartDay": 736,
+        "StartMonth": 771,
+        "EndDay": 895,
+        "EndMonth": 613,
+        "TZOffset": 475,
+        "StartRulePattern": "omnis",
+        "EndRulePattern": "et"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 986,
-        "StartMonth": 838,
-        "EndDay": 747,
-        "EndMonth": 777,
-        "TZOffset": 84,
-        "StartRulePattern": "velit",
-        "EndRulePattern": "dignissimos"
+        "StartDay": 537,
+        "StartMonth": 173,
+        "EndDay": 608,
+        "EndMonth": 943,
+        "TZOffset": 364,
+        "StartRulePattern": "facilis",
+        "EndRulePattern": "quo"
       }
     }
   }

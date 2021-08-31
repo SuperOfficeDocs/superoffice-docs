@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Schaden LLC",
-  "Tooltip": "aperiam",
+  "Id": 834,
+  "Name": "Bins LLC",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "UdListDefinitionId": 44,
-  "Rank": 584,
+  "UdListDefinitionId": 955,
+  "Rank": 664,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

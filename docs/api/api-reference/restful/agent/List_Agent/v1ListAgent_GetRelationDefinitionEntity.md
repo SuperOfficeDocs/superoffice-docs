@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetRelationDefinitionEntity
+title: GetRelationDefinitionEntity
 id: v1ListAgent_GetRelationDefinitionEntity
 ---
 
-# POST Agents/List/GetRelationDefinitionEntity
+# GetRelationDefinitionEntity
 
 ```http
 POST /api/v1/Agents/List/GetRelationDefinitionEntity
@@ -25,7 +25,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=848
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=105
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -86,12 +86,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 448,
-  "Name": "Davis, Bogisich and Kirlin",
-  "Tooltip": "laboriosam",
-  "PassiveText": "neque",
-  "Deleted": true,
-  "Rank": 632,
+  "ReldefId": 602,
+  "Name": "Denesik-Robel",
+  "Tooltip": "impedit",
+  "PassiveText": "vel",
+  "Deleted": false,
+  "Rank": 713,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 40
     }
   }
 }

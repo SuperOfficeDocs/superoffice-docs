@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetNextMilestone
+title: GetNextMilestone
 id: v1ProjectAgent_GetNextMilestone
 ---
 
-# POST Agents/Project/GetNextMilestone
+# GetNextMilestone
 
 ```http
 POST /api/v1/Agents/Project/GetNextMilestone
@@ -126,11 +126,11 @@ Response body: object
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 10
+  "ProjectId": 305
 }
 ```
 
@@ -139,53 +139,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 118,
-  "StartDate": "2006-07-20T16:48:30.3549338+02:00",
-  "EndDate": "2008-05-02T16:48:30.3549338+02:00",
+  "AppointmentId": 944,
+  "StartDate": "2011-05-15T14:58:04.9164678+02:00",
+  "EndDate": "2000-04-06T14:58:04.9164678+02:00",
   "Type": "BookingForChecklist",
-  "Task": "doloremque",
-  "AssociateFullName": "Elyssa Kiehn",
-  "ContactName": "McDermott-Hoeger",
-  "Description": "Devolved high-level archive",
-  "PersonFullName": "Marian Rowe",
-  "PersonId": 362,
-  "ContactId": 648,
-  "ProjectId": 405,
-  "ProjectName": "Macejkovic-Ullrich",
-  "IsPublished": true,
-  "AssociateId": 207,
-  "ColorIndex": 442,
-  "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "Task": "et",
+  "AssociateFullName": "Dr. Rossie Blick",
+  "ContactName": "Ledner Group",
+  "Description": "Upgradable reciprocal internet solution",
+  "PersonFullName": "Alena Welch",
+  "PersonId": 58,
+  "ContactId": 397,
+  "ProjectId": 308,
+  "ProjectName": "Anderson Group",
+  "IsPublished": false,
+  "AssociateId": 109,
+  "ColorIndex": 540,
+  "IsFree": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 350,
-  "PriorityName": "Johns LLC",
+  "PriorityId": 306,
+  "PriorityName": "Nienow, Emard and Huels",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2000-04-22T16:48:30.3549338+02:00",
+  "ActiveDate": "2014-08-04T14:58:04.9174652+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1997-03-29T16:48:30.3549338+01:00",
-  "RecurringEndDate": "2010-01-20T16:48:30.3549338+01:00",
-  "MotherId": 739,
-  "AssignedBy": 336,
-  "AssignedByFullName": "Savanah Breitenberg",
+  "RecurringStartDate": "2010-12-16T14:58:04.9174652+01:00",
+  "RecurringEndDate": "2003-03-03T14:58:04.9174652+01:00",
+  "MotherId": 631,
+  "AssignedBy": 617,
+  "AssignedByFullName": "Leo Prohaska",
   "RejectReason": "",
-  "Location": "sed",
-  "AlarmLeadTime": "aut",
-  "SaleId": 567,
-  "SaleName": "Koepp LLC",
-  "AssociateName": "Frami-Robel",
-  "CreatedDate": "2015-01-02T16:48:30.3559338+01:00",
-  "CreatedBy": "nesciunt",
-  "CreatedByFullName": "Bethel Kautzer",
-  "CreatedByAssociateId": 155,
+  "Location": "ad",
+  "AlarmLeadTime": "ut",
+  "SaleId": 219,
+  "SaleName": "Langworth, Powlowski and Ernser",
+  "AssociateName": "Gutkowski, Erdman and VonRueden",
+  "CreatedDate": "2013-07-19T14:58:04.9174652+02:00",
+  "CreatedBy": "eos",
+  "CreatedByFullName": "Anjali Beier",
+  "CreatedByAssociateId": 124,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -196,10 +196,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "innovate synergistic applications"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 15
     }
   }
 }

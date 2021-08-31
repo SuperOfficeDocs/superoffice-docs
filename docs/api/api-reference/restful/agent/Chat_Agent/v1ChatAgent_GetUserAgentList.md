@@ -1,15 +1,15 @@
 ---
-title: POST Agents/Chat/GetUserAgentList
+title: GetUserAgentList
 id: v1ChatAgent_GetUserAgentList
 ---
 
-# POST Agents/Chat/GetUserAgentList
+# GetUserAgentList
 
 ```http
 POST /api/v1/Agents/Chat/GetUserAgentList
 ```
 
-Get list of users that can be assigned to topics.
+Get list of users that can be assigned to chat topics.
 
 Users with Chat-CALs from the MDO list 'chatuser'
 
@@ -85,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": false
+  "Flat": false,
+  "OnlyPresent": true
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Walker-Huel",
-    "ToolTip": "Dolore tenetur debitis sint eos ad.",
-    "Deleted": true,
-    "Rank": 844,
-    "Type": "pariatur",
+    "Id": 937,
+    "Name": "Corkery Inc and Sons",
+    "ToolTip": "At aliquid voluptates rem suscipit expedita modi.",
+    "Deleted": false,
+    "Rank": 683,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Glover Group",
-        "ToolTip": "Deleniti aliquam.",
+        "Id": 604,
+        "Name": "Kub LLC",
+        "ToolTip": "Ipsum quod modi eius.",
         "Deleted": false,
-        "Rank": 497,
-        "Type": "eaque",
+        "Rank": 917,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 89,
-        "ExtraInfo": "qui",
-        "StyleHint": "labore",
-        "FullName": "Marilyne Boehm",
+        "IconHint": "cupiditate",
+        "ColorBlock": 824,
+        "ExtraInfo": "est",
+        "StyleHint": "corporis",
+        "FullName": "Daron Mertz",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,17 +130,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldType": "System.String",
+            "FieldLength": 320
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 149,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "sapiente",
-    "FullName": "Bert Bauch",
+    "IconHint": "ab",
+    "ColorBlock": 172,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "totam",
+    "FullName": "Ms. Berta Becker",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 964
       }
     }
   }

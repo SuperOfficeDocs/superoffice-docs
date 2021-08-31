@@ -2,6 +2,8 @@
 title: DatabaseTable_Agent
 ---
 
+# DatabaseTable_Agent
+
 ```http
 /api/v1/DatabaseTable/Agent
 ```
@@ -9,18 +11,18 @@ title: DatabaseTable_Agent
 
 
 
-* [POST Agents/DatabaseTable/ReadRow](v1DatabaseTableAgent_ReadRow.md)
+* [ReadRow](v1DatabaseTableAgent_ReadRow.md)
 
-* [POST Agents/DatabaseTable/InsertRow](v1DatabaseTableAgent_InsertRow.md)
+* [InsertRow](v1DatabaseTableAgent_InsertRow.md)
 
-* [POST Agents/DatabaseTable/UpdateRow](v1DatabaseTableAgent_UpdateRow.md)
+* [UpdateRow](v1DatabaseTableAgent_UpdateRow.md)
 
-* [POST Agents/DatabaseTable/DeleteRow](v1DatabaseTableAgent_DeleteRow.md)
+* [DeleteRow](v1DatabaseTableAgent_DeleteRow.md)
 
-* [POST Agents/DatabaseTable/Insert](v1DatabaseTableAgent_Insert.md)
+* [Insert](v1DatabaseTableAgent_Insert.md)
 
-* [POST Agents/DatabaseTable/Truncate](v1DatabaseTableAgent_Truncate.md)
+* [Truncate](v1DatabaseTableAgent_Truncate.md)
 
-* [POST Agents/DatabaseTable/Upsert](v1DatabaseTableAgent_Upsert.md)
+* [Upsert](v1DatabaseTableAgent_Upsert.md)
 
-* [POST Agents/DatabaseTable/Delete](v1DatabaseTableAgent_Delete.md)
+* [Delete](v1DatabaseTableAgent_Delete.md)

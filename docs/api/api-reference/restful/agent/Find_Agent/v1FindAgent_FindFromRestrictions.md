@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictions
+title: FindFromRestrictions
 id: v1FindAgent_FindFromRestrictions
 ---
 
-# POST Agents/Find/FindFromRestrictions
+# FindFromRestrictions
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions
@@ -15,83 +15,26 @@ The criteria for the Find are passed in directly, not fetched by a restriction s
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -172,15 +115,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Nikolaus-Cole",
-      "Operator": "molestiae",
+      "Name": "Stroman, Fisher and Quigley",
+      "Operator": "qui",
       "Values": [
-        "voluptatem",
-        "placeat"
+        "enim",
+        "voluptates"
       ],
       "DisplayValues": [
-        "omnis",
-        "occaecati"
+        "quis",
+        "ad"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -188,14 +131,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 601,
+      "InterParenthesis": 716,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 971
     }
   ],
-  "ProviderName": "Shanahan Group",
-  "PageSize": 5,
-  "PageNumber": 953
+  "ProviderName": "Mohr LLC",
+  "PageSize": 228,
+  "PageNumber": 932
 }
 ```
 
@@ -206,34 +149,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hyatt LLC",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "accusantium",
-      "CanOrderBy": false,
-      "Name": "Daniel-Labadie",
-      "CanRestrictBy": true,
-      "RestrictionType": "libero",
-      "RestrictionListName": "Borer-Pouros",
+      "DisplayName": "Feest-Rodriguez",
+      "DisplayTooltip": "quia",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Ratke, Langworth and Senger",
+      "CanRestrictBy": false,
+      "RestrictionType": "fuga",
+      "RestrictionListName": "Jakubowski Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "explicabo",
-      "Width": "sequi",
-      "IconHint": "doloribus",
-      "HeadingIconHint": "optio"
+      "ExtraInfo": "voluptatem",
+      "Width": "et",
+      "IconHint": "sit",
+      "HeadingIconHint": "dolor"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rempel-Medhurst",
-      "PrimaryKey": 370,
+      "EntityName": "Gerlach, Bailey and Marks",
+      "PrimaryKey": 86,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "debitis",
-          "LinkHint": "quo"
+          "DisplayValue": "possimus",
+          "TooltipHint": "numquam",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "enim",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "sit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -241,13 +184,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
   ],
-  "RowCount": 164,
+  "RowCount": 108,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -256,10 +199,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "maximize holistic deliverables"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 486
     }
   }
 }

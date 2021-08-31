@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Cole-Gutmann",
-    "ToolTip": "Eum dicta.",
+    "Id": 812,
+    "Name": "Wolff Group",
+    "ToolTip": "Corrupti velit recusandae.",
     "Deleted": true,
-    "Rank": 994,
-    "Type": "aliquid",
-    "ColorBlock": 86,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2008-12-11T09:41:00.2853745+01:00",
+    "Rank": 44,
+    "Type": "et",
+    "ColorBlock": 584,
+    "IconHint": "magni",
+    "Selected": true,
+    "LastChanged": "2005-08-28T15:05:43.3575129+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Schultz-Price",
-        "ToolTip": "Eum vel voluptatem.",
-        "Deleted": false,
-        "Rank": 293,
-        "Type": "eaque",
-        "ColorBlock": 305,
-        "IconHint": "aliquam",
+        "Id": 266,
+        "Name": "Dare Group",
+        "ToolTip": "Neque rerum.",
+        "Deleted": true,
+        "Rank": 518,
+        "Type": "libero",
+        "ColorBlock": 663,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2014-04-15T09:41:00.2863708+02:00",
+        "LastChanged": "1998-12-28T15:05:43.3575129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "rerum",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Marcelina Ernser PhD",
+        "FullName": "Wade Morar",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "expedite distributed platforms"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 969
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "est",
+    "ExtraInfo": "labore",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Henderson Pagac",
+    "FullName": "Elyse Hane",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 771
       }
     }
   }

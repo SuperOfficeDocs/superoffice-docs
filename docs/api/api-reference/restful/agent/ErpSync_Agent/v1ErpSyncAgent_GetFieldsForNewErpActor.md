@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetFieldsForNewErpActor
+title: GetFieldsForNewErpActor
 id: v1ErpSyncAgent_GetFieldsForNewErpActor
 ---
 
-# POST Agents/ErpSync/GetFieldsForNewErpActor
+# GetFieldsForNewErpActor
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
@@ -85,11 +85,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 934,
+  "ErpConnectionId": 670,
   "ErpActorType": "Customer"
 }
 ```
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "delectus",
-    "Rank": 873,
-    "DisplayName": "Kunze LLC",
-    "DisplayDescription": "Networked client-server customer loyalty",
+    "FieldKey": "quia",
+    "Rank": 246,
+    "DisplayName": "Harvey LLC",
+    "DisplayDescription": "Automated secondary architecture",
     "FieldType": "Checkbox",
-    "ListName": "Schowalter-Nicolas",
-    "DefaultValue": "consequatur",
-    "MaxLength": 376,
+    "ListName": "King-Nienow",
+    "DefaultValue": "esse",
+    "MaxLength": 296,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldType": "System.Int32",
+        "FieldLength": 422
       }
     }
   }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Abbott-Sipes",
-    "ToolTip": "Nulla quo repellendus iusto officia eum quos.",
-    "Deleted": false,
-    "Rank": 379,
-    "Type": "dignissimos",
-    "ColorBlock": 946,
-    "IconHint": "quia",
+    "Id": 904,
+    "Name": "Schmidt, Feest and Christiansen",
+    "ToolTip": "Voluptatum dolore cumque eos ut.",
+    "Deleted": true,
+    "Rank": 504,
+    "Type": "dolor",
+    "ColorBlock": 180,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2002-03-02T09:41:00.5123822+01:00",
+    "LastChanged": "2001-02-25T15:05:43.5810796+01:00",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Cremin, Tillman and Bogisich",
-        "ToolTip": "Architecto aut minus at.",
+        "Id": 904,
+        "Name": "Cummerata, Powlowski and Grant",
+        "ToolTip": "Dignissimos ea ea.",
         "Deleted": false,
-        "Rank": 97,
-        "Type": "et",
-        "ColorBlock": 222,
-        "IconHint": "quos",
+        "Rank": 183,
+        "Type": "ea",
+        "ColorBlock": 394,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2004-09-12T09:41:00.5133818+02:00",
+        "LastChanged": "2019-10-07T15:05:43.5810796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "quod",
-        "Hidden": true,
-        "FullName": "Lyda Swaniawski"
+        "ExtraInfo": "ut",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Brady Cartwright"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "rerum",
+    "ExtraInfo": "eos",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Xzavier Weissnat PhD"
+    "FullName": "Conrad Johns"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Bernier LLC",
-    "ToolTip": "Vitae ut quo ipsum qui sit alias.",
-    "Deleted": true,
-    "Rank": 382,
-    "Type": "quos",
-    "ColorBlock": 824,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2006-03-13T09:41:00.5143824+01:00",
+    "Id": 180,
+    "Name": "Cassin-Hettinger",
+    "ToolTip": "Aperiam dolorem laboriosam qui aut.",
+    "Deleted": false,
+    "Rank": 120,
+    "Type": "sed",
+    "ColorBlock": 655,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1994-05-01T15:05:43.5820793+02:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Kuphal-Dicki",
-        "ToolTip": "Impedit minima nihil pariatur sint dolore voluptatum.",
+        "Id": 83,
+        "Name": "Leffler Group",
+        "ToolTip": "Minima et maiores ut deserunt eos accusamus.",
         "Deleted": false,
-        "Rank": 678,
-        "Type": "perferendis",
-        "ColorBlock": 810,
-        "IconHint": "optio",
+        "Rank": 897,
+        "Type": "consectetur",
+        "ColorBlock": 894,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2005-08-17T09:41:00.5143824+02:00",
+        "LastChanged": "1997-04-28T15:05:43.5820793+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Jaida Predovic",
+        "ExtraInfo": "amet",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Dr. Esperanza Cassin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "similique",
+    "ExtraInfo": "impedit",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Mrs. Anna Collier",
+    "FullName": "Miss Amber Krajcik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 411
       }
     }
   }

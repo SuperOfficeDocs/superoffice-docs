@@ -63,7 +63,7 @@ Response body: object
 GET /api/v1/Document/{documentId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -71,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "assumenda",
-  "2": "ea"
+  "1": "consequatur",
+  "2": "qui"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/AddForeignKey
+title: AddForeignKey
 id: v1ForeignSystemAgent_AddForeignKey
 ---
 
-# POST Agents/ForeignSystem/AddForeignKey
+# AddForeignKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": {
-    "Key": "ipsum",
-    "Value": "sit",
-    "RecordId": 801,
-    "CreatedDate": "1996-04-12T16:48:29.7129241+02:00",
-    "UpdatedDate": "2009-02-20T16:48:29.7129241+01:00",
-    "UpdatedBy": "enim",
-    "CreatedBy": "debitis",
-    "TableName": "Lemke, Friesen and VonRueden"
+    "Key": "est",
+    "Value": "incidunt",
+    "RecordId": 210,
+    "CreatedDate": "2009-08-05T14:58:04.3074343+02:00",
+    "UpdatedDate": "2016-12-01T14:58:04.3074343+01:00",
+    "UpdatedBy": "quia",
+    "CreatedBy": "facere",
+    "TableName": "Corwin, Stark and Gleichner"
   },
-  "ApplicationName": "Runolfsson Group",
-  "DeviceName": "Mraz Group",
-  "DeviceIdentifier": "non"
+  "ApplicationName": "Feest Group",
+  "DeviceName": "Aufderhar-Ullrich",
+  "DeviceIdentifier": "distinctio"
 }
 ```
 
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "veritatis",
-  "Value": "sint",
-  "RecordId": 826,
-  "CreatedDate": "1998-09-25T16:48:29.7129241+02:00",
-  "UpdatedDate": "2001-04-07T16:48:29.7129241+02:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "dolorum",
-  "TableName": "Nolan-Bogisich",
+  "Key": "deleniti",
+  "Value": "itaque",
+  "RecordId": 584,
+  "CreatedDate": "2013-01-13T14:58:04.3074343+01:00",
+  "UpdatedDate": "2006-02-12T14:58:04.3074343+01:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "sed",
+  "TableName": "Tillman, Buckridge and Herman",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldLength": 906
     }
   }
 }

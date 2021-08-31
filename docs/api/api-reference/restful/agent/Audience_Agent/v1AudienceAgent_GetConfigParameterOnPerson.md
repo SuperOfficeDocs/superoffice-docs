@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParameterOnPerson
+title: GetConfigParameterOnPerson
 id: v1AudienceAgent_GetConfigParameterOnPerson
 ---
 
-# POST Agents/Audience/GetConfigParameterOnPerson
+# GetConfigParameterOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
@@ -85,12 +85,12 @@ Response body: object
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Barton LLC",
-  "PersonId": 784
+  "ParameterName": "Hauck Group",
+  "PersonId": 377
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 71,
-  "Name": "Wilkinson-Marquardt",
-  "Value": "repudiandae",
-  "CreatedDate": "2007-09-06T16:48:28.7671985+02:00",
-  "UpdatedDate": "2018-04-04T16:48:28.7671985+02:00",
-  "CreatedBy": "harum",
-  "UpdatedBy": "est",
+  "AudienceLayoutId": 549,
+  "Name": "Jakubowski Group",
+  "Value": "labore",
+  "CreatedDate": "1996-10-19T14:58:03.2592353+02:00",
+  "UpdatedDate": "2011-04-21T14:58:03.2592353+02:00",
+  "CreatedBy": "possimus",
+  "UpdatedBy": "quidem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 796
     }
   }
 }

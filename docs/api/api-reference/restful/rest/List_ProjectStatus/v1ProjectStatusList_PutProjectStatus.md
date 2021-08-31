@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Hoppe, Littel and Purdy",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "UdListDefinitionId": 231,
-  "Rank": 7
+  "Id": 761,
+  "Name": "Treutel Group",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "UdListDefinitionId": 601,
+  "Rank": 378
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 68,
-  "Rank": 110,
+  "Id": 412,
+  "Name": "Kovacek-Hamill",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 981,
+  "Rank": 11,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synergize killer niches"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "revolutionize virtual markets"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

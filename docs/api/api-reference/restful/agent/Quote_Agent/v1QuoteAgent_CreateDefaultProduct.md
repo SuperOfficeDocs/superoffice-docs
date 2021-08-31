@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateDefaultProduct
+title: CreateDefaultProduct
 id: v1QuoteAgent_CreateDefaultProduct
 ---
 
-# POST Agents/Quote/CreateDefaultProduct
+# CreateDefaultProduct
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultProduct
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 166,
-  "ERPProductKey": "perferendis",
-  "ERPPriceListKey": "vero",
-  "Name": "Stehr LLC",
-  "Description": "Switchable next generation paradigm",
-  "Code": "autem",
-  "PriceUnit": "quis",
-  "QuantityUnit": "dolore",
+  "ProductId": 169,
+  "ERPProductKey": "maiores",
+  "ERPPriceListKey": "cum",
+  "Name": "Volkman, Jacobi and Baumbach",
+  "Description": "Reduced didactic pricing structure",
+  "Code": "laborum",
+  "PriceUnit": "accusamus",
+  "QuantityUnit": "culpa",
   "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 23495.597999999998,
-  "ItemNumber": "485760",
+  "SubscriptionUnit": "architecto",
+  "DefaultSubscriptionQuantity": 16027.276,
+  "ItemNumber": "1286466",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "ipsa",
-  "VAT": 23937.492,
-  "VATInfo": "est",
-  "UnitCost": 6214.722,
-  "UnitMinimumPrice": 27488.314,
-  "UnitListPrice": 24291.634,
-  "InAssortment": true,
-  "Supplier": "adipisci",
-  "SupplierCode": "quae",
-  "Rights": "in",
-  "Rule": "ut",
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "numquam",
+  "VAT": 2247.078,
+  "VATInfo": "inventore",
+  "UnitCost": 21712.352,
+  "UnitMinimumPrice": 21599.528,
+  "UnitListPrice": 5330.934,
+  "InAssortment": false,
+  "Supplier": "est",
+  "SupplierCode": "nesciunt",
+  "Rights": "soluta",
+  "Rule": "culpa",
   "ExtraInfo": [
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Prohaska, Runte and Borer",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 606
         }
       }
     },
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Prohaska, Runte and Borer",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -155,18 +155,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 606
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "qui",
-  "ExtraField2": "hic",
-  "ExtraField3": "consectetur",
-  "ExtraField4": "sunt",
-  "ExtraField5": "architecto",
-  "InStock": 15836.101999999999,
+  "RawExtraInfo": "expedita",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "dolore",
+  "ExtraField3": "cumque",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "in",
+  "InStock": 2071.574,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -175,10 +175,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "engage killer models"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   }
 }

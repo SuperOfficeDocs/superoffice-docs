@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Pocket/GetPocketStartupData
+title: GetPocketStartupData
 id: v1PocketAgent_GetPocketStartupData
 ---
 
-# POST Agents/Pocket/GetPocketStartupData
+# GetPocketStartupData
 
 ```http
 POST /api/v1/Agents/Pocket/GetPocketStartupData
@@ -87,15 +87,15 @@ Response body: object
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "atque",
-    "eaque"
+    "possimus",
+    "sint"
   ],
-  "CurrentClientTime": "1995-07-16T16:48:30.2259345+02:00"
+  "CurrentClientTime": "1998-11-16T14:58:04.8244624+01:00"
 }
 ```
 
@@ -105,79 +105,79 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "voluptatem",
-    "quos"
+    "repellat",
+    "quo"
   ],
   "PhoneLocaleTimeZoneData": {
-    "TZLocationID": 845,
-    "Name": "Barrows, Gerhold and Sauer",
-    "TZLocationCode": "qui",
-    "TZLocationCities": "voluptas",
-    "IsoNumber": 72,
+    "TZLocationID": 654,
+    "Name": "Crona Inc and Sons",
+    "TZLocationCode": "officia",
+    "TZLocationCities": "ipsum",
+    "IsoNumber": 735,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 579,
-        "StartMonth": 971,
-        "EndDay": 468,
-        "EndMonth": 876,
-        "TZOffset": 156,
-        "StartRulePattern": "neque",
-        "EndRulePattern": "dolor"
+        "StartDay": 985,
+        "StartMonth": 3,
+        "EndDay": 937,
+        "EndMonth": 827,
+        "TZOffset": 55,
+        "StartRulePattern": "architecto",
+        "EndRulePattern": "hic"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
         "StartDay": 316,
-        "StartMonth": 880,
-        "EndDay": 996,
-        "EndMonth": 873,
-        "TZOffset": 617,
-        "StartRulePattern": "et",
-        "EndRulePattern": "omnis"
+        "StartMonth": 482,
+        "EndDay": 185,
+        "EndMonth": 122,
+        "TZOffset": 394,
+        "StartRulePattern": "facere",
+        "EndRulePattern": "aliquam"
       }
     }
   },
   "BaseLocaleTimeZoneData": {
-    "TZLocationID": 721,
-    "Name": "Fadel Group",
-    "TZLocationCode": "excepturi",
-    "TZLocationCities": "modi",
-    "IsoNumber": 73,
+    "TZLocationID": 957,
+    "Name": "Upton, Wolf and Tillman",
+    "TZLocationCode": "placeat",
+    "TZLocationCities": "ea",
+    "IsoNumber": 84,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 822,
-        "StartMonth": 855,
-        "EndDay": 890,
-        "EndMonth": 706,
-        "TZOffset": 993,
-        "StartRulePattern": "accusamus",
-        "EndRulePattern": "dolores"
+        "StartDay": 334,
+        "StartMonth": 521,
+        "EndDay": 889,
+        "EndMonth": 806,
+        "TZOffset": 896,
+        "StartRulePattern": "sint",
+        "EndRulePattern": "aspernatur"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 303,
-        "StartMonth": 879,
-        "EndDay": 242,
-        "EndMonth": 370,
-        "TZOffset": 158,
-        "StartRulePattern": "ut",
-        "EndRulePattern": "laborum"
+        "StartDay": 44,
+        "StartMonth": 712,
+        "EndDay": 18,
+        "EndMonth": 151,
+        "TZOffset": 141,
+        "StartRulePattern": "nobis",
+        "EndRulePattern": "provident"
       }
     }
   },
-  "OverdueSalesCount": 850,
-  "NotificationsCount": 984,
+  "OverdueSalesCount": 533,
+  "NotificationsCount": 774,
   "SystemWebPanels": [
     {
-      "WebPanelId": 414,
-      "Name": "Heidenreich Inc and Sons",
-      "Tooltip": "quod",
-      "Deleted": true,
-      "Rank": 846,
+      "WebPanelId": 899,
+      "Name": "Leuschke-Harber",
+      "Tooltip": "praesentium",
+      "Deleted": false,
+      "Rank": 11,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": true,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
@@ -185,37 +185,11 @@ Content-Type: application/json; charset=utf-8
       "ShowInMenuBar": true,
       "ShowInToolBar": true,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Abbott, Keebler and Botsford",
+      "ShowInStatusBar": true,
+      "WindowName": "Kozey-Steuber",
       "Url": "http://www.example.com/",
-      "ProgId": "ad",
-      "Icon": 538,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "whiteboard out-of-the-box e-business"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 25
-        }
-      }
-    }
-  ],
-  "PocketPreferences": [
-    {
-      "Level": "Database",
-      "RawValue": "autem",
-      "Specification": {},
-      "DisplayValue": "nihil",
-      "DisplayTooltip": "magnam",
-      "DisplayType": "Bool",
-      "TabOrder": {},
-      "TargetId": 26,
-      "PrefDescId": 318,
-      "TableName": "Hegmann, Swift and Hackett",
-      "UserPreferenceId": 848,
+      "ProgId": "suscipit",
+      "Icon": 548,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -224,13 +198,39 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldLength": 744
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "voluptatibus",
+  "PocketPreferences": [
+    {
+      "Level": "Database",
+      "RawValue": "numquam",
+      "Specification": {},
+      "DisplayValue": "et",
+      "DisplayTooltip": "sapiente",
+      "DisplayType": "Bool",
+      "TabOrder": {},
+      "TargetId": 558,
+      "PrefDescId": 147,
+      "TableName": "Schinner-Ullrich",
+      "UserPreferenceId": 286,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 441
+        }
+      }
+    }
+  ],
+  "IsPushNotificationEnabled": true,
+  "CustomData": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

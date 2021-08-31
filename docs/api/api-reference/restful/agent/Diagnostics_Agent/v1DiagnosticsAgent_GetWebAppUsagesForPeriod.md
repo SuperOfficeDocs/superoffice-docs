@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/GetWebAppUsagesForPeriod
+title: GetWebAppUsagesForPeriod
 id: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
 ---
 
-# POST Agents/Diagnostics/GetWebAppUsagesForPeriod
+# GetWebAppUsagesForPeriod
 
 ```http
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
@@ -81,13 +81,13 @@ Response body: array
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1996-06-27T16:48:29.2468945+02:00",
-  "ToDate": "1994-06-08T16:48:29.2468945+02:00",
-  "SearchTerm": "assumenda"
+  "FromDate": "2020-03-19T14:58:03.8054644+01:00",
+  "ToDate": "1995-02-18T14:58:03.8054644+01:00",
+  "SearchTerm": "atque"
 }
 ```
 
@@ -97,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 745,
-    "AssocId": 422,
-    "Timestamp": "2021-01-18T16:48:29.2468945+01:00",
-    "ViewState": "officiis",
-    "AggregateCount": 936,
-    "AggregateBin": 358,
-    "Version": 247,
+    "WebAppUsageId": 742,
+    "AssocId": 173,
+    "Timestamp": "2019-06-27T14:58:03.8054644+02:00",
+    "ViewState": "cumque",
+    "AggregateCount": 273,
+    "AggregateBin": 886,
+    "Version": 312,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SaveErpConnectionSyncPriorities
+title: SaveErpConnectionSyncPriorities
 id: v1ErpSyncAgent_SaveErpConnectionSyncPriorities
 ---
 
-# POST Agents/ErpSync/SaveErpConnectionSyncPriorities
+# SaveErpConnectionSyncPriorities
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveErpConnectionSyncPriorities
@@ -70,13 +70,13 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/SaveErpConnectionSyncPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectionIds": [
-    915,
-    701
+    322,
+    798
   ]
 }
 ```
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

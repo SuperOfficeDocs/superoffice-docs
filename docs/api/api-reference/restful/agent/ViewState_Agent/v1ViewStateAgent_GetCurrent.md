@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetCurrent
+title: GetCurrent
 id: v1ViewStateAgent_GetCurrent
 ---
 
-# POST Agents/ViewState/GetCurrent
+# GetCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/GetCurrent
@@ -84,11 +84,11 @@ Response body: object
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kerluke-Veum"
+  "HistoryName": "Hilll LLC"
 }
 ```
 
@@ -97,13 +97,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 684,
-  "Id": 646,
-  "HistoryName": "Herzog, Quitzon and Ortiz",
-  "HistoryId": 508,
-  "AssociateId": 123,
-  "Name": "Bergstrom-Conroy",
-  "ItemInfo": "repudiandae",
+  "Rank": 479,
+  "Id": 579,
+  "HistoryName": "Tillman-Harvey",
+  "HistoryId": 257,
+  "AssociateId": 154,
+  "Name": "Crona Group",
+  "ItemInfo": "id",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,10 +112,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "synergize strategic partnerships"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

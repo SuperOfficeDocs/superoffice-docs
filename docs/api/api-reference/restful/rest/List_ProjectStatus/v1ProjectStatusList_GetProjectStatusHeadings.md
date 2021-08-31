@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,15 +68,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 125,
-    "Name": "Jast, Fadel and McLaughlin",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 503,
-    "UdListDefinitionId": 211,
+    "HeadingId": 163,
+    "Name": "Keebler, Wintheiser and McClure",
+    "Tooltip": "corrupti",
+    "Deleted": false,
+    "Rank": 434,
+    "UdListDefinitionId": 112,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "innovate clicks-and-mortar metrics"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   }

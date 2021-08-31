@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/CanDeleteErpSyncConnectorEntity
+title: CanDeleteErpSyncConnectorEntity
 id: v1ErpSyncAgent_CanDeleteErpSyncConnectorEntity
 ---
 
-# POST Agents/ErpSync/CanDeleteErpSyncConnectorEntity
+# CanDeleteErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
@@ -70,11 +70,11 @@ Response body: string
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectorId": 797
+  "ErpSyncConnectorId": 552
 }
 ```
 

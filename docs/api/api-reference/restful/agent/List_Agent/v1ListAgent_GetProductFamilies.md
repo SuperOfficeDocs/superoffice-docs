@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProductFamilies
+title: GetProductFamilies
 id: v1ListAgent_GetProductFamilies
 ---
 
-# POST Agents/List/GetProductFamilies
+# GetProductFamilies
 
 ```http
 POST /api/v1/Agents/List/GetProductFamilies
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProductFamilies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Value": "aut",
-    "Tooltip": "ullam",
+    "Id": 76,
+    "Value": "impedit",
+    "Tooltip": "rem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldLength": 647
       }
     }
   },
   {
-    "Id": 14,
-    "Value": "aut",
-    "Tooltip": "ullam",
+    "Id": 76,
+    "Value": "impedit",
+    "Tooltip": "rem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldLength": 647
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetConfigParameter
+title: GetConfigParameter
 id: v1AudienceAgent_GetConfigParameter
 ---
 
-# POST Agents/Audience/GetConfigParameter
+# GetConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameter
@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kirlin-Kessler",
-  "ParameterName": "Strosin-Kiehn"
+  "LayoutName": "Homenick, Shields and Schaden",
+  "ParameterName": "Rempel Inc and Sons"
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 953,
-  "Name": "Fadel, Beier and Prosacco",
-  "Value": "sint",
-  "CreatedDate": "2000-06-10T16:48:28.7652033+02:00",
-  "UpdatedDate": "2000-12-20T16:48:28.7652033+01:00",
-  "CreatedBy": "eos",
-  "UpdatedBy": "maxime",
+  "AudienceLayoutId": 545,
+  "Name": "O'Conner Group",
+  "Value": "itaque",
+  "CreatedDate": "2020-03-16T14:58:03.2572381+01:00",
+  "UpdatedDate": "1999-04-10T14:58:03.2572381+02:00",
+  "CreatedBy": "laborum",
+  "UpdatedBy": "quae",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

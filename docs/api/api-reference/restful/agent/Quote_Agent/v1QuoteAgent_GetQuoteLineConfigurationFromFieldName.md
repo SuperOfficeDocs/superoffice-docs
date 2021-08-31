@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
+title: GetQuoteLineConfigurationFromFieldName
 id: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
 ---
 
-# POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
+# GetQuoteLineConfigurationFromFieldName
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Hansen-Koch"
+  "FieldName": "Lubowitz, Stamm and Braun"
 }
 ```
 
@@ -99,15 +99,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 490,
-  "FieldName": "Lebsack Group",
-  "Label": "beatae",
-  "Tooltip": "nemo",
+  "QuoteLineConfigurationId": 157,
+  "FieldName": "Jacobs Inc and Sons",
+  "Label": "qui",
+  "Tooltip": "est",
   "Editable": true,
-  "InUse": true,
-  "Mandatory": false,
-  "Rank": 378,
-  "RestrictEdit": false,
+  "InUse": false,
+  "Mandatory": true,
+  "Rank": 117,
+  "RestrictEdit": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 140
     }
   }
 }

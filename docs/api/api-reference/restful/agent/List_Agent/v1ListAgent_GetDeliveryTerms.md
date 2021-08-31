@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDeliveryTerms
+title: GetDeliveryTerms
 id: v1ListAgent_GetDeliveryTerms
 ---
 
-# POST Agents/List/GetDeliveryTerms
+# GetDeliveryTerms
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryTerms
@@ -75,40 +75,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Value": "quia",
-    "Tooltip": "perferendis",
+    "Id": 832,
+    "Value": "consequatur",
+    "Tooltip": "mollitia",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "extend cross-media synergies"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "visualize B2C technologies"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 993
       }
     }
   },
   {
-    "Id": 903,
-    "Value": "quia",
-    "Tooltip": "perferendis",
+    "Id": 832,
+    "Value": "consequatur",
+    "Tooltip": "mollitia",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "extend cross-media synergies"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "visualize B2C technologies"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 993
       }
     }
   }

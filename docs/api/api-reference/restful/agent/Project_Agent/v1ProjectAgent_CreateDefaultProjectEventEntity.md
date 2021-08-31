@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/CreateDefaultProjectEventEntity
+title: CreateDefaultProjectEventEntity
 id: v1ProjectAgent_CreateDefaultProjectEventEntity
 ---
 
-# POST Agents/Project/CreateDefaultProjectEventEntity
+# CreateDefaultProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "qui",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "doloremque",
-  "SignOnText": "repellat",
-  "EventDate": "2019-02-19T16:48:30.328936+01:00",
-  "Enabled": true,
-  "CreatedDate": "2018-10-30T16:48:30.328936+01:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "libero",
+  "SignOffText": "quo",
+  "SignOnConfirmationText": "sit",
+  "SignOnText": "dolorem",
+  "EventDate": "1998-10-29T14:58:04.8934656+01:00",
+  "Enabled": false,
+  "CreatedDate": "1998-10-30T14:58:04.8934656+01:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 745,
-  "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOffTaskId": 794,
+  "SignOffTriggersAssign": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 836,
+  "SignOnTaskId": 297,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2001-01-25T16:48:30.328936+01:00",
+  "UpdatedDate": "2000-01-01T14:58:04.8934656+01:00",
   "CreatedBy": {
-    "AssociateId": 493,
-    "Name": "Rau, Willms and Turcotte",
-    "PersonId": 976,
-    "Rank": 79,
-    "Tooltip": "dolor",
+    "AssociateId": 129,
+    "Name": "Langworth Group",
+    "PersonId": 568,
+    "Rank": 817,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 377,
-    "FullName": "Mrs. Deion Hackett",
-    "FormalName": "Stokes, Harber and Paucek",
-    "Deleted": false,
-    "EjUserId": 16,
-    "UserName": "Mayert-Hermiston",
+    "GroupIdx": 287,
+    "FullName": "Melody Murphy",
+    "FormalName": "Kohler-Halvorson",
+    "Deleted": true,
+    "EjUserId": 952,
+    "UserName": "Wunsch-Fisher",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,57 +133,57 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 240
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 948,
-    "Name": "Schuster, Wyman and Moen",
-    "PersonId": 364,
-    "Rank": 705,
-    "Tooltip": "odit",
+    "AssociateId": 904,
+    "Name": "Turcotte Group",
+    "PersonId": 156,
+    "Rank": 102,
+    "Tooltip": "in",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 342,
-    "FullName": "Dr. Andrew Emmerich",
-    "FormalName": "Schoen-Becker",
+    "GroupIdx": 930,
+    "FullName": "Candida Grant",
+    "FormalName": "Gleichner Inc and Sons",
     "Deleted": true,
-    "EjUserId": 467,
-    "UserName": "Yundt-Dicki",
+    "EjUserId": 249,
+    "UserName": "Berge-Cassin",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "innovate synergistic platforms"
+          "Reason": "monetize transparent niches"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 700
       }
     }
   },
-  "ProjectId": 488,
-  "Id": 283,
-  "PublishFrom": "2006-04-13T16:48:30.3299333+02:00",
+  "ProjectId": 141,
+  "Id": 550,
+  "PublishFrom": "2004-07-16T14:58:04.8944656+02:00",
   "PublishType": "External",
-  "PublishTo": "1997-03-11T16:48:30.3299333+01:00",
+  "PublishTo": "2020-02-15T14:58:04.8944656+01:00",
   "VisibleForCategories": [
     {
-      "Id": 892,
-      "Name": "Hudson, Kassulke and Turcotte",
-      "ToolTip": "Quia similique aliquid doloribus officia.",
-      "Deleted": false,
-      "Rank": 956,
-      "Type": "vitae",
+      "Id": 464,
+      "Name": "Littel-Cronin",
+      "ToolTip": "Voluptas amet eveniet.",
+      "Deleted": true,
+      "Rank": 784,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quam",
-      "ColorBlock": 585,
-      "ExtraInfo": "et",
-      "StyleHint": "optio",
-      "FullName": "Robert Terry",
+      "IconHint": "aut",
+      "ColorBlock": 681,
+      "ExtraInfo": "eos",
+      "StyleHint": "aliquam",
+      "FullName": "Mrs. Beryl Rogahn",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -191,29 +191,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldType": "System.Int32",
+          "FieldLength": 761
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 22,
-      "Name": "Lubowitz Inc and Sons",
-      "ToolTip": "Voluptas quod esse.",
+      "Id": 86,
+      "Name": "Gerlach Inc and Sons",
+      "ToolTip": "Qui aspernatur dolorem.",
       "Deleted": false,
-      "Rank": 135,
-      "Type": "aut",
+      "Rank": 724,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 250,
-      "ExtraInfo": "maiores",
-      "StyleHint": "eaque",
-      "FullName": "Dr. Annalise Predovic",
+      "IconHint": "commodi",
+      "ColorBlock": 168,
+      "ExtraInfo": "quis",
+      "StyleHint": "est",
+      "FullName": "Hellen Harvey",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -222,16 +222,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldLength": 373
         }
       }
     }
   ],
   "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 995,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 398,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -240,10 +240,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "benchmark proactive supply-chains"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 99
     }
   }
 }

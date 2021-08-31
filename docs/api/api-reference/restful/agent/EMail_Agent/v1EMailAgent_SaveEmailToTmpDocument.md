@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/SaveEmailToTmpDocument
+title: SaveEmailToTmpDocument
 id: v1EMailAgent_SaveEmailToTmpDocument
 ---
 
-# POST Agents/EMail/SaveEmailToTmpDocument
+# SaveEmailToTmpDocument
 
 ```http
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
@@ -72,7 +72,7 @@ Response body: string
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "maiores",
-    "HTMLBody": "eveniet",
+    "Subject": "consectetur",
+    "HTMLBody": "vel",
     "From": {},
-    "Sent": "1999-01-14T16:48:29.5319265+01:00",
-    "Size": 145,
+    "Sent": "1997-04-17T14:58:04.0784655+02:00",
+    "Size": 7,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "eius",
-    "PlainBody": "earum",
+    "MessageID": "animi",
+    "PlainBody": "soluta",
     "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 122,
+    "ServerId": 76,
     "Attachments": [
       {},
       {}
@@ -109,17 +109,17 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Nicolas LLC",
-    "EmailItemId": 420,
-    "AccountId": 47,
-    "ReceivedAt": "2006-05-31T16:48:29.5319265+02:00",
+    "FolderName": "Koelpin Inc and Sons",
+    "EmailItemId": 602,
+    "AccountId": 937,
+    "ReceivedAt": "2001-07-15T14:58:04.0794657+02:00",
     "InReplyTo": {},
-    "RepliedAt": "2007-09-18T16:48:29.5319265+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2011-12-10T14:58:04.0794657+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   },
-  "FolderId": 894,
+  "FolderId": 663,
   "StripAttachments": false
 }
 ```
@@ -128,5 +128,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"kiera@reilly.co.uk"
+"emelie_brekke@blandamedhurst.co.uk"
 ```

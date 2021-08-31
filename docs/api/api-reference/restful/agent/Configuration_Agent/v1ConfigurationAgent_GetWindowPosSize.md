@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWindowPosSize
+title: GetWindowPosSize
 id: v1ConfigurationAgent_GetWindowPosSize
 ---
 
-# POST Agents/Configuration/GetWindowPosSize
+# GetWindowPosSize
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSize
@@ -25,7 +25,7 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=311
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=539
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/GetWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,17 +84,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "omnis",
-  "PersonId": 654,
-  "AssociateId": 819,
-  "ExtraId": 738,
-  "ExtraInfo": "eos",
-  "Height": 530,
-  "LeftX": 427,
+  "OwnerWindow": "rem",
+  "PersonId": 782,
+  "AssociateId": 939,
+  "ExtraId": 209,
+  "ExtraInfo": "tenetur",
+  "Height": 630,
+  "LeftX": 814,
   "State": "Maximized",
-  "UpperY": 5,
-  "Width": 679,
-  "WindowPosSizeId": 983,
+  "UpperY": 47,
+  "Width": 248,
+  "WindowPosSizeId": 211,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

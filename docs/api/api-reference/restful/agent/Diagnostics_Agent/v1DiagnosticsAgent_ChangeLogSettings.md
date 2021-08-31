@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/ChangeLogSettings
+title: ChangeLogSettings
 id: v1DiagnosticsAgent_ChangeLogSettings
 ---
 
-# POST Agents/Diagnostics/ChangeLogSettings
+# ChangeLogSettings
 
 ```http
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings

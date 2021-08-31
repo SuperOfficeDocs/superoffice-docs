@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllDocumentTemplates
+title: GetAllDocumentTemplates
 id: v1ListAgent_GetAllDocumentTemplates
 ---
 
-# POST Agents/List/GetAllDocumentTemplates
+# GetAllDocumentTemplates
 
 ```http
 POST /api/v1/Agents/List/GetAllDocumentTemplates
@@ -97,11 +97,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -111,43 +111,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 632,
-    "Name": "Beatty Inc and Sons",
-    "Tooltip": "aliquid",
-    "SaveInDb": 738,
-    "Filename": "saepe",
-    "DefaultOref": "enim",
+    "DocumentTemplateId": 4,
+    "Name": "Dietrich, Howell and Lynch",
+    "Tooltip": "minima",
+    "SaveInDb": 690,
+    "Filename": "itaque",
+    "DefaultOref": "sit",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 845,
-    "IntentId": 898,
+    "AutoeventId": 243,
+    "IntentId": 21,
     "IsDefaultPublished": true,
-    "Rank": 171,
-    "LoadTemplateFromPlugin": 80,
-    "MimeType": "assumenda",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 991,
+    "Rank": 770,
+    "LoadTemplateFromPlugin": 488,
+    "MimeType": "aliquam",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 252,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "antonina@connelly.biz",
+    "EmailSubject": "antonia.kautzer@klein.uk",
     "IncludeSignature": true,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "frankie_quigley@tillman.com",
+    "SenderEmailAddress": "ulices_mohr@streich.info",
     "InvitationDocType": "Cancelled",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "embrace robust web-readiness"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "expedite front-end deliverables"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldLength": 750
       }
     }
   }

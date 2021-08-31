@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/ValidateDays
+title: ValidateDays
 id: v1AppointmentAgent_ValidateDays
 ---
 
-# POST Agents/Appointment/ValidateDays
+# ValidateDays
 
 ```http
 POST /api/v1/Agents/Appointment/ValidateDays
@@ -85,35 +85,35 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2009-11-18T16:48:28.582449+01:00",
-    "AppointmentId": 923,
-    "Description": "Public-key local function",
-    "StartDate": "1999-11-26T16:48:28.582449+01:00",
-    "EndDate": "2020-04-09T16:48:28.582449+02:00",
+    "CreatedDate": "2003-07-18T14:58:03.2015728+02:00",
+    "AppointmentId": 840,
+    "Description": "Cloned zero administration synergy",
+    "StartDate": "2011-06-09T14:58:03.2015728+02:00",
+    "EndDate": "2014-10-02T14:58:03.2015728+02:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 415,
+    "MotherId": 583,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "2013-05-29T16:48:28.582449+02:00",
+    "UpdatedDate": "2013-07-28T14:58:03.2015728+02:00",
     "Completed": "Completed",
-    "ActiveLinks": 985,
+    "ActiveLinks": 669,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "ea",
-    "HasAlarm": true,
-    "ColorIndex": 368,
+    "AlarmLeadTime": "amet",
+    "HasAlarm": false,
+    "ColorIndex": 117,
     "IsFree": true,
     "IsAlldayEvent": true,
-    "LagTime": "explicabo",
-    "LeadTime": "qui",
-    "Location": "dolor",
-    "RejectCounter": 860,
-    "RejectReason": "",
+    "LagTime": "rerum",
+    "LeadTime": "sit",
+    "Location": "aliquam",
+    "RejectCounter": 317,
+    "RejectReason": "scale end-to-end users",
     "Recurrence": {},
     "Participants": [
       {},
@@ -122,42 +122,42 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "1998-11-14T16:48:28.5834487+01:00",
+    "ActiveDate": "1998-11-08T14:58:03.2015728+01:00",
     "HasConflict": false,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 66,
+    "PreferredTZLocation": 83,
     "Sale": {},
-    "SuggestedAppointmentId": 671,
-    "IsMileStone": true,
+    "SuggestedAppointmentId": 115,
+    "IsMileStone": false,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "molestias",
+    "CentralserviceVideomeetId": "voluptates",
     "UserDefinedFields": {
-      "SuperOffice:1": "1301945431",
-      "SuperOffice:2": "False"
+      "SuperOffice:1": "True",
+      "SuperOffice:2": "Quinten White"
     },
     "ExtraFields": {
-      "ExtraFields1": "unde",
-      "ExtraFields2": "ab"
+      "ExtraFields1": "qui",
+      "ExtraFields2": "vero"
     },
     "CustomFields": {
-      "CustomFields1": "consequatur",
-      "CustomFields2": "eum"
+      "CustomFields1": "voluptas",
+      "CustomFields2": "qui"
     },
-    "PublishEventDate": "2016-05-24T16:48:28.5834487+02:00",
-    "PublishTo": "2007-01-24T16:48:28.5834487+01:00",
-    "PublishFrom": "2017-05-29T16:48:28.5834487+02:00",
-    "IsPublished": false,
+    "PublishEventDate": "2002-09-12T14:58:03.2015728+02:00",
+    "PublishTo": "2002-01-31T14:58:03.2015728+01:00",
+    "PublishFrom": "2005-03-06T14:58:03.2015728+01:00",
+    "IsPublished": true,
     "VisibleFor": [
       {},
       {}
     ]
   },
   "Dates": [
-    "totam",
-    "reprehenderit"
+    "quia",
+    "rerum"
   ]
 }
 ```
@@ -168,18 +168,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2018-07-02T16:48:28.5834487+02:00",
+    "Date": "2017-04-17T14:58:03.2015728+02:00",
     "IsConflict": true,
-    "Description": "Synergistic zero administration hardware",
-    "DescriptionStyleHint": "Grass-roots logistical Graphic Interface",
-    "Tooltip": "qui"
+    "Description": "Phased bandwidth-monitored capacity",
+    "DescriptionStyleHint": "Re-contextualized directional project",
+    "Tooltip": "aut"
   },
   {
-    "Date": "2018-07-02T16:48:28.5834487+02:00",
+    "Date": "2017-04-17T14:58:03.2015728+02:00",
     "IsConflict": true,
-    "Description": "Synergistic zero administration hardware",
-    "DescriptionStyleHint": "Grass-roots logistical Graphic Interface",
-    "Tooltip": "qui"
+    "Description": "Phased bandwidth-monitored capacity",
+    "DescriptionStyleHint": "Re-contextualized directional project",
+    "Tooltip": "aut"
   }
 ]
 ```

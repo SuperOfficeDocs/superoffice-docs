@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetBusinessList
+title: GetBusinessList
 id: v1ListAgent_GetBusinessList
 ---
 
-# POST Agents/List/GetBusinessList
+# GetBusinessList
 
 ```http
 POST /api/v1/Agents/List/GetBusinessList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetBusinessList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,12 +81,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Value": "dolores",
-    "Tooltip": "modi",
+    "Id": 941,
+    "Value": "eum",
+    "Tooltip": "officiis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "disintermediate user-centric niches"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   },
   {
-    "Id": 86,
-    "Value": "dolores",
-    "Tooltip": "modi",
+    "Id": 941,
+    "Value": "eum",
+    "Tooltip": "officiis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "disintermediate user-centric niches"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   }

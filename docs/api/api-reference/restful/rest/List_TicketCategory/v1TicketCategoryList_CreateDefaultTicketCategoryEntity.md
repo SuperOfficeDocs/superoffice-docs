@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,26 +81,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 758,
-  "ParentId": 504,
-  "Name": "Quigley-Wyman",
-  "Fullname": "tempora",
-  "CategoryMaster": 419,
+  "TicketCategoryId": 609,
+  "ParentId": 474,
+  "Name": "Langosh-Farrell",
+  "Fullname": "quia",
+  "CategoryMaster": 380,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Smith-Nicolas",
+  "ExternalName": "Parker-Lakin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 110,
-  "ReplyTemplate": 870,
-  "NotificationEmail": "cruz_haag@bartell.uk",
+  "AssignmentLag": 635,
+  "ReplyTemplate": 162,
+  "NotificationEmail": "prince_romaguera@kuhlmanwalter.com",
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "minima"
+    "CustomFields1": "impedit",
+    "CustomFields2": "quos"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ChangeEngineInterval
+title: ChangeEngineInterval
 id: v1ErpSyncAgent_ChangeEngineInterval
 ---
 
-# POST Agents/ErpSync/ChangeEngineInterval
+# ChangeEngineInterval
 
 ```http
 POST /api/v1/Agents/ErpSync/ChangeEngineInterval

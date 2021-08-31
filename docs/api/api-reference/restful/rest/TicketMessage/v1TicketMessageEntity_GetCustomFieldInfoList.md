@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lockman, Luettgen and Cormier",
-    "DisplayName": "Emard-Bednar",
-    "Description": "Cross-platform assymetric firmware",
-    "ShortLabel": "quam",
+    "FieldName": "Fay Group",
+    "DisplayName": "Armstrong, Legros and Wiza",
+    "Description": "Right-sized 5th generation data-warehouse",
+    "ShortLabel": "corrupti",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 779,
-    "TemplateVariableName": "Kovacek-Stracke"
+    "Rank": 975,
+    "TemplateVariableName": "Collier Inc and Sons"
   }
 ]
 ```

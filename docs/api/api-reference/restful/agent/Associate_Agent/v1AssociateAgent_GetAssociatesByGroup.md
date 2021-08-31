@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/GetAssociatesByGroup
+title: GetAssociatesByGroup
 id: v1AssociateAgent_GetAssociatesByGroup
 ---
 
-# POST Agents/Associate/GetAssociatesByGroup
+# GetAssociatesByGroup
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
@@ -85,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 82,
-  "Type": 358
+  "GroupId": 650,
+  "Type": 716
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 681,
-    "Name": "Stamm LLC",
-    "PersonId": 991,
-    "Rank": 368,
-    "Tooltip": "ut",
+    "AssociateId": 979,
+    "Name": "Kemmer, Gleichner and Dare",
+    "PersonId": 532,
+    "Rank": 655,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 404,
-    "FullName": "Tiana Predovic",
-    "FormalName": "Lebsack Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 954,
-    "UserName": "Schmidt-Kiehn",
+    "GroupIdx": 558,
+    "FullName": "Mrs. Tristian Stamm",
+    "FormalName": "Parker, Green and Roob",
+    "Deleted": true,
+    "EjUserId": 79,
+    "UserName": "O'Connell, Baumbach and Little",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

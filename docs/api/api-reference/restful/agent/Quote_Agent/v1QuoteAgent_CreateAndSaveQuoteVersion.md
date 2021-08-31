@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateAndSaveQuoteVersion
+title: CreateAndSaveQuoteVersion
 id: v1QuoteAgent_CreateAndSaveQuoteVersion
 ---
 
-# POST Agents/Quote/CreateAndSaveQuoteVersion
+# CreateAndSaveQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
@@ -114,11 +114,11 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 630
+  "QuoteVersionId": 995
 }
 ```
 
@@ -127,76 +127,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 33,
-  "ERPQuoteVersionKey": "incidunt",
-  "QuoteId": 95,
-  "Description": "Object-based static matrix",
-  "Number": "1056172",
+  "QuoteVersionId": 1000,
+  "ERPQuoteVersionKey": "sed",
+  "QuoteId": 666,
+  "Description": "Progressive national circuit",
+  "Number": "622766",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 115,
-  "SentDate": "2015-04-12T16:48:30.4159351+02:00",
-  "FollowupId": 674,
-  "ExpirationDate": "2020-03-27T16:48:30.4159351+01:00",
-  "DeliveryCountryId": 357,
+  "LikelyQuoteAlternativeId": 199,
+  "SentDate": "2009-11-26T14:58:04.9354663+01:00",
+  "FollowupId": 708,
+  "ExpirationDate": "2016-09-26T14:58:04.9354663+02:00",
+  "DeliveryCountryId": 981,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 987,
+  "InvoiceCountryId": 415,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "dolores",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "aut",
-  "ERPDeliveryTypeKey": "explicabo",
-  "Rank": 284,
-  "ApprovedBy": 586,
-  "ApprovedText": "corporis",
-  "ApprovedRegisteredBy": 859,
-  "ApprovedRegisteredDate": "2001-10-09T16:48:30.4159351+02:00",
-  "ExtraField1": "porro",
-  "ExtraField2": "iure",
-  "ExtraField3": "impedit",
-  "ExtraField4": "facilis",
-  "ExtraField5": "necessitatibus",
-  "LastRecalculated": "1995-01-19T16:48:30.4159351+01:00",
-  "Updated": "2016-11-11T16:48:30.4159351+01:00",
-  "UpdatedAssociateId": 418,
-  "Registered": "1996-05-01T16:48:30.4159351+02:00",
-  "RegisteredAssociateId": 426,
+  "ERPPaymentTermsKey": "consequuntur",
+  "ERPPaymentTypeKey": "nihil",
+  "ERPDeliveryTermsKey": "sunt",
+  "ERPDeliveryTypeKey": "qui",
+  "Rank": 839,
+  "ApprovedBy": 253,
+  "ApprovedText": "aspernatur",
+  "ApprovedRegisteredBy": 371,
+  "ApprovedRegisteredDate": "2014-10-29T14:58:04.9354663+01:00",
+  "ExtraField1": "natus",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "est",
+  "ExtraField5": "est",
+  "LastRecalculated": "2017-01-12T14:58:04.936463+01:00",
+  "Updated": "2010-04-04T14:58:04.936463+02:00",
+  "UpdatedAssociateId": 232,
+  "Registered": "1994-06-06T14:58:04.936463+02:00",
+  "RegisteredAssociateId": 688,
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 474,
-      "ERPQuoteAlternativeKey": "velit",
-      "QuoteVersionId": 391,
-      "Name": "Lemke-Schneider",
-      "Description": "Open-source multi-state focus group",
+      "QuoteAlternativeId": 816,
+      "ERPQuoteAlternativeKey": "inventore",
+      "QuoteVersionId": 831,
+      "Name": "Schmeler LLC",
+      "Description": "Triple-buffered web-enabled encryption",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 2510.334,
-      "ERPDiscountAmount": 18725.649999999998,
-      "DiscountPercent": 15309.59,
-      "DiscountAmount": 13673.642,
+      "Reason": "morph integrated relationships",
+      "ERPDiscountPercent": 9098.002,
+      "ERPDiscountAmount": 17622.482,
+      "DiscountPercent": 19562.428,
+      "DiscountAmount": 29682.113999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ea",
-      "VAT": 10849.908,
-      "EarningPercent": 29957.906,
-      "EarningAmount": 1288.074,
-      "SubTotal": 30318.316,
-      "TotalPrice": 7813.062,
-      "ExtraField1": "voluptates",
-      "ExtraField2": "unde",
-      "ExtraField3": "voluptatum",
-      "ExtraField4": "eligendi",
-      "ExtraField5": "tempore",
+      "VATInfo": "minima",
+      "VAT": 3488.142,
+      "EarningPercent": 6807.048,
+      "EarningAmount": 16384.552,
+      "SubTotal": 22050.824,
+      "TotalPrice": 17324.752,
+      "ExtraField1": "est",
+      "ExtraField2": "hic",
+      "ExtraField3": "quasi",
+      "ExtraField4": "voluptatem",
+      "ExtraField5": "tempora",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "brand visionary systems"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

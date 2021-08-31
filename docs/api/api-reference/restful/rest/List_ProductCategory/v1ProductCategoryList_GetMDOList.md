@@ -25,8 +25,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=nihil
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=cumque
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Mertz LLC",
-    "ToolTip": "Corporis sint error.",
-    "Deleted": true,
-    "Rank": 115,
-    "Type": "repellat",
+    "Id": 343,
+    "Name": "Skiles, Steuber and Prohaska",
+    "ToolTip": "Eos recusandae libero.",
+    "Deleted": false,
+    "Rank": 117,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 444,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Aut est enim quis reiciendis vel.",
-        "Deleted": true,
-        "Rank": 376,
-        "Type": "qui",
+        "Id": 179,
+        "Name": "Wyman, Reinger and Wunsch",
+        "ToolTip": "Placeat vero mollitia optio pariatur perferendis consequatur.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 704,
-        "ExtraInfo": "autem",
-        "StyleHint": "labore",
-        "FullName": "Marcelina Hermiston Jr.",
+        "IconHint": "ut",
+        "ColorBlock": 919,
+        "ExtraInfo": "occaecati",
+        "StyleHint": "mollitia",
+        "FullName": "Destinee Haley",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "synthesize virtual synergies"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 473
+            "FieldType": "System.Int32",
+            "FieldLength": 773
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 747,
-    "ExtraInfo": "error",
-    "StyleHint": "eaque",
-    "FullName": "Leland Schoen",
+    "IconHint": "ut",
+    "ColorBlock": 868,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "FullName": "Josiane Corkery",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

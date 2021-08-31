@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetShopUrl
+title: GetShopUrl
 id: v1LicenseAgent_GetShopUrl
 ---
 
-# POST Agents/License/GetShopUrl
+# GetShopUrl
 
 ```http
 POST /api/v1/Agents/License/GetShopUrl
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Grady Group"
+  "OwnerName": "Ondricka, DuBuque and Erdman"
 }
 ```
 

@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=voluptatem
-GET /api/v1/Selection?$top=826
-GET /api/v1/Selection?$skip=662
+GET /api/v1/Selection?$entities=occaecati
+GET /api/v1/Selection?$top=734
+GET /api/v1/Selection?$skip=428
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=enim
+GET /api/v1/Selection?$context=et
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "error",
+  "odata.nextLink": "officia",
   "value": [
     {
-      "PrimaryKey": 3859,
-      "EntityName": "sale",
-      "saleId": 3859,
-      "contactId": 1881,
-      "name": "Harris LLC"
+      "PrimaryKey": 5096,
+      "EntityName": "person",
+      "personId": 5096,
+      "fullName": "Kay Donnelly"
     },
     {
-      "PrimaryKey": 8294,
-      "EntityName": "sale",
-      "saleId": 8294,
-      "contactId": 2448,
-      "name": "Oberbrunner-Stroman"
+      "PrimaryKey": 7582,
+      "EntityName": "person",
+      "personId": 7582,
+      "fullName": "Carmel Weimann"
     }
   ]
 }

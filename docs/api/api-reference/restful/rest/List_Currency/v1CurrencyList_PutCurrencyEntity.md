@@ -85,13 +85,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 503,
-  "Name": "Willms LLC",
-  "Tooltip": "qui",
-  "Rank": 446,
-  "Rate": 31267.917999999998,
-  "Units": 10104.016,
-  "Deleted": true
+  "CurrencyId": 282,
+  "Name": "Schiller-Stanton",
+  "Tooltip": "delectus",
+  "Rank": 701,
+  "Rate": 29503.476,
+  "Units": 11182.112,
+  "Deleted": false
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 647,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "accusantium",
-  "Rank": 903,
-  "Rate": 1291.2079999999999,
-  "Units": 9376.928,
-  "Deleted": true,
+  "CurrencyId": 87,
+  "Name": "Kuhlman-Mayer",
+  "Tooltip": "delectus",
+  "Rank": 413,
+  "Rate": 27629.343999999997,
+  "Units": 16594.53,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "whiteboard holistic applications"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enhance plug-and-play schemas"
       },
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   }
 }

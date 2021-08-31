@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetAttachment
+title: GetAttachment
 id: v1EMailAgent_GetAttachment
 ---
 
-# POST Agents/EMail/GetAttachment
+# GetAttachment
 
 ```http
 POST /api/v1/Agents/EMail/GetAttachment
@@ -89,19 +89,19 @@ Response body: object
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "White, Tillman and Christiansen",
-    "UserName": "Swift Inc and Sons",
-    "Password": "id",
-    "Folder": "rerum",
-    "UseSSL": true
+    "ServerName": "Ziemann-Kemmer",
+    "UserName": "Batz, Emmerich and Prosacco",
+    "Password": "magnam",
+    "Folder": "voluptas",
+    "UseSSL": false
   },
-  "MessageServerId": 491,
-  "AttachmentId": "et"
+  "MessageServerId": 139,
+  "AttachmentId": "delectus"
 }
 ```
 
@@ -110,17 +110,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable tangible focus group",
-  "Filename": "consequatur",
-  "Size": 426,
-  "Type": "et",
-  "Encoding": "ullam",
+  "Description": "Multi-lateral asynchronous algorithm",
+  "Filename": "neque",
+  "Size": 445,
+  "Type": "sapiente",
+  "Encoding": "dolore",
   "Id": "aut",
-  "Disposition": "esse",
+  "Disposition": "impedit",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "innovate bleeding-edge schemas"
   },
   "FieldProperties": {
     "fieldName": {
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 508
     }
   }
 }

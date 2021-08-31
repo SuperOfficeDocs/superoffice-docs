@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
+title: GetPublishedUserDefinedPageOneFields
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
+# GetPublishedUserDefinedPageOneFields
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
@@ -107,12 +107,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 546
+  "UserGroupId": 247
 }
 ```
 
@@ -122,40 +122,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 165,
-    "ColumnId": 914,
-    "FieldDefault": "nisi",
-    "FieldHeight": 777,
-    "FieldLabel": "autem",
-    "FieldLeft": 471,
-    "FieldTop": 842,
+    "UDefFieldId": 724,
+    "ColumnId": 690,
+    "FieldDefault": "qui",
+    "FieldHeight": 255,
+    "FieldLabel": "minus",
+    "FieldLeft": 7,
+    "FieldTop": 433,
     "FieldType": "Checkbox",
-    "FieldWidth": 750,
-    "FormatMask": "ut",
-    "HideLabel": true,
+    "FieldWidth": 962,
+    "FormatMask": "aut",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 697,
-    "LabelLeft": 382,
-    "LabelTop": 635,
-    "LabelWidth": 388,
-    "LastVersionId": 136,
-    "ListTableId": 384,
+    "LabelHeight": 13,
+    "LabelLeft": 822,
+    "LabelTop": 434,
+    "LabelWidth": 946,
+    "LastVersionId": 481,
+    "ListTableId": 762,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 831,
-    "ProgId": "aut",
+    "Page1LineNo": 995,
+    "ProgId": "eveniet",
     "IsReadOnly": false,
-    "ShortLabel": "repellat",
-    "TabOrder": 881,
-    "TextLength": 881,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 995,
-    "UDListDefinitionId": 19,
+    "ShortLabel": "dicta",
+    "TabOrder": 677,
+    "TextLength": 952,
+    "Tooltip": "cumque",
+    "UdefIdentity": 162,
+    "UDListDefinitionId": 591,
     "Justification": "Center",
-    "Version": 803,
-    "TemplateVariableName": "Collins-Nolan",
-    "HasBeenPublished": false,
-    "MdoListName": "Ondricka Group",
+    "Version": 184,
+    "TemplateVariableName": "Reichel-Blick",
+    "HasBeenPublished": true,
+    "MdoListName": "Rutherford, Altenwerth and Parisian",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldLength": 525
       }
     }
   }

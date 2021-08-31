@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Hoeger, Homenick and Wuckert",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 899,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "Id": 896,
+  "Name": "Ullrich LLC",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "Rank": 967,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Bergstrom Group",
-  "Tooltip": "nihil",
+  "Id": 302,
+  "Name": "Davis-Cronin",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 599,
+  "Rank": 633,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": false,
+  "ListType": "harum",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 554
     }
   }
 }

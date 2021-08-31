@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetDefaultPersonImage
+title: GetDefaultPersonImage
 id: v1AudienceAgent_GetDefaultPersonImage
 ---
 
-# POST Agents/Audience/GetDefaultPersonImage
+# GetDefaultPersonImage
 
 ```http
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Roob Inc and Sons"
+  "LayoutName": "VonRueden LLC"
 }
 ```
 

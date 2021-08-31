@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/GetChatTopicEntity
+title: GetChatTopicEntity
 id: v1ChatAgent_GetChatTopicEntity
 ---
 
-# POST Agents/Chat/GetChatTopicEntity
+# GetChatTopicEntity
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicEntity
@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=25
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=575
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -65,22 +65,25 @@ Response body: object
 | Name | string | The name of this chat topic |
 | Description | string | The descriptiong for this topic. |
 | WelcomeMessage | string | The welcome message sent to the customer when the chat session starts. |
-| Language |  | Customer language used in this topic. Optional |
+| Language |  | Customer language used in this topic. Optional. |
 | LastAccept | date-time | The last time a session was accepted from the inside for this topic. |
 | SecondsPrAccept | int32 | The average number of seconds per accept for this topic. |
 | AlertRecipient | string | The recipient(s) for the alert template |
 | AlertTemplate |  | Template to use for alerts. |
-| Flags | string | Alert by e-mail, popup, etc. |
+| CollectConsent | bool | Collect consent to store from user |
 | BadgeHeader | string | The badge header of the chat topic |
+| CustomQueueTextEnabled | bool | Use the custom queue message text |
 | CustomQueueText | string | A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 |
-| WarnNewChatSeconds | int32 | Contains the user notify time in seconds |
-| WarnManagerNewChatSeconds | int32 | Contains the manager notify time in seconds |
+| WarnNewChatMinutes | int32 | Contains the user notify time in minutes |
+| WarnManagerNewChatMinutes | int32 | Contains the manager notify time in minutes |
 | TicketEnabled | bool | Enable ticket submission in offline mode |
 | TicketCategory |  | Category on ticket created from off-line request |
 | TicketPriority |  | Priority on ticket created from off-line request |
 | OpeningHoursEnabled | bool | Whether to use opening hours or not. |
 | OpeningHours |  | Opening hours settings |
 | Widget |  | Settings for the chat widget |
+| BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
+| BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -98,45 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 346,
-  "Name": "Hoppe-Terry",
-  "Description": "Cloned bandwidth-monitored approach",
-  "WelcomeMessage": "dolor",
+  "ChatTopicId": 752,
+  "Name": "Morissette, Prosacco and Bechtelar",
+  "Description": "Networked composite benchmark",
+  "WelcomeMessage": "eaque",
   "Language": {
-    "Id": 846,
-    "Value": "rerum",
-    "Tooltip": "et",
+    "Id": 49,
+    "Value": "soluta",
+    "Tooltip": "voluptas",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "embrace proactive interfaces"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   },
-  "LastAccept": "1996-08-24T16:48:28.8799193+02:00",
-  "SecondsPrAccept": 405,
-  "AlertRecipient": "et",
+  "LastAccept": "2008-02-04T14:58:03.3822423+01:00",
+  "SecondsPrAccept": 234,
+  "AlertRecipient": "expedita",
   "AlertTemplate": {
-    "ReplyTemplateId": 570,
-    "Name": "Ondricka-Considine",
-    "Description": "Multi-channelled interactive success",
-    "FolderId": 459
+    "ReplyTemplateId": 194,
+    "Name": "Auer LLC",
+    "Description": "Customer-focused bandwidth-monitored secured line",
+    "FolderId": 397
   },
-  "Flags": "CollectConsent",
-  "BadgeHeader": "quibusdam",
-  "CustomQueueText": "mollitia",
-  "WarnNewChatSeconds": 479,
-  "WarnManagerNewChatSeconds": 74,
+  "CollectConsent": false,
+  "BadgeHeader": "est",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "dolor",
+  "WarnNewChatMinutes": 292,
+  "WarnManagerNewChatMinutes": 654,
   "TicketEnabled": false,
   "TicketCategory": {
-    "Id": 98,
-    "Value": "aut",
-    "Tooltip": "id",
+    "Id": 165,
+    "Value": "reiciendis",
+    "Tooltip": "repellat",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -144,15 +148,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 375
       }
     }
   },
   "TicketPriority": {
-    "Id": 352,
-    "Value": "rerum",
-    "Tooltip": "dolores",
+    "Id": 344,
+    "Value": "cumque",
+    "Tooltip": "ea",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -161,56 +165,71 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 302
       }
     }
   },
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
     "MonEnabled": true,
-    "MonStart": "2015-05-28T16:48:28.8799193+02:00",
-    "MonStop": "1995-08-05T16:48:28.8799193+02:00",
-    "TueEnabled": false,
-    "TueStart": "2006-08-03T16:48:28.8799193+02:00",
-    "TueStop": "2016-08-30T16:48:28.8799193+02:00",
-    "WedEnabled": true,
-    "WedStart": "1997-05-01T16:48:28.8799193+02:00",
-    "WedStop": "1998-01-23T16:48:28.8799193+01:00",
+    "MonStart": "et",
+    "MonStop": "nulla",
+    "TueEnabled": true,
+    "TueStart": "quibusdam",
+    "TueStop": "similique",
+    "WedEnabled": false,
+    "WedStart": "veniam",
+    "WedStop": "quasi",
     "ThuEnabled": true,
-    "ThuStart": "1994-04-17T16:48:28.8799193+02:00",
-    "ThuStop": "2012-10-03T16:48:28.8799193+02:00",
-    "FriEnabled": false,
-    "FriStart": "1999-01-19T16:48:28.8799193+01:00",
-    "FriStop": "2009-09-25T16:48:28.8799193+02:00",
-    "SatEnabled": false,
-    "SatStart": "1998-09-17T16:48:28.8799193+02:00",
-    "SatStop": "2010-06-06T16:48:28.8799193+02:00",
+    "ThuStart": "minima",
+    "ThuStop": "adipisci",
+    "FriEnabled": true,
+    "FriStart": "iste",
+    "FriStop": "dolor",
+    "SatEnabled": true,
+    "SatStart": "non",
+    "SatStop": "ut",
     "SunEnabled": true,
-    "SunStart": "1996-02-23T16:48:28.8799193+01:00",
-    "SunStop": "1997-09-08T16:48:28.8799193+02:00"
+    "SunStart": "atque",
+    "SunStop": "sed",
+    "UseLunchHours": false,
+    "LunchStart": "exercitationem",
+    "LunchStop": "et"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
-    "PreFormEnabled": true,
-    "PreFormMessage": "aspernatur",
+    "PreFormEnabled": false,
+    "PreFormMessage": "quis",
     "RequiredFields": "Company",
     "PostFormEnabled": true,
-    "PostFormHeader": "quo",
-    "PostFormMessage": "culpa",
-    "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "totam",
+    "PostFormHeader": "provident",
+    "PostFormMessage": "architecto",
+    "PostTranscriptEnabled": true,
+    "LanguageIsoCode": "non",
+    "Size": "Large",
     "Theme": "Classic",
-    "Color": "nesciunt",
-    "Font": "voluptatum",
-    "ShowLogo": true,
+    "Color": "atque",
+    "Font": "qui",
+    "LogoEnabled": false,
+    "LogoBlobId": 593,
+    "LogoName": "Ortiz, Howe and Kuhn",
     "ShowAgentPhoto": true,
-    "WelcomeTitle": "et",
-    "WelcomeMessage": "eligendi",
-    "OfflineHeader": "voluptas",
-    "OfflineMessage": "fugit",
-    "OfflineFields": "Company"
+    "WelcomeTitle": "reiciendis",
+    "WelcomeMessage": "suscipit",
+    "OfflineHeader": "quo",
+    "OfflineMessage": "consequatur",
+    "OfflineFields": "Company",
+    "UseAgentFirstname": true
+  },
+  "BotEnabled": true,
+  "BotSettings": {
+    "BotName": "Tremblay Group",
+    "BotRegisterScriptId": 538,
+    "BotSessionCreatedScriptId": 165,
+    "BotSessionChangedScriptId": 95,
+    "BotMessageReceivedScriptId": 55
   },
   "TableRight": {
     "Mask": "Delete",
@@ -222,8 +241,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

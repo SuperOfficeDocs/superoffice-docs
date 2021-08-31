@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetContactAppointmentsByTask
+title: GetContactAppointmentsByTask
 id: v1AppointmentAgent_GetContactAppointmentsByTask
 ---
 
-# POST Agents/Appointment/GetContactAppointmentsByTask
+# GetContactAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 862,
-  "StartTime": "2016-10-20T16:48:28.4724495+02:00",
-  "EndTime": "2012-06-19T16:48:28.4724495+02:00",
-  "Count": 511,
-  "TaskId": 503
+  "ContactId": 612,
+  "StartTime": "2019-12-04T14:58:02.8665733+01:00",
+  "EndTime": "1999-11-02T14:58:02.8665733+01:00",
+  "Count": 738,
+  "TaskId": 976
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 282,
-    "StartDate": "2007-09-06T16:48:28.4734507+02:00",
-    "EndDate": "1995-05-05T16:48:28.4734507+02:00",
+    "AppointmentId": 272,
+    "StartDate": "2007-05-21T14:58:02.8685385+02:00",
+    "EndDate": "2013-08-27T14:58:02.8685385+02:00",
     "Type": "BookingForChecklist",
-    "Task": "libero",
-    "AssociateFullName": "Elmo Gorczany",
-    "ContactName": "Flatley, Yundt and Funk",
-    "Description": "Polarised bottom-line monitoring",
-    "PersonFullName": "Jedediah Schowalter",
-    "PersonId": 470,
-    "ContactId": 523,
-    "ProjectId": 638,
-    "ProjectName": "Leannon, Wolf and Yundt",
+    "Task": "eum",
+    "AssociateFullName": "Ms. Aliza O'Connell",
+    "ContactName": "Weimann, Johns and Corwin",
+    "Description": "Adaptive explicit flexibility",
+    "PersonFullName": "Mr. Rudolph Towne",
+    "PersonId": 36,
+    "ContactId": 337,
+    "ProjectId": 492,
+    "ProjectName": "Trantow-Daniel",
     "IsPublished": true,
-    "AssociateId": 354,
-    "ColorIndex": 953,
+    "AssociateId": 855,
+    "ColorIndex": 175,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 647,
-    "PriorityName": "Larson-Kirlin",
+    "PriorityId": 592,
+    "PriorityName": "Robel Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2018-11-26T16:48:28.4734507+01:00",
+    "ActiveDate": "2013-08-19T14:58:02.8685385+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-12-07T16:48:28.4734507+01:00",
-    "RecurringEndDate": "2003-01-05T16:48:28.4734507+01:00",
-    "MotherId": 4,
-    "AssignedBy": 702,
-    "AssignedByFullName": "Lia Kirlin",
+    "RecurringStartDate": "2010-09-24T14:58:02.8685385+02:00",
+    "RecurringEndDate": "2012-03-28T14:58:02.8685385+02:00",
+    "MotherId": 362,
+    "AssignedBy": 479,
+    "AssignedByFullName": "Alejandra Ledner",
     "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "deserunt",
-    "SaleId": 531,
-    "SaleName": "Dibbert LLC",
-    "AssociateName": "Leffler-Bernier",
-    "CreatedDate": "2017-08-03T16:48:28.4734507+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Connie Skiles",
-    "CreatedByAssociateId": 694,
+    "Location": "et",
+    "AlarmLeadTime": "tempore",
+    "SaleId": 656,
+    "SaleName": "O'Conner-Stroman",
+    "AssociateName": "Carter, Watsica and Lubowitz",
+    "CreatedDate": "2006-05-09T14:58:02.8685385+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Jarred Brakus",
+    "CreatedByAssociateId": 951,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   }

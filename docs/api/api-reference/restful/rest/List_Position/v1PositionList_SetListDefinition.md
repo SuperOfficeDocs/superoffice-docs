@@ -93,15 +93,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Schowalter, Schumm and Goldner",
-  "Tooltip": "excepturi",
+  "Id": 907,
+  "Name": "DuBuque, Rodriguez and Bartoletti",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "Rank": 871,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "Rank": 563,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consectetur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Wisoky Group",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 576,
+  "Id": 299,
+  "Name": "Predovic-Schiller",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "Rank": 771,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 473
     }
   }
 }

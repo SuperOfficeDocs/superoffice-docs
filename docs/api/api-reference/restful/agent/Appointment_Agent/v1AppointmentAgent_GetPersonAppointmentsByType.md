@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetPersonAppointmentsByType
+title: GetPersonAppointmentsByType
 id: v1AppointmentAgent_GetPersonAppointmentsByType
 ---
 
-# POST Agents/Appointment/GetPersonAppointmentsByType
+# GetPersonAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
@@ -126,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 988,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2001-04-27T16:48:28.4344187+02:00",
-  "EndTime": "2013-03-10T16:48:28.4344187+01:00",
-  "Count": 818,
+  "PersonId": 616,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2018-10-29T14:58:03.0525384+01:00",
+  "EndTime": "1997-10-05T14:58:03.0525384+02:00",
+  "Count": 881,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -145,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 254,
-    "StartDate": "2006-11-05T16:48:28.4354205+01:00",
-    "EndDate": "2002-04-26T16:48:28.4354205+02:00",
+    "AppointmentId": 232,
+    "StartDate": "2007-01-04T14:58:03.0535383+01:00",
+    "EndDate": "2015-11-15T14:58:03.0535383+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Cortney Nitzsche",
-    "ContactName": "Kautzer, Robel and Kihn",
-    "Description": "Switchable transitional strategy",
-    "PersonFullName": "Raina Wehner",
-    "PersonId": 302,
-    "ContactId": 915,
-    "ProjectId": 93,
-    "ProjectName": "Sanford LLC",
-    "IsPublished": false,
-    "AssociateId": 428,
-    "ColorIndex": 640,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "ut",
+    "AssociateFullName": "Nicholas Larson",
+    "ContactName": "Spencer-Grady",
+    "Description": "Up-sized scalable alliance",
+    "PersonFullName": "Kieran Bartell",
+    "PersonId": 908,
+    "ContactId": 558,
+    "ProjectId": 839,
+    "ProjectName": "Schimmel Group",
+    "IsPublished": true,
+    "AssociateId": 911,
+    "ColorIndex": 440,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 173,
-    "PriorityName": "Murray, Labadie and Murazik",
+    "PriorityId": 400,
+    "PriorityName": "Kunze, Kovacek and Lebsack",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1996-06-02T16:48:28.4364619+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2016-01-11T14:58:03.0545381+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-08T16:48:28.4364619+02:00",
-    "RecurringEndDate": "2003-07-25T16:48:28.4364619+02:00",
-    "MotherId": 896,
-    "AssignedBy": 489,
-    "AssignedByFullName": "Adolphus Abshire I",
-    "RejectReason": "facilitate ubiquitous infomediaries",
-    "Location": "consequuntur",
-    "AlarmLeadTime": "pariatur",
-    "SaleId": 488,
-    "SaleName": "Okuneva LLC",
-    "AssociateName": "Ebert, Jacobs and Ferry",
-    "CreatedDate": "2007-08-31T16:48:28.4364619+02:00",
-    "CreatedBy": "deserunt",
-    "CreatedByFullName": "Adam Price",
-    "CreatedByAssociateId": 966,
+    "RecurringStartDate": "2005-01-07T14:58:03.0545381+01:00",
+    "RecurringEndDate": "2003-12-29T14:58:03.0545381+01:00",
+    "MotherId": 391,
+    "AssignedBy": 250,
+    "AssignedByFullName": "Dr. Maryse Collier",
+    "RejectReason": "",
+    "Location": "quod",
+    "AlarmLeadTime": "velit",
+    "SaleId": 381,
+    "SaleName": "Bradtke Group",
+    "AssociateName": "Trantow, Kessler and Marvin",
+    "CreatedDate": "2010-02-02T14:58:03.0545381+01:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Paige Douglas",
+    "CreatedByAssociateId": 638,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

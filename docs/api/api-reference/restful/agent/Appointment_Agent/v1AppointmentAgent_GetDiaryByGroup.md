@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetDiaryByGroup
+title: GetDiaryByGroup
 id: v1AppointmentAgent_GetDiaryByGroup
 ---
 
-# POST Agents/Appointment/GetDiaryByGroup
+# GetDiaryByGroup
 
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 874,
-  "GroupType": 179,
-  "StartTime": "2012-12-07T16:48:28.2968633+01:00",
-  "EndTime": "2004-04-16T16:48:28.3008641+02:00",
-  "Count": 42
+  "GroupId": 351,
+  "GroupType": 671,
+  "StartTime": "2013-11-15T14:58:02.8875626+01:00",
+  "EndTime": "1996-05-11T14:58:02.8875626+02:00",
+  "Count": 205
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 650,
-    "StartDate": "1999-07-26T16:48:28.3334497+02:00",
-    "EndDate": "2013-01-17T16:48:28.3334497+01:00",
+    "AppointmentId": 629,
+    "StartDate": "2014-08-01T14:58:02.8885642+02:00",
+    "EndDate": "1997-05-17T14:58:02.8885642+02:00",
     "Type": "BookingForChecklist",
-    "Task": "doloremque",
-    "AssociateFullName": "Stephan Skiles",
-    "ContactName": "Sanford, Fritsch and Windler",
-    "Description": "Ameliorated 24/7 toolset",
-    "PersonFullName": "Dr. Clement Leffler",
-    "PersonId": 313,
-    "ContactId": 242,
-    "ProjectId": 824,
-    "ProjectName": "Nader LLC",
+    "Task": "ad",
+    "AssociateFullName": "Abelardo Olson",
+    "ContactName": "Streich-Murphy",
+    "Description": "Distributed discrete hub",
+    "PersonFullName": "Quentin Powlowski",
+    "PersonId": 32,
+    "ContactId": 761,
+    "ProjectId": 935,
+    "ProjectName": "Windler-Hauck",
     "IsPublished": false,
-    "AssociateId": 97,
-    "ColorIndex": 627,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 591,
+    "ColorIndex": 539,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 711,
-    "PriorityName": "O'Conner-Volkman",
+    "PriorityId": 777,
+    "PriorityName": "Batz-Conn",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2013-04-02T16:48:28.3334497+02:00",
+    "ActiveDate": "2020-12-24T14:58:02.8895639+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-03-21T16:48:28.3334497+01:00",
-    "RecurringEndDate": "2019-07-25T16:48:28.3334497+02:00",
-    "MotherId": 374,
-    "AssignedBy": 779,
-    "AssignedByFullName": "Miss Howell Wiegand",
+    "RecurringStartDate": "2007-06-17T14:58:02.8895639+02:00",
+    "RecurringEndDate": "2011-07-23T14:58:02.8895639+02:00",
+    "MotherId": 747,
+    "AssignedBy": 260,
+    "AssignedByFullName": "Kiel Friesen",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "architecto",
-    "SaleId": 434,
-    "SaleName": "Goodwin Group",
-    "AssociateName": "Funk, Goldner and Funk",
-    "CreatedDate": "2009-08-29T16:48:28.3344497+02:00",
-    "CreatedBy": "inventore",
-    "CreatedByFullName": "Kallie Gibson",
-    "CreatedByAssociateId": 384,
+    "Location": "laudantium",
+    "AlarmLeadTime": "exercitationem",
+    "SaleId": 549,
+    "SaleName": "Lind Group",
+    "AssociateName": "Gerhold-Bosco",
+    "CreatedDate": "2010-07-07T14:58:02.8895639+02:00",
+    "CreatedBy": "aperiam",
+    "CreatedByFullName": "Candida Lebsack MD",
+    "CreatedByAssociateId": 806,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

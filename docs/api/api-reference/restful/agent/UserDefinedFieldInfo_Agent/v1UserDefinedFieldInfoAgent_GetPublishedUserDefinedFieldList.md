@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
+title: GetPublishedUserDefinedFieldList
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
+# GetPublishedUserDefinedFieldList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
@@ -120,43 +120,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 135,
-    "ColumnId": 502,
-    "FieldDefault": "dicta",
-    "FieldHeight": 949,
-    "FieldLabel": "delectus",
-    "FieldLeft": 495,
-    "FieldTop": 856,
+    "UDefFieldId": 537,
+    "ColumnId": 632,
+    "FieldDefault": "illo",
+    "FieldHeight": 946,
+    "FieldLabel": "repellendus",
+    "FieldLeft": 638,
+    "FieldTop": 289,
     "FieldType": "Checkbox",
-    "FieldWidth": 459,
-    "FormatMask": "ad",
+    "FieldWidth": 533,
+    "FormatMask": "esse",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 621,
-    "LabelLeft": 139,
-    "LabelTop": 322,
-    "LabelWidth": 695,
-    "LastVersionId": 332,
-    "ListTableId": 484,
+    "IsIndexed": true,
+    "LabelHeight": 836,
+    "LabelLeft": 928,
+    "LabelTop": 508,
+    "LabelWidth": 604,
+    "LastVersionId": 535,
+    "ListTableId": 526,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 622,
-    "ProgId": "possimus",
-    "IsReadOnly": true,
-    "ShortLabel": "dolor",
-    "TabOrder": 422,
-    "TextLength": 80,
-    "Tooltip": "et",
-    "UdefIdentity": 324,
-    "UDListDefinitionId": 283,
+    "Page1LineNo": 614,
+    "ProgId": "id",
+    "IsReadOnly": false,
+    "ShortLabel": "esse",
+    "TabOrder": 675,
+    "TextLength": 39,
+    "Tooltip": "totam",
+    "UdefIdentity": 685,
+    "UDListDefinitionId": 799,
     "Justification": "Center",
-    "Version": 192,
-    "TemplateVariableName": "Mayer-Batz",
-    "HasBeenPublished": true,
-    "MdoListName": "Hoeger, Heller and Wisoky",
+    "Version": 705,
+    "TemplateVariableName": "Leffler-Kris",
+    "HasBeenPublished": false,
+    "MdoListName": "Windler LLC",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "engage visionary e-markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

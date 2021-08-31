@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/CheckIfCustomizedTemplates
+title: CheckIfCustomizedTemplates
 id: v1CustomerServiceAgent_CheckIfCustomizedTemplates
 ---
 
-# POST Agents/CustomerService/CheckIfCustomizedTemplates
+# CheckIfCustomizedTemplates
 
 ```http
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates

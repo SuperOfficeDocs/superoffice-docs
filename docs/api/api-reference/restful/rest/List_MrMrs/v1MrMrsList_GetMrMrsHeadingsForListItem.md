@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Predovic-Schuppe",
-    "ToolTip": "Corrupti molestiae veritatis necessitatibus totam animi.",
+    "Id": 307,
+    "Name": "Witting Group",
+    "ToolTip": "Officia autem eveniet aliquam sit vel.",
     "Deleted": true,
-    "Rank": 978,
-    "Type": "soluta",
-    "ColorBlock": 917,
-    "IconHint": "quos",
+    "Rank": 524,
+    "Type": "dolores",
+    "ColorBlock": 964,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "1998-11-10T09:41:00.4653841+01:00",
+    "LastChanged": "1999-10-18T15:05:43.5290798+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Sporer, Blanda and Sipes",
-        "ToolTip": "Sequi aut rerum.",
+        "Id": 454,
+        "Name": "Ward Group",
+        "ToolTip": "Deserunt non deleniti eligendi dignissimos accusantium natus.",
         "Deleted": true,
-        "Rank": 973,
-        "Type": "veniam",
-        "ColorBlock": 258,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2003-01-10T09:41:00.4653841+01:00",
+        "Rank": 429,
+        "Type": "sed",
+        "ColorBlock": 700,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2018-04-16T15:05:43.5300798+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Mrs. Toy O'Connell",
+        "ExtraInfo": "impedit",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Trudie Sipes",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 284
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "officiis",
+    "ExtraInfo": "unde",
+    "StyleHint": "architecto",
     "Hidden": true,
-    "FullName": "Lilla Yundt",
+    "FullName": "Berniece O'Kon",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldLength": 913
       }
     }
   }

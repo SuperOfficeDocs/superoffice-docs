@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetShipmentMessageEntity
+title: GetShipmentMessageEntity
 id: v1MarketingAgent_GetShipmentMessageEntity
 ---
 
-# POST Agents/Marketing/GetShipmentMessageEntity
+# GetShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=172
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=207
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -99,39 +99,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 597,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "praesentium",
-  "SmsMessage": "qui",
-  "Description": "Ergonomic human-resource flexibility",
-  "Subject": "corrupti",
-  "FolderId": 67,
-  "HeaderField": "reiciendis",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 94,
+  "PlainMessage": "eligendi",
+  "HtmlMessage": "ducimus",
+  "SmsMessage": "unde",
+  "Description": "Networked composite knowledge user",
+  "Subject": "in",
+  "FolderId": 263,
+  "HeaderField": "error",
+  "Design": "amet",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Optional system-worthy hierarchy",
-  "AccessKey": "repellendus",
-  "DocumentMessage": 730,
-  "Registered": "2019-05-23T16:48:29.9589333+02:00",
-  "RegisteredAssociateId": 665,
-  "Updated": "1993-12-05T16:48:29.9589333+01:00",
-  "UpdatedAssociateId": 867,
-  "UpdatedCount": 663,
+  "LongDescription": "Networked bottom-line hardware",
+  "AccessKey": "omnis",
+  "DocumentMessage": 846,
+  "Registered": "2012-05-01T14:58:04.4984653+02:00",
+  "RegisteredAssociateId": 738,
+  "Updated": "2004-09-06T14:58:04.4984653+02:00",
+  "UpdatedAssociateId": 696,
+  "UpdatedCount": 349,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "strategize synergistic paradigms"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "envisioneer global content"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

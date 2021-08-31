@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/DeleteProduct
+title: DeleteProduct
 id: v1QuoteAgent_DeleteProduct
 ---
 
-# POST Agents/Quote/DeleteProduct
+# DeleteProduct
 
 ```http
 POST /api/v1/Agents/Quote/DeleteProduct
@@ -24,7 +24,7 @@ Deletes the Product
 | ProductId | int32 | **Required** The id of the Product to be deleted. |
 
 ```http
-POST /api/v1/Agents/Quote/DeleteProduct?ProductId=756
+POST /api/v1/Agents/Quote/DeleteProduct?ProductId=540
 ```
 
 

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/SetContactImage
+title: SetContactImage
 id: v1BLOBAgent_SetContactImage
 ---
 
-# POST Agents/BLOB/SetContactImage
+# SetContactImage
 
 ```http
 POST /api/v1/Agents/BLOB/SetContactImage

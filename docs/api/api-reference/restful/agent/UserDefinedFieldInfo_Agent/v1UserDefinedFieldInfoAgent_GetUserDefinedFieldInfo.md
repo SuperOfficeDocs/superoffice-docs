@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
+title: GetUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
 ---
 
-# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
+# GetUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=305
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=975
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -112,40 +112,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 310,
-  "ColumnId": 982,
-  "FieldDefault": "sint",
-  "FieldHeight": 327,
-  "FieldLabel": "deserunt",
-  "FieldLeft": 30,
-  "FieldTop": 958,
+  "UDefFieldId": 347,
+  "ColumnId": 879,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 353,
+  "FieldLabel": "velit",
+  "FieldLeft": 432,
+  "FieldTop": 909,
   "FieldType": "Checkbox",
-  "FieldWidth": 360,
-  "FormatMask": "sequi",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 615,
-  "LabelLeft": 490,
-  "LabelTop": 70,
-  "LabelWidth": 838,
-  "LastVersionId": 988,
-  "ListTableId": 211,
-  "IsMandatory": false,
+  "FieldWidth": 284,
+  "FormatMask": "nulla",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 40,
+  "LabelLeft": 311,
+  "LabelTop": 978,
+  "LabelWidth": 417,
+  "LastVersionId": 683,
+  "ListTableId": 611,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 780,
-  "ProgId": "labore",
-  "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 700,
-  "TextLength": 622,
-  "Tooltip": "est",
-  "UdefIdentity": 19,
-  "UDListDefinitionId": 41,
+  "Page1LineNo": 319,
+  "ProgId": "voluptate",
+  "IsReadOnly": true,
+  "ShortLabel": "culpa",
+  "TabOrder": 224,
+  "TextLength": 306,
+  "Tooltip": "quis",
+  "UdefIdentity": 112,
+  "UDListDefinitionId": 706,
   "Justification": "Center",
-  "Version": 262,
-  "TemplateVariableName": "Lynch, Senger and Cormier",
-  "HasBeenPublished": false,
-  "MdoListName": "Mitchell-Zboncak",
+  "Version": 519,
+  "TemplateVariableName": "Gottlieb-Mertz",
+  "HasBeenPublished": true,
+  "MdoListName": "Padberg-Schowalter",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

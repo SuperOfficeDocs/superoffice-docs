@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetFromListDefinition
+title: GetFromListDefinition
 id: v1ListAgent_GetFromListDefinition
 ---
 
-# POST Agents/List/GetFromListDefinition
+# GetFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetFromListDefinition
@@ -84,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "UdListDefinitionId": 251
+  "Id": 932,
+  "UdListDefinitionId": 593
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Dickens-Cruickshank",
-  "Tooltip": "est",
+  "Id": 874,
+  "Name": "Konopelski-Jacobi",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "UdListDefinitionId": 176,
-  "Rank": 44,
+  "UdListDefinitionId": 473,
+  "Rank": 569,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

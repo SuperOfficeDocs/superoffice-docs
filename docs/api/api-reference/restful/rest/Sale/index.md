@@ -2,6 +2,8 @@
 title: Sale
 ---
 
+# Sale
+
 ```http
 /api/v1/Sale
 ```

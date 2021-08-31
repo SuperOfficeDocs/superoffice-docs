@@ -28,7 +28,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "O'Reilly Group",
-    "ToolTip": "Quod corrupti ducimus aspernatur voluptas.",
-    "Deleted": true,
-    "Rank": 155,
-    "Type": "pariatur",
-    "ColorBlock": 745,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2007-11-28T09:41:00.8333872+01:00",
+    "Id": 751,
+    "Name": "Gerhold LLC",
+    "ToolTip": "Tenetur temporibus laudantium dignissimos ab.",
+    "Deleted": false,
+    "Rank": 648,
+    "Type": "quo",
+    "ColorBlock": 725,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2004-04-16T15:05:43.8951226+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Kulas-Schaefer",
-        "ToolTip": "Nobis modi id.",
-        "Deleted": false,
-        "Rank": 719,
-        "Type": "molestiae",
-        "ColorBlock": 327,
-        "IconHint": "nesciunt",
+        "Id": 392,
+        "Name": "Schroeder Inc and Sons",
+        "ToolTip": "Harum consequuntur delectus aliquam excepturi cum fugit.",
+        "Deleted": true,
+        "Rank": 624,
+        "Type": "qui",
+        "ColorBlock": 283,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "1996-06-09T09:41:00.8333872+02:00",
+        "LastChanged": "1995-05-27T15:05:43.8951226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "omnis",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Davonte Lebsack",
+        "FullName": "Eloise Veum",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Genesis Cummerata",
+    "ExtraInfo": "libero",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Alba Kris",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

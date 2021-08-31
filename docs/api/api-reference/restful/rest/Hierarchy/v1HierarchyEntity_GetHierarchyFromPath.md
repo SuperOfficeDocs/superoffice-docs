@@ -91,43 +91,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 305,
+  "HierarchyId": 217,
   "Domain": "Dashboards",
-  "Name": "Kilback, Kling and Walter",
-  "Fullname": "at",
-  "ParentId": 873,
+  "Name": "West, Maggio and Bergstrom",
+  "Fullname": "ullam",
+  "ParentId": 190,
   "Children": [
     {
-      "HierarchyId": 24,
+      "HierarchyId": 478,
       "Domain": "Dashboards",
-      "Name": "Altenwerth Group",
-      "Fullname": "ut",
-      "ParentId": 199,
+      "Name": "Goldner Group",
+      "Fullname": "aspernatur",
+      "ParentId": 895,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-09-19T09:40:59.239663+02:00",
-      "RegisteredAssociateId": 558,
-      "Updated": "1999-12-28T09:40:59.239663+01:00",
-      "UpdatedAssociateId": 524,
+      "Registered": "1999-09-30T15:05:42.2556678+02:00",
+      "RegisteredAssociateId": 520,
+      "Updated": "2004-06-02T15:05:42.2556678+02:00",
+      "UpdatedAssociateId": 552,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "visualize transparent functionalities"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
   ],
-  "Registered": "2013-10-01T09:40:59.239663+02:00",
-  "RegisteredAssociateId": 305,
-  "Updated": "2010-09-26T09:40:59.239663+02:00",
-  "UpdatedAssociateId": 551,
+  "Registered": "2000-02-20T15:05:42.2556678+01:00",
+  "RegisteredAssociateId": 821,
+  "Updated": "2011-06-06T15:05:42.2556678+02:00",
+  "UpdatedAssociateId": 302,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "transition rich technologies"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

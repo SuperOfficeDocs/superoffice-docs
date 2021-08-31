@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetColleagues
+title: GetColleagues
 id: v1PersonAgent_GetColleagues
 ---
 
-# POST Agents/Person/GetColleagues
+# GetColleagues
 
 ```http
 POST /api/v1/Agents/Person/GetColleagues
@@ -103,7 +103,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -112,45 +112,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eligendi",
-    "PersonId": 883,
-    "Mrmrs": "occaecati",
-    "Firstname": "Darion",
-    "Lastname": "Friesen",
-    "MiddleName": "Yost LLC",
-    "Title": "blanditiis",
-    "Description": "Monitored upward-trending Graphical User Interface",
-    "Email": "noel@streich.name",
-    "FullName": "Lilian Dooley",
-    "DirectPhone": "811.356.7560",
-    "FormalName": "Bosco, Franecki and Roberts",
-    "CountryId": 191,
-    "ContactId": 624,
-    "ContactName": "Kirlin Inc and Sons",
-    "Retired": 9,
-    "Rank": 931,
-    "ActiveInterests": 106,
+    "Position": "voluptatem",
+    "PersonId": 81,
+    "Mrmrs": "molestias",
+    "Firstname": "Cassandra",
+    "Lastname": "Osinski",
+    "MiddleName": "Sipes-Hagenes",
+    "Title": "aut",
+    "Description": "Progressive global firmware",
+    "Email": "grover.anderson@ondricka.com",
+    "FullName": "Monique Durgan",
+    "DirectPhone": "166-323-4221",
+    "FormalName": "Mueller, O'Connell and Feil",
+    "CountryId": 290,
+    "ContactId": 854,
+    "ContactName": "Kilback Inc and Sons",
+    "Retired": 320,
+    "Rank": 667,
+    "ActiveInterests": 262,
     "ContactDepartment": "",
-    "ContactCountryId": 3,
-    "ContactOrgNr": "1040097",
-    "FaxPhone": "613-706-3500",
-    "MobilePhone": "1-356-768-4242 x6780",
-    "ContactPhone": "137.117.0403 x317",
-    "AssociateName": "Veum-Collier",
-    "AssociateId": 120,
-    "UsePersonAddress": false,
-    "ContactFax": "aut",
-    "Kanafname": "suscipit",
-    "Kanalname": "nihil",
-    "Post1": "quas",
-    "Post2": "illo",
-    "Post3": "architecto",
-    "EmailName": "francesco@kutch.info",
-    "ContactFullName": "Theodora Skiles",
-    "ActiveErpLinks": 270,
-    "TicketPriorityId": 63,
-    "SupportLanguageId": 566,
-    "SupportAssociateId": 475,
+    "ContactCountryId": 85,
+    "ContactOrgNr": "1009961",
+    "FaxPhone": "231.122.8470",
+    "MobilePhone": "1-261-104-4738 x36834",
+    "ContactPhone": "(471)651-8171 x85266",
+    "AssociateName": "Sawayn-Goyette",
+    "AssociateId": 119,
+    "UsePersonAddress": true,
+    "ContactFax": "atque",
+    "Kanafname": "sunt",
+    "Kanalname": "aut",
+    "Post1": "dolores",
+    "Post2": "nihil",
+    "Post3": "facere",
+    "EmailName": "harley.padberg@howell.info",
+    "ContactFullName": "Mrs. Shyanne Lehner",
+    "ActiveErpLinks": 870,
+    "TicketPriorityId": 511,
+    "SupportLanguageId": 669,
+    "SupportAssociateId": 202,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldType": "System.Int32",
+        "FieldLength": 752
       }
     }
   }

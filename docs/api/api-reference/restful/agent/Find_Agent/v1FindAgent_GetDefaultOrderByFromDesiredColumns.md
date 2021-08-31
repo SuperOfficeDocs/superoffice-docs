@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetDefaultOrderByFromDesiredColumns
+title: GetDefaultOrderByFromDesiredColumns
 id: v1FindAgent_GetDefaultOrderByFromDesiredColumns
 ---
 
-# POST Agents/Find/GetDefaultOrderByFromDesiredColumns
+# GetDefaultOrderByFromDesiredColumns
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Corwin LLC",
+  "ProviderName": "Ledner LLC",
   "DesiredColumns": [
-    "sint",
-    "illo"
+    "qui",
+    "neque"
   ]
 }
 ```
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobi LLC",
+    "Name": "Bradtke-Rolfson",
     "Direction": "ASC"
   },
   {
-    "Name": "Jacobi LLC",
+    "Name": "Bradtke-Rolfson",
     "Direction": "ASC"
   }
 ]

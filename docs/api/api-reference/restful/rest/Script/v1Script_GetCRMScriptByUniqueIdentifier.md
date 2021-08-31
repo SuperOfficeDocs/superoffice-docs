@@ -40,7 +40,7 @@ Get information about a script from a unique identifier
 
 ## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object.
+The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
 
 
 
@@ -74,7 +74,7 @@ Response body: object
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,16 +82,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ea",
-  "Name": "Witting, Gusikowski and Conn",
-  "Description": "Virtual mission-critical framework",
-  "IncludeId": "quam",
-  "Source": "vero",
-  "Registered": "2001-09-27T09:41:00.0010654+02:00",
-  "RegisteredBy": "et",
-  "Updated": "1999-10-13T09:41:00.0010654+02:00",
-  "UpdatedBy": "delectus",
-  "Path": "neque",
+  "UniqueIdentifier": "doloribus",
+  "Name": "Kuhlman, Russel and Predovic",
+  "Description": "Inverse web-enabled extranet",
+  "IncludeId": "sed",
+  "Source": "id",
+  "Registered": "1994-04-20T15:05:43.0828282+02:00",
+  "RegisteredBy": "ducimus",
+  "Updated": "2010-11-21T15:05:43.0828282+01:00",
+  "UpdatedBy": "doloremque",
+  "Path": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 28
     }
   }
 }

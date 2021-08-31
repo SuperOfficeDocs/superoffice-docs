@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateTask
+title: GetDocumentTemplateTask
 id: v1ListAgent_GetDocumentTemplateTask
 ---
 
-# POST Agents/List/GetDocumentTemplateTask
+# GetDocumentTemplateTask
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateTask
@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 59
+  "DocumentTemplateId": 46
 }
 ```
 
@@ -93,9 +93,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Value": "voluptates",
-  "Tooltip": "rem",
+  "Id": 826,
+  "Value": "molestiae",
+  "Tooltip": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 522
     }
   }
 }

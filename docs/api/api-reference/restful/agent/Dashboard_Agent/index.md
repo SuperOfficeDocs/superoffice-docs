@@ -2,6 +2,8 @@
 title: Dashboard_Agent
 ---
 
+# Dashboard_Agent
+
 ```http
 /api/v1/Dashboard/Agent
 ```
@@ -9,32 +11,32 @@ title: Dashboard_Agent
 
 
 
-* [POST Agents/Dashboard/CreateDefaultDashboard](v1DashboardAgent_CreateDefaultDashboard.md)
+* [CreateDefaultDashboard](v1DashboardAgent_CreateDefaultDashboard.md)
 
-* [POST Agents/Dashboard/SaveDashboard](v1DashboardAgent_SaveDashboard.md)
+* [SaveDashboard](v1DashboardAgent_SaveDashboard.md)
 
-* [POST Agents/Dashboard/DeleteDashboard](v1DashboardAgent_DeleteDashboard.md)
+* [DeleteDashboard](v1DashboardAgent_DeleteDashboard.md)
 
-* [POST Agents/Dashboard/CreateDefaultDashboardTile](v1DashboardAgent_CreateDefaultDashboardTile.md)
+* [CreateDefaultDashboardTile](v1DashboardAgent_CreateDefaultDashboardTile.md)
 
-* [POST Agents/Dashboard/SaveDashboardTile](v1DashboardAgent_SaveDashboardTile.md)
+* [SaveDashboardTile](v1DashboardAgent_SaveDashboardTile.md)
 
-* [POST Agents/Dashboard/DeleteDashboardTile](v1DashboardAgent_DeleteDashboardTile.md)
+* [DeleteDashboardTile](v1DashboardAgent_DeleteDashboardTile.md)
 
-* [POST Agents/Dashboard/GetDashboard](v1DashboardAgent_GetDashboard.md)
+* [GetDashboard](v1DashboardAgent_GetDashboard.md)
 
-* [POST Agents/Dashboard/GetDashboards](v1DashboardAgent_GetDashboards.md)
+* [GetDashboards](v1DashboardAgent_GetDashboards.md)
 
-* [POST Agents/Dashboard/SetTile](v1DashboardAgent_SetTile.md)
+* [SetTile](v1DashboardAgent_SetTile.md)
 
-* [POST Agents/Dashboard/GetDashboardTile](v1DashboardAgent_GetDashboardTile.md)
+* [GetDashboardTile](v1DashboardAgent_GetDashboardTile.md)
 
-* [POST Agents/Dashboard/GetDashboardTiles](v1DashboardAgent_GetDashboardTiles.md)
+* [GetDashboardTiles](v1DashboardAgent_GetDashboardTiles.md)
 
-* [POST Agents/Dashboard/GetStandardDashboardTileFromChartId](v1DashboardAgent_GetStandardDashboardTileFromChartId.md)
+* [GetStandardDashboardTileFromChartId](v1DashboardAgent_GetStandardDashboardTileFromChartId.md)
 
-* [POST Agents/Dashboard/GetData](v1DashboardAgent_GetData.md)
+* [GetData](v1DashboardAgent_GetData.md)
 
-* [POST Agents/Dashboard/CreateNewFromTemplate](v1DashboardAgent_CreateNewFromTemplate.md)
+* [CreateNewFromTemplate](v1DashboardAgent_CreateNewFromTemplate.md)
 
-* [POST Agents/Dashboard/GetDataWithSelection](v1DashboardAgent_GetDataWithSelection.md)
+* [GetDataWithSelection](v1DashboardAgent_GetDataWithSelection.md)

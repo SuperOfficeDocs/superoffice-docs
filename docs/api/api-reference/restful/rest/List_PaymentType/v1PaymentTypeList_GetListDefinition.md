@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 45,
-  "Name": "Mraz Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 499,
+  "Id": 212,
+  "Name": "Greenfelder, Schmeler and Reichert",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 828,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "empower dynamic infrastructures"
+    "Reason": "evolve strategic methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldLength": 238
     }
   },
   "_Links": {

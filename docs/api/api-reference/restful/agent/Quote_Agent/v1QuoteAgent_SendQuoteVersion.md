@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SendQuoteVersion
+title: SendQuoteVersion
 id: v1QuoteAgent_SendQuoteVersion
 ---
 
-# POST Agents/Quote/SendQuoteVersion
+# SendQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/SendQuoteVersion
@@ -87,15 +87,15 @@ Response body: object
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 844,
-  "ExpiryDate": "1994-10-13T16:48:30.4199346+02:00",
-  "FollowupDate": "2017-09-13T16:48:30.4199346+02:00",
-  "FollowupText": "praesentium",
-  "Culture": "ipsum"
+  "QuoteVersionId": 422,
+  "ExpiryDate": "2012-09-20T14:58:04.9394596+02:00",
+  "FollowupDate": "1996-06-10T14:58:04.9394596+02:00",
+  "FollowupText": "quia",
+  "Culture": "ut"
 }
 ```
 
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "minus",
-  "TechExplanation": "necessitatibus",
-  "ErrorCode": "illo",
+  "UserExplanation": "aut",
+  "TechExplanation": "rerum",
+  "ErrorCode": "consequatur",
   "Changes": {
     "AddedRecords": [
       {},
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldType": "System.String",
+        "FieldLength": 231
       }
     }
   },
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

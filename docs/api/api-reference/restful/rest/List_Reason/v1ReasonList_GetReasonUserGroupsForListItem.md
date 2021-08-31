@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Bode LLC",
-    "ToolTip": "Quae voluptatem non debitis.",
+    "Id": 726,
+    "Name": "Gislason-Blick",
+    "ToolTip": "Ex aut occaecati ut.",
     "Deleted": true,
-    "Rank": 370,
-    "Type": "alias",
-    "ColorBlock": 211,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "1997-04-04T09:41:00.6843876+02:00",
+    "Rank": 980,
+    "Type": "ipsum",
+    "ColorBlock": 839,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "1998-06-14T15:05:43.7441217+02:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Beatty-Krajcik",
-        "ToolTip": "Dolore voluptate sed molestiae voluptas quia voluptatem.",
-        "Deleted": false,
-        "Rank": 246,
-        "Type": "impedit",
-        "ColorBlock": 863,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2015-09-25T09:41:00.6843876+02:00",
+        "Id": 211,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Animi velit voluptas.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "ipsam",
+        "ColorBlock": 637,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "1996-09-29T15:05:43.7441217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Jordane Jewess",
+        "ExtraInfo": "earum",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Abagail Rosenbaum",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 166
+            "FieldType": "System.Int32",
+            "FieldLength": 121
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Robb Connelly PhD",
+    "ExtraInfo": "ab",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Elinore Considine",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 860
       }
     }
   }

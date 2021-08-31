@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/DeleteFolder
+title: DeleteFolder
 id: v1EMailAgent_DeleteFolder
 ---
 
-# POST Agents/EMail/DeleteFolder
+# DeleteFolder
 
 ```http
 POST /api/v1/Agents/EMail/DeleteFolder

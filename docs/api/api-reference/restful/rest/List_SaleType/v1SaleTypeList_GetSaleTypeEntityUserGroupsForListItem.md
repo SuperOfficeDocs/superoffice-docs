@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Flatley-Lang",
-    "ToolTip": "Minima voluptas tempore iusto necessitatibus est.",
-    "Deleted": false,
-    "Rank": 59,
-    "Type": "nihil",
-    "ColorBlock": 987,
-    "IconHint": "qui",
+    "Id": 5,
+    "Name": "Oberbrunner-Witting",
+    "ToolTip": "Voluptates eum optio ut libero tenetur.",
+    "Deleted": true,
+    "Rank": 406,
+    "Type": "possimus",
+    "ColorBlock": 265,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2013-10-09T09:41:00.7363872+02:00",
+    "LastChanged": "2011-03-04T15:05:43.7971177+01:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Hudson, Beer and Heaney",
-        "ToolTip": "Nihil at non debitis et.",
-        "Deleted": false,
-        "Rank": 518,
-        "Type": "molestiae",
-        "ColorBlock": 315,
-        "IconHint": "blanditiis",
+        "Id": 973,
+        "Name": "Schumm, Towne and Lowe",
+        "ToolTip": "Repellat tempora non.",
+        "Deleted": true,
+        "Rank": 421,
+        "Type": "sint",
+        "ColorBlock": 467,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2017-07-09T09:41:00.7363872+02:00",
+        "LastChanged": "1996-07-20T15:05:43.7971177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "qui",
+        "ExtraInfo": "sunt",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Ted Smith",
+        "FullName": "Ruthie Johnson",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 890
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "porro",
+    "ExtraInfo": "omnis",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Cathy Botsford PhD",
+    "FullName": "Lionel Roob III",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 252
       }
     }
   }

@@ -68,7 +68,7 @@ Response body: array
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,30 +77,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 431,
-    "ParentId": 515,
-    "Name": "Leffler-Effertz",
-    "Fullname": "magnam",
-    "CategoryMaster": 484,
+    "TicketCategoryId": 170,
+    "ParentId": 957,
+    "Name": "Trantow, Walsh and Wiza",
+    "Fullname": "sed",
+    "CategoryMaster": 914,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Mann Group",
+    "ExternalName": "Turner Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 569,
-    "ReplyTemplate": 985,
-    "NotificationEmail": "horace@lynch.name",
+    "AssignmentLag": 810,
+    "ReplyTemplate": 680,
+    "NotificationEmail": "vivienne_parisian@wolffhegmann.com",
     "ExtraFields": {
-      "ExtraFields1": "officiis",
-      "ExtraFields2": "nemo"
+      "ExtraFields1": "ad",
+      "ExtraFields2": "cumque"
     },
     "CustomFields": {
-      "CustomFields1": "minima",
-      "CustomFields2": "autem"
+      "CustomFields1": "unde",
+      "CustomFields2": "ut"
     },
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transition scalable systems"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

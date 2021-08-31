@@ -25,20 +25,20 @@ g. by email or sms
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| to | array | **Required** The To-recipients. Each recipient must be in correct format |
+| to | array | **Required** The To-recipients. Each recipient must be in correct format: e-mail address or phone number |
 | cc | array | **Required** The Cc-recipients. Each recipient must be in correct format |
 | bcc | array | **Required** The Bcc-recipients. Each recipient must be in correct format |
-| subject | string | **Required** The subject |
-| replyTemplateId | int32 | **Required** Optional ID of reply template to merge message with. &lt;= 0 to skip. |
-| gdprSource | string | **Required** Optional GdprSource string which will be stored for newly created Persons. Blank value will give Gdpr source: API. |
+| subject | string |  The subject |
+| replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
+| gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=illum,quidem
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=aperiam,non
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=consequatur,et
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=magni
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=838
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=iste
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=esse,dolore
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=repellat,dolorem
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=est,occaecati
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=eius
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=324
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=et
 ```
 
 

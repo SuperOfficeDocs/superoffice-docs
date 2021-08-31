@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/SetDefaultPersonImage
+title: SetDefaultPersonImage
 id: v1AudienceAgent_SetDefaultPersonImage
 ---
 
-# POST Agents/Audience/SetDefaultPersonImage
+# SetDefaultPersonImage
 
 ```http
 POST /api/v1/Agents/Audience/SetDefaultPersonImage

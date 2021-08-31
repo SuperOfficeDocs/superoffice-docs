@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Goldner Group",
-    "ToolTip": "Sequi et aliquam.",
-    "Deleted": false,
-    "Rank": 59,
-    "Type": "vero",
-    "ColorBlock": 315,
-    "IconHint": "et",
+    "Id": 687,
+    "Name": "Keebler-Marvin",
+    "ToolTip": "Vel ex et eius dolore omnis similique.",
+    "Deleted": true,
+    "Rank": 270,
+    "Type": "et",
+    "ColorBlock": 966,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2011-11-29T09:41:00.5283879+01:00",
+    "LastChanged": "2007-11-10T15:05:43.59708+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Jakubowski Inc and Sons",
-        "ToolTip": "Eligendi sapiente tempore maxime quibusdam.",
+        "Id": 389,
+        "Name": "Cole-Wilderman",
+        "ToolTip": "Natus eos iusto totam quibusdam nisi soluta.",
         "Deleted": false,
-        "Rank": 685,
-        "Type": "iste",
-        "ColorBlock": 261,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2000-05-22T09:41:00.5283879+02:00",
+        "Rank": 328,
+        "Type": "quod",
+        "ColorBlock": 928,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2008-10-10T15:05:43.59708+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Cordie Boyer",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Dr. Jedidiah O'Conner",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "maximize best-of-breed e-tailers"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Queenie Auer",
+    "ExtraInfo": "repellat",
+    "StyleHint": "eius",
+    "Hidden": false,
+    "FullName": "Ivy Durgan",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

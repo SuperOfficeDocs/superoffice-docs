@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultDocumentTemplateEntity
+title: CreateDefaultDocumentTemplateEntity
 id: v1ListAgent_CreateDefaultDocumentTemplateEntity
 ---
 
-# POST Agents/List/CreateDefaultDocumentTemplateEntity
+# CreateDefaultDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 316,
-  "Name": "Quitzon Group",
-  "Tooltip": "porro",
-  "SaveInDb": 567,
-  "Filename": "pariatur",
-  "DefaultOref": "autem",
+  "DocumentTemplateId": 385,
+  "Name": "Stamm-Torp",
+  "Tooltip": "laudantium",
+  "SaveInDb": 1001,
+  "Filename": "aspernatur",
+  "DefaultOref": "neque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 296,
-  "IntentId": 192,
-  "IsDefaultPublished": false,
-  "Rank": 102,
-  "LoadTemplateFromPlugin": 692,
-  "MimeType": "perferendis",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 221,
+  "AutoeventId": 238,
+  "IntentId": 996,
+  "IsDefaultPublished": true,
+  "Rank": 564,
+  "LoadTemplateFromPlugin": 120,
+  "MimeType": "ut",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 475,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dianna@strackewisozk.name",
+  "EmailSubject": "lizeth@millerleuschke.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "josephine@kertzmann.info",
+  "SenderEmailAddress": "antoinette@stoltenberg.name",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 404
     }
   }
 }

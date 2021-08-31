@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BulkUpdate/ExecuteBySelectionId
+title: ExecuteBySelectionId
 id: v1BulkUpdateAgent_ExecuteBySelectionId
 ---
 
-# POST Agents/BulkUpdate/ExecuteBySelectionId
+# ExecuteBySelectionId
 
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
@@ -72,36 +72,36 @@ Response body: int32
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "est",
-      "ValueType": "quo",
+      "Key": "et",
+      "ValueType": "voluptatem",
       "Mandatory": true,
-      "EncodedDisplayName": "Hegmann, Grady and Hermann",
-      "EncodedDisplayDescription": "Organized client-driven analyzer",
-      "IconHint": "iusto",
+      "EncodedDisplayName": "Haag LLC",
+      "EncodedDisplayDescription": "Automated motivating analyzer",
+      "IconHint": "provident",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "voluptatem",
-      "EncodedDataCaptionDescription": "Multi-layered 4th generation core",
-      "CurrentOperationType": "ut",
+      "EncodedDataCaption": "dolores",
+      "EncodedDataCaptionDescription": "Organized fresh-thinking algorithm",
+      "CurrentOperationType": "illum",
       "Values": [
-        "dolore",
-        "et"
+        "nesciunt",
+        "facere"
       ],
       "DisplayValues": [
-        "minima",
-        "nesciunt"
+        "placeat",
+        "similique"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Jacobi-Crist",
-  "Context": "voluptas",
-  "SelectionId": 392,
+  "TableName": "Murray-Gerhold",
+  "Context": "dolorem",
+  "SelectionId": 502,
   "IsShadow": false
 }
 ```
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-274
+774
 ```

@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 163,
-  "Name": "Hahn-Marquardt",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 665,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 427,
+  "Name": "Johnson Group",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 235,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": false
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Abbott, Runte and Ullrich",
-  "Tooltip": "quam",
+  "Id": 146,
+  "Name": "Muller Group",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 66,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 338,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldLength": 798
     }
   }
 }

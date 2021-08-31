@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/GetLicenseStatusFromLicenseServer
+title: GetLicenseStatusFromLicenseServer
 id: v1LicenseAgent_GetLicenseStatusFromLicenseServer
 ---
 
-# POST Agents/License/GetLicenseStatusFromLicenseServer
+# GetLicenseStatusFromLicenseServer
 
 ```http
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
@@ -73,11 +73,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kshlerin, O'Reilly and Reilly"
+  "OwnerName": "Simonis-Aufderhar"
 }
 ```
 
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "voluptatem",
+  "Message": "esse",
   "Url": "http://www.example.com/"
 }
 ```

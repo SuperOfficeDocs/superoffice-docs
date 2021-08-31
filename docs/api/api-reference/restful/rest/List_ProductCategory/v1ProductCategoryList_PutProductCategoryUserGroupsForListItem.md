@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Mueller-Bernier",
-    "ToolTip": "Harum architecto nihil.",
+    "Id": 707,
+    "Name": "Bartoletti-Morar",
+    "ToolTip": "Velit placeat et.",
     "Deleted": true,
-    "Rank": 722,
-    "Type": "quasi",
-    "ColorBlock": 199,
-    "IconHint": "neque",
+    "Rank": 813,
+    "Type": "eum",
+    "ColorBlock": 433,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "1996-06-15T09:41:00.5433789+02:00",
+    "LastChanged": "2011-04-07T15:05:43.6130794+02:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Walter, Pagac and Carroll",
-        "ToolTip": "Dolores quis.",
+        "Id": 416,
+        "Name": "Upton, Hermiston and Schmitt",
+        "ToolTip": "Aliquam quas quo.",
         "Deleted": false,
-        "Rank": 938,
+        "Rank": 150,
         "Type": "est",
-        "ColorBlock": 103,
-        "IconHint": "illum",
+        "ColorBlock": 236,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "1998-02-22T09:41:00.5443819+01:00",
+        "LastChanged": "2002-05-21T15:05:43.6130794+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Margie Frami DVM"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Dion Rohan"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "rerum",
+    "ExtraInfo": "soluta",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Ken Pouros DVM"
+    "FullName": "Dr. Lila Schulist"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Kertzmann Group",
-    "ToolTip": "Ipsa voluptates dolorem quam voluptas.",
-    "Deleted": false,
-    "Rank": 66,
-    "Type": "fugit",
-    "ColorBlock": 557,
-    "IconHint": "magnam",
+    "Id": 798,
+    "Name": "Crona-Johns",
+    "ToolTip": "Inventore debitis eum.",
+    "Deleted": true,
+    "Rank": 634,
+    "Type": "officia",
+    "ColorBlock": 608,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2011-10-03T09:41:00.5463818+02:00",
+    "LastChanged": "2011-04-11T15:05:43.6140796+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Littel-Lebsack",
-        "ToolTip": "Nemo sed quo incidunt est eum natus.",
+        "Id": 680,
+        "Name": "Lubowitz Inc and Sons",
+        "ToolTip": "Maiores quos repudiandae non sequi.",
         "Deleted": false,
-        "Rank": 420,
-        "Type": "magni",
-        "ColorBlock": 679,
-        "IconHint": "neque",
+        "Rank": 490,
+        "Type": "quia",
+        "ColorBlock": 574,
+        "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "2014-08-26T09:41:00.5463818+02:00",
+        "LastChanged": "2005-12-30T15:05:43.6140796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Mrs. Laurel Medhurst",
+        "ExtraInfo": "est",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Dr. Kailyn Douglas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "leverage visionary schemas"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "et",
+    "ExtraInfo": "autem",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Juvenal Douglas",
+    "FullName": "Joel Borer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "brand intuitive bandwidth"
         },
-        "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldType": "System.Int32",
+        "FieldLength": 9
       }
     }
   }

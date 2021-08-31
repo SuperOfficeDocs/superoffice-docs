@@ -117,45 +117,45 @@ Response body: object
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "quia",
     "value": {
       "value1": {
-        "PrimaryKey": 573,
-        "EntityName": "person",
-        "personId": 573,
-        "fullName": "Miss Hank Lowe"
+        "PrimaryKey": 1334,
+        "EntityName": "sale",
+        "saleId": 1334,
+        "contactId": 3066,
+        "name": "Ankunding, Heathcote and Cremin"
       },
       "value2": {
-        "PrimaryKey": 9878,
-        "EntityName": "sale",
-        "saleId": 9878,
-        "contactId": 8126,
-        "name": "Upton-Kessler"
+        "PrimaryKey": 2519,
+        "EntityName": "person",
+        "personId": 2519,
+        "fullName": "Damon McDermott"
       }
     }
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "quia",
     "value": {
       "value1": {
-        "PrimaryKey": 573,
-        "EntityName": "person",
-        "personId": 573,
-        "fullName": "Miss Hank Lowe"
+        "PrimaryKey": 1334,
+        "EntityName": "sale",
+        "saleId": 1334,
+        "contactId": 3066,
+        "name": "Ankunding, Heathcote and Cremin"
       },
       "value2": {
-        "PrimaryKey": 9878,
-        "EntityName": "sale",
-        "saleId": 9878,
-        "contactId": 8126,
-        "name": "Upton-Kessler"
+        "PrimaryKey": 2519,
+        "EntityName": "person",
+        "personId": 2519,
+        "fullName": "Damon McDermott"
       }
     }
   }
@@ -167,14 +167,14 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 369,
-  "AssociateId": 94,
-  "Block": "vel",
-  "Registered": "1997-09-06T09:40:59.754064+02:00",
-  "RegisteredAssociateId": 997,
-  "Updated": "2007-03-12T09:40:59.754064+01:00",
-  "UpdatedAssociateId": 50,
-  "UpdatedCount": 521,
+  "ShipmentMessageBlockId": 65,
+  "AssociateId": 852,
+  "Block": "architecto",
+  "Registered": "2003-09-04T15:05:42.7576622+02:00",
+  "RegisteredAssociateId": 322,
+  "Updated": "2019-01-26T15:05:42.7576622+01:00",
+  "UpdatedAssociateId": 534,
+  "UpdatedCount": 235,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -186,12 +186,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 980
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

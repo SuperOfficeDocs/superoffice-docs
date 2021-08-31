@@ -96,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Mills-McLaughlin",
-    "ToolTip": "In omnis eius animi.",
-    "Deleted": true,
-    "Rank": 388,
-    "Type": "quasi",
-    "ColorBlock": 69,
-    "IconHint": "et",
+    "Id": 815,
+    "Name": "Simonis-Wehner",
+    "ToolTip": "Et vel aperiam eius hic esse autem.",
+    "Deleted": false,
+    "Rank": 900,
+    "Type": "dolores",
+    "ColorBlock": 794,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2001-10-10T09:41:00.1303661+02:00",
+    "LastChanged": "2020-03-04T15:05:43.2108983+01:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Modi reprehenderit sed.",
+        "Id": 749,
+        "Name": "Lubowitz, Kihn and Becker",
+        "ToolTip": "Tempora ullam.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "et",
-        "ColorBlock": 635,
-        "IconHint": "veritatis",
+        "Rank": 26,
+        "Type": "est",
+        "ColorBlock": 767,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2009-10-28T09:41:00.1313612+01:00",
+        "LastChanged": "2012-10-02T15:05:43.2108983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "velit",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Evangeline Muller"
+        "FullName": "Cheyenne Schuster"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Nettie Huel"
+    "ExtraInfo": "pariatur",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Adolphus Hauck"
   }
 ]
 ```
@@ -147,53 +147,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Gerlach, Gerhold and Parisian",
-    "ToolTip": "Ipsam sapiente ratione.",
+    "Id": 538,
+    "Name": "Heaney Group",
+    "ToolTip": "Sapiente possimus sed harum esse et ipsa.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "ut",
-    "ColorBlock": 318,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2015-12-14T09:41:00.1323619+01:00",
+    "Rank": 308,
+    "Type": "error",
+    "ColorBlock": 952,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "1999-04-29T15:05:43.2118983+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Pollich LLC",
-        "ToolTip": "Sit esse qui dolorem corrupti ratione praesentium.",
+        "Id": 654,
+        "Name": "Nitzsche-Spencer",
+        "ToolTip": "Est officia voluptatem delectus.",
         "Deleted": true,
-        "Rank": 820,
-        "Type": "asperiores",
-        "ColorBlock": 333,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2017-01-26T09:41:00.1323619+01:00",
+        "Rank": 402,
+        "Type": "quia",
+        "ColorBlock": 939,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2006-03-09T15:05:43.2118983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "optio",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Delores Larkin DVM",
+        "FullName": "Hermann Johnston",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "harness ubiquitous vortals"
             },
             "FieldType": "System.String",
-            "FieldLength": 620
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dolores",
+    "ExtraInfo": "rerum",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Roosevelt Boyer",
+    "FullName": "Elva Cummings",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 423
       }
     }
   }

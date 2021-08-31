@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 270,
-  "Name": "Kuhic-Graham",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 551,
-  "UdListDefinitionId": 820
+  "HeadingId": 426,
+  "Name": "Miller, Goyette and Luettgen",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "Rank": 201,
+  "UdListDefinitionId": 37
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 211,
-  "Name": "Muller-Rippin",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 874,
-  "UdListDefinitionId": 355,
+  "HeadingId": 394,
+  "Name": "Pfannerstill, Kuhlman and Schaden",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 381,
+  "UdListDefinitionId": 127,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 318
     }
   }
 }

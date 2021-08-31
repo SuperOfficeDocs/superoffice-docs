@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetErpSyncConnectorEntity
+title: GetErpSyncConnectorEntity
 id: v1ErpSyncAgent_GetErpSyncConnectorEntity
 ---
 
-# POST Agents/ErpSync/GetErpSyncConnectorEntity
+# GetErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity
@@ -27,7 +27,7 @@ Gets a ErpSyncConnectorEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=808
+POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=533
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -84,8 +84,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 225,
-  "DisplayName": "Douglas-Schumm",
+  "ErpConnectorId": 719,
+  "DisplayName": "Robel, Gibson and Ward",
   "URL": "http://www.example.com/",
   "Deleted": true,
   "TableRight": {
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

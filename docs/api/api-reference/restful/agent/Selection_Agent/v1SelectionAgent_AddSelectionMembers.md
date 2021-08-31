@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/AddSelectionMembers
+title: AddSelectionMembers
 id: v1SelectionAgent_AddSelectionMembers
 ---
 
-# POST Agents/Selection/AddSelectionMembers
+# AddSelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/AddSelectionMembers
@@ -69,14 +69,14 @@ Response body: int32
 POST /api/v1/Agents/Selection/AddSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 724,
+  "SelectionId": 17,
   "Ids": [
-    974,
-    114
+    223,
+    886
   ]
 }
 ```
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-410
+733
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateExtension
+title: GetDocumentTemplateExtension
 id: v1ListAgent_GetDocumentTemplateExtension
 ---
 
-# POST Agents/List/GetDocumentTemplateExtension
+# GetDocumentTemplateExtension
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateExtension
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/List/GetDocumentTemplateExtension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 378
+  "DocumentTemplateId": 169
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolor"
+"at"
 ```

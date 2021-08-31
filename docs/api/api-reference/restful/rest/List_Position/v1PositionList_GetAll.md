@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Reilly-Brakus",
-    "Tooltip": "et",
+    "Id": 408,
+    "Name": "Hagenes-McDermott",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 508,
-    "Rank": 336,
+    "UdListDefinitionId": 673,
+    "Rank": 701,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

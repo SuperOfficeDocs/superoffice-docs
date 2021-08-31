@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 703,
-    "Name": "Okuneva LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 540,
-    "UdListDefinitionId": 760,
+    "HeadingId": 723,
+    "Name": "Stehr-Kling",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "Rank": 278,
+    "UdListDefinitionId": 880,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

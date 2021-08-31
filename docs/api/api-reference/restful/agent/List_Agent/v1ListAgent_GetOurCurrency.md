@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetOurCurrency
+title: GetOurCurrency
 id: v1ListAgent_GetOurCurrency
 ---
 
-# POST Agents/List/GetOurCurrency
+# GetOurCurrency
 
 ```http
 POST /api/v1/Agents/List/GetOurCurrency
@@ -67,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/List/GetOurCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 96,
-  "Value": "qui",
-  "Tooltip": "beatae",
+  "Id": 318,
+  "Value": "ipsam",
+  "Tooltip": "quo",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldLength": 836
     }
   }
 }

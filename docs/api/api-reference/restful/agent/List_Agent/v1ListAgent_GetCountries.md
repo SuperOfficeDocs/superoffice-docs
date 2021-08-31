@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetCountries
+title: GetCountries
 id: v1ListAgent_GetCountries
 ---
 
-# POST Agents/List/GetCountries
+# GetCountries
 
 ```http
 POST /api/v1/Agents/List/GetCountries
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 222,
-    "Name": "Marquardt, Hayes and Kemmer",
-    "CurrencyId": 292,
-    "EnglishName": "Corkery, Harris and Rempel",
+    "CountryId": 389,
+    "Name": "Ebert LLC",
+    "CurrencyId": 488,
+    "EnglishName": "Beer Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Switchable even-keeled hardware",
-    "OrgNrText": "1595342",
-    "InterAreaPrefix": "ea",
-    "DialInPrefix": "eum",
-    "ZipPrefix": "possimus",
-    "DomainName": "Marks, Reynolds and Koepp",
-    "AddressLayoutId": 68,
-    "DomesticAddressLayoutId": 443,
-    "ForeignAddressLayoutId": 388,
-    "Rank": 504,
-    "Tooltip": "asperiores",
+    "ImageDescription": "De-engineered multimedia moderator",
+    "OrgNrText": "1211937",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "excepturi",
+    "ZipPrefix": "deleniti",
+    "DomainName": "Bradtke-Morissette",
+    "AddressLayoutId": 940,
+    "DomesticAddressLayoutId": 221,
+    "ForeignAddressLayoutId": 651,
+    "Rank": 812,
+    "Tooltip": "fugiat",
     "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldLength": 53
       }
     }
   }

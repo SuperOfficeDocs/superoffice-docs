@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetListEntityByName
+title: GetListEntityByName
 id: v1ListAgent_GetListEntityByName
 ---
 
-# POST Agents/List/GetListEntityByName
+# GetListEntityByName
 
 ```http
 POST /api/v1/Agents/List/GetListEntityByName
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hettinger, Lebsack and Wiza"
+  "Name": "Harber, Schuster and Sporer"
 }
 ```
 
@@ -100,16 +100,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Bogisich Inc and Sons",
-  "Tooltip": "optio",
+  "Id": 931,
+  "Name": "Christiansen-Dietrich",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "Rank": 342,
+  "Rank": 494,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   }
 }

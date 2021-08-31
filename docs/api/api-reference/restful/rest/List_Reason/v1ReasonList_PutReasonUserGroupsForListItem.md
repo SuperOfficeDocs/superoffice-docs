@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 19,
-    "Name": "Hegmann Inc and Sons",
-    "ToolTip": "Nam cum fugiat mollitia.",
+    "Id": 386,
+    "Name": "O'Hara Group",
+    "ToolTip": "Vitae alias.",
     "Deleted": false,
-    "Rank": 681,
-    "Type": "et",
-    "ColorBlock": 894,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-09-15T09:41:00.6853882+02:00",
+    "Rank": 988,
+    "Type": "dolorum",
+    "ColorBlock": 713,
+    "IconHint": "quibusdam",
+    "Selected": false,
+    "LastChanged": "2006-03-20T15:05:43.7451225+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Kling Inc and Sons",
-        "ToolTip": "Enim consequuntur.",
+        "Id": 467,
+        "Name": "Reichert-Reichert",
+        "ToolTip": "Libero nemo non.",
         "Deleted": true,
-        "Rank": 746,
-        "Type": "architecto",
-        "ColorBlock": 137,
-        "IconHint": "sit",
+        "Rank": 91,
+        "Type": "accusantium",
+        "ColorBlock": 509,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2002-03-20T09:41:00.6853882+01:00",
+        "LastChanged": "2006-08-05T15:05:43.7451225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "possimus",
+        "ExtraInfo": "delectus",
+        "StyleHint": "odit",
         "Hidden": true,
-        "FullName": "Barry Wilkinson"
+        "FullName": "Grace Carter"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Paris Kuhn II"
+    "ExtraInfo": "et",
+    "StyleHint": "atque",
+    "Hidden": false,
+    "FullName": "Jewell Fay"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Cassin, Quigley and Olson",
-    "ToolTip": "Assumenda non.",
-    "Deleted": true,
-    "Rank": 24,
-    "Type": "nemo",
-    "ColorBlock": 894,
-    "IconHint": "quasi",
+    "Id": 184,
+    "Name": "Koelpin, Koepp and Schneider",
+    "ToolTip": "Aut officia repellendus quibusdam.",
+    "Deleted": false,
+    "Rank": 903,
+    "Type": "praesentium",
+    "ColorBlock": 935,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2019-04-18T09:41:00.6863873+02:00",
+    "LastChanged": "2014-09-25T15:05:43.7491227+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Runolfsdottir, Buckridge and Hyatt",
-        "ToolTip": "Doloribus eos consequatur possimus ipsam magni.",
-        "Deleted": false,
-        "Rank": 153,
-        "Type": "perferendis",
-        "ColorBlock": 306,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "1994-12-05T09:41:00.6863873+01:00",
+        "Id": 658,
+        "Name": "Lehner Inc and Sons",
+        "ToolTip": "Illo alias.",
+        "Deleted": true,
+        "Rank": 545,
+        "Type": "id",
+        "ColorBlock": 951,
+        "IconHint": "error",
+        "Selected": true,
+        "LastChanged": "1995-05-07T15:05:43.7491227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Eldred Stokes",
+        "ExtraInfo": "qui",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Armand Krajcik",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 52
+            "FieldType": "System.Int32",
+            "FieldLength": 57
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "esse",
+    "ExtraInfo": "nulla",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Aubrey Conn",
+    "FullName": "Mallie Batz",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldLength": 51
       }
     }
   }

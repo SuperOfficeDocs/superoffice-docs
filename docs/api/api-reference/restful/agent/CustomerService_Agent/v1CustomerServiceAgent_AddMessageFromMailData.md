@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/AddMessageFromMailData
+title: AddMessageFromMailData
 id: v1CustomerServiceAgent_AddMessageFromMailData
 ---
 
-# POST Agents/CustomerService/AddMessageFromMailData
+# AddMessageFromMailData
 
 ```http
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
@@ -86,12 +86,12 @@ Response body: object
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 145,
-  "Data": "excepturi"
+  "TicketId": 741,
+  "Data": "possimus"
 }
 ```
 
@@ -100,14 +100,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 209,
-  "Title": "molestiae",
-  "OwnerName": "Hartmann-Murray",
+  "TicketId": 154,
+  "Title": "laborum",
+  "OwnerName": "Pfannerstill LLC",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Greenfelder, Kuvalis and Koepp",
+  "PriorityName": "Botsford, Volkman and Lakin",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Leuschke-Cartwright",
-  "ContactName": "Prohaska Group",
+  "PersonName": "Sawayn, Dibbert and Fay",
+  "ContactName": "Kautzer-Breitenberg",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldLength": 969
     }
   }
 }

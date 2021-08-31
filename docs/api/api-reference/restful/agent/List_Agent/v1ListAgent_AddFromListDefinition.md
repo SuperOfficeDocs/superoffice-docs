@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/AddFromListDefinition
+title: AddFromListDefinition
 id: v1ListAgent_AddFromListDefinition
 ---
 
-# POST Agents/List/AddFromListDefinition
+# AddFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/AddFromListDefinition
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 303,
+  "UdListDefinitionId": 945,
   "Item": {
-    "Id": 281,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "UdListDefinitionId": 654,
-    "Rank": 835
+    "Id": 359,
+    "Name": "Runte-Brown",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 822,
+    "Rank": 451
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Volkman-Herzog",
-  "Tooltip": "quia",
+  "Id": 469,
+  "Name": "Carroll, Cremin and Reichel",
+  "Tooltip": "exercitationem",
   "Deleted": true,
-  "UdListDefinitionId": 327,
-  "Rank": 720,
+  "UdListDefinitionId": 275,
+  "Rank": 945,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 213
     }
   }
 }

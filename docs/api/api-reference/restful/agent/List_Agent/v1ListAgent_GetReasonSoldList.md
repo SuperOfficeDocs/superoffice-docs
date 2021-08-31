@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetReasonSoldList
+title: GetReasonSoldList
 id: v1ListAgent_GetReasonSoldList
 ---
 
-# POST Agents/List/GetReasonSoldList
+# GetReasonSoldList
 
 ```http
 POST /api/v1/Agents/List/GetReasonSoldList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Value": "voluptas",
-    "Tooltip": "id",
+    "Id": 4,
+    "Value": "et",
+    "Tooltip": "sunt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   },
   {
-    "Id": 786,
-    "Value": "voluptas",
-    "Tooltip": "id",
+    "Id": 4,
+    "Value": "et",
+    "Tooltip": "sunt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

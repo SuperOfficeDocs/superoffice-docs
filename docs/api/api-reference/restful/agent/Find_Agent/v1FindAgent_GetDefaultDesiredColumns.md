@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetDefaultDesiredColumns
+title: GetDefaultDesiredColumns
 id: v1FindAgent_GetDefaultDesiredColumns
 ---
 
-# POST Agents/Find/GetDefaultDesiredColumns
+# GetDefaultDesiredColumns
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
@@ -85,13 +85,13 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Hills, Runte and Walker",
-  "StorageKey": "vel"
+  "StorageType": "dignissimos",
+  "ProviderName": "Trantow LLC",
+  "StorageKey": "et"
 }
 ```
 
@@ -101,19 +101,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Abernathy-Tremblay",
-    "DisplayTooltip": "quaerat",
-    "DisplayType": "vel",
-    "CanOrderBy": true,
-    "Name": "Dibbert, Grady and Kautzer",
-    "CanRestrictBy": true,
-    "RestrictionType": "earum",
-    "RestrictionListName": "Funk-Wiza",
+    "DisplayName": "Fay-Yost",
+    "DisplayTooltip": "vero",
+    "DisplayType": "sunt",
+    "CanOrderBy": false,
+    "Name": "Kub LLC",
+    "CanRestrictBy": false,
+    "RestrictionType": "vitae",
+    "RestrictionListName": "Hahn-Metz",
     "IsVisible": false,
-    "ExtraInfo": "rerum",
-    "Width": "et",
-    "IconHint": "in",
-    "HeadingIconHint": "illo"
+    "ExtraInfo": "earum",
+    "Width": "debitis",
+    "IconHint": "veritatis",
+    "HeadingIconHint": "est"
   }
 ]
 ```

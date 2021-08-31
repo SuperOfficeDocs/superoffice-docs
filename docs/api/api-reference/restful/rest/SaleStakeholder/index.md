@@ -2,6 +2,8 @@
 title: SaleStakeholder
 ---
 
+# SaleStakeholder
+
 ```http
 /api/v1/SaleStakeholder
 ```

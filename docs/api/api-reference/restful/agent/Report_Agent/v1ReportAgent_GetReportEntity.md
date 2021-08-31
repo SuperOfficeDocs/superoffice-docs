@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Report/GetReportEntity
+title: GetReportEntity
 id: v1ReportAgent_GetReportEntity
 ---
 
-# POST Agents/Report/GetReportEntity
+# GetReportEntity
 
 ```http
 POST /api/v1/Agents/Report/GetReportEntity
@@ -25,7 +25,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=693
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=314
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -82,13 +82,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 274,
+  "ReportId": 311,
   "ReportCategory": "All",
-  "Description": "Secured maximized task-force",
+  "Description": "Ergonomic zero defect migration",
   "ReportLayout": "CalendarMonth",
-  "Name": "Ernser-Corwin",
-  "AssociateId": 821,
-  "TemplateId": 443,
+  "Name": "Torphy, Jerde and Wiza",
+  "AssociateId": 340,
+  "TemplateId": 66,
   "Published": true,
   "TableRight": {
     "Mask": "Delete",
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "orchestrate global e-tailers"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

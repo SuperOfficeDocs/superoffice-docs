@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/GetQuoteLineImage
+title: GetQuoteLineImage
 id: v1BLOBAgent_GetQuoteLineImage
 ---
 
-# POST Agents/BLOB/GetQuoteLineImage
+# GetQuoteLineImage
 
 ```http
 POST /api/v1/Agents/BLOB/GetQuoteLineImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 907
+  "QuoteLineId": 995
 }
 ```
 

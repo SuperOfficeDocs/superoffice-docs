@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,29 +78,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Kutch, Collins and Swaniawski",
-    "ToolTip": "Aliquid autem fugiat voluptates vel.",
+    "Id": 30,
+    "Name": "Hintz, Yost and Wintheiser",
+    "ToolTip": "Suscipit laudantium voluptatem alias reprehenderit.",
     "Deleted": true,
-    "Rank": 852,
-    "Type": "consequatur",
+    "Rank": 768,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Rolfson-Hessel",
-        "ToolTip": "Odit eum et et quos.",
+        "Id": 329,
+        "Name": "Sauer, Effertz and Greenholt",
+        "ToolTip": "Rerum nihil voluptatibus libero rerum aperiam dolorem.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "ut",
+        "Rank": 283,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 509,
-        "ExtraInfo": "atque",
-        "StyleHint": "mollitia",
-        "FullName": "Niko Ankunding Jr.",
+        "IconHint": "architecto",
+        "ColorBlock": 263,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "non",
+        "FullName": "Bonita Raynor",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 947
           }
         }
       }
     ],
-    "IconHint": "architecto",
-    "ColorBlock": 426,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "aut",
-    "FullName": "Liza Brown",
+    "IconHint": "doloribus",
+    "ColorBlock": 393,
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "FullName": "Damon Bode",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "engage cutting-edge systems"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/BLOB/SetProductThumbnail
+title: SetProductThumbnail
 id: v1BLOBAgent_SetProductThumbnail
 ---
 
-# POST Agents/BLOB/SetProductThumbnail
+# SetProductThumbnail
 
 ```http
 POST /api/v1/Agents/BLOB/SetProductThumbnail

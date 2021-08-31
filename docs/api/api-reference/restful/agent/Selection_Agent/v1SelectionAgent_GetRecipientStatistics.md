@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/GetRecipientStatistics
+title: GetRecipientStatistics
 id: v1SelectionAgent_GetRecipientStatistics
 ---
 
-# POST Agents/Selection/GetRecipientStatistics
+# GetRecipientStatistics
 
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatistics
@@ -86,7 +86,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 883
+  "SelectionId": 814
 }
 ```
 
@@ -95,15 +95,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 929,
-  "ValidPostalAddresses": 428,
-  "ValidEmailAddresses": 549,
-  "ValidFaxNumbers": 792,
-  "NoAddresses": 60,
-  "NoFaxOrEmails": 442,
+  "Total": 446,
+  "ValidPostalAddresses": 183,
+  "ValidEmailAddresses": 673,
+  "ValidFaxNumbers": 719,
+  "NoAddresses": 858,
+  "NoFaxOrEmails": 365,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "recontextualize distributed e-markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

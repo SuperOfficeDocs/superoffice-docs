@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/GetShipmentMessageBlockEntity
+title: GetShipmentMessageBlockEntity
 id: v1MarketingAgent_GetShipmentMessageBlockEntity
 ---
 
-# POST Agents/Marketing/GetShipmentMessageBlockEntity
+# GetShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
@@ -25,7 +25,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=483
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=427
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 357,
-  "AssociateId": 832,
-  "Block": "et",
-  "Registered": "2012-04-05T16:48:29.9589333+02:00",
-  "RegisteredAssociateId": 586,
-  "Updated": "2007-10-20T16:48:29.9589333+02:00",
-  "UpdatedAssociateId": 463,
-  "UpdatedCount": 681,
+  "ShipmentMessageBlockId": 270,
+  "AssociateId": 903,
+  "Block": "dignissimos",
+  "Registered": "2016-01-15T14:58:04.4994654+01:00",
+  "RegisteredAssociateId": 760,
+  "Updated": "2005-05-15T14:58:04.4994654+02:00",
+  "UpdatedAssociateId": 862,
+  "UpdatedCount": 483,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "drive cutting-edge infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 511
     }
   }
 }

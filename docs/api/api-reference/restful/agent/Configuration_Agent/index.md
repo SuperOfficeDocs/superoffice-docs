@@ -2,6 +2,8 @@
 title: Configuration_Agent
 ---
 
+# Configuration_Agent
+
 ```http
 /api/v1/Configuration/Agent
 ```
@@ -9,74 +11,94 @@ title: Configuration_Agent
 
 
 
-* [POST Agents/Configuration/CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
+* [DeleteWindowPosSize](v1ConfigurationAgent_DeleteWindowPosSize.md)
 
-* [POST Agents/Configuration/SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)
+* [GetWindowPosSizeList](v1ConfigurationAgent_GetWindowPosSizeList.md)
 
-* [POST Agents/Configuration/DeleteDiaryViewEntity](v1ConfigurationAgent_DeleteDiaryViewEntity.md)
+* [GetMyWindowPosSizes](v1ConfigurationAgent_GetMyWindowPosSizes.md)
 
-* [POST Agents/Configuration/CreateDefaultSystemEventEntity](v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)
+* [GetWindowPosSizesOnPersonId](v1ConfigurationAgent_GetWindowPosSizesOnPersonId.md)
 
-* [POST Agents/Configuration/SaveSystemEventEntity](v1ConfigurationAgent_SaveSystemEventEntity.md)
+* [GetWindowPosSizesOnAssociateId](v1ConfigurationAgent_GetWindowPosSizesOnAssociateId.md)
 
-* [POST Agents/Configuration/DeleteSystemEventEntity](v1ConfigurationAgent_DeleteSystemEventEntity.md)
+* [SaveWindowPosSizes](v1ConfigurationAgent_SaveWindowPosSizes.md)
 
-* [POST Agents/Configuration/GetApplicationConfiguration](v1ConfigurationAgent_GetApplicationConfiguration.md)
+* [GetSystemEventEntity](v1ConfigurationAgent_GetSystemEventEntity.md)
 
-* [POST Agents/Configuration/GetPageConfiguration](v1ConfigurationAgent_GetPageConfiguration.md)
+* [ExistsSystemEvent](v1ConfigurationAgent_ExistsSystemEvent.md)
 
-* [POST Agents/Configuration/GetObjectMapping](v1ConfigurationAgent_GetObjectMapping.md)
+* [GetConfigurableScreenDelta](v1ConfigurationAgent_GetConfigurableScreenDelta.md)
 
-* [POST Agents/Configuration/GetFilterList](v1ConfigurationAgent_GetFilterList.md)
+* [GetScreenConfigurationDeltas](v1ConfigurationAgent_GetScreenConfigurationDeltas.md)
 
-* [POST Agents/Configuration/ClearConfigurationCache](v1ConfigurationAgent_ClearConfigurationCache.md)
+* [GetScreenConfigurationDelta](v1ConfigurationAgent_GetScreenConfigurationDelta.md)
 
-* [POST Agents/Configuration/GetAnyConfiguration](v1ConfigurationAgent_GetAnyConfiguration.md)
+* [GetConfigurableScreenDeltasByDelta](v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta.md)
 
-* [POST Agents/Configuration/GetEMarketingUrl](v1ConfigurationAgent_GetEMarketingUrl.md)
+* [GetConfigurableScreenDeltasByQuery](v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery.md)
 
-* [POST Agents/Configuration/GetCsProgramUrl](v1ConfigurationAgent_GetCsProgramUrl.md)
+* [RebuildUdefDeltas](v1ConfigurationAgent_RebuildUdefDeltas.md)
 
-* [POST Agents/Configuration/GetCSAuthUrl](v1ConfigurationAgent_GetCSAuthUrl.md)
+* [RebuildWebpanelDeltas](v1ConfigurationAgent_RebuildWebpanelDeltas.md)
 
-* [POST Agents/Configuration/GetCSRegistryValue](v1ConfigurationAgent_GetCSRegistryValue.md)
+* [CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
 
-* [POST Agents/Configuration/GetCSWwwFolder](v1ConfigurationAgent_GetCSWwwFolder.md)
+* [SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)
 
-* [POST Agents/Configuration/GetRefreshedPageConfiguration](v1ConfigurationAgent_GetRefreshedPageConfiguration.md)
+* [DeleteDiaryViewEntity](v1ConfigurationAgent_DeleteDiaryViewEntity.md)
 
-* [POST Agents/Configuration/GetWwwUrl](v1ConfigurationAgent_GetWwwUrl.md)
+* [CreateDefaultSystemEventEntity](v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)
 
-* [POST Agents/Configuration/GetHelpDispatcherUrl](v1ConfigurationAgent_GetHelpDispatcherUrl.md)
+* [SaveSystemEventEntity](v1ConfigurationAgent_SaveSystemEventEntity.md)
 
-* [POST Agents/Configuration/GetWwwUrlForSMWeb](v1ConfigurationAgent_GetWwwUrlForSMWeb.md)
+* [DeleteSystemEventEntity](v1ConfigurationAgent_DeleteSystemEventEntity.md)
 
-* [POST Agents/Configuration/GetCsCgiUrlInternal](v1ConfigurationAgent_GetCsCgiUrlInternal.md)
+* [CreateDefaultConfigurableScreenDelta](v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta.md)
 
-* [POST Agents/Configuration/GetCRMUrl](v1ConfigurationAgent_GetCRMUrl.md)
+* [SaveConfigurableScreenDelta](v1ConfigurationAgent_SaveConfigurableScreenDelta.md)
 
-* [POST Agents/Configuration/GetEmailNumberOfDays](v1ConfigurationAgent_GetEmailNumberOfDays.md)
+* [DeleteConfigurableScreenDelta](v1ConfigurationAgent_DeleteConfigurableScreenDelta.md)
 
-* [POST Agents/Configuration/GetCustomerUrl](v1ConfigurationAgent_GetCustomerUrl.md)
+* [GetApplicationConfiguration](v1ConfigurationAgent_GetApplicationConfiguration.md)
 
-* [POST Agents/Configuration/GetDiaryViewEntity](v1ConfigurationAgent_GetDiaryViewEntity.md)
+* [GetPageConfiguration](v1ConfigurationAgent_GetPageConfiguration.md)
 
-* [POST Agents/Configuration/GetWindowPosSize](v1ConfigurationAgent_GetWindowPosSize.md)
+* [GetObjectMapping](v1ConfigurationAgent_GetObjectMapping.md)
 
-* [POST Agents/Configuration/SaveWindowPosSize](v1ConfigurationAgent_SaveWindowPosSize.md)
+* [GetFilterList](v1ConfigurationAgent_GetFilterList.md)
 
-* [POST Agents/Configuration/DeleteWindowPosSize](v1ConfigurationAgent_DeleteWindowPosSize.md)
+* [ClearConfigurationCache](v1ConfigurationAgent_ClearConfigurationCache.md)
 
-* [POST Agents/Configuration/GetWindowPosSizeList](v1ConfigurationAgent_GetWindowPosSizeList.md)
+* [GetAnyConfiguration](v1ConfigurationAgent_GetAnyConfiguration.md)
 
-* [POST Agents/Configuration/GetMyWindowPosSizes](v1ConfigurationAgent_GetMyWindowPosSizes.md)
+* [GetEMarketingUrl](v1ConfigurationAgent_GetEMarketingUrl.md)
 
-* [POST Agents/Configuration/GetWindowPosSizesOnPersonId](v1ConfigurationAgent_GetWindowPosSizesOnPersonId.md)
+* [GetCsProgramUrl](v1ConfigurationAgent_GetCsProgramUrl.md)
 
-* [POST Agents/Configuration/GetWindowPosSizesOnAssociateId](v1ConfigurationAgent_GetWindowPosSizesOnAssociateId.md)
+* [GetCSAuthUrl](v1ConfigurationAgent_GetCSAuthUrl.md)
 
-* [POST Agents/Configuration/SaveWindowPosSizes](v1ConfigurationAgent_SaveWindowPosSizes.md)
+* [GetCSRegistryValue](v1ConfigurationAgent_GetCSRegistryValue.md)
 
-* [POST Agents/Configuration/GetSystemEventEntity](v1ConfigurationAgent_GetSystemEventEntity.md)
+* [GetCSWwwFolder](v1ConfigurationAgent_GetCSWwwFolder.md)
 
-* [POST Agents/Configuration/ExistsSystemEvent](v1ConfigurationAgent_ExistsSystemEvent.md)
+* [GetRefreshedPageConfiguration](v1ConfigurationAgent_GetRefreshedPageConfiguration.md)
+
+* [GetWwwUrl](v1ConfigurationAgent_GetWwwUrl.md)
+
+* [GetHelpDispatcherUrl](v1ConfigurationAgent_GetHelpDispatcherUrl.md)
+
+* [GetWwwUrlForSMWeb](v1ConfigurationAgent_GetWwwUrlForSMWeb.md)
+
+* [GetCsCgiUrlInternal](v1ConfigurationAgent_GetCsCgiUrlInternal.md)
+
+* [GetCRMUrl](v1ConfigurationAgent_GetCRMUrl.md)
+
+* [GetEmailNumberOfDays](v1ConfigurationAgent_GetEmailNumberOfDays.md)
+
+* [GetCustomerUrl](v1ConfigurationAgent_GetCustomerUrl.md)
+
+* [GetDiaryViewEntity](v1ConfigurationAgent_GetDiaryViewEntity.md)
+
+* [GetWindowPosSize](v1ConfigurationAgent_GetWindowPosSize.md)
+
+* [SaveWindowPosSize](v1ConfigurationAgent_SaveWindowPosSize.md)

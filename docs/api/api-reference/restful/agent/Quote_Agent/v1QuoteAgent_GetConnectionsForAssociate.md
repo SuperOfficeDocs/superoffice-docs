@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetConnectionsForAssociate
+title: GetConnectionsForAssociate
 id: v1QuoteAgent_GetConnectionsForAssociate
 ---
 
-# POST Agents/Quote/GetConnectionsForAssociate
+# GetConnectionsForAssociate
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 390
+  "AssociateId": 408
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 32,
-    "ERPName": "Daugherty-Crooks",
-    "DisplayName": "Schaefer Group",
-    "DisplayDescription": "Up-sized systemic portal",
-    "Rank": 499,
-    "ConnectorName": "Mitchell Inc and Sons",
-    "ErpConnectionId": 10,
-    "ExtraData": "tenetur",
+    "QuoteConnectionId": 866,
+    "ERPName": "Kozey, Cole and Satterfield",
+    "DisplayName": "Klein-Bode",
+    "DisplayDescription": "Synergistic intermediate solution",
+    "Rank": 213,
+    "ConnectorName": "Cremin Inc and Sons",
+    "ErpConnectionId": 999,
+    "ExtraData": "impedit",
     "IsAvailable": false,
     "InitializeResponse": {
-      "IsOk": true,
-      "UserExplanation": "dicta",
-      "TechExplanation": "sed",
-      "ErrorCode": "distinctio",
+      "IsOk": false,
+      "UserExplanation": "suscipit",
+      "TechExplanation": "consequatur",
+      "ErrorCode": "qui",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -123,22 +123,22 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 28
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 627,
-        "ERPPriceListKey": "cum",
-        "QuoteConnectionId": 360,
-        "Name": "Bauch, Grimes and Hills",
-        "Description": "Reactive 24 hour budgetary management",
-        "Currency": "quia",
-        "CurrencyName": "Schoen Inc and Sons",
-        "ValidFrom": "2013-09-16T16:48:30.3879334+02:00",
-        "ValidTo": "2011-05-18T16:48:30.3879334+02:00",
+        "PriceListId": 112,
+        "ERPPriceListKey": "distinctio",
+        "QuoteConnectionId": 512,
+        "Name": "Altenwerth Inc and Sons",
+        "Description": "Cloned background instruction set",
+        "Currency": "a",
+        "CurrencyName": "Runolfsdottir, McLaughlin and Gulgowski",
+        "ValidFrom": "2003-12-21T14:58:04.9674677+01:00",
+        "ValidTo": "2009-10-12T14:58:04.9674677+02:00",
         "IsActive": true,
         "TableRight": {},
         "FieldProperties": {
@@ -148,7 +148,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldLength": 94
           }
         }
       }
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      322,
-      621
+      532,
+      142
     ],
     "AssociateAccessIds": [
-      883,
-      741
+      668,
+      566
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldLength": 444
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetNextProjectStatus
+title: GetNextProjectStatus
 id: v1ProjectAgent_GetNextProjectStatus
 ---
 
-# POST Agents/Project/GetNextProjectStatus
+# GetNextProjectStatus
 
 ```http
 POST /api/v1/Agents/Project/GetNextProjectStatus
@@ -68,11 +68,11 @@ Response body: int32
 POST /api/v1/Agents/Project/GetNextProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 705
+  "ProjectId": 605
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-426
+942
 ```

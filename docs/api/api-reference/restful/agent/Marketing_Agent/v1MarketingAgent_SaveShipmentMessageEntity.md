@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/SaveShipmentMessageEntity
+title: SaveShipmentMessageEntity
 id: v1MarketingAgent_SaveShipmentMessageEntity
 ---
 
-# POST Agents/Marketing/SaveShipmentMessageEntity
+# SaveShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
@@ -108,31 +108,31 @@ Response body: object
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 206,
-  "PlainMessage": "dignissimos",
-  "HtmlMessage": "officiis",
-  "SmsMessage": "itaque",
-  "Description": "Customizable neutral success",
-  "Subject": "similique",
-  "FolderId": 266,
+  "ShipmentMessageId": 922,
+  "PlainMessage": "qui",
+  "HtmlMessage": "aliquid",
+  "SmsMessage": "facere",
+  "Description": "Enterprise-wide asynchronous complexity",
+  "Subject": "aut",
+  "FolderId": 40,
   "HeaderField": "aut",
-  "Design": "vel",
+  "Design": "architecto",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Ergonomic user-facing core",
-  "AccessKey": "suscipit",
-  "DocumentMessage": 202,
-  "Registered": "1998-03-20T16:48:29.9549322+01:00",
-  "RegisteredAssociateId": 865,
-  "Updated": "2009-10-31T16:48:29.9549322+01:00",
-  "UpdatedAssociateId": 641,
-  "UpdatedCount": 3
+  "InlineImages": false,
+  "LongDescription": "Expanded discrete local area network",
+  "AccessKey": "aliquid",
+  "DocumentMessage": 837,
+  "Registered": "2001-02-24T14:58:04.4944653+01:00",
+  "RegisteredAssociateId": 390,
+  "Updated": "2015-09-09T14:58:04.4944653+02:00",
+  "UpdatedAssociateId": 545,
+  "UpdatedCount": 63
 }
 ```
 
@@ -141,27 +141,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 808,
-  "PlainMessage": "quam",
-  "HtmlMessage": "ab",
-  "SmsMessage": "distinctio",
-  "Description": "Down-sized leading edge core",
-  "Subject": "rerum",
-  "FolderId": 856,
-  "HeaderField": "velit",
-  "Design": "mollitia",
+  "ShipmentMessageId": 123,
+  "PlainMessage": "corporis",
+  "HtmlMessage": "quibusdam",
+  "SmsMessage": "sit",
+  "Description": "Ameliorated tertiary leverage",
+  "Subject": "accusamus",
+  "FolderId": 306,
+  "HeaderField": "qui",
+  "Design": "enim",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "User-centric static function",
-  "AccessKey": "maxime",
-  "DocumentMessage": 464,
-  "Registered": "2012-12-30T16:48:29.9549322+01:00",
-  "RegisteredAssociateId": 468,
-  "Updated": "2003-04-11T16:48:29.9549322+02:00",
-  "UpdatedAssociateId": 638,
-  "UpdatedCount": 656,
+  "LongDescription": "Monitored systematic local area network",
+  "AccessKey": "nulla",
+  "DocumentMessage": 520,
+  "Registered": "2011-07-30T14:58:04.4954688+02:00",
+  "RegisteredAssociateId": 74,
+  "Updated": "1994-09-06T14:58:04.4954688+02:00",
+  "UpdatedAssociateId": 171,
+  "UpdatedCount": 617,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 970
     }
   }
 }

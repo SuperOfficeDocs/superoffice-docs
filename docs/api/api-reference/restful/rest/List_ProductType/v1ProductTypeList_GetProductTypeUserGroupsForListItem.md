@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Veum, Gleichner and Simonis",
-    "ToolTip": "Maiores ut.",
-    "Deleted": false,
-    "Rank": 540,
-    "Type": "atque",
-    "ColorBlock": 12,
-    "IconHint": "praesentium",
+    "Id": 636,
+    "Name": "Runolfsson LLC",
+    "ToolTip": "Recusandae voluptatibus.",
+    "Deleted": true,
+    "Rank": 893,
+    "Type": "corrupti",
+    "ColorBlock": 412,
+    "IconHint": "ipsa",
     "Selected": true,
-    "LastChanged": "2018-02-04T09:41:00.6193533+01:00",
+    "LastChanged": "1996-08-21T15:05:43.6440768+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Feeney, Mayert and Lubowitz",
-        "ToolTip": "Aliquid ut nostrum et nobis.",
-        "Deleted": false,
-        "Rank": 621,
-        "Type": "atque",
-        "ColorBlock": 70,
-        "IconHint": "est",
+        "Id": 70,
+        "Name": "Hegmann LLC",
+        "ToolTip": "Impedit eligendi neque harum harum quam.",
+        "Deleted": true,
+        "Rank": 755,
+        "Type": "voluptatem",
+        "ColorBlock": 657,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "1996-07-03T09:41:00.6193533+02:00",
+        "LastChanged": "1997-07-30T15:05:43.6450773+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Margot Schinner",
+        "ExtraInfo": "ut",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Fred Robel IV",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 141
+            "FieldType": "System.Int32",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "rerum",
+    "ExtraInfo": "nemo",
+    "StyleHint": "veniam",
     "Hidden": true,
-    "FullName": "Art Dicki",
+    "FullName": "Tiara Langworth",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldType": "System.String",
+        "FieldLength": 389
       }
     }
   }

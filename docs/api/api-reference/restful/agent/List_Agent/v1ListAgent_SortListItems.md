@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SortListItems
+title: SortListItems
 id: v1ListAgent_SortListItems
 ---
 
-# POST Agents/List/SortListItems
+# SortListItems
 
 ```http
 POST /api/v1/Agents/List/SortListItems

@@ -2,16 +2,14 @@
 title: Selection
 ---
 
+# Selection
+
 ```http
 /api/v1/Selection
 ```
 
 
 
-
-* [GET Selection/{id}/Members](v1SelectionEntity_GetSelectionMembersArchiveRows.md)
-
-* [GET Selection/{id}/ShadowMembers](v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md)
 
 * [GET Selection/default](v1SelectionEntity_DefaultSelectionEntity.md)
 
@@ -48,3 +46,7 @@ title: Selection
 * [GET Selection/{id}/CriteriaGroups](v1SelectionEntity_GetDynamicSelectionCriteriaGroups.md)
 
 * [PUT Selection/{id}/CriteriaGroups](v1SelectionEntity_SetDynamicSelectionCriteriaGroups.md)
+
+* [GET Selection/{id}/Members](v1SelectionEntity_GetSelectionMembersArchiveRows.md)
+
+* [GET Selection/{id}/ShadowMembers](v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md)

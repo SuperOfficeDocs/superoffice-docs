@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllQuoteLineConfigurations
+title: GetAllQuoteLineConfigurations
 id: v1QuoteAgent_GetAllQuoteLineConfigurations
 ---
 
-# POST Agents/Quote/GetAllQuoteLineConfigurations
+# GetAllQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
@@ -81,15 +81,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 590,
-    "FieldName": "Hartmann, Gislason and Dickinson",
-    "Label": "a",
-    "Tooltip": "ipsa",
+    "QuoteLineConfigurationId": 54,
+    "FieldName": "Jast, Krajcik and Mohr",
+    "Label": "molestias",
+    "Tooltip": "autem",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": true,
-    "Rank": 619,
-    "RestrictEdit": false,
+    "Rank": 362,
+    "RestrictEdit": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldLength": 88
       }
     }
   }

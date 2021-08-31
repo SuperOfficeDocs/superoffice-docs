@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/DeletePersonEntity
+title: DeletePersonEntity
 id: v1PersonAgent_DeletePersonEntity
 ---
 
-# POST Agents/Person/DeletePersonEntity
+# DeletePersonEntity
 
 ```http
 POST /api/v1/Agents/Person/DeletePersonEntity
@@ -24,7 +24,7 @@ Deletes the PersonEntity
 | PersonEntityId | int32 | **Required** The id of the PersonEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=468
+POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=566
 ```
 
 

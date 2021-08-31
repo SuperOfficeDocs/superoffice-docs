@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetPublishedProjects
+title: GetPublishedProjects
 id: v1ProjectAgent_GetPublishedProjects
 ---
 
-# POST Agents/Project/GetPublishedProjects
+# GetPublishedProjects
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjects
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    128,
-    73
+    865,
+    396
   ]
 }
 ```
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 475,
-    "Name": "Jacobs Inc and Sons",
-    "Description": "User-friendly zero administration frame",
+    "ProjectId": 476,
+    "Name": "Ankunding, Jakubowski and Robel",
+    "Description": "Reduced mission-critical methodology",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 188,
-    "AssociateFullName": "Destany Hahn",
-    "TypeId": 303,
-    "Updated": "1994-08-07T16:48:30.2479352+02:00",
-    "StatusId": 496,
-    "Status": "totam",
-    "TextId": 944,
-    "PublishTo": "2000-03-30T16:48:30.2479352+02:00",
-    "PublishFrom": "2004-10-09T16:48:30.2479352+02:00",
+    "Type": "non",
+    "AssociateId": 11,
+    "AssociateFullName": "Ona Daugherty",
+    "TypeId": 487,
+    "Updated": "1997-12-03T14:58:04.8614596+01:00",
+    "StatusId": 514,
+    "Status": "laborum",
+    "TextId": 464,
+    "PublishTo": "2004-06-28T14:58:04.8614596+02:00",
+    "PublishFrom": "2016-12-13T14:58:04.8614596+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1745143",
-    "ActiveErpLinks": 219,
+    "ProjectNumber": "706687",
+    "ActiveErpLinks": 40,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "engage synergistic systems"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "iterate 24/7 metrics"
         },
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=quisquam
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=nemo
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Jerde Inc and Sons",
-    "ToolTip": "Quidem dolor.",
-    "Deleted": false,
-    "Rank": 521,
-    "Type": "facere",
+    "Id": 502,
+    "Name": "Bruen-Dietrich",
+    "ToolTip": "Minus autem.",
+    "Deleted": true,
+    "Rank": 251,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Hessel, Conroy and Collier",
-        "ToolTip": "Ea at.",
+        "Id": 885,
+        "Name": "O'Hara-Lebsack",
+        "ToolTip": "Maiores sit dolore sunt labore.",
         "Deleted": false,
-        "Rank": 334,
-        "Type": "excepturi",
+        "Rank": 644,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 224,
-        "ExtraInfo": "debitis",
-        "StyleHint": "maxime",
-        "FullName": "Isabella Harber",
+        "IconHint": "nobis",
+        "ColorBlock": 246,
+        "ExtraInfo": "et",
+        "StyleHint": "itaque",
+        "FullName": "Jaime Predovic",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldLength": 636
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 418,
-    "ExtraInfo": "impedit",
-    "StyleHint": "neque",
-    "FullName": "Edna Dare",
+    "IconHint": "voluptatum",
+    "ColorBlock": 707,
+    "ExtraInfo": "omnis",
+    "StyleHint": "ex",
+    "FullName": "Noelia Kirlin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 408
       }
     }
   }

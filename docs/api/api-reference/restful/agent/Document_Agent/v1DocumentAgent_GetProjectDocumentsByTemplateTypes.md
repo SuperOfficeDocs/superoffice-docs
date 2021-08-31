@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectDocumentsByTemplateTypes
+title: GetProjectDocumentsByTemplateTypes
 id: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
 ---
 
-# POST Agents/Document/GetProjectDocumentsByTemplateTypes
+# GetProjectDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916,
-  "StartTime": "2004-04-28T16:48:29.3358937+02:00",
-  "EndTime": "2007-08-02T16:48:29.3358937+02:00",
-  "Count": 156,
+  "ProjectId": 265,
+  "StartTime": "1996-03-22T14:58:03.8214656+01:00",
+  "EndTime": "2007-07-23T14:58:03.8214656+02:00",
+  "Count": 391,
   "DocumentTemplateIds": [
-    211,
-    221
+    459,
+    688
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 183,
-    "Attention": "quasi",
-    "Header": "dolores",
-    "Name": "Doyle Group",
-    "OurRef": "quo",
-    "YourRef": "est",
-    "Description": "Secured radical extranet",
-    "DocumentTemplate": "placeat",
+    "DocumentId": 890,
+    "Attention": "magnam",
+    "Header": "facere",
+    "Name": "Wilderman-Runte",
+    "OurRef": "ipsam",
+    "YourRef": "sapiente",
+    "Description": "Mandatory logistical capacity",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 69,
-    "PersonFullName": "Colby Lindgren",
-    "AssociateFullName": "Miss Lowell Zemlak",
-    "ContactId": 583,
-    "ContactName": "Bernier Group",
-    "ProjectId": 834,
-    "ProjectName": "Mertz-McGlynn",
-    "AssociateId": 647,
-    "Snum": 294,
+    "PersonId": 86,
+    "PersonFullName": "Vicente Koelpin",
+    "AssociateFullName": "Melissa Shields",
+    "ContactId": 567,
+    "ContactName": "Beer, Prosacco and Frami",
+    "ProjectId": 734,
+    "ProjectName": "Parker, Quigley and Dibbert",
+    "AssociateId": 696,
+    "Snum": 820,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,10 +141,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "productize granular e-markets"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 857
       }
     }
   }

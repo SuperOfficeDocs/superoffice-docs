@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWindowPosSizesOnPersonId
+title: GetWindowPosSizesOnPersonId
 id: v1ConfigurationAgent_GetWindowPosSizesOnPersonId
 ---
 
-# POST Agents/Configuration/GetWindowPosSizesOnPersonId
+# GetWindowPosSizesOnPersonId
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
@@ -87,7 +87,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 511
+  "PersonId": 80
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ea",
-    "PersonId": 45,
-    "AssociateId": 910,
-    "ExtraId": 778,
-    "ExtraInfo": "ex",
-    "Height": 442,
-    "LeftX": 42,
+    "OwnerWindow": "est",
+    "PersonId": 717,
+    "AssociateId": 867,
+    "ExtraId": 915,
+    "ExtraInfo": "repellat",
+    "Height": 598,
+    "LeftX": 646,
     "State": "Maximized",
-    "UpperY": 934,
-    "Width": 247,
-    "WindowPosSizeId": 658,
+    "UpperY": 208,
+    "Width": 327,
+    "WindowPosSizeId": 535,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "engage world-class supply-chains"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 438
       }
     }
   }

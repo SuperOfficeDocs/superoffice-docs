@@ -119,45 +119,43 @@ Response body: object
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "molestiae",
     "value": {
       "value1": {
-        "PrimaryKey": 3524,
-        "EntityName": "sale",
-        "saleId": 3524,
-        "contactId": 5073,
-        "name": "Wintheiser LLC"
+        "PrimaryKey": 4204,
+        "EntityName": "person",
+        "personId": 4204,
+        "fullName": "Alexander Spencer"
       },
       "value2": {
-        "PrimaryKey": 9564,
+        "PrimaryKey": 8780,
         "EntityName": "person",
-        "personId": 9564,
-        "fullName": "Clarissa Crona"
+        "personId": 8780,
+        "fullName": "Connor Jaskolski"
       }
     }
   },
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "molestiae",
     "value": {
       "value1": {
-        "PrimaryKey": 3524,
-        "EntityName": "sale",
-        "saleId": 3524,
-        "contactId": 5073,
-        "name": "Wintheiser LLC"
+        "PrimaryKey": 4204,
+        "EntityName": "person",
+        "personId": 4204,
+        "fullName": "Alexander Spencer"
       },
       "value2": {
-        "PrimaryKey": 9564,
+        "PrimaryKey": 8780,
         "EntityName": "person",
-        "personId": 9564,
-        "fullName": "Clarissa Crona"
+        "personId": 8780,
+        "fullName": "Connor Jaskolski"
       }
     }
   }
@@ -169,26 +167,26 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 852,
+  "HierarchyId": 274,
   "Domain": "Dashboards",
-  "Name": "Keebler LLC",
-  "Fullname": "laudantium",
-  "ParentId": 784,
+  "Name": "Jenkins Inc and Sons",
+  "Fullname": "iusto",
+  "ParentId": 171,
   "Children": [
     {
-      "HierarchyId": 138,
+      "HierarchyId": 797,
       "Domain": "Dashboards",
-      "Name": "Hammes-Rohan",
-      "Fullname": "vel",
-      "ParentId": 575,
+      "Name": "Denesik Inc and Sons",
+      "Fullname": "sint",
+      "ParentId": 764,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-07-06T09:40:59.238663+02:00",
-      "RegisteredAssociateId": 866,
-      "Updated": "1994-09-21T09:40:59.238663+02:00",
-      "UpdatedAssociateId": 848,
+      "Registered": "2010-11-14T15:05:42.2546619+01:00",
+      "RegisteredAssociateId": 508,
+      "Updated": "2020-11-10T15:05:42.2546619+01:00",
+      "UpdatedAssociateId": 650,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -196,16 +194,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 232
         }
       }
     }
   ],
-  "Registered": "1998-08-07T09:40:59.238663+02:00",
-  "RegisteredAssociateId": 692,
-  "Updated": "1998-09-07T09:40:59.238663+02:00",
-  "UpdatedAssociateId": 168,
+  "Registered": "2012-09-29T15:05:42.2546619+02:00",
+  "RegisteredAssociateId": 746,
+  "Updated": "2001-10-20T15:05:42.2546619+02:00",
+  "UpdatedAssociateId": 246,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -214,15 +212,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "implement dot-com e-markets"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 813
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

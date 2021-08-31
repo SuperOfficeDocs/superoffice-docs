@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLocalizedTexts
+title: GetLocalizedTexts
 id: v1ListAgent_GetLocalizedTexts
 ---
 
-# POST Agents/List/GetLocalizedTexts
+# GetLocalizedTexts
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTexts
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 60,
-    "ResourceId": 682,
-    "Text": "vitae",
+    "LanguageId": 423,
+    "ResourceId": 236,
+    "Text": "debitis",
     "Type": "Column",
-    "LocalizedTextId": 431,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 969,
+    "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "matrix revolutionary applications"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 939
       }
     }
   }

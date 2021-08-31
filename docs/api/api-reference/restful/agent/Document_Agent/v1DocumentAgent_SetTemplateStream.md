@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SetTemplateStream
+title: SetTemplateStream
 id: v1DocumentAgent_SetTemplateStream
 ---
 
-# POST Agents/Document/SetTemplateStream
+# SetTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/SetTemplateStream

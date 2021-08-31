@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/SaveFormEntity
+title: SaveFormEntity
 id: v1MarketingAgent_SaveFormEntity
 ---
 
-# POST Agents/Marketing/SaveFormEntity
+# SaveFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveFormEntity
@@ -110,32 +110,32 @@ Response body: object
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 563,
-  "FormKey": "voluptatem",
-  "Name": "Lind Group",
-  "Description": "Diverse bi-directional conglomeration",
-  "Config": "dicta",
-  "FolderId": 353,
-  "ScriptId": 387,
-  "ResponseShipmentId": 406,
-  "Active": true,
-  "Expires": "2006-02-02T16:48:29.9499248+01:00",
-  "MaxSubmits": 378,
+  "FormId": 782,
+  "FormKey": "modi",
+  "Name": "Bernhard-Champlin",
+  "Description": "Multi-layered system-worthy artificial intelligence",
+  "Config": "placeat",
+  "FolderId": 118,
+  "ScriptId": 508,
+  "ResponseShipmentId": 158,
+  "Active": false,
+  "Expires": "2003-01-21T14:58:04.491465+01:00",
+  "MaxSubmits": 54,
   "Type": "Normal",
-  "Recipe": "laboriosam",
-  "GroupId": 539,
-  "NewTicket": false,
+  "Recipe": "explicabo",
+  "GroupId": 655,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2012-01-01T16:48:29.9499248+01:00",
-  "RegisteredAssociateId": 519,
-  "Updated": "2005-10-13T16:48:29.9499248+02:00",
-  "UpdatedAssociateId": 138,
-  "UpdatedCount": 156,
-  "FolderName": "Hoeger, Ledner and Jenkins"
+  "Registered": "1998-03-29T14:58:04.491465+02:00",
+  "RegisteredAssociateId": 170,
+  "Updated": "2012-03-23T14:58:04.491465+01:00",
+  "UpdatedAssociateId": 630,
+  "UpdatedCount": 242,
+  "FolderName": "Lebsack-Will"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 894,
-  "FormKey": "eum",
-  "Name": "Legros-Christiansen",
-  "Description": "Multi-channelled uniform capacity",
-  "Config": "et",
-  "FolderId": 799,
-  "ScriptId": 991,
-  "ResponseShipmentId": 495,
+  "FormId": 675,
+  "FormKey": "debitis",
+  "Name": "Lehner LLC",
+  "Description": "Managed intangible methodology",
+  "Config": "esse",
+  "FolderId": 559,
+  "ScriptId": 720,
+  "ResponseShipmentId": 300,
   "Active": true,
-  "Expires": "2006-03-22T16:48:29.9509251+01:00",
-  "MaxSubmits": 991,
+  "Expires": "2000-10-23T14:58:04.491465+02:00",
+  "MaxSubmits": 636,
   "Type": "Normal",
-  "Recipe": "quis",
-  "GroupId": 646,
-  "NewTicket": false,
+  "Recipe": "voluptatem",
+  "GroupId": 157,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2019-08-20T16:48:29.9509251+02:00",
-  "RegisteredAssociateId": 316,
-  "Updated": "2000-06-25T16:48:29.9509251+02:00",
-  "UpdatedAssociateId": 34,
-  "UpdatedCount": 556,
-  "FolderName": "Kuvalis-Little",
+  "Registered": "1996-05-07T14:58:04.491465+02:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2014-07-27T14:58:04.491465+02:00",
+  "UpdatedAssociateId": 272,
+  "UpdatedCount": 768,
+  "FolderName": "DuBuque Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "grow global web-readiness"
   },
   "FieldProperties": {
     "fieldName": {
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldLength": 516
     }
   }
 }

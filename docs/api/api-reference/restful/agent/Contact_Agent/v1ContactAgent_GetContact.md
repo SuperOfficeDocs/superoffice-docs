@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetContact
+title: GetContact
 id: v1ContactAgent_GetContact
 ---
 
-# POST Agents/Contact/GetContact
+# GetContact
 
 ```http
 POST /api/v1/Agents/Contact/GetContact
@@ -25,7 +25,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=635
+POST /api/v1/Agents/Contact/GetContact?contactId=533
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,35 +96,59 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 60,
-  "Name": "Okuneva, Jewess and Heidenreich",
-  "OrgNr": "834908",
-  "Department": "",
+  "ContactId": 282,
+  "Name": "Krajcik Inc and Sons",
+  "OrgNr": "740640",
+  "Department": "reinvent global users",
   "URL": "http://www.example.com/",
-  "City": "maxime",
-  "DirectPhone": "355.574.0470",
-  "AssociateId": 237,
-  "CountryId": 688,
-  "EmailAddress": "ervin.raynor@rohan.com",
-  "Kananame": "ad",
-  "EmailAddressName": "larue@crona.biz",
+  "City": "repellat",
+  "DirectPhone": "(658)818-7026 x28614",
+  "AssociateId": 78,
+  "CountryId": 454,
+  "EmailAddress": "therese_ryan@gleichner.us",
+  "Kananame": "sequi",
+  "EmailAddressName": "eladio@mohr.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Triston Armstrong",
+  "AssociateFullName": "Burdette Crooks III",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": {
-    "Wgs84Latitude": 20913.182,
-    "Wgs84Longitude": 19346.182,
+    "Wgs84Latitude": 21890.989999999998,
+    "Wgs84Longitude": 23141.456,
     "LocalizedAddress": [
       [
         {
-          "Name": "Bins, Bradtke and Glover",
-          "Value": "aut",
-          "Tooltip": "qui",
-          "Label": "dolorem",
-          "ValueLength": 164,
-          "AddressType": "dicta",
+          "Name": "Dooley, Ankunding and Hegmann",
+          "Value": "nesciunt",
+          "Tooltip": "et",
+          "Label": "odit",
+          "ValueLength": 811,
+          "AddressType": "voluptas",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": "generate viral eyeballs"
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 649
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Name": "Wolf, Klein and Ondricka",
+          "Value": "est",
+          "Tooltip": "voluptatem",
+          "Label": "alias",
+          "ValueLength": 33,
+          "AddressType": "quia",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -136,31 +160,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 866
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Breitenberg, Hansen and Lebsack",
-          "Value": "saepe",
-          "Tooltip": "consectetur",
-          "Label": "sed",
-          "ValueLength": 446,
-          "AddressType": "libero",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 480
+              "FieldLength": 409
             }
           }
         }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": {},
     "Postal": {},
-    "Formatted": "accusamus",
+    "Formatted": "voluptatum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -176,15 +176,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 279
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   },
-  "FormattedAddress": "omnis",
-  "FullName": "Miss Jerrold Bosco",
+  "FormattedAddress": "sint",
+  "FullName": "Patsy Wilkinson",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 831,
+  "ActiveErpLinks": 811,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldLength": 545
     }
   }
 }

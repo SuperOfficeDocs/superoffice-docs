@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetHelpDispatcherUrl
+title: GetHelpDispatcherUrl
 id: v1ConfigurationAgent_GetHelpDispatcherUrl
 ---
 
-# POST Agents/Configuration/GetHelpDispatcherUrl
+# GetHelpDispatcherUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl

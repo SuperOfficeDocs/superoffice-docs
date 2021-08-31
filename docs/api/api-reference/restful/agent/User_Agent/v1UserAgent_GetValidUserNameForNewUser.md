@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetValidUserNameForNewUser
+title: GetValidUserNameForNewUser
 id: v1UserAgent_GetValidUserNameForNewUser
 ---
 
-# POST Agents/User/GetValidUserNameForNewUser
+# GetValidUserNameForNewUser
 
 ```http
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
@@ -70,15 +70,15 @@ Response body: string
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 194,
-    "Name": "Abernathy-Upton",
-    "Rank": 586,
-    "Tooltip": "non",
+    "AssociateId": 151,
+    "Name": "Bahringer Group",
+    "Rank": 1000,
+    "Tooltip": "eum",
     "LicenseOwners": [
       {},
       {}
@@ -90,32 +90,32 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "Person": {},
-    "Deleted": false,
-    "Lastlogin": "2000-08-25T16:48:30.8739353+02:00",
-    "Lastlogout": "1996-05-05T16:48:30.8739353+02:00",
-    "EjUserId": 704,
-    "RequestSignature": "ab",
+    "Deleted": true,
+    "Lastlogin": "2019-06-28T14:58:05.4236227+02:00",
+    "Lastlogout": "2020-05-08T14:58:05.4236227+02:00",
+    "EjUserId": 819,
+    "RequestSignature": "voluptatum",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": false,
+    "IsPersonRetired": true,
+    "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Fritsch Inc and Sons",
+    "UserName": "Schimmel-Rippin",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "McDermott-Wisoky",
-    "WaitingForApproval": false,
+    "NickName": "Brekke, Cruickshank and Lakin",
+    "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "qui",
-      "ExtraFields2": "aut"
+      "ExtraFields1": "quia",
+      "ExtraFields2": "ad"
     },
     "CustomFields": {
-      "CustomFields1": "doloribus",
-      "CustomFields2": "qui"
+      "CustomFields1": "sit",
+      "CustomFields2": "porro"
     },
     "PostSaveCommands": [
       {},
@@ -129,5 +129,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Renner, Dicki and Krajcik"
+"Roberts-Baumbach"
 ```

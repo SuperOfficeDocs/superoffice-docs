@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
+title: SaveCRMScriptByUniqueIdentifier
 id: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
 ---
 
-# POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
+# SaveCRMScriptByUniqueIdentifier
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
@@ -51,12 +51,12 @@ UniqueIdentifier, Crmscript
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
-| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
 
 ## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object.
+The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
 
 
 
@@ -90,22 +90,22 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "doloribus",
+  "UniqueIdentifier": "similique",
   "Crmscript": {
-    "UniqueIdentifier": "sequi",
-    "Name": "O'Connell-Mitchell",
-    "Description": "Up-sized value-added strategy",
-    "IncludeId": "amet",
-    "Source": "ratione",
-    "Registered": "1994-02-20T16:48:29.2128946+01:00",
-    "RegisteredBy": "et",
-    "Updated": "2004-02-01T16:48:29.2128946+01:00",
-    "UpdatedBy": "amet",
-    "Path": "distinctio"
+    "UniqueIdentifier": "nihil",
+    "Name": "Nikolaus-Lehner",
+    "Description": "Enterprise-wide fault-tolerant service-desk",
+    "IncludeId": "sint",
+    "Source": "officiis",
+    "Registered": "2004-12-24T14:58:03.7474603+01:00",
+    "RegisteredBy": "accusamus",
+    "Updated": "2015-01-05T14:58:03.7474603+01:00",
+    "UpdatedBy": "repudiandae",
+    "Path": "aspernatur"
   }
 }
 ```
@@ -115,19 +115,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quo",
-  "Name": "Haag-Bailey",
-  "Description": "Synergized neutral intranet",
-  "IncludeId": "rerum",
-  "Source": "fugiat",
-  "Registered": "2006-02-11T16:48:29.2138949+01:00",
-  "RegisteredBy": "reprehenderit",
-  "Updated": "2014-12-13T16:48:29.2138949+01:00",
-  "UpdatedBy": "inventore",
-  "Path": "laudantium",
+  "UniqueIdentifier": "aperiam",
+  "Name": "Luettgen, Hane and Rutherford",
+  "Description": "Cross-platform attitude-oriented capacity",
+  "IncludeId": "laboriosam",
+  "Source": "voluptatem",
+  "Registered": "2003-08-17T14:58:03.7474603+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2014-04-14T14:58:03.7474603+02:00",
+  "UpdatedBy": "fuga",
+  "Path": "eum",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "unleash revolutionary paradigms"
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

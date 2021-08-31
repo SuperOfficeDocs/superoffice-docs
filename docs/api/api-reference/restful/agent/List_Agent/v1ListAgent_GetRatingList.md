@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetRatingList
+title: GetRatingList
 id: v1ListAgent_GetRatingList
 ---
 
-# POST Agents/List/GetRatingList
+# GetRatingList
 
 ```http
 POST /api/v1/Agents/List/GetRatingList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetRatingList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Value": "voluptatum",
-    "Tooltip": "ea",
+    "Id": 199,
+    "Value": "amet",
+    "Tooltip": "soluta",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   },
   {
-    "Id": 77,
-    "Value": "voluptatum",
-    "Tooltip": "ea",
+    "Id": 199,
+    "Value": "amet",
+    "Tooltip": "soluta",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

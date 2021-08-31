@@ -2,6 +2,8 @@
 title: List_Business
 ---
 
+# List_Business
+
 ```http
 /api/v1/List/Business
 ```

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/CreateDefaultMailMergeTask
+title: CreateDefaultMailMergeTask
 id: v1SelectionAgent_CreateDefaultMailMergeTask
 ---
 
-# POST Agents/Selection/CreateDefaultMailMergeTask
+# CreateDefaultMailMergeTask
 
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
@@ -77,32 +77,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 435,
-  "TypeId": 808,
-  "StartDate": "2012-10-30T16:48:30.6499073+01:00",
-  "Duration": 619,
-  "Description": "Object-based global frame",
-  "PriorityId": 774,
+  "ProjectId": 341,
+  "TypeId": 290,
+  "StartDate": "2005-10-11T14:58:05.2196284+02:00",
+  "Duration": 936,
+  "Description": "Total context-sensitive instruction set",
+  "PriorityId": 89,
   "VisibleFor": {
-    "VisibleId": 685,
+    "VisibleId": 18,
     "Visibility": "All",
-    "DisplayValue": "nulla",
+    "DisplayValue": "sit",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "repurpose turn-key users"
         },
         "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldLength": 275
       }
     }
   },
   "Completed": "Completed",
-  "OwnerAssociateId": 55,
+  "OwnerAssociateId": 806,
   "SingleEntryOnEachCompany": true,
-  "SaleId": 199,
+  "SaleId": 444,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldLength": 105
     }
   }
 }

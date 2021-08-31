@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultWebPanelEntity
+title: CreateDefaultWebPanelEntity
 id: v1ListAgent_CreateDefaultWebPanelEntity
 ---
 
-# POST Agents/List/CreateDefaultWebPanelEntity
+# CreateDefaultWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 399,
-  "Name": "Smith, Heller and Rogahn",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 378,
+  "WebPanelId": 244,
+  "Name": "Lemke-Gleason",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "Rank": 804,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Borer LLC",
+  "WindowName": "Kshlerin Group",
   "Url": "http://www.example.com/",
-  "ProgId": "quos",
-  "Icon": 270,
+  "ProgId": "eos",
+  "Icon": 542,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deploy compelling platforms"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

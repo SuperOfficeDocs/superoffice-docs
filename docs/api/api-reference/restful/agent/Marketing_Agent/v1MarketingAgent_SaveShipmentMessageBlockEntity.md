@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/SaveShipmentMessageBlockEntity
+title: SaveShipmentMessageBlockEntity
 id: v1MarketingAgent_SaveShipmentMessageBlockEntity
 ---
 
-# POST Agents/Marketing/SaveShipmentMessageBlockEntity
+# SaveShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
@@ -82,18 +82,18 @@ Response body: object
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 999,
-  "AssociateId": 72,
-  "Block": "magni",
-  "Registered": "1995-08-04T16:48:29.9559247+02:00",
-  "RegisteredAssociateId": 547,
-  "Updated": "1997-06-04T16:48:29.9559247+02:00",
-  "UpdatedAssociateId": 303,
-  "UpdatedCount": 134
+  "ShipmentMessageBlockId": 479,
+  "AssociateId": 211,
+  "Block": "quis",
+  "Registered": "1994-08-09T14:58:04.4964654+02:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "2012-11-04T14:58:04.4964654+01:00",
+  "UpdatedAssociateId": 75,
+  "UpdatedCount": 432
 }
 ```
 
@@ -103,16 +103,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ShipmentMessageBlockId": 973,
-  "AssociateId": 836,
-  "Block": "at",
-  "Registered": "2000-11-23T16:48:29.9559247+01:00",
-  "RegisteredAssociateId": 119,
-  "Updated": "2015-02-01T16:48:29.9559247+01:00",
-  "UpdatedAssociateId": 802,
-  "UpdatedCount": 859,
+  "AssociateId": 540,
+  "Block": "aperiam",
+  "Registered": "2009-02-27T14:58:04.4964654+01:00",
+  "RegisteredAssociateId": 19,
+  "Updated": "1995-10-06T14:58:04.4964654+02:00",
+  "UpdatedAssociateId": 78,
+  "UpdatedCount": 966,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "deliver revolutionary solutions"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 619
     }
   }
 }

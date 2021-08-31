@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/SaveConfigParameter
+title: SaveConfigParameter
 id: v1AudienceAgent_SaveConfigParameter
 ---
 
-# POST Agents/Audience/SaveConfigParameter
+# SaveConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/SaveConfigParameter
@@ -85,19 +85,19 @@ Response body: object
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Miller-Von",
+  "LayoutName": "Rodriguez LLC",
   "ConfigParameter": {
-    "AudienceLayoutId": 830,
-    "Name": "Schneider-O'Keefe",
-    "Value": "exercitationem",
-    "CreatedDate": "1998-03-07T16:48:28.7641982+01:00",
-    "UpdatedDate": "1998-09-08T16:48:28.7641982+02:00",
-    "CreatedBy": "sed",
-    "UpdatedBy": "enim"
+    "AudienceLayoutId": 45,
+    "Name": "Heidenreich-Dach",
+    "Value": "praesentium",
+    "CreatedDate": "2016-09-27T14:58:03.2562353+02:00",
+    "UpdatedDate": "2002-10-29T14:58:03.2562353+01:00",
+    "CreatedBy": "vel",
+    "UpdatedBy": "autem"
   }
 }
 ```
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 667,
-  "Name": "Greenholt, Brown and Green",
-  "Value": "nostrum",
-  "CreatedDate": "2015-03-08T16:48:28.7641982+01:00",
-  "UpdatedDate": "2002-08-27T16:48:28.7641982+02:00",
-  "CreatedBy": "nesciunt",
-  "UpdatedBy": "non",
+  "AudienceLayoutId": 54,
+  "Name": "Turcotte Group",
+  "Value": "quo",
+  "CreatedDate": "2006-04-26T14:58:03.2562353+02:00",
+  "UpdatedDate": "2007-05-11T14:58:03.2562353+02:00",
+  "CreatedBy": "officiis",
+  "UpdatedBy": "possimus",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

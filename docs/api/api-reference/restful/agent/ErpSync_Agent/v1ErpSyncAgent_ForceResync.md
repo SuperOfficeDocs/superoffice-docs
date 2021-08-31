@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ForceResync
+title: ForceResync
 id: v1ErpSyncAgent_ForceResync
 ---
 
-# POST Agents/ErpSync/ForceResync
+# ForceResync
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResync
@@ -85,14 +85,14 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ForceResync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 791,
+  "ErpConnectionId": 798,
   "InternalKeyIds": [
-    943,
-    613
+    168,
+    174
   ]
 }
 ```
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "suscipit",
-  "TechExplanation": "sed",
-  "ErrorCode": "omnis",
+  "UserExplanation": "tempora",
+  "TechExplanation": "enim",
+  "ErrorCode": "deserunt",
   "Changes": {
     "AddedRecords": [
       {},
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldLength": 78
       }
     }
   },
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

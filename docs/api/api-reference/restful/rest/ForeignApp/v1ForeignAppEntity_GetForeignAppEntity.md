@@ -80,57 +80,32 @@ Response body: object
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Aug 2014 09:40:59 G8T
+Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
 
 {
-  "ForeignAppId": 513,
-  "Name": "Homenick-Stark",
-  "CreatedDate": "1998-07-25T09:40:59.2086626+02:00",
-  "UpdatedDate": "2014-08-29T09:40:59.2086626+02:00",
+  "ForeignAppId": 445,
+  "Name": "Corkery-Crona",
+  "CreatedDate": "2010-02-03T15:05:42.1976684+01:00",
+  "UpdatedDate": "1996-09-03T15:05:42.1976684+02:00",
   "CreatedBy": {
-    "AssociateId": 887,
-    "Name": "Leffler Inc and Sons",
-    "PersonId": 764,
-    "Rank": 359,
-    "Tooltip": "fugit",
+    "AssociateId": 251,
+    "Name": "Volkman-Mayer",
+    "PersonId": 52,
+    "Rank": 207,
+    "Tooltip": "voluptas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 425,
-    "FullName": "Danyka Yost",
-    "FormalName": "Homenick, Boyle and Price",
+    "GroupIdx": 935,
+    "FullName": "Floy Gerlach",
+    "FormalName": "Hayes, Kovacek and Hackett",
     "Deleted": false,
-    "EjUserId": 443,
-    "UserName": "Hoppe Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 324
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 411,
-    "Name": "Christiansen, Langosh and Pollich",
-    "PersonId": 171,
-    "Rank": 343,
-    "Tooltip": "sed",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 904,
-    "FullName": "Haylie Jacobi II",
-    "FormalName": "Olson Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 433,
-    "UserName": "Ruecker-Kuhn",
+    "EjUserId": 216,
+    "UserName": "Fay, Jewess and Wiza",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -139,21 +114,46 @@ Last-Modified: Fri, 29 Aug 2014 09:40:59 G8T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldLength": 2
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 290,
+    "Name": "Beier-Olson",
+    "PersonId": 826,
+    "Rank": 353,
+    "Tooltip": "provident",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 149,
+    "FullName": "Felicita Wilkinson",
+    "FormalName": "Hoppe, O'Keefe and Hodkiewicz",
+    "Deleted": false,
+    "EjUserId": 901,
+    "UserName": "Schulist, Upton and Wisozk",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 806,
-      "Name": "Price, Rodriguez and Swaniawski",
-      "CreatedDate": "2018-12-17T09:40:59.2086626+01:00",
-      "UpdatedDate": "2009-03-07T09:40:59.2086626+01:00",
-      "AssociateFullName": "Zack Wyman",
-      "CreatedBy": "minus",
-      "UpdatedBy": "necessitatibus",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 864,
+      "ForeignDeviceId": 683,
+      "Name": "Mayert, Dach and Hermiston",
+      "CreatedDate": "2020-01-08T15:05:42.2136674+01:00",
+      "UpdatedDate": "2016-01-23T15:05:42.2136674+01:00",
+      "AssociateFullName": "Enid Muller",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 327,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -162,7 +162,7 @@ Last-Modified: Fri, 29 Aug 2014 09:40:59 G8T
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 29
         }
       }
     }
@@ -175,15 +175,15 @@ Last-Modified: Fri, 29 Aug 2014 09:40:59 G8T
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver transparent systems"
+        "Reason": "monetize e-business channels"
       },
-      "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

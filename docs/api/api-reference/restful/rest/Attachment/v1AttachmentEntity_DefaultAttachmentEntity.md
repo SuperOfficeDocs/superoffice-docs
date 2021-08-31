@@ -53,6 +53,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -62,7 +64,7 @@ Response body: object
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,10 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 631,
-  "Name": "Ritchie Inc and Sons",
-  "ContentType": "et",
-  "AttSize": 965,
+  "AttachmentId": 877,
+  "Name": "Kunde Group",
+  "ContentType": "expedita",
+  "AttSize": 308,
+  "InlineImage": true,
+  "ContentId": "quia",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -85,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldLength": 821
     }
   }
 }

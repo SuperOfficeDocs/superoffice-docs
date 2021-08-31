@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/ValidateTriggerScript
+title: ValidateTriggerScript
 id: v1CRMScriptAgent_ValidateTriggerScript
 ---
 
-# POST Agents/CRMScript/ValidateTriggerScript
+# ValidateTriggerScript
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateTriggerScript
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateTriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 724
+  "TriggerScriptId": 660
 }
 ```
 
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "earum",
+  "ErrorMessage": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldLength": 824
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/License/ActivateLicenseInfo
+title: ActivateLicenseInfo
 id: v1LicenseAgent_ActivateLicenseInfo
 ---
 
-# POST Agents/License/ActivateLicenseInfo
+# ActivateLicenseInfo
 
 ```http
 POST /api/v1/Agents/License/ActivateLicenseInfo
@@ -80,15 +80,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewLicense": {
-    "Reason": "orchestrate extensible applications",
-    "CanBeActivated": true,
+    "Reason": "",
+    "CanBeActivated": false,
     "New": {},
     "Current": {},
     "ExtendedModuleLicenses": [
       {},
       {}
     ],
-    "AccumulatedNextCheckDate": "2011-12-26T16:48:29.7309241+01:00"
+    "AccumulatedNextCheckDate": "2012-05-02T14:58:04.3254605+02:00"
   }
 }
 ```
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "",
+  "Reason": "benchmark collaborative supply-chains",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

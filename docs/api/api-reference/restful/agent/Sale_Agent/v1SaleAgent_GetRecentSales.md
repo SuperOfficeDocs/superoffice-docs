@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetRecentSales
+title: GetRecentSales
 id: v1SaleAgent_GetRecentSales
 ---
 
-# POST Agents/Sale/GetRecentSales
+# GetRecentSales
 
 ```http
 POST /api/v1/Agents/Sale/GetRecentSales
@@ -98,12 +98,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 333,
-  "Count": 138
+  "AmountLimit": 270,
+  "Count": 512
 }
 ```
 
@@ -113,31 +113,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Watsica LLC",
-    "SaleDate": "2005-10-13T16:48:30.6199071+02:00",
-    "SaleId": 412,
-    "Probability": 599,
-    "Title": "ipsum",
-    "Amount": 25382.266,
-    "Currency": "enim",
-    "ProjectName": "Schaefer, Bradtke and Mohr",
-    "AssociateFullName": "Ms. Rose Greenholt",
-    "Description": "Managed dynamic success",
+    "ContactName": "Becker LLC",
+    "SaleDate": "2016-01-29T14:58:05.186632+01:00",
+    "SaleId": 245,
+    "Probability": 782,
+    "Title": "quidem",
+    "Amount": 26121.89,
+    "Currency": "voluptas",
+    "ProjectName": "Wehner Inc and Sons",
+    "AssociateFullName": "Mrs. Jazmyn Volkman",
+    "Description": "Pre-emptive 24 hour standardization",
     "Status": "Lost",
-    "WeightedAmount": 5603.592,
-    "ProjectId": 392,
-    "EarningPercent": 23884.214,
-    "Earning": 19082.926,
-    "ContactId": 945,
-    "AssociateId": 215,
-    "PersonId": 216,
-    "SaleTypeId": 112,
-    "SaleTypeName": "Connelly-Larson",
-    "PersonFullName": "Ms. Foster Lehner",
+    "WeightedAmount": 8057.514,
+    "ProjectId": 226,
+    "EarningPercent": 463.832,
+    "Earning": 2692.1059999999998,
+    "ContactId": 581,
+    "AssociateId": 676,
+    "PersonId": 709,
+    "SaleTypeId": 153,
+    "SaleTypeName": "Collier, Hegmann and Mayer",
+    "PersonFullName": "Emmalee Lebsack",
     "Completed": "Completed",
-    "ActiveErpLinks": 568,
-    "NextDueDate": "2007-09-02T16:48:30.6209377+02:00",
-    "Number": "1809881",
+    "ActiveErpLinks": 380,
+    "NextDueDate": "1995-12-22T14:58:05.186632+01:00",
+    "Number": "698228",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

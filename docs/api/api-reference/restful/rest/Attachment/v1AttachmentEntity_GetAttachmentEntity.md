@@ -67,6 +67,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -77,7 +79,7 @@ Response body: object
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -85,13 +87,15 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 434,
-  "Name": "King-Koss",
-  "ContentType": "qui",
-  "AttSize": 296,
+  "AttachmentId": 863,
+  "Name": "Blanda Group",
+  "ContentType": "dicta",
+  "AttSize": 293,
+  "InlineImage": true,
+  "ContentId": "harum",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "facilitate visionary applications"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -99,8 +103,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   },
   "_Links": {

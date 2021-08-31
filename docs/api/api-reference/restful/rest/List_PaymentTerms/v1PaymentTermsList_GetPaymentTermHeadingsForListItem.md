@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Kemmer-Konopelski",
-    "ToolTip": "Dolor quam ratione quasi aut ut veniam.",
-    "Deleted": false,
-    "Rank": 707,
-    "Type": "dolorem",
-    "ColorBlock": 773,
-    "IconHint": "amet",
+    "Id": 397,
+    "Name": "Sauer-Bins",
+    "ToolTip": "Aut placeat ducimus et adipisci quia.",
+    "Deleted": true,
+    "Rank": 467,
+    "Type": "aut",
+    "ColorBlock": 233,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "1994-03-15T09:41:00.4813848+01:00",
+    "LastChanged": "1997-04-06T15:05:43.5460796+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Gusikowski, Schmitt and Kilback",
-        "ToolTip": "Amet expedita ab ducimus debitis.",
+        "Id": 187,
+        "Name": "Quitzon, Rohan and Wolff",
+        "ToolTip": "Autem sit similique eligendi.",
         "Deleted": true,
-        "Rank": 286,
-        "Type": "doloribus",
-        "ColorBlock": 501,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "1997-06-11T09:41:00.4813848+02:00",
+        "Rank": 726,
+        "Type": "ratione",
+        "ColorBlock": 33,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2017-01-28T15:05:43.5470794+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "maxime",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Gene Gleason",
+        "FullName": "Parker West",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 181
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "dolorum",
-    "Hidden": true,
-    "FullName": "Jasen Goldner",
+    "ExtraInfo": "est",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Alexandre Boyer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 941
       }
     }
   }

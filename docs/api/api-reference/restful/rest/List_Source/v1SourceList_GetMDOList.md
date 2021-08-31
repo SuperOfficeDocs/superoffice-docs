@@ -26,7 +26,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=soluta
+GET /api/v1/List/Source/MDOItems?query=laboriosam
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Walsh-Prosacco",
-    "ToolTip": "Autem aliquid reiciendis quas vitae dolores.",
+    "Id": 907,
+    "Name": "Goyette LLC",
+    "ToolTip": "Laboriosam veritatis et soluta reiciendis voluptatem.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "temporibus",
+    "Rank": 435,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Beahan, Rosenbaum and Jakubowski",
-        "ToolTip": "Similique culpa.",
-        "Deleted": false,
-        "Rank": 845,
-        "Type": "officiis",
+        "Id": 275,
+        "Name": "Mante, Goldner and Rodriguez",
+        "ToolTip": "Et animi.",
+        "Deleted": true,
+        "Rank": 376,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 332,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "eum",
-        "FullName": "Daniela Schmeler",
+        "IconHint": "sed",
+        "ColorBlock": 255,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "est",
+        "FullName": "Catharine Hamill",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldLength": 630
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 752,
-    "ExtraInfo": "aut",
-    "StyleHint": "consequatur",
-    "FullName": "Dr. Kristy Emard",
+    "IconHint": "in",
+    "ColorBlock": 675,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "recusandae",
+    "FullName": "Chris Morissette III",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldLength": 852
       }
     }
   }

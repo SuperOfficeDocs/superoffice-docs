@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Gerlach, Kunze and Crooks",
-    "ToolTip": "Sed quidem corporis doloribus non.",
-    "Deleted": true,
-    "Rank": 902,
-    "Type": "mollitia",
-    "ColorBlock": 618,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2006-04-12T09:40:59.5196627+02:00",
+    "Id": 860,
+    "Name": "Waters, Schroeder and Konopelski",
+    "ToolTip": "Sed enim earum.",
+    "Deleted": false,
+    "Rank": 62,
+    "Type": "dolore",
+    "ColorBlock": 326,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2011-07-22T15:05:42.5656353+02:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Pagac-Franecki",
-        "ToolTip": "Dolorum repudiandae inventore inventore voluptas.",
-        "Deleted": true,
-        "Rank": 353,
-        "Type": "magnam",
-        "ColorBlock": 968,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2001-05-09T09:40:59.5196627+02:00",
+        "Id": 653,
+        "Name": "Glover LLC",
+        "ToolTip": "Quam voluptatem dolorem aut numquam aut.",
+        "Deleted": false,
+        "Rank": 551,
+        "Type": "quos",
+        "ColorBlock": 979,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "1999-12-24T15:05:42.5656353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Kenneth Metz Sr.",
+        "ExtraInfo": "est",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Jaycee Wyman",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,16 +121,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "iste",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Dr. Kari Ondricka",
+    "FullName": "Bobbie Langosh",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

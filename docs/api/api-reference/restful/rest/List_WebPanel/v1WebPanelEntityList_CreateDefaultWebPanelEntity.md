@@ -78,7 +78,7 @@ Response body: object
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 213,
-  "Name": "Schultz, Tromp and Anderson",
-  "Tooltip": "occaecati",
+  "WebPanelId": 730,
+  "Name": "Marvin, Bode and Kassulke",
+  "Tooltip": "repudiandae",
   "Deleted": true,
-  "Rank": 629,
+  "Rank": 51,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Buckridge-Macejkovic",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Abernathy, Boehm and Rath",
   "Url": "http://www.example.com/",
-  "ProgId": "expedita",
-  "Icon": 587,
+  "ProgId": "dolorem",
+  "Icon": 723,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

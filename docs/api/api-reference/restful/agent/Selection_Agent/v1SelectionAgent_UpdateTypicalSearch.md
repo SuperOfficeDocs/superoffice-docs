@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/UpdateTypicalSearch
+title: UpdateTypicalSearch
 id: v1SelectionAgent_UpdateTypicalSearch
 ---
 
-# POST Agents/Selection/UpdateTypicalSearch
+# UpdateTypicalSearch
 
 ```http
 POST /api/v1/Agents/Selection/UpdateTypicalSearch
@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Searches": {
-    "Source": "placeat",
-    "MasterVersion": 204,
+    "Source": "pariatur",
+    "MasterVersion": 299,
     "DeleteLeftovers": false,
     "Searches": [
       {},
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"illum"
+"beatae"
 ```

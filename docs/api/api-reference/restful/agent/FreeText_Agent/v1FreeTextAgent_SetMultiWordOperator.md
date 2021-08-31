@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/SetMultiWordOperator
+title: SetMultiWordOperator
 id: v1FreeTextAgent_SetMultiWordOperator
 ---
 
-# POST Agents/FreeText/SetMultiWordOperator
+# SetMultiWordOperator
 
 ```http
 POST /api/v1/Agents/FreeText/SetMultiWordOperator

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetActivityFilter
+title: GetActivityFilter
 id: v1ArchiveAgent_GetActivityFilter
 ---
 
-# POST Agents/Archive/GetActivityFilter
+# GetActivityFilter
 
 ```http
 POST /api/v1/Agents/Archive/GetActivityFilter
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,61 +81,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-08-25T16:48:28.7194195+02:00",
-  "ToDate": "2019-09-10T16:48:28.7194195+02:00",
+  "FromDate": "1995-12-17T14:58:03.2185688+01:00",
+  "ToDate": "2011-10-09T14:58:03.2185688+02:00",
   "AssociateList": [
     {
-      "Id": 49,
-      "Name": "Ruecker-Senger",
-      "ToolTip": "Deserunt fugiat deserunt.",
+      "Id": 430,
+      "Name": "Gerlach, Stamm and Cole",
+      "ToolTip": "Iure asperiores in vitae eveniet aut distinctio.",
       "Deleted": true,
-      "Rank": 226,
-      "Type": "quasi",
-      "ColorBlock": 566,
-      "IconHint": "sunt",
+      "Rank": 585,
+      "Type": "est",
+      "ColorBlock": 807,
+      "IconHint": "cupiditate",
       "Selected": true,
-      "LastChanged": "2001-05-19T16:48:28.7194195+02:00",
+      "LastChanged": "1996-05-20T14:58:03.2185688+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "quaerat",
-      "Hidden": false,
-      "FullName": "Zola Fritsch",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "perferendis",
+      "Hidden": true,
+      "FullName": "Mrs. Eli Cole",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "aggregate rich models"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 67
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 340,
-      "Name": "Torphy, Johns and Crona",
-      "ToolTip": "Consequatur pariatur.",
+      "Id": 963,
+      "Name": "Watsica-Haley",
+      "ToolTip": "Omnis eligendi id repellendus excepturi.",
       "Deleted": false,
-      "Rank": 328,
-      "Type": "dolorem",
-      "ColorBlock": 275,
-      "IconHint": "ipsum",
+      "Rank": 779,
+      "Type": "sunt",
+      "ColorBlock": 319,
+      "IconHint": "iste",
       "Selected": false,
-      "LastChanged": "1999-02-18T16:48:28.7204189+01:00",
+      "LastChanged": "2010-04-26T14:58:03.2195685+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "eveniet",
-      "Hidden": false,
-      "FullName": "Furman Lueilwitz",
+      "ExtraInfo": "quas",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Dr. Esta Pfannerstill",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -143,29 +143,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 394
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 622,
-      "Name": "Oberbrunner-Swaniawski",
-      "ToolTip": "Qui eum eos sequi quis.",
+      "Id": 618,
+      "Name": "Mraz-Zieme",
+      "ToolTip": "Corrupti ab ut nam voluptatem ipsa.",
       "Deleted": false,
-      "Rank": 252,
-      "Type": "modi",
+      "Rank": 70,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "provident",
-      "ColorBlock": 730,
-      "ExtraInfo": "velit",
-      "StyleHint": "officia",
-      "FullName": "Myrna Marks",
+      "IconHint": "maiores",
+      "ColorBlock": 815,
+      "ExtraInfo": "harum",
+      "StyleHint": "eaque",
+      "FullName": "Assunta Kihn",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 940
+          "FieldLength": 224
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 163
     }
   }
 }

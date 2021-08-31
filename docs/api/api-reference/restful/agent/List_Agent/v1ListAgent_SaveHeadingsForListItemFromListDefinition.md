@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveHeadingsForListItemFromListDefinition
+title: SaveHeadingsForListItemFromListDefinition
 id: v1ListAgent_SaveHeadingsForListItemFromListDefinition
 ---
 
-# POST Agents/List/SaveHeadingsForListItemFromListDefinition
+# SaveHeadingsForListItemFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 328,
-  "ListItemId": 251,
+  "UdListDefinitionId": 296,
+  "ListItemId": 44,
   "Headings": [
     {
-      "Id": 483,
-      "Name": "Block-Kulas",
-      "ToolTip": "Doloremque non suscipit amet animi.",
+      "Id": 642,
+      "Name": "Osinski Group",
+      "ToolTip": "Dolore nobis nihil repellat labore autem sunt.",
       "Deleted": true,
-      "Rank": 165,
-      "Type": "fugit",
-      "ColorBlock": 73,
-      "IconHint": "necessitatibus",
-      "Selected": false,
-      "LastChanged": "2020-07-23T16:48:29.8869228+02:00",
+      "Rank": 330,
+      "Type": "rerum",
+      "ColorBlock": 429,
+      "IconHint": "voluptate",
+      "Selected": true,
+      "LastChanged": "2020-11-04T14:58:04.4254659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "ipsum",
-      "Hidden": true,
-      "FullName": "Camren Reilly"
+      "ExtraInfo": "esse",
+      "StyleHint": "quam",
+      "Hidden": false,
+      "FullName": "Fritz Hahn"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Gottlieb-Crist",
-    "ToolTip": "Dolor quae et.",
-    "Deleted": false,
-    "Rank": 623,
-    "Type": "explicabo",
-    "ColorBlock": 874,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2012-06-10T16:48:29.8879253+02:00",
+    "Id": 736,
+    "Name": "Renner-Nicolas",
+    "ToolTip": "Et incidunt fuga non.",
+    "Deleted": true,
+    "Rank": 73,
+    "Type": "recusandae",
+    "ColorBlock": 830,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2021-04-29T14:58:04.4264679+02:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Bergstrom-Marvin",
-        "ToolTip": "Sint debitis dolorem eaque.",
+        "Id": 164,
+        "Name": "Williamson-Robel",
+        "ToolTip": "Sit voluptatibus reprehenderit omnis.",
         "Deleted": true,
-        "Rank": 374,
-        "Type": "ratione",
-        "ColorBlock": 420,
-        "IconHint": "est",
+        "Rank": 349,
+        "Type": "voluptatem",
+        "ColorBlock": 726,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2002-06-24T16:48:29.8879253+02:00",
+        "LastChanged": "2007-10-17T14:58:04.4264679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Quinton Swift",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Ilene Bruen",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -164,15 +164,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 136
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Santina Kuhn",
+    "ExtraInfo": "modi",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Mylene Ziemann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 879
       }
     }
   }

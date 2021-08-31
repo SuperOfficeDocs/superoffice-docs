@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/ExistsSystemEvent
+title: ExistsSystemEvent
 id: v1ConfigurationAgent_ExistsSystemEvent
 ---
 
-# POST Agents/Configuration/ExistsSystemEvent
+# ExistsSystemEvent
 
 ```http
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sequi"
+  "Key": "magnam"
 }
 ```
 

@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Towne Group",
-  "Tooltip": "aspernatur",
+  "Id": 427,
+  "Name": "Miller Group",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 671,
-  "Rank": 341,
+  "UdListDefinitionId": 246,
+  "Rank": 149,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

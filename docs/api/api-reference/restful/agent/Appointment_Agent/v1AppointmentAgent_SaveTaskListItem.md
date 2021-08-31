@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/SaveTaskListItem
+title: SaveTaskListItem
 id: v1AppointmentAgent_SaveTaskListItem
 ---
 
-# POST Agents/Appointment/SaveTaskListItem
+# SaveTaskListItem
 
 ```http
 POST /api/v1/Agents/Appointment/SaveTaskListItem
@@ -92,16 +92,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 621,
-  "Value": "praesentium",
+  "TaskListItemId": 890,
+  "Value": "ducimus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "IntentId": 419,
-  "Rank": 311,
+  "Tooltip": "quae",
+  "Deleted": true,
+  "IntentId": 383,
+  "Rank": 185,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 183,
-  "Value": "id",
+  "TaskListItemId": 241,
+  "Value": "iure",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nihil",
+  "Tooltip": "qui",
   "Deleted": false,
-  "IntentId": 576,
-  "Rank": 744,
+  "IntentId": 285,
+  "Rank": 946,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 344
     }
   }

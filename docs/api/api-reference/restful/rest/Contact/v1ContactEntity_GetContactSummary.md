@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=480
+GET /api/v1/Contact/{contactId}/Summary?limit=362
 ```
 
 
@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -85,28 +85,28 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Contact": {
-    "ContactId": 830,
-    "Name": "Bernier LLC",
-    "OrgNr": "790946",
+    "ContactId": 952,
+    "Name": "Kuphal-Langworth",
+    "OrgNr": "1344117",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quis",
-    "DirectPhone": "1-721-850-0337 x4810",
-    "AssociateId": 110,
-    "CountryId": 576,
-    "EmailAddress": "andy.johnston@koepp.name",
-    "Kananame": "possimus",
-    "EmailAddressName": "nedra@bayer.ca",
+    "City": "occaecati",
+    "DirectPhone": "516.888.3437",
+    "AssociateId": 168,
+    "CountryId": 35,
+    "EmailAddress": "laila@murphy.ca",
+    "Kananame": "sapiente",
+    "EmailAddressName": "roselyn_mccullough@jakubowskiconsidine.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Kristofer Jewess",
+    "AssociateFullName": "Dr. Douglas Jewess",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "reprehenderit",
-    "FullName": "Estelle Dare",
+    "FormattedAddress": "natus",
+    "FullName": "Mathilde Legros",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 563,
+    "ActiveErpLinks": 527,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -114,84 +114,84 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   },
   "Tickets": [
     {
-      "TicketId": 367,
-      "TicketStatus": 13,
-      "Title": "necessitatibus",
-      "Registered": "2020-03-30T09:40:58.9903704+02:00"
+      "TicketId": 666,
+      "TicketStatus": 918,
+      "Title": "repudiandae",
+      "Registered": "2004-07-06T15:05:41.9850035+02:00"
     },
     {
-      "TicketId": 367,
-      "TicketStatus": 13,
-      "Title": "necessitatibus",
-      "Registered": "2020-03-30T09:40:58.9903704+02:00"
+      "TicketId": 666,
+      "TicketStatus": 918,
+      "Title": "repudiandae",
+      "Registered": "2004-07-06T15:05:41.9850035+02:00"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 950,
-      "DocumentId": 829,
-      "Date": "2011-07-29T09:40:58.9903704+02:00",
-      "Description": "Enterprise-wide transitional toolset",
+      "AppointmentId": 184,
+      "DocumentId": 53,
+      "Date": "2008-09-09T15:05:41.9850035+02:00",
+      "Description": "Public-key leading edge groupware",
       "Completed": "Completed",
-      "Registered": "2013-09-07T09:40:58.9903704+02:00"
+      "Registered": "2012-03-20T15:05:41.9850035+01:00"
     },
     {
-      "AppointmentId": 950,
-      "DocumentId": 829,
-      "Date": "2011-07-29T09:40:58.9903704+02:00",
-      "Description": "Enterprise-wide transitional toolset",
+      "AppointmentId": 184,
+      "DocumentId": 53,
+      "Date": "2008-09-09T15:05:41.9850035+02:00",
+      "Description": "Public-key leading edge groupware",
       "Completed": "Completed",
-      "Registered": "2013-09-07T09:40:58.9903704+02:00"
+      "Registered": "2012-03-20T15:05:41.9850035+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 595,
-      "DocumentId": 630,
-      "Date": "2010-11-04T09:40:58.9903704+01:00",
-      "Description": "Robust non-volatile application",
+      "AppointmentId": 65,
+      "DocumentId": 409,
+      "Date": "2007-09-16T15:05:41.9850035+02:00",
+      "Description": "Networked directional artificial intelligence",
       "Completed": "Completed",
-      "Registered": "2003-08-26T09:40:58.9903704+02:00"
+      "Registered": "2020-01-10T15:05:41.9850035+01:00"
     },
     {
-      "AppointmentId": 595,
-      "DocumentId": 630,
-      "Date": "2010-11-04T09:40:58.9903704+01:00",
-      "Description": "Robust non-volatile application",
+      "AppointmentId": 65,
+      "DocumentId": 409,
+      "Date": "2007-09-16T15:05:41.9850035+02:00",
+      "Description": "Networked directional artificial intelligence",
       "Completed": "Completed",
-      "Registered": "2003-08-26T09:40:58.9903704+02:00"
+      "Registered": "2020-01-10T15:05:41.9850035+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 527,
-      "SaleDate": "2016-11-19T09:40:58.9903704+01:00",
-      "Probability": 517,
-      "Heading": "dolorem",
-      "Amount": 2757.92,
-      "Currency": "laudantium",
-      "AmountInBaseCurrency": 15767.153999999999,
+      "SaleId": 892,
+      "SaleDate": "2004-10-22T15:05:41.9850035+02:00",
+      "Probability": 354,
+      "Heading": "consectetur",
+      "Amount": 29362.446,
+      "Currency": "sed",
+      "AmountInBaseCurrency": 31205.237999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2006-12-01T09:40:58.9903704+01:00"
+      "Registered": "2011-02-05T15:05:41.9850035+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 741,
-      "Name": "Rice Inc and Sons",
-      "CompanyName": "Sanford Group",
-      "FirstMessage": "inventore",
-      "LastMessage": "excepturi",
-      "WhenRequested": "2018-12-29T09:40:58.9903704+01:00",
-      "WhenEnded": "2018-02-22T09:40:58.9903704+01:00"
+      "ChatSessionId": 769,
+      "Name": "Orn, Littel and Kuhn",
+      "CompanyName": "Emmerich-Wolf",
+      "FirstMessage": "mollitia",
+      "LastMessage": "tempore",
+      "WhenRequested": "2004-06-16T15:05:41.9850035+02:00",
+      "WhenEnded": "2011-12-16T15:05:41.9850035+01:00"
     }
   ]
 }

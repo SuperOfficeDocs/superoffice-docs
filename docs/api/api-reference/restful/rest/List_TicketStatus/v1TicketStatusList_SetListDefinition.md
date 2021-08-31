@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Bogan-Stehr",
-  "Tooltip": "ut",
+  "Id": 470,
+  "Name": "Nienow, Ritchie and McCullough",
+  "Tooltip": "optio",
   "Deleted": true,
-  "Rank": 505,
+  "Rank": 181,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "hic",
+  "ListType": "fuga",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Sanford-Greenfelder",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 778,
-  "IsCustomList": false,
+  "Id": 380,
+  "Name": "Kris, Schinner and Huel",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 672,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "placeat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolorum",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   }
 }

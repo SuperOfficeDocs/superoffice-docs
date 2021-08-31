@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Stracke-Graham",
-    "ToolTip": "Quas porro dolorem laborum.",
+    "Id": 901,
+    "Name": "O'Connell-Bradtke",
+    "ToolTip": "Cupiditate velit distinctio.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "modi",
-    "ColorBlock": 952,
-    "IconHint": "occaecati",
+    "Rank": 595,
+    "Type": "accusamus",
+    "ColorBlock": 863,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2007-09-09T09:41:00.674388+02:00",
+    "LastChanged": "2017-09-16T15:05:43.7321173+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Witting LLC",
-        "ToolTip": "Nihil aut ut.",
+        "Id": 845,
+        "Name": "Kuphal Group",
+        "ToolTip": "Harum quos id velit.",
         "Deleted": true,
-        "Rank": 536,
-        "Type": "maxime",
-        "ColorBlock": 165,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "1995-05-20T09:41:00.674388+02:00",
+        "Rank": 183,
+        "Type": "sunt",
+        "ColorBlock": 136,
+        "IconHint": "recusandae",
+        "Selected": false,
+        "LastChanged": "2004-04-01T15:05:43.7321173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "autem",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "laudantium",
         "Hidden": true,
-        "FullName": "Mrs. Winfield Hayes",
+        "FullName": "Maurine Purdy",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "streamline viral solutions"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldType": "System.Int32",
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Ms. Dortha Hilpert",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Frederic Sawayn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 507
       }
     }
   }

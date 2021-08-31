@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/ValidateAppointmentEntity
+title: ValidateAppointmentEntity
 id: v1AppointmentAgent_ValidateAppointmentEntity
 ---
 
-# POST Agents/Appointment/ValidateAppointmentEntity
+# ValidateAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -77,34 +77,34 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2014-12-25T16:48:28.4164531+01:00",
-    "AppointmentId": 678,
-    "Description": "Re-engineered context-sensitive collaboration",
-    "StartDate": "2008-10-04T16:48:28.4164531+02:00",
-    "EndDate": "2015-05-27T16:48:28.4164531+02:00",
+    "CreatedDate": "2017-10-31T14:58:03.0345382+01:00",
+    "AppointmentId": 517,
+    "Description": "Future-proofed fresh-thinking array",
+    "StartDate": "2016-06-28T14:58:03.0345382+02:00",
+    "EndDate": "1999-10-11T14:58:03.0345382+02:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 877,
+    "MotherId": 475,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "2014-09-25T16:48:28.4164531+02:00",
+    "UpdatedDate": "2009-12-27T14:58:03.0345382+01:00",
     "Completed": "Completed",
-    "ActiveLinks": 977,
+    "ActiveLinks": 535,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "molestiae",
-    "HasAlarm": true,
-    "ColorIndex": 388,
+    "AlarmLeadTime": "libero",
+    "HasAlarm": false,
+    "ColorIndex": 814,
     "IsFree": false,
-    "IsAlldayEvent": false,
-    "LagTime": "molestiae",
-    "LeadTime": "suscipit",
-    "Location": "velit",
-    "RejectCounter": 59,
+    "IsAlldayEvent": true,
+    "LagTime": "perspiciatis",
+    "LeadTime": "commodi",
+    "Location": "vel",
+    "RejectCounter": 966,
     "RejectReason": "",
     "Recurrence": {},
     "Participants": [
@@ -114,34 +114,34 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "2002-10-05T16:48:28.4164531+02:00",
+    "ActiveDate": "2014-02-22T14:58:03.0345382+01:00",
     "HasConflict": true,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 454,
+    "PreferredTZLocation": 32,
     "Sale": {},
-    "SuggestedAppointmentId": 66,
+    "SuggestedAppointmentId": 394,
     "IsMileStone": true,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "nobis",
+    "CentralserviceVideomeetId": "eos",
     "UserDefinedFields": {
-      "SuperOffice:1": "Abdul Schuppe",
-      "SuperOffice:2": "Jaylon Buckridge"
+      "SuperOffice:1": "False",
+      "SuperOffice:2": "714711524"
     },
     "ExtraFields": {
-      "ExtraFields1": "aut",
-      "ExtraFields2": "eveniet"
+      "ExtraFields1": "et",
+      "ExtraFields2": "molestias"
     },
     "CustomFields": {
-      "CustomFields1": "ullam",
-      "CustomFields2": "reiciendis"
+      "CustomFields1": "dolore",
+      "CustomFields2": "libero"
     },
-    "PublishEventDate": "2011-11-30T16:48:28.4164531+01:00",
-    "PublishTo": "1994-06-05T16:48:28.4164531+02:00",
-    "PublishFrom": "1999-02-08T16:48:28.4164531+01:00",
-    "IsPublished": true,
+    "PublishEventDate": "1996-07-19T14:58:03.0345382+02:00",
+    "PublishTo": "2020-09-23T14:58:03.0345382+02:00",
+    "PublishFrom": "2012-01-18T14:58:03.0345382+01:00",
+    "IsPublished": false,
     "VisibleFor": [
       {},
       {}
@@ -155,7 +155,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quibusdam",
-  "2": "voluptates"
+  "1": "ipsum",
+  "2": "est"
 }
 ```

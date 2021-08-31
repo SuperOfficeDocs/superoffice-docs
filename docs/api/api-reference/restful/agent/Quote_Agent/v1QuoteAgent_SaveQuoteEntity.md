@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/SaveQuoteEntity
+title: SaveQuoteEntity
 id: v1QuoteAgent_SaveQuoteEntity
 ---
 
-# POST Agents/Quote/SaveQuoteEntity
+# SaveQuoteEntity
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteEntity
@@ -90,23 +90,23 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteEntity": {
-    "QuoteId": 303,
-    "SaleId": 44,
-    "QuoteConnectionId": 832,
-    "ERPQuoteKey": "tempora",
-    "ERPOrderKey": "unde",
-    "ActiveQuoteVersionId": 437,
-    "AcceptedQuoteAlternativeId": 874,
-    "UseValuesFromQuote": 38,
-    "DocumentId": 526,
-    "PoNumber": "1177891",
-    "OrderComment": "recusandae",
-    "PreferredEmailCulture": "leslie_abbott@stantonparker.co.uk",
+    "QuoteId": 660,
+    "SaleId": 356,
+    "QuoteConnectionId": 193,
+    "ERPQuoteKey": "minima",
+    "ERPOrderKey": "maiores",
+    "ActiveQuoteVersionId": 632,
+    "AcceptedQuoteAlternativeId": 795,
+    "UseValuesFromQuote": 660,
+    "DocumentId": 413,
+    "PoNumber": "1160223",
+    "OrderComment": "iusto",
+    "PreferredEmailCulture": "eleanora@abbottlesch.us",
     "QuoteVersions": [
       {},
       {}
@@ -120,56 +120,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 805,
-  "SaleId": 438,
-  "QuoteConnectionId": 929,
-  "ERPQuoteKey": "nesciunt",
-  "ERPOrderKey": "autem",
-  "ActiveQuoteVersionId": 60,
-  "AcceptedQuoteAlternativeId": 778,
-  "UseValuesFromQuote": 818,
-  "DocumentId": 238,
-  "PoNumber": "1610807",
-  "OrderComment": "et",
-  "PreferredEmailCulture": "kira@olson.com",
+  "QuoteId": 559,
+  "SaleId": 448,
+  "QuoteConnectionId": 339,
+  "ERPQuoteKey": "a",
+  "ERPOrderKey": "accusantium",
+  "ActiveQuoteVersionId": 967,
+  "AcceptedQuoteAlternativeId": 851,
+  "UseValuesFromQuote": 449,
+  "DocumentId": 504,
+  "PoNumber": "1005823",
+  "OrderComment": "ea",
+  "PreferredEmailCulture": "lucie.lindgren@senger.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 760,
-      "ERPQuoteVersionKey": "in",
-      "QuoteId": 828,
-      "Description": "Sharable secondary initiative",
-      "Number": "765090",
+      "QuoteVersionId": 493,
+      "ERPQuoteVersionKey": "quas",
+      "QuoteId": 226,
+      "Description": "Horizontal 6th generation architecture",
+      "Number": "1206499",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 842,
-      "SentDate": "2008-09-02T16:48:30.451945+02:00",
-      "FollowupId": 671,
-      "ExpirationDate": "2002-01-13T16:48:30.451945+01:00",
-      "DeliveryCountryId": 461,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 747,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "porro",
-      "ERPPaymentTypeKey": "odit",
-      "ERPDeliveryTermsKey": "quae",
-      "ERPDeliveryTypeKey": "et",
-      "Rank": 692,
-      "ApprovedBy": 511,
-      "ApprovedText": "eius",
-      "ApprovedRegisteredBy": 579,
-      "ApprovedRegisteredDate": "2020-01-01T16:48:30.451945+01:00",
-      "ExtraField1": "non",
-      "ExtraField2": "nisi",
-      "ExtraField3": "debitis",
-      "ExtraField4": "nihil",
-      "ExtraField5": "unde",
-      "LastRecalculated": "2016-09-24T16:48:30.451945+02:00",
-      "Updated": "2016-01-29T16:48:30.451945+01:00",
-      "UpdatedAssociateId": 927,
-      "Registered": "2011-11-16T16:48:30.451945+01:00",
-      "RegisteredAssociateId": 349,
+      "LikelyQuoteAlternativeId": 419,
+      "SentDate": "2000-07-23T14:58:05.0134733+02:00",
+      "FollowupId": 952,
+      "ExpirationDate": "1995-11-30T14:58:05.0134733+01:00",
+      "DeliveryCountryId": 693,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 859,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "delectus",
+      "ERPPaymentTypeKey": "eaque",
+      "ERPDeliveryTermsKey": "nobis",
+      "ERPDeliveryTypeKey": "nihil",
+      "Rank": 633,
+      "ApprovedBy": 618,
+      "ApprovedText": "totam",
+      "ApprovedRegisteredBy": 575,
+      "ApprovedRegisteredDate": "2017-02-26T14:58:05.0134733+01:00",
+      "ExtraField1": "rerum",
+      "ExtraField2": "animi",
+      "ExtraField3": "ea",
+      "ExtraField4": "rerum",
+      "ExtraField5": "tenetur",
+      "LastRecalculated": "2017-02-11T14:58:05.0134733+01:00",
+      "Updated": "2010-09-14T14:58:05.0134733+02:00",
+      "UpdatedAssociateId": 224,
+      "Registered": "2004-07-20T14:58:05.0134733+02:00",
+      "RegisteredAssociateId": 594,
       "QuoteAlternatives": [
         {},
         {}
@@ -179,10 +179,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "drive leading-edge models"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 814
         }
       }
     }
@@ -195,10 +195,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "innovate dynamic deliverables"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

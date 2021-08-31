@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 720,
-    "Name": "Yundt Group",
-    "Tooltip": "iusto",
+    "HeadingId": 607,
+    "Name": "Harber, Miller and Kilback",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 165,
-    "UdListDefinitionId": 534
+    "Rank": 752,
+    "UdListDefinitionId": 748
   },
   {
-    "HeadingId": 720,
-    "Name": "Yundt Group",
-    "Tooltip": "iusto",
+    "HeadingId": 607,
+    "Name": "Harber, Miller and Kilback",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 165,
-    "UdListDefinitionId": 534
+    "Rank": 752,
+    "UdListDefinitionId": 748
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 208,
-    "Name": "McClure, Kshlerin and Will",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 36,
-    "UdListDefinitionId": 535,
+    "HeadingId": 616,
+    "Name": "Lesch-Bogan",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 455,
+    "UdListDefinitionId": 48,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldLength": 683
       }
     }
   }

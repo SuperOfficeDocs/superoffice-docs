@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Carter Inc and Sons",
-    "Tooltip": "aut",
+    "HeadingId": 148,
+    "Name": "Goodwin-Powlowski",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 204
+    "Rank": 992,
+    "UdListDefinitionId": 239
   },
   {
-    "HeadingId": 257,
-    "Name": "Carter Inc and Sons",
-    "Tooltip": "aut",
+    "HeadingId": 148,
+    "Name": "Goodwin-Powlowski",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 204
+    "Rank": 992,
+    "UdListDefinitionId": 239
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 530,
-    "Name": "Goldner Group",
-    "Tooltip": "sit",
+    "HeadingId": 9,
+    "Name": "Dibbert LLC",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 966,
-    "UdListDefinitionId": 546,
+    "Rank": 680,
+    "UdListDefinitionId": 627,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "expedite dynamic deliverables"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 141
+        "FieldLength": 189
       }
     }
   }

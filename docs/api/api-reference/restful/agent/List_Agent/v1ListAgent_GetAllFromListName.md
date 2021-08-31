@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllFromListName
+title: GetAllFromListName
 id: v1ListAgent_GetAllFromListName
 ---
 
-# POST Agents/List/GetAllFromListName
+# GetAllFromListName
 
 ```http
 POST /api/v1/Agents/List/GetAllFromListName
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Braun-Harber",
+  "UdListDefinitionName": "Wunsch-Prosacco",
   "IncludeDeleted": true
 }
 ```
@@ -94,12 +94,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Parisian-Denesik",
-    "Tooltip": "maiores",
+    "Id": 686,
+    "Name": "Von, Cummerata and Barton",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 162,
-    "Rank": 144,
+    "UdListDefinitionId": 516,
+    "Rank": 490,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 746
       }
     }
   }

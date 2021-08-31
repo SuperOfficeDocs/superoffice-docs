@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetServiceAuth
+title: GetServiceAuth
 id: v1UserAgent_GetServiceAuth
 ---
 
-# POST Agents/User/GetServiceAuth
+# GetServiceAuth
 
 ```http
 POST /api/v1/Agents/User/GetServiceAuth
@@ -27,7 +27,7 @@ Gets a ServiceAuth object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=879
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=579
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/User/GetServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,12 +86,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 726,
-  "Server": "nemo",
-  "Port": 744,
-  "AuthType": "minus",
-  "Username": "dolores",
-  "Password": "officiis",
+  "ServiceAuthId": 320,
+  "Server": "omnis",
+  "Port": 711,
+  "AuthType": "maiores",
+  "Username": "modi",
+  "Password": "cupiditate",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

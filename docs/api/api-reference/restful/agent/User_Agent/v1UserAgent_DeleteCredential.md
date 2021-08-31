@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/DeleteCredential
+title: DeleteCredential
 id: v1UserAgent_DeleteCredential
 ---
 
-# POST Agents/User/DeleteCredential
+# DeleteCredential
 
 ```http
 POST /api/v1/Agents/User/DeleteCredential
@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 841,
-  "CredentialType": "omnis"
+  "UserId": 810,
+  "CredentialType": "est"
 }
 ```
 

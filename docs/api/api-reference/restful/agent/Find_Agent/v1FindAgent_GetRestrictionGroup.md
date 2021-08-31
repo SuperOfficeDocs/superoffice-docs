@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/GetRestrictionGroup
+title: GetRestrictionGroup
 id: v1FindAgent_GetRestrictionGroup
 ---
 
-# POST Agents/Find/GetRestrictionGroup
+# GetRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroup
@@ -78,15 +78,15 @@ Response body: object
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Heaney LLC",
-  "StorageKey": "voluptatibus",
-  "Rank": 29,
-  "Context": "modi"
+  "StorageType": "debitis",
+  "ProviderName": "Rempel-Paucek",
+  "StorageKey": "doloremque",
+  "Rank": 377,
+  "Context": "perferendis"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mante Inc and Sons",
-  "Description": "Switchable logistical time-frame",
-  "Rank": 880,
+  "Name": "Cormier-Daugherty",
+  "Description": "Assimilated empowering artificial intelligence",
+  "Rank": 990,
   "Restrictions": [
     {
-      "Name": "Hagenes Inc and Sons",
-      "Operator": "rem",
+      "Name": "Howe Group",
+      "Operator": "cupiditate",
       "Values": [
-        "saepe",
-        "qui"
+        "eos",
+        "voluptas"
       ],
       "DisplayValues": [
-        "quo",
-        "illo"
+        "dolore",
+        "non"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 484,
+      "InterParenthesis": 545,
       "InterOperator": "And",
-      "UniqueHash": 282
+      "UniqueHash": 371
     }
   ]
 }

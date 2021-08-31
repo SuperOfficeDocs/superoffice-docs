@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
+title: CreateDefaultErpSyncConnectorEntity
 id: v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity
 ---
 
-# POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
+# CreateDefaultErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -73,10 +73,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 840,
-  "DisplayName": "Ullrich, Gutmann and Prosacco",
+  "ErpConnectorId": 343,
+  "DisplayName": "Roob-Becker",
   "URL": "http://www.example.com/",
-  "Deleted": true,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldLength": 256
     }
   }
 }

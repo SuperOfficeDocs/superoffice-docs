@@ -1,9 +1,9 @@
 ---
-title: POST Agents/PhoneList/GetContactPhones
+title: GetContactPhones
 id: v1PhoneListAgent_GetContactPhones
 ---
 
-# POST Agents/PhoneList/GetContactPhones
+# GetContactPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetContactPhones
@@ -82,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 703
+  "ContactId": 789
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-434-266-6848",
-    "PersonCellPhone": "1-876-013-0265 x1376",
-    "PersonPrivatePhone": "1-641-688-3032",
-    "PersonFaxNumber": "729142",
-    "PersonPagerNumber": "831741",
-    "PersonEmail": "enrique@hagenes.co.uk",
-    "Id": 39,
-    "Name": "Ondricka-Kuhlman",
-    "Tooltip": "ea",
-    "UniqueId": "quisquam",
+    "PersonDirectPhone": "022.825.6608",
+    "PersonCellPhone": "346.302.4464 x6140",
+    "PersonPrivatePhone": "1-025-713-5883 x43550",
+    "PersonFaxNumber": "1138574",
+    "PersonPagerNumber": "708220",
+    "PersonEmail": "geovanni@stoltenberghills.biz",
+    "Id": 11,
+    "Name": "Pouros, Rempel and Hoppe",
+    "Tooltip": "optio",
+    "UniqueId": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldLength": 362
       }
     }
   }

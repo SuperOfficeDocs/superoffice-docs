@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/RegenerateStatusMonitors
+title: RegenerateStatusMonitors
 id: v1SaintAgent_RegenerateStatusMonitors
 ---
 
-# POST Agents/Saint/RegenerateStatusMonitors
+# RegenerateStatusMonitors
 
 ```http
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
@@ -88,6 +88,7 @@ Response body: object
 | Request | string | Maps to the request field in the batchtask table. |
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
+| FileName | string | The filename related to the batchtask. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -97,7 +98,7 @@ Response body: object
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,29 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 710,
-  "Name": "Skiles-Wuckert",
-  "AssociateId": 796,
-  "DetailsTable": 826,
-  "DetailsRecord": 30,
+  "Id": 428,
+  "Name": "Quitzon, Homenick and Lindgren",
+  "AssociateId": 30,
+  "DetailsTable": 618,
+  "DetailsRecord": 236,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "excepturi",
-    "ParameterObject2": "ipsa"
+    "ParameterObject1": "magnam",
+    "ParameterObject2": "voluptatem"
   },
-  "LastStarted": "1994-08-13T16:48:30.5049403+02:00",
-  "Created": "2017-04-04T16:48:30.5049403+02:00",
-  "StartCount": 364,
-  "DatabaseSerialNumber": "1788070",
-  "Context": "omnis",
-  "Result": "quaerat",
+  "LastStarted": "1994-09-19T14:58:05.1076283+02:00",
+  "Created": "2000-06-11T14:58:05.1076283+02:00",
+  "StartCount": 206,
+  "DatabaseSerialNumber": "1406405",
+  "Context": "perspiciatis",
+  "Result": "odit",
   "State": "All",
-  "Description": "Proactive disintermediate knowledge user",
-  "Response": "totam",
-  "Request": "dolor",
-  "ProgressDescription": "Front-line upward-trending middleware",
-  "ProgressPercent": 931,
+  "Description": "Multi-tiered intangible data-warehouse",
+  "Response": "enim",
+  "Request": "dolores",
+  "ProgressDescription": "Sharable systematic success",
+  "ProgressPercent": 849,
+  "FileName": "Powlowski Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -144,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldLength": 284
     }
   }
 }

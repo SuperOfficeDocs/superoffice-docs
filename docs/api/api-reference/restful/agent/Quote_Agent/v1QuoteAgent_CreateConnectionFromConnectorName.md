@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateConnectionFromConnectorName
+title: CreateConnectionFromConnectorName
 id: v1QuoteAgent_CreateConnectionFromConnectorName
 ---
 
-# POST Agents/Quote/CreateConnectionFromConnectorName
+# CreateConnectionFromConnectorName
 
 ```http
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Schinner, Bauch and Roberts"
+  "ConnectorName": "Quitzon-Kutch"
 }
 ```
 
@@ -105,44 +105,44 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 657,
-  "ERPName": "Wehner-Beier",
-  "DisplayName": "Hudson LLC",
-  "DisplayDescription": "Realigned bifurcated hardware",
-  "Rank": 512,
-  "ConnectorName": "Bogisich-Mann",
-  "ErpConnectionId": 875,
-  "ExtraData": "qui",
+  "QuoteConnectionId": 527,
+  "ERPName": "Gulgowski Group",
+  "DisplayName": "Littel, Hamill and Sipes",
+  "DisplayDescription": "Enhanced heuristic access",
+  "Rank": 428,
+  "ConnectorName": "Jakubowski LLC",
+  "ErpConnectionId": 580,
+  "ExtraData": "ut",
   "IsAvailable": true,
   "InitializeResponse": {
-    "IsOk": true,
-    "UserExplanation": "vel",
-    "TechExplanation": "voluptatum",
-    "ErrorCode": "qui",
+    "IsOk": false,
+    "UserExplanation": "vero",
+    "TechExplanation": "illo",
+    "ErrorCode": "et",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "exploit 24/365 users"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldLength": 982
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 220,
-      "ERPPriceListKey": "id",
-      "QuoteConnectionId": 968,
-      "Name": "Dooley Inc and Sons",
-      "Description": "Future-proofed full-range initiative",
-      "Currency": "aspernatur",
-      "CurrencyName": "Jacobi, Buckridge and Schaden",
-      "ValidFrom": "2017-07-02T16:48:30.4679408+02:00",
-      "ValidTo": "2016-02-28T16:48:30.4679408+01:00",
+      "PriceListId": 822,
+      "ERPPriceListKey": "distinctio",
+      "QuoteConnectionId": 431,
+      "Name": "Gerhold, Wehner and Balistreri",
+      "Description": "Assimilated incremental throughput",
+      "Currency": "cupiditate",
+      "CurrencyName": "Ziemann, Toy and Fay",
+      "ValidFrom": "2000-12-07T14:58:04.9624652+01:00",
+      "ValidTo": "1996-02-09T14:58:04.9624652+01:00",
       "IsActive": true,
       "TableRight": {},
       "FieldProperties": {
@@ -152,20 +152,20 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 120
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": true,
+  "AllAccess": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    921,
-    477
+    583,
+    245
   ],
   "AssociateAccessIds": [
-    181,
-    270
+    89,
+    163
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -177,8 +177,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 129
     }
   }
 }

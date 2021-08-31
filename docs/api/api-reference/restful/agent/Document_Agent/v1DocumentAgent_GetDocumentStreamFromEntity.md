@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetDocumentStreamFromEntity
+title: GetDocumentStreamFromEntity
 id: v1DocumentAgent_GetDocumentStreamFromEntity
 ---
 
-# POST Agents/Document/GetDocumentStreamFromEntity
+# GetDocumentStreamFromEntity
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
@@ -68,31 +68,31 @@ Response body:
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": {
-    "DocumentId": 61,
+    "DocumentId": 605,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "aut",
-    "Header": "harum",
-    "Name": "Bashirian, Abbott and Jenkins",
-    "OurRef": "at",
-    "YourRef": "aliquid",
-    "CreatedDate": "2000-11-16T16:48:29.3899221+01:00",
-    "UpdatedDate": "2004-04-05T16:48:29.3899221+02:00",
-    "Description": "Enterprise-wide well-modulated adapter",
+    "Attention": "harum",
+    "Header": "perspiciatis",
+    "Name": "Satterfield, Rippin and Windler",
+    "OurRef": "possimus",
+    "YourRef": "nam",
+    "CreatedDate": "2009-01-22T14:58:03.9644605+01:00",
+    "UpdatedDate": "2006-07-11T14:58:03.9644605+02:00",
+    "Description": "Programmable logistical migration",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "1994-01-04T16:48:29.3899221+01:00",
-    "ExternalRef": "consequatur",
+    "Date": "2011-05-16T14:58:03.9644605+02:00",
+    "ExternalRef": "repellat",
     "Completed": "Completed",
-    "ActiveLinks": 661,
+    "ActiveLinks": 31,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 541,
-    "Snum": 623,
+    "SuggestedDocumentId": 469,
+    "Snum": 591,
     "UserDefinedFields": {
-      "SuperOffice:1": "Opal O'Hara",
-      "SuperOffice:2": "Mr. Zoe Littel"
+      "SuperOffice:1": "Clement Fisher",
+      "SuperOffice:2": "Ima Reichert"
     },
     "ExtraFields": {
-      "ExtraFields1": "totam",
-      "ExtraFields2": "perspiciatis"
+      "ExtraFields1": "minus",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "consequatur",
-      "CustomFields2": "perspiciatis"
+      "CustomFields1": "sapiente",
+      "CustomFields2": "non"
     },
-    "PublishEventDate": "2002-08-21T16:48:29.3909247+02:00",
-    "PublishTo": "2001-07-19T16:48:29.3909247+02:00",
-    "PublishFrom": "1999-09-13T16:48:29.3909247+02:00",
-    "IsPublished": false,
+    "PublishEventDate": "2014-01-05T14:58:03.9644605+01:00",
+    "PublishTo": "2011-10-14T14:58:03.9644605+02:00",
+    "PublishFrom": "2000-05-05T14:58:03.9644605+02:00",
+    "IsPublished": true,
     "VisibleFor": [
       {},
       {}

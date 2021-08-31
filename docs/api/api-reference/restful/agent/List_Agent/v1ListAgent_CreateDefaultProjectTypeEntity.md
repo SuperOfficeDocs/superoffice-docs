@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultProjectTypeEntity
+title: CreateDefaultProjectTypeEntity
 id: v1ListAgent_CreateDefaultProjectTypeEntity
 ---
 
-# POST Agents/List/CreateDefaultProjectTypeEntity
+# CreateDefaultProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
@@ -72,35 +72,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 845,
-  "Name": "Johnston Group",
-  "Tooltip": "non",
-  "Rank": 263,
+  "ProjTypeId": 625,
+  "Name": "Strosin Group",
+  "Tooltip": "facilis",
+  "Rank": 888,
   "DurationUnit": "Century",
-  "ProjectDuration": 97,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 826,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 755,
-      "Name": "Greenholt Group",
-      "ToolTip": "Vel natus dolores aut aliquid.",
-      "Deleted": false,
-      "Rank": 767,
-      "Type": "et",
-      "ColorBlock": 391,
-      "IconHint": "et",
+      "Id": 46,
+      "Name": "Kerluke, Kshlerin and Vandervort",
+      "ToolTip": "Aliquid omnis asperiores amet debitis quia velit.",
+      "Deleted": true,
+      "Rank": 470,
+      "Type": "nesciunt",
+      "ColorBlock": 637,
+      "IconHint": "qui",
       "Selected": true,
-      "LastChanged": "1994-11-20T16:48:29.9259229+01:00",
+      "LastChanged": "2008-08-10T14:58:04.4724649+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "placeat",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "deleniti",
       "Hidden": true,
-      "FullName": "Cydney Orn",
+      "FullName": "Spencer Wunsch",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 219
         }
       }
     }
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 859
     }
   }
 }

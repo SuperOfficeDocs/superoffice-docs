@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/StopBatchJob
+title: StopBatchJob
 id: v1BatchAgent_StopBatchJob
 ---
 
-# POST Agents/Batch/StopBatchJob
+# StopBatchJob
 
 ```http
 POST /api/v1/Agents/Batch/StopBatchJob
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Batch/StopBatchJob
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543
+  "Id": 344
 }
 ```
 

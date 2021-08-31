@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 112,
-  "Name": "Erdman Inc and Sons",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 672,
-  "IsCustomList": true,
+  "Id": 257,
+  "Name": "O'Reilly Group",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 944,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 786
     }
   },
   "_Links": {

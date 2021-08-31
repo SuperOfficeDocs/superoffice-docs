@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 541,
-    "Name": "Sporer, Runolfsdottir and Ondricka",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 460,
+    "Name": "Kling-Moore",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 391,
-    "UdListDefinitionId": 355
+    "Rank": 366,
+    "UdListDefinitionId": 888
   },
   {
-    "HeadingId": 541,
-    "Name": "Sporer, Runolfsdottir and Ondricka",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 460,
+    "Name": "Kling-Moore",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 391,
-    "UdListDefinitionId": 355
+    "Rank": 366,
+    "UdListDefinitionId": 888
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Marquardt, Ernser and Kertzmann",
-    "Tooltip": "voluptas",
+    "HeadingId": 356,
+    "Name": "Stanton Group",
+    "Tooltip": "nisi",
     "Deleted": true,
-    "Rank": 74,
-    "UdListDefinitionId": 490,
+    "Rank": 450,
+    "UdListDefinitionId": 237,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 846
       }
     }
   }

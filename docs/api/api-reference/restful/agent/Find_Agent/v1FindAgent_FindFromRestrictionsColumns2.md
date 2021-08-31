@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/FindFromRestrictionsColumns2
+title: FindFromRestrictionsColumns2
 id: v1FindAgent_FindFromRestrictionsColumns2
 ---
 
-# POST Agents/Find/FindFromRestrictionsColumns2
+# FindFromRestrictionsColumns2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
@@ -14,32 +14,7 @@ Execute a Find operation and return a page of results.
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -239,15 +170,15 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "commodi",
-  "ProviderName": "Jast-Wyman",
-  "DesiredColumns": "nihil",
-  "PageSize": 5,
-  "PageNumber": 610
+  "Restrictions": "eius",
+  "ProviderName": "Klocko-Sauer",
+  "DesiredColumns": "beatae",
+  "PageSize": 959,
+  "PageNumber": 514
 }
 ```
 
@@ -258,34 +189,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Howell Group",
-      "DisplayTooltip": "aut",
-      "DisplayType": "modi",
+      "DisplayName": "Schaden, Ferry and McKenzie",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "porro",
       "CanOrderBy": false,
-      "Name": "Casper-Miller",
+      "Name": "Schultz, Cormier and Feest",
       "CanRestrictBy": true,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Nikolaus-Bauch",
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Feil, Kihn and Kling",
       "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "impedit",
-      "IconHint": "rerum",
-      "HeadingIconHint": "reiciendis"
+      "ExtraInfo": "amet",
+      "Width": "rem",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "amet"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ankunding-Zemlak",
-      "PrimaryKey": 819,
+      "EntityName": "Green, Kuvalis and Kovacek",
+      "PrimaryKey": 137,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vero",
-          "TooltipHint": "qui",
-          "LinkHint": "sed"
+          "DisplayValue": "iste",
+          "TooltipHint": "quaerat",
+          "LinkHint": "libero"
         }
       },
-      "LinkHint": "error",
-      "StyleHint": "expedita",
+      "LinkHint": "in",
+      "StyleHint": "quia",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -293,16 +224,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 120
         }
       }
     }
   ],
-  "RowCount": 902,
+  "RowCount": 332,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize mission-critical convergence"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -311,7 +242,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 579
     }
   }
 }

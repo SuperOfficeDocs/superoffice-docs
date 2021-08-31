@@ -71,7 +71,7 @@ Response body: object
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,20 +79,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Sipes, Turner and Mraz",
-  "ModuleName": "Shanahan Inc and Sons",
-  "ModuleDescription": "Multi-layered foreground focus group",
-  "ModuleTooltip": "cum",
-  "ModuleVersion": "quia",
+  "OwnerName": "West Inc and Sons",
+  "ModuleName": "Bogan Group",
+  "ModuleDescription": "Configurable stable support",
+  "ModuleTooltip": "magnam",
+  "ModuleVersion": "iusto",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 18,
-  "ExtraFlags": 542,
-  "ExtraInfo": "similique",
-  "SortOrder": 749,
+  "NumberOfLicenses": 348,
+  "ExtraFlags": 351,
+  "ExtraInfo": "aut",
+  "SortOrder": 46,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Schowalter-Haley",
-  "Signature": "recusandae"
+  "PrerequisiteModuleName": "Stiedemann LLC",
+  "Signature": "exercitationem"
 }
 ```

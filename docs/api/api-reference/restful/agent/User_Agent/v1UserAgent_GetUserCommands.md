@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetUserCommands
+title: GetUserCommands
 id: v1UserAgent_GetUserCommands
 ---
 
-# POST Agents/User/GetUserCommands
+# GetUserCommands
 
 ```http
 POST /api/v1/Agents/User/GetUserCommands
@@ -70,15 +70,15 @@ Response body: array
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 421,
-    "Name": "Howe Inc and Sons",
-    "Rank": 111,
-    "Tooltip": "saepe",
+    "AssociateId": 524,
+    "Name": "Carter Group",
+    "Rank": 931,
+    "Tooltip": "libero",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2006-06-28T16:48:30.9039401+02:00",
-    "Lastlogout": "2000-05-24T16:48:30.9039401+02:00",
-    "EjUserId": 134,
-    "RequestSignature": "pariatur",
+    "Lastlogin": "2011-11-13T14:58:05.5590266+01:00",
+    "Lastlogout": "2004-05-15T14:58:05.5590266+02:00",
+    "EjUserId": 522,
+    "RequestSignature": "suscipit",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Brekke-Rau",
+    "UserName": "Padberg LLC",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Osinski, Eichmann and Nicolas",
+    "NickName": "O'Connell, Hartmann and Orn",
     "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "sint",
-      "ExtraFields2": "amet"
+      "ExtraFields1": "possimus",
+      "ExtraFields2": "neque"
     },
     "CustomFields": {
-      "CustomFields1": "natus",
-      "CustomFields2": "dolores"
+      "CustomFields1": "perspiciatis",
+      "CustomFields2": "blanditiis"
     },
     "PostSaveCommands": [
       {},
@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Doyle, Lemke and Dickens",
-    "DisplayName": "Mertz, Hayes and Quigley",
-    "Description": "Vision-oriented zero administration open system",
-    "ToolTip": "Voluptatem consequuntur omnis dolores id.",
+    "Name": "Walker, Daniel and Frami",
+    "DisplayName": "Luettgen-Schulist",
+    "Description": "Down-sized actuating support",
+    "ToolTip": "Provident sed tempora quisquam temporibus molestias.",
     "Actions": "Implicit",
-    "ActionData": "dolorum",
+    "ActionData": "libero",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,7 +148,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 337
       }
     }
   }

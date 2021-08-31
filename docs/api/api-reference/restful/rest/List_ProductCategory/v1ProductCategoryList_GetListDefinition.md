@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 431,
-  "Name": "Feest-Krajcik",
-  "Tooltip": "aut",
+  "Id": 785,
+  "Name": "Hettinger-Harris",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 38,
+  "Rank": 451,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 674
     }
   },
   "_Links": {

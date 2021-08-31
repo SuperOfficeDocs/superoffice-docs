@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Pfeffer-Dicki",
-    "ToolTip": "Molestiae molestias.",
-    "Deleted": false,
-    "Rank": 763,
-    "Type": "totam",
-    "ColorBlock": 477,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2015-06-07T09:41:00.8293877+02:00",
+    "Id": 839,
+    "Name": "Kozey LLC",
+    "ToolTip": "Commodi voluptas.",
+    "Deleted": true,
+    "Rank": 629,
+    "Type": "natus",
+    "ColorBlock": 871,
+    "IconHint": "fugiat",
+    "Selected": true,
+    "LastChanged": "2018-07-25T15:05:43.8921229+02:00",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Mueller Group",
-        "ToolTip": "Itaque sint.",
-        "Deleted": false,
-        "Rank": 816,
-        "Type": "quam",
-        "ColorBlock": 589,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2019-11-05T09:41:00.8293877+01:00",
+        "Id": 180,
+        "Name": "Dibbert-Howe",
+        "ToolTip": "Impedit reprehenderit aut beatae voluptas tempora.",
+        "Deleted": true,
+        "Rank": 245,
+        "Type": "illo",
+        "ColorBlock": 278,
+        "IconHint": "officia",
+        "Selected": false,
+        "LastChanged": "2004-11-30T15:05:43.8921229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "quam",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Candelario Cronin",
+        "FullName": "Desmond Kihn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 995
+            "FieldType": "System.String",
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Maddison Moore",
+    "ExtraInfo": "repellat",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Keshaun Champlin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldType": "System.Int32",
+        "FieldLength": 527
       }
     }
   }

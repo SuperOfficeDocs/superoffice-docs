@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/ChangePassword
+title: ChangePassword
 id: v1UserAgent_ChangePassword
 ---
 
-# POST Agents/User/ChangePassword
+# ChangePassword
 
 ```http
 POST /api/v1/Agents/User/ChangePassword
@@ -72,13 +72,13 @@ Response body: bool
 POST /api/v1/Agents/User/ChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 638,
-  "OldPassword": "sed",
-  "NewPassword": "laborum"
+  "AssociateId": 86,
+  "OldPassword": "sint",
+  "NewPassword": "fugit"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Hodkiewicz Group",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "Rank": 397,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 55,
+  "Name": "Torp, Kuhlman and Haag",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "Rank": 504,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quos",
+  "ListType": "facere",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

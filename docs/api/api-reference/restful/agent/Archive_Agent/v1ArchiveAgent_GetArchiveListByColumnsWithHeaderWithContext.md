@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
+title: GetArchiveListByColumnsWithHeaderWithContext
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
 ---
 
-# POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
+# GetArchiveListByColumnsWithHeaderWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
@@ -15,83 +15,26 @@ The return value includes a header that has various extra information, in additi
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -170,36 +113,36 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Waters, Schaefer and Greenfelder",
+  "ProviderName": "Treutel-Schmitt",
   "Columns": [
-    "qui",
-    "distinctio"
+    "quibusdam",
+    "officiis"
   ],
   "SortOrder": [
     {
-      "Name": "Romaguera LLC",
+      "Name": "Macejkovic LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Romaguera LLC",
+      "Name": "Macejkovic LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Muller, Schuster and Jenkins",
-      "Operator": "tempore",
+      "Name": "Harris-Rice",
+      "Operator": "quasi",
       "Values": [
-        "qui",
-        "fugit"
+        "odio",
+        "ratione"
       ],
       "DisplayValues": [
-        "maxime",
-        "nulla"
+        "esse",
+        "autem"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -207,19 +150,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 67,
+      "InterParenthesis": 445,
       "InterOperator": "And",
-      "UniqueHash": 182
+      "UniqueHash": 28
     }
   ],
   "Entities": [
-    "consectetur",
-    "et"
+    "sint",
+    "saepe"
   ],
-  "Page": 451,
-  "PageSize": 473,
-  "Options": "perferendis",
-  "Context": "ut"
+  "Page": 469,
+  "PageSize": 859,
+  "Options": "velit",
+  "Context": "quo"
 }
 ```
 
@@ -228,20 +171,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 179,
+  "RowCount": 645,
   "Rows": [
     {
-      "EntityName": "McKenzie-Ferry",
-      "PrimaryKey": 464,
+      "EntityName": "Fadel-Treutel",
+      "PrimaryKey": 476,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "labore",
-          "LinkHint": "harum"
+          "DisplayValue": "ut",
+          "TooltipHint": "natus",
+          "LinkHint": "autem"
         }
       },
-      "LinkHint": "suscipit",
-      "StyleHint": "omnis",
+      "LinkHint": "est",
+      "StyleHint": "consequuntur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -249,15 +192,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 12
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "facilitate sexy metrics"
   },
   "FieldProperties": {
     "fieldName": {
@@ -266,7 +209,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 953
+      "FieldLength": 51
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/SetGeneratedPassword
+title: SetGeneratedPassword
 id: v1UserAgent_SetGeneratedPassword
 ---
 
-# POST Agents/User/SetGeneratedPassword
+# SetGeneratedPassword
 
 ```http
 POST /api/v1/Agents/User/SetGeneratedPassword
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 595
+  "AssociateId": 357
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fugiat"
+"non"
 ```

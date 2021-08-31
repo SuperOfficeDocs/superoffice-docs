@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetConnectionListMappings
+title: GetConnectionListMappings
 id: v1ErpSyncAgent_GetConnectionListMappings
 ---
 
-# POST Agents/ErpSync/GetConnectionListMappings
+# GetConnectionListMappings
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 304
+  "ErpConnectionId": 298
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": {},
-      "ErpListName": "Hauck, Gusikowski and Tillman",
+      "ErpListName": "Kunde LLC",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Cole LLC",
-      "ErpFieldId": 195,
+      "ErpActorTypeName": "Jerde, Steuber and Boehm",
+      "ErpFieldId": 344,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -112,26 +112,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     }
   ],
-  "ErpConnectionId": 909,
-  "ErpConnectionName": "Smith Inc and Sons",
+  "ErpConnectionId": 953,
+  "ErpConnectionName": "Hamill Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "scale frictionless functionalities"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "cultivate value-added metrics"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 541
     }
   }
 }

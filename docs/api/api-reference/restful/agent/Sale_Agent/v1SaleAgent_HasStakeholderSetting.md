@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/HasStakeholderSetting
+title: HasStakeholderSetting
 id: v1SaleAgent_HasStakeholderSetting
 ---
 
-# POST Agents/Sale/HasStakeholderSetting
+# HasStakeholderSetting
 
 ```http
 POST /api/v1/Agents/Sale/HasStakeholderSetting
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 424
+  "SaleId": 917
 }
 ```
 

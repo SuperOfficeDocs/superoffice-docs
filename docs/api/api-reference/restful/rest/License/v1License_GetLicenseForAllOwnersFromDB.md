@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -69,131 +69,131 @@ Content-Type: application/json; charset=utf-8
     "Reason": "",
     "CanBeActivated": true,
     "New": {
-      "CompanyName": "Oberbrunner Group",
+      "CompanyName": "Johns, Reynolds and Purdy",
       "SerialNr": "1010000006",
-      "OwnerName": "Mann Group",
-      "OwnerDescription": "Progressive dedicated adapter",
-      "NextCheckDate": "2014-03-18T09:40:59.9300647+01:00",
-      "MaintenanceDate": "2003-05-21T09:40:59.9300647+02:00",
-      "AdminWarningDate": "2019-07-18T09:40:59.9300647+02:00",
-      "ExpiryDate": "2015-05-25T09:40:59.9300647+02:00",
-      "GraceDate": "2018-01-02T09:40:59.9300647+01:00",
-      "ExtraFlags": 120,
-      "ExtraInfo": "itaque",
+      "OwnerName": "Ortiz-Littel",
+      "OwnerDescription": "Robust attitude-oriented pricing structure",
+      "NextCheckDate": "2010-11-25T15:05:43.0046329+01:00",
+      "MaintenanceDate": "2003-04-30T15:05:43.0046329+02:00",
+      "AdminWarningDate": "2021-06-06T15:05:43.0046329+02:00",
+      "ExpiryDate": "2016-06-29T15:05:43.0046329+02:00",
+      "GraceDate": "2016-07-15T15:05:43.0046329+02:00",
+      "ExtraFlags": 578,
+      "ExtraInfo": "porro",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "sunt",
-      "DeploymentType": 191,
-      "ProductType": "tempore",
-      "ProductDescription": "Optimized well-modulated support",
+      "LicenseVersion": "iure",
+      "DeploymentType": 273,
+      "ProductType": "odio",
+      "ProductDescription": "Configurable local strategy",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "accusamus"
+      "Signature": "officia"
     },
     "Current": {
-      "CompanyName": "Thompson, Hansen and Hoeger",
+      "CompanyName": "Goodwin-Keeling",
       "SerialNr": "1010000006",
-      "OwnerName": "Swaniawski LLC",
-      "OwnerDescription": "Stand-alone hybrid frame",
-      "NextCheckDate": "2002-05-06T09:40:59.9300647+02:00",
-      "MaintenanceDate": "2006-07-25T09:40:59.9300647+02:00",
-      "AdminWarningDate": "1999-03-03T09:40:59.9300647+01:00",
-      "ExpiryDate": "2011-09-27T09:40:59.9300647+02:00",
-      "GraceDate": "2002-07-22T09:40:59.9300647+02:00",
-      "ExtraFlags": 627,
-      "ExtraInfo": "fugit",
+      "OwnerName": "Cole Inc and Sons",
+      "OwnerDescription": "Centralized 24/7 architecture",
+      "NextCheckDate": "2009-07-30T15:05:43.0046329+02:00",
+      "MaintenanceDate": "2015-11-22T15:05:43.0046329+01:00",
+      "AdminWarningDate": "2020-05-22T15:05:43.0046329+02:00",
+      "ExpiryDate": "2014-08-13T15:05:43.0046329+02:00",
+      "GraceDate": "2001-02-20T15:05:43.0046329+01:00",
+      "ExtraFlags": 836,
+      "ExtraInfo": "aperiam",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "rerum",
-      "DeploymentType": 59,
-      "ProductType": "sint",
-      "ProductDescription": "Total fresh-thinking instruction set",
+      "LicenseVersion": "qui",
+      "DeploymentType": 294,
+      "ProductType": "saepe",
+      "ProductDescription": "Robust fresh-thinking challenge",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "accusamus"
+      "Signature": "qui"
     },
     "ExtendedModuleLicenses": [
       {
         "New": {},
         "Current": {},
-        "NumberOfLicensesInUse": 601,
-        "NumberOfLicensesFree": 106,
-        "NumberOfLicensesAdded": 867,
-        "NumberOfLicensesNewTotal": 116,
-        "NumberOfLicensesNewFree": 335,
-        "NumberOfLicensesTotal": 924
+        "NumberOfLicensesInUse": 350,
+        "NumberOfLicensesFree": 979,
+        "NumberOfLicensesAdded": 633,
+        "NumberOfLicensesNewTotal": 134,
+        "NumberOfLicensesNewFree": 686,
+        "NumberOfLicensesTotal": 413
       }
     ],
-    "AccumulatedNextCheckDate": "2000-10-02T09:40:59.9300647+02:00"
+    "AccumulatedNextCheckDate": "1995-07-08T15:05:43.0046329+02:00"
   },
   {
     "Reason": "",
     "CanBeActivated": true,
     "New": {
-      "CompanyName": "Oberbrunner Group",
+      "CompanyName": "Johns, Reynolds and Purdy",
       "SerialNr": "1010000006",
-      "OwnerName": "Mann Group",
-      "OwnerDescription": "Progressive dedicated adapter",
-      "NextCheckDate": "2014-03-18T09:40:59.9300647+01:00",
-      "MaintenanceDate": "2003-05-21T09:40:59.9300647+02:00",
-      "AdminWarningDate": "2019-07-18T09:40:59.9300647+02:00",
-      "ExpiryDate": "2015-05-25T09:40:59.9300647+02:00",
-      "GraceDate": "2018-01-02T09:40:59.9300647+01:00",
-      "ExtraFlags": 120,
-      "ExtraInfo": "itaque",
+      "OwnerName": "Ortiz-Littel",
+      "OwnerDescription": "Robust attitude-oriented pricing structure",
+      "NextCheckDate": "2010-11-25T15:05:43.0046329+01:00",
+      "MaintenanceDate": "2003-04-30T15:05:43.0046329+02:00",
+      "AdminWarningDate": "2021-06-06T15:05:43.0046329+02:00",
+      "ExpiryDate": "2016-06-29T15:05:43.0046329+02:00",
+      "GraceDate": "2016-07-15T15:05:43.0046329+02:00",
+      "ExtraFlags": 578,
+      "ExtraInfo": "porro",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "sunt",
-      "DeploymentType": 191,
-      "ProductType": "tempore",
-      "ProductDescription": "Optimized well-modulated support",
+      "LicenseVersion": "iure",
+      "DeploymentType": 273,
+      "ProductType": "odio",
+      "ProductDescription": "Configurable local strategy",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "accusamus"
+      "Signature": "officia"
     },
     "Current": {
-      "CompanyName": "Thompson, Hansen and Hoeger",
+      "CompanyName": "Goodwin-Keeling",
       "SerialNr": "1010000006",
-      "OwnerName": "Swaniawski LLC",
-      "OwnerDescription": "Stand-alone hybrid frame",
-      "NextCheckDate": "2002-05-06T09:40:59.9300647+02:00",
-      "MaintenanceDate": "2006-07-25T09:40:59.9300647+02:00",
-      "AdminWarningDate": "1999-03-03T09:40:59.9300647+01:00",
-      "ExpiryDate": "2011-09-27T09:40:59.9300647+02:00",
-      "GraceDate": "2002-07-22T09:40:59.9300647+02:00",
-      "ExtraFlags": 627,
-      "ExtraInfo": "fugit",
+      "OwnerName": "Cole Inc and Sons",
+      "OwnerDescription": "Centralized 24/7 architecture",
+      "NextCheckDate": "2009-07-30T15:05:43.0046329+02:00",
+      "MaintenanceDate": "2015-11-22T15:05:43.0046329+01:00",
+      "AdminWarningDate": "2020-05-22T15:05:43.0046329+02:00",
+      "ExpiryDate": "2014-08-13T15:05:43.0046329+02:00",
+      "GraceDate": "2001-02-20T15:05:43.0046329+01:00",
+      "ExtraFlags": 836,
+      "ExtraInfo": "aperiam",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "rerum",
-      "DeploymentType": 59,
-      "ProductType": "sint",
-      "ProductDescription": "Total fresh-thinking instruction set",
+      "LicenseVersion": "qui",
+      "DeploymentType": 294,
+      "ProductType": "saepe",
+      "ProductDescription": "Robust fresh-thinking challenge",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "accusamus"
+      "Signature": "qui"
     },
     "ExtendedModuleLicenses": [
       {
         "New": {},
         "Current": {},
-        "NumberOfLicensesInUse": 601,
-        "NumberOfLicensesFree": 106,
-        "NumberOfLicensesAdded": 867,
-        "NumberOfLicensesNewTotal": 116,
-        "NumberOfLicensesNewFree": 335,
-        "NumberOfLicensesTotal": 924
+        "NumberOfLicensesInUse": 350,
+        "NumberOfLicensesFree": 979,
+        "NumberOfLicensesAdded": 633,
+        "NumberOfLicensesNewTotal": 134,
+        "NumberOfLicensesNewFree": 686,
+        "NumberOfLicensesTotal": 413
       }
     ],
-    "AccumulatedNextCheckDate": "2000-10-02T09:40:59.9300647+02:00"
+    "AccumulatedNextCheckDate": "1995-07-08T15:05:43.0046329+02:00"
   }
 ]
 ```

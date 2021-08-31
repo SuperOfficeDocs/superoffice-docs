@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sentry/GetFunctionRights
+title: GetFunctionRights
 id: v1SentryAgent_GetFunctionRights
 ---
 
-# POST Agents/Sentry/GetFunctionRights
+# GetFunctionRights
 
 ```http
 POST /api/v1/Agents/Sentry/GetFunctionRights
@@ -59,7 +59,7 @@ Response body: array
 POST /api/v1/Agents/Sentry/GetFunctionRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sequi",
-  "qui"
+  "qui",
+  "sed"
 ]
 ```

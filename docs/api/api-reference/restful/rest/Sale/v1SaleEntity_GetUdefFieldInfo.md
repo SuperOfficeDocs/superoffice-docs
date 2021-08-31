@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 790,
-  "ColumnId": 696,
-  "FieldDefault": "quo",
-  "FieldHeight": 403,
-  "FieldLabel": "hic",
-  "FieldLeft": 19,
-  "FieldTop": 687,
+  "UDefFieldId": 167,
+  "ColumnId": 380,
+  "FieldDefault": "et",
+  "FieldHeight": 370,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 591,
+  "FieldTop": 874,
   "FieldType": "Checkbox",
-  "FieldWidth": 958,
-  "FormatMask": "itaque",
+  "FieldWidth": 941,
+  "FormatMask": "veniam",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 24,
-  "LabelLeft": 719,
-  "LabelTop": 701,
-  "LabelWidth": 648,
-  "LastVersionId": 227,
-  "ListTableId": 981,
-  "IsMandatory": false,
+  "LabelHeight": 378,
+  "LabelLeft": 926,
+  "LabelTop": 5,
+  "LabelWidth": 229,
+  "LastVersionId": 637,
+  "ListTableId": 102,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "vel",
-  "IsReadOnly": true,
-  "ShortLabel": "accusantium",
-  "TabOrder": 399,
-  "TextLength": 399,
-  "Tooltip": "dolorum",
-  "UdefIdentity": 180,
-  "UDListDefinitionId": 358,
+  "Page1LineNo": 505,
+  "ProgId": "porro",
+  "IsReadOnly": false,
+  "ShortLabel": "repellendus",
+  "TabOrder": 441,
+  "TextLength": 624,
+  "Tooltip": "tempore",
+  "UdefIdentity": 639,
+  "UDListDefinitionId": 951,
   "Justification": "Center",
-  "Version": 47,
-  "TemplateVariableName": "Champlin Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Spencer, Bins and Toy",
+  "Version": 477,
+  "TemplateVariableName": "Lueilwitz-Sauer",
+  "HasBeenPublished": false,
+  "MdoListName": "Wilderman Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 618
     }
   }
 }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Howe LLC",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 225,
-    "Rank": 437
+    "Id": 405,
+    "Name": "Willms, Gerlach and Hessel",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "UdListDefinitionId": 952,
+    "Rank": 101
   },
   {
-    "Id": 404,
-    "Name": "Howe LLC",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 225,
-    "Rank": 437
+    "Id": 405,
+    "Name": "Willms, Gerlach and Hessel",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "UdListDefinitionId": 952,
+    "Rank": 101
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Medhurst, Emmerich and Bins",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 782,
+    "Id": 314,
+    "Name": "Stroman, Bergstrom and Lemke",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "UdListDefinitionId": 594,
+    "Rank": 25,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 278
       }
     }
   }

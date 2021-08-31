@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 267,
-    "ColumnId": 674,
-    "FieldDefault": "voluptate",
-    "FieldHeight": 367,
-    "FieldLabel": "cum",
-    "FieldLeft": 916,
-    "FieldTop": 561,
+    "UDefFieldId": 953,
+    "ColumnId": 42,
+    "FieldDefault": "vel",
+    "FieldHeight": 896,
+    "FieldLabel": "aliquid",
+    "FieldLeft": 817,
+    "FieldTop": 717,
     "FieldType": "Checkbox",
-    "FieldWidth": 569,
-    "FormatMask": "voluptas",
+    "FieldWidth": 662,
+    "FormatMask": "culpa",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 117,
-    "LabelLeft": 490,
-    "LabelTop": 330,
-    "LabelWidth": 171,
-    "LastVersionId": 301,
-    "ListTableId": 60,
+    "LabelHeight": 796,
+    "LabelLeft": 367,
+    "LabelTop": 907,
+    "LabelWidth": 620,
+    "LastVersionId": 284,
+    "ListTableId": 876,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 573,
-    "ProgId": "debitis",
-    "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 988,
-    "TextLength": 332,
-    "Tooltip": "qui",
-    "UdefIdentity": 172,
-    "UDListDefinitionId": 299,
+    "Page1LineNo": 374,
+    "ProgId": "porro",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 121,
+    "TextLength": 699,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 965,
+    "UDListDefinitionId": 474,
     "Justification": "Center",
-    "Version": 884,
-    "TemplateVariableName": "Hauck, Wolff and Sanford",
+    "Version": 925,
+    "TemplateVariableName": "Schamberger, O'Reilly and Lowe",
     "HasBeenPublished": false,
-    "MdoListName": "Heathcote Group",
+    "MdoListName": "Treutel-Corkery",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 22
       }
     }
   }

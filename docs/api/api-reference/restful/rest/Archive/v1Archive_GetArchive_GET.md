@@ -130,7 +130,7 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 | $context | string |  Provider specific context parameter. Usually blank. |
 | $format | string |  Set XML or JSON output format, override the format determined from Accept header. |
 | $metadata | string |  Default: "ALL" to return description of all columns. Overrides $select and other parameters. |
-| $inlineCount | Enum: False, Estimate, True |  Determine how/if row count is returned in the result |
+| $inlineCount | Enum: False, Estimate, True, AllPages |  Determine how/if row count is returned in the result |
 | $jsonSafe | bool |  Make output names into JSON safe property names. Replace all unsafe characters with _ underscore. |
 | $output | Enum: Logical, Display |  Return Logical or Display values in SLIM mode. Logical returns true/false for booleans, Display returns icon hints. Dates are always returned as ISO strings. |
 
@@ -138,15 +138,15 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=quis
-GET /api/v1/Archive/{archiveProviderName}?$top=580
-GET /api/v1/Archive/{archiveProviderName}?$skip=88
+GET /api/v1/Archive/{archiveProviderName}?$entities=impedit
+GET /api/v1/Archive/{archiveProviderName}?$top=154
+GET /api/v1/Archive/{archiveProviderName}?$skip=718
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=impedit
+GET /api/v1/Archive/{archiveProviderName}?$context=autem
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=in
-GET /api/v1/Archive/{archiveProviderName}?$inlineCount=Estimate
+GET /api/v1/Archive/{archiveProviderName}?$metadata=asperiores
+GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
@@ -188,7 +188,7 @@ Response body: object
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -197,21 +197,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sed",
+  "odata.nextLink": "recusandae",
   "value": [
     {
-      "PrimaryKey": 9891,
-      "EntityName": "sale",
-      "saleId": 9891,
-      "contactId": 5195,
-      "name": "Lockman-Cassin"
+      "PrimaryKey": 9860,
+      "EntityName": "person",
+      "personId": 9860,
+      "fullName": "Rachel Bashirian"
     },
     {
-      "PrimaryKey": 858,
-      "EntityName": "sale",
-      "saleId": 858,
-      "contactId": 5876,
-      "name": "Bogisich Group"
+      "PrimaryKey": 269,
+      "EntityName": "person",
+      "personId": 269,
+      "fullName": "Lyda Funk"
     }
   ]
 }

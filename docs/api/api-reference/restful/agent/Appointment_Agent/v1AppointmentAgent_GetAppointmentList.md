@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/GetAppointmentList
+title: GetAppointmentList
 id: v1AppointmentAgent_GetAppointmentList
 ---
 
-# POST Agents/Appointment/GetAppointmentList
+# GetAppointmentList
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentList
@@ -118,7 +118,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -127,53 +127,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 202,
-    "StartDate": "1999-06-27T16:48:28.4194493+02:00",
-    "EndDate": "2007-09-06T16:48:28.4194493+02:00",
+    "AppointmentId": 958,
+    "StartDate": "2014-11-19T14:58:03.0375387+01:00",
+    "EndDate": "2013-05-12T14:58:03.0375387+02:00",
     "Type": "BookingForChecklist",
-    "Task": "modi",
-    "AssociateFullName": "Merritt Dooley",
-    "ContactName": "Wiza-Quigley",
-    "Description": "Programmable hybrid encryption",
-    "PersonFullName": "Adriel Kulas",
-    "PersonId": 532,
-    "ContactId": 667,
-    "ProjectId": 463,
-    "ProjectName": "Stokes-Gerhold",
+    "Task": "omnis",
+    "AssociateFullName": "Isaias Murray",
+    "ContactName": "Vandervort Group",
+    "Description": "Front-line actuating access",
+    "PersonFullName": "Ruby Mitchell",
+    "PersonId": 593,
+    "ContactId": 300,
+    "ProjectId": 327,
+    "ProjectName": "Jenkins-Rau",
     "IsPublished": false,
-    "AssociateId": 184,
-    "ColorIndex": 393,
+    "AssociateId": 559,
+    "ColorIndex": 917,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 6,
-    "PriorityName": "Kassulke-VonRueden",
+    "PriorityId": 853,
+    "PriorityName": "Schaefer-Batz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2001-03-09T16:48:28.4194493+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2005-10-15T14:58:03.0385385+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1994-02-21T16:48:28.4194493+01:00",
-    "RecurringEndDate": "2005-11-04T16:48:28.4194493+01:00",
-    "MotherId": 890,
-    "AssignedBy": 299,
-    "AssignedByFullName": "Vivian Luettgen",
+    "RecurringStartDate": "2014-04-30T14:58:03.0385385+02:00",
+    "RecurringEndDate": "1995-07-20T14:58:03.0385385+02:00",
+    "MotherId": 492,
+    "AssignedBy": 499,
+    "AssignedByFullName": "Khalil Kutch",
     "RejectReason": "",
-    "Location": "numquam",
-    "AlarmLeadTime": "recusandae",
-    "SaleId": 238,
-    "SaleName": "Goldner, Sipes and Cormier",
-    "AssociateName": "Steuber Inc and Sons",
-    "CreatedDate": "1994-09-17T16:48:28.4204488+02:00",
-    "CreatedBy": "labore",
-    "CreatedByFullName": "Alvena Brakus",
-    "CreatedByAssociateId": 528,
+    "Location": "fuga",
+    "AlarmLeadTime": "quo",
+    "SaleId": 588,
+    "SaleName": "Murphy-Sporer",
+    "AssociateName": "Hermann, Collier and Bradtke",
+    "CreatedDate": "2020-01-13T14:58:03.0385385+01:00",
+    "CreatedBy": "sint",
+    "CreatedByFullName": "Dr. Aidan Pouros",
+    "CreatedByAssociateId": 191,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

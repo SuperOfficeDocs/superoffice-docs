@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/WillSendEmail
+title: WillSendEmail
 id: v1AppointmentAgent_WillSendEmail
 ---
 
-# POST Agents/Appointment/WillSendEmail
+# WillSendEmail
 
 ```http
 POST /api/v1/Agents/Appointment/WillSendEmail
@@ -68,7 +68,7 @@ Response body: bool
 POST /api/v1/Agents/Appointment/WillSendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -77,34 +77,34 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2004-10-23T16:48:28.4164531+02:00",
-    "AppointmentId": 39,
-    "Description": "Profit-focused neutral synergy",
-    "StartDate": "2013-07-28T16:48:28.4164531+02:00",
-    "EndDate": "2018-03-10T16:48:28.4164531+01:00",
+    "CreatedDate": "2003-10-14T14:58:03.0355383+02:00",
+    "AppointmentId": 348,
+    "Description": "User-centric client-server budgetary management",
+    "StartDate": "2021-07-28T14:58:03.0355383+02:00",
+    "EndDate": "2007-12-22T14:58:03.0355383+01:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 926,
+    "MotherId": 714,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "1995-07-17T16:48:28.4164531+02:00",
+    "UpdatedDate": "2003-04-30T14:58:03.0355383+02:00",
     "Completed": "Completed",
-    "ActiveLinks": 576,
+    "ActiveLinks": 78,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "delectus",
-    "HasAlarm": false,
-    "ColorIndex": 506,
-    "IsFree": false,
+    "AlarmLeadTime": "quia",
+    "HasAlarm": true,
+    "ColorIndex": 311,
+    "IsFree": true,
     "IsAlldayEvent": true,
-    "LagTime": "et",
-    "LeadTime": "unde",
-    "Location": "debitis",
-    "RejectCounter": 733,
+    "LagTime": "est",
+    "LeadTime": "ex",
+    "Location": "soluta",
+    "RejectCounter": 807,
     "RejectReason": "",
     "Recurrence": {},
     "Participants": [
@@ -114,33 +114,33 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "2015-06-29T16:48:28.4174495+02:00",
+    "ActiveDate": "2000-10-23T14:58:03.0355383+02:00",
     "HasConflict": true,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 770,
+    "PreferredTZLocation": 882,
     "Sale": {},
-    "SuggestedAppointmentId": 573,
+    "SuggestedAppointmentId": 782,
     "IsMileStone": false,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "incidunt",
+    "CentralserviceVideomeetId": "rerum",
     "UserDefinedFields": {
-      "SuperOffice:1": "Darrell Littel DDS",
-      "SuperOffice:2": "Jaylin Lehner"
+      "SuperOffice:1": "1952022012",
+      "SuperOffice:2": "False"
     },
     "ExtraFields": {
-      "ExtraFields1": "nemo",
-      "ExtraFields2": "consequatur"
+      "ExtraFields1": "commodi",
+      "ExtraFields2": "molestias"
     },
     "CustomFields": {
-      "CustomFields1": "consequatur",
-      "CustomFields2": "corrupti"
+      "CustomFields1": "accusantium",
+      "CustomFields2": "quisquam"
     },
-    "PublishEventDate": "1995-09-19T16:48:28.4174495+02:00",
-    "PublishTo": "1998-08-19T16:48:28.4174495+02:00",
-    "PublishFrom": "2016-02-22T16:48:28.4174495+01:00",
+    "PublishEventDate": "2002-09-20T14:58:03.0355383+02:00",
+    "PublishTo": "2019-11-30T14:58:03.0355383+01:00",
+    "PublishFrom": "2021-01-01T14:58:03.0355383+01:00",
     "IsPublished": true,
     "VisibleFor": [
       {},
@@ -154,5 +154,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

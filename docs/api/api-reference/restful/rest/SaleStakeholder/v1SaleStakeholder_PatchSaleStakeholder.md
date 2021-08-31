@@ -127,45 +127,45 @@ Response body: object
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "tempore",
     "value": {
       "value1": {
-        "PrimaryKey": 4992,
-        "EntityName": "sale",
-        "saleId": 4992,
-        "contactId": 3872,
-        "name": "Wiegand, O'Connell and Kilback"
+        "PrimaryKey": 7171,
+        "EntityName": "person",
+        "personId": 7171,
+        "fullName": "Nettie Pollich"
       },
       "value2": {
-        "PrimaryKey": 9037,
-        "EntityName": "person",
-        "personId": 9037,
-        "fullName": "Angelica Hackett"
+        "PrimaryKey": 2239,
+        "EntityName": "sale",
+        "saleId": 2239,
+        "contactId": 9999,
+        "name": "Leffler Inc and Sons"
       }
     }
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "tempore",
     "value": {
       "value1": {
-        "PrimaryKey": 4992,
-        "EntityName": "sale",
-        "saleId": 4992,
-        "contactId": 3872,
-        "name": "Wiegand, O'Connell and Kilback"
+        "PrimaryKey": 7171,
+        "EntityName": "person",
+        "personId": 7171,
+        "fullName": "Nettie Pollich"
       },
       "value2": {
-        "PrimaryKey": 9037,
-        "EntityName": "person",
-        "personId": 9037,
-        "fullName": "Angelica Hackett"
+        "PrimaryKey": 2239,
+        "EntityName": "sale",
+        "saleId": 2239,
+        "contactId": 9999,
+        "name": "Leffler Inc and Sons"
       }
     }
   }
@@ -177,25 +177,25 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Volkman, McLaughlin and Schroeder",
-  "Comment": "provident",
-  "StakeholderRoleId": 955,
-  "CountryId": 677,
-  "PersonId": 915,
-  "EmailDescription": "louisa@hahn.name",
-  "EmailId": 529,
-  "EmailAddress": "kelly_klocko@bayer.com",
-  "PhoneId": 388,
-  "ContactName": "Nader-Howe",
-  "ContactId": 816,
-  "SaleId": 176,
-  "Mrmrs": "ut",
-  "Firstname": "Clyde",
-  "MiddleName": "Reichel-Adams",
-  "Lastname": "Quitzon",
-  "SaleStakeholderId": 24,
-  "Rank": 501,
-  "Phone": "138-763-8000",
+  "StakeholderRoleName": "Nitzsche-Boehm",
+  "Comment": "asperiores",
+  "StakeholderRoleId": 941,
+  "CountryId": 33,
+  "PersonId": 896,
+  "EmailDescription": "rey.morar@crookscormier.ca",
+  "EmailId": 944,
+  "EmailAddress": "kayden_klein@morarbaumbach.info",
+  "PhoneId": 53,
+  "ContactName": "Tremblay Inc and Sons",
+  "ContactId": 754,
+  "SaleId": 681,
+  "Mrmrs": "quam",
+  "Firstname": "Mertie",
+  "MiddleName": "Douglas Group",
+  "Lastname": "Sawayn",
+  "SaleStakeholderId": 442,
+  "Rank": 942,
+  "Phone": "(635)831-3184 x721",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   },
   "_Links": {

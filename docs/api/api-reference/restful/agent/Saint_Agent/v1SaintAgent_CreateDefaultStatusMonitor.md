@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/CreateDefaultStatusMonitor
+title: CreateDefaultStatusMonitor
 id: v1SaintAgent_CreateDefaultStatusMonitor
 ---
 
-# POST Agents/Saint/CreateDefaultStatusMonitor
+# CreateDefaultStatusMonitor
 
 ```http
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,33 +81,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 135,
-  "Rank": 659,
-  "DefaultTask": 88,
-  "DefaultTaskText": "cum",
+  "OwnerTable": 242,
+  "Rank": 268,
+  "DefaultTask": 78,
+  "DefaultTaskText": "praesentium",
   "IsVisual": true,
-  "LastGenerated": "2012-09-09T16:48:30.500947+02:00",
-  "Description": "Up-sized coherent core",
-  "Name": "Mohr-Watsica",
-  "StatusMonitorId": 908,
-  "PictureId": 569,
-  "NeedsUpdate": true,
+  "LastGenerated": "2005-11-26T14:58:05.1026291+01:00",
+  "Description": "Intuitive even-keeled methodology",
+  "Name": "Lakin, Kassulke and Hauck",
+  "StatusMonitorId": 495,
+  "PictureId": 607,
+  "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 322,
-  "NumNeedUpdate": 374,
-  "GenerationStart": "2007-10-19T16:48:30.500947+02:00",
+  "NumMatches": 229,
+  "NumNeedUpdate": 499,
+  "GenerationStart": "2001-06-06T14:58:05.103628+02:00",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "disintermediate granular e-tailers"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark front-end markets"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 643
     }
   }
 }

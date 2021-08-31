@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetMrMrses
+title: GetMrMrses
 id: v1ListAgent_GetMrMrses
 ---
 
-# POST Agents/List/GetMrMrses
+# GetMrMrses
 
 ```http
 POST /api/v1/Agents/List/GetMrMrses
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetMrMrses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Value": "doloremque",
-    "Tooltip": "totam",
+    "Id": 926,
+    "Value": "est",
+    "Tooltip": "voluptatem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate viral portals"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldLength": 577
       }
     }
   },
   {
-    "Id": 744,
-    "Value": "doloremque",
-    "Tooltip": "totam",
+    "Id": 926,
+    "Value": "est",
+    "Tooltip": "voluptatem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate viral portals"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldLength": 577
       }
     }
   }

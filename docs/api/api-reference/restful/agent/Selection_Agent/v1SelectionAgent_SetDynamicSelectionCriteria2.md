@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/SetDynamicSelectionCriteria2
+title: SetDynamicSelectionCriteria2
 id: v1SelectionAgent_SetDynamicSelectionCriteria2
 ---
 
-# POST Agents/Selection/SetDynamicSelectionCriteria2
+# SetDynamicSelectionCriteria2
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
@@ -85,8 +85,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 594,
-  "Filter": "praesentium"
+  "SelectionId": 231,
+  "Filter": "ea"
 }
 ```
 
@@ -96,43 +96,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Simonis Group",
-    "Operator": "et",
+    "Name": "Runolfsson, Lindgren and Huel",
+    "Operator": "quo",
     "Values": [
-      "quam",
-      "accusamus"
+      "rerum",
+      "nihil"
     ],
     "DisplayValues": [
-      "doloribus",
-      "similique"
+      "delectus",
+      "suscipit"
     ],
     "ColumnInfo": {
-      "DisplayName": "Predovic-Crona",
-      "DisplayTooltip": "qui",
-      "DisplayType": "temporibus",
+      "DisplayName": "Hodkiewicz-Pacocha",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "itaque",
       "CanOrderBy": false,
-      "Name": "Cole LLC",
+      "Name": "Pollich LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "dolore",
-      "RestrictionListName": "Cronin Group",
+      "RestrictionType": "atque",
+      "RestrictionListName": "Hermiston, Flatley and Boehm",
       "IsVisible": false,
-      "ExtraInfo": "odit",
-      "Width": "molestiae",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "accusamus",
+      "Width": "dolore",
+      "IconHint": "explicabo",
+      "HeadingIconHint": "aliquid"
     },
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Keebler, Nicolas and Bechtelar",
-        "Operator": "odit",
+        "Name": "Kilback, Thompson and Wolf",
+        "Operator": "aut",
         "Values": [
-          "debitis",
-          "soluta"
+          "in",
+          "illum"
         ],
         "DisplayValues": [
-          "quia",
-          "animi"
+          "velit",
+          "ut"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -140,14 +140,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 154,
+        "InterParenthesis": 854,
         "InterOperator": "And",
-        "UniqueHash": 394
+        "UniqueHash": 532
       }
     ],
-    "InterParenthesis": 886,
+    "InterParenthesis": 685,
     "InterOperator": "And",
-    "UniqueHash": 918
+    "UniqueHash": 142
   }
 ]
 ```

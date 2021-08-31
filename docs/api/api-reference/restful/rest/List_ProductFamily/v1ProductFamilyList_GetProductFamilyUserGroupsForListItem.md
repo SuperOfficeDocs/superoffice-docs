@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Harber, Donnelly and Roberts",
-    "ToolTip": "Autem consectetur accusantium voluptatibus porro sit.",
+    "Id": 245,
+    "Name": "Goodwin Inc and Sons",
+    "ToolTip": "Natus eligendi odio qui non enim autem.",
     "Deleted": true,
-    "Rank": 164,
-    "Type": "eum",
-    "ColorBlock": 824,
-    "IconHint": "assumenda",
+    "Rank": 388,
+    "Type": "omnis",
+    "ColorBlock": 382,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-04-28T09:41:00.5603815+02:00",
+    "LastChanged": "2005-09-13T15:05:43.6280797+02:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Excepturi tempore enim.",
-        "Deleted": true,
-        "Rank": 241,
-        "Type": "minima",
-        "ColorBlock": 674,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2021-01-23T09:41:00.5603815+01:00",
+        "Id": 387,
+        "Name": "Haag, Grant and Sipes",
+        "ToolTip": "Quasi eveniet.",
+        "Deleted": false,
+        "Rank": 666,
+        "Type": "excepturi",
+        "ColorBlock": 122,
+        "IconHint": "possimus",
+        "Selected": false,
+        "LastChanged": "1997-11-01T15:05:43.6280797+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Columbus Casper",
+        "ExtraInfo": "vitae",
+        "StyleHint": "possimus",
+        "Hidden": false,
+        "FullName": "Demarco Ferry",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "cultivate wireless functionalities"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 570
+            "FieldType": "System.String",
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Kailee Friesen",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Estevan Wisoky",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "syndicate extensible relationships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

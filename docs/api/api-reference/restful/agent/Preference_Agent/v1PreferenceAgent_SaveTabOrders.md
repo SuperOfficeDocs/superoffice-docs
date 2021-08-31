@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/SaveTabOrders
+title: SaveTabOrders
 id: v1PreferenceAgent_SaveTabOrders
 ---
 
-# POST Agents/Preference/SaveTabOrders
+# SaveTabOrders
 
 ```http
 POST /api/v1/Agents/Preference/SaveTabOrders

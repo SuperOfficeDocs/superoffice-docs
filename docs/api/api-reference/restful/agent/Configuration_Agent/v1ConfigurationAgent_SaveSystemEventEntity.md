@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/SaveSystemEventEntity
+title: SaveSystemEventEntity
 id: v1ConfigurationAgent_SaveSystemEventEntity
 ---
 
-# POST Agents/Configuration/SaveSystemEventEntity
+# SaveSystemEventEntity
 
 ```http
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
@@ -86,32 +86,32 @@ Response body: object
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 539,
+  "SystemEventId": 511,
   "Scope": "Database",
-  "Eta": "2000-03-15T16:48:29.0069244+01:00",
-  "Eventkey": "hic",
-  "Eventmess": "mollitia",
-  "ExtraInfo": 470,
-  "Owner": 945,
-  "UpdatedCount": 89,
-  "Registered": "2003-06-12T16:48:29.0069244+02:00",
+  "Eta": "2012-09-14T14:58:03.5313108+02:00",
+  "Eventkey": "cumque",
+  "Eventmess": "minus",
+  "ExtraInfo": 681,
+  "Owner": 985,
+  "UpdatedCount": 612,
+  "Registered": "2018-09-05T14:58:03.5313108+02:00",
   "ActivatedBy": {
-    "AssociateId": 422,
-    "Name": "Simonis, Hilpert and Schinner",
-    "PersonId": 982,
-    "Rank": 401,
-    "Tooltip": "quis",
+    "AssociateId": 712,
+    "Name": "Lemke, Quitzon and Larkin",
+    "PersonId": 669,
+    "Rank": 797,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 477,
-    "FullName": "Veronica Considine",
-    "FormalName": "Rempel, Dickinson and Turner",
+    "GroupIdx": 635,
+    "FullName": "Eldon Leuschke",
+    "FormalName": "Walsh-Marks",
     "Deleted": true,
-    "EjUserId": 731,
-    "UserName": "Herman Inc and Sons"
+    "EjUserId": 792,
+    "UserName": "Roberts-Goodwin"
   }
 }
 ```
@@ -121,37 +121,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 778,
+  "SystemEventId": 717,
   "Scope": "Database",
-  "Eta": "2011-04-21T16:48:29.0069244+02:00",
-  "Eventkey": "quos",
-  "Eventmess": "sed",
-  "ExtraInfo": 307,
-  "Owner": 362,
-  "UpdatedCount": 930,
-  "Registered": "1999-08-03T16:48:29.0069244+02:00",
+  "Eta": "2002-10-09T14:58:03.5323101+02:00",
+  "Eventkey": "dolor",
+  "Eventmess": "nesciunt",
+  "ExtraInfo": 55,
+  "Owner": 478,
+  "UpdatedCount": 25,
+  "Registered": "1999-06-16T14:58:03.5323101+02:00",
   "ActivatedBy": {
-    "AssociateId": 993,
-    "Name": "Greenfelder, Gorczany and Goyette",
-    "PersonId": 713,
-    "Rank": 683,
-    "Tooltip": "nostrum",
+    "AssociateId": 612,
+    "Name": "Carter Group",
+    "PersonId": 709,
+    "Rank": 646,
+    "Tooltip": "quaerat",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 617,
-    "FullName": "Mervin Erdman",
-    "FormalName": "Wiegand Group",
-    "Deleted": false,
-    "EjUserId": 853,
-    "UserName": "Beahan, Weissnat and Armstrong",
+    "GroupIdx": 14,
+    "FullName": "Easton Howe",
+    "FormalName": "Wisozk LLC",
+    "Deleted": true,
+    "EjUserId": 838,
+    "UserName": "Streich-Powlowski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "innovate best-of-breed schemas"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 854
       }
     }
   },
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/GetConsentPerson
+title: GetConsentPerson
 id: v1PersonAgent_GetConsentPerson
 ---
 
-# POST Agents/Person/GetConsentPerson
+# GetConsentPerson
 
 ```http
 POST /api/v1/Agents/Person/GetConsentPerson
@@ -25,7 +25,7 @@ Gets a ConsentPerson object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=635
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=467
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/Person/GetConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -80,14 +80,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 859,
+  "ConsentPersonId": 600,
   "ConsentSource": {
-    "ConsentSourceId": 23,
-    "Name": "Wehner LLC",
-    "Tooltip": "cum",
-    "Rank": 426,
-    "Key": "aut",
-    "MailTemplateId": 529,
+    "ConsentSourceId": 235,
+    "Name": "Goyette-Dach",
+    "Tooltip": "pariatur",
+    "Rank": 143,
+    "Key": "qui",
+    "MailTemplateId": 142,
     "Deleted": false,
     "TableRight": {},
     "FieldProperties": {
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 585
       }
     }
   },
   "LegalBase": {
-    "LegalBaseId": 448,
-    "Name": "Bartoletti-Fay",
-    "Tooltip": "et",
-    "Rank": 870,
-    "Key": "molestiae",
-    "Deleted": false,
+    "LegalBaseId": 965,
+    "Name": "Medhurst, Ledner and Turner",
+    "Tooltip": "minima",
+    "Rank": 744,
+    "Key": "consectetur",
+    "Deleted": true,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -115,25 +115,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 758
       }
     }
   },
-  "PersonId": 448,
+  "PersonId": 369,
   "ConsentPurpose": {
-    "ConsentPurposeId": 861,
-    "Name": "Strosin-Brown",
-    "ConsentText": "pariatur",
-    "FormText": "iusto",
-    "Key": "vero",
-    "Tooltip": "nihil",
-    "Active": 623,
-    "UpdatedDate": "2002-07-17T16:48:29.995925+02:00",
+    "ConsentPurposeId": 450,
+    "Name": "Conroy-White",
+    "ConsentText": "dicta",
+    "FormText": "soluta",
+    "Key": "omnis",
+    "Tooltip": "ut",
+    "Active": 690,
+    "UpdatedDate": "1999-08-25T14:58:04.6134598+02:00",
     "UpdatedBy": {},
     "Deleted": false,
-    "Rank": 970,
-    "PrivacyStatementDesc": "dolorum",
+    "Rank": 309,
+    "PrivacyStatementDesc": "eveniet",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {},
     "FieldProperties": {
@@ -142,15 +142,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   },
-  "Comment": "nobis",
+  "Comment": "sequi",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "enable sexy mindshare"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

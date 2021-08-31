@@ -1,9 +1,9 @@
 ---
-title: POST Agents/FreeText/AddWords
+title: AddWords
 id: v1FreeTextAgent_AddWords
 ---
 
-# POST Agents/FreeText/AddWords
+# AddWords
 
 ```http
 POST /api/v1/Agents/FreeText/AddWords

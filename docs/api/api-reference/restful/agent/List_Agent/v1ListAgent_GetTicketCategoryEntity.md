@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketCategoryEntity
+title: GetTicketCategoryEntity
 id: v1ListAgent_GetTicketCategoryEntity
 ---
 
-# POST Agents/List/GetTicketCategoryEntity
+# GetTicketCategoryEntity
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategoryEntity
@@ -25,7 +25,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=850
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=859
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -93,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 537,
-  "ParentId": 431,
-  "Name": "Dibbert, Windler and Heathcote",
-  "Fullname": "quae",
-  "CategoryMaster": 90,
+  "TicketCategoryId": 781,
+  "ParentId": 500,
+  "Name": "Stroman, Blick and Halvorson",
+  "Fullname": "culpa",
+  "CategoryMaster": 34,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuhic-Swaniawski",
+  "ExternalName": "Haag, Langosh and Mosciski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 596,
-  "ReplyTemplate": 434,
-  "NotificationEmail": "ezequiel@wisozkgibson.ca",
+  "AssignmentLag": 927,
+  "ReplyTemplate": 783,
+  "NotificationEmail": "callie.tremblay@reilly.uk",
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "id"
+    "CustomFields1": "aut",
+    "CustomFields2": "aut"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 139
     }
   }
 }

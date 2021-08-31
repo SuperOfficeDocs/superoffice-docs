@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -73,17 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "iste",
-    "DocumentId": 563,
-    "VersionId": "alias",
-    "CheckedInDate": "2017-02-04T09:40:59.1836629+01:00",
-    "CheckedInByName": "Considine Inc and Sons",
-    "CheckedInByAssociateId": 571,
-    "Description": "Synergistic radical protocol",
-    "DisplayText": "autem",
+    "ExternalReference": "ducimus",
+    "DocumentId": 963,
+    "VersionId": "molestias",
+    "CheckedInDate": "2005-12-20T15:05:42.1626354+01:00",
+    "CheckedInByName": "Dach-Gerlach",
+    "CheckedInByAssociateId": 725,
+    "Description": "Grass-roots bifurcated hub",
+    "DisplayText": "omnis",
     "ExtraFields": [
-      "voluptatem",
-      "dolorum"
+      "ab",
+      "reiciendis"
     ]
   }
 ]

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveCountry
+title: SaveCountry
 id: v1ListAgent_SaveCountry
 ---
 
-# POST Agents/List/SaveCountry
+# SaveCountry
 
 ```http
 POST /api/v1/Agents/List/SaveCountry
@@ -91,28 +91,28 @@ Response body: object
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Country": {
-    "CountryId": 29,
-    "Name": "Turner Group",
-    "CurrencyId": 262,
-    "EnglishName": "Halvorson Group",
+    "CountryId": 778,
+    "Name": "Wiza, Renner and Gottlieb",
+    "CurrencyId": 942,
+    "EnglishName": "Howe, Pfeffer and Haag",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Triple-buffered system-worthy parallelism",
-    "OrgNrText": "599979",
-    "InterAreaPrefix": "aliquid",
-    "DialInPrefix": "accusantium",
-    "ZipPrefix": "facere",
-    "DomainName": "Effertz LLC",
-    "AddressLayoutId": 824,
-    "DomesticAddressLayoutId": 972,
-    "ForeignAddressLayoutId": 299,
-    "Rank": 980,
-    "Tooltip": "iure",
+    "ImageDescription": "Fundamental methodical parallelism",
+    "OrgNrText": "1107717",
+    "InterAreaPrefix": "nesciunt",
+    "DialInPrefix": "et",
+    "ZipPrefix": "necessitatibus",
+    "DomainName": "Hermann LLC",
+    "AddressLayoutId": 106,
+    "DomesticAddressLayoutId": 661,
+    "ForeignAddressLayoutId": 647,
+    "Rank": 743,
+    "Tooltip": "error",
     "Deleted": false
   }
 }
@@ -123,24 +123,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 941,
-  "Name": "Kutch, Farrell and Yost",
-  "CurrencyId": 656,
-  "EnglishName": "Torphy LLC",
+  "CountryId": 886,
+  "Name": "Ruecker-Fritsch",
+  "CurrencyId": 477,
+  "EnglishName": "Bashirian Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Customer-focused reciprocal initiative",
-  "OrgNrText": "595512",
-  "InterAreaPrefix": "laboriosam",
-  "DialInPrefix": "sed",
-  "ZipPrefix": "natus",
-  "DomainName": "Spencer-Keeling",
-  "AddressLayoutId": 285,
-  "DomesticAddressLayoutId": 694,
-  "ForeignAddressLayoutId": 508,
-  "Rank": 885,
-  "Tooltip": "quam",
-  "Deleted": false,
+  "ImageDescription": "User-centric static superstructure",
+  "OrgNrText": "764386",
+  "InterAreaPrefix": "non",
+  "DialInPrefix": "dolores",
+  "ZipPrefix": "qui",
+  "DomainName": "Jacobi, Jacobson and Brakus",
+  "AddressLayoutId": 146,
+  "DomesticAddressLayoutId": 108,
+  "ForeignAddressLayoutId": 834,
+  "Rank": 611,
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
+title: CreateOrUpdateQuoteVersionAttachments
 id: v1QuoteAgent_CreateOrUpdateQuoteVersionAttachments
 ---
 
-# POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
+# CreateOrUpdateQuoteVersionAttachments
 
 ```http
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
@@ -74,11 +74,11 @@ Response body: array
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 839
+  "QuoteVersionId": 759
 }
 ```
 
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 521,
-    "Included": false,
+    "DocumentId": 760,
+    "Included": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldLength": 19
       }
     }
   },
   {
-    "DocumentId": 521,
-    "Included": false,
+    "DocumentId": 760,
+    "Included": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldLength": 19
       }
     }
   }

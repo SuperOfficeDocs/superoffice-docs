@@ -52,6 +52,8 @@ The AttachmentEntity to be saved.
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 
 
 ## Response: object
@@ -74,6 +76,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -88,10 +92,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 581,
-  "Name": "Hand, Crooks and Ferry",
-  "ContentType": "vel",
-  "AttSize": 958
+  "AttachmentId": 440,
+  "Name": "Swaniawski, Auer and Heaney",
+  "ContentType": "necessitatibus",
+  "AttSize": 741,
+  "InlineImage": false,
+  "ContentId": "aut"
 }
 ```
 
@@ -100,10 +106,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 711,
-  "Name": "Gorczany, Wyman and Olson",
-  "ContentType": "soluta",
-  "AttSize": 787,
+  "AttachmentId": 908,
+  "Name": "Frami-Hoppe",
+  "ContentType": "consequatur",
+  "AttSize": 724,
+  "InlineImage": true,
+  "ContentId": "dolorem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,13 +122,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

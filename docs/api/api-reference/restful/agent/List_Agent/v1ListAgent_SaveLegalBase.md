@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveLegalBase
+title: SaveLegalBase
 id: v1ListAgent_SaveLegalBase
 ---
 
-# POST Agents/List/SaveLegalBase
+# SaveLegalBase
 
 ```http
 POST /api/v1/Agents/List/SaveLegalBase
@@ -79,16 +79,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "LegalBase": {
-    "LegalBaseId": 948,
-    "Name": "Greenholt, Roob and Jast",
-    "Tooltip": "eum",
-    "Rank": 940,
-    "Key": "cupiditate",
+    "LegalBaseId": 24,
+    "Name": "Hermann-Hackett",
+    "Tooltip": "commodi",
+    "Rank": 494,
+    "Key": "unde",
     "Deleted": true
   }
 }
@@ -99,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 680,
-  "Name": "Graham Group",
-  "Tooltip": "ut",
-  "Rank": 235,
-  "Key": "dolores",
+  "LegalBaseId": 581,
+  "Name": "Rosenbaum Group",
+  "Tooltip": "sit",
+  "Rank": 476,
+  "Key": "a",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -113,10 +113,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reinvent visionary paradigms"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 94
     }
   }
 }

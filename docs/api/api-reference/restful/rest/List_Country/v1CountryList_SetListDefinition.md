@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Romaguera, Gerhold and Trantow",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "Rank": 84,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 803,
+  "Name": "Bartoletti Group",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 411,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
+  "ListType": "ea",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Jaskolski, Hahn and Lemke",
-  "Tooltip": "consequatur",
+  "Id": 229,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "Rank": 686,
+  "Rank": 518,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "monetize intuitive e-business"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver holistic web-readiness"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 994
     }
   }
 }

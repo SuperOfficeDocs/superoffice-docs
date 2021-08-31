@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=omnis
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=consectetur
 ```
 
 
@@ -79,23 +79,23 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 10 May 2006 09:40:59 G5T
+Last-Modified: Fri, 09 Nov 2012 15:05:42 G11T
 
 {
-  "Key": "quia",
-  "Value": "quidem",
-  "RecordId": 12,
-  "CreatedDate": "2008-05-06T09:40:59.227663+02:00",
-  "UpdatedDate": "2006-05-10T09:40:59.227663+02:00",
-  "UpdatedBy": "minima",
-  "CreatedBy": "id",
-  "TableName": "Stanton-Lueilwitz",
+  "Key": "ex",
+  "Value": "voluptatibus",
+  "RecordId": 668,
+  "CreatedDate": "1995-12-28T15:05:42.248666+01:00",
+  "UpdatedDate": "2012-11-09T15:05:42.248666+01:00",
+  "UpdatedBy": "cum",
+  "CreatedBy": "quam",
+  "TableName": "Eichmann Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -106,8 +106,8 @@ Last-Modified: Wed, 10 May 2006 09:40:59 G5T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 468
     }
   }
 }

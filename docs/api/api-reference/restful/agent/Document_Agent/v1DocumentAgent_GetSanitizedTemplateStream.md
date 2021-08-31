@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetSanitizedTemplateStream
+title: GetSanitizedTemplateStream
 id: v1DocumentAgent_GetSanitizedTemplateStream
 ---
 
-# POST Agents/Document/GetSanitizedTemplateStream
+# GetSanitizedTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Bauch-O'Kon",
+  "TemplateName": "Mraz-King",
   "AllowPersonal": false,
-  "UiCulture": "alias"
+  "UiCulture": "sit"
 }
 ```
 

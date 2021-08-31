@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Find/SaveRestrictionGroup
+title: SaveRestrictionGroup
 id: v1FindAgent_SaveRestrictionGroup
 ---
 
-# POST Agents/Find/SaveRestrictionGroup
+# SaveRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroup

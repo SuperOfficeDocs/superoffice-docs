@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Favourite/IsFavourite
+title: IsFavourite
 id: v1FavouriteAgent_IsFavourite
 ---
 
-# POST Agents/Favourite/IsFavourite
+# IsFavourite
 
 ```http
 POST /api/v1/Agents/Favourite/IsFavourite
@@ -70,13 +70,13 @@ Response body: bool
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schumm-Purdy",
-  "RecordId": 404,
-  "AssociateId": 450
+  "TableName": "Kunde Inc and Sons",
+  "RecordId": 749,
+  "AssociateId": 149
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

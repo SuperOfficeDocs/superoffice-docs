@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/GetActorTypeMapping
+title: GetActorTypeMapping
 id: v1ErpSyncAgent_GetActorTypeMapping
 ---
 
-# POST Agents/ErpSync/GetActorTypeMapping
+# GetActorTypeMapping
 
 ```http
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
@@ -85,11 +85,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 688,
+  "ErpConnectionId": 406,
   "ActorType": "Customer"
 }
 ```
@@ -99,27 +99,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 129,
+  "ErpConnectionId": 760,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 258,
-      "CrmFieldKey": "eos",
-      "CrmDisplayName": "Halvorson, Rohan and Hermiston",
-      "CrmDisplayTooltip": "sit",
-      "ErpFieldKey": "et",
+      "ErpFieldId": 733,
+      "CrmFieldKey": "itaque",
+      "CrmDisplayName": "Swaniawski Inc and Sons",
+      "CrmDisplayTooltip": "ut",
+      "ErpFieldKey": "iste",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Rowe Group",
-      "ErpDisplayTooltip": "aut",
+      "ErpDisplayName": "Christiansen, Purdy and Beahan",
+      "ErpDisplayTooltip": "repellat",
       "SyncToCrm": true,
-      "SyncToErp": false,
-      "ShowInGui": true,
+      "SyncToErp": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": true,
       "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "est",
+      "ListReference": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 573
     }
   }
 }

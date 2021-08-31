@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CustomerService/GetProgramUrl
+title: GetProgramUrl
 id: v1CustomerServiceAgent_GetProgramUrl
 ---
 
-# POST Agents/CustomerService/GetProgramUrl
+# GetProgramUrl
 
 ```http
 POST /api/v1/Agents/CustomerService/GetProgramUrl
@@ -69,11 +69,11 @@ Response body: string
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Hills Inc and Sons",
+  "ProgramName": "Bahringer Inc and Sons",
   "External": false
 }
 ```

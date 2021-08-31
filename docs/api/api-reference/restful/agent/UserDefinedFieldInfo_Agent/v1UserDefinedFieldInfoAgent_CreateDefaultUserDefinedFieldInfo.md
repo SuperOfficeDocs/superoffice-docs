@@ -1,9 +1,9 @@
 ---
-title: POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
+title: CreateDefaultUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
 ---
 
-# POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
+# CreateDefaultUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -100,40 +100,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 64,
-  "ColumnId": 748,
-  "FieldDefault": "debitis",
-  "FieldHeight": 937,
-  "FieldLabel": "delectus",
-  "FieldLeft": 823,
-  "FieldTop": 737,
+  "UDefFieldId": 385,
+  "ColumnId": 538,
+  "FieldDefault": "sed",
+  "FieldHeight": 706,
+  "FieldLabel": "soluta",
+  "FieldLeft": 744,
+  "FieldTop": 239,
   "FieldType": "Checkbox",
-  "FieldWidth": 659,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 641,
+  "FormatMask": "laboriosam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 643,
-  "LabelLeft": 455,
-  "LabelTop": 957,
-  "LabelWidth": 173,
-  "LastVersionId": 346,
-  "ListTableId": 534,
+  "LabelHeight": 181,
+  "LabelLeft": 484,
+  "LabelTop": 700,
+  "LabelWidth": 136,
+  "LastVersionId": 466,
+  "ListTableId": 90,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "natus",
-  "IsReadOnly": true,
-  "ShortLabel": "earum",
-  "TabOrder": 396,
-  "TextLength": 870,
-  "Tooltip": "in",
-  "UdefIdentity": 708,
-  "UDListDefinitionId": 397,
+  "Page1LineNo": 221,
+  "ProgId": "placeat",
+  "IsReadOnly": false,
+  "ShortLabel": "quia",
+  "TabOrder": 50,
+  "TextLength": 856,
+  "Tooltip": "rerum",
+  "UdefIdentity": 832,
+  "UDListDefinitionId": 768,
   "Justification": "Center",
-  "Version": 621,
-  "TemplateVariableName": "Haag LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Stark-Frami",
+  "Version": 791,
+  "TemplateVariableName": "Reynolds, Shanahan and Paucek",
+  "HasBeenPublished": true,
+  "MdoListName": "Crist LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 875
     }
   }
 }

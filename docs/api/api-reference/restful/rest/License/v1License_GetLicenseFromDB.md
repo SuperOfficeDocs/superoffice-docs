@@ -70,67 +70,67 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": {
-    "CompanyName": "Olson, Huel and Leannon",
+    "CompanyName": "Kreiger-Gulgowski",
     "SerialNr": "1010000006",
-    "OwnerName": "Green, Yost and Turcotte",
-    "OwnerDescription": "Distributed tangible toolset",
-    "NextCheckDate": "2017-03-30T09:40:59.9340519+02:00",
-    "MaintenanceDate": "2000-03-25T09:40:59.9340519+01:00",
-    "AdminWarningDate": "2013-09-03T09:40:59.9340519+02:00",
-    "ExpiryDate": "2003-10-07T09:40:59.9340519+02:00",
-    "GraceDate": "2020-10-11T09:40:59.9340519+02:00",
-    "ExtraFlags": 698,
-    "ExtraInfo": "odio",
+    "OwnerName": "Boyle LLC",
+    "OwnerDescription": "Implemented 24 hour middleware",
+    "NextCheckDate": "2017-10-19T15:05:43.0066629+02:00",
+    "MaintenanceDate": "2009-06-12T15:05:43.0066629+02:00",
+    "AdminWarningDate": "2005-05-28T15:05:43.0066629+02:00",
+    "ExpiryDate": "2000-03-25T15:05:43.0066629+01:00",
+    "GraceDate": "1995-04-20T15:05:43.0066629+02:00",
+    "ExtraFlags": 841,
+    "ExtraInfo": "qui",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "beatae",
-    "DeploymentType": 731,
-    "ProductType": "quis",
-    "ProductDescription": "Extended intangible architecture",
+    "LicenseVersion": "qui",
+    "DeploymentType": 142,
+    "ProductType": "ipsa",
+    "ProductDescription": "Multi-tiered systematic parallelism",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "dolores"
+    "Signature": "cum"
   },
   "Current": {
-    "CompanyName": "Bergnaum, Jerde and Koch",
+    "CompanyName": "Ledner, Hayes and Steuber",
     "SerialNr": "1010000006",
-    "OwnerName": "Willms Group",
-    "OwnerDescription": "Innovative optimizing approach",
-    "NextCheckDate": "2020-12-25T09:40:59.9340519+01:00",
-    "MaintenanceDate": "2009-09-20T09:40:59.9340519+02:00",
-    "AdminWarningDate": "1998-04-06T09:40:59.9340519+02:00",
-    "ExpiryDate": "1999-01-15T09:40:59.9340519+01:00",
-    "GraceDate": "2007-01-07T09:40:59.9340519+01:00",
-    "ExtraFlags": 141,
-    "ExtraInfo": "ex",
+    "OwnerName": "Carroll, Bode and Rosenbaum",
+    "OwnerDescription": "Organized mission-critical infrastructure",
+    "NextCheckDate": "2011-06-21T15:05:43.0066629+02:00",
+    "MaintenanceDate": "2011-09-16T15:05:43.0066629+02:00",
+    "AdminWarningDate": "2017-11-06T15:05:43.0066629+01:00",
+    "ExpiryDate": "2016-12-25T15:05:43.0066629+01:00",
+    "GraceDate": "2020-07-18T15:05:43.0066629+02:00",
+    "ExtraFlags": 863,
+    "ExtraInfo": "voluptas",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "voluptatum",
-    "DeploymentType": 325,
-    "ProductType": "quia",
-    "ProductDescription": "Profit-focused reciprocal extranet",
+    "LicenseVersion": "omnis",
+    "DeploymentType": 446,
+    "ProductType": "iure",
+    "ProductDescription": "Up-sized actuating policy",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "vel"
+    "Signature": "voluptate"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 24,
-      "NumberOfLicensesFree": 247,
-      "NumberOfLicensesAdded": 202,
-      "NumberOfLicensesNewTotal": 206,
-      "NumberOfLicensesNewFree": 91,
-      "NumberOfLicensesTotal": 770
+      "NumberOfLicensesInUse": 998,
+      "NumberOfLicensesFree": 449,
+      "NumberOfLicensesAdded": 387,
+      "NumberOfLicensesNewTotal": 264,
+      "NumberOfLicensesNewFree": 673,
+      "NumberOfLicensesTotal": 544
     }
   ],
-  "AccumulatedNextCheckDate": "2011-09-29T09:40:59.9340519+02:00"
+  "AccumulatedNextCheckDate": "2008-07-15T15:05:43.0066629+02:00"
 }
 ```

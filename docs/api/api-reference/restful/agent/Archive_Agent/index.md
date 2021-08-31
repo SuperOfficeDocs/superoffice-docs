@@ -2,6 +2,8 @@
 title: Archive_Agent
 ---
 
+# Archive_Agent
+
 ```http
 /api/v1/Archive/Agent
 ```
@@ -9,58 +11,60 @@ title: Archive_Agent
 
 
 
-* [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
+* [CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 
-* [POST Agents/Archive/GetActivityFilter](v1ArchiveAgent_GetActivityFilter.md)
+* [GetActivityFilter](v1ArchiveAgent_GetActivityFilter.md)
 
-* [POST Agents/Archive/SetActivityFilter](v1ArchiveAgent_SetActivityFilter.md)
+* [SetActivityFilter](v1ArchiveAgent_SetActivityFilter.md)
 
-* [POST Agents/Archive/GetGroupAssociateIds](v1ArchiveAgent_GetGroupAssociateIds.md)
+* [GetGroupAssociateIds](v1ArchiveAgent_GetGroupAssociateIds.md)
 
-* [POST Agents/Archive/GetArchiveConfiguration](v1ArchiveAgent_GetArchiveConfiguration.md)
+* [GetArchiveConfiguration](v1ArchiveAgent_GetArchiveConfiguration.md)
 
-* [POST Agents/Archive/GetArchiveConfigurationWithContext](v1ArchiveAgent_GetArchiveConfigurationWithContext.md)
+* [GetArchiveConfigurationWithContext](v1ArchiveAgent_GetArchiveConfigurationWithContext.md)
 
-* [POST Agents/Archive/SetColumnWidths](v1ArchiveAgent_SetColumnWidths.md)
+* [SetColumnWidths](v1ArchiveAgent_SetColumnWidths.md)
 
-* [POST Agents/Archive/SetChosenEntities](v1ArchiveAgent_SetChosenEntities.md)
+* [SetChosenEntities](v1ArchiveAgent_SetChosenEntities.md)
 
-* [POST Agents/Archive/SetChosenColumns](v1ArchiveAgent_SetChosenColumns.md)
+* [SetChosenColumns](v1ArchiveAgent_SetChosenColumns.md)
 
-* [POST Agents/Archive/GetArchiveConfigurationV2](v1ArchiveAgent_GetArchiveConfigurationV2.md)
+* [GetArchiveConfigurationV2](v1ArchiveAgent_GetArchiveConfigurationV2.md)
 
-* [POST Agents/Archive/SetColumnWidthsV2](v1ArchiveAgent_SetColumnWidthsV2.md)
+* [SetColumnWidthsV2](v1ArchiveAgent_SetColumnWidthsV2.md)
 
-* [POST Agents/Archive/SetChosenEntitiesV2](v1ArchiveAgent_SetChosenEntitiesV2.md)
+* [SetChosenEntitiesV2](v1ArchiveAgent_SetChosenEntitiesV2.md)
 
-* [POST Agents/Archive/SetChosenColumnsV2](v1ArchiveAgent_SetChosenColumnsV2.md)
+* [SetChosenColumnsV2](v1ArchiveAgent_SetChosenColumnsV2.md)
 
-* [POST Agents/Archive/GetArchiveListByColumns](v1ArchiveAgent_GetArchiveListByColumns.md)
+* [GetArchiveListByColumns](v1ArchiveAgent_GetArchiveListByColumns.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithContext](v1ArchiveAgent_GetArchiveListByColumnsWithContext.md)
+* [GetArchiveListByColumnsWithContext](v1ArchiveAgent_GetArchiveListByColumnsWithContext.md)
 
-* [POST Agents/Archive/GetArchiveList](v1ArchiveAgent_GetArchiveList.md)
+* [GetArchiveList](v1ArchiveAgent_GetArchiveList.md)
 
-* [POST Agents/Archive/GetArchiveListWithContext](v1ArchiveAgent_GetArchiveListWithContext.md)
+* [GetArchiveListWithContext](v1ArchiveAgent_GetArchiveListWithContext.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithHeader](v1ArchiveAgent_GetArchiveListByColumnsWithHeader.md)
+* [GetArchiveListByColumnsWithHeader](v1ArchiveAgent_GetArchiveListByColumnsWithHeader.md)
 
-* [POST Agents/Archive/GetProviderNames](v1ArchiveAgent_GetProviderNames.md)
+* [GetProviderNames](v1ArchiveAgent_GetProviderNames.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext.md)
+* [GetArchiveListByColumnsWithHeaderWithContext](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext.md)
 
-* [POST Agents/Archive/GetAvailableColumns](v1ArchiveAgent_GetAvailableColumns.md)
+* [GetAvailableColumns](v1ArchiveAgent_GetAvailableColumns.md)
 
-* [POST Agents/Archive/GetAvailableEntities](v1ArchiveAgent_GetAvailableEntities.md)
+* [GetAvailableEntities](v1ArchiveAgent_GetAvailableEntities.md)
 
-* [POST Agents/Archive/GetArchiveListByColumns2](v1ArchiveAgent_GetArchiveListByColumns2.md)
+* [GetArchiveListByColumns2](v1ArchiveAgent_GetArchiveListByColumns2.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithContext2.md)
+* [GetArchiveListByColumnsWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithContext2.md)
 
-* [POST Agents/Archive/GetArchiveList2](v1ArchiveAgent_GetArchiveList2.md)
+* [GetArchiveList2](v1ArchiveAgent_GetArchiveList2.md)
 
-* [POST Agents/Archive/GetArchiveListWithContext2](v1ArchiveAgent_GetArchiveListWithContext2.md)
+* [GetArchiveListWithContext2](v1ArchiveAgent_GetArchiveListWithContext2.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithHeader2](v1ArchiveAgent_GetArchiveListByColumnsWithHeader2.md)
+* [GetArchiveListByColumnsWithHeader2](v1ArchiveAgent_GetArchiveListByColumnsWithHeader2.md)
 
-* [POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)
+* [GetArchiveListByColumnsWithHeaderWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)
+
+* [ExportArchive](v1ArchiveAgent_ExportArchive.md)

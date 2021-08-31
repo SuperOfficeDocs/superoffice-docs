@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Project/GetProjectImage
+title: GetProjectImage
 id: v1ProjectAgent_GetProjectImage
 ---
 
-# POST Agents/Project/GetProjectImage
+# GetProjectImage
 
 ```http
 POST /api/v1/Agents/Project/GetProjectImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 752
+  "ProjectId": 5
 }
 ```
 

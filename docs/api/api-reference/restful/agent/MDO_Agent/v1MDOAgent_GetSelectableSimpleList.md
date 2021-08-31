@@ -1,9 +1,9 @@
 ---
-title: POST Agents/MDO/GetSelectableSimpleList
+title: GetSelectableSimpleList
 id: v1MDOAgent_GetSelectableSimpleList
 ---
 
-# POST Agents/MDO/GetSelectableSimpleList
+# GetSelectableSimpleList
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
@@ -91,7 +91,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rogahn-Hammes"
+  "Name": "Schmeler, Johnston and Howe"
 }
 ```
 
@@ -101,53 +101,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Marks-Mosciski",
-    "ToolTip": "Officiis harum maiores non voluptas deserunt ipsa.",
+    "Id": 701,
+    "Name": "Harvey, Pagac and Turner",
+    "ToolTip": "Quasi est aut velit tenetur eius.",
     "Deleted": true,
-    "Rank": 551,
-    "Type": "placeat",
-    "ColorBlock": 874,
-    "IconHint": "molestiae",
+    "Rank": 295,
+    "Type": "pariatur",
+    "ColorBlock": 81,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2007-01-08T16:48:29.9699243+01:00",
+    "LastChanged": "2000-05-27T14:58:04.5114322+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Willms LLC",
-        "ToolTip": "Commodi sunt et ad ut commodi.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "autem",
-        "ColorBlock": 205,
-        "IconHint": "voluptatibus",
+        "Id": 40,
+        "Name": "Koch-Stamm",
+        "ToolTip": "Dolorem numquam excepturi animi ut.",
+        "Deleted": true,
+        "Rank": 112,
+        "Type": "et",
+        "ColorBlock": 287,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2017-03-02T16:48:29.9699243+01:00",
+        "LastChanged": "2018-05-12T14:58:04.5134814+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "totam",
+        "ExtraInfo": "rerum",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Petra Osinski",
+        "FullName": "Camila Zemlak MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "incentivize cross-platform platforms"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldType": "System.String",
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "debitis",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Ava Lakin",
+    "FullName": "Devin Douglas",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/HasMXRecord
+title: HasMXRecord
 id: v1EMailAgent_HasMXRecord
 ---
 
-# POST Agents/EMail/HasMXRecord
+# HasMXRecord
 
 ```http
 POST /api/v1/Agents/EMail/HasMXRecord
@@ -70,11 +70,11 @@ Response body: bool
 POST /api/v1/Agents/EMail/HasMXRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "qui"
+  "MailDomain": "optio"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

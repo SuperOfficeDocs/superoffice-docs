@@ -2,6 +2,8 @@
 title: Appointment
 ---
 
+# Appointment
+
 ```http
 /api/v1/Appointment
 ```

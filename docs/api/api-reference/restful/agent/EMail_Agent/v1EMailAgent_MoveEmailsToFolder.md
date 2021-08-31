@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/MoveEmailsToFolder
+title: MoveEmailsToFolder
 id: v1EMailAgent_MoveEmailsToFolder
 ---
 
-# POST Agents/EMail/MoveEmailsToFolder
+# MoveEmailsToFolder
 
 ```http
 POST /api/v1/Agents/EMail/MoveEmailsToFolder

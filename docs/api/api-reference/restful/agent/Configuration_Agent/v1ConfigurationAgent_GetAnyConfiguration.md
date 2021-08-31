@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetAnyConfiguration
+title: GetAnyConfiguration
 id: v1ConfigurationAgent_GetAnyConfiguration
 ---
 
-# POST Agents/Configuration/GetAnyConfiguration
+# GetAnyConfiguration
 
 ```http
 POST /api/v1/Agents/Configuration/GetAnyConfiguration
@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "aut",
-  "Instance": "debitis",
-  "Item": "quo",
-  "Type": "sed"
+  "Application": "ipsa",
+  "Instance": "qui",
+  "Item": "libero",
+  "Type": "incidunt"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ratione"
+"cupiditate"
 ```

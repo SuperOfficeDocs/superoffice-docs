@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SavePrivacyReport
+title: SavePrivacyReport
 id: v1DocumentAgent_SavePrivacyReport
 ---
 
-# POST Agents/Document/SavePrivacyReport
+# SavePrivacyReport
 
 ```http
 POST /api/v1/Agents/Document/SavePrivacyReport
@@ -70,13 +70,13 @@ Response body: int32
 POST /api/v1/Agents/Document/SavePrivacyReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "possimus",
-  "Title": "ut",
-  "PersonId": 266
+  "HtmlReport": "ut",
+  "Title": "sit",
+  "PersonId": 561
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-765
+540
 ```

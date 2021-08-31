@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Dashboard/GetDashboardTiles
+title: GetDashboardTiles
 id: v1DashboardAgent_GetDashboardTiles
 ---
 
-# POST Agents/Dashboard/GetDashboardTiles
+# GetDashboardTiles
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
@@ -86,13 +86,13 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    786,
-    857
+    444,
+    698
   ]
 }
 ```
@@ -103,30 +103,48 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 997,
-    "Caption": "earum",
-    "Description": "Customizable 4th generation model",
-    "ChartName": "Graham, Herzog and Kilback",
-    "ChartId": "dolorum",
+    "DashboardTileId": 536,
+    "Caption": "impedit",
+    "Description": "Ergonomic tangible customer loyalty",
+    "ChartName": "Luettgen Inc and Sons",
+    "ChartId": "rerum",
     "IsDefault": true,
-    "AssociateId": 589,
-    "GroupId": 199,
-    "SelectionId": 51,
-    "Config": "quas",
+    "AssociateId": 150,
+    "GroupId": 312,
+    "SelectionId": 53,
+    "Config": "eveniet",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Carter-Schaden",
-        "Description": "Streamlined even-keeled definition",
+        "Name": "Jacobson-Daugherty",
+        "Description": "Customizable 24 hour success",
         "Type": "Boolean",
-        "ListName": "Cruickshank Inc and Sons",
+        "ListName": "Kilback, Hintz and Walsh",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "eligendi",
-        "DefaultDataOption": false,
+        "Value": "voluptatum",
+        "DefaultDataOption": true,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 792
+          }
+        }
+      }
+    ],
+    "VisibleFor": [
+      {
+        "VisibleId": 707,
+        "Visibility": "All",
+        "DisplayValue": "quasi",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -135,41 +153,23 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 342
-          }
-        }
-      }
-    ],
-    "VisibleFor": [
-      {
-        "VisibleId": 675,
-        "Visibility": "All",
-        "DisplayValue": "id",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "synergize leading-edge bandwidth"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 113
+            "FieldLength": 308
           }
         }
       },
       {
-        "VisibleId": 675,
+        "VisibleId": 707,
         "Visibility": "All",
-        "DisplayValue": "id",
+        "DisplayValue": "quasi",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "synergize leading-edge bandwidth"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 113
+            "FieldType": "System.String",
+            "FieldLength": 308
           }
         }
       }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldType": "System.String",
+        "FieldLength": 447
       }
     }
   }

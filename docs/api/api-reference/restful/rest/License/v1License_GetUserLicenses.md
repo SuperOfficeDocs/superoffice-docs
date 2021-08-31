@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson-Schowalter",
-    "Description": "Optional cohesive approach",
+    "Name": "Watsica LLC",
+    "Description": "Up-sized global contingency",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 431,
-        "Tooltip": "fugiat",
-        "CanAssign": false,
-        "Free": 863,
-        "InUse": 902,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 154,
-        "Name": "Pacocha, O'Keefe and Strosin",
-        "Description": "Switchable high-level array",
-        "PrerequisiteModuleName": "Koss Group",
-        "SortOrder": 185,
+        "Unrestricted": true,
+        "Total": 273,
+        "Tooltip": "cumque",
+        "CanAssign": true,
+        "Free": 429,
+        "InUse": 802,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 332,
+        "Name": "Cronin-Harris",
+        "Description": "Devolved zero tolerance circuit",
+        "PrerequisiteModuleName": "White-Mertz",
+        "SortOrder": 426,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 709
           }
         }
       }
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 630,
-        "Tooltip": "architecto",
+        "Total": 480,
+        "Tooltip": "expedita",
         "CanAssign": false,
-        "Free": 832,
-        "InUse": 932,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 58,
-        "Name": "Kassulke, Zboncak and Williamson",
-        "Description": "Programmable value-added intranet",
-        "PrerequisiteModuleName": "Johnson-Marquardt",
-        "SortOrder": 171,
+        "Free": 742,
+        "InUse": 963,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 824,
+        "Name": "Ferry, Konopelski and O'Keefe",
+        "Description": "Reactive optimizing artificial intelligence",
+        "PrerequisiteModuleName": "Becker, Halvorson and Gaylord",
+        "SortOrder": 787,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
@@ -139,28 +139,28 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 467
       }
     }
   },
   {
-    "Name": "Runolfsson-Schowalter",
-    "Description": "Optional cohesive approach",
+    "Name": "Watsica LLC",
+    "Description": "Up-sized global contingency",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 431,
-        "Tooltip": "fugiat",
-        "CanAssign": false,
-        "Free": 863,
-        "InUse": 902,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 154,
-        "Name": "Pacocha, O'Keefe and Strosin",
-        "Description": "Switchable high-level array",
-        "PrerequisiteModuleName": "Koss Group",
-        "SortOrder": 185,
+        "Unrestricted": true,
+        "Total": 273,
+        "Tooltip": "cumque",
+        "CanAssign": true,
+        "Free": 429,
+        "InUse": 802,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 332,
+        "Name": "Cronin-Harris",
+        "Description": "Devolved zero tolerance circuit",
+        "PrerequisiteModuleName": "White-Mertz",
+        "SortOrder": 426,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 709
           }
         }
       }
@@ -177,18 +177,18 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 630,
-        "Tooltip": "architecto",
+        "Total": 480,
+        "Tooltip": "expedita",
         "CanAssign": false,
-        "Free": 832,
-        "InUse": 932,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 58,
-        "Name": "Kassulke, Zboncak and Williamson",
-        "Description": "Programmable value-added intranet",
-        "PrerequisiteModuleName": "Johnson-Marquardt",
-        "SortOrder": 171,
+        "Free": 742,
+        "InUse": 963,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 824,
+        "Name": "Ferry, Konopelski and O'Keefe",
+        "Description": "Reactive optimizing artificial intelligence",
+        "PrerequisiteModuleName": "Becker, Halvorson and Gaylord",
+        "SortOrder": 787,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 467
       }
     }
   }

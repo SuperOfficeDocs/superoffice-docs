@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetFromListName
+title: GetFromListName
 id: v1ListAgent_GetFromListName
 ---
 
-# POST Agents/List/GetFromListName
+# GetFromListName
 
 ```http
 POST /api/v1/Agents/List/GetFromListName
@@ -84,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 552,
-  "UdListDefinitionName": "Runolfsson LLC"
+  "Id": 942,
+  "UdListDefinitionName": "Hackett LLC"
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Towne, Romaguera and Reilly",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 476,
-  "Rank": 757,
+  "Id": 515,
+  "Name": "Schaden, Runolfsdottir and Davis",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "UdListDefinitionId": 380,
+  "Rank": 135,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldLength": 275
     }
   }
 }

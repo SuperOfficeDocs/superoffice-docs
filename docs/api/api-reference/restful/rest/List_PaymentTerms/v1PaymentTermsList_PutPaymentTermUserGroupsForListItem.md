@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Mante-Kuphal",
-    "ToolTip": "Et vel.",
+    "Id": 875,
+    "Name": "Kunze, Kris and Weimann",
+    "ToolTip": "Fugiat sit nam.",
     "Deleted": true,
-    "Rank": 41,
-    "Type": "et",
-    "ColorBlock": 920,
-    "IconHint": "dolorem",
+    "Rank": 61,
+    "Type": "quidem",
+    "ColorBlock": 596,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "1999-09-07T09:41:00.4773825+02:00",
+    "LastChanged": "2005-02-11T15:05:43.5420797+01:00",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "Corkery LLC",
-        "ToolTip": "Quia esse esse quae aut et.",
-        "Deleted": false,
-        "Rank": 608,
-        "Type": "asperiores",
-        "ColorBlock": 713,
-        "IconHint": "eius",
+        "Id": 495,
+        "Name": "Osinski-Casper",
+        "ToolTip": "Dolor voluptates ut deserunt autem itaque.",
+        "Deleted": true,
+        "Rank": 667,
+        "Type": "ea",
+        "ColorBlock": 55,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2020-01-13T09:41:00.4773825+01:00",
+        "LastChanged": "2006-11-02T15:05:43.5430796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Rey Spencer Jr."
+        "ExtraInfo": "enim",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Hilbert Pfannerstill"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Jayme Schroeder"
+    "ExtraInfo": "ad",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "May Donnelly"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Glover Inc and Sons",
-    "ToolTip": "Corporis accusantium aut ut laudantium.",
-    "Deleted": true,
-    "Rank": 710,
-    "Type": "qui",
-    "ColorBlock": 69,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "1997-08-25T09:41:00.4803815+02:00",
+    "Id": 13,
+    "Name": "Robel Group",
+    "ToolTip": "Accusantium quo rerum omnis debitis.",
+    "Deleted": false,
+    "Rank": 523,
+    "Type": "non",
+    "ColorBlock": 580,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2001-02-15T15:05:43.5440795+01:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Glover-Conn",
-        "ToolTip": "Quod voluptatum cum repudiandae et.",
+        "Id": 502,
+        "Name": "Purdy, McDermott and Mueller",
+        "ToolTip": "Ut laboriosam natus numquam.",
         "Deleted": true,
-        "Rank": 586,
-        "Type": "beatae",
-        "ColorBlock": 990,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2019-01-21T09:41:00.4803815+01:00",
+        "Rank": 928,
+        "Type": "omnis",
+        "ColorBlock": 214,
+        "IconHint": "totam",
+        "Selected": true,
+        "LastChanged": "2002-05-29T15:05:43.5440795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Rodolfo King",
+        "FullName": "Giuseppe Kulas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "empower turn-key markets"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldType": "System.String",
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "totam",
+    "ExtraInfo": "et",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Tamara Paucek",
+    "FullName": "Evie Pfannerstill",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "whiteboard next-generation metrics"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 971
       }
     }
   }

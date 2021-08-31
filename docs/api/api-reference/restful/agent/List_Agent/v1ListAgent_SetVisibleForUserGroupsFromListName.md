@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SetVisibleForUserGroupsFromListName
+title: SetVisibleForUserGroupsFromListName
 id: v1ListAgent_SetVisibleForUserGroupsFromListName
 ---
 
-# POST Agents/List/SetVisibleForUserGroupsFromListName
+# SetVisibleForUserGroupsFromListName
 
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gleichner-Williamson",
-  "ListItemId": 107,
+  "UdListDefinitionName": "Hand-Greenfelder",
+  "ListItemId": 87,
   "UserGroups": [
     {
-      "Id": 538,
-      "Name": "Kilback, Schoen and Bartoletti",
-      "ToolTip": "Dolor voluptatum.",
-      "Deleted": false,
-      "Rank": 206,
-      "Type": "molestiae",
-      "ColorBlock": 303,
-      "IconHint": "animi",
-      "Selected": true,
-      "LastChanged": "2018-11-29T16:48:29.8269283+01:00",
+      "Id": 272,
+      "Name": "Smith Inc and Sons",
+      "ToolTip": "Qui quia rem ratione sit autem.",
+      "Deleted": true,
+      "Rank": 651,
+      "Type": "ipsum",
+      "ColorBlock": 500,
+      "IconHint": "quasi",
+      "Selected": false,
+      "LastChanged": "2010-04-01T14:58:04.4164652+02:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "repellat",
-      "StyleHint": "cupiditate",
+      "StyleHint": "vitae",
       "Hidden": false,
-      "FullName": "Giovanny White"
+      "FullName": "Dennis Altenwerth"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Smitham-Ritchie",
-    "ToolTip": "Esse officiis.",
-    "Deleted": true,
-    "Rank": 85,
-    "Type": "qui",
-    "ColorBlock": 336,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2005-02-28T16:48:29.8279289+01:00",
+    "Id": 359,
+    "Name": "Purdy, Wehner and Wiza",
+    "ToolTip": "Maiores animi tempora itaque nisi ut quasi.",
+    "Deleted": false,
+    "Rank": 158,
+    "Type": "dolorem",
+    "ColorBlock": 34,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2003-05-06T14:58:04.4174655+02:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Bogan-Berge",
-        "ToolTip": "Vel quibusdam et corrupti.",
-        "Deleted": false,
-        "Rank": 797,
-        "Type": "aut",
-        "ColorBlock": 228,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2009-06-05T16:48:29.8279289+02:00",
+        "Id": 448,
+        "Name": "Welch Group",
+        "ToolTip": "Qui dolore.",
+        "Deleted": true,
+        "Rank": 211,
+        "Type": "eveniet",
+        "ColorBlock": 737,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2007-09-26T14:58:04.4174655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Mrs. Maegan Cartwright",
+        "ExtraInfo": "sed",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Charlie Weimann DVM",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -163,16 +163,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ut",
+    "ExtraInfo": "provident",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Genesis Kertzmann",
+    "FullName": "Keenan Ziemann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

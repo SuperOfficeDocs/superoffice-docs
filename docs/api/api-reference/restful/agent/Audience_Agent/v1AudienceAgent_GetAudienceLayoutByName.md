@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetAudienceLayoutByName
+title: GetAudienceLayoutByName
 id: v1AudienceAgent_GetAudienceLayoutByName
 ---
 
-# POST Agents/Audience/GetAudienceLayoutByName
+# GetAudienceLayoutByName
 
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Russel-Howe"
+  "LayoutName": "Witting Inc and Sons"
 }
 ```
 
@@ -97,24 +97,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 786,
-  "InstanceLayout": "quae",
-  "InstanceName": "Tremblay, Hoppe and Boyer",
-  "CreatedDate": "2018-02-11T16:48:28.7721985+01:00",
-  "UpdatedDate": "1995-02-11T16:48:28.7721985+01:00",
+  "AudienceLayoutId": 855,
+  "InstanceLayout": "exercitationem",
+  "InstanceName": "Sporer, Pagac and Hessel",
+  "CreatedDate": "2014-12-16T14:58:03.2632413+01:00",
+  "UpdatedDate": "1998-02-03T14:58:03.2632413+01:00",
   "CreatedBy": {
-    "AssociateId": 108,
-    "Name": "Schaden Group",
-    "PersonId": 514,
-    "Rank": 416,
-    "Tooltip": "quaerat",
+    "AssociateId": 877,
+    "Name": "Robel Group",
+    "PersonId": 290,
+    "Rank": 704,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 77,
-    "FullName": "Geo Bashirian",
-    "FormalName": "Witting-Harber",
-    "Deleted": true,
-    "EjUserId": 123,
-    "UserName": "Brakus, Torp and Swift",
+    "GroupIdx": 895,
+    "FullName": "Shaina Maggio",
+    "FormalName": "Frami-Effertz",
+    "Deleted": false,
+    "EjUserId": 820,
+    "UserName": "Jacobs LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,23 +123,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 853
+        "FieldLength": 295
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 831,
-    "Name": "Lockman Group",
-    "PersonId": 872,
-    "Rank": 330,
-    "Tooltip": "qui",
+    "AssociateId": 548,
+    "Name": "Harris, Daniel and Ledner",
+    "PersonId": 667,
+    "Rank": 249,
+    "Tooltip": "eligendi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 464,
-    "FullName": "Leilani Kirlin I",
-    "FormalName": "Wisozk-Crist",
-    "Deleted": false,
-    "EjUserId": 227,
-    "UserName": "Rogahn, Wyman and Blanda",
+    "GroupIdx": 999,
+    "FullName": "Geoffrey Feil",
+    "FormalName": "Bins-McKenzie",
+    "Deleted": true,
+    "EjUserId": 341,
+    "UserName": "Corkery Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   },
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

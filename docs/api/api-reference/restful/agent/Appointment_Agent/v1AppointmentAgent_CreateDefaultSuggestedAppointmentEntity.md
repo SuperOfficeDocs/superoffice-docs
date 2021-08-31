@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
+title: CreateDefaultSuggestedAppointmentEntity
 id: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
 ---
 
-# POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
+# CreateDefaultSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
@@ -76,46 +76,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 78,
-  "Name": "Gusikowski, Murphy and Collins",
-  "Tooltip": "reiciendis",
-  "Rank": 181,
-  "Deleted": true,
-  "DaysFuture": 951,
-  "Duration": "maxime",
-  "AutoSuggest": false,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 124,
+  "Name": "Goldner-Torphy",
+  "Tooltip": "beatae",
+  "Rank": 32,
+  "Deleted": false,
+  "DaysFuture": 531,
+  "Duration": "porro",
+  "AutoSuggest": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "voluptates",
+  "Text": "et",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 480,
-    "ProjTypeId": 918,
-    "ProjTypeName": "Dicki-Gleichner",
-    "ProjTypeTooltip": "quis",
-    "ProjStatusId": 965,
-    "ProjStatusName": "Gleason, Yost and Prosacco",
-    "ProjStatusTooltip": "qui",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 93
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 295,
-    "SaleTypeId": 951,
-    "SaleTypeName": "Huels, Ebert and Huel",
-    "SaleTypeTooltip": "laborum",
-    "ProbId": 830,
-    "ProbName": "Herzog-Gaylord",
-    "ProbTooltip": "odio",
-    "Probability": 189,
+    "ProjectTypeStatusLinkId": 455,
+    "ProjTypeId": 303,
+    "ProjTypeName": "Towne Inc and Sons",
+    "ProjTypeTooltip": "ducimus",
+    "ProjStatusId": 377,
+    "ProjStatusName": "Hettinger-Kautzer",
+    "ProjStatusTooltip": "ea",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,23 +103,44 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 516
       }
     }
   },
-  "Type": {
-    "Id": 963,
-    "Value": "qui",
-    "Tooltip": "libero",
+  "SaleTypeStageLink": {
+    "SaleTypeStageLinkId": 154,
+    "SaleTypeId": 743,
+    "SaleTypeName": "Farrell-Jacobs",
+    "SaleTypeTooltip": "et",
+    "ProbId": 490,
+    "ProbName": "Okuneva Group",
+    "ProbTooltip": "nesciunt",
+    "Probability": 890,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "recontextualize web-enabled convergence"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 319
+      }
+    }
+  },
+  "Type": {
+    "Id": 321,
+    "Value": "nobis",
+    "Tooltip": "inventore",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 854
       }
     }
   },
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

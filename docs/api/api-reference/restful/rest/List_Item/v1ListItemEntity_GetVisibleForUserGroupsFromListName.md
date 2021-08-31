@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,36 +82,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Klein Inc and Sons",
-    "ToolTip": "Voluptas itaque vitae nam.",
+    "Id": 249,
+    "Name": "Moore, Stroman and Anderson",
+    "ToolTip": "A placeat.",
     "Deleted": true,
-    "Rank": 372,
-    "Type": "qui",
-    "ColorBlock": 588,
-    "IconHint": "accusantium",
+    "Rank": 633,
+    "Type": "nulla",
+    "ColorBlock": 908,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "1999-05-16T09:41:00.1333613+02:00",
+    "LastChanged": "2006-01-06T15:05:43.2138996+01:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Lockman-Lang",
-        "ToolTip": "Enim repellendus doloribus at sint.",
-        "Deleted": false,
-        "Rank": 556,
-        "Type": "vel",
-        "ColorBlock": 323,
-        "IconHint": "at",
+        "Id": 759,
+        "Name": "Pouros Group",
+        "ToolTip": "Tempore nam harum qui molestiae.",
+        "Deleted": true,
+        "Rank": 262,
+        "Type": "excepturi",
+        "ColorBlock": 577,
+        "IconHint": "officia",
         "Selected": true,
-        "LastChanged": "2005-06-17T09:41:00.1333613+02:00",
+        "LastChanged": "2003-02-22T15:05:43.2138996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "modi",
+        "ExtraInfo": "quos",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Mr. Timothy Kertzmann",
+        "FullName": "Ada Rath",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,16 +119,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 962
+            "FieldType": "System.String",
+            "FieldLength": 588
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Leo Conroy",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Makenzie Rath",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 573
       }
     }
   }

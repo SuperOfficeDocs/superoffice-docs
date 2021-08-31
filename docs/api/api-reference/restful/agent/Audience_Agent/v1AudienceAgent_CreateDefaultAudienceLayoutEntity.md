@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/CreateDefaultAudienceLayoutEntity
+title: CreateDefaultAudienceLayoutEntity
 id: v1AudienceAgent_CreateDefaultAudienceLayoutEntity
 ---
 
-# POST Agents/Audience/CreateDefaultAudienceLayoutEntity
+# CreateDefaultAudienceLayoutEntity
 
 ```http
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
@@ -73,49 +73,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 849,
-  "InstanceLayout": "voluptates",
-  "InstanceName": "Raynor LLC",
-  "CreatedDate": "2016-10-08T16:48:28.7611986+02:00",
-  "UpdatedDate": "2019-12-30T16:48:28.7611986+01:00",
+  "AudienceLayoutId": 388,
+  "InstanceLayout": "accusantium",
+  "InstanceName": "Gerhold, Mueller and Cummings",
+  "CreatedDate": "2001-10-12T14:58:03.2522354+02:00",
+  "UpdatedDate": "2004-10-30T14:58:03.2522354+02:00",
   "CreatedBy": {
-    "AssociateId": 123,
-    "Name": "Ondricka-Abbott",
-    "PersonId": 909,
-    "Rank": 403,
-    "Tooltip": "cumque",
+    "AssociateId": 1001,
+    "Name": "Huels Inc and Sons",
+    "PersonId": 374,
+    "Rank": 571,
+    "Tooltip": "consequatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 862,
-    "FullName": "Enrico Bradtke",
-    "FormalName": "Zieme-Wolf",
+    "GroupIdx": 455,
+    "FullName": "Lenna Funk",
+    "FormalName": "Hyatt-Dickinson",
     "Deleted": false,
-    "EjUserId": 8,
-    "UserName": "Altenwerth-Mayert",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "leverage B2B relationships"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 694
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 760,
-    "Name": "Littel LLC",
-    "PersonId": 455,
-    "Rank": 55,
-    "Tooltip": "reprehenderit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 885,
-    "FullName": "Antonette Ryan",
-    "FormalName": "Franecki Group",
-    "Deleted": true,
-    "EjUserId": 292,
-    "UserName": "Goodwin, Kuhlman and Wehner",
+    "EjUserId": 302,
+    "UserName": "Ullrich, Schimmel and Skiles",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,7 +99,32 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 155
+        "FieldLength": 964
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 216,
+    "Name": "Harber-Rowe",
+    "PersonId": 405,
+    "Rank": 129,
+    "Tooltip": "rerum",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 890,
+    "FullName": "Amber Klocko",
+    "FormalName": "Connelly, Kuhic and Lebsack",
+    "Deleted": true,
+    "EjUserId": 426,
+    "UserName": "Cole, Collier and Murphy",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   },
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldLength": 566
     }
   }
 }

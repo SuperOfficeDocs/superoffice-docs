@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=quod
+GET /api/v1/MDOList/{listname}/selectable?additional=ab
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Ritchie, Hirthe and Abernathy",
-    "ToolTip": "Libero facilis eos vero illo eos.",
+    "Id": 847,
+    "Name": "Reilly-Pouros",
+    "ToolTip": "Accusantium rem et tenetur.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "et",
-    "ColorBlock": 531,
-    "IconHint": "veritatis",
+    "Rank": 633,
+    "Type": "ea",
+    "ColorBlock": 387,
+    "IconHint": "distinctio",
     "Selected": true,
-    "LastChanged": "2009-11-17T09:41:00.4543815+01:00",
+    "LastChanged": "2014-11-23T15:05:43.5180799+01:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "O'Keefe-Halvorson",
-        "ToolTip": "Autem atque velit.",
+        "Id": 492,
+        "Name": "Johnston, Dickinson and Rempel",
+        "ToolTip": "Eaque et quis.",
         "Deleted": false,
-        "Rank": 901,
-        "Type": "numquam",
-        "ColorBlock": 529,
-        "IconHint": "cupiditate",
-        "Selected": true,
-        "LastChanged": "2017-08-19T09:41:00.4543815+02:00",
+        "Rank": 572,
+        "Type": "fugit",
+        "ColorBlock": 544,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "1997-08-08T15:05:43.5180799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "molestias",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Milford Beahan DDS",
+        "FullName": "Dillan Bergnaum I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,16 +130,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldType": "System.String",
+            "FieldLength": 815
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "qui",
+    "StyleHint": "nisi",
     "Hidden": true,
-    "FullName": "Arthur Beier",
+    "FullName": "Mackenzie Volkman",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -150,8 +150,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

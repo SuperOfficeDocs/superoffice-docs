@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SaveActorTypeMapping
+title: SaveActorTypeMapping
 id: v1ErpSyncAgent_SaveActorTypeMapping
 ---
 
-# POST Agents/ErpSync/SaveActorTypeMapping
+# SaveActorTypeMapping
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mapping": {
-    "ErpConnectionId": 718,
-    "IsActive": true,
+    "ErpConnectionId": 296,
+    "IsActive": false,
     "FieldMappings": [
       {},
       {}
@@ -106,27 +106,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 249,
+  "ErpConnectionId": 664,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 732,
-      "CrmFieldKey": "cum",
-      "CrmDisplayName": "Ullrich Inc and Sons",
-      "CrmDisplayTooltip": "eum",
-      "ErpFieldKey": "est",
+      "ErpFieldId": 993,
+      "CrmFieldKey": "vel",
+      "CrmDisplayName": "Ziemann, McClure and Carroll",
+      "CrmDisplayTooltip": "animi",
+      "ErpFieldKey": "consequatur",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Fisher LLC",
-      "ErpDisplayTooltip": "eos",
+      "ErpDisplayName": "Spencer-Wolff",
+      "ErpDisplayTooltip": "minima",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": true,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "neque",
+      "ListReference": "inventore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 291
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   }
 }

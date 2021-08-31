@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetLinkList
+title: GetLinkList
 id: v1ListAgent_GetLinkList
 ---
 
-# POST Agents/List/GetLinkList
+# GetLinkList
 
 ```http
 POST /api/v1/Agents/List/GetLinkList
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Russel-Lowe",
-    "Id": 809,
-    "Description": "Organized assymetric benchmark",
+    "EntityName": "Orn-Lakin",
+    "Id": 727,
+    "Description": "Expanded next generation help-desk",
     "ExtraInfo": "ut",
-    "LinkId": 356,
+    "LinkId": 543,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

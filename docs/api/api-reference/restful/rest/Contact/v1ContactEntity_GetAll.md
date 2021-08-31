@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=aut
-GET /api/v1/Contact?$top=873
-GET /api/v1/Contact?$skip=832
+GET /api/v1/Contact?$entities=quis
+GET /api/v1/Contact?$top=411
+GET /api/v1/Contact?$skip=773
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=repellat
+GET /api/v1/Contact?$context=aliquam
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
@@ -116,7 +116,7 @@ Response body: object
 GET /api/v1/Contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "facere",
+  "odata.nextLink": "consequuntur",
   "value": [
     {
-      "PrimaryKey": 9312,
-      "EntityName": "sale",
-      "saleId": 9312,
-      "contactId": 282,
-      "name": "Wyman Inc and Sons"
+      "PrimaryKey": 6801,
+      "EntityName": "person",
+      "personId": 6801,
+      "fullName": "Leanna Harvey"
     },
     {
-      "PrimaryKey": 9860,
-      "EntityName": "sale",
-      "saleId": 9860,
-      "contactId": 1427,
-      "name": "Volkman-Wisoky"
+      "PrimaryKey": 5353,
+      "EntityName": "person",
+      "personId": 5353,
+      "fullName": "Dr. Roy Price"
     }
   ]
 }

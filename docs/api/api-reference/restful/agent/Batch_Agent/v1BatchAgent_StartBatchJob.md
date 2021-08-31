@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Batch/StartBatchJob
+title: StartBatchJob
 id: v1BatchAgent_StartBatchJob
 ---
 
-# POST Agents/Batch/StartBatchJob
+# StartBatchJob
 
 ```http
 POST /api/v1/Agents/Batch/StartBatchJob
@@ -68,34 +68,35 @@ Response body: int32
 POST /api/v1/Agents/Batch/StartBatchJob
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskInfo": {
-    "Id": 97,
-    "Name": "Stracke-Daugherty",
-    "AssociateId": 357,
-    "DetailsTable": 676,
-    "DetailsRecord": 147,
+    "Id": 346,
+    "Name": "Vandervort-Kassulke",
+    "AssociateId": 295,
+    "DetailsTable": 40,
+    "DetailsRecord": 475,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "consequuntur",
-      "ParameterObject2": "sit"
+      "ParameterObject1": "non",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2010-03-13T16:48:28.7791986+01:00",
-    "Created": "2002-07-02T16:48:28.7791986+02:00",
-    "StartCount": 407,
-    "DatabaseSerialNumber": "643870",
-    "Context": "libero",
-    "Result": "quisquam",
+    "LastStarted": "2012-05-24T14:58:03.270242+02:00",
+    "Created": "1994-05-25T14:58:03.270242+02:00",
+    "StartCount": 203,
+    "DatabaseSerialNumber": "628365",
+    "Context": "et",
+    "Result": "aut",
     "State": "All",
-    "Description": "Diverse high-level application",
-    "Response": "vitae",
-    "Request": "aut",
-    "ProgressDescription": "Public-key dedicated pricing structure",
-    "ProgressPercent": 590
+    "Description": "Reduced coherent parallelism",
+    "Response": "et",
+    "Request": "eaque",
+    "ProgressDescription": "Centralized coherent toolset",
+    "ProgressPercent": 461,
+    "FileName": "Reilly Group"
   }
 }
 ```
@@ -104,5 +105,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-563
+566
 ```

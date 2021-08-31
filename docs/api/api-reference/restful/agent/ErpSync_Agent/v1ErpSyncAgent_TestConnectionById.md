@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/TestConnectionById
+title: TestConnectionById
 id: v1ErpSyncAgent_TestConnectionById
 ---
 
-# POST Agents/ErpSync/TestConnectionById
+# TestConnectionById
 
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectionById
@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 205
+  "ErpConnectionId": 974
 }
 ```
 

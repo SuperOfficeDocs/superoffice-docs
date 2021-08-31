@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 649,
-    "Name": "Ledner, Barrows and Nicolas",
-    "Tooltip": "dolore",
+    "HeadingId": 60,
+    "Name": "Rutherford, Erdman and Goodwin",
+    "Tooltip": "fugiat",
     "Deleted": true,
-    "Rank": 937,
-    "UdListDefinitionId": 663,
+    "Rank": 59,
+    "UdListDefinitionId": 135,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

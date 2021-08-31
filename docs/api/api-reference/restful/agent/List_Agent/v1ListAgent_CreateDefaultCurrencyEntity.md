@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultCurrencyEntity
+title: CreateDefaultCurrencyEntity
 id: v1ListAgent_CreateDefaultCurrencyEntity
 ---
 
-# POST Agents/List/CreateDefaultCurrencyEntity
+# CreateDefaultCurrencyEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -69,16 +69,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 706,
-  "Name": "Robel-Lynch",
-  "Tooltip": "culpa",
-  "Rank": 888,
-  "Rate": 16920.466,
-  "Units": 8358.378,
+  "CurrencyId": 906,
+  "Name": "Kessler-Schaden",
+  "Tooltip": "quis",
+  "Rank": 859,
+  "Rate": 4487.888,
+  "Units": 26538.712,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "evolve value-added e-services"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 313
     }
   }
 }

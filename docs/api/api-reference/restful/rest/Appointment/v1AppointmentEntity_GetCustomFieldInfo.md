@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Ondricka Group",
-  "DisplayName": "Kerluke, Collins and Langworth",
-  "Description": "User-centric incremental concept",
-  "ShortLabel": "autem",
-  "HideLabel": false,
+  "FieldName": "Lemke, Daniel and Funk",
+  "DisplayName": "Yost Inc and Sons",
+  "Description": "Integrated high-level framework",
+  "ShortLabel": "iusto",
+  "HideLabel": true,
   "HideField": true,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 557,
-  "TemplateVariableName": "Hoeger Group"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 159,
+  "TemplateVariableName": "Morar, Stehr and Cartwright"
 }
 ```

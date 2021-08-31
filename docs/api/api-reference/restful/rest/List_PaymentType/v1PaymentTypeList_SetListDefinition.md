@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Flatley, Conn and Grady",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 706,
+  "Id": 843,
+  "Name": "Bernhard, Willms and Lynch",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 890,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Herzog-Thiel",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 104,
+  "Id": 410,
+  "Name": "Kreiger, Parker and Nolan",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 735,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "beatae",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "visualize distributed networks"
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   }
 }

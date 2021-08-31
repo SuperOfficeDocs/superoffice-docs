@@ -77,32 +77,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Dec 1998 09:40:59 G12T
+Last-Modified: Wed, 04 Jun 2008 15:05:43 G6T
 
 {
-  "BlobId": 979,
-  "BlobSize": 327,
-  "Description": "Multi-channelled national local area network",
-  "ExtraInfo": "ea",
+  "BlobId": 772,
+  "BlobSize": 798,
+  "Description": "Re-contextualized 6th generation website",
+  "ExtraInfo": "itaque",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "molestiae",
-  "OriginalSize": 883,
-  "CreatedDate": "2012-06-27T09:40:59.9660647+02:00",
-  "UpdatedDate": "1998-12-21T09:40:59.9660647+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 467,
+  "CreatedDate": "2019-12-21T15:05:43.0456665+01:00",
+  "UpdatedDate": "2008-06-04T15:05:43.0456665+02:00",
   "CreatedBy": {
-    "AssociateId": 812,
-    "Name": "Koch Inc and Sons",
-    "PersonId": 887,
-    "Rank": 702,
-    "Tooltip": "reiciendis",
+    "AssociateId": 811,
+    "Name": "Bauch-Walker",
+    "PersonId": 165,
+    "Rank": 123,
+    "Tooltip": "accusantium",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 673,
-    "FullName": "Mr. Domenica Veum",
-    "FormalName": "Jast, Nikolaus and Gutmann",
+    "GroupIdx": 34,
+    "FullName": "Royal Ondricka",
+    "FormalName": "Fahey LLC",
     "Deleted": false,
-    "EjUserId": 845,
-    "UserName": "Fahey-Kuhlman",
+    "EjUserId": 367,
+    "UserName": "Douglas Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -111,36 +111,36 @@ Last-Modified: Mon, 21 Dec 1998 09:40:59 G12T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 182
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 504,
-    "Name": "Stokes-Langosh",
-    "PersonId": 568,
-    "Rank": 282,
-    "Tooltip": "impedit",
+    "AssociateId": 436,
+    "Name": "Leffler-Blick",
+    "PersonId": 267,
+    "Rank": 245,
+    "Tooltip": "facilis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 844,
-    "FullName": "Reva Klocko",
-    "FormalName": "Zulauf LLC",
+    "GroupIdx": 748,
+    "FullName": "Natalia Larkin IV",
+    "FormalName": "Bahringer, Roberts and Schuppe",
     "Deleted": false,
-    "EjUserId": 588,
-    "UserName": "Fritsch-Kuhlman",
+    "EjUserId": 458,
+    "UserName": "Kautzer Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "engineer one-to-one portals"
         },
         "FieldType": "System.String",
-        "FieldLength": 620
+        "FieldLength": 498
       }
     }
   },
-  "ConceptualType": "voluptatum",
+  "ConceptualType": "id",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,7 +152,7 @@ Last-Modified: Mon, 21 Dec 1998 09:40:59 G12T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldLength": 951
     }
   }
 }

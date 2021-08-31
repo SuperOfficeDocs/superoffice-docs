@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveListItemEntity
+title: SaveListItemEntity
 id: v1ListAgent_SaveListItemEntity
 ---
 
-# POST Agents/List/SaveListItemEntity
+# SaveListItemEntity
 
 ```http
 POST /api/v1/Agents/List/SaveListItemEntity
@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ListItemEntity": {
-    "Id": 711,
-    "Name": "Casper LLC",
-    "Tooltip": "omnis",
+    "Id": 144,
+    "Name": "Wuckert, Leuschke and McKenzie",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "UdListDefinitionId": 304,
-    "Rank": 891
+    "UdListDefinitionId": 107,
+    "Rank": 912
   }
 }
 ```
@@ -103,12 +103,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Grant-Kuhic",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "UdListDefinitionId": 787,
-  "Rank": 329,
+  "Id": 623,
+  "Name": "O'Reilly-Hoppe",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "UdListDefinitionId": 555,
+  "Rank": 584,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,10 +117,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "envisioneer proactive solutions"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

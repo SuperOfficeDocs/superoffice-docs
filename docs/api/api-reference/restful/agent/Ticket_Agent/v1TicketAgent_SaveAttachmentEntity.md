@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Ticket/SaveAttachmentEntity
+title: SaveAttachmentEntity
 id: v1TicketAgent_SaveAttachmentEntity
 ---
 
-# POST Agents/Ticket/SaveAttachmentEntity
+# SaveAttachmentEntity
 
 ```http
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
@@ -42,6 +42,8 @@ The AttachmentEntity to be saved.
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 
 
 ## Response: object
@@ -65,6 +67,8 @@ Response body: object
 | Name | string | The filename for the attachment. |
 | ContentType | string | The content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). |
 | AttSize | int32 | The size (in bytes) for the attachment. |
+| InlineImage | bool | True if this attachment is inlined in the html_body. |
+| ContentId | string | The content_id of this attachment, used for inline images |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,14 +78,16 @@ Response body: object
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 855,
-  "Name": "Schamberger LLC",
-  "ContentType": "ex",
-  "AttSize": 428
+  "AttachmentId": 659,
+  "Name": "Rippin Group",
+  "ContentType": "quo",
+  "AttSize": 450,
+  "InlineImage": true,
+  "ContentId": "officiis"
 }
 ```
 
@@ -90,10 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 521,
-  "Name": "Parisian Group",
-  "ContentType": "omnis",
-  "AttSize": 816,
+  "AttachmentId": 535,
+  "Name": "Bauch-Schaden",
+  "ContentType": "voluptatem",
+  "AttSize": 187,
+  "InlineImage": true,
+  "ContentId": "tempore",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -104,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveRelationDefinitionEntity
+title: SaveRelationDefinitionEntity
 id: v1ListAgent_SaveRelationDefinitionEntity
 ---
 
-# POST Agents/List/SaveRelationDefinitionEntity
+# SaveRelationDefinitionEntity
 
 ```http
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
@@ -82,16 +82,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 175,
-  "Name": "Trantow-Bogan",
-  "Tooltip": "sapiente",
-  "PassiveText": "modi",
-  "Deleted": false,
-  "Rank": 757,
+  "ReldefId": 25,
+  "Name": "Brakus-Bode",
+  "Tooltip": "dolores",
+  "PassiveText": "quae",
+  "Deleted": true,
+  "Rank": 3,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -102,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 271,
-  "Name": "Pouros-Kihn",
-  "Tooltip": "fugiat",
-  "PassiveText": "molestiae",
+  "ReldefId": 439,
+  "Name": "Fritsch, Hayes and Hilpert",
+  "Tooltip": "sit",
+  "PassiveText": "eligendi",
   "Deleted": false,
-  "Rank": 473,
+  "Rank": 353,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

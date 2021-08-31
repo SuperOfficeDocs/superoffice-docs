@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=dolorum
-GET /api/v1/Ticket?$top=25
-GET /api/v1/Ticket?$skip=464
+GET /api/v1/Ticket?$entities=voluptatem
+GET /api/v1/Ticket?$top=37
+GET /api/v1/Ticket?$skip=459
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=recusandae
+GET /api/v1/Ticket?$context=quam
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -125,21 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolore",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 7716,
-      "EntityName": "sale",
-      "saleId": 7716,
-      "contactId": 8989,
-      "name": "Abshire LLC"
+      "PrimaryKey": 1930,
+      "EntityName": "person",
+      "personId": 1930,
+      "fullName": "Myra Rohan I"
     },
     {
-      "PrimaryKey": 2547,
-      "EntityName": "sale",
-      "saleId": 2547,
-      "contactId": 1232,
-      "name": "Hayes-Heaney"
+      "PrimaryKey": 9542,
+      "EntityName": "person",
+      "personId": 9542,
+      "fullName": "Golden Doyle"
     }
   ]
 }

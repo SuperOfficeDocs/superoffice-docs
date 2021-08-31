@@ -36,12 +36,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=quasi
-GET /api/v1/TimeZone?$top=946
-GET /api/v1/TimeZone?$skip=733
+GET /api/v1/TimeZone?$entities=eligendi
+GET /api/v1/TimeZone?$top=601
+GET /api/v1/TimeZone?$skip=130
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=ratione
+GET /api/v1/TimeZone?$context=qui
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -82,7 +82,7 @@ Response body: object
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,21 +91,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sint",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 4904,
-      "EntityName": "sale",
-      "saleId": 4904,
-      "contactId": 4725,
-      "name": "Jenkins, Jenkins and Roob"
+      "PrimaryKey": 2337,
+      "EntityName": "person",
+      "personId": 2337,
+      "fullName": "Janie Langosh Jr."
     },
     {
-      "PrimaryKey": 345,
-      "EntityName": "sale",
-      "saleId": 345,
-      "contactId": 4833,
-      "name": "Boyer, Hills and Kessler"
+      "PrimaryKey": 5050,
+      "EntityName": "person",
+      "personId": 5050,
+      "fullName": "Doug Bogisich"
     }
   ]
 }

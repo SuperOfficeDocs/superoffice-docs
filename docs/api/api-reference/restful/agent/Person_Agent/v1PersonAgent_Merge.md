@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Person/Merge
+title: Merge
 id: v1PersonAgent_Merge
 ---
 
-# POST Agents/Person/Merge
+# Merge
 
 ```http
 POST /api/v1/Agents/Person/Merge

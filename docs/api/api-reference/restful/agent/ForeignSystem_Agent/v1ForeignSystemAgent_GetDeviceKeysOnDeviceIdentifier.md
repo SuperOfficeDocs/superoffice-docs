@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
+title: GetDeviceKeysOnDeviceIdentifier
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
 ---
 
-# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
+# GetDeviceKeysOnDeviceIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -82,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Beier, McClure and Morar",
-  "DeviceName": "Kerluke, Waelchi and Gleichner",
-  "DeviceIdentifier": "fuga"
+  "ApplicationName": "Jewess Inc and Sons",
+  "DeviceName": "Kutch Inc and Sons",
+  "DeviceIdentifier": "itaque"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "repudiandae",
-    "Value": "qui",
-    "RecordId": 620,
-    "CreatedDate": "2015-05-23T16:48:29.7209244+02:00",
-    "UpdatedDate": "2001-05-26T16:48:29.7209244+02:00",
-    "UpdatedBy": "adipisci",
-    "CreatedBy": "vel",
-    "TableName": "Pollich-Schimmel",
+    "Key": "illo",
+    "Value": "dolorem",
+    "RecordId": 929,
+    "CreatedDate": "2014-01-20T14:58:04.3144604+01:00",
+    "UpdatedDate": "2018-12-27T14:58:04.3144604+01:00",
+    "UpdatedBy": "sed",
+    "CreatedBy": "nostrum",
+    "TableName": "Smitham-Kutch",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

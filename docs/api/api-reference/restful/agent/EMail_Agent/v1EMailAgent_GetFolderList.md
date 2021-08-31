@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetFolderList
+title: GetFolderList
 id: v1EMailAgent_GetFolderList
 ---
 
-# POST Agents/EMail/GetFolderList
+# GetFolderList
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderList
@@ -72,18 +72,18 @@ Response body: array
 POST /api/v1/Agents/EMail/GetFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Boyer, Russel and Koss",
-    "UserName": "Pfannerstill LLC",
-    "Password": "et",
-    "Folder": "et",
+    "ServerName": "Leffler-Sauer",
+    "UserName": "Hoeger Inc and Sons",
+    "Password": "non",
+    "Folder": "sunt",
     "UseSSL": true
   },
-  "IncludeItemCount": true
+  "IncludeItemCount": false
 }
 ```
 
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "expedita",
-  "enim"
+  "id",
+  "vitae"
 ]
 ```

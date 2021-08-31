@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Crooks, Smitham and Hoppe",
-    "ToolTip": "Ut eius adipisci doloribus odio.",
-    "Deleted": false,
-    "Rank": 660,
-    "Type": "recusandae",
-    "ColorBlock": 941,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2015-07-15T09:41:00.3673844+02:00",
+    "Id": 446,
+    "Name": "Sipes-Blick",
+    "ToolTip": "Laborum qui illo adipisci aut.",
+    "Deleted": true,
+    "Rank": 30,
+    "Type": "et",
+    "ColorBlock": 215,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2020-11-12T15:05:43.4415096+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "VonRueden-Walsh",
-        "ToolTip": "Ullam in.",
+        "Id": 37,
+        "Name": "Friesen LLC",
+        "ToolTip": "Dolor sunt.",
         "Deleted": true,
-        "Rank": 254,
-        "Type": "architecto",
-        "ColorBlock": 275,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2017-02-27T09:41:00.3673844+01:00",
+        "Rank": 107,
+        "Type": "in",
+        "ColorBlock": 402,
+        "IconHint": "natus",
+        "Selected": false,
+        "LastChanged": "2002-04-10T15:05:43.4415096+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Kim Erdman"
+        "ExtraInfo": "porro",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Lamar Towne"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Harley Fisher"
+    "ExtraInfo": "distinctio",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Dr. Devin Bartell"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Metz LLC",
-    "ToolTip": "Magni animi dicta accusamus explicabo quidem.",
+    "Id": 12,
+    "Name": "Brown-Bogisich",
+    "ToolTip": "Ex culpa explicabo tenetur vel dolorum voluptas.",
     "Deleted": true,
-    "Rank": 576,
-    "Type": "optio",
-    "ColorBlock": 831,
-    "IconHint": "dolor",
+    "Rank": 206,
+    "Type": "est",
+    "ColorBlock": 240,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2003-02-06T09:41:00.3683859+01:00",
+    "LastChanged": "2002-04-01T15:05:43.4425101+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Kuhn LLC",
-        "ToolTip": "Iure omnis officia non.",
-        "Deleted": true,
-        "Rank": 887,
-        "Type": "excepturi",
-        "ColorBlock": 969,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "1993-12-17T09:41:00.3683859+01:00",
+        "Id": 123,
+        "Name": "Wolf-Kiehn",
+        "ToolTip": "A soluta alias voluptate illo veniam culpa.",
+        "Deleted": false,
+        "Rank": 462,
+        "Type": "harum",
+        "ColorBlock": 19,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2014-04-22T15:05:43.4425101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "eius",
+        "ExtraInfo": "maiores",
+        "StyleHint": "quaerat",
         "Hidden": true,
-        "FullName": "Mrs. Octavia Jacobi",
+        "FullName": "Kenyatta Walter",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldType": "System.String",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "nulla",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Alden Baumbach",
+    "FullName": "Gloria Treutel",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

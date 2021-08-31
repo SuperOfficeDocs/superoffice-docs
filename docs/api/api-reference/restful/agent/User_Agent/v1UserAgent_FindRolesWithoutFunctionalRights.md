@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/FindRolesWithoutFunctionalRights
+title: FindRolesWithoutFunctionalRights
 id: v1UserAgent_FindRolesWithoutFunctionalRights
 ---
 
-# POST Agents/User/FindRolesWithoutFunctionalRights
+# FindRolesWithoutFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
@@ -76,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Cole, Medhurst and Hirthe",
-    "Emard-Hoppe"
+    "Jacobs, Pouros and Kiehn",
+    "Reilly, Jakubowski and Balistreri"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  864,
-  161
+  74,
+  449
 ]
 ```

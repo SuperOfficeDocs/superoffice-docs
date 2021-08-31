@@ -24,7 +24,7 @@ Get a list of the lists - built-in and user-defined.
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List?includeDeleted=True
+GET /api/v1/List?includeDeleted=False
 ```
 
 
@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,15 +82,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Upton-Gerlach",
-    "Tooltip": "quae",
+    "Id": 647,
+    "Name": "Lubowitz LLC",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 631,
-    "IsCustomList": true,
+    "Rank": 214,
+    "IsCustomList": false,
     "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "veritatis",
+    "UseGroupsAndHeadings": false,
+    "ListType": "facere",
     "InUseByUserDefinedFields": false,
     "TableRight": {
       "Mask": "Delete",
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 545
       }
     }
   }

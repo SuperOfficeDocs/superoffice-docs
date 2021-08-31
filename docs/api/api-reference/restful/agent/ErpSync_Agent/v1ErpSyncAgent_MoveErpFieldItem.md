@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/MoveErpFieldItem
+title: MoveErpFieldItem
 id: v1ErpSyncAgent_MoveErpFieldItem
 ---
 
-# POST Agents/ErpSync/MoveErpFieldItem
+# MoveErpFieldItem
 
 ```http
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem

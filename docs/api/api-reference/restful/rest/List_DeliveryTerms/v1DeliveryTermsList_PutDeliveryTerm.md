@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Rippin Inc and Sons",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 419,
-  "Rank": 61
+  "Id": 600,
+  "Name": "Lebsack-D'Amore",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "UdListDefinitionId": 985,
+  "Rank": 17
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Kessler Inc and Sons",
-  "Tooltip": "et",
+  "Id": 175,
+  "Name": "Jacobson Inc and Sons",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 817,
-  "Rank": 231,
+  "UdListDefinitionId": 997,
+  "Rank": 219,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "transition best-of-breed platforms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 828
     }
   }
 }

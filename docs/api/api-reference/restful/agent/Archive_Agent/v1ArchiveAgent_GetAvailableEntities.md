@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetAvailableEntities
+title: GetAvailableEntities
 id: v1ArchiveAgent_GetAvailableEntities
 ---
 
-# POST Agents/Archive/GetAvailableEntities
+# GetAvailableEntities
 
 ```http
 POST /api/v1/Agents/Archive/GetAvailableEntities
@@ -14,32 +14,7 @@ Return list of all entities supported by an archive provider.
 See also GetArchiveConfiguration. 
 
 Archive Restriction strings are OData or SQL-ish.
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-## Binary operators
-* =, eq, equals
-* &lt;, lt, less
-* &lt;=, le
-* &gt;, gt
-* &gt;=, ge
-* ne, unequals
-* between
-* set
-* begins
-* contains
-* is
-* isNot
-* notContains
-* associateIsOneOf
-* associateIsNotOneOf
-* oneOf, in
-* notOneOf
-* before
-* date
-* after
-* dateBetween
-
-
+They are parsed and converted into ArchiveRestrictions.
 
 
 For example:
@@ -54,24 +29,8 @@ For example:
 "registered dateBetween ('2014.11.29', '2014.12.25')"
 
 ```
-## Unary operators
-* currentAssociate
-* beforeToday
-* today
-* afterToday
-* lastWeek
-* thisWeek
-* nextWeek
-* lastMonth
-* thisMonth
-* nextMonth
-* lastQuarter
-* nextQuarter
-* thisHalf
-* thisYear
 
-
-For example:
+Unary operators:
 
 ```
 "updatedDate lastWeek", "assocId currentAssociate"
@@ -96,34 +55,6 @@ Brackets can be used for grouping.
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
-
-
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
 
 
 Example: group last names together, and inject a header row for each group.
@@ -240,12 +171,12 @@ Response body: array
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Goyette, Mann and Kemmer",
-  "Context": "voluptas"
+  "ProviderName": "Windler, Hoppe and Olson",
+  "Context": "consequatur"
 }
 ```
 
@@ -255,29 +186,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Olson-White",
-    "ToolTip": "Accusantium accusantium reprehenderit.",
+    "Id": 300,
+    "Name": "Gleason, Raynor and Ferry",
+    "ToolTip": "Culpa vel et porro laboriosam excepturi.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "soluta",
+    "Rank": 627,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Fahey-Trantow",
-        "ToolTip": "Ut labore aliquam est velit enim.",
+        "Id": 182,
+        "Name": "Gibson-Paucek",
+        "ToolTip": "Ipsam in et ab et maiores et.",
         "Deleted": true,
-        "Rank": 480,
-        "Type": "perspiciatis",
+        "Rank": 110,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "explicabo",
-        "ColorBlock": 187,
-        "ExtraInfo": "ea",
-        "StyleHint": "omnis",
-        "FullName": "Alejandrin Thompson",
+        "IconHint": "autem",
+        "ColorBlock": 544,
+        "ExtraInfo": "velit",
+        "StyleHint": "vel",
+        "FullName": "Ms. Kristina Fahey",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -286,19 +217,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 267,
-    "ExtraInfo": "iusto",
-    "StyleHint": "corporis",
-    "FullName": "Davion Feest MD",
+    "IconHint": "in",
+    "ColorBlock": 595,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "eveniet",
+    "FullName": "Winona Hahn",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate visionary solutions"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -307,7 +238,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldLength": 546
       }
     }
   }

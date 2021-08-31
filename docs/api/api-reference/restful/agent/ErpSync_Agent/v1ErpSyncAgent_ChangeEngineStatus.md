@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/ChangeEngineStatus
+title: ChangeEngineStatus
 id: v1ErpSyncAgent_ChangeEngineStatus
 ---
 
-# POST Agents/ErpSync/ChangeEngineStatus
+# ChangeEngineStatus
 
 ```http
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": true
+  "Run": false
 }
 ```
 
@@ -95,9 +95,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "eaque",
-  "Interval": "aut",
+  "IsRunning": false,
+  "StatusMessage": "dignissimos",
+  "Interval": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 743
     }
   }
 }

@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Harber-Price",
-    "ToolTip": "Voluptate aut id.",
-    "Deleted": false,
-    "Rank": 190,
-    "Type": "temporibus",
-    "ColorBlock": 451,
-    "IconHint": "eum",
+    "Id": 983,
+    "Name": "Reinger-Hauck",
+    "ToolTip": "Voluptatem aut accusamus qui nesciunt.",
+    "Deleted": true,
+    "Rank": 745,
+    "Type": "et",
+    "ColorBlock": 433,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2007-05-18T09:41:00.8163866+02:00",
+    "LastChanged": "2018-07-23T15:05:43.8341172+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Prosacco, Dietrich and Hane",
-        "ToolTip": "Velit natus sint et aspernatur impedit consequatur.",
-        "Deleted": true,
-        "Rank": 463,
-        "Type": "quam",
-        "ColorBlock": 974,
-        "IconHint": "quis",
+        "Id": 150,
+        "Name": "Pollich, Borer and Stokes",
+        "ToolTip": "Numquam et asperiores.",
+        "Deleted": false,
+        "Rank": 911,
+        "Type": "quis",
+        "ColorBlock": 354,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2000-11-16T09:41:00.8163866+01:00",
+        "LastChanged": "2007-10-05T15:05:43.8351193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Darrick Halvorson",
+        "ExtraInfo": "vitae",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Elna Kerluke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldType": "System.String",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "id",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Teresa Connelly",
+    "FullName": "Efren Lehner",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

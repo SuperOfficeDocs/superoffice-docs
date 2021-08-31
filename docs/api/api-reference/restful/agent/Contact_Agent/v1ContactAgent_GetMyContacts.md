@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Contact/GetMyContacts
+title: GetMyContacts
 id: v1ContactAgent_GetMyContacts
 ---
 
-# POST Agents/Contact/GetMyContacts
+# GetMyContacts
 
 ```http
 POST /api/v1/Agents/Contact/GetMyContacts
@@ -85,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -94,35 +94,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 739,
-    "Name": "Torphy-Bernhard",
-    "OrgNr": "1963782",
+    "ContactId": 637,
+    "Name": "Nader, Jast and Steuber",
+    "OrgNr": "1103174",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quis",
-    "DirectPhone": "(472)665-5328",
-    "AssociateId": 253,
-    "CountryId": 143,
-    "EmailAddress": "araceli@quigleyleffler.info",
-    "Kananame": "officia",
-    "EmailAddressName": "odessa@bashirian.co.uk",
+    "City": "debitis",
+    "DirectPhone": "467-308-7564 x718",
+    "AssociateId": 348,
+    "CountryId": 606,
+    "EmailAddress": "julie@bauch.name",
+    "Kananame": "nihil",
+    "EmailAddressName": "aditya.yundt@dachjohns.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Laney Prosacco",
+    "AssociateFullName": "Destany Leffler",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {
-      "Wgs84Latitude": 1896.07,
-      "Wgs84Longitude": 22298.41,
+      "Wgs84Latitude": 28068.104,
+      "Wgs84Longitude": 4509.826,
       "LocalizedAddress": [
         [
           {
-            "Name": "Cummerata-Schimmel",
-            "Value": "iste",
-            "Tooltip": "nihil",
-            "Label": "sed",
-            "ValueLength": 652,
-            "AddressType": "eos",
+            "Name": "Torp-Wiza",
+            "Value": "expedita",
+            "Tooltip": "eaque",
+            "Label": "nulla",
+            "ValueLength": 759,
+            "AddressType": "veritatis",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
                   "Reason": ""
                 },
                 "FieldType": "System.Int32",
-                "FieldLength": 274
+                "FieldLength": 188
               }
             }
           }
         ],
         [
           {
-            "Name": "Sipes-Crist",
-            "Value": "reiciendis",
-            "Tooltip": "quia",
-            "Label": "ut",
-            "ValueLength": 935,
-            "AddressType": "neque",
+            "Name": "Shields-Hauck",
+            "Value": "voluptas",
+            "Tooltip": "ut",
+            "Label": "esse",
+            "ValueLength": 269,
+            "AddressType": "beatae",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
                   "Mask": "FULL",
                   "Reason": ""
                 },
-                "FieldType": "System.Int32",
-                "FieldLength": 164
+                "FieldType": "System.String",
+                "FieldLength": 643
               }
             }
           }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       ],
       "Street": {},
       "Postal": {},
-      "Formatted": "quaerat",
+      "Formatted": "in",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,15 +174,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 785
         }
       }
     },
-    "FormattedAddress": "praesentium",
-    "FullName": "Reuben Hintz",
+    "FormattedAddress": "aliquam",
+    "FullName": "Tiara Fahey",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 461,
+    "ActiveErpLinks": 708,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 807
       }
     }
   }

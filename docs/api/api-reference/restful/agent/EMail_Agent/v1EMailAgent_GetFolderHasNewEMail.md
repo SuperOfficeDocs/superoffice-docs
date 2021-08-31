@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetFolderHasNewEMail
+title: GetFolderHasNewEMail
 id: v1EMailAgent_GetFolderHasNewEMail
 ---
 
-# POST Agents/EMail/GetFolderHasNewEMail
+# GetFolderHasNewEMail
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
@@ -70,15 +70,15 @@ Response body: bool
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Welch Group",
-    "UserName": "Gorczany-Ruecker",
-    "Password": "dolore",
-    "Folder": "quia",
+    "ServerName": "Pfeffer, Marquardt and Konopelski",
+    "UserName": "Greenholt-Boyle",
+    "Password": "quis",
+    "Folder": "id",
     "UseSSL": false
   }
 }

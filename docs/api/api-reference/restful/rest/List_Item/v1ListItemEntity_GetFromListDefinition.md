@@ -70,7 +70,7 @@ Response body: object
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,12 +78,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "sunt",
+  "Id": 91,
+  "Name": "Corwin-Brekke",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "UdListDefinitionId": 521,
-  "Rank": 786,
+  "UdListDefinitionId": 406,
+  "Rank": 455,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

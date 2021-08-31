@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/AddFromListName
+title: AddFromListName
 id: v1ListAgent_AddFromListName
 ---
 
-# POST Agents/List/AddFromListName
+# AddFromListName
 
 ```http
 POST /api/v1/Agents/List/AddFromListName
@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Robel-Dooley",
+  "UdListDefinitionName": "Lind-Padberg",
   "Item": {
-    "Id": 954,
-    "Name": "Conroy-Rodriguez",
-    "Tooltip": "vel",
+    "Id": 411,
+    "Name": "Kreiger, Ruecker and Franecki",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "UdListDefinitionId": 793,
-    "Rank": 129
+    "UdListDefinitionId": 41,
+    "Rank": 274
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Mohr-Reichel",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "UdListDefinitionId": 553,
-  "Rank": 498,
+  "Id": 749,
+  "Name": "Koelpin LLC",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "UdListDefinitionId": 878,
+  "Rank": 482,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

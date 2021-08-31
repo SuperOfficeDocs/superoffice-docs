@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?query=eum
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Koss, Moen and Reinger",
-    "ToolTip": "Expedita est atque autem asperiores vitae.",
+    "Id": 18,
+    "Name": "Jerde, Morar and Murazik",
+    "ToolTip": "Id dolorum voluptates.",
     "Deleted": false,
-    "Rank": 436,
-    "Type": "est",
+    "Rank": 751,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Harvey-Beahan",
-        "ToolTip": "Id illum.",
+        "Id": 283,
+        "Name": "O'Kon Inc and Sons",
+        "ToolTip": "Consequuntur nisi in sequi.",
         "Deleted": false,
-        "Rank": 505,
-        "Type": "rerum",
+        "Rank": 796,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 304,
-        "ExtraInfo": "velit",
-        "StyleHint": "est",
-        "FullName": "Allan Beer",
+        "IconHint": "voluptatem",
+        "ColorBlock": 562,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "officia",
+        "FullName": "Gayle Walsh",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldType": "System.String",
+            "FieldLength": 646
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 436,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "in",
-    "FullName": "Layne Barrows",
+    "IconHint": "ut",
+    "ColorBlock": 439,
+    "ExtraInfo": "ullam",
+    "StyleHint": "quia",
+    "FullName": "Miss Allan Schneider",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 405
       }
     }
   }

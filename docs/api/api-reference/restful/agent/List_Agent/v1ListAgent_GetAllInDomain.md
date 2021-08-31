@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetAllInDomain
+title: GetAllInDomain
 id: v1ListAgent_GetAllInDomain
 ---
 
-# POST Agents/List/GetAllInDomain
+# GetAllInDomain
 
 ```http
 POST /api/v1/Agents/List/GetAllInDomain
@@ -98,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 135,
+    "HierarchyId": 352,
     "Domain": "Dashboards",
-    "Name": "Hessel Group",
-    "Fullname": "at",
-    "ParentId": 952,
+    "Name": "Baumbach-Hammes",
+    "Fullname": "minus",
+    "ParentId": 962,
     "Children": [
       {
-        "HierarchyId": 613,
+        "HierarchyId": 581,
         "Domain": "Dashboards",
-        "Name": "Kautzer, Franecki and Crooks",
-        "Fullname": "deserunt",
-        "ParentId": 657,
+        "Name": "Cummerata Inc and Sons",
+        "Fullname": "sunt",
+        "ParentId": 767,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2006-12-11T16:48:29.8079311+01:00",
-        "RegisteredAssociateId": 927,
-        "Updated": "2016-09-18T16:48:29.8079311+02:00",
-        "UpdatedAssociateId": 525,
+        "Registered": "2005-01-22T14:58:04.4064652+01:00",
+        "RegisteredAssociateId": 817,
+        "Updated": "2011-06-26T14:58:04.4064652+02:00",
+        "UpdatedAssociateId": 145,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 926
+            "FieldLength": 893
           }
         }
       }
     ],
-    "Registered": "2012-10-24T16:48:29.8079311+02:00",
-    "RegisteredAssociateId": 660,
-    "Updated": "2016-10-04T16:48:29.8079311+02:00",
-    "UpdatedAssociateId": 733,
+    "Registered": "2008-03-02T14:58:04.4064652+01:00",
+    "RegisteredAssociateId": 326,
+    "Updated": "2008-12-15T14:58:04.4064652+01:00",
+    "UpdatedAssociateId": 911,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

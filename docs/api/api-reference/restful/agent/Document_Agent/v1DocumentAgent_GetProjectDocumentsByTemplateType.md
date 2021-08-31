@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectDocumentsByTemplateType
+title: GetProjectDocumentsByTemplateType
 id: v1DocumentAgent_GetProjectDocumentsByTemplateType
 ---
 
-# POST Agents/Document/GetProjectDocumentsByTemplateType
+# GetProjectDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 848,
-  "StartTime": "2006-05-13T16:48:29.3368936+02:00",
-  "EndTime": "2012-12-19T16:48:29.3368936+01:00",
-  "Count": 767,
-  "DocumentTemplateId": 500
+  "ProjectId": 528,
+  "StartTime": "2018-03-19T14:58:03.8244652+01:00",
+  "EndTime": "2019-07-04T14:58:03.8244652+02:00",
+  "Count": 442,
+  "DocumentTemplateId": 113
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 345,
-    "Attention": "eaque",
-    "Header": "neque",
-    "Name": "Ankunding Group",
-    "OurRef": "consectetur",
-    "YourRef": "voluptatibus",
-    "Description": "Down-sized uniform policy",
-    "DocumentTemplate": "placeat",
+    "DocumentId": 275,
+    "Attention": "numquam",
+    "Header": "sit",
+    "Name": "Hand Group",
+    "OurRef": "quibusdam",
+    "YourRef": "quisquam",
+    "Description": "Proactive mission-critical hub",
+    "DocumentTemplate": "dolor",
     "IsPublished": false,
-    "PersonId": 672,
-    "PersonFullName": "Miss Anabel Greenholt",
-    "AssociateFullName": "Bernard Sauer",
-    "ContactId": 62,
-    "ContactName": "McClure-Gerhold",
-    "ProjectId": 107,
-    "ProjectName": "Rowe-Keebler",
-    "AssociateId": 750,
-    "Snum": 418,
+    "PersonId": 258,
+    "PersonFullName": "Melba Windler",
+    "AssociateFullName": "Angie Lueilwitz DVM",
+    "ContactId": 986,
+    "ContactName": "Kreiger Inc and Sons",
+    "ProjectId": 317,
+    "ProjectName": "Murphy, Lakin and Ritchie",
+    "AssociateId": 849,
+    "Snum": 97,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 980
       }
     }
   }

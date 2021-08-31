@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Dietrich, Koch and Fadel",
-    "ToolTip": "Nam tenetur non sit.",
-    "Deleted": true,
-    "Rank": 174,
-    "Type": "animi",
-    "ColorBlock": 56,
-    "IconHint": "asperiores",
+    "Id": 699,
+    "Name": "Murphy-Huels",
+    "ToolTip": "Corporis labore consequatur officia.",
+    "Deleted": false,
+    "Rank": 935,
+    "Type": "nesciunt",
+    "ColorBlock": 60,
+    "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "2011-08-21T09:41:00.3343818+02:00",
+    "LastChanged": "2019-06-07T15:05:43.4055101+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Beahan-Parker",
-        "ToolTip": "Voluptatibus quibusdam repellat voluptatibus totam mollitia molestiae.",
+        "Id": 936,
+        "Name": "Weber Inc and Sons",
+        "ToolTip": "Ratione porro.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "ipsa",
-        "ColorBlock": 1000,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "1995-09-24T09:41:00.3343818+02:00",
+        "Rank": 946,
+        "Type": "aut",
+        "ColorBlock": 61,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2014-06-09T15:05:43.4055101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Ena Blick",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Valentina Carter",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Jayce Jones II",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Manuel Legros",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldLength": 556
       }
     }
   }

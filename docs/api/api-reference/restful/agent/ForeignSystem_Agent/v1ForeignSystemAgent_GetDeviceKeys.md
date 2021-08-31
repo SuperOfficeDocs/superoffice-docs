@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ForeignSystem/GetDeviceKeys
+title: GetDeviceKeys
 id: v1ForeignSystemAgent_GetDeviceKeys
 ---
 
-# POST Agents/ForeignSystem/GetDeviceKeys
+# GetDeviceKeys
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
@@ -81,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Carroll Inc and Sons",
-  "DeviceName": "Leannon Inc and Sons"
+  "ApplicationName": "Barrows-Kuhn",
+  "DeviceName": "Beier, Lesch and Stark"
 }
 ```
 
@@ -96,14 +96,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eum",
-    "Value": "iste",
-    "RecordId": 725,
-    "CreatedDate": "2002-01-24T16:48:29.7199313+01:00",
-    "UpdatedDate": "2007-07-05T16:48:29.7199313+02:00",
-    "UpdatedBy": "voluptatem",
-    "CreatedBy": "rerum",
-    "TableName": "Lueilwitz-Glover",
+    "Key": "blanditiis",
+    "Value": "laboriosam",
+    "RecordId": 586,
+    "CreatedDate": "2012-07-30T14:58:04.3134598+02:00",
+    "UpdatedDate": "2009-05-16T14:58:04.3134598+02:00",
+    "UpdatedBy": "neque",
+    "CreatedBy": "est",
+    "TableName": "O'Kon Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

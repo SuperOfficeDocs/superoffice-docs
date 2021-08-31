@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/CreateDefaultTicketCategoryEntity
+title: CreateDefaultTicketCategoryEntity
 id: v1ListAgent_CreateDefaultTicketCategoryEntity
 ---
 
-# POST Agents/List/CreateDefaultTicketCategoryEntity
+# CreateDefaultTicketCategoryEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
@@ -81,26 +81,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 175,
-  "ParentId": 369,
-  "Name": "Kuphal-Senger",
-  "Fullname": "debitis",
-  "CategoryMaster": 249,
+  "TicketCategoryId": 511,
+  "ParentId": 783,
+  "Name": "Aufderhar Inc and Sons",
+  "Fullname": "blanditiis",
+  "CategoryMaster": 116,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Quigley, Emard and Stanton",
+  "ExternalName": "Ferry Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 444,
-  "ReplyTemplate": 782,
-  "NotificationEmail": "geovanny.runolfsson@hackettschiller.co.uk",
+  "AssignmentLag": 356,
+  "ReplyTemplate": 944,
+  "NotificationEmail": "gerson@wilkinson.com",
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "sit"
+    "CustomFields1": "esse",
+    "CustomFields2": "est"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

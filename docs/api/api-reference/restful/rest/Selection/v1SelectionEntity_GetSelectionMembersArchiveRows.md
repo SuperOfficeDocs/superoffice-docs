@@ -81,21 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugiat",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 5269,
-      "EntityName": "sale",
-      "saleId": 5269,
-      "contactId": 2991,
-      "name": "Ward Group"
+      "PrimaryKey": 4632,
+      "EntityName": "person",
+      "personId": 4632,
+      "fullName": "Abby Raynor"
     },
     {
-      "PrimaryKey": 2138,
-      "EntityName": "sale",
-      "saleId": 2138,
-      "contactId": 1974,
-      "name": "Walsh, Donnelly and Donnelly"
+      "PrimaryKey": 6763,
+      "EntityName": "person",
+      "personId": 6763,
+      "fullName": "Alek Quigley"
     }
   ]
 }

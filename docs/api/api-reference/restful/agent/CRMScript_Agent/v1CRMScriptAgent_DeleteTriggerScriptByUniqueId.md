@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
+title: DeleteTriggerScriptByUniqueId
 id: v1CRMScriptAgent_DeleteTriggerScriptByUniqueId
 ---
 
-# POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
+# DeleteTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/FindCredentialUsers
+title: FindCredentialUsers
 id: v1UserAgent_FindCredentialUsers
 ---
 
-# POST Agents/User/FindCredentialUsers
+# FindCredentialUsers
 
 ```http
 POST /api/v1/Agents/User/FindCredentialUsers
@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "deleniti",
-  "SearchString": "laborum"
+  "Type": "nihil",
+  "SearchString": "cumque"
 }
 ```
 
@@ -97,16 +97,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "dolorum",
-    "magni"
+    "id",
+    "alias"
   ],
   "Users": [
     {
-      "Value": "veritatis",
-      "DisplayValue": "hic",
+      "Value": "voluptatum",
+      "DisplayValue": "aut",
       "Columns": [
-        "quasi",
-        "laborum"
+        "amet",
+        "deleniti"
       ],
       "CanCreatePerson": true,
       "TableRight": {},
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 139
         }
       }
     },
     {
-      "Value": "veritatis",
-      "DisplayValue": "hic",
+      "Value": "voluptatum",
+      "DisplayValue": "aut",
       "Columns": [
-        "quasi",
-        "laborum"
+        "amet",
+        "deleniti"
       ],
       "CanCreatePerson": true,
       "TableRight": {},
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 139
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldLength": 508
     }
   }
 }

@@ -72,12 +72,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
-GET /api/v1/Sale/{id}/Guide?$entities=quasi
-GET /api/v1/Sale/{id}/Guide?$top=975
-GET /api/v1/Sale/{id}/Guide?$skip=775
+GET /api/v1/Sale/{id}/Guide?$entities=rem
+GET /api/v1/Sale/{id}/Guide?$top=279
+GET /api/v1/Sale/{id}/Guide?$skip=956
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=autem
+GET /api/v1/Sale/{id}/Guide?$context=sit
 GET /api/v1/Sale/{id}/Guide?$format=JSON
 GET /api/v1/Sale/{id}/Guide?$jsonSafe=True
 GET /api/v1/Sale/{id}/Guide?$output=Display
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "facilis",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 7231,
-      "EntityName": "sale",
-      "saleId": 7231,
-      "contactId": 2977,
-      "name": "Feil Group"
+      "PrimaryKey": 1619,
+      "EntityName": "person",
+      "personId": 1619,
+      "fullName": "Alexane Hudson"
     },
     {
-      "PrimaryKey": 4868,
-      "EntityName": "sale",
-      "saleId": 4868,
-      "contactId": 1517,
-      "name": "Kutch, Graham and Bergstrom"
+      "PrimaryKey": 9182,
+      "EntityName": "person",
+      "personId": 9182,
+      "fullName": "Margaret Hegmann"
     }
   ]
 }

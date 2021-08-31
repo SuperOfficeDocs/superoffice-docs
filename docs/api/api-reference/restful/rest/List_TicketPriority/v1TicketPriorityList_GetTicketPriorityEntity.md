@@ -90,7 +90,7 @@ Response body: object
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 944,
-  "Name": "Walter-Durgan",
+  "TicketPriorityId": 207,
+  "Name": "Green-Fisher",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 254,
+  "SortOrder": 11,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 367,
-  "MonStart": "2011-05-09T09:41:00.8533886+02:00",
-  "MonStop": "2006-03-06T09:41:00.8533886+01:00",
-  "TueStart": "2001-05-02T09:41:00.8533886+02:00",
-  "TueStop": "1997-04-05T09:41:00.8533886+02:00",
-  "WedStart": "2006-06-05T09:41:00.8533886+02:00",
-  "WedStop": "2001-12-20T09:41:00.8533886+01:00",
-  "ThuStart": "2000-03-12T09:41:00.8533886+01:00",
-  "ThuStop": "2003-07-02T09:41:00.8533886+02:00",
-  "FriStart": "1997-01-14T09:41:00.8533886+01:00",
-  "FriStop": "1996-04-18T09:41:00.8533886+02:00",
-  "SatStart": "2020-06-29T09:41:00.8533886+02:00",
-  "SatStop": "1994-01-02T09:41:00.8533886+01:00",
-  "SunStart": "1995-10-06T09:41:00.8533886+02:00",
-  "SunStop": "2017-09-29T09:41:00.8533886+02:00",
+  "Deadline": 54,
+  "MonStart": "2012-07-13T15:05:43.9141233+02:00",
+  "MonStop": "1996-12-26T15:05:43.9141233+01:00",
+  "TueStart": "2001-02-26T15:05:43.9141233+01:00",
+  "TueStop": "1995-10-24T15:05:43.9141233+02:00",
+  "WedStart": "2009-02-21T15:05:43.9141233+01:00",
+  "WedStop": "2002-05-06T15:05:43.9141233+02:00",
+  "ThuStart": "2017-07-07T15:05:43.9141233+02:00",
+  "ThuStop": "2019-01-15T15:05:43.9141233+01:00",
+  "FriStart": "2017-09-07T15:05:43.9141233+02:00",
+  "FriStop": "1994-11-10T15:05:43.9141233+01:00",
+  "SatStart": "1994-08-26T15:05:43.9141233+02:00",
+  "SatStop": "1995-07-11T15:05:43.9141233+02:00",
+  "SunStart": "2015-07-23T15:05:43.9141233+02:00",
+  "SunStop": "2010-05-24T15:05:43.9141233+02:00",
   "NonDates": [
-    "eum",
-    "molestiae"
+    "odio",
+    "ipsa"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 9
     }
   }
 }

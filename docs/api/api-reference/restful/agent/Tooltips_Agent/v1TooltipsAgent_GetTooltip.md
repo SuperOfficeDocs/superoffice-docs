@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Tooltips/GetTooltip
+title: GetTooltip
 id: v1TooltipsAgent_GetTooltip
 ---
 
-# POST Agents/Tooltips/GetTooltip
+# GetTooltip
 
 ```http
 POST /api/v1/Agents/Tooltips/GetTooltip
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Tooltips/GetTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TooltipHint": "quod"
+  "TooltipHint": "et"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"molestiae"
 ```

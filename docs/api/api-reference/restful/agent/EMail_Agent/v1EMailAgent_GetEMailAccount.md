@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailAccount
+title: GetEMailAccount
 id: v1EMailAgent_GetEMailAccount
 ---
 
-# POST Agents/EMail/GetEMailAccount
+# GetEMailAccount
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccount
@@ -27,7 +27,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=36
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=789
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -88,35 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 802,
-  "EMailAddress": "hic",
-  "AssociateId": 276,
+  "EMailAccountId": 164,
+  "EMailAddress": "cumque",
+  "AssociateId": 849,
   "IncomingCredentials": {
-    "ServiceAuthId": 89,
-    "Server": "non",
-    "Port": 3,
-    "AuthType": "aspernatur",
-    "Username": "officiis",
-    "Password": "delectus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 202,
-    "Server": "tempora",
-    "Port": 648,
-    "AuthType": "repellat",
-    "Username": "aliquid",
-    "Password": "non",
+    "ServiceAuthId": 887,
+    "Server": "impedit",
+    "Port": 590,
+    "AuthType": "velit",
+    "Username": "placeat",
+    "Password": "consequuntur",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -125,12 +106,31 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 104
       }
     }
   },
-  "AccountStatus": 382,
-  "ErrorCount": 218,
+  "OutgoingCredentials": {
+    "ServiceAuthId": 630,
+    "Server": "quia",
+    "Port": 934,
+    "AuthType": "ex",
+    "Username": "ea",
+    "Password": "rerum",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 621
+      }
+    }
+  },
+  "AccountStatus": 16,
+  "ErrorCount": 481,
   "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

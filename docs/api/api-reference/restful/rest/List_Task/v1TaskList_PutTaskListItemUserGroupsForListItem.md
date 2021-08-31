@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Kuvalis-VonRueden",
-    "ToolTip": "Eum consequuntur.",
+    "Id": 156,
+    "Name": "Klocko Inc and Sons",
+    "ToolTip": "Eaque voluptas facere.",
     "Deleted": true,
-    "Rank": 337,
-    "Type": "asperiores",
-    "ColorBlock": 431,
-    "IconHint": "pariatur",
+    "Rank": 270,
+    "Type": "dolorem",
+    "ColorBlock": 480,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2008-07-11T09:41:00.8293877+02:00",
+    "LastChanged": "1994-09-09T15:05:43.8931228+02:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "Padberg-Lebsack",
-        "ToolTip": "Explicabo pariatur.",
+        "Id": 233,
+        "Name": "Sporer, Yundt and Frami",
+        "ToolTip": "Voluptate at autem voluptatem vel.",
         "Deleted": false,
-        "Rank": 800,
-        "Type": "minima",
-        "ColorBlock": 604,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2013-07-31T09:41:00.8293877+02:00",
+        "Rank": 311,
+        "Type": "dolor",
+        "ColorBlock": 225,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "1994-08-19T15:05:43.8931228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Ford Keeling"
+        "ExtraInfo": "id",
+        "StyleHint": "illo",
+        "Hidden": true,
+        "FullName": "Lexi Zulauf"
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "minima",
-    "Hidden": true,
-    "FullName": "Dameon Schneider"
+    "ExtraInfo": "ex",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Emilie Bartell"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Parker Inc and Sons",
-    "ToolTip": "Error nemo.",
+    "Id": 867,
+    "Name": "Ortiz Inc and Sons",
+    "ToolTip": "Est voluptatem.",
     "Deleted": true,
-    "Rank": 893,
-    "Type": "autem",
-    "ColorBlock": 199,
-    "IconHint": "earum",
+    "Rank": 476,
+    "Type": "soluta",
+    "ColorBlock": 796,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2021-02-24T09:41:00.8313868+01:00",
+    "LastChanged": "2014-06-19T15:05:43.8941251+02:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Haley-Auer",
-        "ToolTip": "Eius quisquam repellat neque.",
-        "Deleted": true,
-        "Rank": 514,
-        "Type": "cumque",
-        "ColorBlock": 701,
-        "IconHint": "qui",
+        "Id": 179,
+        "Name": "Hammes LLC",
+        "ToolTip": "Aliquid consequatur molestiae quibusdam.",
+        "Deleted": false,
+        "Rank": 249,
+        "Type": "non",
+        "ColorBlock": 137,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2007-09-28T09:41:00.8313868+02:00",
+        "LastChanged": "1998-06-20T15:05:43.8941251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "est",
+        "ExtraInfo": "non",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Margaret Bogisich",
+        "FullName": "Monty Torphy",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Hans Sanford",
+    "FullName": "Dr. Arvel Schroeder",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 362
       }
     }
   }

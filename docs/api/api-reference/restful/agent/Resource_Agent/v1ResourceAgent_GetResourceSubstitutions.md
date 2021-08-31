@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Resource/GetResourceSubstitutions
+title: GetResourceSubstitutions
 id: v1ResourceAgent_GetResourceSubstitutions
 ---
 
-# POST Agents/Resource/GetResourceSubstitutions
+# GetResourceSubstitutions
 
 ```http
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
@@ -78,15 +78,15 @@ Response body: array
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Quigley-Hackett",
-    "Breitenberg, Ziemann and Blick"
+    "Keeling-Dibbert",
+    "Dicki, Gleichner and Bauch"
   ],
-  "Culture": "facilis",
+  "Culture": "rerum",
   "ActiveOnly": false
 }
 ```
@@ -97,10 +97,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Veum, Swaniawski and Wiegand",
-    "ResourceValue": "optio",
-    "Culture": "voluptatem",
-    "IsActive": false,
+    "ResourceName": "King-Runolfsson",
+    "ResourceValue": "consectetur",
+    "Culture": "aut",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,15 +112,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 995
       }
     }
   },
   {
-    "ResourceName": "Veum, Swaniawski and Wiegand",
-    "ResourceValue": "optio",
-    "Culture": "voluptatem",
-    "IsActive": false,
+    "ResourceName": "King-Runolfsson",
+    "ResourceValue": "consectetur",
+    "Culture": "aut",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 995
       }
     }
   }

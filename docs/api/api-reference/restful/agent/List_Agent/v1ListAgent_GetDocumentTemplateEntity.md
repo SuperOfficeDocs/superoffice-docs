@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetDocumentTemplateEntity
+title: GetDocumentTemplateEntity
 id: v1ListAgent_GetDocumentTemplateEntity
 ---
 
-# POST Agents/List/GetDocumentTemplateEntity
+# GetDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=706
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=9
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -103,30 +103,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 840,
-  "Name": "Dickinson LLC",
-  "Tooltip": "adipisci",
-  "SaveInDb": 319,
-  "Filename": "distinctio",
-  "DefaultOref": "blanditiis",
+  "DocumentTemplateId": 558,
+  "Name": "Jacobs-Conroy",
+  "Tooltip": "quam",
+  "SaveInDb": 566,
+  "Filename": "voluptas",
+  "DefaultOref": "perferendis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 513,
-  "IntentId": 543,
+  "AutoeventId": 544,
+  "IntentId": 21,
   "IsDefaultPublished": true,
-  "Rank": 759,
-  "LoadTemplateFromPlugin": 590,
-  "MimeType": "minima",
+  "Rank": 120,
+  "LoadTemplateFromPlugin": 701,
+  "MimeType": "voluptas",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 658,
+  "DocumentTypeKey": 94,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "thad@huel.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "felipe@cummerata.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vincenza@bahringer.com",
+  "SenderEmailAddress": "sydnee@marvingoodwin.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

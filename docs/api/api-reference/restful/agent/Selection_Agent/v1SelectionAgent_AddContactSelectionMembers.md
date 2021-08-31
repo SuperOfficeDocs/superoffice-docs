@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/AddContactSelectionMembers
+title: AddContactSelectionMembers
 id: v1SelectionAgent_AddContactSelectionMembers
 ---
 
-# POST Agents/Selection/AddContactSelectionMembers
+# AddContactSelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/AddContactSelectionMembers

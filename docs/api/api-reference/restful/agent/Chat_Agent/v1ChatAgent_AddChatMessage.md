@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/AddChatMessage
+title: AddChatMessage
 id: v1ChatAgent_AddChatMessage
 ---
 
-# POST Agents/Chat/AddChatMessage
+# AddChatMessage
 
 ```http
 POST /api/v1/Agents/Chat/AddChatMessage
@@ -89,17 +89,17 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 855,
+  "ChatSessionId": 509,
   "Message": {
-    "ChatMessageId": 882,
-    "ChatSessionId": 728,
+    "ChatMessageId": 716,
+    "ChatSessionId": 970,
     "Type": "Invalid",
-    "Message": "at",
-    "Author": "veritatis",
-    "ReadByCustomer": 852,
+    "Message": "dignissimos",
+    "Author": "voluptatibus",
+    "ReadByCustomer": 551,
     "SpecialType": "Block",
-    "SpecialParam": "inventore",
-    "WhenPosted": "2001-12-21T16:48:29.0019242+01:00"
+    "SpecialParam": "dolore",
+    "WhenPosted": "2006-02-27T14:58:03.5212805+01:00"
   }
 }
 ```
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 880,
-  "ChatSessionId": 183,
+  "ChatMessageId": 973,
+  "ChatSessionId": 594,
   "Type": "Invalid",
-  "Message": "vel",
-  "Author": "nesciunt",
-  "ReadByCustomer": 126,
+  "Message": "eveniet",
+  "Author": "quisquam",
+  "ReadByCustomer": 693,
   "SpecialType": "Block",
-  "SpecialParam": "architecto",
-  "WhenPosted": "1999-09-12T16:48:29.0019242+02:00"
+  "SpecialParam": "enim",
+  "WhenPosted": "2013-04-28T14:58:03.5212805+02:00"
 }
 ```

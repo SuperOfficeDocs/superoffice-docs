@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ViewState/GetHistories
+title: GetHistories
 id: v1ViewStateAgent_GetHistories
 ---
 
-# POST Agents/ViewState/GetHistories
+# GetHistories
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistories
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 834,
-    "Id": 280,
-    "HistoryName": "Harber Inc and Sons",
-    "HistoryId": 376,
-    "AssociateId": 68,
-    "Name": "Baumbach-Walter",
-    "ItemInfo": "explicabo",
+    "Rank": 478,
+    "Id": 866,
+    "HistoryName": "Graham, Bins and Brown",
+    "HistoryId": 513,
+    "AssociateId": 312,
+    "Name": "Hand LLC",
+    "ItemInfo": "ex",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   }

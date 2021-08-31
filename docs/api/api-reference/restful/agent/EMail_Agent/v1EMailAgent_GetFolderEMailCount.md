@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetFolderEMailCount
+title: GetFolderEMailCount
 id: v1EMailAgent_GetFolderEMailCount
 ---
 
-# POST Agents/EMail/GetFolderEMailCount
+# GetFolderEMailCount
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderEMailCount
@@ -71,18 +71,18 @@ Response body: int32
 POST /api/v1/Agents/EMail/GetFolderEMailCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Aufderhar LLC",
-    "UserName": "Frami Group",
-    "Password": "doloribus",
-    "Folder": "consequuntur",
+    "ServerName": "Abernathy LLC",
+    "UserName": "Maggio, Paucek and O'Keefe",
+    "Password": "eum",
+    "Folder": "corporis",
     "UseSSL": true
   },
-  "OnlyUnread": false
+  "OnlyUnread": true
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-986
+178
 ```

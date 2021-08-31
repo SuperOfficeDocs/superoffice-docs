@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetProjectDocumentsByTemplateHeading
+title: GetProjectDocumentsByTemplateHeading
 id: v1DocumentAgent_GetProjectDocumentsByTemplateHeading
 ---
 
-# POST Agents/Document/GetProjectDocumentsByTemplateHeading
+# GetProjectDocumentsByTemplateHeading
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 113,
-  "StartTime": "2018-10-11T16:48:29.3388937+02:00",
-  "EndTime": "2000-01-16T16:48:29.3388937+01:00",
-  "Count": 594,
-  "TemplateHeadingId": 455
+  "ProjectId": 952,
+  "StartTime": "2010-06-28T14:58:03.8254654+02:00",
+  "EndTime": "2018-04-09T14:58:03.8254654+02:00",
+  "Count": 325,
+  "TemplateHeadingId": 469
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 176,
-    "Attention": "maxime",
-    "Header": "nobis",
-    "Name": "Schaefer, Bartoletti and Abshire",
-    "OurRef": "quis",
-    "YourRef": "qui",
-    "Description": "Reverse-engineered static paradigm",
-    "DocumentTemplate": "aut",
-    "IsPublished": true,
-    "PersonId": 837,
-    "PersonFullName": "Alfredo Bailey",
-    "AssociateFullName": "Mr. Velda Schuppe",
-    "ContactId": 869,
-    "ContactName": "Gorczany Group",
-    "ProjectId": 209,
-    "ProjectName": "Quitzon, Connelly and Dibbert",
-    "AssociateId": 742,
-    "Snum": 554,
+    "DocumentId": 621,
+    "Attention": "quibusdam",
+    "Header": "voluptatem",
+    "Name": "Muller LLC",
+    "OurRef": "et",
+    "YourRef": "adipisci",
+    "Description": "Persistent full-range knowledge user",
+    "DocumentTemplate": "quos",
+    "IsPublished": false,
+    "PersonId": 413,
+    "PersonFullName": "Erika Wilderman",
+    "AssociateFullName": "Carmela Schamberger",
+    "ContactId": 705,
+    "ContactName": "Runolfsson Inc and Sons",
+    "ProjectId": 515,
+    "ProjectName": "Jacobson Group",
+    "AssociateId": 445,
+    "Snum": 994,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldType": "System.String",
+        "FieldLength": 991
       }
     }
   }

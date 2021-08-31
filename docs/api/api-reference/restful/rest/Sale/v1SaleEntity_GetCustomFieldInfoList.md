@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Pagac-Sawayn",
-    "DisplayName": "Auer Group",
-    "Description": "Self-enabling fault-tolerant interface",
-    "ShortLabel": "veniam",
+    "FieldName": "Mosciski-Harber",
+    "DisplayName": "Gerhold Inc and Sons",
+    "Description": "De-engineered 4th generation structure",
+    "ShortLabel": "accusantium",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 584,
-    "TemplateVariableName": "Bauch Inc and Sons"
+    "IsExternal": false,
+    "Rank": 114,
+    "TemplateVariableName": "Gleichner-Macejkovic"
   }
 ]
 ```

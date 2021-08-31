@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=consequatur
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "McKenzie LLC",
-    "ToolTip": "Consequatur quia sapiente sed dolores minima.",
+    "Id": 347,
+    "Name": "Tillman, Huels and Willms",
+    "ToolTip": "Quam illo.",
     "Deleted": true,
-    "Rank": 532,
-    "Type": "qui",
+    "Rank": 287,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Effertz, Hagenes and Kohler",
-        "ToolTip": "Cum perferendis autem et.",
-        "Deleted": true,
-        "Rank": 192,
-        "Type": "ea",
+        "Id": 750,
+        "Name": "Koch, McDermott and Block",
+        "ToolTip": "Et nobis ad.",
+        "Deleted": false,
+        "Rank": 876,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 535,
-        "ExtraInfo": "ea",
-        "StyleHint": "officia",
-        "FullName": "Jettie Koss",
+        "IconHint": "magnam",
+        "ColorBlock": 858,
+        "ExtraInfo": "ut",
+        "StyleHint": "rerum",
+        "FullName": "Ewald Fritsch",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldType": "System.Int32",
+            "FieldLength": 228
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 904,
-    "ExtraInfo": "ratione",
-    "StyleHint": "repellendus",
-    "FullName": "Winnifred Ratke",
+    "IconHint": "aliquam",
+    "ColorBlock": 185,
+    "ExtraInfo": "maiores",
+    "StyleHint": "quia",
+    "FullName": "Lynn O'Keefe",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "scale plug-and-play applications"
         },
         "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldLength": 60
       }
     }
   }

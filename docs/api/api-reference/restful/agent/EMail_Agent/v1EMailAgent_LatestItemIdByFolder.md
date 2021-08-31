@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/LatestItemIdByFolder
+title: LatestItemIdByFolder
 id: v1EMailAgent_LatestItemIdByFolder
 ---
 
-# POST Agents/EMail/LatestItemIdByFolder
+# LatestItemIdByFolder
 
 ```http
 POST /api/v1/Agents/EMail/LatestItemIdByFolder
@@ -70,11 +70,11 @@ Response body: int32
 POST /api/v1/Agents/EMail/LatestItemIdByFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 592
+  "FolderId": 738
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-52
+627
 ```

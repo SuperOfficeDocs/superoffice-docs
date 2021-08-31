@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/SaveDocumentTemplateStream
+title: SaveDocumentTemplateStream
 id: v1DocumentAgent_SaveDocumentTemplateStream
 ---
 
-# POST Agents/Document/SaveDocumentTemplateStream
+# SaveDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 861,
+  "DocumentTemplateId": 303,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "et",
-  "PluginId": 333
+  "LanguageCode": "molestias",
+  "PluginId": 671
 }
 ```
 
@@ -94,10 +94,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reichel LLC",
-  "Description": "Assimilated fresh-thinking secured line",
-  "ExternalReference": "molestiae",
-  "MimeType": "optio",
-  "PluginId": 435
+  "Name": "Paucek-Huels",
+  "Description": "Pre-emptive motivating adapter",
+  "ExternalReference": "quia",
+  "MimeType": "ex",
+  "PluginId": 118
 }
 ```

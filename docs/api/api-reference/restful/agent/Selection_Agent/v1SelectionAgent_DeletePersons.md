@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Selection/DeletePersons
+title: DeletePersons
 id: v1SelectionAgent_DeletePersons
 ---
 
-# POST Agents/Selection/DeletePersons
+# DeletePersons
 
 ```http
 POST /api/v1/Agents/Selection/DeletePersons

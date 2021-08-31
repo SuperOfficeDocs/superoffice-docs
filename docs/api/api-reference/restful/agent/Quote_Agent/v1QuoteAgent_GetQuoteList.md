@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteList
+title: GetQuoteList
 id: v1QuoteAgent_GetQuoteList
 ---
 
-# POST Agents/Quote/GetQuoteList
+# GetQuoteList
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteList
@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "pariatur"
+  "QuoteListType": "dicta"
 }
 ```
 
@@ -89,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "aut",
-    "DisplayValue": "eos",
-    "DisplayDescription": "Operative composite moratorium",
+    "ERPQuoteListItemKey": "molestiae",
+    "DisplayValue": "corporis",
+    "DisplayDescription": "Advanced demand-driven concept",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "aut",
-    "DisplayValue": "eos",
-    "DisplayDescription": "Operative composite moratorium",
+    "ERPQuoteListItemKey": "molestiae",
+    "DisplayValue": "corporis",
+    "DisplayDescription": "Advanced demand-driven concept",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

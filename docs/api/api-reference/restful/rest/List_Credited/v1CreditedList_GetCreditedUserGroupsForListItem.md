@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Gaylord, Von and Hegmann",
-    "ToolTip": "At aperiam.",
-    "Deleted": true,
-    "Rank": 628,
-    "Type": "voluptates",
-    "ColorBlock": 412,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "1996-04-11T09:41:00.316367+02:00",
+    "Id": 860,
+    "Name": "Dietrich-Brakus",
+    "ToolTip": "Architecto praesentium est atque nulla.",
+    "Deleted": false,
+    "Rank": 406,
+    "Type": "aspernatur",
+    "ColorBlock": 505,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2007-01-03T15:05:43.3875101+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Rodriguez Group",
-        "ToolTip": "Quos sapiente consequuntur aut tenetur in sint.",
+        "Id": 902,
+        "Name": "Wyman, Kovacek and Rolfson",
+        "ToolTip": "Cum qui dolorem.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "recusandae",
-        "ColorBlock": 120,
-        "IconHint": "quae",
+        "Rank": 424,
+        "Type": "voluptatem",
+        "ColorBlock": 512,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "1996-01-14T09:41:00.316367+01:00",
+        "LastChanged": "1999-02-02T15:05:43.3875101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Enrique Ortiz Jr.",
+        "ExtraInfo": "odit",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Bettye Doyle",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "unleash clicks-and-mortar infomediaries"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldLength": 301
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "ab",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Clare Kirlin IV",
+    "FullName": "Scot Conn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

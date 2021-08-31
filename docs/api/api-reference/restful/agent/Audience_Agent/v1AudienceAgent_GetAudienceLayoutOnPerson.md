@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Audience/GetAudienceLayoutOnPerson
+title: GetAudienceLayoutOnPerson
 id: v1AudienceAgent_GetAudienceLayoutOnPerson
 ---
 
-# POST Agents/Audience/GetAudienceLayoutOnPerson
+# GetAudienceLayoutOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
@@ -84,11 +84,11 @@ Response body: object
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 423
+  "PersonId": 358
 }
 ```
 
@@ -97,49 +97,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 142,
-  "InstanceLayout": "molestias",
-  "InstanceName": "Rippin-Shanahan",
-  "CreatedDate": "2013-09-29T16:48:28.7751985+02:00",
-  "UpdatedDate": "1999-04-26T16:48:28.7751985+02:00",
+  "AudienceLayoutId": 776,
+  "InstanceLayout": "neque",
+  "InstanceName": "Hettinger-Feil",
+  "CreatedDate": "2004-01-06T14:58:03.2662422+01:00",
+  "UpdatedDate": "2016-05-29T14:58:03.2662422+02:00",
   "CreatedBy": {
-    "AssociateId": 682,
-    "Name": "West LLC",
-    "PersonId": 92,
-    "Rank": 412,
-    "Tooltip": "dolorem",
+    "AssociateId": 389,
+    "Name": "Monahan, Orn and Hessel",
+    "PersonId": 411,
+    "Rank": 433,
+    "Tooltip": "officiis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 466,
-    "FullName": "Nicholaus Hegmann",
-    "FormalName": "Schmeler Inc and Sons",
+    "GroupIdx": 732,
+    "FullName": "Mr. Elisa Feil",
+    "FormalName": "Langosh Group",
     "Deleted": true,
-    "EjUserId": 652,
-    "UserName": "McClure LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 739
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 366,
-    "Name": "Zemlak, Grady and Shanahan",
-    "PersonId": 276,
-    "Rank": 78,
-    "Tooltip": "corrupti",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 618,
-    "FullName": "Carole Maggio",
-    "FormalName": "Littel Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 415,
-    "UserName": "McGlynn, Heller and Blanda",
+    "EjUserId": 444,
+    "UserName": "Hirthe LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -148,7 +123,32 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 936
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 329,
+    "Name": "Gorczany, Lakin and Kris",
+    "PersonId": 402,
+    "Rank": 286,
+    "Tooltip": "et",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 863,
+    "FullName": "Raheem Howe",
+    "FormalName": "Cassin-Windler",
+    "Deleted": true,
+    "EjUserId": 379,
+    "UserName": "Kovacek Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 899
       }
     }
   },
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 481
     }
   }
 }

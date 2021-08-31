@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetQuoteVersions
+title: GetQuoteVersions
 id: v1QuoteAgent_GetQuoteVersions
 ---
 
-# POST Agents/Quote/GetQuoteVersions
+# GetQuoteVersions
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersions
@@ -109,11 +109,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 980
+  "QuoteId": 794
 }
 ```
 
@@ -123,67 +123,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 371,
-    "ERPQuoteVersionKey": "est",
-    "QuoteId": 689,
-    "Description": "Multi-lateral hybrid access",
-    "Number": "847100",
+    "QuoteVersionId": 13,
+    "ERPQuoteVersionKey": "qui",
+    "QuoteId": 358,
+    "Description": "Stand-alone encompassing knowledge user",
+    "Number": "1723718",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 814,
-    "SentDate": "2009-04-11T16:48:30.4189075+02:00",
-    "FollowupId": 162,
-    "ExpirationDate": "2003-12-13T16:48:30.4189075+01:00",
-    "DeliveryCountryId": 831,
+    "Reason": "revolutionize revolutionary e-commerce",
+    "LikelyQuoteAlternativeId": 225,
+    "SentDate": "2014-01-04T14:58:04.9384705+01:00",
+    "FollowupId": 48,
+    "ExpirationDate": "2001-02-02T14:58:04.9384705+01:00",
+    "DeliveryCountryId": 165,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 914,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "omnis",
-    "ERPPaymentTypeKey": "nisi",
-    "ERPDeliveryTermsKey": "est",
-    "ERPDeliveryTypeKey": "hic",
-    "Rank": 274,
-    "ApprovedBy": 314,
-    "ApprovedText": "voluptatibus",
-    "ApprovedRegisteredBy": 587,
-    "ApprovedRegisteredDate": "2020-09-16T16:48:30.4189075+02:00",
-    "ExtraField1": "esse",
-    "ExtraField2": "dolorum",
-    "ExtraField3": "quis",
-    "ExtraField4": "ut",
-    "ExtraField5": "fugit",
-    "LastRecalculated": "2019-07-03T16:48:30.4189075+02:00",
-    "Updated": "2014-12-31T16:48:30.4189075+01:00",
-    "UpdatedAssociateId": 784,
-    "Registered": "2004-10-25T16:48:30.4189075+02:00",
-    "RegisteredAssociateId": 893,
+    "InvoiceCountryId": 84,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "enim",
+    "ERPPaymentTypeKey": "qui",
+    "ERPDeliveryTermsKey": "eveniet",
+    "ERPDeliveryTypeKey": "consequatur",
+    "Rank": 396,
+    "ApprovedBy": 128,
+    "ApprovedText": "iste",
+    "ApprovedRegisteredBy": 223,
+    "ApprovedRegisteredDate": "2004-11-13T14:58:04.9384705+01:00",
+    "ExtraField1": "incidunt",
+    "ExtraField2": "dolor",
+    "ExtraField3": "eum",
+    "ExtraField4": "eveniet",
+    "ExtraField5": "incidunt",
+    "LastRecalculated": "2016-01-08T14:58:04.9384705+01:00",
+    "Updated": "2007-03-03T14:58:04.9384705+01:00",
+    "UpdatedAssociateId": 754,
+    "Registered": "2002-12-01T14:58:04.9384705+01:00",
+    "RegisteredAssociateId": 781,
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 859,
-        "ERPQuoteAlternativeKey": "et",
-        "QuoteVersionId": 983,
-        "Name": "Medhurst LLC",
-        "Description": "Down-sized encompassing migration",
+        "QuoteAlternativeId": 945,
+        "ERPQuoteAlternativeKey": "aliquam",
+        "QuoteVersionId": 363,
+        "Name": "Schowalter-Lowe",
+        "Description": "Horizontal solution-oriented groupware",
         "Status": "Error",
-        "Reason": "",
-        "ERPDiscountPercent": 23758.854,
-        "ERPDiscountAmount": 27206.254,
-        "DiscountPercent": 19286.636,
-        "DiscountAmount": 7747.248,
+        "Reason": "deploy interactive synergies",
+        "ERPDiscountPercent": 9677.792,
+        "ERPDiscountAmount": 16638.406,
+        "DiscountPercent": 12714.637999999999,
+        "DiscountAmount": 19123.667999999998,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "autem",
-        "VAT": 137.896,
-        "EarningPercent": 23335.764,
-        "EarningAmount": 14225.225999999999,
-        "SubTotal": 6531.2559999999994,
-        "TotalPrice": 28002.29,
-        "ExtraField1": "sit",
-        "ExtraField2": "est",
-        "ExtraField3": "veniam",
-        "ExtraField4": "et",
-        "ExtraField5": "inventore",
+        "VATInfo": "aut",
+        "VAT": 11987.55,
+        "EarningPercent": 5189.9039999999995,
+        "EarningAmount": 7919.6179999999995,
+        "SubTotal": 3789.006,
+        "TotalPrice": 20361.597999999998,
+        "ExtraField1": "facere",
+        "ExtraField2": "eveniet",
+        "ExtraField3": "rerum",
+        "ExtraField4": "qui",
+        "ExtraField5": "quaerat",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 3
+            "FieldLength": 14
           }
         }
       }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldLength": 275
       }
     }
   }

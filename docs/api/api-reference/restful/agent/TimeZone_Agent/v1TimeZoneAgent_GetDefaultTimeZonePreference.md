@@ -1,9 +1,9 @@
 ---
-title: POST Agents/TimeZone/GetDefaultTimeZonePreference
+title: GetDefaultTimeZonePreference
 id: v1TimeZoneAgent_GetDefaultTimeZonePreference
 ---
 
-# POST Agents/TimeZone/GetDefaultTimeZonePreference
+# GetDefaultTimeZonePreference
 
 ```http
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
@@ -59,12 +59,12 @@ Response body: int32
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-820
+756
 ```

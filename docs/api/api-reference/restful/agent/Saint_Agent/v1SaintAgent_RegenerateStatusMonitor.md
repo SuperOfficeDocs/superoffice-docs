@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Saint/RegenerateStatusMonitor
+title: RegenerateStatusMonitor
 id: v1SaintAgent_RegenerateStatusMonitor
 ---
 
-# POST Agents/Saint/RegenerateStatusMonitor
+# RegenerateStatusMonitor
 
 ```http
 POST /api/v1/Agents/Saint/RegenerateStatusMonitor

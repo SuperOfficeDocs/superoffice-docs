@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 737,
+  "Name": "Berge-Harris",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "UdListDefinitionId": 570,
-  "Rank": 127,
+  "UdListDefinitionId": 666,
+  "Rank": 994,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 725
     }
   }
 }

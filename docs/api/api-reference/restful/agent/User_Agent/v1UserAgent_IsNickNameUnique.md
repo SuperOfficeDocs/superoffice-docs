@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/IsNickNameUnique
+title: IsNickNameUnique
 id: v1UserAgent_IsNickNameUnique
 ---
 
-# POST Agents/User/IsNickNameUnique
+# IsNickNameUnique
 
 ```http
 POST /api/v1/Agents/User/IsNickNameUnique
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 635,
-  "NickName": "Herzog, Effertz and Jaskolski"
+  "AssociateId": 730,
+  "NickName": "Wuckert, Kuphal and White"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

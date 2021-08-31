@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/SaveDefaultValueInfo
+title: SaveDefaultValueInfo
 id: v1ErpSyncAgent_SaveDefaultValueInfo
 ---
 
-# POST Agents/ErpSync/SaveDefaultValueInfo
+# SaveDefaultValueInfo
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
@@ -89,20 +89,20 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ErpSyncDefaultValue": {
-    "ErpFieldId": 149,
-    "DefaultValue": "minima",
-    "HasFirstSyncDefaultValue": false,
-    "FirstSyncDefaultValue": "sed",
-    "PromptUser": true,
+    "ErpFieldId": 813,
+    "DefaultValue": "dolor",
+    "HasFirstSyncDefaultValue": true,
+    "FirstSyncDefaultValue": "nihil",
+    "PromptUser": false,
     "Mandatory": true,
-    "ErpFieldKey": "voluptas",
+    "ErpFieldKey": "dolor",
     "FieldType": "Checkbox",
-    "ListName": "Morissette Inc and Sons",
+    "ListName": "Bruen Group",
     "Access": "Mandatory"
   }
 }
@@ -113,15 +113,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 50,
-  "DefaultValue": "doloribus",
+  "ErpFieldId": 192,
+  "DefaultValue": "possimus",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "quo",
-  "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "et",
+  "FirstSyncDefaultValue": "nulla",
+  "PromptUser": false,
+  "Mandatory": true,
+  "ErpFieldKey": "ratione",
   "FieldType": "Checkbox",
-  "ListName": "Daugherty Inc and Sons",
+  "ListName": "Roberts-Murray",
   "Access": "Mandatory",
   "TableRight": {
     "Mask": "Delete",
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 460
     }
   }
 }

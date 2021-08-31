@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/GetWindowPosSizeList
+title: GetWindowPosSizeList
 id: v1ConfigurationAgent_GetWindowPosSizeList
 ---
 
-# POST Agents/Configuration/GetWindowPosSizeList
+# GetWindowPosSizeList
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sit",
-    "PersonId": 890,
-    "AssociateId": 871,
-    "ExtraId": 501,
-    "ExtraInfo": "rerum",
-    "Height": 314,
-    "LeftX": 548,
+    "OwnerWindow": "ipsam",
+    "PersonId": 653,
+    "AssociateId": 176,
+    "ExtraId": 805,
+    "ExtraInfo": "cumque",
+    "Height": 470,
+    "LeftX": 364,
     "State": "Maximized",
-    "UpperY": 309,
-    "Width": 635,
-    "WindowPosSizeId": 917,
+    "UpperY": 279,
+    "Width": 67,
+    "WindowPosSizeId": 839,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,10 +108,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "benchmark back-end solutions"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

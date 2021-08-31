@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -73,48 +73,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 649,
-  "Name": "Hegmann-Moen",
-  "CreatedDate": "1997-01-04T09:40:59.2326628+01:00",
-  "UpdatedDate": "2011-10-25T09:40:59.2326628+02:00",
+  "ForeignAppId": 498,
+  "Name": "Lemke-McKenzie",
+  "CreatedDate": "2004-06-12T15:05:42.1816354+02:00",
+  "UpdatedDate": "1996-04-17T15:05:42.1816354+02:00",
   "CreatedBy": {
-    "AssociateId": 471,
-    "Name": "Mertz, Farrell and Koss",
-    "PersonId": 644,
-    "Rank": 710,
-    "Tooltip": "sequi",
+    "AssociateId": 426,
+    "Name": "Monahan, Buckridge and Runte",
+    "PersonId": 683,
+    "Rank": 63,
+    "Tooltip": "earum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 115,
-    "FullName": "Kraig Klocko",
-    "FormalName": "Considine, Sauer and Stamm",
+    "GroupIdx": 568,
+    "FullName": "Aron Wilkinson",
+    "FormalName": "Monahan, Ritchie and Berge",
     "Deleted": true,
-    "EjUserId": 296,
-    "UserName": "Zemlak Group",
+    "EjUserId": 986,
+    "UserName": "Hoppe-Schaden",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "drive world-class convergence"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 690,
-    "Name": "O'Keefe, Zulauf and Schuppe",
-    "PersonId": 311,
-    "Rank": 341,
-    "Tooltip": "dolorum",
+    "AssociateId": 696,
+    "Name": "McLaughlin, Lowe and Aufderhar",
+    "PersonId": 636,
+    "Rank": 636,
+    "Tooltip": "magni",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 238,
-    "FullName": "Nikolas McKenzie",
-    "FormalName": "Leannon, Jones and Spinka",
+    "GroupIdx": 551,
+    "FullName": "Arianna Kris",
+    "FormalName": "Wunsch-Ferry",
     "Deleted": false,
-    "EjUserId": 504,
-    "UserName": "Kunze, Dooley and McKenzie",
+    "EjUserId": 562,
+    "UserName": "Schuppe-Mante",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,21 +123,21 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 209
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 82,
-      "Name": "Wyman, Doyle and Sipes",
-      "CreatedDate": "2008-11-11T09:40:59.2326628+01:00",
-      "UpdatedDate": "2008-01-10T09:40:59.2326628+01:00",
-      "AssociateFullName": "Shakira McCullough",
-      "CreatedBy": "reprehenderit",
-      "UpdatedBy": "saepe",
-      "DeviceIdentifier": "hic",
-      "ForeignAppId": 59,
+      "ForeignDeviceId": 646,
+      "Name": "Batz-DuBuque",
+      "CreatedDate": "1999-08-28T15:05:42.1816354+02:00",
+      "UpdatedDate": "1999-09-04T15:05:42.1816354+02:00",
+      "AssociateFullName": "Abigayle Hickle",
+      "CreatedBy": "ut",
+      "UpdatedBy": "unde",
+      "DeviceIdentifier": "ducimus",
+      "ForeignAppId": 25,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 115
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldLength": 170
     }
   }
 }

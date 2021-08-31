@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Archive/GetArchiveList
+title: GetArchiveList
 id: v1ArchiveAgent_GetArchiveList
 ---
 
-# POST Agents/Archive/GetArchiveList
+# GetArchiveList
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList
@@ -15,83 +15,26 @@ The columns returned will be those set as chosen columns, using either the SetCh
 Archive Restriction Info objects represent search terms.
 
 
-
-See the <a href="../../../Reference/Archive%20Providers/-Restriction%20Types.htm">
-restriction types reference for
-operator details
-</a>.
+Column names and operator strings are defined elsewhere.
 
 
-
-Column names are documented in <a href="../../../Reference/Archive%20Providers/Archive%20providers.htm">Archive Provider Names</a>
-
-
-
-
-## Aggregation operators
-
-
-The column names can encode grouping and summarizing.
-You add modifiers to the end of the column name to trigger aggregation.
-* GroupBy(col)
-* Sum(col)
-* Avg(col)
-* Percent(col)
-* Count(col)
-* CountAll(col)
-* DatePart(col)
+Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
+Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
 
 
 
 
-
-You add modifiers to the end of the column name to trigger aggregation.
-* :Header
-* :Footer
-* :HideDetail
-
-
-
-
-DatePart specific modifiers
-* :Year
-* :Quarter
-* :Month
-* :Day
-* :DayOfYear
-* :DayOfWeek
-* :Hour
-* :Weekno
-* :YearMonth
-* :YearWeekno
-* :YearQuarter
-
-
-Example: group last names together, and inject a header row for each group.
 
 ```
 
-GroupBy(lastName):Header
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
-report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
 
-Count(middleName):HideDetail:Footer
 
-```
-
-Example: the aggregator functions can nest, so you can say
-
-```
-
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
-```
 
 
 
@@ -166,33 +109,33 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Roob-Zulauf",
-  "ProviderName": "Hilll, Bogisich and Ritchie",
+  "GuiName": "Kozey-Sipes",
+  "ProviderName": "White-Beahan",
   "SortOrder": [
     {
-      "Name": "Toy, Bins and Leuschke",
+      "Name": "Hayes, Bashirian and Prosacco",
       "Direction": "ASC"
     },
     {
-      "Name": "Toy, Bins and Leuschke",
+      "Name": "Hayes, Bashirian and Prosacco",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Larson-Bernier",
-      "Operator": "dolorum",
+      "Name": "Koepp Inc and Sons",
+      "Operator": "eaque",
       "Values": [
-        "assumenda",
-        "aut"
+        "autem",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "atque",
-        "impedit"
+        "soluta",
+        "voluptatibus"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -200,17 +143,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 72,
+      "InterParenthesis": 726,
       "InterOperator": "And",
-      "UniqueHash": 186
+      "UniqueHash": 825
     }
   ],
   "Entities": [
-    "iusto",
-    "delectus"
+    "voluptatibus",
+    "perferendis"
   ],
-  "Page": 95,
-  "PageSize": 838
+  "Page": 390,
+  "PageSize": 677
 }
 ```
 
@@ -220,20 +163,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Goldner, Berge and Fisher",
-    "PrimaryKey": 509,
+    "EntityName": "Watsica Inc and Sons",
+    "PrimaryKey": 851,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fugiat",
-        "TooltipHint": "minus",
-        "LinkHint": "totam"
+        "DisplayValue": "modi",
+        "TooltipHint": "doloribus",
+        "LinkHint": "inventore"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "eveniet",
+    "LinkHint": "voluptas",
+    "StyleHint": "temporibus",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "innovate intuitive e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
@@ -241,8 +184,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

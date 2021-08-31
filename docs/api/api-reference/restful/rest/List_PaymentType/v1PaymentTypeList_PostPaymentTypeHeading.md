@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 388,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "delectus",
+  "HeadingId": 44,
+  "Name": "Schoen Inc and Sons",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 286,
-  "UdListDefinitionId": 940
+  "Rank": 929,
+  "UdListDefinitionId": 644
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 144,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "Rank": 678,
-  "UdListDefinitionId": 272,
+  "HeadingId": 603,
+  "Name": "Kertzmann Group",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "Rank": 340,
+  "UdListDefinitionId": 9,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "mesh clicks-and-mortar web-readiness"
   },
   "FieldProperties": {
     "fieldName": {
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Koepp-Ankunding",
-    "Tooltip": "eos",
+    "HeadingId": 397,
+    "Name": "Harvey-Balistreri",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 922,
-    "UdListDefinitionId": 162,
+    "Rank": 427,
+    "UdListDefinitionId": 845,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "seize 24/365 niches"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetUnsanitizedPreviewDocumentStream
+title: GetUnsanitizedPreviewDocumentStream
 id: v1DocumentAgent_GetUnsanitizedPreviewDocumentStream
 ---
 
-# POST Agents/Document/GetUnsanitizedPreviewDocumentStream
+# GetUnsanitizedPreviewDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
@@ -81,11 +81,11 @@ Response body: object
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 838
+  "DocumentId": 968
 }
 ```
 
@@ -94,9 +94,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Smitham, Herman and Kling",
-  "Type": "aut",
-  "Size": 586,
+  "Name": "Reichel, Quitzon and Dicki",
+  "Type": "voluptas",
+  "Size": 793,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

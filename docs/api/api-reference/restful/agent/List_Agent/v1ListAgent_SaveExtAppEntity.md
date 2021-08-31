@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/SaveExtAppEntity
+title: SaveExtAppEntity
 id: v1ListAgent_SaveExtAppEntity
 ---
 
-# POST Agents/List/SaveExtAppEntity
+# SaveExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/SaveExtAppEntity
@@ -110,32 +110,32 @@ Response body: object
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 624,
-  "Name": "Bogisich LLC",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 387,
-  "Filename": "earum",
-  "Parameters": "eius",
-  "Workdir": "ipsa",
+  "ExtAppId": 989,
+  "Name": "Davis-Kassulke",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 801,
+  "Filename": "nostrum",
+  "Parameters": "est",
+  "Workdir": "nam",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 281,
+  "ShowInStatusBar": true,
+  "Icon": 261,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "deleniti"
+  "Path": "ut"
 }
 ```
 
@@ -144,28 +144,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 691,
-  "Name": "Hayes, Berge and Prohaska",
-  "Tooltip": "enim",
+  "ExtAppId": 903,
+  "Name": "Jones LLC",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 326,
-  "Filename": "ut",
-  "Parameters": "et",
-  "Workdir": "eum",
+  "Rank": 589,
+  "Filename": "adipisci",
+  "Parameters": "nemo",
+  "Workdir": "cumque",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 760,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 934,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptates",
+  "Path": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

@@ -2,6 +2,8 @@
 title: Dashboard
 ---
 
+# Dashboard
+
 ```http
 /api/v1/Dashboard
 ```

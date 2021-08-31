@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetConfigurationFields
+title: GetConfigurationFields
 id: v1QuoteAgent_GetConfigurationFields
 ---
 
-# POST Agents/Quote/GetConfigurationFields
+# GetConfigurationFields
 
 ```http
 POST /api/v1/Agents/Quote/GetConfigurationFields
@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 651,
-  "ConnectorName": "Treutel-Murray"
+  "ConnectionId": 555,
+  "ConnectorName": "Herman Group"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "et",
-    "Rank": 425,
-    "DisplayName": "Bergnaum, Ratke and Rowe",
-    "DisplayDescription": "Sharable zero tolerance orchestration",
+    "FieldKey": "nulla",
+    "Rank": 547,
+    "DisplayName": "Nienow Inc and Sons",
+    "DisplayDescription": "Profit-focused empowering archive",
     "FieldType": "Checkbox",
-    "ListName": "Denesik Group",
-    "DefaultValue": "laboriosam",
-    "MaxLength": 315,
+    "ListName": "Grady-Ortiz",
+    "DefaultValue": "dolore",
+    "MaxLength": 306,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 186
       }
     }
   }

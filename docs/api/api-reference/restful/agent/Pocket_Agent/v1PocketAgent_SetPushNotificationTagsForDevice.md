@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Pocket/SetPushNotificationTagsForDevice
+title: SetPushNotificationTagsForDevice
 id: v1PocketAgent_SetPushNotificationTagsForDevice
 ---
 
-# POST Agents/Pocket/SetPushNotificationTagsForDevice
+# SetPushNotificationTagsForDevice
 
 ```http
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice

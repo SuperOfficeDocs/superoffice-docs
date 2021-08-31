@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/DeleteSaleEntity
+title: DeleteSaleEntity
 id: v1SaleAgent_DeleteSaleEntity
 ---
 
-# POST Agents/Sale/DeleteSaleEntity
+# DeleteSaleEntity
 
 ```http
 POST /api/v1/Agents/Sale/DeleteSaleEntity
@@ -24,7 +24,7 @@ Deletes the SaleEntity
 | SaleEntityId | int32 | **Required** The id of the SaleEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=314
+POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=555
 ```
 
 

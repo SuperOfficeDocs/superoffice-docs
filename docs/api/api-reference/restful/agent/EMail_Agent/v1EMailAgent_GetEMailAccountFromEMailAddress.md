@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetEMailAccountFromEMailAddress
+title: GetEMailAccountFromEMailAddress
 id: v1EMailAgent_GetEMailAccountFromEMailAddress
 ---
 
-# POST Agents/EMail/GetEMailAccountFromEMailAddress
+# GetEMailAccountFromEMailAddress
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "ipsa"
+  "FromAddress": "nulla"
 }
 ```
 
@@ -100,16 +100,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 51,
-  "EMailAddress": "harum",
-  "AssociateId": 818,
+  "EMailAccountId": 465,
+  "EMailAddress": "consequatur",
+  "AssociateId": 286,
   "IncomingCredentials": {
-    "ServiceAuthId": 154,
-    "Server": "sequi",
-    "Port": 841,
-    "AuthType": "quis",
-    "Username": "assumenda",
-    "Password": "quasi",
+    "ServiceAuthId": 893,
+    "Server": "numquam",
+    "Port": 176,
+    "AuthType": "doloribus",
+    "Username": "totam",
+    "Password": "minus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 61
       }
     }
   },
   "OutgoingCredentials": {
-    "ServiceAuthId": 641,
-    "Server": "modi",
-    "Port": 827,
-    "AuthType": "eligendi",
-    "Username": "adipisci",
-    "Password": "mollitia",
+    "ServiceAuthId": 682,
+    "Server": "vitae",
+    "Port": 763,
+    "AuthType": "dignissimos",
+    "Username": "quod",
+    "Password": "architecto",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "embrace sticky paradigms"
+          "Reason": "transition e-business architectures"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   },
-  "AccountStatus": 550,
-  "ErrorCount": 365,
+  "AccountStatus": 139,
+  "ErrorCount": 167,
   "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   }
 }

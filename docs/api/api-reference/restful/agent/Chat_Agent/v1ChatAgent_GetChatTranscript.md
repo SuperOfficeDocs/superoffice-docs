@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Chat/GetChatTranscript
+title: GetChatTranscript
 id: v1ChatAgent_GetChatTranscript
 ---
 
-# POST Agents/Chat/GetChatTranscript
+# GetChatTranscript
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTranscript
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Chat/GetChatTranscript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 422,
-  "Html": false
+  "ChatSessionId": 495,
+  "Html": true
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"necessitatibus"
+"doloribus"
 ```

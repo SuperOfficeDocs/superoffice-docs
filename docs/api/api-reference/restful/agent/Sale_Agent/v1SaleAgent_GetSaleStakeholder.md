@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Sale/GetSaleStakeholder
+title: GetSaleStakeholder
 id: v1SaleAgent_GetSaleStakeholder
 ---
 
-# POST Agents/Sale/GetSaleStakeholder
+# GetSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholder
@@ -25,7 +25,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=327
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=87
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ Response body: object
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -93,25 +93,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Shields-Macejkovic",
-  "Comment": "dolores",
-  "StakeholderRoleId": 955,
-  "CountryId": 218,
-  "PersonId": 127,
-  "EmailDescription": "thurman@hesselhaag.ca",
-  "EmailId": 89,
-  "EmailAddress": "brianne_goldner@reillyoconnell.biz",
-  "PhoneId": 416,
-  "ContactName": "Haley Group",
-  "ContactId": 576,
-  "SaleId": 274,
-  "Mrmrs": "quod",
-  "Firstname": "Rod",
-  "MiddleName": "Schuster Inc and Sons",
-  "Lastname": "Upton",
-  "SaleStakeholderId": 869,
-  "Rank": 242,
-  "Phone": "1-221-831-1482 x4285",
+  "StakeholderRoleName": "Grimes, Herzog and Satterfield",
+  "Comment": "enim",
+  "StakeholderRoleId": 603,
+  "CountryId": 356,
+  "PersonId": 719,
+  "EmailDescription": "hiram@hamillprice.us",
+  "EmailId": 276,
+  "EmailAddress": "mayra@grady.co.uk",
+  "PhoneId": 561,
+  "ContactName": "Nader LLC",
+  "ContactId": 339,
+  "SaleId": 642,
+  "Mrmrs": "optio",
+  "Firstname": "Addie",
+  "MiddleName": "Heller, Stehr and Homenick",
+  "Lastname": "Gorczany",
+  "SaleStakeholderId": 387,
+  "Rank": 583,
+  "Phone": "566.114.6323 x2456",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "enable scalable initiatives"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

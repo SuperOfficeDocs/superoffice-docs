@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Diagnostics/CollectDataAdditions
+title: CollectDataAdditions
 id: v1DiagnosticsAgent_CollectDataAdditions
 ---
 
-# POST Agents/Diagnostics/CollectDataAdditions
+# CollectDataAdditions
 
 ```http
 POST /api/v1/Agents/Diagnostics/CollectDataAdditions

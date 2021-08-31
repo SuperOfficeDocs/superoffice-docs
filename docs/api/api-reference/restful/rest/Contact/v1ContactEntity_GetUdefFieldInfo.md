@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 586,
-  "FieldDefault": "est",
-  "FieldHeight": 190,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 796,
-  "FieldTop": 368,
+  "UDefFieldId": 221,
+  "ColumnId": 837,
+  "FieldDefault": "omnis",
+  "FieldHeight": 172,
+  "FieldLabel": "eum",
+  "FieldLeft": 829,
+  "FieldTop": 962,
   "FieldType": "Checkbox",
-  "FieldWidth": 272,
-  "FormatMask": "consequuntur",
+  "FieldWidth": 368,
+  "FormatMask": "voluptas",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 247,
-  "LabelLeft": 122,
-  "LabelTop": 347,
-  "LabelWidth": 159,
-  "LastVersionId": 247,
-  "ListTableId": 135,
+  "IsIndexed": true,
+  "LabelHeight": 694,
+  "LabelLeft": 257,
+  "LabelTop": 257,
+  "LabelWidth": 396,
+  "LastVersionId": 652,
+  "ListTableId": 477,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 900,
-  "ProgId": "dolor",
-  "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 21,
-  "TextLength": 529,
-  "Tooltip": "laborum",
-  "UdefIdentity": 941,
-  "UDListDefinitionId": 567,
+  "Page1LineNo": 512,
+  "ProgId": "reprehenderit",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 148,
+  "TextLength": 411,
+  "Tooltip": "et",
+  "UdefIdentity": 761,
+  "UDListDefinitionId": 129,
   "Justification": "Center",
-  "Version": 175,
-  "TemplateVariableName": "O'Kon Group",
+  "Version": 517,
+  "TemplateVariableName": "Thompson, Aufderhar and Murphy",
   "HasBeenPublished": false,
-  "MdoListName": "Howe Group",
+  "MdoListName": "Crona-Zboncak",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 399
     }
   }
 }

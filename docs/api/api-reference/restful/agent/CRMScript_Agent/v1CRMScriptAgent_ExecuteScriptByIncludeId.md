@@ -1,15 +1,15 @@
 ---
-title: POST Agents/CRMScript/ExecuteScriptByIncludeId
+title: ExecuteScriptByIncludeId
 id: v1CRMScriptAgent_ExecuteScriptByIncludeId
 ---
 
-# POST Agents/CRMScript/ExecuteScriptByIncludeId
+# ExecuteScriptByIncludeId
 
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
 ```
 
-Execute a CRMScript with parameters
+Execute a CRMScript with parameters, returning printed output value.
 
 
 
@@ -71,14 +71,14 @@ Response body: string
 POST /api/v1/Agents/CRMScript/ExecuteScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "nisi",
+  "CRMScriptIncludeId": "aliquam",
   "Parameters": {
-    "Parameters1": "saepe",
-    "Parameters2": "quae"
+    "Parameters1": "voluptatem",
+    "Parameters2": "dolorem"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatibus"
+"natus"
 ```

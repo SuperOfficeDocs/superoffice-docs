@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Document/GetPersonDocumentsByTemplateTypes
+title: GetPersonDocumentsByTemplateTypes
 id: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
 ---
 
-# POST Agents/Document/GetPersonDocumentsByTemplateTypes
+# GetPersonDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -95,18 +95,18 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 957,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2008-11-15T16:48:29.3408937+01:00",
-  "EndTime": "2018-01-06T16:48:29.3408937+01:00",
-  "Count": 823,
+  "PersonId": 294,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2008-08-01T14:58:03.8274649+02:00",
+  "EndTime": "2000-09-19T14:58:03.8274649+02:00",
+  "Count": 554,
   "DocumentTemplateIds": [
-    541,
-    292
+    572,
+    80
   ]
 }
 ```
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 217,
-    "Attention": "enim",
-    "Header": "repellendus",
-    "Name": "Smith, Friesen and Conn",
-    "OurRef": "ea",
-    "YourRef": "consequuntur",
-    "Description": "Multi-tiered content-based info-mediaries",
+    "DocumentId": 608,
+    "Attention": "ea",
+    "Header": "qui",
+    "Name": "Beahan LLC",
+    "OurRef": "fugiat",
+    "YourRef": "et",
+    "Description": "Multi-channelled object-oriented extranet",
     "DocumentTemplate": "omnis",
     "IsPublished": true,
-    "PersonId": 110,
-    "PersonFullName": "Carol Hoeger",
-    "AssociateFullName": "Jeremy Stiedemann",
-    "ContactId": 880,
-    "ContactName": "Green-Koch",
-    "ProjectId": 670,
-    "ProjectName": "Littel Group",
-    "AssociateId": 674,
-    "Snum": 355,
+    "PersonId": 795,
+    "PersonFullName": "Antonia Keeling",
+    "AssociateFullName": "Ms. Carlie Kunze",
+    "ContactId": 85,
+    "ContactName": "Sawayn Group",
+    "ProjectId": 71,
+    "ProjectName": "Boyer, Stiedemann and Torphy",
+    "AssociateId": 33,
+    "Snum": 871,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "orchestrate turn-key initiatives"
+      "Reason": "engage synergistic eyeballs"
     },
     "FieldProperties": {
       "fieldName": {
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 840
       }
     }
   }

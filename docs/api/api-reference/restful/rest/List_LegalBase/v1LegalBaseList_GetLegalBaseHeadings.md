@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 665,
-    "Name": "Reichert LLC",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 991,
+    "HeadingId": 970,
+    "Name": "Terry-Braun",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "Rank": 146,
+    "UdListDefinitionId": 995,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldType": "System.String",
+        "FieldLength": 949
       }
     }
   }

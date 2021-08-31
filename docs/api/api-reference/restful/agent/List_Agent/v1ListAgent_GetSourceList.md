@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetSourceList
+title: GetSourceList
 id: v1ListAgent_GetSourceList
 ---
 
-# POST Agents/List/GetSourceList
+# GetSourceList
 
 ```http
 POST /api/v1/Agents/List/GetSourceList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Value": "fugiat",
-    "Tooltip": "eius",
+    "Id": 267,
+    "Value": "necessitatibus",
+    "Tooltip": "exercitationem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldLength": 175
       }
     }
   },
   {
-    "Id": 745,
-    "Value": "fugiat",
-    "Tooltip": "eius",
+    "Id": 267,
+    "Value": "necessitatibus",
+    "Tooltip": "exercitationem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldLength": 175
       }
     }
   }

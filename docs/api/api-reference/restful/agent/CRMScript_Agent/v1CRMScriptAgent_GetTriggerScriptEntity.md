@@ -1,9 +1,9 @@
 ---
-title: POST Agents/CRMScript/GetTriggerScriptEntity
+title: GetTriggerScriptEntity
 id: v1CRMScriptAgent_GetTriggerScriptEntity
 ---
 
-# POST Agents/CRMScript/GetTriggerScriptEntity
+# GetTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
@@ -27,7 +27,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=142
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=671
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 631,
-  "Name": "Friesen-Volkman",
+  "ScreenChooserId": 145,
+  "Name": "Gleichner-Graham",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "deleniti",
-  "Registered": "2003-03-02T16:48:29.2148946+01:00",
-  "RegisteredAssociateId": 112,
-  "Updated": "1995-04-23T16:48:29.2148946+02:00",
-  "UpdatedAssociateId": 744,
+  "UniqueIdentifier": "eos",
+  "Source": "sapiente",
+  "Registered": "1997-08-21T14:58:03.7484623+02:00",
+  "RegisteredAssociateId": 927,
+  "Updated": "1999-10-10T14:58:03.7484623+02:00",
+  "UpdatedAssociateId": 481,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 21
     }
   }
 }

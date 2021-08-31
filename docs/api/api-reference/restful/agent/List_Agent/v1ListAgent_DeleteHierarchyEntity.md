@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/DeleteHierarchyEntity
+title: DeleteHierarchyEntity
 id: v1ListAgent_DeleteHierarchyEntity
 ---
 
-# POST Agents/List/DeleteHierarchyEntity
+# DeleteHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/DeleteHierarchyEntity
@@ -24,7 +24,7 @@ Deletes the HierarchyEntity
 | HierarchyEntityId | int32 | **Required** The id of the HierarchyEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=75
+POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=139
 ```
 
 

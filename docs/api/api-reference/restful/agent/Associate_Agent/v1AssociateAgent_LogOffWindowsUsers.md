@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Associate/LogOffWindowsUsers
+title: LogOffWindowsUsers
 id: v1AssociateAgent_LogOffWindowsUsers
 ---
 
-# POST Agents/Associate/LogOffWindowsUsers
+# LogOffWindowsUsers
 
 ```http
 POST /api/v1/Agents/Associate/LogOffWindowsUsers

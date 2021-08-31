@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Quote/GetAllInstalledQuoteConnections
+title: GetAllInstalledQuoteConnections
 id: v1QuoteAgent_GetAllInstalledQuoteConnections
 ---
 
-# POST Agents/Quote/GetAllInstalledQuoteConnections
+# GetAllInstalledQuoteConnections
 
 ```http
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,54 +87,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 999,
-    "ERPName": "Gulgowski-Predovic",
-    "DisplayName": "Stokes-Trantow",
-    "DisplayDescription": "Object-based national model",
-    "Rank": 202,
-    "ConnectorName": "Aufderhar-Pacocha",
-    "ErpConnectionId": 541,
-    "ExtraData": "praesentium",
+    "QuoteConnectionId": 981,
+    "ERPName": "Wolff-Wiza",
+    "DisplayName": "Friesen-McGlynn",
+    "DisplayDescription": "Decentralized full-range focus group",
+    "Rank": 231,
+    "ConnectorName": "Lueilwitz Group",
+    "ErpConnectionId": 307,
+    "ExtraData": "odit",
     "IsAvailable": false,
     "InitializeResponse": {
       "IsOk": false,
-      "UserExplanation": "nemo",
-      "TechExplanation": "molestiae",
-      "ErrorCode": "et",
+      "UserExplanation": "sit",
+      "TechExplanation": "beatae",
+      "ErrorCode": "voluptates",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "cultivate sticky eyeballs"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldLength": 445
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 685,
-        "ERPPriceListKey": "non",
-        "QuoteConnectionId": 365,
-        "Name": "Will-Stracke",
-        "Description": "Quality-focused responsive workforce",
-        "Currency": "libero",
-        "CurrencyName": "Crooks Group",
-        "ValidFrom": "2010-01-13T16:48:30.4639412+01:00",
-        "ValidTo": "2005-06-16T16:48:30.4639412+02:00",
+        "PriceListId": 633,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 247,
+        "Name": "Stanton-Reichel",
+        "Description": "Virtual systematic model",
+        "Currency": "laboriosam",
+        "CurrencyName": "Kohler, Stokes and Berge",
+        "ValidFrom": "2013-06-02T14:58:04.9584649+02:00",
+        "ValidTo": "1998-03-22T14:58:04.9584649+01:00",
         "IsActive": true,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "disintermediate mission-critical ROI"
             },
             "FieldType": "System.String",
-            "FieldLength": 301
+            "FieldLength": 773
           }
         }
       }
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      456,
-      35
+      793,
+      68
     ],
     "AssociateAccessIds": [
-      455,
-      342
+      473,
+      503
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

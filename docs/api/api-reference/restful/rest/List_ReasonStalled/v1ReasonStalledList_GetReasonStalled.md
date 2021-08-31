@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Weber-Kovacek",
-  "Tooltip": "beatae",
+  "Id": 729,
+  "Name": "Hauck-Cartwright",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 446,
-  "Rank": 174,
+  "UdListDefinitionId": 613,
+  "Rank": 277,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

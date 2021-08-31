@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Hackett, Mayer and Blick",
-  "Tooltip": "quos",
+  "Id": 38,
+  "Name": "Nicolas, Collier and Bechtelar",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 834,
-  "Rank": 862
+  "UdListDefinitionId": 601,
+  "Rank": 82
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Schinner-Ledner",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 862,
-  "Rank": 880,
+  "Id": 517,
+  "Name": "Bayer-Fritsch",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 838,
+  "Rank": 151,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "empower viral architectures"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "envisioneer clicks-and-mortar mindshare"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

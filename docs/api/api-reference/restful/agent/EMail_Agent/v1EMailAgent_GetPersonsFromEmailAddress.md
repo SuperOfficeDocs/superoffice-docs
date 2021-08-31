@@ -1,9 +1,9 @@
 ---
-title: POST Agents/EMail/GetPersonsFromEmailAddress
+title: GetPersonsFromEmailAddress
 id: v1EMailAgent_GetPersonsFromEmailAddress
 ---
 
-# POST Agents/EMail/GetPersonsFromEmailAddress
+# GetPersonsFromEmailAddress
 
 ```http
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
@@ -118,7 +118,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "idella@parkerrempel.info"
+  "EmailAddress": "daryl_ryan@turcotte.ca"
 }
 ```
 
@@ -128,45 +128,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nostrum",
-    "PersonId": 435,
-    "Mrmrs": "atque",
-    "Firstname": "Corbin",
-    "Lastname": "Fadel",
-    "MiddleName": "Kuphal-Hand",
-    "Title": "itaque",
-    "Description": "Advanced exuding capacity",
-    "Email": "joyce@welch.info",
-    "FullName": "Miss Carmen Gorczany",
-    "DirectPhone": "112.007.1183",
-    "FormalName": "Ebert Inc and Sons",
-    "CountryId": 334,
-    "ContactId": 553,
-    "ContactName": "Brown-Wiegand",
-    "Retired": 728,
-    "Rank": 391,
-    "ActiveInterests": 314,
+    "Position": "omnis",
+    "PersonId": 199,
+    "Mrmrs": "nisi",
+    "Firstname": "Vicenta",
+    "Lastname": "Abernathy",
+    "MiddleName": "Senger, Walsh and Erdman",
+    "Title": "atque",
+    "Description": "Re-contextualized needs-based utilisation",
+    "Email": "celestino.corkery@ondricka.co.uk",
+    "FullName": "Alayna West",
+    "DirectPhone": "1-232-222-8375",
+    "FormalName": "Glover, Schuppe and Howe",
+    "CountryId": 564,
+    "ContactId": 184,
+    "ContactName": "Schmidt-Gleason",
+    "Retired": 619,
+    "Rank": 849,
+    "ActiveInterests": 10,
     "ContactDepartment": "",
-    "ContactCountryId": 686,
-    "ContactOrgNr": "1153745",
-    "FaxPhone": "058.170.1003",
-    "MobilePhone": "150-711-5366",
-    "ContactPhone": "530.638.7247 x357",
-    "AssociateName": "Grady-Ryan",
-    "AssociateId": 624,
-    "UsePersonAddress": true,
-    "ContactFax": "labore",
-    "Kanafname": "quia",
-    "Kanalname": "necessitatibus",
-    "Post1": "et",
-    "Post2": "dolores",
-    "Post3": "quasi",
-    "EmailName": "anibal_kutch@mcclure.ca",
-    "ContactFullName": "Brice Schmidt",
-    "ActiveErpLinks": 858,
-    "TicketPriorityId": 360,
-    "SupportLanguageId": 878,
-    "SupportAssociateId": 980,
+    "ContactCountryId": 872,
+    "ContactOrgNr": "1512696",
+    "FaxPhone": "551-120-7445 x821",
+    "MobilePhone": "212.272.6084 x0622",
+    "ContactPhone": "036-373-7544",
+    "AssociateName": "West Group",
+    "AssociateId": 77,
+    "UsePersonAddress": false,
+    "ContactFax": "quos",
+    "Kanafname": "nulla",
+    "Kanalname": "at",
+    "Post1": "ut",
+    "Post2": "id",
+    "Post3": "praesentium",
+    "EmailName": "maximus.maggio@medhurst.com",
+    "ContactFullName": "Vincenzo Hintz III",
+    "ActiveErpLinks": 432,
+    "TicketPriorityId": 497,
+    "SupportLanguageId": 742,
+    "SupportAssociateId": 810,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

@@ -62,7 +62,7 @@ Response body: array
 GET /api/v1/Selection/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -71,14 +71,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Satterfield LLC",
-    "SoPrimaryKey": 606,
-    "EntryName": "Grant, Hirthe and Treutel",
-    "EntryIdentifier": "saepe",
-    "RuleDisplayName": "Hane, Johnston and Stokes",
+    "RuleName": "Sporer Inc and Sons",
+    "SoPrimaryKey": 108,
+    "EntryName": "Simonis-Dicki",
+    "EntryIdentifier": "quae",
+    "RuleDisplayName": "Kerluke Group",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "integrate dynamic systems"
     },
     "FieldProperties": {
       "fieldName": {
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 898
       }
     }
   }

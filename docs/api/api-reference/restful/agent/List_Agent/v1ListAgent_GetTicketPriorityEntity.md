@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetTicketPriorityEntity
+title: GetTicketPriorityEntity
 id: v1ListAgent_GetTicketPriorityEntity
 ---
 
-# POST Agents/List/GetTicketPriorityEntity
+# GetTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/GetTicketPriorityEntity
@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=959
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=871
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -105,35 +105,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 132,
-  "Name": "Greenholt LLC",
+  "TicketPriorityId": 170,
+  "Name": "Romaguera, Gleason and Kling",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 799,
+  "SortOrder": 337,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 875,
-  "MonStart": "1995-05-04T16:48:29.7459261+02:00",
-  "MonStop": "2010-07-13T16:48:29.7459261+02:00",
-  "TueStart": "2014-11-04T16:48:29.7459261+01:00",
-  "TueStop": "2005-08-22T16:48:29.7459261+02:00",
-  "WedStart": "1994-05-24T16:48:29.7459261+02:00",
-  "WedStop": "2006-02-12T16:48:29.7459261+01:00",
-  "ThuStart": "2017-10-19T16:48:29.7459261+02:00",
-  "ThuStop": "2008-03-21T16:48:29.7459261+01:00",
-  "FriStart": "2013-04-16T16:48:29.7459261+02:00",
-  "FriStop": "1994-05-25T16:48:29.7459261+02:00",
-  "SatStart": "2018-08-13T16:48:29.7459261+02:00",
-  "SatStop": "2015-06-07T16:48:29.7459261+02:00",
-  "SunStart": "2006-11-28T16:48:29.7459261+01:00",
-  "SunStop": "2016-07-22T16:48:29.7459261+02:00",
+  "Deadline": 116,
+  "MonStart": "2003-04-24T14:58:04.3414599+02:00",
+  "MonStop": "2011-07-09T14:58:04.3414599+02:00",
+  "TueStart": "1996-08-16T14:58:04.3414599+02:00",
+  "TueStop": "1999-11-12T14:58:04.3414599+01:00",
+  "WedStart": "2003-01-13T14:58:04.3414599+01:00",
+  "WedStop": "2014-08-02T14:58:04.3414599+02:00",
+  "ThuStart": "2014-12-01T14:58:04.3414599+01:00",
+  "ThuStop": "2009-05-22T14:58:04.3414599+02:00",
+  "FriStart": "2007-06-28T14:58:04.3414599+02:00",
+  "FriStop": "2020-02-13T14:58:04.3414599+01:00",
+  "SatStart": "1994-05-02T14:58:04.3414599+02:00",
+  "SatStop": "2006-03-14T14:58:04.3414599+01:00",
+  "SunStart": "2018-12-11T14:58:04.3414599+01:00",
+  "SunStop": "2007-03-06T14:58:04.3414599+01:00",
   "NonDates": [
-    "itaque",
-    "magni"
+    "voluptas",
+    "impedit"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -143,10 +143,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "exploit proactive ROI"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldLength": 543
     }
   }
 }

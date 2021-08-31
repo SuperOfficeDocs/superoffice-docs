@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Preference/GetAll
+title: GetAll
 id: v1PreferenceAgent_GetAll
 ---
 
-# POST Agents/Preference/GetAll
+# GetAll
 
 ```http
 POST /api/v1/Agents/Preference/GetAll
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 19,
-    "Section": "ut",
-    "Key": "minima",
-    "Name": "Carter, Prohaska and Metz",
+    "PrefDescId": 755,
+    "Section": "maxime",
+    "Key": "voluptates",
+    "Name": "Towne-Hammes",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-tiered mobile challenge",
-    "IsBuiltin": false,
-    "TableName": "Franecki, Rutherford and Oberbrunner",
-    "UserDefinedListId": 595,
-    "Rank": 846,
-    "SubGroup": "omnis",
-    "MinLevel": 360,
-    "MaxValue": 756,
-    "MinValue": 574,
-    "RequiredLicense": "molestias",
+    "Description": "Secured uniform ability",
+    "IsBuiltin": true,
+    "TableName": "Muller, Smitham and Ullrich",
+    "UserDefinedListId": 127,
+    "Rank": 501,
+    "SubGroup": "quidem",
+    "MinLevel": 760,
+    "MaxValue": 866,
+    "MinValue": 463,
+    "RequiredLicense": "sit",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "expedite out-of-the-box supply-chains"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 932
       }
     }
   }

@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 510,
-    "ColumnId": 919,
-    "FieldDefault": "distinctio",
-    "FieldHeight": 806,
-    "FieldLabel": "praesentium",
-    "FieldLeft": 786,
-    "FieldTop": 668,
+    "UDefFieldId": 478,
+    "ColumnId": 142,
+    "FieldDefault": "odit",
+    "FieldHeight": 257,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 352,
+    "FieldTop": 271,
     "FieldType": "Checkbox",
-    "FieldWidth": 508,
-    "FormatMask": "explicabo",
-    "HideLabel": true,
+    "FieldWidth": 573,
+    "FormatMask": "sunt",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 322,
-    "LabelLeft": 187,
-    "LabelTop": 508,
-    "LabelWidth": 861,
-    "LastVersionId": 206,
-    "ListTableId": 177,
-    "IsMandatory": false,
+    "LabelHeight": 781,
+    "LabelLeft": 231,
+    "LabelTop": 633,
+    "LabelWidth": 412,
+    "LastVersionId": 34,
+    "ListTableId": 878,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 265,
-    "ProgId": "ad",
-    "IsReadOnly": false,
-    "ShortLabel": "consequuntur",
-    "TabOrder": 677,
-    "TextLength": 565,
-    "Tooltip": "impedit",
-    "UdefIdentity": 457,
-    "UDListDefinitionId": 30,
+    "Page1LineNo": 336,
+    "ProgId": "optio",
+    "IsReadOnly": true,
+    "ShortLabel": "pariatur",
+    "TabOrder": 131,
+    "TextLength": 668,
+    "Tooltip": "omnis",
+    "UdefIdentity": 34,
+    "UDListDefinitionId": 483,
     "Justification": "Center",
-    "Version": 98,
-    "TemplateVariableName": "Lesch, Waters and Hoppe",
+    "Version": 237,
+    "TemplateVariableName": "Green LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Grady-Heathcote",
+    "MdoListName": "Donnelly-Howell",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldLength": 557
       }
     }
   }

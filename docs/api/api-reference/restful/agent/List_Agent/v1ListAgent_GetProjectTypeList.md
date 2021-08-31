@@ -1,9 +1,9 @@
 ---
-title: POST Agents/List/GetProjectTypeList
+title: GetProjectTypeList
 id: v1ListAgent_GetProjectTypeList
 ---
 
-# POST Agents/List/GetProjectTypeList
+# GetProjectTypeList
 
 ```http
 POST /api/v1/Agents/List/GetProjectTypeList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Value": "commodi",
-    "Tooltip": "magni",
+    "Id": 707,
+    "Value": "vitae",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   },
   {
-    "Id": 66,
-    "Value": "commodi",
-    "Tooltip": "magni",
+    "Id": 707,
+    "Value": "vitae",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

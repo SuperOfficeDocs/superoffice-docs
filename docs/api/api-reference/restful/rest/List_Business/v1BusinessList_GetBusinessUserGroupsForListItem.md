@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Jacobi LLC",
-    "ToolTip": "Voluptatem velit ullam qui magni.",
-    "Deleted": false,
-    "Rank": 269,
-    "Type": "non",
-    "ColorBlock": 486,
-    "IconHint": "voluptates",
+    "Id": 539,
+    "Name": "Koss-Corkery",
+    "ToolTip": "Hic sed tempore doloremque repudiandae.",
+    "Deleted": true,
+    "Rank": 788,
+    "Type": "deserunt",
+    "ColorBlock": 608,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-06-03T09:41:00.1733616+02:00",
+    "LastChanged": "2018-04-07T15:05:43.2495449+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Labadie, Botsford and Littel",
-        "ToolTip": "Eum sed ducimus in in.",
-        "Deleted": true,
-        "Rank": 54,
-        "Type": "voluptate",
-        "ColorBlock": 907,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2011-03-17T09:41:00.1743658+01:00",
+        "Id": 589,
+        "Name": "Herman Group",
+        "ToolTip": "Beatae eos at eos.",
+        "Deleted": false,
+        "Rank": 234,
+        "Type": "porro",
+        "ColorBlock": 96,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2000-10-31T15:05:43.2495449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "maiores",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Avis Ziemann",
+        "FullName": "Mr. Carmella King",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 650
+            "FieldType": "System.Int32",
+            "FieldLength": 814
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "id",
+    "ExtraInfo": "molestias",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Dr. Albert Pagac",
+    "FullName": "Frederick Barrows Jr.",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "harness ubiquitous schemas"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

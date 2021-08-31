@@ -1,9 +1,9 @@
 ---
-title: POST Agents/ErpSync/DeleteErpSyncConnectorEntity
+title: DeleteErpSyncConnectorEntity
 id: v1ErpSyncAgent_DeleteErpSyncConnectorEntity
 ---
 
-# POST Agents/ErpSync/DeleteErpSyncConnectorEntity
+# DeleteErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity
@@ -26,7 +26,7 @@ Deletes the ErpSyncConnectorEntity
 | ErpSyncConnectorEntityId | int32 | **Required** The id of the ErpSyncConnectorEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=400
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=971
 ```
 
 

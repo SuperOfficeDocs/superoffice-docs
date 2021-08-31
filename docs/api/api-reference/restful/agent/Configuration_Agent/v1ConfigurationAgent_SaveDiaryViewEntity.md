@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Configuration/SaveDiaryViewEntity
+title: SaveDiaryViewEntity
 id: v1ConfigurationAgent_SaveDiaryViewEntity
 ---
 
-# POST Agents/Configuration/SaveDiaryViewEntity
+# SaveDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
@@ -77,39 +77,39 @@ Response body: object
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 538,
-  "Name": "Zemlak Group",
-  "Tooltip": "doloremque",
-  "VisibleColumns": 950,
-  "Rank": 482,
-  "AssocId": 762,
+  "DiaryViewId": 882,
+  "Name": "Haley, Quitzon and Bashirian",
+  "Tooltip": "est",
+  "VisibleColumns": 386,
+  "Rank": 171,
+  "AssocId": 593,
   "AssociateList": [
     {
-      "Id": 237,
-      "Name": "Tremblay-Nitzsche",
-      "ToolTip": "Nihil est nisi veniam quia fugiat.",
-      "Deleted": true,
-      "Rank": 480,
-      "Type": "consequatur",
-      "ColorBlock": 700,
-      "IconHint": "dolores",
-      "Selected": true,
-      "LastChanged": "2019-08-08T16:48:29.0040442+02:00",
+      "Id": 551,
+      "Name": "Hyatt-Fadel",
+      "ToolTip": "Quia esse beatae in.",
+      "Deleted": false,
+      "Rank": 760,
+      "Type": "et",
+      "ColorBlock": 206,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2017-03-28T14:58:03.5283103+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "magni",
+      "ExtraInfo": "molestias",
+      "StyleHint": "delectus",
       "Hidden": false,
-      "FullName": "Nadia Daniel"
+      "FullName": "Ms. Bettie Feeney"
     }
   ],
-  "TzLocationId": 725
+  "TzLocationId": 594
 }
 ```
 
@@ -118,32 +118,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 635,
-  "Name": "Padberg Group",
-  "Tooltip": "laborum",
-  "VisibleColumns": 551,
-  "Rank": 729,
-  "AssocId": 532,
+  "DiaryViewId": 512,
+  "Name": "Shanahan-White",
+  "Tooltip": "dolorem",
+  "VisibleColumns": 977,
+  "Rank": 635,
+  "AssocId": 124,
   "AssociateList": [
     {
-      "Id": 765,
-      "Name": "O'Conner LLC",
-      "ToolTip": "Iusto id eius nesciunt et.",
-      "Deleted": true,
-      "Rank": 488,
-      "Type": "occaecati",
-      "ColorBlock": 178,
-      "IconHint": "delectus",
-      "Selected": false,
-      "LastChanged": "1999-09-03T16:48:29.0049251+02:00",
+      "Id": 9,
+      "Name": "Cronin LLC",
+      "ToolTip": "Incidunt harum inventore voluptatem alias quod.",
+      "Deleted": false,
+      "Rank": 150,
+      "Type": "necessitatibus",
+      "ColorBlock": 210,
+      "IconHint": "ab",
+      "Selected": true,
+      "LastChanged": "1994-11-05T14:58:03.5293106+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolore",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "error",
+      "StyleHint": "neque",
       "Hidden": true,
-      "FullName": "Hazel Thompson",
+      "FullName": "Duncan Lind",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     }
   ],
-  "TzLocationId": 970,
+  "TzLocationId": 718,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: POST Agents/User/GetAccessToken
+title: GetAccessToken
 id: v1UserAgent_GetAccessToken
 ---
 
-# POST Agents/User/GetAccessToken
+# GetAccessToken
 
 ```http
 POST /api/v1/Agents/User/GetAccessToken
@@ -75,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "nesciunt",
+  "AppToken": "ducimus",
   "IncludeCsSession": false
 }
 ```
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"culpa"
+"quis"
 ```

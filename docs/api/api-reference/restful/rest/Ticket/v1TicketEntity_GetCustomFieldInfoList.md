@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nitzsche LLC",
-    "DisplayName": "Lebsack LLC",
-    "Description": "Digitized homogeneous algorithm",
-    "ShortLabel": "quo",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Mitchell-Raynor",
+    "DisplayName": "Ziemann, Jast and McClure",
+    "Description": "Fundamental regional throughput",
+    "ShortLabel": "ut",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 892,
-    "TemplateVariableName": "Schulist-Marvin"
+    "IsExternal": false,
+    "Rank": 244,
+    "TemplateVariableName": "Lindgren-McClure"
   }
 ]
 ```

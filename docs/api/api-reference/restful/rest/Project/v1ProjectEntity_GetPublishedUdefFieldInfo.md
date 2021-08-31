@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 744,
-  "ColumnId": 387,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 673,
-  "FieldLabel": "saepe",
-  "FieldLeft": 843,
-  "FieldTop": 234,
+  "UDefFieldId": 471,
+  "ColumnId": 125,
+  "FieldDefault": "sint",
+  "FieldHeight": 127,
+  "FieldLabel": "ullam",
+  "FieldLeft": 656,
+  "FieldTop": 909,
   "FieldType": "Checkbox",
-  "FieldWidth": 485,
-  "FormatMask": "omnis",
+  "FieldWidth": 423,
+  "FormatMask": "eveniet",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 271,
-  "LabelLeft": 647,
-  "LabelTop": 179,
-  "LabelWidth": 178,
-  "LastVersionId": 397,
-  "ListTableId": 497,
+  "IsIndexed": false,
+  "LabelHeight": 265,
+  "LabelLeft": 407,
+  "LabelTop": 194,
+  "LabelWidth": 420,
+  "LastVersionId": 670,
+  "ListTableId": 170,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 335,
-  "ProgId": "ut",
+  "Page1LineNo": 173,
+  "ProgId": "quaerat",
   "IsReadOnly": false,
-  "ShortLabel": "delectus",
-  "TabOrder": 182,
-  "TextLength": 385,
-  "Tooltip": "veniam",
-  "UdefIdentity": 615,
-  "UDListDefinitionId": 126,
+  "ShortLabel": "sequi",
+  "TabOrder": 87,
+  "TextLength": 601,
+  "Tooltip": "velit",
+  "UdefIdentity": 166,
+  "UDListDefinitionId": 954,
   "Justification": "Center",
-  "Version": 300,
-  "TemplateVariableName": "Lesch, Boyle and Bradtke",
+  "Version": 115,
+  "TemplateVariableName": "Upton Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Leuschke-Bergstrom",
+  "MdoListName": "Jacobi Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldLength": 390
     }
   }
 }

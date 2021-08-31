@@ -1,9 +1,9 @@
 ---
-title: POST Agents/Marketing/CreateDefaultFormEntity
+title: CreateDefaultFormEntity
 id: v1MarketingAgent_CreateDefaultFormEntity
 ---
 
-# POST Agents/Marketing/CreateDefaultFormEntity
+# CreateDefaultFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 346,
-  "FormKey": "vitae",
-  "Name": "Hamill-Mills",
-  "Description": "Extended maximized structure",
-  "Config": "in",
-  "FolderId": 931,
-  "ScriptId": 922,
-  "ResponseShipmentId": 336,
+  "FormId": 817,
+  "FormKey": "quasi",
+  "Name": "Adams, Volkman and Gleichner",
+  "Description": "Assimilated motivating open system",
+  "Config": "molestiae",
+  "FolderId": 341,
+  "ScriptId": 664,
+  "ResponseShipmentId": 240,
   "Active": false,
-  "Expires": "2001-04-13T16:48:29.9499248+02:00",
-  "MaxSubmits": 653,
+  "Expires": "1995-02-27T14:58:04.491465+01:00",
+  "MaxSubmits": 500,
   "Type": "Normal",
-  "Recipe": "temporibus",
-  "GroupId": 576,
+  "Recipe": "mollitia",
+  "GroupId": 433,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-04-28T16:48:29.9499248+02:00",
-  "RegisteredAssociateId": 611,
-  "Updated": "1995-11-05T16:48:29.9499248+01:00",
-  "UpdatedAssociateId": 266,
-  "UpdatedCount": 755,
-  "FolderName": "Roberts Inc and Sons",
+  "Registered": "2018-10-06T14:58:04.491465+02:00",
+  "RegisteredAssociateId": 789,
+  "Updated": "2018-06-27T14:58:04.491465+02:00",
+  "UpdatedAssociateId": 416,
+  "UpdatedCount": 870,
+  "FolderName": "Bergstrom Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 153
     }
   }
 }
