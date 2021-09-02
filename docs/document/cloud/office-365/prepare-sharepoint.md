@@ -25,10 +25,6 @@ The O365 username (User Principal Name, UPN) is managed by your Office 365 Azure
 
 You see the UPN username in the O365 admin -> users section: [https://admin.microsoft.com/AdminPortal/Home#/users][2]
 
-## Make sure you have enabled SuperID for your site
-
-Your site needs to be on the [SuperID][4] platform. Easily done in [this form][3]
-
 ## Make sure you have registered your IDP for your domain
 
 [How to configure IDP SuperID][5]
@@ -65,7 +61,6 @@ If some existing users do not get asked to switch to IDP authentication, a user 
 
 <!-- Referenced links -->
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
-[3]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [4]: ../../../identity-management/superid/overview.md
 [5]: ../../../identity-management/superid/howto/register-idp.md
 
