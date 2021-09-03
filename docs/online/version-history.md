@@ -3,7 +3,7 @@ title: Version history
 uid: online_version_history
 description: SuperOffice CRM Online version history
 author: {github-id}
-keywords:
+keywords: online, version, history, releases
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -111,7 +111,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 9.2 R08 - (2021.04.26-02) | 27.04.2021 |
 | 9.2 R09 - (2021.05.12-07) | 18.05.2021 |
 | 9.2 R10 - (2021.06.18-03) | 25.06.2021 |
-
+| 9.2 R11 - (2021.08.30-01) | 31.08.2021 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
