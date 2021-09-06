@@ -5,7 +5,7 @@ description: What's new in the latest database version.
 so.generated: true
 keywords:
   - "database"
-so.date: 22.03.2021
+so.date: 03.22.2021
 so.topic: reference
 so.envir:
   - "onsite"
