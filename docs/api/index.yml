@@ -230,6 +230,10 @@ additionalContent:
         summary: API reference documentation for NetServer Services
         url: api-reference/netserver/services/index.md
       # Card
+      - title: "NetServer SOAP API reference"
+        summary: API reference documentation for SOAP endpoints
+        url: api-reference/soap/index.md
+      # Card
       - title: "RESTful REST API reference"
         summary: API reference documentation for REST endpoints
         url: api-reference/restful/rest/index.md
@@ -238,9 +242,9 @@ additionalContent:
         summary: API reference documentation for AGENT REST endpoints
         url: api-reference/restful/agent/index.md
       # Card
-      - title: "SOAP API reference"
-        summary: API reference documentation for SOAP endpoints
-        url: api-reference/soap/index.md
+      - title: "Service SOAP API reference"
+        summary: API reference documentation for Service SOAP endpoints
+        url: service-soap/overview.md
       # Card
       - title: "Web Application API"
         summary: API reference documentation for Web Application
