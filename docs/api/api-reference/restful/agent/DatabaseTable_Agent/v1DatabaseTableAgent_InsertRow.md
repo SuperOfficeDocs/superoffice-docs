@@ -11,13 +11,8 @@ POST /api/v1/Agents/DatabaseTable/InsertRow
 
 Insert a row into a table
 
-
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+> [!NOTE]
+> Must have function right admin-all or cs-listextratablecontent.
 
 ## Query String Parameters
 

@@ -13,12 +13,8 @@ Drop all rows in a table.
 
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+> [!NOTE]
+> Must be a system user to perform this operation.
 
 ## Query String Parameters
 

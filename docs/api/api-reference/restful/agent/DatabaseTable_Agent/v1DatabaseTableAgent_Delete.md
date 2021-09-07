@@ -11,14 +11,8 @@ POST /api/v1/Agents/DatabaseTable/Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
-
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+> [!NOTE]
+> Must be a system user to perform this operation.
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 

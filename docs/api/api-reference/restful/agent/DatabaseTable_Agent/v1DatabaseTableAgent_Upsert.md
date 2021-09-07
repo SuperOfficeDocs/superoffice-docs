@@ -13,12 +13,8 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
 Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
 
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+> [!NOTE]
+> Must be a system user to perform this operation.
 
 ## Query String Parameters
 

@@ -13,12 +13,8 @@ Mass-insert rows, with or without primary keys specified.
 
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
 
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+> [!NOTE]
+> Must be a system user to perform this operation.
 
 ## Query String Parameters
 
