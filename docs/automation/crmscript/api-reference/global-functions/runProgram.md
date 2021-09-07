@@ -10,6 +10,9 @@ so.topic: reference
 
 # String runProgram()
 
+>[!Note]
+> This method is not available in CRM Online.
+
 Executes the program (given command) and returns what was sent to stdout. You can optionally pass the codepage used.
 
 > [!NOTE]

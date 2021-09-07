@@ -9,4 +9,7 @@ so.topic: reference
 
 # Void setCookie(String name, String value, Bool persistent)
 
+>[!Note]
+> This method is not available in CRM Online.
+
 NB! Doesn't work in the customer center, use parser variable with an underscore (_) instead.

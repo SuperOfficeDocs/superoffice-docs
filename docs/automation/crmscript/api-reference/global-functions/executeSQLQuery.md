@@ -9,4 +9,7 @@ so.topic: reference
 
 # executeSQLQuery(String sql)
 
+>[!Note]
+> This method is not available in CRM Online.
+
 This will execute the specified SQL statement. Note that this method does not return anything. In case of an error in the SQL statement, an exception will be thrown.
