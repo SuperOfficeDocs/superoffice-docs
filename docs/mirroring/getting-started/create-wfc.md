@@ -90,10 +90,60 @@ You get the private certificate key for SOD from SuperOffice. **You must provide
 
 ### system.serviceModel section
 
-Now present is a binding **ExtendedMaxSize**, because synchronizing database requires a lot of data, and in the services section a new service entry for the mirroring service.
+Because synchronizing database requires a lot of data, it's important to set size options to the maximum capabilities for the mirroring service.
 
-![x -screenshot][img9]
+A complete system.serviceModel configuration example:
 
+```xml
+<system.serviceModel>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior>
+          <!-- To avoid disclosing metadata information, 
+               set the values below to false before deployment -->
+          <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />
+          <!-- To receive exception details in faults for debugging purposes, 
+               set the value below to true. Set to false before deployment to 
+               avoid disclosing exception information -->
+          <serviceDebug includeExceptionDetailInFaults="false" />
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <protocolMapping>
+        <add binding="basicHttpsBinding" 
+             scheme="https" 
+             bindingConfiguration="DbMirroring" />
+    </protocolMapping>    
+    <serviceHostingEnvironment 
+      aspNetCompatibilityEnabled="true" 
+    multipleSiteBindingsEnabled="true" />
+    <bindings>
+      <basicHttpsBinding>
+        <binding name="DbMirroring" 
+                 maxBufferPoolSize="2147483647" 
+                 maxReceivedMessageSize="2147483647" 
+                 maxBufferSize="2147483647">
+          <readerQuotas maxDepth="2147483647" 
+                        maxStringContentLength="2147483647" 
+                        maxArrayLength="2147483647" 
+                        maxBytesPerRead="2147483647" 
+                        maxNameTableCharCount="2147483647" />
+        </binding>
+      </basicHttpsBinding>
+    </bindings>
+    <services>
+      <service name="DatabaseMirroringProject.SuperOfficeMirror.MirroringClientService">
+        <endpoint binding="basicHttpsBinding" 
+                  bindingConfiguration="DbMirroring" 
+                  contract="SuperOffice.Online.Mirroring.Contract.IMirroringClientService" />
+      </service>
+    </services>
+  </system.serviceModel>
+```
+
+The naming and linking of key items is annotated in the following image.
+
+![x -screenshot][img12]
 ## Expose service to a public secure URL
 
 **Open the service in a browser:**
@@ -127,3 +177,4 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 [img9]: media/webconfigpostinstallservermodel.png
 [img10]: media/wcfserviceiniis.png
 [img11]: media/wcfserviceiniis-https.png
+[img12]: media/system-servicemodel-config.png
