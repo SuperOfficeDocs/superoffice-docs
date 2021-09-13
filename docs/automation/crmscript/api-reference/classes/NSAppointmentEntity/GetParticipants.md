@@ -1,19 +1,19 @@
 ---
 uid: crmscript_ref_NSAppointmentEntity_GetParticipants
-title: ParticipantInfo[] GetParticipants()
+title: NSParticipantInfo[] GetParticipants()
 intellisense: NSAppointmentEntity.GetParticipants
 keywords: NSAppointmentEntity, GetParticipants
 so.topic: reference
 ---
 
-# ParticipantInfo[] GetParticipants()
+# NSParticipantInfo[] GetParticipants()
 
 List of id's of the participants to this appointment.
 
-**Returns:** ParticipantInfo[]
+**Returns:** NSParticipantInfo[]
 
 ```crmscript
 NSAppointmentEntity thing;
-ParticipantInfo[] participants  = thing.GetParticipants();
+NSParticipantInfo[] participants  = thing.GetParticipants();
 ```
 
