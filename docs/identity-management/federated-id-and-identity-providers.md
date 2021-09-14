@@ -33,11 +33,11 @@ Today we support 2 different 3rd-party identity providers:
 * Google Domains
   * Basic, Business, and Enterprise of Google Workspace subscriptions include this
 * Microsoft Azure AD (AAD)
-  * Many Office365 / Microsoft 365 subscriptions include this
+  * Many Microsoft 365 subscriptions include this
   * Azure AD Premium P1 or higher.
 
 >[!NOTE]
-> For other identity providers that support OpenID Connect/OAuth 2.0., please give your feedback, and we will look into adding support for it.
+> For other identity providers that support OpenID Connect/OAuth 2.0, please give your feedback, and we will look into adding support for it.
 
 Other ways of achieving this can be to use:
 
@@ -64,7 +64,7 @@ Whether users sign in with a password or via a federated sign-in service depends
 If you answer *yes* to both questions, the federated identity is used. Otherwise, SuperID falls back to password-based sign-in.
 
 > [!NOTE]
-> Some user can have federated sign-in, and some password - depending on the domain-part of their SuperOffice username: name@**domain-name**
+> Some users can have federated sign-in, and some password, depending on the domain-part of their SuperOffice username: name@**domain-name**
 
 ## Why should I use federated IDs?
 

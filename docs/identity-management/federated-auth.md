@@ -11,7 +11,7 @@ so.client: online
 
 # Federated authentication
 
-SuperID is an authentication page that acts as a federation gateway towards the SuperOffice identity provider central-superid, Google, and Office 365.
+SuperID is an authentication page that acts as a federation gateway towards the SuperOffice identity provider central-superid, Google, and Microsoft 365.
 
 ## Traditionally
 
@@ -27,23 +27,23 @@ The SuperID sign-in page handles username + passwords and checks them against th
 
 This is fine so long as SuperOffice is the most important thing in the universe.
 
-When Google or Office365 are the most important things in the universe, we can’t use the password stored in the database anymore. The password is not accessible to us anymore. We can’t check it directly – we can just delegate the whole username/password problem to Google/Office365.
+When Google or Microsoft 365 are the most important things in the universe, we can’t use the password stored in the database anymore. The password is not accessible to us anymore. We can’t check it directly – we can just delegate the whole username/password problem to Google/Microsoft 365.
 
-SuperOffice wants to access user information and store documents in the Google or Office365 cloud. For SuperOffice to access your part of the Google or Office365 cloud, there needs to be a link between your SuperOffice identity (stored in the SO database) and your Google/Office365 identity.
+SuperOffice wants to access user information and store documents in the Google or Microsoft 365 cloud. For SuperOffice to access your part of the Google or Microsoft 365 cloud, there needs to be a link between your SuperOffice identity (stored in the SO database) and your Google/Microsoft 365 identity.
 
 ![x][img3]
 
-This is called Federation – SuperOffice and Google/Office365 share the same idea about who you are.
+This is called Federation – SuperOffice and Google/Microsoft 365 share the same idea about who you are.
 
-Google explains how its login system works at [https://developers.google.com/accounts/docs/OAuth2Login][1]. [Office 365 is similar][2].
+Google explains how its login system works at [https://developers.google.com/accounts/docs/OAuth2Login][1]. [Microsoft 365 is similar][2].
 
 Both use the OAuth 2.0 protocol. Both require that developers register their applications with their central registry. This registration makes it harder for hackers to steal the results of your login.
 
 ### Signing in to SuperOffice CRM Online as a user
 
-SuperOffice is registered as an application with both Google and Office 365 so that we can use their services for logging in, and get the authentication request sent back to us.
+SuperOffice is registered as an application with both Google and Microsoft 365 so that we can use their services for logging in, and get the authentication request sent back to us.
 
-When a user wants to log in to SuperOffice using Google or Office 365, they first go to the SuperOffice login page where they are shown a login page. Once the user has filled in the username, we can check if their account is connected to Google or Office 365. If they are connected to Google, we show a "Login with Google" button instead of the password field.
+When a user wants to log in to SuperOffice using Google or Microsoft 365, they first go to the SuperOffice login page where they are shown a login page. Once the user has filled in the username, we can check if their account is connected to Google or Microsoft 365. If they are connected to Google, we show a "Login with Google" button instead of the password field.
 
 The SuperOffice login page sends the user off to the Google login page, with a note to come back to the SuperOffice login page once Google has figured out who the user is.
 

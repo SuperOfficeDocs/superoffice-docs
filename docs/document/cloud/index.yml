@@ -48,7 +48,7 @@ landingContent:
             url: g-suite/set-up.md
 
 # Card
-  - title: Office 365 document integration
+  - title: Microsoft 365 document integration
     linkLists:
       - linkListType: concept
         links:

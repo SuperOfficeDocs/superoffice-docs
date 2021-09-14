@@ -46,9 +46,9 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 2. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 
-    ![0365signin.png -screenshot][img2]
+    ![Microsoft 365 sign-in -screenshot][img2]
 
-    ![googlesignin.png -screenshot][img3]
+    ![Google sign-in -screenshot][img3]
 
 3. Confirm that all users of this domain should use the identity provider.
 
@@ -58,7 +58,7 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 1. Authenticate with a Google account in the domain.
 
-    ![google signin -screenshot][img5]
+    ![Google sign-in -screenshot][img5]
 
 2. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 
@@ -76,9 +76,9 @@ When the user signs in, the domain of the username (the part after the @ sign) w
 
 ![image62fbl.png -screenshot][img8]
 
-Primary domain registration complete!
+Primary domain registration is complete!
 
-After registering the IdP, existing password users has to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+After registering the IdP, existing password users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
 
 ## Register additional domains
 

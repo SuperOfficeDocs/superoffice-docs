@@ -30,7 +30,7 @@ Let's look at how SuperID changes how you use and set up identity providers (IdP
 
 * [Google Workspace integration][1] is self-service.
 
-* [Office 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
+* [Microsoft 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
 
 <!-- Referenced links -->
 [1]: ../../document/cloud/g-suite/set-up.md

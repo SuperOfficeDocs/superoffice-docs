@@ -115,11 +115,11 @@ Click **Configure SuperOffice**.
 
 If the linking of SuperOffice and Google is successful this will be reported. (If the linking fails - please contact SuperOffice Support.)
 
-Your SuperOffice Online installation is now able to talk to Google Workspace and use your service-accounts Google Drive as a document-storage backend.
+Your SuperOffice Online installation is now able to talk to Google Workspace and use your service account's Google Drive as a document-storage backend.
 
 ## 4 – Update document template storage location in SuperOffice Admin
 
-This step is the same for both MS Office 365 and Google Workspace document integration.
+This step is the same for both Microsoft 365 and Google Workspace document integration.
 
 [Configure Cloud Office document handling][7].
 
