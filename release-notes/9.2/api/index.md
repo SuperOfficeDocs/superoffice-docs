@@ -11,9 +11,11 @@ so.date: 04.28
 * [Mass Operations][6]
 * [Chatbot – CRMScript Chatbots (9.2 R08)][8]
 * [NetServer Logger requirements][9]
+* [SHA512 support in CRMScript][11]
 
 <!-- Referenced links-->
 [3]: 9.2-R03-update.md
 [6]: 9.2-R06-update.md
 [8]: 9.2-R08-update.md
 [9]: 9.2-R09-update.md
+[11]: 9.2-R11-update.md

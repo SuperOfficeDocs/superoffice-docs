@@ -48,6 +48,8 @@ items:
     href: marketing/9.2-R09-update.md
   - name: 9.2 R10 update
     href: marketing/9.2-R10-update.md
+  - name: 9.2 R11 update
+    href: marketing/9.2-R11-update.md
 - name: Service
   href: service/index.md
   items:
@@ -57,6 +59,8 @@ items:
     href: service/9.2-R06-update.md
   - name: 9.2 R07 update
     href: service/9.2-R07-update.md
+  - name: 9.2 R11 update
+    href: service/9.2-R11-update.md
 - name: Mobile
   href: mobile/index.md
   items:
@@ -94,3 +98,5 @@ items:
     href: api/9.2-R08-update.md
   - name: 9.2 R09 update
     href: api/9.2-R09-update.md
+  - name: 9.2 R11 update
+    href: api/9.2-R11-update.md
