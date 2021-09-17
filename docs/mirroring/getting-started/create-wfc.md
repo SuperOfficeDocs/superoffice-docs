@@ -17,6 +17,10 @@ This walk-through will guide you through creating a new WCF service from scratch
 
 These steps were documented using Visual Studio 2015.
 
+> [!NOTE]
+> You can download the completed result of these steps on GitHub.
+> View the [DevNet-Database-Mirroring repository](https://github.com/SuperOffice/devnet-database-mirroring) on GitHub.
+
 ## Create a new WCF Service Application in Visual Studio
 
 1. In Visual Studio, click **File**, then **New**, and then **Project**.
@@ -110,7 +114,7 @@ A complete system.serviceModel configuration example:
       </serviceBehaviors>
     </behaviors>
     <protocolMapping>
-        <add binding="basicHttpsBinding" 
+        <add binding="basicHttpBinding" 
              scheme="https" 
              bindingConfiguration="DbMirroring" />
     </protocolMapping>    
@@ -118,7 +122,7 @@ A complete system.serviceModel configuration example:
       aspNetCompatibilityEnabled="true" 
     multipleSiteBindingsEnabled="true" />
     <bindings>
-      <basicHttpsBinding>
+      <basicHttpBinding>
         <binding name="DbMirroring" 
                  maxBufferPoolSize="2147483647" 
                  maxReceivedMessageSize="2147483647" 
@@ -129,11 +133,11 @@ A complete system.serviceModel configuration example:
                         maxBytesPerRead="2147483647" 
                         maxNameTableCharCount="2147483647" />
         </binding>
-      </basicHttpsBinding>
+      </basicHttpBinding>
     </bindings>
     <services>
       <service name="DatabaseMirroringProject.SuperOfficeMirror.MirroringClientService">
-        <endpoint binding="basicHttpsBinding" 
+        <endpoint binding="basicHttpBinding" 
                   bindingConfiguration="DbMirroring" 
                   contract="SuperOffice.Online.Mirroring.Contract.IMirroringClientService" />
       </service>
