@@ -112,6 +112,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 9.2 R09 - (2021.05.12-07) | 18.05.2021 |
 | 9.2 R10 - (2021.06.18-03) | 25.06.2021 |
 | 9.2 R11 - (2021.08.30-01) | 31.08.2021 |
+| 9.2 R12 - (2021.09.20-03) | 14.09.2021 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
