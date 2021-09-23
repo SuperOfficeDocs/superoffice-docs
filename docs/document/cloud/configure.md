@@ -45,7 +45,7 @@ Templates are displayed as items in the **Document - Template** list and you l
 3. Add template file:
 
     * Enter a name.
-    * Set **Store template in** to either "Google" or "Microsoft 365".
+    * Set **Store template in** to either "Google" or "Office365".
     * Choose the source of the new template (create, upload, or copy).
     * Click **Save**.
 
@@ -56,7 +56,7 @@ Templates are displayed as items in the **Document - Template** list and you l
 5. Enter the required information in the **Details** and **Languages** tabs:
 
     * Select **Direction** (outgoing or incoming)
-    * Choose where to store document created by this template: set **Document stored in** to either  "Google" or "Microsoft 365".
+    * Choose where to store document created by this template: set **Document stored in** to either  "Google" or "Office365".
     * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
     * Optionally, enter a description.
 
