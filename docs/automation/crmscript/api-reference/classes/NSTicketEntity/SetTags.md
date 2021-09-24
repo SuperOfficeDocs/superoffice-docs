@@ -1,21 +1,21 @@
 ---
 uid: crmscript_ref_NSTicketEntity_SetTags
-title: SetTags(Tag[] tags)
+title: SetTags(NSTag[] tags)
 intellisense: NSTicketEntity.SetTags
 keywords: NSTicketEntity, GetTags
 so.topic: reference
 ---
 
-# SetTags(Tag[] tags)
+# SetTags(NSTag[] tags)
 
 An array containing the tags assigned to this request
 
 **Parameter:** 
- - **tags** Tag[]
+ - **tags** NSTag[]
 
 ```crmscript
 NSTicketEntity thing;
-Tag[] tags;
+NSTag[] tags;
 thing.SetTags(tags);
 ```
 
