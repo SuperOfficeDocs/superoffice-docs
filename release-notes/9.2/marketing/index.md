@@ -1,6 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 04.28
+so.date: 04.28.2021
+so.topic: reference
 ---
 
 # New and improved Marketing
@@ -16,7 +17,7 @@ so.date: 04.28
 * [Forms – Integer on Form elements (9.2 R05)][5]
 * [Forms – Watermark with Powered by SuperOffice (9.2. R06)][6]
 * [Forms – Specify default Category and Business (9.2. R06)][6]
-* [Forms – Added request are set with Origin = Form (9.2. R06)][6]
+* [Forms – Added request is set with Origin = Form (9.2. R06)][6]
 * [Forms – The form submission shows icon instead of number (9.2. R06)][6]
 * [Forms – Hide tag Powered by SuperOffice (9.2 R08)][8]
 * [Forms – Rating icons with new look (9.2 R08)][8]
@@ -24,6 +25,8 @@ so.date: 04.28
 * [Forms – The request view of form (9.2 R08)][8]
 * [Forms – Create requests with forms (9.2 R08)][8]
 * [Mailing - Tracked links with new hostname][9]
+* [Mailing – Bounce management per mailing][11]
+* [Forms – Form response mailing with the form info][11]
 
 <!-- Referenced links-->
 [1]: 9.2-R01-update.md
@@ -34,3 +37,4 @@ so.date: 04.28
 [6]: 9.2-R06-update.md
 [8]: 9.2-R08-update.md
 [9]: 9.2-R09-update.md
+[11]: 9.2-R11-update.md
