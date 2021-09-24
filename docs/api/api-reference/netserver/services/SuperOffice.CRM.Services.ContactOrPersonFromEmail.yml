@@ -34,6 +34,7 @@ items:
     content: 'public class ContactOrPersonFromEmail : Carrier'
     content.vb: >-
       Public Class ContactOrPersonFromEmail
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

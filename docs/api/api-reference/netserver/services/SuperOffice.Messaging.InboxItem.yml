@@ -27,6 +27,7 @@ items:
     content: 'public class InboxItem : NestedPersistFacade'
     content.vb: >-
       Public Class InboxItem
+
           Inherits NestedPersistFacade
   inheritance:
   - System.Object

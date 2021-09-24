@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
   - SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
-  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
-  - SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  - SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
   langs:
   - csharp
@@ -35,6 +36,7 @@ items:
       <Agent("AI Agent", "Interface for the AI Agent. AI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers")>
 
       Public Interface IAIAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -140,16 +142,16 @@ items:
       description: Translated text
     content.vb: Function Translate(text As String, targetLanguage As String) As String
   overload: SuperOffice.CRM.Services.IAIAgent.Translate*
-- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
-  id: GuessCategory(System.String,System.String)
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  id: GuessCategory(System.Int32)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: GuessCategory(String, String)
-  nameWithType: IAIAgent.GuessCategory(String, String)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String, System.String)
+  name: GuessCategory(Int32)
+  nameWithType: IAIAgent.GuessCategory(Int32)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
   type: Method
   source:
     path: SuperOffice.Services
@@ -157,31 +159,28 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGiven a ticket&apos;s subject and message body, guess the ticket category it should be placed in\n"
+  summary: "\nGiven a ticket&apos;s id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket\n"
   syntax:
-    content: string GuessCategory(string subject, string text)
+    content: int GuessCategory(int ticketId)
     parameters:
-    - id: subject
-      type: System.String
-      description: Ticket subject
-    - id: text
-      type: System.String
-      description: Ticket body text (not HTML)
+    - id: ticketId
+      type: System.Int32
+      description: Id of ticket to guess category for
     return:
-      type: System.String
-      description: Suggested ticket category full name
-    content.vb: Function GuessCategory(subject As String, text As String) As String
+      type: System.Int32
+      description: Suggested ticket category ID
+    content.vb: Function GuessCategory(ticketId As Integer) As Integer
   overload: SuperOffice.CRM.Services.IAIAgent.GuessCategory*
-- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
-  id: TrainCategorizer
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  id: TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
   parent: SuperOffice.CRM.Services.IAIAgent
   langs:
   - csharp
   - vb
-  name: TrainCategorizer()
-  nameWithType: IAIAgent.TrainCategorizer()
-  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer()
+  name: TrainCategoryGuesser(Int32, Int32, Int32)
+  nameWithType: IAIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
   type: Method
   source:
     path: SuperOffice.Services
@@ -189,14 +188,49 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrain categorizer with a \n"
+  summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
   syntax:
-    content: string TrainCategorizer()
+    content: string TrainCategoryGuesser(int selectionId, int maxItems, int maxTextLength)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection of tickets, to retrieve training data from
+    - id: maxItems
+      type: System.Int32
+      description: Maximum number of tickets to retrieve data from
+    - id: maxTextLength
+      type: System.Int32
+      description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
     return:
       type: System.String
-      description: NULL on success, or Error message if something went wrong.
-    content.vb: Function TrainCategorizer As String
-  overload: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer*
+      description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
+    content.vb: Function TrainCategoryGuesser(selectionId As Integer, maxItems As Integer, maxTextLength As Integer) As String
+  overload: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser*
+- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  id: GetTrainingStatus
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTrainingStatus()
+  nameWithType: IAIAgent.GetTrainingStatus()
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCalling the HugoAI endpoint to fetch the current training status.\n"
+  syntax:
+    content: CategorizationStatusResponse GetTrainingStatus()
+    return:
+      type: SuperOffice.CRM.Services.CategorizationStatusResponse
+      description: Carrier to describe the current status of HugoAI categorization
+    content.vb: Function GetTrainingStatus As CategorizationStatusResponse
+  overload: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -248,9 +282,29 @@ references:
   name: GuessCategory
   nameWithType: IAIAgent.GuessCategory
   fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
-- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer*
-  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  name: TrainCategorizer
-  nameWithType: IAIAgent.TrainCategorizer
-  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+  isExternal: true
+  name: TrainCategoryGuesser
+  nameWithType: IAIAgent.TrainCategoryGuesser
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  isExternal: true
+  name: GetTrainingStatus
+  nameWithType: IAIAgent.GetTrainingStatus
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CategorizationStatusResponse
+  nameWithType: CategorizationStatusResponse
+  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse

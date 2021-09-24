@@ -38,6 +38,7 @@ items:
       <Agent("Webhook Agent", "Interface for the Webhook Agent. Webhook definitions - webhooks signal other systems about events inside NetServer")>
 
       Public Interface IWebhookAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

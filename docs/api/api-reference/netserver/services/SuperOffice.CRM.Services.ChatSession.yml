@@ -22,11 +22,12 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChat sessions belong to a chat topic, and contain messages to/from users\n<p></p>\nCarrier object for ChatSession.\nServices for the ChatSession Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nUse the ChatSessionEntity on the Chat agent instead. Chat sessions belong to a chat topic, and contain messages to/from users\n<p></p>\nCarrier object for ChatSession.\nServices for the ChatSession Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: 'public class ChatSession : Carrier'
     content.vb: >-
       Public Class ChatSession
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

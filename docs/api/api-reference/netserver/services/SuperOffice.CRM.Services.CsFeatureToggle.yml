@@ -28,6 +28,7 @@ items:
     content: 'public class CsFeatureToggle : Carrier'
     content.vb: >-
       Public Class CsFeatureToggle
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

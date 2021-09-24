@@ -36,6 +36,7 @@ items:
     content: 'public class CustomerCenterConfig : Carrier'
     content.vb: >-
       Public Class CustomerCenterConfig
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

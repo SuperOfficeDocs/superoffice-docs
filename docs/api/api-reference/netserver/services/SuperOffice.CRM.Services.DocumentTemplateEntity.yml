@@ -53,6 +53,7 @@ items:
     content: 'public class DocumentTemplateEntity : Carrier'
     content.vb: >-
       Public Class DocumentTemplateEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

@@ -28,6 +28,7 @@ items:
     content: 'public class EntityName : Carrier'
     content.vb: >-
       Public Class EntityName
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

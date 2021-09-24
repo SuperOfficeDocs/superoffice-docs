@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Services.ErpSyncAgent.TestConnectionById(System.Int32)
   - SuperOffice.CRM.Services.ErpSyncAgent.TestConnectorUrl(System.String)
   - SuperOffice.CRM.Services.ErpSyncAgent.ToggleErpConnectionActive(System.Int32)
+  - SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
   - SuperOffice.CRM.Services.ErpSyncAgent.UpdateConnectionFields(System.Int32)
   - SuperOffice.CRM.Services.ErpSyncAgent.ValidateArchiveColumnConfig(System.String,System.Int32)
   langs:
@@ -72,7 +73,9 @@ items:
     content: 'public class ErpSyncAgent : AgentBase<IErpSyncAgent>, IDisposable, IErpSyncAgent, IAgent'
     content.vb: >-
       Public Class ErpSyncAgent
+
           Inherits AgentBase(Of IErpSyncAgent)
+
           Implements IDisposable, IErpSyncAgent, IAgent
   inheritance:
   - System.Object
@@ -1388,6 +1391,57 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.ConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
   name.vb: ConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  id: TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  parent: SuperOffice.CRM.Services.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  nameWithType: ErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a link between Erp and Crm and set default values\n"
+  syntax:
+    content: public bool TryConnectActor(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, ErpSyncFieldValue[] fieldValues)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: ErpConnectionId
+    - id: crmRecordId
+      type: System.Int32
+      description: CrmRecordId
+    - id: crmActorType
+      type: SuperOffice.Data.CrmActorType
+      description: The Crm Actor type
+    - id: erpKey
+      type: System.String
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: The Erp Actor type
+    - id: fieldValues
+      type: SuperOffice.CRM.Services.ErpSyncFieldValue[]
+      description: The Crm Fields
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryConnectActor(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, fieldValues As ErpSyncFieldValue()) As Boolean
+  overload: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor*
+  implements:
+  - SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  nameWithType.vb: ErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
+  name.vb: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
   commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
   id: GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
@@ -4637,6 +4691,142 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor
+  isExternal: true
+  name: TryConnectActor
+  nameWithType: ErpSyncAgent.TryConnectActor
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.TryConnectActor
+- uid: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  parent: SuperOffice.CRM.Services.IErpSyncAgent
+  isExternal: true
+  name: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  nameWithType: IErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  nameWithType.vb: IErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
+  name.vb: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+    name: TryConnectActor
+    nameWithType: IErpSyncAgent.TryConnectActor
+    fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.Data.CrmActorType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.Data.ErpActorType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
+    name: TryConnectActor
+    nameWithType: IErpSyncAgent.TryConnectActor
+    fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.Data.CrmActorType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.Data.ErpActorType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetFieldValuesFromCrm*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.GetFieldValuesFromCrm
   isExternal: true

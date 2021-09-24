@@ -31,6 +31,7 @@ items:
     content: 'public class ErpSyncActorTypeMapping : Carrier'
     content.vb: >-
       Public Class ErpSyncActorTypeMapping
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent

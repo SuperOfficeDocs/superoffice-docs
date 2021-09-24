@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.FieldInfoTimeSpan.#ctor
   - SuperOffice.CRM.Services.FieldInfoTimeSpan.DefaultValue
+  - SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum
   - SuperOffice.CRM.Services.FieldInfoTimeSpan.ToString
   - SuperOffice.CRM.Services.FieldInfoTimeSpan.ToString(System.String)
   - SuperOffice.CRM.Services.FieldInfoTimeSpan.UseDays
@@ -30,6 +31,7 @@ items:
     content: 'public class FieldInfoTimeSpan : FieldInfoBase'
     content.vb: >-
       Public Class FieldInfoTimeSpan
+
           Inherits FieldInfoBase
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
@@ -283,6 +285,39 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property UseMinutes As Boolean
   overload: SuperOffice.CRM.Services.FieldInfoTimeSpan.UseMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum
+  commentId: P:SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum
+  id: MaxNum
+  parent: SuperOffice.CRM.Services.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: MaxNum
+  nameWithType: FieldInfoTimeSpan.MaxNum
+  fullName: SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaximum number for the largest unit in the time-span \n"
+  syntax:
+    content: public virtual int MaxNum { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxNum As Integer
+  overload: SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum*
   modifiers.csharp:
   - public
   - virtual
@@ -799,3 +834,9 @@ references:
   name: UseMinutes
   nameWithType: FieldInfoTimeSpan.UseMinutes
   fullName: SuperOffice.CRM.Services.FieldInfoTimeSpan.UseMinutes
+- uid: SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum
+  isExternal: true
+  name: MaxNum
+  nameWithType: FieldInfoTimeSpan.MaxNum
+  fullName: SuperOffice.CRM.Services.FieldInfoTimeSpan.MaxNum

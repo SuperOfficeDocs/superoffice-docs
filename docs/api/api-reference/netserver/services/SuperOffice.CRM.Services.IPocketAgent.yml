@@ -38,6 +38,7 @@ items:
       <Agent("Pocket Agent", "Interface for the Pocket Agent. Agent with Pocket specific functionality")>
 
       Public Interface IPocketAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

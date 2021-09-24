@@ -41,7 +41,9 @@ items:
     content: 'public class DashboardAgent : AgentBase<IDashboardAgent>, IDisposable, IDashboardAgent, IAgent'
     content.vb: >-
       Public Class DashboardAgent
+
           Inherits AgentBase(Of IDashboardAgent)
+
           Implements IDisposable, IDashboardAgent, IAgent
   inheritance:
   - System.Object

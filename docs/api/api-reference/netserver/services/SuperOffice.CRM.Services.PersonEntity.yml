@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.PersonEntity.#ctor
   - SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
   - SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  - SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
   - SuperOffice.CRM.Services.PersonEntity.Address
   - SuperOffice.CRM.Services.PersonEntity.Associate
   - SuperOffice.CRM.Services.PersonEntity.BirthDate
@@ -90,7 +91,9 @@ items:
     content: 'public class PersonEntity : Carrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier'
     content.vb: >-
       Public Class PersonEntity
+
           Inherits Carrier
+
           Implements IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PersonAgent
@@ -2158,6 +2161,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
+  id: ActiveStatusMonitorId
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveStatusMonitorId
+  nameWithType: PersonEntity.ActiveStatusMonitorId
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActive status monitor identity with the lowest rank for person \n"
+  syntax:
+    content: public virtual int ActiveStatusMonitorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveStatusMonitorId As Integer
+  overload: SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -3064,6 +3100,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
+  isExternal: true
+  name: ActiveStatusMonitorId
+  nameWithType: PersonEntity.ActiveStatusMonitorId
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveStatusMonitorId
 - uid: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields*
   commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
   isExternal: true

@@ -33,6 +33,7 @@ items:
     content: 'public class DashboardTileOption : Carrier'
     content.vb: >-
       Public Class DashboardTileOption
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DashboardAgent

@@ -72,7 +72,9 @@ items:
     content: 'public class TicketEntity : Carrier, IExtraFieldCarrier'
     content.vb: >-
       Public Class TicketEntity
+
           Inherits Carrier
+
           Implements IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TicketAgent
@@ -662,7 +664,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe associate who owns this ticket \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  summary: "\nThe associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules. \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
   syntax:
     content: public virtual Associate OwnedBy { get; set; }
     parameters: []

@@ -28,6 +28,7 @@ items:
     content: 'public class FieldInfoDynamicLink : FieldInfoBase'
     content.vb: >-
       Public Class FieldInfoDynamicLink
+
           Inherits FieldInfoBase
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

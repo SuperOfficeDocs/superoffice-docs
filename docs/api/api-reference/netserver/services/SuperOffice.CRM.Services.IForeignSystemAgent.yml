@@ -60,6 +60,7 @@ items:
       <Agent("ForeignSystem Agent", "Interface for the ForeignSystem Agent. Collection of all services that works with Foreign key data (Key/Value pairs)")>
 
       Public Interface IForeignSystemAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

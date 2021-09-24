@@ -28,7 +28,9 @@ items:
     content: 'public class DatabaseAgent : AgentBase<IDatabaseAgent>, IDisposable, IDatabaseAgent, IAgent'
     content.vb: >-
       Public Class DatabaseAgent
+
           Inherits AgentBase(Of IDatabaseAgent)
+
           Implements IDisposable, IDatabaseAgent, IAgent
   inheritance:
   - System.Object

@@ -33,6 +33,7 @@ items:
     content: 'public class AudienceConfigParameter : Carrier'
     content.vb: >-
       Public Class AudienceConfigParameter
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AudienceAgent

@@ -30,7 +30,9 @@ items:
     content: 'public class RelationAgent : AgentBase<IRelationAgent>, IDisposable, IRelationAgent, IAgent'
     content.vb: >-
       Public Class RelationAgent
+
           Inherits AgentBase(Of IRelationAgent)
+
           Implements IDisposable, IRelationAgent, IAgent
   inheritance:
   - System.Object

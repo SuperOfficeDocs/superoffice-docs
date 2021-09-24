@@ -34,6 +34,7 @@ items:
     content: 'public class SaintConfiguration : Carrier'
     content.vb: >-
       Public Class SaintConfiguration
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaintAgent

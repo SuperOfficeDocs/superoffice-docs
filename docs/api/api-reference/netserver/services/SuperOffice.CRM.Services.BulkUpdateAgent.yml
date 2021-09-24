@@ -34,7 +34,9 @@ items:
     content: 'public class BulkUpdateAgent : AgentBase<IBulkUpdateAgent>, IDisposable, IBulkUpdateAgent, IAgent'
     content.vb: >-
       Public Class BulkUpdateAgent
+
           Inherits AgentBase(Of IBulkUpdateAgent)
+
           Implements IDisposable, IBulkUpdateAgent, IAgent
   inheritance:
   - System.Object

@@ -23,6 +23,7 @@ items:
     content: 'public interface IMessagingWithConfigPlugin : IPlugin'
     content.vb: >-
       Public Interface IMessagingWithConfigPlugin
+
           Inherits IPlugin
   modifiers.csharp:
   - public

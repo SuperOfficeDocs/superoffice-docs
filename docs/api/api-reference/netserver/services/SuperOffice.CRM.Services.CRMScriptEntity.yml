@@ -39,6 +39,7 @@ items:
     content: 'public class CRMScriptEntity : Carrier'
     content.vb: >-
       Public Class CRMScriptEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CRMScriptAgent

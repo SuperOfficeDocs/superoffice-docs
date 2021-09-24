@@ -58,7 +58,9 @@ items:
     content: 'public class UserDefinedFieldInfoAgent : AgentBase<IUserDefinedFieldInfoAgent>, IDisposable, IUserDefinedFieldInfoAgent, IAgent'
     content.vb: >-
       Public Class UserDefinedFieldInfoAgent
+
           Inherits AgentBase(Of IUserDefinedFieldInfoAgent)
+
           Implements IDisposable, IUserDefinedFieldInfoAgent, IAgent
   inheritance:
   - System.Object

@@ -27,6 +27,7 @@ items:
     content: 'public class FieldInfoAttachment : FieldInfoBase'
     content.vb: >-
       Public Class FieldInfoAttachment
+
           Inherits FieldInfoBase
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

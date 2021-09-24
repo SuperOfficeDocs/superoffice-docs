@@ -50,6 +50,7 @@ items:
     content: 'public class SaleTypeEntity : Carrier'
     content.vb: >-
       Public Class SaleTypeEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

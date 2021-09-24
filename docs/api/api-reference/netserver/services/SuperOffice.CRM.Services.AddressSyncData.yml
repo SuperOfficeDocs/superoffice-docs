@@ -38,6 +38,7 @@ items:
     content: 'public class AddressSyncData : Carrier'
     content.vb: >-
       Public Class AddressSyncData
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

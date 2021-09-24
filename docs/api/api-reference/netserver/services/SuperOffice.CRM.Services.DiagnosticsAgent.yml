@@ -40,7 +40,9 @@ items:
     content: 'public class DiagnosticsAgent : AgentBase<IDiagnosticsAgent>, IDisposable, IDiagnosticsAgent, IAgent'
     content.vb: >-
       Public Class DiagnosticsAgent
+
           Inherits AgentBase(Of IDiagnosticsAgent)
+
           Implements IDisposable, IDiagnosticsAgent, IAgent
   inheritance:
   - System.Object

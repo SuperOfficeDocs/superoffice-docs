@@ -28,6 +28,7 @@ items:
     content: 'public class Batch : Carrier'
     content.vb: >-
       Public Class Batch
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.BatchAgent

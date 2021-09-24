@@ -28,6 +28,7 @@ items:
     content: 'public class ArchiveListResult : Carrier'
     content.vb: >-
       Public Class ArchiveListResult
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ArchiveAgent

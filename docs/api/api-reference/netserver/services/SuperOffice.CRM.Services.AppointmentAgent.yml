@@ -124,7 +124,9 @@ items:
     content: 'public class AppointmentAgent : AgentBase<IAppointmentAgent>, IDisposable, IAppointmentAgent, IAgent'
     content.vb: >-
       Public Class AppointmentAgent
+
           Inherits AgentBase(Of IAppointmentAgent)
+
           Implements IDisposable, IAppointmentAgent, IAgent
   inheritance:
   - System.Object
@@ -3593,8 +3595,7 @@ items:
     parameters:
     - id: motherId
       type: System.Int32
-      description: >
-        Appointment id of the owner of a booking
+      description: Appointment id of the owner of a booking
     - id: recurrenceRuleId
       type: System.Int32
       description: RecurrenceId of a recuring appointment

@@ -48,6 +48,7 @@ items:
     content: 'public class WebPanelEntity : Carrier'
     content.vb: >-
       Public Class WebPanelEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

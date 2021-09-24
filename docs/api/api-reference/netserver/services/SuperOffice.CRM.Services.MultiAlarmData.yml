@@ -29,6 +29,7 @@ items:
     content: 'public class MultiAlarmData : Carrier'
     content.vb: >-
       Public Class MultiAlarmData
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

@@ -28,6 +28,7 @@ items:
     content: 'public class ImportErpData : Carrier'
     content.vb: >-
       Public Class ImportErpData
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ImportAgent

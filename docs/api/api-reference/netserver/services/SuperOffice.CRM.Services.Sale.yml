@@ -53,6 +53,7 @@ items:
     content: 'public class Sale : Carrier'
     content.vb: >-
       Public Class Sale
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaleAgent

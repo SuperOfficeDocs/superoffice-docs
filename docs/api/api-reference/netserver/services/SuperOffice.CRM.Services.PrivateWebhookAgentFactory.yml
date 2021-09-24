@@ -24,6 +24,7 @@ items:
     content: 'public class PrivateWebhookAgentFactory : IPrivateFactory'
     content.vb: >-
       Public Class PrivateWebhookAgentFactory
+
           Implements IPrivateFactory
   inheritance:
   - System.Object

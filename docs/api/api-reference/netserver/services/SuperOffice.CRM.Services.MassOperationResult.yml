@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.MassOperationResult.Deletes
   - SuperOffice.CRM.Services.MassOperationResult.Inserts
   - SuperOffice.CRM.Services.MassOperationResult.Message
+  - SuperOffice.CRM.Services.MassOperationResult.RowStatus
   - SuperOffice.CRM.Services.MassOperationResult.Success
   - SuperOffice.CRM.Services.MassOperationResult.ToString
   - SuperOffice.CRM.Services.MassOperationResult.ToString(System.String)
@@ -31,6 +32,7 @@ items:
     content: 'public class MassOperationResult : Carrier'
     content.vb: >-
       Public Class MassOperationResult
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DatabaseTableAgent
@@ -185,7 +187,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAny message from the method; blank if success \n"
+  summary: "\nAny message from the method, including timing data \n"
   syntax:
     content: public virtual string Message { get; set; }
     parameters: []
@@ -284,7 +286,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNumber of rows deleted \n"
+  summary: "\nNumber of rows deleted / zeroed \n"
   syntax:
     content: public virtual int Deletes { get; set; }
     parameters: []
@@ -292,6 +294,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Deletes As Integer
   overload: SuperOffice.CRM.Services.MassOperationResult.Deletes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MassOperationResult.RowStatus
+  commentId: P:SuperOffice.CRM.Services.MassOperationResult.RowStatus
+  id: RowStatus
+  parent: SuperOffice.CRM.Services.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: RowStatus
+  nameWithType: MassOperationResult.RowStatus
+  fullName: SuperOffice.CRM.Services.MassOperationResult.RowStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of statuses and primary keys for all rows that were specified. Populated if the &apos;ReturnRowStatus&apos; parameter of &apos;Upsert&apos; is set, otherwise null \n"
+  syntax:
+    content: public virtual UpsertRowStatus[] RowStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.UpsertRowStatus[]
+    content.vb: Public Overridable Property RowStatus As UpsertRowStatus()
+  overload: SuperOffice.CRM.Services.MassOperationResult.RowStatus*
   modifiers.csharp:
   - public
   - virtual
@@ -396,3 +431,35 @@ references:
   name: Deletes
   nameWithType: MassOperationResult.Deletes
   fullName: SuperOffice.CRM.Services.MassOperationResult.Deletes
+- uid: SuperOffice.CRM.Services.MassOperationResult.RowStatus*
+  commentId: Overload:SuperOffice.CRM.Services.MassOperationResult.RowStatus
+  isExternal: true
+  name: RowStatus
+  nameWithType: MassOperationResult.RowStatus
+  fullName: SuperOffice.CRM.Services.MassOperationResult.RowStatus
+- uid: SuperOffice.CRM.Services.UpsertRowStatus[]
+  isExternal: true
+  name: UpsertRowStatus[]
+  nameWithType: UpsertRowStatus[]
+  fullName: SuperOffice.CRM.Services.UpsertRowStatus[]
+  nameWithType.vb: UpsertRowStatus()
+  fullName.vb: SuperOffice.CRM.Services.UpsertRowStatus()
+  name.vb: UpsertRowStatus()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.UpsertRowStatus
+    name: UpsertRowStatus
+    nameWithType: UpsertRowStatus
+    fullName: SuperOffice.CRM.Services.UpsertRowStatus
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.UpsertRowStatus
+    name: UpsertRowStatus
+    nameWithType: UpsertRowStatus
+    fullName: SuperOffice.CRM.Services.UpsertRowStatus
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

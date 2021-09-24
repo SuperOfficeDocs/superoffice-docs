@@ -32,6 +32,7 @@ items:
     content: 'public class Address : Carrier'
     content.vb: >-
       Public Class Address
+
           Inherits Carrier
   inheritance:
   - System.Object

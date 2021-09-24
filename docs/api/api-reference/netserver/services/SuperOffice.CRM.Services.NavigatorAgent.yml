@@ -30,7 +30,9 @@ items:
     content: 'public class NavigatorAgent : AgentBase<INavigatorAgent>, IDisposable, INavigatorAgent, IAgent'
     content.vb: >-
       Public Class NavigatorAgent
+
           Inherits AgentBase(Of INavigatorAgent)
+
           Implements IDisposable, INavigatorAgent, IAgent
   inheritance:
   - System.Object

@@ -76,7 +76,9 @@ items:
     content: 'public class ProjectAgent : AgentBase<IProjectAgent>, IDisposable, IProjectAgent, IAgent'
     content.vb: >-
       Public Class ProjectAgent
+
           Inherits AgentBase(Of IProjectAgent)
+
           Implements IDisposable, IProjectAgent, IAgent
   inheritance:
   - System.Object

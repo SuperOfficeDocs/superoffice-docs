@@ -29,6 +29,7 @@ items:
     content: 'public class PrivacyStatement : Carrier'
     content.vb: >-
       Public Class PrivacyStatement
+
           Inherits Carrier
   inheritance:
   - System.Object

@@ -33,7 +33,9 @@ items:
     content: 'public class AssociateAgent : AgentBase<IAssociateAgent>, IDisposable, IAssociateAgent, IAgent'
     content.vb: >-
       Public Class AssociateAgent
+
           Inherits AgentBase(Of IAssociateAgent)
+
           Implements IDisposable, IAssociateAgent, IAgent
   inheritance:
   - System.Object

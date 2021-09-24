@@ -29,6 +29,7 @@ items:
     content: 'public class FindResults : Carrier'
     content.vb: >-
       Public Class FindResults
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.FindAgent

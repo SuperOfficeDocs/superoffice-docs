@@ -53,7 +53,9 @@ items:
     content: 'public class User : Carrier, IExtraFieldCarrier'
     content.vb: >-
       Public Class User
+
           Inherits Carrier
+
           Implements IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

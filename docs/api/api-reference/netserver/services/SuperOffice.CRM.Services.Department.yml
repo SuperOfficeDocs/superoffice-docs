@@ -31,6 +31,7 @@ items:
     content: 'public class Department : Carrier'
     content.vb: >-
       Public Class Department
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

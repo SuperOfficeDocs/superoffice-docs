@@ -31,6 +31,7 @@ items:
     content: 'public class ProductCategory : Carrier'
     content.vb: >-
       Public Class ProductCategory
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

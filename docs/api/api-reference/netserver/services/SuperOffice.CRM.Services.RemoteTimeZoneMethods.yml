@@ -21,11 +21,12 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis service support fetching of client interface configuration data.\n&lt;para/>\nClient configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls.\n&lt;para/>\nSeparate access points also exist for fetching object mappings and filter lists.\n<p></p>\nCarrier object for RemoteTimeZoneMethods.\nServices for the RemoteTimeZoneMethods Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITimeZoneAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nThis service support fetching of client interface configuration data. &lt;para/> Client configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls. &lt;para/> Separate access points also exist for fetching object mappings and filter lists.\n<p></p>\nCarrier object for RemoteTimeZoneMethods.\nServices for the RemoteTimeZoneMethods Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITimeZoneAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: 'public class RemoteTimeZoneMethods : Carrier'
     content.vb: >-
       Public Class RemoteTimeZoneMethods
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TimeZoneAgent

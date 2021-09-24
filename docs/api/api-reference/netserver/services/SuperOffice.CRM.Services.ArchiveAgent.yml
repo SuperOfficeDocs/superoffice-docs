@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.ArchiveAgent.#ctor
   - SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResult
+  - SuperOffice.CRM.Services.ArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
   - SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilter
   - SuperOffice.CRM.Services.ArchiveAgent.GetArchiveConfiguration(System.String,System.String)
   - SuperOffice.CRM.Services.ArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
@@ -54,7 +55,9 @@ items:
     content: 'public class ArchiveAgent : AgentBase<IArchiveAgent>, IDisposable, IArchiveAgent, IAgent'
     content.vb: >-
       Public Class ArchiveAgent
+
           Inherits AgentBase(Of IArchiveAgent)
+
           Implements IDisposable, IArchiveAgent, IAgent
   inheritance:
   - System.Object
@@ -1386,6 +1389,64 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  id: ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  parent: SuperOffice.CRM.Services.ArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
+  nameWithType: ArchiveAgent.ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive(System.String, System.String, System.String[], System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExports the target archive to a downloadable format.\n"
+  syntax:
+    content: public ExportArchiveResult ExportArchive(string providerName, string context, string[] desiredEntities, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restrictions, string exportType, string[] selectedRowIds, int estimatedRowCount)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: desiredEntities
+      type: System.String[]
+      description: Comma separated list of the names of the desired entities.
+    - id: columns
+      type: System.String[]
+      description: Comma separated list of the names of the columns wanted; supports display names
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: exportType
+      type: System.String
+      description: To what format the archive should be exported; Excel, etc.
+    - id: selectedRowIds
+      type: System.String[]
+    - id: estimatedRowCount
+      type: System.Int32
+      description: The estimated amount of rows to be exported. Used to determine if the operation should be run as a batch task or immediately.
+    return:
+      type: SuperOffice.CRM.Services.ExportArchiveResult
+    content.vb: Public Function ExportArchive(providerName As String, context As String, desiredEntities As String(), columns As String(), sortOrder As ArchiveOrderByInfo(), restrictions As ArchiveRestrictionInfo(), exportType As String, selectedRowIds As String(), estimatedRowCount As Integer) As ExportArchiveResult
+  overload: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive*
+  implements:
+  - SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  nameWithType.vb: ArchiveAgent.ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive(System.String, System.String, System.String(), System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32)
+  name.vb: ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
 - uid: SuperOffice.CRM.Services.ArchiveAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.ArchiveAgent.#ctor
   id: '#ctor'
@@ -5324,6 +5385,221 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.ExportArchive
+  isExternal: true
+  name: ExportArchive
+  nameWithType: ArchiveAgent.ExportArchive
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.ExportArchive
+- uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
+  nameWithType: IArchiveAgent.ExportArchive(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String, System.String, System.String[], System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String[], System.Int32)
+  nameWithType.vb: IArchiveAgent.ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String, System.String, System.String(), System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32)
+  name.vb: ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+    name: ExportArchive
+    nameWithType: IArchiveAgent.ExportArchive
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32)
+    name: ExportArchive
+    nameWithType: IArchiveAgent.ExportArchive
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ExportArchiveResult
+  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult
 - uid: SuperOffice.CRM.Services.ArchiveAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.#ctor
   isExternal: true

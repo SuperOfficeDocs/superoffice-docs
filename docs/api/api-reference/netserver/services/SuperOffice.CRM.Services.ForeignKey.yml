@@ -34,6 +34,7 @@ items:
     content: 'public class ForeignKey : Carrier'
     content.vb: >-
       Public Class ForeignKey
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ForeignSystemAgent

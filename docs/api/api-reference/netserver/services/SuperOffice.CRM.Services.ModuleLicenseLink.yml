@@ -39,6 +39,7 @@ items:
     content: 'public class ModuleLicenseLink : Carrier'
     content.vb: >-
       Public Class ModuleLicenseLink
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.LicenseAgent

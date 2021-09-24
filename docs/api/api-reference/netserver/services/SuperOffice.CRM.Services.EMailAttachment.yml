@@ -34,6 +34,7 @@ items:
     content: 'public class EMailAttachment : Carrier'
     content.vb: >-
       Public Class EMailAttachment
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

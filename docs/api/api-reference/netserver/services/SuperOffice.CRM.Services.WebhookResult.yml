@@ -28,6 +28,7 @@ items:
     content: 'public class WebhookResult : Carrier'
     content.vb: >-
       Public Class WebhookResult
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.WebhookAgent

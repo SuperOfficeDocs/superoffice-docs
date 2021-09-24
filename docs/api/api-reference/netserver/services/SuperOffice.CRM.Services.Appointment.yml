@@ -77,6 +77,7 @@ items:
     content: 'public class Appointment : Carrier'
     content.vb: >-
       Public Class Appointment
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

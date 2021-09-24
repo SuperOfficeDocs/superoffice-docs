@@ -31,6 +31,7 @@ items:
     content: 'public class Competitor : Carrier'
     content.vb: >-
       Public Class Competitor
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

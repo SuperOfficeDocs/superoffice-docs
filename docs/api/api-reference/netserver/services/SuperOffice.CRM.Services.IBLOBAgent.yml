@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
   - SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
@@ -22,6 +23,7 @@ items:
   - SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
@@ -64,6 +66,7 @@ items:
       <Agent("BLOB Agent", "Interface for the BLOB Agent. Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.")>
 
       Public Interface IBLOBAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -1088,6 +1091,61 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Function GetContactImageWithSize(contactId As Integer, width As Integer, height As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize*
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  id: GetOutputFromBatch(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOutputFromBatch(Int32)
+  nameWithType: IBLOBAgent.GetOutputFromBatch(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the output of a batchtask as a stream\n"
+  syntax:
+    content: Stream GetOutputFromBatch(int batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    return:
+      type: System.IO.Stream
+      description: The binary object as a Stream
+    content.vb: Function GetOutputFromBatch(batchTaskId As Integer) As Stream
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch*
+- uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  id: CleanupBatchTask(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CleanupBatchTask(Int32)
+  nameWithType: IBLOBAgent.CleanupBatchTask(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
+  syntax:
+    content: void CleanupBatchTask(int batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    content.vb: Sub CleanupBatchTask(batchTaskId As Integer)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1349,3 +1407,15 @@ references:
   name: GetContactImageWithSize
   nameWithType: IBLOBAgent.GetContactImageWithSize
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
+  isExternal: true
+  name: GetOutputFromBatch
+  nameWithType: IBLOBAgent.GetOutputFromBatch
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
+- uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask
+  isExternal: true
+  name: CleanupBatchTask
+  nameWithType: IBLOBAgent.CleanupBatchTask
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask

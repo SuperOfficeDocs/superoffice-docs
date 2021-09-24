@@ -24,6 +24,7 @@ items:
     content: 'public class PrivateCRMScriptAgentFactory : IPrivateFactory'
     content.vb: >-
       Public Class PrivateCRMScriptAgentFactory
+
           Implements IPrivateFactory
   inheritance:
   - System.Object

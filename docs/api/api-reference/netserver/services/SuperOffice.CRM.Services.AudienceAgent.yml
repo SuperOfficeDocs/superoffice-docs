@@ -52,7 +52,9 @@ items:
     content: 'public class AudienceAgent : AgentBase<IAudienceAgent>, IDisposable, IAudienceAgent, IAgent'
     content.vb: >-
       Public Class AudienceAgent
+
           Inherits AgentBase(Of IAudienceAgent)
+
           Implements IDisposable, IAudienceAgent, IAgent
   inheritance:
   - System.Object

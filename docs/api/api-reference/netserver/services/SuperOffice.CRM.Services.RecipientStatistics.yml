@@ -32,6 +32,7 @@ items:
     content: 'public class RecipientStatistics : Carrier'
     content.vb: >-
       Public Class RecipientStatistics
+
           Inherits Carrier
   inheritance:
   - System.Object

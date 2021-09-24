@@ -32,6 +32,7 @@ items:
     content: 'public class EISActor : Carrier'
     content.vb: >-
       Public Class EISActor
+
           Inherits Carrier
   inheritance:
   - System.Object

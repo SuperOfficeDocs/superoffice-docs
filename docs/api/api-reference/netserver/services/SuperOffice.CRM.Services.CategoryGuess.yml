@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.CategoryGuess.#ctor
-  - SuperOffice.CRM.Services.CategoryGuess.FullName
+  - SuperOffice.CRM.Services.CategoryGuess.Dummy
   - SuperOffice.CRM.Services.CategoryGuess.ToString
   - SuperOffice.CRM.Services.CategoryGuess.ToString(System.String)
   langs:
@@ -27,6 +27,7 @@ items:
     content: 'public class CategoryGuess : Carrier'
     content.vb: >-
       Public Class CategoryGuess
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AIAgent
@@ -131,16 +132,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.CategoryGuess.FullName
-  commentId: P:SuperOffice.CRM.Services.CategoryGuess.FullName
-  id: FullName
+- uid: SuperOffice.CRM.Services.CategoryGuess.Dummy
+  commentId: P:SuperOffice.CRM.Services.CategoryGuess.Dummy
+  id: Dummy
   parent: SuperOffice.CRM.Services.CategoryGuess
   langs:
   - csharp
   - vb
-  name: FullName
-  nameWithType: CategoryGuess.FullName
-  fullName: SuperOffice.CRM.Services.CategoryGuess.FullName
+  name: Dummy
+  nameWithType: CategoryGuess.Dummy
+  fullName: SuperOffice.CRM.Services.CategoryGuess.Dummy
   type: Property
   source:
     path: SuperOffice.Services
@@ -148,14 +149,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTicket Category full path, based on category names in training data. \n"
+  summary: "\nThis carrier is currently not used \n"
   syntax:
-    content: public virtual string FullName { get; set; }
+    content: public virtual string Dummy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FullName As String
-  overload: SuperOffice.CRM.Services.CategoryGuess.FullName*
+    content.vb: Public Overridable Property Dummy As String
+  overload: SuperOffice.CRM.Services.CategoryGuess.Dummy*
   modifiers.csharp:
   - public
   - virtual
@@ -216,9 +217,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Services.CategoryGuess.FullName*
-  commentId: Overload:SuperOffice.CRM.Services.CategoryGuess.FullName
+- uid: SuperOffice.CRM.Services.CategoryGuess.Dummy*
+  commentId: Overload:SuperOffice.CRM.Services.CategoryGuess.Dummy
   isExternal: true
-  name: FullName
-  nameWithType: CategoryGuess.FullName
-  fullName: SuperOffice.CRM.Services.CategoryGuess.FullName
+  name: Dummy
+  nameWithType: CategoryGuess.Dummy
+  fullName: SuperOffice.CRM.Services.CategoryGuess.Dummy

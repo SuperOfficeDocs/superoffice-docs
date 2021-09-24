@@ -29,6 +29,7 @@ items:
     content: 'public class CsSessionKey : Carrier'
     content.vb: >-
       Public Class CsSessionKey
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

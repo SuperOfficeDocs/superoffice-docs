@@ -26,6 +26,7 @@ items:
     content: 'public class Sentry : Carrier'
     content.vb: >-
       Public Class Sentry
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SentryAgent

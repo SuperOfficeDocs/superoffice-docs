@@ -28,6 +28,7 @@ items:
     content: 'public class LinkExtended : Link'
     content.vb: >-
       Public Class LinkExtended
+
           Inherits Link
   inheritance:
   - System.Object

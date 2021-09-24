@@ -31,6 +31,7 @@ items:
     content: 'public class ProjectType : Carrier'
     content.vb: >-
       Public Class ProjectType
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

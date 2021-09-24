@@ -38,6 +38,7 @@ items:
     content: 'public class FormSubmissionEntity : Carrier'
     content.vb: >-
       Public Class FormSubmissionEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MarketingAgent

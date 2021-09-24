@@ -28,6 +28,7 @@ items:
     content: 'public class UserValidationResult : Carrier'
     content.vb: >-
       Public Class UserValidationResult
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

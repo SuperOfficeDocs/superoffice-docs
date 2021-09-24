@@ -29,6 +29,7 @@ items:
     content: 'public class VisibleFor : Carrier'
     content.vb: >-
       Public Class VisibleFor
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SentryAgent

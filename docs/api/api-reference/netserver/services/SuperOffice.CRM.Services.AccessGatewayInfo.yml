@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo
+  commentId: T:SuperOffice.CRM.Services.AccessGatewayInfo
+  id: AccessGatewayInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AccessGatewayInfo.#ctor
+  - SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+  - SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri
+  - SuperOffice.CRM.Services.AccessGatewayInfo.ToString
+  - SuperOffice.CRM.Services.AccessGatewayInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccess gateway related data and operations\n<p></p>\nCarrier object for AccessGatewayInfo.\nServices for the AccessGatewayInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AccessGatewayInfo : Carrier'
+    content.vb: >-
+      Public Class AccessGatewayInfo
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.UserAgent
+    commentId: T:SuperOffice.CRM.Services.UserAgent
+  - linkId: SuperOffice.CRM.Services.IUserAgent
+    commentId: T:SuperOffice.CRM.Services.IUserAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.AccessGatewayInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: AccessGatewayInfo()
+  nameWithType: AccessGatewayInfo.AccessGatewayInfo()
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.AccessGatewayInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public AccessGatewayInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AccessGatewayInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.AccessGatewayInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AccessGatewayInfo.ToString()
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.AccessGatewayInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AccessGatewayInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: AccessGatewayInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AccessGatewayInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+  commentId: P:SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+  id: ClientId
+  parent: SuperOffice.CRM.Services.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: AccessGatewayInfo.ClientId
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis is the registered client_id for AccessGateway OIDC \n"
+  syntax:
+    content: public virtual string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ClientId As String
+  overload: SuperOffice.CRM.Services.AccessGatewayInfo.ClientId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri
+  commentId: P:SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri
+  id: RedirectUri
+  parent: SuperOffice.CRM.Services.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: AccessGatewayInfo.RedirectUri
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis is the registered redirect_uri for AccessGateway OIDC. \n"
+  syntax:
+    content: public virtual string RedirectUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RedirectUri As String
+  overload: SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.UserAgent
+  commentId: T:SuperOffice.CRM.Services.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.CRM.Services.UserAgent
+- uid: SuperOffice.CRM.Services.IUserAgent
+  commentId: T:SuperOffice.CRM.Services.IUserAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUserAgent
+  nameWithType: IUserAgent
+  fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AccessGatewayInfo.#ctor
+  isExternal: true
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo.AccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.AccessGatewayInfo
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AccessGatewayInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: AccessGatewayInfo.ToString
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.ClientId*
+  commentId: Overload:SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: AccessGatewayInfo.ClientId
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.ClientId
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri*
+  commentId: Overload:SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri
+  isExternal: true
+  name: RedirectUri
+  nameWithType: AccessGatewayInfo.RedirectUri
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo.RedirectUri

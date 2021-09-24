@@ -35,6 +35,7 @@ items:
     content: 'public class LanguageInfo : Carrier'
     content.vb: >-
       Public Class LanguageInfo
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

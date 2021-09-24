@@ -29,6 +29,7 @@ items:
       description: Type of agent.
     content.vb: >-
       Public MustInherit Class AgentBase(Of TAgent As IAgent)
+
           Implements IDisposable
   inheritance:
   - System.Object
@@ -46,6 +47,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent
   - SuperOffice.CRM.Services.CRMScriptAgent
   - SuperOffice.CRM.Services.CustomerServiceAgent
+  - SuperOffice.CRM.Services.DashAgent
   - SuperOffice.CRM.Services.DashboardAgent
   - SuperOffice.CRM.Services.DatabaseAgent
   - SuperOffice.CRM.Services.DatabaseTableAgent

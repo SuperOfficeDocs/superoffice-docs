@@ -33,6 +33,7 @@ items:
     content: 'public class FreeText : Carrier'
     content.vb: >-
       Public Class FreeText
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.FreeTextAgent

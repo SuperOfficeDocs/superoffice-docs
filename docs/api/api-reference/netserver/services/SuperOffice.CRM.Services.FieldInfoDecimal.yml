@@ -28,6 +28,7 @@ items:
     content: 'public class FieldInfoDecimal : FieldInfoBase'
     content.vb: >-
       Public Class FieldInfoDecimal
+
           Inherits FieldInfoBase
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

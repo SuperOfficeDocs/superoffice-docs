@@ -83,7 +83,9 @@ items:
     content: 'public class AppointmentEntity : Carrier, IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier'
     content.vb: >-
       Public Class AppointmentEntity
+
           Inherits Carrier
+
           Implements IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

@@ -24,6 +24,7 @@ items:
     content: 'public class PrivateChatAgentFactory : IPrivateFactory'
     content.vb: >-
       Public Class PrivateChatAgentFactory
+
           Implements IPrivateFactory
   inheritance:
   - System.Object

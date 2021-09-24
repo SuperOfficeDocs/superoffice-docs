@@ -27,7 +27,9 @@ items:
     content: 'public class ColumnDataDictionary : Dictionary<string, ArchiveColumnData>, IDictionary<string, ArchiveColumnData>, ICollection<KeyValuePair<string, ArchiveColumnData>>, IDictionary, ICollection, IReadOnlyDictionary<string, ArchiveColumnData>, IReadOnlyCollection<KeyValuePair<string, ArchiveColumnData>>, IEnumerable<KeyValuePair<string, ArchiveColumnData>>, IEnumerable, ISerializable, IDeserializationCallback'
     content.vb: >-
       Public Class ColumnDataDictionary
+
           Inherits Dictionary(Of String, ArchiveColumnData)
+
           Implements IDictionary(Of String, ArchiveColumnData), ICollection(Of KeyValuePair(Of String, ArchiveColumnData)), IDictionary, ICollection, IReadOnlyDictionary(Of String, ArchiveColumnData), IReadOnlyCollection(Of KeyValuePair(Of String, ArchiveColumnData)), IEnumerable(Of KeyValuePair(Of String, ArchiveColumnData)), IEnumerable, ISerializable, IDeserializationCallback
   inheritance:
   - System.Object

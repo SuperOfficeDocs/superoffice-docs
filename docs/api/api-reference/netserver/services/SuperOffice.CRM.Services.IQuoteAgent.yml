@@ -128,6 +128,7 @@ items:
       <Agent("Quote Agent", "Interface for the Quote Agent. Services for the Quote Management feature, part of the Sale module")>
 
       Public Interface IQuoteAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

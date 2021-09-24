@@ -38,6 +38,7 @@ items:
     content: 'public class SystemEventEntity : Carrier'
     content.vb: >-
       Public Class SystemEventEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ArchiveAgent

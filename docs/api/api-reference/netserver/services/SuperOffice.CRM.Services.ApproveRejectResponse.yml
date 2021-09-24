@@ -28,6 +28,7 @@ items:
     content: 'public class ApproveRejectResponse : Carrier'
     content.vb: >-
       Public Class ApproveRejectResponse
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

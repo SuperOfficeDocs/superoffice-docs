@@ -70,6 +70,13 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId(System.Int32,System.String)
   - SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.EMailAgent.GetReadySyncEmailAccounts
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.EMailAgent.HasMXRecord(System.String)
   - SuperOffice.CRM.Services.EMailAgent.HasNewMail(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.EMailAgent.LatestItemIdByFolder(System.Int32)
@@ -116,7 +123,9 @@ items:
     content: 'public class EMailAgent : AgentBase<IEMailAgent>, IDisposable, IEMailAgent, IAgent'
     content.vb: >-
       Public Class EMailAgent
+
           Inherits AgentBase(Of IEMailAgent)
+
           Implements IDisposable, IEMailAgent, IAgent
   inheritance:
   - System.Object
@@ -959,10 +968,7 @@ items:
       description: The e-mails to handle
     - id: read
       type: System.Boolean
-      description: >-
-        If true mails are marked as read.
-
-        If false mails are marked as unread.
+      description: If true mails are marked as read. If false mails are marked as unread.
     content.vb: Public Sub MarkAsRead(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), read As Boolean)
   overload: SuperOffice.CRM.Services.EMailAgent.MarkAsRead*
   implements:
@@ -1240,6 +1246,41 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  id: GetUnsanitizedEMailFromDocumentId(System.Int32)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedEMailFromDocumentId(Int32)
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentId(Int32)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an e-mail based on an archived document. The returned value is not sanitized.\n"
+  syntax:
+    content: public EMailEntity GetUnsanitizedEMailFromDocumentId(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: Unique id of the document
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: The e-mail
+    content.vb: Public Function GetUnsanitizedEMailFromDocumentId(documentId As Integer) As EMailEntity
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
   id: GetEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
@@ -1284,6 +1325,50 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentId(System.Int32, System.String(), System.Boolean)
   name.vb: GetEMailFromAttachmentId(Int32, String(), Boolean)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  id: GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedEMailFromAttachmentId(Int32, String[], Boolean)
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromAttachmentId(Int32, String[], Boolean)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32, System.String[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an e-mail based on an email and attachment id. The returned value is not sanitized.\n"
+  syntax:
+    content: public EMailEntity GetUnsanitizedEMailFromAttachmentId(int emailId, string[] attachmentIds, bool includeAttachments)
+    parameters:
+    - id: emailId
+      type: System.Int32
+      description: The primary key of the email row in the DB
+    - id: attachmentIds
+      type: System.String[]
+      description: Id of the attachment. If multiple elements this is treated as attachment in attachemnts, e.g. [1, 2] means attachment 2 in attachment 1 of email.
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should we retrieve attachments embedded in the e-mail from the server
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: The attachment as an e-mail
+    content.vb: Public Function GetUnsanitizedEMailFromAttachmentId(emailId As Integer, attachmentIds As String(), includeAttachments As Boolean) As EMailEntity
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  nameWithType.vb: EMailAgent.GetUnsanitizedEMailFromAttachmentId(Int32, String(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32, System.String(), System.Boolean)
+  name.vb: GetUnsanitizedEMailFromAttachmentId(Int32, String(), Boolean)
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
   id: GetEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
@@ -1328,6 +1413,50 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentId(System.Int32, System.String(), System.Boolean)
   name.vb: GetEMailFromDocumentAttachmentId(Int32, String(), Boolean)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  id: GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String[], Boolean)
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String[], Boolean)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32, System.String[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an e-mail based on an email in the archive system and attachment id. The returned value is not sanitized.\n"
+  syntax:
+    content: public EMailEntity GetUnsanitizedEMailFromDocumentAttachmentId(int docId, string[] attachmentIds, bool includeAttachments)
+    parameters:
+    - id: docId
+      type: System.Int32
+      description: The primary key of the document row in the DB
+    - id: attachmentIds
+      type: System.String[]
+      description: Id of the attachment. If multiple elements this is treated as attachment in attachemnts, e.g. [1, 2] means attachment 2 in attachment 1 of email.
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should we retrieve attachments embedded in the e-mail from the server
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: The attachment as an e-mail
+    content.vb: Public Function GetUnsanitizedEMailFromDocumentAttachmentId(docId As Integer, attachmentIds As String(), includeAttachments As Boolean) As EMailEntity
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  nameWithType.vb: EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32, System.String(), System.Boolean)
+  name.vb: GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String(), Boolean)
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopes(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopes(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[])
   id: GetEMailEnvelopes(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[])
@@ -1947,6 +2076,44 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  id: GetUnsanitizedEMail(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedEMail(Int32, Boolean)
+  nameWithType: EMailAgent.GetUnsanitizedEMail(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet en e-mail based on its primary key in the DB. The returned value is not sanitized.\n"
+  syntax:
+    content: public EMailEntity GetUnsanitizedEMail(int id, bool includeAttachments)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The primary key of the email row in the DB
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should we retrieve attachments embedded in the e-mail from the server
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: The e-mail
+    content.vb: Public Function GetUnsanitizedEMail(id As Integer, includeAttachments As Boolean) As EMailEntity
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsRead(System.Int32[],System.Boolean)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsRead(System.Int32[],System.Boolean)
   id: MarkEmailsAsRead(System.Int32[],System.Boolean)
@@ -1973,10 +2140,7 @@ items:
       description: The e-mails to handle
     - id: read
       type: System.Boolean
-      description: >-
-        If true mails are marked as read.
-
-        If false mails are marked as unread.
+      description: If true mails are marked as read. If false mails are marked as unread.
     content.vb: Public Sub MarkEmailsAsRead(ids As Integer(), read As Boolean)
   overload: SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsRead*
   implements:
@@ -2682,6 +2846,41 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  id: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(Int32)
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(Int32)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an e-mail based on an archived document. The returned value is not sanitized.\n"
+  syntax:
+    content: public EMailEntity GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: Unique id of the document
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: The e-mail
+    content.vb: Public Function GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(documentId As Integer) As EMailEntity
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromId(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromId(System.Int32,System.String)
   id: GetAttachmentFromId(System.Int32,System.String)
@@ -2764,6 +2963,50 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  id: GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedPreviewAttachmentFromId(Int32, String, String, String)
+  nameWithType: EMailAgent.GetUnsanitizedPreviewAttachmentFromId(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve an attachment from an e-mail. The returned data is intended to be use for a preview. The returned data is not sanitized.\n"
+  syntax:
+    content: public EMailAttachment GetUnsanitizedPreviewAttachmentFromId(int mailItemId, string attachmentId, string attachmentType, string attachmentFilename)
+    parameters:
+    - id: mailItemId
+      type: System.Int32
+      description: Unique ID for the e-mail to retrieve the attachment from
+    - id: attachmentId
+      type: System.String
+      description: Id of the attachment in the e-mail
+    - id: attachmentType
+      type: System.String
+      description: Mimetype of the attachment. Must be set if attachmentId contains a chain.
+    - id: attachmentFilename
+      type: System.String
+      description: Filename of the attachment. Must be set if attachmentId contains a chain.
+    return:
+      type: SuperOffice.CRM.Services.EMailAttachment
+      description: The attachment
+    content.vb: Public Function GetUnsanitizedPreviewAttachmentFromId(mailItemId As Integer, attachmentId As String, attachmentType As String, attachmentFilename As String) As EMailAttachment
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId(System.Int32,System.String)
   id: GetPreviewAttachmentFromDocId(System.Int32,System.String)
@@ -2798,6 +3041,44 @@ items:
   overload: SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId*
   implements:
   - SuperOffice.CRM.Services.IEMailAgent.GetPreviewAttachmentFromDocId(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  id: GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUnsanitizedPreviewAttachmentFromDocId(Int32, String)
+  nameWithType: EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(Int32, String)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview. The returned data is not sanitized.\n"
+  syntax:
+    content: public EMailAttachment GetUnsanitizedPreviewAttachmentFromDocId(int docId, string attachmentId)
+    parameters:
+    - id: docId
+      type: System.Int32
+      description: Unique ID for the e-mail in the document archive to retrieve the attachment from
+    - id: attachmentId
+      type: System.String
+      description: Id of the attachment in the e-mail
+    return:
+      type: SuperOffice.CRM.Services.EMailAttachment
+      description: The attachment
+    content.vb: Public Function GetUnsanitizedPreviewAttachmentFromDocId(docId As Integer, attachmentId As String) As EMailAttachment
+  overload: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -5868,6 +6149,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentId
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentId(Int32)
+  nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentId(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+    name: GetUnsanitizedEMailFromDocumentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId(System.Int32)
+    name: GetUnsanitizedEMailFromDocumentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentId
   isExternal: true
@@ -5956,6 +6284,94 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId
+  isExternal: true
+  name: GetUnsanitizedEMailFromAttachmentId
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromAttachmentId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedEMailFromAttachmentId(Int32, String[], Boolean)
+  nameWithType: IEMailAgent.GetUnsanitizedEMailFromAttachmentId(Int32, String[], Boolean)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32, System.String[], System.Boolean)
+  nameWithType.vb: IEMailAgent.GetUnsanitizedEMailFromAttachmentId(Int32, String(), Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32, System.String(), System.Boolean)
+  name.vb: GetUnsanitizedEMailFromAttachmentId(Int32, String(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+    name: GetUnsanitizedEMailFromAttachmentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromAttachmentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId(System.Int32,System.String[],System.Boolean)
+    name: GetUnsanitizedEMailFromAttachmentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromAttachmentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentId
   isExternal: true
@@ -6013,6 +6429,94 @@ references:
     name: GetEMailFromDocumentAttachmentId
     nameWithType: IEMailAgent.GetEMailFromDocumentAttachmentId
     fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromDocumentAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentAttachmentId
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String[], Boolean)
+  nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String[], Boolean)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32, System.String[], System.Boolean)
+  nameWithType.vb: IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String(), Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32, System.String(), System.Boolean)
+  name.vb: GetUnsanitizedEMailFromDocumentAttachmentId(Int32, String(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+    name: GetUnsanitizedEMailFromDocumentAttachmentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId(System.Int32,System.String[],System.Boolean)
+    name: GetUnsanitizedEMailFromDocumentAttachmentId
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
     isExternal: true
   - name: (
     nameWithType: (
@@ -7114,6 +7618,69 @@ references:
     name: GetEMail
     nameWithType: IEMailAgent.GetEMail
     fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail
+  isExternal: true
+  name: GetUnsanitizedEMail
+  nameWithType: EMailAgent.GetUnsanitizedEMail
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMail
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedEMail(Int32, Boolean)
+  nameWithType: IEMailAgent.GetUnsanitizedEMail(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+    name: GetUnsanitizedEMail
+    nameWithType: IEMailAgent.GetUnsanitizedEMail
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail(System.Int32,System.Boolean)
+    name: GetUnsanitizedEMail
+    nameWithType: IEMailAgent.GetUnsanitizedEMail
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMail
     isExternal: true
   - name: (
     nameWithType: (
@@ -8313,6 +8880,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+  nameWithType: EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(Int32)
+  nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+    name: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream(System.Int32)
+    name: GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    nameWithType: IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromId
   isExternal: true
@@ -8471,6 +9085,101 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId
+  isExternal: true
+  name: GetUnsanitizedPreviewAttachmentFromId
+  nameWithType: EMailAgent.GetUnsanitizedPreviewAttachmentFromId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedPreviewAttachmentFromId(Int32, String, String, String)
+  nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+    name: GetUnsanitizedPreviewAttachmentFromId
+    nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
+    name: GetUnsanitizedPreviewAttachmentFromId
+    nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetPreviewAttachmentFromDocId
   isExternal: true
@@ -8514,6 +9223,69 @@ references:
     name: GetPreviewAttachmentFromDocId
     nameWithType: IEMailAgent.GetPreviewAttachmentFromDocId
     fullName: SuperOffice.CRM.Services.IEMailAgent.GetPreviewAttachmentFromDocId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+  isExternal: true
+  name: GetUnsanitizedPreviewAttachmentFromDocId
+  nameWithType: EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetUnsanitizedPreviewAttachmentFromDocId(Int32, String)
+  nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(Int32, String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+    name: GetUnsanitizedPreviewAttachmentFromDocId
+    nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId(System.Int32,System.String)
+    name: GetUnsanitizedPreviewAttachmentFromDocId
+    nameWithType: IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
     isExternal: true
   - name: (
     nameWithType: (

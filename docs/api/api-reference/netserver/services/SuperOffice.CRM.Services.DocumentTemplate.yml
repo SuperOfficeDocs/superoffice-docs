@@ -39,6 +39,7 @@ items:
     content: 'public class DocumentTemplate : Carrier'
     content.vb: >-
       Public Class DocumentTemplate
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

@@ -30,6 +30,7 @@ items:
     content: 'public class DocumentPreview : Carrier'
     content.vb: >-
       Public Class DocumentPreview
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent

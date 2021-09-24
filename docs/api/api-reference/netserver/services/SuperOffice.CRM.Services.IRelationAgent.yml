@@ -34,6 +34,7 @@ items:
       <Agent("Relation Agent", "Interface for the Relation Agent. Contact/Person relations")>
 
       Public Interface IRelationAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

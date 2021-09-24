@@ -30,6 +30,7 @@ items:
     content: 'public class QuoteResponse : Carrier'
     content.vb: >-
       Public Class QuoteResponse
+
           Inherits Carrier
   inheritance:
   - System.Object

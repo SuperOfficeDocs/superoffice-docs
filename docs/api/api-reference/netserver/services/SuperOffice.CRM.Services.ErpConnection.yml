@@ -38,6 +38,7 @@ items:
     content: 'public class ErpConnection : Carrier'
     content.vb: >-
       Public Class ErpConnection
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent

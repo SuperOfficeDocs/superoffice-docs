@@ -28,6 +28,7 @@ items:
     content: 'public class Sentiment : Carrier'
     content.vb: >-
       Public Class Sentiment
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AIAgent

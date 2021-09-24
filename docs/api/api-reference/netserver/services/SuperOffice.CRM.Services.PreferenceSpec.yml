@@ -28,6 +28,7 @@ items:
     content: 'public class PreferenceSpec : Carrier'
     content.vb: >-
       Public Class PreferenceSpec
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PreferenceAgent

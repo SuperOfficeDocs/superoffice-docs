@@ -47,6 +47,7 @@ items:
     content: 'public class SaleStakeholder : Carrier'
     content.vb: >-
       Public Class SaleStakeholder
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaleAgent

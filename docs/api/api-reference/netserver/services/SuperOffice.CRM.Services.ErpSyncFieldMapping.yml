@@ -43,6 +43,7 @@ items:
     content: 'public class ErpSyncFieldMapping : Carrier'
     content.vb: >-
       Public Class ErpSyncFieldMapping
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent

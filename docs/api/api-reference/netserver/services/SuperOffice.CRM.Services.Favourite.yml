@@ -31,6 +31,7 @@ items:
     content: 'public class Favourite : Carrier'
     content.vb: >-
       Public Class Favourite
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.FavouriteAgent

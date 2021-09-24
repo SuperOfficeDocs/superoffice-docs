@@ -30,6 +30,7 @@ items:
     content: 'public class ResourceOverride : Carrier'
     content.vb: >-
       Public Class ResourceOverride
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ResourceAgent

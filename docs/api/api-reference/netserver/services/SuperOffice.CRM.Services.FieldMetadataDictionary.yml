@@ -27,7 +27,9 @@ items:
     content: 'public class FieldMetadataDictionary : Dictionary<string, FieldMetadata>, IDictionary<string, FieldMetadata>, ICollection<KeyValuePair<string, FieldMetadata>>, IDictionary, ICollection, IReadOnlyDictionary<string, FieldMetadata>, IReadOnlyCollection<KeyValuePair<string, FieldMetadata>>, IEnumerable<KeyValuePair<string, FieldMetadata>>, IEnumerable, ISerializable, IDeserializationCallback'
     content.vb: >-
       Public Class FieldMetadataDictionary
+
           Inherits Dictionary(Of String, FieldMetadata)
+
           Implements IDictionary(Of String, FieldMetadata), ICollection(Of KeyValuePair(Of String, FieldMetadata)), IDictionary, ICollection, IReadOnlyDictionary(Of String, FieldMetadata), IReadOnlyCollection(Of KeyValuePair(Of String, FieldMetadata)), IEnumerable(Of KeyValuePair(Of String, FieldMetadata)), IEnumerable, ISerializable, IDeserializationCallback
   inheritance:
   - System.Object

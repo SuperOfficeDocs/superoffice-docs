@@ -71,7 +71,9 @@ items:
     content: 'public class ContactEntity : Carrier, IUdefFieldCarrier, IExtraFieldCarrier, IEntityCarrier'
     content.vb: >-
       Public Class ContactEntity
+
           Inherits Carrier
+
           Implements IUdefFieldCarrier, IExtraFieldCarrier, IEntityCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ContactAgent

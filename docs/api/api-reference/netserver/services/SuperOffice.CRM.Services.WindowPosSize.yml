@@ -39,6 +39,7 @@ items:
     content: 'public class WindowPosSize : Carrier'
     content.vb: >-
       Public Class WindowPosSize
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ConfigurationAgent

@@ -32,7 +32,9 @@ items:
     content: 'public class PartnerAgent : AgentBase<IPartnerAgent>, IDisposable, IPartnerAgent, IAgent'
     content.vb: >-
       Public Class PartnerAgent
+
           Inherits AgentBase(Of IPartnerAgent)
+
           Implements IDisposable, IPartnerAgent, IAgent
   inheritance:
   - System.Object

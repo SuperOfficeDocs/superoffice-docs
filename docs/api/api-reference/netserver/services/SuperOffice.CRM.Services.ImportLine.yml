@@ -31,6 +31,7 @@ items:
     content: 'public class ImportLine : Carrier'
     content.vb: >-
       Public Class ImportLine
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ImportAgent

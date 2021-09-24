@@ -16,14 +16,12 @@ items:
   - SuperOffice.CRM.Services.Ticket.CategoryName
   - SuperOffice.CRM.Services.Ticket.ClosedAt
   - SuperOffice.CRM.Services.Ticket.ConnectId
+  - SuperOffice.CRM.Services.Ticket.ContactId
+  - SuperOffice.CRM.Services.Ticket.ContactName
   - SuperOffice.CRM.Services.Ticket.CreatedAt
   - SuperOffice.CRM.Services.Ticket.CreatedBy
   - SuperOffice.CRM.Services.Ticket.CreatedByName
-  - SuperOffice.CRM.Services.Ticket.CustFirstname
-  - SuperOffice.CRM.Services.Ticket.CustFullname
   - SuperOffice.CRM.Services.Ticket.CustId
-  - SuperOffice.CRM.Services.Ticket.CustLastname
-  - SuperOffice.CRM.Services.Ticket.CustMiddleName
   - SuperOffice.CRM.Services.Ticket.Deadline
   - SuperOffice.CRM.Services.Ticket.FirstReadByUser
   - SuperOffice.CRM.Services.Ticket.FromAddress
@@ -33,8 +31,14 @@ items:
   - SuperOffice.CRM.Services.Ticket.NumReplies
   - SuperOffice.CRM.Services.Ticket.Origin
   - SuperOffice.CRM.Services.Ticket.OwnedBy
+  - SuperOffice.CRM.Services.Ticket.OwnedByAssociateId
   - SuperOffice.CRM.Services.Ticket.OwnedByName
+  - SuperOffice.CRM.Services.Ticket.PersonFirstname
+  - SuperOffice.CRM.Services.Ticket.PersonFullname
+  - SuperOffice.CRM.Services.Ticket.PersonLastname
+  - SuperOffice.CRM.Services.Ticket.PersonMiddleName
   - SuperOffice.CRM.Services.Ticket.Priority
+  - SuperOffice.CRM.Services.Ticket.PriorityName
   - SuperOffice.CRM.Services.Ticket.ReadByCustomer
   - SuperOffice.CRM.Services.Ticket.ReadByOwner
   - SuperOffice.CRM.Services.Ticket.ReadStatus
@@ -76,6 +80,7 @@ items:
     content: 'public class Ticket : Carrier'
     content.vb: >-
       Public Class Ticket
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TicketAgent
@@ -906,6 +911,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.Ticket.PriorityName
+  commentId: P:SuperOffice.CRM.Services.Ticket.PriorityName
+  id: PriorityName
+  parent: SuperOffice.CRM.Services.Ticket
+  langs:
+  - csharp
+  - vb
+  name: PriorityName
+  nameWithType: Ticket.PriorityName
+  fullName: SuperOffice.CRM.Services.Ticket.PriorityName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the priority. \n"
+  syntax:
+    content: public virtual string PriorityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriorityName As String
+  overload: SuperOffice.CRM.Services.Ticket.PriorityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Ticket.BaseStatus
   commentId: P:SuperOffice.CRM.Services.Ticket.BaseStatus
   id: BaseStatus
@@ -964,6 +1002,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketStatus As Integer
   overload: SuperOffice.CRM.Services.Ticket.TicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  commentId: P:SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  id: TicketStatusDisplayValue
+  parent: SuperOffice.CRM.Services.Ticket
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusDisplayValue
+  nameWithType: Ticket.TicketStatusDisplayValue
+  fullName: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the display name of the ticket status. \n"
+  syntax:
+    content: public virtual string TicketStatusDisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TicketStatusDisplayValue As String
+  overload: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue*
   modifiers.csharp:
   - public
   - virtual
@@ -1038,16 +1109,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.Ticket.CustFirstname
-  commentId: P:SuperOffice.CRM.Services.Ticket.CustFirstname
-  id: CustFirstname
+- uid: SuperOffice.CRM.Services.Ticket.PersonFirstname
+  commentId: P:SuperOffice.CRM.Services.Ticket.PersonFirstname
+  id: PersonFirstname
   parent: SuperOffice.CRM.Services.Ticket
   langs:
   - csharp
   - vb
-  name: CustFirstname
-  nameWithType: Ticket.CustFirstname
-  fullName: SuperOffice.CRM.Services.Ticket.CustFirstname
+  name: PersonFirstname
+  nameWithType: Ticket.PersonFirstname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonFirstname
   type: Property
   source:
     path: SuperOffice.Services
@@ -1057,12 +1128,12 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nFirst name \n"
   syntax:
-    content: public virtual string CustFirstname { get; set; }
+    content: public virtual string PersonFirstname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustFirstname As String
-  overload: SuperOffice.CRM.Services.Ticket.CustFirstname*
+    content.vb: Public Overridable Property PersonFirstname As String
+  overload: SuperOffice.CRM.Services.Ticket.PersonFirstname*
   modifiers.csharp:
   - public
   - virtual
@@ -1071,16 +1142,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.Ticket.CustMiddleName
-  commentId: P:SuperOffice.CRM.Services.Ticket.CustMiddleName
-  id: CustMiddleName
+- uid: SuperOffice.CRM.Services.Ticket.PersonMiddleName
+  commentId: P:SuperOffice.CRM.Services.Ticket.PersonMiddleName
+  id: PersonMiddleName
   parent: SuperOffice.CRM.Services.Ticket
   langs:
   - csharp
   - vb
-  name: CustMiddleName
-  nameWithType: Ticket.CustMiddleName
-  fullName: SuperOffice.CRM.Services.Ticket.CustMiddleName
+  name: PersonMiddleName
+  nameWithType: Ticket.PersonMiddleName
+  fullName: SuperOffice.CRM.Services.Ticket.PersonMiddleName
   type: Property
   source:
     path: SuperOffice.Services
@@ -1090,12 +1161,12 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nMiddle name or &apos;van&apos; etc. \n"
   syntax:
-    content: public virtual string CustMiddleName { get; set; }
+    content: public virtual string PersonMiddleName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustMiddleName As String
-  overload: SuperOffice.CRM.Services.Ticket.CustMiddleName*
+    content.vb: Public Overridable Property PersonMiddleName As String
+  overload: SuperOffice.CRM.Services.Ticket.PersonMiddleName*
   modifiers.csharp:
   - public
   - virtual
@@ -1104,16 +1175,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.Ticket.CustLastname
-  commentId: P:SuperOffice.CRM.Services.Ticket.CustLastname
-  id: CustLastname
+- uid: SuperOffice.CRM.Services.Ticket.PersonLastname
+  commentId: P:SuperOffice.CRM.Services.Ticket.PersonLastname
+  id: PersonLastname
   parent: SuperOffice.CRM.Services.Ticket
   langs:
   - csharp
   - vb
-  name: CustLastname
-  nameWithType: Ticket.CustLastname
-  fullName: SuperOffice.CRM.Services.Ticket.CustLastname
+  name: PersonLastname
+  nameWithType: Ticket.PersonLastname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonLastname
   type: Property
   source:
     path: SuperOffice.Services
@@ -1123,12 +1194,45 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nLast name \n"
   syntax:
-    content: public virtual string CustLastname { get; set; }
+    content: public virtual string PersonLastname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustLastname As String
-  overload: SuperOffice.CRM.Services.Ticket.CustLastname*
+    content.vb: Public Overridable Property PersonLastname As String
+  overload: SuperOffice.CRM.Services.Ticket.PersonLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Ticket.PersonFullname
+  commentId: P:SuperOffice.CRM.Services.Ticket.PersonFullname
+  id: PersonFullname
+  parent: SuperOffice.CRM.Services.Ticket
+  langs:
+  - csharp
+  - vb
+  name: PersonFullname
+  nameWithType: Ticket.PersonFullname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonFullname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the full name for the primary person (customer) \n"
+  syntax:
+    content: public virtual string PersonFullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullname As String
+  overload: SuperOffice.CRM.Services.Ticket.PersonFullname*
   modifiers.csharp:
   - public
   - virtual
@@ -1698,16 +1802,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.Ticket.CustFullname
-  commentId: P:SuperOffice.CRM.Services.Ticket.CustFullname
-  id: CustFullname
+- uid: SuperOffice.CRM.Services.Ticket.ContactId
+  commentId: P:SuperOffice.CRM.Services.Ticket.ContactId
+  id: ContactId
   parent: SuperOffice.CRM.Services.Ticket
   langs:
   - csharp
   - vb
-  name: CustFullname
-  nameWithType: Ticket.CustFullname
-  fullName: SuperOffice.CRM.Services.Ticket.CustFullname
+  name: ContactId
+  nameWithType: Ticket.ContactId
+  fullName: SuperOffice.CRM.Services.Ticket.ContactId
   type: Property
   source:
     path: SuperOffice.Services
@@ -1715,14 +1819,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the full name for the primary customer \n"
+  summary: "\nThe company of the person in the cust_id field, if that person belongs to a company \n"
   syntax:
-    content: public virtual string CustFullname { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
-      type: System.String
-    content.vb: Public Overridable Property CustFullname As String
-  overload: SuperOffice.CRM.Services.Ticket.CustFullname*
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.Ticket.ContactId*
   modifiers.csharp:
   - public
   - virtual
@@ -1731,16 +1835,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
-  commentId: P:SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
-  id: TicketStatusDisplayValue
+- uid: SuperOffice.CRM.Services.Ticket.ContactName
+  commentId: P:SuperOffice.CRM.Services.Ticket.ContactName
+  id: ContactName
   parent: SuperOffice.CRM.Services.Ticket
   langs:
   - csharp
   - vb
-  name: TicketStatusDisplayValue
-  nameWithType: Ticket.TicketStatusDisplayValue
-  fullName: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  name: ContactName
+  nameWithType: Ticket.ContactName
+  fullName: SuperOffice.CRM.Services.Ticket.ContactName
   type: Property
   source:
     path: SuperOffice.Services
@@ -1748,14 +1852,47 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the display name of the ticket status. \n"
+  summary: "\nThe name of the connected contact \n"
   syntax:
-    content: public virtual string TicketStatusDisplayValue { get; set; }
+    content: public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TicketStatusDisplayValue As String
-  overload: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue*
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.Ticket.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Ticket.OwnedByAssociateId
+  commentId: P:SuperOffice.CRM.Services.Ticket.OwnedByAssociateId
+  id: OwnedByAssociateId
+  parent: SuperOffice.CRM.Services.Ticket
+  langs:
+  - csharp
+  - vb
+  name: OwnedByAssociateId
+  nameWithType: Ticket.OwnedByAssociateId
+  fullName: SuperOffice.CRM.Services.Ticket.OwnedByAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate id of the owner of the ticket. \n"
+  syntax:
+    content: public virtual int OwnedByAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnedByAssociateId As Integer
+  overload: SuperOffice.CRM.Services.Ticket.OwnedByAssociateId*
   modifiers.csharp:
   - public
   - virtual
@@ -1967,6 +2104,12 @@ references:
   name: Priority
   nameWithType: Ticket.Priority
   fullName: SuperOffice.CRM.Services.Ticket.Priority
+- uid: SuperOffice.CRM.Services.Ticket.PriorityName*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.PriorityName
+  isExternal: true
+  name: PriorityName
+  nameWithType: Ticket.PriorityName
+  fullName: SuperOffice.CRM.Services.Ticket.PriorityName
 - uid: SuperOffice.CRM.Services.Ticket.BaseStatus*
   commentId: Overload:SuperOffice.CRM.Services.Ticket.BaseStatus
   isExternal: true
@@ -1984,6 +2127,12 @@ references:
   name: TicketStatus
   nameWithType: Ticket.TicketStatus
   fullName: SuperOffice.CRM.Services.Ticket.TicketStatus
+- uid: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  isExternal: true
+  name: TicketStatusDisplayValue
+  nameWithType: Ticket.TicketStatusDisplayValue
+  fullName: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
 - uid: SuperOffice.CRM.Services.Ticket.Origin*
   commentId: Overload:SuperOffice.CRM.Services.Ticket.Origin
   isExternal: true
@@ -2001,24 +2150,30 @@ references:
   name: CustId
   nameWithType: Ticket.CustId
   fullName: SuperOffice.CRM.Services.Ticket.CustId
-- uid: SuperOffice.CRM.Services.Ticket.CustFirstname*
-  commentId: Overload:SuperOffice.CRM.Services.Ticket.CustFirstname
+- uid: SuperOffice.CRM.Services.Ticket.PersonFirstname*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.PersonFirstname
   isExternal: true
-  name: CustFirstname
-  nameWithType: Ticket.CustFirstname
-  fullName: SuperOffice.CRM.Services.Ticket.CustFirstname
-- uid: SuperOffice.CRM.Services.Ticket.CustMiddleName*
-  commentId: Overload:SuperOffice.CRM.Services.Ticket.CustMiddleName
+  name: PersonFirstname
+  nameWithType: Ticket.PersonFirstname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonFirstname
+- uid: SuperOffice.CRM.Services.Ticket.PersonMiddleName*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.PersonMiddleName
   isExternal: true
-  name: CustMiddleName
-  nameWithType: Ticket.CustMiddleName
-  fullName: SuperOffice.CRM.Services.Ticket.CustMiddleName
-- uid: SuperOffice.CRM.Services.Ticket.CustLastname*
-  commentId: Overload:SuperOffice.CRM.Services.Ticket.CustLastname
+  name: PersonMiddleName
+  nameWithType: Ticket.PersonMiddleName
+  fullName: SuperOffice.CRM.Services.Ticket.PersonMiddleName
+- uid: SuperOffice.CRM.Services.Ticket.PersonLastname*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.PersonLastname
   isExternal: true
-  name: CustLastname
-  nameWithType: Ticket.CustLastname
-  fullName: SuperOffice.CRM.Services.Ticket.CustLastname
+  name: PersonLastname
+  nameWithType: Ticket.PersonLastname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonLastname
+- uid: SuperOffice.CRM.Services.Ticket.PersonFullname*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.PersonFullname
+  isExternal: true
+  name: PersonFullname
+  nameWithType: Ticket.PersonFullname
+  fullName: SuperOffice.CRM.Services.Ticket.PersonFullname
 - uid: SuperOffice.CRM.Services.Ticket.AlertLevel*
   commentId: Overload:SuperOffice.CRM.Services.Ticket.AlertLevel
   isExternal: true
@@ -2140,15 +2295,21 @@ references:
   name: FromAddress
   nameWithType: Ticket.FromAddress
   fullName: SuperOffice.CRM.Services.Ticket.FromAddress
-- uid: SuperOffice.CRM.Services.Ticket.CustFullname*
-  commentId: Overload:SuperOffice.CRM.Services.Ticket.CustFullname
+- uid: SuperOffice.CRM.Services.Ticket.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.ContactId
   isExternal: true
-  name: CustFullname
-  nameWithType: Ticket.CustFullname
-  fullName: SuperOffice.CRM.Services.Ticket.CustFullname
-- uid: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue*
-  commentId: Overload:SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  name: ContactId
+  nameWithType: Ticket.ContactId
+  fullName: SuperOffice.CRM.Services.Ticket.ContactId
+- uid: SuperOffice.CRM.Services.Ticket.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.ContactName
   isExternal: true
-  name: TicketStatusDisplayValue
-  nameWithType: Ticket.TicketStatusDisplayValue
-  fullName: SuperOffice.CRM.Services.Ticket.TicketStatusDisplayValue
+  name: ContactName
+  nameWithType: Ticket.ContactName
+  fullName: SuperOffice.CRM.Services.Ticket.ContactName
+- uid: SuperOffice.CRM.Services.Ticket.OwnedByAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.Ticket.OwnedByAssociateId
+  isExternal: true
+  name: OwnedByAssociateId
+  nameWithType: Ticket.OwnedByAssociateId
+  fullName: SuperOffice.CRM.Services.Ticket.OwnedByAssociateId

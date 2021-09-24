@@ -33,6 +33,7 @@ items:
     content: 'public class EMailFolder : Carrier'
     content.vb: >-
       Public Class EMailFolder
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

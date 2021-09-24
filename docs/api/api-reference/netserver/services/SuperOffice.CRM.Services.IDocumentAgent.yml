@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocument(System.Int32)
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentCommands(System.Int32,System.String[])
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentEntity(System.Int32)
+  - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength(System.Int32,System.String)
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList(System.Int32[])
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentProperties(System.Int32,System.String[])
   - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentsByTemplateHeading(System.Int32)
@@ -113,6 +114,7 @@ items:
       <Agent("Document Agent", "Interface for the Document Agent. Collection of all services that works with Document data. This is services for the document information, not the physical document themselves. These are handled by the BLOB service methods.")>
 
       Public Interface IDocumentAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -2052,6 +2054,38 @@ items:
       description: Error messages tagged by field.
     content.vb: Function ValidateDocumentEntity(documentEntity As DocumentEntity) As StringDictionary
   overload: SuperOffice.CRM.Services.IDocumentAgent.ValidateDocumentEntity*
+- uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength(System.Int32,System.String)
+  id: GetDocumentLength(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentLength(Int32, String)
+  nameWithType: IDocumentAgent.GetDocumentLength(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet length of the document content in bytes.\n"
+  syntax:
+    content: long GetDocumentLength(int documentId, string versionId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: SuperOffice document id
+    - id: versionId
+      type: System.String
+      description: Version ID if applicable; a blank value implies &quot;latest&quot; version and is always acceptable.
+    return:
+      type: System.Int64
+      description: The length of the document content in bytes.
+    content.vb: Function GetDocumentLength(documentId As Integer, versionId As String) As Long
+  overload: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList(System.Int32[])
   id: GetDocumentList(System.Int32[])
@@ -3609,6 +3643,19 @@ references:
   name: ValidateDocumentEntity
   nameWithType: IDocumentAgent.ValidateDocumentEntity
   fullName: SuperOffice.CRM.Services.IDocumentAgent.ValidateDocumentEntity
+- uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength*
+  commentId: Overload:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength
+  isExternal: true
+  name: GetDocumentLength
+  nameWithType: IDocumentAgent.GetDocumentLength
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList
   isExternal: true

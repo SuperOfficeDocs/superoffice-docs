@@ -34,7 +34,9 @@ items:
     content: 'public class PocketAgent : AgentBase<IPocketAgent>, IDisposable, IPocketAgent, IAgent'
     content.vb: >-
       Public Class PocketAgent
+
           Inherits AgentBase(Of IPocketAgent)
+
           Implements IDisposable, IPocketAgent, IAgent
   inheritance:
   - System.Object

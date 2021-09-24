@@ -29,6 +29,7 @@ items:
       <AttributeUsage(AttributeTargets.Class)>
 
       Public Class MessagingWithConfigPluginAttribute
+
           Inherits PluginAttribute
   inheritance:
   - System.Object
@@ -61,16 +62,13 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nName of the plugin. This name must be unique.\n"
   syntax:
     content: public MessagingWithConfigPluginAttribute(string pluginName, params string[] supportedMessagingFormats)
     parameters:
     - id: pluginName
       type: System.String
-      description: Name of the provider
     - id: supportedMessagingFormats
       type: System.String[]
-      description: This value can typically be &quot;sms/text&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;
     content.vb: Public Sub New(pluginName As String, ParamArray supportedMessagingFormats As String())
   overload: SuperOffice.Messaging.MessagingWithConfigPluginAttribute.#ctor*
   nameWithType.vb: MessagingWithConfigPluginAttribute.MessagingWithConfigPluginAttribute(String, String())
@@ -97,7 +95,6 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nThis value can typically be &quot;sms/text&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;\n"
   syntax:
     content: public string[] SupportedMessagingFormats { get; set; }
     parameters: []

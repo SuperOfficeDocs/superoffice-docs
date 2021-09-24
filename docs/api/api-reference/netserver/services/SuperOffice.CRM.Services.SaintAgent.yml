@@ -40,7 +40,9 @@ items:
     content: 'public class SaintAgent : AgentBase<ISaintAgent>, IDisposable, ISaintAgent, IAgent'
     content.vb: >-
       Public Class SaintAgent
+
           Inherits AgentBase(Of ISaintAgent)
+
           Implements IDisposable, ISaintAgent, IAgent
   inheritance:
   - System.Object

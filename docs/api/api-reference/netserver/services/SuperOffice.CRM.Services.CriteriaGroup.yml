@@ -30,6 +30,7 @@ items:
     content: 'public class CriteriaGroup : Carrier'
     content.vb: >-
       Public Class CriteriaGroup
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.FindAgent

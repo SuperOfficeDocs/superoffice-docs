@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.PersonAgent.#ctor
   - SuperOffice.CRM.Services.PersonAgent.AddBounce(System.String)
   - SuperOffice.CRM.Services.PersonAgent.AddBounceWithCount(System.String,System.Int32)
+  - SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.PersonAgent.AddEmailAddressToPerson(System.Int32,System.String,System.Boolean)
   - SuperOffice.CRM.Services.PersonAgent.ChangeCountry(SuperOffice.CRM.Services.PersonEntity,System.Int32)
   - SuperOffice.CRM.Services.PersonAgent.ChangePersonRank(System.Int32,System.Boolean)
@@ -23,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.PersonAgent.DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
   - SuperOffice.CRM.Services.PersonAgent.GetAddress(System.Int32)
   - SuperOffice.CRM.Services.PersonAgent.GetAddressByCountry(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.PersonAgent.GetColleagues
   - SuperOffice.CRM.Services.PersonAgent.GetColleaguesByDepartment(System.Int32)
   - SuperOffice.CRM.Services.PersonAgent.GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType,System.Int32)
@@ -75,7 +77,9 @@ items:
     content: 'public class PersonAgent : AgentBase<IPersonAgent>, IDisposable, IPersonAgent, IAgent'
     content.vb: >-
       Public Class PersonAgent
+
           Inherits AgentBase(Of IPersonAgent)
+
           Implements IDisposable, IPersonAgent, IAgent
   inheritance:
   - System.Object
@@ -1446,6 +1450,85 @@ items:
   overload: SuperOffice.CRM.Services.PersonAgent.AddBounceWithCount*
   implements:
   - SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  id: GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBestSoLanguageForTemplate(Int32, Int32)
+  nameWithType: PersonAgent.GetBestSoLanguageForTemplate(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the best language for this person on this template\n"
+  syntax:
+    content: public string GetBestSoLanguageForTemplate(int personId, int templateId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The id of the person
+    - id: templateId
+      type: System.Int32
+      description: The id of the template to find languages on
+    return:
+      type: System.String
+      description: The solang code for best language, empty string if no best language found
+    content.vb: Public Function GetBestSoLanguageForTemplate(personId As Integer, templateId As Integer) As String
+  overload: SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+  id: AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceWithDetails(String, Int32, Int32, String)
+  nameWithType: PersonAgent.AddBounceWithDetails(String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails(System.String, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a number of bounce counts on the email address if it exists, and with possible bounce code and reason\n"
+  syntax:
+    content: public void AddBounceWithDetails(string emailAddress, int counts, int code, string reason)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add bounce counts to
+    - id: counts
+      type: System.Int32
+      description: The number of bounce counts to add
+    - id: code
+      type: System.Int32
+      description: A numeric code representing the bounce reason
+    - id: reason
+      type: System.String
+      description: A textual tag representing the bounce reason
+    content.vb: Public Sub AddBounceWithDetails(emailAddress As String, counts As Integer, code As Integer, reason As String)
+  overload: SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4870,6 +4953,164 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate
+  isExternal: true
+  name: GetBestSoLanguageForTemplate
+  nameWithType: PersonAgent.GetBestSoLanguageForTemplate
+  fullName: SuperOffice.CRM.Services.PersonAgent.GetBestSoLanguageForTemplate
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  name: GetBestSoLanguageForTemplate(Int32, Int32)
+  nameWithType: IPersonAgent.GetBestSoLanguageForTemplate(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+    name: GetBestSoLanguageForTemplate
+    nameWithType: IPersonAgent.GetBestSoLanguageForTemplate
+    fullName: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate(System.Int32,System.Int32)
+    name: GetBestSoLanguageForTemplate
+    nameWithType: IPersonAgent.GetBestSoLanguageForTemplate
+    fullName: SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails
+  isExternal: true
+  name: AddBounceWithDetails
+  nameWithType: PersonAgent.AddBounceWithDetails
+  fullName: SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetails
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  name: AddBounceWithDetails(String, Int32, Int32, String)
+  nameWithType: IPersonAgent.AddBounceWithDetails(String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String, System.Int32, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+    name: AddBounceWithDetails
+    nameWithType: IPersonAgent.AddBounceWithDetails
+    fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails(System.String,System.Int32,System.Int32,System.String)
+    name: AddBounceWithDetails
+    nameWithType: IPersonAgent.AddBounceWithDetails
+    fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithDetails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )

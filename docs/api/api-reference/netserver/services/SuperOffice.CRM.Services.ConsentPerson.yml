@@ -34,6 +34,7 @@ items:
     content: 'public class ConsentPerson : Carrier'
     content.vb: >-
       Public Class ConsentPerson
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PersonAgent

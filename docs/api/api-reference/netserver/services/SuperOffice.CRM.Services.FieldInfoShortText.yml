@@ -30,6 +30,7 @@ items:
     content: 'public class FieldInfoShortText : FieldInfoBase'
     content.vb: >-
       Public Class FieldInfoShortText
+
           Inherits FieldInfoBase
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

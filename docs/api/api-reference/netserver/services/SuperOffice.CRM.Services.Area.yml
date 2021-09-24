@@ -34,6 +34,7 @@ items:
     content: 'public class Area : Carrier'
     content.vb: >-
       Public Class Area
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ReplicationAgent

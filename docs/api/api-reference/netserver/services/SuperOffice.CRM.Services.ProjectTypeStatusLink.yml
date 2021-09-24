@@ -33,6 +33,7 @@ items:
     content: 'public class ProjectTypeStatusLink : Carrier'
     content.vb: >-
       Public Class ProjectTypeStatusLink
+
           Inherits Carrier
   inheritance:
   - System.Object

@@ -31,7 +31,9 @@ items:
     content: 'public class ResourceAgent : AgentBase<IResourceAgent>, IDisposable, IResourceAgent, IAgent'
     content.vb: >-
       Public Class ResourceAgent
+
           Inherits AgentBase(Of IResourceAgent)
+
           Implements IDisposable, IResourceAgent, IAgent
   inheritance:
   - System.Object

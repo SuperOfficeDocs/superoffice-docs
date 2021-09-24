@@ -29,6 +29,7 @@ items:
     content: 'public class DayInformationListItem : Carrier'
     content.vb: >-
       Public Class DayInformationListItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

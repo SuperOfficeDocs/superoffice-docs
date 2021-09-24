@@ -28,6 +28,7 @@ items:
     content: 'public class TileDataRow : Carrier'
     content.vb: >-
       Public Class TileDataRow
+
           Inherits Carrier
   inheritance:
   - System.Object

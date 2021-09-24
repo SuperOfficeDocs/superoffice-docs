@@ -7,14 +7,19 @@ items:
   children:
   - SuperOffice.CRM.Services.ConfigurationAgent.#ctor
   - SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta
   - SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
   - SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+  - SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent(System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
@@ -31,6 +36,8 @@ items:
   - SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping(System.String,System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas
   - SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32[])
@@ -38,6 +45,9 @@ items:
   - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl(System.String)
   - SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+  - SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas
+  - SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas
+  - SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
   - SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
   - SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
   - SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
@@ -62,7 +72,9 @@ items:
     content: 'public class ConfigurationAgent : AgentBase<IConfigurationAgent>, IDisposable, IConfigurationAgent, IAgent'
     content.vb: >-
       Public Class ConfigurationAgent
+
           Inherits AgentBase(Of IConfigurationAgent)
+
           Implements IDisposable, IConfigurationAgent, IAgent
   inheritance:
   - System.Object
@@ -279,6 +291,104 @@ items:
   overload: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity*
   implements:
   - SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  id: CreateDefaultConfigurableScreenDelta
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultConfigurableScreenDelta()
+  nameWithType: ConfigurationAgent.CreateDefaultConfigurableScreenDelta()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ConfigurableScreenDelta.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ConfigurableScreenDelta CreateDefaultConfigurableScreenDelta()
+    return:
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta
+      description: New ConfigurableScreenDelta with default values
+    content.vb: Public Function CreateDefaultConfigurableScreenDelta As ConfigurableScreenDelta
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  id: SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConfigurableScreenDelta(ConfigurableScreenDelta)
+  nameWithType: ConfigurationAgent.SaveConfigurableScreenDelta(ConfigurableScreenDelta)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty\n"
+  syntax:
+    content: public ConfigurableScreenDelta SaveConfigurableScreenDelta(ConfigurableScreenDelta configurableScreenDelta)
+    parameters:
+    - id: configurableScreenDelta
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta
+      description: The ConfigurableScreenDelta that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta
+      description: New or updated ConfigurableScreenDelta
+    content.vb: Public Function SaveConfigurableScreenDelta(configurableScreenDelta As ConfigurableScreenDelta) As ConfigurableScreenDelta
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  id: DeleteConfigurableScreenDelta(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConfigurableScreenDelta(Int32)
+  nameWithType: ConfigurationAgent.DeleteConfigurableScreenDelta(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ConfigurableScreenDelta\n"
+  syntax:
+    content: public void DeleteConfigurableScreenDelta(int configurableScreenDeltaId)
+    parameters:
+    - id: configurableScreenDeltaId
+      type: System.Int32
+      description: The identity of the ConfigurableScreenDelta
+    content.vb: Public Sub DeleteConfigurableScreenDelta(configurableScreenDeltaId As Integer)
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1363,6 +1473,236 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  id: GetConfigurableScreenDelta(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDelta(Int32)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDelta(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ConfigurableScreenDelta object.                        \n"
+  syntax:
+    content: public ConfigurableScreenDelta GetConfigurableScreenDelta(int configurableScreenDeltaId)
+    parameters:
+    - id: configurableScreenDeltaId
+      type: System.Int32
+      description: The identifier of the ConfigurableScreenDelta object
+    return:
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta
+      description: ConfigurableScreenDelta
+    content.vb: Public Function GetConfigurableScreenDelta(configurableScreenDeltaId As Integer) As ConfigurableScreenDelta
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas
+  id: GetScreenConfigurationDeltas
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetScreenConfigurationDeltas()
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltas()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will return a json with all deltas for screen\n"
+  syntax:
+    content: public string GetScreenConfigurationDeltas()
+    return:
+      type: System.String
+      description: A string with all recipe deltas in json for logged in associate
+    content.vb: Public Function GetScreenConfigurationDeltas As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  id: GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetScreenConfigurationDelta(DeltaType, DeltaState)
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDelta(DeltaType, DeltaState)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType, SuperOffice.Data.DeltaState)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will return a json with all deltas for screen\n"
+  syntax:
+    content: public string GetScreenConfigurationDelta(DeltaType deltaType, DeltaState deltaState)
+    parameters:
+    - id: deltaType
+      type: SuperOffice.Data.DeltaType
+      description: 'The recipe in json for this DeltaType: System, WebPanel, CustomFields, Custom...'
+    - id: deltaState
+      type: SuperOffice.Data.DeltaState
+      description: Draft or published or None
+    return:
+      type: System.String
+      description: A string with recipe delta in json for logged in associate of given deltatype
+    content.vb: Public Function GetScreenConfigurationDelta(deltaType As DeltaType, deltaState As DeltaState) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  id: GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltasByDelta(ConfigurableScreenDelta)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByDelta(ConfigurableScreenDelta)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will return a configurablescreen delta matching the properties received from the incomming delta\n"
+  syntax:
+    content: public ConfigurableScreenDelta[] GetConfigurableScreenDeltasByDelta(ConfigurableScreenDelta configurableScreenDelta)
+    parameters:
+    - id: configurableScreenDelta
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta
+      description: A delta populated with wanted properties
+    return:
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta[]
+      description: An array of deltas matching the values of the incomming parameter-delta
+    content.vb: Public Function GetConfigurableScreenDeltasByDelta(configurableScreenDelta As ConfigurableScreenDelta) As ConfigurableScreenDelta()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  id: GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltasByQuery(DeltaQuery)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByQuery(DeltaQuery)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will return a configurablescreen delta matching the properties received from the incomming query\n"
+  syntax:
+    content: public ConfigurableScreenDelta[] GetConfigurableScreenDeltasByQuery(DeltaQuery deltaQuery)
+    parameters:
+    - id: deltaQuery
+      type: SuperOffice.CRM.Services.DeltaQuery
+      description: An object populated with wanted properties for the deltas to return
+    return:
+      type: SuperOffice.CRM.Services.ConfigurableScreenDelta[]
+      description: An array of deltas matching the values of the incomming query
+    content.vb: Public Function GetConfigurableScreenDeltasByQuery(deltaQuery As DeltaQuery) As ConfigurableScreenDelta()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas
+  id: RebuildUdefDeltas
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildUdefDeltas()
+  nameWithType: ConfigurationAgent.RebuildUdefDeltas()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFlush and rebuild userdefined field deltas. Mostly used after publishing udefs or adding/editing Customer Service extrafields\n"
+  syntax:
+    content: public void RebuildUdefDeltas()
+    content.vb: Public Sub RebuildUdefDeltas
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas
+  id: RebuildWebpanelDeltas
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildWebpanelDeltas()
+  nameWithType: ConfigurationAgent.RebuildWebpanelDeltas()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFlush and rebuild webpanel deltas. Mostly used after adding/editing webpanels or change group visibility of them\n"
+  syntax:
+    content: public void RebuildWebpanelDeltas()
+    content.vb: Public Sub RebuildWebpanelDeltas
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ConfigurationAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.#ctor
   id: '#ctor'
@@ -2144,6 +2484,144 @@ references:
     name: DeleteSystemEventEntity
     nameWithType: IConfigurationAgent.DeleteSystemEventEntity
     fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  isExternal: true
+  name: CreateDefaultConfigurableScreenDelta
+  nameWithType: ConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultConfigurableScreenDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: CreateDefaultConfigurableScreenDelta()
+  nameWithType: IConfigurationAgent.CreateDefaultConfigurableScreenDelta()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    name: CreateDefaultConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    name: CreateDefaultConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+  commentId: T:SuperOffice.CRM.Services.ConfigurableScreenDelta
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ConfigurableScreenDelta
+  nameWithType: ConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta
+  isExternal: true
+  name: SaveConfigurableScreenDelta
+  nameWithType: ConfigurationAgent.SaveConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveConfigurableScreenDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: SaveConfigurableScreenDelta(ConfigurableScreenDelta)
+  nameWithType: IConfigurationAgent.SaveConfigurableScreenDelta(ConfigurableScreenDelta)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+    name: SaveConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.SaveConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+    name: SaveConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.SaveConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta
+  isExternal: true
+  name: DeleteConfigurableScreenDelta
+  nameWithType: ConfigurationAgent.DeleteConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteConfigurableScreenDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: DeleteConfigurableScreenDelta(Int32)
+  nameWithType: IConfigurationAgent.DeleteConfigurableScreenDelta(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+    name: DeleteConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.DeleteConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta(System.Int32)
+    name: DeleteConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.DeleteConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteConfigurableScreenDelta
     isExternal: true
   - name: (
     nameWithType: (
@@ -3904,6 +4382,364 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta
+  isExternal: true
+  name: GetConfigurableScreenDelta
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetConfigurableScreenDelta(Int32)
+  nameWithType: IConfigurationAgent.GetConfigurableScreenDelta(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+    name: GetConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta(System.Int32)
+    name: GetConfigurableScreenDelta
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas
+  isExternal: true
+  name: GetScreenConfigurationDeltas
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltas
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDeltas
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetScreenConfigurationDeltas()
+  nameWithType: IConfigurationAgent.GetScreenConfigurationDeltas()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+    name: GetScreenConfigurationDeltas
+    nameWithType: IConfigurationAgent.GetScreenConfigurationDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+    name: GetScreenConfigurationDeltas
+    nameWithType: IConfigurationAgent.GetScreenConfigurationDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta
+  isExternal: true
+  name: GetScreenConfigurationDelta
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetScreenConfigurationDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetScreenConfigurationDelta(DeltaType, DeltaState)
+  nameWithType: IConfigurationAgent.GetScreenConfigurationDelta(DeltaType, DeltaState)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType, SuperOffice.Data.DeltaState)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+    name: GetScreenConfigurationDelta
+    nameWithType: IConfigurationAgent.GetScreenConfigurationDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.Data.DeltaType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.Data.DeltaState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta(SuperOffice.Data.DeltaType,SuperOffice.Data.DeltaState)
+    name: GetScreenConfigurationDelta
+    nameWithType: IConfigurationAgent.GetScreenConfigurationDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetScreenConfigurationDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.Data.DeltaType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.Data.DeltaState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DeltaType
+  isExternal: true
+  name: DeltaType
+  nameWithType: DeltaType
+  fullName: SuperOffice.Data.DeltaType
+- uid: SuperOffice.Data.DeltaState
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.Data.DeltaState
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta
+  isExternal: true
+  name: GetConfigurableScreenDeltasByDelta
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByDelta
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByDelta
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetConfigurableScreenDeltasByDelta(ConfigurableScreenDelta)
+  nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByDelta(ConfigurableScreenDelta)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+    name: GetConfigurableScreenDeltasByDelta
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta(SuperOffice.CRM.Services.ConfigurableScreenDelta)
+    name: GetConfigurableScreenDeltasByDelta
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByDelta
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByDelta
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurableScreenDelta[]
+  isExternal: true
+  name: ConfigurableScreenDelta[]
+  nameWithType: ConfigurableScreenDelta[]
+  fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta[]
+  nameWithType.vb: ConfigurableScreenDelta()
+  fullName.vb: SuperOffice.CRM.Services.ConfigurableScreenDelta()
+  name.vb: ConfigurableScreenDelta()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery
+  isExternal: true
+  name: GetConfigurableScreenDeltasByQuery
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByQuery
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetConfigurableScreenDeltasByQuery
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetConfigurableScreenDeltasByQuery(DeltaQuery)
+  nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByQuery(DeltaQuery)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+    name: GetConfigurableScreenDeltasByQuery
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByQuery
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DeltaQuery
+    name: DeltaQuery
+    nameWithType: DeltaQuery
+    fullName: SuperOffice.CRM.Services.DeltaQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery(SuperOffice.CRM.Services.DeltaQuery)
+    name: GetConfigurableScreenDeltasByQuery
+    nameWithType: IConfigurationAgent.GetConfigurableScreenDeltasByQuery
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetConfigurableScreenDeltasByQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DeltaQuery
+    name: DeltaQuery
+    nameWithType: DeltaQuery
+    fullName: SuperOffice.CRM.Services.DeltaQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DeltaQuery
+  commentId: T:SuperOffice.CRM.Services.DeltaQuery
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DeltaQuery
+  nameWithType: DeltaQuery
+  fullName: SuperOffice.CRM.Services.DeltaQuery
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas
+  isExternal: true
+  name: RebuildUdefDeltas
+  nameWithType: ConfigurationAgent.RebuildUdefDeltas
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.RebuildUdefDeltas
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: RebuildUdefDeltas()
+  nameWithType: IConfigurationAgent.RebuildUdefDeltas()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+    name: RebuildUdefDeltas
+    nameWithType: IConfigurationAgent.RebuildUdefDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+    name: RebuildUdefDeltas
+    nameWithType: IConfigurationAgent.RebuildUdefDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildUdefDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas
+  isExternal: true
+  name: RebuildWebpanelDeltas
+  nameWithType: ConfigurationAgent.RebuildWebpanelDeltas
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.RebuildWebpanelDeltas
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: RebuildWebpanelDeltas()
+  nameWithType: IConfigurationAgent.RebuildWebpanelDeltas()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+    name: RebuildWebpanelDeltas
+    nameWithType: IConfigurationAgent.RebuildWebpanelDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+    name: RebuildWebpanelDeltas
+    nameWithType: IConfigurationAgent.RebuildWebpanelDeltas
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.RebuildWebpanelDeltas
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
   - name: )
     nameWithType: )
     fullName: )

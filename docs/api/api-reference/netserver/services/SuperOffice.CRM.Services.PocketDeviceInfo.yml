@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Services.PocketDeviceInfo.Platform
   - SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   - SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
+  - SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   - SuperOffice.CRM.Services.PocketDeviceInfo.ToString
   - SuperOffice.CRM.Services.PocketDeviceInfo.ToString(System.String)
   langs:
@@ -366,6 +367,39 @@ items:
       type: System.String
     content.vb: Public Overridable Property OSVersion As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
+  commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Services.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: PocketDeviceInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe timezone to show for dates in messages \n"
+  syntax:
+    content: public virtual int TimeZoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeZoneId As Integer
+  overload: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId*
   modifiers.csharp:
   - public
   - virtual
@@ -753,3 +787,16 @@ references:
   name: OSVersion
   nameWithType: PocketDeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
+- uid: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId*
+  commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
+  isExternal: true
+  name: TimeZoneId
+  nameWithType: PocketDeviceInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

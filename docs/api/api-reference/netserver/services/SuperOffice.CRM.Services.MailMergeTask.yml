@@ -37,6 +37,7 @@ items:
     content: 'public class MailMergeTask : Carrier'
     content.vb: >-
       Public Class MailMergeTask
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SelectionAgent

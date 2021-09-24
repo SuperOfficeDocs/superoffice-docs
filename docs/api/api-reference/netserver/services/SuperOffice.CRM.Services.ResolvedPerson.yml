@@ -28,6 +28,7 @@ items:
     content: 'public class ResolvedPerson : Carrier'
     content.vb: >-
       Public Class ResolvedPerson
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PersonAgent

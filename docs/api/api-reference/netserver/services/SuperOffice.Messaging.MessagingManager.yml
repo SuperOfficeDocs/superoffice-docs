@@ -26,7 +26,6 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\n\n"
   syntax:
     content: public class MessagingManager
     content.vb: Public Class MessagingManager
@@ -63,12 +62,10 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nGet Messaging Manager\n"
   syntax:
     content: public static MessagingManager GetCurrent()
     return:
       type: SuperOffice.Messaging.MessagingManager
-      description: There is only one messaging agent instance
     content.vb: Public Shared Function GetCurrent As MessagingManager
   overload: SuperOffice.Messaging.MessagingManager.GetCurrent*
   modifiers.csharp:
@@ -94,12 +91,10 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nGet Plugins\n"
   syntax:
     content: public ProviderInfo[] GetPlugins()
     return:
       type: SuperOffice.CRM.Services.ProviderInfo[]
-      description: Return a list of plugins
     content.vb: Public Function GetPlugins As ProviderInfo()
   overload: SuperOffice.Messaging.MessagingManager.GetPlugins*
   modifiers.csharp:
@@ -123,7 +118,6 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nSend messages\n"
   syntax:
     content: public MessageDeliveryStatus[] SendMessages(string pluginName, params OutgoingMessage[] outgoingMessages)
     parameters:
@@ -131,10 +125,8 @@ items:
       type: System.String
     - id: outgoingMessages
       type: SuperOffice.CRM.Services.OutgoingMessage[]
-      description: Array of outgoing messages containing all information about the messages
     return:
       type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
-      description: Array of a delivery status for each outgoing message
     content.vb: Public Function SendMessages(pluginName As String, ParamArray outgoingMessages As OutgoingMessage()) As MessageDeliveryStatus()
   overload: SuperOffice.Messaging.MessagingManager.SendMessages*
   nameWithType.vb: MessagingManager.SendMessages(String, OutgoingMessage())
@@ -161,7 +153,6 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nSend messages\n"
   syntax:
     content: public MessageDeliveryStatus[] SendMessagesWithConfig(string pluginName, OutgoingMessage[] outgoingMessages, Dictionary<string, string> config)
     parameters:
@@ -169,12 +160,10 @@ items:
       type: System.String
     - id: outgoingMessages
       type: SuperOffice.CRM.Services.OutgoingMessage[]
-      description: Array of outgoing messages containing all information about the messages
     - id: config
       type: System.Collections.Generic.Dictionary{System.String,System.String}
     return:
       type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
-      description: Array of a delivery status for each outgoing message
     content.vb: Public Function SendMessagesWithConfig(pluginName As String, outgoingMessages As OutgoingMessage(), config As Dictionary(Of String, String)) As MessageDeliveryStatus()
   overload: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig*
   nameWithType.vb: MessagingManager.SendMessagesWithConfig(String, OutgoingMessage(), Dictionary(Of String, String))
@@ -201,16 +190,13 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nGet delivery status for an outgoing message.\n"
   syntax:
     content: public MessageDeliveryStatus[] GetDeliveryStatus(int[] messagingIds)
     parameters:
     - id: messagingIds
       type: System.Int32[]
-      description: Array of messagingIds
     return:
       type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
-      description: Array of a delivery status for each messagingId
     content.vb: Public Function GetDeliveryStatus(messagingIds As Integer()) As MessageDeliveryStatus()
   overload: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus*
   nameWithType.vb: MessagingManager.GetDeliveryStatus(Int32())
@@ -237,22 +223,17 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nSet or update delivery status\n"
   syntax:
     content: public void SetDeliveryStatus(string plugin, string externalMessageId, int status, string statusDescription)
     parameters:
     - id: plugin
       type: System.String
-      description: Name of plugin
     - id: externalMessageId
       type: System.String
-      description: External message id, known to plugin
     - id: status
       type: System.Int32
-      description: Status enum
     - id: statusDescription
       type: System.String
-      description: String description of status
     content.vb: Public Sub SetDeliveryStatus(plugin As String, externalMessageId As String, status As Integer, statusDescription As String)
   overload: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus*
   modifiers.csharp:
@@ -276,13 +257,11 @@ items:
   assemblies:
   - SuperOffice.Messaging
   namespace: SuperOffice.Messaging
-  summary: "\nCreate an incoming message\n"
   syntax:
     content: public void CreateMessage(IncomingMessage incomingMessage)
     parameters:
     - id: incomingMessage
       type: SuperOffice.CRM.Services.IncomingMessage
-      description: IncomingMessage object containing all information about the message
     content.vb: Public Sub CreateMessage(incomingMessage As IncomingMessage)
   overload: SuperOffice.Messaging.MessagingManager.CreateMessage*
   modifiers.csharp:

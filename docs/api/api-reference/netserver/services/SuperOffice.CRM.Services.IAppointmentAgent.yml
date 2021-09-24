@@ -128,6 +128,7 @@ items:
       <Agent("Appointment Agent", "Interface for the Appointment Agent. Collection of all services that works with Appointment data.")>
 
       Public Interface IAppointmentAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -3065,8 +3066,7 @@ items:
     parameters:
     - id: motherId
       type: System.Int32
-      description: >
-        Appointment id of the owner of a booking
+      description: Appointment id of the owner of a booking
     - id: recurrenceRuleId
       type: System.Int32
       description: RecurrenceId of a recuring appointment

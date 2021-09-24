@@ -39,7 +39,9 @@ items:
     content: 'public class ReportAgent : AgentBase<IReportAgent>, IDisposable, IReportAgent, IAgent'
     content.vb: >-
       Public Class ReportAgent
+
           Inherits AgentBase(Of IReportAgent)
+
           Implements IDisposable, IReportAgent, IAgent
   inheritance:
   - System.Object

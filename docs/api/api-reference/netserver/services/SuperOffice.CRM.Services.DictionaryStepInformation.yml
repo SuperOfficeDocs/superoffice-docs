@@ -28,6 +28,7 @@ items:
     content: 'public class DictionaryStepInformation : Carrier'
     content.vb: >-
       Public Class DictionaryStepInformation
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DatabaseAgent

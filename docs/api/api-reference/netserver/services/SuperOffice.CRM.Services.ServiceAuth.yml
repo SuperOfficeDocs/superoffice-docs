@@ -34,6 +34,7 @@ items:
     content: 'public class ServiceAuth : Carrier'
     content.vb: >-
       Public Class ServiceAuth
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

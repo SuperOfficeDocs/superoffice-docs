@@ -33,6 +33,7 @@ items:
     content: 'public class Link : Carrier'
     content.vb: >-
       Public Class Link
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

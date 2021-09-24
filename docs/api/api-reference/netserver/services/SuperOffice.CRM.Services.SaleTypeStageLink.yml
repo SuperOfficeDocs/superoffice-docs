@@ -34,6 +34,7 @@ items:
     content: 'public class SaleTypeStageLink : Carrier'
     content.vb: >-
       Public Class SaleTypeStageLink
+
           Inherits Carrier
   inheritance:
   - System.Object

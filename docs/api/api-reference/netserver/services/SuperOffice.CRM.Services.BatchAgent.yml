@@ -37,7 +37,9 @@ items:
     content: 'public class BatchAgent : AgentBase<IBatchAgent>, IDisposable, IBatchAgent, IAgent'
     content.vb: >-
       Public Class BatchAgent
+
           Inherits AgentBase(Of IBatchAgent)
+
           Implements IDisposable, IBatchAgent, IAgent
   inheritance:
   - System.Object

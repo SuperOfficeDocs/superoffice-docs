@@ -29,6 +29,7 @@ items:
     content: 'public class QuoteVersionButtonStateCollection : Carrier'
     content.vb: >-
       Public Class QuoteVersionButtonStateCollection
+
           Inherits Carrier
   inheritance:
   - System.Object

@@ -37,7 +37,9 @@ items:
     content: 'public class TimeZoneAgent : AgentBase<ITimeZoneAgent>, IDisposable, ITimeZoneAgent, IAgent'
     content.vb: >-
       Public Class TimeZoneAgent
+
           Inherits AgentBase(Of ITimeZoneAgent)
+
           Implements IDisposable, ITimeZoneAgent, IAgent
   inheritance:
   - System.Object

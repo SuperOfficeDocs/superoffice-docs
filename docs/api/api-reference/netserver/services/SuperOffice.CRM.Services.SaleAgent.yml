@@ -24,6 +24,8 @@ items:
   - SuperOffice.CRM.Services.SaleAgent.GetSaleEntity(System.Int32)
   - SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32[])
   - SuperOffice.CRM.Services.SaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  - SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
   - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32[])
   - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32[])
@@ -63,7 +65,9 @@ items:
     content: 'public class SaleAgent : AgentBase<ISaleAgent>, IDisposable, ISaleAgent, IAgent'
     content.vb: >-
       Public Class SaleAgent
+
           Inherits AgentBase(Of ISaleAgent)
+
           Implements IDisposable, ISaleAgent, IAgent
   inheritance:
   - System.Object
@@ -1093,6 +1097,82 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32())
   name.vb: SetAsLost(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  id: GetSalesFromContact(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesFromContact(Int32, Boolean)
+  nameWithType: SaleAgent.GetSalesFromContact(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all sales for the contact provided.\n"
+  syntax:
+    content: public Sale[] GetSalesFromContact(int contactId, bool onlyOpenSales)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The ID of the contact whose sales we want.
+    - id: onlyOpenSales
+      type: System.Boolean
+      description: If true, only get open sales.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: List of sales matching query
+    content.vb: Public Function GetSalesFromContact(contactId As Integer, onlyOpenSales As Boolean) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+  id: GetSalesFromPerson(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesFromPerson(Int32, Boolean)
+  nameWithType: SaleAgent.GetSalesFromPerson(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all sales for the person provided.\n"
+  syntax:
+    content: public Sale[] GetSalesFromPerson(int personId, bool onlyOpenSales)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The ID of the person whose sales we want.
+    - id: onlyOpenSales
+      type: System.Boolean
+      description: If true, only get open sales.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: List of sales matching query
+    content.vb: Public Function GetSalesFromPerson(personId As Integer, onlyOpenSales As Boolean) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
   commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
   id: GetSaleStakeholder(System.Int32)
@@ -3529,6 +3609,132 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact
+  isExternal: true
+  name: GetSalesFromContact
+  nameWithType: SaleAgent.GetSalesFromContact
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSalesFromContact(Int32, Boolean)
+  nameWithType: ISaleAgent.GetSalesFromContact(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+    name: GetSalesFromContact
+    nameWithType: ISaleAgent.GetSalesFromContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
+    name: GetSalesFromContact
+    nameWithType: ISaleAgent.GetSalesFromContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson
+  isExternal: true
+  name: GetSalesFromPerson
+  nameWithType: SaleAgent.GetSalesFromPerson
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesFromPerson
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSalesFromPerson(Int32, Boolean)
+  nameWithType: ISaleAgent.GetSalesFromPerson(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+    name: GetSalesFromPerson
+    nameWithType: ISaleAgent.GetSalesFromPerson
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
+    name: GetSalesFromPerson
+    nameWithType: ISaleAgent.GetSalesFromPerson
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

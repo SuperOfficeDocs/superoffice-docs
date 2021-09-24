@@ -38,6 +38,7 @@ items:
     content: 'public class PriceList : Carrier'
     content.vb: >-
       Public Class PriceList
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

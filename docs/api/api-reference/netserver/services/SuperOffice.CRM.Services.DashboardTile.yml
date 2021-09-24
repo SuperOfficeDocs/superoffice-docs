@@ -42,7 +42,9 @@ items:
     content: 'public class DashboardTile : Carrier, IVisibleForCarrier'
     content.vb: >-
       Public Class DashboardTile
+
           Inherits Carrier
+
           Implements IVisibleForCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DashboardAgent

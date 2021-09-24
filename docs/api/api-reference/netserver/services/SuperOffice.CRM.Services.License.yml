@@ -26,6 +26,7 @@ items:
     content: 'public class License : Carrier'
     content.vb: >-
       Public Class License
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.LicenseAgent

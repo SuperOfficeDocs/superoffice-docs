@@ -2,6 +2,8 @@
 - uid: SuperOffice.CRM.Services
   name: SuperOffice.CRM.Services
   items:
+  - uid: SuperOffice.CRM.Services.AccessGatewayInfo
+    name: AccessGatewayInfo
   - uid: SuperOffice.CRM.Services.ActivityFilter
     name: ActivityFilter
   - uid: SuperOffice.CRM.Services.ActivityInformationListItem
@@ -71,6 +73,10 @@
     name: Business
   - uid: SuperOffice.CRM.Services.Cache
     name: Cache
+  - uid: SuperOffice.CRM.Services.CategorizationModelDetails
+    name: CategorizationModelDetails
+  - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+    name: CategorizationStatusResponse
   - uid: SuperOffice.CRM.Services.Category
     name: Category
   - uid: SuperOffice.CRM.Services.CategoryGuess
@@ -81,6 +87,8 @@
     name: ChangedDataItem
   - uid: SuperOffice.CRM.Services.ChatAgent
     name: ChatAgent
+  - uid: SuperOffice.CRM.Services.ChatBotSettings
+    name: ChatBotSettings
   - uid: SuperOffice.CRM.Services.ChatMessage
     name: ChatMessage
   - uid: SuperOffice.CRM.Services.ChatOpeningHours
@@ -107,6 +115,8 @@
     name: CommandResult
   - uid: SuperOffice.CRM.Services.Competitor
     name: Competitor
+  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
   - uid: SuperOffice.CRM.Services.Configuration
     name: Configuration
   - uid: SuperOffice.CRM.Services.ConfigurationAgent
@@ -181,6 +191,10 @@
     name: CustomerServiceConfig
   - uid: SuperOffice.CRM.Services.CustomerServiceStartup
     name: CustomerServiceStartup
+  - uid: SuperOffice.CRM.Services.Dash
+    name: Dash
+  - uid: SuperOffice.CRM.Services.DashAgent
+    name: DashAgent
   - uid: SuperOffice.CRM.Services.Dashboard
     name: Dashboard
   - uid: SuperOffice.CRM.Services.DashboardAgent
@@ -189,6 +203,14 @@
     name: DashboardTile
   - uid: SuperOffice.CRM.Services.DashboardTileOption
     name: DashboardTileOption
+  - uid: SuperOffice.CRM.Services.DashCollection
+    name: DashCollection
+  - uid: SuperOffice.CRM.Services.DashTheme
+    name: DashTheme
+  - uid: SuperOffice.CRM.Services.DashTile
+    name: DashTile
+  - uid: SuperOffice.CRM.Services.DashTileDefinition
+    name: DashTileDefinition
   - uid: SuperOffice.CRM.Services.DatabaseAgent
     name: DatabaseAgent
   - uid: SuperOffice.CRM.Services.DatabaseTableAgent
@@ -203,6 +225,8 @@
     name: DeliveryTerm
   - uid: SuperOffice.CRM.Services.DeliveryType
     name: DeliveryType
+  - uid: SuperOffice.CRM.Services.DeltaQuery
+    name: DeltaQuery
   - uid: SuperOffice.CRM.Services.Department
     name: Department
   - uid: SuperOffice.CRM.Services.DiagnosticsAgent
@@ -307,6 +331,8 @@
     name: ErpSyncFieldValue
   - uid: SuperOffice.CRM.Services.EventData
     name: EventData
+  - uid: SuperOffice.CRM.Services.ExportArchiveResult
+    name: ExportArchiveResult
   - uid: SuperOffice.CRM.Services.ExtAppEntity
     name: ExtAppEntity
   - uid: SuperOffice.CRM.Services.Favourite
@@ -413,6 +439,8 @@
     name: ICRMScriptAgent
   - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
     name: ICustomerServiceAgent
+  - uid: SuperOffice.CRM.Services.IDashAgent
+    name: IDashAgent
   - uid: SuperOffice.CRM.Services.IDashboardAgent
     name: IDashboardAgent
   - uid: SuperOffice.CRM.Services.IDatabaseAgent
@@ -557,6 +585,8 @@
     name: Logging
   - uid: SuperOffice.CRM.Services.Mailbox
     name: Mailbox
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
   - uid: SuperOffice.CRM.Services.MailMergeSettings
     name: MailMergeSettings
   - uid: SuperOffice.CRM.Services.MailMergeTask
@@ -635,6 +665,8 @@
     name: PreferenceTestReturn
   - uid: SuperOffice.CRM.Services.PreviewMailing
     name: PreviewMailing
+  - uid: SuperOffice.CRM.Services.PreviewMailingHeader
+    name: PreviewMailingHeader
   - uid: SuperOffice.CRM.Services.Previews
     name: Previews
   - uid: SuperOffice.CRM.Services.PreviewsAgent
@@ -657,6 +689,8 @@
     name: PrivateChatAgentFactory
   - uid: SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
     name: PrivateCRMScriptAgentFactory
+  - uid: SuperOffice.CRM.Services.PrivateDashAgentFactory
+    name: PrivateDashAgentFactory
   - uid: SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
     name: PrivateDatabaseTableAgentFactory
   - uid: SuperOffice.CRM.Services.PrivateMarketingAgentFactory
@@ -767,6 +801,8 @@
     name: ReplicationAgent
   - uid: SuperOffice.CRM.Services.ReplyTemplate
     name: ReplyTemplate
+  - uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+    name: ReplyTemplateParsed
   - uid: SuperOffice.CRM.Services.ReportAgent
     name: ReportAgent
   - uid: SuperOffice.CRM.Services.ReportEntity
@@ -899,6 +935,8 @@
     name: TicketMessage
   - uid: SuperOffice.CRM.Services.TicketMessageEntity
     name: TicketMessageEntity
+  - uid: SuperOffice.CRM.Services.TicketMessageHeader
+    name: TicketMessageHeader
   - uid: SuperOffice.CRM.Services.TicketPriority
     name: TicketPriority
   - uid: SuperOffice.CRM.Services.TicketPriorityEntity
@@ -913,6 +951,8 @@
     name: TileDataRow
   - uid: SuperOffice.CRM.Services.TimeZoneAgent
     name: TimeZoneAgent
+  - uid: SuperOffice.CRM.Services.TokenManagementInfo
+    name: TokenManagementInfo
   - uid: SuperOffice.CRM.Services.Tooltips
     name: Tooltips
   - uid: SuperOffice.CRM.Services.TooltipsAgent
@@ -925,6 +965,8 @@
     name: TypicalSearches
   - uid: SuperOffice.CRM.Services.UntrustedCredentials
     name: UntrustedCredentials
+  - uid: SuperOffice.CRM.Services.UpsertRowStatus
+    name: UpsertRowStatus
   - uid: SuperOffice.CRM.Services.UsageStats
     name: UsageStats
   - uid: SuperOffice.CRM.Services.User
@@ -976,3 +1018,8 @@
     name: MessagingPluginAttribute
   - uid: SuperOffice.Messaging.MessagingWithConfigPluginAttribute
     name: MessagingWithConfigPluginAttribute
+- uid: SuperOffice.Services
+  name: SuperOffice.Services
+  items:
+  - uid: SuperOffice.Services.ClassFactoryInitializer
+    name: ClassFactoryInitializer

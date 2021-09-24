@@ -36,6 +36,7 @@ items:
     content: 'public class PartnerWebPanel : Carrier'
     content.vb: >-
       Public Class PartnerWebPanel
+
           Inherits Carrier
   inheritance:
   - System.Object

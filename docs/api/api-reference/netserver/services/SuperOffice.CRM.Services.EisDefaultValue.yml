@@ -35,6 +35,7 @@ items:
     content: 'public class EisDefaultValue : Carrier'
     content.vb: >-
       Public Class EisDefaultValue
+
           Inherits Carrier
   inheritance:
   - System.Object

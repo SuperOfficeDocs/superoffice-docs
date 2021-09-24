@@ -27,7 +27,9 @@ items:
     content: 'public class PreviewsAgent : AgentBase<IPreviewsAgent>, IDisposable, IPreviewsAgent, IAgent'
     content.vb: >-
       Public Class PreviewsAgent
+
           Inherits AgentBase(Of IPreviewsAgent)
+
           Implements IDisposable, IPreviewsAgent, IAgent
   inheritance:
   - System.Object

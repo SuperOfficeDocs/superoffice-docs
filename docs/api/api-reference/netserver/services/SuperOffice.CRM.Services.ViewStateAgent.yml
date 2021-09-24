@@ -40,7 +40,9 @@ items:
     content: 'public class ViewStateAgent : AgentBase<IViewStateAgent>, IDisposable, IViewStateAgent, IAgent'
     content.vb: >-
       Public Class ViewStateAgent
+
           Inherits AgentBase(Of IViewStateAgent)
+
           Implements IDisposable, IViewStateAgent, IAgent
   inheritance:
   - System.Object

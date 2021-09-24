@@ -29,6 +29,7 @@ items:
     content: 'public class QuoteAlternativeRecalculated : Carrier'
     content.vb: >-
       Public Class QuoteAlternativeRecalculated
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

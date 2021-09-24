@@ -36,6 +36,7 @@ items:
     content: 'public class DiaryViewEntity : Carrier'
     content.vb: >-
       Public Class DiaryViewEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ConfigurationAgent

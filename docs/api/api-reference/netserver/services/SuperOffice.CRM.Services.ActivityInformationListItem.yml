@@ -28,6 +28,7 @@ items:
     content: 'public class ActivityInformationListItem : Carrier'
     content.vb: >-
       Public Class ActivityInformationListItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

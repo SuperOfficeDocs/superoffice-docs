@@ -48,6 +48,7 @@ items:
     content: 'public class SelectionMemberEditValues : Carrier'
     content.vb: >-
       Public Class SelectionMemberEditValues
+
           Inherits Carrier
   inheritance:
   - System.Object

@@ -259,6 +259,7 @@ items:
   - SuperOffice.CRM.Services.IListAgent.SaveTicketPriorityEntity(SuperOffice.CRM.Services.TicketPriorityEntity)
   - SuperOffice.CRM.Services.IListAgent.SaveTicketStatusEntity(SuperOffice.CRM.Services.TicketStatusEntity)
   - SuperOffice.CRM.Services.IListAgent.SaveWebPanelEntity(SuperOffice.CRM.Services.WebPanelEntity)
+  - SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates(System.Int32)
   - SuperOffice.CRM.Services.IListAgent.SetDocumentTemplateFromDocumentTemplate(System.Int32,SuperOffice.CRM.Services.DocumentTemplateEntity)
   - SuperOffice.CRM.Services.IListAgent.SetDocumentTemplateStream(SuperOffice.CRM.Services.DocumentTemplateEntity,System.IO.Stream,System.String,System.Int32)
   - SuperOffice.CRM.Services.IListAgent.SetEmarketingStrictMode(System.Boolean)
@@ -303,6 +304,7 @@ items:
       <Agent("List Agent", "Interface for the List Agent. Collection of all services that works with Lists. These are typical lists of data shown in dropdown list, checkbox lists, etc.")>
 
       Public Interface IListAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -2659,6 +2661,32 @@ items:
       description: Array of all template items
     content.vb: Function GetAllDocumentTemplates(includeDeleted As Boolean) As DocumentTemplateEntity()
   overload: SuperOffice.CRM.Services.IListAgent.GetAllDocumentTemplates*
+- uid: SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates(System.Int32)
+  id: SetDocumentPluginForAllDocumentTemplates(System.Int32)
+  parent: SuperOffice.CRM.Services.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDocumentPluginForAllDocumentTemplates(Int32)
+  nameWithType: IListAgent.SetDocumentPluginForAllDocumentTemplates(Int32)
+  fullName: SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSets the document-plugin to be used for all templates of type &apos;document&apos;.\n"
+  syntax:
+    content: void SetDocumentPluginForAllDocumentTemplates(int documentPluginId)
+    parameters:
+    - id: documentPluginId
+      type: System.Int32
+      description: The numerical ID of the document-plugin to use.
+    content.vb: Sub SetDocumentPluginForAllDocumentTemplates(documentPluginId As Integer)
+  overload: SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates*
 - uid: SuperOffice.CRM.Services.IListAgent.GetHeadingEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IListAgent.GetHeadingEntity(System.Int32)
   id: GetHeadingEntity(System.Int32)
@@ -9452,6 +9480,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates*
+  commentId: Overload:SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates
+  isExternal: true
+  name: SetDocumentPluginForAllDocumentTemplates
+  nameWithType: IListAgent.SetDocumentPluginForAllDocumentTemplates
+  fullName: SuperOffice.CRM.Services.IListAgent.SetDocumentPluginForAllDocumentTemplates
 - uid: SuperOffice.CRM.Services.IListAgent.GetHeadingEntity*
   commentId: Overload:SuperOffice.CRM.Services.IListAgent.GetHeadingEntity
   isExternal: true

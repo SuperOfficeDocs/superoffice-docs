@@ -33,6 +33,7 @@ items:
     content: 'public class UserGroup : Carrier'
     content.vb: >-
       Public Class UserGroup
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

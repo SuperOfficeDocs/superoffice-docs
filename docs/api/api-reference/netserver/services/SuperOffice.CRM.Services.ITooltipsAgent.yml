@@ -31,6 +31,7 @@ items:
       <Agent("Tooltips Agent", "Interface for the Tooltips Agent. Tooltip system, hint to text transformation")>
 
       Public Interface ITooltipsAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

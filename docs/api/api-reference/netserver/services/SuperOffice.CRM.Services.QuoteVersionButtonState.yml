@@ -31,6 +31,7 @@ items:
     content: 'public class QuoteVersionButtonState : Carrier'
     content.vb: >-
       Public Class QuoteVersionButtonState
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

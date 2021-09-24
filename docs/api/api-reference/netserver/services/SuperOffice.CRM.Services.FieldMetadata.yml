@@ -36,6 +36,7 @@ items:
     content: 'public class FieldMetadata : Carrier'
     content.vb: >-
       Public Class FieldMetadata
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

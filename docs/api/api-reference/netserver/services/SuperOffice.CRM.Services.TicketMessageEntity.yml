@@ -16,8 +16,10 @@ items:
   - SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
   - SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
   - SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  - SuperOffice.CRM.Services.TicketMessageEntity.Important
   - SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
   - SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  - SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
   - SuperOffice.CRM.Services.TicketMessageEntity.MessageId
   - SuperOffice.CRM.Services.TicketMessageEntity.Person
   - SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
@@ -47,7 +49,9 @@ items:
     content: 'public class TicketMessageEntity : Carrier, IExtraFieldCarrier'
     content.vb: >-
       Public Class TicketMessageEntity
+
           Inherits Carrier
+
           Implements IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TicketAgent
@@ -719,6 +723,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
+  id: MessageHeaders
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: MessageHeaders
+  nameWithType: TicketMessageEntity.MessageHeaders
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the message headers, like To, Cc, Bcc information, or custom headers \n"
+  syntax:
+    content: public virtual TicketMessageHeader[] MessageHeaders { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageHeader[]
+    content.vb: Public Overridable Property MessageHeaders As TicketMessageHeader()
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Important
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Important
+  id: Important
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: TicketMessageEntity.Important
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Important
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf this message is important or not. \n"
+  syntax:
+    content: public virtual bool Important { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Important As Boolean
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Important*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
   commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
   id: ExtraFields
@@ -1148,6 +1218,51 @@ references:
   name: SearchTitle
   nameWithType: TicketMessageEntity.SearchTitle
   fullName: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
+  isExternal: true
+  name: MessageHeaders
+  nameWithType: TicketMessageEntity.MessageHeaders
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageHeaders
+- uid: SuperOffice.CRM.Services.TicketMessageHeader[]
+  isExternal: true
+  name: TicketMessageHeader[]
+  nameWithType: TicketMessageHeader[]
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader[]
+  nameWithType.vb: TicketMessageHeader()
+  fullName.vb: SuperOffice.CRM.Services.TicketMessageHeader()
+  name.vb: TicketMessageHeader()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TicketMessageHeader
+    name: TicketMessageHeader
+    nameWithType: TicketMessageHeader
+    fullName: SuperOffice.CRM.Services.TicketMessageHeader
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TicketMessageHeader
+    name: TicketMessageHeader
+    nameWithType: TicketMessageHeader
+    fullName: SuperOffice.CRM.Services.TicketMessageHeader
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Important*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Important
+  isExternal: true
+  name: Important
+  nameWithType: TicketMessageEntity.Important
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Important
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
   isExternal: true

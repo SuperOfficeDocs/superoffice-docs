@@ -28,6 +28,7 @@ items:
     content: 'public class RedLetterSummary : Carrier'
     content.vb: >-
       Public Class RedLetterSummary
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent

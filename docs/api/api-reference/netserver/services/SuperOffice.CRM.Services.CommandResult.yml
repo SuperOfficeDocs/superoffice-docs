@@ -29,6 +29,7 @@ items:
     content: 'public class CommandResult : Carrier'
     content.vb: >-
       Public Class CommandResult
+
           Inherits Carrier
   inheritance:
   - System.Object

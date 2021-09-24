@@ -35,6 +35,7 @@ items:
     content: 'public class CurrencyEntity : Carrier'
     content.vb: >-
       Public Class CurrencyEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

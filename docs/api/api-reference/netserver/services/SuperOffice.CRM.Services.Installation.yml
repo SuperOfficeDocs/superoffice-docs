@@ -26,6 +26,7 @@ items:
     content: 'public class Installation : Carrier'
     content.vb: >-
       Public Class Installation
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DiagnosticsAgent

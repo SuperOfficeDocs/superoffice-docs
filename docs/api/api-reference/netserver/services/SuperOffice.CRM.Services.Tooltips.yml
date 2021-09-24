@@ -26,6 +26,7 @@ items:
     content: 'public class Tooltips : Carrier'
     content.vb: >-
       Public Class Tooltips
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TooltipsAgent

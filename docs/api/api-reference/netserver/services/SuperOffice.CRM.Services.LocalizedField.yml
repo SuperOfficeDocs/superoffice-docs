@@ -32,6 +32,7 @@ items:
     content: 'public class LocalizedField : Carrier'
     content.vb: >-
       Public Class LocalizedField
+
           Inherits Carrier
   inheritance:
   - System.Object

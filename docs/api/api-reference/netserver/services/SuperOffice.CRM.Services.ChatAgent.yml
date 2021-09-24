@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
   - SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
   - SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+  - SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic(System.Int32)
   - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
   - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
   - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
@@ -35,6 +36,7 @@ items:
   - SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
   - SuperOffice.CRM.Services.ChatAgent.TransferChatSession(System.Int32,System.String)
   - SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  - SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
   langs:
   - csharp
   - vb
@@ -55,7 +57,9 @@ items:
     content: 'public class ChatAgent : AgentBase<IChatAgent>, IDisposable, IChatAgent, IAgent'
     content.vb: >-
       Public Class ChatAgent
+
           Inherits AgentBase(Of IChatAgent)
+
           Implements IDisposable, IChatAgent, IAgent
   inheritance:
   - System.Object
@@ -491,7 +495,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet list of users that can be assigned to topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
+  summary: "\nGet list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
   syntax:
     content: public MDOListItem[] GetUserAgentList(bool flat, bool onlyPresent)
     parameters:
@@ -529,7 +533,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet list of users assigned to a topic\n"
+  summary: "\nGet list of users assigned to a chat topic\n"
   syntax:
     content: public ChatTopicAgent[] GetChatTopicUserAgentList(int chatTopicId)
     parameters:
@@ -664,6 +668,47 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  id: UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateChatTopicUserAgents(Int32, ChatTopicAgent[])
+  nameWithType: ChatAgent.UpdateChatTopicUserAgents(Int32, ChatTopicAgent[])
+  fullName: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate users roles in a chat topic\n"
+  syntax:
+    content: public ChatTopicAgent[] UpdateChatTopicUserAgents(int chatTopicId, ChatTopicAgent[] useragents)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: useragents
+      type: SuperOffice.CRM.Services.ChatTopicAgent[]
+      description: Users new/updated roles within the chat topic. Replaces existing roles
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent[]
+      description: The updated agents within the chat topic.
+    content.vb: Public Function UpdateChatTopicUserAgents(chatTopicId As Integer, useragents As ChatTopicAgent()) As ChatTopicAgent()
+  overload: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  nameWithType.vb: ChatAgent.UpdateChatTopicUserAgents(Int32, ChatTopicAgent())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent())
+  name.vb: UpdateChatTopicUserAgents(Int32, ChatTopicAgent())
 - uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
   id: DeleteChatTopicUserAgent(System.Int32,System.String)
@@ -695,6 +740,41 @@ items:
   overload: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent*
   implements:
   - SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic(System.Int32)
+  id: CreateChatSessionForTopic(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateChatSessionForTopic(Int32)
+  nameWithType: ChatAgent.CreateChatSessionForTopic(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a new session on a chat topic\n"
+  syntax:
+    content: public ChatSessionEntity CreateChatSessionForTopic(int chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The new chat session.
+    content.vb: Public Function CreateChatSessionForTopic(chatTopicId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2582,6 +2662,78 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents
+  isExternal: true
+  name: UpdateChatTopicUserAgents
+  nameWithType: ChatAgent.UpdateChatTopicUserAgents
+  fullName: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgents
+- uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: UpdateChatTopicUserAgents(Int32, ChatTopicAgent[])
+  nameWithType: IChatAgent.UpdateChatTopicUserAgents(Int32, ChatTopicAgent[])
+  fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent[])
+  nameWithType.vb: IChatAgent.UpdateChatTopicUserAgents(Int32, ChatTopicAgent())
+  fullName.vb: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent())
+  name.vb: UpdateChatTopicUserAgents(Int32, ChatTopicAgent())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+    name: UpdateChatTopicUserAgents
+    nameWithType: IChatAgent.UpdateChatTopicUserAgents
+    fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent[])
+    name: UpdateChatTopicUserAgents
+    nameWithType: IChatAgent.UpdateChatTopicUserAgents
+    fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent*
   commentId: Overload:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent
   isExternal: true
@@ -2641,6 +2793,53 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic
+  isExternal: true
+  name: CreateChatSessionForTopic
+  nameWithType: ChatAgent.CreateChatSessionForTopic
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateChatSessionForTopic
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: CreateChatSessionForTopic(Int32)
+  nameWithType: IChatAgent.CreateChatSessionForTopic(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
+    name: CreateChatSessionForTopic
+    nameWithType: IChatAgent.CreateChatSessionForTopic
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic(System.Int32)
+    name: CreateChatSessionForTopic
+    nameWithType: IChatAgent.CreateChatSessionForTopic
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateChatSessionForTopic
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
   - name: )
     nameWithType: )

@@ -30,7 +30,9 @@ items:
     content: 'public class ImportAgent : AgentBase<IImportAgent>, IDisposable, IImportAgent, IAgent'
     content.vb: >-
       Public Class ImportAgent
+
           Inherits AgentBase(Of IImportAgent)
+
           Implements IDisposable, IImportAgent, IAgent
   inheritance:
   - System.Object

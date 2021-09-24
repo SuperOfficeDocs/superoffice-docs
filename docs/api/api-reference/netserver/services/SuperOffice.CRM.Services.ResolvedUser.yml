@@ -28,6 +28,7 @@ items:
     content: 'public class ResolvedUser : Carrier'
     content.vb: >-
       Public Class ResolvedUser
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

@@ -37,6 +37,7 @@ items:
     content: 'public class ForeignDevice : Carrier'
     content.vb: >-
       Public Class ForeignDevice
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ForeignSystemAgent

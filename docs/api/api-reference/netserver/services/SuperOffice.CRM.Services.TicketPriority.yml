@@ -31,6 +31,7 @@ items:
     content: 'public class TicketPriority : Carrier'
     content.vb: >-
       Public Class TicketPriority
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

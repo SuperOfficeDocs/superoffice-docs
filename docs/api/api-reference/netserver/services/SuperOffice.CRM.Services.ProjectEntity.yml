@@ -59,7 +59,9 @@ items:
     content: 'public class ProjectEntity : Carrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier'
     content.vb: >-
       Public Class ProjectEntity
+
           Inherits Carrier
+
           Implements IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ProjectAgent

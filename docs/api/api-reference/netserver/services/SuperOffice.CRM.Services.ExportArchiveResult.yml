@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ExportArchiveResult
+  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
+  id: ExportArchiveResult
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ExportArchiveResult.#ctor
+  - SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+  - SuperOffice.CRM.Services.ExportArchiveResult.FileName
+  - SuperOffice.CRM.Services.ExportArchiveResult.Message
+  - SuperOffice.CRM.Services.ExportArchiveResult.ToString
+  - SuperOffice.CRM.Services.ExportArchiveResult.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ExportArchiveResult.\nServices for the ExportArchiveResult Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IArchiveAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ExportArchiveResult : Carrier'
+    content.vb: >-
+      Public Class ExportArchiveResult
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.#ctor
+  commentId: M:SuperOffice.CRM.Services.ExportArchiveResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveResult()
+  nameWithType: ExportArchiveResult.ExportArchiveResult()
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.ExportArchiveResult()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ExportArchiveResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.ToString
+  commentId: M:SuperOffice.CRM.Services.ExportArchiveResult.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ExportArchiveResult.ToString()
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ExportArchiveResult.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ExportArchiveResult.ToString(String)
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+  commentId: P:SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+  id: BatchTaskId
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskId
+  nameWithType: ExportArchiveResult.BatchTaskId
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the BatchTask created. &lt;=0 if no BatchTask was created. \n"
+  syntax:
+    content: public virtual int BatchTaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BatchTaskId As Integer
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.FileName
+  commentId: P:SuperOffice.CRM.Services.ExportArchiveResult.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ExportArchiveResult.FileName
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.FileName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe path to the output file created, if it exists. Will be an empty string if no file was created. \n"
+  syntax:
+    content: public virtual string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FileName As String
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.FileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.Message
+  commentId: P:SuperOffice.CRM.Services.ExportArchiveResult.Message
+  id: Message
+  parent: SuperOffice.CRM.Services.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ExportArchiveResult.Message
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.Message
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescriptive messages; errors, etc. \n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.CRM.Services.ExportArchiveResult.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ExportArchiveResult.#ctor
+  isExternal: true
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult.ExportArchiveResult
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.ExportArchiveResult
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ExportArchiveResult.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ExportArchiveResult.ToString
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId*
+  commentId: Overload:SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+  isExternal: true
+  name: BatchTaskId
+  nameWithType: ExportArchiveResult.BatchTaskId
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.BatchTaskId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.FileName*
+  commentId: Overload:SuperOffice.CRM.Services.ExportArchiveResult.FileName
+  isExternal: true
+  name: FileName
+  nameWithType: ExportArchiveResult.FileName
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.FileName
+- uid: SuperOffice.CRM.Services.ExportArchiveResult.Message*
+  commentId: Overload:SuperOffice.CRM.Services.ExportArchiveResult.Message
+  isExternal: true
+  name: Message
+  nameWithType: ExportArchiveResult.Message
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult.Message

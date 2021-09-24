@@ -41,6 +41,7 @@ items:
       <Agent("Batch Agent", "Interface for the Batch Agent. Start, stop and monitor predefined batch tasks")>
 
       Public Interface IBatchAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

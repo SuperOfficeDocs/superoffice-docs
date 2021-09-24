@@ -57,7 +57,9 @@ items:
     content: 'public class ContactAgent : AgentBase<IContactAgent>, IDisposable, IContactAgent, IAgent'
     content.vb: >-
       Public Class ContactAgent
+
           Inherits AgentBase(Of IContactAgent)
+
           Implements IDisposable, IContactAgent, IAgent
   inheritance:
   - System.Object

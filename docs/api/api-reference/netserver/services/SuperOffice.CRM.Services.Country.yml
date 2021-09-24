@@ -46,6 +46,7 @@ items:
     content: 'public class Country : Carrier'
     content.vb: >-
       Public Class Country
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

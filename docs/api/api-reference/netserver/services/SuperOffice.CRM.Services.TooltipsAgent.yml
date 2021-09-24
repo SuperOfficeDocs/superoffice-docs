@@ -27,7 +27,9 @@ items:
     content: 'public class TooltipsAgent : AgentBase<ITooltipsAgent>, IDisposable, ITooltipsAgent, IAgent'
     content.vb: >-
       Public Class TooltipsAgent
+
           Inherits AgentBase(Of ITooltipsAgent)
+
           Implements IDisposable, ITooltipsAgent, IAgent
   inheritance:
   - System.Object

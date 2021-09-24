@@ -39,6 +39,7 @@ items:
     content: 'public class SuggestedDocumentEntity : Carrier'
     content.vb: >-
       Public Class SuggestedDocumentEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent

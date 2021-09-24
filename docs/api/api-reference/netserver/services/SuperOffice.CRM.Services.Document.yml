@@ -46,6 +46,7 @@ items:
     content: 'public class Document : Carrier'
     content.vb: >-
       Public Class Document
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent

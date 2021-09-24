@@ -36,6 +36,7 @@ items:
     content: 'public class PhoneListItem : Carrier'
     content.vb: >-
       Public Class PhoneListItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PhoneListAgent

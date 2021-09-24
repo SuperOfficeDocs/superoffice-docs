@@ -33,7 +33,9 @@ items:
     content: 'public class SentryAgent : AgentBase<ISentryAgent>, IDisposable, ISentryAgent, IAgent'
     content.vb: >-
       Public Class SentryAgent
+
           Inherits AgentBase(Of ISentryAgent)
+
           Implements IDisposable, ISentryAgent, IAgent
   inheritance:
   - System.Object
@@ -156,8 +158,7 @@ items:
     content: public string[] GetFunctionRights()
     return:
       type: System.String[]
-      description: >
-        String array.
+      description: String array with the technical names of assigned function rights
     content.vb: Public Function GetFunctionRights As String()
   overload: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights*
   implements:

@@ -29,6 +29,7 @@ items:
     content: 'public class EisEngineStatus : Carrier'
     content.vb: >-
       Public Class EisEngineStatus
+
           Inherits Carrier
   inheritance:
   - System.Object

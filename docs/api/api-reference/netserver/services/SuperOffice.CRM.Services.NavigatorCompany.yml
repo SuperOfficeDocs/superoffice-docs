@@ -31,6 +31,7 @@ items:
     content: 'public class NavigatorCompany : Carrier'
     content.vb: >-
       Public Class NavigatorCompany
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.NavigatorAgent

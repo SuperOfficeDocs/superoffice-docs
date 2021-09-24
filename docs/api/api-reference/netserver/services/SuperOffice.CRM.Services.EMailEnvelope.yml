@@ -36,6 +36,7 @@ items:
     content: 'public class EMailEnvelope : Carrier'
     content.vb: >-
       Public Class EMailEnvelope
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

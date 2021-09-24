@@ -28,6 +28,7 @@ items:
     content: 'public class PreferenceTestReturn : Carrier'
     content.vb: >-
       Public Class PreferenceTestReturn
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PreferenceAgent

@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Services.SelectionAgent.CreateDefaultMailMergeTask
   - SuperOffice.CRM.Services.SelectionAgent.CreateDefaultSelectionEntity
   - SuperOffice.CRM.Services.SelectionAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  - SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity(System.String)
   - SuperOffice.CRM.Services.SelectionAgent.CreateSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
   - SuperOffice.CRM.Services.SelectionAgent.CreateTemporaryContactSelection
   - SuperOffice.CRM.Services.SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
@@ -79,7 +80,9 @@ items:
     content: 'public class SelectionAgent : AgentBase<ISelectionAgent>, IDisposable, ISelectionAgent, IAgent'
     content.vb: >-
       Public Class SelectionAgent
+
           Inherits AgentBase(Of ISelectionAgent)
+
           Implements IDisposable, ISelectionAgent, IAgent
   inheritance:
   - System.Object
@@ -295,6 +298,41 @@ items:
   overload: SuperOffice.CRM.Services.SelectionAgent.GetSelectionEntity*
   implements:
   - SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity(System.String)
+  commentId: M:SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity(System.String)
+  id: CreateSelectionEntity(System.String)
+  parent: SuperOffice.CRM.Services.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateSelectionEntity(String)
+  nameWithType: SelectionAgent.CreateSelectionEntity(String)
+  fullName: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()\n"
+  syntax:
+    content: public SelectionEntity CreateSelectionEntity(string targetTableName)
+    parameters:
+    - id: targetTableName
+      type: System.String
+      description: The name of the target table, such as &apos;contact&apos; or &apos;appointment&apos;; any table for which Selection functionality is enabled
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: The new SelectionEntity, which has not yet been saved
+    content.vb: Public Function CreateSelectionEntity(targetTableName As String) As SelectionEntity
+  overload: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2855,6 +2893,60 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity
+  isExternal: true
+  name: CreateSelectionEntity
+  nameWithType: SelectionAgent.CreateSelectionEntity
+  fullName: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  isExternal: true
+  name: CreateSelectionEntity(String)
+  nameWithType: ISelectionAgent.CreateSelectionEntity(String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
+    name: CreateSelectionEntity
+    nameWithType: ISelectionAgent.CreateSelectionEntity
+    fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity(System.String)
+    name: CreateSelectionEntity
+    nameWithType: ISelectionAgent.CreateSelectionEntity
+    fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.SelectionAgent.CreateContactSelectionFromSelection*
   commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.CreateContactSelectionFromSelection
   isExternal: true
@@ -2950,13 +3042,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.Data.SelectionType
   isExternal: true
   name: SelectionType

@@ -44,6 +44,7 @@ items:
     content: 'public class SelectableMDOListItem : Carrier'
     content.vb: >-
       Public Class SelectableMDOListItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MDOAgent

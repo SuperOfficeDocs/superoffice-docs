@@ -26,6 +26,7 @@ items:
     content: 'public class Import : Carrier'
     content.vb: >-
       Public Class Import
+
           Inherits Carrier
   inheritance:
   - System.Object

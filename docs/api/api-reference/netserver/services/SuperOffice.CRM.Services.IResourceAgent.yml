@@ -35,6 +35,7 @@ items:
       <Agent("Resource Agent", "Interface for the Resource Agent. String resource substitution management.")>
 
       Public Interface IResourceAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

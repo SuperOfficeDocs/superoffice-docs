@@ -27,6 +27,7 @@ items:
     content: 'public class TableRecord : Carrier'
     content.vb: >-
       Public Class TableRecord
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DatabaseTableAgent

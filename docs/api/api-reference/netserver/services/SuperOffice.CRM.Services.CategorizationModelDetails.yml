@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails
+  commentId: T:SuperOffice.CRM.Services.CategorizationModelDetails
+  id: CategorizationModelDetails
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
+  - SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+  - SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+  - SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+  - SuperOffice.CRM.Services.CategorizationModelDetails.ToString
+  - SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CategorizationModelDetails
+  nameWithType: CategorizationModelDetails
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetails about a categorization model in HugoAI\n<p></p>\nCarrier object for CategorizationModelDetails.\nServices for the CategorizationModelDetails Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAIAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CategorizationModelDetails : Carrier'
+    content.vb: >-
+      Public Class CategorizationModelDetails
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AIAgent
+    commentId: T:SuperOffice.CRM.Services.AIAgent
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
+  commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: CategorizationModelDetails()
+  nameWithType: CategorizationModelDetails.CategorizationModelDetails()
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.CategorizationModelDetails()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CategorizationModelDetails()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString
+  commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CategorizationModelDetails.ToString()
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CategorizationModelDetails.ToString(String)
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+  commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+  id: ModelBuiltDateTime
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: ModelBuiltDateTime
+  nameWithType: CategorizationModelDetails.ModelBuiltDateTime
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTime the training finished \n"
+  syntax:
+    content: public virtual DateTime ModelBuiltDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ModelBuiltDateTime As Date
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+  commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+  id: Accuracy
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: Accuracy
+  nameWithType: CategorizationModelDetails.Accuracy
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccuracy of the trained model \n"
+  syntax:
+    content: public virtual double Accuracy { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Accuracy As Double
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+  commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+  id: TicketCountForTraining
+  parent: SuperOffice.CRM.Services.CategorizationModelDetails
+  langs:
+  - csharp
+  - vb
+  name: TicketCountForTraining
+  nameWithType: CategorizationModelDetails.TicketCountForTraining
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of tickets used to train the model \n"
+  syntax:
+    content: public virtual int TicketCountForTraining { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketCountForTraining As Integer
+  overload: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
+  isExternal: true
+  name: CategorizationModelDetails
+  nameWithType: CategorizationModelDetails.CategorizationModelDetails
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.CategorizationModelDetails
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CategorizationModelDetails.ToString
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
+  commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+  isExternal: true
+  name: ModelBuiltDateTime
+  nameWithType: CategorizationModelDetails.ModelBuiltDateTime
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy*
+  commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+  isExternal: true
+  name: Accuracy
+  nameWithType: CategorizationModelDetails.Accuracy
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining*
+  commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+  isExternal: true
+  name: TicketCountForTraining
+  nameWithType: CategorizationModelDetails.TicketCountForTraining
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

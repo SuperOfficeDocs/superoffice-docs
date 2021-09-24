@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DeltaQuery
+  commentId: T:SuperOffice.CRM.Services.DeltaQuery
+  id: DeltaQuery
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DeltaQuery.#ctor
+  - SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+  - SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+  - SuperOffice.CRM.Services.DeltaQuery.RecipeId
+  - SuperOffice.CRM.Services.DeltaQuery.ToString
+  - SuperOffice.CRM.Services.DeltaQuery.ToString(System.String)
+  - SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+  langs:
+  - csharp
+  - vb
+  name: DeltaQuery
+  nameWithType: DeltaQuery
+  fullName: SuperOffice.CRM.Services.DeltaQuery
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuery object to use to fetch configruablescreendeltas matching this object\n<p></p>\nCarrier object for DeltaQuery.\nServices for the DeltaQuery Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IConfigurationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class DeltaQuery : Carrier'
+    content.vb: >-
+      Public Class DeltaQuery
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  - linkId: SuperOffice.CRM.Services.IConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DeltaQuery.#ctor
+  commentId: M:SuperOffice.CRM.Services.DeltaQuery.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaQuery()
+  nameWithType: DeltaQuery.DeltaQuery()
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaQuery()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DeltaQuery()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DeltaQuery.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DeltaQuery.ToString
+  commentId: M:SuperOffice.CRM.Services.DeltaQuery.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DeltaQuery.ToString()
+  fullName: SuperOffice.CRM.Services.DeltaQuery.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DeltaQuery.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DeltaQuery.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DeltaQuery.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DeltaQuery.ToString(String)
+  fullName: SuperOffice.CRM.Services.DeltaQuery.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DeltaQuery.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DeltaQuery.RecipeId
+  commentId: P:SuperOffice.CRM.Services.DeltaQuery.RecipeId
+  id: RecipeId
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: DeltaQuery.RecipeId
+  fullName: SuperOffice.CRM.Services.DeltaQuery.RecipeId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the recipe the deltas belong to \n"
+  syntax:
+    content: public virtual string RecipeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RecipeId As String
+  overload: SuperOffice.CRM.Services.DeltaQuery.RecipeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+  commentId: P:SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+  id: DeltaStates
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaStates
+  nameWithType: DeltaQuery.DeltaStates
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe deltas returned has to be in one of these states \n"
+  syntax:
+    content: public virtual DeltaState[] DeltaStates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DeltaState[]
+    content.vb: Public Overridable Property DeltaStates As DeltaState()
+  overload: SuperOffice.CRM.Services.DeltaQuery.DeltaStates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+  commentId: P:SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+  id: DeltaTypes
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaTypes
+  nameWithType: DeltaQuery.DeltaTypes
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe deltas returned has to be in one of these types \n"
+  syntax:
+    content: public virtual DeltaType[] DeltaTypes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DeltaType[]
+    content.vb: Public Overridable Property DeltaTypes As DeltaType()
+  overload: SuperOffice.CRM.Services.DeltaQuery.DeltaTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+  commentId: P:SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+  id: UserGroupIds
+  parent: SuperOffice.CRM.Services.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: UserGroupIds
+  nameWithType: DeltaQuery.UserGroupIds
+  fullName: SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMembers of this usergroup will have this delta applied to their resulting ui \n"
+  syntax:
+    content: public virtual int[] UserGroupIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property UserGroupIds As Integer()
+  overload: SuperOffice.CRM.Services.DeltaQuery.UserGroupIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent
+- uid: SuperOffice.CRM.Services.IConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IConfigurationAgent
+  nameWithType: IConfigurationAgent
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DeltaQuery.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.#ctor
+  isExternal: true
+  name: DeltaQuery
+  nameWithType: DeltaQuery.DeltaQuery
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaQuery
+- uid: SuperOffice.CRM.Services.DeltaQuery.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DeltaQuery.ToString
+  fullName: SuperOffice.CRM.Services.DeltaQuery.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DeltaQuery.RecipeId*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.RecipeId
+  isExternal: true
+  name: RecipeId
+  nameWithType: DeltaQuery.RecipeId
+  fullName: SuperOffice.CRM.Services.DeltaQuery.RecipeId
+- uid: SuperOffice.CRM.Services.DeltaQuery.DeltaStates*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+  isExternal: true
+  name: DeltaStates
+  nameWithType: DeltaQuery.DeltaStates
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaStates
+- uid: SuperOffice.Data.DeltaState[]
+  isExternal: true
+  name: DeltaState[]
+  nameWithType: DeltaState[]
+  fullName: SuperOffice.Data.DeltaState[]
+  nameWithType.vb: DeltaState()
+  fullName.vb: SuperOffice.Data.DeltaState()
+  name.vb: DeltaState()
+  spec.csharp:
+  - uid: SuperOffice.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.Data.DeltaState
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.Data.DeltaState
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.DeltaQuery.DeltaTypes*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+  isExternal: true
+  name: DeltaTypes
+  nameWithType: DeltaQuery.DeltaTypes
+  fullName: SuperOffice.CRM.Services.DeltaQuery.DeltaTypes
+- uid: SuperOffice.Data.DeltaType[]
+  isExternal: true
+  name: DeltaType[]
+  nameWithType: DeltaType[]
+  fullName: SuperOffice.Data.DeltaType[]
+  nameWithType.vb: DeltaType()
+  fullName.vb: SuperOffice.Data.DeltaType()
+  name.vb: DeltaType()
+  spec.csharp:
+  - uid: SuperOffice.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.Data.DeltaType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.Data.DeltaType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.DeltaQuery.UserGroupIds*
+  commentId: Overload:SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+  isExternal: true
+  name: UserGroupIds
+  nameWithType: DeltaQuery.UserGroupIds
+  fullName: SuperOffice.CRM.Services.DeltaQuery.UserGroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

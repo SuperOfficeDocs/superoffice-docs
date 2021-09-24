@@ -36,7 +36,9 @@ items:
     content: 'public class FreeTextAgent : AgentBase<IFreeTextAgent>, IDisposable, IFreeTextAgent, IAgent'
     content.vb: >-
       Public Class FreeTextAgent
+
           Inherits AgentBase(Of IFreeTextAgent)
+
           Implements IDisposable, IFreeTextAgent, IAgent
   inheritance:
   - System.Object

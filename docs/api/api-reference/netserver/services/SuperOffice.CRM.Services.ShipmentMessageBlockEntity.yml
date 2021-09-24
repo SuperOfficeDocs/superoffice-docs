@@ -36,6 +36,7 @@ items:
     content: 'public class ShipmentMessageBlockEntity : Carrier'
     content.vb: >-
       Public Class ShipmentMessageBlockEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MarketingAgent

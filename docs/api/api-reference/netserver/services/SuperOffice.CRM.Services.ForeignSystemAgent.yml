@@ -56,7 +56,9 @@ items:
     content: 'public class ForeignSystemAgent : AgentBase<IForeignSystemAgent>, IDisposable, IForeignSystemAgent, IAgent'
     content.vb: >-
       Public Class ForeignSystemAgent
+
           Inherits AgentBase(Of IForeignSystemAgent)
+
           Implements IDisposable, IForeignSystemAgent, IAgent
   inheritance:
   - System.Object

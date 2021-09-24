@@ -35,6 +35,7 @@ items:
     content: 'public class AudienceLayoutEntity : Carrier'
     content.vb: >-
       Public Class AudienceLayoutEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AudienceAgent

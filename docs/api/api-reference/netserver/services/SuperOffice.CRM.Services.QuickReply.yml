@@ -29,6 +29,7 @@ items:
     content: 'public class QuickReply : Carrier'
     content.vb: >-
       Public Class QuickReply
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

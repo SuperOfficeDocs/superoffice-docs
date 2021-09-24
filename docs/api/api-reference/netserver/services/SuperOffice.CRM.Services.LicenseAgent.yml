@@ -45,7 +45,9 @@ items:
     content: 'public class LicenseAgent : AgentBase<ILicenseAgent>, IDisposable, ILicenseAgent, IAgent'
     content.vb: >-
       Public Class LicenseAgent
+
           Inherits AgentBase(Of ILicenseAgent)
+
           Implements IDisposable, ILicenseAgent, IAgent
   inheritance:
   - System.Object

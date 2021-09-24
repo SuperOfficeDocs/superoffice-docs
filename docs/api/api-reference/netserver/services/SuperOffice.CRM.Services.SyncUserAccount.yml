@@ -29,6 +29,7 @@ items:
     content: 'public class SyncUserAccount : Carrier'
     content.vb: >-
       Public Class SyncUserAccount
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

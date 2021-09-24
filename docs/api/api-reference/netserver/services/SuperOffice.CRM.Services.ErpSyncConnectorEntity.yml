@@ -32,6 +32,7 @@ items:
     content: 'public class ErpSyncConnectorEntity : Carrier'
     content.vb: >-
       Public Class ErpSyncConnectorEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent

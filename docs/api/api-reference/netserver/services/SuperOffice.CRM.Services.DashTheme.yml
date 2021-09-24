@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DashTheme
+  commentId: T:SuperOffice.CRM.Services.DashTheme
+  id: DashTheme
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DashTheme.#ctor
+  - SuperOffice.CRM.Services.DashTheme.Client
+  - SuperOffice.CRM.Services.DashTheme.Config
+  - SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+  - SuperOffice.CRM.Services.DashTheme.Name
+  - SuperOffice.CRM.Services.DashTheme.Rank
+  - SuperOffice.CRM.Services.DashTheme.ToString
+  - SuperOffice.CRM.Services.DashTheme.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DashTheme
+  nameWithType: DashTheme
+  fullName: SuperOffice.CRM.Services.DashTheme
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard theme configuration\n<p></p>\nCarrier object for DashTheme.\nServices for the DashTheme Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet DashTheme 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DashAgent();\n    var dashTheme = agent.GetDashTheme( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class DashTheme : Carrier'
+    content.vb: >-
+      Public Class DashTheme
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DashAgent
+    commentId: T:SuperOffice.CRM.Services.DashAgent
+  - linkId: SuperOffice.CRM.Services.IDashAgent
+    commentId: T:SuperOffice.CRM.Services.IDashAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DashTheme.#ctor
+  commentId: M:SuperOffice.CRM.Services.DashTheme.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: DashTheme()
+  nameWithType: DashTheme.DashTheme()
+  fullName: SuperOffice.CRM.Services.DashTheme.DashTheme()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DashTheme()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DashTheme.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTheme.ToString
+  commentId: M:SuperOffice.CRM.Services.DashTheme.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DashTheme.ToString()
+  fullName: SuperOffice.CRM.Services.DashTheme.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DashTheme.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DashTheme.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DashTheme.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DashTheme.ToString(String)
+  fullName: SuperOffice.CRM.Services.DashTheme.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DashTheme.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+  commentId: P:SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+  id: DashboardThemeId
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: DashboardThemeId
+  nameWithType: DashTheme.DashboardThemeId
+  fullName: SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DashboardThemeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardThemeId As Integer
+  overload: SuperOffice.CRM.Services.DashTheme.DashboardThemeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTheme.Name
+  commentId: P:SuperOffice.CRM.Services.DashTheme.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DashTheme.Name
+  fullName: SuperOffice.CRM.Services.DashTheme.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of this theme \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.DashTheme.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTheme.Config
+  commentId: P:SuperOffice.CRM.Services.DashTheme.Config
+  id: Config
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: DashTheme.Config
+  fullName: SuperOffice.CRM.Services.DashTheme.Config
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe JSON clob-formatted config \n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.CRM.Services.DashTheme.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTheme.Rank
+  commentId: P:SuperOffice.CRM.Services.DashTheme.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DashTheme.Rank
+  fullName: SuperOffice.CRM.Services.DashTheme.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank order \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.DashTheme.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTheme.Client
+  commentId: P:SuperOffice.CRM.Services.DashTheme.Client
+  id: Client
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: DashTheme.Client
+  fullName: SuperOffice.CRM.Services.DashTheme.Client
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of client(s) this theme is available to \n"
+  syntax:
+    content: public virtual string Client { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Client As String
+  overload: SuperOffice.CRM.Services.DashTheme.Client*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DashAgent
+  commentId: T:SuperOffice.CRM.Services.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.CRM.Services.DashAgent
+- uid: SuperOffice.CRM.Services.IDashAgent
+  commentId: T:SuperOffice.CRM.Services.IDashAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashAgent
+  nameWithType: IDashAgent
+  fullName: SuperOffice.CRM.Services.IDashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DashTheme.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.#ctor
+  isExternal: true
+  name: DashTheme
+  nameWithType: DashTheme.DashTheme
+  fullName: SuperOffice.CRM.Services.DashTheme.DashTheme
+- uid: SuperOffice.CRM.Services.DashTheme.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DashTheme.ToString
+  fullName: SuperOffice.CRM.Services.DashTheme.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DashTheme.DashboardThemeId*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+  isExternal: true
+  name: DashboardThemeId
+  nameWithType: DashTheme.DashboardThemeId
+  fullName: SuperOffice.CRM.Services.DashTheme.DashboardThemeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DashTheme.Name*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.Name
+  isExternal: true
+  name: Name
+  nameWithType: DashTheme.Name
+  fullName: SuperOffice.CRM.Services.DashTheme.Name
+- uid: SuperOffice.CRM.Services.DashTheme.Config*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.Config
+  isExternal: true
+  name: Config
+  nameWithType: DashTheme.Config
+  fullName: SuperOffice.CRM.Services.DashTheme.Config
+- uid: SuperOffice.CRM.Services.DashTheme.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: DashTheme.Rank
+  fullName: SuperOffice.CRM.Services.DashTheme.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.DashTheme.Client*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.Client
+  isExternal: true
+  name: Client
+  nameWithType: DashTheme.Client
+  fullName: SuperOffice.CRM.Services.DashTheme.Client

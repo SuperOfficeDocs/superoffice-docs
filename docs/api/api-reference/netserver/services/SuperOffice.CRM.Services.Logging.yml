@@ -26,6 +26,7 @@ items:
     content: 'public class Logging : Carrier'
     content.vb: >-
       Public Class Logging
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DiagnosticsAgent

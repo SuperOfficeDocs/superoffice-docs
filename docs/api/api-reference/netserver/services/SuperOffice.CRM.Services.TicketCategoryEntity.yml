@@ -43,7 +43,9 @@ items:
     content: 'public class TicketCategoryEntity : Carrier, IExtraFieldCarrier'
     content.vb: >-
       Public Class TicketCategoryEntity
+
           Inherits Carrier
+
           Implements IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

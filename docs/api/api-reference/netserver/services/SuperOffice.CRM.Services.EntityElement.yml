@@ -29,6 +29,7 @@ items:
     content: 'public class EntityElement : Carrier'
     content.vb: >-
       Public Class EntityElement
+
           Inherits Carrier
   inheritance:
   - System.Object

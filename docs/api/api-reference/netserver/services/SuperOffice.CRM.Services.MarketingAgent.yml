@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(System.Int32)
   - SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(System.Int32)
   - SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(System.Int32)
+  - SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
   - SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   - SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(System.Int32)
   - SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(System.Int32)
@@ -45,7 +46,9 @@ items:
     content: 'public class MarketingAgent : AgentBase<IMarketingAgent>, IDisposable, IMarketingAgent, IAgent'
     content.vb: >-
       Public Class MarketingAgent
+
           Inherits AgentBase(Of IMarketingAgent)
+
           Implements IDisposable, IMarketingAgent, IAgent
   inheritance:
   - System.Object
@@ -706,6 +709,41 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
+  id: GetPreviewMailingHeader(System.Int32)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewMailingHeader(Int32)
+  nameWithType: MarketingAgent.GetPreviewMailingHeader(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a shipment from its shipment id\n"
+  syntax:
+    content: public PreviewMailingHeader GetPreviewMailingHeader(int shipmentId)
+    parameters:
+    - id: shipmentId
+      type: System.Int32
+      description: Shipment id
+    return:
+      type: SuperOffice.CRM.Services.PreviewMailingHeader
+      description: PreviewMailingHeader
+    content.vb: Public Function GetPreviewMailingHeader(shipmentId As Integer) As PreviewMailingHeader
+  overload: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2171,6 +2209,60 @@ references:
   name: PreviewMailing
   nameWithType: PreviewMailing
   fullName: SuperOffice.CRM.Services.PreviewMailing
+- uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader
+  isExternal: true
+  name: GetPreviewMailingHeader
+  nameWithType: MarketingAgent.GetPreviewMailingHeader
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  name: GetPreviewMailingHeader(Int32)
+  nameWithType: IMarketingAgent.GetPreviewMailingHeader(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+    name: GetPreviewMailingHeader
+    nameWithType: IMarketingAgent.GetPreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
+    name: GetPreviewMailingHeader
+    nameWithType: IMarketingAgent.GetPreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreviewMailingHeader
+  commentId: T:SuperOffice.CRM.Services.PreviewMailingHeader
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewMailingHeader
+  nameWithType: PreviewMailingHeader
+  fullName: SuperOffice.CRM.Services.PreviewMailingHeader
 - uid: SuperOffice.CRM.Services.MarketingAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.#ctor
   isExternal: true

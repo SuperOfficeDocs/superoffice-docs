@@ -13,7 +13,7 @@ items:
   - SuperOffice.CRM.Services.DatabaseTableAgent.ReadRow(System.String,System.Int32)
   - SuperOffice.CRM.Services.DatabaseTableAgent.Truncate(System.String)
   - SuperOffice.CRM.Services.DatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   langs:
   - csharp
   - vb
@@ -34,7 +34,9 @@ items:
     content: 'public class DatabaseTableAgent : AgentBase<IDatabaseTableAgent>, IDisposable, IDatabaseTableAgent, IAgent'
     content.vb: >-
       Public Class DatabaseTableAgent
+
           Inherits AgentBase(Of IDatabaseTableAgent)
+
           Implements IDisposable, IDatabaseTableAgent, IAgent
   inheritance:
   - System.Object
@@ -225,7 +227,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMass-insert rows, with or without primary keys specified\n"
+  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: public MassOperationResult Insert(string tableName, string[] columns, string[][] data)
     parameters:
@@ -234,10 +236,10 @@ items:
       description: The name of the table where rows should be inserted
     - id: columns
       type: System.String[]
-      description: List of column names, in the same order as in the data
+      description: List of column names, in the same order as in the Data parameter
     - id: data
       type: System.String[][]
-      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+      description: Outer array = rows, inner = columns in specified order; use CultureDataFormatter to format values that aren&apos;t string or int
     return:
       type: SuperOffice.CRM.Services.MassOperationResult
       description: Summary of results
@@ -269,7 +271,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDrop all rows in a table\n"
+  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n"
   syntax:
     content: public MassOperationResult Truncate(string tableName)
     parameters:
@@ -287,16 +289,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  id: Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  id: Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: Upsert(String, String[], String[], Boolean, String[][])
-  nameWithType: DatabaseTableAgent.Upsert(String, String[], String[], Boolean, String[][])
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
+  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  nameWithType: DatabaseTableAgent.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
   type: Method
   source:
     path: SuperOffice.Services
@@ -304,9 +306,9 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInsert or update rows\n"
+  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n"
   syntax:
-    content: public MassOperationResult Upsert(string tableName, string[] columns, string[] keys, bool deleteUnmatched, string[][] data)
+    content: public MassOperationResult Upsert(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus)
     parameters:
     - id: tableName
       type: System.String
@@ -317,26 +319,29 @@ items:
     - id: keys
       type: System.String[]
       description: List of columns that are to be used as keys, to match any existing rows
-    - id: deleteUnmatched
-      type: System.Boolean
-      description: If true, then any rows that have NOT been matched or inserted, will be deleted. The end result is that the table will look like the incoming data
     - id: data
       type: System.String[][]
       description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+    - id: nomatchAction
+      type: SuperOffice.Data.UpsertNomatchAction
+      description: Action to take on rows in the target table, that are not matched by any rows in the incoming data. Use the deletion options with care. NEVER use deletion if your Upsert is so large you need to divide it into multiple batches.
+    - id: returnRowStatus
+      type: System.Boolean
+      description: If true, then the &apos;RowStatus&apos; member of the return carrier will be populated with a per-row status, for each incoming row
     return:
       type: SuperOffice.CRM.Services.MassOperationResult
       description: Summary of results
-    content.vb: Public Function Upsert(tableName As String, columns As String(), keys As String(), deleteUnmatched As Boolean, data As String()()) As MassOperationResult
+    content.vb: Public Function Upsert(tableName As String, columns As String(), keys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean) As MassOperationResult
   overload: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert*
   implements:
-  - SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  nameWithType.vb: DatabaseTableAgent.Upsert(String, String(), String(), Boolean, String()())
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  nameWithType.vb: DatabaseTableAgent.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
-  name.vb: Upsert(String, String(), String(), Boolean, String()())
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
 - uid: SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.Delete(System.String,System.Int32[])
   id: Delete(System.String,System.Int32[])
@@ -354,7 +359,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete rows, by primary key\n"
+  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: public MassOperationResult Delete(string tableName, int[] iDs)
     parameters:
@@ -1400,18 +1405,18 @@ references:
   name: Upsert
   nameWithType: DatabaseTableAgent.Upsert
   fullName: SuperOffice.CRM.Services.DatabaseTableAgent.Upsert
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   parent: SuperOffice.CRM.Services.IDatabaseTableAgent
   isExternal: true
-  name: Upsert(String, String[], String[], Boolean, String[][])
-  nameWithType: IDatabaseTableAgent.Upsert(String, String[], String[], Boolean, String[][])
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
-  nameWithType.vb: IDatabaseTableAgent.Upsert(String, String(), String(), Boolean, String()())
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
-  name.vb: Upsert(String, String(), String(), Boolean, String()())
+  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  nameWithType: IDatabaseTableAgent.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  nameWithType.vb: IDatabaseTableAgent.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
     name: Upsert
     nameWithType: IDatabaseTableAgent.Upsert
     fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
@@ -1449,14 +1454,6 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
   - uid: System.String
     name: String
     nameWithType: String
@@ -1468,11 +1465,27 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
     name: Upsert
     nameWithType: IDatabaseTableAgent.Upsert
     fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
@@ -1510,14 +1523,6 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
   - uid: System.String
     name: String
     nameWithType: String
@@ -1529,9 +1534,30 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.UpsertNomatchAction
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.Data.UpsertNomatchAction
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

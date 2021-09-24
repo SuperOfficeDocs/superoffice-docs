@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Services.AlarmData.EndDate
   - SuperOffice.CRM.Services.AlarmData.FormalName
   - SuperOffice.CRM.Services.AlarmData.InvitationStatus
+  - SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
   - SuperOffice.CRM.Services.AlarmData.Location
   - SuperOffice.CRM.Services.AlarmData.PersonFullName
   - SuperOffice.CRM.Services.AlarmData.PersonId
@@ -48,6 +49,7 @@ items:
     content: 'public class AlarmData : Carrier'
     content.vb: >-
       Public Class AlarmData
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
@@ -878,6 +880,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
+  commentId: P:SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
+  id: JoinVideomeetUrl
+  parent: SuperOffice.CRM.Services.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: JoinVideomeetUrl
+  nameWithType: AlarmData.JoinVideomeetUrl
+  fullName: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string JoinVideomeetUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property JoinVideomeetUrl As String
+  overload: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1096,3 +1131,9 @@ references:
   name: ContactFullName
   nameWithType: AlarmData.ContactFullName
   fullName: SuperOffice.CRM.Services.AlarmData.ContactFullName
+- uid: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl*
+  commentId: Overload:SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
+  isExternal: true
+  name: JoinVideomeetUrl
+  nameWithType: AlarmData.JoinVideomeetUrl
+  fullName: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl

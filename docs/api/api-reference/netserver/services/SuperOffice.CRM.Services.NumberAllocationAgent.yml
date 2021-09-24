@@ -33,7 +33,9 @@ items:
     content: 'public class NumberAllocationAgent : AgentBase<INumberAllocationAgent>, IDisposable, INumberAllocationAgent, IAgent'
     content.vb: >-
       Public Class NumberAllocationAgent
+
           Inherits AgentBase(Of INumberAllocationAgent)
+
           Implements IDisposable, INumberAllocationAgent, IAgent
   inheritance:
   - System.Object

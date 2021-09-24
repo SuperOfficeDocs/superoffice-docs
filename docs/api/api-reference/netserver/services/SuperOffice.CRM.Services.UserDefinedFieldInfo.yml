@@ -62,6 +62,7 @@ items:
     content: 'public class UserDefinedFieldInfo : Carrier'
     content.vb: >-
       Public Class UserDefinedFieldInfo
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

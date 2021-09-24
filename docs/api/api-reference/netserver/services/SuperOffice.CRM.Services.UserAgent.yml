@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Services.UserAgent.ChangePassword(System.Int32,System.String,System.String)
   - SuperOffice.CRM.Services.UserAgent.ChangePasswordFromName(System.String,System.String,System.String)
   - SuperOffice.CRM.Services.UserAgent.ChangeUserType(SuperOffice.CRM.Services.User,SuperOffice.License.UserType)
+  - SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration
   - SuperOffice.CRM.Services.UserAgent.CreateDefaultRoleEntity
   - SuperOffice.CRM.Services.UserAgent.CreateDefaultRoleEntityFromType(SuperOffice.Data.RoleType)
   - SuperOffice.CRM.Services.UserAgent.CreateDefaultServiceAuth
@@ -22,6 +23,7 @@ items:
   - SuperOffice.CRM.Services.UserAgent.CreateDefaultUserFromUserTypeAndPersonId(SuperOffice.License.UserType,System.Int32)
   - SuperOffice.CRM.Services.UserAgent.CreateExternalUser(System.Int32,System.String,System.String,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.UserAgent.CreateUserGroup
+  - SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
   - SuperOffice.CRM.Services.UserAgent.DeleteCredential(System.Int32,System.String)
   - SuperOffice.CRM.Services.UserAgent.DeleteExternalUser(System.Int32)
   - SuperOffice.CRM.Services.UserAgent.DeleteRole(System.Int32,System.Int32)
@@ -36,6 +38,7 @@ items:
   - SuperOffice.CRM.Services.UserAgent.FindRolesWithFunctionalRights(System.String[])
   - SuperOffice.CRM.Services.UserAgent.FindRolesWithoutFunctionalRights(System.String[])
   - SuperOffice.CRM.Services.UserAgent.GenerateNewPasswordForExternalUser(System.String)
+  - SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo
   - SuperOffice.CRM.Services.UserAgent.GetAccessToken(System.String,System.Boolean)
   - SuperOffice.CRM.Services.UserAgent.GetAllFunctionalRights(SuperOffice.Data.RoleType)
   - SuperOffice.CRM.Services.UserAgent.GetAllRoles(SuperOffice.Data.RoleType)
@@ -46,7 +49,9 @@ items:
   - SuperOffice.CRM.Services.UserAgent.GetDataRight(System.Int32,System.String,SuperOffice.CRM.Services.Util.RoleRelationToOwner)
   - SuperOffice.CRM.Services.UserAgent.GetDataRights(System.Int32,System.String)
   - SuperOffice.CRM.Services.UserAgent.GetDefaultAssociateUserName(SuperOffice.CRM.Services.User)
+  - SuperOffice.CRM.Services.UserAgent.GetExternalTokens(System.String)
   - SuperOffice.CRM.Services.UserAgent.GetFunctionalRights(System.Int32)
+  - SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo(System.String)
   - SuperOffice.CRM.Services.UserAgent.GetRole(System.Int32)
   - SuperOffice.CRM.Services.UserAgent.GetRoleEntity(System.Int32)
   - SuperOffice.CRM.Services.UserAgent.GetServiceAuth(System.Int32)
@@ -69,12 +74,14 @@ items:
   - SuperOffice.CRM.Services.UserAgent.IsUserNameValid(System.Int32,SuperOffice.License.UserType,System.Int32,System.String)
   - SuperOffice.CRM.Services.UserAgent.IsUserNameValidWithReason(System.Int32,SuperOffice.License.UserType,System.Int32,System.String)
   - SuperOffice.CRM.Services.UserAgent.MakeRetired(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway(System.String)
   - SuperOffice.CRM.Services.UserAgent.RemoveLicenses(System.Int32)
   - SuperOffice.CRM.Services.UserAgent.RemoveOwnerContact(System.Int32)
   - SuperOffice.CRM.Services.UserAgent.RemoveUntrustedCredentials(System.String,System.String)
   - SuperOffice.CRM.Services.UserAgent.RemoveUntrustedCredentialsForAssociate(System.Int32,System.String,System.String)
   - SuperOffice.CRM.Services.UserAgent.ResolveUserFromInfo(System.Int32,System.String,System.String[],System.String[],SuperOffice.License.UserType,SuperOffice.CRM.Services.Credential)
   - SuperOffice.CRM.Services.UserAgent.SaveCredential(System.Int32,SuperOffice.CRM.Services.Credential)
+  - SuperOffice.CRM.Services.UserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
   - SuperOffice.CRM.Services.UserAgent.SaveRoleEntity(SuperOffice.CRM.Services.RoleEntity)
   - SuperOffice.CRM.Services.UserAgent.SaveServiceAuth(SuperOffice.CRM.Services.ServiceAuth)
   - SuperOffice.CRM.Services.UserAgent.SaveUntrustedCredentials(System.String,SuperOffice.CRM.Services.UntrustedCredentials)
@@ -110,7 +117,9 @@ items:
     content: 'public class UserAgent : AgentBase<IUserAgent>, IDisposable, IUserAgent, IAgent'
     content.vb: >-
       Public Class UserAgent
+
           Inherits AgentBase(Of IUserAgent)
+
           Implements IDisposable, IUserAgent, IAgent
   inheritance:
   - System.Object
@@ -3177,6 +3186,240 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.UserAgent.GetUserInfoList(System.Int32())
   name.vb: GetUserInfoList(Int32())
+- uid: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo
+  commentId: M:SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo
+  id: GetAccessGatewayInfo
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAccessGatewayInfo()
+  nameWithType: UserAgent.GetAccessGatewayInfo()
+  fullName: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns accessgateway registration info\n"
+  syntax:
+    content: public AccessGatewayInfo GetAccessGatewayInfo()
+    return:
+      type: SuperOffice.CRM.Services.AccessGatewayInfo
+    content.vb: Public Function GetAccessGatewayInfo As AccessGatewayInfo
+  overload: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  id: GetOrRegisterAccessGatewayInfo(System.String)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOrRegisterAccessGatewayInfo(String)
+  nameWithType: UserAgent.GetOrRegisterAccessGatewayInfo(String)
+  fullName: SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns accessgateway registration info and registers a new or adds the url if necessary\n"
+  syntax:
+    content: public AccessGatewayInfo GetOrRegisterAccessGatewayInfo(string redirectUri)
+    parameters:
+    - id: redirectUri
+      type: System.String
+      description: This is the registered redirect_uri for AccessGateway OIDC.
+    return:
+      type: SuperOffice.CRM.Services.AccessGatewayInfo
+    content.vb: Public Function GetOrRegisterAccessGatewayInfo(redirectUri As String) As AccessGatewayInfo
+  overload: SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway(System.String)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway(System.String)
+  id: RegisterWithAccessGateway(System.String)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterWithAccessGateway(String)
+  nameWithType: UserAgent.RegisterWithAccessGateway(String)
+  fullName: SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegisters with access gateway if not already done, otherwise will attempt to update\n"
+  syntax:
+    content: public AccessGatewayInfo RegisterWithAccessGateway(string redirectUri)
+    parameters:
+    - id: redirectUri
+      type: System.String
+      description: This is the registered redirect_uri for AccessGateway OIDC.
+    return:
+      type: SuperOffice.CRM.Services.AccessGatewayInfo
+    content.vb: Public Function RegisterWithAccessGateway(redirectUri As String) As AccessGatewayInfo
+  overload: SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration
+  commentId: M:SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration
+  id: CheckAccessGatewayRegistration
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: CheckAccessGatewayRegistration()
+  nameWithType: UserAgent.CheckAccessGatewayRegistration()
+  fullName: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if AccessGatewayRegistration is valid\n"
+  syntax:
+    content: public bool CheckAccessGatewayRegistration()
+    return:
+      type: System.Boolean
+      description: True if the registration is usable
+    content.vb: Public Function CheckAccessGatewayRegistration As Boolean
+  overload: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  id: SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveExternalTokens(TokenManagementInfo)
+  nameWithType: UserAgent.SaveExternalTokens(TokenManagementInfo)
+  fullName: SuperOffice.CRM.Services.UserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves the external tokens to the DB and returns a key that can be used to retrieve them\n"
+  syntax:
+    content: public string SaveExternalTokens(TokenManagementInfo tokenManagementInfo)
+    parameters:
+    - id: tokenManagementInfo
+      type: SuperOffice.CRM.Services.TokenManagementInfo
+      description: Token information.
+    return:
+      type: System.String
+      description: Key that can be used to retrieve the tokens
+    content.vb: Public Function SaveExternalTokens(tokenManagementInfo As TokenManagementInfo) As String
+  overload: SuperOffice.CRM.Services.UserAgent.SaveExternalTokens*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  id: DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: DecryptAndSaveExternalTokens(TokenManagementInfo)
+  nameWithType: UserAgent.DecryptAndSaveExternalTokens(TokenManagementInfo)
+  fullName: SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFirst asks AccessGateway to decrypt the tokens, then saves the external tokens to the DB and returns a key that can be used to retrieve them\n"
+  syntax:
+    content: public string DecryptAndSaveExternalTokens(TokenManagementInfo tokenManagementInfo)
+    parameters:
+    - id: tokenManagementInfo
+      type: SuperOffice.CRM.Services.TokenManagementInfo
+      description: Token information.
+    return:
+      type: System.String
+      description: Key that can be used to retrieve the tokens
+    content.vb: Public Function DecryptAndSaveExternalTokens(tokenManagementInfo As TokenManagementInfo) As String
+  overload: SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserAgent.GetExternalTokens(System.String)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.GetExternalTokens(System.String)
+  id: GetExternalTokens(System.String)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetExternalTokens(String)
+  nameWithType: UserAgent.GetExternalTokens(String)
+  fullName: SuperOffice.CRM.Services.UserAgent.GetExternalTokens(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve the tokens from the DB based on the given key\n"
+  syntax:
+    content: public TokenManagementInfo GetExternalTokens(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Token retrievel key
+    return:
+      type: SuperOffice.CRM.Services.TokenManagementInfo
+      description: Key to retrieve tokens
+    content.vb: Public Function GetExternalTokens(key As String) As TokenManagementInfo
+  overload: SuperOffice.CRM.Services.UserAgent.GetExternalTokens*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.UserAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.UserAgent.#ctor
   id: '#ctor'
@@ -9170,6 +9413,329 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo
+  isExternal: true
+  name: GetAccessGatewayInfo
+  nameWithType: UserAgent.GetAccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfo
+- uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: GetAccessGatewayInfo()
+  nameWithType: IUserAgent.GetAccessGatewayInfo()
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+    name: GetAccessGatewayInfo
+    nameWithType: IUserAgent.GetAccessGatewayInfo
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+    name: GetAccessGatewayInfo
+    nameWithType: IUserAgent.GetAccessGatewayInfo
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo
+  commentId: T:SuperOffice.CRM.Services.AccessGatewayInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo
+- uid: SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo
+  isExternal: true
+  name: GetOrRegisterAccessGatewayInfo
+  nameWithType: UserAgent.GetOrRegisterAccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.UserAgent.GetOrRegisterAccessGatewayInfo
+- uid: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: GetOrRegisterAccessGatewayInfo(String)
+  nameWithType: IUserAgent.GetOrRegisterAccessGatewayInfo(String)
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+    name: GetOrRegisterAccessGatewayInfo
+    nameWithType: IUserAgent.GetOrRegisterAccessGatewayInfo
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo(System.String)
+    name: GetOrRegisterAccessGatewayInfo
+    nameWithType: IUserAgent.GetOrRegisterAccessGatewayInfo
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway
+  isExternal: true
+  name: RegisterWithAccessGateway
+  nameWithType: UserAgent.RegisterWithAccessGateway
+  fullName: SuperOffice.CRM.Services.UserAgent.RegisterWithAccessGateway
+- uid: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: RegisterWithAccessGateway(String)
+  nameWithType: IUserAgent.RegisterWithAccessGateway(String)
+  fullName: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+    name: RegisterWithAccessGateway
+    nameWithType: IUserAgent.RegisterWithAccessGateway
+    fullName: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway(System.String)
+    name: RegisterWithAccessGateway
+    nameWithType: IUserAgent.RegisterWithAccessGateway
+    fullName: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration
+  isExternal: true
+  name: CheckAccessGatewayRegistration
+  nameWithType: UserAgent.CheckAccessGatewayRegistration
+  fullName: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistration
+- uid: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: CheckAccessGatewayRegistration()
+  nameWithType: IUserAgent.CheckAccessGatewayRegistration()
+  fullName: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+    name: CheckAccessGatewayRegistration
+    nameWithType: IUserAgent.CheckAccessGatewayRegistration
+    fullName: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+    name: CheckAccessGatewayRegistration
+    nameWithType: IUserAgent.CheckAccessGatewayRegistration
+    fullName: SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UserAgent.SaveExternalTokens*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.SaveExternalTokens
+  isExternal: true
+  name: SaveExternalTokens
+  nameWithType: UserAgent.SaveExternalTokens
+  fullName: SuperOffice.CRM.Services.UserAgent.SaveExternalTokens
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: SaveExternalTokens(TokenManagementInfo)
+  nameWithType: IUserAgent.SaveExternalTokens(TokenManagementInfo)
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+    name: SaveExternalTokens
+    nameWithType: IUserAgent.SaveExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.CRM.Services.TokenManagementInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+    name: SaveExternalTokens
+    nameWithType: IUserAgent.SaveExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.SaveExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.CRM.Services.TokenManagementInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.TokenManagementInfo
+  commentId: T:SuperOffice.CRM.Services.TokenManagementInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo
+  fullName: SuperOffice.CRM.Services.TokenManagementInfo
+- uid: SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens
+  isExternal: true
+  name: DecryptAndSaveExternalTokens
+  nameWithType: UserAgent.DecryptAndSaveExternalTokens
+  fullName: SuperOffice.CRM.Services.UserAgent.DecryptAndSaveExternalTokens
+- uid: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: DecryptAndSaveExternalTokens(TokenManagementInfo)
+  nameWithType: IUserAgent.DecryptAndSaveExternalTokens(TokenManagementInfo)
+  fullName: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+    name: DecryptAndSaveExternalTokens
+    nameWithType: IUserAgent.DecryptAndSaveExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.CRM.Services.TokenManagementInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens(SuperOffice.CRM.Services.TokenManagementInfo)
+    name: DecryptAndSaveExternalTokens
+    nameWithType: IUserAgent.DecryptAndSaveExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.CRM.Services.TokenManagementInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UserAgent.GetExternalTokens*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.GetExternalTokens
+  isExternal: true
+  name: GetExternalTokens
+  nameWithType: UserAgent.GetExternalTokens
+  fullName: SuperOffice.CRM.Services.UserAgent.GetExternalTokens
+- uid: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  name: GetExternalTokens(String)
+  nameWithType: IUserAgent.GetExternalTokens(String)
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+    name: GetExternalTokens
+    nameWithType: IUserAgent.GetExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens(System.String)
+    name: GetExternalTokens
+    nameWithType: IUserAgent.GetExternalTokens
+    fullName: SuperOffice.CRM.Services.IUserAgent.GetExternalTokens
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.UserAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.UserAgent.#ctor
   isExternal: true

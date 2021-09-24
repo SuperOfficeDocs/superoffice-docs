@@ -30,6 +30,7 @@ items:
     content: 'public class EisConnectorEntity : Carrier'
     content.vb: >-
       Public Class EisConnectorEntity
+
           Inherits Carrier
   inheritance:
   - System.Object

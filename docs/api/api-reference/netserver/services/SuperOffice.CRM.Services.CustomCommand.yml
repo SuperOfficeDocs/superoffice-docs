@@ -32,6 +32,7 @@ items:
     content: 'public class CustomCommand : Carrier'
     content.vb: >-
       Public Class CustomCommand
+
           Inherits Carrier
   inheritance:
   - System.Object

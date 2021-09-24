@@ -62,7 +62,9 @@ items:
     content: 'public class DocumentEntity : Carrier, IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier'
     content.vb: >-
       Public Class DocumentEntity
+
           Inherits Carrier
+
           Implements IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent

@@ -62,7 +62,9 @@ items:
     content: 'public class FindAgent : AgentBase<IFindAgent>, IDisposable, IFindAgent, IAgent'
     content.vb: >-
       Public Class FindAgent
+
           Inherits AgentBase(Of IFindAgent)
+
           Implements IDisposable, IFindAgent, IAgent
   inheritance:
   - System.Object

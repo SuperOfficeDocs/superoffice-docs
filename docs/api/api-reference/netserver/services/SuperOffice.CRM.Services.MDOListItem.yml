@@ -40,6 +40,7 @@ items:
     content: 'public class MDOListItem : Carrier'
     content.vb: >-
       Public Class MDOListItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MDOAgent

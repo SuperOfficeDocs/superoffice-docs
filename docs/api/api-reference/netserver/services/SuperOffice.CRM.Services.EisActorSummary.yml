@@ -30,6 +30,7 @@ items:
     content: 'public class EisActorSummary : Carrier'
     content.vb: >-
       Public Class EisActorSummary
+
           Inherits Carrier
   inheritance:
   - System.Object

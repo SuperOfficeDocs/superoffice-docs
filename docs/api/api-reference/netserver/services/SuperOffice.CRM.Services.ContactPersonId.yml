@@ -28,6 +28,7 @@ items:
     content: 'public class ContactPersonId : Carrier'
     content.vb: >-
       Public Class ContactPersonId
+
           Inherits Carrier
   inheritance:
   - System.Object

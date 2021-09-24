@@ -50,6 +50,7 @@ items:
     content: 'public class FormEntity : Carrier'
     content.vb: >-
       Public Class FormEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MarketingAgent

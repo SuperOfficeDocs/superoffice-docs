@@ -124,7 +124,9 @@ items:
     content: 'public class QuoteAgent : AgentBase<IQuoteAgent>, IDisposable, IQuoteAgent, IAgent'
     content.vb: >-
       Public Class QuoteAgent
+
           Inherits AgentBase(Of IQuoteAgent)
+
           Implements IDisposable, IQuoteAgent, IAgent
   inheritance:
   - System.Object

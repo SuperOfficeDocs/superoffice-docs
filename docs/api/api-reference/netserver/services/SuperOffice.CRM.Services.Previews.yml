@@ -26,6 +26,7 @@ items:
     content: 'public class Previews : Carrier'
     content.vb: >-
       Public Class Previews
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PreviewsAgent

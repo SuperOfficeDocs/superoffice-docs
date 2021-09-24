@@ -28,6 +28,7 @@ items:
     content: 'public class DataRight : Carrier'
     content.vb: >-
       Public Class DataRight
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

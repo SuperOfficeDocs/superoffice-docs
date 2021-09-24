@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+  commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
+  id: ReplyTemplateParsed
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
+  - SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReply template with parsed text. Represent one language version of reply template\n<p></p>\nCarrier object for ReplyTemplateParsed.\nServices for the ReplyTemplateParsed Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ReplyTemplateParsed : Carrier'
+    content.vb: >-
+      Public Class ReplyTemplateParsed
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
+  commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateParsed()
+  nameWithType: ReplyTemplateParsed.ReplyTemplateParsed()
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateParsed()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ReplyTemplateParsed()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
+  commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ReplyTemplateParsed.ToString()
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ReplyTemplateParsed.ToString(String)
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+  commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateParsed.ReplyTemplateId
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateId As Integer
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+  commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+  id: PlainParsed
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: PlainParsed
+  nameWithType: ReplyTemplateParsed.PlainParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe plain text version of the reply template, and if applicable parsed with customer and ticket data \n"
+  syntax:
+    content: public virtual string PlainParsed { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PlainParsed As String
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+  commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+  id: HtmlParsed
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: HtmlParsed
+  nameWithType: ReplyTemplateParsed.HtmlParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe HTML version of the reply template, and if applicable parsed with customer and ticket data \n"
+  syntax:
+    content: public virtual string HtmlParsed { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlParsed As String
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+  commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+  id: Attachments
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: ReplyTemplateParsed.Attachments
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMeta data for the connected attachments \n"
+  syntax:
+    content: public virtual AttachmentEntity[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity[]
+    content.vb: Public Overridable Property Attachments As AttachmentEntity()
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
+  commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Services.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: ReplyTemplateParsed.Subject
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe subject for this reply template \n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
+  isExternal: true
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed.ReplyTemplateParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateParsed
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ReplyTemplateParsed.ToString
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateParsed.ReplyTemplateId
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+  isExternal: true
+  name: PlainParsed
+  nameWithType: ReplyTemplateParsed.PlainParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+  isExternal: true
+  name: HtmlParsed
+  nameWithType: ReplyTemplateParsed.HtmlParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: ReplyTemplateParsed.Attachments
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
+- uid: SuperOffice.CRM.Services.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.CRM.Services.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.CRM.Services.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject*
+  commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: ReplyTemplateParsed.Subject
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject

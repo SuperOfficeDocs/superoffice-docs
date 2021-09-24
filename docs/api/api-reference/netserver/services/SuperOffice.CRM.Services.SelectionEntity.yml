@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Services.SelectionEntity.Completed
   - SuperOffice.CRM.Services.SelectionEntity.CreatedBy
   - SuperOffice.CRM.Services.SelectionEntity.CreatedDate
+  - SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
   - SuperOffice.CRM.Services.SelectionEntity.Description
   - SuperOffice.CRM.Services.SelectionEntity.GroupIdx
   - SuperOffice.CRM.Services.SelectionEntity.IncludePerson
@@ -68,7 +69,9 @@ items:
     content: 'public class SelectionEntity : Carrier, IVisibleForCarrier'
     content.vb: >-
       Public Class SelectionEntity
+
           Inherits Carrier
+
           Implements IVisibleForCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SelectionAgent
@@ -1466,6 +1469,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Services.SelectionEntity
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionEntity.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associated tile definition \n"
+  syntax:
+    content: public virtual int DashboardTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
+  overload: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   id: VisibleFor
@@ -2002,6 +2038,12 @@ references:
   name: MailingsProviderName
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
+- uid: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionEntity.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
 - uid: SuperOffice.CRM.Services.SelectionEntity.VisibleFor*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   isExternal: true

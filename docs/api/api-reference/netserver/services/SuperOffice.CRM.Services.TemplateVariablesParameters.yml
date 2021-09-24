@@ -41,6 +41,7 @@ items:
     content: 'public class TemplateVariablesParameters : Carrier'
     content.vb: >-
       Public Class TemplateVariablesParameters
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent

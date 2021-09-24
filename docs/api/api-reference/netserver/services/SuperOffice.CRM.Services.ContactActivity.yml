@@ -40,6 +40,7 @@ items:
     content: 'public class ContactActivity : Carrier'
     content.vb: >-
       Public Class ContactActivity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ContactAgent

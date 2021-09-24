@@ -34,7 +34,9 @@ items:
     content: 'public class WebhookAgent : AgentBase<IWebhookAgent>, IDisposable, IWebhookAgent, IAgent'
     content.vb: >-
       Public Class WebhookAgent
+
           Inherits AgentBase(Of IWebhookAgent)
+
           Implements IDisposable, IWebhookAgent, IAgent
   inheritance:
   - System.Object

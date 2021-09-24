@@ -29,6 +29,7 @@ items:
     content: 'public class HistoryRequest : Carrier'
     content.vb: >-
       Public Class HistoryRequest
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ViewStateAgent

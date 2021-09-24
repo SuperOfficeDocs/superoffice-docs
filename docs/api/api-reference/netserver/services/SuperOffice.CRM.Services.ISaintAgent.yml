@@ -44,6 +44,7 @@ items:
       <Agent("Saint Agent", "Interface for the Saint Agent. Administration and maintenance of SAINT counters and statuses")>
 
       Public Interface ISaintAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

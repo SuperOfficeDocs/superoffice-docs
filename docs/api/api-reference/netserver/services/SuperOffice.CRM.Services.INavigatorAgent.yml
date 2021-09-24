@@ -34,6 +34,7 @@ items:
       <Agent("Navigator Agent", "Interface for the Navigator Agent. Navigator stuff.")>
 
       Public Interface INavigatorAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

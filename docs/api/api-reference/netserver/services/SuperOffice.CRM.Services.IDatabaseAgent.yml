@@ -32,6 +32,7 @@ items:
       <Agent("Database Agent", "Interface for the Database Agent. Database schema queries and changes")>
 
       Public Interface IDatabaseAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

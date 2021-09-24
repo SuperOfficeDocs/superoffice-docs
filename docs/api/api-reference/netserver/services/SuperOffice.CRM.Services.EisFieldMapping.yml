@@ -41,6 +41,7 @@ items:
     content: 'public class EisFieldMapping : Carrier'
     content.vb: >-
       Public Class EisFieldMapping
+
           Inherits Carrier
   inheritance:
   - System.Object

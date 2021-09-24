@@ -36,6 +36,7 @@ items:
     content: 'public class Satellite : Carrier'
     content.vb: >-
       Public Class Satellite
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ReplicationAgent

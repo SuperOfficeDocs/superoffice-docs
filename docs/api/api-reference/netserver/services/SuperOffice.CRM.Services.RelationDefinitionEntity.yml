@@ -36,6 +36,7 @@ items:
     content: 'public class RelationDefinitionEntity : Carrier'
     content.vb: >-
       Public Class RelationDefinitionEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

@@ -72,7 +72,9 @@ items:
     content: 'public class SaleEntity : Carrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier'
     content.vb: >-
       Public Class SaleEntity
+
           Inherits Carrier
+
           Implements IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaleAgent

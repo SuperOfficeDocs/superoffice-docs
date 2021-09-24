@@ -31,6 +31,7 @@ items:
       <Agent("Previews Agent", "Interface for the Previews Agent. Get preview strings from a hint")>
 
       Public Interface IPreviewsAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

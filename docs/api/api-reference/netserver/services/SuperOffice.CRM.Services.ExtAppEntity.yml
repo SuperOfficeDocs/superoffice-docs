@@ -50,6 +50,7 @@ items:
     content: 'public class ExtAppEntity : Carrier'
     content.vb: >-
       Public Class ExtAppEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

@@ -34,7 +34,9 @@ items:
     content: 'public class PhoneListAgent : AgentBase<IPhoneListAgent>, IDisposable, IPhoneListAgent, IAgent'
     content.vb: >-
       Public Class PhoneListAgent
+
           Inherits AgentBase(Of IPhoneListAgent)
+
           Implements IDisposable, IPhoneListAgent, IAgent
   inheritance:
   - System.Object

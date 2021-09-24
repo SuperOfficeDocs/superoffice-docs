@@ -38,6 +38,7 @@ items:
       <Agent("BulkUpdate Agent", "Interface for the BulkUpdate Agent. Agent used for bulk update methods")>
 
       Public Interface IBulkUpdateAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute

@@ -30,6 +30,7 @@ items:
     content: 'public class LicenseOwner : Carrier'
     content.vb: >-
       Public Class LicenseOwner
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.LicenseAgent

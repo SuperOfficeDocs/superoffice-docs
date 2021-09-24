@@ -29,6 +29,7 @@ items:
     content: 'public class CustomerServiceStartup : Carrier'
     content.vb: >-
       Public Class CustomerServiceStartup
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

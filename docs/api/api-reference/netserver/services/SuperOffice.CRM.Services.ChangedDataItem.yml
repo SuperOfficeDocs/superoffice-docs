@@ -28,6 +28,7 @@ items:
     content: 'public class ChangedDataItem : Carrier'
     content.vb: >-
       Public Class ChangedDataItem
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

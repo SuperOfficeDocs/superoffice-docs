@@ -36,6 +36,7 @@ items:
     content: 'public class ReportEntity : Carrier'
     content.vb: >-
       Public Class ReportEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ReportAgent
@@ -157,7 +158,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the report.\n\n"
+  summary: "\nThe id of the report.  \n"
   syntax:
     content: public virtual int ReportId { get; set; }
     parameters: []

@@ -33,6 +33,7 @@ items:
     content: 'public class ControlInfo : Carrier'
     content.vb: >-
       Public Class ControlInfo
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.BulkUpdateAgent

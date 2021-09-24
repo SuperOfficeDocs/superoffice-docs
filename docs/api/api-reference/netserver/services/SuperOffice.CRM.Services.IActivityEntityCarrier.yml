@@ -25,6 +25,7 @@ items:
     content: 'public interface IActivityEntityCarrier : IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier'
     content.vb: >-
       Public Interface IActivityEntityCarrier
+
           Inherits IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
   inheritedMembers:
   - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links

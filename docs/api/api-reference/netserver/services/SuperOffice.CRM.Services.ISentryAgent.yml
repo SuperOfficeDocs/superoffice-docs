@@ -37,6 +37,7 @@ items:
       <Agent("Sentry Agent", "Interface for the Sentry Agent. Data and function right queries")>
 
       Public Interface ISentryAgent
+
           Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
@@ -138,8 +139,7 @@ items:
     content: string[] GetFunctionRights()
     return:
       type: System.String[]
-      description: >
-        String array.
+      description: String array with the technical names of assigned function rights
     content.vb: Function GetFunctionRights As String()
   overload: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights*
 - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)

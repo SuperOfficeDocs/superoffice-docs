@@ -9,6 +9,8 @@ items:
   - SuperOffice.CRM.Services.ChatOpeningHours.FriEnabled
   - SuperOffice.CRM.Services.ChatOpeningHours.FriStart
   - SuperOffice.CRM.Services.ChatOpeningHours.FriStop
+  - SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+  - SuperOffice.CRM.Services.ChatOpeningHours.LunchStop
   - SuperOffice.CRM.Services.ChatOpeningHours.MonEnabled
   - SuperOffice.CRM.Services.ChatOpeningHours.MonStart
   - SuperOffice.CRM.Services.ChatOpeningHours.MonStop
@@ -27,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.ChatOpeningHours.TueStart
   - SuperOffice.CRM.Services.ChatOpeningHours.TueStop
   - SuperOffice.CRM.Services.ChatOpeningHours.TzLocation
+  - SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
   - SuperOffice.CRM.Services.ChatOpeningHours.WedEnabled
   - SuperOffice.CRM.Services.ChatOpeningHours.WedStart
   - SuperOffice.CRM.Services.ChatOpeningHours.WedStop
@@ -243,11 +246,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Mondays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime MonStart { get; set; }
+    content: public virtual TimeSpan MonStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property MonStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property MonStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.MonStart*
   modifiers.csharp:
   - public
@@ -276,11 +279,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Mondays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime MonStop { get; set; }
+    content: public virtual TimeSpan MonStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property MonStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property MonStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.MonStop*
   modifiers.csharp:
   - public
@@ -342,11 +345,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Tuesdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime TueStart { get; set; }
+    content: public virtual TimeSpan TueStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property TueStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property TueStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.TueStart*
   modifiers.csharp:
   - public
@@ -375,11 +378,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Tuesdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime TueStop { get; set; }
+    content: public virtual TimeSpan TueStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property TueStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property TueStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.TueStop*
   modifiers.csharp:
   - public
@@ -441,11 +444,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Wednesdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime WedStart { get; set; }
+    content: public virtual TimeSpan WedStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property WedStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property WedStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.WedStart*
   modifiers.csharp:
   - public
@@ -474,11 +477,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Wednesday. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime WedStop { get; set; }
+    content: public virtual TimeSpan WedStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property WedStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property WedStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.WedStop*
   modifiers.csharp:
   - public
@@ -540,11 +543,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Thursdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime ThuStart { get; set; }
+    content: public virtual TimeSpan ThuStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property ThuStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property ThuStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.ThuStart*
   modifiers.csharp:
   - public
@@ -573,11 +576,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Thursdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime ThuStop { get; set; }
+    content: public virtual TimeSpan ThuStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property ThuStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property ThuStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.ThuStop*
   modifiers.csharp:
   - public
@@ -639,11 +642,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Fridays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime FriStart { get; set; }
+    content: public virtual TimeSpan FriStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property FriStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property FriStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.FriStart*
   modifiers.csharp:
   - public
@@ -672,11 +675,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Fridays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime FriStop { get; set; }
+    content: public virtual TimeSpan FriStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property FriStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property FriStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.FriStop*
   modifiers.csharp:
   - public
@@ -738,11 +741,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Saturdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime SatStart { get; set; }
+    content: public virtual TimeSpan SatStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SatStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SatStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.SatStart*
   modifiers.csharp:
   - public
@@ -771,11 +774,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Saturdays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime SatStop { get; set; }
+    content: public virtual TimeSpan SatStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SatStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SatStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.SatStop*
   modifiers.csharp:
   - public
@@ -837,11 +840,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours start on Sundays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime SunStart { get; set; }
+    content: public virtual TimeSpan SunStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SunStart As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SunStart As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.SunStart*
   modifiers.csharp:
   - public
@@ -870,12 +873,111 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nWhen opening hours stop on Sundays. Only time-part is used. \n"
   syntax:
-    content: public virtual DateTime SunStop { get; set; }
+    content: public virtual TimeSpan SunStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SunStop As Date
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SunStop As TimeSpan
   overload: SuperOffice.CRM.Services.ChatOpeningHours.SunStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
+  commentId: P:SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
+  id: UseLunchHours
+  parent: SuperOffice.CRM.Services.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: UseLunchHours
+  nameWithType: ChatOpeningHours.UseLunchHours
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether to use lunch hours or not. \n"
+  syntax:
+    content: public virtual bool UseLunchHours { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseLunchHours As Boolean
+  overload: SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+  commentId: P:SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+  id: LunchStart
+  parent: SuperOffice.CRM.Services.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: LunchStart
+  nameWithType: ChatOpeningHours.LunchStart
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen opening hours starts for lunch. Only time-part is used. \n"
+  syntax:
+    content: public virtual TimeSpan LunchStart { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LunchStart As TimeSpan
+  overload: SuperOffice.CRM.Services.ChatOpeningHours.LunchStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.LunchStop
+  commentId: P:SuperOffice.CRM.Services.ChatOpeningHours.LunchStop
+  id: LunchStop
+  parent: SuperOffice.CRM.Services.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: LunchStop
+  nameWithType: ChatOpeningHours.LunchStop
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.LunchStop
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen opening hours stops for lunch. Only time-part is used. \n"
+  syntax:
+    content: public virtual TimeSpan LunchStop { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LunchStop As TimeSpan
+  overload: SuperOffice.CRM.Services.ChatOpeningHours.LunchStop*
   modifiers.csharp:
   - public
   - virtual
@@ -1245,13 +1347,13 @@ references:
   name: MonStart
   nameWithType: ChatOpeningHours.MonStart
   fullName: SuperOffice.CRM.Services.ChatOpeningHours.MonStart
-- uid: System.DateTime
-  commentId: T:System.DateTime
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
   parent: System
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: SuperOffice.CRM.Services.ChatOpeningHours.MonStop*
   commentId: Overload:SuperOffice.CRM.Services.ChatOpeningHours.MonStop
   isExternal: true
@@ -1366,3 +1468,21 @@ references:
   name: SunStop
   nameWithType: ChatOpeningHours.SunStop
   fullName: SuperOffice.CRM.Services.ChatOpeningHours.SunStop
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours*
+  commentId: Overload:SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
+  isExternal: true
+  name: UseLunchHours
+  nameWithType: ChatOpeningHours.UseLunchHours
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.UseLunchHours
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.LunchStart*
+  commentId: Overload:SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+  isExternal: true
+  name: LunchStart
+  nameWithType: ChatOpeningHours.LunchStart
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.LunchStart
+- uid: SuperOffice.CRM.Services.ChatOpeningHours.LunchStop*
+  commentId: Overload:SuperOffice.CRM.Services.ChatOpeningHours.LunchStop
+  isExternal: true
+  name: LunchStop
+  nameWithType: ChatOpeningHours.LunchStop
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours.LunchStop

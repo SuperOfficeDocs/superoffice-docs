@@ -31,6 +31,7 @@ items:
     content: 'public class ReasonSold : Carrier'
     content.vb: >-
       Public Class ReasonSold
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent

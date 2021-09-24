@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.CustomerServiceAgent.CheckIfCustomizedTemplates
   - SuperOffice.CRM.Services.CustomerServiceAgent.CheckSymmetricEncryption(System.String)
   - SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultCustomerCenterConfig
+  - SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity
   - SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultSmsConfig
   - SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession(System.String)
   - SuperOffice.CRM.Services.CustomerServiceAgent.CreateTicketFromMailData(System.Int32,System.String)
@@ -22,7 +23,10 @@ items:
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetAllCustomerCenterConfigs
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetCustomerServiceStartup
+  - SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  - SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity(System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxes
+  - SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetSmsConfig
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
@@ -30,6 +34,7 @@ items:
   - SuperOffice.CRM.Services.CustomerServiceAgent.RemoveSession(System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
   - SuperOffice.CRM.Services.CustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
+  - SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
   - SuperOffice.CRM.Services.CustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
   - SuperOffice.CRM.Services.CustomerServiceAgent.SessionIsValid(System.String)
   - SuperOffice.CRM.Services.CustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
@@ -54,7 +59,9 @@ items:
     content: 'public class CustomerServiceAgent : AgentBase<ICustomerServiceAgent>, IDisposable, ICustomerServiceAgent, IAgent'
     content.vb: >-
       Public Class CustomerServiceAgent
+
           Inherits AgentBase(Of ICustomerServiceAgent)
+
           Implements IDisposable, ICustomerServiceAgent, IAgent
   inheritance:
   - System.Object
@@ -177,6 +184,72 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity
+  id: CreateDefaultMailboxEntity
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailboxEntity()
+  nameWithType: CustomerServiceAgent.CreateDefaultMailboxEntity()
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new MailboxEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public MailboxEntity CreateDefaultMailboxEntity()
+    return:
+      type: SuperOffice.CRM.Services.MailboxEntity
+      description: New MailboxEntity with default values
+    content.vb: Public Function CreateDefaultMailboxEntity As MailboxEntity
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  id: SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveMailboxEntity(MailboxEntity)
+  nameWithType: CustomerServiceAgent.SaveMailboxEntity(MailboxEntity)
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty\n"
+  syntax:
+    content: public MailboxEntity SaveMailboxEntity(MailboxEntity mailboxEntity)
+    parameters:
+    - id: mailboxEntity
+      type: SuperOffice.CRM.Services.MailboxEntity
+      description: The MailboxEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.MailboxEntity
+      description: New or updated MailboxEntity
+    content.vb: Public Function SaveMailboxEntity(mailboxEntity As MailboxEntity) As MailboxEntity
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultSmsConfig
   commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultSmsConfig
   id: CreateDefaultSmsConfig
@@ -277,6 +350,41 @@ items:
   overload: SuperOffice.CRM.Services.CustomerServiceAgent.GetProgramUrl*
   implements:
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  id: GetFaqForCustomer(System.Int32)
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFaqForCustomer(Int32)
+  nameWithType: CustomerServiceAgent.GetFaqForCustomer(Int32)
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157\n"
+  syntax:
+    content: public string GetFaqForCustomer(int faqEntryId)
+    parameters:
+    - id: faqEntryId
+      type: System.Int32
+      description: The id of the FAQ entry to get. Only FAQ entries with access level public (both for unauthenticated and autenticated customer) will be returned
+    return:
+      type: System.String
+      description: The FAQ to show to the customer. Either a clickable link or the question/answer itself.
+    content.vb: Public Function GetFaqForCustomer(faqEntryId As Integer) As String
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -626,6 +734,85 @@ items:
   overload: SuperOffice.CRM.Services.CustomerServiceAgent.CheckIfCustomizedTemplates*
   implements:
   - SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity(System.Int32)
+  id: GetMailboxEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMailboxEntity(Int32)
+  nameWithType: CustomerServiceAgent.GetMailboxEntity(Int32)
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a MailboxEntity object.                        \n"
+  syntax:
+    content: public MailboxEntity GetMailboxEntity(int mailboxEntityId)
+    parameters:
+    - id: mailboxEntityId
+      type: System.Int32
+      description: The identifier of the MailboxEntity object
+    return:
+      type: SuperOffice.CRM.Services.MailboxEntity
+      description: MailboxEntity
+    content.vb: Public Function GetMailboxEntity(mailboxEntityId As Integer) As MailboxEntity
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetParsedTemplate(Int32, Int32, Int32, Int32)
+  nameWithType: CustomerServiceAgent.GetParsedTemplate(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a specific langauge version of the reply template, and run this trough the parser\n"
+  syntax:
+    content: public ReplyTemplateParsed GetParsedTemplate(int replyTemplateId, int languageId, int personId, int ticketId)
+    parameters:
+    - id: replyTemplateId
+      type: System.Int32
+      description: The id of the reply template
+    - id: languageId
+      type: System.Int32
+      description: The language id (prefered langauge). If 0 is given, the language of the person will be used
+    - id: personId
+      type: System.Int32
+      description: The id of the person that will be populated into the parser
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket that will be populated into the parser
+    return:
+      type: SuperOffice.CRM.Services.ReplyTemplateParsed
+      description: The parsed reply template
+    content.vb: Public Function GetParsedTemplate(replyTemplateId As Integer, languageId As Integer, personId As Integer, ticketId As Integer) As ReplyTemplateParsed
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1029,7 +1216,7 @@ items:
     content: public ChatSession[] ChatSessionsForUser()
     return:
       type: SuperOffice.CRM.Services.ChatSession[]
-      description: Array of chat TOPIC ids the current user can access. NOTchat sessions.
+      description: Array of chat TOPIC ids the current user can access. NOT chat sessions.
     content.vb: Public Function ChatSessionsForUser As ChatSession()
   overload: SuperOffice.CRM.Services.CustomerServiceAgent.ChatSessionsForUser*
   implements:
@@ -1693,6 +1880,97 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity
+  isExternal: true
+  name: CreateDefaultMailboxEntity
+  nameWithType: CustomerServiceAgent.CreateDefaultMailboxEntity
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultMailboxEntity
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: CreateDefaultMailboxEntity()
+  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity()
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+    name: CreateDefaultMailboxEntity
+    nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+    name: CreateDefaultMailboxEntity
+    nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.MailboxEntity
+  commentId: T:SuperOffice.CRM.Services.MailboxEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MailboxEntity
+  nameWithType: MailboxEntity
+  fullName: SuperOffice.CRM.Services.MailboxEntity
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity
+  isExternal: true
+  name: SaveMailboxEntity
+  nameWithType: CustomerServiceAgent.SaveMailboxEntity
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.SaveMailboxEntity
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: SaveMailboxEntity(MailboxEntity)
+  nameWithType: ICustomerServiceAgent.SaveMailboxEntity(MailboxEntity)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+    name: SaveMailboxEntity
+    nameWithType: ICustomerServiceAgent.SaveMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.CRM.Services.MailboxEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
+    name: SaveMailboxEntity
+    nameWithType: ICustomerServiceAgent.SaveMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.CRM.Services.MailboxEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultSmsConfig*
   commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.CreateDefaultSmsConfig
   isExternal: true
@@ -1861,6 +2139,53 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer
+  isExternal: true
+  name: GetFaqForCustomer
+  nameWithType: CustomerServiceAgent.GetFaqForCustomer
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetFaqForCustomer
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: GetFaqForCustomer(Int32)
+  nameWithType: ICustomerServiceAgent.GetFaqForCustomer(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+    name: GetFaqForCustomer
+    nameWithType: ICustomerServiceAgent.GetFaqForCustomer
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
+    name: GetFaqForCustomer
+    nameWithType: ICustomerServiceAgent.GetFaqForCustomer
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateTicketFromMailData*
   commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.CreateTicketFromMailData
   isExternal: true
@@ -2479,6 +2804,155 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity
+  isExternal: true
+  name: GetMailboxEntity
+  nameWithType: CustomerServiceAgent.GetMailboxEntity
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetMailboxEntity
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: GetMailboxEntity(Int32)
+  nameWithType: ICustomerServiceAgent.GetMailboxEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+    name: GetMailboxEntity
+    nameWithType: ICustomerServiceAgent.GetMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
+    name: GetMailboxEntity
+    nameWithType: ICustomerServiceAgent.GetMailboxEntity
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate
+  isExternal: true
+  name: GetParsedTemplate
+  nameWithType: CustomerServiceAgent.GetParsedTemplate
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.GetParsedTemplate
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: GetParsedTemplate(Int32, Int32, Int32, Int32)
+  nameWithType: ICustomerServiceAgent.GetParsedTemplate(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32, System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetParsedTemplate
+    nameWithType: ICustomerServiceAgent.GetParsedTemplate
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetParsedTemplate
+    nameWithType: ICustomerServiceAgent.GetParsedTemplate
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+  commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession*
   commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession
   isExternal: true

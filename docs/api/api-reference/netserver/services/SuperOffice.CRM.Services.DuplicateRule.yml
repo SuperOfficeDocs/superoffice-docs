@@ -30,6 +30,7 @@ items:
     content: 'public class DuplicateRule : Carrier'
     content.vb: >-
       Public Class DuplicateRule
+
           Inherits Carrier
   inheritance:
   - System.Object
@@ -146,7 +147,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIdentifying name for rule\n\n"
+  summary: "\nIdentifying name for rule  \n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []

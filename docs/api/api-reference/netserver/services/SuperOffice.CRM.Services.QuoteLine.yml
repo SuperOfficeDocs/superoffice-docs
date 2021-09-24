@@ -75,6 +75,7 @@ items:
     content: 'public class QuoteLine : Carrier'
     content.vb: >-
       Public Class QuoteLine
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

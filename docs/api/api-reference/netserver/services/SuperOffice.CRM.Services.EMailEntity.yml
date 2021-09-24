@@ -52,6 +52,7 @@ items:
     content: 'public class EMailEntity : Carrier'
     content.vb: >-
       Public Class EMailEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent

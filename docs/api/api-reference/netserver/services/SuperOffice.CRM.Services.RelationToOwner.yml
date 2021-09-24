@@ -29,6 +29,7 @@ items:
     content: 'public class RelationToOwner : Carrier'
     content.vb: >-
       Public Class RelationToOwner
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent

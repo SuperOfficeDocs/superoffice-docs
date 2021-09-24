@@ -38,7 +38,9 @@ items:
     content: 'public class MDOAgent : AgentBase<IMDOAgent>, IDisposable, IMDOAgent, IAgent'
     content.vb: >-
       Public Class MDOAgent
+
           Inherits AgentBase(Of IMDOAgent)
+
           Implements IDisposable, IMDOAgent, IAgent
   inheritance:
   - System.Object

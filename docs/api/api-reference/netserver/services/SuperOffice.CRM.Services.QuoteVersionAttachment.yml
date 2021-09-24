@@ -28,6 +28,7 @@ items:
     content: 'public class QuoteVersionAttachment : Carrier'
     content.vb: >-
       Public Class QuoteVersionAttachment
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent

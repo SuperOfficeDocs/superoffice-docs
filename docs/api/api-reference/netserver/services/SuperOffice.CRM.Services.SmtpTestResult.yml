@@ -28,6 +28,7 @@ items:
     content: 'public class SmtpTestResult : Carrier'
     content.vb: >-
       Public Class SmtpTestResult
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent

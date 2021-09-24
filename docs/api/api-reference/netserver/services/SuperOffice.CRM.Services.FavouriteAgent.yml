@@ -34,7 +34,9 @@ items:
     content: 'public class FavouriteAgent : AgentBase<IFavouriteAgent>, IDisposable, IFavouriteAgent, IAgent'
     content.vb: >-
       Public Class FavouriteAgent
+
           Inherits AgentBase(Of IFavouriteAgent)
+
           Implements IDisposable, IFavouriteAgent, IAgent
   inheritance:
   - System.Object

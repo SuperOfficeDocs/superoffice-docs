@@ -50,6 +50,7 @@ items:
     content: 'public class ProjectEvent : Carrier'
     content.vb: >-
       Public Class ProjectEvent
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ProjectAgent

@@ -35,6 +35,7 @@ items:
     content: 'public class TypicalSearch : Carrier'
     content.vb: >-
       Public Class TypicalSearch
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SelectionAgent

@@ -11,6 +11,9 @@ items:
   - SuperOffice.CRM.Services.ChatWidgetSettings.Color
   - SuperOffice.CRM.Services.ChatWidgetSettings.Font
   - SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
+  - SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+  - SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
+  - SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
   - SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
   - SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
   - SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
@@ -22,10 +25,11 @@ items:
   - SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
   - SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
   - SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
-  - SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
+  - SuperOffice.CRM.Services.ChatWidgetSettings.Size
   - SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   - SuperOffice.CRM.Services.ChatWidgetSettings.ToString
   - SuperOffice.CRM.Services.ChatWidgetSettings.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
   - SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
   - SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
   langs:
@@ -486,6 +490,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.Size
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Size
+  id: Size
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: ChatWidgetSettings.Size
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Size
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChat widget size: normal or large. \n"
+  syntax:
+    content: public virtual ChatWidgetSize Size { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ChatWidgetSize
+    content.vb: Public Overridable Property Size As ChatWidgetSize
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   id: Theme
@@ -585,16 +622,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
-  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
-  id: ShowLogo
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
+  id: LogoEnabled
   parent: SuperOffice.CRM.Services.ChatWidgetSettings
   langs:
   - csharp
   - vb
-  name: ShowLogo
-  nameWithType: ChatWidgetSettings.ShowLogo
-  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
+  name: LogoEnabled
+  nameWithType: ChatWidgetSettings.LogoEnabled
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   type: Property
   source:
     path: SuperOffice.Services
@@ -604,12 +641,78 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nIndicates if the logo should be shown in the widget \n"
   syntax:
-    content: public virtual bool ShowLogo { get; set; }
+    content: public virtual bool LogoEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ShowLogo As Boolean
-  overload: SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo*
+    content.vb: Public Overridable Property LogoEnabled As Boolean
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+  id: LogoBlobId
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: LogoBlobId
+  nameWithType: ChatWidgetSettings.LogoBlobId
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBlob id that contains logo image \n"
+  syntax:
+    content: public virtual int LogoBlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LogoBlobId As Integer
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
+  id: LogoName
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: LogoName
+  nameWithType: ChatWidgetSettings.LogoName
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nfilename/description of logo (from blob) \n"
+  syntax:
+    content: public virtual string LogoName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LogoName As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName*
   modifiers.csharp:
   - public
   - virtual
@@ -808,6 +911,39 @@ items:
       type: SuperOffice.Data.WidgetRequiredFields
     content.vb: Public Overridable Property OfflineFields As WidgetRequiredFields
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
+  id: UseAgentFirstname
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: UseAgentFirstname
+  nameWithType: ChatWidgetSettings.UseAgentFirstname
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether to use the firstname of the agent in the chat widget. \n"
+  syntax:
+    content: public virtual bool UseAgentFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseAgentFirstname As Boolean
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname*
   modifiers.csharp:
   - public
   - virtual
@@ -1226,6 +1362,18 @@ references:
   name: LanguageIsoCode
   nameWithType: ChatWidgetSettings.LanguageIsoCode
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.Size*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Size
+  isExternal: true
+  name: Size
+  nameWithType: ChatWidgetSettings.Size
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Size
+- uid: SuperOffice.Data.ChatWidgetSize
+  commentId: '!:SuperOffice.Data.ChatWidgetSize'
+  isExternal: true
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: SuperOffice.Data.ChatWidgetSize
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Theme*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   isExternal: true
@@ -1250,12 +1398,31 @@ references:
   name: Font
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Font
-- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo*
-  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   isExternal: true
-  name: ShowLogo
-  nameWithType: ChatWidgetSettings.ShowLogo
-  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ShowLogo
+  name: LogoEnabled
+  nameWithType: ChatWidgetSettings.LogoEnabled
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+  isExternal: true
+  name: LogoBlobId
+  nameWithType: ChatWidgetSettings.LogoBlobId
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
+  isExternal: true
+  name: LogoName
+  nameWithType: ChatWidgetSettings.LogoName
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
   isExternal: true
@@ -1292,3 +1459,9 @@ references:
   name: OfflineFields
   nameWithType: ChatWidgetSettings.OfflineFields
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
+  isExternal: true
+  name: UseAgentFirstname
+  nameWithType: ChatWidgetSettings.UseAgentFirstname
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname

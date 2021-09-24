@@ -29,6 +29,7 @@ items:
     content: 'public class StatusMonitorPeriods : Carrier'
     content.vb: >-
       Public Class StatusMonitorPeriods
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaintAgent

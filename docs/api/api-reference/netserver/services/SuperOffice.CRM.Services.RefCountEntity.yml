@@ -39,6 +39,7 @@ items:
     content: 'public class RefCountEntity : Carrier'
     content.vb: >-
       Public Class RefCountEntity
+
           Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.NumberAllocationAgent

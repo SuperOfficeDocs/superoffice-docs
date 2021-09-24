@@ -34,7 +34,9 @@ items:
     content: 'public class ReplicationAgent : AgentBase<IReplicationAgent>, IDisposable, IReplicationAgent, IAgent'
     content.vb: >-
       Public Class ReplicationAgent
+
           Inherits AgentBase(Of IReplicationAgent)
+
           Implements IDisposable, IReplicationAgent, IAgent
   inheritance:
   - System.Object

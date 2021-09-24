@@ -24,6 +24,7 @@ items:
     content: 'public class PrivateDatabaseTableAgentFactory : IPrivateFactory'
     content.vb: >-
       Public Class PrivateDatabaseTableAgentFactory
+
           Implements IPrivateFactory
   inheritance:
   - System.Object

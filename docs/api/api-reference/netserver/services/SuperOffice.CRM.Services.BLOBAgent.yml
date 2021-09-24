@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask(System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
   - SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity(System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetAppData(System.String)
@@ -23,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetContactImage(System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch(System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetPersonImage(System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.BLOBAgent.GetProductImage(System.Int32)
@@ -60,7 +62,9 @@ items:
     content: 'public class BLOBAgent : AgentBase<IBLOBAgent>, IDisposable, IBLOBAgent, IAgent'
     content.vb: >-
       Public Class BLOBAgent
+
           Inherits AgentBase(Of IBLOBAgent)
+
           Implements IDisposable, IBLOBAgent, IAgent
   inheritance:
   - System.Object
@@ -1294,6 +1298,73 @@ items:
   overload: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize*
   implements:
   - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch(System.Int32)
+  id: GetOutputFromBatch(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOutputFromBatch(Int32)
+  nameWithType: BLOBAgent.GetOutputFromBatch(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the output of a batchtask as a stream\n"
+  syntax:
+    content: public Stream GetOutputFromBatch(int batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    return:
+      type: System.IO.Stream
+      description: The binary object as a Stream
+    content.vb: Public Function GetOutputFromBatch(batchTaskId As Integer) As Stream
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask(System.Int32)
+  id: CleanupBatchTask(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CleanupBatchTask(Int32)
+  nameWithType: BLOBAgent.CleanupBatchTask(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
+  syntax:
+    content: public void CleanupBatchTask(int batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    content.vb: Public Sub CleanupBatchTask(batchTaskId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3784,6 +3855,100 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch
+  isExternal: true
+  name: GetOutputFromBatch
+  nameWithType: BLOBAgent.GetOutputFromBatch
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetOutputFromBatch
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetOutputFromBatch(Int32)
+  nameWithType: IBLOBAgent.GetOutputFromBatch(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+    name: GetOutputFromBatch
+    nameWithType: IBLOBAgent.GetOutputFromBatch
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
+    name: GetOutputFromBatch
+    nameWithType: IBLOBAgent.GetOutputFromBatch
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask
+  isExternal: true
+  name: CleanupBatchTask
+  nameWithType: BLOBAgent.CleanupBatchTask
+  fullName: SuperOffice.CRM.Services.BLOBAgent.CleanupBatchTask
+- uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: CleanupBatchTask(Int32)
+  nameWithType: IBLOBAgent.CleanupBatchTask(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+    name: CleanupBatchTask
+    nameWithType: IBLOBAgent.CleanupBatchTask
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
+    name: CleanupBatchTask
+    nameWithType: IBLOBAgent.CleanupBatchTask
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
