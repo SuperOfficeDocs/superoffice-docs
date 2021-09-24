@@ -245,8 +245,6 @@ items:
   items:
   - name: Row events
     href: netserver/rows/events.md
-  - name: Sentry Security
-    href: netserver/rows/sentry.md
   - name: How to...
     items:
     - name: Get a row
@@ -424,6 +422,39 @@ items:
       href: netserver/search/odata/unary.md
     - name: Filters
       href: netserver/search/odata/using-filters.md
+- name: Security
+  href: security/index.md
+  items:
+  - name: Role-based
+    href: security/role-based.md
+  - name: Encryption
+    href: security/encryption.md
+  - name: Sentry
+    href: security/sentry/index.md
+    items:
+    - name: Overrides
+      href: security/sentry/overrides.md
+      items:
+      - name: Examples (COM)
+        href: security/sentry/com/set-override-com.md
+    - name: Web services
+      href: security/sentry/services/index.md
+      items:
+      - name: FieldProperties
+        href: security/sentry/services/fieldproperties.md
+      - name: TableRight
+        href: security/sentry/services/tableright.md
+    - name: Entities
+      href: security/sentry/entity/index.md
+      items:
+      - name: VisibleFor flag
+        href: security/sentry/entity/visible-for-flag.md
+    - name: Rows
+      href: security/sentry/rows/index.md
+    - name: Objectified SQL
+      href: security/sentry/osql/distinct.md
+    - name: Raw SQL
+      href: security/sentry/sql/set-override-sql.md
 - name: Webhooks
   href: netserver/webhooks/index.md
   items:

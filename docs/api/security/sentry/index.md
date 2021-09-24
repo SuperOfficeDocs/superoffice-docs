@@ -1,8 +1,10 @@
 ---
-title: sentry      
+title: Sentry
+uid: sentry_intro
 description: Sentry
 author: {github-id}
-keywords:
+keywords: sentry, security
+so.topic: concept
 ---
 
 # Sentry

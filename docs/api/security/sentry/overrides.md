@@ -4,7 +4,7 @@ uid: sentry_overrides
 description: Sentry overrides
 author: {github-id}
 so.date: 02.06.2007
-keywords:
+keywords: sentry, security
 so.topic: concept
 so.envir: onsite
 # so.client:
@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Sentry overrides
 
-The standard system consists of 6 user-levels, and each level has a set of access rights, which decrease from all rights on level 0 down to read-only on level 5. These rights apply universally to all tables and all records.
+The standard system consists of 6 user-levels and each level has a set of access rights, which decrease from all rights on level 0 down to read-only on level 5. These rights apply universally to all tables and all records.
 
 There are additional rules that restrict access to data, such as private appointments and contacts that own Satellites. All these rules are implemented by the **Sentry** system. The problem, then, comes down to the need to add an override function to the Sentry system so that external modules can in some way instruct the Sentry system to grant fewer rights than would otherwise be the case.
 
@@ -56,16 +56,28 @@ By addressing single records, it is possible to protect data of particular value
 
 Since overrides are specified via the preference system, they can be specified at any level of that system:
 
-* System-wide, applies to the whole installation including travelers, satellites.
-* Database, applies to the given database (satellite) only
-* Group, applies to all users in a group
-* Individual, applies to a single user
+* **System-wide:** applies to the whole installation including travelers, satellites.
+* **Database:** applies to the given database (satellite) only
+* **Group:** applies to all users in a group
+* **Individual:** applies to a single user
 
-Preferences set at a level close to the user (such as group) will override preferences set at a high level (such as system-wide). The same applies to the sentry overrides. It is, therefore, possible to set a system-wide override that removes update rights from a certain field (from all users, since it is system-wide), and then override it with another setting for a single user (typically, the supervisor) to enable him to fix mistakes.
+Preferences set at a level close to the user (such as *group*) will override preferences set at a high level (such as system-wide). The same applies to the sentry overrides. It is, therefore, possible to set a system-wide override that removes update rights from a certain field (from all users, since it is system-wide), and then override it with another setting for a single user (typically, the supervisor) to enable him to fix mistakes.
+
+### Levels
+
+| Member | Value | Description |
+|---|---|---|
+| enPLUndefined | 0 | Undefined |
+| enPLHardDefault | 1 | hard-coded default, owner_id == 0 |
+| enPLSystemWide | 2 | whole installation, all levels, owner_id == 0 |
+| enPLDatabase | 3 | valid for all users of this database, owner_id = travelcurrent.current_id |
+| enPLGroup | 4 | valid for all users that are members of this group, owner_id = UserGroup.Id |
+| enPLIndividual | 5 | valid for this associate only, owner_id = associate.id |
+| enPLPC | 6 | valid for this local PC only, stored in registry HKLM\Software\SuperOffice |
 
 ## Management GUI
 
-There is no GUI to check or set preferences for sentry overrides. This has to be done directly though ISQL or the OLE DB Provider (the last is strongly recommended since all caches will be updated correctly). The lack of a GUI is intentional as this function is only intended for developers and consultants who know what they are doing and is too complicated and powerful to be let loose among normal users.
+There is no GUI to check or set preferences for sentry overrides. This has to be done directly through ISQL or the OLE DB Provider (the last is strongly recommended since all caches will be updated correctly). The lack of a GUI is intentional as this function is only intended for developers and consultants who know what they are doing and is too complicated and powerful to be let loose among normal users.
 
 ## Preference format - section names
 
@@ -103,8 +115,8 @@ Possible rights flags (you can add the values to get the rights you want) are:
 | Update | 2 | |
 | Insert | 4 | |
 | Delete | 8 | |
-| Filtered read | 16 | Gives advance warning that there are also field-level restrictions on reading |
-| Filtered update | 32 | Gives advance warning that there are field-level restrictions on updates |
+| Filtered read | 16 | Gives warning in advance that there are also field-level restrictions on reading |
+| Filtered update | 32 | Gives warning in advance that there are field-level restrictions on updates |
 | UIHintMandatory | 64 | Field must no be blank |
 | UIHintReadOnly | 128 | Field can only be read, not updated, in the user interface. |
 | UIHints | 192 | Rights only applied in the user interface. These rights are treated as deny rights. |
