@@ -61,6 +61,8 @@ items:
     href: service/9.2-R07-update.md
   - name: 9.2 R11 update
     href: service/9.2-R11-update.md
+  - name: 9.2 R12 update
+    href: service/9.2-R12-update.md
 - name: Mobile
   href: mobile/index.md
   items:
