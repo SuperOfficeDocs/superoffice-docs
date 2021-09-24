@@ -182,12 +182,34 @@
     name: EMailController
   - uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
     name: EMailController.EmailAuthentication
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+    name: EMailController.EmailAuthenticationMethod
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailServerInfo
+    name: EMailController.EmailServerInfo
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+    name: EMailController.ExpertEmailAuthentiction
   - uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
     name: EMailController.GetSendEMailScriptRequest
   - uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
     name: EMailController.GetSendEMailToScriptReqeust
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+    name: EMailController.SoInboxAuthorizeRequest
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+    name: EMailController.SoInboxAuthorizeResponse
+  - uid: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+    name: GetMdoListParams
+  - uid: SuperOffice.CRM.Web.Controllers.HugoAIController
+    name: HugoAIController
   - uid: SuperOffice.CRM.Web.Controllers.LocalizationController
     name: LocalizationController
+  - uid: SuperOffice.CRM.Web.Controllers.LogoutController
+    name: LogoutController
+  - uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+    name: LogoutController.LogoutContext
+  - uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+    name: LogoutController.LogoutSplashContext
+  - uid: SuperOffice.CRM.Web.Controllers.MDOController
+    name: MDOController
   - uid: SuperOffice.CRM.Web.Controllers.MeetingReservation
     name: MeetingReservation
   - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController
@@ -232,6 +254,10 @@
     name: SuperStateController.SetSoProtocolRequest
   - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
     name: SuperStateController.SetUserPreferenceRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+    name: SuperStateController.SyncSoProtocolRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+    name: SuperStateController.SyncSoProtocolResponse
   - uid: SuperOffice.CRM.Web.Controllers.TooltipController
     name: TooltipController
   - uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
@@ -248,6 +274,10 @@
     name: VideoMeetingsController
   - uid: SuperOffice.CRM.Web.Controllers.WebPanelController
     name: WebPanelController
+  - uid: SuperOffice.CRM.Web.Controllers.ZFDController
+    name: ZFDController
+  - uid: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+    name: ZFDController.TenantConfigStatus
 - uid: SuperOffice.CRM.Web.Data
   name: SuperOffice.CRM.Web.Data
   items:
@@ -347,30 +377,12 @@
     name: EditStakeholdersDataHandler
   - uid: SuperOffice.CRM.Web.Data.EditStakeholdersDataHandler.SoStakeHoldersArchiveCarrier
     name: EditStakeholdersDataHandler.SoStakeHoldersArchiveCarrier
-  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
-    name: EMailAddAddressDataHandler
-  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject
-    name: EMailAddAddressObject
-  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
-    name: EMailAddAddressTask
-  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
-    name: EMailAddRecipientMode
-  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
-    name: EMailAddRecipientsDataHandler
-  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
-    name: EMailAddRecipientsObject
   - uid: SuperOffice.CRM.Web.Data.EMAilArchiveInfo
     name: EMAilArchiveInfo
   - uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
     name: EMailAuthenticationHandler
   - uid: SuperOffice.CRM.Web.Data.EMailDataHandler
     name: EMailDataHandler
-  - uid: SuperOffice.CRM.Web.Data.EMailFolderAndItems
-    name: EMailFolderAndItems
-  - uid: SuperOffice.CRM.Web.Data.EMailFolderAndParent
-    name: EMailFolderAndParent
-  - uid: SuperOffice.CRM.Web.Data.EMailFolderDataHandler
-    name: EMailFolderDataHandler
   - uid: SuperOffice.CRM.Web.Data.EMailOptionsDataHandler
     name: EMailOptionsDataHandler
   - uid: SuperOffice.CRM.Web.Data.EMarketingDataHandler
@@ -695,8 +707,12 @@
     name: ImportData.ImportType
   - uid: SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
     name: ImportData.ValidationMessage
+  - uid: SuperOffice.CRM.Web.Data.Util.ListItemBuilderExtensions
+    name: ListItemBuilderExtensions
   - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper
     name: MDOListHelper
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    name: MDOListHelper.ListItemBuilder
 - uid: SuperOffice.CRM.Web.Globalization
   name: SuperOffice.CRM.Web.Globalization
   items:
@@ -1584,6 +1600,8 @@
     name: SystemUserCheck
   - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.TestDriveCheck
     name: TestDriveCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.VideoMeetingCheck
+    name: VideoMeetingCheck
   - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.WhatsNewCheck
     name: WhatsNewCheck
 - uid: SuperOffice.CRM.Web.UI.ScriptObjects
@@ -1673,10 +1691,6 @@
     name: HAttribute
   - uid: SuperOffice.CRM.Web.Util.HElement
     name: HElement
-  - uid: SuperOffice.CRM.Web.Util.HttpHelper
-    name: HttpHelper
-  - uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
-    name: HttpHelper.RequestType
   - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
     name: IPocketSettingsProvider
   - uid: SuperOffice.CRM.Web.Util.MailClient
@@ -1699,6 +1713,8 @@
     name: PocketSettingsHelper
   - uid: SuperOffice.CRM.Web.Util.QrCodeGenerator
     name: QrCodeGenerator
+  - uid: SuperOffice.CRM.Web.Util.SoPageUtils
+    name: SoPageUtils
   - uid: SuperOffice.CRM.Web.Util.StatusMonitorHelper
     name: StatusMonitorHelper
   - uid: SuperOffice.CRM.Web.Util.TrayAppManager
@@ -2199,13 +2215,18 @@
   items:
   - uid: SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier
     name: RequestIdentityLogonTokenSupplier
+- uid: SuperOffice.Services.WebApi
+  name: SuperOffice.Services.WebApi
+  items:
+  - uid: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+    name: SoCorsWebApiAttribute
 - uid: SuperOffice.Web
   name: SuperOffice.Web
   items:
+  - uid: SuperOffice.Web.SoDatabaseContextState
+    name: SoDatabaseContextState
   - uid: SuperOffice.Web.SoResourceHandler
     name: SoResourceHandler
-  - uid: SuperOffice.Web.ThreadWorkerContext
-    name: ThreadWorkerContext
 - uid: SuperOffice.Web.Authorization
   name: SuperOffice.Web.Authorization
   items:
@@ -2227,15 +2248,12 @@
 - uid: SuperOffice.Web.Controllers
   name: SuperOffice.Web.Controllers
   items:
+  - uid: SuperOffice.Web.Controllers.ExportArchiveController
+    name: ExportArchiveController
+  - uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+    name: ExportArchiveController.ExportArchiveRequest
   - uid: SuperOffice.Web.Controllers.MethodControllerBase
     name: MethodControllerBase
-- uid: SuperOffice.Web.Factory
-  name: SuperOffice.Web.Factory
-  items:
-  - uid: SuperOffice.Web.Factory.WebContainers
-    name: WebContainers
-  - uid: SuperOffice.Web.Factory.WebRequestInstanceContainer
-    name: WebRequestInstanceContainer
 - uid: SuperOffice.Web.Redirection
   name: SuperOffice.Web.Redirection
   items:
@@ -2371,6 +2389,8 @@
   items:
   - uid: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
     name: EnableJsonTypeAnnotationsAttribute
+  - uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+    name: SoExceptionFilterAttribute
 - uid: SuperOffice.Web.WebApi.Handlers
   name: SuperOffice.Web.WebApi.Handlers
   items:

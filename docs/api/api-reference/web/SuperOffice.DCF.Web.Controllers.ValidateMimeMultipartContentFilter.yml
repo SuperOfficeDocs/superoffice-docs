@@ -158,7 +158,6 @@ references:
   nameWithType: ValidateMimeMultipartContentFilter.OnActionExecuted
   fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted
 - uid: System.Web.Http.Filters.HttpActionExecutedContext
-  commentId: '!:System.Web.Http.Filters.HttpActionExecutedContext'
   isExternal: true
   name: HttpActionExecutedContext
   nameWithType: HttpActionExecutedContext

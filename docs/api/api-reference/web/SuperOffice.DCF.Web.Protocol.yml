@@ -24,18 +24,6 @@ items:
   assemblies:
   - SuperOffice.DCFWeb
 references:
-- uid: SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
-  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
-  isExternal: true
-  name: SoProtocolDebugProvider
-  nameWithType: SoProtocolDebugProvider
-  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
-- uid: SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
-  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
-  isExternal: true
-  name: SoProtocolSessionProvider
-  nameWithType: SoProtocolSessionProvider
-  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
 - uid: SuperOffice.DCF.Web.Protocol.DialogFilterStream
   commentId: T:SuperOffice.DCF.Web.Protocol.DialogFilterStream
   isExternal: true
@@ -63,6 +51,12 @@ references:
   name: ISoProtocolValidator
   nameWithType: ISoProtocolValidator
   fullName: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
+  isExternal: true
+  name: SoProtocolDebugProvider
+  nameWithType: SoProtocolDebugProvider
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
 - uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule
   commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolModule
   isExternal: true
@@ -83,6 +77,12 @@ references:
   name: SoProtocolProvider
   nameWithType: SoProtocolProvider
   fullName: SuperOffice.DCF.Web.Protocol.SoProtocolProvider
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
+  isExternal: true
+  name: SoProtocolSessionProvider
+  nameWithType: SoProtocolSessionProvider
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
 - uid: SuperOffice.DCF.Web.Protocol.SoTimeZoneProvider
   commentId: T:SuperOffice.DCF.Web.Protocol.SoTimeZoneProvider
   isExternal: true

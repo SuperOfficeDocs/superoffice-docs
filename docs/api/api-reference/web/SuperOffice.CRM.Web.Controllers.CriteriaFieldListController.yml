@@ -21,12 +21,21 @@ items:
   - SuperOffice.CRMWeb
   namespace: SuperOffice.CRM.Web.Controllers
   syntax:
-    content: 'public class CriteriaFieldListController : ApiController'
+    content: >-
+      [SoCorsWebApi]
+
+      public class CriteriaFieldListController : ApiController
     content.vb: >-
+      <SoCorsWebApi>
+
       Public Class CriteriaFieldListController
           Inherits ApiController
   inheritance:
   - System.Object
+  attributes:
+  - type: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+    ctor: SuperOffice.Services.WebApi.SoCorsWebApiAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - class

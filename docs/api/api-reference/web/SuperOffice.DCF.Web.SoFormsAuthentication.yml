@@ -7,12 +7,13 @@ items:
   children:
   - SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
   - SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken
   - SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession(System.Boolean)
   - SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl(System.Web.HttpRequest,System.String,System.String,System.String)
   - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
   - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
   - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
-  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession(System.Boolean)
   - SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
   - SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
   - SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
@@ -25,16 +26,19 @@ items:
   - SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(System.String@)
   - SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
   - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,SuperOffice.Security.Principal.SoCredentials)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.IdentityModel.Tokens.SecurityToken)
   - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.Security.Principal.WindowsIdentity)
   - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
   - SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
   - SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
   - SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl(System.String)
   - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage(System.String,System.Boolean)
   - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated(System.Boolean)
   - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage(System.Boolean)
   - SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
   - SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken
   - SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
   - SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(SuperOffice.SoSession@)
   - SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(SuperOffice.SoSession@,SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure,System.Boolean,SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
@@ -206,6 +210,38 @@ items:
 
       Public Shared Function IsAbsoluteUrl(url As String) As Boolean
   overload: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl(System.String)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl(System.String)
+  id: MakeAbsoluteUrl(System.String)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: MakeAbsoluteUrl(String)
+  nameWithType: SoFormsAuthentication.MakeAbsoluteUrl(String)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MakeAbsoluteUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function MakeAbsoluteUrl(url As String) As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl*
   modifiers.csharp:
   - public
   - static
@@ -525,6 +561,43 @@ items:
   - Shared
   fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ByRef SuperOffice.SoSession, SuperOffice.Security.Principal.SoCredentials)
   name.vb: LogIn(ByRef SoSession, SoCredentials)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.IdentityModel.Tokens.SecurityToken)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.IdentityModel.Tokens.SecurityToken)
+  id: LogIn(SuperOffice.SoSession@,System.IdentityModel.Tokens.SecurityToken)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogIn(ref SoSession, SecurityToken)
+  nameWithType: SoFormsAuthentication.LogIn(ref SoSession, SecurityToken)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ref SuperOffice.SoSession, System.IdentityModel.Tokens.SecurityToken)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool LogIn(ref SoSession soSession, SecurityToken cred)
+    parameters:
+    - id: soSession
+      type: SuperOffice.SoSession
+    - id: cred
+      type: System.IdentityModel.Tokens.SecurityToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LogIn(ByRef soSession As SoSession, cred As SecurityToken) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn*
+  nameWithType.vb: SoFormsAuthentication.LogIn(ByRef SoSession, SecurityToken)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ByRef SuperOffice.SoSession, System.IdentityModel.Tokens.SecurityToken)
+  name.vb: LogIn(ByRef SoSession, SecurityToken)
 - uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
   commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
   id: LogIn(SuperOffice.SoSession@,System.String,System.String)
@@ -720,16 +793,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(ByRef System.String)
   name.vb: IsAuthorized(ByRef String)
-- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
-  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
-  id: CreateXSRFToken
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession(System.Boolean)
+  id: CreateXSRFTokenInCurrentSession(System.Boolean)
   parent: SuperOffice.DCF.Web.SoFormsAuthentication
   langs:
   - csharp
   - vb
-  name: CreateXSRFToken()
-  nameWithType: SoFormsAuthentication.CreateXSRFToken()
-  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken()
+  name: CreateXSRFTokenInCurrentSession(Boolean)
+  nameWithType: SoFormsAuthentication.CreateXSRFTokenInCurrentSession(Boolean)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession(System.Boolean)
   type: Method
   source:
     path: SuperOffice.DCFWeb
@@ -738,9 +811,66 @@ items:
   - SuperOffice.DCFWeb
   namespace: SuperOffice.DCF.Web
   syntax:
-    content: public static void CreateXSRFToken()
-    content.vb: Public Shared Sub CreateXSRFToken
-  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken*
+    content: public static void CreateXSRFTokenInCurrentSession(bool force = false)
+    parameters:
+    - id: force
+      type: System.Boolean
+    content.vb: Public Shared Sub CreateXSRFTokenInCurrentSession(force As Boolean = False)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken
+  id: ClearXSRFToken
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: ClearXSRFToken()
+  nameWithType: SoFormsAuthentication.ClearXSRFToken()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearXSRFToken()
+    content.vb: Public Shared Sub ClearXSRFToken
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken
+  id: SetXSRFToken
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: SetXSRFToken()
+  nameWithType: SoFormsAuthentication.SetXSRFToken()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetXSRFToken()
+    content.vb: Public Shared Sub SetXSRFToken
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken*
   modifiers.csharp:
   - public
   - static
@@ -1481,6 +1611,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl
+  isExternal: true
+  name: MakeAbsoluteUrl
+  nameWithType: SoFormsAuthentication.MakeAbsoluteUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.MakeAbsoluteUrl
 - uid: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut*
   commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
   isExternal: true
@@ -1558,6 +1694,12 @@ references:
   name: SoCredentials
   nameWithType: SoCredentials
   fullName: SuperOffice.Security.Principal.SoCredentials
+- uid: System.IdentityModel.Tokens.SecurityToken
+  commentId: '!:System.IdentityModel.Tokens.SecurityToken'
+  isExternal: true
+  name: SecurityToken
+  nameWithType: SecurityToken
+  fullName: System.IdentityModel.Tokens.SecurityToken
 - uid: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend*
   commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.Suspend
   isExternal: true
@@ -1589,12 +1731,24 @@ references:
   name: IsAuthorized
   nameWithType: SoFormsAuthentication.IsAuthorized
   fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
-- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken*
-  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession
   isExternal: true
-  name: CreateXSRFToken
-  nameWithType: SoFormsAuthentication.CreateXSRFToken
-  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  name: CreateXSRFTokenInCurrentSession
+  nameWithType: SoFormsAuthentication.CreateXSRFTokenInCurrentSession
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFTokenInCurrentSession
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken
+  isExternal: true
+  name: ClearXSRFToken
+  nameWithType: SoFormsAuthentication.ClearXSRFToken
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ClearXSRFToken
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken
+  isExternal: true
+  name: SetXSRFToken
+  nameWithType: SoFormsAuthentication.SetXSRFToken
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetXSRFToken
 - uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString*
   commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
   isExternal: true

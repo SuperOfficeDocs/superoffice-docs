@@ -4,6 +4,8 @@ items:
   commentId: N:SuperOffice.Web.Controllers
   id: SuperOffice.Web.Controllers
   children:
+  - SuperOffice.Web.Controllers.ExportArchiveController
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
   - SuperOffice.Web.Controllers.MethodControllerBase
   langs:
   - csharp
@@ -15,6 +17,19 @@ items:
   assemblies:
   - SuperOffice.DCFWeb
 references:
+- uid: SuperOffice.Web.Controllers.ExportArchiveController
+  commentId: T:SuperOffice.Web.Controllers.ExportArchiveController
+  isExternal: true
+  name: ExportArchiveController
+  nameWithType: ExportArchiveController
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  commentId: T:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  parent: SuperOffice.Web.Controllers
+  isExternal: true
+  name: ExportArchiveController.ExportArchiveRequest
+  nameWithType: ExportArchiveController.ExportArchiveRequest
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
 - uid: SuperOffice.Web.Controllers.MethodControllerBase
   commentId: T:SuperOffice.Web.Controllers.MethodControllerBase
   parent: SuperOffice.Web.Controllers

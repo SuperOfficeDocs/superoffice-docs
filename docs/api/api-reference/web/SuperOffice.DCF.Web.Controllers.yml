@@ -19,13 +19,6 @@ items:
   assemblies:
   - SuperOffice.DCFWeb
 references:
-- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
-  commentId: T:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
-  parent: SuperOffice.DCF.Web.Controllers
-  isExternal: true
-  name: ValidateMimeMultipartContentFilter
-  nameWithType: ValidateMimeMultipartContentFilter
-  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
 - uid: SuperOffice.DCF.Web.Controllers.DataMethodsController
   commentId: T:SuperOffice.DCF.Web.Controllers.DataMethodsController
   isExternal: true
@@ -50,6 +43,13 @@ references:
   name: SessionRequiredMethodsController
   nameWithType: SessionRequiredMethodsController
   fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  commentId: T:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  parent: SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: ValidateMimeMultipartContentFilter
+  nameWithType: ValidateMimeMultipartContentFilter
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
 - uid: SuperOffice.DCF.Web.Controllers
   commentId: N:SuperOffice.DCF.Web.Controllers
   isExternal: true

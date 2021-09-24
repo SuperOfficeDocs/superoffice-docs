@@ -38,13 +38,6 @@ references:
   name: CarrierUtility
   nameWithType: CarrierUtility
   fullName: SuperOffice.Data.CarrierUtility
-- uid: SuperOffice.Data.DataObject
-  commentId: T:SuperOffice.Data.DataObject
-  parent: SuperOffice.Data
-  isExternal: true
-  name: DataObject
-  nameWithType: DataObject
-  fullName: SuperOffice.Data.DataObject
 - uid: SuperOffice.Data.EventAction`5
   commentId: T:SuperOffice.Data.EventAction`5
   isExternal: true
@@ -139,6 +132,13 @@ references:
   name: DataDispatcher
   nameWithType: DataDispatcher
   fullName: SuperOffice.Data.DataDispatcher
+- uid: SuperOffice.Data.DataObject
+  commentId: T:SuperOffice.Data.DataObject
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataObject
+  nameWithType: DataObject
+  fullName: SuperOffice.Data.DataObject
 - uid: SuperOffice.Data.DataRight
   commentId: T:SuperOffice.Data.DataRight
   parent: SuperOffice.Data
@@ -146,6 +146,19 @@ references:
   name: DataRight
   nameWithType: DataRight
   fullName: SuperOffice.Data.DataRight
+- uid: SuperOffice.Data.SoStateObjectInfo
+  commentId: T:SuperOffice.Data.SoStateObjectInfo
+  isExternal: true
+  name: SoStateObjectInfo
+  nameWithType: SoStateObjectInfo
+  fullName: SuperOffice.Data.SoStateObjectInfo
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
 - uid: SuperOffice.Data.Panel
   commentId: T:SuperOffice.Data.Panel
   parent: SuperOffice.Data
@@ -174,19 +187,6 @@ references:
   name: MiniPanelView
   nameWithType: MiniPanelView
   fullName: SuperOffice.Data.MiniPanelView
-- uid: SuperOffice.Data.SoStateObjectInfo
-  commentId: T:SuperOffice.Data.SoStateObjectInfo
-  isExternal: true
-  name: SoStateObjectInfo
-  nameWithType: SoStateObjectInfo
-  fullName: SuperOffice.Data.SoStateObjectInfo
-- uid: SuperOffice.Data.IDataHandler
-  commentId: T:SuperOffice.Data.IDataHandler
-  parent: SuperOffice.Data
-  isExternal: true
-  name: IDataHandler
-  nameWithType: IDataHandler
-  fullName: SuperOffice.Data.IDataHandler
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

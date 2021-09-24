@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Web.UI.Controls.SoSpacer.#ctor
   - SuperOffice.CRM.Web.UI.Controls.SoSpacer.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
   - SuperOffice.CRM.Web.UI.Controls.SoSpacer.OnLoad(System.EventArgs)
   langs:
   - csharp
@@ -209,6 +210,36 @@ items:
   overload: SuperOffice.CRM.Web.UI.Controls.SoSpacer.#ctor*
   modifiers.csharp:
   - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
+  id: NewLine
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSpacer
+  langs:
+  - csharp
+  - vb
+  name: NewLine
+  nameWithType: SoSpacer.NewLine
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool NewLine { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NewLine As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine*
+  modifiers.csharp:
+  - public
+  - get
+  - set
   modifiers.vb:
   - Public
 references:
@@ -1768,3 +1799,16 @@ references:
   name: SoSpacer
   nameWithType: SoSpacer.SoSpacer
   fullName: SuperOffice.CRM.Web.UI.Controls.SoSpacer.SoSpacer
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
+  isExternal: true
+  name: NewLine
+  nameWithType: SoSpacer.NewLine
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSpacer.NewLine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

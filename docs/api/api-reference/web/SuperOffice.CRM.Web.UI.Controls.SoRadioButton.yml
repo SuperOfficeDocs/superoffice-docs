@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.OnClientClick
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.OnLoad(System.EventArgs)
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.OnServerClick(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.ResetFunctionName
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.Selected
   - SuperOffice.CRM.Web.UI.Controls.SoRadioButton.ServerClick
@@ -377,6 +378,36 @@ items:
       type: System.String
     content.vb: Public Property GroupName As String
   overload: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.GroupName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
+  id: PaddingRight
+  parent: SuperOffice.CRM.Web.UI.Controls.SoRadioButton
+  langs:
+  - csharp
+  - vb
+  name: PaddingRight
+  nameWithType: SoRadioButton.PaddingRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string PaddingRight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PaddingRight As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight*
   modifiers.csharp:
   - public
   - get
@@ -2044,6 +2075,12 @@ references:
   name: GroupName
   nameWithType: SoRadioButton.GroupName
   fullName: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.GroupName
+- uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
+  isExternal: true
+  name: PaddingRight
+  nameWithType: SoRadioButton.PaddingRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.PaddingRight
 - uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.ResetFunctionName*
   commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoRadioButton.ResetFunctionName
   isExternal: true

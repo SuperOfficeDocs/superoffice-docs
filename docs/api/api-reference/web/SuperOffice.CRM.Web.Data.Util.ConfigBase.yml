@@ -7,8 +7,11 @@ items:
   children:
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.#ctor(System.Xml.Linq.XElement)
   - SuperOffice.CRM.Web.Data.Util.ConfigBase._element
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
   langs:
   - csharp
   - vb
@@ -136,6 +139,40 @@ items:
   modifiers.vb:
   - Protected
   - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  id: LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  langs:
+  - csharp
+  - vb
+  name: LoadFragment(String, ColumnConfigGroup)
+  nameWithType: ConfigBase.LoadFragment(String, ColumnConfigGroup)
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String, SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: protected static IEnumerable<ColumnConfigBase> LoadFragment(string fragment, ColumnConfigGroup parent)
+    parameters:
+    - id: fragment
+      type: System.String
+    - id: parent
+      type: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+    content.vb: Protected Shared Function LoadFragment(fragment As String, parent As ColumnConfigGroup) As IEnumerable(Of ColumnConfigBase)
+  overload: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
 - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
   commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
   id: MakeRawXmlStackTrace
@@ -165,6 +202,65 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  id: ToXml
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  langs:
+  - csharp
+  - vb
+  name: ToXml()
+  nameWithType: ConfigBase.ToXml()
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public virtual XElement ToXml()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Overridable Function ToXml As XElement
+  overload: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  id: Fragment
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  langs:
+  - csharp
+  - vb
+  name: Fragment
+  nameWithType: ConfigBase.Fragment
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string Fragment { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Fragment As String
+  overload: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Web.Data.Util
   commentId: N:SuperOffice.CRM.Web.Data.Util
@@ -577,12 +673,12 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace*
-  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
   isExternal: true
-  name: MakeRawXmlStackTrace
-  nameWithType: ConfigBase.MakeRawXmlStackTrace
-  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  name: LoadFragment
+  nameWithType: ConfigBase.LoadFragment
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -590,3 +686,21 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  isExternal: true
+  name: MakeRawXmlStackTrace
+  nameWithType: ConfigBase.MakeRawXmlStackTrace
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  isExternal: true
+  name: ToXml
+  nameWithType: ConfigBase.ToXml
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  isExternal: true
+  name: Fragment
+  nameWithType: ConfigBase.Fragment
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment

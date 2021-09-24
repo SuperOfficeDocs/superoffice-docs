@@ -5,6 +5,7 @@ items:
   id: SuperOffice.Web.WebApi
   children:
   - SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+  - SuperOffice.Web.WebApi.SoExceptionFilterAttribute
   langs:
   - csharp
   - vb
@@ -22,6 +23,13 @@ references:
   name: EnableJsonTypeAnnotationsAttribute
   nameWithType: EnableJsonTypeAnnotationsAttribute
   fullName: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  commentId: T:SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  parent: SuperOffice.Web.WebApi
+  isExternal: true
+  name: SoExceptionFilterAttribute
+  nameWithType: SoExceptionFilterAttribute
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
 - uid: SuperOffice.Web.WebApi
   commentId: N:SuperOffice.Web.WebApi
   isExternal: true

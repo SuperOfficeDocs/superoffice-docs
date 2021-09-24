@@ -9,6 +9,7 @@ items:
   - SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl(System.String)
   - SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
   - SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(System.Boolean)
+  - SuperOffice.DCF.Web.ApplicationUtility.CreateCookie(System.String,System.String)
   - SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
   - SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation,SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
   - SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage(System.String,System.Exception)
@@ -1392,6 +1393,40 @@ items:
       type: System.String
     content.vb: Public Shared Function FormatSize(bytes As Integer) As String
   overload: SuperOffice.DCF.Web.ApplicationUtility.FormatSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CreateCookie(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.CreateCookie(System.String,System.String)
+  id: CreateCookie(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateCookie(String, String)
+  nameWithType: ApplicationUtility.CreateCookie(String, String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CreateCookie(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HttpCookie CreateCookie(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Web.HttpCookie
+    content.vb: Public Shared Function CreateCookie(name As String, value As String) As HttpCookie
+  overload: SuperOffice.DCF.Web.ApplicationUtility.CreateCookie*
   modifiers.csharp:
   - public
   - static
@@ -2816,6 +2851,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CreateCookie*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.CreateCookie
+  isExternal: true
+  name: CreateCookie
+  nameWithType: ApplicationUtility.CreateCookie
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CreateCookie
+- uid: System.Web.HttpCookie
+  commentId: '!:System.Web.HttpCookie'
+  isExternal: true
+  name: HttpCookie
+  nameWithType: HttpCookie
+  fullName: System.Web.HttpCookie
 - uid: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture*
   commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture
   isExternal: true

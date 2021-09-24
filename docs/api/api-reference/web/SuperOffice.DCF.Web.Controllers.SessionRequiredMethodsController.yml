@@ -25,9 +25,13 @@ items:
     content: >-
       [EnableJsonTypeAnnotations]
 
+      [SoExceptionFilter]
+
       public class SessionRequiredMethodsController : MethodControllerBase
     content.vb: >-
       <EnableJsonTypeAnnotations>
+
+      <SoExceptionFilter>
 
       Public Class SessionRequiredMethodsController
           Inherits MethodControllerBase
@@ -39,6 +43,9 @@ items:
   attributes:
   - type: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
     ctor: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute.#ctor
+    arguments: []
+  - type: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+    ctor: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor
     arguments: []
   modifiers.csharp:
   - public

@@ -25,10 +25,9 @@ items:
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.GetSuperOfficeFilename(SuperOffice.CRM.Services.DocumentEntity)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.GetTempDocumentStream(System.String)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled
+  - SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate(System.Int32)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.isQuoteTemplate(System.Int32)
-  - SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate(SuperOffice.CRM.Services.DocumentTemplate)
-  - SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename(System.String)
-  - SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById(System.Int32)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.Load(System.String)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.New(System.String)
   - SuperOffice.CRM.Web.Data.DocumentDataHandler.OnBeforeDataBind
@@ -253,16 +252,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate(SuperOffice.CRM.Services.DocumentTemplate)
-  commentId: M:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate(SuperOffice.CRM.Services.DocumentTemplate)
-  id: IsSupportedMailTemplate(SuperOffice.CRM.Services.DocumentTemplate)
+- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled
+  commentId: M:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled
+  id: IsEmailEnabled
   parent: SuperOffice.CRM.Web.Data.DocumentDataHandler
   langs:
   - csharp
   - vb
-  name: IsSupportedMailTemplate(DocumentTemplate)
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplate(DocumentTemplate)
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate(SuperOffice.CRM.Services.DocumentTemplate)
+  name: IsEmailEnabled()
+  nameWithType: DocumentDataHandler.IsEmailEnabled()
+  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled()
   type: Method
   source:
     path: SuperOffice.CRMWeb
@@ -271,30 +270,27 @@ items:
   - SuperOffice.CRMWeb
   namespace: SuperOffice.CRM.Web.Data
   syntax:
-    content: public static bool IsSupportedMailTemplate(DocumentTemplate template)
-    parameters:
-    - id: template
-      type: SuperOffice.CRM.Services.DocumentTemplate
+    content: public static bool IsEmailEnabled()
     return:
       type: System.Boolean
-    content.vb: Public Shared Function IsSupportedMailTemplate(template As DocumentTemplate) As Boolean
-  overload: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate*
+    content.vb: Public Shared Function IsEmailEnabled As Boolean
+  overload: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById(System.Int32)
-  commentId: M:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById(System.Int32)
-  id: IsSupportedMailTemplateById(System.Int32)
+- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate(System.Int32)
+  id: IsEmailTemplate(System.Int32)
   parent: SuperOffice.CRM.Web.Data.DocumentDataHandler
   langs:
   - csharp
   - vb
-  name: IsSupportedMailTemplateById(Int32)
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplateById(Int32)
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById(System.Int32)
+  name: IsEmailTemplate(Int32)
+  nameWithType: DocumentDataHandler.IsEmailTemplate(Int32)
+  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate(System.Int32)
   type: Method
   source:
     path: SuperOffice.CRMWeb
@@ -303,46 +299,14 @@ items:
   - SuperOffice.CRMWeb
   namespace: SuperOffice.CRM.Web.Data
   syntax:
-    content: public static bool IsSupportedMailTemplateById(int docTemplateId)
+    content: public static bool IsEmailTemplate(int docTemplateId)
     parameters:
     - id: docTemplateId
       type: System.Int32
     return:
       type: System.Boolean
-    content.vb: Public Shared Function IsSupportedMailTemplateById(docTemplateId As Integer) As Boolean
-  overload: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename(System.String)
-  commentId: M:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename(System.String)
-  id: IsSupportedMailTemplateByFilename(System.String)
-  parent: SuperOffice.CRM.Web.Data.DocumentDataHandler
-  langs:
-  - csharp
-  - vb
-  name: IsSupportedMailTemplateByFilename(String)
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplateByFilename(String)
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename(System.String)
-  type: Method
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public static bool IsSupportedMailTemplateByFilename(string filename)
-    parameters:
-    - id: filename
-      type: System.String
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsSupportedMailTemplateByFilename(filename As String) As Boolean
-  overload: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename*
+    content.vb: Public Shared Function IsEmailTemplate(docTemplateId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate*
   modifiers.csharp:
   - public
   - static
@@ -1993,30 +1957,18 @@ references:
   name: Load
   nameWithType: DocumentDataHandler.Load
   fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.Load
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate*
-  commentId: Overload:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate
+- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled*
+  commentId: Overload:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled
   isExternal: true
-  name: IsSupportedMailTemplate
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplate
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplate
-- uid: SuperOffice.CRM.Services.DocumentTemplate
-  commentId: '!:SuperOffice.CRM.Services.DocumentTemplate'
+  name: IsEmailEnabled
+  nameWithType: DocumentDataHandler.IsEmailEnabled
+  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailEnabled
+- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate*
+  commentId: Overload:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate
   isExternal: true
-  name: DocumentTemplate
-  nameWithType: DocumentTemplate
-  fullName: SuperOffice.CRM.Services.DocumentTemplate
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById*
-  commentId: Overload:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById
-  isExternal: true
-  name: IsSupportedMailTemplateById
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplateById
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateById
-- uid: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename*
-  commentId: Overload:SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename
-  isExternal: true
-  name: IsSupportedMailTemplateByFilename
-  nameWithType: DocumentDataHandler.IsSupportedMailTemplateByFilename
-  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsSupportedMailTemplateByFilename
+  name: IsEmailTemplate
+  nameWithType: DocumentDataHandler.IsEmailTemplate
+  fullName: SuperOffice.CRM.Web.Data.DocumentDataHandler.IsEmailTemplate
 - uid: SuperOffice.CRM.Web.Data.ActivityDialogDataHandler.Save
   commentId: M:SuperOffice.CRM.Web.Data.ActivityDialogDataHandler.Save
   parent: SuperOffice.CRM.Web.Data.ActivityDialogDataHandler

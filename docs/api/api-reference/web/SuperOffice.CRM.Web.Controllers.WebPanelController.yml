@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Web.Controllers
   children:
   - SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
+  - SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString(System.String,System.String)
   - SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
   langs:
   - csharp
@@ -66,6 +67,38 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem())
   name.vb: GetWebPanelsForNavigation(MDOListItem())
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString(System.String,System.String)
+  id: GetTemplateVariableSubstitutedString(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.WebPanelController
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateVariableSubstitutedString(String, String)
+  nameWithType: WebPanelController.GetTemplateVariableSubstitutedString(String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetTemplateVariableSubstitutedString(string input, string encoding)
+    parameters:
+    - id: input
+      type: System.String
+    - id: encoding
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetTemplateVariableSubstitutedString(input As String, encoding As String) As String
+  overload: SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
   commentId: M:SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
   id: '#ctor'
@@ -143,6 +176,19 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString
+  isExternal: true
+  name: GetTemplateVariableSubstitutedString
+  nameWithType: WebPanelController.GetTemplateVariableSubstitutedString
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.GetTemplateVariableSubstitutedString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
   isExternal: true

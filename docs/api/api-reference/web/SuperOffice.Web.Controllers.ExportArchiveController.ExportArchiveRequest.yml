@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  commentId: T:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  id: ExportArchiveController.ExportArchiveRequest
+  parent: SuperOffice.Web.Controllers
+  children:
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Columns
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Context
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.DesiredEntities
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.EstimatedRowCount
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportType
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ProviderName
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Restrictions
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SelectedRowIds
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveController.ExportArchiveRequest
+  nameWithType: ExportArchiveController.ExportArchiveRequest
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public class ExportArchiveRequest
+    content.vb: Public Class ExportArchiveRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ProviderName
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ExportArchiveController.ExportArchiveRequest.ProviderName
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ProviderName
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string ProviderName
+    return:
+      type: System.String
+    content.vb: Public ProviderName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Context
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Context
+  id: Context
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: ExportArchiveController.ExportArchiveRequest.Context
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Context
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string Context
+    return:
+      type: System.String
+    content.vb: Public Context As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Columns
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Columns
+  id: Columns
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: ExportArchiveController.ExportArchiveRequest.Columns
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Columns
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string[] Columns
+    return:
+      type: System.String[]
+    content.vb: Public Columns As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.DesiredEntities
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.DesiredEntities
+  id: DesiredEntities
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: DesiredEntities
+  nameWithType: ExportArchiveController.ExportArchiveRequest.DesiredEntities
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.DesiredEntities
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string[] DesiredEntities
+    return:
+      type: System.String[]
+    content.vb: Public DesiredEntities As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SortOrder
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SortOrder
+  id: SortOrder
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ExportArchiveController.ExportArchiveRequest.SortOrder
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SortOrder
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public ArchiveOrderByInfo[] SortOrder
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public SortOrder As ArchiveOrderByInfo()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Restrictions
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: ExportArchiveController.ExportArchiveRequest.Restrictions
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.Restrictions
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Restrictions As ArchiveRestrictionInfo()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportType
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportType
+  id: ExportType
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ExportType
+  nameWithType: ExportArchiveController.ExportArchiveRequest.ExportType
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string ExportType
+    return:
+      type: System.String
+    content.vb: Public ExportType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SelectedRowIds
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SelectedRowIds
+  id: SelectedRowIds
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectedRowIds
+  nameWithType: ExportArchiveController.ExportArchiveRequest.SelectedRowIds
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.SelectedRowIds
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public string[] SelectedRowIds
+    return:
+      type: System.String[]
+    content.vb: Public SelectedRowIds As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.EstimatedRowCount
+  commentId: F:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.EstimatedRowCount
+  id: EstimatedRowCount
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: EstimatedRowCount
+  nameWithType: ExportArchiveController.ExportArchiveRequest.EstimatedRowCount
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.EstimatedRowCount
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public int EstimatedRowCount
+    return:
+      type: System.Int32
+    content.vb: Public EstimatedRowCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor
+  commentId: M:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveRequest()
+  nameWithType: ExportArchiveController.ExportArchiveRequest.ExportArchiveRequest()
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportArchiveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public ExportArchiveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Controllers
+  commentId: N:SuperOffice.Web.Controllers
+  isExternal: true
+  name: SuperOffice.Web.Controllers
+  nameWithType: SuperOffice.Web.Controllers
+  fullName: SuperOffice.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor*
+  commentId: Overload:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.#ctor
+  isExternal: true
+  name: ExportArchiveRequest
+  nameWithType: ExportArchiveController.ExportArchiveRequest.ExportArchiveRequest
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest.ExportArchiveRequest

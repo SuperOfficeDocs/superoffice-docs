@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Controllers.ExportArchiveController
+  commentId: T:SuperOffice.Web.Controllers.ExportArchiveController
+  id: ExportArchiveController
+  parent: SuperOffice.Web.Controllers
+  children:
+  - SuperOffice.Web.Controllers.ExportArchiveController.#ctor
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  - SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveController
+  nameWithType: ExportArchiveController
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: 'public class ExportArchiveController : ApiController'
+    content.vb: >-
+      Public Class ExportArchiveController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  commentId: M:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  id: ExportArchiveSelections(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  parent: SuperOffice.Web.Controllers.ExportArchiveController
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveSelections(ExportArchiveController.ExportArchiveRequest)
+  nameWithType: ExportArchiveController.ExportArchiveSelections(ExportArchiveController.ExportArchiveRequest)
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public object ExportArchiveSelections(ExportArchiveController.ExportArchiveRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+    return:
+      type: System.Object
+    content.vb: Public Function ExportArchiveSelections(request As ExportArchiveController.ExportArchiveRequest) As Object
+  overload: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  commentId: M:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  id: ExportArchive(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  parent: SuperOffice.Web.Controllers.ExportArchiveController
+  langs:
+  - csharp
+  - vb
+  name: ExportArchive(ExportArchiveController.ExportArchiveRequest)
+  nameWithType: ExportArchiveController.ExportArchive(ExportArchiveController.ExportArchiveRequest)
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive(SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public object ExportArchive(ExportArchiveController.ExportArchiveRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+    return:
+      type: System.Object
+    content.vb: Public Function ExportArchive(request As ExportArchiveController.ExportArchiveRequest) As Object
+  overload: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.#ctor
+  commentId: M:SuperOffice.Web.Controllers.ExportArchiveController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.Controllers.ExportArchiveController
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveController()
+  nameWithType: ExportArchiveController.ExportArchiveController()
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveController()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public ExportArchiveController()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.Controllers.ExportArchiveController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Controllers
+  commentId: N:SuperOffice.Web.Controllers
+  isExternal: true
+  name: SuperOffice.Web.Controllers
+  nameWithType: SuperOffice.Web.Controllers
+  fullName: SuperOffice.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections*
+  commentId: Overload:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections
+  isExternal: true
+  name: ExportArchiveSelections
+  nameWithType: ExportArchiveController.ExportArchiveSelections
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveSelections
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  commentId: T:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+  parent: SuperOffice.Web.Controllers
+  isExternal: true
+  name: ExportArchiveController.ExportArchiveRequest
+  nameWithType: ExportArchiveController.ExportArchiveRequest
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveRequest
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive*
+  commentId: Overload:SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive
+  isExternal: true
+  name: ExportArchive
+  nameWithType: ExportArchiveController.ExportArchive
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchive
+- uid: SuperOffice.Web.Controllers.ExportArchiveController.#ctor*
+  commentId: Overload:SuperOffice.Web.Controllers.ExportArchiveController.#ctor
+  isExternal: true
+  name: ExportArchiveController
+  nameWithType: ExportArchiveController.ExportArchiveController
+  fullName: SuperOffice.Web.Controllers.ExportArchiveController.ExportArchiveController

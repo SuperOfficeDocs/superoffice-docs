@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation(System.String)
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag(System.String,System.String,System.String)
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags(System.String)
   - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl(System.String)
@@ -402,6 +403,33 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram
+  id: IsUsingWebToolsPilotProgram
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: IsUsingWebToolsPilotProgram()
+  nameWithType: UrlDispatcher.IsUsingWebToolsPilotProgram()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool IsUsingWebToolsPilotProgram()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsUsingWebToolsPilotProgram As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
   commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
   id: GetCrossTableViewerDownloadUrl
@@ -878,6 +906,12 @@ references:
   name: SetPilotProgramServiceUrl
   nameWithType: UrlDispatcher.SetPilotProgramServiceUrl
   fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram
+  isExternal: true
+  name: IsUsingWebToolsPilotProgram
+  nameWithType: UrlDispatcher.IsUsingWebToolsPilotProgram
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.IsUsingWebToolsPilotProgram
 - uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl*
   commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
   isExternal: true

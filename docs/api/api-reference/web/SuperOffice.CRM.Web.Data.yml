@@ -52,18 +52,9 @@ items:
   - SuperOffice.CRM.Web.Data.EditQuoteLineDataHandler
   - SuperOffice.CRM.Web.Data.EditStakeholdersDataHandler
   - SuperOffice.CRM.Web.Data.EditStakeholdersDataHandler.SoStakeHoldersArchiveCarrier
-  - SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
-  - SuperOffice.CRM.Web.Data.EMailAddAddressObject
-  - SuperOffice.CRM.Web.Data.EMailAddAddressTask
-  - SuperOffice.CRM.Web.Data.EMailAddRecipientMode
-  - SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
-  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
   - SuperOffice.CRM.Web.Data.EMAilArchiveInfo
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
   - SuperOffice.CRM.Web.Data.EMailDataHandler
-  - SuperOffice.CRM.Web.Data.EMailFolderAndItems
-  - SuperOffice.CRM.Web.Data.EMailFolderAndParent
-  - SuperOffice.CRM.Web.Data.EMailFolderDataHandler
   - SuperOffice.CRM.Web.Data.EMailOptionsDataHandler
   - SuperOffice.CRM.Web.Data.EMarketingDataHandler
   - SuperOffice.CRM.Web.Data.ErpDataDataHandler
@@ -559,44 +550,6 @@ references:
   name: DynamicSelectionDataHandler
   nameWithType: DynamicSelectionDataHandler
   fullName: SuperOffice.CRM.Web.Data.DynamicSelectionDataHandler
-- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressTask
-  parent: SuperOffice.CRM.Web.Data
-  isExternal: true
-  name: EMailAddAddressTask
-  nameWithType: EMailAddAddressTask
-  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask
-- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressObject
-  isExternal: true
-  name: EMailAddAddressObject
-  nameWithType: EMailAddAddressObject
-  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject
-- uid: SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
-  isExternal: true
-  name: EMailAddAddressDataHandler
-  nameWithType: EMailAddAddressDataHandler
-  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
-- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientMode
-  parent: SuperOffice.CRM.Web.Data
-  isExternal: true
-  name: EMailAddRecipientMode
-  nameWithType: EMailAddRecipientMode
-  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
-- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
-  isExternal: true
-  name: EMailAddRecipientsObject
-  nameWithType: EMailAddRecipientsObject
-  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
-- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
-  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
-  isExternal: true
-  name: EMailAddRecipientsDataHandler
-  nameWithType: EMailAddRecipientsDataHandler
-  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
 - uid: SuperOffice.CRM.Web.Data.MailCredentials
   commentId: T:SuperOffice.CRM.Web.Data.MailCredentials
   parent: SuperOffice.CRM.Web.Data
@@ -628,24 +581,6 @@ references:
   name: EMailDataHandler
   nameWithType: EMailDataHandler
   fullName: SuperOffice.CRM.Web.Data.EMailDataHandler
-- uid: SuperOffice.CRM.Web.Data.EMailFolderAndItems
-  commentId: T:SuperOffice.CRM.Web.Data.EMailFolderAndItems
-  isExternal: true
-  name: EMailFolderAndItems
-  nameWithType: EMailFolderAndItems
-  fullName: SuperOffice.CRM.Web.Data.EMailFolderAndItems
-- uid: SuperOffice.CRM.Web.Data.EMailFolderAndParent
-  commentId: T:SuperOffice.CRM.Web.Data.EMailFolderAndParent
-  isExternal: true
-  name: EMailFolderAndParent
-  nameWithType: EMailFolderAndParent
-  fullName: SuperOffice.CRM.Web.Data.EMailFolderAndParent
-- uid: SuperOffice.CRM.Web.Data.EMailFolderDataHandler
-  commentId: T:SuperOffice.CRM.Web.Data.EMailFolderDataHandler
-  isExternal: true
-  name: EMailFolderDataHandler
-  nameWithType: EMailFolderDataHandler
-  fullName: SuperOffice.CRM.Web.Data.EMailFolderDataHandler
 - uid: SuperOffice.CRM.Web.Data.MailOptions
   commentId: T:SuperOffice.CRM.Web.Data.MailOptions
   isExternal: true

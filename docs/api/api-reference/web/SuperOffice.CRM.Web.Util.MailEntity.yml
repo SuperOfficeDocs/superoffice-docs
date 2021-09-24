@@ -1215,6 +1215,7 @@ references:
   nameWithType: MailEntity.GetAddressObject
   fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject
 - uid: SuperOffice.CRM.Services.EMailAddress
+  commentId: '!:SuperOffice.CRM.Services.EMailAddress'
   isExternal: true
   name: EMailAddress
   nameWithType: EMailAddress

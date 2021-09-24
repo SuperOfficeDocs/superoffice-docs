@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.Web.Controllers
   children:
   - SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
+  - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment(System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity(System.Int32)
   - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails(System.Int32)
   langs:
@@ -94,6 +96,78 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment(System.Int32,System.String,System.String,System.String)
+  id: GetEmailAttachment(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  langs:
+  - csharp
+  - vb
+  name: GetEmailAttachment(Int32, String, String, String)
+  nameWithType: MiniPreviewController.GetEmailAttachment(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment(System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HttpResponseMessage GetEmailAttachment(int mailItemId, string attachmentId, string attachmentType, string attachmentFilename)
+    parameters:
+    - id: mailItemId
+      type: System.Int32
+    - id: attachmentId
+      type: System.String
+    - id: attachmentType
+      type: System.String
+    - id: attachmentFilename
+      type: System.String
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Function GetEmailAttachment(mailItemId As Integer, attachmentId As String, attachmentType As String, attachmentFilename As String) As HttpResponseMessage
+  overload: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment(System.Int32,System.String,System.String,System.String)
+  id: GetDocumentEmailAttachment(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentEmailAttachment(Int32, String, String, String)
+  nameWithType: MiniPreviewController.GetDocumentEmailAttachment(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment(System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HttpResponseMessage GetDocumentEmailAttachment(int docId, string attachmentId, string attachmentType, string attachmentFilename)
+    parameters:
+    - id: docId
+      type: System.Int32
+    - id: attachmentId
+      type: System.String
+    - id: attachmentType
+      type: System.String
+    - id: attachmentFilename
+      type: System.String
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Function GetDocumentEmailAttachment(docId As Integer, attachmentId As String, attachmentType As String, attachmentFilename As String) As HttpResponseMessage
+  overload: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
   commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
   id: '#ctor'
@@ -171,6 +245,30 @@ references:
   name: MiniPreviewController.SaleAndQuoteDetails
   nameWithType: MiniPreviewController.SaleAndQuoteDetails
   fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment
+  isExternal: true
+  name: GetEmailAttachment
+  nameWithType: MiniPreviewController.GetEmailAttachment
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetEmailAttachment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment
+  isExternal: true
+  name: GetDocumentEmailAttachment
+  nameWithType: MiniPreviewController.GetDocumentEmailAttachment
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetDocumentEmailAttachment
 - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
   isExternal: true

@@ -17,12 +17,15 @@ items:
   - SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
   - SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
   - SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive
   - SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[])
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest)
   langs:
   - csharp
   - vb
@@ -77,6 +80,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive
+  id: KeepAlive
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: KeepAlive()
+  nameWithType: SuperStateController.KeepAlive()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ServerEventObjResult KeepAlive()
+    return:
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+    content.vb: Public Function KeepAlive As ServerEventObjResult
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
   commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
   id: LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
@@ -105,6 +135,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[])
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[])
+  id: LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[])
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: LogSoProtocols(SuperStateController.LogSoProtocolRequest[])
+  nameWithType: SuperStateController.LogSoProtocols(SuperStateController.LogSoProtocolRequest[])
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void LogSoProtocols(SuperStateController.LogSoProtocolRequest[] logSoProtocolRequests)
+    parameters:
+    - id: logSoProtocolRequests
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[]
+    content.vb: Public Sub LogSoProtocols(logSoProtocolRequests As SuperStateController.LogSoProtocolRequest())
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols*
+  nameWithType.vb: SuperStateController.LogSoProtocols(SuperStateController.LogSoProtocolRequest())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest())
+  name.vb: LogSoProtocols(SuperStateController.LogSoProtocolRequest())
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
   commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
   id: GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
@@ -186,11 +247,13 @@ items:
   - SuperOffice.CRMWeb
   namespace: SuperOffice.CRM.Web.Controllers
   syntax:
-    content: public void SetCurrent(SuperStateController.SetCurrentRequest setCurrentRequest)
+    content: public HistoryItem SetCurrent(SuperStateController.SetCurrentRequest setCurrentRequest)
     parameters:
     - id: setCurrentRequest
       type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
-    content.vb: Public Sub SetCurrent(setCurrentRequest As SuperStateController.SetCurrentRequest)
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Function SetCurrent(setCurrentRequest As SuperStateController.SetCurrentRequest) As HistoryItem
   overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent*
   modifiers.csharp:
   - public
@@ -514,6 +577,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest)
+  id: SyncSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SyncSoProtocol(SuperStateController.SyncSoProtocolRequest)
+  nameWithType: SuperStateController.SyncSoProtocol(SuperStateController.SyncSoProtocolRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SuperStateController.SyncSoProtocolResponse SyncSoProtocol(SuperStateController.SyncSoProtocolRequest syncSoProtocolRequest)
+    parameters:
+    - id: syncSoProtocolRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+    return:
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+    content.vb: Public Function SyncSoProtocol(syncSoProtocolRequest As SuperStateController.SyncSoProtocolRequest) As SuperStateController.SyncSoProtocolResponse
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
   commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
   id: IsRunningTestDriveROSS
@@ -599,6 +692,25 @@ references:
   name: SuperStateController
   nameWithType: SuperStateController.SuperStateController
   fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SuperStateController
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive
+  isExternal: true
+  name: KeepAlive
+  nameWithType: SuperStateController.KeepAlive
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.KeepAlive
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObjResult
+  nameWithType: ServerEventObjResult
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol
   isExternal: true
@@ -612,6 +724,38 @@ references:
   name: SuperStateController.LogSoProtocolRequest
   nameWithType: SuperStateController.LogSoProtocolRequest
   fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols
+  isExternal: true
+  name: LogSoProtocols
+  nameWithType: SuperStateController.LogSoProtocols
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocols
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[]
+  isExternal: true
+  name: SuperStateController.LogSoProtocolRequest[]
+  nameWithType: SuperStateController.LogSoProtocolRequest[]
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest[]
+  nameWithType.vb: SuperStateController.LogSoProtocolRequest()
+  fullName.vb: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest()
+  name.vb: SuperStateController.LogSoProtocolRequest()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    name: SuperStateController.LogSoProtocolRequest
+    nameWithType: SuperStateController.LogSoProtocolRequest
+    fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    name: SuperStateController.LogSoProtocolRequest
+    nameWithType: SuperStateController.LogSoProtocolRequest
+    fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent
   isExternal: true
@@ -838,6 +982,26 @@ references:
   name: SuperStateController.SetSoProtocolRequest
   nameWithType: SuperStateController.SetSoProtocolRequest
   fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol
+  isExternal: true
+  name: SyncSoProtocol
+  nameWithType: SuperStateController.SyncSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SyncSoProtocolRequest
+  nameWithType: SuperStateController.SyncSoProtocolRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SyncSoProtocolResponse
+  nameWithType: SuperStateController.SyncSoProtocolResponse
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
 - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
   isExternal: true

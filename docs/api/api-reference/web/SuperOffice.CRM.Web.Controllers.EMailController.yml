@@ -6,9 +6,14 @@ items:
   parent: SuperOffice.CRM.Web.Controllers
   children:
   - SuperOffice.CRM.Web.Controllers.EMailController.#ctor
+  - SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction)
   - SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
   - SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest(System.String)
+  - SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  - SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  - SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize
   - SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError
   - SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript(System.Int32)
   - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
   - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
@@ -42,6 +47,93 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  id: BeginInboxSigninMicrosoft(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: BeginInboxSigninMicrosoft(EMailController.SoInboxAuthorizeRequest)
+  nameWithType: EMailController.BeginInboxSigninMicrosoft(EMailController.SoInboxAuthorizeRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public EMailController.SoInboxAuthorizeResponse BeginInboxSigninMicrosoft(EMailController.SoInboxAuthorizeRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+    content.vb: Public Function BeginInboxSigninMicrosoft(request As EMailController.SoInboxAuthorizeRequest) As EMailController.SoInboxAuthorizeResponse
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  id: BeginInboxAuthorize(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: BeginInboxAuthorize(EMailController.SoInboxAuthorizeRequest)
+  nameWithType: EMailController.BeginInboxAuthorize(EMailController.SoInboxAuthorizeRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize(SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public EMailController.SoInboxAuthorizeResponse BeginInboxAuthorize(EMailController.SoInboxAuthorizeRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+    content.vb: Public Function BeginInboxAuthorize(request As EMailController.SoInboxAuthorizeRequest) As EMailController.SoInboxAuthorizeResponse
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize
+  id: EndInboxAuthorize
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: EndInboxAuthorize()
+  nameWithType: EMailController.EndInboxAuthorize()
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HttpResponseMessage EndInboxAuthorize()
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Function EndInboxAuthorize As HttpResponseMessage
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
   commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
   id: AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
@@ -68,6 +160,63 @@ items:
       type: System.Int32
     content.vb: Public Function AttemptSimpleInboxLogin(auth As EMailController.EmailAuthentication) As Integer
   overload: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction)
+  id: AttemptInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: AttemptInboxLogin(EMailController.ExpertEmailAuthentiction)
+  nameWithType: EMailController.AttemptInboxLogin(EMailController.ExpertEmailAuthentiction)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int AttemptInboxLogin(EMailController.ExpertEmailAuthentiction e)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+    return:
+      type: System.Int32
+    content.vb: Public Function AttemptInboxLogin(e As EMailController.ExpertEmailAuthentiction) As Integer
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError
+  id: GetLastEmailAuthError
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: GetLastEmailAuthError()
+  nameWithType: EMailController.GetLastEmailAuthError()
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int GetLastEmailAuthError()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetLastEmailAuthError As Integer
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -318,6 +467,43 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft
+  isExternal: true
+  name: BeginInboxSigninMicrosoft
+  nameWithType: EMailController.BeginInboxSigninMicrosoft
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxSigninMicrosoft
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.SoInboxAuthorizeRequest
+  nameWithType: EMailController.SoInboxAuthorizeRequest
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.SoInboxAuthorizeResponse
+  nameWithType: EMailController.SoInboxAuthorizeResponse
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize
+  isExternal: true
+  name: BeginInboxAuthorize
+  nameWithType: EMailController.BeginInboxAuthorize
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.BeginInboxAuthorize
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize
+  isExternal: true
+  name: EndInboxAuthorize
+  nameWithType: EMailController.EndInboxAuthorize
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EndInboxAuthorize
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
 - uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin
   isExternal: true
@@ -338,6 +524,25 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin
+  isExternal: true
+  name: AttemptInboxLogin
+  nameWithType: EMailController.AttemptInboxLogin
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AttemptInboxLogin
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.ExpertEmailAuthentiction
+  nameWithType: EMailController.ExpertEmailAuthentiction
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError
+  isExternal: true
+  name: GetLastEmailAuthError
+  nameWithType: EMailController.GetLastEmailAuthError
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetLastEmailAuthError
 - uid: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest
   isExternal: true

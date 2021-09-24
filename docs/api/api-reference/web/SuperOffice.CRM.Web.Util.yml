@@ -9,8 +9,6 @@ items:
   - SuperOffice.CRM.Web.Util.EMailEntityType
   - SuperOffice.CRM.Web.Util.HAttribute
   - SuperOffice.CRM.Web.Util.HElement
-  - SuperOffice.CRM.Web.Util.HttpHelper
-  - SuperOffice.CRM.Web.Util.HttpHelper.RequestType
   - SuperOffice.CRM.Web.Util.IPocketSettingsProvider
   - SuperOffice.CRM.Web.Util.MailClient
   - SuperOffice.CRM.Web.Util.MailEntity
@@ -22,6 +20,7 @@ items:
   - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
   - SuperOffice.CRM.Web.Util.PocketSettingsHelper
   - SuperOffice.CRM.Web.Util.QrCodeGenerator
+  - SuperOffice.CRM.Web.Util.SoPageUtils
   - SuperOffice.CRM.Web.Util.StatusMonitorHelper
   - SuperOffice.CRM.Web.Util.TrayAppManager
   - SuperOffice.CRM.Web.Util.VideoMeetingHelper
@@ -63,19 +62,6 @@ references:
   name: HAttribute
   nameWithType: HAttribute
   fullName: SuperOffice.CRM.Web.Util.HAttribute
-- uid: SuperOffice.CRM.Web.Util.HttpHelper
-  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper
-  isExternal: true
-  name: HttpHelper
-  nameWithType: HttpHelper
-  fullName: SuperOffice.CRM.Web.Util.HttpHelper
-- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
-  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper.RequestType
-  parent: SuperOffice.CRM.Web.Util
-  isExternal: true
-  name: HttpHelper.RequestType
-  nameWithType: HttpHelper.RequestType
-  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
 - uid: SuperOffice.CRM.Web.Util.EMailEntityType
   commentId: T:SuperOffice.CRM.Web.Util.EMailEntityType
   parent: SuperOffice.CRM.Web.Util
@@ -152,6 +138,12 @@ references:
   name: QrCodeGenerator
   nameWithType: QrCodeGenerator
   fullName: SuperOffice.CRM.Web.Util.QrCodeGenerator
+- uid: SuperOffice.CRM.Web.Util.SoPageUtils
+  commentId: T:SuperOffice.CRM.Web.Util.SoPageUtils
+  isExternal: true
+  name: SoPageUtils
+  nameWithType: SoPageUtils
+  fullName: SuperOffice.CRM.Web.Util.SoPageUtils
 - uid: SuperOffice.CRM.Web.Util.StatusMonitorHelper
   commentId: T:SuperOffice.CRM.Web.Util.StatusMonitorHelper
   isExternal: true

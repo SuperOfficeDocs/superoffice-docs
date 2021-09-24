@@ -21,6 +21,12 @@ items:
   assemblies:
   - SuperOffice.DCFWeb
 references:
+- uid: SuperOffice.Web.ResourceHandlers.CacheContainer
+  commentId: T:SuperOffice.Web.ResourceHandlers.CacheContainer
+  isExternal: true
+  name: CacheContainer
+  nameWithType: CacheContainer
+  fullName: SuperOffice.Web.ResourceHandlers.CacheContainer
 - uid: SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
   commentId: T:SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
   isExternal: true
@@ -41,12 +47,6 @@ references:
   name: ISoResourceHandlerProviderPlugin
   nameWithType: ISoResourceHandlerProviderPlugin
   fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
-- uid: SuperOffice.Web.ResourceHandlers.CacheContainer
-  commentId: T:SuperOffice.Web.ResourceHandlers.CacheContainer
-  isExternal: true
-  name: CacheContainer
-  nameWithType: CacheContainer
-  fullName: SuperOffice.Web.ResourceHandlers.CacheContainer
 - uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
   commentId: T:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
   isExternal: true

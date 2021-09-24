@@ -134,6 +134,27 @@ references:
   name: ILayout
   nameWithType: ILayout
   fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectPosition
+  nameWithType: MenuObjectPosition
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectMouseClick
+  nameWithType: MenuObjectMouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+- uid: SuperOffice.DCF.Web.UI.IMenuObject
+  commentId: T:SuperOffice.DCF.Web.UI.IMenuObject
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IMenuObject
+  nameWithType: IMenuObject
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject
 - uid: SuperOffice.DCF.Web.UI.IPanel
   commentId: T:SuperOffice.DCF.Web.UI.IPanel
   parent: SuperOffice.DCF.Web.UI
@@ -169,27 +190,6 @@ references:
   name: IView
   nameWithType: IView
   fullName: SuperOffice.DCF.Web.UI.IView
-- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
-  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
-  parent: SuperOffice.DCF.Web.UI
-  isExternal: true
-  name: MenuObjectPosition
-  nameWithType: MenuObjectPosition
-  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition
-- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
-  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
-  parent: SuperOffice.DCF.Web.UI
-  isExternal: true
-  name: MenuObjectMouseClick
-  nameWithType: MenuObjectMouseClick
-  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
-- uid: SuperOffice.DCF.Web.UI.IMenuObject
-  commentId: T:SuperOffice.DCF.Web.UI.IMenuObject
-  parent: SuperOffice.DCF.Web.UI
-  isExternal: true
-  name: IMenuObject
-  nameWithType: IMenuObject
-  fullName: SuperOffice.DCF.Web.UI.IMenuObject
 - uid: SuperOffice.DCF.Web.UI.JSONHelper
   commentId: T:SuperOffice.DCF.Web.UI.JSONHelper
   isExternal: true

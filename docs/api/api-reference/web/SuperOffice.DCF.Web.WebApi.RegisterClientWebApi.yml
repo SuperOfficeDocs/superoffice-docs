@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.DCF.Web.WebApi
   children:
   - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
-  - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register(System.Object)
   langs:
   - csharp
   - vb
@@ -21,10 +21,15 @@ items:
   - SuperOffice.DCFWeb
   namespace: SuperOffice.DCF.Web.WebApi
   syntax:
-    content: public class RegisterClientWebApi
-    content.vb: Public Class RegisterClientWebApi
+    content: 'public class RegisterClientWebApi : IWebApiRegistrationPlugin, IPlugin'
+    content.vb: >-
+      Public Class RegisterClientWebApi
+          Implements IWebApiRegistrationPlugin, IPlugin
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.Plugins.Application.IWebApiRegistrationPlugin
+  - SuperOffice.Factory.IPlugin
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -39,16 +44,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
-  commentId: M:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
-  id: RegisterWebApis(System.Web.Http.HttpConfiguration)
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register(System.Object)
+  commentId: M:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register(System.Object)
+  id: Register(System.Object)
   parent: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
   langs:
   - csharp
   - vb
-  name: RegisterWebApis(HttpConfiguration)
-  nameWithType: RegisterClientWebApi.RegisterWebApis(HttpConfiguration)
-  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  name: Register(Object)
+  nameWithType: RegisterClientWebApi.Register(Object)
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register(System.Object)
   type: Method
   source:
     path: SuperOffice.DCFWeb
@@ -57,18 +62,16 @@ items:
   - SuperOffice.DCFWeb
   namespace: SuperOffice.DCF.Web.WebApi
   syntax:
-    content: public static void RegisterWebApis(HttpConfiguration config)
+    content: public void Register(object configObj)
     parameters:
-    - id: config
-      type: System.Web.Http.HttpConfiguration
-    content.vb: Public Shared Sub RegisterWebApis(config As HttpConfiguration)
-  overload: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis*
+    - id: configObj
+      type: System.Object
+    content.vb: Public Sub Register(configObj As Object)
+  overload: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 - uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
   commentId: M:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
   id: '#ctor'
@@ -108,6 +111,17 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.Plugins.Application.IWebApiRegistrationPlugin
+  commentId: '!:SuperOffice.Plugins.Application.IWebApiRegistrationPlugin'
+  isExternal: true
+  name: IWebApiRegistrationPlugin
+  nameWithType: IWebApiRegistrationPlugin
+  fullName: SuperOffice.Plugins.Application.IWebApiRegistrationPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -393,18 +407,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis*
-  commentId: Overload:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register*
+  commentId: Overload:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register
   isExternal: true
-  name: RegisterWebApis
-  nameWithType: RegisterClientWebApi.RegisterWebApis
-  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis
-- uid: System.Web.Http.HttpConfiguration
-  commentId: '!:System.Web.Http.HttpConfiguration'
-  isExternal: true
-  name: HttpConfiguration
-  nameWithType: HttpConfiguration
-  fullName: System.Web.Http.HttpConfiguration
+  name: Register
+  nameWithType: RegisterClientWebApi.Register
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.Register
 - uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor*
   commentId: Overload:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
   isExternal: true

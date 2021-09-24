@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ZFDController
+  id: ZFDController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.ZFDController.#ctor
+  - SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD
+  - SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD
+  - SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant
+  - SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD
+  - SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD
+  - SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant
+  - SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant
+  - SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl
+  - SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration
+  - SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured
+  - SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured
+  - SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference(System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant(System.String)
+  - SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ZFDController
+  nameWithType: ZFDController
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: >-
+      [SoCorsWebApi]
+
+      public class ZFDController : ApiController
+    content.vb: >-
+      <SoCorsWebApi>
+
+      Public Class ZFDController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  attributes:
+  - type: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+    ctor: SuperOffice.Services.WebApi.SoCorsWebApiAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference(System.String,System.String)
+  id: SaveZFDPreference(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: SaveZFDPreference(String, String)
+  nameWithType: ZFDController.SaveZFDPreference(String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SaveZFDPreference(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SaveZFDPreference(key As String, value As String)
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant
+  id: GetCurrentZFDProviderForTenant
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentZFDProviderForTenant()
+  nameWithType: ZFDController.GetCurrentZFDProviderForTenant()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetCurrentZFDProviderForTenant()
+    return:
+      type: System.String
+    content.vb: Public Function GetCurrentZFDProviderForTenant As String
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant
+  id: GetPreferedZFDProviderForTenant
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: GetPreferedZFDProviderForTenant()
+  nameWithType: ZFDController.GetPreferedZFDProviderForTenant()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetPreferedZFDProviderForTenant()
+    return:
+      type: System.String
+    content.vb: Public Function GetPreferedZFDProviderForTenant As String
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant(System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant(System.String)
+  id: SetCurrentZFDProviderForTenant(System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentZFDProviderForTenant(String)
+  nameWithType: ZFDController.SetCurrentZFDProviderForTenant(String)
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetCurrentZFDProviderForTenant(string providerId)
+    parameters:
+    - id: providerId
+      type: System.String
+    content.vb: Public Sub SetCurrentZFDProviderForTenant(providerId As String)
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant(System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant(System.String)
+  id: SetPreferedZFDProviderForTenant(System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: SetPreferedZFDProviderForTenant(String)
+  nameWithType: ZFDController.SetPreferedZFDProviderForTenant(String)
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetPreferedZFDProviderForTenant(string providerId)
+    parameters:
+    - id: providerId
+      type: System.String
+    content.vb: Public Sub SetPreferedZFDProviderForTenant(providerId As String)
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant
+  id: DisableZFDForTenant
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: DisableZFDForTenant()
+  nameWithType: ZFDController.DisableZFDForTenant()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void DisableZFDForTenant()
+    content.vb: Public Sub DisableZFDForTenant
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl
+  id: GetZFDBaseUrl
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: GetZFDBaseUrl()
+  nameWithType: ZFDController.GetZFDBaseUrl()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetZFDBaseUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetZFDBaseUrl As String
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD
+  id: EnableSharepointZFD
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: EnableSharepointZFD()
+  nameWithType: ZFDController.EnableSharepointZFD()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void EnableSharepointZFD()
+    content.vb: Public Sub EnableSharepointZFD
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD
+  id: EnableGoogleZFD
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: EnableGoogleZFD()
+  nameWithType: ZFDController.EnableGoogleZFD()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void EnableGoogleZFD()
+    content.vb: Public Sub EnableGoogleZFD
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD
+  id: DisableSharepointZFD
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: DisableSharepointZFD()
+  nameWithType: ZFDController.DisableSharepointZFD()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void DisableSharepointZFD()
+    content.vb: Public Sub DisableSharepointZFD
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD
+  id: DisableGoogleZFD
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: DisableGoogleZFD()
+  nameWithType: ZFDController.DisableGoogleZFD()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void DisableGoogleZFD()
+    content.vb: Public Sub DisableGoogleZFD
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured
+  id: IsSharepointZFDConfigured
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: IsSharepointZFDConfigured()
+  nameWithType: ZFDController.IsSharepointZFDConfigured()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public bool IsSharepointZFDConfigured()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsSharepointZFDConfigured As Boolean
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured
+  id: IsGoogleZFDConfigured
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: IsGoogleZFDConfigured()
+  nameWithType: ZFDController.IsGoogleZFDConfigured()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public bool IsGoogleZFDConfigured()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsGoogleZFDConfigured As Boolean
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration
+  id: GetZFDConfiguration
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: GetZFDConfiguration()
+  nameWithType: ZFDController.GetZFDConfiguration()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public Task<ZFDController.TenantConfigStatus> GetZFDConfiguration()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus}
+    content.vb: Public Function GetZFDConfiguration As Task(Of ZFDController.TenantConfigStatus)
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.ZFDController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.ZFDController
+  langs:
+  - csharp
+  - vb
+  name: ZFDController()
+  nameWithType: ZFDController.ZFDController()
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.ZFDController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ZFDController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.ZFDController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference
+  isExternal: true
+  name: SaveZFDPreference
+  nameWithType: ZFDController.SaveZFDPreference
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SaveZFDPreference
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant
+  isExternal: true
+  name: GetCurrentZFDProviderForTenant
+  nameWithType: ZFDController.GetCurrentZFDProviderForTenant
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetCurrentZFDProviderForTenant
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant
+  isExternal: true
+  name: GetPreferedZFDProviderForTenant
+  nameWithType: ZFDController.GetPreferedZFDProviderForTenant
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetPreferedZFDProviderForTenant
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant
+  isExternal: true
+  name: SetCurrentZFDProviderForTenant
+  nameWithType: ZFDController.SetCurrentZFDProviderForTenant
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SetCurrentZFDProviderForTenant
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant
+  isExternal: true
+  name: SetPreferedZFDProviderForTenant
+  nameWithType: ZFDController.SetPreferedZFDProviderForTenant
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.SetPreferedZFDProviderForTenant
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant
+  isExternal: true
+  name: DisableZFDForTenant
+  nameWithType: ZFDController.DisableZFDForTenant
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableZFDForTenant
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl
+  isExternal: true
+  name: GetZFDBaseUrl
+  nameWithType: ZFDController.GetZFDBaseUrl
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDBaseUrl
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD
+  isExternal: true
+  name: EnableSharepointZFD
+  nameWithType: ZFDController.EnableSharepointZFD
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.EnableSharepointZFD
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD
+  isExternal: true
+  name: EnableGoogleZFD
+  nameWithType: ZFDController.EnableGoogleZFD
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.EnableGoogleZFD
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD
+  isExternal: true
+  name: DisableSharepointZFD
+  nameWithType: ZFDController.DisableSharepointZFD
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableSharepointZFD
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD
+  isExternal: true
+  name: DisableGoogleZFD
+  nameWithType: ZFDController.DisableGoogleZFD
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.DisableGoogleZFD
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured
+  isExternal: true
+  name: IsSharepointZFDConfigured
+  nameWithType: ZFDController.IsSharepointZFDConfigured
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.IsSharepointZFDConfigured
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured
+  isExternal: true
+  name: IsGoogleZFDConfigured
+  nameWithType: ZFDController.IsGoogleZFDConfigured
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.IsGoogleZFDConfigured
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration
+  isExternal: true
+  name: GetZFDConfiguration
+  nameWithType: ZFDController.GetZFDConfiguration
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.GetZFDConfiguration
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ZFDController.TenantConfigStatus>
+  nameWithType: Task<ZFDController.TenantConfigStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus>
+  nameWithType.vb: Task(Of ZFDController.TenantConfigStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus)
+  name.vb: Task(Of ZFDController.TenantConfigStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+    name: ZFDController.TenantConfigStatus
+    nameWithType: ZFDController.TenantConfigStatus
+    fullName: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+    name: ZFDController.TenantConfigStatus
+    nameWithType: ZFDController.TenantConfigStatus
+    fullName: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ZFDController.#ctor
+  isExternal: true
+  name: ZFDController
+  nameWithType: ZFDController.ZFDController
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.ZFDController

@@ -16,14 +16,11 @@ items:
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder(System.String)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody(System.String)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String,SuperOffice.CRM.Services.EMailAddress[])
-  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue(System.String)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent(System.String)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity,SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Int32)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize(System.Xml.XmlNode,System.String)
-  - SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
   - SuperOffice.CRM.Web.Data.EMailDataHandler.Load(System.String)
-  - SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
   - SuperOffice.CRM.Web.Data.EMailDataHandler.New(System.String)
   - SuperOffice.CRM.Web.Data.EMailDataHandler.Save
   - SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile(System.Int32,System.String)
@@ -333,38 +330,6 @@ items:
       type: System.String
     content.vb: Public Shared Function GetSubjectCurrent(existing As String) As String
   overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
-  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
-  id: GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
-  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
-  langs:
-  - csharp
-  - vb
-  name: GetRecipientString(EMailAddress)
-  nameWithType: EMailDataHandler.GetRecipientString(EMailAddress)
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
-  type: Method
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public static string GetRecipientString(EMailAddress a)
-    parameters:
-    - id: a
-      type: SuperOffice.CRM.Services.EMailAddress
-    return:
-      type: System.String
-    content.vb: Public Shared Function GetRecipientString(a As EMailAddress) As String
-  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString*
   modifiers.csharp:
   - public
   - static
@@ -764,35 +729,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
-  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
-  id: IsNewInboxFeatureToggleOn
-  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
-  langs:
-  - csharp
-  - vb
-  name: IsNewInboxFeatureToggleOn()
-  nameWithType: EMailDataHandler.IsNewInboxFeatureToggleOn()
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn()
-  type: Method
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public static bool IsNewInboxFeatureToggleOn()
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function IsNewInboxFeatureToggleOn As Boolean
-  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
   commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
   id: GetNewPopulatedEmailEntity
@@ -852,36 +788,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
-  commentId: P:SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
-  id: MarkAsRead
-  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
-  langs:
-  - csharp
-  - vb
-  name: MarkAsRead
-  nameWithType: EMailDataHandler.MarkAsRead
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
-  type: Property
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public bool MarkAsRead { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property MarkAsRead As Boolean
-  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Web.Data
   commentId: N:SuperOffice.CRM.Web.Data
@@ -1897,17 +1803,6 @@ references:
   name: GetSubjectCurrent
   nameWithType: EMailDataHandler.GetSubjectCurrent
   fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString*
-  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString
-  isExternal: true
-  name: GetRecipientString
-  nameWithType: EMailDataHandler.GetRecipientString
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString
-- uid: SuperOffice.CRM.Services.EMailAddress
-  isExternal: true
-  name: EMailAddress
-  nameWithType: EMailAddress
-  fullName: SuperOffice.CRM.Services.EMailAddress
 - uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent*
   commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent
   isExternal: true
@@ -2045,12 +1940,6 @@ references:
   name: GetSessionValue
   nameWithType: EMailDataHandler.GetSessionValue
   fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn*
-  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
-  isExternal: true
-  name: IsNewInboxFeatureToggleOn
-  nameWithType: EMailDataHandler.IsNewInboxFeatureToggleOn
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
 - uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity*
   commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
   isExternal: true
@@ -2063,9 +1952,3 @@ references:
   name: SetSessionValue
   nameWithType: EMailDataHandler.SetSessionValue
   fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue
-- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead*
-  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
-  isExternal: true
-  name: MarkAsRead
-  nameWithType: EMailDataHandler.MarkAsRead
-  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead

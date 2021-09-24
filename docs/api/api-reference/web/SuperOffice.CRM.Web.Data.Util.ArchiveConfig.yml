@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
   - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
   - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml
   langs:
   - csharp
   - vb
@@ -38,7 +39,9 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Web.Data.Util.ConfigBase._element
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -141,6 +144,36 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml
+  id: ToXml
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: ToXml()
+  nameWithType: ArchiveConfig.ToXml()
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public override XElement ToXml()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Overrides Function ToXml As XElement
+  overridden: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
   commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
   id: Provider
@@ -406,6 +439,63 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: LoadFragment(String, ColumnConfigGroup)
+  nameWithType: ConfigBase.LoadFragment(String, ColumnConfigGroup)
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String, SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadFragment
+    nameWithType: ConfigBase.LoadFragment
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadFragment
+    nameWithType: ConfigBase.LoadFragment
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
   commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
   parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
@@ -437,6 +527,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: Fragment
+  nameWithType: ConfigBase.Fragment
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -848,6 +945,43 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: ToXml()
+  nameWithType: ConfigBase.ToXml()
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    name: ToXml
+    nameWithType: ConfigBase.ToXml
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    name: ToXml
+    nameWithType: ConfigBase.ToXml
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml
+  isExternal: true
+  name: ToXml
+  nameWithType: ArchiveConfig.ToXml
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ToXml
 - uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider*
   commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
   isExternal: true

@@ -33,6 +33,7 @@ items:
   - SuperOffice.DCF.Web.ApplicationDefs.ConfigXml
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  - SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
   - SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
   - SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
   - SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
@@ -900,6 +901,38 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property DataDispatcher As String
   overload: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
+  id: DashboardArchiveMDOListPrefix
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DashboardArchiveMDOListPrefix
+  nameWithType: ApplicationDefs.DashboardArchiveMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DashboardArchiveMDOListPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DashboardArchiveMDOListPrefix As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix*
   modifiers.csharp:
   - public
   - static
@@ -3474,6 +3507,12 @@ references:
   name: DataDispatcher
   nameWithType: ApplicationDefs.DataDispatcher
   fullName: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
+  isExternal: true
+  name: DashboardArchiveMDOListPrefix
+  nameWithType: ApplicationDefs.DashboardArchiveMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DashboardArchiveMDOListPrefix
 - uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix*
   commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
   isExternal: true

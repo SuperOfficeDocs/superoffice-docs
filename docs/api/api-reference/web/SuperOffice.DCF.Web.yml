@@ -208,24 +208,6 @@ references:
   name: RequestSecurityHelper
   nameWithType: RequestSecurityHelper
   fullName: SuperOffice.DCF.Web.RequestSecurityHelper
-- uid: SuperOffice.DCF.Web.SignalRTokenHelper
-  commentId: T:SuperOffice.DCF.Web.SignalRTokenHelper
-  isExternal: true
-  name: SignalRTokenHelper
-  nameWithType: SignalRTokenHelper
-  fullName: SuperOffice.DCF.Web.SignalRTokenHelper
-- uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
-  commentId: T:SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
-  isExternal: true
-  name: ISoAutomatedLoginPlugin
-  nameWithType: ISoAutomatedLoginPlugin
-  fullName: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
-- uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
-  commentId: T:SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
-  isExternal: true
-  name: SoAutomatedLoginPluginAttribute
-  nameWithType: SoAutomatedLoginPluginAttribute
-  fullName: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
 - uid: SuperOffice.DCF.Web.ServerEventContext
   commentId: T:SuperOffice.DCF.Web.ServerEventContext
   parent: SuperOffice.DCF.Web
@@ -239,6 +221,12 @@ references:
   name: ServerEventManager
   nameWithType: ServerEventManager
   fullName: SuperOffice.DCF.Web.ServerEventManager
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper
+  commentId: T:SuperOffice.DCF.Web.SignalRTokenHelper
+  isExternal: true
+  name: SignalRTokenHelper
+  nameWithType: SignalRTokenHelper
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper
 - uid: SuperOffice.DCF.Web.SoAjaxException
   commentId: T:SuperOffice.DCF.Web.SoAjaxException
   parent: SuperOffice.DCF.Web
@@ -252,6 +240,18 @@ references:
   name: SoAjaxRedirectException
   nameWithType: SoAjaxRedirectException
   fullName: SuperOffice.DCF.Web.SoAjaxRedirectException
+- uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  commentId: T:SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  isExternal: true
+  name: ISoAutomatedLoginPlugin
+  nameWithType: ISoAutomatedLoginPlugin
+  fullName: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+- uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  isExternal: true
+  name: SoAutomatedLoginPluginAttribute
+  nameWithType: SoAutomatedLoginPluginAttribute
+  fullName: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
 - uid: SuperOffice.DCF.Web.SoFormsAuthentication
   commentId: T:SuperOffice.DCF.Web.SoFormsAuthentication
   isExternal: true

@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.Initialize(System.Xml.XmlNode,System.String)
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsCreate
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsReOpen
+  - SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment(SuperOffice.CRM.Services.AppointmentEntity)
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.Load(System.String)
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.New
   - SuperOffice.CRM.Web.Data.AppointmentDataHandler.New(System.String)
@@ -264,6 +265,38 @@ items:
       type: System.String
     content.vb: Public Shared Function GetVideoMeetingUrl(appointment As AppointmentEntity) As String
   overload: SuperOffice.CRM.Web.Data.AppointmentDataHandler.GetVideoMeetingUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment(SuperOffice.CRM.Services.AppointmentEntity)
+  commentId: M:SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment(SuperOffice.CRM.Services.AppointmentEntity)
+  id: IsSoBookedAppointment(SuperOffice.CRM.Services.AppointmentEntity)
+  parent: SuperOffice.CRM.Web.Data.AppointmentDataHandler
+  langs:
+  - csharp
+  - vb
+  name: IsSoBookedAppointment(AppointmentEntity)
+  nameWithType: AppointmentDataHandler.IsSoBookedAppointment(AppointmentEntity)
+  fullName: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment(SuperOffice.CRM.Services.AppointmentEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool IsSoBookedAppointment(AppointmentEntity appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSoBookedAppointment(appointment As AppointmentEntity) As Boolean
+  overload: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment*
   modifiers.csharp:
   - public
   - static
@@ -1578,6 +1611,19 @@ references:
   name: AppointmentEntity
   nameWithType: AppointmentEntity
   fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment
+  isExternal: true
+  name: IsSoBookedAppointment
+  nameWithType: AppointmentDataHandler.IsSoBookedAppointment
+  fullName: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsSoBookedAppointment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
   commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
   parent: SuperOffice.DCF.Web.Data.DataHandlerBase
@@ -1727,13 +1773,6 @@ references:
   name: IsCreate
   nameWithType: AppointmentDataHandler.IsCreate
   fullName: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsCreate
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsReOpen*
   commentId: Overload:SuperOffice.CRM.Web.Data.AppointmentDataHandler.IsReOpen
   isExternal: true

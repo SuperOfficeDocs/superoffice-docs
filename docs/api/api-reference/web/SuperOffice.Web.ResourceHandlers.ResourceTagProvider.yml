@@ -8,6 +8,7 @@ items:
   - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags(System.Web.UI.Page)
   - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags(System.Web.UI.Page)
   - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags(System.Web.UI.Page)
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews(System.Web.UI.Page)
   - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags(System.Web.UI.Page)
   langs:
   - csharp
@@ -132,6 +133,38 @@ items:
       type: System.String
     content.vb: Public Shared Function RenderScilVendorTags(page As Page) As String
   overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews(System.Web.UI.Page)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews(System.Web.UI.Page)
+  id: RenderScilTagsForMobileViews(System.Web.UI.Page)
+  parent: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  langs:
+  - csharp
+  - vb
+  name: RenderScilTagsForMobileViews(Page)
+  nameWithType: ResourceTagProvider.RenderScilTagsForMobileViews(Page)
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static string RenderScilTagsForMobileViews(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderScilTagsForMobileViews(page As Page) As String
+  overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews*
   modifiers.csharp:
   - public
   - static
@@ -499,6 +532,12 @@ references:
   name: RenderScilVendorTags
   nameWithType: ResourceTagProvider.RenderScilVendorTags
   fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews
+  isExternal: true
+  name: RenderScilTagsForMobileViews
+  nameWithType: ResourceTagProvider.RenderScilTagsForMobileViews
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilTagsForMobileViews
 - uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags*
   commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags
   isExternal: true

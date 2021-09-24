@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Web.Controllers.BootstrapperResponse.HistoryItems
   - SuperOffice.CRM.Web.Controllers.BootstrapperResponse.LocalizationParameters
   - SuperOffice.CRM.Web.Controllers.BootstrapperResponse.Preferences
+  - SuperOffice.CRM.Web.Controllers.BootstrapperResponse.TabOrders
   langs:
   - csharp
   - vb
@@ -142,6 +143,32 @@ items:
     return:
       type: SuperOffice.CRM.Services.Preference[]
     content.vb: Public Preferences As Preference()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperResponse.TabOrders
+  commentId: F:SuperOffice.CRM.Web.Controllers.BootstrapperResponse.TabOrders
+  id: TabOrders
+  parent: SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+  langs:
+  - csharp
+  - vb
+  name: TabOrders
+  nameWithType: BootstrapperResponse.TabOrders
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperResponse.TabOrders
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public TabOrder[] TabOrders
+    return:
+      type: SuperOffice.CRM.Services.TabOrder[]
+    content.vb: Public TabOrders As TabOrder()
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -628,6 +655,32 @@ references:
     name: Preference
     nameWithType: Preference
     fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TabOrder[]
+  isExternal: true
+  name: TabOrder[]
+  nameWithType: TabOrder[]
+  fullName: SuperOffice.CRM.Services.TabOrder[]
+  nameWithType.vb: TabOrder()
+  fullName.vb: SuperOffice.CRM.Services.TabOrder()
+  name.vb: TabOrder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
     isExternal: true
   - name: ()
     nameWithType: ()

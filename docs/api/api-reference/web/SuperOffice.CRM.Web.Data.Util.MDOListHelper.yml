@@ -8,7 +8,7 @@ items:
   - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
   - SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
   - SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
-  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
   langs:
   - csharp
   - vb
@@ -120,16 +120,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String, System.String, System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.MDOListItem))
   name.vb: FilterAndSortColumnList(String, String, ICollection(Of MDOListItem))
-- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  id: ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: ToggleDefaultColumns(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
   parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper
   langs:
   - csharp
   - vb
-  name: ToggleDefaultColumns(String, String, SelectableMDOListItem[])
-  nameWithType: MDOListHelper.ToggleDefaultColumns(String, String, SelectableMDOListItem[])
-  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem[])
+  name: ToggleDefaultColumns(String, String, ICollection<SelectableMDOListItem>)
+  nameWithType: MDOListHelper.ToggleDefaultColumns(String, String, ICollection<SelectableMDOListItem>)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, System.Collections.Generic.ICollection<SuperOffice.CRM.Services.SelectableMDOListItem>)
   type: Method
   source:
     path: SuperOffice.CRMWeb
@@ -138,25 +138,25 @@ items:
   - SuperOffice.CRMWeb
   namespace: SuperOffice.CRM.Web.Data.Util
   syntax:
-    content: public static void ToggleDefaultColumns(string provider, string gui, SelectableMDOListItem[] items)
+    content: public static void ToggleDefaultColumns(string provider, string gui, ICollection<SelectableMDOListItem> items)
     parameters:
     - id: provider
       type: System.String
     - id: gui
       type: System.String
     - id: items
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
-    content.vb: Public Shared Sub ToggleDefaultColumns(provider As String, gui As String, items As SelectableMDOListItem())
+      type: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Sub ToggleDefaultColumns(provider As String, gui As String, items As ICollection(Of SelectableMDOListItem))
   overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns*
-  nameWithType.vb: MDOListHelper.ToggleDefaultColumns(String, String, SelectableMDOListItem())
+  nameWithType.vb: MDOListHelper.ToggleDefaultColumns(String, String, ICollection(Of SelectableMDOListItem))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem())
-  name.vb: ToggleDefaultColumns(String, String, SelectableMDOListItem())
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: ToggleDefaultColumns(String, String, ICollection(Of SelectableMDOListItem))
 - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
   commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
   id: ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})

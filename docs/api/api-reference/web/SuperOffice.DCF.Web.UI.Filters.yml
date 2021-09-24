@@ -25,30 +25,30 @@ items:
   assemblies:
   - SuperOffice.DCFWeb
 references:
-- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
-  commentId: T:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
-  isExternal: true
-  name: ArchiveLinkInfoTypesFilter
-  nameWithType: ArchiveLinkInfoTypesFilter
-  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
 - uid: SuperOffice.DCF.Web.UI.Filters.CrippleFilter
   commentId: T:SuperOffice.DCF.Web.UI.Filters.CrippleFilter
   isExternal: true
   name: CrippleFilter
   nameWithType: CrippleFilter
   fullName: SuperOffice.DCF.Web.UI.Filters.CrippleFilter
-- uid: SuperOffice.DCF.Web.UI.Filters.MenuFilter
-  commentId: T:SuperOffice.DCF.Web.UI.Filters.MenuFilter
-  isExternal: true
-  name: MenuFilter
-  nameWithType: MenuFilter
-  fullName: SuperOffice.DCF.Web.UI.Filters.MenuFilter
 - uid: SuperOffice.DCF.Web.UI.Filters.FileManager
   commentId: T:SuperOffice.DCF.Web.UI.Filters.FileManager
   isExternal: true
   name: FileManager
   nameWithType: FileManager
   fullName: SuperOffice.DCF.Web.UI.Filters.FileManager
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  isExternal: true
+  name: ArchiveLinkInfoTypesFilter
+  nameWithType: ArchiveLinkInfoTypesFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.MenuFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.MenuFilter
+  isExternal: true
+  name: MenuFilter
+  nameWithType: MenuFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.MenuFilter
 - uid: SuperOffice.DCF.Web.UI.Filters.MergeFilter
   commentId: T:SuperOffice.DCF.Web.UI.Filters.MergeFilter
   isExternal: true
@@ -61,12 +61,6 @@ references:
   name: ParameterFilter
   nameWithType: ParameterFilter
   fullName: SuperOffice.DCF.Web.UI.Filters.ParameterFilter
-- uid: SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
-  commentId: T:SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
-  isExternal: true
-  name: WebPanelUserGroupFilter
-  nameWithType: WebPanelUserGroupFilter
-  fullName: SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
 - uid: SuperOffice.DCF.Web.UI.Filters.SessionStateFilter
   commentId: T:SuperOffice.DCF.Web.UI.Filters.SessionStateFilter
   isExternal: true
@@ -91,3 +85,9 @@ references:
   name: UserAgentFilter
   nameWithType: UserAgentFilter
   fullName: SuperOffice.DCF.Web.UI.Filters.UserAgentFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
+  isExternal: true
+  name: WebPanelUserGroupFilter
+  nameWithType: WebPanelUserGroupFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter

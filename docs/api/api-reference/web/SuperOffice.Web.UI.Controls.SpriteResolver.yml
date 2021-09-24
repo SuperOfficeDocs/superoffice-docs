@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Web.UI.Controls
   children:
   - SuperOffice.Web.UI.Controls.SpriteResolver.#ctor
-  - SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
+  - SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,Microsoft.Extensions.Logging.ILogger,System.String,System.String)
   - SuperOffice.Web.UI.Controls.SpriteResolver._fileSystem
   - SuperOffice.Web.UI.Controls.SpriteResolver._logger
   - SuperOffice.Web.UI.Controls.SpriteResolver._spriteCache
@@ -119,7 +119,7 @@ items:
   syntax:
     content: protected readonly ILogger _logger
     return:
-      type: SuperOffice.Diagnostics.ILogger
+      type: Microsoft.Extensions.Logging.ILogger
     content.vb: Protected ReadOnly _logger As ILogger
   modifiers.csharp:
   - protected
@@ -213,16 +213,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
-  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
-  id: '#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)'
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,Microsoft.Extensions.Logging.ILogger,System.String,System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,Microsoft.Extensions.Logging.ILogger,System.String,System.String)
+  id: '#ctor(SuperOffice.IO.IFileSystem,Microsoft.Extensions.Logging.ILogger,System.String,System.String)'
   parent: SuperOffice.Web.UI.Controls.SpriteResolver
   langs:
   - csharp
   - vb
   name: SpriteResolver(IFileSystem, ILogger, String, String)
   nameWithType: SpriteResolver.SpriteResolver(IFileSystem, ILogger, String, String)
-  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.SpriteResolver(SuperOffice.IO.IFileSystem, SuperOffice.Diagnostics.ILogger, System.String, System.String)
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.SpriteResolver(SuperOffice.IO.IFileSystem, Microsoft.Extensions.Logging.ILogger, System.String, System.String)
   type: Constructor
   source:
     path: SuperOffice.Web.UI.Controls
@@ -236,7 +236,7 @@ items:
     - id: fileSystem
       type: SuperOffice.IO.IFileSystem
     - id: logger
-      type: SuperOffice.Diagnostics.ILogger
+      type: Microsoft.Extensions.Logging.ILogger
     - id: cssSpriteDefinitionsFile
       type: System.String
     - id: clientRoot
@@ -698,11 +698,11 @@ references:
   name: IFileSystem
   nameWithType: IFileSystem
   fullName: SuperOffice.IO.IFileSystem
-- uid: SuperOffice.Diagnostics.ILogger
+- uid: Microsoft.Extensions.Logging.ILogger
   isExternal: true
   name: ILogger
   nameWithType: ILogger
-  fullName: SuperOffice.Diagnostics.ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
 - uid: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance*
   commentId: Overload:SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
   isExternal: true

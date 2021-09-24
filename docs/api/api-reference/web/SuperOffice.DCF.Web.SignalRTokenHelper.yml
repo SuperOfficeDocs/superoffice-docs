@@ -8,6 +8,7 @@ items:
   - SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
   - SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary{System.String,System.String})
   - SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant(System.String)
   - SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
   - SuperOffice.DCF.Web.SignalRTokenHelper.SignalRTokenCookieName
   langs:
@@ -195,6 +196,38 @@ items:
   - Shared
   fullName.vb: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: GetNetserverTicketFromSignalRCookies(Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant(System.String)
+  commentId: M:SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant(System.String)
+  id: IsValidTenant(System.String)
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: IsValidTenant(String)
+  nameWithType: SignalRTokenHelper.IsValidTenant(String)
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsValidTenant(string ctx)
+    parameters:
+    - id: ctx
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValidTenant(ctx As String) As Boolean
+  overload: SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.DCF.Web
   commentId: N:SuperOffice.DCF.Web
@@ -642,3 +675,16 @@ references:
   name: GetNetserverTicketFromSignalRCookies
   nameWithType: SignalRTokenHelper.GetNetserverTicketFromSignalRCookies
   fullName: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant*
+  commentId: Overload:SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant
+  isExternal: true
+  name: IsValidTenant
+  nameWithType: SignalRTokenHelper.IsValidTenant
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.IsValidTenant
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

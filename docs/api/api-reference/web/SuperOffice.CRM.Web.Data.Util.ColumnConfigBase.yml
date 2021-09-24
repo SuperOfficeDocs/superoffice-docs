@@ -12,7 +12,11 @@ items:
   - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.DisplayResource
   - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Icon
   - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.MakeRawXmlStackTrace
+  - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
   - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent
+  - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+  - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+  - SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml
   langs:
   - csharp
   - vb
@@ -40,6 +44,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Web.Data.Util.ConfigBase._element
   - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -109,6 +115,36 @@ items:
     content.vb: Public Overrides Function MakeRawXmlStackTrace As String
   overridden: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
   overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.MakeRawXmlStackTrace*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml
+  id: ToXml
+  parent: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+  langs:
+  - csharp
+  - vb
+  name: ToXml()
+  nameWithType: ColumnConfigBase.ToXml()
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public override XElement ToXml()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Overrides Function ToXml As XElement
+  overridden: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml*
   modifiers.csharp:
   - public
   - override
@@ -265,6 +301,66 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+  id: Prefix
+  parent: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: ColumnConfigBase.Prefix
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string Prefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Prefix As String
+  overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
+  id: OrderBy
+  parent: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: ColumnConfigBase.OrderBy
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public int OrderBy { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property OrderBy As Integer
+  overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent
   commentId: P:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent
   id: Parent
@@ -289,6 +385,36 @@ items:
       type: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
     content.vb: Public ReadOnly Property Parent As ColumnConfigGroup
   overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+  id: Parents
+  parent: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+  langs:
+  - csharp
+  - vb
+  name: Parents
+  nameWithType: ColumnConfigBase.Parents
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<ColumnConfigBase> Parents { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+    content.vb: Public ReadOnly Property Parents As IEnumerable(Of ColumnConfigBase)
+  overload: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents*
   modifiers.csharp:
   - public
   - get
@@ -380,6 +506,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: LoadFragment(String, ColumnConfigGroup)
+  nameWithType: ConfigBase.LoadFragment(String, ColumnConfigGroup)
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String, SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadFragment
+    nameWithType: ConfigBase.LoadFragment
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment(System.String,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadFragment
+    nameWithType: ConfigBase.LoadFragment
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadFragment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: Fragment
+  nameWithType: ConfigBase.Fragment
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.Fragment
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -727,6 +917,43 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: ToXml()
+  nameWithType: ConfigBase.ToXml()
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    name: ToXml
+    nameWithType: ConfigBase.ToXml
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    name: ToXml
+    nameWithType: ConfigBase.ToXml
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml
+  isExternal: true
+  name: ToXml
+  nameWithType: ColumnConfigBase.ToXml
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.ToXml
 - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.CriterionResource*
   commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.CriterionResource
   isExternal: true
@@ -764,9 +991,123 @@ references:
   name: Icon
   nameWithType: ColumnConfigBase.Icon
   fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Icon
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+  isExternal: true
+  name: Prefix
+  nameWithType: ColumnConfigBase.Prefix
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Prefix
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: ColumnConfigBase.OrderBy
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.OrderBy
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent*
   commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent
   isExternal: true
   name: Parent
   nameWithType: ColumnConfigBase.Parent
   fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parent
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+  isExternal: true
+  name: Parents
+  nameWithType: ColumnConfigBase.Parents
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase.Parents
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ColumnConfigBase>
+  nameWithType: IEnumerable<ColumnConfigBase>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Web.Data.Util.ColumnConfigBase>
+  nameWithType.vb: IEnumerable(Of ColumnConfigBase)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Web.Data.Util.ColumnConfigBase)
+  name.vb: IEnumerable(Of ColumnConfigBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    name: ColumnConfigBase
+    nameWithType: ColumnConfigBase
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    name: ColumnConfigBase
+    nameWithType: ColumnConfigBase
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

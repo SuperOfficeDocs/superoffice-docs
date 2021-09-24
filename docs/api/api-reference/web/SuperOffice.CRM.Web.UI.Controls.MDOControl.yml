@@ -63,6 +63,7 @@ items:
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.SetInitial
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.ShowIcons
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.ShowSelectedIcon
+  - SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.UpdateDataSource
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.UpdateExtraInfo
   - SuperOffice.CRM.Web.UI.Controls.MDOControl.UseExtraInfoAsTypeOnSetCurrent
@@ -2182,6 +2183,36 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
+  id: Size
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOControl
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: MDOControl.Size
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Size As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOControl.Size*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.UI.Controls.MDOControl.ServerClick
   commentId: E:SuperOffice.CRM.Web.UI.Controls.MDOControl.ServerClick
   id: ServerClick
@@ -4177,6 +4208,12 @@ references:
   name: MDOList
   nameWithType: MDOList
   fullName: SuperOffice.CRM.Web.UI.Controls.MDOList
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOControl.Size*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
+  isExternal: true
+  name: Size
+  nameWithType: MDOControl.Size
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOControl.Size
 - uid: SuperOffice.CRM.Web.UI.Controls.MDOControl.ServerClickEventHandler
   commentId: T:SuperOffice.CRM.Web.UI.Controls.MDOControl.ServerClickEventHandler
   parent: SuperOffice.CRM.Web.UI.Controls

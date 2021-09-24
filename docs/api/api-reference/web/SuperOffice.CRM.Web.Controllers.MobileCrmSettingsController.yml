@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
   - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+  - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript
   - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
   langs:
   - csharp
@@ -91,6 +92,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript
+  commentId: M:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript
+  id: GetInitScript
+  parent: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  langs:
+  - csharp
+  - vb
+  name: GetInitScript()
+  nameWithType: MobileCrmSettingsController.GetInitScript()
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HttpResponseMessage GetInitScript()
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Function GetInitScript As HttpResponseMessage
+  overload: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
   commentId: M:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
   id: '#ctor'
@@ -162,6 +190,17 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript
+  isExternal: true
+  name: GetInitScript
+  nameWithType: MobileCrmSettingsController.GetInitScript
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetInitScript
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
 - uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor*
   commentId: Overload:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
   isExternal: true

@@ -73,6 +73,7 @@ items:
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Person
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewContact
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailing
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailingHeader
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewPerson
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewSelection
   - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Product
@@ -3513,6 +3514,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const PreviewMailing As String = "previewmailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailingHeader
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailingHeader
+  id: PreviewMailingHeader
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailingHeader
+  nameWithType: ApplicationDefs.CurrentNames.PreviewMailingHeader
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailingHeader
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PreviewMailingHeader = "previewmailingheader"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewMailingHeader As String = "previewmailingheader"
   modifiers.csharp:
   - public
   - const

@@ -119,7 +119,6 @@ references:
   nameWithType: SoSuperStateCopyHandler.SendAsync
   fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync
 - uid: System.Net.Http.HttpRequestMessage
-  commentId: '!:System.Net.Http.HttpRequestMessage'
   isExternal: true
   name: HttpRequestMessage
   nameWithType: HttpRequestMessage

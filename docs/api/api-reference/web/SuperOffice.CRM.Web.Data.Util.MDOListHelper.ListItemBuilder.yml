@@ -1,0 +1,1422 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  commentId: T:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  id: MDOListHelper.ListItemBuilder
+  parent: SuperOffice.CRM.Web.Data.Util
+  children:
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.MDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder},System.String,System.String)
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+  langs:
+  - csharp
+  - vb
+  name: MDOListHelper.ListItemBuilder
+  nameWithType: MDOListHelper.ListItemBuilder
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public class ListItemBuilder
+    content.vb: Public Class ListItemBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.MDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.MDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  id: '#ctor(SuperOffice.CRM.Services.MDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)'
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ListItemBuilder(MDOListItem, String, String, MDOListHelper.ListItemBuilder)
+  nameWithType: MDOListHelper.ListItemBuilder.ListItemBuilder(MDOListItem, String, String, MDOListHelper.ListItemBuilder)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ListItemBuilder(SuperOffice.CRM.Services.MDOListItem, System.String, System.String, SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public ListItemBuilder(MDOListItem item, string provider, string gui, MDOListHelper.ListItemBuilder parent = null)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.MDOListItem
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: parent
+      type: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    content.vb: Public Sub New(item As MDOListItem, provider As String, gui As String, parent As MDOListHelper.ListItemBuilder = Nothing)
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  id: '#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)'
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ListItemBuilder(SelectableMDOListItem, String, String, MDOListHelper.ListItemBuilder)
+  nameWithType: MDOListHelper.ListItemBuilder.ListItemBuilder(SelectableMDOListItem, String, String, MDOListHelper.ListItemBuilder)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ListItemBuilder(SuperOffice.CRM.Services.SelectableMDOListItem, System.String, System.String, SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public ListItemBuilder(SelectableMDOListItem item, string provider, string gui, MDOListHelper.ListItemBuilder parent = null)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: parent
+      type: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    content.vb: Public Sub New(item As SelectableMDOListItem, provider As String, gui As String, parent As MDOListHelper.ListItemBuilder = Nothing)
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor(SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  id: '#ctor(SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup,System.String,System.String,SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)'
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ListItemBuilder(ColumnConfigGroup, String, String, MDOListHelper.ListItemBuilder)
+  nameWithType: MDOListHelper.ListItemBuilder.ListItemBuilder(ColumnConfigGroup, String, String, MDOListHelper.ListItemBuilder)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ListItemBuilder(SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup, System.String, System.String, SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public ListItemBuilder(ColumnConfigGroup columnConfigGroup, string provider, string gui, MDOListHelper.ListItemBuilder parent = null)
+    parameters:
+    - id: columnConfigGroup
+      type: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: parent
+      type: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    content.vb: Public Sub New(columnConfigGroup As ColumnConfigGroup, provider As String, gui As String, parent As MDOListHelper.ListItemBuilder = Nothing)
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder},System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder},System.String,System.String)
+  id: BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder},System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildTreeFromConfig(ArchiveConfig, IEnumerable<MDOListHelper.ListItemBuilder>, String, String)
+  nameWithType: MDOListHelper.ListItemBuilder.BuildTreeFromConfig(ArchiveConfig, IEnumerable<MDOListHelper.ListItemBuilder>, String, String)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig, System.Collections.Generic.IEnumerable<SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder>, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static IEnumerable<MDOListHelper.ListItemBuilder> BuildTreeFromConfig(ArchiveConfig archiveConfig, IEnumerable<MDOListHelper.ListItemBuilder> items, string provider, string gui)
+    parameters:
+    - id: archiveConfig
+      type: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+    - id: items
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+    content.vb: Public Shared Function BuildTreeFromConfig(archiveConfig As ArchiveConfig, items As IEnumerable(Of MDOListHelper.ListItemBuilder), provider As String, gui As String) As IEnumerable(Of MDOListHelper.ListItemBuilder)
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig*
+  nameWithType.vb: MDOListHelper.ListItemBuilder.BuildTreeFromConfig(ArchiveConfig, IEnumerable(Of MDOListHelper.ListItemBuilder), String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig(SuperOffice.CRM.Web.Data.Util.ArchiveConfig, System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder), System.String, System.String)
+  name.vb: BuildTreeFromConfig(ArchiveConfig, IEnumerable(Of MDOListHelper.ListItemBuilder), String, String)
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem
+  id: BuildMDOListItem
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildMDOListItem()
+  nameWithType: MDOListHelper.ListItemBuilder.BuildMDOListItem()
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public MDOListItem BuildMDOListItem()
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+    content.vb: Public Function BuildMDOListItem As MDOListItem
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+  id: BuildSelectableMDOListItem
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSelectableMDOListItem()
+  nameWithType: MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem()
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public SelectableMDOListItem BuildSelectableMDOListItem()
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    content.vb: Public Function BuildSelectableMDOListItem As SelectableMDOListItem
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+  id: ID
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: MDOListHelper.ListItemBuilder.ID
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public int ID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ID As Integer
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+  id: ServerName
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ServerName
+  nameWithType: MDOListHelper.ListItemBuilder.ServerName
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string ServerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServerName As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: MDOListHelper.ListItemBuilder.Icon
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Icon As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+  id: ToolTip
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: MDOListHelper.ListItemBuilder.ToolTip
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ToolTip As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+  id: Criterion
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Criterion
+  nameWithType: MDOListHelper.ListItemBuilder.Criterion
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public bool Criterion { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Criterion As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+  id: Display
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: MDOListHelper.ListItemBuilder.Display
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public bool Display { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Display As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+  id: CriterionResource
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: CriterionResource
+  nameWithType: MDOListHelper.ListItemBuilder.CriterionResource
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string CriterionResource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CriterionResource As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+  id: DisplayResource
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: DisplayResource
+  nameWithType: MDOListHelper.ListItemBuilder.DisplayResource
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string DisplayResource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayResource As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: MDOListHelper.ListItemBuilder.ExtraInfo
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraInfo As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+  id: StyleHint
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: MDOListHelper.ListItemBuilder.StyleHint
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StyleHint As String
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: MDOListHelper.ListItemBuilder.Rank
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+  id: Selected
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: MDOListHelper.ListItemBuilder.Selected
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Selected As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+  id: Children
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: MDOListHelper.ListItemBuilder.Children
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public List<MDOListHelper.ListItemBuilder> Children { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+    content.vb: Public ReadOnly Property Children As List(Of MDOListHelper.ListItemBuilder)
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+  id: Parent
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: MDOListHelper.ListItemBuilder.Parent
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public MDOListHelper.ListItemBuilder Parent { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    content.vb: Public Property Parent As MDOListHelper.ListItemBuilder
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+  id: ReferencedByConfig
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: ReferencedByConfig
+  nameWithType: MDOListHelper.ListItemBuilder.ReferencedByConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public bool ReferencedByConfig { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReferencedByConfig As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+  id: IsGroup
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: IsGroup
+  nameWithType: MDOListHelper.ListItemBuilder.IsGroup
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public bool IsGroup { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsGroup As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy
+  commentId: P:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy
+  id: OrderBy
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: MDOListHelper.ListItemBuilder.OrderBy
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public int OrderBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrderBy As Integer
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data.Util
+  commentId: N:SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.Util
+  nameWithType: SuperOffice.CRM.Web.Data.Util
+  fullName: SuperOffice.CRM.Web.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.#ctor
+  isExternal: true
+  name: ListItemBuilder
+  nameWithType: MDOListHelper.ListItemBuilder.ListItemBuilder
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ListItemBuilder
+- uid: SuperOffice.CRM.Services.MDOListItem
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  commentId: T:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: MDOListHelper.ListItemBuilder
+  nameWithType: MDOListHelper.ListItemBuilder
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem
+  isExternal: true
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+- uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ColumnConfigGroup
+  nameWithType: ColumnConfigGroup
+  fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig
+  isExternal: true
+  name: BuildTreeFromConfig
+  nameWithType: MDOListHelper.ListItemBuilder.BuildTreeFromConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildTreeFromConfig
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ArchiveConfig
+  nameWithType: ArchiveConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<MDOListHelper.ListItemBuilder>
+  nameWithType: IEnumerable<MDOListHelper.ListItemBuilder>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder>
+  nameWithType.vb: IEnumerable(Of MDOListHelper.ListItemBuilder)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  name.vb: IEnumerable(Of MDOListHelper.ListItemBuilder)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    name: MDOListHelper.ListItemBuilder
+    nameWithType: MDOListHelper.ListItemBuilder
+    fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    name: MDOListHelper.ListItemBuilder
+    nameWithType: MDOListHelper.ListItemBuilder
+    fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem
+  isExternal: true
+  name: BuildMDOListItem
+  nameWithType: MDOListHelper.ListItemBuilder.BuildMDOListItem
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildMDOListItem
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+  isExternal: true
+  name: BuildSelectableMDOListItem
+  nameWithType: MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.BuildSelectableMDOListItem
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+  isExternal: true
+  name: ID
+  nameWithType: MDOListHelper.ListItemBuilder.ID
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+  isExternal: true
+  name: ServerName
+  nameWithType: MDOListHelper.ListItemBuilder.ServerName
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ServerName
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: MDOListHelper.ListItemBuilder.Icon
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Icon
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: MDOListHelper.ListItemBuilder.ToolTip
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ToolTip
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+  isExternal: true
+  name: Criterion
+  nameWithType: MDOListHelper.ListItemBuilder.Criterion
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Criterion
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+  isExternal: true
+  name: Display
+  nameWithType: MDOListHelper.ListItemBuilder.Display
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Display
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+  isExternal: true
+  name: CriterionResource
+  nameWithType: MDOListHelper.ListItemBuilder.CriterionResource
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.CriterionResource
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+  isExternal: true
+  name: DisplayResource
+  nameWithType: MDOListHelper.ListItemBuilder.DisplayResource
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.DisplayResource
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: MDOListHelper.ListItemBuilder.ExtraInfo
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ExtraInfo
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: MDOListHelper.ListItemBuilder.StyleHint
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.StyleHint
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: MDOListHelper.ListItemBuilder.Rank
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Rank
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: MDOListHelper.ListItemBuilder.Selected
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Selected
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+  isExternal: true
+  name: Children
+  nameWithType: MDOListHelper.ListItemBuilder.Children
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Children
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MDOListHelper.ListItemBuilder>
+  nameWithType: List<MDOListHelper.ListItemBuilder>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder>
+  nameWithType.vb: List(Of MDOListHelper.ListItemBuilder)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder)
+  name.vb: List(Of MDOListHelper.ListItemBuilder)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    name: MDOListHelper.ListItemBuilder
+    nameWithType: MDOListHelper.ListItemBuilder
+    fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    name: MDOListHelper.ListItemBuilder
+    nameWithType: MDOListHelper.ListItemBuilder
+    fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+  isExternal: true
+  name: Parent
+  nameWithType: MDOListHelper.ListItemBuilder.Parent
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.Parent
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+  isExternal: true
+  name: ReferencedByConfig
+  nameWithType: MDOListHelper.ListItemBuilder.ReferencedByConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.ReferencedByConfig
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+  isExternal: true
+  name: IsGroup
+  nameWithType: MDOListHelper.ListItemBuilder.IsGroup
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.IsGroup
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: MDOListHelper.ListItemBuilder.OrderBy
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder.OrderBy

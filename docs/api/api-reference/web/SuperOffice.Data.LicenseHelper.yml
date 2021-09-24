@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.LicenseHelper.CheckLicenseStatus(System.Boolean)
+  - SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches
   - SuperOffice.Data.LicenseHelper.UpdateTempLicenseInfo(System.String)
   langs:
   - csharp
@@ -63,6 +64,33 @@ items:
       type: System.Boolean
     content.vb: Public Shared Sub CheckLicenseStatus(force As Boolean)
   overload: SuperOffice.Data.LicenseHelper.CheckLicenseStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches
+  commentId: M:SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches
+  id: ClearAdjustmentCaches
+  parent: SuperOffice.Data.LicenseHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearAdjustmentCaches()
+  nameWithType: LicenseHelper.ClearAdjustmentCaches()
+  fullName: SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static void ClearAdjustmentCaches()
+    content.vb: Public Shared Sub ClearAdjustmentCaches
+  overload: SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches*
   modifiers.csharp:
   - public
   - static
@@ -411,6 +439,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches*
+  commentId: Overload:SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches
+  isExternal: true
+  name: ClearAdjustmentCaches
+  nameWithType: LicenseHelper.ClearAdjustmentCaches
+  fullName: SuperOffice.Data.LicenseHelper.ClearAdjustmentCaches
 - uid: SuperOffice.Data.LicenseHelper.UpdateTempLicenseInfo*
   commentId: Overload:SuperOffice.Data.LicenseHelper.UpdateTempLicenseInfo
   isExternal: true

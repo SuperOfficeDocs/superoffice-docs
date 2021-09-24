@@ -94,30 +94,6 @@ references:
   name: ControlGroupBase
   nameWithType: ControlGroupBase
   fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
-- uid: SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
-  isExternal: true
-  name: OkNormalButtonDialog
-  nameWithType: OkNormalButtonDialog
-  fullName: SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
-- uid: SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
-  isExternal: true
-  name: SoReadonlyField
-  nameWithType: SoReadonlyField
-  fullName: SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
-- uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoTabGroup
-  isExternal: true
-  name: SoTabGroup
-  nameWithType: SoTabGroup
-  fullName: SuperOffice.DCF.Web.UI.Controls.SoTabGroup
-- uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
-  isExternal: true
-  name: SoTabGroup.TabItem
-  nameWithType: SoTabGroup.TabItem
-  fullName: SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
 - uid: SuperOffice.DCF.Web.UI.Controls.ButtonDialogWithCancel
   commentId: T:SuperOffice.DCF.Web.UI.Controls.ButtonDialogWithCancel
   isExternal: true
@@ -130,6 +106,12 @@ references:
   name: InformationDialog
   nameWithType: InformationDialog
   fullName: SuperOffice.DCF.Web.UI.Controls.InformationDialog
+- uid: SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
+  isExternal: true
+  name: OkNormalButtonDialog
+  nameWithType: OkNormalButtonDialog
+  fullName: SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
 - uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase
   commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -189,12 +171,12 @@ references:
   name: YesToAllDialog
   nameWithType: YesToAllDialog
   fullName: SuperOffice.DCF.Web.UI.Controls.YesToAllDialog
-- uid: SuperOffice.DCF.Web.UI.Controls.RawLabel
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.RawLabel
+- uid: SuperOffice.DCF.Web.UI.Controls.GenericView
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GenericView
   isExternal: true
-  name: RawLabel
-  nameWithType: RawLabel
-  fullName: SuperOffice.DCF.Web.UI.Controls.RawLabel
+  name: GenericView
+  nameWithType: GenericView
+  fullName: SuperOffice.DCF.Web.UI.Controls.GenericView
 - uid: SuperOffice.DCF.Web.UI.Controls.LinkInfo
   commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfo
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -229,18 +211,18 @@ references:
   name: PanelBase
   nameWithType: PanelBase
   fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase
-- uid: SuperOffice.DCF.Web.UI.Controls.GenericView
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.GenericView
-  isExternal: true
-  name: GenericView
-  nameWithType: GenericView
-  fullName: SuperOffice.DCF.Web.UI.Controls.GenericView
 - uid: SuperOffice.DCF.Web.UI.Controls.PopUpContainer
   commentId: T:SuperOffice.DCF.Web.UI.Controls.PopUpContainer
   isExternal: true
   name: PopUpContainer
   nameWithType: PopUpContainer
   fullName: SuperOffice.DCF.Web.UI.Controls.PopUpContainer
+- uid: SuperOffice.DCF.Web.UI.Controls.RawLabel
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.RawLabel
+  isExternal: true
+  name: RawLabel
+  nameWithType: RawLabel
+  fullName: SuperOffice.DCF.Web.UI.Controls.RawLabel
 - uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
   commentId: T:SuperOffice.DCF.Web.UI.Controls.DatabindingMode
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -260,6 +242,12 @@ references:
   name: InnerTextAttribute
   nameWithType: InnerTextAttribute
   fullName: SuperOffice.DCF.Web.UI.Controls.InnerTextAttribute
+- uid: SuperOffice.DCF.Web.UI.Controls.GenericLabel
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GenericLabel
+  isExternal: true
+  name: GenericLabel
+  nameWithType: GenericLabel
+  fullName: SuperOffice.DCF.Web.UI.Controls.GenericLabel
 - uid: SuperOffice.DCF.Web.UI.Controls.SoHiddenField
   commentId: T:SuperOffice.DCF.Web.UI.Controls.SoHiddenField
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -267,18 +255,30 @@ references:
   name: SoHiddenField
   nameWithType: SoHiddenField
   fullName: SuperOffice.DCF.Web.UI.Controls.SoHiddenField
-- uid: SuperOffice.DCF.Web.UI.Controls.GenericLabel
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.GenericLabel
+- uid: SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
   isExternal: true
-  name: GenericLabel
-  nameWithType: GenericLabel
-  fullName: SuperOffice.DCF.Web.UI.Controls.GenericLabel
+  name: SoReadonlyField
+  nameWithType: SoReadonlyField
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
 - uid: SuperOffice.DCF.Web.UI.Controls.SoScriptControl
   commentId: T:SuperOffice.DCF.Web.UI.Controls.SoScriptControl
   isExternal: true
   name: SoScriptControl
   nameWithType: SoScriptControl
   fullName: SuperOffice.DCF.Web.UI.Controls.SoScriptControl
+- uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoTabGroup
+  isExternal: true
+  name: SoTabGroup
+  nameWithType: SoTabGroup
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoTabGroup
+- uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
+  isExternal: true
+  name: SoTabGroup.TabItem
+  nameWithType: SoTabGroup.TabItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
 - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase
   commentId: T:SuperOffice.DCF.Web.UI.Controls.ViewBase
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -286,6 +286,24 @@ references:
   name: ViewBase
   nameWithType: ViewBase
   fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideCard
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideCard
+  isExternal: true
+  name: GuideCard
+  nameWithType: GuideCard
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideCard
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeader
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideHeader
+  isExternal: true
+  name: GuideHeader
+  nameWithType: GuideHeader
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeader
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  isExternal: true
+  name: GuideHeaderItem
+  nameWithType: GuideHeaderItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
 - uid: SuperOffice.DCF.Web.UI.Controls.WizardCard
   commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardCard
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -293,13 +311,6 @@ references:
   name: WizardCard
   nameWithType: WizardCard
   fullName: SuperOffice.DCF.Web.UI.Controls.WizardCard
-- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
-  parent: SuperOffice.DCF.Web.UI.Controls
-  isExternal: true
-  name: WizardHeaderItem
-  nameWithType: WizardHeaderItem
-  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
 - uid: SuperOffice.DCF.Web.UI.Controls.WizardHeader
   commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardHeader
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -307,6 +318,13 @@ references:
   name: WizardHeader
   nameWithType: WizardHeader
   fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeader
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: WizardHeaderItem
+  nameWithType: WizardHeaderItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
 - uid: SuperOffice.DCF.Web.UI.Controls.WizardStep
   commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardStep
   parent: SuperOffice.DCF.Web.UI.Controls
@@ -314,24 +332,6 @@ references:
   name: WizardStep
   nameWithType: WizardStep
   fullName: SuperOffice.DCF.Web.UI.Controls.WizardStep
-- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
-  isExternal: true
-  name: GuideHeaderItem
-  nameWithType: GuideHeaderItem
-  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
-- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeader
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideHeader
-  isExternal: true
-  name: GuideHeader
-  nameWithType: GuideHeader
-  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeader
-- uid: SuperOffice.DCF.Web.UI.Controls.GuideCard
-  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideCard
-  isExternal: true
-  name: GuideCard
-  nameWithType: GuideCard
-  fullName: SuperOffice.DCF.Web.UI.Controls.GuideCard
 - uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
   commentId: T:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
   isExternal: true

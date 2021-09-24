@@ -21,9 +21,20 @@ items:
   - SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
   - SuperOffice.CRM.Web.Controllers.EMailController
   - SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+  - SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  - SuperOffice.CRM.Web.Controllers.EMailController.EmailServerInfo
+  - SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
   - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
   - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  - SuperOffice.CRM.Web.Controllers.GetMdoListParams
+  - SuperOffice.CRM.Web.Controllers.HugoAIController
   - SuperOffice.CRM.Web.Controllers.LocalizationController
+  - SuperOffice.CRM.Web.Controllers.LogoutController
+  - SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+  - SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+  - SuperOffice.CRM.Web.Controllers.MDOController
   - SuperOffice.CRM.Web.Controllers.MeetingReservation
   - SuperOffice.CRM.Web.Controllers.MiniPreviewController
   - SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
@@ -46,6 +57,8 @@ items:
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
   - SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
   - SuperOffice.CRM.Web.Controllers.TooltipController
   - SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
   - SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
@@ -54,6 +67,8 @@ items:
   - SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
   - SuperOffice.CRM.Web.Controllers.VideoMeetingsController
   - SuperOffice.CRM.Web.Controllers.WebPanelController
+  - SuperOffice.CRM.Web.Controllers.ZFDController
+  - SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
   langs:
   - csharp
   - vb
@@ -136,6 +151,45 @@ references:
   name: BootstrapperController
   nameWithType: BootstrapperController
   fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController
+  commentId: T:SuperOffice.CRM.Web.Controllers.HugoAIController
+  isExternal: true
+  name: HugoAIController
+  nameWithType: HugoAIController
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController
+  isExternal: true
+  name: LogoutController
+  nameWithType: LogoutController
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: LogoutController.LogoutContext
+  nameWithType: LogoutController.LogoutContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: LogoutController.LogoutSplashContext
+  nameWithType: LogoutController.LogoutSplashContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+- uid: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+  commentId: T:SuperOffice.CRM.Web.Controllers.GetMdoListParams
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: GetMdoListParams
+  nameWithType: GetMdoListParams
+  fullName: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+- uid: SuperOffice.CRM.Web.Controllers.MDOController
+  commentId: T:SuperOffice.CRM.Web.Controllers.MDOController
+  isExternal: true
+  name: MDOController
+  nameWithType: MDOController
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController
 - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController
   commentId: T:SuperOffice.CRM.Web.Controllers.MiniPreviewController
   isExternal: true
@@ -259,6 +313,41 @@ references:
   name: EMailController.EmailAuthentication
   nameWithType: EMailController.EmailAuthentication
   fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailServerInfo
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailServerInfo
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.EmailServerInfo
+  nameWithType: EMailController.EmailServerInfo
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailServerInfo
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.ExpertEmailAuthentiction
+  nameWithType: EMailController.ExpertEmailAuthentiction
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.SoInboxAuthorizeRequest
+  nameWithType: EMailController.SoInboxAuthorizeRequest
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeRequest
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.EmailAuthenticationMethod
+  nameWithType: EMailController.EmailAuthenticationMethod
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.SoInboxAuthorizeResponse
+  nameWithType: EMailController.SoInboxAuthorizeResponse
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
 - uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
   commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
   parent: SuperOffice.CRM.Web.Controllers
@@ -361,6 +450,20 @@ references:
   name: SuperStateController.SetSoProtocolRequest
   nameWithType: SuperStateController.SetSoProtocolRequest
   fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SyncSoProtocolRequest
+  nameWithType: SuperStateController.SyncSoProtocolRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SyncSoProtocolResponse
+  nameWithType: SuperStateController.SyncSoProtocolResponse
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SyncSoProtocolResponse
 - uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController
   commentId: T:SuperOffice.CRM.Web.Controllers.UserPreferencesController
   isExternal: true
@@ -392,6 +495,18 @@ references:
   name: MeetingReservation
   nameWithType: MeetingReservation
   fullName: SuperOffice.CRM.Web.Controllers.MeetingReservation
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ZFDController
+  isExternal: true
+  name: ZFDController
+  nameWithType: ZFDController
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController
+- uid: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+  commentId: T:SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
+  isExternal: true
+  name: ZFDController.TenantConfigStatus
+  nameWithType: ZFDController.TenantConfigStatus
+  fullName: SuperOffice.CRM.Web.Controllers.ZFDController.TenantConfigStatus
 - uid: SuperOffice.CRM.Web.Controllers
   commentId: N:SuperOffice.CRM.Web.Controllers
   isExternal: true

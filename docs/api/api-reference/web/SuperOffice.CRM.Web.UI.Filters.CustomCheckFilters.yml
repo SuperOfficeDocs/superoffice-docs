@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SmsNotAvailableCheck
   - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SystemUserCheck
   - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.TestDriveCheck
+  - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.VideoMeetingCheck
   - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.WhatsNewCheck
   langs:
   - csharp
@@ -79,6 +80,12 @@ references:
   name: AdminUserCheck
   nameWithType: AdminUserCheck
   fullName: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.AdminUserCheck
+- uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.VideoMeetingCheck
+  commentId: T:SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.VideoMeetingCheck
+  isExternal: true
+  name: VideoMeetingCheck
+  nameWithType: VideoMeetingCheck
+  fullName: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.VideoMeetingCheck
 - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.WhatsNewCheck
   commentId: T:SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.WhatsNewCheck
   isExternal: true

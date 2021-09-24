@@ -4,8 +4,8 @@ items:
   commentId: N:SuperOffice.Web
   id: SuperOffice.Web
   children:
+  - SuperOffice.Web.SoDatabaseContextState
   - SuperOffice.Web.SoResourceHandler
-  - SuperOffice.Web.ThreadWorkerContext
   langs:
   - csharp
   - vb
@@ -22,9 +22,9 @@ references:
   name: SoResourceHandler
   nameWithType: SoResourceHandler
   fullName: SuperOffice.Web.SoResourceHandler
-- uid: SuperOffice.Web.ThreadWorkerContext
-  commentId: T:SuperOffice.Web.ThreadWorkerContext
+- uid: SuperOffice.Web.SoDatabaseContextState
+  commentId: T:SuperOffice.Web.SoDatabaseContextState
   isExternal: true
-  name: ThreadWorkerContext
-  nameWithType: ThreadWorkerContext
-  fullName: SuperOffice.Web.ThreadWorkerContext
+  name: SoDatabaseContextState
+  nameWithType: SoDatabaseContextState
+  fullName: SuperOffice.Web.SoDatabaseContextState

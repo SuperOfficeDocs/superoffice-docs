@@ -13,7 +13,9 @@ items:
   - SuperOffice.CRM.Web.Data.Util.ImportData
   - SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
   - SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+  - SuperOffice.CRM.Web.Data.Util.ListItemBuilderExtensions
   - SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
   langs:
   - csharp
   - vb
@@ -64,6 +66,19 @@ references:
   name: MDOListHelper
   nameWithType: MDOListHelper
   fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  commentId: T:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: MDOListHelper.ListItemBuilder
+  nameWithType: MDOListHelper.ListItemBuilder
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ListItemBuilder
+- uid: SuperOffice.CRM.Web.Data.Util.ListItemBuilderExtensions
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ListItemBuilderExtensions
+  isExternal: true
+  name: ListItemBuilderExtensions
+  nameWithType: ListItemBuilderExtensions
+  fullName: SuperOffice.CRM.Web.Data.Util.ListItemBuilderExtensions
 - uid: SuperOffice.CRM.Web.Data.Util.DocPluginHelper
   commentId: T:SuperOffice.CRM.Web.Data.Util.DocPluginHelper
   isExternal: true

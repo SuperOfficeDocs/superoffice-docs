@@ -12,14 +12,12 @@ items:
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary(System.Boolean,System.String)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean,System.String)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials(System.String)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
-  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials(System.String,System.String)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
   - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
@@ -135,65 +133,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Sub AuthIncomingServer(server As String, username As String, password As String, useSSL As Boolean)
   overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
-  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
-  id: ConvertToNewInbox(System.Web.UI.Page)
-  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
-  langs:
-  - csharp
-  - vb
-  name: ConvertToNewInbox(Page)
-  nameWithType: EMailAuthenticationHandler.ConvertToNewInbox(Page)
-  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
-  type: Method
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public static void ConvertToNewInbox(Page page)
-    parameters:
-    - id: page
-      type: System.Web.UI.Page
-    content.vb: Public Shared Sub ConvertToNewInbox(page As Page)
-  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
-  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
-  id: OldInBoxHasAuth
-  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
-  langs:
-  - csharp
-  - vb
-  name: OldInBoxHasAuth()
-  nameWithType: EMailAuthenticationHandler.OldInBoxHasAuth()
-  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth()
-  type: Method
-  source:
-    path: SuperOffice.CRMWeb
-    isExternal: true
-  assemblies:
-  - SuperOffice.CRMWeb
-  namespace: SuperOffice.CRM.Web.Data
-  syntax:
-    content: public static bool OldInBoxHasAuth()
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function OldInBoxHasAuth As Boolean
-  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth*
   modifiers.csharp:
   - public
   - static
@@ -974,23 +913,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox*
-  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox
-  isExternal: true
-  name: ConvertToNewInbox
-  nameWithType: EMailAuthenticationHandler.ConvertToNewInbox
-  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox
-- uid: System.Web.UI.Page
-  isExternal: true
-  name: Page
-  nameWithType: Page
-  fullName: System.Web.UI.Page
-- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth*
-  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
-  isExternal: true
-  name: OldInBoxHasAuth
-  nameWithType: EMailAuthenticationHandler.OldInBoxHasAuth
-  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
 - uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject*
   commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject
   isExternal: true

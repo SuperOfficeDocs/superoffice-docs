@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController
+  commentId: T:SuperOffice.CRM.Web.Controllers.HugoAIController
+  id: HugoAIController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor
+  - SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus
+  langs:
+  - csharp
+  - vb
+  name: HugoAIController
+  nameWithType: HugoAIController
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class HugoAIController : ApiController'
+    content.vb: >-
+      Public Class HugoAIController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus
+  commentId: M:SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus
+  id: GetCategorizationModelStatus
+  parent: SuperOffice.CRM.Web.Controllers.HugoAIController
+  langs:
+  - csharp
+  - vb
+  name: GetCategorizationModelStatus()
+  nameWithType: HugoAIController.GetCategorizationModelStatus()
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public Task<CategorizationStatusResponse> GetCategorizationModelStatus()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}
+    content.vb: Public Function GetCategorizationModelStatus As Task(Of CategorizationStatusResponse)
+  overload: SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.HugoAIController
+  langs:
+  - csharp
+  - vb
+  name: HugoAIController()
+  nameWithType: HugoAIController.HugoAIController()
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController.HugoAIController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HugoAIController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus
+  isExternal: true
+  name: GetCategorizationModelStatus
+  nameWithType: HugoAIController.GetCategorizationModelStatus
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController.GetCategorizationModelStatus
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CategorizationStatusResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CategorizationStatusResponse>
+  nameWithType: Task<CategorizationStatusResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CategorizationStatusResponse>
+  nameWithType.vb: Task(Of CategorizationStatusResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CategorizationStatusResponse)
+  name.vb: Task(Of CategorizationStatusResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+    name: CategorizationStatusResponse
+    nameWithType: CategorizationStatusResponse
+    fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+    name: CategorizationStatusResponse
+    nameWithType: CategorizationStatusResponse
+    fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.HugoAIController.#ctor
+  isExternal: true
+  name: HugoAIController
+  nameWithType: HugoAIController.HugoAIController
+  fullName: SuperOffice.CRM.Web.Controllers.HugoAIController.HugoAIController

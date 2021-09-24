@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services.WebApi
+  commentId: N:SuperOffice.Services.WebApi
+  id: SuperOffice.Services.WebApi
+  children:
+  - SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Services.WebApi
+  nameWithType: SuperOffice.Services.WebApi
+  fullName: SuperOffice.Services.WebApi
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+  commentId: T:SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+  parent: SuperOffice.Services.WebApi
+  isExternal: true
+  name: SoCorsWebApiAttribute
+  nameWithType: SoCorsWebApiAttribute
+  fullName: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+- uid: SuperOffice.Services.WebApi
+  commentId: N:SuperOffice.Services.WebApi
+  isExternal: true
+  name: SuperOffice.Services.WebApi
+  nameWithType: SuperOffice.Services.WebApi
+  fullName: SuperOffice.Services.WebApi
