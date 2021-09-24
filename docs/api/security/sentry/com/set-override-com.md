@@ -16,6 +16,11 @@ The Database component can be used to create preferences.
 
 By default, the `Preferences` object manipulates the preferences for the currently logged-in user, but you can set global or group-wide preferences by adding an optional parameter to the `Set` command.
 
+> [!TIP]
+> You may copy and save the code as *.vbs.
+
+## Example 1
+
 ```vb
 Set db = CreateObject("SuperOfficeDB.Database")
 
@@ -43,3 +48,26 @@ If isOk Then
 
 EndIf
 ```
+
+## Example 2
+
+The following **field-level sentry** makes the department field read-only. The number 5 at the end refers to the [preference level][1].
+
+```vb
+set soApp = CreateObject("superoffice.application")
+soApp.database.preferences.set "Rights-contact-Existing", "contact.department", "1, The department field is read-only on all existing contacts", 5
+MsgBox "Read-only preference added for logged-in user: " & soApp.Database.UserName
+```
+
+## Example 3
+
+The following **table sentry** removes update rights on existing projects.
+
+```vb
+set soApp = CreateObject("superoffice.application")
+soApp.database.preferences.set "Rights-project-Existing", "Table", "17, You may not change existing projects", 5
+MsgBox "Read-only preference to projects added for logged-in user: " & soApp.Database.UserName
+```
+
+<!-- Referenced links -->
+[1]: ../overrides.md

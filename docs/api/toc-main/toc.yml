@@ -153,8 +153,6 @@ items:
   items:
   - name: Row events
     href: ../netserver/rows/events.md
-  - name: Sentry Security
-    href: ../netserver/rows/sentry.md
   - name: How to...
     items:
     - name: Get a row
