@@ -30,7 +30,7 @@ This guide explains in short terms how you can get Google Workspace document int
     * If yes, go to step 5.
     * If no, identify why and fix it, so users that belong to this tenant successfully using IDP to authenticate. Ask support for help if needed.
 
-      * Is the correct username used in SuperOffice admin? Need to be O365 UPN
+      * Is the correct username used in SuperOffice admin? Need to be Microsoft 365 UPN
 
       * Has the SuperOffice user not been transformed properly from "password" to IDP? Try to use "forgot password", and complete the process of changing passwords, and log in. This should trigger a change to IDP.
 

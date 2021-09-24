@@ -16,12 +16,12 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 
 * Use CRM Online
 * You need a SuperOffice admin account during setup
-* MS Teams activated / access for your MS365 subscription
-* You need an MS365 admin account to grant access during setup
-* MS365 account
+* MS Teams activated / access for your Microsoft 365 subscription
+* You need a Microsoft 365 admin account to grant access during setup
+* Microsoft 365 account
 
 > [!NOTE]
-> If you try to authenticate without an MS365 Admin account, a message will tell you to log in with an admin account:
+> If you try to authenticate without a Microsoft 365 Admin account, a message will tell you to log in with an admin account:
 
 ![imagewf14i.png -screenshot][img1]
 

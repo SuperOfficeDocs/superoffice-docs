@@ -35,7 +35,7 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * Microsoft Office 2016
 * Microsoft Office 2013
 * Microsoft Office 2010
-* Support for Google and Office365 authentication and document storage
+* Support for Google and Microsoft 365 authentication and document storage
 
 ### Documents in CRM online
 
@@ -68,7 +68,11 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 [View in app store][2]
 
 > [!NOTE]
-> Windows only:<br>Mobile phone users must have the latest version of iOS (13) or Android (10), and use the Outlook App (the Chrome Mobile Version of OWA does not support Outlook Add-ins).<br>Outlook desktop app users must have version 2001 and newer of Outlook, to be able to use Send and Archive (due to missing APIs in older versions).
+> Windows only:
+>
+> Mobile phone users must have the latest version of iOS (13) or Android (10) and use the Outlook App (the Chrome Mobile Version of OWA does not support Outlook Add-ins).
+>
+> Outlook desktop app users must have version 2001 and newer of Outlook, to be able to use Send and Archive (due to missing APIs in older versions).
 
 ## Mobile applications
 
@@ -78,7 +82,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 ## WebTools
 
 > [!CAUTION]
-> Since 18th September, 2019 we have closed down access for old versions of WebTools for Windows for all Online users. The minimal required version is now 11.5. Please make sure you are running the [latest WebTools][1].
+> Since 18th September 2019 we have closed down access for old versions of WebTools for Windows for all Online users. The minimal required version is now 11.5. Please make sure you are running the [latest WebTools][1].
 
 * [System requirements][5]
 

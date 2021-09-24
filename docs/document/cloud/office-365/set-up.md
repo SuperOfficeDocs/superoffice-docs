@@ -1,7 +1,7 @@
 ---
 title: Set up
 uid: office_365_set_up
-description: Setup - Office365 Cloud Office document Integration
+description: Setup - Microsoft 365 Cloud Office document Integration
 author: {github-id}
 so.date:
 keywords:
@@ -10,19 +10,19 @@ so.envir: cloud
 so.client: online
 ---
 
-# Set up Office365 Cloud Office document Integration
+# Set up Microsoft 365 Cloud Office document Integration
 
 This article will help you set up the Microsoft 365 part of the integration between Microsoft 365 and SuperOffice CRM Online.
 
-Setting up Office365 SharePoint Integration has 2 parts:
+Setting up Microsoft 365 SharePoint Integration has 2 parts:
 
 * How to setup Microsoft 365 to integrate into CRM Online:
   * Check if your SuperOffice CRM Online tenant is ready (pre-requisite step)
-  * Configure the integration in your Office365 SharePoint (steps 1 - 3)
+  * Configure the integration in your Microsoft 365 SharePoint (steps 1 - 3)
   * Enable the integration for your CRM Online site (step 4)
 * Configure your templates in SuperOffice Admin (in [this article][1])
 
-If you would like to get assistance configuring the integration, sign up for [Microsoft Office 365 Integration in the SuperOffice App Store][2]
+If you would like to get assistance configuring the integration, sign up for [Microsoft 365 Integration in the SuperOffice App Store][2]
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ Ensure you meet the [prerequisites][3] and read the [security considerations][7]
 For more information:
 
 * [New Microsoft 365 admin user interface][4]
-* [Old Office365 admin user interface][5]
+* [Old Microsoft 365 admin user interface][5]
 
 ## Step 1 - Create a document library in your Microsoft 365 SharePoint library
 
@@ -161,14 +161,14 @@ Confirm whether the settings are configured to "Allow users from running custom 
 
 **For old UI:**
 
-1. Read [Office365 admin user interface][14]
+1. Read [Microsoft 365 admin user interface][14]
 
 2. Go to SharePoint admin center > settings tab > Custom Script section >
 confirm whether the settings are configured to "Allow users from running custom script".
 
     * Set them to "Allow users to run custom script" to see the outcome. The SharePoint settings "Allow user to run custom scripts" can take < 24 h. before activated. You may perform the other steps in the meantime or create the content types at a later time.
 
-## Step 3 – Adding the SuperOffice Integrator App in Office365 SharePoint
+## Step 3 – Adding the SuperOffice Integrator App in Microsoft 365 SharePoint
 
 ### 1. Add or upload the app manually
 
@@ -193,11 +193,11 @@ Since we’re not in Office Store, we have to do this manually:
 
     The App Catalog is now being created – and available to be used within about 5 minutes
 
-3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-superoffice.app" download>SuperOffice.Office365.Integrator.app</a> locally
+3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-superoffice.app" download>SuperOffice.Microsoft 365.Integrator.app</a> locally
 
 4. Choose "Apps for SharePoint" in the menu. ![imagekoepi.png -screenshot][img30]
 
-5. Click upload and choose the local file *SuperOffice.Office365.Integrator.app*
+5. Click upload and choose the local file *SuperOffice.Microsoft 365.Integrator.app*
 
     ![imageydark.png -screenshot][img31]
 

@@ -12,7 +12,7 @@ so.client: online
 # Requirements
 
 * Available for CRM Online customers only
-* Users must have an Office 365 subscription and must use Office 365 mail account
+* Users must have a Microsoft 365 subscription and must use Microsoft 365 mail account
 * A compatible version of Outlook
 * For mobile phones, the latest version of iOS or Android and use an app that supports Outlook add-ins
 
@@ -31,7 +31,7 @@ Versions earlier than 2001 of the Outlook desktop app do not work in Send and Ar
 
 ![imagecaqul.png -screenshot][img1]
 
-The current released add-on version (via the MS App Source) do not support Mobile phones (the mobile device API).
+The current released add-on version (via the MS App Source) does not support Mobile phones (the mobile device API).
 
 To get the version that has support for the mobile devices, use one of these options:
 

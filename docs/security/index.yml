@@ -194,7 +194,7 @@ additionalContent:
         links:
         - text: Google Workspace documents
           url: ../document/cloud/g-suite/security.md
-        - text: Office-365 documents
+        - text: Microsoft 365 documents
           url: ../document/cloud/office-365/security.md
       # Card
       - title: Cookies

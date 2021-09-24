@@ -18,7 +18,7 @@ This will deploy SuperOffice for Outlook for a single user.
 
 1. Go to [SuperOffice for Outlook at https://appsource.microsoft.com/][1].
 2. Click **Get it now**.
-3. In the dialog box, confirm that you are signed in to your correct Office 365 user account, then click **Continue**.
+3. In the dialog box, confirm that you are signed in to your correct Microsoft 365 user account, then click **Continue**.
 
 ![image1ya58.png -screenshot][img2]
 

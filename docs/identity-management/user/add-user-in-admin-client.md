@@ -32,8 +32,8 @@ Administrators can add users one by one in the Admin client.
 
 4. Click **Save**. Users will receive an invitation email in their inbox and need to click the activation link to enable the account.
 
-    ![invite google -screenshot][img2]
-    ![invite o365 -screenshot][img3]
+    ![invite Google -screenshot][img2]
+    ![invite Microsoft 365 -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../superid/sign-in-services.md

@@ -21,7 +21,7 @@ items:
         href: cloud/g-suite/getting-started.md
       - name: Set up
         href: cloud/g-suite/set-up.md
-    - name: Office 365 document integration
+    - name: Microsoft 365 document integration
       href: cloud/office-365/index.md
       items:
       - name: Requirements

@@ -1,7 +1,7 @@
 ---
-title: Pre-requisites for Office 365 integration
+title: Pre-requisites for Microsoft 365 integration
 uid: office_365_requirements
-description: Requirements for Office 365 integration
+description: Requirements for Microsoft 365 integration
 author: {github-id}
 keywords:
 so.topic: reference
@@ -9,7 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Pre-requisites for Office 365 integration
+# Pre-requisites for Microsoft 365 integration
 
 ## IDP authentication
 
@@ -19,21 +19,21 @@ so.client: online
 * Read more about [How to configure IDP for SuperID][1].
 * Please use [this form][2] to register your IDP for your domain.
 
-When users have successfully logged in using Azure to authenticate to CRM Online, you may start to use the Office365 SharePoint Integration.
+When users have successfully logged in using Azure to authenticate to CRM Online, you may start to use the Microsoft 365 SharePoint Integration.
 
 ## To use the integration
 
 * A SuperOffice Online paid subscription (This app is available for all SuperOffice user plans).
 
-* A Microsoft Office365 subscription (All users of the SuperOffice Online tenant must have and use a Microsoft Office365 user account). All Microsoft 365 users need minimum read access to Root of the SharePoint site.
+* A Microsoft 365 subscription (All users of the SuperOffice Online tenant must have and use a Microsoft 365 user account). All Microsoft 365 users need minimum read access to Root of the SharePoint site.
 
-* In O365: Azure Active Directory (used for authentication) (It is usually called: *Active Directory Integration*).
+* In Microsoft 365: Azure Active Directory (used for authentication) (It is usually called: *Active Directory Integration*).
 
 ## To set up the integration
 
 * Administrator access to SuperOffice Online tenant with administrator/User-level 0 type access.
 
-* An Microsoft Microsoft 365 Admin account in the domain with Admin rights. This includes admin access to the SharePoint admin center, to configure and authorize SuperOffice to access data stored in your Microsoft 365 cloud during the set-up.
+* A Microsoft 365 Admin account in the domain with Admin rights. This includes admin access to the SharePoint admin center, to configure and authorize SuperOffice to access data stored in your Microsoft 365 cloud during the set-up.
 
 * In Microsoft 365: Activate **allow user to run custom scripts**  < 24 h. before setup
 

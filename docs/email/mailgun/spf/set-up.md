@@ -17,9 +17,9 @@ Before creating the SPF record for your domain, it is important to find out what
 
 [!include[ALT](../includes/hosted-by-enom.md)]
 
-**How to create DNS records for Office 365 when you manage your DNS records:**
+**How to create DNS records for Microsoft 365 when you manage your DNS records:**
 
-You can follow the [general instructions from Microsoft for creating DNS records for Office 365][2].
+You can follow the [general instructions from Microsoft for creating DNS records for Microsoft 365][2].
 
 ## Open the domain settings for the Google domain
 
@@ -31,7 +31,7 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
     ![x -screenshot][img1]
 
-2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
+2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new one. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
     1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
@@ -63,7 +63,7 @@ Given many receivers are not actively bouncing mail based on SPF pass/fail, ther
 
 What should I publish?
 
-We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small userbase. Many ISPs will check SPF before sending back a bounce and so an -all record can decrease the amount of blowback the domain owner has to deal with.
+We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small user base. Many ISPs will check SPF before sending back a bounce and so an `-all` record can decrease the amount of blowback the domain owner has to deal with.
 
 <!-- Referenced links -->
 [1]: https://mxtoolbox.com/

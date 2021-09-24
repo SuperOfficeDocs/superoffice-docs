@@ -1,7 +1,7 @@
 ---
-title: Troubleshooting Office 365
+title: Troubleshooting Microsoft 365
 uid: troubleshooting_office_365
-description: Troubleshooting Office 365 document integration
+description: Troubleshooting Microsoft 365 document integration
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,13 +9,13 @@ so.envir: cloud
 so.client: online
 ---
 
-# Troubleshooting Office 365 document integration
+# Troubleshooting Microsoft 365 document integration
 
 ## Use correct site library type in SharePoint (a)
 
 The SuperOffice Archive needs to be a **Document library** and located on the Root area of your SharePoint site.
 
-There is no support for configuring the Office365 integration to use sub-site or a virtual site.
+There is no support for configuring the Microsoft 365 integration to use a sub-site or a virtual site.
 
 ![x -screenshot][img1]
 
@@ -30,7 +30,7 @@ There is no support for configuring the Office365 integration to use sub-site or
 
 * The address of the **SharePoint domain name URL** will most likely be `https://[your domain-name].sharepoint.com`
 
-A virtual site or sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
+A virtual site or a sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
 
 * The SuperOffice Archive needs to be a **Document library**, and located on the root area:
   * At the root of your SharePoint site, click **New** and choose **Document library**.
@@ -50,13 +50,13 @@ URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_A
 
 ### Document Center
 
-There is no support in the SuperOffice Office365 SharePoint integration for using **Document Center** for the SuperOffice Archive, it needs to be a **Document library**.
+There is no support in the SuperOffice Microsoft 365 SharePoint integration for using **Document Center** for the SuperOffice Archive, it needs to be a **Document library**.
 
 ## Update access rights for the users (b)
 
-### During login to CRM Online with O365 authentication activated (N/A for SuperId with IDP)
+### During login to CRM Online with Microsoft 365 authentication activated (N/A for SuperId with IDP)
 
-* "We were unable to log you in through Office 365. Error: access_denied."
+* "We were unable to log you in through Microsoft 365. Error: access_denied."
 
 ![x -screenshot][img2]
 
